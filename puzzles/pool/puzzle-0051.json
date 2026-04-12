@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0051",
+  "title": "How fast",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "tempo-slow",
+      "label": "Slow Tempo",
+      "items": ["Largo", "Adagio", "Lento", "Grave"]
+    },
+    {
+      "id": "tempo-fast",
+      "label": "Fast Tempo",
+      "items": ["Allegro", "Presto", "Vivace", "Prestissimo"]
+    },
+    {
+      "id": "dynamics",
+      "label": "Dynamics",
+      "items": ["Piano", "Forte", "Mezzo", "Crescendo"]
+    },
+    {
+      "id": "articulation",
+      "label": "Articulation",
+      "items": ["Legato", "Staccato", "Marcato", "Tenuto"]
+    }
+  ]
+}

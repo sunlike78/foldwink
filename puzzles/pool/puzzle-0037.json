@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0037",
+  "title": "Cold open",
+  "difficulty": "medium",
+  "editorialSummary": "Frozen-theme grouping.",
+  "groups": [
+    {
+      "id": "frozen-places",
+      "label": "Frozen Places",
+      "revealHint": "POLAR",
+      "items": ["Tundra", "Iceberg", "Glacier", "Fjord"]
+    },
+    {
+      "id": "frozen-desserts",
+      "label": "Frozen Desserts",
+      "revealHint": "DESSERT",
+      "items": ["Sorbet", "Gelato", "Sundae", "Popsicle"]
+    },
+    {
+      "id": "cold-drinks",
+      "label": "Iced Drinks",
+      "revealHint": "DRINK",
+      "items": ["Slushie", "Frappe", "Granita", "Daiquiri"]
+    },
+    {
+      "id": "winter-sports",
+      "label": "Winter Sports",
+      "revealHint": "SPORT",
+      "items": ["Skiing", "Skating", "Curling", "Luge"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0069",
+  "title": "Elements at play",
+  "difficulty": "medium",
+  "editorialSummary": "Chemical element subgroups.",
+  "groups": [
+    {
+      "id": "noble",
+      "label": "Noble Gases",
+      "revealHint": "GAS",
+      "items": ["Helium", "Neon", "Argon", "Krypton"]
+    },
+    {
+      "id": "alkali",
+      "label": "Alkali Metals",
+      "revealHint": "ALKALI",
+      "items": ["Lithium", "Sodium", "Potassium", "Rubidium"]
+    },
+    {
+      "id": "halogens",
+      "label": "Halogens",
+      "revealHint": "HALOGEN",
+      "items": ["Fluorine", "Chlorine", "Bromine", "Iodine"]
+    },
+    {
+      "id": "coinage",
+      "label": "Coinage Metals",
+      "revealHint": "COIN",
+      "items": ["Copper", "Silver", "Gold", "Platinum"]
+    }
+  ]
+}

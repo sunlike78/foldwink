@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0020",
+  "title": "Say it different",
+  "difficulty": "medium",
+  "editorialSummary": "Synonyms for a common adjective.",
+  "groups": [
+    {
+      "id": "small",
+      "label": "Meaning SMALL",
+      "revealHint": "SMALL",
+      "items": ["Tiny", "Little", "Petite", "Wee"]
+    },
+    {
+      "id": "big",
+      "label": "Meaning BIG",
+      "revealHint": "BIG",
+      "items": ["Huge", "Vast", "Giant", "Colossal"]
+    },
+    {
+      "id": "fast",
+      "label": "Meaning FAST",
+      "revealHint": "FAST",
+      "items": ["Quick", "Rapid", "Swift", "Speedy"]
+    },
+    {
+      "id": "quiet",
+      "label": "Meaning QUIET",
+      "revealHint": "QUIET",
+      "items": ["Silent", "Hushed", "Muted", "Still"]
+    }
+  ]
+}

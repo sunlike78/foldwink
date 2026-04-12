@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0060",
+  "title": "Paper trail",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "currency",
+      "label": "Paper Currency",
+      "items": ["Dollar Bill", "Euro Note", "Pound Note", "Yen Note"]
+    },
+    {
+      "id": "documents",
+      "label": "Documents",
+      "items": ["Passport", "Visa", "License", "Contract"]
+    },
+    {
+      "id": "mail",
+      "label": "Mail Items",
+      "items": ["Envelope", "Parcel", "Postcard", "Stamp"]
+    },
+    {
+      "id": "books",
+      "label": "Printed Books",
+      "items": ["Novel", "Dictionary", "Manual", "Atlas"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0082",
+  "title": "All aboard",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "trains",
+      "label": "Train Types",
+      "items": ["Steam", "Bullet", "Maglev", "Tram"]
+    },
+    {
+      "id": "ships",
+      "label": "Ship Types",
+      "items": ["Freighter", "Tanker", "Cruise", "Schooner"]
+    },
+    {
+      "id": "planes",
+      "label": "Aircraft",
+      "items": ["Glider", "Biplane", "Jumbo Jet", "Seaplane"]
+    },
+    {
+      "id": "bikes",
+      "label": "Bicycles",
+      "items": ["Road", "Mountain", "Tandem", "Unicycle"]
+    }
+  ]
+}

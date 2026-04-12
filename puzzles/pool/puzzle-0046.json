@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0046",
+  "title": "Around the sun",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "terrestrial",
+      "label": "Terrestrial Planets",
+      "items": ["Mercury", "Venus", "Mars", "Earth"]
+    },
+    {
+      "id": "gas-giants",
+      "label": "Gas Giants",
+      "items": ["Jupiter", "Saturn", "Uranus", "Neptune"]
+    },
+    {
+      "id": "jupiter-moons",
+      "label": "Moons of Jupiter",
+      "items": ["Io", "Europa", "Ganymede", "Callisto"]
+    },
+    {
+      "id": "dwarf",
+      "label": "Dwarf Planets",
+      "items": ["Pluto", "Ceres", "Eris", "Makemake"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0026",
+  "title": "Capital by continent",
+  "difficulty": "medium",
+  "editorialSummary": "Capitals grouped by their continent.",
+  "groups": [
+    {
+      "id": "europe",
+      "label": "European Capitals",
+      "revealHint": "EUROPE",
+      "items": ["Lisbon", "Vienna", "Athens", "Prague"]
+    },
+    {
+      "id": "asia",
+      "label": "Asian Capitals",
+      "revealHint": "ASIA",
+      "items": ["Seoul", "Bangkok", "Hanoi", "Manila"]
+    },
+    {
+      "id": "africa",
+      "label": "African Capitals",
+      "revealHint": "AFRICA",
+      "items": ["Nairobi", "Lagos", "Accra", "Kampala"]
+    },
+    {
+      "id": "americas",
+      "label": "American Capitals",
+      "revealHint": "AMERICAS",
+      "items": ["Ottawa", "Lima", "Brasilia", "Havana"]
+    }
+  ]
+}

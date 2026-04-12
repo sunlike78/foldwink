@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0049",
+  "title": "From Bavaria to the Baltic",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "german-food",
+      "label": "German Dishes",
+      "items": ["Sauerbraten", "Schnitzel", "Spaetzle", "Bratwurst"]
+    },
+    {
+      "id": "german-states",
+      "label": "German States",
+      "items": ["Bavaria", "Saxony", "Hesse", "Thuringia"]
+    },
+    {
+      "id": "german-rivers",
+      "label": "German Rivers",
+      "items": ["Rhine", "Elbe", "Main", "Oder"]
+    },
+    {
+      "id": "german-cities",
+      "label": "German Cities",
+      "items": ["Munich", "Dresden", "Cologne", "Leipzig"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.local
+.vite
+coverage
+
+# build cache
+.tsbuildinfo-node/
+tsconfig*.tsbuildinfo
+
+# transient audit / research output
+audit-results/
+*.zip
+
+# export archives
+export/

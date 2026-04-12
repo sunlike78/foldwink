@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0006",
+  "title": "Creature Feature",
+  "difficulty": "easy",
+  "tags": ["animals"],
+  "groups": [
+    {
+      "id": "reptiles",
+      "label": "Reptiles",
+      "items": ["Lizard", "Snake", "Turtle", "Crocodile"]
+    },
+    {
+      "id": "birds",
+      "label": "Birds",
+      "items": ["Eagle", "Sparrow", "Parrot", "Owl"]
+    },
+    {
+      "id": "insects",
+      "label": "Insects",
+      "items": ["Ant", "Bee", "Moth", "Beetle"]
+    },
+    {
+      "id": "fish",
+      "label": "Fish",
+      "items": ["Salmon", "Tuna", "Trout", "Herring"]
+    }
+  ]
+}

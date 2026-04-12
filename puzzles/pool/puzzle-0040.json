@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0040",
+  "title": "Loud and clear",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "percussion",
+      "label": "Percussion",
+      "items": ["Bongo", "Conga", "Tambourine", "Xylophone"]
+    },
+    {
+      "id": "brass",
+      "label": "Brass",
+      "items": ["Trumpet", "Trombone", "Tuba", "Horn"]
+    },
+    {
+      "id": "strings",
+      "label": "Stringed",
+      "items": ["Cello", "Banjo", "Harp", "Mandolin"]
+    },
+    {
+      "id": "woodwind",
+      "label": "Woodwind",
+      "items": ["Clarinet", "Oboe", "Bassoon", "Piccolo"]
+    }
+  ]
+}

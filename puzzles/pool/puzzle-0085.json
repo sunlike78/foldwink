@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0085",
+  "title": "Inner workings",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "forces",
+      "label": "Physics Forces",
+      "items": ["Gravity", "Friction", "Magnetism", "Tension"]
+    },
+    {
+      "id": "units",
+      "label": "Physics Units",
+      "items": ["Joule", "Newton", "Watt", "Pascal"]
+    },
+    {
+      "id": "particles",
+      "label": "Particles",
+      "items": ["Electron", "Proton", "Neutron", "Photon"]
+    },
+    {
+      "id": "waves",
+      "label": "Wave Types",
+      "items": ["Radio", "Micro", "Infrared", "Ultraviolet"]
+    }
+  ]
+}

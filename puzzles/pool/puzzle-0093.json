@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0093",
+  "title": "Eras of stone",
+  "difficulty": "medium",
+  "editorialSummary": "Architecture elements by period. A test of taxonomy rather than word-play.",
+  "groups": [
+    {
+      "id": "romanesque",
+      "label": "Romanesque",
+      "revealHint": "ROUND",
+      "items": ["Barrel Vault", "Round Arch", "Thick Wall", "Tympanum"]
+    },
+    {
+      "id": "gothic",
+      "label": "Gothic",
+      "revealHint": "SPIRE",
+      "items": ["Pointed Arch", "Rib Vault", "Flying Buttress", "Tracery"]
+    },
+    {
+      "id": "baroque",
+      "label": "Baroque",
+      "revealHint": "DRAMA",
+      "items": ["Oval Plan", "Cherubs", "Cartouche", "Trompe l'Oeil"]
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist",
+      "revealHint": "GLASS",
+      "items": ["Cantilever", "Curtain Wall", "Pilotis", "Ribbon Window"]
+    }
+  ]
+}

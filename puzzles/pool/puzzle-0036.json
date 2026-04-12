@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0036",
+  "title": "Run it back",
+  "difficulty": "medium",
+  "editorialSummary": "Four verb clusters about motion.",
+  "groups": [
+    {
+      "id": "run",
+      "label": "Meaning RUN",
+      "revealHint": "RUN",
+      "items": ["Dash", "Sprint", "Jog", "Scurry"]
+    },
+    {
+      "id": "walk",
+      "label": "Meaning WALK",
+      "revealHint": "WALK",
+      "items": ["Stroll", "Amble", "Saunter", "Trek"]
+    },
+    {
+      "id": "escape",
+      "label": "Meaning ESCAPE",
+      "revealHint": "FLEE",
+      "items": ["Flee", "Bolt", "Evade", "Dodge"]
+    },
+    {
+      "id": "pause",
+      "label": "Meaning PAUSE",
+      "revealHint": "STOP",
+      "items": ["Halt", "Linger", "Freeze", "Wait"]
+    }
+  ]
+}

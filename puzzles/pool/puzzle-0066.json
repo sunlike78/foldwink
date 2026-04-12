@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0066",
+  "title": "State of play",
+  "difficulty": "medium",
+  "editorialSummary": "Game terms by game type.",
+  "groups": [
+    {
+      "id": "chess",
+      "label": "Chess Terms",
+      "revealHint": "CHESS",
+      "items": ["Gambit", "Pin", "Zugzwang", "Fianchetto"]
+    },
+    {
+      "id": "poker",
+      "label": "Poker Terms",
+      "revealHint": "POKER",
+      "items": ["Flop", "Bluff", "River", "Straight"]
+    },
+    {
+      "id": "go",
+      "label": "Go Terms",
+      "revealHint": "GO",
+      "items": ["Atari", "Joseki", "Komi", "Seki"]
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis Terms",
+      "revealHint": "TENNIS",
+      "items": ["Ace", "Lob", "Volley", "Deuce"]
+    }
+  ]
+}

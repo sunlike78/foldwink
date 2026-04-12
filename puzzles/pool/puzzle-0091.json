@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0091",
+  "title": "Kiln and wheel",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "pottery",
+      "label": "Pottery",
+      "items": ["Clay", "Wheel", "Glaze", "Kiln"]
+    },
+    {
+      "id": "weaving",
+      "label": "Weaving",
+      "items": ["Loom", "Warp", "Weft", "Shuttle"]
+    },
+    {
+      "id": "glassblowing",
+      "label": "Glassblowing",
+      "items": ["Pipe", "Punty", "Anneal", "Marver"]
+    },
+    {
+      "id": "metalwork",
+      "label": "Metalwork",
+      "items": ["Forge", "Anvil", "Bellows", "Tongs"]
+    }
+  ]
+}

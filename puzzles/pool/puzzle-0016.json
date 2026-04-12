@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0016",
+  "title": "Myth and Magic",
+  "difficulty": "easy",
+  "tags": ["fantasy"],
+  "groups": [
+    {
+      "id": "zodiac",
+      "label": "Zodiac Signs",
+      "items": ["Aries", "Leo", "Virgo", "Libra"]
+    },
+    {
+      "id": "gods",
+      "label": "Greek Gods",
+      "items": ["Zeus", "Apollo", "Hermes", "Ares"]
+    },
+    {
+      "id": "creatures",
+      "label": "Mythical Creatures",
+      "items": ["Dragon", "Unicorn", "Phoenix", "Griffin"]
+    },
+    {
+      "id": "magic",
+      "label": "Magical Items",
+      "items": ["Wand", "Potion", "Spell", "Amulet"]
+    }
+  ]
+}

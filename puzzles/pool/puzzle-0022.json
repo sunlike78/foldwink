@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0022",
+  "title": "Where you find it",
+  "difficulty": "medium",
+  "editorialSummary": "Items mainly found in one specific place.",
+  "groups": [
+    {
+      "id": "library",
+      "label": "Library",
+      "revealHint": "LIBRARY",
+      "items": ["Bookmark", "Shelf", "Catalog", "Reference"]
+    },
+    {
+      "id": "school",
+      "label": "Classroom",
+      "revealHint": "SCHOOL",
+      "items": ["Chalkboard", "Eraser", "Locker", "Textbook"]
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital",
+      "revealHint": "WARD",
+      "items": ["Bandage", "Stethoscope", "Scalpel", "Gurney"]
+    },
+    {
+      "id": "park",
+      "label": "Park",
+      "revealHint": "PARK",
+      "items": ["Bench", "Swing", "Fountain", "Gazebo"]
+    }
+  ]
+}

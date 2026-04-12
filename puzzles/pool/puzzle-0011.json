@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0011",
+  "title": "People and Wear",
+  "difficulty": "easy",
+  "tags": ["people"],
+  "groups": [
+    {
+      "id": "family",
+      "label": "Family",
+      "items": ["Mother", "Father", "Sister", "Uncle"]
+    },
+    {
+      "id": "jobs",
+      "label": "Jobs",
+      "items": ["Doctor", "Teacher", "Baker", "Farmer"]
+    },
+    {
+      "id": "clothing",
+      "label": "Clothing",
+      "items": ["Shirt", "Jacket", "Sweater", "Scarf"]
+    },
+    {
+      "id": "footwear",
+      "label": "Footwear",
+      "items": ["Boots", "Sandals", "Sneakers", "Slippers"]
+    }
+  ]
+}

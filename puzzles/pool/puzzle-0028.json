@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0028",
+  "title": "Creative tools",
+  "difficulty": "medium",
+  "editorialSummary": "Tools grouped by craft.",
+  "groups": [
+    {
+      "id": "writing",
+      "label": "Writing Tools",
+      "revealHint": "WRITE",
+      "items": ["Quill", "Ballpoint", "Fountain Pen", "Pencil"]
+    },
+    {
+      "id": "painting",
+      "label": "Painting Tools",
+      "revealHint": "PAINT",
+      "items": ["Palette", "Easel", "Brush", "Primer"]
+    },
+    {
+      "id": "sculpting",
+      "label": "Sculpting Tools",
+      "revealHint": "SCULPT",
+      "items": ["Chisel", "Mallet", "Clay", "Kiln"]
+    },
+    {
+      "id": "photography",
+      "label": "Photography Tools",
+      "revealHint": "PHOTO",
+      "items": ["Tripod", "Lens", "Shutter", "Aperture"]
+    }
+  ]
+}

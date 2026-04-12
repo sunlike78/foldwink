@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0086",
+  "title": "Leafy greens",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "salads",
+      "label": "Salad Greens",
+      "items": ["Arugula", "Romaine", "Iceberg", "Endive"]
+    },
+    {
+      "id": "sprouts",
+      "label": "Sprouts",
+      "items": ["Alfalfa", "Mung Bean", "Radish", "Broccoli Sprout"]
+    },
+    {
+      "id": "leafy-herbs",
+      "label": "Leafy Herbs",
+      "items": ["Cilantro", "Dill", "Chives", "Tarragon"]
+    },
+    {
+      "id": "cabbages",
+      "label": "Cabbage Family",
+      "items": ["Bok Choy", "Kale", "Savoy", "Napa"]
+    }
+  ]
+}

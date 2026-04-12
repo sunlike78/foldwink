@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0077",
+  "title": "Stones and sands",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "gemstones",
+      "label": "Gemstones",
+      "items": ["Topaz", "Opal", "Garnet", "Aquamarine"]
+    },
+    {
+      "id": "soil-types",
+      "label": "Soil Types",
+      "items": ["Loam", "Clay", "Peat", "Silt"]
+    },
+    {
+      "id": "sand-types",
+      "label": "Sands",
+      "items": ["White Sand", "Black Sand", "Red Sand", "Golden Sand"]
+    },
+    {
+      "id": "ores",
+      "label": "Ores",
+      "items": ["Bauxite", "Magnetite", "Hematite", "Galena"]
+    }
+  ]
+}

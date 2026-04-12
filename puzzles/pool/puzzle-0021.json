@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0021",
+  "title": "Shade of meaning",
+  "difficulty": "medium",
+  "editorialSummary": "Each group is a set of named color shades of one primary color.",
+  "groups": [
+    {
+      "id": "reds",
+      "label": "Shades of RED",
+      "revealHint": "RED",
+      "items": ["Crimson", "Scarlet", "Maroon", "Burgundy"]
+    },
+    {
+      "id": "blues",
+      "label": "Shades of BLUE",
+      "revealHint": "BLUE",
+      "items": ["Navy", "Azure", "Teal", "Cobalt"]
+    },
+    {
+      "id": "greens",
+      "label": "Shades of GREEN",
+      "revealHint": "GREEN",
+      "items": ["Olive", "Forest", "Lime", "Moss"]
+    },
+    {
+      "id": "yellows",
+      "label": "Shades of YELLOW",
+      "revealHint": "YELLOW",
+      "items": ["Lemon", "Mustard", "Amber", "Canary"]
+    }
+  ]
+}

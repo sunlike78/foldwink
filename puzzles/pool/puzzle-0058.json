@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0058",
+  "title": "Market day",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "citrus",
+      "label": "Citrus Fruits",
+      "items": ["Lime", "Grapefruit", "Mandarin", "Kumquat"]
+    },
+    {
+      "id": "berries",
+      "label": "Berries",
+      "items": ["Raspberry", "Blueberry", "Blackberry", "Gooseberry"]
+    },
+    {
+      "id": "melons",
+      "label": "Melons",
+      "items": ["Watermelon", "Cantaloupe", "Honeydew", "Galia"]
+    },
+    {
+      "id": "tropical",
+      "label": "Tropical Fruits",
+      "items": ["Mango", "Papaya", "Guava", "Lychee"]
+    }
+  ]
+}

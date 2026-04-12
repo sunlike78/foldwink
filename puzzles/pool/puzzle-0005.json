@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0005",
+  "title": "Pantry Run",
+  "difficulty": "easy",
+  "tags": ["food"],
+  "groups": [
+    {
+      "id": "breads",
+      "label": "Breads",
+      "items": ["Baguette", "Bagel", "Pita", "Naan"]
+    },
+    {
+      "id": "cheeses",
+      "label": "Cheeses",
+      "items": ["Cheddar", "Brie", "Feta", "Mozzarella"]
+    },
+    {
+      "id": "desserts",
+      "label": "Desserts",
+      "items": ["Cake", "Pudding", "Brownie", "Tiramisu"]
+    },
+    {
+      "id": "spices",
+      "label": "Spices",
+      "items": ["Pepper", "Cumin", "Paprika", "Cinnamon"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0089",
+  "title": "Coat and collar",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "hats",
+      "label": "Hats",
+      "items": ["Beret", "Fedora", "Panama", "Trilby"]
+    },
+    {
+      "id": "bags",
+      "label": "Bags",
+      "items": ["Tote", "Clutch", "Duffel", "Satchel"]
+    },
+    {
+      "id": "watches",
+      "label": "Watch Parts",
+      "items": ["Bezel", "Crown", "Dial", "Strap"]
+    },
+    {
+      "id": "knots",
+      "label": "Tie Knots",
+      "items": ["Windsor", "Four-in-hand", "Half Windsor", "Pratt"]
+    }
+  ]
+}

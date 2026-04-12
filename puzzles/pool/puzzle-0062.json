@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0062",
+  "title": "Soft and loud",
+  "difficulty": "medium",
+  "editorialSummary": "Synonyms clustered by volume and intensity.",
+  "groups": [
+    {
+      "id": "whisper",
+      "label": "Meaning WHISPER",
+      "revealHint": "WHISPER",
+      "items": ["Murmur", "Mutter", "Mumble", "Breathe"]
+    },
+    {
+      "id": "shout",
+      "label": "Meaning SHOUT",
+      "revealHint": "SHOUT",
+      "items": ["Yell", "Holler", "Bellow", "Roar"]
+    },
+    {
+      "id": "laugh",
+      "label": "Meaning LAUGH",
+      "revealHint": "LAUGH",
+      "items": ["Giggle", "Chuckle", "Snicker", "Cackle"]
+    },
+    {
+      "id": "cry",
+      "label": "Meaning CRY",
+      "revealHint": "CRY",
+      "items": ["Sob", "Weep", "Wail", "Whimper"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0094",
+  "title": "Rock cycle",
+  "difficulty": "medium",
+  "editorialSummary": "Geological classification puzzle. False trail: 'marble' is metamorphic but sounds sedimentary.",
+  "groups": [
+    {
+      "id": "igneous-intrusive",
+      "label": "Intrusive Igneous",
+      "revealHint": "MAGMA",
+      "items": ["Granite", "Diorite", "Gabbro", "Peridotite"]
+    },
+    {
+      "id": "igneous-extrusive",
+      "label": "Extrusive Igneous",
+      "revealHint": "LAVA",
+      "items": ["Basalt", "Rhyolite", "Obsidian", "Tuff"]
+    },
+    {
+      "id": "sedimentary-detrital",
+      "label": "Clastic Sedimentary",
+      "revealHint": "GRAIN",
+      "items": ["Sandstone", "Shale", "Siltstone", "Conglomerate"]
+    },
+    {
+      "id": "metamorphic",
+      "label": "Metamorphic",
+      "revealHint": "HEAT",
+      "items": ["Marble", "Slate", "Gneiss", "Quartzite"]
+    }
+  ]
+}

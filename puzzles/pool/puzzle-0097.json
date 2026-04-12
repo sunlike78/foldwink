@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0097",
+  "title": "Festival schedule",
+  "difficulty": "medium",
+  "editorialSummary": "Real festivals grouped by their defining element. False trail: several festivals share a color or a food motif.",
+  "groups": [
+    {
+      "id": "festivals-of-light",
+      "label": "Festivals of Light",
+      "revealHint": "LIGHT",
+      "items": ["Diwali", "Hanukkah", "Loi Krathong", "St Lucia Day"]
+    },
+    {
+      "id": "festivals-of-water",
+      "label": "Festivals of Water",
+      "revealHint": "WATER",
+      "items": ["Songkran", "Holi Phera", "La Tomatina", "Water Splashing"]
+    },
+    {
+      "id": "festivals-of-music",
+      "label": "Music Festivals",
+      "revealHint": "MUSIC",
+      "items": ["Glastonbury", "Montreux", "Fuji Rock", "Roskilde"]
+    },
+    {
+      "id": "festivals-of-food",
+      "label": "Food Festivals",
+      "revealHint": "FOOD",
+      "items": ["Oktoberfest", "La Mercè", "Pizzafest", "Mooncake"]
+    }
+  ]
+}

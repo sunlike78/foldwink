@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0013",
+  "title": "World Tour",
+  "difficulty": "easy",
+  "tags": ["geography"],
+  "groups": [
+    {
+      "id": "countries",
+      "label": "Countries",
+      "items": ["France", "Japan", "Brazil", "Egypt"]
+    },
+    {
+      "id": "capitals",
+      "label": "Capitals",
+      "items": ["Madrid", "Rome", "Oslo", "Dublin"]
+    },
+    {
+      "id": "currencies",
+      "label": "Currencies",
+      "items": ["Dollar", "Euro", "Yen", "Peso"]
+    },
+    {
+      "id": "languages",
+      "label": "Languages",
+      "items": ["Spanish", "German", "Dutch", "Arabic"]
+    }
+  ]
+}

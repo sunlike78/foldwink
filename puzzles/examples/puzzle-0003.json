@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0003",
+  "title": "Moving Around",
+  "difficulty": "easy",
+  "tags": ["travel"],
+  "groups": [
+    {
+      "id": "transport",
+      "label": "Transport",
+      "items": ["Train", "Bus", "Plane", "Ferry"]
+    },
+    {
+      "id": "directions",
+      "label": "Directions",
+      "items": ["North", "South", "East", "West"]
+    },
+    {
+      "id": "luggage",
+      "label": "Travel Items",
+      "items": ["Suitcase", "Backpack", "Passport", "Ticket"]
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "items": ["Rain", "Wind", "Fog", "Snow"]
+    }
+  ]
+}

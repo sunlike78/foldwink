@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0045",
+  "title": "Building centuries",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "gothic",
+      "label": "Gothic Features",
+      "items": ["Spire", "Buttress", "Rose Window", "Gargoyle"]
+    },
+    {
+      "id": "baroque",
+      "label": "Baroque Features",
+      "items": ["Fresco", "Stucco", "Rotunda", "Cherub"]
+    },
+    {
+      "id": "modernist",
+      "label": "Modernist Materials",
+      "items": ["Steel", "Concrete", "Glass Curtain", "Plywood"]
+    },
+    {
+      "id": "castle",
+      "label": "Castle Parts",
+      "items": ["Keep", "Moat", "Drawbridge", "Bailey"]
+    }
+  ]
+}

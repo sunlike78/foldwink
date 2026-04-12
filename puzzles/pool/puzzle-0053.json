@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0053",
+  "title": "Lights, camera, vocabulary",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "roles",
+      "label": "Crew Roles",
+      "items": ["Director", "Producer", "Gaffer", "Grip"]
+    },
+    {
+      "id": "shots",
+      "label": "Camera Shots",
+      "items": ["Closeup", "Wide", "Pan", "Dolly"]
+    },
+    {
+      "id": "post",
+      "label": "Post-production",
+      "items": ["Cut", "Fade", "Dub", "Color Grade"]
+    },
+    {
+      "id": "script",
+      "label": "Script Parts",
+      "items": ["Logline", "Synopsis", "Scene", "Slug Line"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0047",
+  "title": "Old gods",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "greek",
+      "label": "Greek Gods",
+      "items": ["Athena", "Hera", "Poseidon", "Artemis"]
+    },
+    {
+      "id": "roman",
+      "label": "Roman Gods",
+      "items": ["Jupiter", "Mars", "Venus", "Neptune"]
+    },
+    {
+      "id": "norse",
+      "label": "Norse Gods",
+      "items": ["Odin", "Thor", "Freya", "Loki"]
+    },
+    {
+      "id": "egyptian",
+      "label": "Egyptian Gods",
+      "items": ["Ra", "Anubis", "Horus", "Bastet"]
+    }
+  ]
+}

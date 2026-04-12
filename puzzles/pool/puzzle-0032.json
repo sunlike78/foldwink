@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0032",
+  "title": "Waterline",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "drinks-hot",
+      "label": "Hot Drinks",
+      "items": ["Coffee", "Cocoa", "Chai", "Matcha"]
+    },
+    {
+      "id": "drinks-cold",
+      "label": "Cold Drinks",
+      "items": ["Lemonade", "Smoothie", "Milkshake", "Iced Tea"]
+    },
+    {
+      "id": "boats",
+      "label": "Boats",
+      "items": ["Canoe", "Kayak", "Yacht", "Dinghy"]
+    },
+    {
+      "id": "fish-shell",
+      "label": "Shellfish",
+      "items": ["Lobster", "Shrimp", "Oyster", "Clam"]
+    }
+  ]
+}

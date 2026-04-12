@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0041",
+  "title": "Lab day",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "lab-tools",
+      "label": "Lab Tools",
+      "items": ["Beaker", "Pipette", "Microscope", "Flask"]
+    },
+    {
+      "id": "particles",
+      "label": "Particles",
+      "items": ["Proton", "Neutron", "Electron", "Quark"]
+    },
+    {
+      "id": "states",
+      "label": "States of Matter",
+      "items": ["Solid", "Liquid", "Gas", "Plasma"]
+    },
+    {
+      "id": "scientists",
+      "label": "Scientists",
+      "items": ["Curie", "Darwin", "Tesla", "Newton"]
+    }
+  ]
+}

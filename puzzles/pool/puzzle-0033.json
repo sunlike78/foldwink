@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0033",
+  "title": "In the toolbox",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "power-tools",
+      "label": "Power Tools",
+      "items": ["Sander", "Jigsaw", "Grinder", "Router"]
+    },
+    {
+      "id": "fasteners",
+      "label": "Fasteners",
+      "items": ["Screw", "Bolt", "Nail", "Rivet"]
+    },
+    {
+      "id": "measuring",
+      "label": "Measuring",
+      "items": ["Ruler", "Caliper", "Level", "Compass"]
+    },
+    {
+      "id": "safety",
+      "label": "Safety Gear",
+      "items": ["Goggles", "Gloves", "Helmet", "Earplugs"]
+    }
+  ]
+}

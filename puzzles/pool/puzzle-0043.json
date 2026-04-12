@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0043",
+  "title": "Head in the clouds",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "high-clouds",
+      "label": "High Clouds",
+      "items": ["Cirrus", "Cirrocumulus", "Cirrostratus", "Contrail"]
+    },
+    {
+      "id": "low-clouds",
+      "label": "Low Clouds",
+      "items": ["Stratus", "Stratocumulus", "Fog", "Mist"]
+    },
+    {
+      "id": "storm",
+      "label": "Storm Signs",
+      "items": ["Anvil", "Gust Front", "Squall", "Funnel"]
+    },
+    {
+      "id": "colors",
+      "label": "Sky Colors",
+      "items": ["Dusk", "Golden", "Overcast", "Twilight"]
+    }
+  ]
+}

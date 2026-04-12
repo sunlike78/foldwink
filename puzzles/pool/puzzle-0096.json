@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0096",
+  "title": "Under pressure",
+  "difficulty": "medium",
+  "editorialSummary": "Human body systems grouped by function. A classification medium that does not depend on word-play.",
+  "groups": [
+    {
+      "id": "transport-system",
+      "label": "Transport System",
+      "revealHint": "BLOOD",
+      "items": ["Heart", "Artery", "Vein", "Capillary"]
+    },
+    {
+      "id": "support-system",
+      "label": "Support System",
+      "revealHint": "BONE",
+      "items": ["Skull", "Spine", "Rib", "Pelvis"]
+    },
+    {
+      "id": "defense-system",
+      "label": "Defense System",
+      "revealHint": "IMMUNE",
+      "items": ["Thymus", "Spleen", "Tonsil", "Lymph Node"]
+    },
+    {
+      "id": "message-system",
+      "label": "Message System",
+      "revealHint": "SIGNAL",
+      "items": ["Neuron", "Axon", "Synapse", "Dendrite"]
+    }
+  ]
+}

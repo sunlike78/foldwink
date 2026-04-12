@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0027",
+  "title": "Dress code",
+  "difficulty": "medium",
+  "editorialSummary": "Subtypes of clothing.",
+  "groups": [
+    {
+      "id": "shoes",
+      "label": "Shoe Styles",
+      "revealHint": "SHOES",
+      "items": ["Loafer", "Oxford", "Brogue", "Moccasin"]
+    },
+    {
+      "id": "pants",
+      "label": "Pants",
+      "revealHint": "PANTS",
+      "items": ["Jeans", "Chinos", "Leggings", "Cargo"]
+    },
+    {
+      "id": "shirts",
+      "label": "Shirts",
+      "revealHint": "SHIRT",
+      "items": ["Polo", "Blouse", "Tank", "Henley"]
+    },
+    {
+      "id": "coats",
+      "label": "Coats",
+      "revealHint": "COAT",
+      "items": ["Parka", "Trench", "Peacoat", "Blazer"]
+    }
+  ]
+}

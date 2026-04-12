@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0029",
+  "title": "Weather report",
+  "difficulty": "medium",
+  "editorialSummary": "Four weather states.",
+  "groups": [
+    {
+      "id": "storm",
+      "label": "Storm Events",
+      "revealHint": "STORM",
+      "items": ["Thunder", "Lightning", "Hail", "Tornado"]
+    },
+    {
+      "id": "cold",
+      "label": "Cold Weather",
+      "revealHint": "COLD",
+      "items": ["Blizzard", "Frost", "Sleet", "Flurry"]
+    },
+    {
+      "id": "hot",
+      "label": "Hot Weather",
+      "revealHint": "HEAT",
+      "items": ["Heatwave", "Drought", "Scorcher", "Humidity"]
+    },
+    {
+      "id": "calm",
+      "label": "Calm Weather",
+      "revealHint": "CALM",
+      "items": ["Breeze", "Mist", "Drizzle", "Overcast"]
+    }
+  ]
+}

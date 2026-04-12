@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0080",
+  "title": "Festival of the year",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "winter-holidays",
+      "label": "Winter Holidays",
+      "items": ["Hanukkah", "Christmas", "Kwanzaa", "Yule"]
+    },
+    {
+      "id": "spring-festivals",
+      "label": "Spring Festivals",
+      "items": ["Holi", "Easter", "Passover", "Songkran"]
+    },
+    {
+      "id": "autumn-festivals",
+      "label": "Autumn Festivals",
+      "items": ["Diwali", "Oktoberfest", "Mooncake", "Samhain"]
+    },
+    {
+      "id": "summer-events",
+      "label": "Summer Events",
+      "items": ["Midsummer", "Obon", "Carnival", "Bastille Day"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0042",
+  "title": "Small things",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "sewing",
+      "label": "Sewing Kit",
+      "items": ["Thread", "Needle", "Thimble", "Pin"]
+    },
+    {
+      "id": "tea-things",
+      "label": "Tea Things",
+      "items": ["Kettle", "Saucer", "Teaspoon", "Strainer"]
+    },
+    {
+      "id": "jewelry",
+      "label": "Jewelry",
+      "items": ["Ring", "Bracelet", "Pendant", "Earring"]
+    },
+    {
+      "id": "keys",
+      "label": "Keys",
+      "items": ["House Key", "Car Key", "Padlock Key", "Skeleton Key"]
+    }
+  ]
+}

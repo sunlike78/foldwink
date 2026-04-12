@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0068",
+  "title": "Change direction",
+  "difficulty": "medium",
+  "editorialSummary": "Verbs about changing direction, split into four subtle shades.",
+  "groups": [
+    {
+      "id": "turn",
+      "label": "Meaning TURN",
+      "revealHint": "TURN",
+      "items": ["Pivot", "Swivel", "Rotate", "Wheel"]
+    },
+    {
+      "id": "bend",
+      "label": "Meaning BEND",
+      "revealHint": "BEND",
+      "items": ["Curve", "Flex", "Arch", "Bow"]
+    },
+    {
+      "id": "twist",
+      "label": "Meaning TWIST",
+      "revealHint": "TWIST",
+      "items": ["Coil", "Wrench", "Wring", "Writhe"]
+    },
+    {
+      "id": "fold",
+      "label": "Meaning FOLD",
+      "revealHint": "FOLD",
+      "items": ["Crease", "Pleat", "Tuck", "Double"]
+    }
+  ]
+}

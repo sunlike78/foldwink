@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0084",
+  "title": "Sound system",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "rock-subgenres",
+      "label": "Rock Subgenres",
+      "items": ["Punk", "Grunge", "Indie", "Prog"]
+    },
+    {
+      "id": "electronic",
+      "label": "Electronic",
+      "items": ["House", "Techno", "Trance", "Ambient"]
+    },
+    {
+      "id": "jazz-subgenres",
+      "label": "Jazz Styles",
+      "items": ["Bebop", "Swing", "Fusion", "Cool"]
+    },
+    {
+      "id": "folk-world",
+      "label": "Folk & World",
+      "items": ["Bluegrass", "Flamenco", "Fado", "Reggae"]
+    }
+  ]
+}

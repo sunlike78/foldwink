@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0002",
+  "title": "Kitchen and Beyond",
+  "difficulty": "easy",
+  "tags": ["home"],
+  "groups": [
+    {
+      "id": "cutlery",
+      "label": "Cutlery",
+      "items": ["Fork", "Knife", "Spoon", "Ladle"]
+    },
+    {
+      "id": "fruits",
+      "label": "Fruits",
+      "items": ["Apple", "Pear", "Orange", "Peach"]
+    },
+    {
+      "id": "rooms",
+      "label": "Rooms",
+      "items": ["Kitchen", "Bedroom", "Bathroom", "Garage"]
+    },
+    {
+      "id": "materials",
+      "label": "Materials",
+      "items": ["Glass", "Steel", "Wood", "Brick"]
+    }
+  ]
+}

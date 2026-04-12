@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0056",
+  "title": "On the field",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "soccer",
+      "label": "Soccer Positions",
+      "items": ["Striker", "Midfielder", "Keeper", "Defender"]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball Positions",
+      "items": ["Pitcher", "Catcher", "Shortstop", "Outfielder"]
+    },
+    {
+      "id": "basketball",
+      "label": "Basketball Positions",
+      "items": ["Point Guard", "Center", "Power Forward", "Small Forward"]
+    },
+    {
+      "id": "rugby",
+      "label": "Rugby Positions",
+      "items": ["Scrum Half", "Fly Half", "Prop", "Hooker"]
+    }
+  ]
+}

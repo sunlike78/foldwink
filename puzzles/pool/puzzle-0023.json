@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0023",
+  "title": "Verbs in disguise",
+  "difficulty": "medium",
+  "editorialSummary": "Four verb clusters. False trail: several throw/catch synonyms sound similar.",
+  "groups": [
+    {
+      "id": "throw",
+      "label": "Meaning THROW",
+      "revealHint": "THROW",
+      "items": ["Toss", "Hurl", "Chuck", "Fling"]
+    },
+    {
+      "id": "catch",
+      "label": "Meaning CATCH",
+      "revealHint": "CATCH",
+      "items": ["Grab", "Snag", "Snatch", "Nab"]
+    },
+    {
+      "id": "break",
+      "label": "Meaning BREAK",
+      "revealHint": "BREAK",
+      "items": ["Smash", "Crack", "Shatter", "Split"]
+    },
+    {
+      "id": "fix",
+      "label": "Meaning FIX",
+      "revealHint": "MEND",
+      "items": ["Repair", "Mend", "Patch", "Restore"]
+    }
+  ]
+}

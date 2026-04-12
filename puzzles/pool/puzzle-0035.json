@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0035",
+  "title": "Read between the lines",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of printed matter.",
+  "groups": [
+    {
+      "id": "newspapers",
+      "label": "Newspaper Sections",
+      "revealHint": "NEWS",
+      "items": ["Tabloid", "Headline", "Classifieds", "Editorial"]
+    },
+    {
+      "id": "book-parts",
+      "label": "Book Parts",
+      "revealHint": "BOOK",
+      "items": ["Preface", "Chapter", "Glossary", "Index"]
+    },
+    {
+      "id": "magazines",
+      "label": "Magazine Types",
+      "revealHint": "MAG",
+      "items": ["Fashion", "Gossip", "Science", "Cooking"]
+    },
+    {
+      "id": "print-formats",
+      "label": "Print Formats",
+      "revealHint": "PRINT",
+      "items": ["Pamphlet", "Brochure", "Leaflet", "Flyer"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0044",
+  "title": "Boxed pantry",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "short-pasta",
+      "label": "Short Pasta",
+      "items": ["Penne", "Fusilli", "Rigatoni", "Farfalle"]
+    },
+    {
+      "id": "long-pasta",
+      "label": "Long Pasta",
+      "items": ["Spaghetti", "Linguine", "Fettuccine", "Bucatini"]
+    },
+    {
+      "id": "stuffed",
+      "label": "Stuffed Pasta",
+      "items": ["Ravioli", "Tortellini", "Agnolotti", "Cappelletti"]
+    },
+    {
+      "id": "dumpling",
+      "label": "Dumplings",
+      "items": ["Gnocchi", "Pierogi", "Wonton", "Manti"]
+    }
+  ]
+}

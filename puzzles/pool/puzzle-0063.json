@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0063",
+  "title": "Brew house",
+  "difficulty": "medium",
+  "editorialSummary": "Four German food & brewing clusters. False trail: several beer and sausage styles sound interchangeable.",
+  "groups": [
+    {
+      "id": "beer",
+      "label": "Beer Styles",
+      "revealHint": "BEER",
+      "items": ["Pilsner", "Dunkel", "Weissbier", "Kölsch"]
+    },
+    {
+      "id": "sausage",
+      "label": "German Sausages",
+      "revealHint": "WURST",
+      "items": ["Bratwurst", "Weisswurst", "Currywurst", "Knockwurst"]
+    },
+    {
+      "id": "bread",
+      "label": "German Breads",
+      "revealHint": "BROT",
+      "items": ["Pumpernickel", "Brezel", "Roggenbrot", "Vollkorn"]
+    },
+    {
+      "id": "dessert",
+      "label": "German Desserts",
+      "revealHint": "KUCHEN",
+      "items": ["Strudel", "Stollen", "Lebkuchen", "Bienenstich"]
+    }
+  ]
+}

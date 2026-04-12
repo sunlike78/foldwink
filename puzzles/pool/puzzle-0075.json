@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0075",
+  "title": "Body shop",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "face",
+      "label": "Face Parts",
+      "items": ["Eyelid", "Cheek", "Chin", "Forehead"]
+    },
+    {
+      "id": "hand",
+      "label": "Hand Parts",
+      "items": ["Knuckle", "Palm", "Thumb", "Wrist Bone"]
+    },
+    {
+      "id": "digestive",
+      "label": "Digestive Organs",
+      "items": ["Stomach", "Liver", "Intestine", "Pancreas"]
+    },
+    {
+      "id": "sensory",
+      "label": "Sensory Organs",
+      "items": ["Retina", "Cochlea", "Taste Bud", "Nerve Ending"]
+    }
+  ]
+}

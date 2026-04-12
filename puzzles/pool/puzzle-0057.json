@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0057",
+  "title": "Written word",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "poetry",
+      "label": "Poetry Forms",
+      "items": ["Haiku", "Sonnet", "Limerick", "Ode"]
+    },
+    {
+      "id": "fiction",
+      "label": "Fiction Genres",
+      "items": ["Thriller", "Mystery", "Romance", "Fantasy"]
+    },
+    {
+      "id": "nonfiction",
+      "label": "Non-fiction",
+      "items": ["Memoir", "Essay", "Biography", "Manifesto"]
+    },
+    {
+      "id": "plays",
+      "label": "Theater",
+      "items": ["Tragedy", "Farce", "Monologue", "Opera"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "puzzle-0017",
+  "title": "Cafe Menu",
+  "difficulty": "easy",
+  "tags": ["food"],
+  "groups": [
+    {
+      "id": "pizza",
+      "label": "Pizza Toppings",
+      "items": ["Pepperoni", "Olive", "Mushroom", "Sausage"]
+    },
+    {
+      "id": "icecream",
+      "label": "Ice Cream Flavors",
+      "items": ["Vanilla", "Pistachio", "Stracciatella", "Neapolitan"]
+    },
+    {
+      "id": "cocktails",
+      "label": "Cocktails",
+      "items": ["Martini", "Mojito", "Margarita", "Daiquiri"]
+    },
+    {
+      "id": "breakfast",
+      "label": "Breakfast Foods",
+      "items": ["Pancake", "Waffle", "Omelette", "Porridge"]
+    }
+  ]
+}

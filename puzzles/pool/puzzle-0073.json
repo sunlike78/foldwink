@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0073",
+  "title": "On a plate",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "sushi",
+      "label": "Sushi Types",
+      "items": ["Nigiri", "Maki", "Sashimi", "Temaki"]
+    },
+    {
+      "id": "tapas",
+      "label": "Tapas",
+      "items": ["Patatas Bravas", "Jamón", "Gambas", "Croquetas"]
+    },
+    {
+      "id": "curry",
+      "label": "Curry Styles",
+      "items": ["Thai Green", "Madras", "Korma", "Vindaloo"]
+    },
+    {
+      "id": "bbq",
+      "label": "BBQ Styles",
+      "items": ["Texas", "Kansas City", "Memphis", "Carolina"]
+    }
+  ]
+}

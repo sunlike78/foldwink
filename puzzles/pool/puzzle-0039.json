@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0039",
+  "title": "On the map",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "islands",
+      "label": "Islands",
+      "items": ["Sicily", "Crete", "Bali", "Malta"]
+    },
+    {
+      "id": "peninsulas",
+      "label": "Peninsulas",
+      "items": ["Iberian", "Korean", "Arabian", "Jutland"]
+    },
+    {
+      "id": "deserts",
+      "label": "Deserts",
+      "items": ["Sahara", "Gobi", "Kalahari", "Mojave"]
+    },
+    {
+      "id": "volcanoes",
+      "label": "Volcanoes",
+      "items": ["Etna", "Vesuvius", "Krakatoa", "Stromboli"]
+    }
+  ]
+}

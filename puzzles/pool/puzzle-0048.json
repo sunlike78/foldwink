@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0048",
+  "title": "Dev vocab",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "paradigms",
+      "label": "Programming Paradigms",
+      "items": ["Functional", "Object-Oriented", "Procedural", "Declarative"]
+    },
+    {
+      "id": "data-structures",
+      "label": "Data Structures",
+      "items": ["Stack", "Queue", "Tree", "Graph"]
+    },
+    {
+      "id": "control-flow",
+      "label": "Control Flow",
+      "items": ["If", "Loop", "Switch", "Goto"]
+    },
+    {
+      "id": "shell",
+      "label": "Shell Commands",
+      "items": ["Grep", "Awk", "Sed", "Cat"]
+    }
+  ]
+}

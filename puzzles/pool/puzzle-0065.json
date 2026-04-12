@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0065",
+  "title": "Starry ways",
+  "difficulty": "medium",
+  "editorialSummary": "Celestial terms grouped by what they describe.",
+  "groups": [
+    {
+      "id": "star-types",
+      "label": "Star Types",
+      "revealHint": "STAR",
+      "items": ["Dwarf", "Giant", "Supergiant", "Pulsar"]
+    },
+    {
+      "id": "orbits",
+      "label": "Orbital Terms",
+      "revealHint": "ORBIT",
+      "items": ["Apogee", "Perigee", "Eccentric", "Retrograde"]
+    },
+    {
+      "id": "galaxies",
+      "label": "Galaxy Shapes",
+      "revealHint": "GALAXY",
+      "items": ["Spiral", "Elliptical", "Barred", "Irregular"]
+    },
+    {
+      "id": "phenomena",
+      "label": "Sky Phenomena",
+      "revealHint": "EVENT",
+      "items": ["Nova", "Eclipse", "Transit", "Meteor Shower"]
+    }
+  ]
+}

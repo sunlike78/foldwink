@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[Claude Code] Milestone stop hook fired. Review docs/TODO.md before next step.'"
+          }
+        ]
+      }
+    ]
+  }
+}

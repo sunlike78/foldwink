@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0034",
+  "title": "Night sky",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "constellations",
+      "label": "Constellations",
+      "items": ["Orion", "Cassiopeia", "Lyra", "Draco"]
+    },
+    {
+      "id": "moons",
+      "label": "Moons of Planets",
+      "items": ["Io", "Europa", "Titan", "Ganymede"]
+    },
+    {
+      "id": "phases",
+      "label": "Moon Phases",
+      "items": ["Crescent", "Gibbous", "Waning", "Waxing"]
+    },
+    {
+      "id": "sky-events",
+      "label": "Sky Events",
+      "items": ["Eclipse", "Meteor", "Comet", "Aurora"]
+    }
+  ]
+}

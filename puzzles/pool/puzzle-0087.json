@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0087",
+  "title": "Empire closing",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "egyptian",
+      "label": "Egyptian Kingdom",
+      "items": ["Pyramid", "Sphinx", "Pharaoh", "Scarab"]
+    },
+    {
+      "id": "roman",
+      "label": "Roman Empire",
+      "items": ["Senate", "Legion", "Colosseum", "Aqueduct"]
+    },
+    {
+      "id": "greek",
+      "label": "Ancient Greek",
+      "items": ["Agora", "Acropolis", "Oracle", "Hoplite"]
+    },
+    {
+      "id": "mayan",
+      "label": "Mayan Civilization",
+      "items": ["Stela", "Cenote", "Glyph", "Calendar Stone"]
+    }
+  ]
+}

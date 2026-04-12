@@ -1,0 +1,27 @@
+{
+  "id": "puzzle-0090",
+  "title": "Dawn chorus",
+  "difficulty": "easy",
+  "groups": [
+    {
+      "id": "raptors",
+      "label": "Birds of Prey",
+      "items": ["Hawk", "Falcon", "Kestrel", "Harrier"]
+    },
+    {
+      "id": "waders",
+      "label": "Waders",
+      "items": ["Heron", "Stork", "Crane", "Egret"]
+    },
+    {
+      "id": "songbirds",
+      "label": "Songbirds",
+      "items": ["Robin", "Nightingale", "Wren", "Lark"]
+    },
+    {
+      "id": "waterfowl",
+      "label": "Waterfowl",
+      "items": ["Duck", "Goose", "Swan", "Teal"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "/foldwink",
+  "name": "Foldwink — Daily Grouping Puzzle",
+  "short_name": "Foldwink",
+  "description": "A short daily grouping puzzle by Neural Void. 16 cards, 4 hidden groups of 4, 4 mistakes. Medium puzzles reveal their categories one letter at a time — tap once to Wink.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "categories": ["games", "puzzle"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

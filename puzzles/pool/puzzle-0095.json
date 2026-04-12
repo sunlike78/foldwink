@@ -1,0 +1,32 @@
+{
+  "id": "puzzle-0095",
+  "title": "On your feet",
+  "difficulty": "medium",
+  "editorialSummary": "Dance styles grouped by origin region. Classification-shape medium.",
+  "groups": [
+    {
+      "id": "cuban",
+      "label": "Cuban Origin",
+      "revealHint": "CUBA",
+      "items": ["Mambo", "Son", "Danzón", "Guaguancó"]
+    },
+    {
+      "id": "brazilian",
+      "label": "Brazilian Origin",
+      "revealHint": "BRAZIL",
+      "items": ["Samba", "Bossa Nova", "Forró", "Maracatu"]
+    },
+    {
+      "id": "argentine",
+      "label": "Argentine Origin",
+      "revealHint": "TANGO",
+      "items": ["Milonga", "Zamba", "Chacarera", "Malambo"]
+    },
+    {
+      "id": "european",
+      "label": "European Origin",
+      "revealHint": "VIENNA",
+      "items": ["Waltz", "Polka", "Flamenco", "Tarantella"]
+    }
+  ]
+}
