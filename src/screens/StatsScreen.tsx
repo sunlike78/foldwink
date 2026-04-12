@@ -2,6 +2,7 @@ import { useGameStore } from "../game/state/appStore";
 import { Button } from "../components/Button";
 import { Wordmark } from "../components/Wordmark";
 import { StatStrip } from "../components/StatStrip";
+import { DailyArchive } from "../components/DailyArchive";
 
 function StatCell({ label, value }: { label: string; value: string | number }) {
   return (
@@ -68,6 +69,13 @@ export function StatsScreen() {
           </div>
         </div>
       )}
+
+      <div className="mt-6">
+        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-2">
+          Daily history
+        </div>
+        <DailyArchive />
+      </div>
 
       {stats.gamesPlayed === 0 && (
         <div className="mt-6 rounded-xl bg-surface border border-[#2e343f] px-4 py-4 text-center">

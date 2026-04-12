@@ -7,6 +7,13 @@ export const SOLVED_COLOR_CLASSES = [
   "bg-solved4 text-[#180f2e]",
 ] as const;
 
+/**
+ * Small Unicode markers placed before solved card text so colour is not the
+ * only signal distinguishing the four groups. Accessibility aid for
+ * colour-blind players. 0.5.0.
+ */
+export const SOLVED_GROUP_MARKERS = ["●", "◆", "▲", "■"] as const;
+
 export function colorIndexForGroup(puzzle: Puzzle, groupId: string): number {
   const idx = puzzle.groups.findIndex((g) => g.id === groupId);
   if (idx < 0) return 0;

@@ -1,4 +1,4 @@
-import { SOLVED_COLOR_CLASSES } from "../game/solvedColors";
+import { SOLVED_COLOR_CLASSES, SOLVED_GROUP_MARKERS } from "../game/solvedColors";
 import { MOTION_CLASS } from "../styles/motion";
 
 interface Props {
@@ -24,17 +24,30 @@ export function Card({ value, state, solvedColorIndex = 0, disabled, onClick }: 
   }
 
   const classes = `${base} ${motion} ${variant}${disabled ? " pointer-events-none" : ""}`;
+  const marker =
+    state === "solved"
+      ? SOLVED_GROUP_MARKERS[solvedColorIndex % SOLVED_GROUP_MARKERS.length]
+      : null;
 
   return (
     <button
       type="button"
       className={classes}
       aria-pressed={state === "selected"}
-      aria-label={value}
+      aria-label={
+        state === "solved" ? `${value} — solved, group ${solvedColorIndex + 1}` : value
+      }
       onClick={onClick}
       disabled={disabled}
     >
-      <span className="break-words">{value}</span>
+      <span className="break-words">
+        {marker && (
+          <span className="mr-1 text-[10px] opacity-70" aria-hidden="true">
+            {marker}
+          </span>
+        )}
+        {value}
+      </span>
     </button>
   );
 }

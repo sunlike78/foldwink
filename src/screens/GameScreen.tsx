@@ -10,6 +10,7 @@ import { SELECTION_SIZE } from "../game/types/game";
 import { canSubmit } from "../game/engine/submit";
 import { colorIndexForGroup } from "../game/solvedColors";
 import { useSound } from "../audio/useSound";
+import { GameTimer } from "../components/GameTimer";
 
 export function GameScreen() {
   const active = useGameStore((s) => s.active);
@@ -107,7 +108,12 @@ export function GameScreen() {
           `${puzzle.difficulty.toUpperCase()} · ${active.mode}` +
           (active.mode === "daily" && !active.countsToStats ? " · replay" : "")
         }
-        right={<MistakesDots used={active.mistakesUsed} />}
+        right={
+          <div className="flex items-center gap-3">
+            <GameTimer startedAt={active.startedAt} endedAt={active.endedAt} />
+            <MistakesDots used={active.mistakesUsed} />
+          </div>
+        }
       />
       <FoldwinkTabs
         puzzle={puzzle}

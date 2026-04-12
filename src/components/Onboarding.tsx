@@ -67,14 +67,18 @@ export function Onboarding({ onDismiss }: Props) {
             4 groups solved and you win.
           </li>
           <li>
-            <span className="text-accent font-bold">·</span> Medium puzzles show{" "}
-            <span className="text-text font-semibold">Foldwink Tabs</span> — 4 hidden category
-            previews that reveal one letter each time you solve a group.
+            <span className="text-accent font-bold">·</span>{" "}
+            <span className="text-text font-semibold">Easy</span> builds confidence.{" "}
+            <span className="text-text font-semibold">Medium</span> adds{" "}
+            <span className="text-text font-semibold">Foldwink Tabs</span> — hidden category
+            previews that reveal one letter per solve — and one{" "}
+            <span className="text-accent font-semibold">✦ Wink</span> per puzzle to fully reveal
+            a tab. <span className="text-text font-semibold">Master Challenge</span> slows the
+            tabs and removes Wink entirely.
           </li>
           <li>
-            <span className="text-accent font-bold">·</span> Tap a tab once per puzzle to{" "}
-            <span className="text-accent font-semibold">✦ Wink</span> it and fully reveal its
-            category. Save it for when you&apos;re stuck.
+            <span className="text-accent font-bold">·</span> Medium unlocks after a few Easy
+            wins. Master Challenge opens once you&apos;re comfortable with Medium.
           </li>
         </ul>
 
