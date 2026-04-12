@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0129",
+  "title": "Root cause",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of root.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "plant",
+      "label": "Plant roots",
+      "revealHint": "Plant",
+      "items": ["Taproot", "Tuber", "Bulb", "Rhizome"]
+    },
+    {
+      "id": "math",
+      "label": "Math roots",
+      "revealHint": "Math",
+      "items": ["Square Root", "Cube Root", "Radical", "Surd"]
+    },
+    {
+      "id": "word",
+      "label": "Word roots",
+      "revealHint": "Word",
+      "items": ["Etymology", "Prefix", "Suffix", "Morpheme"]
+    },
+    {
+      "id": "tooth",
+      "label": "Tooth root",
+      "revealHint": "Tooth",
+      "items": ["Canal", "Pulp", "Enamel", "Dentin"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0102",
+  "title": "Kitchen drawer",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "kitchen",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "cut",
+      "label": "Cutting Tools",
+      "items": ["Cleaver", "Paring Knife", "Scissors", "Mandoline"]
+    },
+    {
+      "id": "measure",
+      "label": "Measuring Tools",
+      "items": ["Thermometer", "Timer", "Scale", "Measuring Cup"]
+    },
+    {
+      "id": "stir",
+      "label": "Stirring Tools",
+      "items": ["Whisk", "Spatula", "Ladle", "Tongs"]
+    },
+    {
+      "id": "bake",
+      "label": "Baking Tools",
+      "items": ["Rolling Pin", "Sieve", "Piping Bag", "Cookie Cutter"]
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import { SoundToggle } from "../components/SoundToggle";
 import { AboutFooter } from "../components/AboutFooter";
 import { logEvent } from "../analytics/eventLog";
 import { mediumReadiness, hardReadiness } from "../game/engine/readiness";
+import { HARD_POOL } from "../puzzles/loader";
 
 export function MenuScreen() {
   const startEasy = useGameStore((s) => s.startEasy);
@@ -26,9 +27,7 @@ export function MenuScreen() {
   const dailyDone = !!todayDailyRecord;
   const mReadiness = mediumReadiness(stats);
 
-  // 0.4.3: HARD_POOL is empty (scaffolded, no content yet). When real Hard
-  // puzzles ship, wire this to the actual pool length via a store selector.
-  const hReadiness = hardReadiness(stats, 0);
+  const hReadiness = hardReadiness(stats, HARD_POOL.length);
 
   const mediumLabelClass =
     mReadiness.level === "strong"

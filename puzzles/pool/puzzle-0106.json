@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0106",
+  "title": "Card night",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "games",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "trick",
+      "label": "Trick-Taking Games",
+      "items": ["Bridge", "Spades", "Hearts", "Euchre"]
+    },
+    {
+      "id": "match",
+      "label": "Matching Games",
+      "items": ["Rummy", "Canasta", "Gin", "Mahjong"]
+    },
+    {
+      "id": "casino",
+      "label": "Casino Card Games",
+      "items": ["Blackjack", "Poker", "Baccarat", "War"]
+    },
+    {
+      "id": "solitaire",
+      "label": "Patience Games",
+      "items": ["Klondike", "Spider", "FreeCell", "Pyramid"]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hard-001",
+  "title": "Four ways to break",
+  "difficulty": "hard",
+  "editorialSummary": "Each group answers a different sense of break: physically fragile, commitment, security, and idiomatic ritual. Shell/Seal/Record are the main cross-trails.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "fragile",
+      "label": "Physically fragile",
+      "revealHint": "Fragile",
+      "items": ["Glass", "Bone", "Twig", "Shell"]
+    },
+    {
+      "id": "commit",
+      "label": "Broken commitments",
+      "revealHint": "Commit",
+      "items": ["Vow", "Oath", "Pledge", "Promise"]
+    },
+    {
+      "id": "secure",
+      "label": "Break security",
+      "revealHint": "Secure",
+      "items": ["Code", "Cipher", "Seal", "Safe"]
+    },
+    {
+      "id": "idiom",
+      "label": "Break a ritual",
+      "revealHint": "Ritual",
+      "items": ["Silence", "Fast", "Record", "Spell"]
+    }
+  ]
+}

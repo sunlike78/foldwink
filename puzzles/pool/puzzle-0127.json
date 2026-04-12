@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0127",
+  "title": "Bridge club",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of bridge.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "card",
+      "label": "Bridge card game",
+      "revealHint": "Cards",
+      "items": ["Trick", "Trump", "Bid", "Declarer"]
+    },
+    {
+      "id": "struct",
+      "label": "Bridge structure",
+      "revealHint": "Structure",
+      "items": ["Suspension", "Arch", "Drawbridge", "Pier"]
+    },
+    {
+      "id": "dental",
+      "label": "Dental bridge",
+      "revealHint": "Dental",
+      "items": ["Crown", "Implant", "Porcelain", "Molar"]
+    },
+    {
+      "id": "music",
+      "label": "Musical bridge",
+      "revealHint": "Song",
+      "items": ["Chorus", "Verse", "Refrain", "Hook"]
+    }
+  ]
+}

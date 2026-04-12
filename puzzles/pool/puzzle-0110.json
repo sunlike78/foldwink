@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0110",
+  "title": "Canopy layer",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "deciduous",
+      "label": "Deciduous Trees",
+      "items": ["Maple", "Oak", "Birch", "Beech"]
+    },
+    {
+      "id": "evergreen",
+      "label": "Evergreen Trees",
+      "items": ["Pine", "Spruce", "Cedar", "Fir"]
+    },
+    {
+      "id": "tropical",
+      "label": "Tropical Trees",
+      "items": ["Palm", "Mango", "Teak", "Mahogany"]
+    },
+    { "id": "fruit", "label": "Fruit Trees", "items": ["Apple", "Cherry", "Pear", "Plum"] }
+  ]
+}

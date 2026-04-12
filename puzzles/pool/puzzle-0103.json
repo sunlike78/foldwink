@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0103",
+  "title": "Sole mates",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "fashion",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "athletic",
+      "label": "Athletic Shoes",
+      "items": ["Sneaker", "Cleat", "Running Shoe", "High-Top"]
+    },
+    {
+      "id": "formal",
+      "label": "Formal Footwear",
+      "items": ["Oxford", "Loafer", "Derby", "Brogue"]
+    },
+    {
+      "id": "casual",
+      "label": "Casual Footwear",
+      "items": ["Sandal", "Flip-Flop", "Espadrille", "Moccasin"]
+    },
+    {
+      "id": "boot",
+      "label": "Boots",
+      "items": ["Chelsea", "Cowboy", "Hiking Boot", "Wellington"]
+    }
+  ]
+}

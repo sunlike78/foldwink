@@ -1,0 +1,39 @@
+{
+  "id": "hard-006",
+  "title": "Time signatures",
+  "difficulty": "hard",
+  "editorialSummary": "Four aspects of time across domains. Musical time, geological time, cooking time, sports time. Quarter/Period/Season overlap heavily.",
+  "meta": {
+    "theme": "time",
+    "categoryType": "thematic",
+    "fairnessRisk": 1,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "musical",
+      "label": "Musical time",
+      "revealHint": "Music",
+      "items": ["Tempo", "Beat", "Syncopation", "Fermata"]
+    },
+    {
+      "id": "geological",
+      "label": "Geological time",
+      "revealHint": "Geology",
+      "items": ["Epoch", "Era", "Eon", "Period"]
+    },
+    {
+      "id": "cooking",
+      "label": "Cooking times",
+      "revealHint": "Cooking",
+      "items": ["Simmer", "Braise", "Blanch", "Marinate"]
+    },
+    {
+      "id": "sports",
+      "label": "Sports time",
+      "revealHint": "Sports",
+      "items": ["Quarter", "Overtime", "Halftime", "Inning"]
+    }
+  ]
+}

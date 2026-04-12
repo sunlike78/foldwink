@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0100",
+  "title": "On the road",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "transport",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "air",
+      "label": "Air Transport",
+      "items": ["Helicopter", "Blimp", "Glider", "Biplane"]
+    },
+    {
+      "id": "rail",
+      "label": "Rail Transport",
+      "items": ["Monorail", "Tram", "Freight Train", "Maglev"]
+    },
+    {
+      "id": "water",
+      "label": "Water Transport",
+      "items": ["Kayak", "Ferry", "Tugboat", "Canoe"]
+    },
+    {
+      "id": "road",
+      "label": "Road Vehicles",
+      "items": ["Scooter", "Minivan", "Ambulance", "Rickshaw"]
+    }
+  ]
+}

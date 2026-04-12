@@ -1,0 +1,39 @@
+{
+  "id": "hard-008",
+  "title": "State of mind",
+  "difficulty": "hard",
+  "editorialSummary": "Four meanings of state — political, physical, emotional, computational. State/Process/Phase overlap across groups.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "political",
+      "label": "Political state",
+      "revealHint": "Political",
+      "items": ["Sovereignty", "Border", "Capitol", "Embassy"]
+    },
+    {
+      "id": "matter",
+      "label": "States of matter",
+      "revealHint": "Matter",
+      "items": ["Solid", "Liquid", "Plasma", "Gas"]
+    },
+    {
+      "id": "emotion",
+      "label": "Emotional states",
+      "revealHint": "Emotion",
+      "items": ["Euphoria", "Anxiety", "Serenity", "Dread"]
+    },
+    {
+      "id": "computing",
+      "label": "Program state",
+      "revealHint": "Program",
+      "items": ["Variable", "Boolean", "Stack", "Cache"]
+    }
+  ]
+}

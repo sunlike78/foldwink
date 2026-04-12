@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0130",
+  "title": "Pitch dark",
+  "difficulty": "medium",
+  "editorialSummary": "Four types of pitch.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "sound",
+      "label": "Sound pitch",
+      "revealHint": "Sound",
+      "items": ["Frequency", "Treble", "Bass", "Octave"]
+    },
+    {
+      "id": "sport",
+      "label": "Sports pitch",
+      "revealHint": "Sport",
+      "items": ["Wicket", "Penalty Box", "Sideline", "Goal Line"]
+    },
+    {
+      "id": "sales",
+      "label": "Sales pitch",
+      "revealHint": "Sales",
+      "items": ["Elevator", "Proposal", "Demo", "Closing"]
+    },
+    {
+      "id": "tar",
+      "label": "Pitch as tar",
+      "revealHint": "Tar",
+      "items": ["Asphalt", "Bitumen", "Resin", "Creosote"]
+    }
+  ]
+}

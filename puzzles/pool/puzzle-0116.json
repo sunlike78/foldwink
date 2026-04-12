@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0116",
+  "title": "Pitch perfect",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "ball",
+      "label": "Ball Sports",
+      "items": ["Cricket", "Lacrosse", "Polo", "Squash"]
+    },
+    {
+      "id": "water",
+      "label": "Water Sports",
+      "items": ["Rowing", "Sailing", "Surfing", "Water Polo"]
+    },
+    {
+      "id": "combat",
+      "label": "Combat Sports",
+      "items": ["Fencing", "Judo", "Karate", "Taekwondo"]
+    },
+    {
+      "id": "track",
+      "label": "Track and Field",
+      "items": ["Hurdles", "Javelin", "Discus", "Shot Put"]
+    }
+  ]
+}

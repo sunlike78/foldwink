@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0120",
+  "title": "Spring forward",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of spring.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "season",
+      "label": "Spring season",
+      "revealHint": "Season",
+      "items": ["Equinox", "Blossom", "Thaw", "Pollen"]
+    },
+    {
+      "id": "water",
+      "label": "Water springs",
+      "revealHint": "Water",
+      "items": ["Geyser", "Well", "Aquifer", "Hot Spring"]
+    },
+    {
+      "id": "coil",
+      "label": "Coil springs",
+      "revealHint": "Coil",
+      "items": ["Mattress", "Shock Absorber", "Trampoline", "Clockwork"]
+    },
+    {
+      "id": "jump",
+      "label": "Spring jumps",
+      "revealHint": "Jump",
+      "items": ["Leap", "Vault", "Bound", "Pounce"]
+    }
+  ]
+}

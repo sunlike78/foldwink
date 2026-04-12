@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0101",
+  "title": "Fabric of life",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "materials",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "natural",
+      "label": "Natural Fibres",
+      "items": ["Cotton", "Linen", "Silk", "Wool"]
+    },
+    {
+      "id": "synthetic",
+      "label": "Synthetic Fabrics",
+      "items": ["Nylon", "Polyester", "Spandex", "Acrylic"]
+    },
+    {
+      "id": "weave",
+      "label": "Weave Patterns",
+      "items": ["Twill", "Satin", "Herringbone", "Jacquard"]
+    },
+    {
+      "id": "garment",
+      "label": "Garment Types",
+      "items": ["Tunic", "Kaftan", "Poncho", "Sarong"]
+    }
+  ]
+}

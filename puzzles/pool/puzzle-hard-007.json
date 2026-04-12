@@ -1,0 +1,39 @@
+{
+  "id": "hard-007",
+  "title": "Field study",
+  "difficulty": "hard",
+  "editorialSummary": "Four types of field — agricultural, magnetic, academic, sports. Boundary/Crop/Current/Thesis are the cross-trail items.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "farm",
+      "label": "Farm field",
+      "revealHint": "Farm",
+      "items": ["Furrow", "Harvest", "Fallow", "Irrigation"]
+    },
+    {
+      "id": "magnetic",
+      "label": "Magnetic field",
+      "revealHint": "Magnetic",
+      "items": ["Flux", "Pole", "Gauss", "Induction"]
+    },
+    {
+      "id": "academic",
+      "label": "Academic field",
+      "revealHint": "Academic",
+      "items": ["Thesis", "Discipline", "Faculty", "Peer Review"]
+    },
+    {
+      "id": "sports",
+      "label": "Sports field",
+      "revealHint": "Sports",
+      "items": ["Sideline", "Touchline", "Endzone", "Boundary"]
+    }
+  ]
+}

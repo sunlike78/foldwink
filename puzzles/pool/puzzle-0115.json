@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0115",
+  "title": "Lab bench",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "science",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "element",
+      "label": "Noble Gases",
+      "items": ["Helium", "Neon", "Argon", "Krypton"]
+    },
+    {
+      "id": "acid",
+      "label": "Common Acids",
+      "items": ["Citric", "Acetic", "Sulfuric", "Hydrochloric"]
+    },
+    {
+      "id": "unit",
+      "label": "Measurement Units",
+      "items": ["Kelvin", "Mole", "Joule", "Pascal"]
+    },
+    {
+      "id": "equip",
+      "label": "Lab Equipment",
+      "items": ["Beaker", "Pipette", "Bunsen Burner", "Petri Dish"]
+    }
+  ]
+}

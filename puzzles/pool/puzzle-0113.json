@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0113",
+  "title": "Spice rack",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "warm",
+      "label": "Warm Spices",
+      "items": ["Cinnamon", "Nutmeg", "Clove", "Allspice"]
+    },
+    {
+      "id": "hot",
+      "label": "Hot Spices",
+      "items": ["Cayenne", "Chili Flake", "Habanero", "Sriracha"]
+    },
+    {
+      "id": "herb",
+      "label": "Dried Herbs",
+      "items": ["Oregano", "Thyme", "Rosemary", "Basil"]
+    },
+    {
+      "id": "seed",
+      "label": "Seed Spices",
+      "items": ["Cumin", "Coriander", "Fennel", "Mustard Seed"]
+    }
+  ]
+}

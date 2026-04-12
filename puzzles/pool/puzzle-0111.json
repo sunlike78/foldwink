@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0111",
+  "title": "Toolbox",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "tools",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "fasten",
+      "label": "Fastening Tools",
+      "items": ["Hammer", "Screwdriver", "Wrench", "Pliers"]
+    },
+    {
+      "id": "measure",
+      "label": "Measuring Tools",
+      "items": ["Level", "Tape Measure", "Ruler", "Caliper"]
+    },
+    {
+      "id": "cut",
+      "label": "Cutting Tools",
+      "items": ["Hacksaw", "Chisel", "Utility Knife", "Tin Snips"]
+    },
+    { "id": "power", "label": "Power Tools", "items": ["Drill", "Jigsaw", "Sander", "Grinder"] }
+  ]
+}

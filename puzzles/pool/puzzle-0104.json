@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0104",
+  "title": "Pasta party",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "long",
+      "label": "Long Pasta",
+      "items": ["Spaghetti", "Linguine", "Fettuccine", "Tagliatelle"]
+    },
+    {
+      "id": "short",
+      "label": "Short Pasta",
+      "items": ["Penne", "Rigatoni", "Fusilli", "Farfalle"]
+    },
+    {
+      "id": "stuffed",
+      "label": "Stuffed Pasta",
+      "items": ["Ravioli", "Tortellini", "Cannelloni", "Agnolotti"]
+    },
+    {
+      "id": "soup",
+      "label": "Soup Pasta",
+      "items": ["Orzo", "Stelline", "Ditalini", "Acini di Pepe"]
+    }
+  ]
+}

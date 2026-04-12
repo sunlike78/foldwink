@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0128",
+  "title": "Cloud atlas",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of cloud.",
+  "meta": {
+    "theme": "technology",
+    "categoryType": "thematic",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "weather",
+      "label": "Cloud types",
+      "revealHint": "Weather",
+      "items": ["Cumulus", "Stratus", "Nimbus", "Cirrostratus"]
+    },
+    {
+      "id": "tech",
+      "label": "Cloud computing",
+      "revealHint": "Computing",
+      "items": ["Server", "Container", "Lambda", "Bucket"]
+    },
+    {
+      "id": "emotion",
+      "label": "Clouded judgment",
+      "revealHint": "Emotion",
+      "items": ["Doubt", "Suspicion", "Confusion", "Uncertainty"]
+    },
+    {
+      "id": "coffee",
+      "label": "Cloud in coffee",
+      "revealHint": "Coffee",
+      "items": ["Latte Art", "Foam", "Steamed Milk", "Crema"]
+    }
+  ]
+}

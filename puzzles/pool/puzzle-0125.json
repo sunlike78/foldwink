@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0125",
+  "title": "Deep blue",
+  "difficulty": "medium",
+  "editorialSummary": "Things associated with blue.",
+  "meta": {
+    "theme": "colour",
+    "categoryType": "thematic",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "emotion",
+      "label": "Feeling blue",
+      "revealHint": "Emotion",
+      "items": ["Melancholy", "Longing", "Wistful", "Pensive"]
+    },
+    {
+      "id": "sea",
+      "label": "Blue sea",
+      "revealHint": "Sea",
+      "items": ["Lagoon", "Sapphire", "Cobalt", "Azure"]
+    },
+    {
+      "id": "music",
+      "label": "Blues music",
+      "revealHint": "Music",
+      "items": ["Delta", "Slide Guitar", "Twelve-Bar", "Muddy"]
+    },
+    {
+      "id": "sky",
+      "label": "Blue sky",
+      "revealHint": "Sky",
+      "items": ["Zenith", "Horizon", "Cirrus", "Canopy"]
+    }
+  ]
+}

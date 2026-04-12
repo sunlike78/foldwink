@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0118",
+  "title": "Tech stack",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "technology",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "lang",
+      "label": "Programming Languages",
+      "items": ["Python", "Rust", "Swift", "Kotlin"]
+    },
+    { "id": "db", "label": "Databases", "items": ["Postgres", "MongoDB", "Redis", "SQLite"] },
+    {
+      "id": "cloud",
+      "label": "Cloud Platforms",
+      "items": ["AWS", "Azure", "Vercel", "Heroku"]
+    },
+    {
+      "id": "editor",
+      "label": "Code Editors",
+      "items": ["VS Code", "Neovim", "Sublime", "Emacs"]
+    }
+  ]
+}

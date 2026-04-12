@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0117",
+  "title": "Household chores",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "household",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "clean",
+      "label": "Cleaning Tasks",
+      "items": ["Vacuuming", "Mopping", "Dusting", "Scrubbing"]
+    },
+    {
+      "id": "laundry",
+      "label": "Laundry Tasks",
+      "items": ["Ironing", "Folding", "Sorting", "Hanging"]
+    },
+    {
+      "id": "kitchen",
+      "label": "Kitchen Tasks",
+      "items": ["Washing Up", "Wiping Counter", "Emptying Bin", "Loading Dishwasher"]
+    },
+    {
+      "id": "outdoor",
+      "label": "Outdoor Tasks",
+      "items": ["Mowing", "Raking", "Sweeping Path", "Weeding"]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "hard-002",
+  "title": "Double agent",
+  "difficulty": "hard",
+  "editorialSummary": "Words that serve as both a profession and something else entirely. Teacher/Coach/Judge/Pilot all have non-profession meanings that overlap with other groups.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "light",
+      "label": "Types of light",
+      "revealHint": "Light",
+      "items": ["Pilot", "Flash", "Beam", "Strobe"]
+    },
+    {
+      "id": "card",
+      "label": "Card game terms",
+      "revealHint": "Cards",
+      "items": ["Dealer", "Shuffle", "Draw", "Fold"]
+    },
+    {
+      "id": "court",
+      "label": "Court terms",
+      "revealHint": "Court",
+      "items": ["Judge", "Witness", "Appeal", "Bail"]
+    },
+    {
+      "id": "fabric",
+      "label": "Fabric actions",
+      "revealHint": "Fabric",
+      "items": ["Weave", "Dye", "Press", "Stitch"]
+    }
+  ]
+}

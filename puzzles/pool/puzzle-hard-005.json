@@ -1,0 +1,40 @@
+{
+  "id": "hard-005",
+  "title": "Compound interest",
+  "difficulty": "hard",
+  "editorialSummary": "All 16 words form compound words with a hidden shared second word. The four groups share: -light, -work, -line, -stone. Moonlight/Moonstone is the main trap.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "fairnessRisk": 2,
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "light",
+      "label": "___ light",
+      "revealHint": "Light",
+      "items": ["Moon", "Spot", "Flash", "Star"]
+    },
+    {
+      "id": "work",
+      "label": "___ work",
+      "revealHint": "Work",
+      "items": ["Frame", "Ground", "Team", "Net"]
+    },
+    {
+      "id": "line",
+      "label": "___ line",
+      "revealHint": "Line",
+      "items": ["Dead", "Head", "Shore", "Guide"]
+    },
+    {
+      "id": "stone",
+      "label": "___ stone",
+      "revealHint": "Stone",
+      "items": ["Key", "Lime", "Mile", "Corner"]
+    }
+  ]
+}

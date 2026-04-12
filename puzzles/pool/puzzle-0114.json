@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0114",
+  "title": "Brush strokes",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "art",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "medium",
+      "label": "Art Media",
+      "items": ["Watercolour", "Charcoal", "Pastel", "Gouache"]
+    },
+    {
+      "id": "movement",
+      "label": "Art Movements",
+      "items": ["Cubism", "Surrealism", "Baroque", "Minimalism"]
+    },
+    { "id": "tool", "label": "Art Tools", "items": ["Easel", "Palette", "Canvas", "Brush"] },
+    {
+      "id": "genre",
+      "label": "Art Genres",
+      "items": ["Landscape", "Portrait", "Still Life", "Abstract"]
+    }
+  ]
+}

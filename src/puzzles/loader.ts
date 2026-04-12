@@ -10,7 +10,8 @@ function isValidPuzzle(value: unknown): value is Puzzle {
   const v = value as Record<string, unknown>;
   if (typeof v.id !== "string" || !v.id) return false;
   if (typeof v.title !== "string" || !v.title) return false;
-  if (v.difficulty !== "easy" && v.difficulty !== "medium") return false;
+  if (v.difficulty !== "easy" && v.difficulty !== "medium" && v.difficulty !== "hard")
+    return false;
   if (!Array.isArray(v.groups) || v.groups.length !== 4) return false;
   for (const g of v.groups as unknown[]) {
     if (!g || typeof g !== "object") return false;

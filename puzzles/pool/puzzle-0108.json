@@ -1,0 +1,25 @@
+{
+  "id": "puzzle-0108",
+  "title": "Under the sea",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "mammal",
+      "label": "Marine Mammals",
+      "items": ["Dolphin", "Whale", "Seal", "Manatee"]
+    },
+    { "id": "fish", "label": "Common Fish", "items": ["Tuna", "Salmon", "Cod", "Sardine"] },
+    { "id": "shell", "label": "Shellfish", "items": ["Lobster", "Crab", "Shrimp", "Oyster"] },
+    {
+      "id": "coral",
+      "label": "Reef Dwellers",
+      "items": ["Clownfish", "Seahorse", "Starfish", "Anemone"]
+    }
+  ]
+}

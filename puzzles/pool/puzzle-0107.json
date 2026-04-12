@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0107",
+  "title": "Breakfast table",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-01",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "bread",
+      "label": "Bread-Based",
+      "items": ["Toast", "Bagel", "Croissant", "Waffle"]
+    },
+    {
+      "id": "egg",
+      "label": "Egg Dishes",
+      "items": ["Omelette", "Scrambled", "Poached", "Frittata"]
+    },
+    {
+      "id": "cereal",
+      "label": "Cereals and Grains",
+      "items": ["Oatmeal", "Granola", "Muesli", "Cornflakes"]
+    },
+    {
+      "id": "drink",
+      "label": "Morning Drinks",
+      "items": ["Espresso", "Matcha", "Smoothie", "Chai"]
+    }
+  ]
+}
