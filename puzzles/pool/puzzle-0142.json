@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0142",
+  "title": "Photo finish",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "photography",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "type",
+      "label": "Photo Styles",
+      "items": ["Portrait", "Landscape", "Macro", "Street"]
+    },
+    {
+      "id": "setting",
+      "label": "Camera Settings",
+      "items": ["Aperture", "Shutter Speed", "ISO", "White Balance"]
+    },
+    { "id": "gear", "label": "Camera Gear", "items": ["Tripod", "Lens", "Flash", "Filter"] },
+    {
+      "id": "edit",
+      "label": "Editing Terms",
+      "items": ["Crop", "Exposure", "Saturation", "Contrast"]
+    }
+  ]
+}

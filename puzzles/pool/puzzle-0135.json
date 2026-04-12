@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0135",
+  "title": "Top shelf",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "fashion",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "formal",
+      "label": "Formal Hats",
+      "items": ["Top Hat", "Bowler", "Fedora", "Trilby"]
+    },
+    {
+      "id": "warm",
+      "label": "Warm Headwear",
+      "items": ["Beanie", "Ushanka", "Trapper", "Balaclava"]
+    },
+    {
+      "id": "sun",
+      "label": "Sun Hats",
+      "items": ["Panama", "Straw Hat", "Visor", "Bucket Hat"]
+    },
+    {
+      "id": "sport",
+      "label": "Sport Caps",
+      "items": ["Baseball Cap", "Cycling Helmet", "Swim Cap", "Jockey Cap"]
+    }
+  ]
+}

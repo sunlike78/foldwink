@@ -1,0 +1,39 @@
+{
+  "id": "hard-020",
+  "title": "Black box",
+  "difficulty": "hard",
+  "editorialSummary": "Four domains where black is significant.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "chess",
+      "label": "Black in chess",
+      "revealHint": "Chess",
+      "items": ["King", "Queen", "Rook", "Bishop"]
+    },
+    {
+      "id": "market",
+      "label": "Black market",
+      "revealHint": "Market",
+      "items": ["Contraband", "Smuggle", "Underground", "Counterfeit"]
+    },
+    {
+      "id": "comedy",
+      "label": "Black comedy",
+      "revealHint": "Comedy",
+      "items": ["Satire", "Gallows Humour", "Irony", "Parody"]
+    },
+    {
+      "id": "flight",
+      "label": "Black box (flight)",
+      "revealHint": "Flight",
+      "items": ["Cockpit Voice", "Data Recorder", "Crash", "Investigation"]
+    }
+  ]
+}

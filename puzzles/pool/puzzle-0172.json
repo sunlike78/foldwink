@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0172",
+  "title": "Drive time",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of drive — car, motivation, computing, golf. Hard/Data overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "car",
+      "label": "Driving a car",
+      "revealHint": "Car",
+      "items": ["Steering", "Gear", "Accelerate", "Brake"]
+    },
+    {
+      "id": "motivation",
+      "label": "Inner drive",
+      "revealHint": "Motivation",
+      "items": ["Ambition", "Determination", "Willpower", "Tenacity"]
+    },
+    {
+      "id": "computing",
+      "label": "Computer drive",
+      "revealHint": "Computing",
+      "items": ["Hard Drive", "SSD", "Partition", "Format"]
+    },
+    {
+      "id": "golf",
+      "label": "Golf drive",
+      "revealHint": "Golf",
+      "items": ["Tee", "Fairway", "Driver", "Backswing"]
+    }
+  ]
+}

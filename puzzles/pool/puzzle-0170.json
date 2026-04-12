@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0170",
+  "title": "Concrete jungle",
+  "difficulty": "medium",
+  "editorialSummary": "Four senses of concrete — material, abstract opposite, evidence, music genre. Solid/Foundation overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "material",
+      "label": "Concrete (material)",
+      "revealHint": "Material",
+      "items": ["Cement", "Aggregate", "Reinforced", "Rebar"]
+    },
+    {
+      "id": "definite",
+      "label": "Concrete (definite)",
+      "revealHint": "Definite",
+      "items": ["Tangible", "Specific", "Measurable", "Verifiable"]
+    },
+    {
+      "id": "evidence",
+      "label": "Concrete evidence",
+      "revealHint": "Evidence",
+      "items": ["Proof", "Testimony", "Exhibit", "Forensic"]
+    },
+    {
+      "id": "urban",
+      "label": "Concrete jungle",
+      "revealHint": "Urban",
+      "items": ["Skyline", "Sprawl", "Overpass", "Subway"]
+    }
+  ]
+}

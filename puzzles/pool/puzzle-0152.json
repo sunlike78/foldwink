@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0152",
+  "title": "Cold comfort",
+  "difficulty": "medium",
+  "editorialSummary": "Things associated with cold — temperature, personality, illness, colour. Chill/Frost overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "temp",
+      "label": "Cold temperatures",
+      "revealHint": "Temp",
+      "items": ["Frostbite", "Hypothermia", "Permafrost", "Glacial"]
+    },
+    {
+      "id": "person",
+      "label": "Cold personality",
+      "revealHint": "Person",
+      "items": ["Aloof", "Distant", "Stoic", "Detached"]
+    },
+    {
+      "id": "illness",
+      "label": "Cold symptoms",
+      "revealHint": "Illness",
+      "items": ["Sneeze", "Sniffle", "Congestion", "Sore Throat"]
+    },
+    {
+      "id": "colour",
+      "label": "Cool colours",
+      "revealHint": "Colour",
+      "items": ["Slate", "Pewter", "Ash", "Silver"]
+    }
+  ]
+}

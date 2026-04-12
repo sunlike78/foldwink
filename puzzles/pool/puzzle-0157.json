@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0157",
+  "title": "Sound waves",
+  "difficulty": "medium",
+  "editorialSummary": "Things that make waves — ocean, sound, hair, social media. Curl/Frequency overlap.",
+  "meta": {
+    "theme": "science",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "ocean",
+      "label": "Ocean waves",
+      "revealHint": "Ocean",
+      "items": ["Swell", "Breaker", "Whitecap", "Tsunami"]
+    },
+    {
+      "id": "sound",
+      "label": "Sound waves",
+      "revealHint": "Sound",
+      "items": ["Amplitude", "Frequency", "Echo", "Resonance"]
+    },
+    {
+      "id": "hair",
+      "label": "Hair waves",
+      "revealHint": "Hair",
+      "items": ["Curl", "Perm", "Crimp", "Marcel"]
+    },
+    {
+      "id": "social",
+      "label": "Social waves",
+      "revealHint": "Social",
+      "items": ["Trend", "Viral", "Movement", "Uprising"]
+    }
+  ]
+}

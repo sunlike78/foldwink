@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0153",
+  "title": "Heavy lifting",
+  "difficulty": "medium",
+  "editorialSummary": "Four senses of weight — physical, emotional, importance, typography. Bold/Heavy cross-trail.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "physical",
+      "label": "Physical weight",
+      "revealHint": "Physical",
+      "items": ["Anvil", "Boulder", "Anchor", "Barbell"]
+    },
+    {
+      "id": "emotional",
+      "label": "Emotional weight",
+      "revealHint": "Emotional",
+      "items": ["Grief", "Burden", "Guilt", "Responsibility"]
+    },
+    {
+      "id": "importance",
+      "label": "Weighty matters",
+      "revealHint": "Serious",
+      "items": ["Verdict", "Precedent", "Consequence", "Mandate"]
+    },
+    {
+      "id": "type",
+      "label": "Font weight",
+      "revealHint": "Font",
+      "items": ["Bold", "Light", "Regular", "Semibold"]
+    }
+  ]
+}

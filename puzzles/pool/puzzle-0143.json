@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0143",
+  "title": "Ancient world",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "egypt",
+      "label": "Ancient Egypt",
+      "items": ["Pharaoh", "Pyramid", "Sphinx", "Hieroglyph"]
+    },
+    {
+      "id": "rome",
+      "label": "Ancient Rome",
+      "items": ["Gladiator", "Colosseum", "Senate", "Aqueduct"]
+    },
+    {
+      "id": "greece",
+      "label": "Ancient Greece",
+      "items": ["Acropolis", "Agora", "Amphitheatre", "Parthenon"]
+    },
+    {
+      "id": "china",
+      "label": "Ancient China",
+      "items": ["Dynasty", "Great Wall", "Terracotta", "Silk Road"]
+    }
+  ]
+}

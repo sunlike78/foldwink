@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0133",
+  "title": "Currency exchange",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "geography",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "europe",
+      "label": "European Currencies",
+      "items": ["Euro", "Pound", "Krona", "Franc"]
+    },
+    { "id": "asia", "label": "Asian Currencies", "items": ["Yen", "Rupee", "Baht", "Won"] },
+    {
+      "id": "americas",
+      "label": "American Currencies",
+      "items": ["Dollar", "Peso", "Real", "Sol"]
+    },
+    {
+      "id": "historical",
+      "label": "Historical Currencies",
+      "items": ["Drachma", "Guilder", "Lira", "Mark"]
+    }
+  ]
+}

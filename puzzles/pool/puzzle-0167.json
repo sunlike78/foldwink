@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0167",
+  "title": "Net worth",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of net — fishing, internet, sports, financial. Web/Catch overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "fish",
+      "label": "Fishing net",
+      "revealHint": "Fishing",
+      "items": ["Trawl", "Seine", "Gill Net", "Cast Net"]
+    },
+    {
+      "id": "internet",
+      "label": "Internet",
+      "revealHint": "Internet",
+      "items": ["Browser", "Router", "Bandwidth", "Firewall"]
+    },
+    {
+      "id": "sports",
+      "label": "Sports net",
+      "revealHint": "Sports",
+      "items": ["Badminton", "Volleyball", "Tennis Net", "Goal Net"]
+    },
+    {
+      "id": "finance",
+      "label": "Net finance",
+      "revealHint": "Finance",
+      "items": ["Profit", "Income", "Revenue", "Margin"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0146",
+  "title": "At the market",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "berry",
+      "label": "Berries",
+      "items": ["Blueberry", "Raspberry", "Blackberry", "Cranberry"]
+    },
+    {
+      "id": "citrus",
+      "label": "Citrus Fruits",
+      "items": ["Grapefruit", "Lime", "Tangerine", "Kumquat"]
+    },
+    {
+      "id": "tropical",
+      "label": "Tropical Fruits",
+      "items": ["Mango", "Papaya", "Guava", "Passion Fruit"]
+    },
+    { "id": "stone", "label": "Stone Fruits", "items": ["Peach", "Plum", "Cherry", "Apricot"] }
+  ]
+}

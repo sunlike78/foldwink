@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0162",
+  "title": "Bank statement",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of bank — financial, river, blood, data. Reserve/Deposit overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "money",
+      "label": "Financial bank",
+      "revealHint": "Finance",
+      "items": ["Vault", "Mortgage", "Interest", "Loan"]
+    },
+    {
+      "id": "river",
+      "label": "River bank",
+      "revealHint": "River",
+      "items": ["Embankment", "Levee", "Shore", "Floodplain"]
+    },
+    {
+      "id": "blood",
+      "label": "Blood bank",
+      "revealHint": "Blood",
+      "items": ["Donor", "Transfusion", "Plasma", "Type"]
+    },
+    {
+      "id": "data",
+      "label": "Data bank",
+      "revealHint": "Data",
+      "items": ["Repository", "Archive", "Backup", "Storage"]
+    }
+  ]
+}

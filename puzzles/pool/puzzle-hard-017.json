@@ -1,0 +1,39 @@
+{
+  "id": "hard-017",
+  "title": "Glass ceiling",
+  "difficulty": "hard",
+  "editorialSummary": "Four kinds of glass.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "material",
+      "label": "Glass material",
+      "revealHint": "Material",
+      "items": ["Tempered", "Stained", "Blown", "Frosted"]
+    },
+    {
+      "id": "drinking",
+      "label": "Drinking glass",
+      "revealHint": "Drinking",
+      "items": ["Tumbler", "Flute", "Goblet", "Snifter"]
+    },
+    {
+      "id": "optical",
+      "label": "Optical glass",
+      "revealHint": "Optical",
+      "items": ["Monocle", "Prism", "Magnifier", "Spectacles"]
+    },
+    {
+      "id": "metaphor",
+      "label": "Glass metaphor",
+      "revealHint": "Metaphor",
+      "items": ["Ceiling", "Half Full", "Fragile", "Shatter"]
+    }
+  ]
+}

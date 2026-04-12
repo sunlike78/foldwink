@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0163",
+  "title": "Court order",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of court — legal, royal, tennis, courtship. Serve/Rule overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "legal",
+      "label": "Legal court",
+      "revealHint": "Legal",
+      "items": ["Jury", "Gavel", "Plaintiff", "Testimony"]
+    },
+    {
+      "id": "royal",
+      "label": "Royal court",
+      "revealHint": "Royal",
+      "items": ["Throne", "Chamberlain", "Herald", "Page"]
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis court",
+      "revealHint": "Tennis",
+      "items": ["Baseline", "Deuce", "Volley", "Ace"]
+    },
+    {
+      "id": "romance",
+      "label": "Courtship",
+      "revealHint": "Romance",
+      "items": ["Suitor", "Bouquet", "Serenade", "Proposal"]
+    }
+  ]
+}

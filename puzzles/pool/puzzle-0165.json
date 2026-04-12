@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0165",
+  "title": "Pocket watch",
+  "difficulty": "medium",
+  "editorialSummary": "Four things you watch — TV, birds, time, sports. Screen/Field overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "tv",
+      "label": "Watching TV",
+      "revealHint": "TV",
+      "items": ["Binge", "Episode", "Season", "Streaming"]
+    },
+    {
+      "id": "birds",
+      "label": "Birdwatching",
+      "revealHint": "Birds",
+      "items": ["Binoculars", "Field Guide", "Migration", "Nesting"]
+    },
+    {
+      "id": "time",
+      "label": "Watching time",
+      "revealHint": "Time",
+      "items": ["Wristwatch", "Sundial", "Hourglass", "Stopwatch"]
+    },
+    {
+      "id": "sports",
+      "label": "Spectating",
+      "revealHint": "Spectate",
+      "items": ["Stadium", "Bleachers", "Replay", "Commentary"]
+    }
+  ]
+}

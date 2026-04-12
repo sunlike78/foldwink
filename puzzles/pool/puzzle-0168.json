@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0168",
+  "title": "Paper trail",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of paper — writing, newspaper, academic, origami. Fold/Publish overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "write",
+      "label": "Writing paper",
+      "revealHint": "Writing",
+      "items": ["Parchment", "Vellum", "Letterhead", "Stationery"]
+    },
+    {
+      "id": "news",
+      "label": "Newspaper",
+      "revealHint": "News",
+      "items": ["Headline", "Editorial", "Column", "Classified"]
+    },
+    {
+      "id": "academic",
+      "label": "Academic paper",
+      "revealHint": "Academic",
+      "items": ["Abstract", "Citation", "Peer Review", "Journal"]
+    },
+    {
+      "id": "origami",
+      "label": "Paper folding",
+      "revealHint": "Origami",
+      "items": ["Crane", "Lotus", "Fortune Teller", "Swan"]
+    }
+  ]
+}

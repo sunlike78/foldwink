@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0173",
+  "title": "Stamp collecting",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of stamp — postage, rubber, document, dance. Mark/Press overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "postage",
+      "label": "Postage stamp",
+      "revealHint": "Postage",
+      "items": ["Philately", "Perforated", "First Class", "Commemorative"]
+    },
+    {
+      "id": "rubber",
+      "label": "Rubber stamp",
+      "revealHint": "Rubber",
+      "items": ["Ink Pad", "Emboss", "Notarize", "Seal"]
+    },
+    {
+      "id": "document",
+      "label": "Stamp of approval",
+      "revealHint": "Approval",
+      "items": ["Endorse", "Certify", "Authorize", "Ratify"]
+    },
+    {
+      "id": "dance",
+      "label": "Foot stamp",
+      "revealHint": "Dance",
+      "items": ["Flamenco", "Stomp", "Clog", "Tap"]
+    }
+  ]
+}

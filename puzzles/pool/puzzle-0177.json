@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0177",
+  "title": "Point blank",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of point — geometry, score, argument, sharp end. Score/Tip overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "geometry",
+      "label": "Geometric point",
+      "revealHint": "Geometry",
+      "items": ["Vertex", "Origin", "Intersection", "Coordinate"]
+    },
+    {
+      "id": "score",
+      "label": "Scoring point",
+      "revealHint": "Score",
+      "items": ["Goal", "Penalty", "Bonus", "Deduction"]
+    },
+    {
+      "id": "argument",
+      "label": "Argument point",
+      "revealHint": "Argument",
+      "items": ["Thesis", "Rebuttal", "Stance", "Counterpoint"]
+    },
+    {
+      "id": "sharp",
+      "label": "Sharp point",
+      "revealHint": "Sharp",
+      "items": ["Needle", "Thorn", "Spear", "Arrow"]
+    }
+  ]
+}

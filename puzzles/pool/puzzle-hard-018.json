@@ -1,0 +1,39 @@
+{
+  "id": "hard-018",
+  "title": "Blind justice",
+  "difficulty": "hard",
+  "editorialSummary": "Four professional domains with specialist terms.",
+  "meta": {
+    "theme": "professions",
+    "categoryType": "thematic",
+    "fairnessRisk": 2,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "law",
+      "label": "Legal terms",
+      "revealHint": "Legal",
+      "items": ["Statute", "Precedent", "Injunction", "Deposition"]
+    },
+    {
+      "id": "medicine",
+      "label": "Medical terms",
+      "revealHint": "Medical",
+      "items": ["Diagnosis", "Prognosis", "Symptom", "Prescription"]
+    },
+    {
+      "id": "architecture",
+      "label": "Architectural terms",
+      "revealHint": "Architect",
+      "items": ["Cornice", "Balustrade", "Parapet", "Pediment"]
+    },
+    {
+      "id": "music",
+      "label": "Musical terms",
+      "revealHint": "Musical",
+      "items": ["Crescendo", "Staccato", "Legato", "Fortissimo"]
+    }
+  ]
+}

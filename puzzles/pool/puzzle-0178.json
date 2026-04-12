@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0178",
+  "title": "Press release",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of press — media, button, gym, wine. Squeeze/Publish overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "media",
+      "label": "Press (media)",
+      "revealHint": "Media",
+      "items": ["Reporter", "Headline", "Byline", "Newsroom"]
+    },
+    {
+      "id": "button",
+      "label": "Press (button)",
+      "revealHint": "Button",
+      "items": ["Click", "Toggle", "Switch", "Latch"]
+    },
+    {
+      "id": "gym",
+      "label": "Press (exercise)",
+      "revealHint": "Exercise",
+      "items": ["Bench Press", "Shoulder Press", "Barbell", "Rep"]
+    },
+    {
+      "id": "wine",
+      "label": "Press (wine)",
+      "revealHint": "Wine",
+      "items": ["Vineyard", "Grape", "Barrel", "Cider"]
+    }
+  ]
+}

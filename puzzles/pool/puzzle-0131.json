@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0131",
+  "title": "Winter games",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "ice",
+      "label": "Ice Sports",
+      "items": ["Figure Skating", "Ice Hockey", "Curling", "Speed Skating"]
+    },
+    {
+      "id": "snow",
+      "label": "Snow Sports",
+      "items": ["Biathlon", "Ski Jump", "Snowboard", "Cross-Country"]
+    },
+    {
+      "id": "sled",
+      "label": "Sled Sports",
+      "items": ["Bobsled", "Luge", "Skeleton", "Toboggan"]
+    },
+    {
+      "id": "mountain",
+      "label": "Mountain Sports",
+      "items": ["Alpine Skiing", "Moguls", "Slalom", "Downhill"]
+    }
+  ]
+}

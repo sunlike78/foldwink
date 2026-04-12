@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0151",
+  "title": "Sharp objects",
+  "difficulty": "medium",
+  "editorialSummary": "Four senses of sharpness — blade, intellect, taste, sound. Keen/Edge cross-trail.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "blade",
+      "label": "Sharp edges",
+      "revealHint": "Edge",
+      "items": ["Scalpel", "Razor", "Dagger", "Sickle"]
+    },
+    {
+      "id": "mind",
+      "label": "Sharp mind",
+      "revealHint": "Mind",
+      "items": ["Astute", "Shrewd", "Perceptive", "Cunning"]
+    },
+    {
+      "id": "taste",
+      "label": "Sharp flavour",
+      "revealHint": "Flavour",
+      "items": ["Vinegar", "Mustard", "Wasabi", "Horseradish"]
+    },
+    {
+      "id": "sound",
+      "label": "Sharp sound",
+      "revealHint": "Sound",
+      "items": ["Whistle", "Screech", "Crack", "Snap"]
+    }
+  ]
+}

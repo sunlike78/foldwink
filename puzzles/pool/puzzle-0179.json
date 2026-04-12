@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0179",
+  "title": "Channel surf",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of channel — TV, water, communication, distribution. Stream/Signal overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "tv",
+      "label": "TV channel",
+      "revealHint": "TV",
+      "items": ["Broadcast", "Satellite", "Cable", "Antenna"]
+    },
+    {
+      "id": "water",
+      "label": "Water channel",
+      "revealHint": "Water",
+      "items": ["Canal", "Aqueduct", "Strait", "Spillway"]
+    },
+    {
+      "id": "comms",
+      "label": "Communication channel",
+      "revealHint": "Comms",
+      "items": ["Frequency", "Wavelength", "Transmitter", "Receiver"]
+    },
+    {
+      "id": "business",
+      "label": "Distribution channel",
+      "revealHint": "Distribution",
+      "items": ["Retail", "Wholesale", "Supply", "Logistics"]
+    }
+  ]
+}

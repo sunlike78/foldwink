@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0132",
+  "title": "Say cheese",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "soft",
+      "label": "Soft Cheeses",
+      "items": ["Brie", "Camembert", "Ricotta", "Mozzarella"]
+    },
+    {
+      "id": "hard",
+      "label": "Hard Cheeses",
+      "items": ["Parmesan", "Gruyere", "Manchego", "Cheddar"]
+    },
+    {
+      "id": "blue",
+      "label": "Blue Cheeses",
+      "items": ["Roquefort", "Gorgonzola", "Stilton", "Danish Blue"]
+    },
+    {
+      "id": "fresh",
+      "label": "Fresh Cheeses",
+      "items": ["Feta", "Cottage", "Queso Fresco", "Paneer"]
+    }
+  ]
+}

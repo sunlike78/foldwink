@@ -1,0 +1,39 @@
+{
+  "id": "hard-012",
+  "title": "Fine print",
+  "difficulty": "hard",
+  "editorialSummary": "Four meanings of fine overlap.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "quality",
+      "label": "Fine (quality)",
+      "revealHint": "Quality",
+      "items": ["Exquisite", "Refined", "Elegant", "Impeccable"]
+    },
+    {
+      "id": "penalty",
+      "label": "Fine (penalty)",
+      "revealHint": "Penalty",
+      "items": ["Infraction", "Ticket", "Citation", "Surcharge"]
+    },
+    {
+      "id": "thin",
+      "label": "Fine (thin)",
+      "revealHint": "Thin",
+      "items": ["Thread", "Filament", "Grain", "Mist"]
+    },
+    {
+      "id": "weather",
+      "label": "Fine (weather)",
+      "revealHint": "Weather",
+      "items": ["Clear", "Sunny", "Mild", "Balmy"]
+    }
+  ]
+}

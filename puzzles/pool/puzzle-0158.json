@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0158",
+  "title": "Light reading",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of light — illumination, weight, mood, beer. Pale/Bright overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "illumin",
+      "label": "Light (illumination)",
+      "revealHint": "Illumin",
+      "items": ["Lantern", "Candle", "Torch", "Chandelier"]
+    },
+    {
+      "id": "weight",
+      "label": "Light (weight)",
+      "revealHint": "Weight",
+      "items": ["Feather", "Helium", "Gossamer", "Wisp"]
+    },
+    {
+      "id": "mood",
+      "label": "Lighthearted",
+      "revealHint": "Mood",
+      "items": ["Cheerful", "Breezy", "Playful", "Whimsical"]
+    },
+    {
+      "id": "beer",
+      "label": "Light beer",
+      "revealHint": "Beer",
+      "items": ["Lager", "Pilsner", "Pale Ale", "Session"]
+    }
+  ]
+}

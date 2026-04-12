@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0148",
+  "title": "Building blocks",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "style",
+      "label": "Architectural Styles",
+      "items": ["Gothic", "Art Deco", "Brutalist", "Neoclassical"]
+    },
+    {
+      "id": "element",
+      "label": "Building Elements",
+      "items": ["Column", "Arch", "Dome", "Buttress"]
+    },
+    {
+      "id": "room",
+      "label": "Building Rooms",
+      "items": ["Atrium", "Foyer", "Mezzanine", "Lobby"]
+    },
+    {
+      "id": "material",
+      "label": "Building Materials",
+      "items": ["Concrete", "Marble", "Granite", "Sandstone"]
+    }
+  ]
+}

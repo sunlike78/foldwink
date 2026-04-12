@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0176",
+  "title": "Track record",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of track — music, athletics, railway, evidence. Record/Line overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "music",
+      "label": "Music track",
+      "revealHint": "Music",
+      "items": ["Album", "Single", "Remix", "Playlist"]
+    },
+    {
+      "id": "athletics",
+      "label": "Running track",
+      "revealHint": "Athletics",
+      "items": ["Lane", "Hurdle", "Relay", "Starting Block"]
+    },
+    {
+      "id": "rail",
+      "label": "Railway track",
+      "revealHint": "Railway",
+      "items": ["Sleeper", "Junction", "Signal Box", "Platform"]
+    },
+    {
+      "id": "evidence",
+      "label": "Tracking evidence",
+      "revealHint": "Evidence",
+      "items": ["Footprint", "Trail", "GPS", "Surveillance"]
+    }
+  ]
+}

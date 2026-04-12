@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0144",
+  "title": "Map room",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "geography",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "terrain",
+      "label": "Terrain Types",
+      "items": ["Canyon", "Valley", "Peninsula", "Archipelago"]
+    },
+    {
+      "id": "water",
+      "label": "Water Bodies",
+      "items": ["Fjord", "Strait", "Lagoon", "Estuary"]
+    },
+    {
+      "id": "climate",
+      "label": "Climate Zones",
+      "items": ["Tropical", "Arid", "Temperate", "Polar"]
+    },
+    {
+      "id": "feature",
+      "label": "Map Features",
+      "items": ["Longitude", "Latitude", "Meridian", "Equator"]
+    }
+  ]
+}

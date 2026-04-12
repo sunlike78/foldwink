@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0164",
+  "title": "Plant kingdom",
+  "difficulty": "medium",
+  "editorialSummary": "Four plant classification categories that overlap in everyday perception. Herb/Succulent/Fern/Moss share visual confusion.",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "herb",
+      "label": "Culinary herbs",
+      "revealHint": "Culinary",
+      "items": ["Basil", "Dill", "Tarragon", "Chives"]
+    },
+    {
+      "id": "succulent",
+      "label": "Succulents",
+      "revealHint": "Succulent",
+      "items": ["Aloe", "Jade", "Echeveria", "Haworthia"]
+    },
+    {
+      "id": "fern",
+      "label": "Ferns",
+      "revealHint": "Fern",
+      "items": ["Maidenhair", "Staghorn", "Boston Fern", "Bracken"]
+    },
+    {
+      "id": "moss",
+      "label": "Mosses and lichens",
+      "revealHint": "Moss",
+      "items": ["Sphagnum", "Reindeer Lichen", "Peat", "Club Moss"]
+    }
+  ]
+}

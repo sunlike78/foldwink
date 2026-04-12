@@ -1,0 +1,39 @@
+{
+  "id": "hard-019",
+  "title": "False floor",
+  "difficulty": "hard",
+  "editorialSummary": "Four kinds of floor.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "building",
+      "label": "Building floor",
+      "revealHint": "Building",
+      "items": ["Storey", "Basement", "Mezzanine", "Penthouse"]
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean floor",
+      "revealHint": "Ocean",
+      "items": ["Seabed", "Trench", "Shelf", "Abyss"]
+    },
+    {
+      "id": "price",
+      "label": "Price floor",
+      "revealHint": "Price",
+      "items": ["Minimum Wage", "Subsidy", "Tariff", "Reserve Price"]
+    },
+    {
+      "id": "dance",
+      "label": "Dance floor",
+      "revealHint": "Dance",
+      "items": ["Ballroom", "Disco", "Parquet", "Stage"]
+    }
+  ]
+}

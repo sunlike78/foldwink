@@ -1,0 +1,39 @@
+{
+  "id": "hard-015",
+  "title": "Fault lines",
+  "difficulty": "hard",
+  "editorialSummary": "Four senses of fault overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "geology",
+      "label": "Geological fault",
+      "revealHint": "Geology",
+      "items": ["Tectonic", "Seismic", "Epicentre", "Rift"]
+    },
+    {
+      "id": "blame",
+      "label": "Fault (blame)",
+      "revealHint": "Blame",
+      "items": ["Liability", "Negligence", "Culprit", "Accountability"]
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis fault",
+      "revealHint": "Tennis",
+      "items": ["Serve", "Double Fault", "Let", "Advantage"]
+    },
+    {
+      "id": "circuit",
+      "label": "Circuit fault",
+      "revealHint": "Circuit",
+      "items": ["Short Circuit", "Overload", "Fuse", "Ground Fault"]
+    }
+  ]
+}

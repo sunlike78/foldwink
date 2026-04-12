@@ -1,0 +1,39 @@
+{
+  "id": "hard-014",
+  "title": "Space invaders",
+  "difficulty": "hard",
+  "editorialSummary": "Four meanings of space.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "outer",
+      "label": "Outer space",
+      "revealHint": "Outer",
+      "items": ["Orbit", "Galaxy", "Nebula", "Quasar"]
+    },
+    {
+      "id": "room",
+      "label": "Physical space",
+      "revealHint": "Room",
+      "items": ["Attic", "Crawl Space", "Cupboard", "Alcove"]
+    },
+    {
+      "id": "typography",
+      "label": "Typographic space",
+      "revealHint": "Type",
+      "items": ["Kerning", "Leading", "Margin", "Indent"]
+    },
+    {
+      "id": "personal",
+      "label": "Personal space",
+      "revealHint": "Personal",
+      "items": ["Boundary", "Privacy", "Solitude", "Retreat"]
+    }
+  ]
+}

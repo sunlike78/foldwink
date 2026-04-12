@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0137",
+  "title": "Board game night",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "games",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    { "id": "strategy", "label": "Strategy Games", "items": ["Chess", "Go", "Catan", "Risk"] },
+    {
+      "id": "word",
+      "label": "Word Games",
+      "items": ["Scrabble", "Boggle", "Codenames", "Bananagrams"]
+    },
+    {
+      "id": "trivia",
+      "label": "Trivia Games",
+      "items": ["Trivial Pursuit", "Jeopardy", "Quiz Bowl", "Wits and Wagers"]
+    },
+    {
+      "id": "party",
+      "label": "Party Games",
+      "items": ["Charades", "Pictionary", "Werewolf", "Taboo"]
+    }
+  ]
+}

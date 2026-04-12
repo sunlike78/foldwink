@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0139",
+  "title": "Stargazing",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "science",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "planet",
+      "label": "Rocky Planets",
+      "items": ["Mercury", "Venus", "Mars", "Earth"]
+    },
+    { "id": "gas", "label": "Gas Giants", "items": ["Jupiter", "Saturn", "Uranus", "Neptune"] },
+    {
+      "id": "small",
+      "label": "Small Bodies",
+      "items": ["Asteroid", "Comet", "Meteoroid", "Dwarf Planet"]
+    },
+    {
+      "id": "star",
+      "label": "Star Types",
+      "items": ["Red Dwarf", "Supergiant", "Neutron Star", "White Dwarf"]
+    }
+  ]
+}

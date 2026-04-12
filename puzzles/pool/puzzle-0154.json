@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0154",
+  "title": "Green room",
+  "difficulty": "medium",
+  "editorialSummary": "Things that are green — ecology, envy, inexperience, finance. Money/Nature overlap.",
+  "meta": {
+    "theme": "colour",
+    "categoryType": "thematic",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "eco",
+      "label": "Green ecology",
+      "revealHint": "Ecology",
+      "items": ["Renewable", "Sustainable", "Organic", "Carbon Neutral"]
+    },
+    {
+      "id": "envy",
+      "label": "Green with envy",
+      "revealHint": "Envy",
+      "items": ["Jealousy", "Covetous", "Resentful", "Grudge"]
+    },
+    {
+      "id": "new",
+      "label": "Green as novice",
+      "revealHint": "Novice",
+      "items": ["Rookie", "Apprentice", "Trainee", "Beginner"]
+    },
+    {
+      "id": "money",
+      "label": "Green as money",
+      "revealHint": "Money",
+      "items": ["Greenback", "Treasury", "Mint", "Federal Reserve"]
+    }
+  ]
+}

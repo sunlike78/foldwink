@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0161",
+  "title": "Draft pick",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of draft — writing, beer, sports, air. Cold/Selection overlap.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "write",
+      "label": "Written draft",
+      "revealHint": "Writing",
+      "items": ["Manuscript", "Outline", "Revision", "Proofread"]
+    },
+    {
+      "id": "beer",
+      "label": "Draft beer",
+      "revealHint": "Beer",
+      "items": ["Tap", "Keg", "Pint", "Pour"]
+    },
+    {
+      "id": "sports",
+      "label": "Sports draft",
+      "revealHint": "Sports",
+      "items": ["Prospect", "Lottery", "Trade", "Roster"]
+    },
+    {
+      "id": "air",
+      "label": "Air draft",
+      "revealHint": "Air",
+      "items": ["Draught", "Ventilation", "Chimney", "Flue"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "puzzle-0150",
+  "title": "Weather report",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "storm",
+      "label": "Storm Types",
+      "items": ["Thunderstorm", "Tornado", "Hurricane", "Blizzard"]
+    },
+    {
+      "id": "precip",
+      "label": "Precipitation",
+      "items": ["Drizzle", "Hail", "Sleet", "Freezing Rain"]
+    },
+    { "id": "wind", "label": "Wind Types", "items": ["Breeze", "Gale", "Gust", "Squall"] },
+    {
+      "id": "optical",
+      "label": "Sky Phenomena",
+      "items": ["Rainbow", "Aurora", "Halo", "Mirage"]
+    }
+  ]
+}

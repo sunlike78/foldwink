@@ -1,0 +1,39 @@
+{
+  "id": "hard-010",
+  "title": "Mirror image",
+  "difficulty": "hard",
+  "editorialSummary": "Four groups of things that come in pairs.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "thematic",
+    "fairnessRisk": 1,
+    "batch": "batch-02",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "optical",
+      "label": "Eye pair terms",
+      "revealHint": "Eye",
+      "items": ["Pupil", "Iris", "Retina", "Cornea"]
+    },
+    {
+      "id": "shoe",
+      "label": "Shoe pair terms",
+      "revealHint": "Shoe",
+      "items": ["Sole", "Heel", "Insole", "Lace"]
+    },
+    {
+      "id": "hand",
+      "label": "Hand pair terms",
+      "revealHint": "Hand",
+      "items": ["Palm", "Knuckle", "Thumb", "Wrist"]
+    },
+    {
+      "id": "wing",
+      "label": "Wing pair terms",
+      "revealHint": "Wing",
+      "items": ["Feather", "Aileron", "Span", "Tip"]
+    }
+  ]
+}
