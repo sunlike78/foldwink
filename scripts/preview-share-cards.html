@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Foldwink — Share Card Preview</title>
+    <style>
+      body {
+        background: #0f1115;
+        color: #e8eaf0;
+        font-family: -apple-system, sans-serif;
+        margin: 2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+      }
+      canvas {
+        border: 1px solid #2e343f;
+        border-radius: 12px;
+        width: 360px;
+        height: 360px;
+      }
+      .label {
+        font-size: 0.75rem;
+        color: #8a8f9a;
+        margin-top: 0.25rem;
+      }
+      button {
+        background: #7cc4ff;
+        color: #0f1115;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: 600;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Share Card Preview — QA Helper</h1>
+    <p style="color: #8a8f9a; font-size: 0.85rem">
+      These are rendered using the same <code>drawShareCard()</code> function that the app uses.
+      Verify typography, spacing, branding placement, and colour accuracy.
+    </p>
+    <div class="grid" id="cards"></div>
+    <button onclick="downloadAll()">Download all as PNG</button>
+
+    <script type="module">
+      // Import the share card renderer from the built app
+      // This script is standalone — run it by opening this HTML file in a browser
+      // after building the app (npm run build).
+
+      const FONT =
+        "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif";
+      const W = 1080,
+        H = 1080;
+      const COLOR = {
+        bg: "#0f1115",
+        surface: "#181b22",
+        surfaceHi: "#22262f",
+        text: "#e8eaf0",
+        muted: "#8a8f9a",
+        accent: "#7cc4ff",
+        solved: ["#f5c86b", "#8cd28e", "#ef9e9e", "#b49cf0"],
+        empty: "#262a33",
+      };
+
+      function roundRect(ctx, x, y, w, h, r) {
+        const R = Math.min(r, w / 2, h / 2);
+        ctx.beginPath();
+        ctx.moveTo(x + R, y);
+        ctx.lineTo(x + w - R, y);
+        ctx.quadraticCurveTo(x + w, y, x + w, y + R);
+        ctx.lineTo(x + w, y + h - R);
+        ctx.quadraticCurveTo(x + w, y + h, x + w - R, y + h);
+        ctx.lineTo(x + R, y + h);
+        ctx.quadraticCurveTo(x, y + h, x, y + h - R);
+        ctx.lineTo(x, y + R);
+        ctx.quadraticCurveTo(x, y, x + R, y);
+        ctx.closePath();
+      }
+
+      function draw(canvas, opts) {
+        canvas.width = W;
+        canvas.height = H;
+        const ctx = canvas.getContext("2d");
+        // Background
+        const grad = ctx.createRadialGradient(W / 2, H / 2, W * 0.1, W / 2, H / 2, W * 0.75);
+        grad.addColorStop(0, "#161922");
+        grad.addColorStop(1, COLOR.bg);
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, W, H);
+        ctx.strokeStyle = "#22262f";
+        ctx.lineWidth = 2;
+        roundRect(ctx, 32, 32, W - 64, H - 64, 36);
+        ctx.stroke();
+        // Wordmark
+        ctx.textAlign = "center";
+        ctx.textBaseline = "alphabetic";
+        ctx.fillStyle = COLOR.text;
+        ctx.font = `800 96px ${FONT}`;
+        ctx.fillText("Foldwink", W / 2, 160);
+        ctx.fillStyle = COLOR.accent;
+        ctx.fillRect(W / 2 - 56, 178, 112, 5);
+        ctx.fillStyle = COLOR.muted;
+        ctx.font = `600 22px ${FONT}`;
+        ctx.fillText("BY  NEURAL  VOID", W / 2, 216);
+        // Subtitle
+        ctx.fillStyle = opts.result === "win" ? COLOR.accent : COLOR.muted;
+        ctx.font = `600 28px ${FONT}`;
+        ctx.fillText(opts.subtitle.toUpperCase(), W / 2, 256);
+        // Headline
+        ctx.fillStyle = opts.result === "win" ? COLOR.text : COLOR.muted;
+        ctx.font = `800 120px ${FONT}`;
+        ctx.fillText(opts.result === "win" ? "Solved" : "Close call", W / 2, 380);
+        // Status
+        const dur = `${Math.floor(opts.durationMs / 60000)}:${String(Math.floor(opts.durationMs / 1000) % 60).padStart(2, "0")}`;
+        const parts = [dur, `${opts.mistakesUsed}/4 mistakes`];
+        if (opts.difficulty === "medium") parts.push(opts.winkUsed ? "Wink ✦" : "No Wink");
+        if (opts.difficulty === "hard") parts.push("Hard");
+        ctx.fillStyle = COLOR.text;
+        ctx.font = `500 34px ${FONT}`;
+        ctx.fillText(parts.join("   ·   "), W / 2, 430);
+        // Grid
+        const cell = 96,
+          gap = 18,
+          totalW = 4 * cell + 3 * gap,
+          startX = (W - totalW) / 2;
+        let gy = 480;
+        for (let r = 0; r < 4; r++) {
+          const solved = opts.solvedGroupIds.includes(opts.groupOrder[r]);
+          const color = solved ? COLOR.solved[r % 4] : COLOR.empty;
+          for (let c = 0; c < 4; c++) {
+            ctx.fillStyle = color;
+            roundRect(ctx, startX + c * (cell + gap), gy + r * (cell + gap), cell, cell, 18);
+            ctx.fill();
+            if (!solved) {
+              ctx.strokeStyle = "#2e343f";
+              ctx.lineWidth = 2;
+              roundRect(
+                ctx,
+                startX + c * (cell + gap) + 1,
+                gy + r * (cell + gap) + 1,
+                cell - 2,
+                cell - 2,
+                17,
+              );
+              ctx.stroke();
+            }
+          }
+        }
+        // Footer
+        ctx.fillStyle = COLOR.muted;
+        ctx.font = `500 26px ${FONT}`;
+        ctx.fillText("neural-void.com/foldwink", W / 2, H - 74);
+      }
+
+      const scenarios = [
+        {
+          label: "Flawless Easy Win",
+          subtitle: "Daily · 2026-04-12",
+          result: "win",
+          mistakesUsed: 0,
+          durationMs: 95000,
+          difficulty: "easy",
+          groupOrder: ["a", "b", "c", "d"],
+          solvedGroupIds: ["a", "b", "c", "d"],
+          winkUsed: false,
+        },
+        {
+          label: "Medium Win with Wink",
+          subtitle: "Standard · #042",
+          result: "win",
+          mistakesUsed: 2,
+          durationMs: 185000,
+          difficulty: "medium",
+          groupOrder: ["a", "b", "c", "d"],
+          solvedGroupIds: ["a", "b", "c", "d"],
+          winkUsed: true,
+        },
+        {
+          label: "Medium No-Wink Win",
+          subtitle: "Daily · 2026-04-11",
+          result: "win",
+          mistakesUsed: 1,
+          durationMs: 140000,
+          difficulty: "medium",
+          groupOrder: ["a", "b", "c", "d"],
+          solvedGroupIds: ["a", "b", "c", "d"],
+          winkUsed: false,
+        },
+        {
+          label: "Hard Loss",
+          subtitle: "Master Challenge · #003",
+          result: "loss",
+          mistakesUsed: 4,
+          durationMs: 220000,
+          difficulty: "hard",
+          groupOrder: ["a", "b", "c", "d"],
+          solvedGroupIds: ["a", "b"],
+          winkUsed: false,
+        },
+        {
+          label: "Clutch Easy Win",
+          subtitle: "Standard · #015",
+          result: "win",
+          mistakesUsed: 3,
+          durationMs: 270000,
+          difficulty: "easy",
+          groupOrder: ["a", "b", "c", "d"],
+          solvedGroupIds: ["a", "b", "c", "d"],
+          winkUsed: false,
+        },
+      ];
+
+      const container = document.getElementById("cards");
+      const canvases = [];
+      for (const s of scenarios) {
+        const wrap = document.createElement("div");
+        const c = document.createElement("canvas");
+        draw(c, s);
+        canvases.push({ canvas: c, label: s.label });
+        const lbl = document.createElement("div");
+        lbl.className = "label";
+        lbl.textContent = s.label;
+        wrap.appendChild(c);
+        wrap.appendChild(lbl);
+        container.appendChild(wrap);
+      }
+
+      window.downloadAll = function () {
+        for (const { canvas, label } of canvases) {
+          canvas.toBlob((blob) => {
+            const a = document.createElement("a");
+            a.href = URL.createObjectURL(blob);
+            a.download = `foldwink-share-${label.toLowerCase().replace(/\s+/g, "-")}.png`;
+            a.click();
+            URL.revokeObjectURL(a.href);
+          }, "image/png");
+        }
+      };
+    </script>
+  </body>
+</html>
