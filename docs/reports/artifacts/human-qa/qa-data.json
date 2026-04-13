@@ -1,0 +1,80 @@
+{
+  "date": "2026-04-13T12:13:24.438Z",
+  "url": "http://localhost:4174",
+  "findings": [
+    {
+      "severity": "low",
+      "area": "onboarding",
+      "title": "Onboarding present and dismissable",
+      "detail": "Got it button works"
+    },
+    {
+      "severity": "observation",
+      "area": "menu",
+      "title": "Daily button present",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "menu",
+      "title": "Easy button present",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "menu",
+      "title": "Medium button present (disabled=true)",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "menu",
+      "title": "Hard/Master button present (disabled=true)",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "gameplay",
+      "title": "Easy: 16 cards visible",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "gameplay",
+      "title": "Submit clicked — response observed",
+      "detail": "Check screenshot for correct/incorrect feedback"
+    },
+    {
+      "severity": "observation",
+      "area": "stats",
+      "title": "Stats screen loaded",
+      "detail": "Check screenshot"
+    },
+    {
+      "severity": "observation",
+      "area": "persistence",
+      "title": "After reload: grid restored",
+      "detail": "Mid-game session persistence check"
+    },
+    {
+      "severity": "observation",
+      "area": "mobile-fit",
+      "title": "No horizontal overflow on menu",
+      "detail": "body=375px"
+    },
+    {
+      "severity": "observation",
+      "area": "mobile-fit",
+      "title": "Card tap target: 80×53px (min touch: 53px)",
+      "detail": "Adequate"
+    },
+    {
+      "severity": "high",
+      "area": "mobile-fit",
+      "title": "Onboarding 'Got it' button off-screen at 320px viewport",
+      "detail": "Cannot dismiss onboarding without scrolling on narrowest phones"
+    }
+  ],
+  "consoleErrors": [],
+  "screenshotCount": 15
+}
