@@ -39,8 +39,8 @@ carry inside an iframe.
 | File | Purpose |
 | --- | --- |
 | `src/components/Onboarding.tsx` | Drop `100vh`/`overflow-y-auto`, shrink preview, compact copy so the modal fits inside an itch.io iframe without inner scroll. |
-| `reports/foldwink-itch-upload-2026-04-15.zip` | Fresh itch-ready build. |
-| `reports/foldwink-itch-onboarding-fix-report-2026-04-15.md` | This report. |
+| `itch.io/foldwink-itch-upload-v0.6.2-2026-04-15.zip` | Fresh itch-ready build. |
+| `itch.io/foldwink-itch-onboarding-fix-report-v0.6.2-2026-04-15.md` | This report. |
 
 ## 4. Verification
 
@@ -67,7 +67,7 @@ carry inside an iframe.
 - Committed to `main`.
 - Pushed to `origin/main` → GitHub Pages workflow (`.github/workflows/deploy.yml`)
   rebuilds and publishes automatically on push.
-- Fresh itch upload zip is `reports/foldwink-itch-upload-2026-04-15.zip`.
+- Fresh itch upload zip is `itch.io/foldwink-itch-upload-v0.6.2-2026-04-15.zip`.
 
 ## 7. Verdict
 
