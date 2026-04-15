@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "test:e2e": "node tests/e2e/run-all.mjs",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "pack:itch": "npm run build && node scripts/pack-itch.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
