@@ -1,7 +1,7 @@
 {
   "name": "foldwink",
   "private": true,
-  "version": "0.6.1",
+  "version": "0.6.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,6 +12,7 @@
     "test:watch": "vitest",
     "validate": "tsx scripts/validate-puzzles.ts",
     "lint": "eslint .",
+    "test:e2e": "node tests/e2e/run-all.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
