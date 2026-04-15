@@ -82,3 +82,24 @@ export function clearActiveSession(): void {
     /* ignore */
   }
 }
+
+/**
+ * Wipes every Foldwink-owned localStorage key: stats, progress, daily
+ * history, onboarding flag, saved session, sound settings, haptics
+ * settings, and the local analytics counter. Intended for user-initiated
+ * full resets and for automated QA agents. Every key is namespaced with
+ * `foldwink:` so we can scan defensively.
+ */
+export function clearAllLocalData(): void {
+  if (typeof localStorage === "undefined") return;
+  try {
+    const toDelete: string[] = [];
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith("foldwink:")) toDelete.push(key);
+    }
+    for (const k of toDelete) localStorage.removeItem(k);
+  } catch {
+    /* ignore — storage unavailable */
+  }
+}
