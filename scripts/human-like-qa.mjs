@@ -79,7 +79,7 @@ async function runDesktopQA(browser) {
   const easyBtn = page.locator("button", { hasText: /easy/i });
   const mediumBtn = page.locator("button", { hasText: /medium/i });
   const hardBtn = page.locator("button", { hasText: /master|hard/i });
-  const statsBtn = page.locator("button", { hasText: /stats/i });
+  const _statsBtn = page.locator("button", { hasText: /stats/i });
 
   if (await dailyBtn.count()) finding("observation", "menu", "Daily button present", "");
   if (await easyBtn.count()) finding("observation", "menu", "Easy button present", "");
