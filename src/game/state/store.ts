@@ -23,6 +23,7 @@ import { calculateResultSummary, type ResultSummary } from "../engine/result";
 import { canWinkGroup } from "../engine/foldwinkTabs";
 import { applyGameResult } from "../../stats/stats";
 import { todayLocal } from "../../utils/date";
+import { mediumReadiness, hardReadiness } from "../engine/readiness";
 
 type FlashKind = "correct" | "incorrect" | null;
 
@@ -37,6 +38,7 @@ export interface StoreState {
   summary: ResultSummary | null;
   flash: FlashKind;
   streakDelta: number;
+  newBest: boolean;
   onboarded: boolean;
 
   startStandard: () => void;
@@ -156,6 +158,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     summary: null,
     flash: null,
     streakDelta: 0,
+    newBest: false,
     onboarded: deps.initialOnboarded,
 
     startStandard: () => {
@@ -179,6 +182,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         summary: null,
         flash: null,
         streakDelta: 0,
+        newBest: false,
       });
     },
 
@@ -195,6 +199,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         summary: null,
         flash: null,
         streakDelta: 0,
+        newBest: false,
       });
     },
 
@@ -213,13 +218,29 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         summary: null,
         flash: null,
         streakDelta: 0,
+        newBest: false,
       });
     },
 
     startDaily: () => {
       if (deps.pool.length === 0) return;
+      // Daily must respect the player's unlock ladder. A locked-Medium player
+      // should never be dropped into a Medium puzzle via daily — that breaks
+      // the progression contract and surfaces Foldwink Tabs + Wink before
+      // the player has unlocked the explainer for them. So we build the
+      // daily-eligible pool from the tiers the player has actually unlocked
+      // and only then deterministic-pick by date.
+      const stats = get().stats;
+      const med = mediumReadiness(stats);
+      const hard = hardReadiness(stats, deps.hardPool.length);
+      const eligible: Puzzle[] = [...deps.easyPool];
+      if (med.unlocked) eligible.push(...deps.mediumPool);
+      if (hard.unlocked && hard.hasContent) eligible.push(...deps.hardPool);
+      // Safety net: if a test fixture has no easy puzzles, fall back to the
+      // full pool so the action remains usable.
+      const candidates = eligible.length > 0 ? eligible : [...deps.pool];
       const date = deps.todayLocal();
-      const id = getDailyPuzzleId(date, deps.pool);
+      const id = getDailyPuzzleId(date, candidates);
       const puzzle = deps.getPuzzleById(id);
       if (!puzzle) return;
       const alreadyPlayed = get().todayDailyRecord?.date === date;
@@ -231,6 +252,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         summary: null,
         flash: null,
         streakDelta: 0,
+        newBest: false,
       });
     },
 
@@ -293,6 +315,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
       let nextProgress = progress;
       let nextTodayDailyRecord = state.todayDailyRecord;
       let streakDelta = 0;
+      let newBest = false;
 
       if (active.countsToStats) {
         nextStats = applyGameResult(stats, result, {
@@ -303,6 +326,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
           durationMs: summary.durationMs,
         });
         if (result === "win") streakDelta = nextStats.currentStreak - stats.currentStreak;
+        newBest = result === "win" && nextStats.bestStreak > stats.bestStreak;
 
         if (active.mode === "standard" && result === "win") {
           if (puzzle.difficulty === "easy") {
@@ -341,6 +365,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         screen: "result",
         flash,
         streakDelta,
+        newBest,
       });
     },
 
@@ -352,6 +377,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         summary: null,
         flash: null,
         streakDelta: 0,
+        newBest: false,
       });
     },
 

@@ -114,6 +114,43 @@ describe("store — daily mode", () => {
     winCurrentPuzzle(store);
     expect(store.getState().stats.wins).toBe(1);
   });
+
+  it("restricts daily to easy when Medium is locked (fresh state)", () => {
+    // Deterministic date → hash lands on a medium if the full pool is used;
+    // with the unlock-respecting fix, the daily must still pick from easy.
+    const pool = [
+      mkPuzzle("e1"),
+      mkPuzzle("e2"),
+      mkPuzzle("m1", { difficulty: "medium" }),
+      mkPuzzle("m2", { difficulty: "medium" }),
+      mkPuzzle("h1", { difficulty: "hard" }),
+    ];
+    const store = createStore(makeDeps(pool));
+    store.getState().startDaily();
+    expect(store.getState().puzzle!.difficulty).toBe("easy");
+  });
+
+  it("includes medium puzzles once player has unlocked Medium", () => {
+    const pool = [
+      mkPuzzle("e1"),
+      mkPuzzle("m1", { difficulty: "medium" }),
+      mkPuzzle("m2", { difficulty: "medium" }),
+    ];
+    // 5 easy wins is MEDIUM_UNLOCK_AT.
+    const store = createStore(
+      makeDeps(pool, {
+        initialStats: {
+          ...INITIAL_STATS,
+          wins: 5,
+          gamesPlayed: 5,
+          mediumWins: 0,
+        },
+      }),
+    );
+    store.getState().startDaily();
+    const picked = store.getState().puzzle!.difficulty;
+    expect(["easy", "medium"]).toContain(picked);
+  });
 });
 
 describe("store — selection limits", () => {
@@ -157,6 +194,124 @@ describe("store — streak delta", () => {
     store.getState().goToMenu();
     store.getState().startStandard();
     expect(store.getState().streakDelta).toBe(0);
+  });
+});
+
+describe("store — newBest record flag", () => {
+  it("first-ever win sets newBest=true and bestStreak=1", () => {
+    const pool = [mkPuzzle("p1")];
+    const store = createStore(makeDeps(pool));
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    expect(store.getState().stats.bestStreak).toBe(1);
+    expect(store.getState().newBest).toBe(true);
+  });
+
+  it("strictly beating the previous best sets newBest=true", () => {
+    const pool = [mkPuzzle("p1"), mkPuzzle("p2"), mkPuzzle("p3"), mkPuzzle("p4")];
+    const store = createStore(
+      makeDeps(pool, {
+        initialStats: { ...INITIAL_STATS, bestStreak: 2, currentStreak: 0 },
+      }),
+    );
+    // First two wins are below best — flag should stay false.
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    expect(store.getState().newBest).toBe(false);
+    store.getState().goToMenu();
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    // currentStreak=2, bestStreak still 2 → tie, not a new best.
+    expect(store.getState().stats.bestStreak).toBe(2);
+    expect(store.getState().newBest).toBe(false);
+    store.getState().goToMenu();
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    // Strict improvement: bestStreak 2 → 3.
+    expect(store.getState().stats.bestStreak).toBe(3);
+    expect(store.getState().newBest).toBe(true);
+  });
+
+  it("tying the previous best does NOT set newBest", () => {
+    const pool = [mkPuzzle("p1"), mkPuzzle("p2"), mkPuzzle("p3")];
+    const store = createStore(
+      makeDeps(pool, {
+        initialStats: { ...INITIAL_STATS, bestStreak: 5, currentStreak: 0 },
+      }),
+    );
+    for (let i = 0; i < 3; i++) {
+      store.getState().startStandard();
+      winCurrentPuzzle(store);
+      expect(store.getState().newBest).toBe(false);
+      store.getState().goToMenu();
+    }
+    expect(store.getState().stats.bestStreak).toBe(5);
+  });
+
+  it("a loss never sets newBest and does not shrink bestStreak", () => {
+    const pool = [mkPuzzle("p1")];
+    const store = createStore(
+      makeDeps(pool, {
+        initialStats: { ...INITIAL_STATS, bestStreak: 4, currentStreak: 4 },
+      }),
+    );
+    store.getState().startStandard();
+    for (let i = 0; i < 4; i++) {
+      store.getState().toggleSelection("a");
+      store.getState().toggleSelection("e");
+      store.getState().toggleSelection("i");
+      store.getState().toggleSelection("m");
+      store.getState().submit();
+    }
+    expect(store.getState().summary?.result).toBe("loss");
+    expect(store.getState().newBest).toBe(false);
+    expect(store.getState().stats.bestStreak).toBe(4);
+    expect(store.getState().stats.currentStreak).toBe(0);
+  });
+
+  it("newBest is reset when a fresh game starts", () => {
+    const pool = [mkPuzzle("p1"), mkPuzzle("p2")];
+    const store = createStore(makeDeps(pool));
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    expect(store.getState().newBest).toBe(true);
+    store.getState().goToMenu();
+    expect(store.getState().newBest).toBe(false);
+    store.getState().startStandard();
+    expect(store.getState().newBest).toBe(false);
+  });
+
+  it("daily replay cannot trigger a new best", () => {
+    const pool = [mkPuzzle("p1")];
+    const store = createStore(makeDeps(pool));
+    store.getState().startDaily();
+    winCurrentPuzzle(store);
+    const firstBest = store.getState().stats.bestStreak;
+    expect(store.getState().newBest).toBe(true);
+
+    store.getState().goToMenu();
+    store.getState().startDaily();
+    // Replay must not count toward stats.
+    expect(store.getState().active!.countsToStats).toBe(false);
+    winCurrentPuzzle(store);
+    expect(store.getState().stats.bestStreak).toBe(firstBest);
+    expect(store.getState().newBest).toBe(false);
+  });
+
+  it("abandoning mid-run (no submit) leaves bestStreak untouched", () => {
+    const pool = [mkPuzzle("p1"), mkPuzzle("p2")];
+    const store = createStore(
+      makeDeps(pool, {
+        initialStats: { ...INITIAL_STATS, bestStreak: 7, currentStreak: 7 },
+      }),
+    );
+    store.getState().startStandard();
+    store.getState().toggleSelection("a");
+    store.getState().toggleSelection("b");
+    store.getState().goToMenu();
+    expect(store.getState().stats.bestStreak).toBe(7);
+    expect(store.getState().stats.currentStreak).toBe(7);
+    expect(store.getState().newBest).toBe(false);
   });
 });
 

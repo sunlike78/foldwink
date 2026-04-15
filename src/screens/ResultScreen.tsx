@@ -17,6 +17,7 @@ export function ResultScreen() {
   const stats = useGameStore((s) => s.stats);
   const progress = useGameStore((s) => s.progress);
   const streakDelta = useGameStore((s) => s.streakDelta);
+  const newBest = useGameStore((s) => s.newBest);
   const goToMenu = useGameStore((s) => s.goToMenu);
   const showStats = useGameStore((s) => s.showStats);
   const startNextSame = useGameStore((s) => s.startNextSame);
@@ -101,7 +102,7 @@ export function ResultScreen() {
           <span className="text-sm">
             Streak{" "}
             <span className="font-bold text-text tabular-nums">{stats.currentStreak}</span>
-            {stats.currentStreak === stats.bestStreak && stats.bestStreak >= 3 && (
+            {newBest && stats.bestStreak >= 3 && (
               <span className="text-accent"> · new best</span>
             )}
           </span>
