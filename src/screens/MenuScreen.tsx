@@ -4,6 +4,7 @@ import { Button } from "../components/Button";
 import { Wordmark } from "../components/Wordmark";
 import { DailyCompleteCard } from "../components/DailyCompleteCard";
 import { SoundToggle } from "../components/SoundToggle";
+import { HapticsToggle } from "../components/HapticsToggle";
 import { AboutFooter } from "../components/AboutFooter";
 import { logEvent } from "../analytics/eventLog";
 import { mediumReadiness, hardReadiness } from "../game/engine/readiness";
@@ -84,7 +85,7 @@ export function MenuScreen() {
             <DailyCompleteCard record={todayDailyRecord} currentStreak={stats.currentStreak} />
           )}
 
-          <div className="flex flex-col gap-3 w-60">
+          <div className="flex flex-col gap-3 w-full max-w-60">
             {dailyDone ? (
               <Button variant="secondary" onClick={startDaily}>
                 Replay daily
@@ -157,7 +158,10 @@ export function MenuScreen() {
         <p className="text-[11px] text-muted">
           {poolSize} curated puzzles in this build · target library 500
         </p>
-        <SoundToggle />
+        <div className="flex items-center gap-2 flex-wrap justify-center">
+          <SoundToggle />
+          <HapticsToggle />
+        </div>
         <AboutFooter />
       </div>
     </div>

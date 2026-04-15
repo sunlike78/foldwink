@@ -21,7 +21,8 @@ export function FoldwinkTabs({
   const tabs = buildFoldwinkTabs(puzzle, solvedGroupIds, winkedGroupId);
   if (tabs.length === 0) return null;
 
-  const winkAvailable = winkedGroupId === null && !gameEnded;
+  const winkAvailable =
+    puzzle.difficulty === "medium" && winkedGroupId === null && !gameEnded;
   const stageKey = solvedGroupIds.length;
 
   return (
@@ -32,13 +33,17 @@ export function FoldwinkTabs({
         </span>
         <span className="text-[10px] text-muted flex items-center gap-2">
           <span>{solvedGroupIds.length}/4 solved</span>
-          <span className="text-muted">·</span>
-          {winkAvailable ? (
-            <span className="text-accent">✦ wink ready</span>
-          ) : winkedGroupId ? (
-            <span className="text-muted">✦ wink used</span>
-          ) : (
-            <span className="text-muted">✦ wink</span>
+          {puzzle.difficulty === "medium" && (
+            <>
+              <span className="text-muted">·</span>
+              {winkAvailable ? (
+                <span className="text-accent">✦ wink ready</span>
+              ) : winkedGroupId ? (
+                <span className="text-muted">✦ wink used</span>
+              ) : (
+                <span className="text-muted">✦ wink</span>
+              )}
+            </>
           )}
         </span>
       </div>

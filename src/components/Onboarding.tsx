@@ -13,7 +13,7 @@ export function Onboarding({ onDismiss }: Props) {
       aria-modal="true"
       aria-label="How to play Foldwink"
     >
-      <div className="w-full max-w-sm rounded-2xl bg-surface border border-[#2e343f] p-6 shadow-2xl">
+      <div className="w-full max-w-sm max-h-[calc(100vh-2rem)] overflow-y-auto rounded-2xl bg-surface border border-[#2e343f] p-6 shadow-2xl">
         <div className="flex flex-col items-center text-center mb-4">
           <BrandMark size={44} />
           <h2 className="mt-3 text-2xl font-extrabold">Foldwink</h2>

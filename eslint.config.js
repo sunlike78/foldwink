@@ -46,15 +46,22 @@ export default [
     },
   },
   {
-    files: ["scripts/**/*.ts"],
+    files: ["scripts/**/*.{ts,mjs,js}"],
     languageOptions: {
       globals: {
         process: "readonly",
         console: "readonly",
+        setTimeout: "readonly",
+        document: "readonly",
+        localStorage: "readonly",
       },
     },
     rules: {
       "no-console": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
+      ],
     },
   },
 ];

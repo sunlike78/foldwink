@@ -10,6 +10,7 @@ import { SELECTION_SIZE } from "../game/types/game";
 import { canSubmit } from "../game/engine/submit";
 import { colorIndexForGroup } from "../game/solvedColors";
 import { useSound } from "../audio/useSound";
+import { useHaptics } from "../haptics/useHaptics";
 import { GameTimer } from "../components/GameTimer";
 
 export function GameScreen() {
@@ -23,16 +24,23 @@ export function GameScreen() {
   const clearFlash = useGameStore((s) => s.clearFlash);
   const winkTab = useGameStore((s) => s.winkTab);
   const play = useSound();
+  const haptic = useHaptics();
   const prevSolvedCount = useRef(0);
   const prevWinkedId = useRef<string | null>(null);
 
   useEffect(() => {
     if (!flash) return;
-    if (flash === "correct") play("correct");
-    if (flash === "incorrect") play("wrong");
+    if (flash === "correct") {
+      play("correct");
+      haptic("correct");
+    }
+    if (flash === "incorrect") {
+      play("wrong");
+      haptic("wrong");
+    }
     const id = setTimeout(() => clearFlash(), 450);
     return () => clearTimeout(id);
-  }, [flash, clearFlash, play]);
+  }, [flash, clearFlash, play, haptic]);
 
   useEffect(() => {
     if (!active || !puzzle) {
@@ -49,9 +57,10 @@ export function GameScreen() {
     prevSolvedCount.current = active.solvedGroupIds.length;
     if (active.winkedGroupId && active.winkedGroupId !== prevWinkedId.current) {
       play("wink");
+      haptic("wink");
     }
     prevWinkedId.current = active.winkedGroupId;
-  }, [active, puzzle, play]);
+  }, [active, puzzle, play, haptic]);
 
   if (!active || !puzzle) {
     return (
@@ -83,12 +92,14 @@ export function GameScreen() {
     const already = selectedSet.has(value);
     if (!already && active.selection.length >= SELECTION_SIZE) return;
     play(already ? "deselect" : "select");
+    haptic(already ? "deselect" : "select");
     toggleSelection(value);
   };
 
   const handleSubmit = (): void => {
     if (!canSubmit(active.selection)) return;
     play("submit");
+    haptic("submit");
     submit();
   };
 

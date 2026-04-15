@@ -8,6 +8,7 @@ import { buildShareString } from "../game/engine/share";
 import { gradeResult } from "../game/engine/grading";
 import { todayLocal } from "../utils/date";
 import { useSound } from "../audio/useSound";
+import { useHaptics } from "../haptics/useHaptics";
 
 export function ResultScreen() {
   const summary = useGameStore((s) => s.summary);
@@ -20,10 +21,12 @@ export function ResultScreen() {
   const showStats = useGameStore((s) => s.showStats);
   const startNextSame = useGameStore((s) => s.startNextSame);
   const play = useSound();
+  const haptic = useHaptics();
 
   useEffect(() => {
     if (!summary) return;
     play(summary.result === "win" ? "win" : "loss");
+    haptic(summary.result === "win" ? "win" : "loss");
     // Play once on arrival only — summary is frozen for this result.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
