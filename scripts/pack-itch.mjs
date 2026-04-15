@@ -16,13 +16,23 @@ const dist = join(root, "dist");
 const version = JSON.parse(readFileSync(join(root, "package.json"), "utf8")).version;
 const date = new Date().toISOString().slice(0, 10);
 const outDir = join(root, "itch.io", "export");
-const outPath = join(outDir, `foldwink-itch-upload-v${version}-${date}.zip`);
+const base = `foldwink-itch-upload-v${version}-${date}`;
+mkdirSync(outDir, { recursive: true });
+function pickOutPath() {
+  const first = join(outDir, `${base}.zip`);
+  if (!existsSync(first)) return first;
+  for (let i = 2; i < 100; i++) {
+    const p = join(outDir, `${base}-r${i}.zip`);
+    if (!existsSync(p)) return p;
+  }
+  throw new Error("too many drops today");
+}
+const outPath = pickOutPath();
 
 if (!existsSync(dist)) {
   console.error("dist/ missing — run `npm run build` first.");
   process.exit(1);
 }
-mkdirSync(outDir, { recursive: true });
 
 async function walk(d) {
   const out = [];
