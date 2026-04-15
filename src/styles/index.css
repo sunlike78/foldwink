@@ -17,6 +17,8 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   touch-action: manipulation;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
 }
 
 button {

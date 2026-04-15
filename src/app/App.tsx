@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <div className="min-h-full w-full flex justify-center">
-      <main className="w-full max-w-xl px-4 py-6 sm:py-10">
+      <main className="w-full max-w-xl px-4 py-4 sm:py-6">
         {screen === "menu" && <MenuScreen />}
         {screen === "game" && <GameScreen />}
         {screen === "result" && <ResultScreen />}

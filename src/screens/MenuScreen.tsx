@@ -62,11 +62,12 @@ export function MenuScreen() {
         : "Master Challenge";
 
   return (
-    <div className="flex flex-col items-center text-center gap-8 pt-6 sm:pt-10">
+    <div className="flex flex-col items-center text-center gap-4 pt-1 sm:pt-3">
       <Wordmark
         size="lg"
         animated
-        subtitle="A daily grouping puzzle. Medium puzzles reveal their categories one letter at a time — tap once to Wink."
+        showSublabel={false}
+        subtitle="Find 4 hidden groups of 4 in a 4×4 grid — 2–5 minutes."
       />
 
       {empty ? (
@@ -140,29 +141,14 @@ export function MenuScreen() {
         </>
       )}
 
-      {!dailyDone && !empty && stats.currentStreak > 0 && (
-        <div className="text-xs text-muted">
-          Current streak{" "}
-          <span className="text-text font-semibold tabular-nums">{stats.currentStreak}</span>
-          {stats.bestStreak > stats.currentStreak && (
-            <>
-              {" "}
-              · best{" "}
-              <span className="text-text font-semibold tabular-nums">{stats.bestStreak}</span>
-            </>
-          )}
-        </div>
-      )}
 
-      <div className="flex flex-col items-center gap-3">
-        <p className="text-[11px] text-muted">
-          {poolSize} curated puzzles in this build · target library 500
-        </p>
-        <div className="flex items-center gap-2 flex-wrap justify-center">
-          <SoundToggle />
-          <HapticsToggle />
-        </div>
+      <div className="flex items-center gap-3 flex-wrap justify-center text-[11px] text-muted">
+        <SoundToggle />
+        <HapticsToggle />
+        <span aria-hidden="true" className="opacity-50">·</span>
         <AboutFooter />
+        <span aria-hidden="true" className="opacity-50">·</span>
+        <span className="tabular-nums">{poolSize} puzzles</span>
       </div>
     </div>
   );
