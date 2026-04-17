@@ -137,25 +137,26 @@ export function mediumReadiness(stats: Stats): ProgressionSignal {
 
   if (!unlocked) {
     level = "locked";
+    const remaining = MEDIUM_UNLOCK_AT - easyWins;
     if (showNudge) {
       label = "Almost there";
-      caption = `You're getting the hang of it. ${MEDIUM_UNLOCK_AT - easyWins} more easy wins unlocks Medium — with Foldwink Tabs and one Wink per puzzle.`;
+      caption = `${remaining} more easy ${remaining === 1 ? "win" : "wins"} unlocks Medium`;
     } else {
       label = "Warming up";
-      caption = `A few easy solves first — Medium unlocks at ${MEDIUM_UNLOCK_AT} easy wins.`;
+      caption = `Medium unlocks at ${MEDIUM_UNLOCK_AT} easy wins (${easyWins}/${MEDIUM_UNLOCK_AT})`;
     }
   } else if (isStrong) {
     level = "strong";
     label = "Medium-ready";
-    caption = "Your Easy form is steady. Foldwink Tabs will feel natural.";
+    caption = "Foldwink Tabs will feel natural";
   } else if (meetsRecommend) {
     level = "recommended";
     label = "Recommended";
-    caption = "A Medium puzzle is a good next step.";
+    caption = "A Medium puzzle is a good next step";
   } else {
     level = "unlocked-weak";
     label = "Medium unlocked";
-    caption = "Try one when you feel ready — or keep polishing Easy first.";
+    caption = "Try one when ready";
   }
 
   const fallback =
@@ -224,19 +225,20 @@ export function hardReadiness(stats: Stats, hardPoolSize: number): HardProgressi
       unlocked,
       level: "coming-soon",
       label: "Master Challenge",
-      caption: "Curated hard puzzles are being authored. Check back soon.",
+      caption: "Hard puzzles coming soon",
       fallback: null,
       mediumWins,
     };
   }
 
   if (!unlocked) {
+    const remaining = HARD_UNLOCK_AT - mediumWins;
     return {
       hasContent: true,
       unlocked: false,
       level: "locked",
       label: "Master Challenge — locked",
-      caption: `Solve ${HARD_UNLOCK_AT - mediumWins} more Medium puzzles to unlock.`,
+      caption: `${remaining} more Medium ${remaining === 1 ? "win" : "wins"} to unlock`,
       fallback: null,
       mediumWins,
     };
@@ -251,7 +253,7 @@ export function hardReadiness(stats: Stats, hardPoolSize: number): HardProgressi
       unlocked: true,
       level: "recommended",
       label: "Master Challenge",
-      caption: "Less guidance. Cleaner pressure. You're ready.",
+      caption: "You're ready",
       fallback,
       mediumWins,
     };
@@ -262,7 +264,7 @@ export function hardReadiness(stats: Stats, hardPoolSize: number): HardProgressi
     unlocked: true,
     level: "unlocked",
     label: "Master Challenge",
-    caption: "Tabs reveal slowly. No Wink. Try it when you feel sharp.",
+    caption: "Slower reveals, no Wink",
     fallback,
     mediumWins,
   };
