@@ -154,9 +154,25 @@ export function GameScreen() {
         })}
       </Grid>
       <div className="mt-5 flex items-center justify-between gap-3 max-w-md mx-auto">
-        <span className="text-sm text-muted">
-          Selected {active.selection.length}/{SELECTION_SIZE}
-        </span>
+        <div className="flex items-center gap-2" aria-live="polite">
+          <div
+            className="flex gap-1"
+            role="img"
+            aria-label={`Selected ${active.selection.length} of ${SELECTION_SIZE}`}
+          >
+            {Array.from({ length: SELECTION_SIZE }).map((_, i) => (
+              <span
+                key={i}
+                className={`inline-block w-2 h-2 rounded-full ${
+                  i < active.selection.length ? "bg-accent" : "bg-[#2e343f]"
+                }`}
+              />
+            ))}
+          </div>
+          <span className="text-sm font-semibold text-text tabular-nums">
+            {active.selection.length}/{SELECTION_SIZE}
+          </span>
+        </div>
         <div className="flex gap-2">
           <Button
             variant="secondary"
@@ -165,7 +181,15 @@ export function GameScreen() {
           >
             Clear
           </Button>
-          <Button onClick={handleSubmit} disabled={!canSubmit(active.selection)}>
+          <Button
+            onClick={handleSubmit}
+            disabled={!canSubmit(active.selection)}
+            className={
+              canSubmit(active.selection)
+                ? "ring-2 ring-accent/40 shadow-[0_0_0_4px_rgba(124,196,255,0.12)]"
+                : ""
+            }
+          >
             Submit
           </Button>
         </div>

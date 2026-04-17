@@ -18,7 +18,10 @@ export function Card({ value, state, solvedColorIndex = 0, disabled, onClick }: 
   if (state === "solved") {
     variant = `${SOLVED_COLOR_CLASSES[solvedColorIndex % SOLVED_COLOR_CLASSES.length]} ${MOTION_CLASS.solvedPop}`;
   } else if (state === "selected") {
-    variant = `bg-accent text-bg ${MOTION_CLASS.selectedLift}`;
+    // Strong ring + lift so the selected state is unmistakable on mobile
+    // at a glance. Previously the accent-blue background alone blended
+    // into the dark grid at small viewport sizes.
+    variant = `bg-accent text-bg ring-2 ring-accent ring-offset-2 ring-offset-bg shadow-[0_0_0_1px_rgba(255,255,255,0.2)] ${MOTION_CLASS.selectedLift}`;
   } else {
     variant = "bg-surface text-text hover:bg-surfaceHi border border-[#262a33]";
   }
@@ -42,7 +45,7 @@ export function Card({ value, state, solvedColorIndex = 0, disabled, onClick }: 
     >
       <span className="break-words">
         {marker && (
-          <span className="mr-1 text-[10px] opacity-70" aria-hidden="true">
+          <span className="mr-1 text-xs opacity-90" aria-hidden="true">
             {marker}
           </span>
         )}

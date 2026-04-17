@@ -60,6 +60,12 @@ export function MenuScreen() {
       : hReadiness.level === "locked"
         ? "Master Challenge — locked"
         : "Master Challenge";
+  // Mirror the Medium-button style logic so a locked Master button looks
+  // like a locked Medium button (both bordered secondary) instead of a
+  // faint ghost link. This removed an inconsistency flagged in mobile QA
+  // where Master-locked visually felt like a separate tier of UI element.
+  const hardButtonVariant: "primary" | "secondary" | "ghost" =
+    hReadiness.unlocked && hReadiness.hasContent ? "primary" : "secondary";
 
   return (
     <div className="flex flex-col items-center text-center gap-4 pt-1 sm:pt-3">
@@ -106,7 +112,7 @@ export function MenuScreen() {
               {mediumButtonLabel}
             </Button>
             <Button
-              variant="ghost"
+              variant={hardButtonVariant}
               onClick={handleHardClick}
               disabled={hardDisabled}
               aria-disabled={hardDisabled}
