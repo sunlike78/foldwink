@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0304",
+  "title": "The Runway",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "fashion",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Fashion Capitals",
+      "items": ["Paris", "Milan", "London", "New York"]
+    },
+    {
+      "id": "g2",
+      "label": "Clothing Fasteners",
+      "items": ["Zip", "Hook and Eye", "Press Stud", "Drawstring"]
+    },
+    {
+      "id": "g3",
+      "label": "Hat Styles",
+      "items": ["Cloche", "Boater", "Porkpie", "Homburg"]
+    },
+    {
+      "id": "g4",
+      "label": "Neckline Styles",
+      "items": ["Cowl", "Sweetheart", "Halter", "Bateau"]
+    }
+  ]
+}

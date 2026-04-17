@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0293",
+  "title": "Behind the Lens",
+  "difficulty": "medium",
+  "editorialSummary": "Directors grouped by nationality; the false trail is that Kubrick worked mostly in Britain and Polanski worked across Europe, tempting solvers to place them in non-American or non-Polish groups.",
+  "meta": {
+    "theme": "cinema",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "American Directors",
+      "revealHint": "Hollywood",
+      "items": ["Scorsese", "Kubrick", "Coppola", "Lynch"]
+    },
+    {
+      "id": "g2",
+      "label": "French Directors",
+      "revealHint": "Nouvelle",
+      "items": ["Godard", "Truffaut", "Malle", "Resnais"]
+    },
+    {
+      "id": "g3",
+      "label": "Japanese Directors",
+      "revealHint": "Studio",
+      "items": ["Kurosawa", "Ozu", "Mizoguchi", "Naruse"]
+    },
+    {
+      "id": "g4",
+      "label": "Italian Directors",
+      "revealHint": "Neorealism",
+      "items": ["Fellini", "Antonioni", "Visconti", "De Sica"]
+    }
+  ]
+}

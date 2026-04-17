@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0287",
+  "title": "Into Africa",
+  "difficulty": "medium",
+  "editorialSummary": "Four groups of African rivers sorted by their drainage destination; the false trail is that several West African rivers share similar names and flow directions, tempting solvers to mix the Niger-basin tributaries with Atlantic coastal rivers.",
+  "meta": {
+    "theme": "geography",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "West African Rivers",
+      "revealHint": "West",
+      "items": ["Niger", "Senegal", "Volta", "Gambia"]
+    },
+    {
+      "id": "g2",
+      "label": "East African Rivers",
+      "revealHint": "East",
+      "items": ["Jubba", "Awash", "Rufiji", "Tana"]
+    },
+    {
+      "id": "g3",
+      "label": "North African Rivers",
+      "revealHint": "North",
+      "items": ["Moulouya", "Medjerda", "Chelif", "Sebou"]
+    },
+    {
+      "id": "g4",
+      "label": "Congo Basin Tributaries",
+      "revealHint": "Basin",
+      "items": ["Kasai", "Ubangi", "Lualaba", "Lomami"]
+    }
+  ]
+}

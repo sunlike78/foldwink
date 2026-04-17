@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0291",
+  "title": "Lights Camera",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "cinema",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Film Genres",
+      "items": ["Noir", "Western", "Screwball", "Melodrama"]
+    },
+    {
+      "id": "g2",
+      "label": "Camera Movement Types",
+      "items": ["Dolly Shot", "Pan Shot", "Tilt Shot", "Crane Shot"]
+    },
+    {
+      "id": "g3",
+      "label": "Film Crew Roles",
+      "items": ["Best Boy", "Foley Artist", "Script Supervisor", "Boom Operator"]
+    },
+    {
+      "id": "g4",
+      "label": "Post-Production Terms",
+      "items": ["Colour Grade", "Sound Mix", "Rotoscoping", "Picture Lock"]
+    }
+  ]
+}

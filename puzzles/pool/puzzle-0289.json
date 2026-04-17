@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0289",
+  "title": "Island State",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "geography",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Island Nations of the Caribbean",
+      "items": ["Cuba", "Jamaica", "Barbados", "Trinidad and Tobago"]
+    },
+    {
+      "id": "g2",
+      "label": "Island Nations of the Pacific",
+      "items": ["Fiji", "Tonga", "Samoa", "Palau"]
+    },
+    {
+      "id": "g3",
+      "label": "Island Nations of the Indian Ocean",
+      "items": ["Maldives", "Seychelles", "Mauritius", "Comoros"]
+    },
+    {
+      "id": "g4",
+      "label": "Island Nations of Southeast Asia",
+      "items": ["Philippines", "Singapore", "Timor-Leste", "Indonesia"]
+    }
+  ]
+}

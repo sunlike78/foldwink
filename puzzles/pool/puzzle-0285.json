@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0285",
+  "title": "Penalty Box",
+  "difficulty": "medium",
+  "editorialSummary": "Each group contains four terms from one sport's penalty or foul system; false trail: 'Sin Bin' is borrowed from rugby but also used informally in ice hockey, making the ice and rugby groups the hardest to separate.",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Ice Hockey Penalty Types",
+      "revealHint": "Ice",
+      "items": ["Minor Penalty", "Major Penalty", "Misconduct", "Match Penalty"]
+    },
+    {
+      "id": "g2",
+      "label": "Soccer Disciplinary Actions",
+      "revealHint": "Pitch",
+      "items": ["Yellow Card", "Red Card", "Suspension", "Points Deduction"]
+    },
+    {
+      "id": "g3",
+      "label": "Basketball Foul Types",
+      "revealHint": "Court",
+      "items": ["Personal Foul", "Technical Foul", "Flagrant Foul", "Charging Foul"]
+    },
+    {
+      "id": "g4",
+      "label": "Rugby League Sanctions",
+      "revealHint": "Scrums",
+      "items": ["Sin Bin", "Penalty Try", "Free Kick", "Differential Penalty"]
+    }
+  ]
+}

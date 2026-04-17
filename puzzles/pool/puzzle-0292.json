@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0292",
+  "title": "TV Format",
+  "difficulty": "medium",
+  "editorialSummary": "Four TV show formats grouped by their structural convention; the false trail is that anthology and limited series both tell complete standalone stories, making them easy to conflate — but anthologies reset cast and premise each season while limited series are fully contained in one run.",
+  "meta": {
+    "theme": "cinema",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Procedural Drama Examples",
+      "revealHint": "Case",
+      "items": ["Law and Order", "ER", "NYPD Blue", "Grey's Anatomy"]
+    },
+    {
+      "id": "g2",
+      "label": "Anthology Series Examples",
+      "revealHint": "Reset",
+      "items": ["Black Mirror", "The Twilight Zone", "American Horror Story", "Fargo"]
+    },
+    {
+      "id": "g3",
+      "label": "Sitcom Examples",
+      "revealHint": "Laugh",
+      "items": ["Seinfeld", "Friends", "The Office", "30 Rock"]
+    },
+    {
+      "id": "g4",
+      "label": "Reality Competition Examples",
+      "revealHint": "Vote",
+      "items": ["Survivor", "The Amazing Race", "Big Brother", "MasterChef"]
+    }
+  ]
+}

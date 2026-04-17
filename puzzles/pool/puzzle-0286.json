@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0286",
+  "title": "African regions",
+  "difficulty": "easy",
+  "meta": { "theme": "geography", "categoryType": "classification", "batch": "batch-07", "status": "approved" },
+  "groups": [
+    { "id": "west", "label": "West African Countries", "items": ["Nigeria", "Ghana", "Senegal", "Ivory Coast"] },
+    { "id": "east", "label": "East African Countries", "items": ["Kenya", "Ethiopia", "Tanzania", "Uganda"] },
+    { "id": "north", "label": "North African Countries", "items": ["Egypt", "Morocco", "Tunisia", "Libya"] },
+    { "id": "south", "label": "Southern African Countries", "items": ["South Africa", "Zambia", "Zimbabwe", "Botswana"] }
+  ]
+}

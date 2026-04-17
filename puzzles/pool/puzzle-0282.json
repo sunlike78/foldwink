@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0282",
+  "title": "Fight Night",
+  "difficulty": "medium",
+  "editorialSummary": "Four combat sports by their scoring vocabulary — boxing, wrestling, kickboxing, judo. False trail: Clinch and Takedown also appear in MMA; solvers must match all four items to resolve each sport.",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Boxing Terms",
+      "revealHint": "Gloves",
+      "items": ["Southpaw", "Clinch", "Counterpunch", "Uppercut"]
+    },
+    {
+      "id": "g2",
+      "label": "Fencing Terms",
+      "revealHint": "Blade",
+      "items": ["Epee", "Foil", "Sabre", "En Garde"]
+    },
+    {
+      "id": "g3",
+      "label": "Judo Terms",
+      "revealHint": "Throw",
+      "items": ["Ippon", "Waza-ari", "Randori", "Osoto-gari"]
+    },
+    {
+      "id": "g4",
+      "label": "Wrestling Terms",
+      "revealHint": "Pin",
+      "items": ["Takedown", "Reversal", "Nearfall", "Escape"]
+    }
+  ]
+}

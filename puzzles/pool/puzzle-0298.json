@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0298",
+  "title": "Deep Down",
+  "difficulty": "medium",
+  "editorialSummary": "Earth's internal and surface layers grouped by depth zone; the false trail is that the mantle and asthenosphere overlap in many descriptions, tempting solvers to treat them as one group — but the asthenosphere is a specific weak zone within the upper mantle.",
+  "meta": {
+    "theme": "science",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Earth's Core Layers",
+      "revealHint": "Iron",
+      "items": ["Inner Core", "Outer Core", "D-Prime Layer", "Core-Mantle Boundary"]
+    },
+    {
+      "id": "g2",
+      "label": "Earth's Mantle Zones",
+      "revealHint": "Mantle",
+      "items": ["Upper Mantle", "Lower Mantle", "Asthenosphere", "Transition Zone"]
+    },
+    {
+      "id": "g3",
+      "label": "Earth's Crust Types",
+      "revealHint": "Crust",
+      "items": ["Continental Crust", "Oceanic Crust", "Granite Layer", "Basalt Layer"]
+    },
+    {
+      "id": "g4",
+      "label": "Atmospheric Layers",
+      "revealHint": "Sky",
+      "items": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"]
+    }
+  ]
+}

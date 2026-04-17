@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0284",
+  "title": "On the Pitch",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Soccer Positions",
+      "items": ["Goalkeeper", "Centre-Back", "Winger", "Attacking Midfielder"]
+    },
+    {
+      "id": "g2",
+      "label": "Rugby Positions",
+      "items": ["Tighthead Prop", "Flanker", "Fly-Half", "Scrum-Half"]
+    },
+    {
+      "id": "g3",
+      "label": "Ice Hockey Positions",
+      "items": ["Goaltender", "Defenceman", "Left Wing", "Right Wing"]
+    },
+    {
+      "id": "g4",
+      "label": "American Football Positions",
+      "items": ["Quarterback", "Wide Receiver", "Tight End", "Linebacker"]
+    }
+  ]
+}

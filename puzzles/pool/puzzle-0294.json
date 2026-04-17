@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0294",
+  "title": "Oscar Night",
+  "difficulty": "hard",
+  "editorialSummary": "Best Picture winners sorted by decade; false trails: Amadeus (1984) sounds 18th-century, Platoon (1986) and Forrest Gump (1994) are often confused as 1990s films, and No Country for Old Men (2007) sits in a decade alongside The Departed (2006) that most solvers associate with a different era.",
+  "meta": {
+    "theme": "cinema",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Best Picture Winners: 1970s",
+      "revealHint": "Seventies",
+      "items": ["The Godfather", "Annie Hall", "Kramer vs. Kramer", "One Flew Over the Cuckoo's Nest"]
+    },
+    {
+      "id": "g2",
+      "label": "Best Picture Winners: 1980s",
+      "revealHint": "Eighties",
+      "items": ["Platoon", "Rain Man", "Amadeus", "Out of Africa"]
+    },
+    {
+      "id": "g3",
+      "label": "Best Picture Winners: 1990s",
+      "revealHint": "Nineties",
+      "items": ["Schindler's List", "Braveheart", "Forrest Gump", "The Silence of the Lambs"]
+    },
+    {
+      "id": "g4",
+      "label": "Best Picture Winners: 2000s",
+      "revealHint": "Noughties",
+      "items": ["Chicago", "A Beautiful Mind", "No Country for Old Men", "The Departed"]
+    }
+  ]
+}

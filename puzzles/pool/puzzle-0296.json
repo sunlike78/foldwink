@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0296",
+  "title": "Laws of Motion",
+  "difficulty": "medium",
+  "editorialSummary": "Physics concepts grouped by the scientist who formulated them; the false trail is that Newton and Einstein both worked on gravity, tempting solvers to bundle their terms together — but Newton's gravity is classical mechanics while Einstein's is general relativity.",
+  "meta": {
+    "theme": "science",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Newton's Contributions",
+      "revealHint": "Apple",
+      "items": ["Universal Gravitation", "Laws of Motion", "Reflecting Telescope", "Optics"]
+    },
+    {
+      "id": "g2",
+      "label": "Einstein's Contributions",
+      "revealHint": "Relativity",
+      "items": ["Special Relativity", "General Relativity", "Photoelectric Effect", "Mass-Energy Equivalence"]
+    },
+    {
+      "id": "g3",
+      "label": "Maxwell's Contributions",
+      "revealHint": "Electro",
+      "items": ["Electromagnetic Spectrum", "Maxwell's Equations", "Displacement Current", "Colour Vision"]
+    },
+    {
+      "id": "g4",
+      "label": "Bohr's Contributions",
+      "revealHint": "Atom",
+      "items": ["Atomic Model", "Electron Shells", "Quantum Numbers", "Complementarity"]
+    }
+  ]
+}

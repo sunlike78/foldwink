@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0288",
+  "title": "On the Range",
+  "difficulty": "medium",
+  "editorialSummary": "Mountain ranges grouped by continent; the false trail is that the Zagros and Hindu Kush are both in western Asia and share a borderland context, tempting solvers to lump them — but they form distinct ranges in different countries.",
+  "meta": {
+    "theme": "geography",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "European Mountain Ranges",
+      "revealHint": "Europe",
+      "items": ["Pyrenees", "Carpathians", "Apennines", "Urals"]
+    },
+    {
+      "id": "g2",
+      "label": "Asian Mountain Ranges",
+      "revealHint": "Asia",
+      "items": ["Karakoram", "Hindu Kush", "Tian Shan", "Zagros"]
+    },
+    {
+      "id": "g3",
+      "label": "African Mountain Ranges",
+      "revealHint": "Africa",
+      "items": ["Drakensberg", "Rwenzori", "Ahaggar", "Ethiopian Highlands"]
+    },
+    {
+      "id": "g4",
+      "label": "Americas Mountain Ranges",
+      "revealHint": "Americas",
+      "items": ["Blue Ridge", "Appalachians", "Sierra Madre", "Coast Range"]
+    }
+  ]
+}

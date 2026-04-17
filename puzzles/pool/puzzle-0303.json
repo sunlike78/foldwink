@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0303",
+  "title": "Ancient Wonders",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Seven Wonders of the Ancient World",
+      "items": ["Colossus of Rhodes", "Lighthouse of Alexandria", "Hanging Gardens of Babylon", "Mausoleum of Halicarnassus"]
+    },
+    {
+      "id": "g2",
+      "label": "New Seven Wonders of the World",
+      "items": ["Machu Picchu", "Chichen Itza", "Petra", "Taj Mahal"]
+    },
+    {
+      "id": "g3",
+      "label": "Ancient Megalithic Sites",
+      "items": ["Stonehenge", "Gobekli Tepe", "Carnac Stones", "Avebury"]
+    },
+    {
+      "id": "g4",
+      "label": "Famous Ancient Temples",
+      "items": ["Abu Simbel", "Borobudur", "Angkor Wat", "Karnak Temple"]
+    }
+  ]
+}

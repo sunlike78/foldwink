@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0305",
+  "title": "French Kitchen",
+  "difficulty": "medium",
+  "editorialSummary": "French cooking techniques grouped by the heat or medium applied; the false trail is that sauteing and stir-frying both use high heat with fat in a pan, but saute is a French technique while stir-fry belongs to Chinese cuisine — solvers must match each to its correct culinary tradition. Poeler is intentionally classified as dry-heat because the defining characteristic is the exposed dry-heat searing phase before covering.",
+  "meta": {
+    "theme": "cooking",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "French Dry-Heat Techniques",
+      "revealHint": "Flame",
+      "items": ["Rotisserie", "Griller", "Poeler", "Sauter"]
+    },
+    {
+      "id": "g2",
+      "label": "French Moist-Heat Techniques",
+      "revealHint": "Steam",
+      "items": ["Braiser", "Pocher", "Blanchir", "Mijoter"]
+    },
+    {
+      "id": "g3",
+      "label": "French Pastry Methods",
+      "revealHint": "Dough",
+      "items": ["Laminage", "Crémage", "Feuilletage", "Foncer"]
+    },
+    {
+      "id": "g4",
+      "label": "French Sauce Bases",
+      "revealHint": "Sauce",
+      "items": ["Bechamel", "Veloute", "Espagnole", "Hollandaise"]
+    }
+  ]
+}

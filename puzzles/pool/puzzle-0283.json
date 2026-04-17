@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0283",
+  "title": "Love All",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Tennis Grand Slams",
+      "items": ["Wimbledon", "US Open", "French Open", "Australian Open"]
+    },
+    {
+      "id": "g2",
+      "label": "Racket Sports",
+      "items": ["Racquetball", "Pickleball", "Padel", "Squash"]
+    },
+    {
+      "id": "g3",
+      "label": "Badminton Shot Types",
+      "items": ["Drive", "Lift", "Net Shot", "Hairpin"]
+    },
+    {
+      "id": "g4",
+      "label": "Table Tennis Terms",
+      "items": ["Topspin", "Backspin", "Sidespin", "Loop Drive"]
+    }
+  ]
+}

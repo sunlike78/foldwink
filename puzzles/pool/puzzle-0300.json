@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0300",
+  "title": "Literary Movements",
+  "difficulty": "medium",
+  "editorialSummary": "Four American literary movements, each anchored by four writers. False trail: Whitman's early work was shaped by Transcendentalism but he later moved beyond the movement — solvers must place him with his early literary circle, not his later Realist contemporaries.",
+  "meta": {
+    "theme": "literature",
+    "categoryType": "attribute",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "European Romanticism Writers",
+      "revealHint": "Feeling",
+      "items": ["Wordsworth", "Keats", "Shelley", "Byron"]
+    },
+    {
+      "id": "g2",
+      "label": "American Transcendentalist Writers",
+      "revealHint": "Concord",
+      "items": ["Emerson", "Thoreau", "Whitman", "Fuller"]
+    },
+    {
+      "id": "g3",
+      "label": "French Symbolist Poets",
+      "revealHint": "Symbol",
+      "items": ["Baudelaire", "Verlaine", "Rimbaud", "Mallarme"]
+    },
+    {
+      "id": "g4",
+      "label": "Modernist Novelists",
+      "revealHint": "Stream",
+      "items": ["Virginia Woolf", "James Joyce", "William Faulkner", "Dorothy Richardson"]
+    }
+  ]
+}

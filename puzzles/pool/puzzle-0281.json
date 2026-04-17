@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0281",
+  "title": "World Cup Nations",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "FIFA World Cup Winners",
+      "items": ["Uruguay", "Italy", "West Germany", "Argentina"]
+    },
+    {
+      "id": "g2",
+      "label": "Cricket World Cup Winners",
+      "items": ["West Indies", "India", "Pakistan", "Sri Lanka"]
+    },
+    {
+      "id": "g3",
+      "label": "Ice Hockey World Champions",
+      "items": ["Canada", "Soviet Union", "Czechia", "Sweden"]
+    },
+    {
+      "id": "g4",
+      "label": "FIFA Women's World Cup Winners",
+      "items": ["USA", "Norway", "Germany", "Netherlands"]
+    }
+  ]
+}
