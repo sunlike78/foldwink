@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0252",
+  "title": "Road to space",
+  "difficulty": "medium",
+  "editorialSummary": "Four transport eras — Victorian era, WWII-era, 1950s motor age, space-age. Era-shared nouns create false trails.",
+  "meta": {
+    "theme": "transport",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "victorian",
+      "label": "Victorian Transport",
+      "revealHint": "Horse",
+      "items": ["Hansom Cab", "Penny-Farthing", "Stagecoach", "Steam Train"]
+    },
+    {
+      "id": "wartime",
+      "label": "Wartime Vehicles",
+      "revealHint": "War",
+      "items": ["Jeep", "Spitfire", "U-Boat", "Tank"]
+    },
+    {
+      "id": "fifties",
+      "label": "1950s Auto Icons",
+      "revealHint": "Chrome",
+      "items": ["Tailfin", "Whitewall Tire", "Hood Ornament", "Hot Rod"]
+    },
+    {
+      "id": "space",
+      "label": "Space-Age Craft",
+      "revealHint": "Rocket",
+      "items": ["Lunar Module", "Space Shuttle", "Satellite", "Rover"]
+    }
+  ]
+}

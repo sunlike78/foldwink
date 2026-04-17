@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0240",
+  "title": "Bed and breakfast",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "household",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "bedding",
+      "label": "Bed Linens",
+      "items": ["Fitted Sheet", "Duvet", "Pillow Case", "Blanket"]
+    },
+    {
+      "id": "bedroom",
+      "label": "Bedroom Furniture",
+      "items": ["Headboard", "Nightstand", "Dresser", "Wardrobe"]
+    },
+    {
+      "id": "morning",
+      "label": "Morning Routine",
+      "items": ["Alarm Clock", "Slippers", "Robe", "Toothbrush"]
+    },
+    {
+      "id": "breakfast",
+      "label": "Breakfast Table",
+      "items": ["Toast Rack", "Jam Jar", "Teapot", "Napkin"]
+    }
+  ]
+}

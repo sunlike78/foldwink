@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0239",
+  "title": "Under the hood",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "automotive",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "engine",
+      "label": "Engine Parts",
+      "items": ["Piston", "Spark Plug", "Radiator", "Alternator"]
+    },
+    {
+      "id": "body",
+      "label": "Body Panels",
+      "items": ["Hood", "Fender", "Bumper", "Door"]
+    },
+    {
+      "id": "wheels",
+      "label": "Wheel Assembly",
+      "items": ["Tire", "Rim", "Hubcap", "Axle"]
+    },
+    {
+      "id": "interior",
+      "label": "Car Interior",
+      "items": ["Dashboard", "Glove Box", "Seatbelt", "Gear Stick"]
+    }
+  ]
+}

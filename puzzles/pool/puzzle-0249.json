@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0249",
+  "title": "Take the shot",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of SHOT — photograph, alcoholic measure, injection, basketball attempt. Picture/Glass false trail.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "photo",
+      "label": "Photo shot",
+      "revealHint": "Camera",
+      "items": ["Headshot", "Snapshot", "Close-Up", "Portrait"]
+    },
+    {
+      "id": "drink",
+      "label": "Shot glass",
+      "revealHint": "Drink",
+      "items": ["Tequila", "Whiskey", "Vodka", "Chaser"]
+    },
+    {
+      "id": "injection",
+      "label": "Flu shot",
+      "revealHint": "Needle",
+      "items": ["Vaccine", "Booster", "Syringe", "Jab"]
+    },
+    {
+      "id": "hoop",
+      "label": "Basketball shot",
+      "revealHint": "Hoop",
+      "items": ["Three-Pointer", "Layup", "Dunk", "Free Throw"]
+    }
+  ]
+}

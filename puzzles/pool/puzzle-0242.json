@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0242",
+  "title": "In the cellar",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "wine",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "reds",
+      "label": "Red Grape Varieties",
+      "items": ["Merlot", "Cabernet", "Pinot Noir", "Shiraz"]
+    },
+    {
+      "id": "whites",
+      "label": "White Grape Varieties",
+      "items": ["Chardonnay", "Sauvignon Blanc", "Riesling", "Pinot Grigio"]
+    },
+    {
+      "id": "regions",
+      "label": "Wine Regions",
+      "items": ["Bordeaux", "Tuscany", "Napa Valley", "Rioja"]
+    },
+    {
+      "id": "vessels",
+      "label": "Wine Service",
+      "items": ["Decanter", "Wine Glass", "Corkscrew", "Aerator"]
+    }
+  ]
+}

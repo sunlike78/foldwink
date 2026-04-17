@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0248",
+  "title": "Greek heroes",
+  "difficulty": "medium",
+  "editorialSummary": "Four corners of Greek myth beyond basic gods — heroes, monsters, underworld, mortals/kings. Monster/Hero false trail on shared labors.",
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "heroes",
+      "label": "Legendary Heroes",
+      "revealHint": "Hero",
+      "items": ["Hercules", "Perseus", "Theseus", "Jason"]
+    },
+    {
+      "id": "monsters",
+      "label": "Mythic Monsters",
+      "revealHint": "Beast",
+      "items": ["Medusa", "Minotaur", "Hydra", "Cyclops"]
+    },
+    {
+      "id": "underworld",
+      "label": "The Underworld",
+      "revealHint": "Hades",
+      "items": ["Styx", "Cerberus", "Charon", "Elysium"]
+    },
+    {
+      "id": "mortals",
+      "label": "Mortal Kings",
+      "revealHint": "King",
+      "items": ["Midas", "Priam", "Agamemnon", "Oedipus"]
+    }
+  ]
+}

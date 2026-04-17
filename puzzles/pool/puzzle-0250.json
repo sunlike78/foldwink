@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0250",
+  "title": "Tabletop kingdom",
+  "difficulty": "medium",
+  "editorialSummary": "Four corners of tabletop RPG vocabulary — character stats, dice, classes, common spells. Charisma/Cleric false trail.",
+  "meta": {
+    "theme": "games",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "stats",
+      "label": "Character Stats",
+      "revealHint": "Ability",
+      "items": ["Strength", "Dexterity", "Wisdom", "Charisma"]
+    },
+    {
+      "id": "dice",
+      "label": "Polyhedral Dice",
+      "revealHint": "Dice",
+      "items": ["D4", "D6", "D12", "D20"]
+    },
+    {
+      "id": "classes",
+      "label": "Character Classes",
+      "revealHint": "Class",
+      "items": ["Wizard", "Paladin", "Rogue", "Bard"]
+    },
+    {
+      "id": "spells",
+      "label": "Common Spells",
+      "revealHint": "Spell",
+      "items": ["Fireball", "Heal", "Teleport", "Shield"]
+    }
+  ]
+}

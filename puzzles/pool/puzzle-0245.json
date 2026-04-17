@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0245",
+  "title": "Makeup bag",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "beauty",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "face",
+      "label": "Face Makeup",
+      "items": ["Foundation", "Concealer", "Blush", "Bronzer"]
+    },
+    {
+      "id": "eyes",
+      "label": "Eye Makeup",
+      "items": ["Mascara", "Eyeshadow", "Eyeliner", "Brow Pencil"]
+    },
+    {
+      "id": "lips",
+      "label": "Lip Makeup",
+      "items": ["Lipstick", "Lip Gloss", "Lip Liner", "Lip Balm"]
+    },
+    {
+      "id": "tools",
+      "label": "Makeup Tools",
+      "items": ["Beauty Blender", "Powder Brush", "Eyelash Curler", "Mirror"]
+    }
+  ]
+}

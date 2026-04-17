@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0246",
+  "title": "Bottled scents",
+  "difficulty": "medium",
+  "editorialSummary": "Four fragrance note families. Citrus/floral/woody/spicy split with borderline botanicals as false trail.",
+  "meta": {
+    "theme": "scents",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "citrus",
+      "label": "Citrus Notes",
+      "revealHint": "Citrus",
+      "items": ["Bergamot", "Lemon", "Grapefruit", "Mandarin"]
+    },
+    {
+      "id": "floral",
+      "label": "Floral Notes",
+      "revealHint": "Flower",
+      "items": ["Jasmine", "Rose", "Lavender", "Tuberose"]
+    },
+    {
+      "id": "woody",
+      "label": "Woody Notes",
+      "revealHint": "Wood",
+      "items": ["Sandalwood", "Cedar", "Oud", "Vetiver"]
+    },
+    {
+      "id": "spicy",
+      "label": "Spicy Notes",
+      "revealHint": "Spice",
+      "items": ["Cinnamon", "Clove", "Cardamom", "Pepper"]
+    }
+  ]
+}

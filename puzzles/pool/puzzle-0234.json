@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0234",
+  "title": "Puzzle page",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "games",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "word-puzzles",
+      "label": "Word Puzzles",
+      "items": ["Crossword", "Anagram", "Word Search", "Cryptogram"]
+    },
+    {
+      "id": "number-puzzles",
+      "label": "Number Puzzles",
+      "items": ["Sudoku", "Kakuro", "Nonogram", "Magic Square"]
+    },
+    {
+      "id": "physical-puzzles",
+      "label": "Physical Puzzles",
+      "items": ["Jigsaw", "Rubik's Cube", "Tangram", "Slide Puzzle"]
+    },
+    {
+      "id": "logic-puzzles",
+      "label": "Logic Puzzles",
+      "items": ["Riddle", "Maze", "Logic Grid", "Syllogism"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0232",
+  "title": "Magic show",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "entertainment",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "props",
+      "label": "Stage Magic Props",
+      "items": ["Top Hat", "Magic Wand", "Silk Scarf", "Deck of Cards"]
+    },
+    {
+      "id": "tricks",
+      "label": "Classic Tricks",
+      "items": ["Disappearing Act", "Sawing in Half", "Levitation", "Card Trick"]
+    },
+    {
+      "id": "performers",
+      "label": "Magic Performers",
+      "items": ["Magician", "Assistant", "Escape Artist", "Mentalist"]
+    },
+    {
+      "id": "stage",
+      "label": "Stage Dressing",
+      "items": ["Spotlight", "Curtain", "Trapdoor", "Smoke Machine"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0231",
+  "title": "At the gallery",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "art",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "roles",
+      "label": "Gallery Roles",
+      "items": ["Curator", "Docent", "Conservator", "Registrar"]
+    },
+    {
+      "id": "spaces",
+      "label": "Museum Spaces",
+      "items": ["Main Hall", "Side Wing", "Archive", "Workshop"]
+    },
+    {
+      "id": "display",
+      "label": "Display Elements",
+      "items": ["Plinth", "Vitrine", "Plaque", "Label Card"]
+    },
+    {
+      "id": "visit",
+      "label": "Visitor Experience",
+      "items": ["Audio Guide", "Gift Shop", "Cloakroom", "Ticket Desk"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0243",
+  "title": "Spa day",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "wellness",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "massages",
+      "label": "Massage Types",
+      "items": ["Swedish", "Deep Tissue", "Hot Stone", "Shiatsu"]
+    },
+    {
+      "id": "treatments",
+      "label": "Skin Treatments",
+      "items": ["Facial", "Exfoliation", "Mud Mask", "Peel"]
+    },
+    {
+      "id": "rooms",
+      "label": "Spa Rooms",
+      "items": ["Sauna", "Steam Room", "Jacuzzi", "Relaxation Lounge"]
+    },
+    {
+      "id": "nails",
+      "label": "Nail Services",
+      "items": ["Manicure", "Pedicure", "Nail Polish", "Cuticle Trim"]
+    }
+  ]
+}

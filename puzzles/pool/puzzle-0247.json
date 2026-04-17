@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0247",
+  "title": "Quiet feelings",
+  "difficulty": "medium",
+  "editorialSummary": "Four distinct positive or complex feelings beyond the anger/sadness/fear ladder — wonder, pride, shame, anticipation.",
+  "meta": {
+    "theme": "emotions",
+    "categoryType": "thematic",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "wonder",
+      "label": "Meaning WONDER",
+      "revealHint": "Gaze",
+      "items": ["Awe", "Marvel", "Amazement", "Astonishment"]
+    },
+    {
+      "id": "pride",
+      "label": "Meaning PRIDE",
+      "revealHint": "Proud",
+      "items": ["Satisfaction", "Triumph", "Dignity", "Honor"]
+    },
+    {
+      "id": "shame",
+      "label": "Meaning SHAME",
+      "revealHint": "Blush",
+      "items": ["Embarrassment", "Humiliation", "Chagrin", "Mortification"]
+    },
+    {
+      "id": "anticipation",
+      "label": "Meaning ANTICIPATION",
+      "revealHint": "Expect",
+      "items": ["Eagerness", "Excitement", "Suspense", "Expectancy"]
+    }
+  ]
+}

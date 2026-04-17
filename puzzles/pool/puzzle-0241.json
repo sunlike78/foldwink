@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0241",
+  "title": "At the post office",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-05",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "mailables",
+      "label": "Mailed Items",
+      "items": ["Letter", "Greeting Card", "Birthday Card", "Magazine"]
+    },
+    {
+      "id": "stamps",
+      "label": "Postal Markings",
+      "items": ["Postage Stamp", "Postmark", "Barcode", "Return Address"]
+    },
+    {
+      "id": "services",
+      "label": "Mail Services",
+      "items": ["First Class", "Registered", "Express", "Certified"]
+    },
+    {
+      "id": "staff",
+      "label": "Postal Staff",
+      "items": ["Postman", "Clerk", "Sorter", "Courier"]
+    }
+  ]
+}
