@@ -70,7 +70,11 @@ export function ResultScreen() {
     winkAvailable: puzzle.difficulty === "medium",
   };
 
-  const showStreakCelebration = isWin && streakDelta > 0 && stats.currentStreak >= 2;
+  // The streak-celebration card was redundant with the Streak value that
+  // already appears in the stats strip at the top of the result. Its only
+  // irreplaceable signal was the "new best" accent — we fold that into
+  // the Grade caption instead so nothing is lost.
+  const showNewBest = isWin && streakDelta > 0 && newBest && stats.bestStreak >= 3;
 
   return (
     <div className="max-w-md mx-auto" data-testid="result-screen">
@@ -78,34 +82,36 @@ export function ResultScreen() {
 
       {isWin && (
         <div
-          className={`mt-3 rounded-xl px-4 py-3 text-center border ${
-            grade.noWinkMedium ? "bg-surface border-accent/60" : "bg-surface border-[#2e343f]"
+          className={`mt-3 rounded-xl px-4 py-2.5 text-center border ${
+            grade.noWinkMedium || showNewBest
+              ? "bg-surface border-accent/60"
+              : "bg-surface border-[#2e343f]"
           }`}
         >
-          <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">Grade</div>
-          <div
-            className={`text-lg font-bold ${grade.noWinkMedium ? "text-accent" : "text-text"}`}
-          >
-            {grade.label}
+          <div className="flex items-center justify-center gap-2">
+            <span className="text-[10px] uppercase tracking-[0.14em] text-muted">
+              Grade
+            </span>
+            <span
+              className={`text-base font-bold ${
+                grade.noWinkMedium || showNewBest ? "text-accent" : "text-text"
+              }`}
+            >
+              {grade.label}
+            </span>
           </div>
-          {grade.caption && (
-            <div className="text-[11px] text-muted mt-0.5">{grade.caption}</div>
+          {(grade.caption || showNewBest) && (
+            <div className="text-[11px] text-muted mt-0.5">
+              {showNewBest ? (
+                <>
+                  <span className="text-accent">✦ New best streak {stats.bestStreak}</span>
+                  {grade.caption && <span className="opacity-70"> · {grade.caption}</span>}
+                </>
+              ) : (
+                grade.caption
+              )}
+            </div>
           )}
-        </div>
-      )}
-
-      {showStreakCelebration && (
-        <div className="mt-5 flex items-center justify-center gap-2 rounded-xl bg-surface border border-accent/60 px-4 py-3 fw-streak-pulse">
-          <span className="text-accent text-lg" aria-hidden="true">
-            ✦
-          </span>
-          <span className="text-sm">
-            Streak{" "}
-            <span className="font-bold text-text tabular-nums">{stats.currentStreak}</span>
-            {newBest && stats.bestStreak >= 3 && (
-              <span className="text-accent"> · new best</span>
-            )}
-          </span>
         </div>
       )}
 
@@ -124,15 +130,12 @@ export function ResultScreen() {
       )}
 
       {isDaily && (
-        <div className="mt-3 rounded-xl bg-surface border border-[#2e343f] px-4 py-3">
+        <div className="mt-3 text-center text-[11px] text-muted">
           <DailyCountdown />
         </div>
       )}
 
-      <div className="mt-4 rounded-2xl bg-surface border border-[#2e343f] px-4 py-3">
-        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-2">
-          Share your result
-        </div>
+      <div className="mt-3">
         <ShareButton text={shareText} card={cardOptions} />
       </div>
 

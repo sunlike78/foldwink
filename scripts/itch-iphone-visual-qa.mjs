@@ -163,6 +163,38 @@ await page.screenshot({
   fullPage: true,
 });
 
+// Visit Stats screen from the result screen — this is the path the reviewer
+// flagged for the "Back to menu cut off at bottom" regression. The Stats
+// screen is the tallest in the app (StatStrip + 4x2 StatCells + Depth 4x2
+// + DailyArchive + back button).
+const statsBtn = page
+  .locator("button", { hasText: "Stats" })
+  .last();
+if (await statsBtn.count()) {
+  await statsBtn.click();
+  await page.waitForSelector("text=Your Foldwink record", { timeout: 5_000 });
+  await snap("09-stats-top");
+  await page.screenshot({
+    path: path.join(OUT_DIR, "09-stats-fullpage.png"),
+    fullPage: true,
+  });
+  // Measure: is "Back to menu" reachable without the document being cut?
+  const backBtn = page.locator("button", { hasText: "Back to menu" });
+  const box = await backBtn.boundingBox();
+  const metrics = await page.evaluate(() => ({
+    docH: document.documentElement.scrollHeight,
+    vh: window.innerHeight,
+  }));
+  console.log(
+    `  stats back-to-menu: y=${box?.y}, docH=${metrics.docH}, vh=${metrics.vh}, overflow=${metrics.docH - metrics.vh}px`,
+  );
+  // Scroll to the bottom to capture the worst-case iOS case
+  await page.evaluate(() =>
+    window.scrollTo(0, document.body.scrollHeight),
+  );
+  await snap("10-stats-scrolled-bottom");
+}
+
 await browser.close();
 
 await writeFile(

@@ -31,12 +31,12 @@ export function StatStrip({ cells }: Props) {
       {cells.map((cell, i) => (
         <div
           key={cell.label}
-          className={`flex-1 flex flex-col items-center justify-center px-3 py-3 min-w-0 ${
+          className={`flex-1 flex flex-col items-center justify-center px-3 py-2.5 min-w-0 ${
             i > 0 ? "border-l border-[#262a33]" : ""
           }`}
         >
           <div
-            className={`text-xl sm:text-2xl font-bold tabular-nums leading-none truncate ${
+            className={`text-lg sm:text-xl font-semibold tabular-nums leading-none truncate ${
               TONE_CLS[cell.tone ?? "default"]
             }`}
           >

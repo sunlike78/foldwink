@@ -44,14 +44,21 @@ button {
 /*
  * Safe-area aware bottom padding on the main scroll flow.
  *
- * The last CTA on the result screen ("Next puzzle" / "Back to menu") must
- * always be reachable — iOS home-indicator and Android gesture nav
- * sometimes obscure the last 12–24px of the layout viewport. Pad the main
- * column by `env(safe-area-inset-bottom)` plus a baseline so the CTA
- * stack always clears the bottom system UI.
+ * The last CTA on the result / stats / menu screens must always be
+ * reachable. Two systems take bites out of the layout viewport on
+ * mobile:
+ *   1) home indicator (iPhone) / gesture nav (Android) — handled by
+ *      env(safe-area-inset-bottom).
+ *   2) the iOS Safari bottom toolbar + the fact that itch.io's mobile
+ *      iframe embeds can overlap our last 40–60px — not part of the
+ *      safe-area inset because it is browser chrome, not platform UI.
+ *
+ * We pad the main column by a generous baseline + the safe-area inset on
+ * mobile so CTAs always clear the Safari toolbar. On sm+ viewports we
+ * shrink the baseline because there's no overlap risk.
  */
 .fw-safe-pb {
-  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
 }
 @media (min-width: 640px) {
   .fw-safe-pb {

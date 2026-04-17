@@ -6,9 +6,9 @@ import { DailyArchive } from "../components/DailyArchive";
 
 function StatCell({ label, value }: { label: string; value: string | number }) {
   return (
-    <div className="flex flex-col items-center bg-surface rounded-xl px-4 py-3 border border-[#262a33]">
-      <div className="text-2xl font-bold tabular-nums">{value}</div>
-      <div className="text-[10px] text-muted uppercase tracking-[0.12em] mt-1">{label}</div>
+    <div className="flex flex-col items-center bg-surface rounded-xl px-3 py-2 border border-[#262a33]">
+      <div className="text-xl font-bold tabular-nums leading-tight">{value}</div>
+      <div className="text-[10px] text-muted uppercase tracking-[0.12em] mt-0.5">{label}</div>
     </div>
   );
 }
@@ -32,7 +32,7 @@ export function StatsScreen() {
     <div className="max-w-md mx-auto">
       <Wordmark size="sm" subtitle="Your Foldwink record" />
 
-      <div className="mt-6">
+      <div className="mt-4">
         <StatStrip
           cells={[
             {
@@ -49,7 +49,7 @@ export function StatsScreen() {
         />
       </div>
 
-      <div className="mt-4 grid grid-cols-2 gap-2">
+      <div className="mt-2 grid grid-cols-4 gap-2">
         <StatCell label="Wins" value={stats.wins} />
         <StatCell label="Losses" value={stats.losses} />
         <StatCell label="Streak" value={stats.currentStreak} />
@@ -57,28 +57,28 @@ export function StatsScreen() {
       </div>
 
       {stats.gamesPlayed > 0 && (
-        <div className="mt-6">
-          <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-2">
+        <div className="mt-4">
+          <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-1.5">
             Depth
           </div>
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-4 gap-2">
             <StatCell label="Flawless" value={flawlessWins} />
-            <StatCell label="Avg mistakes" value={avgMistakes.toFixed(1)} />
-            <StatCell label="Medium win %" value={`${mediumWinRate}%`} />
-            <StatCell label="Winks spent" value={winkUses} />
+            <StatCell label="Avg miss" value={avgMistakes.toFixed(1)} />
+            <StatCell label="Med W%" value={`${mediumWinRate}%`} />
+            <StatCell label="Winks" value={winkUses} />
           </div>
         </div>
       )}
 
-      <div className="mt-6">
-        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-2">
+      <div className="mt-4">
+        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-1.5">
           Daily history
         </div>
         <DailyArchive />
       </div>
 
       {stats.gamesPlayed === 0 && (
-        <div className="mt-6 rounded-xl bg-surface border border-[#2e343f] px-4 py-4 text-center">
+        <div className="mt-4 rounded-xl bg-surface border border-[#2e343f] px-4 py-3 text-center">
           <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
             Empty record
           </div>
@@ -88,7 +88,7 @@ export function StatsScreen() {
         </div>
       )}
 
-      <div className="mt-6">
+      <div className="mt-4">
         <Button variant="secondary" onClick={goToMenu} className="w-full">
           Back to menu
         </Button>

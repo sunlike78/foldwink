@@ -66,7 +66,7 @@
       "bodyColor": "rgb(232, 234, 240)",
       "viewportW": 390,
       "viewportH": 844,
-      "docScrollHeight": 882,
+      "docScrollHeight": 844,
       "docScrollTop": 0,
       "ctaInViewport": true
     },
@@ -76,10 +76,30 @@
       "bodyColor": "rgb(232, 234, 240)",
       "viewportW": 390,
       "viewportH": 844,
-      "docScrollHeight": 882,
+      "docScrollHeight": 844,
       "docScrollTop": 0,
       "ctaInViewport": true
+    },
+    {
+      "label": "09-stats-top",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 390,
+      "viewportH": 844,
+      "docScrollHeight": 844,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "10-stats-scrolled-bottom",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 390,
+      "viewportH": 844,
+      "docScrollHeight": 844,
+      "docScrollTop": 0,
+      "ctaInViewport": null
     }
   ],
-  "generatedAt": "2026-04-17T10:11:24.084Z"
+  "generatedAt": "2026-04-17T10:31:24.745Z"
 }
