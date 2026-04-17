@@ -51,8 +51,8 @@ export function Onboarding({ onDismiss }: Props) {
           </li>
           <li>
             <span className="text-accent font-bold">·</span>{" "}
-            <span className="font-semibold">Medium</span> — tabs reveal letters as you solve. One
-            free <span className="text-accent font-semibold">✦ Wink</span> unlocks any tab.
+            <span className="font-semibold">Medium</span> — tabs reveal letters as you solve.
+            One free <span className="text-accent font-semibold">✦ Wink</span> unlocks any tab.
           </li>
           <li>
             <span className="text-accent font-bold">·</span>{" "}

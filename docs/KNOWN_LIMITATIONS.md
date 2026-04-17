@@ -4,7 +4,7 @@ Foldwink MVP is intentionally scoped small. These are known gaps documented so t
 
 ## Gameplay
 
-- **No in-game timer.** The result screen shows elapsed time, but the game screen does not tick a live timer. Kept out to reduce visual noise.
+- **Timer visibility (fixed 0.6.2).** A live in-game timer is rendered on the game-screen header. Earlier QA notes ("timer not visible") tracked a readability issue caused by a `text-muted` + 12px combo, not a missing element; 0.6.2 bumps the timer to normal body weight and contrast.
 - **No one-away hint.** Deferred to post-MVP.
 - **Standard mode wraps on completion.** After the last puzzle in the pool, the player restarts at the beginning. There is no "you finished everything" celebration.
 - **Standard "Next puzzle" after a loss** retries the same puzzle. This is intentional ("retry") but may surprise first-time players.
@@ -19,34 +19,35 @@ Foldwink MVP is intentionally scoped small. These are known gaps documented so t
 
 ## Content
 
-- **Current library: 98 curated puzzles (65 easy + 33 medium).** Comfortable for ~2 months of committed daily + standard play at 1 daily + 1 standard per day. Every medium carries Foldwink Tabs (`revealHint` on all 4 groups) and supports the Wink action.
-- **Target library: 500 curated puzzles.** This number does not exist yet and must never be claimed as current anywhere in live docs, UI, or metadata. The disciplined batch pipeline to reach it is documented in `docs/content/BATCH_WORKFLOW.md` — batches of 25, rejection quota ≥ 30%, diversity score guardrails, explicit stop condition at 200 if discipline cannot be held.
-- **Near-term content goal:** validate the disciplined pipeline and grow the library in reviewed batches toward 150 → 200 → 500. 98 → 150 is the first milestone.
-- **One Wink per medium puzzle.** The player can tap a Foldwink Tab once per game to fully reveal its category. No second wink. Easy puzzles have no Wink affordance — by design, not a gap. A mid-game refresh loses the wink state with the rest of the active game.
-- **Hard / Master Challenge: scaffolded, 0 real puzzles (0.4.3).** The full engine support, store actions, readiness logic, and MenuScreen button exist and are tested. The Hard pool (`HARD_POOL`) is empty. When content arrives, Tabs reveal at half-speed and Wink is disabled. See `docs/PROGRESSION_RULES.md` for the product spec and progression model.
+- **Current library: 200 curated puzzles (105 easy + 75 medium + 20 hard).** Comfortable for ~3 months of committed daily + standard play. Every medium carries Foldwink Tabs (`revealHint` on all 4 groups) and supports the Wink action. Hard puzzles use half-speed Tabs with no Wink.
+- **Target library: 500 curated puzzles.** The disciplined batch pipeline is documented in `docs/content/BATCH_WORKFLOW.md` — batches of 25, rejection quota ≥ 30%, diversity score guardrails.
+- **Near-term content goal:** grow the library in reviewed batches toward 300 → 500.
+- **One Wink per medium puzzle.** The player can tap a Foldwink Tab once per game to fully reveal its category. No second wink. Easy puzzles have no Wink affordance — by design, not a gap. Hard puzzles have no Wink by design.
+- **Hard / Master Challenge: 20 real puzzles, fully playable.** Tabs reveal at half-speed and Wink is disabled. See `docs/PROGRESSION_RULES.md` for the product spec and progression model.
 - **English only.** No localization.
 - **Editorial notes are sparse on easy puzzles.** Medium puzzles carry `editorialSummary` hints for the false trails; easy puzzles mostly do not.
 
 ## Persistence
 
-- **No mid-game save.** Refreshing or closing the tab mid-game loses the current attempt.
+- **Mid-game persistence works.** Refreshing restores the active game via `foldwink:active-session`. Closing the tab preserves state in localStorage.
 - **No cross-device sync.** All stats live in `localStorage` of the current browser.
 - **Clearing site data wipes stats.** Expected.
 - **No export/import of stats.**
 
 ## UX and accessibility
 
-- **Keyboard navigation is default tab order only.** No custom arrow-key grid navigation.
+- **Keyboard navigation is default tab order only.** No custom arrow-key grid navigation. QA note D-18 (April 2026) confirms arrow-key navigation is missing; Tab / Enter / Space do work. Deferred to a dedicated accessibility pass after 1.0.
+- **Onboarding modal is per-origin.** localStorage scopes the `foldwink:onboarded` flag to the origin the game was loaded from. A player who first dismisses onboarding on `sunlike78.github.io/foldwink/` will still see it on `neural-void.com/foldwink/` because those are different origins. Standard browser behavior, not a bug.
+- **Console noise when the game is loaded through the neural-void.com launcher page.** The parent page may inject DatadogRUM, Facebook Pixel, and Intercom — these appear in the console alongside the game's own bundle logs. The game bundle itself logs nothing in production. Ignore third-party lines when triaging real issues.
 - **Color is not the only signal** (solved groups also move visually to the lock state), but the four solved palette colors are not color-blind validated.
 - **Screen reader experience is basic.** Cards announce text + `aria-pressed`; mistakes have an `aria-label`. No live region for game state changes.
 - **Long item names** (≥18 chars) may wrap tightly on the smallest phones. The current pool is safe (longest word is "Stracciatella" at 13 chars).
 
 ## Build / tooling
 
-- **No lint tool.** Kept out to reduce dependencies. TypeScript strict mode is the primary safety net.
-- **No CI.** Validation and tests are manual steps before a release.
-- **No component tests.** Only pure-logic unit tests are in Vitest.
-- **No bundle analyser.** Production JS is 175 kB / 58 kB gzip — comfortable.
+- **ESLint + Prettier configured.** CI runs typecheck / test / validate / lint / format:check / build.
+- **No component or e2e tests.** Only pure-logic unit tests in Vitest + Playwright browser QA automation.
+- **No bundle analyser.** Production JS is 321 kB / 103 kB gzip — acceptable for web, on the heavier side for itch.io HTML5 embed.
 
 ## Observability
 

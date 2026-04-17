@@ -26,10 +26,7 @@ export function App() {
 
   return (
     <div className="w-full flex justify-center">
-      <main
-        className="w-full max-w-xl px-4 pt-4 sm:pt-6 fw-safe-pb"
-        data-fw-screen={screen}
-      >
+      <main className="w-full max-w-xl px-4 pt-4 sm:pt-6 fw-safe-pb" data-fw-screen={screen}>
         {screen === "menu" && <MenuScreen />}
         {screen === "game" && <GameScreen />}
         {screen === "result" && <ResultScreen />}

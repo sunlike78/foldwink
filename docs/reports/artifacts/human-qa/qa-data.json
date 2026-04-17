@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-13T12:13:24.438Z",
+  "date": "2026-04-13T14:46:15.319Z",
   "url": "http://localhost:4174",
   "findings": [
     {
@@ -69,10 +69,58 @@
       "detail": "Adequate"
     },
     {
-      "severity": "high",
-      "area": "mobile-fit",
-      "title": "Onboarding 'Got it' button off-screen at 320px viewport",
-      "detail": "Cannot dismiss onboarding without scrolling on narrowest phones"
+      "severity": "observation",
+      "area": "medium-flow",
+      "title": "Medium button enabled=true with seeded stats",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "medium-flow",
+      "title": "Foldwink Tabs visible on medium puzzle",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "medium-flow",
+      "title": "Wink indicator present: true",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "medium-flow",
+      "title": "Result screen reached: true",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "share-flow",
+      "title": "Share button clicked on medium result",
+      "detail": "Check screenshot for fallback behavior"
+    },
+    {
+      "severity": "observation",
+      "area": "hard-flow",
+      "title": "Master Challenge button enabled=true with seeded stats",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "hard-flow",
+      "title": "Foldwink Tabs on hard: true",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "hard-flow",
+      "title": "Wink indicator on hard: false (should be false)",
+      "detail": ""
+    },
+    {
+      "severity": "observation",
+      "area": "mobile-medium",
+      "title": "Tabs visible on mobile medium: true",
+      "detail": ""
     }
   ],
   "consoleErrors": [],

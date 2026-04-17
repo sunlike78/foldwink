@@ -89,9 +89,7 @@ export function ResultScreen() {
           }`}
         >
           <div className="flex items-center justify-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.14em] text-muted">
-              Grade
-            </span>
+            <span className="text-[10px] uppercase tracking-[0.14em] text-muted">Grade</span>
             <span
               className={`text-base font-bold ${
                 grade.noWinkMedium || showNewBest ? "text-accent" : "text-text"

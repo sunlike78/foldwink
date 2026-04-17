@@ -25,7 +25,11 @@ async function loadEasyPuzzles() {
   for (const f of files) {
     const raw = await readFile(path.join(POOL_DIR, f), "utf8");
     const p = JSON.parse(raw);
-    if (p.difficulty === "easy") map.set(p.title, p.groups.map((g) => g.items));
+    if (p.difficulty === "easy")
+      map.set(
+        p.title,
+        p.groups.map((g) => g.items),
+      );
   }
   return map;
 }
@@ -153,7 +157,9 @@ await writeFile(
   path.join(OUT_DIR, "summary.json"),
   JSON.stringify({ log, generatedAt: new Date().toISOString() }, null, 2),
 );
-console.log(`\n[itch-android-qa] ${log.length} snapshots written to ${path.relative(process.cwd(), OUT_DIR)}`);
+console.log(
+  `\n[itch-android-qa] ${log.length} snapshots written to ${path.relative(process.cwd(), OUT_DIR)}`,
+);
 console.log("Key measurements:");
 for (const l of log) {
   if (l.ctaInViewport !== null) {

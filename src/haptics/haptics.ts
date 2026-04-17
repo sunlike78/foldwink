@@ -83,8 +83,7 @@ function loadSettings(): HapticSettings {
     }
     const parsed = JSON.parse(raw) as Partial<HapticSettings>;
     cachedSettings = {
-      enabled:
-        typeof parsed.enabled === "boolean" ? parsed.enabled : DEFAULT_SETTINGS.enabled,
+      enabled: typeof parsed.enabled === "boolean" ? parsed.enabled : DEFAULT_SETTINGS.enabled,
     };
     return cachedSettings;
   } catch {

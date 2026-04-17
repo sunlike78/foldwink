@@ -147,13 +147,16 @@ export function MenuScreen() {
         </>
       )}
 
-
       <div className="flex items-center gap-3 flex-wrap justify-center text-[11px] text-muted">
         <SoundToggle />
         <HapticsToggle />
-        <span aria-hidden="true" className="opacity-50">·</span>
+        <span aria-hidden="true" className="opacity-50">
+          ·
+        </span>
         <AboutFooter />
-        <span aria-hidden="true" className="opacity-50">·</span>
+        <span aria-hidden="true" className="opacity-50">
+          ·
+        </span>
         <span className="tabular-nums">{poolSize} puzzles</span>
       </div>
     </div>

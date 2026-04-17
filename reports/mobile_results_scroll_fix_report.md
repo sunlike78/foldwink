@@ -24,7 +24,11 @@
 В `src/styles/index.css` до фикса:
 
 ```css
-html, body, #root { height: 100%; }
+html,
+body,
+#root {
+  height: 100%;
+}
 ```
 
 Классическая ловушка мобильных браузеров. Когда результат-экран становится выше viewport (streak-celebration + grade-card + share-card + 3 CTA), документ должен прокручиваться. Но `height: 100%` на всех трёх якорных контейнерах + `viewport-fit=cover` + динамика URL bar iOS Safari создают состояния, в которых overflow контента не превращается в реальный скролл — ощущается как "скролл замер".
@@ -41,14 +45,14 @@ React/браузер сохраняет `document.scrollTop` между unmount/
 
 ## 3. Изменённые файлы
 
-| Файл | Тип правки |
-|------|------------|
-| `src/styles/index.css` | Root CSS: `height: 100%` → `min-height: 100%` + `#root: min-height: 100dvh`; добавлен utility `.fw-safe-pb` с `env(safe-area-inset-bottom)`. |
-| `src/app/App.tsx` | `useEffect` сбрасывает `window.scrollTo(0,0)` на каждую смену `screen`; `<main>` получает класс `fw-safe-pb` и `data-fw-screen` для QA; убран устаревший `min-h-full` (не резолвился без definite parent height). |
-| `src/screens/ResultScreen.tsx` | Добавлены `data-testid` (`result-screen`, `result-cta-stack`, `result-next-puzzle`) для регрессии. |
-| `tests/e2e/results-next-flow.mjs` | Новый e2e сьют: 3 платформы × 3 раунда + отдельные проверки scroll-reset и streak-celebration layout. |
-| `tests/e2e/run-all.mjs` | Новый сьют добавлен в общий прогон. |
-| `scripts/results-flow-visual-qa.mjs` | Визуальный агент: собирает скриншоты + измерения CTA по трём device-профилям. |
+| Файл                                 | Тип правки                                                                                                                                                                                                        |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `src/styles/index.css`               | Root CSS: `height: 100%` → `min-height: 100%` + `#root: min-height: 100dvh`; добавлен utility `.fw-safe-pb` с `env(safe-area-inset-bottom)`.                                                                      |
+| `src/app/App.tsx`                    | `useEffect` сбрасывает `window.scrollTo(0,0)` на каждую смену `screen`; `<main>` получает класс `fw-safe-pb` и `data-fw-screen` для QA; убран устаревший `min-h-full` (не резолвился без definite parent height). |
+| `src/screens/ResultScreen.tsx`       | Добавлены `data-testid` (`result-screen`, `result-cta-stack`, `result-next-puzzle`) для регрессии.                                                                                                                |
+| `tests/e2e/results-next-flow.mjs`    | Новый e2e сьют: 3 платформы × 3 раунда + отдельные проверки scroll-reset и streak-celebration layout.                                                                                                             |
+| `tests/e2e/run-all.mjs`              | Новый сьют добавлен в общий прогон.                                                                                                                                                                               |
+| `scripts/results-flow-visual-qa.mjs` | Визуальный агент: собирает скриншоты + измерения CTA по трём device-профилям.                                                                                                                                     |
 
 ## 4. Что именно переработано во фронте
 
@@ -89,10 +93,10 @@ React/браузер сохраняет `document.scrollTop` между unmount/
 
 ## 7. Какие баги найдены в каждом из трёх режимов
 
-| Режим | Найденный баг | Статус |
-|-------|---------------|--------|
-| Desktop | ни одного regressions после mobile-фиксов | ✅ clean |
-| iOS Safari | scroll-trap на tall result screen; `Next puzzle` выходит за safe-area | ✅ устранён |
+| Режим          | Найденный баг                                                                               | Статус      |
+| -------------- | ------------------------------------------------------------------------------------------- | ----------- |
+| Desktop        | ни одного regressions после mobile-фиксов                                                   | ✅ clean    |
+| iOS Safari     | scroll-trap на tall result screen; `Next puzzle` выходит за safe-area                       | ✅ устранён |
 | Android Chrome | `Next puzzle` визуально уползает после repeated flows (preserved scrollY + growing content) | ✅ устранён |
 
 ## 8. Фиксы по каждому режиму
@@ -135,6 +139,7 @@ React/браузер сохраняет `document.scrollTop` между unmount/
 ## 13. Manual QA checklist по трём платформам
 
 ### Desktop (Chrome 1280×800)
+
 - [ ] Menu → Easy puzzle → solve → Result. Видно: Grade / Solved-groups / Share / Next puzzle / Stats / Back to menu.
 - [ ] Клик `Next puzzle` — Game screen, scrollY = 0.
 - [ ] Solve ещё раз → Streak-celebration блок появился, CTA ниже, но достижим прокруткой.
@@ -142,12 +147,14 @@ React/браузер сохраняет `document.scrollTop` между unmount/
 - [ ] Нет horizontal scroll в любой точке.
 
 ### iPhone 14 / Mobile Safari (390×844)
+
 - [ ] Первое solve: Result screen скроллится, `Next puzzle` достижим.
 - [ ] После `Next puzzle` — Game screen сверху, не с середины.
 - [ ] 3-й раунд подряд: скролл НЕ замер, `Next puzzle` всё ещё reachable (возможно с прокруткой).
 - [ ] Последний CTA не накрывается home-indicator'ом (safe-area padding работает).
 
 ### Pixel 6 / Chrome Mobile (412×915)
+
 - [ ] После solve — `Next puzzle` в зоне видимости без прокрутки (vh=915).
 - [ ] 3 solve подряд: CTA не уползает дальше вниз с каждым раундом.
 - [ ] Adress bar hide/show не ломает layout.

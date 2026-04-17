@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { clearEventLog } from "../analytics/eventLog";
+import { clearAllLocalData } from "../stats/persistence";
 
 /**
  * Compact About footer — privacy one-liner, support channel, and a
@@ -8,11 +9,25 @@ import { clearEventLog } from "../analytics/eventLog";
 export function AboutFooter() {
   const [open, setOpen] = useState(false);
   const [cleared, setCleared] = useState(false);
+  const [resetArmed, setResetArmed] = useState(false);
 
   const handleClear = (): void => {
     clearEventLog();
     setCleared(true);
     setTimeout(() => setCleared(false), 1800);
+  };
+
+  // Two-click reset so a single misfired tap cannot wipe a streak. First
+  // click arms the button, second click wipes and reloads. A 3s timeout
+  // disarms so the armed state does not persist indefinitely.
+  const handleReset = (): void => {
+    if (!resetArmed) {
+      setResetArmed(true);
+      setTimeout(() => setResetArmed(false), 3000);
+      return;
+    }
+    clearAllLocalData();
+    if (typeof window !== "undefined") window.location.reload();
   };
 
   if (!open) {
@@ -69,13 +84,27 @@ export function AboutFooter() {
           foldwink@neural-void.com
         </a>
       </p>
-      <button
-        type="button"
-        onClick={handleClear}
-        className="text-[11px] text-muted hover:text-text transition-colors underline underline-offset-2"
-      >
-        {cleared ? "Local event log cleared" : "Clear local event log"}
-      </button>
+      <div className="flex flex-col gap-2">
+        <button
+          type="button"
+          onClick={handleClear}
+          className="text-[11px] text-muted hover:text-text transition-colors underline underline-offset-2 text-left"
+        >
+          {cleared ? "Local event log cleared" : "Clear local event log"}
+        </button>
+        <button
+          type="button"
+          onClick={handleReset}
+          aria-label="Reset all local Foldwink data"
+          className={`text-[11px] underline underline-offset-2 transition-colors text-left ${
+            resetArmed ? "text-danger hover:text-danger" : "text-muted hover:text-text"
+          }`}
+        >
+          {resetArmed
+            ? "Tap again to reset all data — this clears stats, streak, progress"
+            : "Reset all local data"}
+        </button>
+      </div>
     </div>
   );
 }

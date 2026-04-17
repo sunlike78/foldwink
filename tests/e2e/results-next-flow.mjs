@@ -25,12 +25,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
-import {
-  BASE_URL,
-  runCases,
-  seedDismissedOnboarding,
-  waitForMenu,
-} from "./lib/harness.mjs";
+import { BASE_URL, runCases, seedDismissedOnboarding, waitForMenu } from "./lib/harness.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const POOL_DIR = path.resolve(__dirname, "../../puzzles/pool");
@@ -48,7 +43,10 @@ async function loadEasyPuzzlesByTitle() {
     const raw = await readFile(path.join(POOL_DIR, f), "utf8");
     const puzzle = JSON.parse(raw);
     if (puzzle.difficulty === "easy") {
-      map.set(puzzle.title, puzzle.groups.map((g) => g.items));
+      map.set(
+        puzzle.title,
+        puzzle.groups.map((g) => g.items),
+      );
     }
   }
   return map;
@@ -149,7 +147,9 @@ async function assertNoScrollTrap(page, label) {
       scrollTop: (document.scrollingElement ?? document.documentElement).scrollTop,
     }));
     if (after.scrollTop === 0) {
-      throw new Error(`${label}: document scroll is frozen (overflow exists but scrollTop stayed 0)`);
+      throw new Error(
+        `${label}: document scroll is frozen (overflow exists but scrollTop stayed 0)`,
+      );
     }
   }
 }
@@ -284,14 +284,12 @@ await runCases("results-next-flow", [
 
       await solveCurrentPuzzle(page, puzzles);
       // Scroll the result screen to the very bottom, then tap Next puzzle.
-      await page.evaluate(() =>
-        window.scrollTo(0, document.body.scrollHeight),
-      );
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
       await advanceToNextPuzzle(page);
       // After mount, the new game screen should be scrolled to top, not
       // inherit the previous page's scrollY.
-      const y = await page.evaluate(() =>
-        (document.scrollingElement ?? document.documentElement).scrollTop,
+      const y = await page.evaluate(
+        () => (document.scrollingElement ?? document.documentElement).scrollTop,
       );
       if (y > 8) {
         throw new Error(`game screen inherited scrollY=${y} after Next puzzle`);

@@ -36,7 +36,10 @@ async function loadEasyPuzzles() {
     const raw = await readFile(path.join(POOL_DIR, f), "utf8");
     const p = JSON.parse(raw);
     if (p.difficulty === "easy") {
-      map.set(p.title, p.groups.map((g) => g.items));
+      map.set(
+        p.title,
+        p.groups.map((g) => g.items),
+      );
     }
   }
   return map;
@@ -120,8 +123,7 @@ async function runProfile(browser, profile, puzzles) {
   const measurements = [];
   await page.goto(BASE_URL);
   await page.waitForSelector("button:has-text('Easy puzzle')");
-  await page
-    .screenshot({ path: path.join(OUT_DIR, `${profile.label}-00-menu.png`) });
+  await page.screenshot({ path: path.join(OUT_DIR, `${profile.label}-00-menu.png`) });
   await page.locator("button", { hasText: "Easy puzzle" }).first().click();
   await page.waitForSelector("header h1");
 

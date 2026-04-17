@@ -25,7 +25,7 @@ export function GameTimer({ startedAt, endedAt }: Props) {
 
   return (
     <span
-      className="text-xs tabular-nums text-muted"
+      className="text-sm font-semibold tabular-nums text-text"
       aria-label={`Elapsed time: ${format(elapsed)}`}
     >
       {format(elapsed)}

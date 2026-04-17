@@ -34,7 +34,11 @@ async function loadEasyPuzzles() {
   for (const f of files) {
     const raw = await readFile(path.join(POOL_DIR, f), "utf8");
     const p = JSON.parse(raw);
-    if (p.difficulty === "easy") map.set(p.title, p.groups.map((g) => g.items));
+    if (p.difficulty === "easy")
+      map.set(
+        p.title,
+        p.groups.map((g) => g.items),
+      );
   }
   return map;
 }
@@ -167,9 +171,7 @@ await page.screenshot({
 // flagged for the "Back to menu cut off at bottom" regression. The Stats
 // screen is the tallest in the app (StatStrip + 4x2 StatCells + Depth 4x2
 // + DailyArchive + back button).
-const statsBtn = page
-  .locator("button", { hasText: "Stats" })
-  .last();
+const statsBtn = page.locator("button", { hasText: "Stats" }).last();
 if (await statsBtn.count()) {
   await statsBtn.click();
   await page.waitForSelector("text=Your Foldwink record", { timeout: 5_000 });
@@ -189,9 +191,7 @@ if (await statsBtn.count()) {
     `  stats back-to-menu: y=${box?.y}, docH=${metrics.docH}, vh=${metrics.vh}, overflow=${metrics.docH - metrics.vh}px`,
   );
   // Scroll to the bottom to capture the worst-case iOS case
-  await page.evaluate(() =>
-    window.scrollTo(0, document.body.scrollHeight),
-  );
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
   await snap("10-stats-scrolled-bottom");
 }
 
@@ -201,7 +201,9 @@ await writeFile(
   path.join(OUT_DIR, "summary.json"),
   JSON.stringify({ log, generatedAt: new Date().toISOString() }, null, 2),
 );
-console.log(`\n[itch-iphone-qa] ${log.length} snapshots written to ${path.relative(process.cwd(), OUT_DIR)}`);
+console.log(
+  `\n[itch-iphone-qa] ${log.length} snapshots written to ${path.relative(process.cwd(), OUT_DIR)}`,
+);
 console.log("Key measurements:");
 for (const l of log) {
   if (l.ctaInViewport !== null) {

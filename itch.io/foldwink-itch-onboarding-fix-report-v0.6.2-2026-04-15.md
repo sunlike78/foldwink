@@ -36,11 +36,11 @@ carry inside an iframe.
 
 ## 3. Files changed
 
-| File | Purpose |
-| --- | --- |
-| `src/components/Onboarding.tsx` | Drop `100vh`/`overflow-y-auto`, shrink preview, compact copy so the modal fits inside an itch.io iframe without inner scroll. |
-| `itch.io/foldwink-itch-upload-v0.6.2-2026-04-15.zip` | Fresh itch-ready build. |
-| `itch.io/foldwink-itch-onboarding-fix-report-v0.6.2-2026-04-15.md` | This report. |
+| File                                                               | Purpose                                                                                                                       |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| `src/components/Onboarding.tsx`                                    | Drop `100vh`/`overflow-y-auto`, shrink preview, compact copy so the modal fits inside an itch.io iframe without inner scroll. |
+| `itch.io/foldwink-itch-upload-v0.6.2-2026-04-15.zip`               | Fresh itch-ready build.                                                                                                       |
+| `itch.io/foldwink-itch-onboarding-fix-report-v0.6.2-2026-04-15.md` | This report.                                                                                                                  |
 
 ## 4. Verification
 

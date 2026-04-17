@@ -10,18 +10,40 @@ interface Props {
 
 type Status = "idle" | "sharing" | "copied" | "downloaded" | "failed";
 
-async function tryShareFile(file: File, text: string): Promise<boolean> {
+type ShareOutcome = "shared" | "unsupported" | "failed" | "cancelled";
+
+function isUserCancellation(err: unknown): boolean {
+  if (!err || typeof err !== "object") return false;
+  const e = err as { name?: unknown; message?: unknown };
+  if (e.name === "AbortError") return true;
+  if (typeof e.message === "string" && /cancel|abort/i.test(e.message)) return true;
+  return false;
+}
+
+async function tryShareFile(file: File, text: string): Promise<ShareOutcome> {
   const nav = navigator as Navigator & {
     canShare?: (data: ShareData) => boolean;
   };
-  if (typeof nav.share !== "function") return false;
+  if (typeof nav.share !== "function") return "unsupported";
   const data: ShareData = { files: [file], text };
-  if (typeof nav.canShare === "function" && !nav.canShare(data)) return false;
+  if (typeof nav.canShare === "function" && !nav.canShare(data)) return "unsupported";
   try {
     await nav.share(data);
-    return true;
-  } catch {
-    return false;
+    return "shared";
+  } catch (err) {
+    return isUserCancellation(err) ? "cancelled" : "failed";
+  }
+}
+
+async function tryShareText(text: string): Promise<ShareOutcome> {
+  if (typeof navigator === "undefined" || typeof navigator.share !== "function") {
+    return "unsupported";
+  }
+  try {
+    await navigator.share({ text });
+    return "shared";
+  } catch (err) {
+    return isUserCancellation(err) ? "cancelled" : "failed";
   }
 }
 
@@ -70,7 +92,16 @@ export function ShareButton({ text, card, filename = "foldwink.png" }: Props) {
       const blob = await renderShareCard(card);
       if (blob) {
         const file = new File([blob], filename, { type: "image/png" });
-        if (await tryShareFile(file, text)) {
+        const outcome = await tryShareFile(file, text);
+        if (outcome === "shared") {
+          setStatus("idle");
+          return;
+        }
+        // User explicitly cancelled the native share sheet — respect that
+        // and do not cascade into clipboard or download. The previous
+        // behavior silently prompted the OS "save image?" dialog, which
+        // felt like the app was ignoring the cancel.
+        if (outcome === "cancelled") {
           setStatus("idle");
           return;
         }
@@ -91,14 +122,10 @@ export function ShareButton({ text, card, filename = "foldwink.png" }: Props) {
     }
 
     // Path B: text-only — navigator.share, then clipboard text.
-    try {
-      if (typeof navigator !== "undefined" && navigator.share) {
-        await navigator.share({ text });
-        setStatus("idle");
-        return;
-      }
-    } catch {
-      // user cancelled share — fall through
+    const textOutcome = await tryShareText(text);
+    if (textOutcome === "shared" || textOutcome === "cancelled") {
+      setStatus("idle");
+      return;
     }
     if (await tryCopyText(text)) {
       setStatus("copied");

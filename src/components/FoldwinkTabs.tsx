@@ -21,8 +21,7 @@ export function FoldwinkTabs({
   const tabs = buildFoldwinkTabs(puzzle, solvedGroupIds, winkedGroupId);
   if (tabs.length === 0) return null;
 
-  const winkAvailable =
-    puzzle.difficulty === "medium" && winkedGroupId === null && !gameEnded;
+  const winkAvailable = puzzle.difficulty === "medium" && winkedGroupId === null && !gameEnded;
   const stageKey = solvedGroupIds.length;
 
   return (
