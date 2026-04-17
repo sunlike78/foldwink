@@ -1,0 +1,85 @@
+{
+  "log": [
+    {
+      "label": "01-menu",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "02-game-start",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "03-game-selecting",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "04-game-one-solved",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "05-result-round1",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": true
+    },
+    {
+      "label": "06-round2-game-start",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": null
+    },
+    {
+      "label": "07-result-round2-streak",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": true
+    },
+    {
+      "label": "08-result-round3",
+      "bodyBg": "rgb(15, 17, 21)",
+      "bodyColor": "rgb(232, 234, 240)",
+      "viewportW": 412,
+      "viewportH": 915,
+      "docScrollHeight": 915,
+      "docScrollTop": 0,
+      "ctaInViewport": true
+    }
+  ],
+  "generatedAt": "2026-04-17T09:31:05.853Z"
+}
