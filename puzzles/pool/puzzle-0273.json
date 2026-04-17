@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0273",
+  "title": "Order in court",
+  "difficulty": "medium",
+  "editorialSummary": "Four kinds of courtroom utterance — objection, plea, verdict, motion. Guilty/Dismissed false trail.",
+  "meta": {
+    "theme": "law",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "objections",
+      "label": "Objection Grounds",
+      "revealHint": "Objection",
+      "items": ["Leading", "Hearsay", "Relevance", "Speculation"]
+    },
+    {
+      "id": "pleas",
+      "label": "Plea Types",
+      "revealHint": "Plea",
+      "items": ["Guilty", "Not Guilty", "No Contest", "Alford"]
+    },
+    {
+      "id": "verdicts",
+      "label": "Verdict Outcomes",
+      "revealHint": "Verdict",
+      "items": ["Convicted", "Acquitted", "Mistrial", "Hung Jury"]
+    },
+    {
+      "id": "motions",
+      "label": "Motion Types",
+      "revealHint": "Motion",
+      "items": ["Dismiss", "Continuance", "Suppress", "Summary"]
+    }
+  ]
+}

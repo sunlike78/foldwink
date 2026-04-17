@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0270",
+  "title": "Airport day",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "checkin",
+      "label": "Check-in Desk",
+      "items": ["Passport", "Boarding Pass", "Luggage Tag", "Kiosk"]
+    },
+    {
+      "id": "security",
+      "label": "Security Screening",
+      "items": ["Metal Detector", "Scanner Tray", "X-ray Belt", "Pat Down"]
+    },
+    {
+      "id": "cabin",
+      "label": "Cabin Classes",
+      "items": ["Economy", "Premium", "Business", "First Class"]
+    },
+    {
+      "id": "inflight",
+      "label": "In-Flight Service",
+      "items": ["Meal Cart", "Pillow", "Headphones", "Safety Card"]
+    }
+  ]
+}

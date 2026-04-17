@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0265",
+  "title": "In full bloom",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "garden",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "bulbs",
+      "label": "Bulb Flowers",
+      "items": ["Tulip", "Daffodil", "Hyacinth", "Crocus"]
+    },
+    {
+      "id": "perennials",
+      "label": "Garden Perennials",
+      "items": ["Peony", "Iris", "Daylily", "Coneflower"]
+    },
+    {
+      "id": "wild",
+      "label": "Wildflowers",
+      "items": ["Poppy", "Cornflower", "Buttercup", "Bluebell"]
+    },
+    {
+      "id": "tropical",
+      "label": "Tropical Flowers",
+      "items": ["Hibiscus", "Plumeria", "Bird of Paradise", "Bougainvillea"]
+    }
+  ]
+}

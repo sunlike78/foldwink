@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0269",
+  "title": "Building details",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "columns",
+      "label": "Column Orders",
+      "items": ["Doric", "Ionic", "Corinthian", "Tuscan"]
+    },
+    {
+      "id": "arches",
+      "label": "Arch Types",
+      "items": ["Round", "Pointed", "Horseshoe", "Ogee"]
+    },
+    {
+      "id": "domes",
+      "label": "Dome Types",
+      "items": ["Onion", "Geodesic", "Saucer", "Oculus"]
+    },
+    {
+      "id": "stairs",
+      "label": "Staircase Types",
+      "items": ["Spiral", "Straight", "Floating", "Split"]
+    }
+  ]
+}

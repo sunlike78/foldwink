@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0257",
+  "title": "Nine worlds",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "realms",
+      "label": "Norse Realms",
+      "items": ["Asgard", "Midgard", "Jotunheim", "Helheim"]
+    },
+    {
+      "id": "creatures",
+      "label": "Norse Creatures",
+      "items": ["Valkyrie", "Fenrir", "Draugr", "Troll"]
+    },
+    {
+      "id": "items",
+      "label": "Legendary Items",
+      "items": ["Mjolnir", "Gungnir", "Bifrost", "Gleipnir"]
+    },
+    {
+      "id": "heroes",
+      "label": "Viking Heroes",
+      "items": ["Sigurd", "Beowulf", "Ragnar", "Leif Erikson"]
+    }
+  ]
+}

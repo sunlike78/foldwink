@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0258",
+  "title": "Land of pharaohs",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "pharaohs",
+      "label": "Famous Pharaohs",
+      "items": ["Tutankhamun", "Cleopatra", "Ramses", "Nefertiti"]
+    },
+    {
+      "id": "objects",
+      "label": "Sacred Objects",
+      "items": ["Ankh", "Was Scepter", "Crook", "Djed"]
+    },
+    {
+      "id": "afterlife",
+      "label": "Afterlife Items",
+      "items": ["Mummy", "Sarcophagus", "Canopic Jar", "Death Mask"]
+    },
+    {
+      "id": "places",
+      "label": "Nile Locations",
+      "items": ["Giza", "Thebes", "Memphis", "Luxor"]
+    }
+  ]
+}

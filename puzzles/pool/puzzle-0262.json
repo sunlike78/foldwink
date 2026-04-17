@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0262",
+  "title": "Read the score",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "music",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "notes",
+      "label": "Note Values",
+      "items": ["Whole Note", "Half Note", "Quarter Note", "Eighth Note"]
+    },
+    {
+      "id": "rests",
+      "label": "Rest Values",
+      "items": ["Whole Rest", "Half Rest", "Quarter Rest", "Eighth Rest"]
+    },
+    {
+      "id": "clefs",
+      "label": "Clef Types",
+      "items": ["Treble", "Bass", "Alto", "Tenor"]
+    },
+    {
+      "id": "keys",
+      "label": "Key Signature Marks",
+      "items": ["Sharp", "Flat", "Natural", "Double Sharp"]
+    }
+  ]
+}

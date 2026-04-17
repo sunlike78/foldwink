@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0259",
+  "title": "Night chart",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "astronomy",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "stars",
+      "label": "Bright Stars",
+      "items": ["Sirius", "Polaris", "Betelgeuse", "Vega"]
+    },
+    {
+      "id": "northern",
+      "label": "Northern Constellations",
+      "items": ["Ursa Major", "Cygnus", "Perseus", "Cassiopeia"]
+    },
+    {
+      "id": "southern",
+      "label": "Southern Constellations",
+      "items": ["Crux", "Centaurus", "Carina", "Phoenix"]
+    },
+    {
+      "id": "events",
+      "label": "Celestial Events",
+      "items": ["Solstice", "Equinox", "Conjunction", "Transit"]
+    }
+  ]
+}

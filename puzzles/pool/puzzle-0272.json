@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0272",
+  "title": "Divine duties",
+  "difficulty": "medium",
+  "editorialSummary": "Same role across four pantheons — war, love, wisdom, death. Greek/Roman parity is a false trail.",
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "attribute",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "war",
+      "label": "Gods of War",
+      "revealHint": "Battle",
+      "items": ["Ares", "Mars", "Tyr", "Sekhmet"]
+    },
+    {
+      "id": "love",
+      "label": "Gods of Love",
+      "revealHint": "Love",
+      "items": ["Aphrodite", "Venus", "Freya", "Hathor"]
+    },
+    {
+      "id": "wisdom",
+      "label": "Gods of Wisdom",
+      "revealHint": "Wisdom",
+      "items": ["Athena", "Minerva", "Mimir", "Thoth"]
+    },
+    {
+      "id": "death",
+      "label": "Gods of Death",
+      "revealHint": "Death",
+      "items": ["Hades", "Pluto", "Hel", "Anubis"]
+    }
+  ]
+}

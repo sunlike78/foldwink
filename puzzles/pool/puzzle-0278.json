@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0278",
+  "title": "Branch and ledger",
+  "difficulty": "medium",
+  "editorialSummary": "Four banking sub-categories — accounts, loans, cards, fees. Savings/Interest false trail.",
+  "meta": {
+    "theme": "finance",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "accounts",
+      "label": "Account Types",
+      "revealHint": "Account",
+      "items": ["Checking", "Savings", "Money Market", "Joint"]
+    },
+    {
+      "id": "loans",
+      "label": "Loan Types",
+      "revealHint": "Loan",
+      "items": ["Mortgage", "Auto Loan", "Student Loan", "Personal"]
+    },
+    {
+      "id": "cards",
+      "label": "Card Types",
+      "revealHint": "Card",
+      "items": ["Debit", "Credit", "Prepaid", "Charge"]
+    },
+    {
+      "id": "fees",
+      "label": "Fee Types",
+      "revealHint": "Fee",
+      "items": ["Overdraft", "Monthly", "ATM", "Wire"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0267",
+  "title": "Beyond the planets",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "astronomy",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "nebulae",
+      "label": "Named Nebulae",
+      "items": ["Orion Nebula", "Crab Nebula", "Eagle Nebula", "Horsehead Nebula"]
+    },
+    {
+      "id": "galaxies",
+      "label": "Named Galaxies",
+      "items": ["Milky Way", "Andromeda", "Whirlpool", "Sombrero"]
+    },
+    {
+      "id": "clusters",
+      "label": "Star Clusters",
+      "items": ["Pleiades", "Hyades", "Beehive", "Double Cluster"]
+    },
+    {
+      "id": "deepsky",
+      "label": "Deep-Sky Oddities",
+      "items": ["Quasar", "Pulsar", "Black Hole", "Supernova"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0260",
+  "title": "In session",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "law",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "professionals",
+      "label": "Court Professionals",
+      "items": ["Judge", "Attorney", "Bailiff", "Clerk"]
+    },
+    {
+      "id": "documents",
+      "label": "Legal Documents",
+      "items": ["Subpoena", "Warrant", "Affidavit", "Brief"]
+    },
+    {
+      "id": "phases",
+      "label": "Trial Phases",
+      "items": ["Arraignment", "Opening Statement", "Verdict", "Sentencing"]
+    },
+    {
+      "id": "types",
+      "label": "Court Types",
+      "items": ["Supreme", "Family", "Small Claims", "Appellate"]
+    }
+  ]
+}

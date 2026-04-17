@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0268",
+  "title": "Garden plot",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "garden",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "features",
+      "label": "Garden Features",
+      "items": ["Gazebo", "Trellis", "Pergola", "Fountain"]
+    },
+    {
+      "id": "paths",
+      "label": "Garden Paths",
+      "items": ["Flagstone", "Gravel", "Brick", "Stepping Stone"]
+    },
+    {
+      "id": "styles",
+      "label": "Garden Styles",
+      "items": ["Cottage", "Zen", "Formal", "Wildflower Meadow"]
+    },
+    {
+      "id": "borders",
+      "label": "Garden Edging",
+      "items": ["Hedge", "Boxwood", "Picket Fence", "Stone Wall"]
+    }
+  ]
+}

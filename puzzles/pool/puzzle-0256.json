@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0256",
+  "title": "Under the eaves",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "roof",
+      "label": "Roof Shapes",
+      "items": ["Gable", "Hip", "Mansard", "Flat"]
+    },
+    {
+      "id": "window",
+      "label": "Window Styles",
+      "items": ["Bay", "Bow", "Casement", "Sash"]
+    },
+    {
+      "id": "door",
+      "label": "Door Types",
+      "items": ["Dutch", "French", "Sliding", "Pocket"]
+    },
+    {
+      "id": "ceiling",
+      "label": "Ceiling Finishes",
+      "items": ["Coffered", "Vaulted", "Tray", "Beamed"]
+    }
+  ]
+}

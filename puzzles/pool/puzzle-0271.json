@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0271",
+  "title": "Fork in the hand",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of fork — dining, road, code, tuning. Split/Branch false trail.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "attribute",
+    "wordplay": true,
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "dining",
+      "label": "Dining fork",
+      "revealHint": "Cutlery",
+      "items": ["Tine", "Salad Fork", "Dessert Fork", "Carving Fork"]
+    },
+    {
+      "id": "road",
+      "label": "Fork in the road",
+      "revealHint": "Road",
+      "items": ["Junction", "Detour", "Y Shape", "Diverge"]
+    },
+    {
+      "id": "code",
+      "label": "Code fork",
+      "revealHint": "Code",
+      "items": ["Branch", "Repo", "Pull Request", "Commit"]
+    },
+    {
+      "id": "tuning",
+      "label": "Tuning fork",
+      "revealHint": "Pitch",
+      "items": ["Prong", "Resonance", "Vibration", "A 440"]
+    }
+  ]
+}

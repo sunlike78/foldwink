@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0277",
+  "title": "Season of bloom",
+  "difficulty": "medium",
+  "editorialSummary": "Four flowers per season of bloom — spring, summer, autumn, winter. Chrysanthemum-vs-autumn false trail.",
+  "meta": {
+    "theme": "garden",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "spring",
+      "label": "Spring Bloomers",
+      "revealHint": "Spring",
+      "items": ["Forsythia", "Lilac", "Wisteria", "Bleeding Heart"]
+    },
+    {
+      "id": "summer",
+      "label": "Summer Bloomers",
+      "revealHint": "Summer",
+      "items": ["Sunflower", "Hydrangea", "Lavender", "Dahlia"]
+    },
+    {
+      "id": "autumn",
+      "label": "Autumn Bloomers",
+      "revealHint": "Autumn",
+      "items": ["Chrysanthemum", "Aster", "Sedum", "Goldenrod"]
+    },
+    {
+      "id": "winter",
+      "label": "Winter Bloomers",
+      "revealHint": "Winter",
+      "items": ["Hellebore", "Snowdrop", "Witch Hazel", "Camellia"]
+    }
+  ]
+}

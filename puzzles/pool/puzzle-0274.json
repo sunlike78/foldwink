@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0274",
+  "title": "Asgard's own",
+  "difficulty": "medium",
+  "editorialSummary": "Four Norse gods identified by their own symbols — Thor, Odin, Loki, Freya. Thunder/Wisdom false trail.",
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "attribute",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "thor",
+      "label": "Signs of Thor",
+      "revealHint": "Thunder",
+      "items": ["Mjolnir", "Goat Chariot", "Red Beard", "Thunderstorm"]
+    },
+    {
+      "id": "odin",
+      "label": "Signs of Odin",
+      "revealHint": "All-Father",
+      "items": ["Gungnir", "Raven", "One Eye", "Sleipnir"]
+    },
+    {
+      "id": "loki",
+      "label": "Signs of Loki",
+      "revealHint": "Trickster",
+      "items": ["Shapeshift", "Silver Tongue", "Fishing Net", "Mischief"]
+    },
+    {
+      "id": "freya",
+      "label": "Signs of Freya",
+      "revealHint": "Love",
+      "items": ["Cat Chariot", "Brisingamen", "Falcon Cloak", "Seidr Magic"]
+    }
+  ]
+}

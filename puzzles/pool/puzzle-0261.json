@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0261",
+  "title": "House lights",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "theatre",
+    "categoryType": "classification",
+    "batch": "batch-06",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "genres",
+      "label": "Play Genres",
+      "items": ["Tragedy", "Comedy", "Farce", "Musical"]
+    },
+    {
+      "id": "crew",
+      "label": "Backstage Crew",
+      "items": ["Stage Manager", "Dresser", "Prop Master", "Lighting Tech"]
+    },
+    {
+      "id": "traditions",
+      "label": "Theatre Traditions",
+      "items": ["Curtain Call", "Standing Ovation", "Dress Rehearsal", "Opening Night"]
+    },
+    {
+      "id": "seating",
+      "label": "Seating Areas",
+      "items": ["Orchestra", "Mezzanine", "Balcony", "Box Seat"]
+    }
+  ]
+}
