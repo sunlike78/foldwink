@@ -78,7 +78,7 @@ export function ResultScreen() {
 
       {isWin && (
         <div
-          className={`mt-5 rounded-xl px-4 py-3 text-center border ${
+          className={`mt-3 rounded-xl px-4 py-3 text-center border ${
             grade.noWinkMedium ? "bg-surface border-accent/60" : "bg-surface border-[#2e343f]"
           }`}
         >
@@ -110,7 +110,7 @@ export function ResultScreen() {
       )}
 
       {!isWin && (
-        <div className="mt-5 rounded-xl bg-surface border border-[#2e343f] px-4 py-3 text-center">
+        <div className="mt-3 rounded-xl bg-surface border border-[#2e343f] px-4 py-3 text-center">
           <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
             Close one
           </div>
@@ -124,19 +124,19 @@ export function ResultScreen() {
       )}
 
       {isDaily && (
-        <div className="mt-5 rounded-xl bg-surface border border-[#2e343f] px-4 py-3">
+        <div className="mt-3 rounded-xl bg-surface border border-[#2e343f] px-4 py-3">
           <DailyCountdown />
         </div>
       )}
 
-      <div className="mt-6 rounded-2xl bg-surface border border-[#2e343f] p-4">
-        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-3">
+      <div className="mt-4 rounded-2xl bg-surface border border-[#2e343f] px-4 py-3">
+        <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-2">
           Share your result
         </div>
         <ShareButton text={shareText} card={cardOptions} />
       </div>
 
-      <div className="mt-4 flex flex-col gap-2.5" data-testid="result-cta-stack">
+      <div className="mt-3 flex flex-col gap-2" data-testid="result-cta-stack">
         {!isDaily && (
           <Button onClick={startNextSame} data-testid="result-next-puzzle">
             Next puzzle

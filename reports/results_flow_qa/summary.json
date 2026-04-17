@@ -2,12 +2,12 @@
   "measurements": [
     {
       "exists": true,
-      "inViewport": false,
-      "y": 773,
+      "inViewport": true,
+      "y": 650,
       "height": 48,
       "viewportHeight": 800,
       "doc": {
-        "scrollHeight": 963,
+        "scrollHeight": 836,
         "scrollTop": 0,
         "clientHeight": 800
       },
@@ -16,12 +16,12 @@
     },
     {
       "exists": true,
-      "inViewport": false,
-      "y": 847,
+      "inViewport": true,
+      "y": 724,
       "height": 48,
       "viewportHeight": 800,
       "doc": {
-        "scrollHeight": 1037,
+        "scrollHeight": 910,
         "scrollTop": 0,
         "clientHeight": 800
       },
@@ -30,12 +30,12 @@
     },
     {
       "exists": true,
-      "inViewport": false,
-      "y": 847,
+      "inViewport": true,
+      "y": 724,
       "height": 48,
       "viewportHeight": 800,
       "doc": {
-        "scrollHeight": 1037,
+        "scrollHeight": 910,
         "scrollTop": 0,
         "clientHeight": 800
       },
@@ -45,11 +45,11 @@
     {
       "exists": true,
       "inViewport": true,
-      "y": 753,
+      "y": 630,
       "height": 48,
       "viewportHeight": 844,
       "doc": {
-        "scrollHeight": 935,
+        "scrollHeight": 844,
         "scrollTop": 0,
         "clientHeight": 844
       },
@@ -58,12 +58,12 @@
     },
     {
       "exists": true,
-      "inViewport": false,
-      "y": 827,
+      "inViewport": true,
+      "y": 704,
       "height": 48,
       "viewportHeight": 844,
       "doc": {
-        "scrollHeight": 1009,
+        "scrollHeight": 882,
         "scrollTop": 0,
         "clientHeight": 844
       },
@@ -72,12 +72,12 @@
     },
     {
       "exists": true,
-      "inViewport": false,
-      "y": 827,
+      "inViewport": true,
+      "y": 704,
       "height": 48,
       "viewportHeight": 844,
       "doc": {
-        "scrollHeight": 1009,
+        "scrollHeight": 882,
         "scrollTop": 0,
         "clientHeight": 844
       },
@@ -87,11 +87,11 @@
     {
       "exists": true,
       "inViewport": true,
-      "y": 753,
+      "y": 630,
       "height": 48,
       "viewportHeight": 915,
       "doc": {
-        "scrollHeight": 935,
+        "scrollHeight": 915,
         "scrollTop": 0,
         "clientHeight": 915
       },
@@ -101,11 +101,11 @@
     {
       "exists": true,
       "inViewport": true,
-      "y": 827,
+      "y": 704,
       "height": 48,
       "viewportHeight": 915,
       "doc": {
-        "scrollHeight": 1009,
+        "scrollHeight": 915,
         "scrollTop": 0,
         "clientHeight": 915
       },
@@ -115,11 +115,11 @@
     {
       "exists": true,
       "inViewport": true,
-      "y": 827,
+      "y": 704,
       "height": 48,
       "viewportHeight": 915,
       "doc": {
-        "scrollHeight": 1009,
+        "scrollHeight": 915,
         "scrollTop": 0,
         "clientHeight": 915
       },
@@ -127,5 +127,5 @@
       "profile": "android"
     }
   ],
-  "generatedAt": "2026-04-17T09:07:33.525Z"
+  "generatedAt": "2026-04-17T09:27:46.128Z"
 }

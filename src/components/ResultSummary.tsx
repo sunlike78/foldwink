@@ -15,17 +15,16 @@ export function ResultSummary({ summary, puzzle, currentStreak }: Props) {
   const headline = isWin ? "Solved" : "Out of mistakes";
 
   return (
-    <div className="space-y-5 fw-result-pop">
+    <div className="space-y-3 fw-result-pop">
       <div className="text-center">
         <div
-          className={`text-[11px] uppercase tracking-[0.14em] mb-2 ${
+          className={`text-[11px] uppercase tracking-[0.14em] mb-1.5 ${
             isWin ? "text-accent" : "text-muted"
           }`}
         >
           {isWin ? "Foldwink · cleared" : "Foldwink · close call"}
         </div>
-        <div className="text-4xl font-extrabold mb-3">{headline}</div>
-        <div className="mx-auto h-[3px] w-12 rounded-full bg-accent/60" />
+        <div className="text-3xl font-extrabold">{headline}</div>
       </div>
 
       <StatStrip
@@ -47,16 +46,16 @@ export function ResultSummary({ summary, puzzle, currentStreak }: Props) {
         ]}
       />
 
-      <div className="space-y-2">
+      <div className="space-y-1.5">
         {puzzle.groups.map((g) => (
           <div
             key={g.id}
-            className={`rounded-xl px-4 py-3 ${solvedClassForGroup(puzzle, g.id)}`}
+            className={`rounded-xl px-4 py-2 ${solvedClassForGroup(puzzle, g.id)}`}
           >
             <div className="text-[11px] uppercase tracking-[0.12em] font-bold opacity-80">
               {g.label}
             </div>
-            <div className="font-semibold mt-0.5">{g.items.join(" · ")}</div>
+            <div className="font-semibold mt-0.5 text-sm">{g.items.join(" · ")}</div>
           </div>
         ))}
       </div>
