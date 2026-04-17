@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0229",
+  "title": "Day at the beach",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "seaside",
+    "categoryType": "thematic",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "sun-gear",
+      "label": "Sun Gear",
+      "items": ["Visor", "Sunglasses", "Sun Hat", "Beach Umbrella"]
+    },
+    {
+      "id": "sand-things",
+      "label": "On the Sand",
+      "items": ["Towel", "Bucket", "Shovel", "Seashell"]
+    },
+    {
+      "id": "water-toys",
+      "label": "Water Toys",
+      "items": ["Float", "Paddleboard", "Snorkel", "Flippers"]
+    },
+    {
+      "id": "snacks",
+      "label": "Beach Snacks",
+      "items": ["Ice Cream", "Lemonade", "Watermelon", "Pretzel"]
+    }
+  ]
+}

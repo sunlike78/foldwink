@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0227",
+  "title": "At the station",
+  "difficulty": "medium",
+  "editorialSummary": "Four types of station — train, gas, police, and broadcasting — disambiguated by what belongs on-site. False trail: 'Pump' and 'Platform' both feel like transit words.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "wordplay",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "train-station",
+      "label": "Train Station",
+      "revealHint": "Rail",
+      "items": ["Turnstile", "Ticket Gate", "Waiting Room", "Luggage Rack"]
+    },
+    {
+      "id": "gas-station",
+      "label": "Gas Station",
+      "revealHint": "Fuel",
+      "items": ["Pump", "Nozzle", "Kiosk", "Canopy"]
+    },
+    {
+      "id": "police-station",
+      "label": "Police Station",
+      "revealHint": "Law",
+      "items": ["Cell", "Desk Sergeant", "Booking", "Interview Room"]
+    },
+    {
+      "id": "broadcast",
+      "label": "Broadcast Station",
+      "revealHint": "Radio",
+      "items": ["Antenna", "Studio", "DJ Booth", "Transmitter"]
+    }
+  ]
+}

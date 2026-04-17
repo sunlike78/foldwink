@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0214",
+  "title": "Four seasons",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "weather",
+    "categoryType": "thematic",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "summer",
+      "label": "Summer Things",
+      "items": ["Sunscreen", "Popsicle", "Flip-Flops", "Beach Towel"]
+    },
+    {
+      "id": "autumn",
+      "label": "Autumn Things",
+      "items": ["Acorn", "Pumpkin", "Rake", "Scarecrow"]
+    },
+    {
+      "id": "winter",
+      "label": "Winter Things",
+      "items": ["Mittens", "Sled", "Snowman", "Icicle"]
+    },
+    {
+      "id": "spring",
+      "label": "Spring Things",
+      "items": ["Umbrella", "Kite", "Daffodil", "Nest"]
+    }
+  ]
+}

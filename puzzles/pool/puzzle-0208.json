@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0208",
+  "title": "Taking flight",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "transportation",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "winged-aircraft",
+      "label": "Winged Aircraft",
+      "items": ["Biplane", "Glider", "Jet", "Airliner"]
+    },
+    {
+      "id": "rotorcraft",
+      "label": "Rotorcraft",
+      "items": ["Helicopter", "Gyrocopter", "Chinook", "Drone"]
+    },
+    {
+      "id": "lighter-than-air",
+      "label": "Lighter Than Air",
+      "items": ["Blimp", "Zeppelin", "Balloon", "Airship"]
+    },
+    {
+      "id": "airport",
+      "label": "At the Airport",
+      "items": ["Runway", "Gate", "Hangar", "Tower"]
+    }
+  ]
+}

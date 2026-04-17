@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0225",
+  "title": "Head to toe",
+  "difficulty": "medium",
+  "editorialSummary": "Four body-worn accessory tiers disambiguated — hats, gloves, belts, and scarves — with each group chosen to include one edge case that tempts the adjacent group.",
+  "meta": {
+    "theme": "clothing",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "hats",
+      "label": "Hat Styles",
+      "revealHint": "Head",
+      "items": ["Fedora", "Beret", "Beanie", "Top Hat"]
+    },
+    {
+      "id": "gloves",
+      "label": "Glove Styles",
+      "revealHint": "Hand",
+      "items": ["Mitten", "Gauntlet", "Oven Mitt", "Fingerless"]
+    },
+    {
+      "id": "belts",
+      "label": "Belt Styles",
+      "revealHint": "Waist",
+      "items": ["Sash", "Cummerbund", "Tool Belt", "Obi"]
+    },
+    {
+      "id": "scarves",
+      "label": "Scarf Styles",
+      "revealHint": "Neck",
+      "items": ["Shawl", "Pashmina", "Cravat", "Bandana"]
+    }
+  ]
+}

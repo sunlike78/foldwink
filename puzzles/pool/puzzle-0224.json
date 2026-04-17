@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0224",
+  "title": "Pan across",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of pan — cookware attribute, camera movement, harsh review, and gold prospecting. False trail: camera 'Sweep' and gold 'Stream' can feel interchangeable.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "wordplay",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "cookware",
+      "label": "Pan the Cookware",
+      "revealHint": "Kitchen",
+      "items": ["Nonstick", "Cast Iron", "Saute", "Sear"]
+    },
+    {
+      "id": "camera",
+      "label": "Camera Pan",
+      "revealHint": "Camera",
+      "items": ["Tilt", "Zoom", "Dolly", "Sweep"]
+    },
+    {
+      "id": "criticise",
+      "label": "Pan the Review",
+      "revealHint": "Slam",
+      "items": ["Trash", "Roast", "Bash", "Knock"]
+    },
+    {
+      "id": "gold",
+      "label": "Panning for Gold",
+      "revealHint": "Miner",
+      "items": ["Nugget", "Sieve", "Stream", "Claim"]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0226",
+  "title": "Salt and rope",
+  "difficulty": "medium",
+  "editorialSummary": "Four nautical concept buckets — knot names, parts of a sailing ship, crew roles, and sailing commands. False trail: 'Bowline' feels like a part of the bow; 'Hitch' feels like a problem.",
+  "meta": {
+    "theme": "maritime",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "knots",
+      "label": "Nautical Knots",
+      "revealHint": "Rope",
+      "items": ["Bowline", "Clove Hitch", "Sheet Bend", "Reef Knot"]
+    },
+    {
+      "id": "ship-parts",
+      "label": "Sailing Ship Parts",
+      "revealHint": "Hull",
+      "items": ["Keel", "Boom", "Stern", "Bowsprit"]
+    },
+    {
+      "id": "crew-roles",
+      "label": "Ship's Crew",
+      "revealHint": "Sailors",
+      "items": ["Captain", "Bosun", "Helmsman", "First Mate"]
+    },
+    {
+      "id": "commands",
+      "label": "Sailing Commands",
+      "revealHint": "Orders",
+      "items": ["Heave Ho", "Ahoy", "Avast", "All Hands"]
+    }
+  ]
+}

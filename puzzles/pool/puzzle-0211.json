@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0211",
+  "title": "Jewellery box",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "clothing",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "neck",
+      "label": "Neck Jewellery",
+      "items": ["Necklace", "Pendant", "Choker", "Locket"]
+    },
+    {
+      "id": "wrist",
+      "label": "Wrist Jewellery",
+      "items": ["Bracelet", "Bangle", "Cuff", "Watch"]
+    },
+    {
+      "id": "finger",
+      "label": "Ring Types",
+      "items": ["Wedding", "Signet", "Pinky", "Thumb"]
+    },
+    {
+      "id": "ear",
+      "label": "Earring Styles",
+      "items": ["Stud", "Hoop", "Drop", "Chandelier"]
+    }
+  ]
+}

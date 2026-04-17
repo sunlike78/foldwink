@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0219",
+  "title": "Cleaning day",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "household",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "cleaning-tools",
+      "label": "Cleaning Tools",
+      "items": ["Broom", "Mop", "Duster", "Vacuum"]
+    },
+    {
+      "id": "cleaning-liquids",
+      "label": "Cleaning Liquids",
+      "items": ["Bleach", "Detergent", "Polish", "Ammonia"]
+    },
+    {
+      "id": "laundry",
+      "label": "Laundry Gear",
+      "items": ["Washer", "Dryer", "Hamper", "Iron"]
+    },
+    {
+      "id": "disposal",
+      "label": "Trash & Recycling",
+      "items": ["Bin", "Trash Bag", "Compost", "Liner"]
+    }
+  ]
+}

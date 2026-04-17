@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0210",
+  "title": "Best foot forward",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "clothing",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "casual-shoes",
+      "label": "Casual Shoes",
+      "items": ["Sneaker", "Loafer", "Sandal", "Moccasin"]
+    },
+    {
+      "id": "formal-shoes",
+      "label": "Formal Shoes",
+      "items": ["Oxford", "Brogue", "Derby", "Monk Strap"]
+    },
+    {
+      "id": "boots",
+      "label": "Types of Boot",
+      "items": ["Chelsea", "Cowboy", "Combat", "Wellington"]
+    },
+    {
+      "id": "shoe-parts",
+      "label": "Parts of a Shoe",
+      "items": ["Sole", "Heel", "Laces", "Tongue"]
+    }
+  ]
+}

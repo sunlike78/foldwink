@@ -2,18 +2,16 @@
 
 ## Current phase
 
-**Content scaling — batch-03 merged (221 curated puzzles).**
+**Content scaling — batch-04 merged (241 curated puzzles).**
 
-- 221 curated puzzles (119 easy + 82 medium + 20 hard) — was 200
-- Batch-03: 25 drafted → 21 promoted (15 accept + 6 revise + 4 reject = 40% non-accept)
-- Diversity score 0.956 → 0.960
-- Zero new verbatim label collisions
-- Menu daily-done state fits iPhone viewport (compact DailyCompleteCard)
-- CI prettier format:check unblocked (QA report dirs ignored)
-- All automated gates green (typecheck / 119 tests / validate / build)
+- 241 curated puzzles (132 easy + 89 medium + 20 hard) — target 500
+- Batch-04: 25 drafted → 20 promoted (15 accept + 5 revise + 5 reject = 40% non-accept, 20% pure reject)
+- Diversity score 0.956 → 0.960 → 0.964 across batch-03 and batch-04
+- Zero new verbatim label collisions through 2 batches
+- All stop-triggers clear — continuing toward 260
 
-Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md`.
-Prior: `docs/reports/FOLDWINK_RELEASE_HARDENING_REPORT.md`.
+Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_04_REPORT.md`.
+Prior: `docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md`.
 
 ## In progress
 
@@ -38,10 +36,11 @@ Prior: `docs/reports/FOLDWINK_RELEASE_HARDENING_REPORT.md`.
 
 ## Queue — after public free
 
-### Content (in flight — batch-03 merged 2026-04-17)
+### Content (in flight — batches 03+04 merged 2026-04-17)
 
 - [x] batch-03 → 200 → 221 (docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md)
-- [ ] batch-04 → target 221 → ~245 (domain hints: transportation, clothing, weather, kitchen non-cutting, board games)
+- [x] batch-04 → 221 → 241 (docs/reports/FOLDWINK_CONTENT_BATCH_04_REPORT.md)
+- [ ] batch-05 → target 241 → ~260 (under-covered domains per b04 validator: art/museum, cooking techniques, board games, sports-by-tier, mythology, transport-by-era, scents, emotions, constellations; avoid weather/marine/clothing — saturated)
 - [ ] Stop-at-next-milestone trigger: if any of {non-accept < 30%, diversity score drops, >3 new collisions, single puzzle needs >3 revise passes} — freeze at 250 and ship
 - [ ] More hard puzzles — target 20 → 50 (separate cadence, not batched with easy/medium)
 - [ ] Editorial report per batch under `docs/reports/`

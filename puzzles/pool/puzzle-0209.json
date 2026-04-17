@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0209",
+  "title": "Wardrobe basics",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "clothing",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "shirts",
+      "label": "Types of Shirt",
+      "items": ["Polo", "Henley", "Oxford", "T-Shirt"]
+    },
+    {
+      "id": "trousers",
+      "label": "Types of Trouser",
+      "items": ["Chinos", "Jeans", "Slacks", "Cargos"]
+    },
+    {
+      "id": "outerwear",
+      "label": "Outerwear",
+      "items": ["Parka", "Blazer", "Trench", "Anorak"]
+    },
+    {
+      "id": "accessories",
+      "label": "Accessories",
+      "items": ["Belt", "Scarf", "Gloves", "Tie"]
+    }
+  ]
+}

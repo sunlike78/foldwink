@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0220",
+  "title": "At the office",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "office",
+    "categoryType": "classification",
+    "batch": "batch-04",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "stationery",
+      "label": "Desk Stationery",
+      "items": ["Stapler", "Tape", "Sticky Notes", "Paper Clip"]
+    },
+    {
+      "id": "filing",
+      "label": "Filing Supplies",
+      "items": ["Folder", "Binder", "Label", "Hole Punch"]
+    },
+    {
+      "id": "documents",
+      "label": "Document Types",
+      "items": ["Memo", "Invoice", "Contract", "Report"]
+    },
+    {
+      "id": "meeting",
+      "label": "Meeting Room",
+      "items": ["Agenda", "Minutes", "Whiteboard", "Projector"]
+    }
+  ]
+}
