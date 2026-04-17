@@ -15,11 +15,7 @@
     "test:e2e": "node tests/e2e/run-all.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "pack:itch": "npm run build && node scripts/pack-itch.mjs",
-    "video:record": "node reports/video_automation/scripts/record.mjs",
-    "video:compose": "node reports/video_automation/scripts/compose.mjs",
-    "video:all": "npm run build && node reports/video_automation/scripts/record.mjs && node reports/video_automation/scripts/compose.mjs",
-    "video:pack": "node reports/video_automation/scripts/pack.mjs"
+    "pack:itch": "npm run build && node scripts/pack-itch.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -36,7 +32,6 @@
     "eslint": "^10.2.0",
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
-    "ffmpeg-static": "^5.2.0",
     "playwright": "^1.59.1",
     "postcss": "^8.4.49",
     "prettier": "^3.8.2",
