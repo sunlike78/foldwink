@@ -9,6 +9,7 @@ import { AboutFooter } from "../components/AboutFooter";
 import { logEvent } from "../analytics/eventLog";
 import { mediumReadiness, hardReadiness } from "../game/engine/readiness";
 import { HARD_POOL } from "../puzzles/loader";
+import { isIosSafariInBrowser } from "../utils/platform";
 
 export function MenuScreen() {
   const startEasy = useGameStore((s) => s.startEasy);
@@ -159,6 +160,15 @@ export function MenuScreen() {
         </span>
         <span className="tabular-nums">{poolSize} puzzles</span>
       </div>
+
+      {isIosSafariInBrowser() && (
+        <p className="text-[10px] text-muted text-center max-w-xs leading-relaxed mt-1">
+          <span className="text-accent">✦ iPhone tip</span> — tap Safari&apos;s{" "}
+          <span className="text-text font-semibold">Share</span> button, then{" "}
+          <span className="text-text font-semibold">Add to Home Screen</span> for a cleaner
+          full-screen play.
+        </p>
+      )}
     </div>
   );
 }
