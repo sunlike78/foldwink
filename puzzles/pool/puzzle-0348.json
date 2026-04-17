@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0348",
+  "title": "Grammar Rules",
+  "difficulty": "medium",
+  "editorialSummary": "Grammatical categories grouped by type. The existing pool has 'Parts of Speech' as a label — this puzzle avoids that label entirely. False trail: Nominative and Accusative look like they could be Parts of Speech to players unfamiliar with Latin grammar. Gerund is a Verb Form that functions like a noun, tempting players to place it in a Parts-of-Speech group. Supine is a Latin verbal noun (a verb form) that is largely obsolete in modern English — included to add challenge without being obscure in a grammar context.",
+  "meta": {
+    "theme": "linguistics",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Word Classes",
+      "revealHint": "Syntax",
+      "items": ["Preposition", "Interjection", "Determiner", "Article"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Grammatical Cases",
+      "revealHint": "Declension",
+      "items": ["Nominative", "Accusative", "Dative", "Genitive"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Verb Moods",
+      "revealHint": "Mood",
+      "items": ["Indicative", "Subjunctive", "Imperative", "Conditional"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Verb Forms",
+      "revealHint": "Morphology",
+      "items": ["Gerund", "Infinitive", "Participle", "Supine"],
+      "color": "purple"
+    }
+  ]
+}

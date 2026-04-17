@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0344",
+  "title": "Shape Language",
+  "difficulty": "easy",
+  "editorialSummary": "Geometric shapes and forms grouped by category. False trail: Ellipse and Circle are both conic sections — both correctly belong in that group. Rhombus and Parallelogram are both quadrilaterals (a rhombus is a special parallelogram) but both belong in Types of Quadrilateral as the group is not 'unique' quadrilaterals. Torus is a 3D solid sometimes confused with a circle.",
+  "meta": {
+    "theme": "mathematics",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Types of Triangle",
+      "items": ["Equilateral", "Isosceles", "Scalene", "Right-Angled"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Types of Quadrilateral",
+      "items": ["Rhombus", "Trapezoid", "Parallelogram", "Kite"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "3D Solids",
+      "items": ["Tetrahedron", "Octahedron", "Prism", "Torus"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Conic Sections",
+      "items": ["Ellipse", "Hyperbola", "Parabola", "Circle"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

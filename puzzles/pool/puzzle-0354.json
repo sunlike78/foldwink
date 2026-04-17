@@ -1,0 +1,42 @@
+{
+  "id": "hard-023",
+  "title": "The Philosopher's Trap",
+  "difficulty": "hard",
+  "editorialSummary": "Philosophical terms that each belong to exactly one tradition but share surface vocabulary across traditions. False trail 1: Dasein, Being-in-the-World, Thrownness, and Angst all read as Existentialist, but Heidegger belongs to Phenomenology — Intentionality (Husserl/Brentano) anchors the Phenomenology group instead of Angst, which is used by Kierkegaard (Existentialism) but here is absent. False trail 2: Categorical Imperative, Autonomy, and Duty all map to Kantian Deontology, but Autonomy is also central to Libertarian political philosophy — here it stays in the Kantian group because Kingdom of Ends is the confirming anchor. False trail 3: Eudaimonia, Telos, and Virtue all feel Aristotelian — Telos appears in both metaphysics and ethics but is placed in Virtue Ethics here as its primary ethical application. False trail 4: Dialectic is used by both Hegel and Marx — placed in Hegelian Idealism because Geist and Aufhebung are unmistakably Hegel.",
+  "meta": {
+    "theme": "philosophy",
+    "categoryType": "attribute",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Virtue Ethics Terms",
+      "revealHint": "",
+      "items": ["Eudaimonia", "Phronesis", "Telos", "Arete"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Kantian Deontology Terms",
+      "revealHint": "",
+      "items": ["Categorical Imperative", "Duty", "Autonomy", "Kingdom of Ends"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Phenomenology Terms",
+      "revealHint": "",
+      "items": ["Dasein", "Being-in-the-World", "Thrownness", "Intentionality"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Hegelian Idealism Terms",
+      "revealHint": "",
+      "items": ["Dialectic", "Geist", "Aufhebung", "Absolute Idea"],
+      "color": "purple"
+    }
+  ]
+}

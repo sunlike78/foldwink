@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0352",
+  "title": "Structural Systems",
+  "difficulty": "medium",
+  "editorialSummary": "Building structural systems grouped by the dominant load-resisting mechanism. False trail: a Suspension Bridge is primarily a tension structure but its towers work in compression — the puzzle classifies it under Tension Structures because the cables (not the towers) define the primary structural logic. Geodesic Dome appears under Shell Structures because it distributes load through its surface geometry, not through compression in the traditional arch sense.",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Compression Structures",
+      "revealHint": "Compression",
+      "items": ["Masonry Arch", "Vault", "Dome", "Buttress"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Tension Structures",
+      "revealHint": "Tension",
+      "items": ["Suspension Bridge", "Cable-Stayed", "Tent Structure", "Tensegrity"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Frame Structures",
+      "revealHint": "Frame",
+      "items": ["Steel Frame", "Timber Frame", "Portal Frame", "Space Frame"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Shell Structures",
+      "revealHint": "Shell",
+      "items": ["Thin Shell", "Geodesic Dome", "Folded Plate", "Monocoque"],
+      "color": "purple"
+    }
+  ]
+}

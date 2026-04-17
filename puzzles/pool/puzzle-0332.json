@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0332",
+  "title": "Crossing the Gap",
+  "difficulty": "easy",
+  "editorialSummary": "Bridge types grouped by structural principle. False trail: Rope Bridge and Cable-Stayed Bridge both use cables but differ in principle — a rope bridge is a simple flexible span with no rigid deck, while a cable-stayed bridge uses diagonal cables from towers to support a rigid deck. Pontoon Bridge floats on water and is not cable-supported despite sometimes resembling one visually. Bascule bridges are movable (they open like a drawbridge); Swing Bridge and Lift Bridge are also movable — all three are grouped as Movable Bridges. Truss bridges are distinct from girder bridges in using a framework of triangular units.",
+  "meta": {
+    "theme": "engineering",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Arch Bridges",
+      "items": ["Stone Arch Bridge", "Tied Arch Bridge", "Through Arch Bridge", "Bowstring Arch Bridge"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Cable-Supported Bridges",
+      "items": ["Pontoon Bridge", "Cable-Stayed Bridge", "Rope Bridge", "Stressed Ribbon"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Beam and Truss Bridges",
+      "items": ["Girder Bridge", "Truss Bridge", "Box Girder Bridge", "Plate Girder Bridge"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Movable Bridges",
+      "items": ["Bascule Bridge", "Swing Bridge", "Lift Bridge", "Folding Bridge"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

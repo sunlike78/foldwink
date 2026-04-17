@@ -2,17 +2,13 @@
 
 ## Current phase
 
-**Content scaling — batch-05 merged (265 curated puzzles).**
+**Content scaling — batch-09 merged (364 curated puzzles).**
 
-- 265 curated puzzles (148 easy + 97 medium + 20 hard) — target 500
-- Batch-05: 25 drafted → 24 promoted (20 accept + 4 revise + 1 reject at validator)
-- Designer pre-submission filter: 15 drafts rewritten for pool collisions before submission
-- Diversity 0.956 → 0.960 → 0.964 → 0.967 across 3 batches (+65 puzzles)
-- Zero new verbatim label collisions through 3 batches
-- Non-accept trigger fired (20% < 30% at validator) but explained by upstream filtering — continuing per user direction
-
-Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_05_REPORT.md`.
-Prior: `docs/reports/FOLDWINK_CONTENT_BATCH_04_REPORT.md`.
+- 364 curated puzzles (easy=200, medium=140, hard=24) — target 500
+- Diversity score: 0.972
+- Batch-09: 25 drafted → 25 promoted (16 pass + 9 revise+accept + 0 reject)
+- Fresh domains: architecture styles, phobias, bridge types, gemstones by color, Olympic debut years, heraldry, board game mechanics, writing systems, clouds, collective nouns
+- Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_09_REPORT.md`
 
 ## In progress
 
@@ -42,7 +38,11 @@ Prior: `docs/reports/FOLDWINK_CONTENT_BATCH_04_REPORT.md`.
 - [x] batch-03 → 200 → 221 (docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md)
 - [x] batch-04 → 221 → 241 (docs/reports/FOLDWINK_CONTENT_BATCH_04_REPORT.md)
 - [x] batch-05 → 241 → 265 (docs/reports/FOLDWINK_CONTENT_BATCH_05_REPORT.md)
-- [ ] batch-06 → target 265 → ~290 (fresh domains: architecture, carpenter/plumber tools by trade, constellations, Norse/Egyptian myth beyond basic, languages of the world, musical instruments by family, astronomy beyond planets, desserts non-pastry-school, law/court vocab, theatre vocab)
+- [x] batch-06 → 265 → 289 (docs/reports/FOLDWINK_CONTENT_BATCH_06_REPORT.md)
+- [x] batch-07 → 289 → 314 (docs/reports/FOLDWINK_CONTENT_BATCH_07_REPORT.md)
+- [x] batch-08 → 314 → 339 (docs/reports/FOLDWINK_CONTENT_BATCH_08_REPORT.md)
+- [x] batch-09 → 339 → 364 (docs/reports/FOLDWINK_CONTENT_BATCH_09_REPORT.md)
+- [ ] batch-10 → target 364 → ~389
 - [ ] More hard puzzles — target 20 → 50 (separate cadence)
 - [ ] Editorial report per batch under `docs/reports/`
 

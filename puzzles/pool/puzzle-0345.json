@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0345",
+  "title": "How We're Governed",
+  "difficulty": "easy",
+  "editorialSummary": "Social and political concepts grouped by domain. False trail: Capitalism and Socialism are economic systems, not government types — players may confuse them with Democracy or Oligarchy. Social Norm and Social Mobility are distinct sociological concepts that should not be confused with economic systems. IB Curriculum is a real international education framework (International Baccalaureate) and all curriculum models here are widely used in schools.",
+  "meta": {
+    "theme": "social-science",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Sociological Concepts",
+      "items": ["Social Mobility", "Social Norm", "Social Capital", "Social Stratification"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Economic Systems",
+      "items": ["Capitalism", "Socialism", "Mixed Economy", "Command Economy"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Government Types",
+      "items": ["Democracy", "Oligarchy", "Theocracy", "Technocracy"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Cultural Anthropology Terms",
+      "items": ["Kinship", "Totem", "Ritual Taboo", "Rite of Passage"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

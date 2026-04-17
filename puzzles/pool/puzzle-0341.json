@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0341",
+  "title": "Coat of Arms",
+  "difficulty": "easy",
+  "editorialSummary": "Heraldry terms grouped by category. False trail: Gules (red) and Azure (blue) are both tinctures (colors) while Ermine and Vair are tinctures too but specifically furs — the puzzle separates colors, furs, ordinaries, and attitudes into distinct groups. Rampant, Passant, Couchant, and Sejant are the four most common attitudes (postures) for animals in heraldry. All terms appear in standard heraldry references (Fox-Davies, Boutell).",
+  "meta": {
+    "theme": "heraldry",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Heraldic Colors",
+      "items": ["Gules", "Azure", "Sable", "Vert"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Heraldic Furs",
+      "items": ["Ermine", "Vair", "Potent", "Pean"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Heraldic Ordinaries",
+      "items": ["Chief", "Pale", "Bend", "Fess"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Heraldic Attitudes",
+      "items": ["Rampant", "Passant", "Couchant", "Sejant"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0336",
+  "title": "Deep Thinkers",
+  "difficulty": "easy",
+  "editorialSummary": "Philosophers grouped by movement. False trail: Kierkegaard is often called the father of existentialism yet predates Sartre — his inclusion in Existentialism is correct. Voltaire is commonly grouped with French Enlightenment but is placed here in the general Enlightenment group alongside Locke and Hume. Russell and Wittgenstein both attended Cambridge but belong to Analytic philosophy — Frege and Quine are the logical positivist and pragmatist links that complete the group.",
+  "meta": {
+    "theme": "philosophy",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Ancient Greek Philosophers",
+      "items": ["Socrates", "Plato", "Aristotle", "Epicurus"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Enlightenment Philosophers",
+      "items": ["Locke", "Hume", "Kant", "Voltaire"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Existentialist Philosophers",
+      "items": ["Sartre", "Camus", "Simone de Beauvoir", "Kierkegaard"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Analytic Philosophers",
+      "items": ["Russell", "Wittgenstein", "Frege", "Quine"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

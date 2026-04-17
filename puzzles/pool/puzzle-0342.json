@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0342",
+  "title": "Famous Buildings",
+  "difficulty": "easy",
+  "editorialSummary": "Well-known buildings grouped by function. False trail: St Basil's is iconic like a palace but is a cathedral; Sydney Opera House performs opera but is architecturally identified as an opera house, not a concert hall. The Met Opera (Metropolitan Opera) is in New York, not to be confused with the Met Museum. Potala Palace in Lhasa was both a palace and a religious site — placed in Palaces as its primary civic function.",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Famous Cathedrals",
+      "items": ["Notre-Dame", "Chartres Cathedral", "Cologne Cathedral", "St Basil's"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Famous Palaces",
+      "items": ["Versailles", "Alhambra", "Topkapi", "Potala Palace"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Famous Opera Houses",
+      "items": ["Sydney Opera House", "La Scala", "Vienna State Opera", "Met Opera"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Famous Modern Towers",
+      "items": ["Burj Khalifa", "The Shard", "One World Trade", "Petronas Towers"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

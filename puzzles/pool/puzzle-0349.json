@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0349",
+  "title": "Signs and Symbols",
+  "difficulty": "medium",
+  "editorialSummary": "Writing systems grouped by script type. False trail: Hiragana and Cherokee are both invented scripts (created by individual people) but Hiragana is a syllabary while Cherokee is a syllabary too — they correctly share the Syllabic Scripts group. Arabic is placed in Abjads (consonant-only scripts), not Alphabets, despite looking similar to an alphabet. 'Hebrew Script' is used rather than 'Hebrew' to avoid confusion with the language itself. Linear B is the Mycenaean Greek syllabary, deciphered in 1952 — verifiable in any classics reference.",
+  "meta": {
+    "theme": "linguistics",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Alphabetic Scripts",
+      "revealHint": "Alphabet",
+      "items": ["Latin", "Cyrillic", "Greek", "Armenian"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Syllabic Scripts",
+      "revealHint": "Syllabary",
+      "items": ["Hiragana", "Katakana", "Cherokee", "Linear B"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Logographic Scripts",
+      "revealHint": "Logograph",
+      "items": ["Chinese Characters", "Egyptian Hieroglyphs", "Sumerian Cuneiform", "Mayan Glyphs"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Abjad Scripts",
+      "revealHint": "Consonants",
+      "items": ["Arabic", "Hebrew Script", "Phoenician", "Syriac"],
+      "color": "purple"
+    }
+  ]
+}

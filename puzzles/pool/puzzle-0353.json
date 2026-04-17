@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0353",
+  "title": "How the Game Works",
+  "difficulty": "medium",
+  "editorialSummary": "Board game design mechanics grouped by category. The existing pool (puzzle-0314) uses specific game titles to illustrate these mechanics; this puzzle uses the mechanic terms themselves. False trail: 'Hand Management' and 'Deck Building' both involve cards — Hand Management is about optimising what cards you play each turn, while Deck Building is about constructing your card pool during play. 'Set Collection' and 'Engine Building' both involve accumulating things — Set Collection is about gathering matching items for points, while Engine Building is about building a system that generates increasing resources over time. All terms appear in BoardGameGeek's official mechanic taxonomy.",
+  "meta": {
+    "theme": "games",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Resource Management Mechanics",
+      "revealHint": "Resources",
+      "items": ["Worker Placement", "Set Collection", "Engine Building", "Tableau Building"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Card-Based Mechanics",
+      "revealHint": "Cards",
+      "items": ["Deck Building", "Hand Management", "Drafting", "Trick-Taking"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Territory Mechanics",
+      "revealHint": "Territory",
+      "items": ["Area Control", "Area Movement", "Route Building", "Tile Placement"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Social Mechanics",
+      "revealHint": "Social",
+      "items": ["Negotiation", "Hidden Roles", "Voting", "Trading"],
+      "color": "purple"
+    }
+  ]
+}

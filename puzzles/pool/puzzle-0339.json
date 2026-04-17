@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0339",
+  "title": "By the Numbers",
+  "difficulty": "easy",
+  "editorialSummary": "Mathematical concepts grouped by category. False trail: Pi and Euler's Number are both constants but also appear in calculus — they sit in Famous Mathematical Constants. Induction is both a proof type and a scientific method — placed firmly in Mathematical Proof Types. 'Perfect Number' is a type of number (6, 28, 496...) and should not be confused with a constant.",
+  "meta": {
+    "theme": "mathematics",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Types of Numbers",
+      "items": ["Prime", "Composite", "Imaginary", "Perfect Number"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Famous Mathematical Constants",
+      "items": ["Pi", "Euler's Number", "Golden Ratio", "Square Root of Two"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Branches of Mathematics",
+      "items": ["Topology", "Number Theory", "Calculus", "Linear Algebra"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Mathematical Proof Types",
+      "items": ["Induction", "Contradiction", "Exhaustion", "Construction"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

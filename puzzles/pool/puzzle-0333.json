@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0333",
+  "title": "Language Families",
+  "difficulty": "easy",
+  "editorialSummary": "Languages grouped by family. False trail: Arabic and Hebrew are both Semitic (Afroasiatic) but sound culturally similar to some players; Persian looks Middle-Eastern but is Indo-European (Indo-Iranian branch). Cantonese and Mandarin are both Chinese but both Sino-Tibetan — they share the group. All items are widely spoken living languages verifiable in any world-languages reference.",
+  "meta": {
+    "theme": "linguistics",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Indo-European Languages",
+      "items": ["English", "Russian", "Hindi", "Persian"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Afroasiatic Languages",
+      "items": ["Arabic", "Amharic", "Hebrew", "Hausa"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Sino-Tibetan Languages",
+      "items": ["Mandarin", "Tibetan", "Burmese", "Cantonese"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Turkic Languages",
+      "items": ["Turkish", "Uzbek", "Kazakh", "Azerbaijani"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

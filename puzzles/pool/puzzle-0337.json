@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0337",
+  "title": "Who Built That?",
+  "difficulty": "easy",
+  "editorialSummary": "Architects grouped by the movement they are most associated with. False trail: Niemeyer worked alongside Le Corbusier and shares Modernist credentials — both are correctly in the Modernist group. Fischer von Erlach designed the Karlskirche in Vienna and worked firmly in the Baroque tradition despite his Central European location. Mackintosh is often associated with both Art Nouveau and Arts and Crafts — he is placed in Art Nouveau here as his most recognised international classification.",
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Baroque Architects",
+      "items": ["Bernini", "Borromini", "Wren", "Fischer von Erlach"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Art Nouveau Architects",
+      "items": ["Gaudi", "Horta", "Guimard", "Mackintosh"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Modernist Architects",
+      "items": ["Le Corbusier", "Mies van der Rohe", "Gropius", "Niemeyer"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Deconstructivist Architects",
+      "items": ["Gehry", "Hadid", "Libeskind", "Eisenman"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

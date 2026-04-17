@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0338",
+  "title": "Stones of Color",
+  "difficulty": "easy",
+  "editorialSummary": "Gemstones grouped by the color they are most commonly found in. False trail: Lapis Lazuli and Sapphire are both blue but differ entirely — Sapphire is corundum, Lapis Lazuli is a rock composed of several minerals. Garnet is most commonly red but exists in green and other varieties — placed in Red as its canonical color. Sugilite is always purple and relatively rare. Green Tourmaline shares green color with Jade and Malachite but is a distinct silicate mineral. Items in puzzle-0355 (hard-024) are fully excluded to prevent cross-puzzle overlap.",
+  "meta": {
+    "theme": "mineralogy",
+    "categoryType": "attribute",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Red Gemstones",
+      "items": ["Garnet", "Red Spinel", "Rhodolite", "Carnelian"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Blue Gemstones",
+      "items": ["Sapphire", "Lapis Lazuli", "Blue Topaz", "Tanzanite"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Green Gemstones",
+      "items": ["Green Tourmaline", "Peridot", "Jade", "Malachite"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Purple Gemstones",
+      "items": ["Sugilite", "Charoite", "Iolite", "Purple Fluorite"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0334",
+  "title": "Living Zones",
+  "difficulty": "easy",
+  "editorialSummary": "Biomes grouped by category. False trail: Kelp Forest sounds like a Forest Biome but is aquatic; Salt Flat is dry and barren like a Hot Desert but is not a desert by definition — it is placed in Extreme Biomes. All four categories use standard ecological classification.",
+  "meta": {
+    "theme": "ecology",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Forest Biomes",
+      "items": ["Boreal Forest", "Temperate Rainforest", "Cloud Forest", "Deciduous Forest"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Grassland Biomes",
+      "items": ["Savanna", "Veld", "Pampas", "Steppe"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Aquatic Biomes",
+      "items": ["Coral Reef", "Deep Sea", "Open Ocean", "Kelp Forest"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Extreme Biomes",
+      "items": ["Polar Desert", "Hot Desert", "Salt Flat", "Polar Ice"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0340",
+  "title": "New to the Games",
+  "difficulty": "easy",
+  "editorialSummary": "Olympic sports first added to the Summer Games programme in recent decades, grouped by the decade of their Olympic debut. False trail: Skateboarding and BMX Racing both involve wheels — skateboarding debuted 2021 (Tokyo) while BMX Racing debuted 2008 (Beijing). Triathlon debuted in 2000. Taekwondo debuted 2000. Beach Volleyball debuted 1996. Women's 3000m Steeplechase was added at Beijing 2008. All debut years are verifiable on the IOC website.",
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Olympic Sports Debuting in 1996",
+      "items": ["Beach Volleyball", "Mountain Bike", "Softball", "Lightweight Rowing"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Olympic Sports Debuting in 2000",
+      "items": ["Triathlon", "Taekwondo", "Trampoline", "Synchronized Diving"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Olympic Sports Debuting in 2008",
+      "items": ["BMX Racing", "Open Water Swimming", "Women's Team Sprint", "Women's Steeplechase"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Olympic Sports Debuting in 2021",
+      "items": ["Skateboarding", "Sport Climbing", "Surfing", "Karate"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

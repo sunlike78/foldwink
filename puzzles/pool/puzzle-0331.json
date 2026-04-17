@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0331",
+  "title": "By the Group",
+  "difficulty": "easy",
+  "editorialSummary": "Animals grouped by collective noun. False trail: both dolphins and penguins are highly social and either could plausibly belong to a colony, but dolphins specifically travel in pods. Bats roost in colonies but also form maternity colonies — the item is placed in the colony group, not with flocking birds.",
+  "meta": {
+    "theme": "animals",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Animals That Travel in a Pack",
+      "items": ["Wolf", "Hyena", "Wild Dog", "Coyote"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Animals That Live in a Colony",
+      "items": ["Penguin", "Ant", "Bat", "Prairie Dog"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Animals That Move in a Pod",
+      "items": ["Dolphin", "Whale", "Orca", "Narwhal"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Birds That Fly in a Murmuration or Flock",
+      "items": ["Starling", "Goose", "Flamingo", "Parakeet"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0350",
+  "title": "Logic and Reason",
+  "difficulty": "medium",
+  "editorialSummary": "Logical argument structures and fallacies grouped by category. False trail: Modus Ponens and Hypothetical Syllogism both involve conditional statements (if-then), tempting players to group them with 'Affirming the Consequent' — a fallacy that also uses conditionals — but the valid/invalid distinction is the correct sorting principle. 'Four Terms' is the formal fallacy of using a term in two different senses across premises. All four formal fallacies listed are standard entries in informal logic textbooks.",
+  "meta": {
+    "theme": "philosophy",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Valid Argument Forms",
+      "revealHint": "Valid",
+      "items": ["Modus Ponens", "Modus Tollens", "Disjunctive Syllogism", "Hypothetical Syllogism"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Informal Fallacies",
+      "revealHint": "Fallacy",
+      "items": ["Straw Man", "Ad Hominem", "False Dichotomy", "Slippery Slope"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Formal Fallacies",
+      "revealHint": "Invalid",
+      "items": ["Affirming the Consequent", "Denying the Antecedent", "Undistributed Middle", "Four Terms"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Logic Operators",
+      "revealHint": "Connective",
+      "items": ["Conjunction", "Disjunction", "Negation", "Biconditional"],
+      "color": "purple"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0346",
+  "title": "Movements in Time",
+  "difficulty": "medium",
+  "editorialSummary": "Art movements grouped by century of origin. The existing pool has 'Art Movements' as a label (puzzle-0114) listing Cubism, Surrealism, Baroque, Minimalism — these labels are distinct (17th-Century Movements, 18th-Century Movements, Late 19th-Century Movements, Early 20th-Century Movements). False trail: Rococo and Neoclassicism are both 18th-century and correctly grouped together; Baroque is 17th-century and belongs in its own group despite sounding similar. Note: Romanticism is excluded to avoid the early/late ambiguity — Post-Impressionism anchors the late 19th-century group.",
+  "meta": {
+    "theme": "art",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "17th-Century Art Movements",
+      "revealHint": "Baroque",
+      "items": ["Baroque", "Dutch Golden Age", "Caravaggism", "Tenebrism"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "18th-Century Art Movements",
+      "revealHint": "Rococo",
+      "items": ["Rococo", "Neoclassicism", "Grand Manner", "Veduta"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Late 19th-Century Art Movements",
+      "revealHint": "Symbolism",
+      "items": ["Symbolism", "Post-Impressionism", "Art Nouveau", "Pointillism"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Early 20th-Century Art Movements",
+      "revealHint": "Futurism",
+      "items": ["Futurism", "Dadaism", "Constructivism", "De Stijl"],
+      "color": "purple"
+    }
+  ]
+}

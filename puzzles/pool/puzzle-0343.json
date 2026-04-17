@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0343",
+  "title": "Mind Models",
+  "difficulty": "easy",
+  "editorialSummary": "Psychology concepts grouped by framework. False trail: Repression is a Freudian concept but also commonly discussed as a defence mechanism — placed in Freudian Concepts here as it is a foundational element of Freud's structural model. Confirmation Bias and Anchoring are cognitive biases; Dunning-Kruger and Halo Effect complete the group. Conditioning Types include Latent Learning (knowledge acquired without reinforcement, demonstrated later) alongside Classical, Operant, and Observational learning.",
+  "meta": {
+    "theme": "psychology",
+    "categoryType": "classification",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Freudian Concepts",
+      "items": ["Id", "Ego", "Superego", "Repression"],
+      "color": "yellow",
+      "revealHint": ""
+    },
+    {
+      "id": "g2",
+      "label": "Cognitive Biases",
+      "items": ["Confirmation Bias", "Anchoring", "Dunning-Kruger", "Halo Effect"],
+      "color": "green",
+      "revealHint": ""
+    },
+    {
+      "id": "g3",
+      "label": "Attachment Styles",
+      "items": ["Secure", "Anxious", "Avoidant", "Disorganised"],
+      "color": "blue",
+      "revealHint": ""
+    },
+    {
+      "id": "g4",
+      "label": "Conditioning Types",
+      "items": ["Classical", "Operant", "Observational", "Latent Learning"],
+      "color": "purple",
+      "revealHint": ""
+    }
+  ]
+}

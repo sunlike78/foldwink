@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0347",
+  "title": "Famous Canvases",
+  "difficulty": "medium",
+  "editorialSummary": "Paintings grouped by the artist who made them. False trail: Starry Night, The Night Watch, and Girl with Pearl Earring are all world-famous paintings that players may try to group together as 'most famous artworks ever' — but the correct grouping is by painter. 'Vitruvian Man' is technically a drawing not a painting, but it is among da Vinci's most attributed works. 'The Anatomy Lesson' refers specifically to 'The Anatomy Lesson of Dr. Nicolaes Tulp' by Rembrandt (1632). 'Jewish Bride' is the common name for Rembrandt's 'The Jewish Bride' (c.1666).",
+  "meta": {
+    "theme": "art",
+    "categoryType": "attribute",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Works by da Vinci",
+      "revealHint": "Leonardo",
+      "items": ["Mona Lisa", "The Last Supper", "Vitruvian Man", "Lady with Ermine"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Painted by Rembrandt",
+      "revealHint": "Rembrandt",
+      "items": ["The Night Watch", "The Anatomy Lesson", "Jewish Bride", "Belshazzar's Feast"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Painted by Van Gogh",
+      "revealHint": "Vincent",
+      "items": ["Starry Night", "Sunflowers", "The Bedroom", "Wheat Field with Crows"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Painted by Vermeer",
+      "revealHint": "Johannes",
+      "items": ["Girl with a Pearl Earring", "The Milkmaid", "View of Delft", "The Music Lesson"],
+      "color": "purple"
+    }
+  ]
+}

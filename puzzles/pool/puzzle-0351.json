@@ -1,0 +1,42 @@
+{
+  "id": "puzzle-0351",
+  "title": "Earth's Balance",
+  "difficulty": "medium",
+  "editorialSummary": "Ecological science terms grouped by concept. False trail: Decomposer and Detritivore both break down dead organic matter — Decomposer (fungi/bacteria, chemical breakdown) is placed in Trophic Roles while Detritivore (earthworms, pill bugs, physical fragmentation) would be a feeding strategy; Detritivore is deliberately excluded to avoid a near-synonym trap that would make the puzzle unfair. Amensalism (one organism harmed, the other unaffected) is the least-known symbiosis type and creates a mild challenge.",
+  "meta": {
+    "theme": "ecology",
+    "categoryType": "attribute",
+    "batch": "batch-09",
+    "status": "draft"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Trophic Roles",
+      "revealHint": "Trophic",
+      "items": ["Primary Producer", "Primary Consumer", "Secondary Consumer", "Decomposer"],
+      "color": "yellow"
+    },
+    {
+      "id": "g2",
+      "label": "Symbiosis Types",
+      "revealHint": "Symbiosis",
+      "items": ["Mutualism", "Commensalism", "Parasitism", "Amensalism"],
+      "color": "green"
+    },
+    {
+      "id": "g3",
+      "label": "Population Dynamics Terms",
+      "revealHint": "Population",
+      "items": ["Carrying Capacity", "Boom-Bust Cycle", "Keystone Species", "Apex Predator"],
+      "color": "blue"
+    },
+    {
+      "id": "g4",
+      "label": "Nutrient Cycles",
+      "revealHint": "Cycling",
+      "items": ["Carbon Cycle", "Nitrogen Cycle", "Phosphorus Cycle", "Water Cycle"],
+      "color": "purple"
+    }
+  ]
+}
