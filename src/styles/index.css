@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Root scroll pattern.
+ *
+ * Using fixed `height: 100%` on html/body/#root traps the scroll on iOS
+ * Safari and Android Chrome when a result screen grows taller than the
+ * initial viewport — the next-puzzle CTA ends up beyond reach, and the
+ * URL-bar dynamics push the visible area around unpredictably. The safer
+ * pattern is `min-height` on the document roots and `100dvh` on #root so
+ * the layout tracks the dynamic visual viewport instead of the static
+ * layout viewport.
+ */
 html,
-body,
+body {
+  min-height: 100%;
+}
+
 #root {
-  height: 100%;
+  min-height: 100%;
+  min-height: 100dvh;
 }
 
 body {
@@ -18,12 +33,30 @@ body {
   text-rendering: optimizeLegibility;
   touch-action: manipulation;
   overflow-x: hidden;
-  overscroll-behavior: contain;
+  overscroll-behavior-y: contain;
 }
 
 button {
   font: inherit;
   color: inherit;
+}
+
+/*
+ * Safe-area aware bottom padding on the main scroll flow.
+ *
+ * The last CTA on the result screen ("Next puzzle" / "Back to menu") must
+ * always be reachable — iOS home-indicator and Android gesture nav
+ * sometimes obscure the last 12–24px of the layout viewport. Pad the main
+ * column by `env(safe-area-inset-bottom)` plus a baseline so the CTA
+ * stack always clears the bottom system UI.
+ */
+.fw-safe-pb {
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 640px) {
+  .fw-safe-pb {
+    padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 *:focus-visible {

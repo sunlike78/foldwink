@@ -73,7 +73,7 @@ export function ResultScreen() {
   const showStreakCelebration = isWin && streakDelta > 0 && stats.currentStreak >= 2;
 
   return (
-    <div className="max-w-md mx-auto">
+    <div className="max-w-md mx-auto" data-testid="result-screen">
       <ResultSummary summary={summary} puzzle={puzzle} currentStreak={stats.currentStreak} />
 
       {isWin && (
@@ -136,8 +136,12 @@ export function ResultScreen() {
         <ShareButton text={shareText} card={cardOptions} />
       </div>
 
-      <div className="mt-4 flex flex-col gap-2.5">
-        {!isDaily && <Button onClick={startNextSame}>Next puzzle</Button>}
+      <div className="mt-4 flex flex-col gap-2.5" data-testid="result-cta-stack">
+        {!isDaily && (
+          <Button onClick={startNextSame} data-testid="result-next-puzzle">
+            Next puzzle
+          </Button>
+        )}
         <Button variant="secondary" onClick={showStats}>
           Stats
         </Button>
