@@ -3,3 +3,6 @@ node_modules
 coverage
 .vite
 package-lock.json
+reports
+itch.io
+docs/reports/artifacts

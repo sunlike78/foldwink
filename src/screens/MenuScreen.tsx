@@ -69,12 +69,12 @@ export function MenuScreen() {
     hReadiness.unlocked && hReadiness.hasContent ? "primary" : "secondary";
 
   return (
-    <div className="flex flex-col items-center text-center gap-4 pt-1 sm:pt-3">
+    <div className="flex flex-col items-center text-center gap-3 pt-1 sm:pt-3">
       <Wordmark
         size="lg"
         animated
         showSublabel={false}
-        subtitle="Find 4 hidden groups of 4 in a 4×4 grid — 2–5 minutes."
+        subtitle="Find 4 hidden groups of 4 · 2–5 minutes"
       />
 
       {empty ? (
