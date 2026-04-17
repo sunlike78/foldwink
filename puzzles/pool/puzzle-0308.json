@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0308",
+  "title": "Music Theory Basics",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "music",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Musical Time Signatures",
+      "items": ["Four-Four", "Three-Four", "Six-Eight", "Five-Four"]
+    },
+    {
+      "id": "g2",
+      "label": "Musical Dynamics Markings",
+      "items": ["Fortissimo", "Forte", "Mezzo-Forte", "Pianissimo"]
+    },
+    {
+      "id": "g3",
+      "label": "Musical Tempo Markings",
+      "items": ["Andante", "Allegro", "Adagio", "Presto"]
+    },
+    {
+      "id": "g4",
+      "label": "Musical Key Signatures",
+      "items": ["C Major", "G Major", "D Minor", "A Minor"]
+    }
+  ]
+}

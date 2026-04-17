@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0309",
+  "title": "Computing Pioneers",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "technology",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Created a Widely-Used Programming Language",
+      "items": ["Grace Hopper", "Dennis Ritchie", "Guido van Rossum", "Bjarne Stroustrup"]
+    },
+    {
+      "id": "g2",
+      "label": "Founded a Major Tech Company",
+      "items": ["Steve Jobs", "Bill Gates", "Larry Ellison", "Michael Dell"]
+    },
+    {
+      "id": "g3",
+      "label": "Pioneers of the Internet",
+      "items": ["Tim Berners-Lee", "Vint Cerf", "Bob Kahn", "Jon Postel"]
+    },
+    {
+      "id": "g4",
+      "label": "Computer Science Theorists",
+      "items": ["Alan Turing", "John von Neumann", "Claude Shannon", "Donald Knuth"]
+    }
+  ]
+}

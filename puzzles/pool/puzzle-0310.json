@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0310",
+  "title": "Bird Behaviour",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "animals",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Flightless Birds",
+      "items": ["Ostrich", "Emu", "Cassowary", "Kiwi"]
+    },
+    {
+      "id": "g2",
+      "label": "Birds of Prey",
+      "items": ["Peregrine Falcon", "Bald Eagle", "Red Kite", "Golden Eagle"]
+    },
+    {
+      "id": "g3",
+      "label": "Migratory Birds",
+      "items": ["Arctic Tern", "Bar-Tailed Godwit", "Barn Swallow", "Ruby-Throated Hummingbird"]
+    },
+    {
+      "id": "g4",
+      "label": "Birds Known for Song",
+      "items": ["Nightingale", "Lyrebird", "Mockingbird", "Song Thrush"]
+    }
+  ]
+}

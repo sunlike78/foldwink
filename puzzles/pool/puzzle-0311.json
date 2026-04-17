@@ -1,0 +1,34 @@
+{
+  "id": "puzzle-0311",
+  "title": "Fashion Decades",
+  "difficulty": "easy",
+  "editorialSummary": "Four decades of fashion defined by their signature silhouette. False trail: Oversized Blazer bridges the 1980s and 1990s; Bucket Hat had revivals in multiple eras — each is placed in the decade of its defining cultural moment.",
+  "meta": {
+    "theme": "fashion",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "1920s Fashion Trends",
+      "items": ["Flapper Dress", "Cloche Hat", "T-Bar Shoes", "Feather Boa"]
+    },
+    {
+      "id": "g2",
+      "label": "1960s Fashion Trends",
+      "items": ["Mini Skirt", "Go-Go Boots", "Shift Dress", "Nehru Collar"]
+    },
+    {
+      "id": "g3",
+      "label": "1980s Fashion Trends",
+      "items": ["Power Shoulder", "Leg Warmers", "Acid Wash Jeans", "Oversized Blazer"]
+    },
+    {
+      "id": "g4",
+      "label": "1990s Fashion Trends",
+      "items": ["Slip Dress", "Choker Necklace", "Platform Trainers", "Bucket Hat"]
+    }
+  ]
+}

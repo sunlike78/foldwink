@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0324",
+  "title": "Animal Communication",
+  "difficulty": "medium",
+  "editorialSummary": "Animals grouped by their primary mode of non-vocal communication; the false trail is that both honeybees and fireflies use signal patterns to communicate, but the honeybee uses movement (waggle dance) while the firefly uses bioluminescent light flashes — solvers who group all signal-pattern animals together will mix the visual-light and movement categories. False trail: Platypus and Sharks use electroreception for hunting, not communication — genuine electric-signal communicators are weakly electric fish.",
+  "meta": {
+    "theme": "animals",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Animals That Communicate by Movement",
+      "revealHint": "Dance",
+      "items": ["Honeybee", "Peacock", "Fiddler Crab", "Jumping Spider"]
+    },
+    {
+      "id": "g2",
+      "label": "Animals That Communicate by Bioluminescence",
+      "revealHint": "Glow",
+      "items": ["Firefly", "Deep-Sea Anglerfish", "Ostracod", "Dinoflagellate"]
+    },
+    {
+      "id": "g3",
+      "label": "Animals That Communicate by Chemical Signal",
+      "revealHint": "Scent",
+      "items": ["Red Fox", "Bombardier Beetle", "Sea Slug", "Leafcutter Ant"]
+    },
+    {
+      "id": "g4",
+      "label": "Animals That Communicate by Electrical Signal",
+      "revealHint": "Electric",
+      "items": ["Electric Eel", "Weakly Electric Fish", "Black Ghost Knifefish", "Electric Catfish"]
+    }
+  ]
+}

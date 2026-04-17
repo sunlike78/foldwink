@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0327",
+  "title": "Transport Propulsion",
+  "difficulty": "medium",
+  "editorialSummary": "Vehicles grouped by their primary propulsion method; the false trail is that both a diesel train and a diesel truck use internal combustion, but a diesel-electric locomotive actually uses its diesel engine to generate electricity which then powers electric motors — solvers who group all diesel vehicles together will incorrectly split the locomotive from the diesel-direct group.",
+  "meta": {
+    "theme": "transport",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Steam-Powered Vehicles",
+      "revealHint": "Steam",
+      "items": ["Steam Locomotive", "Paddle Steamer", "Stanley Steamer", "Traction Engine"]
+    },
+    {
+      "id": "g2",
+      "label": "Internal Combustion Vehicles",
+      "revealHint": "Engine",
+      "items": ["Petrol Car", "Diesel Truck", "Motorboat", "Piston Aircraft"]
+    },
+    {
+      "id": "g3",
+      "label": "Electric-Powered Vehicles",
+      "revealHint": "Battery",
+      "items": ["Electric Tram", "Diesel-Electric Locomotive", "Trolleybus", "Maglev Train"]
+    },
+    {
+      "id": "g4",
+      "label": "Human or Wind-Powered Vehicles",
+      "revealHint": "Wind",
+      "items": ["Sailing Ship", "Bicycle", "Glider", "Kayak"]
+    }
+  ]
+}

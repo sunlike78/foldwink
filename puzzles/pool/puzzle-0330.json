@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0330",
+  "title": "Plant Defences",
+  "difficulty": "medium",
+  "editorialSummary": "Plants grouped by their primary defence strategy against herbivores or pathogens; the false trail is that both stinging nettles and cacti have physical deterrents, but nettles use chemical-tipped hollow hairs (a chemical-physical hybrid) while cacti use purely structural spines — the puzzle places stinging nettle in the chemical group because its defensive effect is entirely dependent on the formic-acid injection, not the hair structure alone. Passionflower mimics Heliconius butterfly eggs on tendrils to deter oviposition; Wild Ginger mimics leaf litter to deter herbivores.",
+  "meta": {
+    "theme": "plants",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Plants With Physical Defences",
+      "revealHint": "Spines",
+      "items": ["Cactus", "Holly", "Hawthorn", "Rose"]
+    },
+    {
+      "id": "g2",
+      "label": "Plants With Chemical Defences",
+      "revealHint": "Toxin",
+      "items": ["Stinging Nettle", "Poison Ivy", "Deadly Nightshade", "Giant Hogweed"]
+    },
+    {
+      "id": "g3",
+      "label": "Carnivorous Plants",
+      "revealHint": "Trap",
+      "items": ["Venus Flytrap", "Pitcher Plant", "Sundew", "Bladderwort"]
+    },
+    {
+      "id": "g4",
+      "label": "Plants With Mimicry Defences",
+      "revealHint": "Disguise",
+      "items": ["Living Stone", "Passionflower", "Wild Ginger", "Bee Orchid"]
+    }
+  ]
+}

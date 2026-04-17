@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0323",
+  "title": "Cooking With Heat",
+  "difficulty": "medium",
+  "editorialSummary": "Cooking techniques grouped by the primary heat-transfer mechanism — conduction, convection, radiation, or induction; the false trail is that baking and roasting both use hot oven air (convection) but solvers may assume roasting is dry-radiant heat, when in fact both are convection-dominant — the true separation is between steaming (convection via steam) and grilling (radiation from direct flame).",
+  "meta": {
+    "theme": "food",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Conduction Cooking Techniques",
+      "revealHint": "Contact",
+      "items": ["Pan-Frying", "Searing", "Griddle Cooking", "Plancha"]
+    },
+    {
+      "id": "g2",
+      "label": "Convection Cooking Techniques",
+      "revealHint": "Airflow",
+      "items": ["Baking", "Roasting", "Steaming", "Deep-Frying"]
+    },
+    {
+      "id": "g3",
+      "label": "Radiation Cooking Techniques",
+      "revealHint": "Flame",
+      "items": ["Grilling", "Broiling", "Barbecuing", "Tandoor Cooking"]
+    },
+    {
+      "id": "g4",
+      "label": "Liquid-Medium Cooking Techniques",
+      "revealHint": "Liquid",
+      "items": ["Poaching", "Simmering", "Braising", "Blanching"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0319",
+  "title": "Baroque masters",
+  "difficulty": "medium",
+  "editorialSummary": "Four nationalities of Baroque composers — German, Italian, French, English. False trail: Handel was German-born but spent most of his career in England.",
+  "meta": { "theme": "music", "categoryType": "classification", "batch": "batch-08", "status": "approved" },
+  "groups": [
+    { "id": "german", "label": "German Baroque Composers", "revealHint": "German", "items": ["Bach", "Telemann", "Buxtehude", "Schütz"] },
+    { "id": "italian", "label": "Italian Baroque Composers", "revealHint": "Italian", "items": ["Vivaldi", "Corelli", "Scarlatti", "Monteverdi"] },
+    { "id": "french", "label": "French Baroque Composers", "revealHint": "French", "items": ["Lully", "Rameau", "Couperin", "Charpentier"] },
+    { "id": "english", "label": "English Baroque Composers", "revealHint": "English", "items": ["Purcell", "John Blow", "William Boyce", "Thomas Arne"] }
+  ]
+}

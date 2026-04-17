@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0318",
+  "title": "Ecosystem Layers",
+  "difficulty": "medium",
+  "editorialSummary": "Animals grouped by their primary ecosystem layer — canopy, forest floor, deep ocean, or tidal zone; the false trail is that the mudskipper breathes air and moves on land using its fins, tempting solvers to place it in the forest-floor group with the giant anteater and tapir, but the mudskipper is a tidal-zone fish whose entire life cycle depends on mangrove mudflats.",
+  "meta": {
+    "theme": "animals",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Forest Canopy Dwellers",
+      "revealHint": "Canopy",
+      "items": ["Harpy Eagle", "Red-Eyed Tree Frog", "Proboscis Monkey", "Emerald Tree Boa"]
+    },
+    {
+      "id": "g2",
+      "label": "Forest Floor Dwellers",
+      "revealHint": "Floor",
+      "items": ["Lowland Tapir", "Goliath Birdeater", "Poison Dart Frog", "Giant Anteater"]
+    },
+    {
+      "id": "g3",
+      "label": "Deep Ocean Zone Animals",
+      "revealHint": "Abyss",
+      "items": ["Anglerfish", "Vampire Squid", "Dumbo Octopus", "Giant Isopod"]
+    },
+    {
+      "id": "g4",
+      "label": "Tidal Zone Animals",
+      "revealHint": "Tidal",
+      "items": ["Mudskipper", "Hermit Crab", "Purple Sea Urchin", "Limpet"]
+    }
+  ]
+}

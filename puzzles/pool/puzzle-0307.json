@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0307",
+  "title": "Mammal Behaviour",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "animals",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Hibernating Mammals",
+      "items": ["Brown Bear", "Hedgehog", "Dormouse", "Ground Squirrel"]
+    },
+    {
+      "id": "g2",
+      "label": "Pack-Hunting Mammals",
+      "items": ["Gray Wolf", "African Wild Dog", "Spotted Hyena", "Dhole"]
+    },
+    {
+      "id": "g3",
+      "label": "Solitary Mammals",
+      "items": ["Snow Leopard", "Wolverine", "Giant Panda", "Ocelot"]
+    },
+    {
+      "id": "g4",
+      "label": "Aquatic Mammals",
+      "items": ["Dugong", "Manatee", "Beluga Whale", "Narwhal"]
+    }
+  ]
+}

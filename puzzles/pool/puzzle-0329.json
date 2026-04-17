@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0329",
+  "title": "Field of centuries",
+  "difficulty": "medium",
+  "editorialSummary": "Famous medieval battles sorted by century. False trail: Agincourt (1415) feels like 14th century because of the longbow era, but it belongs to the 15th.",
+  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-08", "status": "approved" },
+  "groups": [
+    { "id": "11th", "label": "11th-Century Battles", "revealHint": "11th Century", "items": ["Hastings", "Manzikert", "Civitate", "Stamford Bridge"] },
+    { "id": "12th", "label": "12th-Century Battles", "revealHint": "12th Century", "items": ["Hattin", "Arsuf", "Legnano", "Myriokephalon"] },
+    { "id": "13th", "label": "13th-Century Battles", "revealHint": "13th Century", "items": ["Bouvines", "Tagliacozzo", "Marchfeld", "Curzola"] },
+    { "id": "14th", "label": "14th-Century Battles", "revealHint": "14th Century", "items": ["Bannockburn", "Crécy", "Poitiers", "Kosovo"] }
+  ]
+}

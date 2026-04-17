@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0320",
+  "title": "Internet era",
+  "difficulty": "medium",
+  "editorialSummary": "Four decades of internet milestones — 1990s foundations, 2000s expansion, 2010s mobile, 2020s AI. False trail: Wi-Fi launched 1997 but mass-market adoption was early 2000s; solvers must place by launch decade, not adoption peak.",
+  "meta": { "theme": "technology", "categoryType": "classification", "batch": "batch-08", "status": "approved" },
+  "groups": [
+    { "id": "90s", "label": "1990s Internet Milestones", "revealHint": "1990s", "items": ["World Wide Web", "Dial-Up Modem", "Email Clients", "Search Engines"] },
+    { "id": "00s", "label": "2000s Internet Milestones", "revealHint": "2000s", "items": ["Wi-Fi", "Social Networks", "Broadband Internet", "GPS Navigation"] },
+    { "id": "10s", "label": "2010s Internet Milestones", "revealHint": "2010s", "items": ["Smartphones", "App Stores", "Streaming Video", "Cloud Storage"] },
+    { "id": "20s", "label": "2020s Internet Milestones", "revealHint": "2020s", "items": ["5G Networks", "AI Chatbots", "Remote Work Tools", "Short-Form Video"] }
+  ]
+}

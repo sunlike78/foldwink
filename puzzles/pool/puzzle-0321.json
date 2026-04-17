@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0321",
+  "title": "Ancient Civilisations",
+  "difficulty": "medium",
+  "editorialSummary": "Inventions or achievements grouped by the ancient civilisation that produced them; the false trail is that both the Mesopotamians and the Egyptians developed early writing systems — cuneiform vs. hieroglyphics — so solvers must resist bundling them under a generic 'writing' category and instead trace each item to its precise civilisation.",
+  "meta": {
+    "theme": "history",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Achievements of Ancient Mesopotamia",
+      "revealHint": "Tigris",
+      "items": ["Cuneiform Writing", "Code of Hammurabi", "Ziggurat Temples", "Sexagesimal Maths"]
+    },
+    {
+      "id": "g2",
+      "label": "Achievements of Ancient Egypt",
+      "revealHint": "Nile",
+      "items": ["Hieroglyphics", "Papyrus Scrolls", "Pyramid Construction", "Solar Calendar"]
+    },
+    {
+      "id": "g3",
+      "label": "Achievements of Ancient Greece",
+      "revealHint": "Polis",
+      "items": ["Democratic Government", "Olympic Games", "Euclidean Geometry", "Socratic Method"]
+    },
+    {
+      "id": "g4",
+      "label": "Achievements of Ancient China",
+      "revealHint": "Silk",
+      "items": ["Papermaking", "Compass", "Gunpowder", "Cast Iron"]
+    }
+  ]
+}

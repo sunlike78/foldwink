@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0326",
+  "title": "The Ateliers",
+  "difficulty": "medium",
+  "editorialSummary": "Designers of The Ateliers grouped by the city they are primarily associated with; the false trail is that Karl Lagerfeld was German-born but his career defining work was in Paris at Chanel, so solvers must place him in the Paris group rather than a German-city group — the grouping is by career city, not birthplace.",
+  "meta": {
+    "theme": "fashion",
+    "categoryType": "attribute",
+    "batch": "batch-08",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "g1",
+      "label": "Designers Defined by Paris",
+      "revealHint": "Couture",
+      "items": ["Karl Lagerfeld", "Yves Saint Laurent", "Christian Dior", "Hubert de Givenchy"]
+    },
+    {
+      "id": "g2",
+      "label": "Designers Defined by Milan",
+      "revealHint": "Milan",
+      "items": ["Giorgio Armani", "Gianni Versace", "Miuccia Prada", "Franco Moschino"]
+    },
+    {
+      "id": "g3",
+      "label": "Designers Defined by London",
+      "revealHint": "London",
+      "items": ["Vivienne Westwood", "Alexander McQueen", "Paul Smith", "Mary Quant"]
+    },
+    {
+      "id": "g4",
+      "label": "Designers Defined by New York",
+      "revealHint": "Seventh Ave",
+      "items": ["Ralph Lauren", "Calvin Klein", "Donna Karan", "Marc Jacobs"]
+    }
+  ]
+}
