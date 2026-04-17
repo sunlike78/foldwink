@@ -1,0 +1,39 @@
+{
+  "id": "puzzle-0196",
+  "title": "Take a walk",
+  "difficulty": "medium",
+  "editorialSummary": "Four compound WALKs — sidewalk, boardwalk, catwalk, cakewalk. Items belong to each scene.",
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "wordplay",
+    "wordplay": true,
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "sidewalk",
+      "label": "Sidewalk scene",
+      "revealHint": "Street",
+      "items": ["Curb", "Pedestrian", "Crosswalk", "Pavement"]
+    },
+    {
+      "id": "boardwalk",
+      "label": "Boardwalk scene",
+      "revealHint": "Beach",
+      "items": ["Pier", "Planks", "Arcade", "Seafront"]
+    },
+    {
+      "id": "catwalk",
+      "label": "Catwalk scene",
+      "revealHint": "Runway",
+      "items": ["Model", "Couture", "Pose", "Backstage"]
+    },
+    {
+      "id": "cakewalk",
+      "label": "Cakewalk meaning",
+      "revealHint": "Easy",
+      "items": ["Breeze", "Effortless", "Pushover", "Simple"]
+    }
+  ]
+}

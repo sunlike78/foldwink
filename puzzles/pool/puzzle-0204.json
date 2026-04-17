@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0204",
+  "title": "Spring has sprung",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "experimental",
+    "categoryType": "thematic",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "blooms",
+      "label": "Spring Blooms",
+      "items": ["Daffodil", "Tulip", "Cherry Blossom", "Magnolia"]
+    },
+    {
+      "id": "weather",
+      "label": "Spring Weather",
+      "items": ["Drizzle", "Mild", "Showers", "Breezy"]
+    },
+    {
+      "id": "fauna",
+      "label": "Spring Animals",
+      "items": ["Lamb", "Chick", "Bumblebee", "Robin"]
+    },
+    {
+      "id": "traditions",
+      "label": "Spring Traditions",
+      "items": ["Egg Hunt", "Spring Clean", "Maypole", "Picnic"]
+    }
+  ]
+}

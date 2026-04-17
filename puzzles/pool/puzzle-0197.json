@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0197",
+  "title": "Listen to the bark",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of bark — a dog's sound, tree covering, old sailing ship, sharp command. Sound/Tree false trail.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "dog",
+      "label": "Dog's bark",
+      "revealHint": "Dog",
+      "items": ["Woof", "Growl", "Yip", "Howl"]
+    },
+    {
+      "id": "tree",
+      "label": "Tree bark",
+      "revealHint": "Tree",
+      "items": ["Cork", "Cambium", "Birch", "Peeling"]
+    },
+    {
+      "id": "ship",
+      "label": "Bark ship",
+      "revealHint": "Ship",
+      "items": ["Schooner", "Rigging", "Mast", "Vessel"]
+    },
+    {
+      "id": "shout",
+      "label": "Bark a command",
+      "revealHint": "Order",
+      "items": ["Snap", "Bellow", "Scold", "Drill Sergeant"]
+    }
+  ]
+}

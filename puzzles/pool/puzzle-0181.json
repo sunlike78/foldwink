@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0181",
+  "title": "Dinosaur lineup",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "herbivores",
+      "label": "Plant Eaters",
+      "items": ["Brontosaurus", "Triceratops", "Stegosaurus", "Diplodocus"]
+    },
+    {
+      "id": "carnivores",
+      "label": "Meat Eaters",
+      "items": ["T-Rex", "Raptor", "Allosaurus", "Spinosaurus"]
+    },
+    {
+      "id": "marine",
+      "label": "Marine Reptiles",
+      "items": ["Plesiosaur", "Mosasaur", "Ichthyosaur", "Liopleurodon"]
+    },
+    {
+      "id": "flying",
+      "label": "Flying Reptiles",
+      "items": ["Pterodactyl", "Pteranodon", "Quetzalcoatlus", "Dimorphodon"]
+    }
+  ]
+}

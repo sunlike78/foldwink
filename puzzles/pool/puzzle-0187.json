@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0187",
+  "title": "Reptile house",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "venomous",
+      "label": "Venomous Snakes",
+      "items": ["Cobra", "Viper", "Mamba", "Rattlesnake"]
+    },
+    {
+      "id": "constrictors",
+      "label": "Constrictor Snakes",
+      "items": ["Python", "Boa", "Anaconda", "Corn Snake"]
+    },
+    {
+      "id": "lizards",
+      "label": "Lizards",
+      "items": ["Gecko", "Iguana", "Chameleon", "Monitor"]
+    },
+    {
+      "id": "legendary",
+      "label": "Mythical Reptiles",
+      "items": ["Basilisk", "Hydra", "Wyrm", "Leviathan"]
+    }
+  ]
+}

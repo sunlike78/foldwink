@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0189",
+  "title": "Salon day",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "long",
+      "label": "Long Hair Styles",
+      "items": ["Ponytail", "Low Bun", "Beach Waves", "Extensions"]
+    },
+    {
+      "id": "short",
+      "label": "Short Hair Styles",
+      "items": ["Pixie", "Crew Cut", "Buzz Cut", "Bob"]
+    },
+    {
+      "id": "braided",
+      "label": "Braided Styles",
+      "items": ["French Braid", "Cornrows", "Dutch Braid", "Fishtail"]
+    },
+    {
+      "id": "tools",
+      "label": "Salon Tools",
+      "items": ["Scissors", "Comb", "Blow Dryer", "Curling Iron"]
+    }
+  ]
+}

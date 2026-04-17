@@ -2,18 +2,18 @@
 
 ## Current phase
 
-**0.6.1 release-hardening pass complete.**
+**Content scaling — batch-03 merged (221 curated puzzles).**
 
-- 200 curated puzzles (105 easy + 75 medium + 20 hard)
-- Hard / Master Challenge fully playable
-- Browser QA automation covers all 3 tiers + mobile + share flow
-- Wink-on-Hard UI bug fixed
-- Onboarding overflow on narrow viewport fixed
-- Itch.io package, page copy, upload guide, and store screenshots ready
-- All automated gates green
+- 221 curated puzzles (119 easy + 82 medium + 20 hard) — was 200
+- Batch-03: 25 drafted → 21 promoted (15 accept + 6 revise + 4 reject = 40% non-accept)
+- Diversity score 0.956 → 0.960
+- Zero new verbatim label collisions
+- Menu daily-done state fits iPhone viewport (compact DailyCompleteCard)
+- CI prettier format:check unblocked (QA report dirs ignored)
+- All automated gates green (typecheck / 119 tests / validate / build)
 
-Latest report: `docs/reports/FOLDWINK_RELEASE_HARDENING_REPORT.md`.
-Prior: `docs/reports/FOLDWINK_MASTER_ANALYSIS_HANDOFF.md`.
+Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md`.
+Prior: `docs/reports/FOLDWINK_RELEASE_HARDENING_REPORT.md`.
 
 ## In progress
 
@@ -38,10 +38,12 @@ Prior: `docs/reports/FOLDWINK_MASTER_ANALYSIS_HANDOFF.md`.
 
 ## Queue — after public free
 
-### Content
+### Content (in flight — batch-03 merged 2026-04-17)
 
-- [ ] Content batch — target 200 → 300 curated puzzles
-- [ ] More hard puzzles — target 20 → 50
+- [x] batch-03 → 200 → 221 (docs/reports/FOLDWINK_CONTENT_BATCH_03_REPORT.md)
+- [ ] batch-04 → target 221 → ~245 (domain hints: transportation, clothing, weather, kitchen non-cutting, board games)
+- [ ] Stop-at-next-milestone trigger: if any of {non-accept < 30%, diversity score drops, >3 new collisions, single puzzle needs >3 revise passes} — freeze at 250 and ship
+- [ ] More hard puzzles — target 20 → 50 (separate cadence, not batched with easy/medium)
 - [ ] Editorial report per batch under `docs/reports/`
 
 ### Retention (1.1 candidates)

@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0202",
+  "title": "Feelings ladder",
+  "difficulty": "medium",
+  "editorialSummary": "Four distinct emotion clusters — furious anger, mild irritation, grudge-holding, and fear. Angry ladder false trail mixes the first three.",
+  "meta": {
+    "theme": "language",
+    "categoryType": "thematic",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "furious",
+      "label": "Meaning FURIOUS",
+      "revealHint": "Rage",
+      "items": ["Livid", "Enraged", "Incensed", "Irate"]
+    },
+    {
+      "id": "annoyed",
+      "label": "Meaning ANNOYED",
+      "revealHint": "Irked",
+      "items": ["Peeved", "Miffed", "Vexed", "Nettled"]
+    },
+    {
+      "id": "sad",
+      "label": "Meaning SAD",
+      "revealHint": "Blue",
+      "items": ["Melancholy", "Forlorn", "Glum", "Despondent"]
+    },
+    {
+      "id": "afraid",
+      "label": "Meaning AFRAID",
+      "revealHint": "Fear",
+      "items": ["Terrified", "Petrified", "Frightened", "Spooked"]
+    }
+  ]
+}

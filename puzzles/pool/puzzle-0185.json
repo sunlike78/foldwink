@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0185",
+  "title": "Back to school",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "sciences",
+      "label": "Sciences",
+      "items": ["Biology", "Chemistry", "Physics", "Geology"]
+    },
+    {
+      "id": "humanities",
+      "label": "Humanities",
+      "items": ["History", "Philosophy", "Literature", "Sociology"]
+    },
+    {
+      "id": "arts",
+      "label": "Creative Arts",
+      "items": ["Drama", "Music", "Sculpture", "Painting"]
+    },
+    {
+      "id": "languages",
+      "label": "World Languages",
+      "items": ["Spanish", "French", "German", "Mandarin"]
+    }
+  ]
+}

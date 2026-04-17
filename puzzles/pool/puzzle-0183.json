@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0183",
+  "title": "Sacred spaces",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "christian",
+      "label": "Christian Buildings",
+      "items": ["Cathedral", "Chapel", "Basilica", "Abbey"]
+    },
+    {
+      "id": "islamic",
+      "label": "Islamic Buildings",
+      "items": ["Mosque", "Minaret", "Madrasa", "Caravanserai"]
+    },
+    {
+      "id": "eastern",
+      "label": "Eastern Temples",
+      "items": ["Pagoda", "Stupa", "Shrine", "Torii Gate"]
+    },
+    {
+      "id": "ancient",
+      "label": "Ancient Monuments",
+      "items": ["Ziggurat", "Colosseum", "Pyramid", "Obelisk"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0182",
+  "title": "Italian table",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "antipasti",
+      "label": "Antipasti",
+      "items": ["Bruschetta", "Prosciutto", "Caprese", "Olives"]
+    },
+    {
+      "id": "primi",
+      "label": "Primi Piatti",
+      "items": ["Risotto", "Gnocchi", "Minestrone", "Lasagna"]
+    },
+    {
+      "id": "secondi",
+      "label": "Secondi Piatti",
+      "items": ["Osso Buco", "Saltimbocca", "Veal Milanese", "Bistecca"]
+    },
+    {
+      "id": "dolci",
+      "label": "Italian Dolci",
+      "items": ["Tiramisu", "Cannoli", "Panna Cotta", "Affogato"]
+    }
+  ]
+}

@@ -17,3 +17,6 @@ audit-results/
 
 # export archives
 export/
+
+# puzzle batch staging (audit trail lives in docs/reports/batch-*-audit/)
+puzzles/pool/_drafts/

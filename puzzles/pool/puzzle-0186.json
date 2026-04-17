@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0186",
+  "title": "Shopping list",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "produce",
+      "label": "Produce Aisle",
+      "items": ["Lettuce", "Carrot", "Apple", "Banana"]
+    },
+    {
+      "id": "dairy",
+      "label": "Dairy Aisle",
+      "items": ["Milk", "Butter", "Yogurt", "Sour Cream"]
+    },
+    {
+      "id": "bakery",
+      "label": "Bakery Aisle",
+      "items": ["Bagel", "Croissant", "Muffin", "Baguette"]
+    },
+    {
+      "id": "frozen",
+      "label": "Frozen Aisle",
+      "items": ["Fish Sticks", "Frozen Peas", "Popsicle", "Pizza Roll"]
+    }
+  ]
+}

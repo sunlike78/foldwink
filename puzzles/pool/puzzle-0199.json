@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0199",
+  "title": "Swing of the bat",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of bat — flying mammal, baseball implement, eyelash motion, cricket batter. Sport/Animal false trail.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "animal",
+      "label": "Flying bat",
+      "revealHint": "Winged",
+      "items": ["Cave", "Sonar", "Nocturnal", "Vampire"]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball bat",
+      "revealHint": "Ball",
+      "items": ["Slugger", "Home Run", "Louisville", "Dugout"]
+    },
+    {
+      "id": "eyelash",
+      "label": "Bat an eyelash",
+      "revealHint": "Blink",
+      "items": ["Flutter", "Lash Flick", "Flirt", "Glance"]
+    },
+    {
+      "id": "cricket",
+      "label": "Cricket bat",
+      "revealHint": "Wicket",
+      "items": ["Crease", "Innings", "Willow", "Bowler"]
+    }
+  ]
+}

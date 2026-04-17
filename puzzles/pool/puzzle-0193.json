@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0193",
+  "title": "Birthday bash",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "decor",
+      "label": "Party Decorations",
+      "items": ["Balloons", "Streamers", "Confetti", "Banner"]
+    },
+    {
+      "id": "food",
+      "label": "Party Food",
+      "items": ["Cake", "Cupcakes", "Ice Cream", "Pizza"]
+    },
+    {
+      "id": "activities",
+      "label": "Birthday Activities",
+      "items": ["Piñata", "Musical Chairs", "Pin The Tail", "Treasure Hunt"]
+    },
+    {
+      "id": "gifts",
+      "label": "Gift Wrapping",
+      "items": ["Gift Bag", "Ribbon", "Bow", "Tissue Paper"]
+    }
+  ]
+}

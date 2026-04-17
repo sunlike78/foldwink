@@ -1,0 +1,33 @@
+{
+  "id": "puzzle-0184",
+  "title": "Down on the farm",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "everyday",
+    "categoryType": "classification",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "cattle",
+      "label": "Cattle",
+      "items": ["Cow", "Bull", "Calf", "Ox"]
+    },
+    {
+      "id": "poultry",
+      "label": "Poultry",
+      "items": ["Chicken", "Duck", "Turkey", "Goose"]
+    },
+    {
+      "id": "pigs",
+      "label": "Pigs",
+      "items": ["Sow", "Boar", "Piglet", "Hog"]
+    },
+    {
+      "id": "sheep",
+      "label": "Sheep",
+      "items": ["Ewe", "Ram", "Lamb", "Merino"]
+    }
+  ]
+}

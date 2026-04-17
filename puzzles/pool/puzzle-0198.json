@@ -1,0 +1,38 @@
+{
+  "id": "puzzle-0198",
+  "title": "Bolt from the blue",
+  "difficulty": "medium",
+  "editorialSummary": "Four meanings of bolt — lightning, hardware fastener, sudden escape, fabric roll. Speed/Escape false trail.",
+  "meta": {
+    "theme": "abstract",
+    "categoryType": "attribute",
+    "batch": "batch-03",
+    "status": "approved"
+  },
+  "groups": [
+    {
+      "id": "lightning",
+      "label": "Lightning bolt",
+      "revealHint": "Sky",
+      "items": ["Thunder", "Strike", "Flash", "Zeus"]
+    },
+    {
+      "id": "hardware",
+      "label": "Hardware bolt",
+      "revealHint": "Metal",
+      "items": ["Nut", "Washer", "Thread", "Wrench"]
+    },
+    {
+      "id": "flee",
+      "label": "Bolt away",
+      "revealHint": "Flee",
+      "items": ["Sprint", "Dash", "Abscond", "Make Off"]
+    },
+    {
+      "id": "fabric",
+      "label": "Bolt of fabric",
+      "revealHint": "Cloth",
+      "items": ["Linen", "Yardage", "Roll", "Textile"]
+    }
+  ]
+}
