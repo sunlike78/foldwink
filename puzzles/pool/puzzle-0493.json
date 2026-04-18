@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0493",
+  "title": "Wired Wrong",
+  "difficulty": "medium",
+  "editorialSummary": "Sixteen well-known cognitive biases grouped by the class of mental error they represent. Anchoring and framing errors (the mind locks onto an initial reference point or presentation): Anchoring Bias, Framing Effect, Contrast Effect, Decoy Effect. Social and conformity errors (judgements distorted by other people): Bandwagon Effect, Halo Effect, Authority Bias, In-Group Bias. Memory distortion errors (recall is reconstructed rather than played back accurately): Hindsight Bias, Rosy Retrospection, Source Confusion, Misinformation Effect. Probability and risk misjudgements (faulty intuitions about likelihood and chance): Gambler's Fallacy, Base Rate Neglect, Availability Heuristic, Hot-Hand Fallacy. The mild false trail is Halo Effect: its name evokes something warm and memory-like (a glowing after-image), so players may place it in the memory group; but it is a social-perception bias — judging a person's abilities from one positive trait — firmly in the social/conformity cluster. All 16 items are standard vocabulary in popular psychology and widely covered in mainstream media, so no item requires specialist knowledge.",
+  "meta": { "theme": "cognitive biases", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ANCHORING AND FRAMING", "revealHint": "Frame", "items": ["Anchoring Bias", "Framing Effect", "Contrast Effect", "Decoy Effect"] },
+    { "id": "g2", "label": "SOCIAL AND CONFORMITY", "revealHint": "Crowd", "items": ["Bandwagon Effect", "Halo Effect", "Authority Bias", "In-Group Bias"] },
+    { "id": "g3", "label": "MEMORY DISTORTION", "revealHint": "Recall", "items": ["Hindsight Bias", "Rosy Retrospection", "Source Confusion", "Misinformation Effect"] },
+    { "id": "g4", "label": "PROBABILITY MISJUDGEMENT", "revealHint": "Odds", "items": ["Gambler's Fallacy", "Base Rate Neglect", "Availability Heuristic", "Hot-Hand Fallacy"] }
+  ]
+}
