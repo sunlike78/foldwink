@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0373",
+  "title": "Social Media Formats",
+  "difficulty": "medium",
+  "editorialSummary": "Four content format families native to major platforms; the false trail is that Reels and TikToks are nearly identical in format but here they anchor separate platform-specific groups, and players may conflate them before realising the platform split.",
+  "meta": { "theme": "social-media", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "TikTok Native Formats", "revealHint": "Viral", "items": ["Duet", "Stitch", "TikTok Live", "Green Screen Effect"] },
+    { "id": "g2", "label": "Instagram Formats", "revealHint": "Visual", "items": ["Reels", "Carousel Post", "Stories", "Instagram Live"] },
+    { "id": "g3", "label": "Twitter/X Formats", "revealHint": "Text", "items": ["Thread", "Quote Tweet", "Spaces", "Community Notes"] },
+    { "id": "g4", "label": "YouTube Formats", "revealHint": "Watch", "items": ["Shorts", "Premiere", "Community Post", "YouTube Live"] }
+  ]
+}

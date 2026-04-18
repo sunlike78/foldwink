@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0366",
+  "title": "Number Theory",
+  "difficulty": "easy",
+  "meta": { "theme": "mathematics", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Categories of Numbers", "items": ["Rational", "Irrational", "Imaginary", "Complex"] },
+    { "id": "g2", "label": "Famous Number Sequences", "items": ["Fibonacci", "Pascal's Triangle", "Lucas Numbers", "Catalan Numbers"] },
+    { "id": "g3", "label": "Mathematical Constants", "items": ["Pi", "Euler's Number", "Golden Ratio", "Apery's Constant"] },
+    { "id": "g4", "label": "Number Properties", "items": ["Perfect Number", "Abundant Number", "Deficient Number", "Amicable Numbers"] }
+  ]
+}

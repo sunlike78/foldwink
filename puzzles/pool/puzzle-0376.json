@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0376",
+  "title": "Famous Theorems",
+  "difficulty": "hard",
+  "editorialSummary": "Four theorem clusters grouped by the mathematics branch they belong to, with two major false trails: (1) Euler appears twice — Euler's Formula belongs in geometry (V-E+F=2) while Euler's Theorem belongs in number theory (a^φ(n)≡1), and players who confuse these will misplace both; (2) the Prime Number Theorem is a major result in number theory and players reasoning from calculus-sounding language may misplace it.",
+  "meta": { "theme": "mathematics", "categoryType": "attribute", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Geometry Theorems", "revealHint": "Shape", "items": ["Pythagorean Theorem", "Euler's Formula", "Thales' Theorem", "Midpoint Theorem"] },
+    { "id": "g2", "label": "Number Theory Theorems", "revealHint": "Primes", "items": ["Fermat's Last Theorem", "Euler's Theorem", "Wilson's Theorem", "Prime Number Theorem"] },
+    { "id": "g3", "label": "Calculus Theorems", "revealHint": "Limit", "items": ["Mean Value Theorem", "Fundamental Theorem of Calculus", "Rolle's Theorem", "Squeeze Theorem"] },
+    { "id": "g4", "label": "Algebra Theorems", "revealHint": "Equation", "items": ["Binomial Theorem", "Factor Theorem", "Cayley-Hamilton", "Abel-Ruffini"] }
+  ]
+}

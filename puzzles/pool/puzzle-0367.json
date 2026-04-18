@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0367",
+  "title": "Therapy Types",
+  "difficulty": "medium",
+  "editorialSummary": "Four genuine therapy families grouped by mechanism; false trail is that CBT and DBT share surface initials and acronym style, tempting players to cluster them as a pair rather than split them into their correct mechanistic homes.",
+  "meta": { "theme": "psychology", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Cognitive Therapies", "revealHint": "Thought", "items": ["CBT", "REBT", "Schema Therapy", "Cognitive Processing"] },
+    { "id": "g2", "label": "Behavioural Therapies", "revealHint": "Action", "items": ["Exposure Therapy", "DBT", "Behaviour Activation", "Applied Behaviour"] },
+    { "id": "g3", "label": "Humanistic Therapies", "revealHint": "Self", "items": ["Person-Centred", "Gestalt Therapy", "Existential Therapy", "Logotherapy"] },
+    { "id": "g4", "label": "Body-Based Therapies", "revealHint": "Body", "items": ["EMDR", "Somatic Therapy", "Sensorimotor Therapy", "Bioenergetics"] }
+  ]
+}

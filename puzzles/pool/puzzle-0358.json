@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0358",
+  "title": "Holy Books",
+  "difficulty": "easy",
+  "meta": { "theme": "religion", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Islamic Texts", "items": ["Quran", "Hadith", "Sira", "Tafsir"] },
+    { "id": "g2", "label": "Hindu Scriptures", "items": ["Vedas", "Upanishads", "Bhagavad Gita", "Ramayana"] },
+    { "id": "g3", "label": "Buddhist Texts", "items": ["Tripitaka", "Dhammapada", "Heart Sutra", "Lotus Sutra"] },
+    { "id": "g4", "label": "Jewish Texts", "items": ["Torah", "Talmud", "Mishnah", "Zohar"] }
+  ]
+}

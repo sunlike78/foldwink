@@ -2,13 +2,14 @@
 
 ## Current phase
 
-**Content scaling — batch-09 merged (364 curated puzzles).**
+**Content scaling — batch-10 merged (387 curated puzzles).**
 
-- 364 curated puzzles (easy=200, medium=140, hard=24) — target 500
-- Diversity score: 0.972
-- Batch-09: 25 drafted → 25 promoted (16 pass + 9 revise+accept + 0 reject)
-- Fresh domains: architecture styles, phobias, bridge types, gemstones by color, Olympic debut years, heraldry, board game mechanics, writing systems, clouds, collective nouns
-- Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_09_REPORT.md`
+- 387 curated puzzles (easy=213, medium=149, hard=25) — target 500
+- Diversity score: 0.970
+- Batch-10: 25 drafted → 23 promoted (4 pass + 19 revise+accept + 2 reject)
+- Rejected: Sacred Places (factual/political), On the Spectrum political ideologies (too contested)
+- Fresh domains: cognitive biases, fabrics, logical fallacies, comedy styles, map types, Norse mythology, famous duos, economic terms, music theory, famous psychologists, world religions, number theory, body processes, therapy types, social media formats, political systems, math branches, psychological disorders, skeletal anatomy, influencer culture, self-concepts, kitchen science, religious rituals, famous theorems
+- Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_10_REPORT.md`
 
 ## In progress
 
@@ -42,7 +43,8 @@
 - [x] batch-07 → 289 → 314 (docs/reports/FOLDWINK_CONTENT_BATCH_07_REPORT.md)
 - [x] batch-08 → 314 → 339 (docs/reports/FOLDWINK_CONTENT_BATCH_08_REPORT.md)
 - [x] batch-09 → 339 → 364 (docs/reports/FOLDWINK_CONTENT_BATCH_09_REPORT.md)
-- [ ] batch-10 → target 364 → ~389
+- [x] batch-10 → 364 → 387 (docs/reports/FOLDWINK_CONTENT_BATCH_10_REPORT.md)
+- [ ] batch-11 → target 387 → ~412
 - [ ] More hard puzzles — target 20 → 50 (separate cadence)
 - [ ] Editorial report per batch under `docs/reports/`
 

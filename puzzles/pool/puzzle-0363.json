@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0363",
+  "title": "Famous Psychologists",
+  "difficulty": "easy",
+  "meta": { "theme": "psychology", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Psychoanalysts", "items": ["Sigmund Freud", "Carl Jung", "Alfred Adler", "Jacques Lacan"] },
+    { "id": "g2", "label": "Behaviorists", "items": ["B.F. Skinner", "John Watson", "Ivan Pavlov", "Edward Thorndike"] },
+    { "id": "g3", "label": "Humanist Psychologists", "items": ["Abraham Maslow", "Carl Rogers", "Rollo May", "Viktor Frankl"] },
+    { "id": "g4", "label": "Cognitive Psychologists", "items": ["Jean Piaget", "Aaron Beck", "George Miller", "Ulric Neisser"] }
+  ]
+}

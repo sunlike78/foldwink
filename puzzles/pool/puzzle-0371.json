@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0371",
+  "title": "Math Branches",
+  "difficulty": "medium",
+  "editorialSummary": "Four branches of mathematics grouped by subject matter; the false trail is that Statistics and Probability appear inseparable in everyday use but here Probability belongs with pure mathematics while Statistics anchors the applied group.",
+  "meta": { "theme": "mathematics", "categoryType": "attribute", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Pure Mathematics", "revealHint": "Abstract", "items": ["Number Theory", "Topology", "Probability", "Abstract Algebra"] },
+    { "id": "g2", "label": "Applied Mathematics", "revealHint": "Real-World", "items": ["Statistics", "Numerical Analysis", "Operations Research", "Game Theory"] },
+    { "id": "g3", "label": "Geometry Branches", "revealHint": "Space", "items": ["Euclidean", "Non-Euclidean", "Projective", "Differential Geometry"] },
+    { "id": "g4", "label": "Calculus Family", "revealHint": "Change", "items": ["Differential Calculus", "Integral Calculus", "Multivariable", "Vector Calculus"] }
+  ]
+}

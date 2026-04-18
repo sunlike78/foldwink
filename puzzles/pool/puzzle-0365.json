@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0365",
+  "title": "World Religions",
+  "difficulty": "easy",
+  "meta": { "theme": "religion", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Abrahamic Religions", "items": ["Christianity", "Islam", "Judaism", "Bahai Faith"] },
+    { "id": "g2", "label": "Dharmic Religions", "items": ["Hinduism", "Buddhism", "Jainism", "Sikhism"] },
+    { "id": "g3", "label": "East Asian Religions", "items": ["Taoism", "Confucianism", "Shinto", "Cao Dai"] },
+    { "id": "g4", "label": "Indigenous Traditions", "items": ["Animism", "Shamanism", "Totemism", "Ancestor Worship"] }
+  ]
+}

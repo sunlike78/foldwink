@@ -1,0 +1,12 @@
+{
+  "id": "puzzle-0362",
+  "title": "Internet Slang",
+  "difficulty": "easy",
+  "meta": { "theme": "social-media", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "Expressions of Agreement", "items": ["Bet", "Facts", "Period", "No Cap"] },
+    { "id": "g2", "label": "Expressions of Dismissal", "items": ["Mid", "L Take", "Pilled", "Touch Grass"] },
+    { "id": "g3", "label": "Compliments Online", "items": ["GOAT", "Slay", "Hits Different", "Snatched"] },
+    { "id": "g4", "label": "Viral Reaction Words", "items": ["Legend", "It's Giving", "Ate", "Understood The Assignment"] }
+  ]
+}
