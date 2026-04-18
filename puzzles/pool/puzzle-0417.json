@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0417",
+  "title": "Dinosaur Groups",
+  "difficulty": "easy",
+  "editorialSummary": "Dinosaurs grouped by clade: sauropods, theropods, ornithopods, and ceratopsians. False trail: Velociraptor and T. Rex are both theropods; Brachiosaurus and Diplodocus are both sauropods — the groups are internally consistent.",
+  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "SAUROPODS", "items": ["Brachiosaurus", "Diplodocus", "Apatosaurus", "Argentinosaurus"] },
+    { "id": "g2", "label": "THEROPODS", "items": ["T. Rex", "Velociraptor", "Spinosaurus", "Allosaurus"] },
+    { "id": "g3", "label": "ORNITHOPODS", "items": ["Iguanodon", "Parasaurolophus", "Edmontosaurus", "Hadrosaurus"] },
+    { "id": "g4", "label": "CERATOPSIANS", "items": ["Triceratops", "Styracosaurus", "Protoceratops", "Centrosaurus"] }
+  ]
+}

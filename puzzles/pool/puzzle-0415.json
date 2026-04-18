@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0415",
+  "title": "Rivers by Continent",
+  "difficulty": "easy",
+  "editorialSummary": "Major rivers sorted by continent: Africa, Asia, Americas, Europe. False trail: Danube and Rhine are both European but distinct from Amazon/Missouri. Congo could be confused with African geography but is clearly African.",
+  "meta": { "theme": "geography", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "AFRICAN RIVERS", "items": ["Nile", "Congo", "Zambezi", "Niger"] },
+    { "id": "g2", "label": "ASIAN RIVERS", "items": ["Yangtze", "Ganges", "Mekong", "Ob"] },
+    { "id": "g3", "label": "AMERICAN RIVERS", "items": ["Amazon", "Mississippi", "Missouri", "Orinoco"] },
+    { "id": "g4", "label": "EUROPEAN RIVERS", "items": ["Danube", "Rhine", "Thames", "Volga"] }
+  ]
+}

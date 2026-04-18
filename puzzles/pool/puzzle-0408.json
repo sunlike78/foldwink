@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0408",
+  "title": "Musical Tempo",
+  "difficulty": "easy",
+  "editorialSummary": "Tempo markings grouped by speed range: very slow, slow/moderate, fast, very fast. Players may not know exact BPM but can reason from musical knowledge. False trail: Andante vs Moderato ordering is close but both land in moderate.",
+  "meta": { "theme": "music", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "VERY SLOW TEMPO", "items": ["Grave", "Largo", "Larghetto", "Adagio"] },
+    { "id": "g2", "label": "MODERATE TEMPO", "items": ["Andante", "Andantino", "Moderato", "Allegretto"] },
+    { "id": "g3", "label": "FAST TEMPO", "items": ["Allegro", "Vivace", "Vivo", "Animato"] },
+    { "id": "g4", "label": "VERY FAST TEMPO", "items": ["Presto", "Prestissimo", "Veloce", "Vivacissimo"] }
+  ]
+}

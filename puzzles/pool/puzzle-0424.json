@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0424",
+  "title": "Capitals of Unusual Countries",
+  "difficulty": "medium",
+  "editorialSummary": "Capitals grouped by region: Central Asian, Pacific Island, Caribbean, and African landlocked. False trail: Naypyidaw (Myanmar) is unusual-sounding like Central Asian capitals but is Southeast Asian — not included. All items are genuine capitals of real nations.",
+  "meta": { "theme": "geography", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "CENTRAL ASIAN CAPITALS", "items": ["Nur-Sultan", "Tashkent", "Bishkek", "Dushanbe"], "revealHint": "Steppe" },
+    { "id": "g2", "label": "PACIFIC ISLAND CAPITALS", "items": ["Suva", "Funafuti", "Apia", "Honiara"], "revealHint": "Pacific" },
+    { "id": "g3", "label": "CARIBBEAN CAPITALS", "items": ["Bridgetown", "Castries", "Roseau", "Port of Spain"], "revealHint": "Caribbean" },
+    { "id": "g4", "label": "LANDLOCKED AFRICAN CAPITALS", "items": ["Ouagadougou", "Niamey", "Bamako", "N'Djamena"], "revealHint": "Sahel" }
+  ]
+}

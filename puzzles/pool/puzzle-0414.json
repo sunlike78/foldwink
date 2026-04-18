@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0414",
+  "title": "Academy Awards",
+  "difficulty": "easy",
+  "editorialSummary": "Oscar categories grouped by craft area: directing/writing, acting, technical, and documentary/shorts. False trail: Animated Feature could seem like a short, but it is a feature-length category.",
+  "meta": { "theme": "film", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "DIRECTING & WRITING OSCARS", "items": ["Best Director", "Best Original Screenplay", "Best Adapted Screenplay", "Best Picture"] },
+    { "id": "g2", "label": "ACTING OSCARS", "items": ["Best Actor", "Best Actress", "Best Supporting Actor", "Best Supporting Actress"] },
+    { "id": "g3", "label": "TECHNICAL OSCARS", "items": ["Best Cinematography", "Best Film Editing", "Best Visual Effects", "Best Sound"] },
+    { "id": "g4", "label": "DOCUMENTARY & SHORTS OSCARS", "items": ["Best Documentary Feature", "Best Animated Short", "Best Live Action Short", "Best Documentary Short"] }
+  ]
+}

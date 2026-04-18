@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0407",
+  "title": "Famous Ships",
+  "difficulty": "easy",
+  "editorialSummary": "Ships sorted by era/type: exploration, naval battle, tragic sinking, space shuttle (named after ships). False trail: Endeavour is both Cook's ship and a shuttle; it lands in the space category here.",
+  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "AGE OF EXPLORATION SHIPS", "items": ["Santa Maria", "Mayflower", "Golden Hind", "Pinta"] },
+    { "id": "g2", "label": "FAMOUS WARSHIPS", "items": ["HMS Victory", "Bismarck", "USS Missouri", "Yamato"] },
+    { "id": "g3", "label": "FAMOUS SHIPWRECKS", "items": ["Titanic", "Lusitania", "Edmund Fitzgerald", "Andrea Doria"] },
+    { "id": "g4", "label": "NASA SPACE SHUTTLES", "items": ["Challenger", "Columbia", "Endeavour", "Discovery"] }
+  ]
+}

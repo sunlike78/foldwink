@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0430",
+  "title": "False Colour",
+  "difficulty": "hard",
+  "editorialSummary": "Every card contains a colour in its name, but the group it belongs to is determined by what the item ACTUALLY is — not its colour. A 'Blue Whale' is a mammal; 'Black Widow' is a spider; 'Red Fox' is a canid; 'Green Mamba' is a snake. All items plausibly fit 2+ groups because the colour misleads: e.g. Black Mamba is a snake, but Black Widow is a spider. Players must go past the colour to the taxon.",
+  "meta": { "theme": "nature", "categoryType": "false-trail", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "COLOUR + MAMMAL", "items": ["Blue Whale", "Red Fox", "Black Bear", "Grey Wolf"], "revealHint": "Mammal" },
+    { "id": "g2", "label": "COLOUR + BIRD", "items": ["Red Kite", "Blue Jay", "Black Swan", "Grey Heron"], "revealHint": "Bird" },
+    { "id": "g3", "label": "COLOUR + SPIDER", "items": ["Black Widow", "Brown Recluse", "Red Knee", "Golden Silk"], "revealHint": "Spider" },
+    { "id": "g4", "label": "COLOUR + SNAKE", "items": ["Black Mamba", "Green Mamba", "Red-Bellied Black", "Coral Snake"], "revealHint": "Snake" }
+  ]
+}

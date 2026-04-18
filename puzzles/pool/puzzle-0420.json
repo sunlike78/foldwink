@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0420",
+  "title": "Olympic Sport Types",
+  "difficulty": "medium",
+  "editorialSummary": "Olympic sports sorted by venue/discipline type: track athletics, field athletics, water sports, combat sports. False trail: Swimming and Rowing are both water sports; Judo and Boxing are both combat — players must decide the correct four for each subgroup.",
+  "meta": { "theme": "sports", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "TRACK EVENTS", "items": ["100m Sprint", "Marathon", "Hurdles", "Relay"], "revealHint": "Track" },
+    { "id": "g2", "label": "FIELD EVENTS", "items": ["Shot Put", "High Jump", "Javelin", "Pole Vault"], "revealHint": "Field" },
+    { "id": "g3", "label": "WATER SPORTS", "items": ["Swimming", "Rowing", "Canoe Slalom", "Water Polo"], "revealHint": "Water" },
+    { "id": "g4", "label": "COMBAT SPORTS", "items": ["Boxing", "Judo", "Wrestling", "Taekwondo"], "revealHint": "Combat" }
+  ]
+}

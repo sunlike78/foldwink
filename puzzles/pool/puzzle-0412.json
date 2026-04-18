@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0412",
+  "title": "Words With Silent Letters",
+  "difficulty": "easy",
+  "editorialSummary": "Words grouped by which letter is silent: silent K, silent B, silent G, silent W. Players recognise the words but must identify the silent letter pattern. False trail: 'Gnaw' has silent G like 'Gnat' — both land in the G group.",
+  "meta": { "theme": "language", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "SILENT K", "items": ["Knight", "Kneel", "Knack", "Knob"] },
+    { "id": "g2", "label": "SILENT B", "items": ["Lamb", "Thumb", "Debt", "Subtle"] },
+    { "id": "g3", "label": "SILENT G", "items": ["Gnat", "Gnaw", "Sign", "Reign"] },
+    { "id": "g4", "label": "SILENT W", "items": ["Wrap", "Wrist", "Wrong", "Sword"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0428",
+  "title": "Ballet Company Origins",
+  "difficulty": "medium",
+  "editorialSummary": "Famous ballet companies grouped by home country: Russia, France, UK, USA. False trail: The Paris Opera Ballet and the Royal Ballet both have 'Royal'-style prestige, but one is French and one is British.",
+  "meta": { "theme": "dance", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "RUSSIAN BALLET COMPANIES", "items": ["Bolshoi", "Mariinsky", "Mikhailovsky", "Stanislavski Ballet"], "revealHint": "Russian" },
+    { "id": "g2", "label": "FRENCH BALLET COMPANIES", "items": ["Paris Opera Ballet", "Ballet de Marseille", "Ballet du Capitole", "Ballet de Lorraine"], "revealHint": "French" },
+    { "id": "g3", "label": "BRITISH BALLET COMPANIES", "items": ["Royal Ballet", "English National Ballet", "Scottish Ballet", "Birmingham Royal Ballet"], "revealHint": "British" },
+    { "id": "g4", "label": "AMERICAN BALLET COMPANIES", "items": ["ABT", "New York City Ballet", "San Francisco Ballet", "Alvin Ailey"], "revealHint": "American" }
+  ]
+}

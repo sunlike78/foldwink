@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0426",
+  "title": "Roman Numerals",
+  "difficulty": "medium",
+  "editorialSummary": "Items are numbers expressed in Roman numerals, grouped by magnitude range: 1–9, 10–49, 50–99, 100+. Players must decode the numeral and place it in the right band. False trail: XIV=14 and XL=40 both start with X but land in different groups.",
+  "meta": { "theme": "mathematics", "categoryType": "value-range", "batch": "batch-12", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ROMAN NUMERALS: 1–9", "items": ["III", "V", "VII", "IX"], "revealHint": "Single" },
+    { "id": "g2", "label": "ROMAN NUMERALS: 10–49", "items": ["XIV", "XXI", "XXXIX", "XLII"], "revealHint": "Tens" },
+    { "id": "g3", "label": "ROMAN NUMERALS: 50–99", "items": ["L", "LXVI", "LXXXVIII", "XCIX"], "revealHint": "Fifties" },
+    { "id": "g4", "label": "ROMAN NUMERALS: 100+", "items": ["C", "CDXLIV", "MCM", "MMXXIV"], "revealHint": "Hundreds" }
+  ]
+}
