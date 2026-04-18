@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0480",
+  "title": "Roll for It",
+  "difficulty": "hard",
+  "editorialSummary": "Dice games grouped by core mechanic, where every game plausibly fits two groups at first glance. Betting/banking (craps, sic bo, chuck-a-luck, hazard) — every game involves a banker and players bet against the house. Push-your-luck (farkle, yahtzee, zombie dice, pass the pigs) — roll and decide whether to bank or re-roll. Matching/collection (bunco, boggle dice, perudo, Mexico) — players aim to collect matching results or beat a target pattern. Elimination (ship captain crew, left-center-right, pig, shut the box) — players lose tokens/turns until eliminated. Hard because Yahtzee looks like a matching game, Craps looks like elimination, and Perudo looks like betting.",
+  "meta": { "theme": "dice game types", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "BETTING / BANKING", "revealHint": "Bet", "items": ["Craps", "Sic Bo", "Chuck-a-Luck", "Hazard"] },
+    { "id": "g2", "label": "PUSH YOUR LUCK", "revealHint": "Risk", "items": ["Farkle", "Yahtzee", "Zombie Dice", "Pass the Pigs"] },
+    { "id": "g3", "label": "MATCHING / BLUFFING", "revealHint": "Match", "items": ["Bunco", "Perudo", "Mexico", "Liar's Dice"] },
+    { "id": "g4", "label": "ELIMINATION", "revealHint": "Out", "items": ["Ship Captain Crew", "Left Center Right", "Pig", "Shut the Box"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0446",
+  "title": "Summit View",
+  "difficulty": "medium",
+  "editorialSummary": "Mountain ranges sorted by continent. The false trail: a few names sound exotic enough to belong to multiple continents, and players unfamiliar with geography may misplace them. Tabs hint the continent name.",
+  "meta": { "theme": "mountain ranges by continent", "categoryType": "geography", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ASIA", "items": ["Himalayas", "Karakoram", "Altai", "Zagros"], "revealHint": "Asia" },
+    { "id": "g2", "label": "SOUTH AMERICA", "items": ["Andes", "Serra do Mar", "Patagonian Andes", "Cordillera Blanca"], "revealHint": "South America" },
+    { "id": "g3", "label": "AFRICA", "items": ["Atlas Mountains", "Drakensberg", "Ethiopian Highlands", "Rwenzori"], "revealHint": "Africa" },
+    { "id": "g4", "label": "EUROPE", "items": ["Alps", "Pyrenees", "Carpathians", "Apennines"], "revealHint": "Europe" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0467",
+  "title": "Yiddish Gold",
+  "difficulty": "easy",
+  "editorialSummary": "English words borrowed from Yiddish, sorted by the semantic field in which they entered everyday English: food (bagel, knish, lox, borscht), personality/character (chutzpah, schmuck, mensch, nebbish), talk/gossip (schmooze, kvetch, kibitz, nosh), and luck/fate (schmaltz, schlep, schpiel, maven). All are standard dictionary entries in English.",
+  "meta": { "theme": "Yiddish loanwords", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "FOOD", "items": ["Bagel", "Knish", "Lox", "Borscht"] },
+    { "id": "g2", "label": "CHARACTER", "items": ["Chutzpah", "Schmuck", "Mensch", "Nebbish"] },
+    { "id": "g3", "label": "TALK / SOCIALISE", "items": ["Schmooze", "Kvetch", "Kibitz", "Nosh"] },
+    { "id": "g4", "label": "WISDOM / PRAISE", "items": ["Maven", "Schmaltz", "Schpiel", "Schlep"] }
+  ]
+}

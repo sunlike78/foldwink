@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0464",
+  "title": "Mind Games",
+  "difficulty": "easy",
+  "editorialSummary": "Classic philosophical thought experiments sorted by the branch of philosophy they belong to: ethics (trolley problem, violinist, drowning child, experience machine), epistemology (evil demon, brain in a vat, Gettier case, Molyneux), metaphysics (ship of Theseus, teleporter, fission, Chinese room), and political philosophy (veil of ignorance, state of nature, utility monster, libertarian objection). Each is a named thought experiment with one canonical home.",
+  "meta": { "theme": "thought experiments", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ETHICS", "items": ["Trolley Problem", "The Violinist", "Drowning Child", "Experience Machine"] },
+    { "id": "g2", "label": "EPISTEMOLOGY", "items": ["Evil Demon", "Brain in a Vat", "Gettier Case", "Molyneux Problem"] },
+    { "id": "g3", "label": "METAPHYSICS", "items": ["Ship of Theseus", "Teleporter", "Fission Case", "Chinese Room"] },
+    { "id": "g4", "label": "POLITICAL PHILOSOPHY", "items": ["Veil of Ignorance", "State of Nature", "Utility Monster", "Desert Island"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0473",
+  "title": "Objection",
+  "difficulty": "medium",
+  "editorialSummary": "Legal procedures sorted by the stage of legal proceedings they belong to: pre-trial (arraignment, discovery, deposition, motion to suppress), trial (voir dire, opening statement, cross-examination, closing argument), post-trial (sentencing, appeal, habeas petition, parole hearing), and alternative dispute resolution (mediation, arbitration, negotiation, conciliation). Each procedure has one canonical stage.",
+  "meta": { "theme": "legal procedures", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "PRE-TRIAL", "revealHint": "Before", "items": ["Arraignment", "Discovery", "Deposition", "Motion to Suppress"] },
+    { "id": "g2", "label": "AT TRIAL", "revealHint": "Trial", "items": ["Voir Dire", "Opening Statement", "Cross-Examination", "Closing Argument"] },
+    { "id": "g3", "label": "POST-TRIAL", "revealHint": "After", "items": ["Sentencing", "Appeal", "Habeas Petition", "Parole Hearing"] },
+    { "id": "g4", "label": "ALTERNATIVE DISPUTE", "revealHint": "Resolve", "items": ["Mediation", "Arbitration", "Negotiation", "Conciliation"] }
+  ]
+}

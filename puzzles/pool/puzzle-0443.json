@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0443",
+  "title": "Forest Floor",
+  "difficulty": "easy",
+  "editorialSummary": "Mushroom types sorted by edibility/use category: prized edible mushrooms, common supermarket mushrooms, toxic/poisonous mushrooms, and medicinal mushrooms used in wellness. Every item is a real species or common name.",
+  "meta": { "theme": "mushrooms", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "PRIZED EDIBLES", "items": ["Chanterelle", "Porcini", "Morel", "Truffle"] },
+    { "id": "g2", "label": "SUPERMARKET MUSHROOMS", "items": ["Button", "Portobello", "Oyster", "Shiitake"] },
+    { "id": "g3", "label": "TOXIC MUSHROOMS", "items": ["Death Cap", "Destroying Angel", "Fly Agaric", "False Morel"] },
+    { "id": "g4", "label": "MEDICINAL MUSHROOMS", "items": ["Reishi", "Lion's Mane", "Chaga", "Turkey Tail"] }
+  ]
+}

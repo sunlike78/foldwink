@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0454",
+  "title": "Deep Space Object",
+  "difficulty": "hard",
+  "editorialSummary": "Every card is a deep-space object name. The grouping is by object TYPE — not by constellation or discovery method. The false trail: Andromeda is a galaxy AND a constellation; Orion Nebula is in Orion but is a nebula not a star cluster; Pleiades looks like a nebula name but is an open cluster. Players who sort by constellation will fail. The correct axis is strictly object type: nebulae, galaxies, star clusters, and supernova remnants.",
+  "meta": { "theme": "astronomy", "categoryType": "false-trail", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "NEBULAE", "items": ["Orion Nebula", "Crab Nebula", "Helix Nebula", "Eagle Nebula"], "revealHint": "Nebula" },
+    { "id": "g2", "label": "GALAXIES", "items": ["Andromeda", "Whirlpool Galaxy", "Sombrero Galaxy", "Triangulum"], "revealHint": "Galaxy" },
+    { "id": "g3", "label": "STAR CLUSTERS", "items": ["Pleiades", "Beehive Cluster", "Omega Centauri", "Jewel Box"], "revealHint": "Cluster" },
+    { "id": "g4", "label": "SUPERNOVA REMNANTS", "items": ["Cygnus Loop", "Cassiopeia A", "Vela Remnant", "Tycho's Remnant"], "revealHint": "Remnant" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0462",
+  "title": "Inside View",
+  "difficulty": "easy",
+  "editorialSummary": "Medical imaging modalities grouped by the physics or wave type used: ionising radiation (X-ray, CT scan, fluoroscopy, PET scan), magnetic resonance (MRI, fMRI, MRA, spectroscopy), sound-based (ultrasound, echocardiogram, doppler, HIFU), and nuclear medicine (SPECT, scintigraphy, bone scan, thyroid scan). Each imaging type has one unambiguous home.",
+  "meta": { "theme": "medical imaging", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "IONISING RADIATION", "items": ["X-Ray", "CT Scan", "Fluoroscopy", "PET Scan"] },
+    { "id": "g2", "label": "MAGNETIC RESONANCE", "items": ["MRI", "fMRI", "MRA", "Spectroscopy"] },
+    { "id": "g3", "label": "SOUND-BASED", "items": ["Ultrasound", "Echocardiogram", "Doppler", "HIFU"] },
+    { "id": "g4", "label": "NUCLEAR MEDICINE", "items": ["SPECT", "Scintigraphy", "Bone Scan", "Thyroid Scan"] }
+  ]
+}

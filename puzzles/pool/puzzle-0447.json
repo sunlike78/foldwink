@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0447",
+  "title": "Island Chains",
+  "difficulty": "medium",
+  "editorialSummary": "Archipelagos sorted by ocean/region. The false trail: some archipelago names sound like they belong to a different ocean than they do (e.g., Maldives sounds Pacific but is Indian Ocean). Tabs hint the ocean or sea.",
+  "meta": { "theme": "archipelagos", "categoryType": "geography", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "PACIFIC OCEAN", "items": ["Hawaii", "Galápagos", "Marquesas", "Tonga"], "revealHint": "Pacific" },
+    { "id": "g2", "label": "INDIAN OCEAN", "items": ["Maldives", "Seychelles", "Andaman Islands", "Lakshadweep"], "revealHint": "Indian" },
+    { "id": "g3", "label": "ATLANTIC OCEAN", "items": ["Azores", "Canary Islands", "Cape Verde", "Faroe Islands"], "revealHint": "Atlantic" },
+    { "id": "g4", "label": "MEDITERRANEAN / AEGEAN", "items": ["Cyclades", "Dodecanese", "Balearic Islands", "Maltese Islands"], "revealHint": "Mediterranean" }
+  ]
+}

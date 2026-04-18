@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0434",
+  "title": "In the Water",
+  "difficulty": "easy",
+  "editorialSummary": "Competitive swimming strokes and their key sub-terms. Four official strokes (freestyle, backstroke, breaststroke, butterfly) each have an iconic associated phrase. Groups are named by stroke; items are the four strokes themselves plus three close associates, sorted so each group of four is clearly one stroke's vocabulary. Simplified here to: the four strokes sorted by body position/arm action category.",
+  "meta": { "theme": "swimming", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "COMPETITIVE STROKES", "items": ["Freestyle", "Backstroke", "Breaststroke", "Butterfly"] },
+    { "id": "g2", "label": "POOL EVENTS (RELAY)", "items": ["Medley Relay", "Freestyle Relay", "Mixed Relay", "Individual Medley"] },
+    { "id": "g3", "label": "SWIMMING STARTS", "items": ["Dive Start", "Backstroke Start", "Grab Start", "Track Start"] },
+    { "id": "g4", "label": "POOL EQUIPMENT", "items": ["Kickboard", "Pull Buoy", "Fins", "Paddles"] }
+  ]
+}

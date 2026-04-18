@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0451",
+  "title": "Number Cruncher",
+  "difficulty": "medium",
+  "editorialSummary": "Statistics terms sorted by concept family: measures of central tendency, measures of spread/dispersion, probability distribution names, and hypothesis testing terms. The false trail: 'variance' and 'standard deviation' are both spread measures but players may confuse variance with 'average' thinking.",
+  "meta": { "theme": "statistics terms", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "CENTRAL TENDENCY", "items": ["Mean", "Median", "Mode", "Geometric Mean"], "revealHint": "Centre" },
+    { "id": "g2", "label": "SPREAD / DISPERSION", "items": ["Variance", "Standard Deviation", "Range", "Interquartile Range"], "revealHint": "Spread" },
+    { "id": "g3", "label": "DISTRIBUTIONS", "items": ["Normal", "Binomial", "Poisson", "Uniform"], "revealHint": "Distribution" },
+    { "id": "g4", "label": "HYPOTHESIS TESTING", "items": ["P-Value", "Null Hypothesis", "Confidence Interval", "T-Test"], "revealHint": "Hypothesis" }
+  ]
+}

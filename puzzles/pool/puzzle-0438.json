@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0438",
+  "title": "Helping Hand",
+  "difficulty": "easy",
+  "editorialSummary": "Compound words and phrases built with HAND sorted by where the HAND appears and what concept it creates: HAND as prefix (handmade, handshake…), HAND as suffix (firsthand, backhand…), hand-related body idioms, and hand tools. The grouping principle is position of the word HAND.",
+  "meta": { "theme": "words with HAND", "categoryType": "word-pattern", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "HAND + ___ (PREFIX)", "items": ["Handshake", "Handmade", "Handout", "Handwriting"] },
+    { "id": "g2", "label": "___ + HAND (SUFFIX)", "items": ["Firsthand", "Backhand", "Shorthand", "Underhand"] },
+    { "id": "g3", "label": "HAND IDIOMS", "items": ["Upper Hand", "Old Hand", "Sleight of Hand", "Show of Hands"] },
+    { "id": "g4", "label": "HAND TOOLS", "items": ["Hand Saw", "Hand Drill", "Hand Plane", "Hand Axe"] }
+  ]
+}

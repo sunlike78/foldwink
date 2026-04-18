@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0466",
+  "title": "Deal Me In",
+  "difficulty": "easy",
+  "editorialSummary": "Card games sorted by family mechanic: trick-taking (Bridge, Whist, Hearts, Euchre), matching/rummy (Gin Rummy, Canasta, Mahjong, Phase 10), shedding (Uno, Crazy Eights, President, Spit), and banking/gambling (Blackjack, Baccarat, War, Faro). Each game is a canonical representative of its mechanic family.",
+  "meta": { "theme": "card game families", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "TRICK-TAKING", "items": ["Bridge", "Whist", "Hearts", "Euchre"] },
+    { "id": "g2", "label": "MATCHING / RUMMY", "items": ["Gin Rummy", "Canasta", "Mahjong", "Phase 10"] },
+    { "id": "g3", "label": "SHEDDING", "items": ["Uno", "Crazy Eights", "President", "Spit"] },
+    { "id": "g4", "label": "BANKING", "items": ["Blackjack", "Baccarat", "War", "Faro"] }
+  ]
+}

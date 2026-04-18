@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0453",
+  "title": "Way of the Warrior",
+  "difficulty": "medium",
+  "editorialSummary": "Samurai concepts sorted by domain: weapons and armour, bushido virtues, social/clan structure, and martial arts/combat disciplines. The false trail: 'Kenjutsu' and 'Iaido' are both sword arts, tempting players to group all sword terms together instead of by domain.",
+  "meta": { "theme": "samurai concepts", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "WEAPONS / ARMOUR", "items": ["Katana", "Wakizashi", "Naginata", "Do-maru"], "revealHint": "Weapon" },
+    { "id": "g2", "label": "BUSHIDO VIRTUES", "items": ["Gi", "Yu", "Jin", "Makoto"], "revealHint": "Virtue" },
+    { "id": "g3", "label": "CLAN / SOCIAL TERMS", "items": ["Daimyo", "Ronin", "Han", "Seppuku"], "revealHint": "Clan" },
+    { "id": "g4", "label": "MARTIAL DISCIPLINES", "items": ["Kenjutsu", "Iaido", "Kyudo", "Jujutsu"], "revealHint": "Martial" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0445",
+  "title": "Taco Tuesday",
+  "difficulty": "medium",
+  "editorialSummary": "Mexican dishes sorted by type: street food (antojitos), soups and stews, corn-based dishes, and sauces/condiments. The false trail is that many items involve corn or chilli and could seem to belong to multiple groups.",
+  "meta": { "theme": "Mexican dishes", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "STREET FOOD (ANTOJITOS)", "items": ["Taco", "Elote", "Tamale", "Quesadilla"], "revealHint": "Street" },
+    { "id": "g2", "label": "SOUPS / STEWS", "items": ["Pozole", "Menudo", "Birria", "Caldo Tlalpeño"], "revealHint": "Soup" },
+    { "id": "g3", "label": "CORN-BASED DISHES", "items": ["Tlayuda", "Huarache", "Sope", "Tostada"], "revealHint": "Corn" },
+    { "id": "g4", "label": "SAUCES / CONDIMENTS", "items": ["Salsa Verde", "Mole Negro", "Crema", "Pico de Gallo"], "revealHint": "Sauce" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0457",
+  "title": "Rise and Set",
+  "difficulty": "easy",
+  "editorialSummary": "The four main stages of bread baking, each with four canonical sub-steps or actions. Mixing stage (knead, autolyse, hydrate, incorporate), fermentation stage (bulk proof, fold, shape, pre-shape), baking stage (score, steam, bloom, crust), and cooling stage (rest, slice, cool rack, store).",
+  "meta": { "theme": "baking stages", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "MIXING", "items": ["Knead", "Autolyse", "Hydrate", "Incorporate"] },
+    { "id": "g2", "label": "PROOFING", "items": ["Bulk Proof", "Fold", "Pre-Shape", "Final Shape"] },
+    { "id": "g3", "label": "BAKING", "items": ["Score", "Steam Inject", "Bloom", "Crust"] },
+    { "id": "g4", "label": "COOLING", "items": ["Rest", "Slice", "Cool Rack", "Store"] }
+  ]
+}

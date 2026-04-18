@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0459",
+  "title": "Under the Hood",
+  "difficulty": "easy",
+  "editorialSummary": "Computer hardware components grouped by system role: processing (CPU, GPU, APU, NPU), storage (SSD, HDD, NVMe, eMMC), memory (RAM, cache, VRAM, ROM), and connectivity (PCIe, USB hub, NIC, Thunderbolt). All items are standard hardware terms with one unambiguous home.",
+  "meta": { "theme": "computer hardware", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "PROCESSORS", "items": ["CPU", "GPU", "APU", "NPU"] },
+    { "id": "g2", "label": "STORAGE", "items": ["SSD", "HDD", "NVMe", "eMMC"] },
+    { "id": "g3", "label": "MEMORY", "items": ["RAM", "Cache", "VRAM", "ROM"] },
+    { "id": "g4", "label": "CONNECTIVITY", "items": ["PCIe", "USB Hub", "NIC", "Thunderbolt"] }
+  ]
+}

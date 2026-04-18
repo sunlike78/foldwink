@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0437",
+  "title": "Spice Route",
+  "difficulty": "easy",
+  "editorialSummary": "Indian spice blends sorted by cuisine region and use-case: South Indian blends, North Indian spice mixes, whole spices used in tempering (tadka), and single-origin spices associated with specific dishes. Each group has a clear culinary home.",
+  "meta": { "theme": "Indian spice blends", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "MASALA BLENDS", "items": ["Garam Masala", "Chaat Masala", "Tandoori Masala", "Rajma Masala"] },
+    { "id": "g2", "label": "SOUTH INDIAN BLENDS", "items": ["Sambar Powder", "Rasam Powder", "Chettinad Masala", "Idli Podi"] },
+    { "id": "g3", "label": "TADKA (TEMPERING) SPICES", "items": ["Mustard Seeds", "Curry Leaves", "Asafoetida", "Dried Red Chilli"] },
+    { "id": "g4", "label": "WHOLE AROMATICS", "items": ["Cardamom", "Cloves", "Star Anise", "Cinnamon Stick"] }
+  ]
+}

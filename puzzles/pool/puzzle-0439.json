@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0439",
+  "title": "Fire Away",
+  "difficulty": "easy",
+  "editorialSummary": "Compound words and phrases built with FIRE sorted by semantic class: FIRE as prefix forming nouns, FIRE as suffix, fire-fighting/safety terms, and fire-related idioms. The position/class of FIRE is the organising principle.",
+  "meta": { "theme": "words with FIRE", "categoryType": "word-pattern", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "FIRE + ___ (PREFIX)", "items": ["Firework", "Fireside", "Firetruck", "Fireplace"] },
+    { "id": "g2", "label": "___ + FIRE (SUFFIX)", "items": ["Campfire", "Gunfire", "Crossfire", "Backfire"] },
+    { "id": "g3", "label": "FIRE SAFETY TERMS", "items": ["Fire Exit", "Fire Drill", "Fire Alarm", "Fire Extinguisher"] },
+    { "id": "g4", "label": "FIRE IDIOMS", "items": ["Fight Fire", "Play With Fire", "Under Fire", "Rapid Fire"] }
+  ]
+}

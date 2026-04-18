@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0432",
+  "title": "Cricket Ground",
+  "difficulty": "easy",
+  "editorialSummary": "Cricket vocabulary divided into four clean classes: dismissal types (how a batter can get out), fielding positions, bowling delivery types, and scoring terms. Every item is unambiguously in one class.",
+  "meta": { "theme": "cricket", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "WAYS TO BE OUT", "items": ["Bowled", "Caught", "Stumped", "Run Out"] },
+    { "id": "g2", "label": "FIELDING POSITIONS", "items": ["Slip", "Gully", "Square Leg", "Mid-On"] },
+    { "id": "g3", "label": "DELIVERY TYPES", "items": ["Googly", "Yorker", "Bouncer", "Doosra"] },
+    { "id": "g4", "label": "SCORING TERMS", "items": ["Century", "Duck", "Fifty", "Six"] }
+  ]
+}

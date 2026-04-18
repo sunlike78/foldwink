@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0433",
+  "title": "Nile Pantheon",
+  "difficulty": "easy",
+  "editorialSummary": "Egyptian gods grouped by their primary domain: sky/sun gods, gods of the dead and afterlife, gods of knowledge and magic, and goddess figures associated with protection and motherhood. Each group of four is textbook Egyptology.",
+  "meta": { "theme": "Egyptian mythology", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "SUN / SKY GODS", "items": ["Ra", "Horus", "Shu", "Aten"] },
+    { "id": "g2", "label": "UNDERWORLD GODS", "items": ["Osiris", "Anubis", "Sokar", "Kherty"] },
+    { "id": "g3", "label": "KNOWLEDGE / MAGIC", "items": ["Thoth", "Heka", "Seshat", "Sia"] },
+    { "id": "g4", "label": "PROTECTIVE GODDESSES", "items": ["Isis", "Hathor", "Neith", "Bastet"] }
+  ]
+}

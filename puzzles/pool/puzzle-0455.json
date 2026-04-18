@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0455",
+  "title": "Lab Bench",
+  "difficulty": "hard",
+  "editorialSummary": "Every card is a piece of chemistry laboratory equipment. The false trail: grouping by material (glass vs. plastic) or by size will fail. The correct axis is function: heating equipment, volumetric/measuring equipment, separation equipment, and safety equipment. A 'Condenser' is for separation (distillation), not for cooling food — players who think in everyday terms misplace it. 'Aspirator' sounds like breathing equipment but is a vacuum pump (separation). Every item plausibly fits 2+ functional groups at first glance.",
+  "meta": { "theme": "chemistry lab equipment", "categoryType": "false-trail", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "HEATING EQUIPMENT", "items": ["Bunsen Burner", "Hot Plate", "Muffle Furnace", "Sand Bath"], "revealHint": "Heating" },
+    { "id": "g2", "label": "VOLUMETRIC / MEASURING", "items": ["Burette", "Pipette", "Volumetric Flask", "Graduated Cylinder"], "revealHint": "Measuring" },
+    { "id": "g3", "label": "SEPARATION EQUIPMENT", "items": ["Separating Funnel", "Condenser", "Rotary Evaporator", "Aspirator"], "revealHint": "Separation" },
+    { "id": "g4", "label": "SAFETY EQUIPMENT", "items": ["Fume Hood", "Safety Goggles", "Fire Blanket", "Eyewash Station"], "revealHint": "Safety" }
+  ]
+}

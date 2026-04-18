@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0477",
+  "title": "On the Track",
+  "difficulty": "medium",
+  "editorialSummary": "Track and field events grouped by movement type. False trail: Discus and Hammer both involve circular throwing motion, and Long Jump and Triple Jump both involve runway approach — but the groups are throwing implements, jump types, sprint distances, and distance running. Players must know the exact event category.",
+  "meta": { "theme": "track and field events", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "THROWING", "revealHint": "Throw", "items": ["Discus", "Hammer", "Shot Put", "Javelin"] },
+    { "id": "g2", "label": "JUMPING", "revealHint": "Jump", "items": ["Long Jump", "Triple Jump", "High Jump", "Pole Vault"] },
+    { "id": "g3", "label": "SPRINTS", "revealHint": "Sprint", "items": ["100m", "200m", "400m", "110m Hurdles"] },
+    { "id": "g4", "label": "DISTANCE RUNNING", "revealHint": "Distance", "items": ["1500m", "5000m", "10000m", "Steeplechase"] }
+  ]
+}

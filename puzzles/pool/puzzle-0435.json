@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0435",
+  "title": "Pass Go",
+  "difficulty": "easy",
+  "editorialSummary": "Monopoly board squares sorted by type: the four railroads, the four tax and chance spaces, the purple/brown cheapest properties, and the expensive dark-blue and green properties. All names are from the classic US Monopoly board.",
+  "meta": { "theme": "Monopoly", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "RAILROADS", "items": ["Reading Railroad", "B&O Railroad", "Short Line", "Pennsylvania Railroad"] },
+    { "id": "g2", "label": "TAX / CHANCE SPACES", "items": ["Income Tax", "Luxury Tax", "Community Chest", "Chance"] },
+    { "id": "g3", "label": "PURPLE PROPERTIES", "items": ["Mediterranean Ave", "Baltic Ave", "Oriental Ave", "Vermont Ave"] },
+    { "id": "g4", "label": "DARK BLUE PROPERTIES", "items": ["Park Place", "Boardwalk", "Pacific Ave", "North Carolina Ave"] }
+  ]
+}

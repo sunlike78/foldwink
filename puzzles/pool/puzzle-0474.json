@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0474",
+  "title": "Pay Up",
+  "difficulty": "medium",
+  "editorialSummary": "Types of tax sorted by the economic base they are levied on. False trail: VAT and sales tax are both consumption taxes but VAT is specifically a value-added mechanism grouped with consumption; estate tax and inheritance tax are related but both belong to wealth taxes. Players must distinguish income, consumption, wealth, and payroll bases.",
+  "meta": { "theme": "types of tax", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "INCOME TAX", "revealHint": "Income", "items": ["Wage Tax", "Capital Gains", "Dividend Tax", "Corporate Tax"] },
+    { "id": "g2", "label": "CONSUMPTION TAX", "revealHint": "Spend", "items": ["VAT", "Sales Tax", "Excise Duty", "Customs Tariff"] },
+    { "id": "g3", "label": "WEALTH TAX", "revealHint": "Wealth", "items": ["Estate Tax", "Inheritance Tax", "Property Tax", "Net Worth Tax"] },
+    { "id": "g4", "label": "PAYROLL TAX", "revealHint": "Payroll", "items": ["Social Security", "Medicare Levy", "Unemployment Tax", "Pension Contribution"] }
+  ]
+}
