@@ -19,9 +19,8 @@ Foldwink MVP is intentionally scoped small. These are known gaps documented so t
 
 ## Content
 
-- **Current library: 200 curated puzzles (105 easy + 75 medium + 20 hard).** Comfortable for ~3 months of committed daily + standard play. Every medium carries Foldwink Tabs (`revealHint` on all 4 groups) and supports the Wink action. Hard puzzles use half-speed Tabs with no Wink.
-- **Target library: 500 curated puzzles.** The disciplined batch pipeline is documented in `docs/content/BATCH_WORKFLOW.md` — batches of 25, rejection quota ≥ 30%, diversity score guardrails.
-- **Near-term content goal:** grow the library in reviewed batches toward 300 → 500.
+- **Current library: 500 curated puzzles (272 easy · 194 medium · 34 hard).** Comfortable for ~1 year of daily + standard play. Every medium carries Foldwink Tabs (`revealHint` on all 4 groups) and supports the Wink action. Hard puzzles use half-speed Tabs with no Wink.
+- **Content target reached.** Post-launch batches may extend toward 600 at a slower cadence.
 - **One Wink per medium puzzle.** The player can tap a Foldwink Tab once per game to fully reveal its category. No second wink. Easy puzzles have no Wink affordance — by design, not a gap. Hard puzzles have no Wink by design.
 - **Hard / Master Challenge: 20 real puzzles, fully playable.** Tabs reveal at half-speed and Wink is disabled. See `docs/PROGRESSION_RULES.md` for the product spec and progression model.
 - **English only.** No localization.
