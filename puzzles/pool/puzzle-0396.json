@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0396",
+  "title": "Chess Openings",
+  "difficulty": "medium",
+  "editorialSummary": "Chess openings by strategic type. False trail: Dutch Defence sounds like a solid classical defence but is a flank system. Catalan is positional/hypermodern despite starting with 1.d4.",
+  "meta": { "theme": "games", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "AGGRESSIVE GAMBITS", "revealHint": "Attack", "items": ["King's Gambit", "Queen's Gambit", "Evans Gambit", "Danish Gambit"] },
+    { "id": "g2", "label": "SOLID CLASSICAL DEFENCES", "revealHint": "Solid", "items": ["Sicilian Defence", "French Defence", "Caro-Kann", "Slav Defence"] },
+    { "id": "g3", "label": "HYPERMODERN OPENINGS", "revealHint": "Indirect", "items": ["King's Indian", "Nimzo-Indian", "Grunfeld Defence", "Catalan Opening"] },
+    { "id": "g4", "label": "FLANK SYSTEMS", "revealHint": "Flank", "items": ["English Opening", "Reti Opening", "Bird's Opening", "Dutch Defence"] }
+  ]
+}

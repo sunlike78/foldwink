@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0389",
+  "title": "Types of Election",
+  "difficulty": "easy",
+  "editorialSummary": "Election types by function. False trail: Runoff Election (a specific election event) vs Majority Runoff (a counting mechanism). By-election sounds like a timing type but fills a vacancy.",
+  "meta": { "theme": "politics", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ELECTORAL SYSTEMS", "items": ["First-Past-the-Post", "Proportional Representation", "Mixed-Member", "Single Transferable Vote"] },
+    { "id": "g2", "label": "VOTE-COUNTING METHODS", "items": ["Ranked Choice", "Plurality", "Majority Runoff", "Condorcet Method"] },
+    { "id": "g3", "label": "ELECTION TIMING TYPES", "items": ["General Election", "Snap Election", "Midterm", "Primary"] },
+    { "id": "g4", "label": "SPECIAL ELECTION TYPES", "items": ["By-Election", "Referendum", "Recall Election", "Runoff Election"] }
+  ]
+}

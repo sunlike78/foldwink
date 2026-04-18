@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0401",
+  "title": "British vs American English",
+  "difficulty": "medium",
+  "editorialSummary": "British English words grouped by semantic domain. All 16 are the UK form of common words. False trail: Chips (UK=fries) may confuse American players. Boot and Bonnet create a car-part false cluster — both are automotive but in transport group.",
+  "meta": { "theme": "language", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "TRANSPORT WORDS (UK)", "revealHint": "Transport", "items": ["Bonnet", "Boot", "Lorry", "Motorway"] },
+    { "id": "g2", "label": "CLOTHING WORDS (UK)", "revealHint": "Clothing", "items": ["Jumper", "Waistcoat", "Trainers", "Tights"] },
+    { "id": "g3", "label": "HOME WORDS (UK)", "revealHint": "Home", "items": ["Flat", "Tap", "Wardrobe", "Rubbish Bin"] },
+    { "id": "g4", "label": "FOOD WORDS (UK)", "revealHint": "Food", "items": ["Biscuit", "Chips", "Courgette", "Aubergine"] }
+  ]
+}

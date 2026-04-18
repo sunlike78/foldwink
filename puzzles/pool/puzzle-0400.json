@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0400",
+  "title": "Morse Patterns",
+  "difficulty": "medium",
+  "editorialSummary": "Morse code letters grouped by dot/dash pattern structure. All items are single letters. The key insight is distinguishing all-dots/all-dashes from mixed patterns. Starts-with groups require reading the first element of each letter's code.",
+  "meta": { "theme": "language", "categoryType": "attribute", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "MORSE ALL DOTS", "revealHint": "Dots", "items": ["E", "I", "S", "H"] },
+    { "id": "g2", "label": "MORSE ALL DASHES", "revealHint": "Dashes", "items": ["T", "M", "O", "CH"] },
+    { "id": "g3", "label": "MORSE STARTS WITH DOT", "revealHint": "Dot-first", "items": ["A", "R", "L", "F"] },
+    { "id": "g4", "label": "MORSE STARTS WITH DASH", "revealHint": "Dash-first", "items": ["N", "K", "D", "G"] }
+  ]
+}

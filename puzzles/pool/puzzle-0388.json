@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0388",
+  "title": "Garden Varieties",
+  "difficulty": "easy",
+  "editorialSummary": "Garden plants by growth habit. False trail: Lavender is used culinarily but is structurally a flowering shrub. Creeping Thyme is both a ground cover and a herb — the 'Creeping' modifier places it with ground covers.",
+  "meta": { "theme": "nature", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "CLIMBERS AND VINES", "items": ["Wisteria", "Clematis", "Honeysuckle", "Virginia Creeper"] },
+    { "id": "g2", "label": "GROUND COVERS", "items": ["Ajuga", "Creeping Thyme", "Sedum", "Vinca"] },
+    { "id": "g3", "label": "FLOWERING SHRUBS", "items": ["Lavender", "Forsythia", "Weigela", "Buddleia"] },
+    { "id": "g4", "label": "EDIBLE HERBS", "items": ["Basil", "Chive", "Tarragon", "Mint"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0385",
+  "title": "Forest Types",
+  "difficulty": "easy",
+  "editorialSummary": "Forest types by climate zone. False trail: Temperate Rainforest sounds tropical — it is definitionally temperate. Cloud Forest is tropical (moved from specialist). Mangroves anchor the wetland group.",
+  "meta": { "theme": "nature", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "TROPICAL FORESTS", "items": ["Rainforest", "Monsoon Forest", "Gallery Forest", "Cloud Forest"] },
+    { "id": "g2", "label": "TEMPERATE FORESTS", "items": ["Broadleaf", "Mixed Forest", "Beech Wood", "Temperate Rainforest"] },
+    { "id": "g3", "label": "BOREAL FORESTS", "items": ["Taiga", "Spruce Forest", "Larch Forest", "Subalpine Forest"] },
+    { "id": "g4", "label": "SPECIALIST WETLAND FORESTS", "items": ["Mangrove", "Swamp Forest", "Flooded Forest", "Riparian Forest"] }
+  ]
+}

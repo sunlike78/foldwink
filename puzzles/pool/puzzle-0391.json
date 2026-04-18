@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0391",
+  "title": "Textile Patterns",
+  "difficulty": "easy",
+  "editorialSummary": "Textile patterns by type. False trail: Houndstooth sounds animal-themed but is a geometric check. Paisley looks floral but is a curved-teardrop abstract motif.",
+  "meta": { "theme": "fashion", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "PLAID AND CHECK PATTERNS", "items": ["Tartan", "Madras", "Windowpane", "Gingham"] },
+    { "id": "g2", "label": "GEOMETRIC REPEATS", "items": ["Houndstooth", "Paisley", "Chevron", "Herringbone"] },
+    { "id": "g3", "label": "FLORAL PATTERNS", "items": ["Chintz", "Toile", "Ditsy", "Jacobean"] },
+    { "id": "g4", "label": "PICTORIAL PRINTS", "items": ["Camouflage", "Ikat", "Batik", "Animal Print"] }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0393",
+  "title": "Scientific Laws",
+  "difficulty": "easy",
+  "editorialSummary": "Named scientific laws by field. False trail: Zeroth/First/Second/Third Law block is thermodynamics — not to be confused with Newton's Laws. The sequential numbering is the trap and the confirmation.",
+  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "LAWS OF MOTION AND GRAVITY", "items": ["Newton's First Law", "Newton's Second Law", "Kepler's Third Law", "Hooke's Law"] },
+    { "id": "g2", "label": "LAWS OF THERMODYNAMICS", "items": ["Zeroth Law", "First Law", "Second Law", "Third Law"] },
+    { "id": "g3", "label": "LAWS OF ELECTRICITY", "items": ["Ohm's Law", "Faraday's Law", "Ampere's Law", "Coulomb's Law"] },
+    { "id": "g4", "label": "LAWS OF BIOLOGY AND CHEMISTRY", "items": ["Mendel's Laws", "Law of Mass Action", "Hardy-Weinberg Law", "Avogadro's Law"] }
+  ]
+}

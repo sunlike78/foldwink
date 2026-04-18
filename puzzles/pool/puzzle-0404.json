@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0404",
+  "title": "Compound Prefix",
+  "difficulty": "hard",
+  "editorialSummary": "16 word-endings each form a real compound with exactly one of OVER/UNDER/CROSS/OUT. Compounds: OVERTURE/OVERBEARING/OVERJOYED/OVERSIGHT, UNDERBELLY/UNDERPINNING/UNDERTOW/UNDERMINE, CROSSROADS/CROSSBOW/CROSSWIND/CROSSCHECK, OUTRAGE/OUTSKIRTS/OUTSPOKEN/OUTSHINE. Every assignment is uniquely provable.",
+  "meta": { "theme": "language", "categoryType": "wordplay", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "OVER + ___", "items": ["Ture", "Bearing", "Joyed", "Sight"] },
+    { "id": "g2", "label": "UNDER + ___", "items": ["Belly", "Pinning", "Tow", "Mine"] },
+    { "id": "g3", "label": "CROSS + ___", "items": ["Roads", "Bow", "Wind", "Check"] },
+    { "id": "g4", "label": "OUT + ___", "items": ["Rage", "Skirts", "Spoken", "Shine"] }
+  ]
+}

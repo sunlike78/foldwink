@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0403",
+  "title": "Constellations by Hemisphere",
+  "difficulty": "medium",
+  "editorialSummary": "Constellations by sky position and type. False trail: Orion is prominent in the northern winter sky but is not a zodiac constellation — correctly placed with zodiac (it borders the ecliptic). Crux is the Southern Cross, firmly southern.",
+  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "NORTHERN CONSTELLATIONS", "revealHint": "North", "items": ["Ursa Major", "Cassiopeia", "Perseus", "Cepheus"] },
+    { "id": "g2", "label": "SOUTHERN CONSTELLATIONS", "revealHint": "South", "items": ["Centaurus", "Crux", "Carina", "Vela"] },
+    { "id": "g3", "label": "ZODIAC CONSTELLATIONS", "revealHint": "Zodiac", "items": ["Orion", "Gemini", "Scorpius", "Sagittarius"] },
+    { "id": "g4", "label": "PROMINENT SEASONAL (NORTHERN)", "revealHint": "Seasonal", "items": ["Cygnus", "Lyra", "Aquila", "Hercules"] }
+  ]
+}

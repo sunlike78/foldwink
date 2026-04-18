@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0386",
+  "title": "Film Genres",
+  "difficulty": "easy",
+  "editorialSummary": "Film genres by mode. False trail: Dark Comedy could seem like drama. Noir is a hybrid defined by tone not subject. Mockumentary is a comedy vehicle despite the docu- prefix.",
+  "meta": { "theme": "film", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ACTION SUBGENRES", "items": ["Western", "Heist", "Martial Arts", "Disaster"] },
+    { "id": "g2", "label": "DRAMA SUBGENRES", "items": ["Biopic", "War Film", "Courtroom Drama", "Melodrama"] },
+    { "id": "g3", "label": "COMEDY SUBGENRES", "items": ["Screwball", "Parody", "Mockumentary", "Slapstick"] },
+    { "id": "g4", "label": "HYBRID GENRES", "items": ["Dark Comedy", "Noir", "Psychological Thriller", "Docudrama"] }
+  ]
+}
