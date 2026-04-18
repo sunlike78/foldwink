@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0484",
+  "title": "Summit Push",
+  "difficulty": "easy",
+  "editorialSummary": "Mountain climbing terminology grouped by the phase of a climb it belongs to. Acclimatization phase: terms for adjusting to altitude before the summit push. Technical ascent: gear and technique used while moving up steep terrain. High-camp life: shelter and logistics at the high camps. Hazards: objective dangers the climber must manage. All terms are standard alpinism vocabulary with no cross-group ambiguity.",
+  "meta": { "theme": "mountain climbing terminology", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "ACCLIMATIZATION", "items": ["Rotation", "Rest Day", "Altitude Sickness", "Hypoxia"] },
+    { "id": "g2", "label": "TECHNICAL ASCENT GEAR", "items": ["Crampon", "Ice Axe", "Jumar", "Fixed Line"] },
+    { "id": "g3", "label": "HIGH-CAMP LOGISTICS", "items": ["Bivouac", "Base Camp", "Dead Weight", "Cache"] },
+    { "id": "g4", "label": "OBJECTIVE HAZARDS", "items": ["Serac", "Bergschrund", "Whiteout", "Avalanche"] }
+  ]
+}

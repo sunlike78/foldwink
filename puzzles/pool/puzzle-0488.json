@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0488",
+  "title": "Secret Language",
+  "difficulty": "medium",
+  "editorialSummary": "Cryptography terms grouped by the era and approach they belong to. Classical (pre-computer, substitution/transposition by hand): Caesar cipher, Vigenere cipher, Atbash, Playfair. Symmetric key (modern, same key to encrypt and decrypt): AES, DES, Blowfish, RC4. Public key / asymmetric (mathematically linked key pairs): RSA, Diffie-Hellman, Elliptic Curve, ElGamal. Hash functions (one-way, no key, fixed-length output): MD5, SHA-256, bcrypt, Whirlpool. False trail: RC4 looks like it could be a public-key system due to its name; bcrypt looks like it could be symmetric encryption (it uses a key) but is canonically a hash/password-hash function.",
+  "meta": { "theme": "cryptography term types", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "CLASSICAL CIPHERS", "revealHint": "Hand", "items": ["Caesar Cipher", "Vigenere Cipher", "Atbash", "Playfair Cipher"] },
+    { "id": "g2", "label": "SYMMETRIC ENCRYPTION", "revealHint": "Same", "items": ["AES", "DES", "Blowfish", "RC4"] },
+    { "id": "g3", "label": "ASYMMETRIC / PUBLIC KEY", "revealHint": "Pair", "items": ["RSA", "Diffie-Hellman", "Elliptic Curve", "ElGamal"] },
+    { "id": "g4", "label": "HASH FUNCTIONS", "revealHint": "Hash", "items": ["MD5", "SHA-256", "bcrypt", "Whirlpool"] }
+  ]
+}

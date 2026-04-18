@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0489",
+  "title": "Sort It Out",
+  "difficulty": "medium",
+  "editorialSummary": "Sorting algorithms grouped by the underlying mechanism they use. Comparison-based divide-and-conquer: Merge Sort, Quick Sort, Tim Sort, Intro Sort — all recursively partition or merge. Insertion-based: Insertion Sort, Shell Sort, Library Sort, Binary Insertion Sort — build a sorted portion one element at a time. Selection-based: Selection Sort, Heap Sort, Cycle Sort, Smooth Sort — repeatedly select the minimum (or maximum). Distribution / non-comparison: Radix Sort, Counting Sort, Bucket Sort, Pigeonhole Sort — sort without element comparisons, using digit or value distribution. False trail: Heap Sort looks like divide-and-conquer but is canonically selection-based (repeatedly selects the heap maximum). Tim Sort looks like insertion (because it uses insertion for small runs) but is classified as divide-and-conquer merge-based.",
+  "meta": { "theme": "sorting algorithm families", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "DIVIDE AND CONQUER", "revealHint": "Split", "items": ["Merge Sort", "Quick Sort", "Tim Sort", "Intro Sort"] },
+    { "id": "g2", "label": "INSERTION-BASED", "revealHint": "Build", "items": ["Insertion Sort", "Shell Sort", "Library Sort", "Binary Insertion Sort"] },
+    { "id": "g3", "label": "SELECTION-BASED", "revealHint": "Pick", "items": ["Selection Sort", "Heap Sort", "Cycle Sort", "Smooth Sort"] },
+    { "id": "g4", "label": "DISTRIBUTION / NON-COMPARISON", "revealHint": "Count", "items": ["Radix Sort", "Counting Sort", "Bucket Sort", "Pigeonhole Sort"] }
+  ]
+}

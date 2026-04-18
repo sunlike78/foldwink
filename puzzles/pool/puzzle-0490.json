@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0490",
+  "title": "Body Business",
+  "difficulty": "medium",
+  "editorialSummary": "Human body systems grouped by primary function. Transport: circulatory system components and terms — heart, plasma, aorta, capillary. Control and signalling: nervous system terms — neuron, synapse, axon, myelin. Defence and immunity: immune system terms — antibody, macrophage, lymph node, T-cell. Digestion and absorption: digestive system terms — duodenum, peristalsis, villi, bile. False trail: lymph node looks like circulatory (lymph vessels are near blood vessels); myelin looks like it could be a structural term; bile could be confused with liver function rather than digestion.",
+  "meta": { "theme": "human body systems", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "CIRCULATORY SYSTEM", "revealHint": "Flow", "items": ["Aorta", "Capillary", "Plasma", "Ventricle"] },
+    { "id": "g2", "label": "NERVOUS SYSTEM", "revealHint": "Signal", "items": ["Neuron", "Synapse", "Axon", "Myelin"] },
+    { "id": "g3", "label": "IMMUNE SYSTEM", "revealHint": "Defend", "items": ["Antibody", "Macrophage", "Lymph Node", "T-Cell"] },
+    { "id": "g4", "label": "DIGESTIVE SYSTEM", "revealHint": "Digest", "items": ["Duodenum", "Peristalsis", "Villi", "Bile"] }
+  ]
+}

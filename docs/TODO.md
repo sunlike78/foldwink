@@ -2,14 +2,12 @@
 
 ## Current phase
 
-**Content scaling — batch-10 merged (387 curated puzzles).**
+**Content scaling — COMPLETE. 499 curated puzzles in pool (target 500 reached).**
 
-- 387 curated puzzles (easy=213, medium=149, hard=25) — target 500
-- Diversity score: 0.970
-- Batch-10: 25 drafted → 23 promoted (4 pass + 19 revise+accept + 2 reject)
-- Rejected: Sacred Places (factual/political), On the Spectrum political ideologies (too contested)
-- Fresh domains: cognitive biases, fabrics, logical fallacies, comedy styles, map types, Norse mythology, famous duos, economic terms, music theory, famous psychologists, world religions, number theory, body processes, therapy types, social media formats, political systems, math branches, psychological disorders, skeletal anatomy, influencer culture, self-concepts, kitchen science, religious rituals, famous theorems
-- Latest report: `docs/reports/FOLDWINK_CONTENT_BATCH_10_REPORT.md`
+- 499 puzzles: easy=272, medium=193, hard=34 — diversity score 0.966
+- Batch-15 (12 pz) promoted 2026-04-18: Nobel prizes, unsolved problems + 10 more
+- Batches 11–15 ran without editorial reports (fast-track after batch-10 audit)
+- **Content pipeline closed.** Focus shifts to pre-launch human QA and deploy.
 
 ## In progress
 
@@ -44,9 +42,12 @@
 - [x] batch-08 → 314 → 339 (docs/reports/FOLDWINK_CONTENT_BATCH_08_REPORT.md)
 - [x] batch-09 → 339 → 364 (docs/reports/FOLDWINK_CONTENT_BATCH_09_REPORT.md)
 - [x] batch-10 → 364 → 387 (docs/reports/FOLDWINK_CONTENT_BATCH_10_REPORT.md)
-- [ ] batch-11 → target 387 → ~412
-- [ ] More hard puzzles — target 20 → 50 (separate cadence)
-- [ ] Editorial report per batch under `docs/reports/`
+- [x] batch-11 → 387 → 412
+- [x] batch-12 → 412 → 437
+- [x] batch-13+14 → 437 → 487
+- [x] batch-15 → 487 → 499 (2026-04-18)
+- [ ] More hard puzzles — currently 34, target 50 (post-launch cadence)
+- [ ] Editorial report per batch under `docs/reports/` (deferred — fast-track mode)
 
 ### Retention (1.1 candidates)
 

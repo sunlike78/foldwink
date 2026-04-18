@@ -1,0 +1,13 @@
+{
+  "id": "puzzle-0483",
+  "title": "On the Programme",
+  "difficulty": "easy",
+  "editorialSummary": "Classical music works grouped by form. Symphony: works written as multi-movement orchestral compositions numbered as symphonies. Concerto: solo instrument plus orchestra. Opera: full staged vocal drama with orchestra. Sonata: keyboard or solo instrument with or without piano, named as sonata. Items are specific famous work titles, unambiguously of their form.",
+  "meta": { "theme": "classical music forms", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "groups": [
+    { "id": "g1", "label": "SYMPHONIES", "items": ["Eroica", "Jupiter", "Pastoral", "Unfinished"] },
+    { "id": "g2", "label": "CONCERTOS", "items": ["Emperor Concerto", "Four Seasons", "Violin Concerto in D", "Piano Concerto No. 21"] },
+    { "id": "g3", "label": "OPERAS", "items": ["La Traviata", "The Magic Flute", "Carmen", "Madama Butterfly"] },
+    { "id": "g4", "label": "SONATAS", "items": ["Moonlight Sonata", "Pathetique", "Kreutzer Sonata", "Spring Sonata"] }
+  ]
+}
