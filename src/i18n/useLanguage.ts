@@ -36,13 +36,20 @@ interface LangStore {
   setLang: (l: Lang) => void;
 }
 
+function applyDocumentLang(lang: Lang): void {
+  if (typeof document === "undefined") return;
+  document.documentElement.lang = lang;
+}
+
 export const useLangStore = create<LangStore>((set) => {
   const lang = getLangSync();
+  applyDocumentLang(lang);
   return {
     lang,
     t: strings[lang],
     setLang: (lang) => {
       saveLang(lang);
+      applyDocumentLang(lang);
       set({ lang, t: strings[lang] });
     },
   };

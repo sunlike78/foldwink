@@ -19,7 +19,7 @@ export function Card({
   solvedAriaTemplate,
 }: Props) {
   const base =
-    "relative w-full aspect-[3/2] flex items-center justify-center text-center px-1.5 py-2 sm:px-2 rounded-xl font-semibold text-[13px] sm:text-base leading-tight select-none will-change-transform";
+    "relative w-full aspect-[3/2] flex items-center justify-center text-center px-1 py-2 sm:px-1.5 rounded-xl font-semibold text-[12px] sm:text-[14px] leading-[1.1] select-none will-change-transform overflow-hidden";
   const motion = `${MOTION_CLASS.baseTransition} ${MOTION_CLASS.press}`;
 
   let variant: string;
@@ -53,9 +53,12 @@ export function Card({
       onClick={onClick}
       disabled={disabled}
     >
-      <span className="break-words hyphens-auto">
+      <span
+        className="hyphens-auto [overflow-wrap:anywhere] [word-break:break-word] max-w-full"
+        style={{ wordBreak: "break-word" }}
+      >
         {marker && (
-          <span className="mr-1 text-xs opacity-90" aria-hidden="true">
+          <span className="mr-0.5 text-xs opacity-90" aria-hidden="true">
             {marker}
           </span>
         )}
