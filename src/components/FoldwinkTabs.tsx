@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import type { Puzzle } from "../game/types/puzzle";
 import { buildFoldwinkTabs } from "../game/engine/foldwinkTabs";
 import { colorIndexForGroup, SOLVED_COLOR_CLASSES } from "../game/solvedColors";
@@ -20,6 +21,27 @@ export function FoldwinkTabs({
   gameEnded,
 }: Props) {
   const t = useT();
+  const [armedGroupId, setArmedGroupId] = useState<string | null>(null);
+  const armTimer = useRef<number | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (armTimer.current !== null) window.clearTimeout(armTimer.current);
+    };
+  }, []);
+
+  const handleTabClick = (groupId: string): void => {
+    if (armedGroupId === groupId) {
+      if (armTimer.current !== null) window.clearTimeout(armTimer.current);
+      setArmedGroupId(null);
+      onWink(groupId);
+      return;
+    }
+    if (armTimer.current !== null) window.clearTimeout(armTimer.current);
+    setArmedGroupId(groupId);
+    armTimer.current = window.setTimeout(() => setArmedGroupId(null), 3000);
+  };
+
   const tabs = buildFoldwinkTabs(puzzle, solvedGroupIds, winkedGroupId);
   if (tabs.length === 0) return null;
 
@@ -54,11 +76,14 @@ export function FoldwinkTabs({
 
           const showWinkMark = tab.winked || (tab.solved && winkedGroupId === tab.groupId);
 
+          const isArmed = clickable && armedGroupId === tab.groupId;
           let cls: string;
           if (tab.solved) {
             cls = `${base} ${SOLVED_COLOR_CLASSES[colorIdx]}`;
           } else if (tab.winked) {
             cls = `${base} bg-surfaceHi border border-accent text-accent tracking-[0.18em]`;
+          } else if (isArmed) {
+            cls = `${base} bg-accent/10 border-2 border-accent text-accent tracking-[0.18em] cursor-pointer`;
           } else if (clickable) {
             cls = `${base} bg-surface border border-[#2e343f] text-text tracking-[0.18em] tabular-nums hover:border-accent hover:text-accent cursor-pointer`;
           } else {
@@ -82,9 +107,9 @@ export function FoldwinkTabs({
                 type="button"
                 className={`${cls} ${revealCls} ${MOTION_CLASS.press}`}
                 aria-label={ariaLabel}
-                onClick={() => onWink(tab.groupId)}
+                onClick={() => handleTabClick(tab.groupId)}
               >
-                {tab.display}
+                {isArmed ? `✦ ${t.tabs.winkConfirm}` : tab.display}
               </button>
             );
           }

@@ -24,8 +24,10 @@ export interface Strings {
   game: {
     submit: string;
     clear: string;
+    shuffle: string;
     quitToMenu: string;
     quitConfirm: string;
+    oneAway: string;
     noActiveGame: string;
     backToMenu: string;
     mistakesLabel: string;
@@ -48,6 +50,7 @@ export interface Strings {
     winkReady: string;
     winkUsed: string;
     winkShort: string;
+    winkConfirm: string;
     solvedAria: (name: string) => string;
     winkedAria: (name: string) => string;
     clickAria: string;
@@ -199,8 +202,10 @@ export const strings: Record<Lang, Strings> = {
     game: {
       submit: "Submit",
       clear: "Clear",
+      shuffle: "Shuffle",
       quitToMenu: "Quit to menu",
       quitConfirm: "Tap again to quit",
+      oneAway: "One away",
       noActiveGame: "No active game.",
       backToMenu: "Back to menu",
       mistakesLabel: "Mistakes",
@@ -223,6 +228,7 @@ export const strings: Record<Lang, Strings> = {
       winkReady: "✦ wink ready",
       winkUsed: "✦ wink used",
       winkShort: "✦ wink",
+      winkConfirm: "tap to confirm",
       solvedAria: (name) => `Solved category: ${name}`,
       winkedAria: (name) => `Winked category: ${name}`,
       clickAria: "Wink this tab to reveal the full category",
@@ -375,8 +381,10 @@ export const strings: Record<Lang, Strings> = {
     game: {
       submit: "Bestätigen",
       clear: "Auswahl löschen",
+      shuffle: "Mischen",
       quitToMenu: "Zum Menü",
       quitConfirm: "Nochmal tippen zum Beenden",
+      oneAway: "Eins daneben",
       noActiveGame: "Kein aktives Spiel.",
       backToMenu: "Zurück zum Menü",
       mistakesLabel: "Fehler",
@@ -399,6 +407,7 @@ export const strings: Record<Lang, Strings> = {
       winkReady: "✦ Wink bereit",
       winkUsed: "✦ Wink verwendet",
       winkShort: "✦ Wink",
+      winkConfirm: "tippen zum Bestätigen",
       solvedAria: (name) => `Gelöste Kategorie: ${name}`,
       winkedAria: (name) => `Verwinkte Kategorie: ${name}`,
       clickAria: "Tab antippen, um die Kategorie zu enthüllen",
@@ -557,8 +566,10 @@ export const strings: Record<Lang, Strings> = {
     game: {
       submit: "Подтвердить",
       clear: "Снять выбор",
+      shuffle: "Перемешать",
       quitToMenu: "В меню",
       quitConfirm: "Нажми ещё раз, чтобы выйти",
+      oneAway: "Одна мимо",
       noActiveGame: "Нет активной игры.",
       backToMenu: "В меню",
       mistakesLabel: "Ошибки",
@@ -581,6 +592,7 @@ export const strings: Record<Lang, Strings> = {
       winkReady: "✦ wink готов",
       winkUsed: "✦ wink использован",
       winkShort: "✦ wink",
+      winkConfirm: "подтверди",
       solvedAria: (name) => `Решённая категория: ${name}`,
       winkedAria: (name) => `Подмигнутая категория: ${name}`,
       clickAria: "Нажми на вкладку, чтобы раскрыть категорию",

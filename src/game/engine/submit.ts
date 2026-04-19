@@ -26,3 +26,22 @@ export function findMatchingGroup(
   }
   return null;
 }
+
+/**
+ * Returns true when the incorrect selection had exactly SELECTION_SIZE-1
+ * items from a single group. Standard "one away" signal used by grouping
+ * puzzles to soften a miss.
+ */
+export function isOneAway(selection: readonly string[], puzzle: Puzzle): boolean {
+  if (selection.length !== SELECTION_SIZE) return false;
+  const selSet = new Set(selection);
+  if (selSet.size !== SELECTION_SIZE) return false;
+  for (const group of puzzle.groups) {
+    let overlap = 0;
+    for (const item of group.items) {
+      if (selSet.has(item)) overlap += 1;
+    }
+    if (overlap === SELECTION_SIZE - 1) return true;
+  }
+  return false;
+}

@@ -112,14 +112,16 @@ export function MenuScreen() {
             >
               {mediumButtonLabel}
             </Button>
-            <Button
-              variant={hardButtonVariant}
-              onClick={handleHardClick}
-              disabled={hardDisabled}
-              aria-disabled={hardDisabled}
-            >
-              {hardButtonLabel}
-            </Button>
+            {hReadiness.hasContent && (
+              <Button
+                variant={hardButtonVariant}
+                onClick={handleHardClick}
+                disabled={hardDisabled}
+                aria-disabled={hardDisabled}
+              >
+                {hardButtonLabel}
+              </Button>
+            )}
             <Button variant="ghost" onClick={showStats}>
               {t.menu.stats}
             </Button>

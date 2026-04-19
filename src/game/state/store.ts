@@ -17,7 +17,7 @@ import {
 } from "../../puzzles/loader";
 import { getDailyPuzzleId } from "../../puzzles/daily";
 import { shuffleItems, seedFromString } from "../engine/shuffle";
-import { canSubmit, findMatchingGroup } from "../engine/submit";
+import { canSubmit, findMatchingGroup, isOneAway } from "../engine/submit";
 import { applyCorrectGroup, applyIncorrectGuess, isLoss, isWin } from "../engine/progress";
 import { calculateResultSummary, type ResultSummary } from "../engine/result";
 import { canWinkGroup } from "../engine/foldwinkTabs";
@@ -25,7 +25,7 @@ import { applyGameResult } from "../../stats/stats";
 import { todayLocal } from "../../utils/date";
 import { mediumReadiness, hardReadiness } from "../engine/readiness";
 
-type FlashKind = "correct" | "incorrect" | null;
+type FlashKind = "correct" | "incorrect" | "one-away" | null;
 
 export interface StoreState {
   screen: AppScreen;
@@ -48,6 +48,7 @@ export interface StoreState {
   startDaily: () => void;
   toggleSelection: (value: string) => void;
   clearSelection: () => void;
+  reshuffleActive: () => void;
   submit: () => void;
   goToMenu: () => void;
   showStats: () => void;
@@ -287,6 +288,20 @@ export function createStore(deps: StoreDeps = defaultDeps) {
       set({ active: { ...active, selection: [] } });
     },
 
+    reshuffleActive: () => {
+      const { active, puzzle } = get();
+      if (!active || !puzzle || active.result) return;
+      const current = active.order;
+      // Fisher–Yates using Math.random. Not deterministic — reshuffle is a
+      // cosmetic reset, not a rerollable game event.
+      const next = current.slice();
+      for (let i = next.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [next[i], next[j]] = [next[j], next[i]];
+      }
+      set({ active: { ...active, order: next } });
+    },
+
     submit: () => {
       const state = get();
       const { active, puzzle, stats, progress } = state;
@@ -300,7 +315,7 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         flash = "correct";
       } else {
         next = applyIncorrectGuess(active);
-        flash = "incorrect";
+        flash = isOneAway(active.selection, puzzle) ? "one-away" : "incorrect";
       }
       const finalized = finalizeIfEnded(next, puzzle, deps.now());
       if (!finalized.ended || !finalized.active.result) {

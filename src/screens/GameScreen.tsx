@@ -20,6 +20,7 @@ export function GameScreen() {
   const flash = useGameStore((s) => s.flash);
   const toggleSelection = useGameStore((s) => s.toggleSelection);
   const clearSelection = useGameStore((s) => s.clearSelection);
+  const reshuffleActive = useGameStore((s) => s.reshuffleActive);
   const submit = useGameStore((s) => s.submit);
   const goToMenu = useGameStore((s) => s.goToMenu);
   const clearFlash = useGameStore((s) => s.clearFlash);
@@ -40,6 +41,30 @@ export function GameScreen() {
     };
   }, []);
 
+  useEffect(() => {
+    if (!active || active.result) return;
+    const handler = (e: KeyboardEvent): void => {
+      const target = e.target as HTMLElement | null;
+      const tag = target?.tagName?.toLowerCase();
+      if (tag === "input" || tag === "textarea") return;
+      if (e.key === "Enter") {
+        if (canSubmit(active.selection)) {
+          e.preventDefault();
+          play("submit");
+          haptic("submit");
+          submit();
+        }
+      } else if (e.key === "Escape") {
+        if (active.selection.length > 0) {
+          e.preventDefault();
+          clearSelection();
+        }
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [active, submit, clearSelection, play, haptic]);
+
   const handleQuit = (): void => {
     if (!quitArmed) {
       setQuitArmed(true);
@@ -57,11 +82,11 @@ export function GameScreen() {
       play("correct");
       haptic("correct");
     }
-    if (flash === "incorrect") {
+    if (flash === "incorrect" || flash === "one-away") {
       play("wrong");
       haptic("wrong");
     }
-    const id = setTimeout(() => clearFlash(), 450);
+    const id = setTimeout(() => clearFlash(), flash === "one-away" ? 1400 : 450);
     return () => clearTimeout(id);
   }, [flash, clearFlash, play, haptic]);
 
@@ -131,7 +156,9 @@ export function GameScreen() {
       ? "ring-2 ring-solved2"
       : flash === "incorrect"
         ? "ring-2 ring-danger"
-        : "";
+        : flash === "one-away"
+          ? "ring-2 ring-[#e0b25e]"
+          : "";
   const gridShakeKey = `${active.mistakesUsed}:${flash}`;
 
   return (
@@ -159,8 +186,8 @@ export function GameScreen() {
         gameEnded={!!active.result}
       />
       <Grid
-        key={flash === "incorrect" ? gridShakeKey : undefined}
-        shake={flash === "incorrect"}
+        key={flash === "incorrect" || flash === "one-away" ? gridShakeKey : undefined}
+        shake={flash === "incorrect" || flash === "one-away"}
       >
         {active.order.map((value) => {
           const isSolved = solvedItems.has(value);
@@ -178,7 +205,16 @@ export function GameScreen() {
           );
         })}
       </Grid>
-      <div className="mt-5 flex items-center justify-between gap-3 max-w-md mx-auto">
+      <div
+        className="mt-2 h-5 flex items-center justify-center text-[11px] uppercase tracking-[0.14em]"
+        role="status"
+        aria-live="polite"
+      >
+        {flash === "one-away" && (
+          <span className="text-[#e0b25e] font-semibold">✦ {t.game.oneAway}</span>
+        )}
+      </div>
+      <div className="mt-3 flex items-center justify-between gap-3 max-w-md mx-auto">
         <div className="flex items-center gap-2" aria-live="polite">
           <div
             className="flex gap-1"
@@ -199,6 +235,9 @@ export function GameScreen() {
           </span>
         </div>
         <div className="flex gap-2">
+          <Button variant="ghost" onClick={reshuffleActive} aria-label={t.game.shuffle}>
+            <span aria-hidden="true">⇄</span>
+          </Button>
           <Button
             variant="secondary"
             onClick={clearSelection}
