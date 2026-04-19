@@ -1,0 +1,12 @@
+{
+  "id": "de-0005",
+  "title": "Haustiere",
+  "difficulty": "easy",
+  "meta": { "theme": "Haustiere", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Hunderassen", "items": ["Labrador", "Pudel", "Dackel", "Schäferhund"] },
+    { "id": "group_b", "label": "Katzenrassen", "items": ["Perser", "Siamese", "Maine Coon", "Sphynx"] },
+    { "id": "group_c", "label": "Kleintiere", "items": ["Hamster", "Kaninchen", "Meerschweinchen", "Maus"] },
+    { "id": "group_d", "label": "Vögel als Haustiere", "items": ["Wellensittich", "Kanarienvogel", "Papagei", "Nymphensittich"] }
+  ]
+}

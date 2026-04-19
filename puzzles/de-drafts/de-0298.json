@@ -1,0 +1,12 @@
+{
+  "id": "de-0298",
+  "title": "Redewendungen mit Körper",
+  "difficulty": "easy",
+  "meta": { "theme": "redewendungen-koerper", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Kopf-Redewendungen", "items": ["Den Kopf verlieren", "Kopfzerbrechen", "Über den Kopf wachsen", "Kopf hoch"] },
+    { "id": "group_b", "label": "Hand-Redewendungen", "items": ["Hand aufs Herz", "In guten Händen", "Handkuss", "Hand anlegen"] },
+    { "id": "group_c", "label": "Bein-Redewendungen", "items": ["Auf eigenen Beinen", "Bein stellen", "Kein Bein brechen", "Mit einem Bein im"] },
+    { "id": "group_d", "label": "Herz-Redewendungen", "items": ["Herz am rechten Fleck", "Herzblut", "Schweres Herz", "Herzensangelegenheit"] }
+  ]
+}

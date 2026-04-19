@@ -1,0 +1,12 @@
+{
+  "id": "de-0206",
+  "title": "Weimarer Republik",
+  "difficulty": "easy",
+  "meta": { "theme": "weimarer-republik", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Politiker", "items": ["Ebert", "Rathenau", "Stresemann", "Brüning"] },
+    { "id": "group_b", "label": "Ereignisse", "items": ["Hyperinflation", "Kapp-Putsch", "Ruhrbesetzung", "Schwarzer Freitag"] },
+    { "id": "group_c", "label": "Probleme der Republik", "items": ["Arbeitslosigkeit", "Dolchstoßlegende", "Straßenkämpfe", "Putschversuche"] },
+    { "id": "group_d", "label": "Goldene Zwanziger Kultur", "items": ["Bauhaus", "Kabarett", "Neue Sachlichkeit", "Jazz"] }
+  ]
+}

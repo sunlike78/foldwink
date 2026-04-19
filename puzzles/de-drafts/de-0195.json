@@ -1,0 +1,12 @@
+{
+  "id": "de-0195",
+  "title": "Wetter und Klima",
+  "difficulty": "easy",
+  "meta": { "theme": "Natur", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Messgeräte", "items": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"] },
+    { "id": "group_b", "label": "Klimaelemente", "items": ["Temperatur", "Niederschlag", "Wind", "Luftfeuchte"] },
+    { "id": "group_c", "label": "Wetterwarnungen", "items": ["Unwetterwarnung", "Frostalarm", "Sturmwarnung", "Hitzewarnung"] },
+    { "id": "group_d", "label": "Klimatypen", "items": ["Mittelmeerklima", "Ozeanisch", "Kontinental", "Subarktisch"] }
+  ]
+}

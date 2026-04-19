@@ -1,0 +1,12 @@
+{
+  "id": "ru-0482",
+  "title": "Буддизм",
+  "difficulty": "medium",
+  "meta": { "theme": "Буддийская философия и практика", "batch": "ru-batch-21" },
+  "groups": [
+    { "id": "buddhism_concepts", "label": "Ключевые понятия", "revealHint": "ПОНЯТИЯ", "items": ["Нирвана", "Карма", "Дхарма", "Сансара"] },
+    { "id": "buddhism_practices", "label": "Практики", "revealHint": "ПРАКТИКИ", "items": ["Медитация", "Мантра", "Мудра", "Пуджа"] },
+    { "id": "buddhism_branches", "label": "Ветви", "revealHint": "ВЕТВИ", "items": ["Хинаяна", "Махаяна", "Ваджраяна", "Дзен"] },
+    { "id": "buddhism_symbols_2", "label": "Символы", "revealHint": "СИМВОЛЫ", "items": ["Колесо Дхармы", "Лотос", "Бодхи-дерево", "Ваджра"] }
+  ]
+}

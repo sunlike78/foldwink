@@ -1,0 +1,32 @@
+{
+  "id": "de-0394",
+  "title": "Forstwirtschaft",
+  "difficulty": "medium",
+  "meta": { "theme": "Forstwirtschaft", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Waldtypen",
+      "revealHint": "Waldformen",
+      "items": ["Laubwald", "Nadelwald", "Mischwald", "Urwald"]
+    },
+    {
+      "id": "group_b",
+      "label": "Waldfunktionen",
+      "revealHint": "Was Wälder leisten",
+      "items": ["CO2-Speicher", "Wasserfilter", "Erholung", "Biodiversität"]
+    },
+    {
+      "id": "group_c",
+      "label": "Holzarten",
+      "revealHint": "Baumholz-Typen",
+      "items": ["Eiche", "Fichte", "Kiefer", "Buche"]
+    },
+    {
+      "id": "group_d",
+      "label": "Waldschutzmaßnahmen",
+      "revealHint": "Waldschutz",
+      "items": ["Naturschutzgebiet", "Totholz-Schutz", "Brennholzverbot", "Aufforstung"]
+    }
+  ]
+}

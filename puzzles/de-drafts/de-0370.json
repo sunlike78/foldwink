@@ -1,0 +1,55 @@
+{
+  "id": "de-0370",
+  "title": "Aktienmarkt",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Börse",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Börsenindizes",
+      "revealHint": "Marktbarometer",
+      "items": [
+        "DAX",
+        "Dow Jones",
+        "S&P 500",
+        "Nikkei"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Finanzinstrumente",
+      "revealHint": "Investitionsmittel",
+      "items": [
+        "Aktie",
+        "Anleihe",
+        "ETF",
+        "Option"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Börsenbegriffe",
+      "revealHint": "Handelsvokabular",
+      "items": [
+        "Dividende",
+        "Volatilität",
+        "Liquidität",
+        "Hausse"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Anlagestrategien",
+      "revealHint": "Investitionsweg",
+      "items": [
+        "Buy and Hold",
+        "Diversifikation",
+        "Value Investing",
+        "Short Selling"
+      ]
+    }
+  ]
+}

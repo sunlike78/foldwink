@@ -1,0 +1,12 @@
+{
+  "id": "de-0006",
+  "title": "Wildtiere im Wald",
+  "difficulty": "easy",
+  "meta": { "theme": "Wildtiere im Wald", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Waldsäugetiere", "items": ["Reh", "Fuchs", "Wildschwein", "Dachs"] },
+    { "id": "group_b", "label": "Waldvögel", "items": ["Specht", "Eule", "Rotkehlchen", "Amsel"] },
+    { "id": "group_c", "label": "Reptilien", "items": ["Ringelnatter", "Blindschleiche", "Zauneidechse", "Kreuzotter"] },
+    { "id": "group_d", "label": "Waldinsekten", "items": ["Hirschkäfer", "Waldameise", "Borkenkäfer", "Glühwürmchen"] }
+  ]
+}

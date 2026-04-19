@@ -1,0 +1,51 @@
+{
+  "id": "de-0198",
+  "title": "Politisches System Deutschland",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Politik",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Bundesorgane",
+      "items": [
+        "Bundespräsident",
+        "Bundeskanzler",
+        "Bundesrat",
+        "Bundesgericht"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bundesrat-Begriffe",
+      "items": [
+        "Ländervertretung",
+        "Vermittlungsausschuss",
+        "Einspruch",
+        "Zustimmungsgesetz"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bundestag-Begriffe",
+      "items": [
+        "Fraktion",
+        "Plenarsitzung",
+        "Abgeordneter",
+        "Ausschuss"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Gerichte",
+      "items": [
+        "Verfassungsgericht",
+        "Verwaltungsgericht",
+        "Sozialgericht",
+        "Arbeitsgericht"
+      ]
+    }
+  ]
+}

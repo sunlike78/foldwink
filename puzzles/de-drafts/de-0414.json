@@ -1,0 +1,12 @@
+{
+  "id": "de-0414",
+  "title": "Dynastien des Reiches",
+  "difficulty": "medium",
+  "meta": { "theme": "geschichte", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Habsburger", "revealHint": "Österreich", "items": ["Rudolf I.", "Karl V.", "Maria Theresia", "Franz II."] },
+    { "id": "group_b", "label": "Staufer", "revealHint": "Mittelalter", "items": ["Friedrich I.", "Heinrich VI.", "Friedrich II.", "Konrad IV."] },
+    { "id": "group_c", "label": "Wittelsbacher", "revealHint": "Bayern", "items": ["Ludwig der Bayer", "Maximilian I.", "Ludwig II.", "Otto I."] },
+    { "id": "group_d", "label": "Hohenzollern", "revealHint": "Preußen", "items": ["Friedrich der Große", "Wilhelm I.", "Wilhelm II.", "Friedrich III."] }
+  ]
+}

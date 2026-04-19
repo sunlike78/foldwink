@@ -1,0 +1,12 @@
+{
+  "id": "de-0200",
+  "title": "Deutsche Geschichte Überblick",
+  "difficulty": "easy",
+  "meta": { "theme": "Geschichte", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Mittelalter", "items": ["Heiliges Röm. Reich", "Kreuzzüge", "Hanse", "Pest"] },
+    { "id": "group_b", "label": "Neuzeit", "items": ["Reformation", "Dreißigjähriger Krieg", "Aufklärung", "Napoleon"] },
+    { "id": "group_c", "label": "Moderne", "items": ["Kaiserreich", "Weimarer Republik", "Zweiter Weltkrieg", "Teilung"] },
+    { "id": "group_d", "label": "Gegenwart", "items": ["Wiedervereinigung", "Euro-Einführung", "Agenda 2010", "Corona-Pandemie"] }
+  ]
+}

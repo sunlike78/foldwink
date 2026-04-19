@@ -1,0 +1,12 @@
+{
+  "id": "de-0024",
+  "title": "Schulfächer",
+  "difficulty": "easy",
+  "meta": { "theme": "Schulfächer", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Naturwissenschaften", "items": ["Biologie", "Chemie", "Physik", "Informatik"] },
+    { "id": "group_b", "label": "Sprachen", "items": ["Deutsch", "Englisch", "Französisch", "Latein"] },
+    { "id": "group_c", "label": "Gesellschaftswissen.", "items": ["Geschichte", "Geographie", "Politik", "Sozialkunde"] },
+    { "id": "group_d", "label": "Kunst und Musik", "items": ["Kunst", "Musik", "Theater", "Werken"] }
+  ]
+}

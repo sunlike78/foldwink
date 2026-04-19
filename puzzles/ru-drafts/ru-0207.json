@@ -1,0 +1,12 @@
+{
+  "id": "ru-0207",
+  "title": "Знаменитые учёные",
+  "difficulty": "medium",
+  "meta": { "theme": "Учёные по открытию", "batch": "ru-batch-07" },
+  "groups": [
+    { "id": "physics_scientists", "label": "Физики", "revealHint": "ФИЗИКА", "items": ["Эйнштейн", "Ньютон", "Бор", "Ферми"] },
+    { "id": "chemistry_scientists", "label": "Химики", "revealHint": "ХИМИЯ", "items": ["Менделеев", "Кюри", "Лавуазье", "Бутлеров"] },
+    { "id": "biology_scientists", "label": "Биологи", "revealHint": "БИОЛОГИЯ", "items": ["Дарвин", "Пастер", "Мендель", "Павлов"] },
+    { "id": "math_scientists", "label": "Математики", "revealHint": "МАТЕМАТИКА", "items": ["Эйлер", "Гаусс", "Лобачевский", "Ковалевская"] }
+  ]
+}

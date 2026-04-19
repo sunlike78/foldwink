@@ -1,0 +1,12 @@
+{
+  "id": "de-0244",
+  "title": "Deutsche Schlager",
+  "difficulty": "easy",
+  "meta": { "theme": "schlager", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schlager 50er/60er", "items": ["Freddy Quinn", "Caterina Valente", "Heintje", "Rex Gildo"] },
+    { "id": "group_b", "label": "Schlager 70er/80er", "items": ["Karel Gott", "Drafi Deutscher", "Ireen Sheer", "Marianne Rosenberg"] },
+    { "id": "group_c", "label": "Schlager-Themen", "items": ["Heimweh", "Fernweh", "Liebe", "Urlaubsstimmung"] },
+    { "id": "group_d", "label": "Schlager-Begriffe", "items": ["Melodie", "Refrain", "Volksmusik", "Hitparade"] }
+  ]
+}

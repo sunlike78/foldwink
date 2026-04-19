@@ -1,0 +1,32 @@
+{
+  "id": "de-0343",
+  "title": "Künstliche Intelligenz",
+  "difficulty": "medium",
+  "meta": { "theme": "KI", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "ML-Methoden",
+      "revealHint": "Lernverfahren",
+      "items": ["Überwachtes Lernen", "Reinforcement", "Clustering", "Neuronales Netz"]
+    },
+    {
+      "id": "group_b",
+      "label": "KI-Modelltypen",
+      "revealHint": "Architekturformen",
+      "items": ["Transformer", "CNN", "RNN", "GAN"]
+    },
+    {
+      "id": "group_c",
+      "label": "KI-Anwendungsfelder",
+      "revealHint": "Wo KI eingesetzt",
+      "items": ["Spracherkennung", "Bilderkennung", "Empfehlung", "Diagnose"]
+    },
+    {
+      "id": "group_d",
+      "label": "KI-Ethik Begriffe",
+      "revealHint": "Ethische Fragen",
+      "items": ["Bias", "Transparenz", "Erklärbarkeit", "Fairness"]
+    }
+  ]
+}

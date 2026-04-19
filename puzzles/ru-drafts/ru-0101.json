@@ -1,0 +1,12 @@
+{
+  "id": "ru-0101",
+  "title": "По жанру",
+  "difficulty": "easy",
+  "meta": { "theme": "Жанры видеоигр", "batch": "ru-batch-02" },
+  "groups": [
+    { "id": "combat", "label": "Боевые жанры", "items": ["Шутер", "Файтинг", "Слэшер", "Битемап"] },
+    { "id": "strategy", "label": "Стратегии", "items": ["Пошаговая", "RTS", "Варгейм", "4X"] },
+    { "id": "sim", "label": "Симуляторы", "items": ["Гонки", "Авиасим", "Ферма", "Стройка"] },
+    { "id": "rpg", "label": "Ролевые игры", "items": ["RPG", "Action RPG", "JRPG", "Roguelike"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0422",
+  "title": "Exportweltmeister Deutschland",
+  "difficulty": "medium",
+  "meta": { "theme": "wirtschaft", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Maschinenbau-Export", "revealHint": "Made in Germany", "items": ["Fräsmaschine", "Turbine", "Druckmaschine", "Hydraulikpresse"] },
+    { "id": "group_b", "label": "Auto-Export", "revealHint": "Fahrzeuge weltweit", "items": ["BMW 5er", "Mercedes E-Klasse", "VW Golf", "Porsche 911"] },
+    { "id": "group_c", "label": "Chemie-Export", "revealHint": "BASF & Co.", "items": ["Düngemittel", "Farbstoffe", "Kunststoffe", "Agrochemie"] },
+    { "id": "group_d", "label": "Pharma-Export", "revealHint": "Bayer & Boehringer", "items": ["Aspirin", "Insulin", "Impfstoffe", "Krebsmedikamente"] }
+  ]
+}

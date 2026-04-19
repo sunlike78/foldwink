@@ -1,0 +1,12 @@
+{
+  "id": "de-0444",
+  "title": "Realismus in Kunst und Literatur",
+  "difficulty": "medium",
+  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Realismus-Maler", "revealHint": "19. Jhd. Malerei", "items": ["Courbet", "Millet", "Menzel", "Leibl"] },
+    { "id": "group_b", "label": "Realismus-Autoren", "revealHint": "Prosa des Lebens", "items": ["Fontane", "Keller", "Storm", "Flaubert"] },
+    { "id": "group_c", "label": "Realismus-Werke", "revealHint": "Berühmte Titel", "items": ["Effi Briest", "Madame Bovary", "Grüner Heinrich", "Schimmelreiter"] },
+    { "id": "group_d", "label": "Realismus-Merkmale", "revealHint": "Stilmerkmale", "items": ["Alltagsdarstellung", "Detailtreue", "Sozialkritik", "Milieustudie"] }
+  ]
+}

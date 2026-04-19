@@ -1,0 +1,32 @@
+{
+  "id": "de-0326",
+  "title": "Mittelalter Begriffe",
+  "difficulty": "medium",
+  "meta": { "theme": "Mittelalter", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Feudalismus-Begriffe",
+      "revealHint": "Lehnswesen",
+      "items": ["Lehnswesen", "Vasall", "Lehnsherr", "Grundherrschaft"]
+    },
+    {
+      "id": "group_b",
+      "label": "Mittelalterkirche",
+      "revealHint": "Kirchliche Macht",
+      "items": ["Investiturstreit", "Bannfluch", "Kreuzzug", "Inquisition"]
+    },
+    {
+      "id": "group_c",
+      "label": "Ritterwesen",
+      "revealHint": "Adeliger Krieger",
+      "items": ["Turnier", "Wappen", "Rüstung", "Knappe"]
+    },
+    {
+      "id": "group_d",
+      "label": "Städtewesen Mittelalter",
+      "revealHint": "Bürgerliches Leben",
+      "items": ["Zunft", "Marktrecht", "Bürgermeister", "Stadtrecht"]
+    }
+  ]
+}

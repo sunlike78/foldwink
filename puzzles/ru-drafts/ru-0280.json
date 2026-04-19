@@ -1,0 +1,12 @@
+{
+  "id": "ru-0280",
+  "title": "Виды сыра",
+  "difficulty": "medium",
+  "meta": { "theme": "Мировые сыры по стране", "batch": "ru-batch-10" },
+  "groups": [
+    { "id": "french_cheese", "label": "Французские", "revealHint": "ФРАНЦИЯ", "items": ["Бри", "Камамбер", "Рокфор", "Конте"] },
+    { "id": "italian_cheese", "label": "Итальянские", "revealHint": "ИТАЛИЯ", "items": ["Пармезан", "Моцарелла", "Горгонзола", "Пекорино"] },
+    { "id": "swiss_cheese", "label": "Швейцарские", "revealHint": "ШВЕЙЦАРИЯ", "items": ["Эмменталь", "Грюйер", "Раклет", "Аппенцеллер"] },
+    { "id": "other_cheese", "label": "Другие", "revealHint": "ДРУГИЕ", "items": ["Чеддер", "Гауда", "Брынза", "Халлуми"] }
+  ]
+}

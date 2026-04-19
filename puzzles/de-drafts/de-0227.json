@@ -1,0 +1,12 @@
+{
+  "id": "de-0227",
+  "title": "Deutsche Volksagen",
+  "difficulty": "easy",
+  "meta": { "theme": "volksagen", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Loreley-Sage", "items": ["Felsen", "Rheingold", "Schiffer", "Gesang"] },
+    { "id": "group_b", "label": "Rübezahl-Sage", "items": ["Riesengebirge", "Berggeist", "Rüben", "Wanderer"] },
+    { "id": "group_c", "label": "Rattenfänger-Sage", "items": ["Hameln", "Flöte", "Ratten", "Kinder"] },
+    { "id": "group_d", "label": "Donar-Sagen", "items": ["Eiche", "Hammer", "Sturm", "Donnerwetter"] }
+  ]
+}

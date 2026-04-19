@@ -1,0 +1,12 @@
+{
+  "id": "de-0029",
+  "title": "Insekten",
+  "difficulty": "easy",
+  "meta": { "theme": "Insekten", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Käfer", "items": ["Marienkäfer", "Hirschkäfer", "Laufkäfer", "Nashornkäfer"] },
+    { "id": "group_b", "label": "Schmetterlinge", "items": ["Admiral", "Kohlweißling", "Tagpfauenauge", "Zitronenfalter"] },
+    { "id": "group_c", "label": "Hautflügler", "items": ["Biene", "Wespe", "Hornisse", "Ameise"] },
+    { "id": "group_d", "label": "Zweiflügler", "items": ["Stubenfliege", "Mücke", "Bremse", "Schwebfliege"] }
+  ]
+}

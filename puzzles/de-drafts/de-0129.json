@@ -1,0 +1,12 @@
+{
+  "id": "de-0129",
+  "title": "Jagd und Wild",
+  "difficulty": "easy",
+  "meta": { "theme": "Natur", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Wildtierarten", "items": ["Reh", "Wildschwein", "Fuchs", "Dachs"] },
+    { "id": "group_b", "label": "Jagdmethoden", "items": ["Ansitz", "Pirsch", "Drückjagd", "Fallenjagd"] },
+    { "id": "group_c", "label": "Ausrüstung", "items": ["Gewehr", "Fernglas", "Jagdmesser", "Jagdhorn"] },
+    { "id": "group_d", "label": "Jagdzeiten", "items": ["Frühjahr", "Herbst", "Schonzeit", "Brunft"] }
+  ]
+}

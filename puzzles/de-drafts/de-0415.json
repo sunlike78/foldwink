@@ -1,0 +1,12 @@
+{
+  "id": "de-0415",
+  "title": "Autoren nach Herkunft",
+  "difficulty": "medium",
+  "meta": { "theme": "literatur", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Bayerische Autoren", "revealHint": "Freistaat", "items": ["Lion Feuchtwanger", "Oskar Maria Graf", "Ludwig Thoma", "Karl Valentin"] },
+    { "id": "group_b", "label": "Preußische Autoren", "revealHint": "Norddeutsch", "items": ["Heinrich von Kleist", "Theodor Fontane", "E.T.A. Hoffmann", "Arno Holz"] },
+    { "id": "group_c", "label": "Österr. Autoren", "revealHint": "Wien und Umland", "items": ["Stefan Zweig", "Arthur Schnitzler", "Ingeborg Bachmann", "Thomas Bernhard"] },
+    { "id": "group_d", "label": "Schweizer Autoren", "revealHint": "Eidgenossenschaft", "items": ["Max Frisch", "Friedrich Dürrenmatt", "Gottfried Keller", "Robert Walser"] }
+  ]
+}

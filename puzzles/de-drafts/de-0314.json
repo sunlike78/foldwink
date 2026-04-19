@@ -1,0 +1,55 @@
+{
+  "id": "de-0314",
+  "title": "Hegels Begriffe",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Hegel",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Hegels Dialektik",
+      "revealHint": "These-Antithese",
+      "items": [
+        "These",
+        "Antithese",
+        "Synthese",
+        "Aufhebung"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Hegels Geistbegriffe",
+      "revealHint": "Geist und Vernunft",
+      "items": [
+        "Weltgeist",
+        "Objektiver Geist",
+        "Subjektiver Geist",
+        "Absoluter Geist"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Hegels Hauptwerke",
+      "revealHint": "Philos. Texte",
+      "items": [
+        "Phänomenologie",
+        "Wissenschaft Logik",
+        "Enzyklopädie",
+        "Rechtsphilosophie"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Hegels Staatsphasen",
+      "revealHint": "Politische Theorie",
+      "items": [
+        "Familie",
+        "Bürgerliche Ges.",
+        "Staat",
+        "Weltgeschichte"
+      ]
+    }
+  ]
+}

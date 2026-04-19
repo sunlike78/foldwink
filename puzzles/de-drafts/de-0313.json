@@ -1,0 +1,55 @@
+{
+  "id": "de-0313",
+  "title": "Kant und sein Werk",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Kant",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Kants drei Kritiken",
+      "revealHint": "Kritische Werke",
+      "items": [
+        "Reine Vernunft",
+        "Praktische Vernunft",
+        "Urteilskraft",
+        "Prolegomena"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kants Kernbegriffe",
+      "revealHint": "Philos. Schlüssel",
+      "items": [
+        "Kateg. Imperativ",
+        "Ding an sich",
+        "Noumenon",
+        "Transzendental"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Kants Schriften",
+      "revealHint": "Kleinere Werke",
+      "items": [
+        "Zum ewigen Frieden",
+        "Anthropologie",
+        "Grundlegung",
+        "Metaphysik"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kants Kategorien",
+      "revealHint": "Kategorienlehre",
+      "items": [
+        "Kausalität",
+        "Substanz",
+        "Wechselwirkung",
+        "Modalität"
+      ]
+    }
+  ]
+}

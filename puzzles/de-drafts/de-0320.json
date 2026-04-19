@@ -1,0 +1,55 @@
+{
+  "id": "de-0320",
+  "title": "Politische Theorien",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Politische Theorie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Liberalismus-Vertreter",
+      "revealHint": "Freiheit des Einz.",
+      "items": [
+        "Locke",
+        "Mill",
+        "Rawls",
+        "Hayek"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Konservatismus-Vertreter",
+      "revealHint": "Tradition/Ordnung",
+      "items": [
+        "Burke",
+        "De Maistre",
+        "Schmitt",
+        "Metternich"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Sozialismus-Vertreter",
+      "revealHint": "Gemeins. Eigentum",
+      "items": [
+        "Marx",
+        "Engels",
+        "Luxemburg",
+        "Bebel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Anarchismus-Vertreter",
+      "revealHint": "Kein Staat nötig",
+      "items": [
+        "Proudhon",
+        "Bakunin",
+        "Kropotkin",
+        "Goldman"
+      ]
+    }
+  ]
+}

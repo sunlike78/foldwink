@@ -1,0 +1,12 @@
+{
+  "id": "de-0025",
+  "title": "Mathematik-Begriffe",
+  "difficulty": "easy",
+  "meta": { "theme": "Mathematik", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Additions-Begriffe", "items": ["Summe", "Summand", "Plus", "Ergebnis"] },
+    { "id": "group_b", "label": "Geometrie-Begriffe", "items": ["Dreieck", "Kreis", "Parallelogramm", "Trapez"] },
+    { "id": "group_c", "label": "Algebra-Begriffe", "items": ["Variable", "Gleichung", "Funktion", "Koeffizient"] },
+    { "id": "group_d", "label": "Statistik-Begriffe", "items": ["Mittelwert", "Median", "Modus", "Streuung"] }
+  ]
+}

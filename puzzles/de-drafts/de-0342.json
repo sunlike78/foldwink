@@ -1,0 +1,55 @@
+{
+  "id": "de-0342",
+  "title": "Kryptografie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Kryptografie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Symmetrische Verschlüss.",
+      "revealHint": "Ein Schlüssel",
+      "items": [
+        "AES",
+        "DES",
+        "Blowfish",
+        "3DES"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Asymmetrische Verschlüss.",
+      "revealHint": "Schlüsselpaar",
+      "items": [
+        "RSA",
+        "ECC",
+        "DSA",
+        "ElGamal"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Krypto-Konzepte",
+      "revealHint": "Theoret. Begriffe",
+      "items": [
+        "Öffentlicher Schlüssel",
+        "Hash",
+        "Digitale Signatur",
+        "Zertifikat"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Krypto-Anwendungen",
+      "revealHint": "Einsatzgebiete",
+      "items": [
+        "HTTPS",
+        "E-Mail-Verschlüss.",
+        "Blockchain",
+        "SSH"
+      ]
+    }
+  ]
+}

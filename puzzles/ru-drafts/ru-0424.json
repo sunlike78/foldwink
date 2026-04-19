@@ -1,0 +1,12 @@
+{
+  "id": "ru-0424",
+  "title": "Цифровые технологии",
+  "difficulty": "medium",
+  "meta": { "theme": "Технологии цифровой трансформации", "batch": "ru-batch-18" },
+  "groups": [
+    { "id": "ai_tech", "label": "Искусственный интеллект", "revealHint": "ИИ", "items": ["Машинное обучение", "Нейросеть", "NLP", "Компьютерное зрение"] },
+    { "id": "blockchain_tech", "label": "Блокчейн", "revealHint": "БЛОКЧЕЙН", "items": ["Биткоин", "Смарт-контракт", "NFT", "DeFi"] },
+    { "id": "iot_tech", "label": "Интернет вещей", "revealHint": "IoT", "items": ["Умный дом", "Wearable", "Датчики", "Edge computing"] },
+    { "id": "xr_tech", "label": "XR-технологии", "revealHint": "XR", "items": ["VR", "AR", "MR", "Метавселенная"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ru-0316",
+  "title": "Ароматы и парфюмерия",
+  "difficulty": "medium",
+  "meta": { "theme": "Парфюмерия и ароматы", "batch": "ru-batch-12" },
+  "groups": [
+    { "id": "fragrance_families", "label": "Семейства ароматов", "revealHint": "СЕМЕЙСТВА", "items": ["Цветочные", "Древесные", "Восточные", "Свежие"] },
+    { "id": "perfume_notes", "label": "Ноты парфюма", "revealHint": "НОТЫ", "items": ["Верхние ноты", "Ноты сердца", "Базовые ноты", "Шлейф"] },
+    { "id": "famous_perfumes", "label": "Классика парфюмерии", "revealHint": "КЛАССИКА", "items": ["Chanel No.5", "Dior Sauvage", "Opium", "Shalimar"] },
+    { "id": "scent_ingredients", "label": "Компоненты", "revealHint": "КОМПОНЕНТЫ", "items": ["Роза", "Пачули", "Ветивер", "Мускус"] }
+  ]
+}

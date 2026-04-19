@@ -1,0 +1,12 @@
+{
+  "id": "de-0430",
+  "title": "Internationale Abkommen",
+  "difficulty": "medium",
+  "meta": { "theme": "politik", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Klimaschutz", "revealHint": "CO2 & Temperaturen", "items": ["Pariser Abkommen", "Kyoto-Protokoll", "Montrealer Protokoll", "Glasgow-Pakt"] },
+    { "id": "group_b", "label": "Abrüstung", "revealHint": "Waffen reduzieren", "items": ["INF-Vertrag", "START-Vertrag", "NPT", "Ottawa-Vertrag"] },
+    { "id": "group_c", "label": "Menschenrechte", "revealHint": "Schutz aller", "items": ["UN-Charta", "EMRK", "Flüchtlingskonvention", "Kinderrechtskonvention"] },
+    { "id": "group_d", "label": "Handel", "revealHint": "Freier Austausch", "items": ["GATT", "WTO-Abkommen", "CETA", "TTIP-Entwurf"] }
+  ]
+}

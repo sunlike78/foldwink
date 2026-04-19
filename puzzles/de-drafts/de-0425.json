@@ -1,0 +1,12 @@
+{
+  "id": "de-0425",
+  "title": "Steuerarten in Deutschland",
+  "difficulty": "medium",
+  "meta": { "theme": "steuern", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Einkommensteuer", "revealHint": "Lohn & Gehalt", "items": ["Grundfreibetrag", "Steuertarif", "Lohnsteuer", "Kapitalertragsteuer"] },
+    { "id": "group_b", "label": "Umsatzsteuer", "revealHint": "Mehrwertsteuer", "items": ["Regelsteuersatz", "Ermäßigter Satz", "Vorsteuer", "USt-Voranmeldung"] },
+    { "id": "group_c", "label": "Gewerbesteuer", "revealHint": "Unternehmen", "items": ["Hebesatz", "Gewerbeertrag", "Hinzurechnungen", "Kürzungen"] },
+    { "id": "group_d", "label": "Erbschaftsteuer", "revealHint": "Nachlass", "items": ["Freibetrag", "Steuerklasse", "Schenkungsteuer", "Bewertung"] }
+  ]
+}

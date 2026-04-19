@@ -1,0 +1,32 @@
+{
+  "id": "de-0328",
+  "title": "Militärische Ränge",
+  "difficulty": "medium",
+  "meta": { "theme": "Militärränge", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Ränge: Deutsches Heer",
+      "revealHint": "Landstreitkräfte",
+      "items": ["Gefreiter", "Feldwebel", "Leutnant", "General"]
+    },
+    {
+      "id": "group_b",
+      "label": "Ränge: Deutsche Marine",
+      "revealHint": "Seestreitkräfte",
+      "items": ["Matrose", "Maat", "Kapitän", "Admiral"]
+    },
+    {
+      "id": "group_c",
+      "label": "Ränge: Luftwaffe",
+      "revealHint": "Luftstreitkräfte",
+      "items": ["Flieger", "Unteroffizier", "Major", "Oberst"]
+    },
+    {
+      "id": "group_d",
+      "label": "NATO-Dienstgradgruppen",
+      "revealHint": "Bündnisränge",
+      "items": ["OR-1", "OR-9", "OF-1", "OF-10"]
+    }
+  ]
+}

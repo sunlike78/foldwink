@@ -1,0 +1,55 @@
+{
+  "id": "de-0360",
+  "title": "Kunstströmungen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Kunstgeschichte",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Impressionismus-Maler",
+      "revealHint": "Licht/Atmosphäre",
+      "items": [
+        "Monet",
+        "Renoir",
+        "Degas",
+        "Pissarro"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Expressionismus-Maler",
+      "revealHint": "Gefühl ausdrücken",
+      "items": [
+        "Kirchner",
+        "Nolde",
+        "Marc",
+        "Heckel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Kubismus-Künstler",
+      "revealHint": "Zerlegte Formen",
+      "items": [
+        "Picasso",
+        "Braque",
+        "Léger",
+        "Gris"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Surrealismus-Künstler",
+      "revealHint": "Traum/Unbewusstes",
+      "items": [
+        "Dalí",
+        "Magritte",
+        "Ernst",
+        "Miró"
+      ]
+    }
+  ]
+}

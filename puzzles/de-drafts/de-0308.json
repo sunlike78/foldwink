@@ -1,0 +1,55 @@
+{
+  "id": "de-0308",
+  "title": "Erste Zeilen berühmter Werke",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Deutsche Literatur Anfänge",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Erstes Wort: Goethe",
+      "revealHint": "Weimarer Klassiker",
+      "items": [
+        "Faust",
+        "Iphigenie",
+        "Egmont",
+        "Götz"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Erstes Wort: Schiller",
+      "revealHint": "Dramen-Klassiker",
+      "items": [
+        "Kabale",
+        "Räuber",
+        "Wallenstein",
+        "Maria Stuart"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Erstes Wort: Kafka",
+      "revealHint": "Prager Modernist",
+      "items": [
+        "Verwandlung",
+        "Prozess",
+        "Schloss",
+        "Amerika"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Erstes Wort: Thomas Mann",
+      "revealHint": "Lübecker Autor",
+      "items": [
+        "Buddenbrooks",
+        "Zauberberg",
+        "Doktor Faustus",
+        "Tonio Kröger"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0400",
+  "title": "Evolution",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Evolution",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Evolutionsmechanismen",
+      "revealHint": "Evolution wirkt",
+      "items": [
+        "Natürliche Selektion",
+        "Gendrift",
+        "Mutation",
+        "Genfluss"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Evolutionsbeweise",
+      "revealHint": "Belege Evolution",
+      "items": [
+        "Fossilien",
+        "Homologe Organe",
+        "Molekularbiol.",
+        "Biogeografie"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Evolutionsfehlkonzepte",
+      "revealHint": "Häufige Irrtümer",
+      "items": [
+        "Zielorientiert",
+        "Stärkste überleben",
+        "Lamarckismus",
+        "Affenabstammung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Schlüsselfiguren Evolution",
+      "revealHint": "Evolutions-Pioneer",
+      "items": [
+        "Darwin",
+        "Wallace",
+        "Mendel",
+        "Huxley"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0031",
+  "title": "Getränke",
+  "difficulty": "easy",
+  "meta": { "theme": "Getränke", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Alkoholfreie Getränke", "items": ["Wasser", "Limonade", "Apfelsaft", "Cola"] },
+    { "id": "group_b", "label": "Alkoholische Getränke", "items": ["Bier", "Wein", "Schnaps", "Sekt"] },
+    { "id": "group_c", "label": "Heiße Getränke", "items": ["Kaffee", "Tee", "Kakao", "Glühwein"] },
+    { "id": "group_d", "label": "Kalte Getränke", "items": ["Eistee", "Smoothie", "Milch", "Kefir"] }
+  ]
+}

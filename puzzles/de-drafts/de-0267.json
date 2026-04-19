@@ -1,0 +1,12 @@
+{
+  "id": "de-0267",
+  "title": "Metallverarbeitung",
+  "difficulty": "easy",
+  "meta": { "theme": "metallverarbeitung", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Metalltechniken", "items": ["Schmieden", "Schweißen", "Gießen", "Nieten"] },
+    { "id": "group_b", "label": "Metallarten", "items": ["Eisen", "Kupfer", "Stahl", "Aluminium"] },
+    { "id": "group_c", "label": "Metallwerkzeuge", "items": ["Hammer", "Amboss", "Zange", "Feile"] },
+    { "id": "group_d", "label": "Metallprodukte", "items": ["Schwert", "Kette", "Beschlag", "Nagel"] }
+  ]
+}

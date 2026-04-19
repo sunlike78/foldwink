@@ -1,0 +1,12 @@
+{
+  "id": "de-0492",
+  "title": "Mars-Kolonisierung",
+  "difficulty": "medium",
+  "meta": { "theme": "raumfahrt", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Mars-Probleme", "revealHint": "Herausforderungen", "items": ["Kosmische Strahlung", "Dünne Atmosphäre", "Fehlende Schwerkraft", "Isolation"] },
+    { "id": "group_b", "label": "Mars-Lösungen", "revealHint": "Wie man sie löst", "items": ["Terraforming", "Unterirdische Basis", "Wassergewinnung", "ISRU"] },
+    { "id": "group_c", "label": "Mars-Missionen", "revealHint": "Mars-Raumschiffe", "items": ["Curiosity Rover", "Perseverance", "InSight Lander", "Mars Odyssey"] },
+    { "id": "group_d", "label": "Mars-Personen", "revealHint": "Menschen & Ideen", "items": ["Elon Musk", "Robert Zubrin", "Buzz Aldrin", "Gerard O'Neill"] }
+  ]
+}

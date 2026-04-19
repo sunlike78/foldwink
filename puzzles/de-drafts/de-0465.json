@@ -1,0 +1,12 @@
+{
+  "id": "de-0465",
+  "title": "Rituale und Bräuche",
+  "difficulty": "medium",
+  "meta": { "theme": "kultur", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Hochzeitsbräuche", "revealHint": "Heirat in DE", "items": ["Polterabend", "Brautstrauß werfen", "Schwellentragen", "Brautentführung"] },
+    { "id": "group_b", "label": "Beerdigungs-Bräuche", "revealHint": "Abschied nehmen", "items": ["Leichenschmaus", "Trauerkranz", "Kondolenzbesuch", "Aussegnung"] },
+    { "id": "group_c", "label": "Geburtstags-Bräuche", "revealHint": "Feiern des Lebens", "items": ["Torte & Kerzen", "Runde schmeißen", "Geburtstagsständchen", "Freier Wunsch"] },
+    { "id": "group_d", "label": "Einschulungs-Bräuche", "revealHint": "Erster Schultag", "items": ["Schultüte", "Schulfoto", "Erstes Frühstück", "Wandertag danach"] }
+  ]
+}

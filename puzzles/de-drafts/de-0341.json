@@ -1,0 +1,55 @@
+{
+  "id": "de-0341",
+  "title": "Netzwerktechnologie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Netzwerke",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Netzwerkprotokolle",
+      "revealHint": "Kommunikationsreg.",
+      "items": [
+        "TCP/IP",
+        "HTTP",
+        "DNS",
+        "FTP"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Netzwerktopologien",
+      "revealHint": "Knotenstruktur",
+      "items": [
+        "Stern",
+        "Ring",
+        "Bus",
+        "Mesh"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Netzwerkgeräte",
+      "revealHint": "Hardware im Netz",
+      "items": [
+        "Switch",
+        "Router",
+        "Hub",
+        "Access Point"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Netzwerksicherheit",
+      "revealHint": "Schutz des Netzes",
+      "items": [
+        "Firewall",
+        "VPN",
+        "IDS",
+        "DMZ"
+      ]
+    }
+  ]
+}

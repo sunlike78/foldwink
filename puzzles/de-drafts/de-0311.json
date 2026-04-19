@@ -1,0 +1,55 @@
+{
+  "id": "de-0311",
+  "title": "Nobelpreisträger Deutschland",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Nobelpreis",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Nobelpreis Physik",
+      "revealHint": "Physik-Spitze",
+      "items": [
+        "Röntgen",
+        "Planck",
+        "Heisenberg",
+        "Born"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nobelpreis Chemie",
+      "revealHint": "Chemische Spitze",
+      "items": [
+        "Haber",
+        "Fischer",
+        "Nernst",
+        "Staudinger"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Nobelpreis Medizin",
+      "revealHint": "Medizin-Spitze",
+      "items": [
+        "Koch",
+        "Ehrlich",
+        "Domagk",
+        "Spemann"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Nobelpreis Frieden",
+      "revealHint": "Friedensstifter",
+      "items": [
+        "Brandt",
+        "Qasim",
+        "Bahr",
+        "Stresemann"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ru-0223",
+  "title": "Реки России",
+  "difficulty": "easy",
+  "meta": { "theme": "Реки России", "batch": "ru-batch-08" },
+  "groups": [
+    { "id": "european_rivers", "label": "Европейская часть", "items": ["Волга", "Дон", "Ока", "Кама"] },
+    { "id": "siberian_rivers", "label": "Сибирь", "items": ["Обь", "Иртыш", "Енисей", "Лена"] },
+    { "id": "far_east_rivers", "label": "Дальний Восток", "items": ["Амур", "Уссури", "Колыма", "Анадырь"] },
+    { "id": "caucasus_rivers", "label": "Кавказ", "items": ["Кубань", "Терек", "Кура", "Аракс"] }
+  ]
+}

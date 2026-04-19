@@ -1,0 +1,12 @@
+{
+  "id": "de-0271",
+  "title": "Deutsche Wirtschaft",
+  "difficulty": "easy",
+  "meta": { "theme": "wirtschaft", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Wirtschaftsbranchen", "items": ["Automobilindustrie", "Maschinenbau", "Chemie", "Tourismus"] },
+    { "id": "group_b", "label": "Große Unternehmen", "items": ["Volkswagen", "Siemens", "BASF", "Allianz"] },
+    { "id": "group_c", "label": "Wirtschaftsbegriffe", "items": ["BIP", "Export", "Mittelstand", "Tarifvertrag"] },
+    { "id": "group_d", "label": "Wirtschaftsinstitutionen", "items": ["Bundesbank", "IHK", "Bundeswirtschaftsrat", "Ifo-Institut"] }
+  ]
+}

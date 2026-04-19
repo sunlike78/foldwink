@@ -1,0 +1,12 @@
+{
+  "id": "de-0453",
+  "title": "Kommunikationsmodelle",
+  "difficulty": "medium",
+  "meta": { "theme": "kommunikation", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Sender-Empfänger", "revealHint": "Shannon & Weaver", "items": ["Sender", "Kanal", "Empfänger", "Rauschen"] },
+    { "id": "group_b", "label": "4-Ohren-Modell", "revealHint": "Schulz von Thun", "items": ["Sachebene", "Appellebene", "Beziehungsebene", "Selbstoffenbarung"] },
+    { "id": "group_c", "label": "Eisberg-Modell", "revealHint": "Oben & verdeckt", "items": ["Sachinhalt", "Gefühle", "Bedürfnisse", "Werte"] },
+    { "id": "group_d", "label": "Transaktionsanalyse", "revealHint": "Berne Ego-Zustände", "items": ["Eltern-Ich", "Erwachsenen-Ich", "Kind-Ich", "Transaktion"] }
+  ]
+}

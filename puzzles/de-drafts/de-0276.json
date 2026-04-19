@@ -1,0 +1,12 @@
+{
+  "id": "de-0276",
+  "title": "Energiewirtschaft",
+  "difficulty": "easy",
+  "meta": { "theme": "energie", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Energieträger", "items": ["Kohle", "Erdgas", "Kernkraft", "Wind"] },
+    { "id": "group_b", "label": "Energie-Unternehmen", "items": ["RWE", "E.ON", "EnBW", "Vattenfall"] },
+    { "id": "group_c", "label": "Energietechnologien", "items": ["Windrad", "Solaranlage", "Pumpspeicher", "Biogasanlage"] },
+    { "id": "group_d", "label": "Energie-Standorte", "items": ["Husum", "Dessau", "Freiburg", "Wolfhagen"] }
+  ]
+}

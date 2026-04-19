@@ -1,0 +1,32 @@
+{
+  "id": "de-0372",
+  "title": "Politiksysteme vergleich",
+  "difficulty": "medium",
+  "meta": { "theme": "Vergleichende Politik", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Deutsches Politiksystem",
+      "revealHint": "Bundesrepublik",
+      "items": ["Bundestag", "Bundesrat", "Bundeskanzler", "Bundesverfassung"]
+    },
+    {
+      "id": "group_b",
+      "label": "US-Politiksystem",
+      "revealHint": "Vereinigte Staaten",
+      "items": ["Kongress", "Senat", "Repräsentantenhaus", "Electoral College"]
+    },
+    {
+      "id": "group_c",
+      "label": "Französisches Politiksyst.",
+      "revealHint": "Fünfte Republik",
+      "items": ["Assemblée nationale", "Sénat", "Premier ministre", "Élysée"]
+    },
+    {
+      "id": "group_d",
+      "label": "Britisches Politiksystem",
+      "revealHint": "Westminster-Modell",
+      "items": ["House of Commons", "House of Lords", "Prime Minister", "Monarch"]
+    }
+  ]
+}

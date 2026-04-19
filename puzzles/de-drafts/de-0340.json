@@ -1,0 +1,32 @@
+{
+  "id": "de-0340",
+  "title": "Datenbanken",
+  "difficulty": "medium",
+  "meta": { "theme": "Datenbanken", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Datenbankmodelle",
+      "revealHint": "Struktur der Daten",
+      "items": ["Relational", "Dokumenten-DB", "Graph-DB", "Schlüssel-Wert"]
+    },
+    {
+      "id": "group_b",
+      "label": "Datenbanksprachen",
+      "revealHint": "Abfragesprachen",
+      "items": ["SQL", "NoSQL", "GraphQL", "SPARQL"]
+    },
+    {
+      "id": "group_c",
+      "label": "Datenbankkonzepte",
+      "revealHint": "Theoretische Ideen",
+      "items": ["Transaktion", "ACID", "Index", "Normalisierung"]
+    },
+    {
+      "id": "group_d",
+      "label": "Datenbankprodukte",
+      "revealHint": "Bekannte Systeme",
+      "items": ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0020",
+  "title": "Städte Deutschlands",
+  "difficulty": "easy",
+  "meta": { "theme": "Städte Deutschland", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Bayerische Städte", "items": ["München", "Nürnberg", "Augsburg", "Regensburg"] },
+    { "id": "group_b", "label": "NRW-Städte", "items": ["Köln", "Düsseldorf", "Dortmund", "Essen"] },
+    { "id": "group_c", "label": "Norddeutsche Städte", "items": ["Hamburg", "Bremen", "Kiel", "Lübeck"] },
+    { "id": "group_d", "label": "Ostdeutsche Städte", "items": ["Berlin", "Dresden", "Leipzig", "Erfurt"] }
+  ]
+}

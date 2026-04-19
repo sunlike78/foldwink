@@ -1,0 +1,12 @@
+{
+  "id": "ru-0455",
+  "title": "Аббревиатуры СССР",
+  "difficulty": "medium",
+  "meta": { "theme": "Советские аббревиатуры", "batch": "ru-batch-19" },
+  "groups": [
+    { "id": "soviet_agencies", "label": "Ведомства", "revealHint": "ВЕДОМСТВА", "items": ["КГБ", "МВД", "ЦК", "Госплан"] },
+    { "id": "soviet_organizations", "label": "Организации", "revealHint": "ОРГАНИЗАЦИИ", "items": ["ВЛКСМ", "ДОСААФ", "ВЦСПС", "Осоавиахим"] },
+    { "id": "soviet_companies", "label": "Предприятия", "revealHint": "ПРЕДПРИЯТИЯ", "items": ["ЗИЛ", "ВАЗ", "КАМАЗ", "ГАЗ"] },
+    { "id": "soviet_media_abbrev", "label": "СМИ", "revealHint": "СМИ", "items": ["ТАСС", "АПН", "Гостелерадио", "Главлит"] }
+  ]
+}

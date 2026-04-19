@@ -1,0 +1,12 @@
+{
+  "id": "de-0123",
+  "title": "Zoo und Tierpark",
+  "difficulty": "easy",
+  "meta": { "theme": "Tiere", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Afrikahaus", "items": ["Giraffe", "Zebra", "Flusspferd", "Warzenschwein"] },
+    { "id": "group_b", "label": "Asienbereich", "items": ["Tiger", "Panda", "Orang-Utan", "Schneeleopard"] },
+    { "id": "group_c", "label": "Südamerika", "items": ["Tapir", "Lama", "Jaguar", "Riesenameisenbär"] },
+    { "id": "group_d", "label": "Europa", "items": ["Braunbär", "Elch", "Wisent", "Luchs"] }
+  ]
+}

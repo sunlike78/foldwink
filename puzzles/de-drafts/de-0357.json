@@ -1,0 +1,55 @@
+{
+  "id": "de-0357",
+  "title": "Rockgeschichte Jahrzehnte",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Rockgeschichte",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Rock der 1960er",
+      "revealHint": "Erste Rockdekade",
+      "items": [
+        "Beatles",
+        "Rolling Stones",
+        "Psychedelic Rock",
+        "British Invasion"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Rock der 1970er",
+      "revealHint": "Progressiv/Hard",
+      "items": [
+        "Led Zeppelin",
+        "Pink Floyd",
+        "Deep Purple",
+        "Krautrock"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Rock der 1980er",
+      "revealHint": "New Wave und Metal",
+      "items": [
+        "Metallica",
+        "Depeche Mode",
+        "Guns N' Roses",
+        "The Cure"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Rock der 1990er",
+      "revealHint": "Alternativ/Grunge",
+      "items": [
+        "Nirvana",
+        "Radiohead",
+        "Pearl Jam",
+        "Oasis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0303",
+  "title": "Städte nach Spitznamen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Stadtspitznamen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Spitzname: Dresden",
+      "revealHint": "Stadt an der Elbe",
+      "items": [
+        "Elbflorenz",
+        "Barockstadt",
+        "Zwinger-Stadt",
+        "Frauenkirchen-Stadt"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Spitzname: München",
+      "revealHint": "Bayerns Hauptstadt",
+      "items": [
+        "Isar-Athen",
+        "Weltstadt Herz",
+        "Lederhosen-Hptst.",
+        "Oktoberfest-Stadt"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spitzname: Hamburg",
+      "revealHint": "Hanseatische Stadt",
+      "items": [
+        "Hansestadt",
+        "Tor zur Welt",
+        "Perle des Nordens",
+        "Alsterstadt"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Spitzname: Köln",
+      "revealHint": "Am Rhein gelegen",
+      "items": [
+        "Domstadt",
+        "Rheinmetropole",
+        "Kölsche Metropole",
+        "Karnevalsstadt"
+      ]
+    }
+  ]
+}

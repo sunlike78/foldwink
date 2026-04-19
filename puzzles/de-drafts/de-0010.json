@@ -1,0 +1,12 @@
+{
+  "id": "de-0010",
+  "title": "Kleidungsstücke",
+  "difficulty": "easy",
+  "meta": { "theme": "Kleidungsstücke", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Oberbekleidung", "items": ["Jacke", "Mantel", "Pullover", "Hemd"] },
+    { "id": "group_b", "label": "Unterbekleidung", "items": ["Unterhose", "BH", "Unterhemd", "Socken"] },
+    { "id": "group_c", "label": "Accessoires", "items": ["Gürtel", "Schal", "Mütze", "Handschuhe"] },
+    { "id": "group_d", "label": "Schuhe", "items": ["Sneaker", "Stiefel", "Sandalen", "Halbschuhe"] }
+  ]
+}

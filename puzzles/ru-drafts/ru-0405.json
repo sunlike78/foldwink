@@ -1,0 +1,12 @@
+{
+  "id": "ru-0405",
+  "title": "Современное искусство",
+  "difficulty": "medium",
+  "meta": { "theme": "Направления современного искусства", "batch": "ru-batch-17" },
+  "groups": [
+    { "id": "abstract_art", "label": "Абстракционизм", "revealHint": "АБСТРАКЦИЯ", "items": ["Кандинский", "Мондриан", "Поллок", "Малевич"] },
+    { "id": "pop_art", "label": "Поп-арт", "revealHint": "ПОП-АРТ", "items": ["Уорхол", "Лихтенштейн", "Хамеринг", "Джаспер Джонс"] },
+    { "id": "conceptual_art", "label": "Концептуальное", "revealHint": "КОНЦЕПТ", "items": ["Дюшан", "Кунс", "Херст", "Козут"] },
+    { "id": "street_art_artists", "label": "Уличное искусство", "revealHint": "СТРИТ-АРТ", "items": ["Бэнкси", "Ромерo Britto", "Shepard Fairey", "JR"] }
+  ]
+}

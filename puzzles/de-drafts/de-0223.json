@@ -1,0 +1,12 @@
+{
+  "id": "de-0223",
+  "title": "Fabelwesen",
+  "difficulty": "easy",
+  "meta": { "theme": "fabelwesen", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Drachen-Arten", "items": ["Feuerdrache", "Wasserdrache", "Lindwurm", "Wyvern"] },
+    { "id": "group_b", "label": "Einhörner und Verwandte", "items": ["Einhorn", "Pegasus", "Alicorn", "Kirin"] },
+    { "id": "group_c", "label": "Riesen", "items": ["Hüne", "Titan", "Jötunn", "Zyklop"] },
+    { "id": "group_d", "label": "Zwerge und Kleine", "items": ["Kobold", "Wichtel", "Gnome", "Heinzel"] }
+  ]
+}

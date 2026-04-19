@@ -1,0 +1,12 @@
+{
+  "id": "ru-0306",
+  "title": "Арабский мир",
+  "difficulty": "medium",
+  "meta": { "theme": "Страны и культура арабского мира", "batch": "ru-batch-12" },
+  "groups": [
+    { "id": "gulf_countries", "label": "Залив", "revealHint": "ЗАЛИВ", "items": ["Саудовская Аравия", "ОАЭ", "Катар", "Кувейт"] },
+    { "id": "north_africa_arab", "label": "Сев. Африка", "revealHint": "СЕВ. АФРИКА", "items": ["Египет", "Ливия", "Тунис", "Алжир"] },
+    { "id": "arab_food", "label": "Арабская кухня", "revealHint": "КУХНЯ", "items": ["Хумус", "Фалафель", "Шаурма", "Кускус"] },
+    { "id": "arab_culture", "label": "Культура", "revealHint": "КУЛЬТУРА", "items": ["Арабеска", "Медина", "Мечеть", "Хиджаб"] }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0363",
+  "title": "Architekturstile Merkmale",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Architektur",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Gotik-Elemente",
+      "revealHint": "Mittelalter-Kirche",
+      "items": [
+        "Spitzbogen",
+        "Strebewerk",
+        "Maßwerk",
+        "Rosette"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Barock-Elemente",
+      "revealHint": "Prachtvoller Stil",
+      "items": [
+        "Kolossalordnung",
+        "Trompe-l'oeil",
+        "Geschwungene Linie",
+        "Kuppel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Klassizismus-Elemente",
+      "revealHint": "Antike Vorbilder",
+      "items": [
+        "Säulenordnung",
+        "Dreiecksgiebel",
+        "Pilaster",
+        "Symmetrie"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Moderne Architektur",
+      "revealHint": "20. Jahrhundert",
+      "items": [
+        "Glas-Stahl-Bau",
+        "Flachdach",
+        "Ornamentlosigkeit",
+        "Bauhaus"
+      ]
+    }
+  ]
+}

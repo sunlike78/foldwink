@@ -1,0 +1,12 @@
+{
+  "id": "de-0290",
+  "title": "Kommunalpolitik",
+  "difficulty": "easy",
+  "meta": { "theme": "kommunalpolitik", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Kommunale Ämter", "items": ["Bürgermeister", "Gemeinderat", "Stadtrat", "Landrat"] },
+    { "id": "group_b", "label": "Kommunale Aufgaben", "items": ["Straßenbau", "Schulen", "Müllabfuhr", "Wasserversorgung"] },
+    { "id": "group_c", "label": "Kommunale Institutionen", "items": ["Rathaus", "Standesamt", "Bürgeramt", "Stadtwerke"] },
+    { "id": "group_d", "label": "Kommunal-Begriffe", "items": ["Satzung", "Haushalt", "Bebauungsplan", "Flächennutzungsplan"] }
+  ]
+}

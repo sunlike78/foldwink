@@ -1,0 +1,55 @@
+{
+  "id": "de-0310",
+  "title": "Deutsche Wissenschaftler",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Wissenschaft Deutschland",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Deutsche Physiker",
+      "revealHint": "Physik-Pioniere",
+      "items": [
+        "Einstein",
+        "Planck",
+        "Heisenberg",
+        "Röntgen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Deutsche Chemiker",
+      "revealHint": "Chemie-Entdecker",
+      "items": [
+        "Liebig",
+        "Bunsen",
+        "Haber",
+        "Kekulé"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Deutsche Biologen",
+      "revealHint": "Leben erforscht",
+      "items": [
+        "Haeckel",
+        "Koch",
+        "Virchow",
+        "Ehrlich"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Deutsche Astronomen",
+      "revealHint": "Himmelsbeobachter",
+      "items": [
+        "Kepler",
+        "Herschel",
+        "Fraunhofer",
+        "Bessel"
+      ]
+    }
+  ]
+}

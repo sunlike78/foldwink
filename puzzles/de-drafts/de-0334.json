@@ -1,0 +1,55 @@
+{
+  "id": "de-0334",
+  "title": "Anatomie Systeme",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Anatomie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Kreislaufsystem Organe",
+      "revealHint": "Blut fließt",
+      "items": [
+        "Herz",
+        "Aorta",
+        "Vene",
+        "Kapillare"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nervensystem Organe",
+      "revealHint": "Signale leiten",
+      "items": [
+        "Gehirn",
+        "Rückenmark",
+        "Synapse",
+        "Neuron"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Verdauungssystem Organe",
+      "revealHint": "Nahrung aufnehmen",
+      "items": [
+        "Magen",
+        "Dünndarm",
+        "Leber",
+        "Bauchspeicheldrüse"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Immunsystem Organe",
+      "revealHint": "Abwehr des Körpers",
+      "items": [
+        "Milz",
+        "Thymus",
+        "Lymphknoten",
+        "Knochenmark"
+      ]
+    }
+  ]
+}

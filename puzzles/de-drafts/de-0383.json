@@ -1,0 +1,32 @@
+{
+  "id": "de-0383",
+  "title": "Sport-Psychologie",
+  "difficulty": "medium",
+  "meta": { "theme": "Sportpsychologie", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Mentales Training",
+      "revealHint": "Im Kopf trainieren",
+      "items": ["Visualisierung", "Entspannung", "Affirmation", "Biofeedback"]
+    },
+    {
+      "id": "group_b",
+      "label": "Flow-Konzept",
+      "revealHint": "Optimaler Zustand",
+      "items": ["Konzentration", "Herausforderung", "Zeitverlust", "Kontrolle"]
+    },
+    {
+      "id": "group_c",
+      "label": "Motivationskonzepte",
+      "revealHint": "Antrieb im Sport",
+      "items": ["Intrinsisch", "Extrinsisch", "Zielorientierung", "Selbstwirksamkeit"]
+    },
+    {
+      "id": "group_d",
+      "label": "Druckmanagement-Begriffe",
+      "revealHint": "Druck bewältigen",
+      "items": ["Choking", "Wettkampfangst", "Routine", "Atemkontrolle"]
+    }
+  ]
+}

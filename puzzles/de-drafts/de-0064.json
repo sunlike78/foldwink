@@ -1,0 +1,12 @@
+{
+  "id": "de-0064",
+  "title": "Malerei",
+  "difficulty": "easy",
+  "meta": { "theme": "Malerei", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Malstile", "items": ["Impressionismus", "Expressionismus", "Realismus", "Abstraktion"] },
+    { "id": "group_b", "label": "Maltechniken", "items": ["Aquarell", "Ölmalerei", "Acryl", "Tempera"] },
+    { "id": "group_c", "label": "Malmaterialien", "items": ["Leinwand", "Pinsel", "Palette", "Malmesser"] },
+    { "id": "group_d", "label": "Bildthemen", "items": ["Porträt", "Landschaft", "Stillleben", "Historienbild"] }
+  ]
+}

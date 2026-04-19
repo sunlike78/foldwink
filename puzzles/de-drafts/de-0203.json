@@ -1,0 +1,12 @@
+{
+  "id": "de-0203",
+  "title": "Friedrich der Große",
+  "difficulty": "easy",
+  "meta": { "theme": "preussen", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schlachten Friedrichs", "items": ["Roßbach", "Leuthen", "Zorndorf", "Kunersdorf"] },
+    { "id": "group_b", "label": "Reformen", "items": ["Religionsfreiheit", "Justizreform", "Schulpflicht", "Pressefreiheit"] },
+    { "id": "group_c", "label": "Preußische Orte", "items": ["Sanssouci", "Rheinsberg", "Breslau", "Potsdam"] },
+    { "id": "group_d", "label": "Personen am Hof", "items": ["Voltaire", "Quantz", "Knobeldorff", "Wilhelmine"] }
+  ]
+}

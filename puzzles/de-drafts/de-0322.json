@@ -1,0 +1,55 @@
+{
+  "id": "de-0322",
+  "title": "Nibelungenlied",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Nibelungen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Nibelungen-Personen",
+      "revealHint": "Helden des Epos",
+      "items": [
+        "Siegfried",
+        "Kriemhild",
+        "Hagen",
+        "Brunhild"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nibelungen-Orte",
+      "revealHint": "Schauplätze",
+      "items": [
+        "Worms",
+        "Xanten",
+        "Etzelburg",
+        "Isenstein"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Nibelungen-Schätze/Objekte",
+      "revealHint": "Magische Objekte",
+      "items": [
+        "Nibelungenhort",
+        "Tarnkappe",
+        "Balmung",
+        "Ring"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Nibelungen-Ereignisse",
+      "revealHint": "Handlungsmomente",
+      "items": [
+        "Drachenkampf",
+        "Burgundenuntergang",
+        "Hochzeit",
+        "Verrat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0355",
+  "title": "Klassische Musikformen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Musikformen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Merkmale der Sonate",
+      "revealHint": "Kammermusiksatz",
+      "items": [
+        "Sonatensatz",
+        "Exposition",
+        "Durchführung",
+        "Reprise"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Merkmale der Symphonie",
+      "revealHint": "Orchestral",
+      "items": [
+        "Vier Sätze",
+        "Scherzo",
+        "Allegro",
+        "Finale"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Merkmale des Konzerts",
+      "revealHint": "Solo und Orchester",
+      "items": [
+        "Solist",
+        "Kadenz",
+        "Tutti",
+        "Ritornell"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Merkmale der Oper",
+      "revealHint": "Musik und Drama",
+      "items": [
+        "Arie",
+        "Rezitativ",
+        "Ouvertüre",
+        "Libretto"
+      ]
+    }
+  ]
+}

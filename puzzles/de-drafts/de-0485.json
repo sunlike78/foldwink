@@ -1,0 +1,12 @@
+{
+  "id": "de-0485",
+  "title": "Zukunftstechnologien",
+  "difficulty": "medium",
+  "meta": { "theme": "technologie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Quantencomputing", "revealHint": "Qubits & Superpos.", "items": ["Qubit", "Superposition", "Quantenverschränkung", "Quantenüberlegenheit"] },
+    { "id": "group_b", "label": "Gehirn-Computer-Iface", "revealHint": "Neuralink & BCI", "items": ["BCI-Implantat", "Elektroden-Array", "Neurales Implantat", "Gedankensteuerung"] },
+    { "id": "group_c", "label": "AR und VR", "revealHint": "XR-Technologien", "items": ["Augmented Reality", "Virtual Reality", "Mixed Reality", "Metaverse"] },
+    { "id": "group_d", "label": "Neue Raumfahrt", "revealHint": "Weltraum 2.0", "items": ["Raketen-Wiederverw.", "Mondstation", "Starship", "Satelliteninternet"] }
+  ]
+}

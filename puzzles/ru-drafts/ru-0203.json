@@ -1,0 +1,12 @@
+{
+  "id": "ru-0203",
+  "title": "Зарубежные рок-группы",
+  "difficulty": "easy",
+  "meta": { "theme": "Зарубежные рок-группы", "batch": "ru-batch-07" },
+  "groups": [
+    { "id": "british_bands", "label": "Британские", "items": ["The Beatles", "Led Zeppelin", "Queen", "Pink Floyd"] },
+    { "id": "american_bands", "label": "Американские", "items": ["Nirvana", "Metallica", "Red Hot Chili Peppers", "Foo Fighters"] },
+    { "id": "hard_rock", "label": "Хард-рок классика", "items": ["AC/DC", "Deep Purple", "Black Sabbath", "Aerosmith"] },
+    { "id": "alternative", "label": "Альтернатива 90-х", "items": ["Radiohead", "Pearl Jam", "Soundgarden", "Alice in Chains"] }
+  ]
+}

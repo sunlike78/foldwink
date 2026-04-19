@@ -1,0 +1,32 @@
+{
+  "id": "de-0403",
+  "title": "Antonyme nach Thema",
+  "difficulty": "medium",
+  "meta": { "theme": "Antonyme", "batch": "de-batch-05" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Temperatur-Gegensätze",
+      "revealHint": "Heiß oder kalt",
+      "items": ["heiß", "kalt", "glühend", "eisig"]
+    },
+    {
+      "id": "group_b",
+      "label": "Größen-Gegensätze",
+      "revealHint": "Groß oder klein",
+      "items": ["riesig", "winzig", "gewaltig", "zwergenhaft"]
+    },
+    {
+      "id": "group_c",
+      "label": "Geschwindigkeits-Gegensätze",
+      "revealHint": "Schnell oder langsam",
+      "items": ["rasend", "gemächlich", "blitzschnell", "schleppend"]
+    },
+    {
+      "id": "group_d",
+      "label": "Emotions-Gegensätze",
+      "revealHint": "Froh oder traurig",
+      "items": ["heiter", "trübsinnig", "begeistert", "niedergeschlagen"]
+    }
+  ]
+}

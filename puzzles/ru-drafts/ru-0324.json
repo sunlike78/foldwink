@@ -1,0 +1,12 @@
+{
+  "id": "ru-0324",
+  "title": "Хоббиты и фэнтези",
+  "difficulty": "medium",
+  "meta": { "theme": "Расы и народы в мире Толкиена", "batch": "ru-batch-13" },
+  "groups": [
+    { "id": "tolkien_races", "label": "Расы", "revealHint": "РАСЫ", "items": ["Хоббиты", "Эльфы", "Гномы", "Орки"] },
+    { "id": "tolkien_places", "label": "Места", "revealHint": "МЕСТА", "items": ["Хоббитон", "Ривенделл", "Рохан", "Мордор"] },
+    { "id": "tolkien_chars", "label": "Персонажи", "revealHint": "ПЕРСОНАЖИ", "items": ["Фродо", "Гэндальф", "Арагорн", "Саурон"] },
+    { "id": "tolkien_items", "label": "Предметы", "revealHint": "ПРЕДМЕТЫ", "items": ["Кольцо всевластья", "Андурил", "Мифрил", "Палантир"] }
+  ]
+}

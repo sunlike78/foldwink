@@ -1,0 +1,12 @@
+{
+  "id": "de-0247",
+  "title": "Musikfestivals Deutschland",
+  "difficulty": "easy",
+  "meta": { "theme": "musikfestivals", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Rock-Festivals", "items": ["Wacken", "Rock am Ring", "Hurricane", "Southside"] },
+    { "id": "group_b", "label": "Klassik-Festivals", "items": ["Bayreuther Festspiele", "Rheingau", "Schleswig-Holstein", "Heidelberger Frühling"] },
+    { "id": "group_c", "label": "Elektronik-Festivals", "items": ["Time Warp", "Melt!", "MS Dockville", "Fusion"] },
+    { "id": "group_d", "label": "Folk-Festivals", "items": ["Rudolstadt", "Folk am Neckar", "TFF Burg Herzberg", "Taubertal"] }
+  ]
+}

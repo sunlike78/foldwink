@@ -1,0 +1,12 @@
+{
+  "id": "de-0056",
+  "title": "Eisenbahn",
+  "difficulty": "easy",
+  "meta": { "theme": "Eisenbahn", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Zugarten", "items": ["ICE", "IC", "Regionalzug", "Güterzug"] },
+    { "id": "group_b", "label": "Bahnhofsbereiche", "items": ["Gleis", "Bahnsteig", "Warteraum", "Schalterhalle"] },
+    { "id": "group_c", "label": "Fahrkarten-Begriffe", "items": ["Fahrkarte", "Reservierung", "Bahncard", "Gruppenrabatt"] },
+    { "id": "group_d", "label": "Bahnpersonal", "items": ["Schaffner", "Lokführer", "Fahrdienstleiter", "Bahnhofshelfer"] }
+  ]
+}

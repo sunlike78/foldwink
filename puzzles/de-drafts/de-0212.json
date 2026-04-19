@@ -1,0 +1,12 @@
+{
+  "id": "de-0212",
+  "title": "Deutsche Bundesländer",
+  "difficulty": "easy",
+  "meta": { "theme": "bundeslaender", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Nördliche Länder", "items": ["Schleswig-Holstein", "Hamburg", "Bremen", "Mecklenburg-Vorp."] },
+    { "id": "group_b", "label": "Südliche Länder", "items": ["Bayern", "Baden-Württemberg", "Saarland", "Rheinland-Pfalz"] },
+    { "id": "group_c", "label": "Östliche Länder", "items": ["Sachsen", "Thüringen", "Brandenburg", "Sachsen-Anhalt"] },
+    { "id": "group_d", "label": "Westliche Länder", "items": ["NRW", "Hessen", "Niedersachsen", "Berlin"] }
+  ]
+}

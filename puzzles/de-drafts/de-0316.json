@@ -1,0 +1,55 @@
+{
+  "id": "de-0316",
+  "title": "Marx und Engels",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Marxismus",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Marx-Engels Werke",
+      "revealHint": "Marxistische Texte",
+      "items": [
+        "Kommunistisches Man.",
+        "Kapital",
+        "Deutsche Ideologie",
+        "Kritik Gothaer Pr."
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Marxistische Konzepte",
+      "revealHint": "Theoret. Begriffe",
+      "items": [
+        "Mehrwert",
+        "Entfremdung",
+        "Basis",
+        "Überbau"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Marxistische Begriffe",
+      "revealHint": "Schlüsselwörter",
+      "items": [
+        "Proletariat",
+        "Bourgeoisie",
+        "Klassenkampf",
+        "Dialektik"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Gesellschaftsphasen Marx",
+      "revealHint": "Historische Stufen",
+      "items": [
+        "Urgesellschaft",
+        "Feudalismus",
+        "Kapitalismus",
+        "Kommunismus"
+      ]
+    }
+  ]
+}

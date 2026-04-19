@@ -1,0 +1,12 @@
+{
+  "id": "de-0454",
+  "title": "Konfliktlösung",
+  "difficulty": "medium",
+  "meta": { "theme": "kommunikation", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Mediation", "revealHint": "Neutraler Dritter", "items": ["Mediator", "Allparteilichkeit", "Freiwilligkeit", "Vertraulichkeit"] },
+    { "id": "group_b", "label": "Verhandlung", "revealHint": "Direkt verhandeln", "items": ["Harvard-Konzept", "BATNA", "Interessen statt Pos.", "Win-Win"] },
+    { "id": "group_c", "label": "Kompromiss", "revealHint": "Beide geben nach", "items": ["Teillösung", "Gegenseit. Nachgeben", "Mittelweg", "Einigung"] },
+    { "id": "group_d", "label": "Schiedsverfahren", "revealHint": "Bindend & final", "items": ["Schiedsrichter", "Schiedsspruch", "ICC-Schiedsgericht", "Vollstreckbarkeit"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0484",
+  "title": "Blockchain und Krypto",
+  "difficulty": "medium",
+  "meta": { "theme": "digital", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Blockchain-Konzepte", "revealHint": "Technik dahinter", "items": ["Dezentralisierung", "Unveränderlichkeit", "Konsensalgorithmus", "Distributed Ledger"] },
+    { "id": "group_b", "label": "Kryptowährungen", "revealHint": "Digitale Münzen", "items": ["Bitcoin", "Ethereum", "Solana", "Cardano"] },
+    { "id": "group_c", "label": "Krypto-Technologien", "revealHint": "Methoden & Layer", "items": ["Smart Contract", "Proof of Work", "Proof of Stake", "Layer 2"] },
+    { "id": "group_d", "label": "Blockchain-Anwendungen", "revealHint": "Einsatzgebiete", "items": ["NFT", "DeFi", "Supply-Chain-Track.", "Digitale Identität"] }
+  ]
+}

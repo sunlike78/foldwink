@@ -1,0 +1,12 @@
+{
+  "id": "de-0184",
+  "title": "Umweltprobleme",
+  "difficulty": "easy",
+  "meta": { "theme": "Umwelt", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Luftverschmutzung", "items": ["Feinstaub", "Stickoxide", "Ozonloch", "Smog"] },
+    { "id": "group_b", "label": "Wasserverschmutzung", "items": ["Plastik", "Düngemittel", "Ölteppich", "Mikroplastik"] },
+    { "id": "group_c", "label": "Bodenverschmutzung", "items": ["Pestizide", "Schwermetalle", "Altlasten", "Erosion"] },
+    { "id": "group_d", "label": "Klimawandel", "items": ["CO2", "Treibhauseffekt", "Gletscherschmelze", "Meeresanstieg"] }
+  ]
+}

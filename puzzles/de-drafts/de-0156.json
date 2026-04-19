@@ -1,0 +1,12 @@
+{
+  "id": "de-0156",
+  "title": "Erste Hilfe",
+  "difficulty": "easy",
+  "meta": { "theme": "Gesundheit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Wundversorgung", "items": ["Pflaster", "Wunddesinfektion", "Verband", "Kompresse"] },
+    { "id": "group_b", "label": "Verbrennungen", "items": ["Kühlen", "Blasen nicht öffnen", "Folie abdecken", "Arzt aufsuchen"] },
+    { "id": "group_c", "label": "Knochenbrüche", "items": ["Ruhigstellen", "Schiene", "Kältekompresse", "Röntgen"] },
+    { "id": "group_d", "label": "Reanimation", "items": ["Herzdruckmassage", "Beatmung", "Notruf 112", "AED"] }
+  ]
+}

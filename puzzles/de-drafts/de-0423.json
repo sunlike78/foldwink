@@ -1,0 +1,12 @@
+{
+  "id": "de-0423",
+  "title": "Mittelstand Deutschland",
+  "difficulty": "medium",
+  "meta": { "theme": "wirtschaft", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Branchen", "revealHint": "Wirtschaftsfelder", "items": ["Zulieferer", "Feinmechanik", "Spezialbau", "Medizintechnik"] },
+    { "id": "group_b", "label": "Merkmale", "revealHint": "Sein Profil", "items": ["Familiengeführt", "Exportorientiert", "Nischenmarktführer", "Langfristdenken"] },
+    { "id": "group_c", "label": "Regionen", "revealHint": "Standorte", "items": ["Schwaben", "Münsterland", "Sachsen", "Baden"] },
+    { "id": "group_d", "label": "Beispielunternehmen", "revealHint": "Bekannte Firmen", "items": ["Trumpf", "Würth", "Stihl", "Kärcher"] }
+  ]
+}

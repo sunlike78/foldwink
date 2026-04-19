@@ -1,0 +1,12 @@
+{
+  "id": "de-0087",
+  "title": "In den Alpen",
+  "difficulty": "easy",
+  "meta": { "theme": "Alpen", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Alpenberge", "items": ["Zugspitze", "Watzmann", "Hochvogel", "Nebelhorn"] },
+    { "id": "group_b", "label": "Alpensportarten", "items": ["Skifahren", "Klettern", "Wandern", "Gleitschirmfliegen"] },
+    { "id": "group_c", "label": "Alpenhütten", "items": ["Reintalangerhütte", "Berghütte", "Almhütte", "Schutzhütte"] },
+    { "id": "group_d", "label": "Alpenflora", "items": ["Edelweiß", "Enzian", "Almrose", "Arnika"] }
+  ]
+}

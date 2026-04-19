@@ -1,0 +1,12 @@
+{
+  "id": "de-0140",
+  "title": "Marathon und Laufsport",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Distanzen", "items": ["5 Kilometer", "10 Kilometer", "Halbmarathon", "Marathon"] },
+    { "id": "group_b", "label": "Ausrüstung", "items": ["Laufschuhe", "GPS-Uhr", "Laufhose", "Trinkgürtel"] },
+    { "id": "group_c", "label": "Laufbegriffe", "items": ["Pace", "Cooldown", "Intervall", "Tapering"] },
+    { "id": "group_d", "label": "Große Marathons", "items": ["Berlin Marathon", "Hamburg Marathon", "Wien Marathon", "London Marathon"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0236",
+  "title": "Fantasy-Literatur",
+  "difficulty": "easy",
+  "meta": { "theme": "fantasy", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Fantasy-Autoren", "items": ["Tolkien", "Le Guin", "George R.R. Martin", "Terry Pratchett"] },
+    { "id": "group_b", "label": "Fantasy-Welten", "items": ["Mittelerde", "Narnia", "Westeros", "Scheibenwelt"] },
+    { "id": "group_c", "label": "Fantasy-Figuren", "items": ["Zauberer", "Elf", "Zwerg", "Hobbit"] },
+    { "id": "group_d", "label": "Fantasy-Gegenstände", "items": ["Magisches Schwert", "Zauberstab", "Amulett", "Tarnumhang"] }
+  ]
+}

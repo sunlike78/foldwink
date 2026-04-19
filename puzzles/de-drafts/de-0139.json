@@ -1,0 +1,12 @@
+{
+  "id": "de-0139",
+  "title": "Boxen und Kampfsport",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Kampfsportarten", "items": ["Boxen", "Judo", "Karate", "Taekwondo"] },
+    { "id": "group_b", "label": "Techniken", "items": ["Jab", "Haken", "Uppercut", "Aufwärtshaken"] },
+    { "id": "group_c", "label": "Ausrüstung", "items": ["Boxhandschuhe", "Mundschutz", "Bandagen", "Tiefschutz"] },
+    { "id": "group_d", "label": "Gewichtsklassen", "items": ["Fliegengewicht", "Federgewicht", "Schwergewicht", "Mittelgewicht"] }
+  ]
+}

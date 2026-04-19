@@ -1,0 +1,12 @@
+{
+  "id": "de-0213",
+  "title": "Deutsche Inseln",
+  "difficulty": "easy",
+  "meta": { "theme": "inseln", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Nordsee-Inseln", "items": ["Sylt", "Föhr", "Amrum", "Borkum"] },
+    { "id": "group_b", "label": "Ostsee-Inseln", "items": ["Rügen", "Usedom", "Fehmarn", "Hiddensee"] },
+    { "id": "group_c", "label": "Inseln in Seen", "items": ["Herrenchiemsee", "Mainau", "Lindau", "Frauenchiemsee"] },
+    { "id": "group_d", "label": "Flussinseln", "items": ["Rott", "Grafenwerth", "Nonnenwerth", "Werd"] }
+  ]
+}

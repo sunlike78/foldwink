@@ -1,0 +1,12 @@
+{
+  "id": "de-0097",
+  "title": "Ritter und Rittertum",
+  "difficulty": "easy",
+  "meta": { "theme": "Ritter und Rittertum", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Ritterrüstung", "items": ["Helm", "Kettenpanzer", "Plattenpanzer", "Visier"] },
+    { "id": "group_b", "label": "Ritterwaffen", "items": ["Schwert", "Lanze", "Streitkolben", "Schild"] },
+    { "id": "group_c", "label": "Turnierdisziplinen", "items": ["Tjost", "Ritterturnier", "Buhurt", "Behourd"] },
+    { "id": "group_d", "label": "Ritterorden", "items": ["Templer", "Deutscher Orden", "Johanniter", "Malteser"] }
+  ]
+}

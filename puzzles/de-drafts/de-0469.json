@@ -1,0 +1,12 @@
+{
+  "id": "de-0469",
+  "title": "Yoga-Asanas",
+  "difficulty": "medium",
+  "meta": { "theme": "yoga", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Krieger-Familie", "revealHint": "Virabhadrasana", "items": ["Krieger I", "Krieger II", "Krieger III", "Umgekehrter Krieger"] },
+    { "id": "group_b", "label": "Baum-Familie", "revealHint": "Balance & Fokus", "items": ["Baum (Vrksasana)", "Adler", "Tänzer", "Halbmond"] },
+    { "id": "group_c", "label": "Hund-Familie", "revealHint": "Adho Mukha", "items": ["Hund Kopf unten", "Hund Kopf oben", "Katze", "Kuh"] },
+    { "id": "group_d", "label": "Kobra-Familie", "revealHint": "Rückbeuge & Öffnen", "items": ["Kobra", "Sphinx", "Schwan", "Bogen"] }
+  ]
+}

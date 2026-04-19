@@ -1,0 +1,12 @@
+{
+  "id": "de-0077",
+  "title": "Im Büro",
+  "difficulty": "easy",
+  "meta": { "theme": "Büro", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Büromöbel", "items": ["Schreibtisch", "Bürostuhl", "Aktenschrank", "Regal"] },
+    { "id": "group_b", "label": "Bürotechnik", "items": ["Computer", "Drucker", "Beamer", "Faxgerät"] },
+    { "id": "group_c", "label": "Verbrauchsmaterial", "items": ["Papier", "Stift", "Heftklammern", "Toner"] },
+    { "id": "group_d", "label": "Kommunikation", "items": ["E-Mail", "Telefonkonferenz", "Briefpost", "Chat"] }
+  ]
+}

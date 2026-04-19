@@ -1,0 +1,12 @@
+{
+  "id": "de-0432",
+  "title": "Jugendsprache nach Jahrzehnt",
+  "difficulty": "medium",
+  "meta": { "theme": "sprache", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "80er-Jugendsprache", "revealHint": "Neue Welle & Punk", "items": ["Affe", "Porno", "Trash", "Krass"] },
+    { "id": "group_b", "label": "90er-Jugendsprache", "revealHint": "Techno & HipHop", "items": ["Aggro", "Chillen", "Digger", "Abzocken"] },
+    { "id": "group_c", "label": "00er-Jugendsprache", "revealHint": "Internet-Ära", "items": ["Lol", "Nerd", "Fail", "Owned"] },
+    { "id": "group_d", "label": "10er-Jugendsprache", "revealHint": "Social Media", "items": ["Cringe", "Flexen", "Lit", "Savage"] }
+  ]
+}

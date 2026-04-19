@@ -1,0 +1,12 @@
+{
+  "id": "de-0137",
+  "title": "Reiten",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Gangarten", "items": ["Schritt", "Trab", "Galopp", "Tölt"] },
+    { "id": "group_b", "label": "Disziplinen", "items": ["Dressur", "Springen", "Vielseitigkeit", "Westernreiten"] },
+    { "id": "group_c", "label": "Ausrüstung", "items": ["Sattel", "Zügel", "Steigbügel", "Reithelm"] },
+    { "id": "group_d", "label": "Pferderassen", "items": ["Warmblut", "Haflinger", "Andalusier", "Friese"] }
+  ]
+}

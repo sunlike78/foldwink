@@ -1,0 +1,12 @@
+{
+  "id": "de-0110",
+  "title": "Kräuter und Heilpflanzen",
+  "difficulty": "easy",
+  "meta": { "theme": "Pflanzen", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Küchenkräuter", "items": ["Rosmarin", "Thymian", "Oregano", "Majoran"] },
+    { "id": "group_b", "label": "Heilkräuter", "items": ["Kamille", "Johanniskraut", "Baldrian", "Schafgarbe"] },
+    { "id": "group_c", "label": "Teepflanzen", "items": ["Pfefferminze", "Melisse", "Hagebutte", "Holunder"] },
+    { "id": "group_d", "label": "Giftige Pflanzen", "items": ["Tollkirsche", "Eisenhut", "Bilsenkraut", "Fingerhut"] }
+  ]
+}

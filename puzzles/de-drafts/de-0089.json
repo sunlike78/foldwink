@@ -1,0 +1,12 @@
+{
+  "id": "de-0089",
+  "title": "Bierbrauerei",
+  "difficulty": "easy",
+  "meta": { "theme": "Bierbrauerei", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Biertypen", "items": ["Pils", "Weizen", "Bock", "Märzen"] },
+    { "id": "group_b", "label": "Brau-Zutaten", "items": ["Malz", "Hopfen", "Hefe", "Brauwasser"] },
+    { "id": "group_c", "label": "Brauprozess", "items": ["Maischen", "Läutern", "Würzekochen", "Gärung"] },
+    { "id": "group_d", "label": "Biergefäße", "items": ["Maßkrug", "Bierglas", "Fass", "Flasche"] }
+  ]
+}

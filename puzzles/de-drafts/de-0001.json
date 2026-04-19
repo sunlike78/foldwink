@@ -1,0 +1,12 @@
+{
+  "id": "de-0001",
+  "title": "Blumen im Jahreskreis",
+  "difficulty": "easy",
+  "meta": { "theme": "Jahreszeiten-Blumen", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Frühlingsblumen", "items": ["Tulpe", "Narzisse", "Krokus", "Schneeglöckchen"] },
+    { "id": "group_b", "label": "Sommergemüse", "items": ["Zucchini", "Gurke", "Tomate", "Paprika"] },
+    { "id": "group_c", "label": "Herbstfrüchte", "items": ["Apfel", "Birne", "Quitte", "Pflaume"] },
+    { "id": "group_d", "label": "Winterbäume", "items": ["Fichte", "Kiefer", "Tanne", "Lärche"] }
+  ]
+}

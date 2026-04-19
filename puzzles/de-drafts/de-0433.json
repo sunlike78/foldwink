@@ -1,0 +1,12 @@
+{
+  "id": "de-0433",
+  "title": "Werbesprüche erraten",
+  "difficulty": "medium",
+  "meta": { "theme": "werbung", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Autoslogans", "revealHint": "Fahrfreude & Co.", "items": ["Freude am Fahren", "Das Auto", "Vorsprung d. Technik", "Aus Liebe zum Auto"] },
+    { "id": "group_b", "label": "Lebensmittelslogans", "revealHint": "Gut & günstig", "items": ["Haribo macht froh", "Wahre Liebe", "Nicht immer aber oft", "Quadratisch.Praktisch"] },
+    { "id": "group_c", "label": "Elektronikslogans", "revealHint": "Technik begeistert", "items": ["Samsung needs you", "Ideas for life", "Made for real life", "Inspire Innovate"] },
+    { "id": "group_d", "label": "Kleidungsslogans", "revealHint": "Mode & Stil", "items": ["Just do it", "Impossible is nothing", "Create together", "Forever Faster"] }
+  ]
+}

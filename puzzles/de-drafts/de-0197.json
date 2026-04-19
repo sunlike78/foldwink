@@ -1,0 +1,12 @@
+{
+  "id": "de-0197",
+  "title": "Geografie Deutschlands",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Höchste Berge", "items": ["Zugspitze", "Watzmann", "Feldberg", "Brocken"] },
+    { "id": "group_b", "label": "Längste Flüsse", "items": ["Rhein", "Elbe", "Donau", "Weser"] },
+    { "id": "group_c", "label": "Größte Seen", "items": ["Bodensee", "Müritz", "Chiemsee", "Schweriner See"] },
+    { "id": "group_d", "label": "Regionen", "items": ["Bayern", "Schwarzwald", "Lüneburger Heide", "Erzgebirge"] }
+  ]
+}

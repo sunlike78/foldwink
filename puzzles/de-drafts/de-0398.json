@@ -1,0 +1,55 @@
+{
+  "id": "de-0398",
+  "title": "Genetik",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Genetik",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Genetik-Konzepte",
+      "revealHint": "Grundideen",
+      "items": [
+        "Genotyp",
+        "Phänotyp",
+        "Dominanz",
+        "Mutation"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Genetik-Methoden",
+      "revealHint": "Genetiker-Methoden",
+      "items": [
+        "PCR",
+        "Sequenzierung",
+        "Southern Blot",
+        "FISH"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Genetik-Fachbegriffe",
+      "revealHint": "Wissenschaft Gene",
+      "items": [
+        "Allel",
+        "Locus",
+        "Haplotyp",
+        "Epigenetik"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Genetik-Anwendungen",
+      "revealHint": "Wo Genetik hilft",
+      "items": [
+        "Vaterschaftstest",
+        "Züchtung",
+        "Forensik",
+        "Erbkrankheiten"
+      ]
+    }
+  ]
+}

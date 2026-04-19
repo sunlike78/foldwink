@@ -1,0 +1,12 @@
+{
+  "id": "de-0219",
+  "title": "Brandenburg und Berlin",
+  "difficulty": "easy",
+  "meta": { "theme": "brandenburg-berlin", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Brandenburger Geschichte", "items": ["Hohenzollern", "Markgrafschaft", "Ordensburg", "Kurfürst"] },
+    { "id": "group_b", "label": "Brandenburger Seen", "items": ["Scharmützelsee", "Schwielowsee", "Werbellinsee", "Templiner See"] },
+    { "id": "group_c", "label": "Brandenburger Städte", "items": ["Potsdam", "Cottbus", "Frankfurt/Oder", "Brandenburg/Havel"] },
+    { "id": "group_d", "label": "Berliner Besonderheiten", "items": ["Berliner Luft", "Currywurst", "Kudamm", "Wannsee"] }
+  ]
+}

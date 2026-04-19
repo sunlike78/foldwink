@@ -1,0 +1,12 @@
+{
+  "id": "de-0088",
+  "title": "Deutsche Weinregionen",
+  "difficulty": "easy",
+  "meta": { "theme": "Deutsche Weinregionen", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Weinanbaugebiete", "items": ["Rheingau", "Mosel", "Pfalz", "Franken"] },
+    { "id": "group_b", "label": "Rebsorten", "items": ["Riesling", "Spätburgunder", "Silvaner", "Grauburgunder"] },
+    { "id": "group_c", "label": "Weintypen", "items": ["Weißwein", "Rotwein", "Roséwein", "Sekt"] },
+    { "id": "group_d", "label": "Qualitätsbezeichnungen", "items": ["Spätlese", "Auslese", "Kabinett", "Beerenauslese"] }
+  ]
+}

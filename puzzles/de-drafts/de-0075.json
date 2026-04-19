@@ -1,0 +1,12 @@
+{
+  "id": "de-0075",
+  "title": "Schulsystem Deutschland",
+  "difficulty": "easy",
+  "meta": { "theme": "Schulsystem Deutschland", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schularten", "items": ["Grundschule", "Gymnasium", "Realschule", "Gesamtschule"] },
+    { "id": "group_b", "label": "Schulabschlüsse", "items": ["Abitur", "Realschulabschluss", "Hauptschulabschluss", "Fachabitur"] },
+    { "id": "group_c", "label": "Schulfächer", "items": ["Mathematik", "Deutsch", "Sport", "Kunst"] },
+    { "id": "group_d", "label": "Schulpersonal", "items": ["Lehrer", "Schulleiter", "Schulberater", "Schulpsychologe"] }
+  ]
+}

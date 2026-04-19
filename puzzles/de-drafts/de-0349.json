@@ -1,0 +1,55 @@
+{
+  "id": "de-0349",
+  "title": "Quantenphysik",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Quantenphysik",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Quantenphänomene",
+      "revealHint": "Quanteneffekte",
+      "items": [
+        "Tunneleffekt",
+        "Quantensprung",
+        "Dekohärenz",
+        "Verschränkung"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Quantenexperimente",
+      "revealHint": "Berühmte Tests",
+      "items": [
+        "Doppelspaltversuch",
+        "Stern-Gerlach",
+        "EPR-Paradoxon",
+        "Bell-Test"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Quantentheorien",
+      "revealHint": "Theoret. Modelle",
+      "items": [
+        "Kopenhagener Deutung",
+        "Viele Welten",
+        "Bohmsche Mech.",
+        "QFT"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Quantenphysiker",
+      "revealHint": "Quanten-Pioniere",
+      "items": [
+        "Bohr",
+        "Heisenberg",
+        "Schrödinger",
+        "Dirac"
+      ]
+    }
+  ]
+}

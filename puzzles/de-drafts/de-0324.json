@@ -1,0 +1,55 @@
+{
+  "id": "de-0324",
+  "title": "Religiöse Symbole",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Religion Symbole",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Symbole: Christentum",
+      "revealHint": "Christl. Zeichen",
+      "items": [
+        "Kreuz",
+        "Fisch",
+        "Taube",
+        "Alpha-Omega"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Symbole: Islam",
+      "revealHint": "Islamische Zeichen",
+      "items": [
+        "Halbmond",
+        "Stern",
+        "Koran",
+        "Kalligraphie"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Symbole: Judentum",
+      "revealHint": "Jüdische Zeichen",
+      "items": [
+        "Davidstern",
+        "Menora",
+        "Thora",
+        "Hamsa"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Symbole: Buddhismus",
+      "revealHint": "Buddh. Zeichen",
+      "items": [
+        "Dharmarad",
+        "Lotus",
+        "Om",
+        "Bodhi-Baum"
+      ]
+    }
+  ]
+}

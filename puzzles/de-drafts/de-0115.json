@@ -1,0 +1,12 @@
+{
+  "id": "de-0115",
+  "title": "Ernte und Herbst",
+  "difficulty": "easy",
+  "meta": { "theme": "Jahreszeiten", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Obst und Gemüse", "items": ["Kürbis", "Apfel", "Birne", "Kartoffel"] },
+    { "id": "group_b", "label": "Weinlese", "items": ["Trauben", "Winzer", "Keltern", "Most"] },
+    { "id": "group_c", "label": "Herbstfeste", "items": ["Erntedankfest", "Weinfest", "Zwiebelmarkt", "Oktoberfest"] },
+    { "id": "group_d", "label": "Natur im Herbst", "items": ["Blätterrauschen", "Nebel", "Kastanien", "Zugvögel"] }
+  ]
+}

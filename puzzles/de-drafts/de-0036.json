@@ -1,0 +1,12 @@
+{
+  "id": "de-0036",
+  "title": "Wurstsorten",
+  "difficulty": "easy",
+  "meta": { "theme": "Wurstsorten", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Brühwurst", "items": ["Frankfurter", "Wiener", "Bockwurst", "Weißwurst"] },
+    { "id": "group_b", "label": "Rohwurst", "items": ["Salami", "Mettwurst", "Landjäger", "Cervelatwurst"] },
+    { "id": "group_c", "label": "Kochwurst", "items": ["Leberwurst", "Blutwurst", "Sülze", "Schwartenmagen"] },
+    { "id": "group_d", "label": "Aufschnitt", "items": ["Bierschinken", "Jagdwurst", "Fleischwurst", "Mortadella"] }
+  ]
+}

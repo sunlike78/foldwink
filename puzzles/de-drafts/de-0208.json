@@ -1,0 +1,12 @@
+{
+  "id": "de-0208",
+  "title": "Widerstand gegen Hitler",
+  "difficulty": "easy",
+  "meta": { "theme": "widerstand", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Widerstandspersonen", "items": ["Stauffenberg", "Sophie Scholl", "Bonhoeffer", "Canaris"] },
+    { "id": "group_b", "label": "Gruppen", "items": ["Weiße Rose", "Kreisauer Kreis", "Rote Kapelle", "20. Juli"] },
+    { "id": "group_c", "label": "Widerstandsaktionen", "items": ["Flugblätter", "Attentat", "Sabotage", "Funknachrichten"] },
+    { "id": "group_d", "label": "Orte des Widerstands", "items": ["Rastenburg", "München", "Berlin-Plötzensee", "Kreisau"] }
+  ]
+}

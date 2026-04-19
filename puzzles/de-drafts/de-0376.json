@@ -1,0 +1,55 @@
+{
+  "id": "de-0376",
+  "title": "Klimawandel",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Klimawandel",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Klimawandel-Ursachen",
+      "revealHint": "Was ihn verursacht",
+      "items": [
+        "CO2-Ausstoß",
+        "Methan",
+        "Entwaldung",
+        "Industrieemission"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Klimawandel-Folgen",
+      "revealHint": "Was er bewirkt",
+      "items": [
+        "Meeresspiegel",
+        "Extremwetter",
+        "Artenverlust",
+        "Dürren"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Klimawandel-Lösungen",
+      "revealHint": "Was hilft dagegen",
+      "items": [
+        "Erneuerbare Energie",
+        "Elektromobilität",
+        "CO2-Steuer",
+        "Aufforstung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Klimaabkommen",
+      "revealHint": "Internat. Verträge",
+      "items": [
+        "Kyoto-Protokoll",
+        "Pariser Abkommen",
+        "Montrealer Prot.",
+        "Glasgow-Pakt"
+      ]
+    }
+  ]
+}

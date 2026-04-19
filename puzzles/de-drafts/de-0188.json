@@ -1,0 +1,12 @@
+{
+  "id": "de-0188",
+  "title": "Forstwirtschaft",
+  "difficulty": "easy",
+  "meta": { "theme": "Natur", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Baumarten", "items": ["Fichte", "Kiefer", "Buche", "Eiche"] },
+    { "id": "group_b", "label": "Holzprodukte", "items": ["Schnittholz", "Spanplatte", "Papier", "Pellets"] },
+    { "id": "group_c", "label": "Waldtiere", "items": ["Rothirsch", "Wildschwein", "Specht", "Fuchs"] },
+    { "id": "group_d", "label": "Forstarbeiten", "items": ["Holzeinschlag", "Aufforstung", "Pflegehieb", "Seilbahn"] }
+  ]
+}

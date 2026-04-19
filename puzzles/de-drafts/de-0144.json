@@ -1,0 +1,12 @@
+{
+  "id": "de-0144",
+  "title": "Rugby",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Positionen", "items": ["Hooker", "Prop", "Flügelstürmer", "Gedrängehalb"] },
+    { "id": "group_b", "label": "Spielregeln", "items": ["Try", "Umwandlung", "Gedränge", "Strafkick"] },
+    { "id": "group_c", "label": "Spielelemente", "items": ["Gasse", "Maul", "Ruck", "Tackle"] },
+    { "id": "group_d", "label": "Turniere", "items": ["Six Nations", "Rugby World Cup", "Heineken Cup", "Tri Nations"] }
+  ]
+}

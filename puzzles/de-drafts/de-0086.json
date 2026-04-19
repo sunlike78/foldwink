@@ -1,0 +1,12 @@
+{
+  "id": "de-0086",
+  "title": "Ostseeküste",
+  "difficulty": "easy",
+  "meta": { "theme": "Ostseeküste", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Ostseebäder", "items": ["Rügen", "Usedom", "Warnemünde", "Binz"] },
+    { "id": "group_b", "label": "Ostseestiere", "items": ["Schweinswal", "Meeresente", "Silbermöwe", "Kabeljau"] },
+    { "id": "group_c", "label": "Ostsee-Aktivitäten", "items": ["Bernstein suchen", "Segeln", "Kajakfahren", "Baden"] },
+    { "id": "group_d", "label": "Ostsee-Besonderheiten", "items": ["Kreideküste", "Kaiserbäder", "Haffküste", "Bodden"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0226",
+  "title": "Germanische Götter",
+  "difficulty": "easy",
+  "meta": { "theme": "germanische-goetter", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Wotan-Aspekte", "items": ["Allvater", "Einäugiger", "Wanderer", "Heerführer"] },
+    { "id": "group_b", "label": "Thor-Symbole", "items": ["Mjölnir", "Donner", "Blitz", "Ziegengespann"] },
+    { "id": "group_c", "label": "Fruchtbarkeit und Freyr", "items": ["Ernte", "Sonne", "Regen", "Schiff"] },
+    { "id": "group_d", "label": "Lokis Familie", "items": ["Hel", "Fenriswolf", "Jörmungandr", "Sleipnir"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0235",
+  "title": "Science-Fiction",
+  "difficulty": "easy",
+  "meta": { "theme": "sciencefiction", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "SF-Autoren", "items": ["Asimov", "Philip K. Dick", "Stanislaw Lem", "Arthur C. Clarke"] },
+    { "id": "group_b", "label": "SF-Klassiker", "items": ["Dune", "Foundation", "Neuromancer", "1984"] },
+    { "id": "group_c", "label": "SF-Konzepte", "items": ["Warpantrieb", "Teleportation", "Klonen", "Zeitreise"] },
+    { "id": "group_d", "label": "SF-Filme", "items": ["Star Wars", "Blade Runner", "2001", "Matrix"] }
+  ]
+}

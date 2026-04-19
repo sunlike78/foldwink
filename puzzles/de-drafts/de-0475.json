@@ -1,0 +1,12 @@
+{
+  "id": "de-0475",
+  "title": "Stadtökologie",
+  "difficulty": "medium",
+  "meta": { "theme": "natur", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Stadtgrün-Arten", "revealHint": "Grün in der Stadt", "items": ["Stadtpark", "Dachbegrünung", "Baumreihe", "Kleingarten"] },
+    { "id": "group_b", "label": "Hitzeinsel-Begriffe", "revealHint": "Stadt heizt auf", "items": ["Aufheizung Asphalt", "Fehlende Verdunstung", "Luftschadstoffe", "Wärme Beton"] },
+    { "id": "group_c", "label": "Stadtbiodiversität", "revealHint": "Leben in der Stadt", "items": ["Turmfalke", "Mauersegler", "Fuchs", "Steinbrech"] },
+    { "id": "group_d", "label": "Nachhaltige Stadt", "revealHint": "Zukunft der Städte", "items": ["Schwammstadt", "Car-free Zonen", "Urban Farming", "Mobilitätswende"] }
+  ]
+}

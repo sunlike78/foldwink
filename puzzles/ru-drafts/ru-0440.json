@@ -1,0 +1,55 @@
+{
+  "id": "ru-0440",
+  "title": "Художественные музеи",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Крупнейшие художественные музеи мира",
+    "batch": "ru-batch-18"
+  },
+  "groups": [
+    {
+      "id": "european_museums",
+      "label": "Европейские",
+      "revealHint": "ЕВРОПА",
+      "items": [
+        "Лувр",
+        "Прадо",
+        "Метрополитен",
+        "Уффици"
+      ]
+    },
+    {
+      "id": "american_museums",
+      "label": "Американские",
+      "revealHint": "АМЕРИКА",
+      "items": [
+        "MoMA",
+        "Metropolitan",
+        "Getty Center",
+        "Art Institute Chicago"
+      ]
+    },
+    {
+      "id": "asian_museums",
+      "label": "Азиатские",
+      "revealHint": "АЗИЯ",
+      "items": [
+        "Дворец-музей Тайбэй",
+        "Национальный Токио",
+        "Шанхайский",
+        "Индийский"
+      ]
+    },
+    {
+      "id": "russian_museums_2",
+      "label": "Российские",
+      "revealHint": "РОССИЯ",
+      "items": [
+        "Третьяковская галерея",
+        "Русский музей",
+        "Пушкинский",
+        "Эрмитаж"
+      ]
+    }
+  ]
+}

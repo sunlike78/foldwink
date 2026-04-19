@@ -1,0 +1,32 @@
+{
+  "id": "de-0304",
+  "title": "Farben in Phrasen",
+  "difficulty": "medium",
+  "meta": { "theme": "Farbredewendungen", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Redewendung mit BLAU",
+      "revealHint": "Himmelfarbe",
+      "items": ["Blaumachen", "Blaues Wunder", "Blauäugig", "Ins Blaue fahren"]
+    },
+    {
+      "id": "group_b",
+      "label": "Redewendung mit ROT",
+      "revealHint": "Feuerfarbe",
+      "items": ["Rotsehen", "Rotes Tuch", "Rot anlaufen", "Ins Rote treffen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Redewendung mit GRÜN",
+      "revealHint": "Naturfarbe",
+      "items": ["Grünes Licht", "Auf keinen grünen", "Hinter dem Mond", "Grün hinter Ohren"]
+    },
+    {
+      "id": "group_d",
+      "label": "Redewendung mit SCHWARZ",
+      "revealHint": "Dunkelste Farbe",
+      "items": ["Schwarzsehen", "Schwarze Schaf", "Schwarzarbeit", "Schwarze Liste"]
+    }
+  ]
+}

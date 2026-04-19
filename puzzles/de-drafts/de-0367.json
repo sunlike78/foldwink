@@ -1,0 +1,55 @@
+{
+  "id": "de-0367",
+  "title": "Bier-Brauerei",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Bierbrauerei",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Malzsorten",
+      "revealHint": "Gekeimtes Getreide",
+      "items": [
+        "Pilsner Malz",
+        "Münchner Malz",
+        "Caramalz",
+        "Röstmalz"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Hopfensorten",
+      "revealHint": "Bitterpflanze",
+      "items": [
+        "Hallertauer",
+        "Saazer",
+        "Cascade",
+        "Simcoe"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Hefetypen",
+      "revealHint": "Gärungsorganismus",
+      "items": [
+        "Obergärige",
+        "Untergärige",
+        "Wildhefe",
+        "Trockenhefe"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Brauverfahren",
+      "revealHint": "Herstellungsweg",
+      "items": [
+        "Maischen",
+        "Läutern",
+        "Kochen",
+        "Vergärung"
+      ]
+    }
+  ]
+}

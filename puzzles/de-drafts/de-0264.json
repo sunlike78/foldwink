@@ -1,0 +1,12 @@
+{
+  "id": "de-0264",
+  "title": "Töpferei und Keramik",
+  "difficulty": "easy",
+  "meta": { "theme": "toepferei", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Keramik-Techniken", "items": ["Drehscheibe", "Aufbautechnik", "Brennen", "Glasieren"] },
+    { "id": "group_b", "label": "Keramik-Stile", "items": ["Steingut", "Steinzeug", "Porzellan", "Terrakotta"] },
+    { "id": "group_c", "label": "Berühmte Keramik-Orte", "items": ["Meißen", "Bunzlau", "Rheinland", "Kandern"] },
+    { "id": "group_d", "label": "Keramik-Gegenstände", "items": ["Schüssel", "Krug", "Tasse", "Vase"] }
+  ]
+}

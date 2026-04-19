@@ -1,0 +1,55 @@
+{
+  "id": "de-0379",
+  "title": "Medizin der Zukunft",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Zukunftsmedizin",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Nanomedizin-Konzepte",
+      "revealHint": "Sehr kleine Helfer",
+      "items": [
+        "Nanoroboter",
+        "Drug Delivery",
+        "Biosensor",
+        "Nanopartikel"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "KI in der Medizin",
+      "revealHint": "Computer heilt",
+      "items": [
+        "Bilddiagnostik",
+        "Wirkstoffforsch.",
+        "Operationsroboter",
+        "Risikovorhersage"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Gentherapie-Konzepte",
+      "revealHint": "Gene als Medizin",
+      "items": [
+        "Virale Vektoren",
+        "Ex-vivo-Therapie",
+        "Keimbahntherapie",
+        "Antisense-RNA"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Präzisionsmedizin",
+      "revealHint": "Individuell heilen",
+      "items": [
+        "Biomarker",
+        "Genomik",
+        "Liquid Biopsy",
+        "Targeted Therapy"
+      ]
+    }
+  ]
+}

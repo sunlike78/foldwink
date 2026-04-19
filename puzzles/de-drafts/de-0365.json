@@ -1,0 +1,55 @@
+{
+  "id": "de-0365",
+  "title": "Küche der Welt",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Weltküche",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Asiatische Gerichte",
+      "revealHint": "Ostasien/Südasien",
+      "items": [
+        "Dim Sum",
+        "Pad Thai",
+        "Sushi",
+        "Biryani"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Mediterrane Gerichte",
+      "revealHint": "Mittelmeerküche",
+      "items": [
+        "Paella",
+        "Moussaka",
+        "Risotto",
+        "Falafel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Lateinamerikan. Gerichte",
+      "revealHint": "Mittel-/Südamerika",
+      "items": [
+        "Tacos",
+        "Ceviche",
+        "Empanadas",
+        "Feijoada"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Arabische Gerichte",
+      "revealHint": "Naher Osten",
+      "items": [
+        "Hummus",
+        "Shawarma",
+        "Tabouleh",
+        "Mansaf"
+      ]
+    }
+  ]
+}

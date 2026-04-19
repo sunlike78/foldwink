@@ -1,0 +1,12 @@
+{
+  "id": "de-0019",
+  "title": "Blumen und Pflanzen",
+  "difficulty": "easy",
+  "meta": { "theme": "Blumen und Pflanzen", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Gartenblumen", "items": ["Rose", "Dahlie", "Sonnenblume", "Gladiole"] },
+    { "id": "group_b", "label": "Wildblumen", "items": ["Mohnblume", "Kamille", "Kornblume", "Margerite"] },
+    { "id": "group_c", "label": "Zimmerpflanzen", "items": ["Ficus", "Orchidee", "Kaktus", "Aloe vera"] },
+    { "id": "group_d", "label": "Wasserpflanzen", "items": ["Seerose", "Schilf", "Wasserhyazinthe", "Teichmoos"] }
+  ]
+}

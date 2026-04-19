@@ -1,0 +1,12 @@
+{
+  "id": "de-0178",
+  "title": "Weltmeere",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Atlantik-Anrainer", "items": ["USA", "Brasilien", "Spanien", "Nigeria"] },
+    { "id": "group_b", "label": "Pazifik-Anrainer", "items": ["Japan", "Australien", "Chile", "Indonesien"] },
+    { "id": "group_c", "label": "Indischer Ozean", "items": ["Indien", "Madagaskar", "Kenia", "Thailand"] },
+    { "id": "group_d", "label": "Arktis und Antarktis", "items": ["Grönland", "Svalbard", "Südgeorgien", "Antarktika"] }
+  ]
+}

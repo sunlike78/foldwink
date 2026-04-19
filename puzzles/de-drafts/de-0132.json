@@ -1,0 +1,12 @@
+{
+  "id": "de-0132",
+  "title": "Wandern und Bergsteigen",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Ausrüstung", "items": ["Wanderstiefel", "Rucksack", "Wanderstock", "Karte"] },
+    { "id": "group_b", "label": "Wegmarkierungen", "items": ["Raute", "Kreuz", "Pfeil", "Farbbalken"] },
+    { "id": "group_c", "label": "Bergtypen", "items": ["Gipfel", "Sattel", "Kamm", "Scharte"] },
+    { "id": "group_d", "label": "Sicherheit", "items": ["Erste-Hilfe-Set", "Biwaksack", "Pfeife", "Bergrettung"] }
+  ]
+}

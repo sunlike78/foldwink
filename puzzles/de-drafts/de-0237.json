@@ -1,0 +1,12 @@
+{
+  "id": "de-0237",
+  "title": "Biografie und Autobiografie",
+  "difficulty": "easy",
+  "meta": { "theme": "biografie", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Deutsche Biografien", "items": ["Goethe", "Bismarck", "Einstein", "Sophie Scholl"] },
+    { "id": "group_b", "label": "Historische Lebensberichte", "items": ["Memoiren", "Tagebuch", "Chronik", "Selbstzeugnis"] },
+    { "id": "group_c", "label": "Zeitgenössische Autobios", "items": ["Helmut Schmidt", "Egon Bahr", "Ursula von der Leyen", "Angela Merkel"] },
+    { "id": "group_d", "label": "Sportler-Biografien", "items": ["Beckenbauer", "Boris Becker", "Steffi Graf", "Michael Schumacher"] }
+  ]
+}

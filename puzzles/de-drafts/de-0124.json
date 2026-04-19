@@ -1,0 +1,12 @@
+{
+  "id": "de-0124",
+  "title": "Haustier-Pflege",
+  "difficulty": "easy",
+  "meta": { "theme": "Haustiere", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Hundepflege", "items": ["Bürsten", "Krallen schneiden", "Ohren reinigen", "Baden"] },
+    { "id": "group_b", "label": "Katzenpflege", "items": ["Katzenstreu", "Kratzkralle", "Fellpflege", "Zähne putzen"] },
+    { "id": "group_c", "label": "Kleintiere", "items": ["Käfig reinigen", "Hamsterrad", "Nager-Futter", "Sandbad"] },
+    { "id": "group_d", "label": "Vogelpflege", "items": ["Vogelkäfig", "Sitzstange", "Körner", "Schnabelstein"] }
+  ]
+}

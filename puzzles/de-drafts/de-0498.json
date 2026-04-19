@@ -1,0 +1,12 @@
+{
+  "id": "de-0498",
+  "title": "Interkulturelle Kompetenz",
+  "difficulty": "medium",
+  "meta": { "theme": "gesellschaft", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Interkult. Konzepte", "revealHint": "Grundlegendes", "items": ["Kulturdimensionen", "Kulturschock", "Enkulturation", "Akkulturation"] },
+    { "id": "group_b", "label": "Hofstede-Dimensionen", "revealHint": "Hofstede-Modell", "items": ["Machtdistanz", "Individualismus", "Maskulinität", "Unsicherheitsvermeid."] },
+    { "id": "group_c", "label": "Kulturelle Missverst.", "revealHint": "Typische Fallen", "items": ["Augenkontakt-Tabu", "Handschlag-Norm", "Pünktlichkeit", "Direktheit"] },
+    { "id": "group_d", "label": "Interkult. Training", "revealHint": "Lernen miteinander", "items": ["Kulturvorbereitung", "Rollenspiel", "Critical Incidents", "Tandem-Learning"] }
+  ]
+}

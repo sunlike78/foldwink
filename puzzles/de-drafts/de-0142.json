@@ -1,0 +1,12 @@
+{
+  "id": "de-0142",
+  "title": "Basketball",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Positionen", "items": ["Point Guard", "Shooting Guard", "Small Forward", "Center"] },
+    { "id": "group_b", "label": "Spielregeln", "items": ["Dribbling", "Faul", "Einwurf", "Aus"] },
+    { "id": "group_c", "label": "Techniken", "items": ["Lay-up", "Dunk", "Drei-Punkte-Wurf", "Hook"] },
+    { "id": "group_d", "label": "Ligen", "items": ["NBA", "BBL", "Euroleague", "FIBA"] }
+  ]
+}

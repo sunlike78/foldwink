@@ -1,0 +1,12 @@
+{
+  "id": "de-0194",
+  "title": "Astronomie Grundlagen",
+  "difficulty": "easy",
+  "meta": { "theme": "Wissenschaft", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Planeten", "items": ["Mars", "Venus", "Jupiter", "Saturn"] },
+    { "id": "group_b", "label": "Sterntypen", "items": ["Riesenstern", "Zwerg", "Neutronenstern", "Pulsar"] },
+    { "id": "group_c", "label": "Galaxien", "items": ["Milchstraße", "Andromeda", "Magellansche Wolken", "Triangulum"] },
+    { "id": "group_d", "label": "Raumfahrt", "items": ["ISS", "Apollo", "Cassini", "Voyager"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0462",
+  "title": "Musik und Stimmung",
+  "difficulty": "medium",
+  "meta": { "theme": "musik", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Tonarten und Gefühl", "revealHint": "Dur und Moll", "items": ["C-Dur (heiter)", "d-Moll (düster)", "G-Dur (festlich)", "h-Moll (traurig)"] },
+    { "id": "group_b", "label": "Tempi und Stimmung", "revealHint": "Tempo & Charakter", "items": ["Largo (breit)", "Andante (gehend)", "Allegro (lebhaft)", "Presto (sehr schnell)"] },
+    { "id": "group_c", "label": "Instrumente & Klang", "revealHint": "Klangfarbe", "items": ["Geige (warm)", "Oboe (klagend)", "Orgel (erhaben)", "Harfe (traumhaft)"] },
+    { "id": "group_d", "label": "Ausdrucks-Begriffe", "revealHint": "Vortragsnuancen", "items": ["Dolce", "Furioso", "Maestoso", "Cantabile"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0053",
+  "title": "Karneval und Fasching",
+  "difficulty": "easy",
+  "meta": { "theme": "Karneval und Fasching", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Kostüme", "items": ["Clown", "Prinzessin", "Pirat", "Hexe"] },
+    { "id": "group_b", "label": "Karnevalsbräuche", "items": ["Weiberfastnacht", "Rosenmontagszug", "Büttenrede", "Funkenmariechen"] },
+    { "id": "group_c", "label": "Karnevalshochburgen", "items": ["Köln", "Mainz", "Düsseldorf", "Aachen"] },
+    { "id": "group_d", "label": "Karnevalsspeisen", "items": ["Krapfen", "Mutzen", "Berliner", "Strauben"] }
+  ]
+}

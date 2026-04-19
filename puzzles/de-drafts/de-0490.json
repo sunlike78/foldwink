@@ -1,0 +1,12 @@
+{
+  "id": "de-0490",
+  "title": "Synthetische Biologie",
+  "difficulty": "medium",
+  "meta": { "theme": "biologie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "SynBio-Konzepte", "revealHint": "Grundlegendes", "items": ["Minimales Genom", "BioBricks", "Genregulationssch.", "Orthogonale Biosyst."] },
+    { "id": "group_b", "label": "SynBio-Anwendungen", "revealHint": "Nutzungsgebiete", "items": ["Biokraftstoff", "Arzneimittel-Syn.", "Biomaterial", "Biosensor"] },
+    { "id": "group_c", "label": "SynBio-Organismen", "revealHint": "Was entsteht", "items": ["Minimalzelle", "Plastik-Bakterium", "Leuchtende Pflanze", "Synthetisches Virus"] },
+    { "id": "group_d", "label": "SynBio-Gefahren", "revealHint": "Risiken & Kritik", "items": ["Biosicherheitsrisiko", "Unbeabsicht. Verbr.", "Biowaffe Potential", "Eigentumsrecht Gen"] }
+  ]
+}

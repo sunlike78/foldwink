@@ -1,0 +1,12 @@
+{
+  "id": "de-0220",
+  "title": "Mecklenburg-Vorpommern",
+  "difficulty": "easy",
+  "meta": { "theme": "mecklenburg-vorp", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Ostseeküste MV", "items": ["Rügen", "Stralsund", "Greifswald", "Warnemünde"] },
+    { "id": "group_b", "label": "Mecklenburger Seen", "items": ["Müritz", "Schweriner See", "Plauer See", "Kummerower See"] },
+    { "id": "group_c", "label": "Städte MV", "items": ["Schwerin", "Rostock", "Neubrandenburg", "Wismar"] },
+    { "id": "group_d", "label": "Besonderheiten MV", "items": ["Bodden", "Kreideküste", "Fischräucherei", "Hansestädte"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0162",
+  "title": "Köln Sehenswürdigkeiten",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Dom und Kirchen", "items": ["Kölner Dom", "Groß St. Martin", "St. Aposteln", "St. Gereon"] },
+    { "id": "group_b", "label": "Museen", "items": ["Museum Ludwig", "Wallraf-Richartz", "Römisch-Germanisches", "Schokoladenmuseum"] },
+    { "id": "group_c", "label": "Stadtteile", "items": ["Ehrenfeld", "Nippes", "Rodenkirchen", "Porz"] },
+    { "id": "group_d", "label": "Veranstaltungen", "items": ["Kölner Karneval", "Gamescom", "Photokina", "Art Cologne"] }
+  ]
+}

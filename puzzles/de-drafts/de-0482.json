@@ -1,0 +1,12 @@
+{
+  "id": "de-0482",
+  "title": "Datenschutz",
+  "difficulty": "medium",
+  "meta": { "theme": "digital", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "DSGVO-Grundlagen", "revealHint": "EU-Datenschutz", "items": ["Datenschutzbeauftrag.", "Einwilligung", "Zweckbindung", "Datensparsamkeit"] },
+    { "id": "group_b", "label": "Betroffenenrechte", "revealHint": "Rechte der Person", "items": ["Auskunftsrecht", "Recht auf Löschung", "Datenportabilität", "Widerspruchsrecht"] },
+    { "id": "group_c", "label": "Datenschutz-Behörden", "revealHint": "Aufsicht & Recht", "items": ["BfDI", "LDA Bayern", "EDPB", "Datenschutzkonferenz"] },
+    { "id": "group_d", "label": "Datenschutz-Konzepte", "revealHint": "Techn. Lösungen", "items": ["Pseudonymisierung", "Anonymisierung", "Verschlüsselung", "Privacy by Design"] }
+  ]
+}

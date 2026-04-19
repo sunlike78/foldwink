@@ -1,0 +1,51 @@
+{
+  "id": "de-0177",
+  "title": "Gebirge der Welt",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Europäische Gebirge",
+      "items": [
+        "Alpen",
+        "Pyrenäen",
+        "Karpaten",
+        "Skandinav. Gebirge"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Amerikanische Gebirge",
+      "items": [
+        "Rocky Mountains",
+        "Anden",
+        "Appalachen",
+        "Sierra Nevada"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Asiatische Gebirge",
+      "items": [
+        "Himalaya",
+        "Karakorum",
+        "Hindukusch",
+        "Tianshan"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Afrikanische Gebirge",
+      "items": [
+        "Kilimandscharo",
+        "Atlas",
+        "Rwenzori",
+        "Drakensberge"
+      ]
+    }
+  ]
+}

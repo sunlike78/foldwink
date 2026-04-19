@@ -1,0 +1,55 @@
+{
+  "id": "de-0354",
+  "title": "Musiktheorie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Musiktheorie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Tonarten",
+      "revealHint": "Dur und Moll",
+      "items": [
+        "C-Dur",
+        "a-Moll",
+        "G-Dur",
+        "e-Moll"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Intervalle",
+      "revealHint": "Ton-Abstände",
+      "items": [
+        "Quinte",
+        "Terz",
+        "Oktave",
+        "Septime"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Rhythmus-Begriffe",
+      "revealHint": "Zeitliche Struktur",
+      "items": [
+        "Takt",
+        "Synkope",
+        "Triole",
+        "Auftakt"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Harmonielehre-Begriffe",
+      "revealHint": "Zusammenklang",
+      "items": [
+        "Dominante",
+        "Subdominante",
+        "Kadenz",
+        "Modulation"
+      ]
+    }
+  ]
+}

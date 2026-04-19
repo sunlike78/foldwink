@@ -1,0 +1,12 @@
+{
+  "id": "ru-0492",
+  "title": "Телескопы",
+  "difficulty": "medium",
+  "meta": { "theme": "Телескопы и обсерватории", "batch": "ru-batch-21" },
+  "groups": [
+    { "id": "telescope_types", "label": "Типы телескопов", "revealHint": "ТИПЫ", "items": ["Рефрактор", "Рефлектор", "Катадиоптрик", "Радиотелескоп"] },
+    { "id": "space_telescopes", "label": "Космические", "revealHint": "КОСМОС", "items": ["Хаббл", "Джеймс Уэбб", "Спитцер", "Чандра"] },
+    { "id": "observatories", "label": "Обсерватории", "revealHint": "ОБСЕРВАТОРИИ", "items": ["Пулковская", "Маунт-Паломар", "Мауна-Кеа", "Very Large Array"] },
+    { "id": "astro_instruments", "label": "Приборы", "revealHint": "ПРИБОРЫ", "items": ["Спектрограф", "Фотометр", "Коронограф", "Интерферометр"] }
+  ]
+}

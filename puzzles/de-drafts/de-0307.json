@@ -1,0 +1,55 @@
+{
+  "id": "de-0307",
+  "title": "Literarische Figuren",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Deutsche Literatur",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Figuren aus Faust",
+      "revealHint": "Goethes Hauptwerk",
+      "items": [
+        "Mephistopheles",
+        "Gretchen",
+        "Erdgeist",
+        "Wagner"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Figuren aus Werther",
+      "revealHint": "Werther-Leiden",
+      "items": [
+        "Lotte",
+        "Albert",
+        "Wilhelm",
+        "Bauernbursche"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Figuren aus Wilhelm Tell",
+      "revealHint": "Schillers Drama",
+      "items": [
+        "Gessler",
+        "Stauffacher",
+        "Walter",
+        "Rudenz"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Figuren aus Nathan",
+      "revealHint": "Lessings Parabel",
+      "items": [
+        "Saladin",
+        "Recha",
+        "Daja",
+        "Tempelherr"
+      ]
+    }
+  ]
+}

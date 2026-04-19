@@ -1,0 +1,55 @@
+{
+  "id": "de-0381",
+  "title": "Sucht und Abhängigkeit",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Sucht",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Suchtsubstanzen",
+      "revealHint": "Suchtsubstanzen",
+      "items": [
+        "Alkohol",
+        "Nikotin",
+        "Opioid",
+        "Kokain"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Verhaltensabhängigkeiten",
+      "revealHint": "Nicht-Stoff-Sucht",
+      "items": [
+        "Spielsucht",
+        "Internetsucht",
+        "Kaufsucht",
+        "Sexsucht"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Suchttherapie-Begriffe",
+      "revealHint": "Behandlung",
+      "items": [
+        "Entzug",
+        "Substitution",
+        "Selbsthilfe",
+        "Rückfallprophylaxe"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Suchtprävention-Begriffe",
+      "revealHint": "Vorbeugung",
+      "items": [
+        "Aufklärung",
+        "Frühintervention",
+        "Risikofaktoren",
+        "Schutzfaktoren"
+      ]
+    }
+  ]
+}

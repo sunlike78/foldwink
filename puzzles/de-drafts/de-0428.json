@@ -1,0 +1,12 @@
+{
+  "id": "de-0428",
+  "title": "EU-Institutionen",
+  "difficulty": "medium",
+  "meta": { "theme": "eu", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "EU-Parlament", "revealHint": "Abgeordnete wählen", "items": ["Straßburg", "Fraktionen", "Mitentscheidung", "Europawahl"] },
+    { "id": "group_b", "label": "EU-Kommission", "revealHint": "Exekutive der EU", "items": ["Brüssel", "Kommissare", "Gesetzesinitiative", "Hüterin Verträge"] },
+    { "id": "group_c", "label": "Europäischer Rat", "revealHint": "Regierungschefs", "items": ["Ratspräsident", "Gipfeltreffen", "Strategierichtung", "Einstimmigkeit"] },
+    { "id": "group_d", "label": "Europäischer Gerichtshof", "revealHint": "EU-Recht", "items": ["Luxemburg", "Vorabentscheidung", "Vertragsverletzung", "Generalanwalt"] }
+  ]
+}

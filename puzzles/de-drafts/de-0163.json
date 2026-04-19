@@ -1,0 +1,51 @@
+{
+  "id": "de-0163",
+  "title": "Frankfurt Sehenswürdigkeiten",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Bankenviertel",
+      "items": [
+        "Commerzbank-Tower",
+        "EZB-Turm",
+        "Messeturm",
+        "Skyline"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Museen",
+      "items": [
+        "Städel",
+        "Senckenberg",
+        "Historisches Museum",
+        "Mus. Angew. Kunst"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Stadtteile",
+      "items": [
+        "Sachsenhausen",
+        "Nordend",
+        "Bornheim",
+        "Höchst"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Feste",
+      "items": [
+        "Dippemess",
+        "Museumsuferfest",
+        "Mainuferfest",
+        "Apfelweinfestival"
+      ]
+    }
+  ]
+}

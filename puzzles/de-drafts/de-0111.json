@@ -1,0 +1,12 @@
+{
+  "id": "de-0111",
+  "title": "Jahreszeiten Aktivitäten",
+  "difficulty": "easy",
+  "meta": { "theme": "Freizeit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Frühling", "items": ["Ostereier suchen", "Gärtnern", "Drachen steigen", "Fahrrad fahren"] },
+    { "id": "group_b", "label": "Sommer", "items": ["Schwimmen", "Grillen", "Wandern", "Camping"] },
+    { "id": "group_c", "label": "Herbst", "items": ["Pilze sammeln", "Kastanien sammeln", "Laubhaufen springen", "Erntedankfest"] },
+    { "id": "group_d", "label": "Winter", "items": ["Rodeln", "Schlittschuhlaufen", "Skifahren", "Schneemann bauen"] }
+  ]
+}

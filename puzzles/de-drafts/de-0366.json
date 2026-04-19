@@ -1,0 +1,32 @@
+{
+  "id": "de-0366",
+  "title": "Weinbau",
+  "difficulty": "medium",
+  "meta": { "theme": "Weinbau", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Weiße Rebsorten",
+      "revealHint": "Weißweintrauben",
+      "items": ["Riesling", "Chardonnay", "Sauvignon Blanc", "Grauburgunder"]
+    },
+    {
+      "id": "group_b",
+      "label": "Rote Rebsorten",
+      "revealHint": "Rotweintrauben",
+      "items": ["Cabernet", "Merlot", "Pinot Noir", "Spätburgunder"]
+    },
+    {
+      "id": "group_c",
+      "label": "Weinproduktion Begriffe",
+      "revealHint": "Im Keller",
+      "items": ["Gärung", "Maische", "Ausbau", "Füllung"]
+    },
+    {
+      "id": "group_d",
+      "label": "Weinverkostung Begriffe",
+      "revealHint": "Beim Probieren",
+      "items": ["Bouquet", "Abgang", "Tannin", "Restsüße"]
+    }
+  ]
+}
