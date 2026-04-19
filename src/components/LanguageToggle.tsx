@@ -1,16 +1,17 @@
-import { useLangStore } from "../i18n/useLanguage";
+import { useLangStore, useT } from "../i18n/useLanguage";
 import { SUPPORTED_LANGS, type Lang } from "../i18n/strings";
 
 const LABELS: Record<Lang, string> = { en: "EN", de: "DE", ru: "RU" };
 
 export function LanguageToggle() {
   const { lang, setLang } = useLangStore();
+  const t = useT();
 
   return (
     <div
       className="inline-flex items-center rounded-full border border-[#2e343f] overflow-hidden"
       role="group"
-      aria-label="Language"
+      aria-label={t.menu.languageAria}
     >
       {SUPPORTED_LANGS.map((code, i) => (
         <button

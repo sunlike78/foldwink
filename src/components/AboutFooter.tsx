@@ -1,15 +1,13 @@
 import { useState } from "react";
 import { clearEventLog } from "../analytics/eventLog";
 import { clearAllLocalData } from "../stats/persistence";
+import { useT } from "../i18n/useLanguage";
 
-/**
- * Compact About footer — privacy one-liner, support channel, and a
- * "clear local data" affordance. Collapsed by default. Zero network.
- */
 export function AboutFooter() {
   const [open, setOpen] = useState(false);
   const [cleared, setCleared] = useState(false);
   const [resetArmed, setResetArmed] = useState(false);
+  const t = useT();
 
   const handleClear = (): void => {
     clearEventLog();
@@ -17,9 +15,6 @@ export function AboutFooter() {
     setTimeout(() => setCleared(false), 1800);
   };
 
-  // Two-click reset so a single misfired tap cannot wipe a streak. First
-  // click arms the button, second click wipes and reloads. A 3s timeout
-  // disarms so the armed state does not persist indefinitely.
   const handleReset = (): void => {
     if (!resetArmed) {
       setResetArmed(true);
@@ -37,7 +32,7 @@ export function AboutFooter() {
         onClick={() => setOpen(true)}
         className="text-[10px] uppercase tracking-[0.14em] text-muted hover:text-text transition-colors"
       >
-        About · Privacy
+        {t.about.link}
       </button>
     );
   }
@@ -45,18 +40,18 @@ export function AboutFooter() {
   return (
     <div className="w-full max-w-sm rounded-2xl bg-surface border border-[#2e343f] px-5 py-4 text-left">
       <div className="flex items-center justify-between mb-2">
-        <div className="text-[10px] uppercase tracking-[0.14em] text-muted">About Foldwink</div>
+        <div className="text-[10px] uppercase tracking-[0.14em] text-muted">{t.about.title}</div>
         <button
           type="button"
           onClick={() => setOpen(false)}
           className="text-[10px] text-muted hover:text-text transition-colors"
-          aria-label="Close about footer"
+          aria-label={t.about.closeAria}
         >
-          close
+          {t.about.close}
         </button>
       </div>
       <p className="text-xs text-text leading-relaxed mb-3">
-        A small daily grouping puzzle by{" "}
+        {t.about.bylineBy}{" "}
         <a
           href="https://neural-void.com"
           target="_blank"
@@ -65,18 +60,17 @@ export function AboutFooter() {
         >
           Neural Void
         </a>
-        . 16 cards, 4 hidden groups, 4 mistakes. Medium puzzles reveal their categories one
-        letter at a time — tap once to Wink.
+        {t.about.bylineAfter}
       </p>
-      <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">Privacy</div>
+      <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
+        {t.about.privacy}
+      </div>
+      <p className="text-xs text-muted leading-relaxed mb-3">{t.about.privacyBody}</p>
+      <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
+        {t.about.support}
+      </div>
       <p className="text-xs text-muted leading-relaxed mb-3">
-        No accounts, no tracking, no network. Your stats, streaks, sound preference, and an
-        optional local-only event counter live in your browser&apos;s localStorage and never
-        leave your device. Clearing your site data wipes everything.
-      </p>
-      <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">Support</div>
-      <p className="text-xs text-muted leading-relaxed mb-3">
-        Bug reports and feedback:{" "}
+        {t.about.supportBody}{" "}
         <a
           href="mailto:foldwink@neural-void.com"
           className="text-text font-mono text-[11px] hover:text-accent transition-colors"
@@ -90,19 +84,17 @@ export function AboutFooter() {
           onClick={handleClear}
           className="text-[11px] text-muted hover:text-text transition-colors underline underline-offset-2 text-left"
         >
-          {cleared ? "Local event log cleared" : "Clear local event log"}
+          {cleared ? t.about.eventLogCleared : t.about.clearEventLog}
         </button>
         <button
           type="button"
           onClick={handleReset}
-          aria-label="Reset all local Foldwink data"
+          aria-label={t.about.resetAria}
           className={`text-[11px] underline underline-offset-2 transition-colors text-left ${
             resetArmed ? "text-danger hover:text-danger" : "text-muted hover:text-text"
           }`}
         >
-          {resetArmed
-            ? "Tap again to reset all data — this clears stats, streak, progress"
-            : "Reset all local data"}
+          {resetArmed ? t.about.resetArmed : t.about.resetAll}
         </button>
       </div>
     </div>

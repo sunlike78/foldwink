@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "./Button";
 import { renderShareCard, type ShareCardOptions } from "../share/shareCard";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   text: string;
@@ -83,6 +84,7 @@ async function tryCopyText(text: string): Promise<boolean> {
 
 export function ShareButton({ text, card, filename = "foldwink.png" }: Props) {
   const [status, setStatus] = useState<Status>("idle");
+  const t = useT();
 
   async function handleClick(): Promise<void> {
     setStatus("sharing");
@@ -136,11 +138,11 @@ export function ShareButton({ text, card, filename = "foldwink.png" }: Props) {
     setTimeout(() => setStatus("idle"), 2400);
   }
 
-  let label = "Share result";
-  if (status === "sharing") label = "Preparing…";
-  if (status === "copied") label = "Copied!";
-  if (status === "downloaded") label = "Saved image";
-  if (status === "failed") label = "Share unavailable";
+  let label = t.share.shareResult;
+  if (status === "sharing") label = t.share.preparing;
+  if (status === "copied") label = t.share.copied;
+  if (status === "downloaded") label = t.share.savedImage;
+  if (status === "failed") label = t.share.unavailable;
 
   return (
     <Button

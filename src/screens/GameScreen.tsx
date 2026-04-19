@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useGameStore } from "../game/state/appStore";
 import { Header } from "../components/Header";
 import { Grid } from "../components/Grid";
@@ -29,6 +29,27 @@ export function GameScreen() {
   const t = useT();
   const prevSolvedCount = useRef(0);
   const prevWinkedId = useRef<string | null>(null);
+  const [quitArmed, setQuitArmed] = useState(false);
+  const quitArmTimer = useRef<number | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (quitArmTimer.current !== null) {
+        window.clearTimeout(quitArmTimer.current);
+      }
+    };
+  }, []);
+
+  const handleQuit = (): void => {
+    if (!quitArmed) {
+      setQuitArmed(true);
+      if (quitArmTimer.current !== null) window.clearTimeout(quitArmTimer.current);
+      quitArmTimer.current = window.setTimeout(() => setQuitArmed(false), 3000);
+      return;
+    }
+    if (quitArmTimer.current !== null) window.clearTimeout(quitArmTimer.current);
+    goToMenu();
+  };
 
   useEffect(() => {
     if (!flash) return;
@@ -118,8 +139,10 @@ export function GameScreen() {
       <Header
         title={puzzle.title}
         subtitle={
-          `${puzzle.difficulty.toUpperCase()} · ${active.mode}` +
-          (active.mode === "daily" && !active.countsToStats ? " · replay" : "")
+          `${t.difficulty[puzzle.difficulty].toUpperCase()} · ${
+            active.mode === "daily" ? t.mode.daily : t.mode.standard
+          }` +
+          (active.mode === "daily" && !active.countsToStats ? ` · ${t.mode.replay}` : "")
         }
         right={
           <div className="flex items-center gap-3">
@@ -160,7 +183,7 @@ export function GameScreen() {
           <div
             className="flex gap-1"
             role="img"
-            aria-label={`Selected ${active.selection.length} of ${SELECTION_SIZE}`}
+            aria-label={t.game.selectedAria(active.selection.length, SELECTION_SIZE)}
           >
             {Array.from({ length: SELECTION_SIZE }).map((_, i) => (
               <span
@@ -197,8 +220,13 @@ export function GameScreen() {
         </div>
       </div>
       <div className="mt-6 text-center">
-        <button className="text-muted text-sm underline underline-offset-2" onClick={goToMenu}>
-          {t.game.quitToMenu}
+        <button
+          className={`text-sm underline underline-offset-2 transition-colors ${
+            quitArmed ? "text-danger" : "text-muted hover:text-text"
+          }`}
+          onClick={handleQuit}
+        >
+          {quitArmed ? t.game.quitConfirm : t.game.quitToMenu}
         </button>
       </div>
     </div>

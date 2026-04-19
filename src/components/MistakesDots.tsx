@@ -1,17 +1,21 @@
 import { MAX_MISTAKES } from "../game/types/game";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   used: number;
 }
 
 export function MistakesDots({ used }: Props) {
+  const t = useT();
   const dots = Array.from({ length: MAX_MISTAKES });
   return (
     <div
       className="flex items-center gap-1.5"
-      aria-label={`Mistakes used ${used} of ${MAX_MISTAKES}`}
+      aria-label={t.game.mistakesAria(used, MAX_MISTAKES)}
     >
-      <span className="text-xs uppercase tracking-wide text-muted mr-1">Mistakes</span>
+      <span className="text-xs uppercase tracking-wide text-muted mr-1">
+        {t.game.mistakesLabel}
+      </span>
       {dots.map((_, i) => {
         const consumed = i < used;
         return (

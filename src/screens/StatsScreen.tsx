@@ -3,6 +3,7 @@ import { Button } from "../components/Button";
 import { Wordmark } from "../components/Wordmark";
 import { StatStrip } from "../components/StatStrip";
 import { DailyArchive } from "../components/DailyArchive";
+import { useT } from "../i18n/useLanguage";
 
 function StatCell({ label, value }: { label: string; value: string | number }) {
   return (
@@ -16,6 +17,7 @@ function StatCell({ label, value }: { label: string; value: string | number }) {
 export function StatsScreen() {
   const stats = useGameStore((s) => s.stats);
   const goToMenu = useGameStore((s) => s.goToMenu);
+  const t = useT();
   const winRate =
     stats.gamesPlayed > 0 ? Math.round((stats.wins / stats.gamesPlayed) * 100) : 0;
   const solvedCount = stats.solvedPuzzleIds.length;
@@ -30,19 +32,19 @@ export function StatsScreen() {
 
   return (
     <div className="max-w-md mx-auto">
-      <Wordmark size="sm" subtitle="Your Foldwink record" />
+      <Wordmark size="sm" subtitle={t.stats.subtitle} />
 
       <div className="mt-4">
         <StatStrip
           cells={[
             {
-              label: "Solved",
+              label: t.stats.solved,
               value: solvedCount,
               tone: solvedCount > 0 ? "accent" : "default",
             },
-            { label: "Played", value: stats.gamesPlayed },
+            { label: t.stats.played, value: stats.gamesPlayed },
             {
-              label: "Win %",
+              label: t.stats.winRate,
               value: `${winRate}%`,
             },
           ]}
@@ -50,29 +52,29 @@ export function StatsScreen() {
       </div>
 
       <div className="mt-2 grid grid-cols-4 gap-2">
-        <StatCell label="Wins" value={stats.wins} />
-        <StatCell label="Losses" value={stats.losses} />
-        <StatCell label="Streak" value={stats.currentStreak} />
-        <StatCell label="Best" value={stats.bestStreak} />
+        <StatCell label={t.stats.wins} value={stats.wins} />
+        <StatCell label={t.stats.losses} value={stats.losses} />
+        <StatCell label={t.stats.streak} value={stats.currentStreak} />
+        <StatCell label={t.stats.best} value={stats.bestStreak} />
       </div>
 
       {stats.gamesPlayed > 0 && (
         <div className="mt-4">
           <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-1.5">
-            Depth
+            {t.stats.depth}
           </div>
           <div className="grid grid-cols-4 gap-2">
-            <StatCell label="Flawless" value={flawlessWins} />
-            <StatCell label="Avg miss" value={avgMistakes.toFixed(1)} />
-            <StatCell label="Med W%" value={`${mediumWinRate}%`} />
-            <StatCell label="Winks" value={winkUses} />
+            <StatCell label={t.stats.flawless} value={flawlessWins} />
+            <StatCell label={t.stats.avgMiss} value={avgMistakes.toFixed(1)} />
+            <StatCell label={t.stats.medWinRate} value={`${mediumWinRate}%`} />
+            <StatCell label={t.stats.winks} value={winkUses} />
           </div>
         </div>
       )}
 
       <div className="mt-4">
         <div className="text-[10px] uppercase tracking-[0.14em] text-muted text-center mb-1.5">
-          Daily history
+          {t.stats.dailyHistory}
         </div>
         <DailyArchive />
       </div>
@@ -80,17 +82,15 @@ export function StatsScreen() {
       {stats.gamesPlayed === 0 && (
         <div className="mt-4 rounded-xl bg-surface border border-[#2e343f] px-4 py-3 text-center">
           <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
-            Empty record
+            {t.stats.emptyRecord}
           </div>
-          <p className="text-sm text-text">
-            No puzzles played yet. Start with today&apos;s daily from the menu.
-          </p>
+          <p className="text-sm text-text">{t.stats.emptyRecordDetail}</p>
         </div>
       )}
 
       <div className="mt-4">
         <Button variant="secondary" onClick={goToMenu} className="w-full">
-          Back to menu
+          {t.stats.backToMenu}
         </Button>
       </div>
     </div>

@@ -2,6 +2,7 @@ import type { Puzzle } from "../game/types/puzzle";
 import { buildFoldwinkTabs } from "../game/engine/foldwinkTabs";
 import { colorIndexForGroup, SOLVED_COLOR_CLASSES } from "../game/solvedColors";
 import { MOTION_CLASS } from "../styles/motion";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   puzzle: Puzzle;
@@ -18,6 +19,7 @@ export function FoldwinkTabs({
   onWink,
   gameEnded,
 }: Props) {
+  const t = useT();
   const tabs = buildFoldwinkTabs(puzzle, solvedGroupIds, winkedGroupId);
   if (tabs.length === 0) return null;
 
@@ -27,20 +29,18 @@ export function FoldwinkTabs({
   return (
     <div className="mb-4 max-w-md mx-auto">
       <div className="flex items-center justify-between mb-1.5 px-1">
-        <span className="text-[10px] uppercase tracking-[0.12em] text-muted">
-          Foldwink Tabs
-        </span>
+        <span className="text-[10px] uppercase tracking-[0.12em] text-muted">{t.tabs.label}</span>
         <span className="text-[10px] text-muted flex items-center gap-2">
-          <span>{solvedGroupIds.length}/4 solved</span>
+          <span>{t.tabs.solvedCount(solvedGroupIds.length, 4)}</span>
           {puzzle.difficulty === "medium" && (
             <>
               <span className="text-muted">·</span>
               {winkAvailable ? (
-                <span className="text-accent">✦ wink ready</span>
+                <span className="text-accent">{t.tabs.winkReady}</span>
               ) : winkedGroupId ? (
-                <span className="text-muted">✦ wink used</span>
+                <span className="text-muted">{t.tabs.winkUsed}</span>
               ) : (
-                <span className="text-muted">✦ wink</span>
+                <span className="text-muted">{t.tabs.winkShort}</span>
               )}
             </>
           )}
@@ -66,12 +66,12 @@ export function FoldwinkTabs({
           }
 
           const ariaLabel = tab.solved
-            ? `Solved category: ${tab.display}`
+            ? t.tabs.solvedAria(tab.display)
             : tab.winked
-              ? `Winked category: ${tab.display}`
+              ? t.tabs.winkedAria(tab.display)
               : clickable
-                ? `Wink this tab to reveal the full category`
-                : `Concealed category preview`;
+                ? t.tabs.clickAria
+                : t.tabs.concealedAria;
 
           const revealCls = tab.solved ? "" : `${MOTION_CLASS.tabReveal}`;
 

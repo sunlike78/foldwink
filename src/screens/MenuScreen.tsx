@@ -8,7 +8,12 @@ import { HapticsToggle } from "../components/HapticsToggle";
 import { LanguageToggle } from "../components/LanguageToggle";
 import { AboutFooter } from "../components/AboutFooter";
 import { logEvent } from "../analytics/eventLog";
-import { mediumReadiness, hardReadiness } from "../game/engine/readiness";
+import {
+  mediumReadiness,
+  hardReadiness,
+  mediumReadinessDisplay,
+  hardReadinessDisplay,
+} from "../game/engine/readiness";
 import { HARD_POOL } from "../puzzles/loader";
 import { isIosSafariInBrowser } from "../utils/platform";
 import { useT } from "../i18n/useLanguage";
@@ -19,6 +24,7 @@ export function MenuScreen() {
   const startHard = useGameStore((s) => s.startHard);
   const startDaily = useGameStore((s) => s.startDaily);
   const showStats = useGameStore((s) => s.showStats);
+  const showOnboarding = useGameStore((s) => s.showOnboarding);
   const poolSize = useGameStore((s) => s.poolSize);
   const stats = useGameStore((s) => s.stats);
   const todayDailyRecord = useGameStore((s) => s.todayDailyRecord);
@@ -31,8 +37,10 @@ export function MenuScreen() {
   const empty = poolSize === 0;
   const dailyDone = !!todayDailyRecord;
   const mReadiness = mediumReadiness(stats);
+  const mDisplay = mediumReadinessDisplay(mReadiness, t);
 
   const hReadiness = hardReadiness(stats, HARD_POOL.length);
+  const hDisplay = hardReadinessDisplay(hReadiness, t);
 
   const mediumLabelClass =
     mReadiness.level === "strong"
@@ -120,21 +128,21 @@ export function MenuScreen() {
           {stats.gamesPlayed > 0 && (
             <div className="text-[11px] text-muted text-center max-w-xs space-y-1">
               <div>
-                <span className={mediumLabelClass}>{mReadiness.label}</span> ·{" "}
-                {mReadiness.caption}
+                <span className={mediumLabelClass}>{mDisplay.label}</span> ·{" "}
+                {mDisplay.caption}
               </div>
               {hReadiness.level !== "hidden" && (
                 <div className="text-muted">
-                  {hReadiness.label} · {hReadiness.caption}
+                  {hDisplay.label} · {hDisplay.caption}
                 </div>
               )}
             </div>
           )}
 
-          {(mReadiness.fallback || hReadiness.fallback) && (
+          {(mDisplay.fallback || hDisplay.fallback) && (
             <div className="text-[11px] text-muted text-center max-w-xs border-t border-[#2e343f] pt-3 space-y-1">
-              {mReadiness.fallback && <div>{mReadiness.fallback}</div>}
-              {hReadiness.fallback && <div>{hReadiness.fallback}</div>}
+              {mDisplay.fallback && <div>{mDisplay.fallback}</div>}
+              {hDisplay.fallback && <div>{hDisplay.fallback}</div>}
             </div>
           )}
         </>
@@ -150,6 +158,16 @@ export function MenuScreen() {
         <span aria-hidden="true" className="opacity-50">
           ·
         </span>
+        <button
+          type="button"
+          onClick={showOnboarding}
+          className="text-muted hover:text-text underline-offset-2 hover:underline transition-colors"
+        >
+          {t.onboarding.menuLink}
+        </button>
+        <span aria-hidden="true" className="opacity-50">
+          ·
+        </span>
         <AboutFooter />
         <span aria-hidden="true" className="opacity-50">
           ·
@@ -159,10 +177,7 @@ export function MenuScreen() {
 
       {isIosSafariInBrowser() && (
         <p className="text-[10px] text-muted text-center max-w-xs leading-relaxed mt-1">
-          <span className="text-accent">{t.menu.iphoneTip}</span> — tap Safari&apos;s{" "}
-          <span className="text-text font-semibold">{t.menu.iphoneTipShare}</span> button, then{" "}
-          <span className="text-text font-semibold">{t.menu.iphoneTipAdd}</span> for a cleaner
-          full-screen play.
+          <span className="text-accent">{t.menu.iphoneTip}</span> — {t.menu.iphoneTipBody}
         </p>
       )}
     </div>

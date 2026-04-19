@@ -1,4 +1,5 @@
 import { useSoundSettings } from "../audio/useSound";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   compact?: boolean;
@@ -6,7 +7,8 @@ interface Props {
 
 export function SoundToggle({ compact }: Props) {
   const { muted, toggleMute } = useSoundSettings();
-  const label = muted ? "Sound off" : "Sound on";
+  const t = useT();
+  const label = muted ? t.settings.soundOff : t.settings.soundOn;
   const icon = muted ? "✕" : "♪";
   const classes = compact
     ? "inline-flex items-center gap-1.5 text-[11px] text-muted hover:text-text transition-colors"

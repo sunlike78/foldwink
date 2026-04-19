@@ -54,6 +54,7 @@ export interface StoreState {
   startNextSame: () => void;
   clearFlash: () => void;
   dismissOnboarding: () => void;
+  showOnboarding: () => void;
   winkTab: (groupId: string) => void;
 }
 
@@ -410,6 +411,8 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     clearFlash: () => set({ flash: null }),
 
     dismissOnboarding: () => set({ onboarded: true }),
+
+    showOnboarding: () => set({ onboarded: false }),
 
     winkTab: (groupId: string) => {
       const { active, puzzle } = get();

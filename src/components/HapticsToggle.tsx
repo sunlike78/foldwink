@@ -1,4 +1,5 @@
 import { useHapticSettings } from "../haptics/useHaptics";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   compact?: boolean;
@@ -6,8 +7,9 @@ interface Props {
 
 export function HapticsToggle({ compact }: Props) {
   const { enabled, supported, toggle } = useHapticSettings();
+  const t = useT();
   if (!supported) return null;
-  const label = enabled ? "Haptics on" : "Haptics off";
+  const label = enabled ? t.settings.hapticsOn : t.settings.hapticsOff;
   const icon = enabled ? "≋" : "✕";
   const classes = compact
     ? "inline-flex items-center gap-1.5 text-[11px] text-muted hover:text-text transition-colors"

@@ -1,4 +1,5 @@
 import type { Stats } from "../types/stats";
+import type { Strings } from "../../i18n/strings";
 
 /**
  * Foldwink Easy → Medium progression model (0.4.2).
@@ -267,5 +268,70 @@ export function hardReadiness(stats: Stats, hardPoolSize: number): HardProgressi
     caption: "Slower reveals, no Wink",
     fallback,
     mediumWins,
+  };
+}
+
+export interface ReadinessDisplay {
+  label: string;
+  caption: string;
+  fallback: string | null;
+}
+
+export function mediumReadinessDisplay(
+  signal: ProgressionSignal,
+  t: Strings,
+): ReadinessDisplay {
+  const remaining = Math.max(0, MEDIUM_UNLOCK_AT - signal.easyWins);
+  let label: string;
+  let caption: string;
+  if (signal.level === "locked") {
+    if (signal.showNudge) {
+      label = t.readiness.almostThere;
+      caption = t.readiness.moreEasyWins(remaining);
+    } else {
+      label = t.readiness.warmingUp;
+      caption = t.readiness.mediumUnlocksAt(signal.easyWins, MEDIUM_UNLOCK_AT);
+    }
+  } else if (signal.level === "strong") {
+    label = t.readiness.mediumReady;
+    caption = t.readiness.tabsFeelNatural;
+  } else if (signal.level === "recommended") {
+    label = t.readiness.recommended;
+    caption = t.readiness.goodNextStep;
+  } else {
+    label = t.readiness.mediumUnlocked;
+    caption = t.readiness.tryWhenReady;
+  }
+  return {
+    label,
+    caption,
+    fallback: signal.fallback ? t.readiness.toughMediums : null,
+  };
+}
+
+export function hardReadinessDisplay(
+  signal: HardProgressionSignal,
+  t: Strings,
+): ReadinessDisplay {
+  const remaining = Math.max(0, HARD_UNLOCK_AT - signal.mediumWins);
+  let label: string;
+  let caption: string;
+  if (signal.level === "coming-soon") {
+    label = t.readiness.masterChallenge;
+    caption = t.readiness.hardComingSoon;
+  } else if (signal.level === "locked") {
+    label = t.readiness.masterLocked;
+    caption = t.readiness.moreMediumWins(remaining);
+  } else if (signal.level === "recommended") {
+    label = t.readiness.masterChallenge;
+    caption = t.readiness.youAreReady;
+  } else {
+    label = t.readiness.masterChallenge;
+    caption = t.readiness.slowerRevealsNoWink;
+  }
+  return {
+    label,
+    caption,
+    fallback: signal.fallback ? t.readiness.toughStretch : null,
   };
 }

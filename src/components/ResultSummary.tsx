@@ -3,6 +3,7 @@ import type { ResultSummary as ResultSummaryModel } from "../game/engine/result"
 import { formatDuration } from "../game/engine/result";
 import { solvedClassForGroup } from "../game/solvedColors";
 import { StatStrip } from "./StatStrip";
+import { useT } from "../i18n/useLanguage";
 
 interface Props {
   summary: ResultSummaryModel;
@@ -11,8 +12,9 @@ interface Props {
 }
 
 export function ResultSummary({ summary, puzzle, currentStreak }: Props) {
+  const t = useT();
   const isWin = summary.result === "win";
-  const headline = isWin ? "Solved" : "Out of mistakes";
+  const headline = isWin ? t.resultSummary.solved : t.resultSummary.outOfMistakes;
 
   return (
     <div className="space-y-3 fw-result-pop">
@@ -22,7 +24,7 @@ export function ResultSummary({ summary, puzzle, currentStreak }: Props) {
             isWin ? "text-accent" : "text-muted"
           }`}
         >
-          {isWin ? "Foldwink · cleared" : "Foldwink · close call"}
+          {isWin ? t.resultSummary.cleared : t.resultSummary.closeCall}
         </div>
         <div className="text-3xl font-extrabold">{headline}</div>
       </div>
@@ -30,16 +32,16 @@ export function ResultSummary({ summary, puzzle, currentStreak }: Props) {
       <StatStrip
         cells={[
           {
-            label: "Time",
+            label: t.resultSummary.time,
             value: formatDuration(summary.durationMs),
           },
           {
-            label: "Mistakes",
+            label: t.resultSummary.mistakes,
             value: `${summary.mistakesUsed}/4`,
             tone: summary.mistakesUsed >= 3 ? "muted" : "default",
           },
           {
-            label: "Streak",
+            label: t.resultSummary.streak,
             value: currentStreak,
             tone: isWin && currentStreak > 0 ? "accent" : "default",
           },

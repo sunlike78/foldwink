@@ -52,11 +52,12 @@ export function ResultScreen() {
     mode: isDaily ? "daily" : "standard",
     dayLabel: isDaily ? todayLocal() : undefined,
     index: isDaily ? undefined : Math.max(1, progress.cursor),
+    strings: t,
   });
 
   const subtitle = isDaily
-    ? `Daily · ${todayLocal()}`
-    : `Standard · #${String(Math.max(1, progress.cursor)).padStart(3, "0")}`;
+    ? t.result.subtitleDaily(todayLocal())
+    : t.result.subtitleStandard(Math.max(1, progress.cursor));
 
   const cardOptions = {
     mode: (isDaily ? "daily" : "standard") as "daily" | "standard",

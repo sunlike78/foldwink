@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { loadDailyHistory } from "../stats/persistence";
 import type { DailyRecord } from "../game/types/stats";
 import { formatDuration } from "../game/engine/result";
+import { useT } from "../i18n/useLanguage";
 
 interface ArchiveEntry {
   date: string;
@@ -9,6 +10,7 @@ interface ArchiveEntry {
 }
 
 export function DailyArchive() {
+  const t = useT();
   const entries = useMemo<ArchiveEntry[]>(() => {
     const history = loadDailyHistory();
     return Object.entries(history)
@@ -19,9 +21,7 @@ export function DailyArchive() {
 
   if (entries.length === 0) {
     return (
-      <div className="text-center text-xs text-muted py-3">
-        No daily history yet. Solve today&apos;s puzzle to start.
-      </div>
+      <div className="text-center text-xs text-muted py-3">{t.daily.noHistoryYet}</div>
     );
   }
 
@@ -37,7 +37,7 @@ export function DailyArchive() {
             <div className="flex items-center gap-2">
               <span className="tabular-nums text-muted">{date}</span>
               <span className={`font-semibold ${isWin ? "text-accent" : "text-muted"}`}>
-                {isWin ? "Solved" : "Failed"}
+                {isWin ? t.daily.solvedShort : t.daily.failedShort}
               </span>
             </div>
             <div className="flex items-center gap-3 text-muted tabular-nums">
