@@ -1,0 +1,28 @@
+{
+  "id": "de-9036",
+  "title": "Erster Schultag",
+  "difficulty": "easy",
+  "meta": { "theme": "Schulerfahrungen Kindheit DACH", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Aufregung",
+      "items": ["Kaum geschlafen nachts", "Ranzen schon gepackt", "Früh aufgewacht", "Herzklopfen, klingelt"]
+    },
+    {
+      "id": "group_b",
+      "label": "Stolz",
+      "items": ["Zuckertüte in der Hand", "Foto vor der Haustür", "Alle schauen hin", "Geschwister beneiden"]
+    },
+    {
+      "id": "group_c",
+      "label": "Angst",
+      "items": ["Fremde Kinder rundum", "Lehrerin unbekannt", "Toilette gesucht", "Rückweg vergessen"]
+    },
+    {
+      "id": "group_d",
+      "label": "Neugier",
+      "items": ["Fibel aufgeschlagen", "Tafel mit Kreide", "Buntstifte auspacken", "Erste Buchstaben"]
+    }
+  ]
+}

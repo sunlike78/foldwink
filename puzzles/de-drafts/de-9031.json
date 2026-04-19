@@ -1,0 +1,28 @@
+{
+  "id": "de-9031",
+  "title": "Hände im Einsatz",
+  "difficulty": "easy",
+  "meta": { "theme": "Berufe durch typische Handgriffe", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Arzt",
+      "items": ["Stethoskop anlegen", "Rezept ausstellen", "Wunde nähen", "Blutdruck messen"]
+    },
+    {
+      "id": "group_b",
+      "label": "Tischler",
+      "items": ["Zapfen einpassen", "Hobel ansetzen", "Dübel einschlagen", "Schmirgelpapier führen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Bäcker",
+      "items": ["Teig durchkneten", "Laib einschneiden", "Ofentemperatur prüfen", "Krume abklopfen"]
+    },
+    {
+      "id": "group_d",
+      "label": "Richter",
+      "items": ["Hammer senken", "Urteil verkünden", "Akte studieren", "Schweigen gebieten"]
+    }
+  ]
+}

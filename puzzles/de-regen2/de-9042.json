@@ -1,0 +1,28 @@
+{
+  "id": "de-9042",
+  "title": "Auf der Piste",
+  "difficulty": "easy",
+  "meta": { "theme": "Wintersport durch Bewegungsformen", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Skifahren",
+      "items": ["Kanten setzen im Hang", "Schwung mit Hüfte", "Stockeinsatz im Takt", "Carving am Blaupiste"]
+    },
+    {
+      "id": "group_b",
+      "label": "Langlauf",
+      "items": ["Diagonal im Wald", "Loipe gespurt früh", "Stockzug mit Schulter", "Km-langer Rhythmus"]
+    },
+    {
+      "id": "group_c",
+      "label": "Snowboard",
+      "items": ["Frontside halb gedreht", "Bindung anschnallen", "Kante wechseln", "Halftube rauf und rein"]
+    },
+    {
+      "id": "group_d",
+      "label": "Biathlon",
+      "items": ["Puls runter schießen", "Liegend auf Scheibe", "Strafrunde fällig", "Gewehr auf dem Rücken"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "de-9051",
+  "title": "Auf hoher See",
+  "difficulty": "medium",
+  "meta": { "theme": "Seemannsverhalten und nautische Praxis", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Navigation",
+      "revealHint": "KURS HALTEN AUF SEE",
+      "items": ["Kompass ablesen", "Sextant an Horizont", "Seekarte falten", "Strömung einrechnen"]
+    },
+    {
+      "id": "group_b",
+      "label": "Ankern",
+      "revealHint": "SCHIFF MACHT FEST",
+      "items": ["Kette rasselt runter", "Tiefe lotsen zuerst", "Schaukelbucht wählen", "Wache halten nachts"]
+    },
+    {
+      "id": "group_c",
+      "label": "Segelsetzen",
+      "revealHint": "WIND IM TUCH NUTZEN",
+      "items": ["Fall hochziehen", "Schot dichtziehen", "Baum ausschießen", "Fock anluvend einholen"]
+    },
+    {
+      "id": "group_d",
+      "label": "Seenot",
+      "revealHint": "HILFERUF AUF WASSER",
+      "items": ["Rakete abfeuern", "Epirb aktivieren", "Pumpe im Kielraum", "Mayday dreimal rufen"]
+    }
+  ]
+}

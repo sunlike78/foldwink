@@ -1,0 +1,28 @@
+{
+  "id": "de-9039",
+  "title": "Wenn es klingelt",
+  "difficulty": "easy",
+  "meta": { "theme": "Berufe an der Haustür", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Postbote",
+      "items": ["Gelber Wagen draußen", "Paket zu groß", "Unterschrift verlangt", "Zettel im Briefkasten"]
+    },
+    {
+      "id": "group_b",
+      "label": "Klempner",
+      "items": ["Rohr unter dem Arm", "Teflon im Gürtel", "Wasser zuerst aus", "Dichtung dabei"]
+    },
+    {
+      "id": "group_c",
+      "label": "Zählerableser",
+      "items": ["Ausweis vorzeigen", "Kellernummer notiert", "Zählerstand ablesen", "Jahresabrechnung kommt"]
+    },
+    {
+      "id": "group_d",
+      "label": "Zeuge Jehovas",
+      "items": ["Broschüre angeboten", "Bibel unter dem Arm", "Zu zweit an der Tür", "Frage nach dem Glauben"]
+    }
+  ]
+}

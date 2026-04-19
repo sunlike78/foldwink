@@ -14,9 +14,11 @@ import {
   mediumReadinessDisplay,
   hardReadinessDisplay,
 } from "../game/engine/readiness";
-import { HARD_POOL } from "../puzzles/loader";
+import { HARD_POOL, PUZZLE_POOL } from "../puzzles/loader";
+import { DE_PUZZLE_POOL, DE_HARD_POOL } from "../puzzles/loaderDe";
+import { RU_PUZZLE_POOL, RU_HARD_POOL } from "../puzzles/loaderRu";
 import { isIosSafariInBrowser } from "../utils/platform";
-import { useT } from "../i18n/useLanguage";
+import { useLang, useT } from "../i18n/useLanguage";
 
 export function MenuScreen() {
   const startEasy = useGameStore((s) => s.startEasy);
@@ -25,7 +27,20 @@ export function MenuScreen() {
   const startDaily = useGameStore((s) => s.startDaily);
   const showStats = useGameStore((s) => s.showStats);
   const showOnboarding = useGameStore((s) => s.showOnboarding);
-  const poolSize = useGameStore((s) => s.poolSize);
+  const lang = useLang();
+  const langPool =
+    lang === "de" && DE_PUZZLE_POOL.length > 0
+      ? DE_PUZZLE_POOL
+      : lang === "ru" && RU_PUZZLE_POOL.length > 0
+        ? RU_PUZZLE_POOL
+        : PUZZLE_POOL;
+  const langHardPool =
+    lang === "de" && DE_HARD_POOL.length > 0
+      ? DE_HARD_POOL
+      : lang === "ru" && RU_HARD_POOL.length > 0
+        ? RU_HARD_POOL
+        : HARD_POOL;
+  const poolSize = langPool.length;
   const stats = useGameStore((s) => s.stats);
   const todayDailyRecord = useGameStore((s) => s.todayDailyRecord);
   const t = useT();
@@ -39,7 +54,7 @@ export function MenuScreen() {
   const mReadiness = mediumReadiness(stats);
   const mDisplay = mediumReadinessDisplay(mReadiness, t);
 
-  const hReadiness = hardReadiness(stats, HARD_POOL.length);
+  const hReadiness = hardReadiness(stats, langHardPool.length);
   const hDisplay = hardReadinessDisplay(hReadiness, t);
 
   const mediumLabelClass =

@@ -1,0 +1,28 @@
+{
+  "id": "de-9040",
+  "title": "Klassenausflug",
+  "difficulty": "easy",
+  "meta": { "theme": "Schulerlebnisse außer Haus", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Museum",
+      "items": ["Nicht anfassen Schild", "Flüsterstimme Pflicht", "Klemmbrett dabei", "Audioguide am Ohr"]
+    },
+    {
+      "id": "group_b",
+      "label": "Schwimmbad",
+      "items": ["Seepferdchen machen", "Nichtschwimmer vorne", "Dusche vor dem Becken", "Sprung vom Brett"]
+    },
+    {
+      "id": "group_c",
+      "label": "Bauernhof",
+      "items": ["Kalb streicheln", "Eier einsammeln", "Stall riecht stark", "Melkvorführung live"]
+    },
+    {
+      "id": "group_d",
+      "label": "Theater",
+      "items": ["Programmheft falten", "Vorhang geht auf", "Pausensekt für Lehrer", "Leise sitzen bleiben"]
+    }
+  ]
+}

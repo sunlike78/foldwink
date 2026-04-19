@@ -1,0 +1,28 @@
+{
+  "id": "de-9038",
+  "title": "Im Werkzeugkasten",
+  "difficulty": "easy",
+  "meta": { "theme": "Werkzeugfunktionen im Handwerk", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Säge",
+      "items": ["Zähne greifen Holz", "Schnittlinie anreißen", "Kerfdruck gleichmäßig", "Span fällt seitlich"]
+    },
+    {
+      "id": "group_b",
+      "label": "Wasserwaage",
+      "items": ["Blase im Strich", "Regal ausrichten", "Neigung auf Millimeter", "Libelle ablesen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Bohrmaschine",
+      "items": ["Bit wechseln", "Wanddübel setzen", "Tiefenanschlag setzen", "Rückwärtsgang löst"]
+    },
+    {
+      "id": "group_d",
+      "label": "Schraubenzieher",
+      "items": ["Schlitz zentrieren", "Drehmoment spüren", "Kopf versenken", "Kreuzklinge wechseln"]
+    }
+  ]
+}

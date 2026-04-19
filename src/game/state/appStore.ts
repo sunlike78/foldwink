@@ -21,6 +21,10 @@ import {
   getEasyByIndex,
   getMediumByIndex,
   getHardByIndex,
+  PUZZLE_POOL,
+  EASY_POOL,
+  MEDIUM_POOL,
+  HARD_POOL,
 } from "../../puzzles/loader";
 import {
   getDEPuzzleById,
@@ -28,6 +32,10 @@ import {
   getDEEasyByIndex,
   getDEMediumByIndex,
   getDEHardByIndex,
+  DE_PUZZLE_POOL,
+  DE_EASY_POOL,
+  DE_MEDIUM_POOL,
+  DE_HARD_POOL,
 } from "../../puzzles/loaderDe";
 import {
   getRUPuzzleById,
@@ -35,6 +43,10 @@ import {
   getRUEasyByIndex,
   getRUMediumByIndex,
   getRUHardByIndex,
+  RU_PUZZLE_POOL,
+  RU_EASY_POOL,
+  RU_MEDIUM_POOL,
+  RU_HARD_POOL,
 } from "../../puzzles/loaderRu";
 import { getLangSync } from "../../i18n/useLanguage";
 import { todayLocal } from "../../utils/date";
@@ -108,6 +120,31 @@ function langGetHardByIndex(i: number): Puzzle | undefined {
   return getHardByIndex(i);
 }
 
+function langGetPool(): readonly Puzzle[] {
+  const lang = getLangSync();
+  if (lang === "de" && DE_PUZZLE_POOL.length > 0) return DE_PUZZLE_POOL;
+  if (lang === "ru" && RU_PUZZLE_POOL.length > 0) return RU_PUZZLE_POOL;
+  return PUZZLE_POOL;
+}
+function langGetEasyPool(): readonly Puzzle[] {
+  const lang = getLangSync();
+  if (lang === "de" && DE_EASY_POOL.length > 0) return DE_EASY_POOL;
+  if (lang === "ru" && RU_EASY_POOL.length > 0) return RU_EASY_POOL;
+  return EASY_POOL;
+}
+function langGetMediumPool(): readonly Puzzle[] {
+  const lang = getLangSync();
+  if (lang === "de" && DE_MEDIUM_POOL.length > 0) return DE_MEDIUM_POOL;
+  if (lang === "ru" && RU_MEDIUM_POOL.length > 0) return RU_MEDIUM_POOL;
+  return MEDIUM_POOL;
+}
+function langGetHardPool(): readonly Puzzle[] {
+  const lang = getLangSync();
+  if (lang === "de" && DE_HARD_POOL.length > 0) return DE_HARD_POOL;
+  if (lang === "ru" && RU_HARD_POOL.length > 0) return RU_HARD_POOL;
+  return HARD_POOL;
+}
+
 export const useGameStore = createStore({
   ...defaultDeps,
   getPuzzleById: langGetPuzzleById,
@@ -115,6 +152,10 @@ export const useGameStore = createStore({
   getEasyByIndex: langGetEasyByIndex,
   getMediumByIndex: langGetMediumByIndex,
   getHardByIndex: langGetHardByIndex,
+  getPool: langGetPool,
+  getEasyPool: langGetEasyPool,
+  getMediumPool: langGetMediumPool,
+  getHardPool: langGetHardPool,
   initialStats: loadStats(),
   initialProgress: loadProgress(),
   initialTodayDailyRecord: initialTodayDailyRecord(),

@@ -64,6 +64,12 @@ export interface StoreDeps {
   easyPool: readonly Puzzle[];
   mediumPool: readonly Puzzle[];
   hardPool: readonly Puzzle[];
+  /** Current-language pools (read fresh each call, so language switching
+   *  takes effect on the next action without recreating the store). */
+  getPool?: () => readonly Puzzle[];
+  getEasyPool?: () => readonly Puzzle[];
+  getMediumPool?: () => readonly Puzzle[];
+  getHardPool?: () => readonly Puzzle[];
   getPuzzleById: (id: string) => Puzzle | undefined;
   getPuzzleByIndex: (i: number) => Puzzle | undefined;
   getEasyByIndex: (i: number) => Puzzle | undefined;
@@ -225,7 +231,11 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     },
 
     startDaily: () => {
-      if (deps.pool.length === 0) return;
+      const easyPool = deps.getEasyPool ? deps.getEasyPool() : deps.easyPool;
+      const mediumPool = deps.getMediumPool ? deps.getMediumPool() : deps.mediumPool;
+      const hardPool = deps.getHardPool ? deps.getHardPool() : deps.hardPool;
+      const pool = deps.getPool ? deps.getPool() : deps.pool;
+      if (pool.length === 0) return;
       // Daily must respect the player's unlock ladder. A locked-Medium player
       // should never be dropped into a Medium puzzle via daily — that breaks
       // the progression contract and surfaces Foldwink Tabs + Wink before
@@ -234,13 +244,13 @@ export function createStore(deps: StoreDeps = defaultDeps) {
       // and only then deterministic-pick by date.
       const stats = get().stats;
       const med = mediumReadiness(stats);
-      const hard = hardReadiness(stats, deps.hardPool.length);
-      const eligible: Puzzle[] = [...deps.easyPool];
-      if (med.unlocked) eligible.push(...deps.mediumPool);
-      if (hard.unlocked && hard.hasContent) eligible.push(...deps.hardPool);
+      const hard = hardReadiness(stats, hardPool.length);
+      const eligible: Puzzle[] = [...easyPool];
+      if (med.unlocked) eligible.push(...mediumPool);
+      if (hard.unlocked && hard.hasContent) eligible.push(...hardPool);
       // Safety net: if a test fixture has no easy puzzles, fall back to the
       // full pool so the action remains usable.
-      const candidates = eligible.length > 0 ? eligible : [...deps.pool];
+      const candidates = eligible.length > 0 ? eligible : [...pool];
       const date = deps.todayLocal();
       const id = getDailyPuzzleId(date, candidates);
       const puzzle = deps.getPuzzleById(id);

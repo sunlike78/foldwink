@@ -1,0 +1,32 @@
+{
+  "id": "de-9055",
+  "title": "Was der Körper sagt",
+  "difficulty": "medium",
+  "meta": { "theme": "Körpersprache in sozialen Situationen", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Langeweile",
+      "revealHint": "KEINE SPANNUNG MEHR",
+      "items": ["Stift dreht sich", "Blick zur Uhr zweimal", "Gähnen hinter Hand", "Finger trommeln leise"]
+    },
+    {
+      "id": "group_b",
+      "label": "Lügen",
+      "revealHint": "WAHRHEIT VERBERGEN",
+      "items": ["Hand vor Mund kurz", "Blick nach oben links", "Nase kurz berühren", "Stimme höher"]
+    },
+    {
+      "id": "group_c",
+      "label": "Sympathie",
+      "revealHint": "DU MAGST MICH GUT",
+      "items": ["Füße zeigen zueinander", "Spiegeln unbewusst", "Beugt sich leicht vor", "Lächeln ohne Anlass"]
+    },
+    {
+      "id": "group_d",
+      "label": "Ablehnung",
+      "revealHint": "ABSTAND HALTEN BITTE",
+      "items": ["Arme vor der Brust", "Körper halb abgedreht", "Einsilbig antworten", "Schritt zurück"]
+    }
+  ]
+}

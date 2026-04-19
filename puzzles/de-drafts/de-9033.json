@@ -1,0 +1,28 @@
+{
+  "id": "de-9033",
+  "title": "Eigenarten der Tiere",
+  "difficulty": "easy",
+  "meta": { "theme": "Tierverhalten als Erkennungszeichen", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Fuchs",
+      "items": ["Geht zum Hühnerstall", "Stellt sich tot", "Dreht sich im Kreis", "Hört Mäuse im Schnee"]
+    },
+    {
+      "id": "group_b",
+      "label": "Biber",
+      "items": ["Fällt Bäume mit Zahn", "Baut Damm im Bach", "Nagespuren am Stamm", "Burg aus Ästen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Eule",
+      "items": ["Kopf dreht fast rum", "Jagt lautlos bei Nacht", "Schläft mit Augen auf", "Kugelt Knochen aus"]
+    },
+    {
+      "id": "group_d",
+      "label": "Ameise",
+      "items": ["Trägt das Fünffache", "Folgt Duftpfad", "Baut unterirdisch", "Melkt Blattläuse"]
+    }
+  ]
+}

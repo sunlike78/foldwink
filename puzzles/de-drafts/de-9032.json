@@ -1,0 +1,28 @@
+{
+  "id": "de-9032",
+  "title": "Was der Himmel ankündigt",
+  "difficulty": "easy",
+  "meta": { "theme": "Jahreszeiten durch Wetterphänomene", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Frühling",
+      "items": ["Erster Schmetterling", "Tau auf dem Gras", "Gewitter am Abend", "Knospen am Ast"]
+    },
+    {
+      "id": "group_b",
+      "label": "Sommer",
+      "items": ["Asphalt flimmert heiß", "Schwüle Nacht", "Gewitter nach Hitze", "Grillen zirpen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Herbst",
+      "items": ["Nebel im Tal", "Kastanien auf dem Weg", "Erster Bodenfrost", "Stare ziehen fort"]
+    },
+    {
+      "id": "group_d",
+      "label": "Winter",
+      "items": ["Raureif am Fenster", "Sturm aus dem Norden", "Atemwolke in der Kälte", "Gefrorener Tümpel"]
+    }
+  ]
+}

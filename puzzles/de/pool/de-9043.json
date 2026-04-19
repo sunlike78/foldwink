@@ -1,0 +1,28 @@
+{
+  "id": "de-9043",
+  "title": "Hafen und Abfahrt",
+  "difficulty": "easy",
+  "meta": { "theme": "Reisemuster verschiedener Passagiere", "batch": "de-batch-12" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Rucksackreisender",
+      "items": ["Hostel über App", "Schlafsack immer dabei", "Ankunftszeit egal", "Budget täglich checken"]
+    },
+    {
+      "id": "group_b",
+      "label": "Geschäftsreisender",
+      "items": ["Handgepäck nur", "Lounge vor Gate", "Handy nie weg", "Rechnung für Firma"]
+    },
+    {
+      "id": "group_c",
+      "label": "Seniorengruppe",
+      "items": ["Bus wartet pünktlich", "Reiseleiter vorneweg", "Mittagessen im Paket", "Koffer trägt Träger"]
+    },
+    {
+      "id": "group_d",
+      "label": "Familie mit Kind",
+      "items": ["Wickelraum gesucht", "Snacks für Weg dabei", "Flug in der Nacht", "Kindersitz im Mietauto"]
+    }
+  ]
+}
