@@ -1,0 +1,12 @@
+{
+  "id": "de-0243",
+  "title": "Musik in Deutschland",
+  "difficulty": "easy",
+  "meta": { "theme": "musik-deutschland", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Klassik-Komponisten", "items": ["Bach", "Beethoven", "Brahms", "Schumann"] },
+    { "id": "group_b", "label": "Deutsche Rock-Künstler", "items": ["Scorpions", "Rammstein", "Die Toten Hosen", "Nena"] },
+    { "id": "group_c", "label": "Deutsche Pop-Künstler", "items": ["Helene Fischer", "Peter Maffay", "Udo Jürgens", "Roland Kaiser"] },
+    { "id": "group_d", "label": "Electronic-Pioniere", "items": ["Kraftwerk", "Tangerine Dream", "Klaus Schulze", "Can"] }
+  ]
+}

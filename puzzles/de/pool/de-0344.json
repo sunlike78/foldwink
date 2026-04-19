@@ -1,0 +1,32 @@
+{
+  "id": "de-0344",
+  "title": "Quantencomputing",
+  "difficulty": "medium",
+  "meta": { "theme": "Quantencomputing", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Quantencomputing-Konzepte",
+      "revealHint": "Grundideen",
+      "items": ["Qubit", "Superposition", "Verschränkung", "Interferenz"]
+    },
+    {
+      "id": "group_b",
+      "label": "Quantenalgorithmen",
+      "revealHint": "Quantenprogramme",
+      "items": ["Shor-Algorithmus", "Grover-Algorithmus", "QAOA", "VQE"]
+    },
+    {
+      "id": "group_c",
+      "label": "Quantenhardware",
+      "revealHint": "Physische Systeme",
+      "items": ["Supraleiter", "Ionenfalle", "Photonik", "Topologisch"]
+    },
+    {
+      "id": "group_d",
+      "label": "Quantenanwendungen",
+      "revealHint": "Einsatzgebiete",
+      "items": ["Kryptografie", "Simulation", "Optimierung", "Maschinelles Lernen"]
+    }
+  ]
+}

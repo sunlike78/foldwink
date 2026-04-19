@@ -1,0 +1,12 @@
+{
+  "id": "ru-0311",
+  "title": "Библейские персонажи",
+  "difficulty": "medium",
+  "meta": { "theme": "Персонажи Библии", "batch": "ru-batch-12" },
+  "groups": [
+    { "id": "old_test_heroes", "label": "Ветхий завет", "revealHint": "ВЕТХИЙ ЗАВЕТ", "items": ["Моисей", "Давид", "Ноя", "Самсон"] },
+    { "id": "new_test_apostles", "label": "Апостолы", "revealHint": "АПОСТОЛЫ", "items": ["Пётр", "Павел", "Иоанн", "Иаков"] },
+    { "id": "bible_women", "label": "Женщины Библии", "revealHint": "ЖЕНЩИНЫ", "items": ["Мария", "Рахиль", "Ребекка", "Эстер"] },
+    { "id": "bible_places", "label": "Места", "revealHint": "МЕСТА", "items": ["Иерусалим", "Вифлеем", "Синай", "Иерихон"] }
+  ]
+}

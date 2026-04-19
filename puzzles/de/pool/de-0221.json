@@ -1,0 +1,12 @@
+{
+  "id": "de-0221",
+  "title": "Grimm-Märchen Figuren",
+  "difficulty": "easy",
+  "meta": { "theme": "grimm-figuren", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Märchen-Prinzessinnen", "items": ["Schneewittchen", "Dornröschen", "Aschenputtel", "Rapunzel"] },
+    { "id": "group_b", "label": "Böse Figuren", "items": ["Böse Hexe", "Stiefmutter", "Wolf", "Rumpelstilzchen"] },
+    { "id": "group_c", "label": "Märchen-Helfer", "items": ["Fee", "Zwerg", "Prinz", "Gute Mutter"] },
+    { "id": "group_d", "label": "Märchen-Tiere", "items": ["Frosch", "Rabe", "Bär", "Fuchs"] }
+  ]
+}

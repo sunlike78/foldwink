@@ -1,0 +1,12 @@
+{
+  "id": "de-0040",
+  "title": "Smartphone",
+  "difficulty": "easy",
+  "meta": { "theme": "Smartphone", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Apps", "items": ["Kamera", "Kalender", "Karten", "Notizen"] },
+    { "id": "group_b", "label": "Funktionen", "items": ["Bluetooth", "WLAN", "NFC", "GPS"] },
+    { "id": "group_c", "label": "Einstellungen", "items": ["Helligkeit", "Klingelton", "Datenschutz", "Akkusparen"] },
+    { "id": "group_d", "label": "Zubehör", "items": ["Hülle", "Ladekabel", "Powerbank", "Headset"] }
+  ]
+}

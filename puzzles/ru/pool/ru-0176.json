@@ -1,0 +1,12 @@
+{
+  "id": "ru-0176",
+  "title": "Технологии",
+  "difficulty": "easy",
+  "meta": { "theme": "Технологии и IT", "batch": "ru-batch-05" },
+  "groups": [
+    { "id": "programming_langs", "label": "Языки программирования", "items": ["Python", "JavaScript", "Java", "C++"] },
+    { "id": "databases", "label": "Базы данных", "items": ["MySQL", "PostgreSQL", "MongoDB", "Redis"] },
+    { "id": "cloud", "label": "Облачные платформы", "items": ["AWS", "Azure", "Google Cloud", "Яндекс Облако"] },
+    { "id": "ai_tools", "label": "ИИ-инструменты", "items": ["ChatGPT", "Midjourney", "Stable Diffusion", "GigaChat"] }
+  ]
+}

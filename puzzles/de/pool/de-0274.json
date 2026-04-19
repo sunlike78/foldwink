@@ -1,0 +1,12 @@
+{
+  "id": "de-0274",
+  "title": "Chemische Industrie",
+  "difficulty": "easy",
+  "meta": { "theme": "chemische-industrie", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Chemie-Unternehmen", "items": ["BASF", "Bayer", "Evonik", "Lanxess"] },
+    { "id": "group_b", "label": "Chemie-Produkte", "items": ["Kunststoff", "Düngemittel", "Lösungsmittel", "Farbstoff"] },
+    { "id": "group_c", "label": "Chemie-Forschung", "items": ["Katalyse", "Polymerforschung", "Nanotechnik", "Biotechnologie"] },
+    { "id": "group_d", "label": "Chemie-Standorte", "items": ["Ludwigshafen", "Leverkusen", "Marl", "Dormagen"] }
+  ]
+}

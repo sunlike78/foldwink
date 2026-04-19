@@ -1,0 +1,12 @@
+{
+  "id": "de-0217",
+  "title": "Rheinland",
+  "difficulty": "easy",
+  "meta": { "theme": "rheinland", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Rheinstädte", "items": ["Köln", "Düsseldorf", "Bonn", "Koblenz"] },
+    { "id": "group_b", "label": "Rheinweine", "items": ["Riesling", "Spätburgunder", "Müller-Thurgau", "Dornfelder"] },
+    { "id": "group_c", "label": "Karneval", "items": ["Dreigestirn", "Alaaf", "Helau", "Rosenmontagszug"] },
+    { "id": "group_d", "label": "Rheinische Küche", "items": ["Sauerbraten", "Himmel un Ääd", "Reibekuchen", "Halver Hahn"] }
+  ]
+}

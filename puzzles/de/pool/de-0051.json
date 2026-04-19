@@ -1,0 +1,12 @@
+{
+  "id": "de-0051",
+  "title": "Weihnachtstraditionen",
+  "difficulty": "easy",
+  "meta": { "theme": "Weihnachtstraditionen", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Adventszeit", "items": ["Adventskalender", "Adventskranz", "Weihnachtsmarkt", "Adventssonntag"] },
+    { "id": "group_b", "label": "Weihnachtsessen", "items": ["Gänsebraten", "Stolen", "Lebkuchen", "Glühwein"] },
+    { "id": "group_c", "label": "Weihnachtsschmuck", "items": ["Christbaumkugel", "Lametta", "Engel", "Stern"] },
+    { "id": "group_d", "label": "Weihnachtsbräuche", "items": ["Geschenke auspacken", "Krippenspiel", "Nikolaustag", "Heiligabend"] }
+  ]
+}

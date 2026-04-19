@@ -1,0 +1,12 @@
+{
+  "id": "de-0090",
+  "title": "Kaffeesorten",
+  "difficulty": "easy",
+  "meta": { "theme": "Kaffeesorten", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Espresso-Varianten", "items": ["Espresso", "Doppio", "Ristretto", "Lungo"] },
+    { "id": "group_b", "label": "Milchkaffee-Varianten", "items": ["Cappuccino", "Latte Macchiato", "Flat White", "Cortado"] },
+    { "id": "group_c", "label": "Zubereitungsarten", "items": ["Siebträger", "Pressstempel", "Pour Over", "Cold Brew"] },
+    { "id": "group_d", "label": "Kaffee-Anbaugebiete", "items": ["Äthiopien", "Brasilien", "Kolumbien", "Jamaica"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0446",
+  "title": "Dada und Surrealismus",
+  "difficulty": "medium",
+  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Dada-Künstler", "revealHint": "Anti-Kunst", "items": ["Hugo Ball", "Marcel Duchamp", "Hannah Höch", "Richard Huelsenbeck"] },
+    { "id": "group_b", "label": "Surrealisten", "revealHint": "Traumlogik", "items": ["Salvador Dalí", "Magritte", "Max Ernst", "Frida Kahlo"] },
+    { "id": "group_c", "label": "Dada-Techniken", "revealHint": "Methoden", "items": ["Fotomontage", "Readymade", "Lautgedicht", "Zufallscollage"] },
+    { "id": "group_d", "label": "Surrealist.-Techniken", "revealHint": "Unbewusstes", "items": ["Automat. Schreiben", "Écriture automatique", "Traumprotokoll", "Grattage"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0260",
+  "title": "Jugendstil",
+  "difficulty": "easy",
+  "meta": { "theme": "jugendstil", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Jugendstil-Bauten", "items": ["Elvira Atelier", "Müllersches Volksbad", "Villa Stuck", "AEG-Turbinenhalle"] },
+    { "id": "group_b", "label": "Jugendstil-Kunsthandwerk", "items": ["Tiffany-Lampe", "Zinnvase", "Keramikfliesen", "Emailschmuck"] },
+    { "id": "group_c", "label": "Jugendstil-Maler", "items": ["Gustav Klimt", "Egon Schiele", "Franz von Stuck", "Jan Toorop"] },
+    { "id": "group_d", "label": "Jugendstil-Merkmale", "items": ["Pflanzenmotive", "Ornamentik", "Schwunglinien", "Frauenfiguren"] }
+  ]
+}

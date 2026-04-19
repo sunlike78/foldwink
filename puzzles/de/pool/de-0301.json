@@ -1,0 +1,32 @@
+{
+  "id": "de-0301",
+  "title": "Doppeldeutige Wörter",
+  "difficulty": "medium",
+  "meta": { "theme": "Doppeldeutigkeit", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Tier UND Sitzgelegenheit",
+      "revealHint": "Sitz oder Tier?",
+      "items": ["Bank", "Sessel", "Bock", "Hocker"]
+    },
+    {
+      "id": "group_b",
+      "label": "Tier UND Haushaltsgerät",
+      "revealHint": "Gerät oder Tier?",
+      "items": ["Maus", "Hahn", "Hammer", "Falke"]
+    },
+    {
+      "id": "group_c",
+      "label": "Tier UND schlaue Person",
+      "revealHint": "Tier oder Mensch?",
+      "items": ["Fuchs", "Adler", "Luchs", "Rabe"]
+    },
+    {
+      "id": "group_d",
+      "label": "Tier UND Fluss",
+      "revealHint": "Wasser oder Tier?",
+      "items": ["Otter", "Hecht", "Lachs", "Elster"]
+    }
+  ]
+}

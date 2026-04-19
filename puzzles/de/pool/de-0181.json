@@ -1,0 +1,12 @@
+{
+  "id": "de-0181",
+  "title": "Naturphänomene",
+  "difficulty": "easy",
+  "meta": { "theme": "Natur", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Vulkane", "items": ["Vesuv", "Ätna", "Krakatau", "Pinatubo"] },
+    { "id": "group_b", "label": "Erdbeben", "items": ["Epizentrum", "Richter-Skala", "Nachbeben", "Verwerfung"] },
+    { "id": "group_c", "label": "Tsunamis", "items": ["Tiefseebeben", "Wellenhöhe", "Flutwelle", "Warnsystem"] },
+    { "id": "group_d", "label": "Tornados", "items": ["Trichter", "Alley", "Windstärke", "Superzelle"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0486",
+  "title": "Robotik und Automatisierung",
+  "difficulty": "medium",
+  "meta": { "theme": "technologie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Roboter-Typen", "revealHint": "Verschiedene Arten", "items": ["Industrieroboter", "Serviceroboter", "Kollaborat. Roboter", "Soft Robot"] },
+    { "id": "group_b", "label": "Robotik-Felder", "revealHint": "Einsatzbereiche", "items": ["Automobilfertigung", "Chirurgie", "Pflege", "Landwirtschaft"] },
+    { "id": "group_c", "label": "Robotik-Begriffe", "revealHint": "Fachvokabular", "items": ["Aktuator", "Sensorik", "Greifer", "Teach-in"] },
+    { "id": "group_d", "label": "Robotik-Hersteller", "revealHint": "Firmen & Marken", "items": ["KUKA", "Fanuc", "ABB", "Boston Dynamics"] }
+  ]
+}

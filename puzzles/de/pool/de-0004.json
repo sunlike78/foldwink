@@ -1,0 +1,12 @@
+{
+  "id": "de-0004",
+  "title": "Gemüse aus dem Garten",
+  "difficulty": "easy",
+  "meta": { "theme": "Gemüse", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Wurzelgemüse", "items": ["Karotte", "Rübe", "Sellerie", "Pastinake"] },
+    { "id": "group_b", "label": "Blattgemüse", "items": ["Spinat", "Salat", "Mangold", "Feldsalat"] },
+    { "id": "group_c", "label": "Fruchtgemüse", "items": ["Tomate", "Paprika", "Aubergine", "Zucchini"] },
+    { "id": "group_d", "label": "Kohlarten", "items": ["Brokkoli", "Blumenkohl", "Rotkohl", "Grünkohl"] }
+  ]
+}

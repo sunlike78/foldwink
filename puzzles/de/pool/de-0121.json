@@ -1,0 +1,12 @@
+{
+  "id": "de-0121",
+  "title": "Spielzeug und Kindheit",
+  "difficulty": "easy",
+  "meta": { "theme": "Kindheit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Klassisches Spielzeug", "items": ["Teddybär", "Puppe", "Kreisel", "Murmeln"] },
+    { "id": "group_b", "label": "Brettspiele", "items": ["Mensch ärgere dich", "Monopoly", "Scrabble", "Cluedo"] },
+    { "id": "group_c", "label": "Outdoor-Spielzeug", "items": ["Schaukel", "Rutsche", "Klettergerüst", "Sandkasten"] },
+    { "id": "group_d", "label": "Kreativspielzeug", "items": ["Knete", "Malsachen", "Lego", "Puzzles"] }
+  ]
+}

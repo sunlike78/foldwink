@@ -1,0 +1,55 @@
+{
+  "id": "de-0348",
+  "title": "Kosmologie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Kosmologie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Universum-Konzepte",
+      "revealHint": "Großes Ganzes",
+      "items": [
+        "Urknall",
+        "Inflation",
+        "Kosmische Expansion",
+        "Singularität"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Dunkle Materie Konzepte",
+      "revealHint": "Unsichtbare Masse",
+      "items": [
+        "WIMP",
+        "Axion",
+        "Dunkle Energie",
+        "Gravitationslinse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Schwarze Löcher",
+      "revealHint": "Gravitationsextrem",
+      "items": [
+        "Ereignishorizont",
+        "Gezeiteneffekt",
+        "Hawking-Strahlung",
+        "Ergosphäre"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Multiversum-Konzepte",
+      "revealHint": "Viele Universen",
+      "items": [
+        "Paralleluniversum",
+        "Blasenuniversum",
+        "Viele Welten",
+        "Branen"
+      ]
+    }
+  ]
+}

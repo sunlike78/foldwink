@@ -1,0 +1,32 @@
+{
+  "id": "de-0359",
+  "title": "Komponisten nach Stil",
+  "difficulty": "medium",
+  "meta": { "theme": "Komponisten", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Barockkomponisten",
+      "revealHint": "1600–1750",
+      "items": ["Bach", "Händel", "Telemann", "Vivaldi"]
+    },
+    {
+      "id": "group_b",
+      "label": "Klassikkomponisten",
+      "revealHint": "1750–1820",
+      "items": ["Mozart", "Haydn", "Beethoven", "Clementi"]
+    },
+    {
+      "id": "group_c",
+      "label": "Romantikkomponisten",
+      "revealHint": "1820–1900",
+      "items": ["Brahms", "Schubert", "Schumann", "Wagner"]
+    },
+    {
+      "id": "group_d",
+      "label": "Moderne Komponisten",
+      "revealHint": "Nach 1900",
+      "items": ["Schönberg", "Strawinsky", "Bartók", "Stockhausen"]
+    }
+  ]
+}

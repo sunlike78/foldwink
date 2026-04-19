@@ -1,0 +1,12 @@
+{
+  "id": "de-0081",
+  "title": "Deutsche Schlösser",
+  "difficulty": "easy",
+  "meta": { "theme": "Deutsche Schlösser", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Bayerische Schlösser", "items": ["Neuschwanstein", "Herrenchiemsee", "Linderhof", "Nymphenburg"] },
+    { "id": "group_b", "label": "Rheinschlösser", "items": ["Rheinfels", "Marksburg", "Stolzenfels", "Pfalzgrafenstein"] },
+    { "id": "group_c", "label": "Norddeutsche Schlösser", "items": ["Schwerin", "Glücksburg", "Eutin", "Gottorf"] },
+    { "id": "group_d", "label": "Thüringische Schlösser", "items": ["Wartburg", "Weimar Residenz", "Heidecksburg", "Friedenstein"] }
+  ]
+}

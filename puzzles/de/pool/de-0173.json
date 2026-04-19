@@ -1,0 +1,12 @@
+{
+  "id": "de-0173",
+  "title": "EU-Mitgliedsstaaten",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Gründungsmitglieder 1957", "items": ["Deutschland", "Frankreich", "Italien", "Belgien"] },
+    { "id": "group_b", "label": "Beitritt 1973–1995", "items": ["Dänemark", "Irland", "Griechenland", "Österreich"] },
+    { "id": "group_c", "label": "Beitritt 2004–2007", "items": ["Polen", "Tschechien", "Ungarn", "Rumänien"] },
+    { "id": "group_d", "label": "Beitritt 2013", "items": ["Kroatien", "Slowenien", "Bulgarien", "Malta"] }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0399",
+  "title": "Zellbiologie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Zellbiologie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Zellorganellen",
+      "revealHint": "Organellen",
+      "items": [
+        "Mitochondrium",
+        "Ribosom",
+        "Chloroplast",
+        "Golgi-Apparat"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Zellprozesse",
+      "revealHint": "Zellvorgänge",
+      "items": [
+        "Mitose",
+        "Meiose",
+        "Apoptose",
+        "Autophagie"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Zellmembran-Begriffe",
+      "revealHint": "Zellhülle",
+      "items": [
+        "Lipiddoppelschicht",
+        "Endozytose",
+        "Osmose",
+        "Ionenkanal"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Zellteilung-Phasen",
+      "revealHint": "Phasen der Mitose",
+      "items": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ]
+    }
+  ]
+}

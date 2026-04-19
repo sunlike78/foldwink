@@ -1,0 +1,12 @@
+{
+  "id": "de-0085",
+  "title": "Nordseeküste",
+  "difficulty": "easy",
+  "meta": { "theme": "Nordseeküste", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Nordseeinseln", "items": ["Sylt", "Föhr", "Amrum", "Borkum"] },
+    { "id": "group_b", "label": "Nordseetiere", "items": ["Seehund", "Kegelrobbe", "Austernfischer", "Basstölpel"] },
+    { "id": "group_c", "label": "Nordseegerichte", "items": ["Matjes", "Krabbenbrötchen", "Muscheln", "Räucherfisch"] },
+    { "id": "group_d", "label": "Nordsee-Aktivitäten", "items": ["Wattwandern", "Windsurfen", "Strandkorb", "Küstenwandern"] }
+  ]
+}

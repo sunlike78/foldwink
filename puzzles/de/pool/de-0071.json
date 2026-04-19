@@ -1,0 +1,12 @@
+{
+  "id": "de-0071",
+  "title": "Im Supermarkt",
+  "difficulty": "easy",
+  "meta": { "theme": "Supermarkt", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Frischeabteilung", "items": ["Obst", "Gemüse", "Fleisch", "Backwaren"] },
+    { "id": "group_b", "label": "Konserven", "items": ["Dosengemüse", "Tomatenmark", "Thunfisch", "Suppe"] },
+    { "id": "group_c", "label": "Tiefkühlprodukte", "items": ["Tiefkühlpizza", "Eis", "Fischstäbchen", "Gemüsemix"] },
+    { "id": "group_d", "label": "Non-Food", "items": ["Waschmittel", "Shampoo", "Taschentücher", "Glühbirne"] }
+  ]
+}

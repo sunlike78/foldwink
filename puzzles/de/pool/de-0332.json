@@ -1,0 +1,55 @@
+{
+  "id": "de-0332",
+  "title": "Chemische Reaktionstypen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Chemie Reaktionen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Verbrennungsreaktion",
+      "revealHint": "Feuer/Sauerstoff",
+      "items": [
+        "Oxidation",
+        "Exotherm",
+        "Flammpunkt",
+        "Rauchgase"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Säure-Base-Reaktion",
+      "revealHint": "pH-Wert Reaktion",
+      "items": [
+        "Neutralisation",
+        "Protonentransfer",
+        "Puffer",
+        "Titration"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Redoxreaktion",
+      "revealHint": "Elektronen wandern",
+      "items": [
+        "Reduktion",
+        "Oxidationsmittel",
+        "Galvanisch",
+        "Elektrolyse"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Fällungsreaktion",
+      "revealHint": "Feststoff entsteht",
+      "items": [
+        "Präzipitat",
+        "Löslichkeit",
+        "Ionenverbindung",
+        "Kristallisation"
+      ]
+    }
+  ]
+}

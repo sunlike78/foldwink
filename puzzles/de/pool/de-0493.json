@@ -1,0 +1,12 @@
+{
+  "id": "de-0493",
+  "title": "Exoplaneten",
+  "difficulty": "medium",
+  "meta": { "theme": "astronomie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Exoplaneten-Typen", "revealHint": "Planetenkategorien", "items": ["Heiße Jupiter", "Super-Erde", "Mini-Neptun", "Ozeanplanet"] },
+    { "id": "group_b", "label": "Entdeckungsmethoden", "revealHint": "Wie man sie findet", "items": ["Transitmethode", "Radialgeschw.-Methode", "Direktabbildung", "Gravitationslinse"] },
+    { "id": "group_c", "label": "Bekannte Exoplaneten", "revealHint": "Berühmte Objekte", "items": ["51 Pegasi b", "Kepler-452b", "Proxima Centauri b", "TRAPPIST-1e"] },
+    { "id": "group_d", "label": "Exoplaneten-Begriffe", "revealHint": "Fachvokabular", "items": ["Habitabilit. Zone", "Albedo", "Transit-Tiefe", "Radialgeschwindigkeit"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ru-0177",
+  "title": "Мобильные приложения",
+  "difficulty": "easy",
+  "meta": { "theme": "Приложения и соцсети", "batch": "ru-batch-05" },
+  "groups": [
+    { "id": "social_ru", "label": "Российские соцсети", "items": ["ВКонтакте", "Одноклассники", "TenChat", "Яндекс Дзен"] },
+    { "id": "messengers", "label": "Мессенджеры", "items": ["WhatsApp", "Telegram", "Viber", "Signal"] },
+    { "id": "video", "label": "Видеоплатформы", "items": ["YouTube", "TikTok", "RuTube", "VK Видео"] },
+    { "id": "delivery_apps", "label": "Доставка и такси", "items": ["Яндекс Такси", "Самокат", "Яндекс Еда", "Delivery Club"] }
+  ]
+}

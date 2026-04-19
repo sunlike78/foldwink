@@ -1,0 +1,12 @@
+{
+  "id": "de-0074",
+  "title": "Im Krankenhaus",
+  "difficulty": "easy",
+  "meta": { "theme": "Krankenhaus", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Krankenhausstationen", "items": ["Notaufnahme", "Intensivstation", "Chirurgie", "Gynäkologie"] },
+    { "id": "group_b", "label": "Krankenhauspersonal", "items": ["Chirurg", "Pflegerin", "Anästhesist", "Physiotherapeut"] },
+    { "id": "group_c", "label": "Medizingeräte", "items": ["MRT", "Röntgen", "EKG", "Ultraschall"] },
+    { "id": "group_d", "label": "Behandlungen", "items": ["Operation", "Dialyse", "Chemotherapie", "Strahlentherapie"] }
+  ]
+}

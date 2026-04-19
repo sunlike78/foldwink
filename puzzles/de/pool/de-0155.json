@@ -1,0 +1,12 @@
+{
+  "id": "de-0155",
+  "title": "Krankheiten und Beschwerden",
+  "difficulty": "easy",
+  "meta": { "theme": "Gesundheit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Erkältungssymptome", "items": ["Husten", "Schnupfen", "Halsschmerzen", "Fieber"] },
+    { "id": "group_b", "label": "Verdauungsbeschwerden", "items": ["Blähungen", "Sodbrennen", "Übelkeit", "Verstopfung"] },
+    { "id": "group_c", "label": "Herzprobleme", "items": ["Herzrasen", "Bluthochdruck", "Angina", "Arrhythmie"] },
+    { "id": "group_d", "label": "Gelenkbeschwerden", "items": ["Arthrose", "Arthritis", "Gicht", "Rheuma"] }
+  ]
+}

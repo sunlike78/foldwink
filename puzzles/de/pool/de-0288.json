@@ -1,0 +1,12 @@
+{
+  "id": "de-0288",
+  "title": "Deutsche Parteien",
+  "difficulty": "easy",
+  "meta": { "theme": "parteien", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Parteiprogramme", "items": ["Marktwirtschaft", "Soziale Gerechtigkeit", "Klimaschutz", "Freiheit"] },
+    { "id": "group_b", "label": "Parteien-Geschichte", "items": ["Gründung CDU", "SPD-Godesberger", "Grüne 1980", "FDP-Neoliberalismus"] },
+    { "id": "group_c", "label": "Parteivorsitzende", "items": ["Friedrich Merz", "Olaf Scholz", "Robert Habeck", "Christian Lindner"] },
+    { "id": "group_d", "label": "Regierungskoalitionen", "items": ["Große Koalition", "Ampelkoalition", "Jamaika", "Rot-Grün"] }
+  ]
+}

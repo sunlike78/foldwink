@@ -1,0 +1,55 @@
+{
+  "id": "de-0302",
+  "title": "Berufe im Volksmund",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Umgangssprache Berufe",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Umgangssprachlich: Arzt",
+      "revealHint": "Heilt Menschen",
+      "items": [
+        "Doktor",
+        "Knochenbrecher",
+        "Weißkittel",
+        "Quacksalber"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Umgangssprachlich: Polizist",
+      "revealHint": "Hütet das Gesetz",
+      "items": [
+        "Bulle",
+        "Wachmann",
+        "Schutzi",
+        "Schutzmann"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Umgangssprachlich: Lehrer",
+      "revealHint": "Im Klassenzimmer",
+      "items": [
+        "Pauker",
+        "Bücherwurm",
+        "Schulmeister",
+        "Pädagoge"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Umgangssprachlich: Anwalt",
+      "revealHint": "Vor dem Gericht",
+      "items": [
+        "Winkeladvokat",
+        "Paragrafenreiter",
+        "Rechtsverdreher",
+        "Jurist"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0067",
+  "title": "Schmuck",
+  "difficulty": "easy",
+  "meta": { "theme": "Schmuck", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Edelmetalle", "items": ["Gold", "Silber", "Platin", "Weißgold"] },
+    { "id": "group_b", "label": "Edelsteine", "items": ["Diamant", "Rubin", "Smaragd", "Saphir"] },
+    { "id": "group_c", "label": "Schmuckarten", "items": ["Ring", "Ohrringe", "Armreif", "Brosche"] },
+    { "id": "group_d", "label": "Schmucktechniken", "items": ["Gravur", "Emaille", "Filigran", "Vergoldung"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0445",
+  "title": "Expressionismus",
+  "difficulty": "medium",
+  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Expressionis.-Maler", "revealHint": "Farbe & Emotion", "items": ["Kirchner", "Nolde", "Beckmann", "Kokoschka"] },
+    { "id": "group_b", "label": "Expressionis.-Autoren", "revealHint": "Seele & Schrei", "items": ["Trakl", "Heym", "Benn", "Toller"] },
+    { "id": "group_c", "label": "Expressionis.-Merkmale", "revealHint": "Stilkennzeichen", "items": ["Verzerrung", "Leuchtende Farben", "Innenleben sichtbar", "Städtische Angst"] },
+    { "id": "group_d", "label": "Expressionis.-Werke", "revealHint": "Bekannte Bilder", "items": ["Der Schrei", "Brücke Straßenszene", "Verkündigung", "Mann und Frau"] }
+  ]
+}

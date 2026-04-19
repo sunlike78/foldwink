@@ -1,0 +1,55 @@
+{
+  "id": "de-0352",
+  "title": "Deutsche Filmgeschichte",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Deutscher Film",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Stummfilme Meisterwerke",
+      "revealHint": "Ohne Ton",
+      "items": [
+        "Nosferatu",
+        "Metropolis",
+        "Der Golem",
+        "Das Cabinet"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Expressionistisch",
+      "revealHint": "Verzerrte Realität",
+      "items": [
+        "Caligari",
+        "Schatten",
+        "Wachsfigurenkab.",
+        "Der müde Tod"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Nachkriegsfilm",
+      "revealHint": "Nach 1945",
+      "items": [
+        "Die Mörder",
+        "Rosen für Pros.",
+        "Unter den Brücken",
+        "Irgendwo Berlin"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Neues Deutsches Kino",
+      "revealHint": "1960er–1970er",
+      "items": [
+        "Angst essen Seele",
+        "Die Ehe der Maria",
+        "Aguirre",
+        "Nosferatu 1979"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0061",
+  "title": "Gesunde Ernährung",
+  "difficulty": "easy",
+  "meta": { "theme": "Ernährung gesund", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Vitamine", "items": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B12"] },
+    { "id": "group_b", "label": "Mineralien", "items": ["Kalzium", "Magnesium", "Eisen", "Zink"] },
+    { "id": "group_c", "label": "Lebensmittelgruppen", "items": ["Getreide", "Hülsenfrüchte", "Nüsse", "Milchprodukte"] },
+    { "id": "group_d", "label": "Diätformen", "items": ["Vegan", "Vegetarisch", "Low Carb", "Mediterran"] }
+  ]
+}

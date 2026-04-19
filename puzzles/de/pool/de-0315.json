@@ -1,0 +1,55 @@
+{
+  "id": "de-0315",
+  "title": "Nietzsche-Konzepte",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Nietzsche",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Nietzsche Hauptwerke",
+      "revealHint": "Bekannte Bücher",
+      "items": [
+        "Also sprach Zarathus.",
+        "Jenseits von Gut",
+        "Geburt Tragödie",
+        "Ecce Homo"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nietzsche Kernbegriffe",
+      "revealHint": "Philos. Ideen",
+      "items": [
+        "Übermensch",
+        "Wille zur Macht",
+        "Ewige Wiederkehr",
+        "Nihilismus"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Nietzsche Figuren",
+      "revealHint": "Literar. Gestalten",
+      "items": [
+        "Zarathustra",
+        "Dionysos",
+        "Apollon",
+        "Letzte Mensch"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Nietzsche Aphorismenthemen",
+      "revealHint": "Kurze Gedanken",
+      "items": [
+        "Moral",
+        "Wahrheit",
+        "Kunst",
+        "Religion"
+      ]
+    }
+  ]
+}

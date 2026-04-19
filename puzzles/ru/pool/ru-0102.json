@@ -1,0 +1,12 @@
+{
+  "id": "ru-0102",
+  "title": "Игровые приставки",
+  "difficulty": "easy",
+  "meta": { "theme": "Игровые консоли", "batch": "ru-batch-02" },
+  "groups": [
+    { "id": "sony", "label": "Sony", "items": ["PlayStation 1", "PlayStation 5", "PS Vita", "PSP"] },
+    { "id": "nintendo", "label": "Nintendo", "items": ["Game Boy", "Nintendo DS", "Wii", "Switch"] },
+    { "id": "microsoft", "label": "Microsoft", "items": ["Xbox", "Xbox 360", "Xbox One", "Series X"] },
+    { "id": "sega", "label": "Sega", "items": ["Mega Drive", "Dreamcast", "Saturn", "Game Gear"] }
+  ]
+}

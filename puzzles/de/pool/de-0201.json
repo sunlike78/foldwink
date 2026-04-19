@@ -1,0 +1,12 @@
+{
+  "id": "de-0201",
+  "title": "Deutsche Reformation",
+  "difficulty": "easy",
+  "meta": { "theme": "reformation", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Luther-Schriften", "items": ["95 Thesen", "Kleiner Katechismus", "An den Adel", "Kirchenpostille"] },
+    { "id": "group_b", "label": "Reformatoren", "items": ["Zwingli", "Calvin", "Melanchthon", "Müntzer"] },
+    { "id": "group_c", "label": "Reformations-Orte", "items": ["Wittenberg", "Zürich", "Genf", "Augsburg"] },
+    { "id": "group_d", "label": "Frühe Kirchenbegriffe", "items": ["Ablass", "Buße", "Sakrament", "Priester"] }
+  ]
+}

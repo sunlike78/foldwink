@@ -1,0 +1,32 @@
+{
+  "id": "de-0402",
+  "title": "Synonyme trickreich",
+  "difficulty": "medium",
+  "meta": { "theme": "Synonyme", "batch": "de-batch-05" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Synonyme für schön",
+      "revealHint": "Bedeutet schön",
+      "items": ["hübsch", "anmutig", "reizend", "wunderschön"]
+    },
+    {
+      "id": "group_b",
+      "label": "Synonyme für schnell",
+      "revealHint": "Bedeutet schnell",
+      "items": ["flink", "rasch", "hurtig", "zügig"]
+    },
+    {
+      "id": "group_c",
+      "label": "Synonyme für alt",
+      "revealHint": "Bedeutet alt",
+      "items": ["betagt", "uralt", "veraltet", "ehrwürdig"]
+    },
+    {
+      "id": "group_d",
+      "label": "Synonyme für klein",
+      "revealHint": "Bedeutet klein",
+      "items": ["winzig", "zierlich", "gering", "minimal"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "de-0401",
+  "title": "Wörter mit Kopf, Hand, Baum, Haus",
+  "difficulty": "medium",
+  "meta": { "theme": "Komposita", "batch": "de-batch-05" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Kopf___",
+      "revealHint": "Beginnt mit Kopf",
+      "items": ["Kopfschmerz", "Kopfkissen", "Kopfhörer", "Kopfstand"]
+    },
+    {
+      "id": "group_b",
+      "label": "___baum",
+      "revealHint": "Endet auf -baum",
+      "items": ["Apfelbaum", "Birkenbaum", "Weihnachtsbaum", "Nussbaum"]
+    },
+    {
+      "id": "group_c",
+      "label": "Hand___",
+      "revealHint": "Beginnt mit Hand",
+      "items": ["Handschuh", "Handtuch", "Handwerk", "Handbuch"]
+    },
+    {
+      "id": "group_d",
+      "label": "___haus",
+      "revealHint": "Endet auf -haus",
+      "items": ["Rathaus", "Krankenhaus", "Kaufhaus", "Gewächshaus"]
+    }
+  ]
+}

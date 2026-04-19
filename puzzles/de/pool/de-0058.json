@@ -1,0 +1,12 @@
+{
+  "id": "de-0058",
+  "title": "Hafen und Schifffahrt",
+  "difficulty": "easy",
+  "meta": { "theme": "Hafen und Schifffahrt", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Schiffstypen", "items": ["Containerschiff", "Kreuzfahrtschiff", "Tanker", "Fregatte"] },
+    { "id": "group_b", "label": "Besatzung", "items": ["Kapitän", "Steuermann", "Matrose", "Lotse"] },
+    { "id": "group_c", "label": "Navigation", "items": ["Kompass", "Sextant", "Radar", "Seekarte"] },
+    { "id": "group_d", "label": "Frachtbegriffe", "items": ["Container", "Manifest", "Laderaum", "Kran"] }
+  ]
+}

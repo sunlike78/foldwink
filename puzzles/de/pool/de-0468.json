@@ -1,0 +1,12 @@
+{
+  "id": "de-0468",
+  "title": "Traditionelle Chinesische Medizin",
+  "difficulty": "medium",
+  "meta": { "theme": "medizin", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "TCM-Konzepte", "revealHint": "Grundlegende Ideen", "items": ["Qi", "Yin und Yang", "Fünf Wandlungsphasen", "Leere und Fülle"] },
+    { "id": "group_b", "label": "TCM-Methoden", "revealHint": "Behandlungsformen", "items": ["Akupunktur", "Tuina-Massage", "Moxibustion", "Schröpfen"] },
+    { "id": "group_c", "label": "TCM-Heilpflanzen", "revealHint": "Chin. Kräuter", "items": ["Ginseng", "Angelika", "Astragalus", "Schisandra"] },
+    { "id": "group_d", "label": "Meridiane", "revealHint": "Energiebahnen", "items": ["Lungen-Meridian", "Herz-Meridian", "Leber-Meridian", "Nieren-Meridian"] }
+  ]
+}

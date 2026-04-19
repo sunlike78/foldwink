@@ -1,0 +1,32 @@
+{
+  "id": "de-0358",
+  "title": "Elektronische Musikgenres",
+  "difficulty": "medium",
+  "meta": { "theme": "Elektronische Musik", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Techno-Merkmale",
+      "revealHint": "Maschineller Beat",
+      "items": ["120–150 BPM", "Detroit", "Four-on-Floor", "Puls-Bass"]
+    },
+    {
+      "id": "group_b",
+      "label": "House-Merkmale",
+      "revealHint": "Chicago-Sound",
+      "items": ["Hi-Hat", "Chicago", "Piano-Riff", "Offbeat-Bass"]
+    },
+    {
+      "id": "group_c",
+      "label": "Ambient-Merkmale",
+      "revealHint": "Klangatmosphäre",
+      "items": ["Brian Eno", "Texturen", "Slow Tempo", "Raumklang"]
+    },
+    {
+      "id": "group_d",
+      "label": "Drum and Bass Merkmale",
+      "revealHint": "Schnelle Drums",
+      "items": ["160–180 BPM", "Amen Break", "Jungle", "Sub-Bass"]
+    }
+  ]
+}

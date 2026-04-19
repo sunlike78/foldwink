@@ -1,0 +1,12 @@
+{
+  "id": "de-0099",
+  "title": "Römer in Deutschland",
+  "difficulty": "easy",
+  "meta": { "theme": "Römisches Reich in Deutschland", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Römer-Städte", "items": ["Köln", "Trier", "Mainz", "Regensburg"] },
+    { "id": "group_b", "label": "Römische Bauten", "items": ["Limes", "Porta Nigra", "Amphitheater", "Aquädukt"] },
+    { "id": "group_c", "label": "Römische Legionen", "items": ["Legio I", "Legio XIV", "Legio XXI", "Legio VIII"] },
+    { "id": "group_d", "label": "Röm. Alltagsgegenstände", "items": ["Fibel", "Amphore", "Öllampe", "Münze"] }
+  ]
+}

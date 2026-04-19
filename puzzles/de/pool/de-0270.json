@@ -1,0 +1,12 @@
+{
+  "id": "de-0270",
+  "title": "Buchbinderei und Papier",
+  "difficulty": "easy",
+  "meta": { "theme": "buchbinderei", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Buchbinderei-Techniken", "items": ["Fadenheftung", "Klebebindung", "Rückenbeschriftung", "Buchblock"] },
+    { "id": "group_b", "label": "Papierarten", "items": ["Hadernpapier", "Büttenpapier", "Seidenpapier", "Karton"] },
+    { "id": "group_c", "label": "Buchformen", "items": ["Codex", "Leporello", "Broschur", "Prachtband"] },
+    { "id": "group_d", "label": "Buchbinderei-Berufe", "items": ["Buchbinder", "Setzer", "Drucker", "Papiermacher"] }
+  ]
+}

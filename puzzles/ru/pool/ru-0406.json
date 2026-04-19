@@ -1,0 +1,12 @@
+{
+  "id": "ru-0406",
+  "title": "Тропические болезни",
+  "difficulty": "medium",
+  "meta": { "theme": "Инфекционные и тропические болезни", "batch": "ru-batch-17" },
+  "groups": [
+    { "id": "vector_diseases", "label": "Передаваемые насекомыми", "revealHint": "НАСЕКОМЫЕ", "items": ["Малярия", "Лихорадка денге", "Жёлтая лихорадка", "Болезнь Чагаса"] },
+    { "id": "water_diseases", "label": "Водные инфекции", "revealHint": "ВОДА", "items": ["Холера", "Брюшной тиф", "Гепатит A", "Шистосомоз"] },
+    { "id": "contact_diseases", "label": "Контактные", "revealHint": "КОНТАКТ", "items": ["Лепра", "Оспа обезьян", "Лейшманиоз", "Онхоцеркоз"] },
+    { "id": "respiratory_diseases", "label": "Респираторные", "revealHint": "ДЫХАНИЕ", "items": ["Туберкулёз", "COVID-19", "MERS", "SARS"] }
+  ]
+}

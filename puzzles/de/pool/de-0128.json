@@ -1,0 +1,12 @@
+{
+  "id": "de-0128",
+  "title": "Imkerei und Bienen",
+  "difficulty": "easy",
+  "meta": { "theme": "Natur", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Bienenarten", "items": ["Honigbiene", "Hummel", "Mauerbiene", "Hosenbiene"] },
+    { "id": "group_b", "label": "Bienenprodukte", "items": ["Honig", "Bienenwachs", "Propolis", "Gelee Royale"] },
+    { "id": "group_c", "label": "Imker-Ausrüstung", "items": ["Schutzanzug", "Smoker", "Stockmeißel", "Wabenheber"] },
+    { "id": "group_d", "label": "Bienenverhalten", "items": ["Schwärmen", "Tänze", "Bestäuben", "Einwintern"] }
+  ]
+}

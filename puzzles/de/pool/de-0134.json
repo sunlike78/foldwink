@@ -1,0 +1,12 @@
+{
+  "id": "de-0134",
+  "title": "Schwimmen und Wassersport",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Schwimmstile", "items": ["Brustschwimmen", "Kraulen", "Rückenschwimmen", "Schmetterling"] },
+    { "id": "group_b", "label": "Geräte", "items": ["Schwimmbrille", "Badekappe", "Flossen", "Schwimmbrett"] },
+    { "id": "group_c", "label": "Wettkämpfe", "items": ["Freistil", "Staffel", "Wasserball", "Synchronschwimmen"] },
+    { "id": "group_d", "label": "Wassersicherheit", "items": ["Rettungsring", "Schwimmweste", "Badeaufsicht", "Notruf"] }
+  ]
+}

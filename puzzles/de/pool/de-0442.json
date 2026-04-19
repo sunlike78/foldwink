@@ -1,0 +1,12 @@
+{
+  "id": "de-0442",
+  "title": "Aufklärung",
+  "difficulty": "medium",
+  "meta": { "theme": "philosophie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Aufklärungs-Denker", "revealHint": "Vernunft & Licht", "items": ["Voltaire", "Rousseau", "Kant", "Diderot"] },
+    { "id": "group_b", "label": "Aufklärungs-Ideen", "revealHint": "Neue Gedanken", "items": ["Gewaltenteilung", "Naturrechte", "Gesellschaftsvertrag", "Religionskritik"] },
+    { "id": "group_c", "label": "Aufklärungs-Werke", "revealHint": "Bücher & Schriften", "items": ["Encyclopédie", "Emile", "Kritik der Vernunft", "Candide"] },
+    { "id": "group_d", "label": "Aufklärungs-Ereignisse", "revealHint": "Geschichte", "items": ["Frz. Revolution", "Amerikanische Unabh.", "Preußische Reformen", "Abschaffung Zensur"] }
+  ]
+}

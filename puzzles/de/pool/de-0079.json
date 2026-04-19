@@ -1,0 +1,12 @@
+{
+  "id": "de-0079",
+  "title": "Programmierung",
+  "difficulty": "easy",
+  "meta": { "theme": "Programmierung", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Programmiersprachen", "items": ["Python", "JavaScript", "Java", "C++"] },
+    { "id": "group_b", "label": "Programmierkonzepte", "items": ["Schleife", "Variable", "Funktion", "Klasse"] },
+    { "id": "group_c", "label": "Entwicklerwerkzeuge", "items": ["IDE", "Git", "Terminal", "Debugger"] },
+    { "id": "group_d", "label": "Datenbankbegriffe", "items": ["Tabelle", "Abfrage", "Index", "Schlüssel"] }
+  ]
+}

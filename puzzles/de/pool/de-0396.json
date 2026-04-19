@@ -1,0 +1,55 @@
+{
+  "id": "de-0396",
+  "title": "Epidemiologie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Epidemiologie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Epidemiologie-Begriffe",
+      "revealHint": "Grundvokabular",
+      "items": [
+        "Inzidenz",
+        "Prävalenz",
+        "Mortalität",
+        "Reproduktionszahl"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Seuchenmaßnahmen",
+      "revealHint": "Ausbreitung hemmen",
+      "items": [
+        "Quarantäne",
+        "Lockdown",
+        "Impfpflicht",
+        "Kontaktverfolgung"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Studienmethoden",
+      "revealHint": "Forschungsdesigns",
+      "items": [
+        "Kohortenstudie",
+        "Fall-Kontroll",
+        "RCT",
+        "Meta-Analyse"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bekannte Seuchen",
+      "revealHint": "Bekannte Seuchen",
+      "items": [
+        "Spanische Grippe",
+        "Cholera 1831",
+        "HIV/AIDS",
+        "COVID-19"
+      ]
+    }
+  ]
+}

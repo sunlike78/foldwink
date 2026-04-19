@@ -1,0 +1,32 @@
+{
+  "id": "de-0361",
+  "title": "Kunstwerke nach Technik",
+  "difficulty": "medium",
+  "meta": { "theme": "Kunsttechniken", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Öl auf Leinwand",
+      "revealHint": "Ölfarbe auf Tuch",
+      "items": ["Mona Lisa", "Nachtwache", "Guernica", "Die Schreier"]
+    },
+    {
+      "id": "group_b",
+      "label": "Aquarell-Werke",
+      "revealHint": "Wasserfarbe",
+      "items": ["Turner Seestücke", "Dürer Feldhasen", "Paul Klee", "Cézanne Skizz."]
+    },
+    {
+      "id": "group_c",
+      "label": "Fresco-Werke",
+      "revealHint": "Auf nassen Putz",
+      "items": ["Sixtinische Kapelle", "Letztes Abendmahl", "Schule Athen", "Arena-Kapelle"]
+    },
+    {
+      "id": "group_d",
+      "label": "Skulpturen",
+      "revealHint": "Dreidimensional",
+      "items": ["Pietà", "David", "Venus von Milo", "Denker Rodin"]
+    }
+  ]
+}

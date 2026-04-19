@@ -1,0 +1,12 @@
+{
+  "id": "de-0193",
+  "title": "Biologie Grundlagen",
+  "difficulty": "easy",
+  "meta": { "theme": "Wissenschaft", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Zellbegriffe", "items": ["Zellkern", "Mitochondrien", "Zellmembran", "Ribosom"] },
+    { "id": "group_b", "label": "Organe", "items": ["Herz", "Lunge", "Leber", "Niere"] },
+    { "id": "group_c", "label": "Ökologie", "items": ["Nahrungskette", "Ökosystem", "Biotop", "Population"] },
+    { "id": "group_d", "label": "Genetik", "items": ["DNA", "Gen", "Chromosom", "Mutation"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0438",
+  "title": "Ethik-Konzepte",
+  "difficulty": "medium",
+  "meta": { "theme": "philosophie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Kantische Ethik", "revealHint": "Kategorischer Imp.", "items": ["Pflichtethik", "Universalisierbarkeit", "Guter Wille", "Menschheit Zweck"] },
+    { "id": "group_b", "label": "Utilitarismus", "revealHint": "Größtes Glück", "items": ["Nützlichkeitsprinzip", "Folgenethik", "Bentham", "Präferenzutilism."] },
+    { "id": "group_c", "label": "Tugendethik", "revealHint": "Charakter & Tugend", "items": ["Aristoteles", "Goldene Mitte", "Eudaimonia", "Kardinaltugenden"] },
+    { "id": "group_d", "label": "Diskursethik", "revealHint": "Dialog & Vernunft", "items": ["Habermas", "Herrschaftsfr. Dialog", "Argumentationsregeln", "Apel"] }
+  ]
+}

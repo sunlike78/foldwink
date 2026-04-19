@@ -1,0 +1,12 @@
+{
+  "id": "ru-0336",
+  "title": "Рок-группы",
+  "difficulty": "medium",
+  "meta": { "theme": "Рок-группы по жанру", "batch": "ru-batch-13" },
+  "groups": [
+    { "id": "classic_rock", "label": "Классический рок", "revealHint": "КЛАСС. РОК", "items": ["Led Zeppelin", "Deep Purple", "Rolling Stones", "Queen"] },
+    { "id": "heavy_metal", "label": "Тяжёлый метал", "revealHint": "МЕТАЛ", "items": ["Metallica", "Black Sabbath", "Iron Maiden", "Slayer"] },
+    { "id": "alternative_rock", "label": "Альтернатива", "revealHint": "АЛЬТЕРНАТИВА", "items": ["Nirvana", "Radiohead", "Pearl Jam", "Soundgarden"] },
+    { "id": "ru_rock", "label": "Русский рок", "revealHint": "РУССКИЙ РОК", "items": ["Кино", "ДДТ", "Алиса", "Наутилус"] }
+  ]
+}

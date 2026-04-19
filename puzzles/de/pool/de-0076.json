@@ -1,0 +1,12 @@
+{
+  "id": "de-0076",
+  "title": "An der Universität",
+  "difficulty": "easy",
+  "meta": { "theme": "Universität", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Uni-Fakultäten", "items": ["Medizin", "Jura", "Informatik", "Philosophie"] },
+    { "id": "group_b", "label": "Akademische Abschlüsse", "items": ["Bachelor", "Master", "Doktor", "Habilitation"] },
+    { "id": "group_c", "label": "Uni-Einrichtungen", "items": ["Bibliothek", "Mensa", "Hörsaal", "Labor"] },
+    { "id": "group_d", "label": "Studentenleben", "items": ["WG", "Semesterticket", "Prüfung", "Vorlesung"] }
+  ]
+}

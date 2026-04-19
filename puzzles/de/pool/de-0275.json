@@ -1,0 +1,12 @@
+{
+  "id": "de-0275",
+  "title": "Pharmaindustrie",
+  "difficulty": "easy",
+  "meta": { "theme": "pharma", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Pharma-Unternehmen", "items": ["Bayer", "Boehringer", "Merck", "Stada"] },
+    { "id": "group_b", "label": "Wirkstoffgruppen", "items": ["Antibiotika", "Schmerzmittel", "Impfstoffe", "Hormone"] },
+    { "id": "group_c", "label": "Pharma-Standorte", "items": ["Leverkusen", "Darmstadt", "Ingelheim", "Berlin"] },
+    { "id": "group_d", "label": "Pharma-Forschung", "items": ["Klinische Studie", "Zulassung", "Wirksamkeit", "Nebenwirkung"] }
+  ]
+}

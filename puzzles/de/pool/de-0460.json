@@ -1,0 +1,12 @@
+{
+  "id": "de-0460",
+  "title": "Personalwesen",
+  "difficulty": "medium",
+  "meta": { "theme": "hr", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Recruiting", "revealHint": "Mitarbeiter finden", "items": ["Stellenausschreibung", "Vorstellungsgespräch", "Assessment Center", "Headhunting"] },
+    { "id": "group_b", "label": "Onboarding", "revealHint": "Ankommen im Job", "items": ["Einarbeitungsplan", "Buddy-Programm", "Probezeit", "Willkommensmappe"] },
+    { "id": "group_c", "label": "Performance", "revealHint": "Leistung bewerten", "items": ["Jahresgespräch", "Zielvereinbarung", "360-Grad-Feedback", "OKR"] },
+    { "id": "group_d", "label": "Offboarding", "revealHint": "Abschied gestalten", "items": ["Kündigung", "Abfindung", "Zeugnis", "Wissenstransfer"] }
+  ]
+}

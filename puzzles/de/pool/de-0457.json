@@ -1,0 +1,12 @@
+{
+  "id": "de-0457",
+  "title": "Qualitätsmanagement",
+  "difficulty": "medium",
+  "meta": { "theme": "management", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "ISO-Begriffe", "revealHint": "Normen & Standards", "items": ["ISO 9001", "Zertifizierung", "Audit", "Prozessorientierung"] },
+    { "id": "group_b", "label": "TQM-Konzepte", "revealHint": "Total Quality Mgmt", "items": ["Kundenorientierung", "Mitarbeiterbeteilig.", "Kontinuierl. Verb.", "Qualitätskultur"] },
+    { "id": "group_c", "label": "Six Sigma Begriffe", "revealHint": "DMAIC-Methode", "items": ["Define", "Measure", "Analyze", "DPMO"] },
+    { "id": "group_d", "label": "Lean-Konzepte", "revealHint": "Verschwendung weg", "items": ["Muda", "Kaizen", "5S-Methode", "Just in Time"] }
+  ]
+}

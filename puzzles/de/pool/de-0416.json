@@ -1,0 +1,12 @@
+{
+  "id": "de-0416",
+  "title": "Erfinder und ihr Feld",
+  "difficulty": "medium",
+  "meta": { "theme": "erfindungen", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Elektrizität", "revealHint": "Strom & Spannung", "items": ["Ohm", "Siemens", "Hertz", "Tesla"] },
+    { "id": "group_b", "label": "Chemie", "revealHint": "Stoffe & Formeln", "items": ["Liebig", "Bunsen", "Haber", "Bosch"] },
+    { "id": "group_c", "label": "Maschinenbau", "revealHint": "Motor & Getriebe", "items": ["Diesel", "Otto", "Watt", "Benz"] },
+    { "id": "group_d", "label": "Medizin", "revealHint": "Heilen & Forschen", "items": ["Koch", "Ehrlich", "Röntgen", "Virchow"] }
+  ]
+}

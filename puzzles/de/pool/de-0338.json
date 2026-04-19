@@ -1,0 +1,32 @@
+{
+  "id": "de-0338",
+  "title": "Informatik-Grundlagen",
+  "difficulty": "medium",
+  "meta": { "theme": "Informatik", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Hardware-Begriffe",
+      "revealHint": "Physische Teile",
+      "items": ["CPU", "RAM", "Festplatte", "Mainboard"]
+    },
+    {
+      "id": "group_b",
+      "label": "Software-Begriffe",
+      "revealHint": "Programme und Code",
+      "items": ["Compiler", "Betriebssystem", "API", "Kernel"]
+    },
+    {
+      "id": "group_c",
+      "label": "Netzwerk-Begriffe",
+      "revealHint": "Verbindungen",
+      "items": ["Router", "IP-Adresse", "Protokoll", "Firewall"]
+    },
+    {
+      "id": "group_d",
+      "label": "IT-Sicherheits-Begriffe",
+      "revealHint": "Schutz und Angriff",
+      "items": ["Phishing", "Verschlüsselung", "Backdoor", "Exploit"]
+    }
+  ]
+}

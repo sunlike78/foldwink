@@ -1,0 +1,12 @@
+{
+  "id": "de-0268",
+  "title": "Textil und Weberei",
+  "difficulty": "easy",
+  "meta": { "theme": "textil-weberei", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Faserarten", "items": ["Wolle", "Baumwolle", "Leinen", "Seide"] },
+    { "id": "group_b", "label": "Webtechniken", "items": ["Leinwandbindung", "Köperbindung", "Atlasbindung", "Gobelinweberei"] },
+    { "id": "group_c", "label": "Textilien", "items": ["Stoff", "Tuch", "Faden", "Garn"] },
+    { "id": "group_d", "label": "Textil-Muster", "items": ["Streifen", "Karo", "Damast", "Jacquard"] }
+  ]
+}

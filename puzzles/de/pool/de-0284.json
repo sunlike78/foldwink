@@ -1,0 +1,12 @@
+{
+  "id": "de-0284",
+  "title": "Polizei und Sicherheit",
+  "difficulty": "easy",
+  "meta": { "theme": "polizei", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Polizeibehörden", "items": ["BKA", "LKA", "Bundespolizei", "Verfassungsschutz"] },
+    { "id": "group_b", "label": "Polizeieinheiten", "items": ["SEK", "MEK", "Bereitschaftspolizei", "Kripo"] },
+    { "id": "group_c", "label": "Polizei-Ausrüstung", "items": ["Streifenwagen", "Schlagstock", "Handschellen", "Schutzweste"] },
+    { "id": "group_d", "label": "Polizei-Begriffe", "items": ["Streife", "Fahndung", "Razzia", "Zeuge"] }
+  ]
+}

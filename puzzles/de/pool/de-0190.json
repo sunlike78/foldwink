@@ -1,0 +1,12 @@
+{
+  "id": "de-0190",
+  "title": "Bergbau",
+  "difficulty": "easy",
+  "meta": { "theme": "Wirtschaft", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Rohstoffe", "items": ["Kohle", "Eisenerz", "Kupfer", "Gold"] },
+    { "id": "group_b", "label": "Abbaumethoden", "items": ["Untertagebau", "Tagebau", "Tiefbau", "Nassabbau"] },
+    { "id": "group_c", "label": "Bergbaumaschinen", "items": ["Bagger", "Förderband", "Bohrmaschine", "Sprengung"] },
+    { "id": "group_d", "label": "Bergbausicherheit", "items": ["Grubenwehr", "Atemschutz", "Notausgang", "Schlagwetter"] }
+  ]
+}

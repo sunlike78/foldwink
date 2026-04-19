@@ -1,0 +1,51 @@
+{
+  "id": "de-0159",
+  "title": "Psychologie Grundlagen",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Wissenschaft",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Persönlichkeitstypen",
+      "items": [
+        "Introvertiert",
+        "Extravertiert",
+        "Neurotisch",
+        "Offen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Emotionen",
+      "items": [
+        "Freude",
+        "Trauer",
+        "Wut",
+        "Angst"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Lerntheorien",
+      "items": [
+        "Klass. Konditionieren",
+        "Operat. Konditionieren",
+        "Beobachtendes Lernen",
+        "Einsichtslernen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Therapieformen",
+      "items": [
+        "Verhaltenstherapie",
+        "Psychoanalyse",
+        "Gesprächstherapie",
+        "EMDR"
+      ]
+    }
+  ]
+}

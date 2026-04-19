@@ -1,0 +1,12 @@
+{
+  "id": "de-0436",
+  "title": "Fachsprachen im Vergleich",
+  "difficulty": "medium",
+  "meta": { "theme": "sprache", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Medizin-Fachbegriffe", "revealHint": "Klinik & Praxis", "items": ["Anamnese", "Diagnose", "Prognose", "Therapie"] },
+    { "id": "group_b", "label": "Rechts-Fachbegriffe", "revealHint": "Gesetz & Gericht", "items": ["Klägerin", "Beklagter", "Urteil", "Berufung"] },
+    { "id": "group_c", "label": "Technik-Fachbegriffe", "revealHint": "Ingenieure", "items": ["Toleranz", "Normung", "Werkstoff", "Drehmoment"] },
+    { "id": "group_d", "label": "Musik-Fachbegriffe", "revealHint": "Noten & Klang", "items": ["Sforzando", "Coda", "Arpeggio", "Legato"] }
+  ]
+}

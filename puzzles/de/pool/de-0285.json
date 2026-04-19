@@ -1,0 +1,12 @@
+{
+  "id": "de-0285",
+  "title": "Feuerwehr und Rettung",
+  "difficulty": "easy",
+  "meta": { "theme": "feuerwehr", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Feuerwehr-Fahrzeuge", "items": ["Löschfahrzeug", "Drehleiter", "Tanklöschfahrzeug", "Rettungswagen"] },
+    { "id": "group_b", "label": "Feuerwehr-Ausrüstung", "items": ["Atemschutz", "Schlauch", "Hydrant", "Schutzanzug"] },
+    { "id": "group_c", "label": "Einsatzarten", "items": ["Brandeinsatz", "Technische Hilfe", "Hochwasser", "Verkehrsunfall"] },
+    { "id": "group_d", "label": "Rettungsberufe", "items": ["Brandmeister", "Sanitäter", "Taucher", "Höhenretter"] }
+  ]
+}

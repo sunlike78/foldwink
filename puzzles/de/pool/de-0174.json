@@ -1,0 +1,12 @@
+{
+  "id": "de-0174",
+  "title": "Hauptstädte Europas",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Westeuropa", "items": ["Paris", "Madrid", "Lissabon", "Dublin"] },
+    { "id": "group_b", "label": "Osteuropa", "items": ["Warschau", "Budapest", "Bukarest", "Sofia"] },
+    { "id": "group_c", "label": "Nordeuropa", "items": ["Stockholm", "Oslo", "Helsinki", "Kopenhagen"] },
+    { "id": "group_d", "label": "Südeuropa", "items": ["Rom", "Athen", "Zagreb", "Valletta"] }
+  ]
+}

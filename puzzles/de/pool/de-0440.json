@@ -1,0 +1,12 @@
+{
+  "id": "de-0440",
+  "title": "Bibel-Figuren",
+  "difficulty": "medium",
+  "meta": { "theme": "religion", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Altes Testament", "revealHint": "Erster Bund", "items": ["Mose", "David", "Abraham", "Salomo"] },
+    { "id": "group_b", "label": "Neues Testament", "revealHint": "Jesus-Zeit", "items": ["Maria", "Josef", "Johannes", "Magdalena"] },
+    { "id": "group_c", "label": "Propheten", "revealHint": "Gottes Sprecher", "items": ["Jesaja", "Jeremia", "Ezechiel", "Amos"] },
+    { "id": "group_d", "label": "Apostel Jesu", "revealHint": "Zwölf Jünger", "items": ["Petrus", "Paulus", "Matthäus", "Jakobus"] }
+  ]
+}

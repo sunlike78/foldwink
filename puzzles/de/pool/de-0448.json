@@ -1,0 +1,12 @@
+{
+  "id": "de-0448",
+  "title": "Geschichte der Fotografie",
+  "difficulty": "medium",
+  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Foto-Pioniere", "revealHint": "Erfinder & Frühe", "items": ["Daguerre", "Talbot", "Niépce", "Nadar"] },
+    { "id": "group_b", "label": "Foto-Stile", "revealHint": "Ästhet. Richtungen", "items": ["Piktorialismus", "Dokumentarfoto", "Streetfotografie", "Konzeptfotografie"] },
+    { "id": "group_c", "label": "Foto-Techniken", "revealHint": "Verfahren & Mittel", "items": ["Daguerreotypie", "Nass-Kollodium", "Silbergelatine", "Cyanotypie"] },
+    { "id": "group_d", "label": "Ikonische Fotos", "revealHint": "Weltbek. Bilder", "items": ["Migrant Mother", "V-J Day Kuss", "Napalm-Mädchen", "Blaue Murmel"] }
+  ]
+}

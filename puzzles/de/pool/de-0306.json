@@ -1,0 +1,32 @@
+{
+  "id": "de-0306",
+  "title": "Körperteile in Phrasen",
+  "difficulty": "medium",
+  "meta": { "theme": "Körperphrasen", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Phrase mit AUGE",
+      "revealHint": "Sehorgan",
+      "items": ["Auge zudrücken", "Augenwischerei", "Unter vier Augen", "Auge des Gesetzes"]
+    },
+    {
+      "id": "group_b",
+      "label": "Phrase mit OHR",
+      "revealHint": "Hörorgan",
+      "items": ["Übers Ohr hauen", "Ohrwurm", "Auf tauben Ohren", "Ohren spitzen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Phrase mit NASE",
+      "revealHint": "Riechorgan",
+      "items": ["Nasenstüber", "Nase vorn haben", "Durch die Nase", "Naserümpfen"]
+    },
+    {
+      "id": "group_d",
+      "label": "Phrase mit MUND",
+      "revealHint": "Sprechorgan",
+      "items": ["Mundart", "Wie Mund gespült", "Mund halten", "Wasser im Mund"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0248",
+  "title": "Oper und Operette",
+  "difficulty": "easy",
+  "meta": { "theme": "oper-operette", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Deutsche Opern", "items": ["Der Freischütz", "Hänsel und Gretel", "Die Meistersinger", "Tristan und Isolde"] },
+    { "id": "group_b", "label": "Opern-Komponisten", "items": ["Wagner", "Weber", "Strauss", "Humperdinck"] },
+    { "id": "group_c", "label": "Opern-Figuren", "items": ["Siegfried", "Wotan", "Isolde", "Lohengrin"] },
+    { "id": "group_d", "label": "Opernbühnen", "items": ["Bayreuth", "Deutsche Oper", "Semperoper", "Staatsoper"] }
+  ]
+}

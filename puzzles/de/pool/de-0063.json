@@ -1,0 +1,12 @@
+{
+  "id": "de-0063",
+  "title": "Fotografie",
+  "difficulty": "easy",
+  "meta": { "theme": "Fotografie", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Kameratypen", "items": ["DSLR", "Spiegellose", "Kompaktkamera", "Mittelformatkamera"] },
+    { "id": "group_b", "label": "Objektive", "items": ["Weitwinkel", "Teleobjektiv", "Makroobjektiv", "Normalobjektiv"] },
+    { "id": "group_c", "label": "Belichtungsbegriffe", "items": ["Blende", "Verschlusszeit", "ISO", "Weißabgleich"] },
+    { "id": "group_d", "label": "Kompositionsprinzip.", "items": ["Drittelregel", "Fluchtlinie", "Goldener Schnitt", "Rahmung"] }
+  ]
+}

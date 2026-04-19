@@ -1,0 +1,12 @@
+{
+  "id": "de-0126",
+  "title": "Gartengestaltung",
+  "difficulty": "easy",
+  "meta": { "theme": "Garten", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Formaler Garten", "items": ["Buchsbaumhecke", "Kiesweg", "Springbrunnen", "Rosenbeet"] },
+    { "id": "group_b", "label": "Naturgarten", "items": ["Wildblumenwiese", "Totholzhaufen", "Teich", "Vogeltränke"] },
+    { "id": "group_c", "label": "Gemüsegarten", "items": ["Hochbeet", "Folientunnel", "Komposthaufen", "Rankgitter"] },
+    { "id": "group_d", "label": "Steingarten", "items": ["Findlinge", "Thymian", "Fetthenne", "Hauswurz"] }
+  ]
+}

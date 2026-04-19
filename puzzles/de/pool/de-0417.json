@@ -1,0 +1,12 @@
+{
+  "id": "de-0417",
+  "title": "Nobelpreis-Konzepte",
+  "difficulty": "medium",
+  "meta": { "theme": "wissenschaft", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Physik", "revealHint": "Teilchen & Felder", "items": ["Quantentheorie", "Relativität", "Supraleitung", "Schwarzes Loch"] },
+    { "id": "group_b", "label": "Chemie", "revealHint": "Moleküle", "items": ["Ammoniaksynthese", "Chromatographie", "Polymerisation", "Peptidchemie"] },
+    { "id": "group_c", "label": "Medizin & Physiologie", "revealHint": "Körper & Zelle", "items": ["Penicillin", "DNA-Struktur", "Immunantwort", "Insulin"] },
+    { "id": "group_d", "label": "Wirtschaft", "revealHint": "Markt & Theorie", "items": ["Spieltheorie", "Verhaltensökonomik", "Marktgleichgewicht", "Informationsasymm."] }
+  ]
+}

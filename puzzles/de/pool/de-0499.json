@@ -1,0 +1,12 @@
+{
+  "id": "de-0499",
+  "title": "Zukunft der Arbeit",
+  "difficulty": "medium",
+  "meta": { "theme": "arbeit", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Automatisierung", "revealHint": "Maschinen und KI", "items": ["Roboter-Fabrik", "KI-Schreiben", "Autonome Lkw", "Buchhaltungs-KI"] },
+    { "id": "group_b", "label": "Homeoffice", "revealHint": "Zu Hause arbeiten", "items": ["Remote Work", "Hybrid-Modell", "Co-Working-Space", "Digit. Nomadentum"] },
+    { "id": "group_c", "label": "Gig Economy", "revealHint": "Plattformarbeit", "items": ["Freelancing", "Plattformarbeit", "Crowdworking", "Zero-Hour-Contract"] },
+    { "id": "group_d", "label": "Grundeinkommen", "revealHint": "BGE Debatte", "items": ["Universales Einkommen", "Negative Einkommensst.", "Pilotprojekte BGE", "Robotersteuer"] }
+  ]
+}

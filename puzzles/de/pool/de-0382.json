@@ -1,0 +1,32 @@
+{
+  "id": "de-0382",
+  "title": "Ernährungswissenschaft",
+  "difficulty": "medium",
+  "meta": { "theme": "Ernährung", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Makronährstoffe",
+      "revealHint": "Hauptnährstoffe",
+      "items": ["Kohlenhydrate", "Protein", "Fett", "Wasser"]
+    },
+    {
+      "id": "group_b",
+      "label": "Stoffwechsel-Begriffe",
+      "revealHint": "Körper verwertet",
+      "items": ["Glykolyse", "Ketose", "Anabolismus", "Katabolismus"]
+    },
+    {
+      "id": "group_c",
+      "label": "Diätformen",
+      "revealHint": "Ernährungsweisen",
+      "items": ["Vegan", "Ketogen", "Mediterran", "Paleo"]
+    },
+    {
+      "id": "group_d",
+      "label": "Nahrungsinhaltsstoffe",
+      "revealHint": "Kleinste Bausteine",
+      "items": ["Vitamin C", "Eisen", "Omega-3", "Folsäure"]
+    }
+  ]
+}

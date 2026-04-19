@@ -1,0 +1,12 @@
+{
+  "id": "de-0205",
+  "title": "Erster Weltkrieg",
+  "difficulty": "easy",
+  "meta": { "theme": "erster-weltkrieg", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schlachten", "items": ["Verdun", "Somme", "Tannenberg", "Skagerrak"] },
+    { "id": "group_b", "label": "Allianzen", "items": ["Entente", "Mittelmächte", "Dreibund", "Dreiverband"] },
+    { "id": "group_c", "label": "Kriegstechnik", "items": ["Panzer", "Giftgas", "U-Boot", "Zeppelin"] },
+    { "id": "group_d", "label": "Personen", "items": ["Hindenburg", "Ludendorff", "Joffre", "Haig"] }
+  ]
+}

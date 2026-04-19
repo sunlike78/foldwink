@@ -1,0 +1,12 @@
+{
+  "id": "de-0261",
+  "title": "Mode-Geschichte",
+  "difficulty": "easy",
+  "meta": { "theme": "mode-geschichte", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Mode 19. Jahrhundert", "items": ["Biedermeier", "Krinoline", "Korsett", "Zylinder"] },
+    { "id": "group_b", "label": "Mode 20. Jahrhundert", "items": ["Minikleid", "Schlaghose", "Schulterpolster", "Leggings"] },
+    { "id": "group_c", "label": "Heutige Mode", "items": ["Streetwear", "Athleisure", "Nachhaltigkeit", "Capsule Wardrobe"] },
+    { "id": "group_d", "label": "Zukunft der Mode", "items": ["3D-Druck", "Smartfabric", "Recycelfiber", "Digitale Mode"] }
+  ]
+}

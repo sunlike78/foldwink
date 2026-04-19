@@ -1,0 +1,12 @@
+{
+  "id": "de-0259",
+  "title": "Klassizismus und Romantik",
+  "difficulty": "easy",
+  "meta": { "theme": "klassizismus-romantik", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Klassizismus-Bauten", "items": ["Brandenburger Tor", "Glyptothek", "Walhalla", "Altes Museum"] },
+    { "id": "group_b", "label": "Romantik-Malerei", "items": ["Wanderer im Nebel", "Eismeer", "Mondaufgang", "Riesengebirge"] },
+    { "id": "group_c", "label": "Romantik-Literatur", "items": ["Eichendorff", "Tieck", "Novalis", "Brentano"] },
+    { "id": "group_d", "label": "Romantik-Musik", "items": ["Weber", "Schubert", "Schumann", "Mendelssohn"] }
+  ]
+}

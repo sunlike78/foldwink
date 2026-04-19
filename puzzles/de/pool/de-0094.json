@@ -1,0 +1,12 @@
+{
+  "id": "de-0094",
+  "title": "Klassische Musik",
+  "difficulty": "easy",
+  "meta": { "theme": "Klassische Musik", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Beethoven-Werke", "items": ["Mondscheinsonate", "Neunte Sinfonie", "Für Elise", "Eroica"] },
+    { "id": "group_b", "label": "Bach-Werke", "items": ["Matthäuspassion", "Brandenburg-Konzerte", "Toccata d-Moll", "Inventionen"] },
+    { "id": "group_c", "label": "Mozart-Werke", "items": ["Zauberflöte", "Requiem", "Don Giovanni", "Jupiter-Sinfonie"] },
+    { "id": "group_d", "label": "Brahms-Werke", "items": ["Ein deutsches Requiem", "Ungarische Tänze", "Vierte Sinfonie", "Violinkonzert"] }
+  ]
+}

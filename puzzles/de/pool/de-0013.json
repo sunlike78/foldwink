@@ -1,0 +1,12 @@
+{
+  "id": "de-0013",
+  "title": "Farben der Natur",
+  "difficulty": "easy",
+  "meta": { "theme": "Farben der Natur", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Rote Blumen", "items": ["Rose", "Mohnblume", "Tulpe", "Nelke"] },
+    { "id": "group_b", "label": "Gelbe Früchte", "items": ["Banane", "Zitrone", "Mirabelle", "Quitte"] },
+    { "id": "group_c", "label": "Bunte Tiere", "items": ["Pfau", "Flamingo", "Papagei", "Goldfisch"] },
+    { "id": "group_d", "label": "Bunte Mineralien", "items": ["Rubin", "Smaragd", "Saphir", "Amethyst"] }
+  ]
+}

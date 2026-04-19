@@ -1,0 +1,55 @@
+{
+  "id": "de-0373",
+  "title": "Internationale Organisationen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Internat. Organisationen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "UN-Hauptorgane",
+      "revealHint": "Vereinte Nationen",
+      "items": [
+        "Sicherheitsrat",
+        "Generalversammlung",
+        "Sekretariat",
+        "ICJ"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "NATO-Strukturen",
+      "revealHint": "Verteidigungs-B.",
+      "items": [
+        "NAC",
+        "SACEUR",
+        "ACO",
+        "Parlamentarische Vers."
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "EU-Institutionen",
+      "revealHint": "Europäische Union",
+      "items": [
+        "Europaparlament",
+        "Kommission",
+        "Ministerrat",
+        "EuGH"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "G7-Gremien",
+      "revealHint": "Sieben Nationen",
+      "items": [
+        "Gipfeltreffen",
+        "Sherpas",
+        "Kommuniqué",
+        "Troika"
+      ]
+    }
+  ]
+}

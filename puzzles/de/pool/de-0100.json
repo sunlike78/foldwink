@@ -1,0 +1,12 @@
+{
+  "id": "de-0100",
+  "title": "Deutsche Sagen und Legenden",
+  "difficulty": "easy",
+  "meta": { "theme": "Deutsche Sagen und Legenden", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Rhein-Sagen", "items": ["Loreley", "Mäuseturm", "Drachenfels", "Rolandseck"] },
+    { "id": "group_b", "label": "Nibelungen-Figuren", "items": ["Siegfried", "Kriemhild", "Hagen", "Brunhild"] },
+    { "id": "group_c", "label": "Brocken-Sagen", "items": ["Hexensabbat", "Walpurgisnacht", "Mephisto", "Teufelsmauer"] },
+    { "id": "group_d", "label": "Stadtlegenden", "items": ["Rattenfänger", "Till Eulenspiegel", "Münchhausen", "Golem"] }
+  ]
+}

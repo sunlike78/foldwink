@@ -1,0 +1,12 @@
+{
+  "id": "de-0026",
+  "title": "Chemische Elemente",
+  "difficulty": "easy",
+  "meta": { "theme": "Chemische Elemente", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Metalle", "items": ["Eisen", "Kupfer", "Gold", "Silber"] },
+    { "id": "group_b", "label": "Halbmetalle", "items": ["Silizium", "Germanium", "Arsen", "Antimon"] },
+    { "id": "group_c", "label": "Edelgase", "items": ["Helium", "Neon", "Argon", "Krypton"] },
+    { "id": "group_d", "label": "Halogene", "items": ["Fluor", "Chlor", "Brom", "Iod"] }
+  ]
+}

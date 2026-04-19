@@ -1,0 +1,12 @@
+{
+  "id": "de-0249",
+  "title": "Ballett",
+  "difficulty": "easy",
+  "meta": { "theme": "ballett", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Klassische Ballette", "items": ["Schwanensee", "Nussknacker", "Dornröschen", "Giselle"] },
+    { "id": "group_b", "label": "Choreografen", "items": ["Petipa", "Nijinsky", "Cranko", "Forsythe"] },
+    { "id": "group_c", "label": "Ballett-Techniken", "items": ["Pliée", "Arabesque", "Grand jeté", "Pirouette"] },
+    { "id": "group_d", "label": "Ballett-Begriffe", "items": ["Pointe", "Corps de ballet", "Pas de deux", "Variation"] }
+  ]
+}

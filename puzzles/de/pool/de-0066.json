@@ -1,0 +1,12 @@
+{
+  "id": "de-0066",
+  "title": "Mode und Kleidung",
+  "difficulty": "easy",
+  "meta": { "theme": "Mode und Kleidung", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Modestile", "items": ["Streetwear", "Business", "Casual", "Avantgarde"] },
+    { "id": "group_b", "label": "Stoffe", "items": ["Baumwolle", "Seide", "Leinen", "Wolle"] },
+    { "id": "group_c", "label": "Mode-Hauptstädte", "items": ["Paris", "Mailand", "New York", "London"] },
+    { "id": "group_d", "label": "Mode-Accessoires", "items": ["Halskette", "Armband", "Tasche", "Hut"] }
+  ]
+}

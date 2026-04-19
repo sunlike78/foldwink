@@ -1,0 +1,32 @@
+{
+  "id": "de-0351",
+  "title": "Filmsprache",
+  "difficulty": "medium",
+  "meta": { "theme": "Filmsprache", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Einstellungsgrößen",
+      "revealHint": "Bildausschnitt",
+      "items": ["Totale", "Halbtotale", "Nahaufnahme", "Großaufnahme"]
+    },
+    {
+      "id": "group_b",
+      "label": "Kameraperspektiven",
+      "revealHint": "Blickwinkel",
+      "items": ["Vogelperspektive", "Froschperspektive", "Augenhöhe", "Schräge"]
+    },
+    {
+      "id": "group_c",
+      "label": "Montagetechniken",
+      "revealHint": "Schnitt-Methoden",
+      "items": ["Parallelmontage", "Match Cut", "Jump Cut", "Cross-Cutting"]
+    },
+    {
+      "id": "group_d",
+      "label": "Filmbewegungen",
+      "revealHint": "Kamerabewegung",
+      "items": ["Schwenk", "Fahrt", "Zoom", "Handkamera"]
+    }
+  ]
+}

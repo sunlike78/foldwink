@@ -1,0 +1,12 @@
+{
+  "id": "de-0255",
+  "title": "Deutsche Architektur",
+  "difficulty": "easy",
+  "meta": { "theme": "architektur-epochen", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Romanik", "items": ["Wormser Dom", "Mainzer Dom", "Speyer Dom", "Hildesheim Dom"] },
+    { "id": "group_b", "label": "Gotik", "items": ["Kölner Dom", "Freiburger Münster", "Ulmer Münster", "Regensburger Dom"] },
+    { "id": "group_c", "label": "Barock", "items": ["Zwinger", "Würzburger Residenz", "Nymphenburg", "Sanssouci"] },
+    { "id": "group_d", "label": "Moderne", "items": ["Berliner Philharmonie", "BMW Welt", "Elbphilharmonie", "Neue Nationalgalerie"] }
+  ]
+}

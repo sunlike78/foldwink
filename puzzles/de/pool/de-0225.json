@@ -1,0 +1,12 @@
+{
+  "id": "de-0225",
+  "title": "Nordische Mythologie",
+  "difficulty": "easy",
+  "meta": { "theme": "nordische-mythologie", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Asen-Götter", "items": ["Odin", "Thor", "Tyr", "Baldur"] },
+    { "id": "group_b", "label": "Wanen-Götter", "items": ["Freyr", "Freya", "Njörd", "Heimdall"] },
+    { "id": "group_c", "label": "Riesen der Edda", "items": ["Ymir", "Thrym", "Surtr", "Utgard-Loki"] },
+    { "id": "group_d", "label": "Nordische Orte", "items": ["Asgard", "Midgard", "Niflheim", "Valhalla"] }
+  ]
+}

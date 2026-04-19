@@ -1,0 +1,12 @@
+{
+  "id": "de-0480",
+  "title": "Molekulare Küche",
+  "difficulty": "medium",
+  "meta": { "theme": "lebensmittel", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Mol. Küche Techniken", "revealHint": "Physik & Chemie", "items": ["Sphärifizierung", "Sous-vide", "Flüssig-Stickstoff", "Gelification"] },
+    { "id": "group_b", "label": "Mol. Küche Köche", "revealHint": "Pioniere & Stars", "items": ["Ferran Adrià", "Heston Blumenthal", "Grant Achatz", "Thomas Keller"] },
+    { "id": "group_c", "label": "Mol. Küche Begriffe", "revealHint": "Fachwörter", "items": ["Textur", "Emulsion", "Schaum", "Gel"] },
+    { "id": "group_d", "label": "Mol. Küche Zutaten", "revealHint": "Spezielle Stoffe", "items": ["Agar-Agar", "Lecithin", "Xanthan", "Methylcellulose"] }
+  ]
+}

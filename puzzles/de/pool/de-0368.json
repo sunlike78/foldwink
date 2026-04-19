@@ -1,0 +1,32 @@
+{
+  "id": "de-0368",
+  "title": "Gastronomie-Begriffe",
+  "difficulty": "medium",
+  "meta": { "theme": "Gastronomie", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Mise en place Begriffe",
+      "revealHint": "Vorbereitung Küche",
+      "items": ["Taillieren", "Brunoise", "Julienne", "Chiffonade"]
+    },
+    {
+      "id": "group_b",
+      "label": "Service-Begriffe",
+      "revealHint": "Im Restaurant",
+      "items": ["À la carte", "Amuse-Bouche", "Sommelier", "Degustation"]
+    },
+    {
+      "id": "group_c",
+      "label": "Küchenbrigade-Titel",
+      "revealHint": "Hierarchie Küche",
+      "items": ["Chef de cuisine", "Sous-chef", "Saucier", "Garde-manger"]
+    },
+    {
+      "id": "group_d",
+      "label": "Französische Küchentechn.",
+      "revealHint": "Kochtechniken frz.",
+      "items": ["Sautieren", "Flambieren", "Blanchieren", "Pochieren"]
+    }
+  ]
+}

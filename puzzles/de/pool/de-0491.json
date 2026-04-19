@@ -1,0 +1,12 @@
+{
+  "id": "de-0491",
+  "title": "Weltraum-Tourismus",
+  "difficulty": "medium",
+  "meta": { "theme": "raumfahrt", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Weltraum-Unternehmen", "revealHint": "Private Anbieter", "items": ["SpaceX", "Blue Origin", "Virgin Galactic", "Axiom Space"] },
+    { "id": "group_b", "label": "Weltraum-Fahrzeuge", "revealHint": "Vehikel ins All", "items": ["Dragon Crew", "New Shepard", "VSS Unity", "Starship"] },
+    { "id": "group_c", "label": "Reiseziele im All", "revealHint": "Wohin man reist", "items": ["Suborbitaler Flug", "ISS-Besuch", "Mondumrundung", "Orbitales Hotel"] },
+    { "id": "group_d", "label": "Weltraumtourist.-Heraus.", "revealHint": "Probleme & Hürden", "items": ["Kosten", "Körperliche Belastung", "Strahlung", "Weltraummüll"] }
+  ]
+}

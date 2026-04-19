@@ -1,0 +1,12 @@
+{
+  "id": "de-0095",
+  "title": "Deutsche Erfinder",
+  "difficulty": "easy",
+  "meta": { "theme": "Deutsche Erfinder und Entdecker", "batch": "de-batch-04" },
+  "groups": [
+    { "id": "group_a", "label": "Erfinder 17-18. Jh.", "items": ["Leibniz", "Fahrenheit", "Gutenberg", "Papin"] },
+    { "id": "group_b", "label": "Erfinder 19. Jh.", "items": ["Benz", "Siemens", "Bunsen", "Röntgen"] },
+    { "id": "group_c", "label": "Erfinder 20. Jh.", "items": ["Einstein", "Zuse", "Hahn", "Ruska"] },
+    { "id": "group_d", "label": "Nobelpreisträger", "items": ["Planck", "Heisenberg", "Koch", "Mayer"] }
+  ]
+}

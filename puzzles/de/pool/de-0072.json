@@ -1,0 +1,12 @@
+{
+  "id": "de-0072",
+  "title": "Auf dem Marktplatz",
+  "difficulty": "easy",
+  "meta": { "theme": "Marktplatz", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Obst- und Gemüsestand", "items": ["Erdbeeren", "Zucchini", "Äpfel", "Paprika"] },
+    { "id": "group_b", "label": "Fleisch- und Fischstand", "items": ["Hähnchen", "Forelle", "Kalbfleisch", "Lachs"] },
+    { "id": "group_c", "label": "Blumenstand", "items": ["Rosen", "Tulpen", "Gesteck", "Topfpflanze"] },
+    { "id": "group_d", "label": "Käse- und Wurststand", "items": ["Bergkäse", "Salami", "Schinken", "Gouda"] }
+  ]
+}

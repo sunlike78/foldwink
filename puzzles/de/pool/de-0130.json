@@ -1,0 +1,12 @@
+{
+  "id": "de-0130",
+  "title": "Angeln",
+  "difficulty": "easy",
+  "meta": { "theme": "Freizeit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Fischarten", "items": ["Forelle", "Hecht", "Barsch", "Karpfen"] },
+    { "id": "group_b", "label": "Angelgeräte", "items": ["Rute", "Rolle", "Schnur", "Kescher"] },
+    { "id": "group_c", "label": "Köder", "items": ["Wurm", "Fliege", "Spinner", "Brotteig"] },
+    { "id": "group_d", "label": "Angelmethoden", "items": ["Fliegenfischen", "Spinnfischen", "Grundangeln", "Posenangeln"] }
+  ]
+}

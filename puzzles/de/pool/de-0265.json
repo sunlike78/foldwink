@@ -1,0 +1,12 @@
+{
+  "id": "de-0265",
+  "title": "Glas und Kristall",
+  "difficulty": "easy",
+  "meta": { "theme": "glas-kristall", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Glasherstellung", "items": ["Schmelzen", "Blasen", "Gießen", "Walzen"] },
+    { "id": "group_b", "label": "Glasprodukte", "items": ["Kelch", "Spiegel", "Fensterscheibe", "Linse"] },
+    { "id": "group_c", "label": "Berühmte Glasorte", "items": ["Zwiesel", "Lauscha", "Murano", "Bohemia"] },
+    { "id": "group_d", "label": "Glas-Anwendungen", "items": ["Optik", "Solarpanel", "Glasfaser", "Trinkglas"] }
+  ]
+}

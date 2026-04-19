@@ -1,0 +1,12 @@
+{
+  "id": "de-0154",
+  "title": "Vitamine und Mineralstoffe",
+  "difficulty": "easy",
+  "meta": { "theme": "Ernährung", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Fettlösliche Vitamine", "items": ["Vitamin A", "Vitamin D", "Vitamin E", "Vitamin K"] },
+    { "id": "group_b", "label": "Wasserlösliche Vitamine", "items": ["Vitamin C", "Vitamin B12", "Folsäure", "Biotin"] },
+    { "id": "group_c", "label": "Spurenelemente", "items": ["Eisen", "Zink", "Selen", "Jod"] },
+    { "id": "group_d", "label": "Makromineralien", "items": ["Calcium", "Magnesium", "Natrium", "Kalium"] }
+  ]
+}

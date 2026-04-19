@@ -1,0 +1,51 @@
+{
+  "id": "de-0112",
+  "title": "Deutsche Feste und Feiertage",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Feste",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Religiöse Feiertage",
+      "items": [
+        "Weihnachten",
+        "Ostern",
+        "Pfingsten",
+        "Fronleichnam"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Staatliche Feiertage",
+      "items": [
+        "Deutsche Einheit",
+        "Maifeiertag",
+        "Neujahr",
+        "Tag der Arbeit"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Regionale Feste",
+      "items": [
+        "Karneval",
+        "Schützenfest",
+        "Erntedankfest",
+        "Kirmes"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Volksfeste",
+      "items": [
+        "Oktoberfest",
+        "Frühlingsfest",
+        "Weihnachtsmarkt",
+        "Stadtfest"
+      ]
+    }
+  ]
+}

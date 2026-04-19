@@ -1,0 +1,12 @@
+{
+  "id": "de-0127",
+  "title": "Zimmerpflanzen",
+  "difficulty": "easy",
+  "meta": { "theme": "Pflanzen", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Sukkulenten", "items": ["Kaktus", "Aloe Vera", "Echeveria", "Jade-Pflanze"] },
+    { "id": "group_b", "label": "Grünpflanzen", "items": ["Efeutute", "Grünlilie", "Ficus", "Yucca"] },
+    { "id": "group_c", "label": "Blühpflanzen", "items": ["Orchidee", "Anthurie", "Usambaraveilchen", "Kalanchoe"] },
+    { "id": "group_d", "label": "Luftpflanzen", "items": ["Tillandsia", "Bromelien", "Spanisches Moos", "Luftwurzel"] }
+  ]
+}

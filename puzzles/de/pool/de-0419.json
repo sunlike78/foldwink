@@ -1,0 +1,12 @@
+{
+  "id": "de-0419",
+  "title": "Instrumente nach Klang",
+  "difficulty": "medium",
+  "meta": { "theme": "musik", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Holzbläser", "revealHint": "Aus Holz geblasen", "items": ["Oboe", "Fagott", "Klarinette", "Flöte"] },
+    { "id": "group_b", "label": "Blechbläser", "revealHint": "Metall & Ventile", "items": ["Trompete", "Posaune", "Horn", "Tuba"] },
+    { "id": "group_c", "label": "Streicher", "revealHint": "Bogen & Saiten", "items": ["Violine", "Viola", "Cello", "Kontrabass"] },
+    { "id": "group_d", "label": "Schlagwerk", "revealHint": "Schlagen & Klopfen", "items": ["Pauke", "Snare", "Becken", "Xylophon"] }
+  ]
+}

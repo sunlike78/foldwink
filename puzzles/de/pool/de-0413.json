@@ -1,0 +1,12 @@
+{
+  "id": "de-0413",
+  "title": "Historische Personen nach Epoche",
+  "difficulty": "medium",
+  "meta": { "theme": "geschichte", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Mittelalter", "revealHint": "500–1500", "items": ["Karl der Große", "Hildegard v. Bingen", "Friedrich Barbarossa", "Walther Vogelweide"] },
+    { "id": "group_b", "label": "Reformation", "revealHint": "1517–1648", "items": ["Martin Luther", "Thomas Müntzer", "Melanchthon", "Zwingli"] },
+    { "id": "group_c", "label": "Aufklärung", "revealHint": "1700–1800", "items": ["Kant", "Lessing", "Frederick der Große", "Leibniz"] },
+    { "id": "group_d", "label": "Romantik-Ära", "revealHint": "1800–1850", "items": ["Beethoven", "C. D. Friedrich", "Kleist", "Schopenhauer"] }
+  ]
+}

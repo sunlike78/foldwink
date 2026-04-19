@@ -1,0 +1,12 @@
+{
+  "id": "de-0461",
+  "title": "Natur in der Lyrik",
+  "difficulty": "medium",
+  "meta": { "theme": "literatur", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Eichendorff-Bilder", "revealHint": "Sehnsucht & Wald", "items": ["Mondnacht", "Im kühlen Grunde", "Heimweh", "Frühlingsnacht"] },
+    { "id": "group_b", "label": "Heine-Bilder", "revealHint": "Ironie & Romantik", "items": ["Lorelei", "Du bist wie eine Blume", "Fichtenbaum", "Im wunderschönen Mai"] },
+    { "id": "group_c", "label": "Storm-Bilder", "revealHint": "Nordsee Lyrik", "items": ["Meeresstrand", "Herbst", "Abseits", "Lied Harfenmädchen"] },
+    { "id": "group_d", "label": "Rilke-Bilder", "revealHint": "Dinggedicht", "items": ["Der Panther", "Herbsttag", "Archaischer Torso", "Ich lebe mein Leben"] }
+  ]
+}

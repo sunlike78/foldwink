@@ -1,0 +1,12 @@
+{
+  "id": "de-0046",
+  "title": "Deutsche Geschichte",
+  "difficulty": "easy",
+  "meta": { "theme": "Deutsche Geschichte", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Mittelalter", "items": ["Kaiser", "Ritter", "Dom", "Kreuzzug"] },
+    { "id": "group_b", "label": "Reformation", "items": ["Luther", "Thesen", "Bibel", "Protestantismus"] },
+    { "id": "group_c", "label": "Kaiserreich", "items": ["Bismarck", "Reichstag", "Kaiser Wilhelm", "Industrialisierung"] },
+    { "id": "group_d", "label": "Nachkriegszeit", "items": ["Trümmer", "Marshallplan", "Teilung", "Wirtschaftswunder"] }
+  ]
+}

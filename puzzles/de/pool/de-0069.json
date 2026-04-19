@@ -1,0 +1,12 @@
+{
+  "id": "de-0069",
+  "title": "Auf der Baustelle",
+  "difficulty": "easy",
+  "meta": { "theme": "Baustelle", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Baumaschinen", "items": ["Bagger", "Kran", "Betonmischer", "Planierraupe"] },
+    { "id": "group_b", "label": "Baumaterialien", "items": ["Beton", "Ziegel", "Stahl", "Holzbalken"] },
+    { "id": "group_c", "label": "Bauberufe", "items": ["Maurer", "Zimmermann", "Elektriker", "Polier"] },
+    { "id": "group_d", "label": "Schutzausrüstung", "items": ["Schutzhelm", "Warnweste", "Sicherheitsschuhe", "Schutzbrille"] }
+  ]
+}

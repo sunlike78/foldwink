@@ -1,0 +1,12 @@
+{
+  "id": "de-0269",
+  "title": "Schmuckherstellung",
+  "difficulty": "easy",
+  "meta": { "theme": "schmuck", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schmuck-Materialien", "items": ["Gold", "Silber", "Platin", "Edelstein"] },
+    { "id": "group_b", "label": "Schmuck-Techniken", "items": ["Fassen", "Löten", "Gravieren", "Polieren"] },
+    { "id": "group_c", "label": "Schmuckarten", "items": ["Ring", "Kette", "Armband", "Brosche"] },
+    { "id": "group_d", "label": "Schmuck-Berufe", "items": ["Goldschmied", "Graveur", "Juwelier", "Edelsteinfasser"] }
+  ]
+}

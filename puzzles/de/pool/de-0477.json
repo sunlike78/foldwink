@@ -1,0 +1,12 @@
+{
+  "id": "de-0477",
+  "title": "Lebensmittelkennzeichnung",
+  "difficulty": "medium",
+  "meta": { "theme": "lebensmittel", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Bio-Siegel", "revealHint": "Ökolog. Anbau", "items": ["EU-Bio-Logo", "Naturland", "Demeter", "Bioland"] },
+    { "id": "group_b", "label": "Fairtrade-Siegel", "revealHint": "Gerechter Handel", "items": ["Fairtrade-Siegel", "UTZ Certified", "Rainforest Alliance", "Fair for Life"] },
+    { "id": "group_c", "label": "Regional-Zeichen", "revealHint": "Herkunft Deutsch.", "items": ["Geprüfte Qualität", "QM Bayern", "Regionalfenster", "Marktcheck Region"] },
+    { "id": "group_d", "label": "Frei-von-Siegel", "revealHint": "Was fehlt drin", "items": ["Glutenfrei", "Laktosefrei", "Vegan", "Zuckerfrei"] }
+  ]
+}

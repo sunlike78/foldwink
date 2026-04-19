@@ -1,0 +1,55 @@
+{
+  "id": "de-0309",
+  "title": "Historische Abkürzungen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Deutsche Geschichte Abk.",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Abkürzungen: DDR-Zeit",
+      "revealHint": "Ostdeutscher Staat",
+      "items": [
+        "Stasi",
+        "SED",
+        "NVA",
+        "VEB"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Abkürzungen: BRD-Zeit",
+      "revealHint": "BRD-Behörden",
+      "items": [
+        "BKA",
+        "BND",
+        "MAD",
+        "BGS"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Abkürzungen: NS-Zeit",
+      "revealHint": "NS-Diktatur",
+      "items": [
+        "NSDAP",
+        "SS",
+        "SA",
+        "Gestapo"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Abkürzungen: Weimarer Zeit",
+      "revealHint": "1919–1933",
+      "items": [
+        "KPD",
+        "SPD",
+        "DNVP",
+        "Reichswehr"
+      ]
+    }
+  ]
+}

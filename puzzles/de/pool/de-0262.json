@@ -1,0 +1,12 @@
+{
+  "id": "de-0262",
+  "title": "Deutsche Modemarken",
+  "difficulty": "easy",
+  "meta": { "theme": "modemarken", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Sportswear-Marken", "items": ["Adidas", "Puma", "Bogner", "Jack Wolfskin"] },
+    { "id": "group_b", "label": "Luxusmarken", "items": ["Hugo Boss", "Jil Sander", "Escada", "Karl Lagerfeld"] },
+    { "id": "group_c", "label": "Streetwear-Marken", "items": ["G-Star Raw", "Armedangels", "Recolution", "Dedicated"] },
+    { "id": "group_d", "label": "Accessoires-Marken", "items": ["Braun Büffel", "Steiff", "Birkenstock", "MCM"] }
+  ]
+}

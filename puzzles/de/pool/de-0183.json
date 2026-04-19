@@ -1,0 +1,51 @@
+{
+  "id": "de-0183",
+  "title": "Bedrohte Tierarten",
+  "difficulty": "easy",
+  "meta": {
+    "theme": "Natur",
+    "batch": "de-batch-02"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Bedrohte Säugetiere",
+      "items": [
+        "Sumatra-Tiger",
+        "Amur-Leopard",
+        "Berggorilla",
+        "Vaquita"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bedrohte Vögel",
+      "items": [
+        "Kakapo",
+        "Philippinen-Adler",
+        "Sifaka",
+        "Spix-Ara"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bedrohte Reptilien",
+      "items": [
+        "Lederschildkröte",
+        "Komodo-Waran",
+        "Galapagos-Riesensch.",
+        "Gharial"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bedrohte Meerestiere",
+      "items": [
+        "Blauwal",
+        "Mantarochen",
+        "Weißer Stör",
+        "Hammerkopfhai"
+      ]
+    }
+  ]
+}

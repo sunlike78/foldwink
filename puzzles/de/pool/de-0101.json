@@ -1,0 +1,12 @@
+{
+  "id": "de-0101",
+  "title": "Tierwelt Afrikas",
+  "difficulty": "easy",
+  "meta": { "theme": "Tiere", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Große Fünf", "items": ["Elefant", "Löwe", "Büffel", "Nashornvogel"] },
+    { "id": "group_b", "label": "Savannenvögel", "items": ["Strauß", "Sekretär", "Marabu", "Kronenkranich"] },
+    { "id": "group_c", "label": "Reptilien", "items": ["Nilkrokodil", "Puffotter", "Chamäleon", "Wüstenmonitor"] },
+    { "id": "group_d", "label": "Primaten", "items": ["Schimpanse", "Gorilla", "Pavian", "Mandrill"] }
+  ]
+}

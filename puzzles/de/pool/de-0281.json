@@ -1,0 +1,12 @@
+{
+  "id": "de-0281",
+  "title": "Sozialversicherung",
+  "difficulty": "easy",
+  "meta": { "theme": "sozialversicherung", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Rentenversicherung", "items": ["Beitragsjahre", "Rentenpunkt", "Frühverrentung", "DRV"] },
+    { "id": "group_b", "label": "Krankenversicherung", "items": ["Kassenbeitrag", "Selbstbeteiligung", "Zuzahlung", "AOK"] },
+    { "id": "group_c", "label": "Arbeitslosenversicherung", "items": ["ALG I", "Kurzarbeitergeld", "Arbeitsamt", "Sperrzeit"] },
+    { "id": "group_d", "label": "Pflegeversicherung", "items": ["Pflegegrad", "Pflegegeld", "Pflegeheim", "Tagesbetreuung"] }
+  ]
+}

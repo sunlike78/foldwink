@@ -1,0 +1,12 @@
+{
+  "id": "de-0049",
+  "title": "Hamburg entdecken",
+  "difficulty": "easy",
+  "meta": { "theme": "Hamburg Sehenswürdigkeiten", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Hamburger Hafen", "items": ["Elbphilharmonie", "Speicherstadt", "Fischmarkt", "Landungsbrücken"] },
+    { "id": "group_b", "label": "Hamburger Kultur", "items": ["Kunsthalle", "Miniaturwunderland", "Planetarium", "Altonaer Museum"] },
+    { "id": "group_c", "label": "Hamburger Parks", "items": ["Planten un Blomen", "Stadtpark", "Alsterpark", "Ohlsdorfer Friedhof"] },
+    { "id": "group_d", "label": "Hamburger Stadtteile", "items": ["Altona", "Eimsbüttel", "Blankenese", "Harburg"] }
+  ]
+}

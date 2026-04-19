@@ -1,0 +1,12 @@
+{
+  "id": "de-0207",
+  "title": "Zweiter Weltkrieg",
+  "difficulty": "easy",
+  "meta": { "theme": "zweiter-weltkrieg", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Schlachten", "items": ["Stalingrad", "El Alamein", "Kursk", "Ardennen"] },
+    { "id": "group_b", "label": "Personen", "items": ["Rommel", "Paulus", "Manstein", "Kesselring"] },
+    { "id": "group_c", "label": "Wendepunkte", "items": ["Kriegseintritt USA", "Normandie", "Stalingrad-Kessel", "Atombombe"] },
+    { "id": "group_d", "label": "Kriegsfolgen", "items": ["Teilung Deutschlands", "Nürnberger Prozesse", "Marshallplan", "Vertreibung"] }
+  ]
+}

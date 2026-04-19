@@ -1,0 +1,12 @@
+{
+  "id": "de-0018",
+  "title": "Bäume Deutschlands",
+  "difficulty": "easy",
+  "meta": { "theme": "Bäume Deutschlands", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Laubbäume", "items": ["Eiche", "Buche", "Birke", "Ahorn"] },
+    { "id": "group_b", "label": "Nadelbäume", "items": ["Fichte", "Kiefer", "Tanne", "Lärche"] },
+    { "id": "group_c", "label": "Obstbäume", "items": ["Apfelbaum", "Kirschbaum", "Pflaumenbaum", "Birnbaum"] },
+    { "id": "group_d", "label": "Zierbäume", "items": ["Magnolie", "Hängebirke", "Trauerweide", "Blutbuche"] }
+  ]
+}

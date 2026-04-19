@@ -1,0 +1,12 @@
+{
+  "id": "de-0215",
+  "title": "Deutsche Tiefebene",
+  "difficulty": "easy",
+  "meta": { "theme": "tiefebene", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Regionen", "items": ["Münsterland", "Lüneburger Heide", "Uckermark", "Altmark"] },
+    { "id": "group_b", "label": "Städte", "items": ["Hannover", "Münster", "Braunschweig", "Magdeburg"] },
+    { "id": "group_c", "label": "Flüsse", "items": ["Elbe", "Weser", "Oder", "Havel"] },
+    { "id": "group_d", "label": "Besonderheiten", "items": ["Marschland", "Geest", "Moorflächen", "Deiche"] }
+  ]
+}

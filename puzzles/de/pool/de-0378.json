@@ -1,0 +1,55 @@
+{
+  "id": "de-0378",
+  "title": "Biotechnologie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Biotechnologie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Gentechnik-Anwendungen",
+      "revealHint": "Gene verändern",
+      "items": [
+        "CRISPR",
+        "GMO",
+        "Genfarm",
+        "Transgen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Stammzellen-Forschung",
+      "revealHint": "Stammzell-Typen",
+      "items": [
+        "Pluripotent",
+        "Embryonal",
+        "Induzierte iPSC",
+        "Mesenchymal"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Enzym-Anwendungen",
+      "revealHint": "Biolog. Katalyse",
+      "items": [
+        "Waschmittel",
+        "Käseherstellung",
+        "Biokraftstoff",
+        "Diagnostik"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Fermentation-Anwendungen",
+      "revealHint": "Mikroben arbeiten",
+      "items": [
+        "Bierbrauerei",
+        "Joghurt",
+        "Antibiotika",
+        "Biogas"
+      ]
+    }
+  ]
+}

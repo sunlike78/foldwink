@@ -1,0 +1,12 @@
+{
+  "id": "de-0164",
+  "title": "Stuttgart Sehenswürdigkeiten",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Museen", "items": ["Porsche Museum", "Mercedes-Benz Museum", "Staatsgalerie", "Linden-Museum"] },
+    { "id": "group_b", "label": "Parks", "items": ["Schlossgarten", "Killesbergpark", "Rosensteinpark", "Weissenburgpark"] },
+    { "id": "group_c", "label": "Stadtteile", "items": ["Degerloch", "Bad Cannstatt", "Vaihingen", "Zuffenhausen"] },
+    { "id": "group_d", "label": "Besonderheiten", "items": ["Kessel-Lage", "Weinbau", "Mineralbäder", "Weindorf"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ru-0400",
+  "title": "Инструменты художника",
+  "difficulty": "medium",
+  "meta": { "theme": "Художественные материалы и техники", "batch": "ru-batch-16" },
+  "groups": [
+    { "id": "painting_materials", "label": "Живопись", "revealHint": "ЖИВОПИСЬ", "items": ["Масло", "Акварель", "Гуашь", "Темпера"] },
+    { "id": "drawing_tools", "label": "Рисунок", "revealHint": "РИСУНОК", "items": ["Карандаш", "Уголь", "Сангина", "Тушь"] },
+    { "id": "print_techniques", "label": "Печатная графика", "revealHint": "ГРАФИКА", "items": ["Офорт", "Литография", "Линогравюра", "Шелкография"] },
+    { "id": "sculpture_materials", "label": "Скульптура", "revealHint": "СКУЛЬПТУРА", "items": ["Глина", "Мрамор", "Бронза", "Гипс"] }
+  ]
+}

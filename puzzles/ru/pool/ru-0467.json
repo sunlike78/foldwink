@@ -1,0 +1,12 @@
+{
+  "id": "ru-0467",
+  "title": "Эпохи русской музыки",
+  "difficulty": "medium",
+  "meta": { "theme": "Русские композиторы по эпохам", "batch": "ru-batch-20" },
+  "groups": [
+    { "id": "early_russian_music", "label": "XIX век", "revealHint": "XIX ВЕК", "items": ["Глинка", "Балакирев", "Мусоргский", "Бородин"] },
+    { "id": "late_russian_music", "label": "Рубеж XIX–XX вв.", "revealHint": "РУБЕЖ ВЕКОВ", "items": ["Чайковский", "Рахманинов", "Скрябин", "Римский-Корсаков"] },
+    { "id": "soviet_music", "label": "Советская эпоха", "revealHint": "СОВЕТСКОЕ", "items": ["Шостакович", "Прокофьев", "Хачатурян", "Свиридов"] },
+    { "id": "modern_russian_music", "label": "Современная", "revealHint": "СОВРЕМЕННАЯ", "items": ["Губайдулина", "Щедрин", "Пярт", "Канчели"] }
+  ]
+}

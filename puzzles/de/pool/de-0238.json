@@ -1,0 +1,12 @@
+{
+  "id": "de-0238",
+  "title": "Reiseberichte und Abenteuer",
+  "difficulty": "easy",
+  "meta": { "theme": "reiseberichte", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Reiseschriftsteller", "items": ["Alexander von Humboldt", "Seume", "Thielicke", "Roth"] },
+    { "id": "group_b", "label": "Berühmte Reiseziele", "items": ["Amazonas", "Himalaya", "Sahara", "Arktis"] },
+    { "id": "group_c", "label": "Expeditionsarten", "items": ["Polarexpedition", "Dschungeltour", "Bergtour", "Seereise"] },
+    { "id": "group_d", "label": "Große Entdecker", "items": ["Kolumbus", "Vasco da Gama", "Cook", "Magellan"] }
+  ]
+}

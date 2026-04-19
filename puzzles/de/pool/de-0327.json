@@ -1,0 +1,55 @@
+{
+  "id": "de-0327",
+  "title": "Herrscherbezeichnungen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Herrschertitel",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Monarchische Titel",
+      "revealHint": "Weltl. Herrscher",
+      "items": [
+        "König",
+        "Kaiser",
+        "Herzog",
+        "Fürst"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Religiöse Titel",
+      "revealHint": "Geistliche Macht",
+      "items": [
+        "Papst",
+        "Patriarch",
+        "Kalif",
+        "Dalai Lama"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Antike Herrschertitel",
+      "revealHint": "Alte Welt",
+      "items": [
+        "Pharao",
+        "Consul",
+        "Satrap",
+        "Tyrann"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Moderne Herrschertitel",
+      "revealHint": "Neuere Zeiten",
+      "items": [
+        "Präsident",
+        "Premier",
+        "Kanzler",
+        "Generalsekretär"
+      ]
+    }
+  ]
+}

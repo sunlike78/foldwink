@@ -1,0 +1,55 @@
+{
+  "id": "de-0318",
+  "title": "Psychologische Schulen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Psychologie Schulen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Jungs Kernbegriffe",
+      "revealHint": "Jungs Konzepte",
+      "items": [
+        "Archetypus",
+        "Kollektivunbewusstes",
+        "Persona",
+        "Anima"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Adlers Begriffe",
+      "revealHint": "Individualpsych.",
+      "items": [
+        "Minderwertigkeits-K.",
+        "Gemeinschaftsgefühl",
+        "Lebensstil",
+        "Kompensation"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Eriksons Phasen",
+      "revealHint": "Lebensabschnitte",
+      "items": [
+        "Urvertrauen",
+        "Autonomie",
+        "Initiative",
+        "Identität"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Maslows Begriffe",
+      "revealHint": "Bedürfnisstufen",
+      "items": [
+        "Physiologisch",
+        "Sicherheit",
+        "Zugehörigkeit",
+        "Selbstverwirklichung"
+      ]
+    }
+  ]
+}

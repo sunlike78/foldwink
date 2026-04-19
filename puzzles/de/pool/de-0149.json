@@ -1,0 +1,12 @@
+{
+  "id": "de-0149",
+  "title": "Motorsport",
+  "difficulty": "easy",
+  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Formel 1", "items": ["Qualifying", "Boxenstopp", "Safety Car", "DRS"] },
+    { "id": "group_b", "label": "Rallye", "items": ["Sonderprüfung", "Servicepunkt", "Schotterpiste", "Co-Pilot"] },
+    { "id": "group_c", "label": "Motorrad", "items": ["MotoGP", "Superbike", "Sidecar", "Enduro"] },
+    { "id": "group_d", "label": "Tourenwagen", "items": ["DTM", "WTCC", "Slipstream", "Fahrerfeld"] }
+  ]
+}

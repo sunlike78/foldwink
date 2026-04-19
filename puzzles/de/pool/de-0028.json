@@ -1,0 +1,12 @@
+{
+  "id": "de-0028",
+  "title": "Meerestiere",
+  "difficulty": "easy",
+  "meta": { "theme": "Meerestiere", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Meeresfische", "items": ["Hering", "Lachs", "Kabeljau", "Thunfisch"] },
+    { "id": "group_b", "label": "Meeressäuger", "items": ["Delfin", "Wal", "Robbe", "Seelöwe"] },
+    { "id": "group_c", "label": "Schalentiere", "items": ["Krabbe", "Hummer", "Muschel", "Garnele"] },
+    { "id": "group_d", "label": "Weichtiere", "items": ["Tintenfisch", "Oktopus", "Tintenschnecke", "Nautilius"] }
+  ]
+}

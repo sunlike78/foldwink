@@ -1,0 +1,12 @@
+{
+  "id": "de-0233",
+  "title": "Moderne Deutsche Literatur",
+  "difficulty": "easy",
+  "meta": { "theme": "moderne-literatur", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Autoren 20. Jh.", "items": ["Thomas Mann", "Brecht", "Böll", "Grass"] },
+    { "id": "group_b", "label": "Werke 20. Jh.", "items": ["Blechtrommel", "Buddenbrooks", "Steppenwolf", "Der Prozess"] },
+    { "id": "group_c", "label": "Themen", "items": ["Exilliteratur", "Trümmerliteratur", "Heimatroman", "Kriegsroman"] },
+    { "id": "group_d", "label": "Literaturpreise", "items": ["Büchner-Preis", "Ingeborg-Bachmann", "Nobelpreis", "Deutscher Buchpreis"] }
+  ]
+}

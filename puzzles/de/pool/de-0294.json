@@ -1,0 +1,12 @@
+{
+  "id": "de-0294",
+  "title": "Wohnungsmarkt",
+  "difficulty": "easy",
+  "meta": { "theme": "wohnungsmarkt", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Miet-Begriffe", "items": ["Kaltmiete", "Nebenkosten", "Kaution", "Mieterhöhung"] },
+    { "id": "group_b", "label": "Eigentum", "items": ["Eigenheim", "Eigentumswohnung", "Grundbuch", "Grundschuld"] },
+    { "id": "group_c", "label": "Finanzierung", "items": ["Hypothek", "Baudarlehen", "KfW-Kredit", "Eigenkapital"] },
+    { "id": "group_d", "label": "Mieterrechte", "items": ["Mietvertrag", "Kündigung", "Schönheitsreparatur", "Mietminderung"] }
+  ]
+}

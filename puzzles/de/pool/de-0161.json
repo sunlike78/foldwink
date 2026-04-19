@@ -1,0 +1,12 @@
+{
+  "id": "de-0161",
+  "title": "Deutsche Städte nach Größe",
+  "difficulty": "easy",
+  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Millionenstädte", "items": ["Berlin", "Hamburg", "München", "Köln"] },
+    { "id": "group_b", "label": "Über 500.000 Einwohner", "items": ["Frankfurt", "Stuttgart", "Düsseldorf", "Leipzig"] },
+    { "id": "group_c", "label": "Über 200.000 Einwohner", "items": ["Dresden", "Hannover", "Nürnberg", "Bremen"] },
+    { "id": "group_d", "label": "Große Mittelstädte", "items": ["Augsburg", "Wiesbaden", "Bonn", "Münster"] }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ru-0339",
+  "title": "Компании-гиганты",
+  "difficulty": "medium",
+  "meta": { "theme": "Крупнейшие компании по отраслям", "batch": "ru-batch-13" },
+  "groups": [
+    { "id": "tech_companies", "label": "IT и технологии", "revealHint": "IT", "items": ["Apple", "Google", "Microsoft", "Meta"] },
+    { "id": "oil_companies", "label": "Нефть и газ", "revealHint": "НЕФТЬ", "items": ["Газпром", "Роснефть", "Saudi Aramco", "ExxonMobil"] },
+    { "id": "retail_companies", "label": "Ритейл", "revealHint": "РИТЕЙЛ", "items": ["Amazon", "Walmart", "Alibaba", "IKEA"] },
+    { "id": "bank_companies", "label": "Банки", "revealHint": "БАНКИ", "items": ["JPMorgan", "HSBC", "Сбербанк", "Deutsche Bank"] }
+  ]
+}

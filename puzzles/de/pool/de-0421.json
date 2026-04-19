@@ -1,0 +1,12 @@
+{
+  "id": "de-0421",
+  "title": "Wirtschaftswunder",
+  "difficulty": "medium",
+  "meta": { "theme": "wirtschaft", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Symbole des Wunders", "revealHint": "Sichtbare Zeichen", "items": ["VW Käfer", "Nylonstrümpfe", "Kühlschrank", "Fernsehen"] },
+    { "id": "group_b", "label": "Personen dahinter", "revealHint": "Gestalter", "items": ["Ludwig Erhard", "Konrad Adenauer", "Kurt Schmücker", "Karl Schiller"] },
+    { "id": "group_c", "label": "Produkte der Zeit", "revealHint": "Waren 50er/60er", "items": ["Vespa", "Petticoat", "Plattenspieler", "Waschmaschine"] },
+    { "id": "group_d", "label": "Wichtige Ereignisse", "revealHint": "Meilensteine", "items": ["Marshallplan", "Währungsreform", "EWG-Gründung", "Gastarbeitervertrag"] }
+  ]
+}

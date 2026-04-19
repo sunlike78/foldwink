@@ -1,0 +1,12 @@
+{
+  "id": "de-0055",
+  "title": "Autoteile",
+  "difficulty": "easy",
+  "meta": { "theme": "Autoteile", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Motorteile", "items": ["Kolben", "Nockenwelle", "Turbolader", "Zylinderkopf"] },
+    { "id": "group_b", "label": "Karosserieteile", "items": ["Kotflügel", "Motorhaube", "Stoßstange", "Dach"] },
+    { "id": "group_c", "label": "Innenraumteile", "items": ["Armaturenbrett", "Lenkrad", "Schalthebel", "Rückspiegel"] },
+    { "id": "group_d", "label": "Fahrwerksteile", "items": ["Stoßdämpfer", "Bremsscheibe", "Felge", "Spurstange"] }
+  ]
+}

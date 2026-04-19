@@ -1,0 +1,55 @@
+{
+  "id": "de-0390",
+  "title": "Ozeanografie",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Ozeanografie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Meeresströmungen",
+      "revealHint": "Wasserbewegungen",
+      "items": [
+        "Golfstrom",
+        "Humboldtstrom",
+        "Thermohalin",
+        "El Niño"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Tiefsee-Zonen",
+      "revealHint": "Tiefseebereiche",
+      "items": [
+        "Hadal",
+        "Abyssal",
+        "Bathyal",
+        "Mesopelagial"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Meeresökosysteme",
+      "revealHint": "Lebensräume Meer",
+      "items": [
+        "Korallenriff",
+        "Mangrovenwälder",
+        "Tiefseehydrother.",
+        "Sargas someer"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Meeresforschung",
+      "revealHint": "Meeresforschung",
+      "items": [
+        "ROV",
+        "Bathyscaph",
+        "Argo-Floats",
+        "Seekabel"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "de-0330",
+  "title": "Waffentypen Geschichte",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Waffen Geschichte",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Antike Waffen",
+      "revealHint": "Metall und Holz",
+      "items": [
+        "Pilum",
+        "Gladius",
+        "Sarissa",
+        "Streitaxt"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Mittelalter Waffen",
+      "revealHint": "Ritterzeit",
+      "items": [
+        "Armbrust",
+        "Morgenstern",
+        "Hellebarde",
+        "Streitkolben"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Früh-Neuzeit Waffen",
+      "revealHint": "Pulver und Feuer",
+      "items": [
+        "Muskete",
+        "Arkebuse",
+        "Kanone",
+        "Bajonett"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Moderne Waffen",
+      "revealHint": "20. u. 21. Jh.",
+      "items": [
+        "Panzerfaust",
+        "MG42",
+        "Granatwerfer",
+        "Drohne"
+      ]
+    }
+  ]
+}

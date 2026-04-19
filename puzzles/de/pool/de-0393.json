@@ -1,0 +1,55 @@
+{
+  "id": "de-0393",
+  "title": "Bodenkunde",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Bodenkunde",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Bodentypen",
+      "revealHint": "Bodenarten",
+      "items": [
+        "Schwarzerde",
+        "Podsol",
+        "Braunerde",
+        "Rendzina"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bodenfauna",
+      "revealHint": "Leben im Boden",
+      "items": [
+        "Regenwurm",
+        "Maulwurf",
+        "Collembolen",
+        "Bodenbakterien"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bodendegradation",
+      "revealHint": "Boden geschädigt",
+      "items": [
+        "Erosion",
+        "Versiegelung",
+        "Kontamination",
+        "Versalzung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Landwirtschaft Boden",
+      "revealHint": "Acker und Ernte",
+      "items": [
+        "Düngung",
+        "Fruchtwechsel",
+        "Humusaufbau",
+        "Pflügen"
+      ]
+    }
+  ]
+}

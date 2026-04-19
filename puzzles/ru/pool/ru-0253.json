@@ -1,0 +1,12 @@
+{
+  "id": "ru-0253",
+  "title": "Компьютерные игры — жанры",
+  "difficulty": "easy",
+  "meta": { "theme": "Жанры компьютерных игр", "batch": "ru-batch-09" },
+  "groups": [
+    { "id": "action_genres", "label": "Экшн", "items": ["Шутер", "Файтинг", "Слэшер", "Стелс"] },
+    { "id": "strategy_genres", "label": "Стратегии", "items": ["RTS", "TBS", "4X", "Tower Defense"] },
+    { "id": "rpg_genres", "label": "RPG", "items": ["JRPG", "ARPG", "Roguelike", "MMORPG"] },
+    { "id": "casual_genres", "label": "Казуальные", "items": ["Пазл", "Match-3", "Платформер", "Аркада"] }
+  ]
+}

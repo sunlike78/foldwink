@@ -1,0 +1,12 @@
+{
+  "id": "de-0011",
+  "title": "Frühstückstisch",
+  "difficulty": "easy",
+  "meta": { "theme": "Frühstück", "batch": "de-batch-01" },
+  "groups": [
+    { "id": "group_a", "label": "Brotaufstriche", "items": ["Butter", "Marmelade", "Honig", "Nutella"] },
+    { "id": "group_b", "label": "Backwaren", "items": ["Brötchen", "Toast", "Croissant", "Baguette"] },
+    { "id": "group_c", "label": "Frühstücksgetränke", "items": ["Kaffee", "Tee", "Orangensaft", "Milch"] },
+    { "id": "group_d", "label": "Milchprodukte", "items": ["Joghurt", "Quark", "Käse", "Frischkäse"] }
+  ]
+}

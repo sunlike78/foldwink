@@ -1,0 +1,12 @@
+{
+  "id": "de-0246",
+  "title": "Elektronische Musik",
+  "difficulty": "easy",
+  "meta": { "theme": "elektronische-musik", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Electronic-Pioniere", "items": ["Kraftwerk", "Tangerine Dream", "Klaus Schulze", "Cluster"] },
+    { "id": "group_b", "label": "Electronic-Labels", "items": ["Mute Records", "Raster-Noton", "Kompakt", "Tresor Records"] },
+    { "id": "group_c", "label": "Electronic-Genres", "items": ["Techno", "Ambient", "Krautrock", "Minimal"] },
+    { "id": "group_d", "label": "Berühmte Clubs", "items": ["Berghain", "Watergate", "Robert Johnson", "Fabric"] }
+  ]
+}

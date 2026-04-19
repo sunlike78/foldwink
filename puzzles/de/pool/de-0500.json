@@ -1,0 +1,12 @@
+{
+  "id": "de-0500",
+  "title": "Was kommt nach der KI?",
+  "difficulty": "medium",
+  "meta": { "theme": "ki", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "Superintelligenz", "revealHint": "Übermenschl. KI", "items": ["Bostrom", "Paperclip-Problem", "Intelligenzexplosion", "Kontrollproblem"] },
+    { "id": "group_b", "label": "AGI-Konzepte", "revealHint": "Allgemeine KI", "items": ["Allgemeine KI", "Transfer Learning", "Common Sense", "World Model"] },
+    { "id": "group_c", "label": "Singularitäts-Ideen", "revealHint": "KI-Singularität", "items": ["Ray Kurzweil", "Techn. Singularität", "Hirn-Upload", "Posthumanismus"] },
+    { "id": "group_d", "label": "KI-Ethik-Konzepte", "revealHint": "Moral & Kontrolle", "items": ["Alignment", "AI Safety", "Werteproblem", "Transparenzgebot"] }
+  ]
+}

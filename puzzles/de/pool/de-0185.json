@@ -1,0 +1,12 @@
+{
+  "id": "de-0185",
+  "title": "Energie",
+  "difficulty": "easy",
+  "meta": { "theme": "Technik", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Fossile Energie", "items": ["Kohle", "Erdöl", "Erdgas", "Braunkohle"] },
+    { "id": "group_b", "label": "Kernenergie", "items": ["Kernspaltung", "Reaktor", "Brennstäbe", "Kühlung"] },
+    { "id": "group_c", "label": "Erneuerbare Energie", "items": ["Windkraft", "Solarenergie", "Wasserkraft", "Biogas"] },
+    { "id": "group_d", "label": "Energiespeicher", "items": ["Batterie", "Pumpspeicher", "Wasserstoff", "Akkumulator"] }
+  ]
+}

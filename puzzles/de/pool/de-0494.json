@@ -1,0 +1,12 @@
+{
+  "id": "de-0494",
+  "title": "SETI und Außerirdische",
+  "difficulty": "medium",
+  "meta": { "theme": "astronomie", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "SETI-Suche", "revealHint": "Wie man sucht", "items": ["Radioteleskop", "Optisches SETI", "Technosignaturen", "Allen Telescope Array"] },
+    { "id": "group_b", "label": "Außerird.-Konzepte", "revealHint": "Theorien & Ideen", "items": ["Fermi-Paradoxon", "Kardaschev-Skala", "Drake-Gleichung", "Große Filter"] },
+    { "id": "group_c", "label": "Außerird.-Theorien", "revealHint": "Warum wir allein", "items": ["Rare Earth Hypothesis", "Dunkle Wald-Theorie", "Zoo-Hypothese", "Simulationshypothese"] },
+    { "id": "group_d", "label": "SETI-Projekte", "revealHint": "Bekannte Programme", "items": ["SETI@home", "Breakthrough Listen", "WOW-Signal", "Arecibo-Botschaft"] }
+  ]
+}

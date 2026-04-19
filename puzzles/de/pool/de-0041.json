@@ -1,0 +1,12 @@
+{
+  "id": "de-0041",
+  "title": "Filmgenres",
+  "difficulty": "easy",
+  "meta": { "theme": "Filmgenres", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Action-Elemente", "items": ["Verfolgungsjagd", "Explosionen", "Martial Arts", "Schusswechsel"] },
+    { "id": "group_b", "label": "Drama-Elemente", "items": ["Liebesgeschichte", "Familienkonflikt", "Verlust", "Versöhnung"] },
+    { "id": "group_c", "label": "Komödie-Elemente", "items": ["Slapstick", "Wortwitze", "Missverständnisse", "Satire"] },
+    { "id": "group_d", "label": "Horror-Elemente", "items": ["Geister", "Zombie", "Jumpscare", "Blut"] }
+  ]
+}

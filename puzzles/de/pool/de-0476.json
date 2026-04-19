@@ -1,0 +1,12 @@
+{
+  "id": "de-0476",
+  "title": "Lebensmittelsicherheit",
+  "difficulty": "medium",
+  "meta": { "theme": "lebensmittel", "batch": "de-batch-05" },
+  "groups": [
+    { "id": "group_a", "label": "HACCP-Konzept", "revealHint": "Gefahrenanalyse", "items": ["Gefahrenanalyse", "Krit. Kontrollpunkte", "Überwachung CCP", "Korrekturmaßnahmen"] },
+    { "id": "group_b", "label": "Hauptallergene", "revealHint": "EU-Allergenliste", "items": ["Gluten", "Erdnüsse", "Schalenfrüchte", "Milch"] },
+    { "id": "group_c", "label": "Konservierungsarten", "revealHint": "Haltbar machen", "items": ["Pasteurisierung", "Gefriertrocknung", "Pökeln", "Einwecken"] },
+    { "id": "group_d", "label": "Rückverfolgbarkeit", "revealHint": "Wo kommt es her?", "items": ["Losnummer", "QR-Code Lebensmittel", "Lieferschein", "Chargennummer"] }
+  ]
+}

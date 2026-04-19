@@ -1,0 +1,55 @@
+{
+  "id": "de-0375",
+  "title": "Sozialbewegungen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Sozialbewegungen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Feminismus-Meilensteine",
+      "revealHint": "Frauenrechte",
+      "items": [
+        "Wahlrecht 1918",
+        "Equal Pay",
+        "MeToo",
+        "Suffragetten"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Umweltbewegung-Meilensteine",
+      "revealHint": "Für die Natur",
+      "items": [
+        "Greenpeace 1971",
+        "Fridays for Future",
+        "Earth Day",
+        "BUND"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bürgerrechts-Meilensteine",
+      "revealHint": "Bürgerrechte",
+      "items": [
+        "Civil Rights Act",
+        "March on Washington",
+        "Rosa Parks",
+        "BLM"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Arbeiterrechts-Meilensteine",
+      "revealHint": "Arbeitersache",
+      "items": [
+        "8-Stunden-Tag",
+        "Gewerkschaft",
+        "Streik 1. Mai",
+        "Tarifvertrag"
+      ]
+    }
+  ]
+}

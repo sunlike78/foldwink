@@ -1,0 +1,55 @@
+{
+  "id": "de-0339",
+  "title": "Algorithmen",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Algorithmen",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Sortieralgorithmen",
+      "revealHint": "Ordnung herstellen",
+      "items": [
+        "Quicksort",
+        "Mergesort",
+        "Bubblesort",
+        "Heapsort"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Suchalgorithmen",
+      "revealHint": "Etwas finden",
+      "items": [
+        "Binäre Suche",
+        "Breitensuche",
+        "Tiefensuche",
+        "A-Stern"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Graphenalgorithmen",
+      "revealHint": "Graphen-Analyse",
+      "items": [
+        "Dijkstra",
+        "Bellman-Ford",
+        "Floyd-Warshall",
+        "Prim"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kryptographiealgorithmen",
+      "revealHint": "Verschlüsseln",
+      "items": [
+        "AES",
+        "RSA",
+        "SHA-256",
+        "Diffie-Hellman"
+      ]
+    }
+  ]
+}

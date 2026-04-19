@@ -1,0 +1,55 @@
+{
+  "id": "de-0388",
+  "title": "Klimageschichte",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Klimageschichte",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Eiszeiten",
+      "revealHint": "Kältephasen Erde",
+      "items": [
+        "Würm-Eiszeit",
+        "Riss-Eiszeit",
+        "Mindel-Eiszeit",
+        "Snowball Earth"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Warmzeiten",
+      "revealHint": "Warme Perioden",
+      "items": [
+        "Holozän",
+        "Eem-Warmzeit",
+        "Kreide-Warmzeit",
+        "Mittelalter-Warm"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Klimaereignisse",
+      "revealHint": "Klimakatastrophen",
+      "items": [
+        "Younger Dryas",
+        "8.2ka-Ereignis",
+        "PETM",
+        "K-Pg-Grenze"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Klimazeugen",
+      "revealHint": "Archive des Klimas",
+      "items": [
+        "Eiskern",
+        "Baumring",
+        "Sedimentkern",
+        "Koralle"
+      ]
+    }
+  ]
+}

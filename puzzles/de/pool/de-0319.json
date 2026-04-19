@@ -1,0 +1,55 @@
+{
+  "id": "de-0319",
+  "title": "Soziologie Grundbegriffe",
+  "difficulty": "medium",
+  "meta": {
+    "theme": "Soziologie",
+    "batch": "de-batch-04"
+  },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Webers Konzepte",
+      "revealHint": "Vers. Soziologie",
+      "items": [
+        "Entzauberung",
+        "Charisma",
+        "Protestantismus",
+        "Bürokratie"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Durkheims Konzepte",
+      "revealHint": "Soziale Fakten",
+      "items": [
+        "Anomie",
+        "Solidarität",
+        "Kollektivbewusstsein",
+        "Totem"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Simmels Konzepte",
+      "revealHint": "Formale Soziologie",
+      "items": [
+        "Wechselwirkung",
+        "Vergesellschaftung",
+        "Fremde",
+        "Triade"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bourdieus Konzepte",
+      "revealHint": "Kapitaltheorie",
+      "items": [
+        "Habitus",
+        "Feld",
+        "Kapital",
+        "Doxa"
+      ]
+    }
+  ]
+}

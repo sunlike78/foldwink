@@ -1,0 +1,12 @@
+{
+  "id": "de-0045",
+  "title": "Grimms Märchen",
+  "difficulty": "easy",
+  "meta": { "theme": "Märchen Grimm", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Märchen-Prinzessinnen", "items": ["Schneewittchen", "Dornröschen", "Aschenputtel", "Rapunzel"] },
+    { "id": "group_b", "label": "Böse Figuren", "items": ["Böse Stiefmutter", "Wolf", "Rumpelstilzchen", "Hexe"] },
+    { "id": "group_c", "label": "Helfer-Figuren", "items": ["Fee", "Zwerg", "Frosch", "Vogel"] },
+    { "id": "group_d", "label": "Magische Gegenstände", "items": ["Zauberspiegel", "Glasschuhe", "Spindel", "Rotkäppchens Korb"] }
+  ]
+}

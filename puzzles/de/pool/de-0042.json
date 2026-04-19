@@ -1,0 +1,12 @@
+{
+  "id": "de-0042",
+  "title": "Musikgenres",
+  "difficulty": "easy",
+  "meta": { "theme": "Musikgenres", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Rock-Stile", "items": ["Hard Rock", "Punk", "Metal", "Indie Rock"] },
+    { "id": "group_b", "label": "Jazz-Stile", "items": ["Swing", "Bebop", "Cool Jazz", "Fusion"] },
+    { "id": "group_c", "label": "Klassische Formen", "items": ["Sinfonie", "Oper", "Sonate", "Konzert"] },
+    { "id": "group_d", "label": "Elektronische Stile", "items": ["Techno", "House", "Ambient", "Drum and Bass"] }
+  ]
+}

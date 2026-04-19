@@ -1,0 +1,12 @@
+{
+  "id": "de-0108",
+  "title": "Schmetterlinge und Insekten",
+  "difficulty": "easy",
+  "meta": { "theme": "Insekten", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Tagfalter", "items": ["Zitronenfalter", "Admiral", "Tagpfauenauge", "Schachbrettfalter"] },
+    { "id": "group_b", "label": "Nachtfalter", "items": ["Totenkopfschwärmer", "Mondvogel", "Weidenbohrer", "Hausmutter"] },
+    { "id": "group_c", "label": "Käferarten", "items": ["Marienkäfer", "Hirschkäfer", "Laufkäfer", "Goldkäfer"] },
+    { "id": "group_d", "label": "Nützlinge", "items": ["Honigbiene", "Hummel", "Florfliege", "Schlupfwespe"] }
+  ]
+}

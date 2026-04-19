@@ -1,0 +1,12 @@
+{
+  "id": "de-0292",
+  "title": "Sozialleistungen",
+  "difficulty": "easy",
+  "meta": { "theme": "sozialleistungen", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "Sozialleistungs-Arten", "items": ["Kindergeld", "Wohngeld", "Sozialhilfe", "BAföG"] },
+    { "id": "group_b", "label": "Sozial-Behörden", "items": ["Jobcenter", "Sozialamt", "Jugendamt", "Rentenversicherung"] },
+    { "id": "group_c", "label": "Antragstellung", "items": ["Antrag stellen", "Bescheid", "Widerspruch", "Klage"] },
+    { "id": "group_d", "label": "Sozial-Begriffe", "items": ["Bedürftigkeit", "Grundsicherung", "Regelleistung", "Sanktion"] }
+  ]
+}

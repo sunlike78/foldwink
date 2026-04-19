@@ -1,0 +1,12 @@
+{
+  "id": "de-0209",
+  "title": "DDR und BRD",
+  "difficulty": "easy",
+  "meta": { "theme": "ddr-brd", "batch": "de-batch-03" },
+  "groups": [
+    { "id": "group_a", "label": "DDR-Symbole", "items": ["Trabant", "Pionierhalstuch", "Ampelmännchen", "Datsche"] },
+    { "id": "group_b", "label": "DDR-Politiker", "items": ["Ulbricht", "Honecker", "Modrow", "Gysi"] },
+    { "id": "group_c", "label": "BRD-Politiker", "items": ["Adenauer", "Brandt", "Schmidt", "Kohl"] },
+    { "id": "group_d", "label": "DDR-Alltag", "items": ["Intershop", "FDJ", "Broiler", "Plattenbau"] }
+  ]
+}

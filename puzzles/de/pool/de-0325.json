@@ -1,0 +1,32 @@
+{
+  "id": "de-0325",
+  "title": "Kirchliche Begriffe",
+  "difficulty": "medium",
+  "meta": { "theme": "Kirche Begriffe", "batch": "de-batch-04" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Nur katholisch",
+      "revealHint": "Römische Tradition",
+      "items": ["Papst", "Beichte", "Ablass", "Purgatorium"]
+    },
+    {
+      "id": "group_b",
+      "label": "Nur evangelisch",
+      "revealHint": "Reformatorisch",
+      "items": ["Synode", "Presbyterium", "Sola Scriptura", "Landeskirche"]
+    },
+    {
+      "id": "group_c",
+      "label": "Nur orthodox",
+      "revealHint": "Ostkirche",
+      "items": ["Patriarch", "Ikonostase", "Hesychasmus", "Tomos"]
+    },
+    {
+      "id": "group_d",
+      "label": "Allgemein christlich",
+      "revealHint": "Alle Konfessionen",
+      "items": ["Taufe", "Eucharistie", "Gebet", "Evangelium"]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de-0157",
+  "title": "Zahnarzt",
+  "difficulty": "easy",
+  "meta": { "theme": "Gesundheit", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Zahnarten", "items": ["Schneidezahn", "Eckzahn", "Backenzahn", "Weisheitszahn"] },
+    { "id": "group_b", "label": "Behandlungen", "items": ["Füllung", "Wurzelbehandlung", "Extraktion", "Krone"] },
+    { "id": "group_c", "label": "Zahnarzt-Geräte", "items": ["Bohrer", "Spiegel", "Sonde", "Absauger"] },
+    { "id": "group_d", "label": "Zahnpflege", "items": ["Zahnbürste", "Zahnseide", "Mundspülung", "Fluorid"] }
+  ]
+}

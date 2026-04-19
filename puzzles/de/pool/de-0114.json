@@ -1,0 +1,12 @@
+{
+  "id": "de-0114",
+  "title": "Ostern",
+  "difficulty": "easy",
+  "meta": { "theme": "Feste", "batch": "de-batch-02" },
+  "groups": [
+    { "id": "group_a", "label": "Eier-Bräuche", "items": ["Eier färben", "Eier verstecken", "Eierlaufen", "Eier suchen"] },
+    { "id": "group_b", "label": "Osterfiguren", "items": ["Osterhase", "Osterküken", "Osterlamm", "Osterfuchs"] },
+    { "id": "group_c", "label": "Osterspeisen", "items": ["Hefezopf", "Osterbraten", "Lammkeule", "Rührei"] },
+    { "id": "group_d", "label": "Osterpflanzen", "items": ["Narzisse", "Tulpe", "Forsythie", "Weidenkätzchen"] }
+  ]
+}
