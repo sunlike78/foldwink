@@ -37,7 +37,7 @@ const toDelete = [];
 
 for (const f of files) {
   const raw = JSON.parse(fs.readFileSync(path.join(DIR,f),"utf8"));
-  if (raw.difficulty !== "medium") continue;
+  // Previously limited to medium; now sweeps all difficulties.
   let triviality = 0;
   for (const g of raw.groups ?? []) {
     const words = labelWords(g.label);
