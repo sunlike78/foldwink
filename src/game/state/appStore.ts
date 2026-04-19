@@ -15,7 +15,28 @@ import {
 import type { DailyRecord } from "../types/stats";
 import type { ActiveGame, AppScreen } from "../types/game";
 import type { Puzzle } from "../types/puzzle";
-import { getPuzzleById } from "../../puzzles/loader";
+import {
+  getPuzzleById,
+  getPuzzleByIndex,
+  getEasyByIndex,
+  getMediumByIndex,
+  getHardByIndex,
+} from "../../puzzles/loader";
+import {
+  getDEPuzzleById,
+  getDEPuzzleByIndex,
+  getDEEasyByIndex,
+  getDEMediumByIndex,
+  getDEHardByIndex,
+} from "../../puzzles/loaderDe";
+import {
+  getRUPuzzleById,
+  getRUPuzzleByIndex,
+  getRUEasyByIndex,
+  getRUMediumByIndex,
+  getRUHardByIndex,
+} from "../../puzzles/loaderRu";
+import { getLangSync } from "../../i18n/useLanguage";
 import { todayLocal } from "../../utils/date";
 
 function initialTodayDailyRecord(): DailyRecord | null {
@@ -39,7 +60,7 @@ function tryResumeSession(): ResumedSession | null {
     clearActiveSession();
     return null;
   }
-  const puzzle = getPuzzleById(session.puzzleId);
+  const puzzle = getPuzzleById(session.puzzleId) ?? getDEPuzzleById(session.puzzleId);
   if (!puzzle) {
     clearActiveSession();
     return null;
@@ -54,8 +75,46 @@ function tryResumeSession(): ResumedSession | null {
 
 const resumed = tryResumeSession();
 
+// Language-aware getters: read current language at call time so switching
+// language takes effect on the next game start without recreating the store.
+function langGetPuzzleById(id: string): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEPuzzleById(id) ?? getPuzzleById(id);
+  if (lang === "ru") return getRUPuzzleById(id) ?? getPuzzleById(id);
+  return getPuzzleById(id);
+}
+function langGetPuzzleByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEPuzzleByIndex(i) ?? getPuzzleByIndex(i);
+  if (lang === "ru") return getRUPuzzleByIndex(i) ?? getPuzzleByIndex(i);
+  return getPuzzleByIndex(i);
+}
+function langGetEasyByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEEasyByIndex(i) ?? getEasyByIndex(i);
+  if (lang === "ru") return getRUEasyByIndex(i) ?? getEasyByIndex(i);
+  return getEasyByIndex(i);
+}
+function langGetMediumByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEMediumByIndex(i) ?? getMediumByIndex(i);
+  if (lang === "ru") return getRUMediumByIndex(i) ?? getMediumByIndex(i);
+  return getMediumByIndex(i);
+}
+function langGetHardByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEHardByIndex(i) ?? getHardByIndex(i);
+  if (lang === "ru") return getRUHardByIndex(i) ?? getHardByIndex(i);
+  return getHardByIndex(i);
+}
+
 export const useGameStore = createStore({
   ...defaultDeps,
+  getPuzzleById: langGetPuzzleById,
+  getPuzzleByIndex: langGetPuzzleByIndex,
+  getEasyByIndex: langGetEasyByIndex,
+  getMediumByIndex: langGetMediumByIndex,
+  getHardByIndex: langGetHardByIndex,
   initialStats: loadStats(),
   initialProgress: loadProgress(),
   initialTodayDailyRecord: initialTodayDailyRecord(),

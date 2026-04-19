@@ -12,6 +12,7 @@ import { colorIndexForGroup } from "../game/solvedColors";
 import { useSound } from "../audio/useSound";
 import { useHaptics } from "../haptics/useHaptics";
 import { GameTimer } from "../components/GameTimer";
+import { useT } from "../i18n/useLanguage";
 
 export function GameScreen() {
   const active = useGameStore((s) => s.active);
@@ -25,6 +26,7 @@ export function GameScreen() {
   const winkTab = useGameStore((s) => s.winkTab);
   const play = useSound();
   const haptic = useHaptics();
+  const t = useT();
   const prevSolvedCount = useRef(0);
   const prevWinkedId = useRef<string | null>(null);
 
@@ -65,9 +67,9 @@ export function GameScreen() {
   if (!active || !puzzle) {
     return (
       <div className="text-center text-muted p-8">
-        No active game.
+        {t.game.noActiveGame}
         <div className="mt-4">
-          <Button onClick={goToMenu}>Back to menu</Button>
+          <Button onClick={goToMenu}>{t.game.backToMenu}</Button>
         </div>
       </div>
     );
@@ -179,7 +181,7 @@ export function GameScreen() {
             onClick={clearSelection}
             disabled={active.selection.length === 0}
           >
-            Clear
+            {t.game.clear}
           </Button>
           <Button
             onClick={handleSubmit}
@@ -190,13 +192,13 @@ export function GameScreen() {
                 : ""
             }
           >
-            Submit
+            {t.game.submit}
           </Button>
         </div>
       </div>
       <div className="mt-6 text-center">
         <button className="text-muted text-sm underline underline-offset-2" onClick={goToMenu}>
-          Quit to menu
+          {t.game.quitToMenu}
         </button>
       </div>
     </div>

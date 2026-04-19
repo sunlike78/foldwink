@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useGameStore } from "../game/state/appStore";
+import { useT } from "../i18n/useLanguage";
 import { Button } from "../components/Button";
 import { ResultSummary } from "../components/ResultSummary";
 import { ShareButton } from "../components/ShareButton";
@@ -23,6 +24,7 @@ export function ResultScreen() {
   const startNextSame = useGameStore((s) => s.startNextSame);
   const play = useSound();
   const haptic = useHaptics();
+  const t = useT();
 
   useEffect(() => {
     if (!summary) return;
@@ -35,9 +37,9 @@ export function ResultScreen() {
   if (!summary || !puzzle) {
     return (
       <div className="text-center text-muted p-8">
-        No result.
+        {t.result.noResult}
         <div className="mt-4">
-          <Button onClick={goToMenu}>Back to menu</Button>
+          <Button onClick={goToMenu}>{t.result.backToMenu}</Button>
         </div>
       </div>
     );
@@ -89,7 +91,7 @@ export function ResultScreen() {
           }`}
         >
           <div className="flex items-center justify-center gap-2">
-            <span className="text-[10px] uppercase tracking-[0.14em] text-muted">Grade</span>
+            <span className="text-[10px] uppercase tracking-[0.14em] text-muted">{t.result.grade}</span>
             <span
               className={`text-base font-bold ${
                 grade.noWinkMedium || showNewBest ? "text-accent" : "text-text"
@@ -102,7 +104,7 @@ export function ResultScreen() {
             <div className="text-[11px] text-muted mt-0.5">
               {showNewBest ? (
                 <>
-                  <span className="text-accent">✦ New best streak {stats.bestStreak}</span>
+                  <span className="text-accent">{t.result.newBest(stats.bestStreak)}</span>
                   {grade.caption && <span className="opacity-70"> · {grade.caption}</span>}
                 </>
               ) : (
@@ -116,13 +118,11 @@ export function ResultScreen() {
       {!isWin && (
         <div className="mt-3 rounded-xl bg-surface border border-[#2e343f] px-4 py-3 text-center">
           <div className="text-[10px] uppercase tracking-[0.14em] text-muted mb-1">
-            Close one
+            {t.result.closeOne}
           </div>
           <p className="text-sm text-text">
-            Every good solver misses a puzzle.{" "}
-            {isDaily
-              ? "A new daily lands tomorrow."
-              : "Try a fresh one — the pattern won't catch you twice."}
+            {t.result.missedMsg}{" "}
+            {isDaily ? t.result.nextDaily : t.result.tryFresh}
           </p>
         </div>
       )}
@@ -140,14 +140,14 @@ export function ResultScreen() {
       <div className="mt-3 flex flex-col gap-2" data-testid="result-cta-stack">
         {!isDaily && (
           <Button onClick={startNextSame} data-testid="result-next-puzzle">
-            Next puzzle
+            {t.result.nextPuzzle}
           </Button>
         )}
         <Button variant="secondary" onClick={showStats}>
-          Stats
+          {t.result.showStats}
         </Button>
         <Button variant="ghost" onClick={goToMenu}>
-          Back to menu
+          {t.result.backToMenu}
         </Button>
       </div>
     </div>
