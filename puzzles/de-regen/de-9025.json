@@ -1,0 +1,32 @@
+{
+  "id": "de-9025",
+  "title": "Macht und ihre Formen",
+  "difficulty": "medium",
+  "meta": { "theme": "Machtstrukturen durch historische Phänomene", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Propaganda",
+      "revealHint": "WAHRHEIT GEZIELT GEFORMT",
+      "items": ["Plakat an jeder Ecke", "Rundfunk einseitig", "Feind stets gleich", "Mythos zur Pflicht"]
+    },
+    {
+      "id": "group_b",
+      "label": "Zensur",
+      "revealHint": "VERBOTENES SCHWEIGEN",
+      "items": ["Buch still weg", "Journalist verhört", "Index verbotener Werke", "Strich im Manuskript"]
+    },
+    {
+      "id": "group_c",
+      "label": "Widerstand",
+      "revealHint": "TROTZ GEFAHR NEIN",
+      "items": ["Flugblatt nachts raus", "Stauffenberg Juli", "Sophie Scholl gefasst", "Weiße Rose gedruckt"]
+    },
+    {
+      "id": "group_d",
+      "label": "Kollaboration",
+      "revealHint": "MITGEMACHT OHNE FRAGE",
+      "items": ["Amt unter neuem Herrn", "Karriere per Schweigen", "Denunziation hilft", "Mitläufer stumm"]
+    }
+  ]
+}

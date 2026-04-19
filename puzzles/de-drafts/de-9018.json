@@ -1,0 +1,28 @@
+{
+  "id": "de-9018",
+  "title": "Technologische Umbrüche",
+  "difficulty": "easy",
+  "meta": { "theme": "Technologiewellen im 20. Jahrhundert", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Digitalisierung",
+      "items": ["Diskette statt Papier", "Fax stirbt", "Akte wird Pixel", "Drucker verstaubt"]
+    },
+    {
+      "id": "group_b",
+      "label": "Automatisierung",
+      "items": ["Fließband statt Hand", "Roboter schweißt", "Kassierer wird Automat", "Sortierung maschinell"]
+    },
+    {
+      "id": "group_c",
+      "label": "Vernetzung",
+      "items": ["Modem wählt sich ein", "Erste Webseite online", "Mail statt Brief", "Daten wandern global"]
+    },
+    {
+      "id": "group_d",
+      "label": "Mobilität",
+      "items": ["Walkman am Ohr", "Handy in der Tasche", "Laptop im Rucksack", "Überall erreichbar"]
+    }
+  ]
+}

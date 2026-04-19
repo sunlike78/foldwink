@@ -1,0 +1,28 @@
+{
+  "id": "de-9007",
+  "title": "Soziale Phänomene erkannt",
+  "difficulty": "easy",
+  "meta": { "theme": "Soziale Phänomene via Manifestationen", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Gentrifizierung",
+      "items": ["Altbau wird Loft", "Miete verdoppelt", "Bäcker weicht Café", "Alte Mieter weg"]
+    },
+    {
+      "id": "group_b",
+      "label": "Ehrenamt",
+      "items": ["Feuerwehr freiwillig", "Tafel-Helfer samstags", "Leseoma in Schule", "Fluthelfer unbezahlt"]
+    },
+    {
+      "id": "group_c",
+      "label": "Überarbeitung",
+      "items": ["Sonntags im Büro", "Urlaub nicht genommen", "Fünf Stunden Schlaf", "Magengeschwür mit 40"]
+    },
+    {
+      "id": "group_d",
+      "label": "Vereinsamung",
+      "items": ["Nachbar unbekannt", "Geburtstag ohne Gast", "Wochen ohne Berührung", "Stille Wohnung abends"]
+    }
+  ]
+}

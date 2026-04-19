@@ -1,0 +1,28 @@
+{
+  "id": "de-9013",
+  "title": "Hartnäckigkeit zeigt sich so",
+  "difficulty": "easy",
+  "meta": { "theme": "Charaktereigenschaften via Alltagsbilder", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Beharrlichkeit",
+      "items": ["Tausendste Übung noch", "Brief erneut versandt", "Nein heißt vielleicht", "Kein Abkürzungsweg"]
+    },
+    {
+      "id": "group_b",
+      "label": "Ungeduld",
+      "items": ["Knopf dreimal gedrückt", "Satz zu Ende gesagt", "Zehn Tabs auf einmal", "Gestern wär besser"]
+    },
+    {
+      "id": "group_c",
+      "label": "Gleichmut",
+      "items": ["Sturm lässt ihn kalt", "Kritik fließt ab", "Schritt bleibt gleich", "Lächeln beim Chaos"]
+    },
+    {
+      "id": "group_d",
+      "label": "Launenhaftigkeit",
+      "items": ["Morgens anders abends", "Plan vergessen früh", "Begeisterung bricht ab", "Stimmung wechselt"]
+    }
+  ]
+}

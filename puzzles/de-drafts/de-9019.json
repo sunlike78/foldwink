@@ -1,0 +1,32 @@
+{
+  "id": "de-9019",
+  "title": "Was Neid verrät",
+  "difficulty": "medium",
+  "meta": { "theme": "Neid als soziales Phänomen", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Neid",
+      "revealHint": "FREMDES GLÜCK SCHMERZT",
+      "items": ["Gönnt Preis nicht", "Fremder Erfolg bitter", "Neuwagen des Nachbarn", "Lob für andere stört"]
+    },
+    {
+      "id": "group_b",
+      "label": "Bewunderung",
+      "revealHint": "AUFRICHTIG BEGEISTERT",
+      "items": ["Applaus von Herzen", "Lernt vom Vorbild", "Nennt ihn mit Stolz", "Erzählt anderen davon"]
+    },
+    {
+      "id": "group_c",
+      "label": "Gleichgültigkeit",
+      "revealHint": "NICHTS BEWEGT IHN",
+      "items": ["Schultern gezuckt", "Gut oder schlecht egal", "Liest nicht zu Ende", "Fragt danach nie"]
+    },
+    {
+      "id": "group_d",
+      "label": "Mitgefühl",
+      "revealHint": "ANDERER SCHMERZ BERÜHRT",
+      "items": ["Weint bei Unglück mit", "Stunde zugehört", "Tut was möglich ist", "Fühlt Verlust mit"]
+    }
+  ]
+}

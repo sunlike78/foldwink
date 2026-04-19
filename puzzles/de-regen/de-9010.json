@@ -1,0 +1,28 @@
+{
+  "id": "de-9010",
+  "title": "Täuschung und Schein",
+  "difficulty": "easy",
+  "meta": { "theme": "Täuschung via Redewendungen", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Täuschung",
+      "items": ["Sand in die Augen", "Blauen Dunst gemacht", "Schöner Schein außen", "Falsches Lächeln"]
+    },
+    {
+      "id": "group_b",
+      "label": "Ehrlichkeit",
+      "items": ["Karten auf den Tisch", "Ohne Umschweife", "Ins Gesicht gesagt", "Nichts verschwiegen"]
+    },
+    {
+      "id": "group_c",
+      "label": "Verrat",
+      "items": ["Messer in den Rücken", "Freunde ausgeliefert", "Seite gewechselt", "Vertrauen gebrochen"]
+    },
+    {
+      "id": "group_d",
+      "label": "Loyalität",
+      "items": ["Hält was er verspricht", "Steht zu seinem Wort", "Bleibt in der Not", "Kein Wackeln bei Druck"]
+    }
+  ]
+}

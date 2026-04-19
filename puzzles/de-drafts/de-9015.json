@@ -1,0 +1,28 @@
+{
+  "id": "de-9015",
+  "title": "Vertrauen und Misstrauen",
+  "difficulty": "easy",
+  "meta": { "theme": "Vertrauen als soziales Phänomen", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Vertrauen",
+      "items": ["Augen zu, Hand geben", "Schlüssel übergeben", "Geheimnis geteilt", "Ohne Vertrag besiegelt"]
+    },
+    {
+      "id": "group_b",
+      "label": "Misstrauen",
+      "items": ["Doppelt abgeschlossen", "Hintertür im Blick", "Handschlag nicht genug", "Immer nachgeprüft"]
+    },
+    {
+      "id": "group_c",
+      "label": "Naivität",
+      "items": ["Alles geglaubt", "Warnung überhört", "Fremdem gefolgt", "Blind unterschrieben"]
+    },
+    {
+      "id": "group_d",
+      "label": "Skepsis",
+      "items": ["Zeig mir den Beweis", "Zweimal hingehört", "Quelle gefragt", "Nichts für bare Münze"]
+    }
+  ]
+}

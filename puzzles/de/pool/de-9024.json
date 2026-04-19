@@ -1,0 +1,32 @@
+{
+  "id": "de-9024",
+  "title": "Kochen ohne Rezept",
+  "difficulty": "medium",
+  "meta": { "theme": "Gastronomische Traditionen im DACH-Raum", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Festtagsküche",
+      "revealHint": "NUR FÜR BESONDERE TAGE",
+      "items": ["Gans am Martinitag", "Stollen reift Wochen", "Karpfen Heiligabend", "Osterlamm aus Ofen"]
+    },
+    {
+      "id": "group_b",
+      "label": "Hausmannskost",
+      "revealHint": "EINFACH UND SÄTTIGEND",
+      "items": ["Eintopf am Montag", "Pellkartoffeln-Quark", "Linsen mit Spätzle", "Reste neu verwertet"]
+    },
+    {
+      "id": "group_c",
+      "label": "Brotkultur",
+      "revealHint": "TÄGLICH ANDERS GEBACKEN",
+      "items": ["Sauerteig drei Tage", "Zwölf Körnersorten", "Kruste bedampft", "Laib hält eine Woche"]
+    },
+    {
+      "id": "group_d",
+      "label": "Kaffeehauskultur",
+      "revealHint": "WIEN ERFAND DIESEN STIL",
+      "items": ["Melange mit Zeitung", "Stunden eine Tasse", "Marmortisch Holzstuhl", "Kellner sehr förmlich"]
+    }
+  ]
+}

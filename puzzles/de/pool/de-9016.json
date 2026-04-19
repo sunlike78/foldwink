@@ -1,0 +1,28 @@
+{
+  "id": "de-9016",
+  "title": "Melodie erkennen",
+  "difficulty": "easy",
+  "meta": { "theme": "Musik-Genres im DACH-Kontext", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Wiener Klassik",
+      "items": ["Haydn beim Fürsten", "Sonatensatzform", "Klaviertrio im Salon", "Thema mit Variationen"]
+    },
+    {
+      "id": "group_b",
+      "label": "Neue Deutsche Welle",
+      "items": ["Fehlfarben singen", "Synthesizer vorn", "Nena '99 Luftballons'", "Deutsch als Pop"]
+    },
+    {
+      "id": "group_c",
+      "label": "Volksmusik",
+      "items": ["Trachtenkapelle spielt", "Jodeln im Zillertal", "Schuhplattler am Fest", "Alphorn tönt ins Tal"]
+    },
+    {
+      "id": "group_d",
+      "label": "Kammermusik",
+      "items": ["Streichquartett op. 18", "Vier Spieler ein Raum", "Ohne Dirigent", "Intimes Konzert"]
+    }
+  ]
+}

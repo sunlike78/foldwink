@@ -1,0 +1,32 @@
+{
+  "id": "de-9021",
+  "title": "Philosophisches Leben",
+  "difficulty": "medium",
+  "meta": { "theme": "Lebenshaltungen durch Alltagsbilder", "batch": "de-batch-11" },
+  "groups": [
+    {
+      "id": "group_a",
+      "label": "Stoizismus",
+      "revealHint": "RUHE TROTZ STURM",
+      "items": ["Schmerz still geduldet", "Außen ruhig innen wach", "Klagt nicht ums Wetter", "Annimmt was bleibt"]
+    },
+    {
+      "id": "group_b",
+      "label": "Hedonismus",
+      "revealHint": "GENUSS ALS ZIEL",
+      "items": ["Bestes Stück zuerst", "Kein Morgen ohne Fest", "Warum warten, jetzt", "Augenblick ist alles"]
+    },
+    {
+      "id": "group_c",
+      "label": "Nihilismus",
+      "revealHint": "ALLES OHNE BEDEUTUNG",
+      "items": ["Wozu der Aufwand", "Gut und böse gleich", "Kein Grund aufzustehen", "Ziele ohne Grund"]
+    },
+    {
+      "id": "group_d",
+      "label": "Pragmatismus",
+      "revealHint": "WAS WIRKT IST WAHR",
+      "items": ["Theorie nützt nichts", "Hauptsache es klappt", "Methode nach Ergebnis", "Test vor Prinzip"]
+    }
+  ]
+}
