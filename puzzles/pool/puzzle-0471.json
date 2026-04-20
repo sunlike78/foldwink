@@ -3,11 +3,57 @@
   "title": "Eyes on the Sky",
   "difficulty": "medium",
   "editorialSummary": "Space telescopes grouped by the wavelength band they observe. False trail: James Webb observes infrared but not radio; Chandra and XMM-Newton both observe X-ray but the group is X-ray specifically. Players must know which band each scope uses, not just that it is a space telescope.",
-  "meta": { "theme": "space telescope names", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "space telescope names",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "g1", "label": "OPTICAL / UV", "revealHint": "Optical", "items": ["Hubble", "Galex", "Hipparcos", "Gaia"] },
-    { "id": "g2", "label": "INFRARED", "revealHint": "Infrared", "items": ["James Webb", "Spitzer", "Herschel", "WISE"] },
-    { "id": "g3", "label": "X-RAY", "revealHint": "X-Ray", "items": ["Chandra", "XMM-Newton", "ROSAT", "NuSTAR"] },
-    { "id": "g4", "label": "RADIO / MICROWAVE", "revealHint": "Radio", "items": ["Planck", "WMAP", "Spektr-R", "HALCA"] }
+    {
+      "id": "g1",
+      "label": "OPTICAL / UV",
+      "revealHint": "Optical",
+      "items": [
+        "Hubble",
+        "Galex",
+        "Hipparcos",
+        "Gaia"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "INFRARED",
+      "revealHint": "Infrared",
+      "items": [
+        "James Webb",
+        "Spitzer",
+        "Herschel",
+        "WISE"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "X-RAY",
+      "revealHint": "X-Ray",
+      "items": [
+        "Chandra",
+        "XMM-Newton",
+        "ROSAT",
+        "NuSTAR"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "RADIO / MICROWAVE",
+      "revealHint": "Radio",
+      "items": [
+        "Planck",
+        "WMAP",
+        "Spektr-R",
+        "HALCA"
+      ]
+    }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Netzwerke",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 5
   },
   "groups": [
     {

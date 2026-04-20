@@ -7,32 +7,53 @@
     "theme": "wordplay",
     "categoryType": "wordplay",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "garment",
       "label": "Garment Jacket",
       "revealHint": "Coat",
-      "items": ["Denim", "Leather", "Tweed", "Bomber"]
+      "items": [
+        "Denim",
+        "Leather",
+        "Tweed",
+        "Bomber"
+      ]
     },
     {
       "id": "book",
       "label": "Book Jacket",
       "revealHint": "Novel",
-      "items": ["Blurb", "Title", "Flap", "Synopsis"]
+      "items": [
+        "Blurb",
+        "Title",
+        "Flap",
+        "Synopsis"
+      ]
     },
     {
       "id": "potato",
       "label": "Potato Jacket",
       "revealHint": "Spud",
-      "items": ["Baked", "Crispy", "Butter", "Chives"]
+      "items": [
+        "Baked",
+        "Crispy",
+        "Butter",
+        "Chives"
+      ]
     },
     {
       "id": "record",
       "label": "Record Jacket",
       "revealHint": "Vinyl",
-      "items": ["Liner Notes", "Gatefold", "Track List", "Sleeve Art"]
+      "items": [
+        "Liner Notes",
+        "Gatefold",
+        "Track List",
+        "Sleeve Art"
+      ]
     }
   ]
 }

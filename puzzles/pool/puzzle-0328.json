@@ -7,32 +7,53 @@
     "theme": "health",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "g1",
       "label": "Digestive System Organs",
       "revealHint": "Digestion",
-      "items": ["Duodenum", "Liver", "Gallbladder", "Colon"]
+      "items": [
+        "Duodenum",
+        "Liver",
+        "Gallbladder",
+        "Colon"
+      ]
     },
     {
       "id": "g2",
       "label": "Endocrine System Glands",
       "revealHint": "Hormones",
-      "items": ["Pancreas", "Thyroid", "Adrenal Gland", "Pituitary Gland"]
+      "items": [
+        "Pancreas",
+        "Thyroid",
+        "Adrenal Gland",
+        "Pituitary Gland"
+      ]
     },
     {
       "id": "g3",
       "label": "Respiratory System Structures",
       "revealHint": "Breathing",
-      "items": ["Trachea", "Bronchi", "Alveoli", "Diaphragm"]
+      "items": [
+        "Trachea",
+        "Bronchi",
+        "Alveoli",
+        "Diaphragm"
+      ]
     },
     {
       "id": "g4",
       "label": "Cardiovascular System Structures",
       "revealHint": "Heart",
-      "items": ["Aorta", "Ventricle", "Capillary", "Coronary Artery"]
+      "items": [
+        "Aorta",
+        "Ventricle",
+        "Capillary",
+        "Coronary Artery"
+      ]
     }
   ]
 }

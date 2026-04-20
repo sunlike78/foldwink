@@ -7,32 +7,53 @@
     "theme": "science",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "biology",
       "label": "Biological cell",
       "revealHint": "Biology",
-      "items": ["Nucleus", "Membrane", "Mitosis", "Organelle"]
+      "items": [
+        "Nucleus",
+        "Membrane",
+        "Mitosis",
+        "Organelle"
+      ]
     },
     {
       "id": "prison",
       "label": "Prison cell",
       "revealHint": "Prison",
-      "items": ["Bars", "Warden", "Solitary", "Parole"]
+      "items": [
+        "Bars",
+        "Warden",
+        "Solitary",
+        "Parole"
+      ]
     },
     {
       "id": "phone",
       "label": "Cell phone",
       "revealHint": "Phone",
-      "items": ["Signal", "Tower", "Roaming", "SIM Card"]
+      "items": [
+        "Signal",
+        "Tower",
+        "Roaming",
+        "SIM Card"
+      ]
     },
     {
       "id": "sheet",
       "label": "Spreadsheet cell",
       "revealHint": "Sheet",
-      "items": ["Formula", "Reference", "Range", "Pivot"]
+      "items": [
+        "Formula",
+        "Reference",
+        "Range",
+        "Pivot"
+      ]
     }
   ]
 }

@@ -2,11 +2,51 @@
   "id": "de-0138",
   "title": "Golf",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 10
+  },
   "groups": [
-    { "id": "group_a", "label": "Schlägertypen", "items": ["Driver", "Eisen", "Wedge", "Putter"] },
-    { "id": "group_b", "label": "Spielbegriffe", "items": ["Par", "Birdie", "Eagle", "Bogey"] },
-    { "id": "group_c", "label": "Turnierbegriffe", "items": ["Handicap", "Stroke Play", "Match Play", "Scramble"] },
-    { "id": "group_d", "label": "Platzbestandteile", "items": ["Abschlag", "Fairway", "Rough", "Green"] }
+    {
+      "id": "group_a",
+      "label": "Schlägertypen",
+      "items": [
+        "Driver",
+        "Eisen",
+        "Wedge",
+        "Putter"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Spielbegriffe",
+      "items": [
+        "Par",
+        "Birdie",
+        "Eagle",
+        "Bogey"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Turnierbegriffe",
+      "items": [
+        "Handicap",
+        "Stroke Play",
+        "Match Play",
+        "Scramble"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Platzbestandteile",
+      "items": [
+        "Abschlag",
+        "Fairway",
+        "Rough",
+        "Green"
+      ]
+    }
   ]
 }

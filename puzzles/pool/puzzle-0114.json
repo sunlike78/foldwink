@@ -6,24 +6,49 @@
     "theme": "art",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "medium",
       "label": "Art Media",
-      "items": ["Watercolour", "Charcoal", "Pastel", "Gouache"]
+      "items": [
+        "Watercolour",
+        "Charcoal",
+        "Pastel",
+        "Gouache"
+      ]
     },
     {
       "id": "movement",
       "label": "Art Movements",
-      "items": ["Cubism", "Surrealism", "Baroque", "Minimalism"]
+      "items": [
+        "Cubism",
+        "Surrealism",
+        "Baroque",
+        "Minimalism"
+      ]
     },
-    { "id": "tool", "label": "Art Tools", "items": ["Easel", "Palette", "Canvas", "Brush"] },
+    {
+      "id": "tool",
+      "label": "Art Tools",
+      "items": [
+        "Easel",
+        "Palette",
+        "Canvas",
+        "Brush"
+      ]
+    },
     {
       "id": "genre",
       "label": "Art Genres",
-      "items": ["Landscape", "Portrait", "Still Life", "Abstract"]
+      "items": [
+        "Landscape",
+        "Portrait",
+        "Still Life",
+        "Abstract"
+      ]
     }
   ]
 }

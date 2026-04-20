@@ -2,11 +2,51 @@
   "id": "de-0152",
   "title": "Yoga und Meditation",
   "difficulty": "easy",
-  "meta": { "theme": "Gesundheit", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Gesundheit",
+    "batch": "de-batch-02",
+    "difficultyScore": 21
+  },
   "groups": [
-    { "id": "group_a", "label": "Asanas", "items": ["Krieger", "Baum", "Kobra", "Kindhaltung"] },
-    { "id": "group_b", "label": "Atemübungen", "items": ["Pranayama", "Ujjayi", "Wechselatmung", "Kapalabhati"] },
-    { "id": "group_c", "label": "Meditation", "items": ["Achtsamkeit", "Bodyscan", "Mantra", "Visualisierung"] },
-    { "id": "group_d", "label": "Yoga-Philosophie", "items": ["Karma", "Dharma", "Ahimsa", "Moksha"] }
+    {
+      "id": "group_a",
+      "label": "Asanas",
+      "items": [
+        "Krieger",
+        "Baum",
+        "Kobra",
+        "Kindhaltung"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Atemübungen",
+      "items": [
+        "Pranayama",
+        "Ujjayi",
+        "Wechselatmung",
+        "Kapalabhati"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Meditation",
+      "items": [
+        "Achtsamkeit",
+        "Bodyscan",
+        "Mantra",
+        "Visualisierung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Yoga-Philosophie",
+      "items": [
+        "Karma",
+        "Dharma",
+        "Ahimsa",
+        "Moksha"
+      ]
+    }
   ]
 }

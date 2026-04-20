@@ -7,32 +7,53 @@
     "theme": "mystery",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "clues",
       "label": "Physical Clues",
       "revealHint": "Clue",
-      "items": ["Fingerprint", "Blood Stain", "Hair Fiber", "DNA Sample"]
+      "items": [
+        "Fingerprint",
+        "Blood Stain",
+        "Hair Fiber",
+        "DNA Sample"
+      ]
     },
     {
       "id": "sleuths",
       "label": "Detective Types",
       "revealHint": "Sleuth",
-      "items": ["Private Eye", "Inspector", "Consulting Detective", "Amateur Sleuth"]
+      "items": [
+        "Private Eye",
+        "Inspector",
+        "Consulting Detective",
+        "Amateur Sleuth"
+      ]
     },
     {
       "id": "elements",
       "label": "Mystery Story Beats",
       "revealHint": "Story",
-      "items": ["Red Herring", "Plot Twist", "Reveal", "Confession"]
+      "items": [
+        "Red Herring",
+        "Plot Twist",
+        "Reveal",
+        "Confession"
+      ]
     },
     {
       "id": "evidence",
       "label": "Crime Scene",
       "revealHint": "Scene",
-      "items": ["Chalk Outline", "Yellow Tape", "Evidence Bag", "Witness Statement"]
+      "items": [
+        "Chalk Outline",
+        "Yellow Tape",
+        "Evidence Bag",
+        "Witness Statement"
+      ]
     }
   ]
 }

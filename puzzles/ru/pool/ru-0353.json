@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Советские мультфильмы и персонажи",
-    "batch": "ru-batch-14"
+    "batch": "ru-batch-14",
+    "difficultyScore": 41
   },
   "groups": [
     {

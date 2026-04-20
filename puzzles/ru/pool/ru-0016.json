@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Домашние животные",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 23
   },
   "groups": [
     {
@@ -39,11 +40,11 @@
     },
     {
       "id": "group_d",
-      "label": "Мелкий скот",
+      "label": "Мелкие фермерские животные",
       "items": [
         "Коза",
         "Кролик",
-        "Баран",
+        "Нутрия",
         "Осёл"
       ]
     }

@@ -6,22 +6,45 @@
     {
       "id": "german-food",
       "label": "German Dishes",
-      "items": ["Sauerbraten", "Schnitzel", "Spaetzle", "Bratwurst"]
+      "items": [
+        "Sauerbraten",
+        "Schnitzel",
+        "Spaetzle",
+        "Bratwurst"
+      ]
     },
     {
       "id": "german-states",
       "label": "German States",
-      "items": ["Bavaria", "Saxony", "Hesse", "Thuringia"]
+      "items": [
+        "Bavaria",
+        "Saxony",
+        "Hesse",
+        "Thuringia"
+      ]
     },
     {
       "id": "german-rivers",
       "label": "German Rivers",
-      "items": ["Rhine", "Elbe", "Main", "Oder"]
+      "items": [
+        "Rhine",
+        "Elbe",
+        "Main",
+        "Oder"
+      ]
     },
     {
       "id": "german-cities",
       "label": "German Cities",
-      "items": ["Munich", "Dresden", "Cologne", "Leipzig"]
+      "items": [
+        "Munich",
+        "Dresden",
+        "Cologne",
+        "Leipzig"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

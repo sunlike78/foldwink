@@ -3,11 +3,57 @@
   "title": "Nahuatl Legacies",
   "difficulty": "hard",
   "editorialSummary": "English words borrowed from Nahuatl (via Spanish), grouped by the semantic field through which they entered: food (chocolate, tomato, avocado, chili), animals (ocelot, coyote, axolotl, quetzal), plants/nature (mesquite, copal, zapote, nopal), and objects/culture (hammock is Taino not Nahuatl — excluded; items are: cocoa, atlatl, chipotle, cenote). Every item is a real Nahuatl-origin English word. Hard because players likely know the words but not their origin language, and many feel like they could belong in multiple semantic buckets.",
-  "meta": { "theme": "Nahuatl loanwords", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "Nahuatl loanwords",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 42
+  },
   "groups": [
-    { "id": "g1", "label": "NAHUATL: FOOD", "revealHint": "Food", "items": ["Chocolate", "Tomato", "Avocado", "Chili"] },
-    { "id": "g2", "label": "NAHUATL: ANIMALS", "revealHint": "Animal", "items": ["Ocelot", "Coyote", "Axolotl", "Quetzal"] },
-    { "id": "g3", "label": "NAHUATL: PLANTS", "revealHint": "Plant", "items": ["Mesquite", "Copal", "Zapote", "Nopal"] },
-    { "id": "g4", "label": "NAHUATL: PLACE / RITUAL", "revealHint": "Place", "items": ["Cocoa", "Atlatl", "Chipotle", "Cenote"] }
+    {
+      "id": "g1",
+      "label": "NAHUATL: FOOD",
+      "revealHint": "Food",
+      "items": [
+        "Chocolate",
+        "Tomato",
+        "Avocado",
+        "Chili"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "NAHUATL: ANIMALS",
+      "revealHint": "Animal",
+      "items": [
+        "Ocelot",
+        "Coyote",
+        "Axolotl",
+        "Quetzal"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NAHUATL: PLANTS",
+      "revealHint": "Plant",
+      "items": [
+        "Mesquite",
+        "Copal",
+        "Zapote",
+        "Nopal"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "NAHUATL: PLACE / RITUAL",
+      "revealHint": "Place",
+      "items": [
+        "Cocoa",
+        "Atlatl",
+        "Chipotle",
+        "Cenote"
+      ]
+    }
   ]
 }

@@ -2,31 +2,55 @@
   "id": "de-9023",
   "title": "Natur als Spiegel",
   "difficulty": "medium",
-  "meta": { "theme": "Naturmetaphern für menschliche Zustände", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Naturmetaphern für menschliche Zustände",
+    "batch": "de-batch-11",
+    "difficultyScore": 42
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Erschöpfung",
       "revealHint": "KRAFT AUF NULL",
-      "items": ["Fluss versickert", "Baum nach Sturm nackt", "Letztes Licht im Tal", "Quelle trocken"]
+      "items": [
+        "Fluss versickert",
+        "Baum nach Sturm nackt",
+        "Letztes Licht im Tal",
+        "Quelle trocken"
+      ]
     },
     {
       "id": "group_b",
       "label": "Aufbruch",
       "revealHint": "NEUES BEGINNT JETZT",
-      "items": ["Erster Krokus bricht", "Zugvögel kehren zurück", "Eis bricht im März", "Morgenrot über Gipfel"]
+      "items": [
+        "Erster Krokus bricht",
+        "Zugvögel kehren zurück",
+        "Eis bricht im März",
+        "Morgenrot über Gipfel"
+      ]
     },
     {
       "id": "group_c",
       "label": "Bedrohung",
       "revealHint": "GEFAHR NAHT LAUTLOS",
-      "items": ["Wasser steigt lautlos", "Wolkenfront von West", "Stille vor dem Hagel", "Strömung ans Ufer"]
+      "items": [
+        "Wasser steigt lautlos",
+        "Wolkenfront von West",
+        "Stille vor dem Hagel",
+        "Strömung ans Ufer"
+      ]
     },
     {
       "id": "group_d",
       "label": "Stagnation",
       "revealHint": "ALLES STEHT STILL",
-      "items": ["Teich ohne Zufluss", "Windstille drei Tage", "Moos wächst über Pfad", "Same ohne Regen"]
+      "items": [
+        "Teich ohne Zufluss",
+        "Windstille drei Tage",
+        "Moos wächst über Pfad",
+        "Same ohne Regen"
+      ]
     }
   ]
 }

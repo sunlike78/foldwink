@@ -7,35 +7,56 @@
     "theme": "mineralogy",
     "categoryType": "attribute",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 42
   },
   "groups": [
     {
       "id": "g1",
       "label": "Corundum Family",
       "revealHint": "",
-      "items": ["Ruby", "Blue Sapphire", "Yellow Sapphire", "Padparadscha"],
+      "items": [
+        "Ruby",
+        "Blue Sapphire",
+        "Yellow Sapphire",
+        "Padparadscha"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Beryl Family",
       "revealHint": "",
-      "items": ["Emerald", "Aquamarine", "Morganite", "Heliodor"],
+      "items": [
+        "Emerald",
+        "Aquamarine",
+        "Morganite",
+        "Heliodor"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Quartz Family",
       "revealHint": "",
-      "items": ["Amethyst", "Citrine", "Rose Quartz", "Smoky Quartz"],
+      "items": [
+        "Amethyst",
+        "Citrine",
+        "Rose Quartz",
+        "Smoky Quartz"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Garnet Family",
       "revealHint": "",
-      "items": ["Almandine", "Tsavorite", "Spessartite", "Pyrope"],
+      "items": [
+        "Almandine",
+        "Tsavorite",
+        "Spessartite",
+        "Pyrope"
+      ],
       "color": "purple"
     }
   ]

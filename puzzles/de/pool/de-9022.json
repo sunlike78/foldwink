@@ -2,31 +2,55 @@
   "id": "de-9022",
   "title": "Musik in Bildern",
   "difficulty": "medium",
-  "meta": { "theme": "Musikalische Ausdrucksformen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Musikalische Ausdrucksformen",
+    "batch": "de-batch-11",
+    "difficultyScore": 39
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Romantik",
       "revealHint": "SEHNSUCHT IN TÖNEN",
-      "items": ["Waldeinsamkeit vertont", "Schubert am Klavier", "Lieder vom Wandern", "Nacht als Sehnsucht"]
+      "items": [
+        "Waldeinsamkeit vertont",
+        "Schubert am Klavier",
+        "Lieder vom Wandern",
+        "Nacht als Sehnsucht"
+      ]
     },
     {
       "id": "group_b",
       "label": "Expressionismus",
       "revealHint": "KLANG ALS SCHREI",
-      "items": ["Schönberg bricht Dur", "Dissonanz gewollt", "Inneres nach außen", "Atonale Spannung"]
+      "items": [
+        "Schönberg bricht Dur",
+        "Dissonanz gewollt",
+        "Inneres nach außen",
+        "Atonale Spannung"
+      ]
     },
     {
       "id": "group_c",
       "label": "Barock",
       "revealHint": "ORNAMENT UND ORDNUNG",
-      "items": ["Bach rechnet Fugen", "Verzierungen überall", "Generalbass-Praxis", "Zwei Chöre im Dom"]
+      "items": [
+        "Bach rechnet Fugen",
+        "Verzierungen überall",
+        "Generalbass-Praxis",
+        "Zwei Chöre im Dom"
+      ]
     },
     {
       "id": "group_d",
       "label": "Minimalismus",
       "revealHint": "WENIG KLINGT LANG",
-      "items": ["Arvo Pärt mit Stille", "Gleiche Figur, neu", "Drei Töne genügen", "Reduktion als Aussage"]
+      "items": [
+        "Arvo Pärt mit Stille",
+        "Gleiche Figur, neu",
+        "Drei Töne genügen",
+        "Reduktion als Aussage"
+      ]
     }
   ]
 }

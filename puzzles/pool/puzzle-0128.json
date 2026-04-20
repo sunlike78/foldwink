@@ -7,32 +7,53 @@
     "theme": "technology",
     "categoryType": "thematic",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "weather",
       "label": "Cloud types",
       "revealHint": "Weather",
-      "items": ["Cumulus", "Stratus", "Nimbus", "Cirrostratus"]
+      "items": [
+        "Cumulus",
+        "Stratus",
+        "Nimbus",
+        "Cirrostratus"
+      ]
     },
     {
       "id": "tech",
       "label": "Cloud computing",
       "revealHint": "Computing",
-      "items": ["Server", "Container", "Lambda", "Bucket"]
+      "items": [
+        "Server",
+        "Container",
+        "Lambda",
+        "Bucket"
+      ]
     },
     {
       "id": "emotion",
       "label": "Clouded judgment",
       "revealHint": "Emotion",
-      "items": ["Doubt", "Suspicion", "Confusion", "Uncertainty"]
+      "items": [
+        "Doubt",
+        "Suspicion",
+        "Confusion",
+        "Uncertainty"
+      ]
     },
     {
       "id": "coffee",
       "label": "Cloud in coffee",
       "revealHint": "Coffee",
-      "items": ["Latte Art", "Foam", "Steamed Milk", "Crema"]
+      "items": [
+        "Latte Art",
+        "Foam",
+        "Steamed Milk",
+        "Crema"
+      ]
     }
   ]
 }

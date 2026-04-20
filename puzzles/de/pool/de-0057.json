@@ -2,11 +2,51 @@
   "id": "de-0057",
   "title": "Am Flughafen",
   "difficulty": "easy",
-  "meta": { "theme": "Flughafen", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Flughafen",
+    "batch": "de-batch-02",
+    "difficultyScore": 47
+  },
   "groups": [
-    { "id": "group_a", "label": "Abflug-Bereich", "items": ["Check-in", "Abfluggate", "Boarding", "Duty-Free"] },
-    { "id": "group_b", "label": "Ankunft-Bereich", "items": ["Gepäckausgabe", "Zoll", "Ankunftshalle", "Abholung"] },
-    { "id": "group_c", "label": "Sicherheit", "items": ["Sicherheitskontrolle", "Röntgen", "Körperscanner", "Passkontrolle"] },
-    { "id": "group_d", "label": "An Bord", "items": ["Handgepäck", "Fensterplatz", "Sicherheitsgurt", "Notausgang"] }
+    {
+      "id": "group_a",
+      "label": "Abflug-Bereich",
+      "items": [
+        "Check-in",
+        "Abfluggate",
+        "Boarding",
+        "Duty-Free"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ankunft-Bereich",
+      "items": [
+        "Gepäckausgabe",
+        "Zoll",
+        "Ankunftshalle",
+        "Abholung"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Sicherheit",
+      "items": [
+        "Sicherheitskontrolle",
+        "Röntgen",
+        "Körperscanner",
+        "Passkontrolle"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "An Bord",
+      "items": [
+        "Handgepäck",
+        "Fensterplatz",
+        "Sicherheitsgurt",
+        "Notausgang"
+      ]
+    }
   ]
 }

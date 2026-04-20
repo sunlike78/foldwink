@@ -2,11 +2,55 @@
   "id": "de-0406",
   "title": "Was steckt dahinter?",
   "difficulty": "medium",
-  "meta": { "theme": "abkürzungen", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "abkürzungen",
+    "batch": "de-batch-05",
+    "difficultyScore": 8
+  },
   "groups": [
-    { "id": "group_a", "label": "PKW steht für …", "revealHint": "Kraftfahrzeug", "items": ["Personenkraft", "Wagen", "Privat", "Kraftwagen"] },
-    { "id": "group_b", "label": "Firmenformen", "revealHint": "Unternehmensrecht", "items": ["GmbH", "AG", "KG", "OHG"] },
-    { "id": "group_c", "label": "Behörden-Kürzel", "revealHint": "Amtsdeutsch", "items": ["BAMF", "BfR", "BKA", "BND"] },
-    { "id": "group_d", "label": "Alltags-Abkürzungen", "revealHint": "Täglich genutzt", "items": ["MwSt.", "inkl.", "ggf.", "bzw."] }
+    {
+      "id": "group_a",
+      "label": "PKW steht für …",
+      "revealHint": "Kraftfahrzeug",
+      "items": [
+        "Personenkraft",
+        "Wagen",
+        "Privat",
+        "Kraftwagen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Firmenformen",
+      "revealHint": "Unternehmensrecht",
+      "items": [
+        "GmbH",
+        "AG",
+        "KG",
+        "OHG"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Behörden-Kürzel",
+      "revealHint": "Amtsdeutsch",
+      "items": [
+        "BAMF",
+        "BfR",
+        "BKA",
+        "BND"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Alltags-Abkürzungen",
+      "revealHint": "Täglich genutzt",
+      "items": [
+        "MwSt.",
+        "inkl.",
+        "ggf.",
+        "bzw."
+      ]
+    }
   ]
 }

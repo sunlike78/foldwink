@@ -2,27 +2,51 @@
   "id": "de-9034",
   "title": "Auf dem Spielfeld",
   "difficulty": "easy",
-  "meta": { "theme": "Sportaktionen ohne Sportname", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Sportaktionen ohne Sportname",
+    "batch": "de-batch-12",
+    "difficultyScore": 32
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Schach",
-      "items": ["Figur opfern", "Gabel aufbauen", "Turm gedeckt ziehen", "Zugzwang nutzen"]
+      "items": [
+        "Figur opfern",
+        "Gabel aufbauen",
+        "Turm gedeckt ziehen",
+        "Zugzwang nutzen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Ringen",
-      "items": ["Hüfte sichern", "Wurf aus dem Stand", "Griff am Nacken", "Schulter auf Matte"]
+      "items": [
+        "Hüfte sichern",
+        "Wurf aus dem Stand",
+        "Griff am Nacken",
+        "Schulter auf Matte"
+      ]
     },
     {
       "id": "group_c",
       "label": "Kegeln",
-      "items": ["Bahn einölen", "Kugel rechts aufsetzen", "Alle neun schräg", "Nachschuss ins Eck"]
+      "items": [
+        "Bahn einölen",
+        "Kugel rechts aufsetzen",
+        "Alle neun schräg",
+        "Nachschuss ins Eck"
+      ]
     },
     {
       "id": "group_d",
       "label": "Fechten",
-      "items": ["Klinge binden", "Ausfall mit Streckung", "Parade quarte", "Riposte im Tempo"]
+      "items": [
+        "Klinge binden",
+        "Ausfall mit Streckung",
+        "Parade quarte",
+        "Riposte im Tempo"
+      ]
     }
   ]
 }

@@ -2,11 +2,51 @@
   "id": "de-0113",
   "title": "Advent und Nikolaus",
   "difficulty": "easy",
-  "meta": { "theme": "Feste", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Feste",
+    "batch": "de-batch-02",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Adventskalender", "items": ["Türchen", "Schokolade", "Überraschung", "Zahlen"] },
-    { "id": "group_b", "label": "Nikolaus-Bräuche", "items": ["Stiefel putzen", "Rute", "Goldmünzen", "Knecht Ruprecht"] },
-    { "id": "group_c", "label": "Weihnachtsgebäck", "items": ["Lebkuchen", "Spekulatius", "Zimtsterne", "Stollen"] },
-    { "id": "group_d", "label": "Dekorationen", "items": ["Adventskranz", "Kerzen", "Tannengirlande", "Sterne"] }
+    {
+      "id": "group_a",
+      "label": "Adventskalender",
+      "items": [
+        "Türchen",
+        "Schokolade",
+        "Überraschung",
+        "Zahlen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nikolaus-Bräuche",
+      "items": [
+        "Stiefel putzen",
+        "Rute",
+        "Goldmünzen",
+        "Knecht Ruprecht"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Weihnachtsgebäck",
+      "items": [
+        "Lebkuchen",
+        "Spekulatius",
+        "Zimtsterne",
+        "Stollen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Dekorationen",
+      "items": [
+        "Adventskranz",
+        "Kerzen",
+        "Tannengirlande",
+        "Sterne"
+      ]
+    }
   ]
 }

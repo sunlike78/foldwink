@@ -2,27 +2,52 @@
   "id": "puzzle-0010",
   "title": "Atlas Check",
   "difficulty": "easy",
-  "tags": ["geography"],
+  "tags": [
+    "geography"
+  ],
   "groups": [
     {
       "id": "continents",
       "label": "Continents",
-      "items": ["Africa", "Asia", "Europe", "Australia"]
+      "items": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Australia"
+      ]
     },
     {
       "id": "oceans",
       "label": "Oceans",
-      "items": ["Atlantic", "Pacific", "Arctic", "Southern"]
+      "items": [
+        "Atlantic",
+        "Pacific",
+        "Arctic",
+        "Southern"
+      ]
     },
     {
       "id": "rivers",
       "label": "Rivers",
-      "items": ["Nile", "Amazon", "Danube", "Thames"]
+      "items": [
+        "Nile",
+        "Amazon",
+        "Danube",
+        "Thames"
+      ]
     },
     {
       "id": "ranges",
       "label": "Mountain Ranges",
-      "items": ["Alps", "Andes", "Rockies", "Himalayas"]
+      "items": [
+        "Alps",
+        "Andes",
+        "Rockies",
+        "Himalayas"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 10
+  }
 }

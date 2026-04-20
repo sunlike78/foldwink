@@ -2,11 +2,55 @@
   "id": "ru-0225",
   "title": "Древние цивилизации",
   "difficulty": "medium",
-  "meta": { "theme": "Цивилизации древнего мира", "batch": "ru-batch-08" },
+  "meta": {
+    "theme": "Цивилизации древнего мира",
+    "batch": "ru-batch-08",
+    "difficultyScore": 13
+  },
   "groups": [
-    { "id": "egypt_things", "label": "Египет", "revealHint": "ЕГИПЕТ", "items": ["Пирамида", "Сфинкс", "Папирус", "Фараон"] },
-    { "id": "rome_things", "label": "Рим", "revealHint": "РИМ", "items": ["Колизей", "Сенат", "Легион", "Форум"] },
-    { "id": "greece_things", "label": "Греция", "revealHint": "ГРЕЦИЯ", "items": ["Акрополь", "Агора", "Триера", "Олимп"] },
-    { "id": "mesopotamia", "label": "Месопотамия", "revealHint": "МЕСОПОТАМИЯ", "items": ["Зиккурат", "Клинопись", "Вавилон", "Шумер"] }
+    {
+      "id": "egypt_things",
+      "label": "Египет",
+      "revealHint": "ЕГИПЕТ",
+      "items": [
+        "Пирамида",
+        "Сфинкс",
+        "Папирус",
+        "Фараон"
+      ]
+    },
+    {
+      "id": "rome_things",
+      "label": "Рим",
+      "revealHint": "РИМ",
+      "items": [
+        "Колизей",
+        "Сенат",
+        "Легион",
+        "Форум"
+      ]
+    },
+    {
+      "id": "greece_things",
+      "label": "Греция",
+      "revealHint": "ГРЕЦИЯ",
+      "items": [
+        "Акрополь",
+        "Агора",
+        "Триера",
+        "Олимп"
+      ]
+    },
+    {
+      "id": "mesopotamia",
+      "label": "Месопотамия",
+      "revealHint": "МЕСОПОТАМИЯ",
+      "items": [
+        "Зиккурат",
+        "Клинопись",
+        "Вавилон",
+        "Шумер"
+      ]
+    }
   ]
 }

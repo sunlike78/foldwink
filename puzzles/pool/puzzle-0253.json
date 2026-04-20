@@ -7,32 +7,53 @@
     "theme": "celebrations",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "ceremony",
       "label": "Ceremony Elements",
       "revealHint": "Vows",
-      "items": ["Altar", "Vows", "Ring Exchange", "Officiant"]
+      "items": [
+        "Altar",
+        "Vows",
+        "Ring Exchange",
+        "Officiant"
+      ]
     },
     {
       "id": "reception",
       "label": "Reception Elements",
       "revealHint": "Dance",
-      "items": ["Toast", "First Dance", "Bouquet Toss", "Cake Cutting"]
+      "items": [
+        "Toast",
+        "First Dance",
+        "Bouquet Toss",
+        "Cake Cutting"
+      ]
     },
     {
       "id": "attire",
       "label": "Wedding Attire",
       "revealHint": "Gown",
-      "items": ["Veil", "Train", "Tuxedo", "Tiara"]
+      "items": [
+        "Veil",
+        "Train",
+        "Tuxedo",
+        "Tiara"
+      ]
     },
     {
       "id": "party",
       "label": "Bridal Party",
       "revealHint": "Party",
-      "items": ["Maid of Honor", "Best Man", "Bridesmaid", "Flower Girl"]
+      "items": [
+        "Maid of Honor",
+        "Best Man",
+        "Bridesmaid",
+        "Flower Girl"
+      ]
     }
   ]
 }

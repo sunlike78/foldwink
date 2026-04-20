@@ -6,28 +6,49 @@
     "theme": "arts",
     "categoryType": "classification",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "royalty",
       "label": "Fairy Tale Royalty",
-      "items": ["Princess", "Prince", "King", "Queen"]
+      "items": [
+        "Princess",
+        "Prince",
+        "King",
+        "Queen"
+      ]
     },
     {
       "id": "villains",
       "label": "Fairy Tale Villains",
-      "items": ["Witch", "Ogre", "Wolf", "Troll"]
+      "items": [
+        "Witch",
+        "Ogre",
+        "Wolf",
+        "Troll"
+      ]
     },
     {
       "id": "objects",
       "label": "Magical Objects",
-      "items": ["Wand", "Mirror", "Potion", "Glass Slipper"]
+      "items": [
+        "Wand",
+        "Mirror",
+        "Potion",
+        "Glass Slipper"
+      ]
     },
     {
       "id": "creatures",
       "label": "Fairy Tale Helpers",
-      "items": ["Fairy", "Elf", "Dwarf", "Talking Mouse"]
+      "items": [
+        "Fairy",
+        "Elf",
+        "Dwarf",
+        "Talking Mouse"
+      ]
     }
   ]
 }

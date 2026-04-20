@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "chess",
       "label": "Black in chess",
       "revealHint": "Chess",
-      "items": ["King", "Queen", "Rook", "Bishop"]
+      "items": [
+        "King",
+        "Queen",
+        "Rook",
+        "Bishop"
+      ]
     },
     {
       "id": "market",
       "label": "Black market",
       "revealHint": "Market",
-      "items": ["Contraband", "Smuggle", "Underground", "Counterfeit"]
+      "items": [
+        "Contraband",
+        "Smuggle",
+        "Underground",
+        "Counterfeit"
+      ]
     },
     {
       "id": "comedy",
       "label": "Black comedy",
       "revealHint": "Comedy",
-      "items": ["Satire", "Gallows Humour", "Irony", "Parody"]
+      "items": [
+        "Satire",
+        "Gallows Humour",
+        "Irony",
+        "Parody"
+      ]
     },
     {
       "id": "flight",
       "label": "Black box (flight)",
       "revealHint": "Flight",
-      "items": ["Cockpit Voice", "Data Recorder", "Crash", "Investigation"]
+      "items": [
+        "Cockpit Voice",
+        "Data Recorder",
+        "Crash",
+        "Investigation"
+      ]
     }
   ]
 }

@@ -2,11 +2,51 @@
   "id": "de-0065",
   "title": "Architektur",
   "difficulty": "easy",
-  "meta": { "theme": "Architektur", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "Architektur",
+    "batch": "de-batch-03",
+    "difficultyScore": 12
+  },
   "groups": [
-    { "id": "group_a", "label": "Baustile", "items": ["Romanik", "Gotik", "Barock", "Bauhaus"] },
-    { "id": "group_b", "label": "Gebäudetypen", "items": ["Dom", "Rathaus", "Bahnhof", "Fabrik"] },
-    { "id": "group_c", "label": "Baumaterialien", "items": ["Sandstein", "Backstein", "Beton", "Stahl"] },
-    { "id": "group_d", "label": "Konstruktionselemente", "items": ["Gewölbe", "Pfeiler", "Fassade", "Dachstuhl"] }
+    {
+      "id": "group_a",
+      "label": "Baustile",
+      "items": [
+        "Romanik",
+        "Gotik",
+        "Barock",
+        "Bauhaus"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Gebäudetypen",
+      "items": [
+        "Dom",
+        "Rathaus",
+        "Bahnhof",
+        "Fabrik"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Baumaterialien",
+      "items": [
+        "Sandstein",
+        "Backstein",
+        "Beton",
+        "Stahl"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Konstruktionselemente",
+      "items": [
+        "Gewölbe",
+        "Pfeiler",
+        "Fassade",
+        "Dachstuhl"
+      ]
+    }
   ]
 }

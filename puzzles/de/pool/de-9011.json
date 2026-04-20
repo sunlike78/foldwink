@@ -2,27 +2,51 @@
   "id": "de-9011",
   "title": "Literarische Gattungen",
   "difficulty": "easy",
-  "meta": { "theme": "Literatur-Genres im DACH-Raum", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Literatur-Genres im DACH-Raum",
+    "batch": "de-batch-11",
+    "difficultyScore": 45
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Bildungsroman",
-      "items": ["Wilhelm Meister", "Reifung im Scheitern", "Grüner Heinrich", "Held findet sich"]
+      "items": [
+        "Wilhelm Meister",
+        "Reifung im Scheitern",
+        "Grüner Heinrich",
+        "Held findet sich"
+      ]
     },
     {
       "id": "group_b",
       "label": "Volksmärchen",
-      "items": ["Böse Stiefmutter", "Drittes Kind siegt", "Magische Helfer", "Gutes Ende immer"]
+      "items": [
+        "Böse Stiefmutter",
+        "Drittes Kind siegt",
+        "Magische Helfer",
+        "Gutes Ende immer"
+      ]
     },
     {
       "id": "group_c",
       "label": "Novelle",
-      "items": ["Unerhörte Begebenheit", "Wendepunkt in Mitte", "Falke als Symbol", "Kleist und Keller"]
+      "items": [
+        "Unerhörte Begebenheit",
+        "Wendepunkt in Mitte",
+        "Falke als Symbol",
+        "Kleist und Keller"
+      ]
     },
     {
       "id": "group_d",
       "label": "Ballade",
-      "items": ["Erlkönig reitet", "Erzählendes Gedicht", "Düstere Natur droht", "Tanzend erzählt"]
+      "items": [
+        "Erlkönig reitet",
+        "Erzählendes Gedicht",
+        "Düstere Natur droht",
+        "Tanzend erzählt"
+      ]
     }
   ]
 }

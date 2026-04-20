@@ -2,31 +2,55 @@
   "id": "de-9050",
   "title": "Handwerk lebt",
   "difficulty": "medium",
-  "meta": { "theme": "Handwerksberufe durch Materialien und Prozesse", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Handwerksberufe durch Materialien und Prozesse",
+    "batch": "de-batch-12",
+    "difficultyScore": 34
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Töpfer",
       "revealHint": "TON DREHT SICH RUND",
-      "items": ["Scheibe läuft an", "Nass formen mit Daumen", "Brand bei 1200 Grad", "Glasur aufgetragen"]
+      "items": [
+        "Scheibe läuft an",
+        "Nass formen mit Daumen",
+        "Brand bei 1200 Grad",
+        "Glasur aufgetragen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Schmied",
       "revealHint": "FEUER UND HAMMER",
-      "items": ["Eisen glüht orange", "Amboss schluckt Schlag", "Abschrecken im Wasser", "Funken fliegen"]
+      "items": [
+        "Eisen glüht orange",
+        "Amboss schluckt Schlag",
+        "Abschrecken im Wasser",
+        "Funken fliegen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Weber",
       "revealHint": "FÄDEN WERDEN TUCH",
-      "items": ["Kette schmieden", "Weblade anschlagen", "Muster auf Zettelkarte", "Spule neu aufwickeln"]
+      "items": [
+        "Kette schmieden",
+        "Weblade anschlagen",
+        "Muster auf Zettelkarte",
+        "Spule neu aufwickeln"
+      ]
     },
     {
       "id": "group_d",
       "label": "Gerber",
       "revealHint": "HAUT WIRD LEDER",
-      "items": ["Rohhaut entfleischen", "Gerbstoff einmassieren", "Fell spannen", "Oberfläche glätten"]
+      "items": [
+        "Rohhaut entfleischen",
+        "Gerbstoff einmassieren",
+        "Fell spannen",
+        "Oberfläche glätten"
+      ]
     }
   ]
 }

@@ -7,35 +7,56 @@
     "theme": "ecology",
     "categoryType": "attribute",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 35
   },
   "groups": [
     {
       "id": "g1",
       "label": "Trophic Roles",
       "revealHint": "Trophic",
-      "items": ["Primary Producer", "Primary Consumer", "Secondary Consumer", "Decomposer"],
+      "items": [
+        "Primary Producer",
+        "Primary Consumer",
+        "Secondary Consumer",
+        "Decomposer"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Symbiosis Types",
       "revealHint": "Symbiosis",
-      "items": ["Mutualism", "Commensalism", "Parasitism", "Amensalism"],
+      "items": [
+        "Mutualism",
+        "Commensalism",
+        "Parasitism",
+        "Amensalism"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Population Dynamics Terms",
       "revealHint": "Population",
-      "items": ["Carrying Capacity", "Boom-Bust Cycle", "Keystone Species", "Apex Predator"],
+      "items": [
+        "Carrying Capacity",
+        "Boom-Bust Cycle",
+        "Keystone Species",
+        "Apex Predator"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Nutrient Cycles",
       "revealHint": "Cycling",
-      "items": ["Carbon Cycle", "Nitrogen Cycle", "Phosphorus Cycle", "Water Cycle"],
+      "items": [
+        "Carbon Cycle",
+        "Nitrogen Cycle",
+        "Phosphorus Cycle",
+        "Water Cycle"
+      ],
       "color": "purple"
     }
   ]

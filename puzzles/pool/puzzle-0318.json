@@ -7,32 +7,53 @@
     "theme": "animals",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 46
   },
   "groups": [
     {
       "id": "g1",
       "label": "Forest Canopy Dwellers",
       "revealHint": "Canopy",
-      "items": ["Harpy Eagle", "Red-Eyed Tree Frog", "Proboscis Monkey", "Emerald Tree Boa"]
+      "items": [
+        "Harpy Eagle",
+        "Red-Eyed Tree Frog",
+        "Proboscis Monkey",
+        "Emerald Tree Boa"
+      ]
     },
     {
       "id": "g2",
       "label": "Forest Floor Dwellers",
       "revealHint": "Floor",
-      "items": ["Lowland Tapir", "Goliath Birdeater", "Poison Dart Frog", "Giant Anteater"]
+      "items": [
+        "Lowland Tapir",
+        "Goliath Birdeater",
+        "Poison Dart Frog",
+        "Giant Anteater"
+      ]
     },
     {
       "id": "g3",
       "label": "Deep Ocean Zone Animals",
       "revealHint": "Abyss",
-      "items": ["Anglerfish", "Vampire Squid", "Dumbo Octopus", "Giant Isopod"]
+      "items": [
+        "Anglerfish",
+        "Vampire Squid",
+        "Dumbo Octopus",
+        "Giant Isopod"
+      ]
     },
     {
       "id": "g4",
       "label": "Tidal Zone Animals",
       "revealHint": "Tidal",
-      "items": ["Mudskipper", "Hermit Crab", "Purple Sea Urchin", "Limpet"]
+      "items": [
+        "Mudskipper",
+        "Hermit Crab",
+        "Purple Sea Urchin",
+        "Limpet"
+      ]
     }
   ]
 }

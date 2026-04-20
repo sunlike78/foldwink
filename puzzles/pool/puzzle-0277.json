@@ -7,32 +7,53 @@
     "theme": "garden",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "spring",
       "label": "Spring Bloomers",
       "revealHint": "Spring",
-      "items": ["Forsythia", "Lilac", "Wisteria", "Bleeding Heart"]
+      "items": [
+        "Forsythia",
+        "Lilac",
+        "Wisteria",
+        "Bleeding Heart"
+      ]
     },
     {
       "id": "summer",
       "label": "Summer Bloomers",
       "revealHint": "Summer",
-      "items": ["Sunflower", "Hydrangea", "Lavender", "Dahlia"]
+      "items": [
+        "Sunflower",
+        "Hydrangea",
+        "Lavender",
+        "Dahlia"
+      ]
     },
     {
       "id": "autumn",
       "label": "Autumn Bloomers",
       "revealHint": "Autumn",
-      "items": ["Chrysanthemum", "Aster", "Sedum", "Goldenrod"]
+      "items": [
+        "Chrysanthemum",
+        "Aster",
+        "Sedum",
+        "Goldenrod"
+      ]
     },
     {
       "id": "winter",
       "label": "Winter Bloomers",
       "revealHint": "Winter",
-      "items": ["Hellebore", "Snowdrop", "Witch Hazel", "Camellia"]
+      "items": [
+        "Hellebore",
+        "Snowdrop",
+        "Witch Hazel",
+        "Camellia"
+      ]
     }
   ]
 }

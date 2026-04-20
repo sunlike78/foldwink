@@ -3,11 +3,53 @@
   "title": "Prize Winners",
   "difficulty": "easy",
   "editorialSummary": "Nobel Prize categories illustrated by iconic laureates. Peace: MLK, Malala, Mandela, Sadat. Literature: Hemingway, Camus, Morrison, Neruda. Physics: Einstein, Curie, Bohr, Hawking (though Hawking notably never won — replaced with Feynman). Physiology or Medicine: Fleming, Pavlov, Crick, Lister. Straightforward classification with no false trails.",
-  "meta": { "theme": "Nobel Prize categories", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "Nobel Prize categories",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 55
+  },
   "groups": [
-    { "id": "g1", "label": "NOBEL PEACE PRIZE", "items": ["Martin Luther King Jr.", "Malala Yousafzai", "Nelson Mandela", "Anwar Sadat"] },
-    { "id": "g2", "label": "NOBEL LITERATURE PRIZE", "items": ["Ernest Hemingway", "Albert Camus", "Toni Morrison", "Pablo Neruda"] },
-    { "id": "g3", "label": "NOBEL PHYSICS PRIZE", "items": ["Albert Einstein", "Marie Curie", "Richard Feynman", "Niels Bohr"] },
-    { "id": "g4", "label": "NOBEL MEDICINE PRIZE", "items": ["Alexander Fleming", "Ivan Pavlov", "Francis Crick", "Karl Landsteiner"] }
+    {
+      "id": "g1",
+      "label": "NOBEL PEACE PRIZE",
+      "items": [
+        "Martin Luther King Jr.",
+        "Malala Yousafzai",
+        "Nelson Mandela",
+        "Anwar Sadat"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "NOBEL LITERATURE PRIZE",
+      "items": [
+        "Ernest Hemingway",
+        "Albert Camus",
+        "Toni Morrison",
+        "Pablo Neruda"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NOBEL PHYSICS PRIZE",
+      "items": [
+        "Albert Einstein",
+        "Marie Curie",
+        "Richard Feynman",
+        "Niels Bohr"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "NOBEL MEDICINE PRIZE",
+      "items": [
+        "Alexander Fleming",
+        "Ivan Pavlov",
+        "Francis Crick",
+        "Karl Landsteiner"
+      ]
+    }
   ]
 }

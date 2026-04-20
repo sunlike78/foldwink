@@ -2,11 +2,51 @@
   "id": "de-0277",
   "title": "Landwirtschaft Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "landwirtschaft", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "landwirtschaft",
+    "batch": "de-batch-03",
+    "difficultyScore": 25
+  },
   "groups": [
-    { "id": "group_a", "label": "Anbauregionen", "items": ["Rheinhessen", "Franken", "Bayern", "Brandenburg"] },
-    { "id": "group_b", "label": "Landwirtschaftsprodukte", "items": ["Getreide", "Raps", "Kartoffel", "Zuckerrübe"] },
-    { "id": "group_c", "label": "Landwirtschaftsmethoden", "items": ["Ökologisch", "Konventionell", "Bewässerung", "Pflanzenschutz"] },
-    { "id": "group_d", "label": "Agrar-Förderung", "items": ["EU-Direktzahlungen", "Agrarpolitik", "Bergbauernprämie", "Flächenprämie"] }
+    {
+      "id": "group_a",
+      "label": "Anbauregionen",
+      "items": [
+        "Rheinhessen",
+        "Franken",
+        "Bayern",
+        "Brandenburg"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Landwirtschaftsprodukte",
+      "items": [
+        "Getreide",
+        "Raps",
+        "Kartoffel",
+        "Zuckerrübe"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Landwirtschaftsmethoden",
+      "items": [
+        "Ökologisch",
+        "Konventionell",
+        "Bewässerung",
+        "Pflanzenschutz"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Agrar-Förderung",
+      "items": [
+        "EU-Direktzahlungen",
+        "Agrarpolitik",
+        "Bergbauernprämie",
+        "Flächenprämie"
+      ]
+    }
   ]
 }

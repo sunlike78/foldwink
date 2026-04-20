@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 14
   },
   "groups": [
     {
       "id": "ghost",
       "label": "Ghost phenomena",
       "revealHint": "Ghost",
-      "items": ["Phantom", "Apparition", "Wraith", "Spectre"]
+      "items": [
+        "Phantom",
+        "Apparition",
+        "Wraith",
+        "Spectre"
+      ]
     },
     {
       "id": "shadow",
       "label": "Shadow types",
       "revealHint": "Shadow",
-      "items": ["Silhouette", "Penumbra", "Umbra", "Eclipse"]
+      "items": [
+        "Silhouette",
+        "Penumbra",
+        "Umbra",
+        "Eclipse"
+      ]
     },
     {
       "id": "blind",
       "label": "Concealment",
       "revealHint": "Conceal",
-      "items": ["Camouflage", "Disguise", "Decoy", "Veil"]
+      "items": [
+        "Camouflage",
+        "Disguise",
+        "Decoy",
+        "Veil"
+      ]
     },
     {
       "id": "dark",
       "label": "Darkness terms",
       "revealHint": "Dark",
-      "items": ["Twilight", "Dusk", "Gloom", "Murk"]
+      "items": [
+        "Twilight",
+        "Dusk",
+        "Gloom",
+        "Murk"
+      ]
     }
   ]
 }

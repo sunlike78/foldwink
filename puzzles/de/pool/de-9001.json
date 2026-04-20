@@ -2,27 +2,51 @@
   "id": "de-9001",
   "title": "Stille Zeichen der Trauer",
   "difficulty": "easy",
-  "meta": { "theme": "Trauer durch Gesten und Symbole", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Trauer durch Gesten und Symbole",
+    "batch": "de-batch-11",
+    "difficultyScore": 42
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Trauer",
-      "items": ["Schwarzer Flor", "Halbmast", "Stille Minute", "Kerze am Grab"]
+      "items": [
+        "Schwarzer Flor",
+        "Halbmast",
+        "Stille Minute",
+        "Kerze am Grab"
+      ]
     },
     {
       "id": "group_b",
       "label": "Freude",
-      "items": ["Konfetti regen", "Sektkorken knallt", "Böllerschuss", "Umarmung beim Tor"]
+      "items": [
+        "Konfetti regen",
+        "Sektkorken knallt",
+        "Böllerschuss",
+        "Umarmung beim Tor"
+      ]
     },
     {
       "id": "group_c",
       "label": "Zorn",
-      "items": ["Tisch hauen", "Tür schlagen", "Faust ballen", "Schrei in den Wald"]
+      "items": [
+        "Tisch hauen",
+        "Tür schlagen",
+        "Faust ballen",
+        "Schrei in den Wald"
+      ]
     },
     {
       "id": "group_d",
       "label": "Scham",
-      "items": ["Gesicht verbergen", "Erröten vor allen", "Augen senken", "Unter Tisch wünschen"]
+      "items": [
+        "Gesicht verbergen",
+        "Erröten vor allen",
+        "Augen senken",
+        "Unter Tisch wünschen"
+      ]
     }
   ]
 }

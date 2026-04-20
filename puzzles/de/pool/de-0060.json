@@ -2,11 +2,51 @@
   "id": "de-0060",
   "title": "Umweltschutz",
   "difficulty": "easy",
-  "meta": { "theme": "Umweltschutz", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Umweltschutz",
+    "batch": "de-batch-02",
+    "difficultyScore": 39
+  },
   "groups": [
-    { "id": "group_a", "label": "Recycling", "items": ["Gelber Sack", "Papiertonne", "Glascontainer", "Bioabfall"] },
-    { "id": "group_b", "label": "Erneuerbare Energie", "items": ["Solaranlage", "Windrad", "Wasserkraft", "Biomasse"] },
-    { "id": "group_c", "label": "Wasserschutz", "items": ["Kläranlage", "Regenwassernutzung", "Gewässerschutz", "Spardusche"] },
-    { "id": "group_d", "label": "Artenschutz", "items": ["Bienenhotel", "Wildblumenwiese", "Nisthilfe", "Biotop"] }
+    {
+      "id": "group_a",
+      "label": "Recycling",
+      "items": [
+        "Gelber Sack",
+        "Papiertonne",
+        "Glascontainer",
+        "Bioabfall"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Erneuerbare Energie",
+      "items": [
+        "Solaranlage",
+        "Windrad",
+        "Wasserkraft",
+        "Biomasse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wasserschutz",
+      "items": [
+        "Kläranlage",
+        "Regenwassernutzung",
+        "Gewässerschutz",
+        "Spardusche"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Artenschutz",
+      "items": [
+        "Bienenhotel",
+        "Wildblumenwiese",
+        "Nisthilfe",
+        "Biotop"
+      ]
+    }
   ]
 }

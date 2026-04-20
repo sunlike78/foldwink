@@ -2,31 +2,55 @@
   "id": "de-0346",
   "title": "Planeten und ihre Monde",
   "difficulty": "medium",
-  "meta": { "theme": "Astronomie Monde", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Astronomie Monde",
+    "batch": "de-batch-04",
+    "difficultyScore": 26
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Monde des Mars",
       "revealHint": "Roter Planet",
-      "items": ["Phobos", "Deimos", "Stickney", "Laputa"]
+      "items": [
+        "Phobos",
+        "Deimos",
+        "Stickney",
+        "Laputa"
+      ]
     },
     {
       "id": "group_b",
       "label": "Monde des Jupiter",
       "revealHint": "Größter Planet",
-      "items": ["Europa", "Io", "Ganymed", "Kallisto"]
+      "items": [
+        "Europa",
+        "Io",
+        "Ganymed",
+        "Kallisto"
+      ]
     },
     {
       "id": "group_c",
       "label": "Monde des Saturn",
       "revealHint": "Ringe-Planet",
-      "items": ["Titan", "Enceladus", "Mimas", "Rhea"]
+      "items": [
+        "Titan",
+        "Enceladus",
+        "Mimas",
+        "Rhea"
+      ]
     },
     {
       "id": "group_d",
       "label": "Monde des Uranus",
       "revealHint": "Eisriese",
-      "items": ["Miranda", "Ariel", "Umbriel", "Oberon"]
+      "items": [
+        "Miranda",
+        "Ariel",
+        "Umbriel",
+        "Oberon"
+      ]
     }
   ]
 }

@@ -2,11 +2,55 @@
   "id": "de-0427",
   "title": "Grundgesetz-Artikel Themen",
   "difficulty": "medium",
-  "meta": { "theme": "recht", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "recht",
+    "batch": "de-batch-05",
+    "difficultyScore": 72
+  },
   "groups": [
-    { "id": "group_a", "label": "Art. 1–5 GG", "revealHint": "Grundrechte I", "items": ["Menschenwürde", "Handlungsfreiheit", "Gleichheit", "Meinungsfreiheit"] },
-    { "id": "group_b", "label": "Art. 6–10 GG", "revealHint": "Grundrechte II", "items": ["Ehe und Familie", "Schulwesen", "Versammlungsfreiheit", "Briefgeheimnis"] },
-    { "id": "group_c", "label": "Art. 11–15 GG", "revealHint": "Grundrechte III", "items": ["Freizügigkeit", "Berufsfreiheit", "Auslieferungsverbot", "Enteignung"] },
-    { "id": "group_d", "label": "Art. 20 GG", "revealHint": "Staatsstruktur", "items": ["Bundesstaat", "Sozialstaat", "Demokratieprinzip", "Widerstandsrecht"] }
+    {
+      "id": "group_a",
+      "label": "Art. 1–5 GG",
+      "revealHint": "Grundrechte I",
+      "items": [
+        "Menschenwürde",
+        "Handlungsfreiheit",
+        "Gleichheit",
+        "Meinungsfreiheit"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Art. 6–10 GG",
+      "revealHint": "Grundrechte II",
+      "items": [
+        "Ehe und Familie",
+        "Schulwesen",
+        "Versammlungsfreiheit",
+        "Briefgeheimnis"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Art. 11–15 GG",
+      "revealHint": "Grundrechte III",
+      "items": [
+        "Freizügigkeit",
+        "Berufsfreiheit",
+        "Auslieferungsverbot",
+        "Enteignung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Art. 20 GG",
+      "revealHint": "Staatsstruktur",
+      "items": [
+        "Bundesstaat",
+        "Sozialstaat",
+        "Demokratieprinzip",
+        "Widerstandsrecht"
+      ]
+    }
   ]
 }

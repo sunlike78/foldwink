@@ -2,27 +2,52 @@
   "id": "puzzle-0007",
   "title": "Green Grow",
   "difficulty": "easy",
-  "tags": ["plants"],
+  "tags": [
+    "plants"
+  ],
   "groups": [
     {
       "id": "trees",
       "label": "Trees",
-      "items": ["Oak", "Maple", "Birch", "Willow"]
+      "items": [
+        "Oak",
+        "Maple",
+        "Birch",
+        "Willow"
+      ]
     },
     {
       "id": "flowers",
       "label": "Flowers",
-      "items": ["Tulip", "Daisy", "Lily", "Orchid"]
+      "items": [
+        "Tulip",
+        "Daisy",
+        "Lily",
+        "Orchid"
+      ]
     },
     {
       "id": "vegetables",
       "label": "Vegetables",
-      "items": ["Carrot", "Onion", "Cabbage", "Broccoli"]
+      "items": [
+        "Carrot",
+        "Onion",
+        "Cabbage",
+        "Broccoli"
+      ]
     },
     {
       "id": "herbs",
       "label": "Herbs",
-      "items": ["Basil", "Thyme", "Parsley", "Oregano"]
+      "items": [
+        "Basil",
+        "Thyme",
+        "Parsley",
+        "Oregano"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 9
+  }
 }

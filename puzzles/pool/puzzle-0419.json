@@ -3,11 +3,57 @@
   "title": "Wine Regions",
   "difficulty": "medium",
   "editorialSummary": "Wine regions grouped by country: France, Italy, Spain, New World (USA/Australia/Argentina). False trail: Rioja and Ribera del Duero are both Spanish; Bordeaux and Burgundy are both French — players may confuse similar-sounding regions. The Foldwink Tab hints reveal country names progressively.",
-  "meta": { "theme": "beverages", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "beverages",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 33
+  },
   "groups": [
-    { "id": "g1", "label": "FRENCH WINE REGIONS", "items": ["Bordeaux", "Burgundy", "Champagne", "Alsace"], "revealHint": "French" },
-    { "id": "g2", "label": "ITALIAN WINE REGIONS", "items": ["Tuscany", "Piedmont", "Veneto", "Sicily"], "revealHint": "Italian" },
-    { "id": "g3", "label": "SPANISH WINE REGIONS", "items": ["Rioja", "Ribera del Duero", "Priorat", "Galicia"], "revealHint": "Spanish" },
-    { "id": "g4", "label": "NEW WORLD WINE REGIONS", "items": ["Napa Valley", "Barossa Valley", "Mendoza", "Marlborough"], "revealHint": "NewWorld" }
+    {
+      "id": "g1",
+      "label": "FRENCH WINE REGIONS",
+      "items": [
+        "Bordeaux",
+        "Burgundy",
+        "Champagne",
+        "Alsace"
+      ],
+      "revealHint": "French"
+    },
+    {
+      "id": "g2",
+      "label": "ITALIAN WINE REGIONS",
+      "items": [
+        "Tuscany",
+        "Piedmont",
+        "Veneto",
+        "Sicily"
+      ],
+      "revealHint": "Italian"
+    },
+    {
+      "id": "g3",
+      "label": "SPANISH WINE REGIONS",
+      "items": [
+        "Rioja",
+        "Ribera del Duero",
+        "Priorat",
+        "Galicia"
+      ],
+      "revealHint": "Spanish"
+    },
+    {
+      "id": "g4",
+      "label": "NEW WORLD WINE REGIONS",
+      "items": [
+        "Napa Valley",
+        "Barossa Valley",
+        "Mendoza",
+        "Marlborough"
+      ],
+      "revealHint": "NewWorld"
+    }
   ]
 }

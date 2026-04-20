@@ -3,11 +3,57 @@
   "title": "Political Systems",
   "difficulty": "medium",
   "editorialSummary": "Four governance models grouped by authority structure; the false trail is that Republic and Democracy sound synonymous but here Republic belongs under Government Structures while Democracy anchors the direct/participatory group.",
-  "meta": { "theme": "politics", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "politics",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 61
+  },
   "groups": [
-    { "id": "g1", "label": "Authoritarian Systems", "revealHint": "Control", "items": ["Dictatorship", "Autocracy", "Totalitarianism", "Oligarchy"] },
-    { "id": "g2", "label": "Government Structures", "revealHint": "Charter", "items": ["Republic", "Constitutional Monarchy", "Federal State", "Parliamentary"] },
-    { "id": "g3", "label": "Direct Participation", "revealHint": "People", "items": ["Democracy", "Direct Democracy", "Deliberative", "Participatory"] },
-    { "id": "g4", "label": "Theocratic Systems", "revealHint": "Divine", "items": ["Hierocracy", "Caliphate", "Ecclesiastical", "State Religion"] }
+    {
+      "id": "g1",
+      "label": "Authoritarian Systems",
+      "revealHint": "Control",
+      "items": [
+        "Dictatorship",
+        "Autocracy",
+        "Totalitarianism",
+        "Oligarchy"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Government Structures",
+      "revealHint": "Charter",
+      "items": [
+        "Republic",
+        "Constitutional Monarchy",
+        "Federal State",
+        "Parliamentary"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Direct Participation",
+      "revealHint": "People",
+      "items": [
+        "Democracy",
+        "Direct Democracy",
+        "Deliberative",
+        "Participatory"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Theocratic Systems",
+      "revealHint": "Divine",
+      "items": [
+        "Hierocracy",
+        "Caliphate",
+        "Ecclesiastical",
+        "State Religion"
+      ]
+    }
   ]
 }

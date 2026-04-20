@@ -2,27 +2,51 @@
   "id": "de-9009",
   "title": "Wissenschaft verändert Welt",
   "difficulty": "easy",
-  "meta": { "theme": "Wissenschaftliche Umbrüche", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Wissenschaftliche Umbrüche",
+    "batch": "de-batch-11",
+    "difficultyScore": 33
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Quantenphysik",
-      "items": ["Doppelspaltexperiment", "Welle kollabiert", "Verschränkte Teilchen", "Plancksche Konstante"]
+      "items": [
+        "Doppelspaltexperiment",
+        "Welle kollabiert",
+        "Verschränkte Teilchen",
+        "Plancksche Konstante"
+      ]
     },
     {
       "id": "group_b",
       "label": "Genetik",
-      "items": ["Erbsengarten Mendel", "Doppelhelix entdeckt", "Erbgut sequenziert", "Klonschaf Dolly"]
+      "items": [
+        "Erbsengarten Mendel",
+        "Doppelhelix entdeckt",
+        "Erbgut sequenziert",
+        "Klonschaf Dolly"
+      ]
     },
     {
       "id": "group_c",
       "label": "Relativitätstheorie",
-      "items": ["Licht biegt sich", "Zeit dehnt sich aus", "Masse als Energie", "Zwillingsparadoxon"]
+      "items": [
+        "Licht biegt sich",
+        "Zeit dehnt sich aus",
+        "Masse als Energie",
+        "Zwillingsparadoxon"
+      ]
     },
     {
       "id": "group_d",
       "label": "Evolutionstheorie",
-      "items": ["Galapagos-Finken", "Natürliche Auslese", "Beagle-Fahrt", "Gemeinsamer Vorfahre"]
+      "items": [
+        "Galapagos-Finken",
+        "Natürliche Auslese",
+        "Beagle-Fahrt",
+        "Gemeinsamer Vorfahre"
+      ]
     }
   ]
 }

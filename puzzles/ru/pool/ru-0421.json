@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Научные методы исследования",
-    "batch": "ru-batch-18"
+    "batch": "ru-batch-18",
+    "difficultyScore": 48
   },
   "groups": [
     {

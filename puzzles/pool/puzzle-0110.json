@@ -6,24 +6,49 @@
     "theme": "nature",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 16
   },
   "groups": [
     {
       "id": "deciduous",
       "label": "Deciduous Trees",
-      "items": ["Maple", "Oak", "Birch", "Beech"]
+      "items": [
+        "Maple",
+        "Oak",
+        "Birch",
+        "Beech"
+      ]
     },
     {
       "id": "evergreen",
       "label": "Evergreen Trees",
-      "items": ["Pine", "Spruce", "Cedar", "Fir"]
+      "items": [
+        "Pine",
+        "Spruce",
+        "Cedar",
+        "Fir"
+      ]
     },
     {
       "id": "tropical",
       "label": "Tropical Trees",
-      "items": ["Palm", "Mango", "Teak", "Mahogany"]
+      "items": [
+        "Palm",
+        "Mango",
+        "Teak",
+        "Mahogany"
+      ]
     },
-    { "id": "fruit", "label": "Fruit Trees", "items": ["Apple", "Cherry", "Pear", "Plum"] }
+    {
+      "id": "fruit",
+      "label": "Fruit Trees",
+      "items": [
+        "Apple",
+        "Cherry",
+        "Pear",
+        "Plum"
+      ]
+    }
   ]
 }

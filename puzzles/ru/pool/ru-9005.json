@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Черты характера через идиомы",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 30
   },
   "groups": [
     {

@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "lightning",
       "label": "Lightning bolt",
       "revealHint": "Sky",
-      "items": ["Thunder", "Strike", "Flash", "Zeus"]
+      "items": [
+        "Thunder",
+        "Strike",
+        "Flash",
+        "Zeus"
+      ]
     },
     {
       "id": "hardware",
       "label": "Hardware bolt",
       "revealHint": "Metal",
-      "items": ["Nut", "Washer", "Thread", "Wrench"]
+      "items": [
+        "Nut",
+        "Washer",
+        "Thread",
+        "Wrench"
+      ]
     },
     {
       "id": "flee",
       "label": "Bolt away",
       "revealHint": "Flee",
-      "items": ["Sprint", "Dash", "Abscond", "Make Off"]
+      "items": [
+        "Sprint",
+        "Dash",
+        "Abscond",
+        "Make Off"
+      ]
     },
     {
       "id": "fabric",
       "label": "Bolt of fabric",
       "revealHint": "Cloth",
-      "items": ["Linen", "Yardage", "Roll", "Textile"]
+      "items": [
+        "Linen",
+        "Yardage",
+        "Roll",
+        "Textile"
+      ]
     }
   ]
 }

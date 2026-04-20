@@ -2,11 +2,53 @@
   "id": "puzzle-0369",
   "title": "Body processes",
   "difficulty": "easy",
-  "meta": { "theme": "anatomy", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "anatomy",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 53
+  },
   "groups": [
-    { "id": "digest", "label": "Digestive Processes", "items": ["Peristalsis", "Absorption", "Emulsification", "Secretion"] },
-    { "id": "immune", "label": "Immune Processes", "items": ["Phagocytosis", "Inflammation", "Antibody Response", "Fever"] },
-    { "id": "nerve", "label": "Neural Processes", "items": ["Depolarization", "Synaptic Transmission", "Reflex Arc", "Neuroplasticity"] },
-    { "id": "repair", "label": "Repair Processes", "items": ["Haemostasis", "Granulation", "Remodelling", "Epithelialisation"] }
+    {
+      "id": "digest",
+      "label": "Digestive Processes",
+      "items": [
+        "Peristalsis",
+        "Absorption",
+        "Emulsification",
+        "Secretion"
+      ]
+    },
+    {
+      "id": "immune",
+      "label": "Immune Processes",
+      "items": [
+        "Phagocytosis",
+        "Inflammation",
+        "Antibody Response",
+        "Fever"
+      ]
+    },
+    {
+      "id": "nerve",
+      "label": "Neural Processes",
+      "items": [
+        "Depolarization",
+        "Synaptic Transmission",
+        "Reflex Arc",
+        "Neuroplasticity"
+      ]
+    },
+    {
+      "id": "repair",
+      "label": "Repair Processes",
+      "items": [
+        "Haemostasis",
+        "Granulation",
+        "Remodelling",
+        "Epithelialisation"
+      ]
+    }
   ]
 }

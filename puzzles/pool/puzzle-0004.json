@@ -2,28 +2,53 @@
   "id": "puzzle-0004",
   "title": "Everyday Mix",
   "difficulty": "easy",
-  "tags": ["general"],
+  "tags": [
+    "general"
+  ],
   "editorialSummary": "Clean broad categories with zero cross-group overlap.",
   "groups": [
     {
       "id": "body",
       "label": "Body Parts",
-      "items": ["Elbow", "Ankle", "Shoulder", "Wrist"]
+      "items": [
+        "Elbow",
+        "Ankle",
+        "Shoulder",
+        "Wrist"
+      ]
     },
     {
       "id": "instruments",
       "label": "Instruments",
-      "items": ["Guitar", "Piano", "Violin", "Flute"]
+      "items": [
+        "Guitar",
+        "Piano",
+        "Violin",
+        "Flute"
+      ]
     },
     {
       "id": "seasons",
       "label": "Seasons",
-      "items": ["Spring", "Summer", "Autumn", "Winter"]
+      "items": [
+        "Spring",
+        "Summer",
+        "Autumn",
+        "Winter"
+      ]
     },
     {
       "id": "chess",
       "label": "Chess Pieces",
-      "items": ["King", "Queen", "Knight", "Pawn"]
+      "items": [
+        "King",
+        "Queen",
+        "Knight",
+        "Pawn"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 15
+  }
 }

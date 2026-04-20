@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Дипломатические инструменты",
-    "batch": "ru-batch-19"
+    "batch": "ru-batch-19",
+    "difficultyScore": 30
   },
   "groups": [
     {

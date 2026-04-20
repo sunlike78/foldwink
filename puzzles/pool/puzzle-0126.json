@@ -7,32 +7,53 @@
     "theme": "science",
     "categoryType": "thematic",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "precious",
       "label": "Precious metals",
       "revealHint": "Precious",
-      "items": ["Platinum", "Palladium", "Rhodium", "Iridium"]
+      "items": [
+        "Platinum",
+        "Palladium",
+        "Rhodium",
+        "Iridium"
+      ]
     },
     {
       "id": "industrial",
       "label": "Industrial metals",
       "revealHint": "Industrial",
-      "items": ["Steel", "Aluminium", "Copper", "Zinc"]
+      "items": [
+        "Steel",
+        "Aluminium",
+        "Copper",
+        "Zinc"
+      ]
     },
     {
       "id": "music",
       "label": "Metal subgenres",
       "revealHint": "Genres",
-      "items": ["Thrash", "Doom", "Black", "Prog"]
+      "items": [
+        "Thrash",
+        "Doom",
+        "Black",
+        "Prog"
+      ]
     },
     {
       "id": "alkali",
       "label": "Alkali metals",
       "revealHint": "Alkali",
-      "items": ["Lithium", "Sodium", "Potassium", "Rubidium"]
+      "items": [
+        "Lithium",
+        "Sodium",
+        "Potassium",
+        "Rubidium"
+      ]
     }
   ]
 }

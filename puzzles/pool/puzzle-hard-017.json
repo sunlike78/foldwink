@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "material",
       "label": "Glass material",
       "revealHint": "Material",
-      "items": ["Tempered", "Stained", "Blown", "Frosted"]
+      "items": [
+        "Tempered",
+        "Stained",
+        "Blown",
+        "Frosted"
+      ]
     },
     {
       "id": "drinking",
       "label": "Drinking glass",
       "revealHint": "Drinking",
-      "items": ["Tumbler", "Flute", "Goblet", "Snifter"]
+      "items": [
+        "Tumbler",
+        "Flute",
+        "Goblet",
+        "Snifter"
+      ]
     },
     {
       "id": "optical",
       "label": "Optical glass",
       "revealHint": "Optical",
-      "items": ["Monocle", "Prism", "Magnifier", "Spectacles"]
+      "items": [
+        "Monocle",
+        "Prism",
+        "Magnifier",
+        "Spectacles"
+      ]
     },
     {
       "id": "metaphor",
       "label": "Glass metaphor",
       "revealHint": "Metaphor",
-      "items": ["Ceiling", "Half Full", "Fragile", "Shatter"]
+      "items": [
+        "Ceiling",
+        "Half Full",
+        "Fragile",
+        "Shatter"
+      ]
     }
   ]
 }

@@ -3,11 +3,57 @@
   "title": "Cheese Textures",
   "difficulty": "medium",
   "editorialSummary": "Cheeses sorted by texture/style: hard aged, soft fresh, semi-soft, and blue-veined. False trail: Gruyère and Emmental are both Swiss hard cheeses; Brie and Camembert are both soft French rinds — texture knowledge required to distinguish the four groups.",
-  "meta": { "theme": "food", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "g1", "label": "HARD AGED CHEESES", "items": ["Parmesan", "Gruyère", "Manchego", "Pecorino"], "revealHint": "Aged" },
-    { "id": "g2", "label": "SOFT FRESH CHEESES", "items": ["Brie", "Camembert", "Ricotta", "Burrata"], "revealHint": "Soft" },
-    { "id": "g3", "label": "SEMI-SOFT CHEESES", "items": ["Fontina", "Havarti", "Munster", "Gouda"], "revealHint": "Semi" },
-    { "id": "g4", "label": "BLUE CHEESES", "items": ["Roquefort", "Gorgonzola", "Stilton", "Maytag Blue"], "revealHint": "Blue" }
+    {
+      "id": "g1",
+      "label": "HARD AGED CHEESES",
+      "items": [
+        "Parmesan",
+        "Gruyère",
+        "Manchego",
+        "Pecorino"
+      ],
+      "revealHint": "Aged"
+    },
+    {
+      "id": "g2",
+      "label": "SOFT FRESH CHEESES",
+      "items": [
+        "Brie",
+        "Camembert",
+        "Ricotta",
+        "Burrata"
+      ],
+      "revealHint": "Soft"
+    },
+    {
+      "id": "g3",
+      "label": "SEMI-SOFT CHEESES",
+      "items": [
+        "Fontina",
+        "Havarti",
+        "Munster",
+        "Gouda"
+      ],
+      "revealHint": "Semi"
+    },
+    {
+      "id": "g4",
+      "label": "BLUE CHEESES",
+      "items": [
+        "Roquefort",
+        "Gorgonzola",
+        "Stilton",
+        "Maytag Blue"
+      ],
+      "revealHint": "Blue"
+    }
   ]
 }

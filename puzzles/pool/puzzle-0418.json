@@ -3,11 +3,53 @@
   "title": "Famous Paintings",
   "difficulty": "easy",
   "editorialSummary": "Paintings grouped by artist: da Vinci, Van Gogh, Monet, Picasso. False trail: 'Starry Night' and 'Sunflowers' are both Van Gogh; 'Water Lilies' and 'Impression Sunrise' are both Monet — players who only know one work per artist may mis-sort.",
-  "meta": { "theme": "art", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "art",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 44
+  },
   "groups": [
-    { "id": "g1", "label": "DA VINCI PAINTINGS", "items": ["Mona Lisa", "The Last Supper", "Vitruvian Man", "Lady with Ermine"] },
-    { "id": "g2", "label": "VAN GOGH PAINTINGS", "items": ["Starry Night", "Sunflowers", "Bedroom in Arles", "Irises"] },
-    { "id": "g3", "label": "MONET PAINTINGS", "items": ["Water Lilies", "Impression Sunrise", "Haystacks", "Rouen Cathedral"] },
-    { "id": "g4", "label": "PICASSO PAINTINGS", "items": ["Guernica", "Les Demoiselles", "The Weeping Woman", "Girl Before Mirror"] }
+    {
+      "id": "g1",
+      "label": "DA VINCI PAINTINGS",
+      "items": [
+        "Mona Lisa",
+        "The Last Supper",
+        "Vitruvian Man",
+        "Lady with Ermine"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "VAN GOGH PAINTINGS",
+      "items": [
+        "Starry Night",
+        "Sunflowers",
+        "Bedroom in Arles",
+        "Irises"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "MONET PAINTINGS",
+      "items": [
+        "Water Lilies",
+        "Impression Sunrise",
+        "Haystacks",
+        "Rouen Cathedral"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PICASSO PAINTINGS",
+      "items": [
+        "Guernica",
+        "Les Demoiselles",
+        "The Weeping Woman",
+        "Girl Before Mirror"
+      ]
+    }
   ]
 }

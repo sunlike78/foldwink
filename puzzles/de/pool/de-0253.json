@@ -2,11 +2,51 @@
   "id": "de-0253",
   "title": "Deutsche Maler",
   "difficulty": "easy",
-  "meta": { "theme": "deutsche-maler", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "deutsche-maler",
+    "batch": "de-batch-03",
+    "difficultyScore": 15
+  },
   "groups": [
-    { "id": "group_a", "label": "Romantik-Maler", "items": ["C.D. Friedrich", "Runge", "Schwind", "Spitzweg"] },
-    { "id": "group_b", "label": "Expressionismus-Maler", "items": ["Kirchner", "Nolde", "Marc", "Macke"] },
-    { "id": "group_c", "label": "Realismus-Maler", "items": ["Menzel", "Leibl", "Thoma", "Feuerbach"] },
-    { "id": "group_d", "label": "Moderne Maler", "items": ["Richter", "Baselitz", "Kiefer", "Polke"] }
+    {
+      "id": "group_a",
+      "label": "Romantik-Maler",
+      "items": [
+        "C.D. Friedrich",
+        "Runge",
+        "Schwind",
+        "Spitzweg"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Expressionismus-Maler",
+      "items": [
+        "Kirchner",
+        "Nolde",
+        "Marc",
+        "Macke"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Realismus-Maler",
+      "items": [
+        "Menzel",
+        "Leibl",
+        "Thoma",
+        "Feuerbach"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Moderne Maler",
+      "items": [
+        "Richter",
+        "Baselitz",
+        "Kiefer",
+        "Polke"
+      ]
+    }
   ]
 }

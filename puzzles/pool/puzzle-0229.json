@@ -6,28 +6,49 @@
     "theme": "seaside",
     "categoryType": "thematic",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "sun-gear",
       "label": "Sun Gear",
-      "items": ["Visor", "Sunglasses", "Sun Hat", "Beach Umbrella"]
+      "items": [
+        "Visor",
+        "Sunglasses",
+        "Sun Hat",
+        "Beach Umbrella"
+      ]
     },
     {
       "id": "sand-things",
       "label": "On the Sand",
-      "items": ["Towel", "Bucket", "Shovel", "Seashell"]
+      "items": [
+        "Towel",
+        "Bucket",
+        "Shovel",
+        "Seashell"
+      ]
     },
     {
       "id": "water-toys",
       "label": "Water Toys",
-      "items": ["Float", "Paddleboard", "Snorkel", "Flippers"]
+      "items": [
+        "Float",
+        "Paddleboard",
+        "Snorkel",
+        "Flippers"
+      ]
     },
     {
       "id": "snacks",
       "label": "Beach Snacks",
-      "items": ["Ice Cream", "Lemonade", "Watermelon", "Pretzel"]
+      "items": [
+        "Ice Cream",
+        "Lemonade",
+        "Watermelon",
+        "Pretzel"
+      ]
     }
   ]
 }

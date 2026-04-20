@@ -7,32 +7,53 @@
     "theme": "maritime",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "knots",
       "label": "Nautical Knots",
       "revealHint": "Rope",
-      "items": ["Bowline", "Clove Hitch", "Sheet Bend", "Reef Knot"]
+      "items": [
+        "Bowline",
+        "Clove Hitch",
+        "Sheet Bend",
+        "Reef Knot"
+      ]
     },
     {
       "id": "ship-parts",
       "label": "Sailing Ship Parts",
       "revealHint": "Hull",
-      "items": ["Keel", "Boom", "Stern", "Bowsprit"]
+      "items": [
+        "Keel",
+        "Boom",
+        "Stern",
+        "Bowsprit"
+      ]
     },
     {
       "id": "crew-roles",
       "label": "Ship's Crew",
       "revealHint": "Sailors",
-      "items": ["Captain", "Bosun", "Helmsman", "First Mate"]
+      "items": [
+        "Captain",
+        "Bosun",
+        "Helmsman",
+        "First Mate"
+      ]
     },
     {
       "id": "commands",
       "label": "Sailing Commands",
       "revealHint": "Orders",
-      "items": ["Heave Ho", "Ahoy", "Avast", "All Hands"]
+      "items": [
+        "Heave Ho",
+        "Ahoy",
+        "Avast",
+        "All Hands"
+      ]
     }
   ]
 }

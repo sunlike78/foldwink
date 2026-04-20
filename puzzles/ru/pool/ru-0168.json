@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Советское кино",
-    "batch": "ru-batch-05"
+    "batch": "ru-batch-05",
+    "difficultyScore": 29
   },
   "groups": [
     {

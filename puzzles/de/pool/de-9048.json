@@ -2,31 +2,55 @@
   "id": "de-9048",
   "title": "Im Kopf des Kindes",
   "difficulty": "medium",
-  "meta": { "theme": "Kindliche Denkweisen und Weltbilder", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Kindliche Denkweisen und Weltbilder",
+    "batch": "de-batch-12",
+    "difficultyScore": 33
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Magie",
       "revealHint": "WUNDERDINGE SIND WAHR",
-      "items": ["Zahn unter dem Kissen", "Wünsch dir was", "Weihnachtsmann kommt", "Frosch wird Prinz"]
+      "items": [
+        "Zahn unter dem Kissen",
+        "Wünsch dir was",
+        "Weihnachtsmann kommt",
+        "Frosch wird Prinz"
+      ]
     },
     {
       "id": "group_b",
       "label": "Gerechtigkeit",
       "revealHint": "FAIR IST ALLES",
-      "items": ["Gleich große Stücke", "Er fing an nicht ich", "Ich war zuerst da", "Das ist nicht fair"]
+      "items": [
+        "Gleich große Stücke",
+        "Er fing an nicht ich",
+        "Ich war zuerst da",
+        "Das ist nicht fair"
+      ]
     },
     {
       "id": "group_c",
       "label": "Allmacht",
       "revealHint": "ICH KANN ALLES SCHAFFEN",
-      "items": ["Papa hebt alles", "Mit Anlauf über Mond", "Einatmen stoppt Regen", "Augen zu macht blind"]
+      "items": [
+        "Papa hebt alles",
+        "Mit Anlauf über Mond",
+        "Einatmen stoppt Regen",
+        "Augen zu macht blind"
+      ]
     },
     {
       "id": "group_d",
       "label": "Animismus",
       "revealHint": "ALLES HAT EIN GEFÜHL",
-      "items": ["Baum weint", "Stein ist traurig", "Wolke schaut böse rein", "Auto schläft nachts"]
+      "items": [
+        "Baum weint",
+        "Stein ist traurig",
+        "Wolke schaut böse rein",
+        "Auto schläft nachts"
+      ]
     }
   ]
 }

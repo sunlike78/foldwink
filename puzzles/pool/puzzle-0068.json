@@ -8,25 +8,48 @@
       "id": "turn",
       "label": "Meaning TURN",
       "revealHint": "TURN",
-      "items": ["Pivot", "Swivel", "Rotate", "Wheel"]
+      "items": [
+        "Pivot",
+        "Swivel",
+        "Rotate",
+        "Wheel"
+      ]
     },
     {
       "id": "bend",
       "label": "Meaning BEND",
       "revealHint": "BEND",
-      "items": ["Curve", "Flex", "Arch", "Bow"]
+      "items": [
+        "Curve",
+        "Flex",
+        "Arch",
+        "Bow"
+      ]
     },
     {
       "id": "twist",
       "label": "Meaning TWIST",
       "revealHint": "TWIST",
-      "items": ["Coil", "Wrench", "Wring", "Writhe"]
+      "items": [
+        "Coil",
+        "Wrench",
+        "Wring",
+        "Writhe"
+      ]
     },
     {
       "id": "fold",
       "label": "Meaning FOLD",
       "revealHint": "FOLD",
-      "items": ["Crease", "Pleat", "Tuck", "Double"]
+      "items": [
+        "Crease",
+        "Pleat",
+        "Tuck",
+        "Double"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 17
+  }
 }

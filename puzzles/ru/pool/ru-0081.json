@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Числа и счёт",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 52
   },
   "groups": [
     {

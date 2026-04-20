@@ -6,22 +6,45 @@
     {
       "id": "newspaper",
       "label": "Newspaper Terms",
-      "items": ["Masthead", "Op-Ed", "Byline", "Lede"]
+      "items": [
+        "Masthead",
+        "Op-Ed",
+        "Byline",
+        "Lede"
+      ]
     },
     {
       "id": "tv",
       "label": "TV Terms",
-      "items": ["Pilot", "Rerun", "Finale", "Spinoff"]
+      "items": [
+        "Pilot",
+        "Rerun",
+        "Finale",
+        "Spinoff"
+      ]
     },
     {
       "id": "radio",
       "label": "Radio Terms",
-      "items": ["Jingle", "Station", "Broadcast", "Podcast"]
+      "items": [
+        "Jingle",
+        "Station",
+        "Broadcast",
+        "Podcast"
+      ]
     },
     {
       "id": "web",
       "label": "Web Publishing",
-      "items": ["Blog Post", "Feed", "Newsletter", "Thread"]
+      "items": [
+        "Blog Post",
+        "Feed",
+        "Newsletter",
+        "Thread"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 22
+  }
 }

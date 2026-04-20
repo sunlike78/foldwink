@@ -7,34 +7,55 @@
     "theme": "engineering",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 65
   },
   "groups": [
     {
       "id": "g1",
       "label": "Arch Bridges",
-      "items": ["Stone Arch Bridge", "Tied Arch Bridge", "Through Arch Bridge", "Bowstring Arch Bridge"],
+      "items": [
+        "Stone Arch Bridge",
+        "Tied Arch Bridge",
+        "Through Arch Bridge",
+        "Bowstring Arch Bridge"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Cable-Supported Bridges",
-      "items": ["Pontoon Bridge", "Cable-Stayed Bridge", "Rope Bridge", "Stressed Ribbon"],
+      "items": [
+        "Pontoon Bridge",
+        "Cable-Stayed Bridge",
+        "Rope Bridge",
+        "Stressed Ribbon"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Beam and Truss Bridges",
-      "items": ["Girder Bridge", "Truss Bridge", "Box Girder Bridge", "Plate Girder Bridge"],
+      "items": [
+        "Girder Bridge",
+        "Truss Bridge",
+        "Box Girder Bridge",
+        "Plate Girder Bridge"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Movable Bridges",
-      "items": ["Bascule Bridge", "Swing Bridge", "Lift Bridge", "Folding Bridge"],
+      "items": [
+        "Bascule Bridge",
+        "Swing Bridge",
+        "Lift Bridge",
+        "Folding Bridge"
+      ],
       "color": "purple",
       "revealHint": ""
     }

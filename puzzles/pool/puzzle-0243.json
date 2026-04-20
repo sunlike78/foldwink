@@ -6,28 +6,49 @@
     "theme": "wellness",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 37
   },
   "groups": [
     {
       "id": "massages",
       "label": "Massage Types",
-      "items": ["Swedish", "Deep Tissue", "Hot Stone", "Shiatsu"]
+      "items": [
+        "Swedish",
+        "Deep Tissue",
+        "Hot Stone",
+        "Shiatsu"
+      ]
     },
     {
       "id": "treatments",
       "label": "Skin Treatments",
-      "items": ["Facial", "Exfoliation", "Mud Mask", "Peel"]
+      "items": [
+        "Facial",
+        "Exfoliation",
+        "Mud Mask",
+        "Peel"
+      ]
     },
     {
       "id": "rooms",
       "label": "Spa Rooms",
-      "items": ["Sauna", "Steam Room", "Jacuzzi", "Relaxation Lounge"]
+      "items": [
+        "Sauna",
+        "Steam Room",
+        "Jacuzzi",
+        "Relaxation Lounge"
+      ]
     },
     {
       "id": "nails",
       "label": "Nail Services",
-      "items": ["Manicure", "Pedicure", "Nail Polish", "Cuticle Trim"]
+      "items": [
+        "Manicure",
+        "Pedicure",
+        "Nail Polish",
+        "Cuticle Trim"
+      ]
     }
   ]
 }

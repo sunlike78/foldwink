@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Океанские течения",
-    "batch": "ru-batch-13"
+    "batch": "ru-batch-13",
+    "difficultyScore": 47
   },
   "groups": [
     {

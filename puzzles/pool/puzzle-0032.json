@@ -6,22 +6,45 @@
     {
       "id": "drinks-hot",
       "label": "Hot Drinks",
-      "items": ["Coffee", "Cocoa", "Chai", "Matcha"]
+      "items": [
+        "Coffee",
+        "Cocoa",
+        "Chai",
+        "Matcha"
+      ]
     },
     {
       "id": "drinks-cold",
       "label": "Cold Drinks",
-      "items": ["Lemonade", "Smoothie", "Milkshake", "Iced Tea"]
+      "items": [
+        "Lemonade",
+        "Smoothie",
+        "Milkshake",
+        "Iced Tea"
+      ]
     },
     {
       "id": "boats",
       "label": "Boats",
-      "items": ["Canoe", "Kayak", "Yacht", "Dinghy"]
+      "items": [
+        "Canoe",
+        "Kayak",
+        "Yacht",
+        "Dinghy"
+      ]
     },
     {
       "id": "fish-shell",
       "label": "Shellfish",
-      "items": ["Lobster", "Shrimp", "Oyster", "Clam"]
+      "items": [
+        "Lobster",
+        "Shrimp",
+        "Oyster",
+        "Clam"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 11
+  }
 }

@@ -2,11 +2,55 @@
   "id": "de-0437",
   "title": "Kognitive Verzerrungen",
   "difficulty": "medium",
-  "meta": { "theme": "psychologie", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "psychologie",
+    "batch": "de-batch-05",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "group_a", "label": "Bestätigungsfehler", "revealHint": "Eigene Meinung", "items": ["Confirmation Bias", "Selektiv wahrnehmen", "Gegenbeweise negiert", "Echokammer"] },
-    { "id": "group_b", "label": "Anker-Effekt", "revealHint": "Erster Wert zählt", "items": ["Erster Wert bestimmt", "Preisanker", "Verhandlungstaktik", "Zahl beeinflusst"] },
-    { "id": "group_c", "label": "Verfügbarkeitsheurist.", "revealHint": "Bekanntes = häufig", "items": ["Medienwirkung", "Lebhaftes Erinnern", "Flugangst", "Wahrscheinlichk.irrtum"] },
-    { "id": "group_d", "label": "Dunning-Kruger", "revealHint": "Blind für Schwäche", "items": ["Überschätzung sich", "Kompetenz unterschätzt", "Gipfel Dummheit", "Lernkurve"] }
+    {
+      "id": "group_a",
+      "label": "Bestätigungsfehler",
+      "revealHint": "Eigene Meinung",
+      "items": [
+        "Confirmation Bias",
+        "Selektiv wahrnehmen",
+        "Gegenbeweise negiert",
+        "Echokammer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Anker-Effekt",
+      "revealHint": "Erster Wert zählt",
+      "items": [
+        "Erster Wert bestimmt",
+        "Preisanker",
+        "Verhandlungstaktik",
+        "Zahl beeinflusst"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Verfügbarkeitsheurist.",
+      "revealHint": "Bekanntes = häufig",
+      "items": [
+        "Medienwirkung",
+        "Lebhaftes Erinnern",
+        "Flugangst",
+        "Wahrscheinlichk.irrtum"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Dunning-Kruger",
+      "revealHint": "Blind für Schwäche",
+      "items": [
+        "Überschätzung sich",
+        "Kompetenz unterschätzt",
+        "Gipfel Dummheit",
+        "Lernkurve"
+      ]
+    }
   ]
 }

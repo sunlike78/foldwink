@@ -3,11 +3,53 @@
   "title": "On the Green",
   "difficulty": "easy",
   "editorialSummary": "Golf terminology sorted by situation: shots played from the tee (tee shots), around and on the green (putting), score terms relative to par, and penalty/rules terms. All 16 cards are genuine golf vocabulary, but each belongs to a single clear category.",
-  "meta": { "theme": "golf", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "golf",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 24
+  },
   "groups": [
-    { "id": "g1", "label": "SCORE NAMES", "items": ["Eagle", "Birdie", "Bogey", "Albatross"] },
-    { "id": "g2", "label": "TEE SHOT TERMS", "items": ["Draw", "Fade", "Hook", "Slice"] },
-    { "id": "g3", "label": "ON THE GREEN", "items": ["Putt", "Lag", "Lip Out", "Tap-In"] },
-    { "id": "g4", "label": "RULES / PENALTY", "items": ["Mulligan", "Stroke Play", "Drop", "Hazard"] }
+    {
+      "id": "g1",
+      "label": "SCORE NAMES",
+      "items": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "TEE SHOT TERMS",
+      "items": [
+        "Draw",
+        "Fade",
+        "Hook",
+        "Slice"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ON THE GREEN",
+      "items": [
+        "Putt",
+        "Lag",
+        "Lip Out",
+        "Tap-In"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "RULES / PENALTY",
+      "items": [
+        "Mulligan",
+        "Stroke Play",
+        "Drop",
+        "Hazard"
+      ]
+    }
   ]
 }

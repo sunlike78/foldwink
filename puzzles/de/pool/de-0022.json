@@ -2,11 +2,51 @@
   "id": "de-0022",
   "title": "Flüsse Deutschlands",
   "difficulty": "easy",
-  "meta": { "theme": "Flüsse Deutschlands", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Flüsse Deutschlands",
+    "batch": "de-batch-01",
+    "difficultyScore": 7
+  },
   "groups": [
-    { "id": "group_a", "label": "Rhein-System", "items": ["Mosel", "Main", "Neckar", "Lahn"] },
-    { "id": "group_b", "label": "Elbe-System", "items": ["Saale", "Havel", "Mulde", "Schwarze Elster"] },
-    { "id": "group_c", "label": "Donau-System", "items": ["Inn", "Isar", "Iller", "Altmühl"] },
-    { "id": "group_d", "label": "Nordsee-Zuflüsse", "items": ["Weser", "Ems", "Eider", "Elbe"] }
+    {
+      "id": "group_a",
+      "label": "Rhein-System",
+      "items": [
+        "Mosel",
+        "Main",
+        "Neckar",
+        "Lahn"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Elbe-System",
+      "items": [
+        "Saale",
+        "Havel",
+        "Mulde",
+        "Schwarze Elster"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Donau-System",
+      "items": [
+        "Inn",
+        "Isar",
+        "Iller",
+        "Altmühl"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Nordsee-Zuflüsse",
+      "items": [
+        "Weser",
+        "Ems",
+        "Eider",
+        "Elbe"
+      ]
+    }
   ]
 }

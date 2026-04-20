@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "river",
       "label": "River features",
       "revealHint": "River",
-      "items": ["Mouth", "Bank", "Bed", "Fork"]
+      "items": [
+        "Mouth",
+        "Bank",
+        "Bed",
+        "Fork"
+      ]
     },
     {
       "id": "music",
       "label": "Music anatomy",
       "revealHint": "Music",
-      "items": ["Bridge", "Neck", "Body", "Head"]
+      "items": [
+        "Bridge",
+        "Neck",
+        "Body",
+        "Head"
+      ]
     },
     {
       "id": "letter",
       "label": "Letter parts",
       "revealHint": "Letter",
-      "items": ["Header", "Footer", "Body Text", "Signature"]
+      "items": [
+        "Header",
+        "Footer",
+        "Body Text",
+        "Signature"
+      ]
     },
     {
       "id": "mountain",
       "label": "Mountain features",
       "revealHint": "Mountain",
-      "items": ["Face", "Ridge", "Shoulder", "Saddle"]
+      "items": [
+        "Face",
+        "Ridge",
+        "Shoulder",
+        "Saddle"
+      ]
     }
   ]
 }

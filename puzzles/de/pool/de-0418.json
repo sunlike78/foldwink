@@ -2,11 +2,55 @@
   "id": "de-0418",
   "title": "Philosophen nach Hauptthese",
   "difficulty": "medium",
-  "meta": { "theme": "philosophie", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "philosophie",
+    "batch": "de-batch-05",
+    "difficultyScore": 16
+  },
   "groups": [
-    { "id": "group_a", "label": "Erkenntnistheorie", "revealHint": "Was wissen wir?", "items": ["Kant", "Descartes", "Hume", "Locke"] },
-    { "id": "group_b", "label": "Ethik", "revealHint": "Wie handeln wir?", "items": ["Aristoteles", "Mill", "Nietzsche", "Singer"] },
-    { "id": "group_c", "label": "Gesellschaft", "revealHint": "Wie leben wir?", "items": ["Rousseau", "Hobbes", "Marx", "Rawls"] },
-    { "id": "group_d", "label": "Existenz & Sein", "revealHint": "Was bin ich?", "items": ["Heidegger", "Sartre", "Camus", "Kierkegaard"] }
+    {
+      "id": "group_a",
+      "label": "Erkenntnistheorie",
+      "revealHint": "Was wissen wir?",
+      "items": [
+        "Kant",
+        "Descartes",
+        "Hume",
+        "Locke"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ethik",
+      "revealHint": "Wie handeln wir?",
+      "items": [
+        "Aristoteles",
+        "Mill",
+        "Nietzsche",
+        "Singer"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Gesellschaft",
+      "revealHint": "Wie leben wir?",
+      "items": [
+        "Rousseau",
+        "Hobbes",
+        "Marx",
+        "Rawls"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Existenz & Sein",
+      "revealHint": "Was bin ich?",
+      "items": [
+        "Heidegger",
+        "Sartre",
+        "Camus",
+        "Kierkegaard"
+      ]
+    }
   ]
 }

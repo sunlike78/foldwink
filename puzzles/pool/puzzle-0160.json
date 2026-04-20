@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 19
   },
   "groups": [
     {
       "id": "jewel",
       "label": "Ring (jewellery)",
       "revealHint": "Jewellery",
-      "items": ["Band", "Signet", "Engagement", "Eternity"]
+      "items": [
+        "Band",
+        "Signet",
+        "Engagement",
+        "Eternity"
+      ]
     },
     {
       "id": "sound",
       "label": "Ring (sound)",
       "revealHint": "Sound",
-      "items": ["Chime", "Toll", "Peal", "Knell"]
+      "items": [
+        "Chime",
+        "Toll",
+        "Peal",
+        "Knell"
+      ]
     },
     {
       "id": "circus",
       "label": "Ring (circus)",
       "revealHint": "Circus",
-      "items": ["Ringmaster", "Trapeze", "Tightrope", "Acrobat"]
+      "items": [
+        "Ringmaster",
+        "Trapeze",
+        "Tightrope",
+        "Acrobat"
+      ]
     },
     {
       "id": "boxing",
       "label": "Ring (boxing)",
       "revealHint": "Boxing",
-      "items": ["Corner", "Round", "Knockout", "Referee"]
+      "items": [
+        "Corner",
+        "Round",
+        "Knockout",
+        "Referee"
+      ]
     }
   ]
 }

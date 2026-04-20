@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Персонажи Библии",
-    "batch": "ru-batch-12"
+    "batch": "ru-batch-12",
+    "difficultyScore": 15
   },
   "groups": [
     {

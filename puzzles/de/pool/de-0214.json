@@ -2,11 +2,51 @@
   "id": "de-0214",
   "title": "Deutsche Mittelgebirge",
   "difficulty": "easy",
-  "meta": { "theme": "mittelgebirge", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "mittelgebirge",
+    "batch": "de-batch-03",
+    "difficultyScore": 25
+  },
   "groups": [
-    { "id": "group_a", "label": "Schwarzwald", "items": ["Feldberg", "Titisee", "Triberg", "Bollenhut"] },
-    { "id": "group_b", "label": "Harz", "items": ["Brocken", "Hexentanzplatz", "Quedlinburg", "Wernigerode"] },
-    { "id": "group_c", "label": "Erzgebirge", "items": ["Fichtelberg", "Räuchermann", "Erzbergbau", "Schneeberg"] },
-    { "id": "group_d", "label": "Rhön", "items": ["Wasserkuppe", "Segelfliegen", "Biosphärenreservat", "Milseburg"] }
+    {
+      "id": "group_a",
+      "label": "Schwarzwald",
+      "items": [
+        "Feldberg",
+        "Titisee",
+        "Triberg",
+        "Bollenhut"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Harz",
+      "items": [
+        "Brocken",
+        "Hexentanzplatz",
+        "Quedlinburg",
+        "Wernigerode"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Erzgebirge",
+      "items": [
+        "Fichtelberg",
+        "Räuchermann",
+        "Erzbergbau",
+        "Schneeberg"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Rhön",
+      "items": [
+        "Wasserkuppe",
+        "Segelfliegen",
+        "Biosphärenreservat",
+        "Milseburg"
+      ]
+    }
   ]
 }

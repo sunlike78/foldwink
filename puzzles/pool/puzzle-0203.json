@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "wealthy",
       "label": "Rich (wealthy)",
       "revealHint": "Money",
-      "items": ["Affluent", "Opulent", "Tycoon", "Millionaire"]
+      "items": [
+        "Affluent",
+        "Opulent",
+        "Tycoon",
+        "Millionaire"
+      ]
     },
     {
       "id": "flavourful",
       "label": "Rich (flavour)",
       "revealHint": "Taste",
-      "items": ["Buttery", "Creamy", "Decadent", "Indulgent"]
+      "items": [
+        "Buttery",
+        "Creamy",
+        "Decadent",
+        "Indulgent"
+      ]
     },
     {
       "id": "abundant",
       "label": "Rich (abundant)",
       "revealHint": "Plenty",
-      "items": ["Lush", "Bountiful", "Teeming", "Fertile"]
+      "items": [
+        "Lush",
+        "Bountiful",
+        "Teeming",
+        "Fertile"
+      ]
     },
     {
       "id": "deep",
       "label": "Rich (deep tone)",
       "revealHint": "Hue",
-      "items": ["Saturated", "Vivid", "Deep Red", "Jewel Tone"]
+      "items": [
+        "Saturated",
+        "Vivid",
+        "Deep Red",
+        "Jewel Tone"
+      ]
     }
   ]
 }

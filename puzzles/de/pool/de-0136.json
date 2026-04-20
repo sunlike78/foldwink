@@ -2,11 +2,51 @@
   "id": "de-0136",
   "title": "Klettern",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "group_a", "label": "Kletterarten", "items": ["Sportklettern", "Bouldern", "Alpinklettern", "Toprope"] },
-    { "id": "group_b", "label": "Ausrüstung", "items": ["Kletterschuhe", "Seil", "Sicherungsgerät", "Gurt"] },
-    { "id": "group_c", "label": "Klettertermini", "items": ["Route", "Griff", "Tritt", "Crux"] },
-    { "id": "group_d", "label": "Klettergebiete", "items": ["Frankenjura", "Elbsandstein", "Berchtesgaden", "Pfalz"] }
+    {
+      "id": "group_a",
+      "label": "Kletterarten",
+      "items": [
+        "Sportklettern",
+        "Bouldern",
+        "Alpinklettern",
+        "Toprope"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ausrüstung",
+      "items": [
+        "Kletterschuhe",
+        "Seil",
+        "Sicherungsgerät",
+        "Gurt"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Klettertermini",
+      "items": [
+        "Route",
+        "Griff",
+        "Tritt",
+        "Crux"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Klettergebiete",
+      "items": [
+        "Frankenjura",
+        "Elbsandstein",
+        "Berchtesgaden",
+        "Pfalz"
+      ]
+    }
   ]
 }

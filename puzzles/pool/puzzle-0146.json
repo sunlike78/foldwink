@@ -6,24 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "berry",
       "label": "Berries",
-      "items": ["Blueberry", "Raspberry", "Blackberry", "Cranberry"]
+      "items": [
+        "Blueberry",
+        "Raspberry",
+        "Blackberry",
+        "Cranberry"
+      ]
     },
     {
       "id": "citrus",
       "label": "Citrus Fruits",
-      "items": ["Grapefruit", "Lime", "Tangerine", "Kumquat"]
+      "items": [
+        "Grapefruit",
+        "Lime",
+        "Tangerine",
+        "Kumquat"
+      ]
     },
     {
       "id": "tropical",
       "label": "Tropical Fruits",
-      "items": ["Mango", "Papaya", "Guava", "Passion Fruit"]
+      "items": [
+        "Mango",
+        "Papaya",
+        "Guava",
+        "Passion Fruit"
+      ]
     },
-    { "id": "stone", "label": "Stone Fruits", "items": ["Peach", "Plum", "Cherry", "Apricot"] }
+    {
+      "id": "stone",
+      "label": "Stone Fruits",
+      "items": [
+        "Peach",
+        "Plum",
+        "Cherry",
+        "Apricot"
+      ]
+    }
   ]
 }

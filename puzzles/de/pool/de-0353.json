@@ -2,31 +2,55 @@
   "id": "de-0353",
   "title": "Filmfestivals",
   "difficulty": "medium",
-  "meta": { "theme": "Filmfestivals", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Filmfestivals",
+    "batch": "de-batch-04",
+    "difficultyScore": 47
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Berlinale-Begriffe",
       "revealHint": "Berlin im Februar",
-      "items": ["Goldener Bär", "Silberner Bär", "Wettbewerb", "Panorama"]
+      "items": [
+        "Goldener Bär",
+        "Silberner Bär",
+        "Wettbewerb",
+        "Panorama"
+      ]
     },
     {
       "id": "group_b",
       "label": "Cannes-Begriffe",
       "revealHint": "Frankreich im Mai",
-      "items": ["Palme d'Or", "Grand Prix", "Un Certain Regard", "Croisette"]
+      "items": [
+        "Palme d'Or",
+        "Grand Prix",
+        "Un Certain Regard",
+        "Croisette"
+      ]
     },
     {
       "id": "group_c",
       "label": "Venedig-Begriffe",
       "revealHint": "Italien im Herbst",
-      "items": ["Goldener Löwe", "Silberner Löwe", "Orizzonti", "Lido"]
+      "items": [
+        "Goldener Löwe",
+        "Silberner Löwe",
+        "Orizzonti",
+        "Lido"
+      ]
     },
     {
       "id": "group_d",
       "label": "Oscar-Begriffe",
       "revealHint": "Hollywood-Gala",
-      "items": ["Akademie", "Statuette", "Bester Film", "Ehrenoscar"]
+      "items": [
+        "Akademie",
+        "Statuette",
+        "Bester Film",
+        "Ehrenoscar"
+      ]
     }
   ]
 }

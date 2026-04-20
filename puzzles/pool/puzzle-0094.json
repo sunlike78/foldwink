@@ -8,25 +8,48 @@
       "id": "igneous-intrusive",
       "label": "Intrusive Igneous",
       "revealHint": "MAGMA",
-      "items": ["Granite", "Diorite", "Gabbro", "Peridotite"]
+      "items": [
+        "Granite",
+        "Diorite",
+        "Gabbro",
+        "Peridotite"
+      ]
     },
     {
       "id": "igneous-extrusive",
       "label": "Extrusive Igneous",
       "revealHint": "LAVA",
-      "items": ["Basalt", "Rhyolite", "Obsidian", "Tuff"]
+      "items": [
+        "Basalt",
+        "Rhyolite",
+        "Obsidian",
+        "Tuff"
+      ]
     },
     {
       "id": "sedimentary-detrital",
       "label": "Clastic Sedimentary",
       "revealHint": "GRAIN",
-      "items": ["Sandstone", "Shale", "Siltstone", "Conglomerate"]
+      "items": [
+        "Sandstone",
+        "Shale",
+        "Siltstone",
+        "Conglomerate"
+      ]
     },
     {
       "id": "metamorphic",
       "label": "Metamorphic",
       "revealHint": "HEAT",
-      "items": ["Marble", "Slate", "Gneiss", "Quartzite"]
+      "items": [
+        "Marble",
+        "Slate",
+        "Gneiss",
+        "Quartzite"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 30
+  }
 }

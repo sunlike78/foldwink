@@ -2,11 +2,55 @@
   "id": "de-0472",
   "title": "Vogelzug",
   "difficulty": "medium",
-  "meta": { "theme": "natur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "natur",
+    "batch": "de-batch-05",
+    "difficultyScore": 41
+  },
   "groups": [
-    { "id": "group_a", "label": "Vogelzug-Routen", "revealHint": "Große Flugwege", "items": ["Ostatlantischer Zug", "Westatlant. Zug", "Zentralasiat. Zug", "Mittelmeer-Route"] },
-    { "id": "group_b", "label": "Typische Zugvögel", "revealHint": "Saisonale Wanderer", "items": ["Weißstorch", "Schwalbe", "Kuckuck", "Wachtel"] },
-    { "id": "group_c", "label": "Navigations-Methoden", "revealHint": "Vogelnavigation", "items": ["Magnetfeld", "Sternenorientierung", "Sonne als Kompass", "Geruchssinn"] },
-    { "id": "group_d", "label": "Gefahren auf dem Zug", "revealHint": "Bedrohungen", "items": ["Glasscheiben", "Leuchtturm", "Stromleitungen", "Fangnetze"] }
+    {
+      "id": "group_a",
+      "label": "Vogelzug-Routen",
+      "revealHint": "Große Flugwege",
+      "items": [
+        "Ostatlantischer Zug",
+        "Westatlant. Zug",
+        "Zentralasiat. Zug",
+        "Mittelmeer-Route"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Typische Zugvögel",
+      "revealHint": "Saisonale Wanderer",
+      "items": [
+        "Weißstorch",
+        "Schwalbe",
+        "Kuckuck",
+        "Wachtel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Navigations-Methoden",
+      "revealHint": "Vogelnavigation",
+      "items": [
+        "Magnetfeld",
+        "Sternenorientierung",
+        "Sonne als Kompass",
+        "Geruchssinn"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Gefahren auf dem Zug",
+      "revealHint": "Bedrohungen",
+      "items": [
+        "Glasscheiben",
+        "Leuchtturm",
+        "Stromleitungen",
+        "Fangnetze"
+      ]
+    }
   ]
 }

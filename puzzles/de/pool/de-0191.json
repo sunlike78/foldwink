@@ -2,11 +2,51 @@
   "id": "de-0191",
   "title": "Chemie im Alltag",
   "difficulty": "easy",
-  "meta": { "theme": "Wissenschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Wissenschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "group_a", "label": "Reinigungsmittel", "items": ["Seife", "Waschmittel", "Essig", "Natron"] },
-    { "id": "group_b", "label": "Lebensmittelchemie", "items": ["Konservierungsstoff", "Farbstoff", "Emulgator", "Süßstoff"] },
-    { "id": "group_c", "label": "Gesundheitschemie", "items": ["Aspirin", "Antibiotika", "Impfstoff", "Vitamin C"] },
-    { "id": "group_d", "label": "Baumaterialien", "items": ["Zement", "Beton", "Gips", "Silikonfuge"] }
+    {
+      "id": "group_a",
+      "label": "Reinigungsmittel",
+      "items": [
+        "Seife",
+        "Waschmittel",
+        "Essig",
+        "Natron"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Lebensmittelchemie",
+      "items": [
+        "Konservierungsstoff",
+        "Farbstoff",
+        "Emulgator",
+        "Süßstoff"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Gesundheitschemie",
+      "items": [
+        "Aspirin",
+        "Antibiotika",
+        "Impfstoff",
+        "Vitamin C"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Baumaterialien",
+      "items": [
+        "Zement",
+        "Beton",
+        "Gips",
+        "Silikonfuge"
+      ]
+    }
   ]
 }

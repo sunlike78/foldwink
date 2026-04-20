@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "furniture",
       "label": "Table (furniture)",
       "revealHint": "Furniture",
-      "items": ["Dining", "Coffee Table", "Console", "Nightstand"]
+      "items": [
+        "Dining",
+        "Coffee Table",
+        "Console",
+        "Nightstand"
+      ]
     },
     {
       "id": "data",
       "label": "Table (data)",
       "revealHint": "Data",
-      "items": ["Row", "Column", "Cell", "Header"]
+      "items": [
+        "Row",
+        "Column",
+        "Cell",
+        "Header"
+      ]
     },
     {
       "id": "negotiate",
       "label": "Table (discuss)",
       "revealHint": "Discuss",
-      "items": ["Agenda", "Motion", "Defer", "Amend"]
+      "items": [
+        "Agenda",
+        "Motion",
+        "Defer",
+        "Amend"
+      ]
     },
     {
       "id": "geology",
       "label": "Table (geology)",
       "revealHint": "Geology",
-      "items": ["Mesa", "Plateau", "Butte", "Tableland"]
+      "items": [
+        "Mesa",
+        "Plateau",
+        "Butte",
+        "Tableland"
+      ]
     }
   ]
 }

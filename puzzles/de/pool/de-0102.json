@@ -2,11 +2,51 @@
   "id": "de-0102",
   "title": "Tierwelt Australiens",
   "difficulty": "easy",
-  "meta": { "theme": "Tiere", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Tiere",
+    "batch": "de-batch-02",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "group_a", "label": "Beuteltiere", "items": ["Känguru", "Koala", "Wombat", "Tasmanischer Teufel"] },
-    { "id": "group_b", "label": "Vögel", "items": ["Emu", "Kakadu", "Lachkookaburra", "Lyravogel"] },
-    { "id": "group_c", "label": "Reptilien", "items": ["Dornteufel", "Taipan", "Salzwasserkrokodil", "Blauzungenskink"] },
-    { "id": "group_d", "label": "Meerestiere", "items": ["Dugong", "Weißer Hai", "Manta", "Buckelwal"] }
+    {
+      "id": "group_a",
+      "label": "Beuteltiere",
+      "items": [
+        "Känguru",
+        "Koala",
+        "Wombat",
+        "Tasmanischer Teufel"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Vögel",
+      "items": [
+        "Emu",
+        "Kakadu",
+        "Lachkookaburra",
+        "Lyravogel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Reptilien",
+      "items": [
+        "Dornteufel",
+        "Taipan",
+        "Salzwasserkrokodil",
+        "Blauzungenskink"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Meerestiere",
+      "items": [
+        "Dugong",
+        "Weißer Hai",
+        "Manta",
+        "Buckelwal"
+      ]
+    }
   ]
 }

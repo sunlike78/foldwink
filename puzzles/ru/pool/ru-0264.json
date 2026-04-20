@@ -2,11 +2,55 @@
   "id": "ru-0264",
   "title": "Интернет-технологии",
   "difficulty": "medium",
-  "meta": { "theme": "Технологии и протоколы интернета", "batch": "ru-batch-10" },
+  "meta": {
+    "theme": "Технологии и протоколы интернета",
+    "batch": "ru-batch-10",
+    "difficultyScore": 11
+  },
   "groups": [
-    { "id": "web_protocols", "label": "Протоколы", "revealHint": "ПРОТОКОЛЫ", "items": ["HTTP", "HTTPS", "TCP/IP", "DNS"] },
-    { "id": "web_tech", "label": "Веб-технологии", "revealHint": "ВЕБ", "items": ["HTML", "CSS", "JavaScript", "REST API"] },
-    { "id": "db_types", "label": "Базы данных", "revealHint": "БАЗЫ ДАННЫХ", "items": ["SQL", "NoSQL", "Redis", "MongoDB"] },
-    { "id": "cloud_services", "label": "Облачные сервисы", "revealHint": "ОБЛАКО", "items": ["AWS", "Azure", "Google Cloud", "Yandex Cloud"] }
+    {
+      "id": "web_protocols",
+      "label": "Протоколы",
+      "revealHint": "ПРОТОКОЛЫ",
+      "items": [
+        "HTTP",
+        "HTTPS",
+        "TCP/IP",
+        "DNS"
+      ]
+    },
+    {
+      "id": "web_tech",
+      "label": "Веб-технологии",
+      "revealHint": "ВЕБ",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "REST API"
+      ]
+    },
+    {
+      "id": "db_types",
+      "label": "Базы данных",
+      "revealHint": "БАЗЫ ДАННЫХ",
+      "items": [
+        "SQL",
+        "NoSQL",
+        "Redis",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "cloud_services",
+      "label": "Облачные сервисы",
+      "revealHint": "ОБЛАКО",
+      "items": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Yandex Cloud"
+      ]
+    }
   ]
 }

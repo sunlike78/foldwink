@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 2,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 35
   },
   "groups": [
     {
       "id": "law",
       "label": "Legal terms",
       "revealHint": "Legal",
-      "items": ["Statute", "Precedent", "Injunction", "Deposition"]
+      "items": [
+        "Statute",
+        "Precedent",
+        "Injunction",
+        "Deposition"
+      ]
     },
     {
       "id": "medicine",
       "label": "Medical terms",
       "revealHint": "Medical",
-      "items": ["Diagnosis", "Prognosis", "Symptom", "Prescription"]
+      "items": [
+        "Diagnosis",
+        "Prognosis",
+        "Symptom",
+        "Prescription"
+      ]
     },
     {
       "id": "architecture",
       "label": "Architectural terms",
       "revealHint": "Architect",
-      "items": ["Cornice", "Balustrade", "Parapet", "Pediment"]
+      "items": [
+        "Cornice",
+        "Balustrade",
+        "Parapet",
+        "Pediment"
+      ]
     },
     {
       "id": "music",
       "label": "Musical terms",
       "revealHint": "Musical",
-      "items": ["Crescendo", "Staccato", "Legato", "Fortissimo"]
+      "items": [
+        "Crescendo",
+        "Staccato",
+        "Legato",
+        "Fortissimo"
+      ]
     }
   ]
 }

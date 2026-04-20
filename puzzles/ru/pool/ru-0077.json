@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Химические элементы",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 18
   },
   "groups": [
     {

@@ -2,11 +2,51 @@
   "id": "de-0008",
   "title": "Musikinstrumente",
   "difficulty": "easy",
-  "meta": { "theme": "Musikinstrumente", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Musikinstrumente",
+    "batch": "de-batch-01",
+    "difficultyScore": 15
+  },
   "groups": [
-    { "id": "group_a", "label": "Streichinstrumente", "items": ["Geige", "Cello", "Bratsche", "Kontrabass"] },
-    { "id": "group_b", "label": "Blasinstrumente", "items": ["Trompete", "Klarinette", "Flöte", "Oboe"] },
-    { "id": "group_c", "label": "Schlaginstrumente", "items": ["Trommel", "Pauke", "Becken", "Xylophon"] },
-    { "id": "group_d", "label": "Tasteninstrumente", "items": ["Klavier", "Orgel", "Akkordeon", "Cembalo"] }
+    {
+      "id": "group_a",
+      "label": "Streichinstrumente",
+      "items": [
+        "Geige",
+        "Cello",
+        "Bratsche",
+        "Kontrabass"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Blasinstrumente",
+      "items": [
+        "Trompete",
+        "Klarinette",
+        "Flöte",
+        "Oboe"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Schlaginstrumente",
+      "items": [
+        "Trommel",
+        "Pauke",
+        "Becken",
+        "Xylophon"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Tasteninstrumente",
+      "items": [
+        "Klavier",
+        "Orgel",
+        "Akkordeon",
+        "Cembalo"
+      ]
+    }
   ]
 }

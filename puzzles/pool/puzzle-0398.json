@@ -3,11 +3,57 @@
   "title": "Classical Orders",
   "difficulty": "medium",
   "editorialSummary": "Classical architecture terminology by category. False trail: Capital (top of a column) could seem like part of the five orders — it is a column decoration element. Entasis sounds decorative but is a proportional correction curve.",
-  "meta": { "theme": "architecture", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 38
+  },
   "groups": [
-    { "id": "g1", "label": "THE FIVE CLASSICAL ORDERS", "revealHint": "Orders", "items": ["Doric", "Ionic", "Corinthian", "Tuscan"] },
-    { "id": "g2", "label": "STRUCTURAL ELEMENTS", "revealHint": "Structure", "items": ["Architrave", "Frieze", "Cornice", "Stylobate"] },
-    { "id": "g3", "label": "COLUMN DECORATION", "revealHint": "Column", "items": ["Volute", "Acanthus", "Fluting", "Capital"] },
-    { "id": "g4", "label": "PROPORTION TERMS", "revealHint": "Proportion", "items": ["Entasis", "Module", "Intercolumniation", "Pediment"] }
+    {
+      "id": "g1",
+      "label": "THE FIVE CLASSICAL ORDERS",
+      "revealHint": "Orders",
+      "items": [
+        "Doric",
+        "Ionic",
+        "Corinthian",
+        "Tuscan"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "STRUCTURAL ELEMENTS",
+      "revealHint": "Structure",
+      "items": [
+        "Architrave",
+        "Frieze",
+        "Cornice",
+        "Stylobate"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "COLUMN DECORATION",
+      "revealHint": "Column",
+      "items": [
+        "Volute",
+        "Acanthus",
+        "Fluting",
+        "Capital"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PROPORTION TERMS",
+      "revealHint": "Proportion",
+      "items": [
+        "Entasis",
+        "Module",
+        "Intercolumniation",
+        "Pediment"
+      ]
+    }
   ]
 }

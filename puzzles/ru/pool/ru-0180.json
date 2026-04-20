@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Праздники по сезону",
-    "batch": "ru-batch-05"
+    "batch": "ru-batch-05",
+    "difficultyScore": 35
   },
   "groups": [
     {

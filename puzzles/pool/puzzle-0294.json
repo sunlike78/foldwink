@@ -7,32 +7,53 @@
     "theme": "cinema",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "g1",
       "label": "Best Picture Winners: 1970s",
       "revealHint": "Seventies",
-      "items": ["The Godfather", "Annie Hall", "Kramer vs. Kramer", "One Flew Over the Cuckoo's Nest"]
+      "items": [
+        "The Godfather",
+        "Annie Hall",
+        "Kramer vs. Kramer",
+        "One Flew Over the Cuckoo's Nest"
+      ]
     },
     {
       "id": "g2",
       "label": "Best Picture Winners: 1980s",
       "revealHint": "Eighties",
-      "items": ["Platoon", "Rain Man", "Amadeus", "Out of Africa"]
+      "items": [
+        "Platoon",
+        "Rain Man",
+        "Amadeus",
+        "Out of Africa"
+      ]
     },
     {
       "id": "g3",
       "label": "Best Picture Winners: 1990s",
       "revealHint": "Nineties",
-      "items": ["Schindler's List", "Braveheart", "Forrest Gump", "The Silence of the Lambs"]
+      "items": [
+        "Schindler's List",
+        "Braveheart",
+        "Forrest Gump",
+        "The Silence of the Lambs"
+      ]
     },
     {
       "id": "g4",
       "label": "Best Picture Winners: 2000s",
       "revealHint": "Noughties",
-      "items": ["Chicago", "A Beautiful Mind", "No Country for Old Men", "The Departed"]
+      "items": [
+        "Chicago",
+        "A Beautiful Mind",
+        "No Country for Old Men",
+        "The Departed"
+      ]
     }
   ]
 }

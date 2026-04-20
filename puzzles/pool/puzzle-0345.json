@@ -7,34 +7,55 @@
     "theme": "social-science",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "g1",
       "label": "Sociological Concepts",
-      "items": ["Social Mobility", "Social Norm", "Social Capital", "Social Stratification"],
+      "items": [
+        "Social Mobility",
+        "Social Norm",
+        "Social Capital",
+        "Social Stratification"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Economic Systems",
-      "items": ["Capitalism", "Socialism", "Mixed Economy", "Command Economy"],
+      "items": [
+        "Capitalism",
+        "Socialism",
+        "Mixed Economy",
+        "Command Economy"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Government Types",
-      "items": ["Democracy", "Oligarchy", "Theocracy", "Technocracy"],
+      "items": [
+        "Democracy",
+        "Oligarchy",
+        "Theocracy",
+        "Technocracy"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Cultural Anthropology Terms",
-      "items": ["Kinship", "Totem", "Ritual Taboo", "Rite of Passage"],
+      "items": [
+        "Kinship",
+        "Totem",
+        "Ritual Taboo",
+        "Rite of Passage"
+      ],
       "color": "purple",
       "revealHint": ""
     }

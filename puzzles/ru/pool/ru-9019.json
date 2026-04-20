@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Черты характера через пословицы",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 35
   },
   "groups": [
     {

@@ -6,28 +6,49 @@
     "theme": "household",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "bedding",
       "label": "Bed Linens",
-      "items": ["Fitted Sheet", "Duvet", "Pillow Case", "Blanket"]
+      "items": [
+        "Fitted Sheet",
+        "Duvet",
+        "Pillow Case",
+        "Blanket"
+      ]
     },
     {
       "id": "bedroom",
       "label": "Bedroom Furniture",
-      "items": ["Headboard", "Nightstand", "Dresser", "Wardrobe"]
+      "items": [
+        "Headboard",
+        "Nightstand",
+        "Dresser",
+        "Wardrobe"
+      ]
     },
     {
       "id": "morning",
       "label": "Morning Routine",
-      "items": ["Alarm Clock", "Slippers", "Robe", "Toothbrush"]
+      "items": [
+        "Alarm Clock",
+        "Slippers",
+        "Robe",
+        "Toothbrush"
+      ]
     },
     {
       "id": "breakfast",
       "label": "Breakfast Table",
-      "items": ["Toast Rack", "Jam Jar", "Teapot", "Napkin"]
+      "items": [
+        "Toast Rack",
+        "Jam Jar",
+        "Teapot",
+        "Napkin"
+      ]
     }
   ]
 }

@@ -7,32 +7,53 @@
     "theme": "medical",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "cardio",
       "label": "Cardiovascular System",
       "revealHint": "Heart",
-      "items": ["Artery", "Vein", "Aorta", "Capillary"]
+      "items": [
+        "Artery",
+        "Vein",
+        "Aorta",
+        "Capillary"
+      ]
     },
     {
       "id": "digestive",
       "label": "Digestive System",
       "revealHint": "Gut",
-      "items": ["Stomach", "Liver", "Intestine", "Pancreas"]
+      "items": [
+        "Stomach",
+        "Liver",
+        "Intestine",
+        "Pancreas"
+      ]
     },
     {
       "id": "respiratory",
       "label": "Respiratory System",
       "revealHint": "Lungs",
-      "items": ["Trachea", "Bronchi", "Alveoli", "Diaphragm"]
+      "items": [
+        "Trachea",
+        "Bronchi",
+        "Alveoli",
+        "Diaphragm"
+      ]
     },
     {
       "id": "nervous",
       "label": "Nervous System",
       "revealHint": "Brain",
-      "items": ["Neuron", "Spinal Cord", "Synapse", "Cerebellum"]
+      "items": [
+        "Neuron",
+        "Spinal Cord",
+        "Synapse",
+        "Cerebellum"
+      ]
     }
   ]
 }

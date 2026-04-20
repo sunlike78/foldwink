@@ -2,11 +2,51 @@
   "id": "de-0116",
   "title": "Sport und Fitness",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 28
+  },
   "groups": [
-    { "id": "group_a", "label": "Geräte", "items": ["Hanteln", "Springseil", "Kettlebell", "Widerstandsband"] },
-    { "id": "group_b", "label": "Übungen", "items": ["Liegestütz", "Kniebeugen", "Ausfallschritte", "Plank"] },
-    { "id": "group_c", "label": "Ernährung", "items": ["Proteinshake", "Riegel", "Banane", "Haferflocken"] },
-    { "id": "group_d", "label": "Begriffe", "items": ["Wiederholung", "Satz", "Pause", "Supersatz"] }
+    {
+      "id": "group_a",
+      "label": "Geräte",
+      "items": [
+        "Hanteln",
+        "Springseil",
+        "Kettlebell",
+        "Widerstandsband"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Übungen",
+      "items": [
+        "Liegestütz",
+        "Kniebeugen",
+        "Ausfallschritte",
+        "Plank"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Ernährung",
+      "items": [
+        "Proteinshake",
+        "Riegel",
+        "Banane",
+        "Haferflocken"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Begriffe",
+      "items": [
+        "Wiederholung",
+        "Satz",
+        "Pause",
+        "Supersatz"
+      ]
+    }
   ]
 }

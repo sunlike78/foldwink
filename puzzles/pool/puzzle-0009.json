@@ -2,27 +2,52 @@
   "id": "puzzle-0009",
   "title": "Calendar and Mood",
   "difficulty": "easy",
-  "tags": ["general"],
+  "tags": [
+    "general"
+  ],
   "groups": [
     {
       "id": "days",
       "label": "Days",
-      "items": ["Monday", "Tuesday", "Friday", "Sunday"]
+      "items": [
+        "Monday",
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ]
     },
     {
       "id": "months",
       "label": "Months",
-      "items": ["January", "March", "July", "October"]
+      "items": [
+        "January",
+        "March",
+        "July",
+        "October"
+      ]
     },
     {
       "id": "emotions",
       "label": "Emotions",
-      "items": ["Joy", "Anger", "Fear", "Sadness"]
+      "items": [
+        "Joy",
+        "Anger",
+        "Fear",
+        "Sadness"
+      ]
     },
     {
       "id": "handtools",
       "label": "Hand Tools",
-      "items": ["Hammer", "Saw", "Wrench", "Drill"]
+      "items": [
+        "Hammer",
+        "Saw",
+        "Wrench",
+        "Drill"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 12
+  }
 }

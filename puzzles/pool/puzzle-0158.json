@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "thematic",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "illumin",
       "label": "Light (illumination)",
       "revealHint": "Illumin",
-      "items": ["Lantern", "Candle", "Torch", "Chandelier"]
+      "items": [
+        "Lantern",
+        "Candle",
+        "Torch",
+        "Chandelier"
+      ]
     },
     {
       "id": "weight",
       "label": "Light (weight)",
       "revealHint": "Weight",
-      "items": ["Feather", "Helium", "Gossamer", "Wisp"]
+      "items": [
+        "Feather",
+        "Helium",
+        "Gossamer",
+        "Wisp"
+      ]
     },
     {
       "id": "mood",
       "label": "Lighthearted",
       "revealHint": "Mood",
-      "items": ["Cheerful", "Breezy", "Playful", "Whimsical"]
+      "items": [
+        "Cheerful",
+        "Breezy",
+        "Playful",
+        "Whimsical"
+      ]
     },
     {
       "id": "beer",
       "label": "Light beer",
       "revealHint": "Beer",
-      "items": ["Lager", "Pilsner", "Pale Ale", "Session"]
+      "items": [
+        "Lager",
+        "Pilsner",
+        "Pale Ale",
+        "Session"
+      ]
     }
   ]
 }

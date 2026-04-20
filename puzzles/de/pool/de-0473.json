@@ -2,11 +2,55 @@
   "id": "de-0473",
   "title": "Insektensterben",
   "difficulty": "medium",
-  "meta": { "theme": "natur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "natur",
+    "batch": "de-batch-05",
+    "difficultyScore": 40
+  },
   "groups": [
-    { "id": "group_a", "label": "Ursachen", "revealHint": "Warum es passiert", "items": ["Pestizide", "Lebensraumverlust", "Lichtverschmutzung", "Klimawandel"] },
-    { "id": "group_b", "label": "Folgen", "revealHint": "Was es bedeutet", "items": ["Bestäubungsausfall", "Nahrungsmangel Vögel", "Ernteverluste", "Ökosystemkollaps"] },
-    { "id": "group_c", "label": "Lösungsansätze", "revealHint": "Was hilft", "items": ["Blühstreifen", "Pestizidreduktion", "Naturschutzflächen", "Insektenhotel"] },
-    { "id": "group_d", "label": "Schlüsselinsekten", "revealHint": "Besonders wichtig", "items": ["Honigbiene", "Wildbiene", "Hummel", "Schmetterlinge"] }
+    {
+      "id": "group_a",
+      "label": "Ursachen",
+      "revealHint": "Warum es passiert",
+      "items": [
+        "Pestizide",
+        "Lebensraumverlust",
+        "Lichtverschmutzung",
+        "Klimawandel"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Folgen",
+      "revealHint": "Was es bedeutet",
+      "items": [
+        "Bestäubungsausfall",
+        "Nahrungsmangel Vögel",
+        "Ernteverluste",
+        "Ökosystemkollaps"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Lösungsansätze",
+      "revealHint": "Was hilft",
+      "items": [
+        "Blühstreifen",
+        "Pestizidreduktion",
+        "Naturschutzflächen",
+        "Insektenhotel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Schlüsselinsekten",
+      "revealHint": "Besonders wichtig",
+      "items": [
+        "Honigbiene",
+        "Wildbiene",
+        "Hummel",
+        "Schmetterlinge"
+      ]
+    }
   ]
 }

@@ -7,34 +7,55 @@
     "theme": "mathematics",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 51
   },
   "groups": [
     {
       "id": "g1",
       "label": "Types of Numbers",
-      "items": ["Prime", "Composite", "Imaginary", "Perfect Number"],
+      "items": [
+        "Prime",
+        "Composite",
+        "Imaginary",
+        "Perfect Number"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Famous Mathematical Constants",
-      "items": ["Pi", "Euler's Number", "Golden Ratio", "Square Root of Two"],
+      "items": [
+        "Pi",
+        "Euler's Number",
+        "Golden Ratio",
+        "Square Root of Two"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Branches of Mathematics",
-      "items": ["Topology", "Number Theory", "Calculus", "Linear Algebra"],
+      "items": [
+        "Topology",
+        "Number Theory",
+        "Calculus",
+        "Linear Algebra"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Mathematical Proof Types",
-      "items": ["Induction", "Contradiction", "Exhaustion", "Construction"],
+      "items": [
+        "Induction",
+        "Contradiction",
+        "Exhaustion",
+        "Construction"
+      ],
       "color": "purple",
       "revealHint": ""
     }

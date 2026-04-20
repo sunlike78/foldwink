@@ -2,11 +2,55 @@
   "id": "de-0434",
   "title": "DDR-Begriffe",
   "difficulty": "medium",
-  "meta": { "theme": "ddr", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "ddr",
+    "batch": "de-batch-05",
+    "difficultyScore": 7
+  },
   "groups": [
-    { "id": "group_a", "label": "DDR-Alltagsgegenstände", "revealHint": "Ostalgie", "items": ["Trabi", "Plaste", "Sandmännchen", "Dederon"] },
-    { "id": "group_b", "label": "DDR-Institutionen", "revealHint": "Staat und Partei", "items": ["SED", "Stasi", "Volkspolizei", "Volkskammer"] },
-    { "id": "group_c", "label": "DDR-Personen", "revealHint": "Führungsfiguren", "items": ["Ulbricht", "Honecker", "Mielke", "Modrow"] },
-    { "id": "group_d", "label": "DDR-Abkürzungen", "revealHint": "Systemsprache", "items": ["MfS", "NVA", "LPG", "HO"] }
+    {
+      "id": "group_a",
+      "label": "DDR-Alltagsgegenstände",
+      "revealHint": "Ostalgie",
+      "items": [
+        "Trabi",
+        "Plaste",
+        "Sandmännchen",
+        "Dederon"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "DDR-Institutionen",
+      "revealHint": "Staat und Partei",
+      "items": [
+        "SED",
+        "Stasi",
+        "Volkspolizei",
+        "Volkskammer"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "DDR-Personen",
+      "revealHint": "Führungsfiguren",
+      "items": [
+        "Ulbricht",
+        "Honecker",
+        "Mielke",
+        "Modrow"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "DDR-Abkürzungen",
+      "revealHint": "Systemsprache",
+      "items": [
+        "MfS",
+        "NVA",
+        "LPG",
+        "HO"
+      ]
+    }
   ]
 }

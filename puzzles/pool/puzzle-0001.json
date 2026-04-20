@@ -2,27 +2,52 @@
   "id": "puzzle-0001",
   "title": "Starter Pack",
   "difficulty": "easy",
-  "tags": ["general"],
+  "tags": [
+    "general"
+  ],
   "groups": [
     {
       "id": "planets",
       "label": "Planets",
-      "items": ["Mars", "Venus", "Earth", "Jupiter"]
+      "items": [
+        "Mars",
+        "Venus",
+        "Earth",
+        "Jupiter"
+      ]
     },
     {
       "id": "colors",
       "label": "Colors",
-      "items": ["Red", "Blue", "Green", "Yellow"]
+      "items": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ]
     },
     {
       "id": "pets",
       "label": "Pets",
-      "items": ["Dog", "Cat", "Hamster", "Rabbit"]
+      "items": [
+        "Dog",
+        "Cat",
+        "Hamster",
+        "Rabbit"
+      ]
     },
     {
       "id": "sports",
       "label": "Sports",
-      "items": ["Tennis", "Boxing", "Football", "Golf"]
+      "items": [
+        "Tennis",
+        "Boxing",
+        "Football",
+        "Golf"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 11
+  }
 }

@@ -6,28 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "soft",
       "label": "Soft Cheeses",
-      "items": ["Brie", "Camembert", "Ricotta", "Mozzarella"]
+      "items": [
+        "Brie",
+        "Camembert",
+        "Ricotta",
+        "Mozzarella"
+      ]
     },
     {
       "id": "hard",
       "label": "Hard Cheeses",
-      "items": ["Parmesan", "Gruyere", "Manchego", "Cheddar"]
+      "items": [
+        "Parmesan",
+        "Gruyere",
+        "Manchego",
+        "Cheddar"
+      ]
     },
     {
       "id": "blue",
       "label": "Blue Cheeses",
-      "items": ["Roquefort", "Gorgonzola", "Stilton", "Danish Blue"]
+      "items": [
+        "Roquefort",
+        "Gorgonzola",
+        "Stilton",
+        "Danish Blue"
+      ]
     },
     {
       "id": "fresh",
       "label": "Fresh Cheeses",
-      "items": ["Feta", "Cottage", "Queso Fresco", "Paneer"]
+      "items": [
+        "Feta",
+        "Cottage",
+        "Queso Fresco",
+        "Paneer"
+      ]
     }
   ]
 }

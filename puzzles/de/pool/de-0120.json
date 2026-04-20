@@ -2,11 +2,51 @@
   "id": "de-0120",
   "title": "Kartenspiele",
   "difficulty": "easy",
-  "meta": { "theme": "Spiele", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Spiele",
+    "batch": "de-batch-02",
+    "difficultyScore": 12
+  },
   "groups": [
-    { "id": "group_a", "label": "Deutsche Kartenspiele", "items": ["Skat", "Doppelkopf", "Schnapsen", "Watten"] },
-    { "id": "group_b", "label": "Internationale Spiele", "items": ["Poker", "Blackjack", "Bridge", "Canasta"] },
-    { "id": "group_c", "label": "Spielkarten", "items": ["Ass", "König", "Dame", "Bube"] },
-    { "id": "group_d", "label": "Spielbegriffe", "items": ["Reizen", "Trumpf", "Stich", "Ansagen"] }
+    {
+      "id": "group_a",
+      "label": "Deutsche Kartenspiele",
+      "items": [
+        "Skat",
+        "Doppelkopf",
+        "Schnapsen",
+        "Watten"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Internationale Spiele",
+      "items": [
+        "Poker",
+        "Blackjack",
+        "Bridge",
+        "Canasta"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spielkarten",
+      "items": [
+        "Ass",
+        "König",
+        "Dame",
+        "Bube"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Spielbegriffe",
+      "items": [
+        "Reizen",
+        "Trumpf",
+        "Stich",
+        "Ansagen"
+      ]
+    }
   ]
 }

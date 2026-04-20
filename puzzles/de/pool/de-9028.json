@@ -2,31 +2,55 @@
   "id": "de-9028",
   "title": "Klimazeichen lesen",
   "difficulty": "medium",
-  "meta": { "theme": "Klimawandel-Phänomene durch Beobachtungen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Klimawandel-Phänomene durch Beobachtungen",
+    "batch": "de-batch-11",
+    "difficultyScore": 33
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Dürre",
       "revealHint": "BODEN REISST AUF",
-      "items": ["Weinberg verdorrt", "Rhein auf Tiefstwert", "Ernte fällt aus", "Waldbrand im August"]
+      "items": [
+        "Weinberg verdorrt",
+        "Rhein auf Tiefstwert",
+        "Ernte fällt aus",
+        "Waldbrand im August"
+      ]
     },
     {
       "id": "group_b",
       "label": "Überschwemmung",
       "revealHint": "WASSER ÜBERNIMMT LAND",
-      "items": ["Keller meterhoch voll", "Ahrtal 2021", "Brücke weggeschwemmt", "Evakuierung nachts"]
+      "items": [
+        "Keller meterhoch voll",
+        "Ahrtal 2021",
+        "Brücke weggeschwemmt",
+        "Evakuierung nachts"
+      ]
     },
     {
       "id": "group_c",
       "label": "Gletscherschwund",
       "revealHint": "EIS ZIEHT SICH ZURÜCK",
-      "items": ["Zunge kürzer seit 1950", "Steinfläche freigelegt", "Pegel steigt im Tal", "Bergsee neu entstanden"]
+      "items": [
+        "Zunge kürzer seit 1950",
+        "Steinfläche freigelegt",
+        "Pegel steigt im Tal",
+        "Bergsee neu entstanden"
+      ]
     },
     {
       "id": "group_d",
       "label": "Artensterben",
       "revealHint": "LAUTLOS VERSCHWUNDEN",
-      "items": ["Windschutz ohne Insekt", "Frosch aus Teich weg", "Blühstreifen leer", "Stille im Mai-Wald"]
+      "items": [
+        "Windschutz ohne Insekt",
+        "Frosch aus Teich weg",
+        "Blühstreifen leer",
+        "Stille im Mai-Wald"
+      ]
     }
   ]
 }

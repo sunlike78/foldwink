@@ -2,27 +2,51 @@
   "id": "de-9004",
   "title": "Was Bergwetter ankündigt",
   "difficulty": "easy",
-  "meta": { "theme": "Naturphänomene in den Alpen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Naturphänomene in den Alpen",
+    "batch": "de-batch-11",
+    "difficultyScore": 40
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Föhn",
-      "items": ["Kuh wird unruhig", "Kopfschmerzen im Tal", "Schneegrenze steigt", "Klare Fernsicht"]
+      "items": [
+        "Kuh wird unruhig",
+        "Kopfschmerzen im Tal",
+        "Schneegrenze steigt",
+        "Klare Fernsicht"
+      ]
     },
     {
       "id": "group_b",
       "label": "Lawine",
-      "items": ["Donnerndes Rauschen", "Verschüttete Piste", "Schutznetz gespannt", "Schneebruch im Wald"]
+      "items": [
+        "Donnerndes Rauschen",
+        "Verschüttete Piste",
+        "Schutznetz gespannt",
+        "Schneebruch im Wald"
+      ]
     },
     {
       "id": "group_c",
       "label": "Gewitter",
-      "items": ["Gipfelkreuz leuchtet", "Hagelschlag im August", "Grollen im Tal", "Blitze über dem Grat"]
+      "items": [
+        "Gipfelkreuz leuchtet",
+        "Hagelschlag im August",
+        "Grollen im Tal",
+        "Blitze über dem Grat"
+      ]
     },
     {
       "id": "group_d",
       "label": "Nebel",
-      "items": ["Tal versinkt morgens", "Sicht unter 50 Meter", "Gipfel ragen heraus", "Orientierung weg"]
+      "items": [
+        "Tal versinkt morgens",
+        "Sicht unter 50 Meter",
+        "Gipfel ragen heraus",
+        "Orientierung weg"
+      ]
     }
   ]
 }

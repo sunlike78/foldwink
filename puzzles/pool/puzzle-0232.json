@@ -6,28 +6,49 @@
     "theme": "entertainment",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 41
   },
   "groups": [
     {
       "id": "props",
       "label": "Stage Magic Props",
-      "items": ["Top Hat", "Magic Wand", "Silk Scarf", "Deck of Cards"]
+      "items": [
+        "Top Hat",
+        "Magic Wand",
+        "Silk Scarf",
+        "Deck of Cards"
+      ]
     },
     {
       "id": "tricks",
       "label": "Classic Tricks",
-      "items": ["Disappearing Act", "Sawing in Half", "Levitation", "Card Trick"]
+      "items": [
+        "Disappearing Act",
+        "Sawing in Half",
+        "Levitation",
+        "Card Trick"
+      ]
     },
     {
       "id": "performers",
       "label": "Magic Performers",
-      "items": ["Magician", "Assistant", "Escape Artist", "Mentalist"]
+      "items": [
+        "Magician",
+        "Assistant",
+        "Escape Artist",
+        "Mentalist"
+      ]
     },
     {
       "id": "stage",
       "label": "Stage Dressing",
-      "items": ["Spotlight", "Curtain", "Trapdoor", "Smoke Machine"]
+      "items": [
+        "Spotlight",
+        "Curtain",
+        "Trapdoor",
+        "Smoke Machine"
+      ]
     }
   ]
 }

@@ -2,27 +2,51 @@
   "id": "de-9012",
   "title": "Sturm im Glas",
   "difficulty": "easy",
-  "meta": { "theme": "Metaphern für soziale Phänomene", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Metaphern für soziale Phänomene",
+    "batch": "de-batch-11",
+    "difficultyScore": 36
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Massenpanik",
-      "items": ["Stampede im Gedränge", "Alle fliehen sofort", "Gerücht zündet Menge", "Vernunft verloren"]
+      "items": [
+        "Stampede im Gedränge",
+        "Alle fliehen sofort",
+        "Gerücht zündet Menge",
+        "Vernunft verloren"
+      ]
     },
     {
       "id": "group_b",
       "label": "Herdentrieb",
-      "items": ["Alle kaufen dasselbe", "Schlange wächst selbst", "Mode ohne eignen Sinn", "Mitlachen ohne Witz"]
+      "items": [
+        "Alle kaufen dasselbe",
+        "Schlange wächst selbst",
+        "Mode ohne eignen Sinn",
+        "Mitlachen ohne Witz"
+      ]
     },
     {
       "id": "group_c",
       "label": "Zivilcourage",
-      "items": ["Allein widersprochen", "Greift bei Angriff ein", "Steht für Fremde auf", "Schweigen gebrochen"]
+      "items": [
+        "Allein widersprochen",
+        "Greift bei Angriff ein",
+        "Steht für Fremde auf",
+        "Schweigen gebrochen"
+      ]
     },
     {
       "id": "group_d",
       "label": "Bürokratie",
-      "items": ["Formular doppelt", "Stempel fehlt überall", "Zuständigkeit unklar", "Antrag abgelehnt"]
+      "items": [
+        "Formular doppelt",
+        "Stempel fehlt überall",
+        "Zuständigkeit unklar",
+        "Antrag abgelehnt"
+      ]
     }
   ]
 }

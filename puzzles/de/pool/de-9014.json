@@ -2,27 +2,51 @@
   "id": "de-9014",
   "title": "Epoche am Objekt",
   "difficulty": "easy",
-  "meta": { "theme": "Historische Epochen via typische Objekte", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Historische Epochen via typische Objekte",
+    "batch": "de-batch-11",
+    "difficultyScore": 36
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Gründerzeit",
-      "items": ["Stuck-Fassade", "Dampfschiff auf Rhein", "Börsenkrach 1873", "Prachtallee gebaut"]
+      "items": [
+        "Stuck-Fassade",
+        "Dampfschiff auf Rhein",
+        "Börsenkrach 1873",
+        "Prachtallee gebaut"
+      ]
     },
     {
       "id": "group_b",
       "label": "Drittes Reich",
-      "items": ["Bücherverbrennung", "Nürnberger Gesetze", "Presse zensiert", "Volksempfänger"]
+      "items": [
+        "Bücherverbrennung",
+        "Nürnberger Gesetze",
+        "Presse zensiert",
+        "Volksempfänger"
+      ]
     },
     {
       "id": "group_c",
       "label": "Wirtschaftswunder",
-      "items": ["Käfer vor der Tür", "Kühlschrank voll", "Urlaub in Rimini", "Schornstein raucht"]
+      "items": [
+        "Käfer vor der Tür",
+        "Kühlschrank voll",
+        "Urlaub in Rimini",
+        "Schornstein raucht"
+      ]
     },
     {
       "id": "group_d",
       "label": "Mauerfall-Ära",
-      "items": ["Trabant auf Weststraße", "Tränen am Übergang", "D-Mark für alle", "Gorbatschow-Plakat"]
+      "items": [
+        "Trabant auf Weststraße",
+        "Tränen am Übergang",
+        "D-Mark für alle",
+        "Gorbatschow-Plakat"
+      ]
     }
   ]
 }

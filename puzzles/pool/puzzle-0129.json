@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "plant",
       "label": "Plant roots",
       "revealHint": "Plant",
-      "items": ["Taproot", "Tuber", "Bulb", "Rhizome"]
+      "items": [
+        "Taproot",
+        "Tuber",
+        "Bulb",
+        "Rhizome"
+      ]
     },
     {
       "id": "math",
       "label": "Math roots",
       "revealHint": "Math",
-      "items": ["Square Root", "Cube Root", "Radical", "Surd"]
+      "items": [
+        "Square Root",
+        "Cube Root",
+        "Radical",
+        "Surd"
+      ]
     },
     {
       "id": "word",
       "label": "Word roots",
       "revealHint": "Word",
-      "items": ["Etymology", "Prefix", "Suffix", "Morpheme"]
+      "items": [
+        "Etymology",
+        "Prefix",
+        "Suffix",
+        "Morpheme"
+      ]
     },
     {
       "id": "tooth",
       "label": "Tooth root",
       "revealHint": "Tooth",
-      "items": ["Canal", "Pulp", "Enamel", "Dentin"]
+      "items": [
+        "Canal",
+        "Pulp",
+        "Enamel",
+        "Dentin"
+      ]
     }
   ]
 }

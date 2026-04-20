@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Astronomische Objekte",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 41
   },
   "groups": [
     {

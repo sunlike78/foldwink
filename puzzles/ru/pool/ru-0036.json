@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Специи и приправы",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 28
   },
   "groups": [
     {

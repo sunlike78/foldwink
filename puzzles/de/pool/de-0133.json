@@ -2,11 +2,51 @@
   "id": "de-0133",
   "title": "Radfahren",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 24
+  },
   "groups": [
-    { "id": "group_a", "label": "Fahrradtypen", "items": ["Rennrad", "Mountainbike", "Stadtrad", "E-Bike"] },
-    { "id": "group_b", "label": "Komponenten", "items": ["Sattel", "Lenker", "Kette", "Bremse"] },
-    { "id": "group_c", "label": "Fahrrad-Touren", "items": ["Rheinradweg", "Elberadweg", "Donauradweg", "ADFC-Sterne"] },
-    { "id": "group_d", "label": "Verkehrsregeln", "items": ["Fahrradweg", "Helm", "Licht", "Handzeichen"] }
+    {
+      "id": "group_a",
+      "label": "Fahrradtypen",
+      "items": [
+        "Rennrad",
+        "Mountainbike",
+        "Stadtrad",
+        "E-Bike"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Komponenten",
+      "items": [
+        "Sattel",
+        "Lenker",
+        "Kette",
+        "Bremse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Fahrrad-Touren",
+      "items": [
+        "Rheinradweg",
+        "Elberadweg",
+        "Donauradweg",
+        "ADFC-Sterne"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Verkehrsregeln",
+      "items": [
+        "Fahrradweg",
+        "Helm",
+        "Licht",
+        "Handzeichen"
+      ]
+    }
   ]
 }

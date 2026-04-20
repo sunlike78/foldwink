@@ -7,32 +7,53 @@
     "theme": "cinema",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "g1",
       "label": "American Directors",
       "revealHint": "Hollywood",
-      "items": ["Scorsese", "Kubrick", "Coppola", "Lynch"]
+      "items": [
+        "Scorsese",
+        "Kubrick",
+        "Coppola",
+        "Lynch"
+      ]
     },
     {
       "id": "g2",
       "label": "French Directors",
       "revealHint": "Nouvelle",
-      "items": ["Godard", "Truffaut", "Malle", "Resnais"]
+      "items": [
+        "Godard",
+        "Truffaut",
+        "Malle",
+        "Resnais"
+      ]
     },
     {
       "id": "g3",
       "label": "Japanese Directors",
       "revealHint": "Studio",
-      "items": ["Kurosawa", "Ozu", "Mizoguchi", "Naruse"]
+      "items": [
+        "Kurosawa",
+        "Ozu",
+        "Mizoguchi",
+        "Naruse"
+      ]
     },
     {
       "id": "g4",
       "label": "Italian Directors",
       "revealHint": "Neorealism",
-      "items": ["Fellini", "Antonioni", "Visconti", "De Sica"]
+      "items": [
+        "Fellini",
+        "Antonioni",
+        "Visconti",
+        "De Sica"
+      ]
     }
   ]
 }

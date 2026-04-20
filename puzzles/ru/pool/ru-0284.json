@@ -2,11 +2,55 @@
   "id": "ru-0284",
   "title": "Марки телефонов",
   "difficulty": "medium",
-  "meta": { "theme": "Бренды смартфонов по стране", "batch": "ru-batch-11" },
+  "meta": {
+    "theme": "Бренды смартфонов по стране",
+    "batch": "ru-batch-11",
+    "difficultyScore": 12
+  },
   "groups": [
-    { "id": "us_phones", "label": "США", "revealHint": "США", "items": ["Apple iPhone", "Google Pixel", "Motorola", "OnePlus"] },
-    { "id": "korean_phones", "label": "Корея", "revealHint": "КОРЕЯ", "items": ["Samsung", "LG", "Pantech", "SKY"] },
-    { "id": "chinese_phones", "label": "Китай", "revealHint": "КИТАЙ", "items": ["Huawei", "Xiaomi", "Oppo", "Vivo"] },
-    { "id": "eu_phones", "label": "Европа", "revealHint": "ЕВРОПА", "items": ["Nokia", "Sony", "HTC", "Fairphone"] }
+    {
+      "id": "us_phones",
+      "label": "США",
+      "revealHint": "США",
+      "items": [
+        "Apple iPhone",
+        "Google Pixel",
+        "Motorola",
+        "OnePlus"
+      ]
+    },
+    {
+      "id": "korean_phones",
+      "label": "Корея",
+      "revealHint": "КОРЕЯ",
+      "items": [
+        "Samsung",
+        "LG",
+        "Pantech",
+        "SKY"
+      ]
+    },
+    {
+      "id": "chinese_phones",
+      "label": "Китай",
+      "revealHint": "КИТАЙ",
+      "items": [
+        "Huawei",
+        "Xiaomi",
+        "Oppo",
+        "Vivo"
+      ]
+    },
+    {
+      "id": "eu_phones",
+      "label": "Европа",
+      "revealHint": "ЕВРОПА",
+      "items": [
+        "Nokia",
+        "Sony",
+        "HTC",
+        "Fairphone"
+      ]
+    }
   ]
 }

@@ -3,11 +3,57 @@
   "title": "Code Style",
   "difficulty": "medium",
   "editorialSummary": "Programming paradigms sorted by their core abstraction model, with representative languages as items. The false trail: Haskell appears purely functional but is also declarative; SQL is declarative but not functional; Java is object-oriented but also imperative. The category labels — not language names — are the anchor.",
-  "meta": { "theme": "programming paradigms", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "programming paradigms",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 12
+  },
   "groups": [
-    { "id": "g1", "label": "OBJECT-ORIENTED", "revealHint": "Object", "items": ["Java", "C++", "Ruby", "Smalltalk"] },
-    { "id": "g2", "label": "FUNCTIONAL", "revealHint": "Function", "items": ["Haskell", "Erlang", "Clojure", "Elm"] },
-    { "id": "g3", "label": "DECLARATIVE", "revealHint": "Declare", "items": ["SQL", "HTML", "Prolog", "XSLT"] },
-    { "id": "g4", "label": "CONCURRENT / ACTOR", "revealHint": "Actor", "items": ["Elixir", "Scala", "Pony", "Io"] }
+    {
+      "id": "g1",
+      "label": "OBJECT-ORIENTED",
+      "revealHint": "Object",
+      "items": [
+        "Java",
+        "C++",
+        "Ruby",
+        "Smalltalk"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "FUNCTIONAL",
+      "revealHint": "Function",
+      "items": [
+        "Haskell",
+        "Erlang",
+        "Clojure",
+        "Elm"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "DECLARATIVE",
+      "revealHint": "Declare",
+      "items": [
+        "SQL",
+        "HTML",
+        "Prolog",
+        "XSLT"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "CONCURRENT / ACTOR",
+      "revealHint": "Actor",
+      "items": [
+        "Elixir",
+        "Scala",
+        "Pony",
+        "Io"
+      ]
+    }
   ]
 }

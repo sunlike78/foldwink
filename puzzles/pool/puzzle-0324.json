@@ -7,32 +7,53 @@
     "theme": "animals",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "g1",
       "label": "Animals That Communicate by Movement",
       "revealHint": "Dance",
-      "items": ["Honeybee", "Peacock", "Fiddler Crab", "Jumping Spider"]
+      "items": [
+        "Honeybee",
+        "Peacock",
+        "Fiddler Crab",
+        "Jumping Spider"
+      ]
     },
     {
       "id": "g2",
       "label": "Animals That Communicate by Bioluminescence",
       "revealHint": "Glow",
-      "items": ["Firefly", "Deep-Sea Anglerfish", "Ostracod", "Dinoflagellate"]
+      "items": [
+        "Firefly",
+        "Deep-Sea Anglerfish",
+        "Ostracod",
+        "Dinoflagellate"
+      ]
     },
     {
       "id": "g3",
       "label": "Animals That Communicate by Chemical Signal",
       "revealHint": "Scent",
-      "items": ["Red Fox", "Bombardier Beetle", "Sea Slug", "Leafcutter Ant"]
+      "items": [
+        "Red Fox",
+        "Bombardier Beetle",
+        "Sea Slug",
+        "Leafcutter Ant"
+      ]
     },
     {
       "id": "g4",
       "label": "Animals That Communicate by Electrical Signal",
       "revealHint": "Electric",
-      "items": ["Electric Eel", "Weakly Electric Fish", "Black Ghost Knifefish", "Electric Catfish"]
+      "items": [
+        "Electric Eel",
+        "Weakly Electric Fish",
+        "Black Ghost Knifefish",
+        "Electric Catfish"
+      ]
     }
   ]
 }

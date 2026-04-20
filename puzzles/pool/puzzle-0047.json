@@ -6,22 +6,45 @@
     {
       "id": "greek",
       "label": "Greek Gods",
-      "items": ["Athena", "Hera", "Poseidon", "Artemis"]
+      "items": [
+        "Athena",
+        "Hera",
+        "Poseidon",
+        "Artemis"
+      ]
     },
     {
       "id": "roman",
       "label": "Roman Gods",
-      "items": ["Jupiter", "Mars", "Venus", "Neptune"]
+      "items": [
+        "Jupiter",
+        "Mars",
+        "Venus",
+        "Neptune"
+      ]
     },
     {
       "id": "norse",
       "label": "Norse Gods",
-      "items": ["Odin", "Thor", "Freya", "Loki"]
+      "items": [
+        "Odin",
+        "Thor",
+        "Freya",
+        "Loki"
+      ]
     },
     {
       "id": "egyptian",
       "label": "Egyptian Gods",
-      "items": ["Ra", "Anubis", "Horus", "Bastet"]
+      "items": [
+        "Ra",
+        "Anubis",
+        "Horus",
+        "Bastet"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 21
+  }
 }

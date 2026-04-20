@@ -2,11 +2,51 @@
   "id": "de-0103",
   "title": "Arktis und Antarktis",
   "difficulty": "easy",
-  "meta": { "theme": "Polarzonen", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Polarzonen",
+    "batch": "de-batch-02",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "group_a", "label": "Säugetiere", "items": ["Eisbär", "Walross", "Narwal", "Rentier"] },
-    { "id": "group_b", "label": "Vögel", "items": ["Kaiserpinguin", "Schneeeule", "Eissturmvogel", "Skua"] },
-    { "id": "group_c", "label": "Meerestiere", "items": ["Leopardenrobbe", "Blauwal", "Arktischer Kabeljau", "Tintenfisch"] },
-    { "id": "group_d", "label": "Forschungsstationen", "items": ["Neumayer", "McMurdo", "Amundsen-Scott", "Concordia"] }
+    {
+      "id": "group_a",
+      "label": "Säugetiere",
+      "items": [
+        "Eisbär",
+        "Walross",
+        "Narwal",
+        "Rentier"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Vögel",
+      "items": [
+        "Kaiserpinguin",
+        "Schneeeule",
+        "Eissturmvogel",
+        "Skua"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Meerestiere",
+      "items": [
+        "Leopardenrobbe",
+        "Blauwal",
+        "Arktischer Kabeljau",
+        "Tintenfisch"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Forschungsstationen",
+      "items": [
+        "Neumayer",
+        "McMurdo",
+        "Amundsen-Scott",
+        "Concordia"
+      ]
+    }
   ]
 }

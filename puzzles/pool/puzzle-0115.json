@@ -6,28 +6,49 @@
     "theme": "science",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 19
   },
   "groups": [
     {
       "id": "element",
       "label": "Noble Gases",
-      "items": ["Helium", "Neon", "Argon", "Krypton"]
+      "items": [
+        "Helium",
+        "Neon",
+        "Argon",
+        "Krypton"
+      ]
     },
     {
       "id": "acid",
       "label": "Common Acids",
-      "items": ["Citric", "Acetic", "Sulfuric", "Hydrochloric"]
+      "items": [
+        "Citric",
+        "Acetic",
+        "Sulfuric",
+        "Hydrochloric"
+      ]
     },
     {
       "id": "unit",
       "label": "Measurement Units",
-      "items": ["Kelvin", "Mole", "Joule", "Pascal"]
+      "items": [
+        "Kelvin",
+        "Mole",
+        "Joule",
+        "Pascal"
+      ]
     },
     {
       "id": "equip",
       "label": "Lab Equipment",
-      "items": ["Beaker", "Pipette", "Bunsen Burner", "Petri Dish"]
+      "items": [
+        "Beaker",
+        "Pipette",
+        "Bunsen Burner",
+        "Petri Dish"
+      ]
     }
   ]
 }

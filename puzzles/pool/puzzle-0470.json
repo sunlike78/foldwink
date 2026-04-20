@@ -3,11 +3,57 @@
   "title": "Lift Off",
   "difficulty": "medium",
   "editorialSummary": "Rocket launch vehicle families grouped by origin nation. False trail: Ariane and Vega are both ESA European rockets but belong to different families by series; Atlas and Delta are both US but belong to separate lineage families. Groups are by rocket family lineage, not country alone.",
-  "meta": { "theme": "launch vehicle families", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "launch vehicle families",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "g1", "label": "FALCON FAMILY (SpaceX)", "revealHint": "Falcon", "items": ["Falcon 1", "Falcon 9", "Falcon Heavy", "Starship"] },
-    { "id": "g2", "label": "SOYUZ FAMILY (Roscosmos)", "revealHint": "Soyuz", "items": ["Soyuz-2.1a", "Soyuz-2.1b", "Soyuz-ST", "Soyuz-5"] },
-    { "id": "g3", "label": "ARIANE FAMILY (ESA)", "revealHint": "Ariane", "items": ["Ariane 4", "Ariane 5", "Ariane 6", "Vega-C"] },
-    { "id": "g4", "label": "LONG MARCH FAMILY (CNSA)", "revealHint": "March", "items": ["Long March 2", "Long March 5", "Long March 7", "Long March 9"] }
+    {
+      "id": "g1",
+      "label": "FALCON FAMILY (SpaceX)",
+      "revealHint": "Falcon",
+      "items": [
+        "Falcon 1",
+        "Falcon 9",
+        "Falcon Heavy",
+        "Starship"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "SOYUZ FAMILY (Roscosmos)",
+      "revealHint": "Soyuz",
+      "items": [
+        "Soyuz-2.1a",
+        "Soyuz-2.1b",
+        "Soyuz-ST",
+        "Soyuz-5"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ARIANE FAMILY (ESA)",
+      "revealHint": "Ariane",
+      "items": [
+        "Ariane 4",
+        "Ariane 5",
+        "Ariane 6",
+        "Vega-C"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "LONG MARCH FAMILY (CNSA)",
+      "revealHint": "March",
+      "items": [
+        "Long March 2",
+        "Long March 5",
+        "Long March 7",
+        "Long March 9"
+      ]
+    }
   ]
 }

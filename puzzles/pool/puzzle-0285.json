@@ -7,32 +7,53 @@
     "theme": "sports",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 54
   },
   "groups": [
     {
       "id": "g1",
       "label": "Ice Hockey Penalty Types",
       "revealHint": "Ice",
-      "items": ["Minor Penalty", "Major Penalty", "Misconduct", "Match Penalty"]
+      "items": [
+        "Minor Penalty",
+        "Major Penalty",
+        "Misconduct",
+        "Match Penalty"
+      ]
     },
     {
       "id": "g2",
       "label": "Soccer Disciplinary Actions",
       "revealHint": "Pitch",
-      "items": ["Yellow Card", "Red Card", "Suspension", "Points Deduction"]
+      "items": [
+        "Yellow Card",
+        "Red Card",
+        "Suspension",
+        "Points Deduction"
+      ]
     },
     {
       "id": "g3",
       "label": "Basketball Foul Types",
       "revealHint": "Court",
-      "items": ["Personal Foul", "Technical Foul", "Flagrant Foul", "Charging Foul"]
+      "items": [
+        "Personal Foul",
+        "Technical Foul",
+        "Flagrant Foul",
+        "Charging Foul"
+      ]
     },
     {
       "id": "g4",
       "label": "Rugby League Sanctions",
       "revealHint": "Scrums",
-      "items": ["Sin Bin", "Penalty Try", "Free Kick", "Differential Penalty"]
+      "items": [
+        "Sin Bin",
+        "Penalty Try",
+        "Free Kick",
+        "Differential Penalty"
+      ]
     }
   ]
 }

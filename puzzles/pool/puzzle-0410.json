@@ -3,11 +3,53 @@
   "title": "Ancient Empires",
   "difficulty": "easy",
   "editorialSummary": "Empires grouped by home region: Mesopotamian, Mediterranean/European, Asian, and American. False trail: Byzantine could seem separate but is grouped with Mediterranean. Aztec and Inca are both American empires.",
-  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "g1", "label": "MESOPOTAMIAN EMPIRES", "items": ["Akkadian", "Assyrian", "Babylonian", "Sumerian"] },
-    { "id": "g2", "label": "MEDITERRANEAN EMPIRES", "items": ["Roman", "Byzantine", "Carthaginian", "Greek"] },
-    { "id": "g3", "label": "ASIAN EMPIRES", "items": ["Mongol", "Han Dynasty", "Mauryan", "Qin Dynasty"] },
-    { "id": "g4", "label": "AMERICAN EMPIRES", "items": ["Aztec", "Inca", "Maya", "Mississippian"] }
+    {
+      "id": "g1",
+      "label": "MESOPOTAMIAN EMPIRES",
+      "items": [
+        "Akkadian",
+        "Assyrian",
+        "Babylonian",
+        "Sumerian"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MEDITERRANEAN EMPIRES",
+      "items": [
+        "Roman",
+        "Byzantine",
+        "Carthaginian",
+        "Greek"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ASIAN EMPIRES",
+      "items": [
+        "Mongol",
+        "Han Dynasty",
+        "Mauryan",
+        "Qin Dynasty"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "AMERICAN EMPIRES",
+      "items": [
+        "Aztec",
+        "Inca",
+        "Maya",
+        "Mississippian"
+      ]
+    }
   ]
 }

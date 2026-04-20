@@ -2,11 +2,55 @@
   "id": "ru-0297",
   "title": "Форматы файлов",
   "difficulty": "medium",
-  "meta": { "theme": "Форматы файлов по типу", "batch": "ru-batch-11" },
+  "meta": {
+    "theme": "Форматы файлов по типу",
+    "batch": "ru-batch-11",
+    "difficultyScore": 2
+  },
   "groups": [
-    { "id": "image_formats", "label": "Изображения", "revealHint": "ИЗОБРАЖЕНИЯ", "items": ["JPEG", "PNG", "SVG", "WebP"] },
-    { "id": "video_formats", "label": "Видео", "revealHint": "ВИДЕО", "items": ["MP4", "AVI", "MOV", "MKV"] },
-    { "id": "audio_formats", "label": "Аудио", "revealHint": "АУДИО", "items": ["MP3", "FLAC", "WAV", "OGG"] },
-    { "id": "doc_formats", "label": "Документы", "revealHint": "ДОКУМЕНТЫ", "items": ["PDF", "DOCX", "XLSX", "PPTX"] }
+    {
+      "id": "image_formats",
+      "label": "Изображения",
+      "revealHint": "ИЗОБРАЖЕНИЯ",
+      "items": [
+        "JPEG",
+        "PNG",
+        "SVG",
+        "WebP"
+      ]
+    },
+    {
+      "id": "video_formats",
+      "label": "Видео",
+      "revealHint": "ВИДЕО",
+      "items": [
+        "MP4",
+        "AVI",
+        "MOV",
+        "MKV"
+      ]
+    },
+    {
+      "id": "audio_formats",
+      "label": "Аудио",
+      "revealHint": "АУДИО",
+      "items": [
+        "MP3",
+        "FLAC",
+        "WAV",
+        "OGG"
+      ]
+    },
+    {
+      "id": "doc_formats",
+      "label": "Документы",
+      "revealHint": "ДОКУМЕНТЫ",
+      "items": [
+        "PDF",
+        "DOCX",
+        "XLSX",
+        "PPTX"
+      ]
+    }
   ]
 }

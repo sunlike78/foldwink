@@ -8,25 +8,48 @@
       "id": "prefix",
       "label": "Prefixes",
       "revealHint": "PREFIX",
-      "items": ["Un-", "Re-", "Pre-", "Mis-"]
+      "items": [
+        "Un-",
+        "Re-",
+        "Pre-",
+        "Mis-"
+      ]
     },
     {
       "id": "suffix",
       "label": "Suffixes",
       "revealHint": "SUFFIX",
-      "items": ["-ness", "-able", "-tion", "-ism"]
+      "items": [
+        "-ness",
+        "-able",
+        "-tion",
+        "-ism"
+      ]
     },
     {
       "id": "articles",
       "label": "Articles",
       "revealHint": "ARTICLE",
-      "items": ["A", "An", "The", "Some"]
+      "items": [
+        "A",
+        "An",
+        "The",
+        "Some"
+      ]
     },
     {
       "id": "pronouns",
       "label": "Pronouns",
       "revealHint": "PRONOUN",
-      "items": ["I", "You", "They", "We"]
+      "items": [
+        "I",
+        "You",
+        "They",
+        "We"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 10
+  }
 }

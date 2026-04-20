@@ -3,11 +3,57 @@
   "title": "Famous Explorers",
   "difficulty": "medium",
   "editorialSummary": "Explorers by primary region. False trail: Amundsen also explored the Northwest Passage but is primarily known as a polar explorer. Vitus Bering discovered the Bering Strait — placed with Pacific/oceanic.",
-  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 34
+  },
   "groups": [
-    { "id": "g1", "label": "AGE OF DISCOVERY", "revealHint": "Discovery", "items": ["Columbus", "Vasco da Gama", "Magellan", "Francis Drake"] },
-    { "id": "g2", "label": "POLAR EXPLORERS", "revealHint": "Polar", "items": ["Shackleton", "Amundsen", "Peary", "Nansen"] },
-    { "id": "g3", "label": "AFRICAN EXPLORERS", "revealHint": "Africa", "items": ["Livingstone", "Stanley", "Mungo Park", "Richard Burton"] },
-    { "id": "g4", "label": "PACIFIC EXPLORERS", "revealHint": "Pacific", "items": ["Captain Cook", "Bougainville", "Abel Tasman", "Vitus Bering"] }
+    {
+      "id": "g1",
+      "label": "AGE OF DISCOVERY",
+      "revealHint": "Discovery",
+      "items": [
+        "Columbus",
+        "Vasco da Gama",
+        "Magellan",
+        "Francis Drake"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "POLAR EXPLORERS",
+      "revealHint": "Polar",
+      "items": [
+        "Shackleton",
+        "Amundsen",
+        "Peary",
+        "Nansen"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "AFRICAN EXPLORERS",
+      "revealHint": "Africa",
+      "items": [
+        "Livingstone",
+        "Stanley",
+        "Mungo Park",
+        "Richard Burton"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PACIFIC EXPLORERS",
+      "revealHint": "Pacific",
+      "items": [
+        "Captain Cook",
+        "Bougainville",
+        "Abel Tasman",
+        "Vitus Bering"
+      ]
+    }
   ]
 }

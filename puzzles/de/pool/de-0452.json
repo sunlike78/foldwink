@@ -2,11 +2,55 @@
   "id": "de-0452",
   "title": "Lerntheorien",
   "difficulty": "medium",
-  "meta": { "theme": "pädagogik", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "pädagogik",
+    "batch": "de-batch-05",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Behaviorismus", "revealHint": "Reiz und Reaktion", "items": ["Pawlow", "Skinner", "Konditionierung", "Verstärkung"] },
-    { "id": "group_b", "label": "Kognitivismus", "revealHint": "Denken & Verstehen", "items": ["Piaget", "Ausubel", "Informationsverarbeit.", "Schemata"] },
-    { "id": "group_c", "label": "Konstruktivismus", "revealHint": "Selbst gebaut", "items": ["Vygotski", "Dewey", "Entdeckendes Lernen", "Zone nächste Entw."] },
-    { "id": "group_d", "label": "Konnektivismus", "revealHint": "Lernen im Netz", "items": ["Siemens", "Downes", "Netzwerklerntheorie", "Digitales Lernen"] }
+    {
+      "id": "group_a",
+      "label": "Behaviorismus",
+      "revealHint": "Reiz und Reaktion",
+      "items": [
+        "Pawlow",
+        "Skinner",
+        "Konditionierung",
+        "Verstärkung"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kognitivismus",
+      "revealHint": "Denken & Verstehen",
+      "items": [
+        "Piaget",
+        "Ausubel",
+        "Informationsverarbeit.",
+        "Schemata"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Konstruktivismus",
+      "revealHint": "Selbst gebaut",
+      "items": [
+        "Vygotski",
+        "Dewey",
+        "Entdeckendes Lernen",
+        "Zone nächste Entw."
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Konnektivismus",
+      "revealHint": "Lernen im Netz",
+      "items": [
+        "Siemens",
+        "Downes",
+        "Netzwerklerntheorie",
+        "Digitales Lernen"
+      ]
+    }
   ]
 }

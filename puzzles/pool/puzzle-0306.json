@@ -2,11 +2,53 @@
   "id": "puzzle-0306",
   "title": "Industrial breakthroughs",
   "difficulty": "easy",
-  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-08", "status": "approved" },
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-08",
+    "status": "approved",
+    "difficultyScore": 39
+  },
   "groups": [
-    { "id": "steam", "label": "Steam Power Inventions", "items": ["Steam Engine", "Steam Turbine", "Steam Hammer", "Steam Pump"] },
-    { "id": "textile", "label": "Textile Inventions", "items": ["Spinning Jenny", "Power Loom", "Cotton Gin", "Spinning Mule"] },
-    { "id": "comms", "label": "Communications Milestones", "items": ["Morse Code", "Telephone", "Telegraph", "Radio"] },
-    { "id": "transport", "label": "Transport Innovations", "items": ["Steam Locomotive", "Steamship", "Canal Boat", "Hot Air Balloon"] }
+    {
+      "id": "steam",
+      "label": "Steam Power Inventions",
+      "items": [
+        "Steam Engine",
+        "Steam Turbine",
+        "Steam Hammer",
+        "Steam Pump"
+      ]
+    },
+    {
+      "id": "textile",
+      "label": "Textile Inventions",
+      "items": [
+        "Spinning Jenny",
+        "Power Loom",
+        "Cotton Gin",
+        "Spinning Mule"
+      ]
+    },
+    {
+      "id": "comms",
+      "label": "Communications Milestones",
+      "items": [
+        "Morse Code",
+        "Telephone",
+        "Telegraph",
+        "Radio"
+      ]
+    },
+    {
+      "id": "transport",
+      "label": "Transport Innovations",
+      "items": [
+        "Steam Locomotive",
+        "Steamship",
+        "Canal Boat",
+        "Hot Air Balloon"
+      ]
+    }
   ]
 }

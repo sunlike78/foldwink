@@ -6,22 +6,45 @@
     {
       "id": "maps",
       "label": "Map Features",
-      "items": ["Legend", "Scale", "Compass Rose", "Contour"]
+      "items": [
+        "Legend",
+        "Scale",
+        "Compass Rose",
+        "Contour"
+      ]
     },
     {
       "id": "hiking",
       "label": "Hiking Gear",
-      "items": ["Trail Map", "Water Flask", "Compass", "Headlamp"]
+      "items": [
+        "Trail Map",
+        "Water Flask",
+        "Compass",
+        "Headlamp"
+      ]
     },
     {
       "id": "camping",
       "label": "Camping Gear",
-      "items": ["Tent", "Sleeping Bag", "Lantern", "Stove"]
+      "items": [
+        "Tent",
+        "Sleeping Bag",
+        "Lantern",
+        "Stove"
+      ]
     },
     {
       "id": "knots",
       "label": "Knots",
-      "items": ["Bowline", "Clove Hitch", "Square", "Figure Eight"]
+      "items": [
+        "Bowline",
+        "Clove Hitch",
+        "Square",
+        "Figure Eight"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 33
+  }
 }

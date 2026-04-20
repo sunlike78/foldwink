@@ -6,28 +6,49 @@
     "theme": "dance",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 21
   },
   "groups": [
     {
       "id": "ballroom",
       "label": "Ballroom Dances",
-      "items": ["Waltz", "Foxtrot", "Quickstep", "Tango"]
+      "items": [
+        "Waltz",
+        "Foxtrot",
+        "Quickstep",
+        "Tango"
+      ]
     },
     {
       "id": "latin",
       "label": "Latin Dances",
-      "items": ["Salsa", "Merengue", "Bachata", "Rumba"]
+      "items": [
+        "Salsa",
+        "Merengue",
+        "Bachata",
+        "Rumba"
+      ]
     },
     {
       "id": "street",
       "label": "Street Dances",
-      "items": ["Breakdance", "Popping", "Locking", "Krumping"]
+      "items": [
+        "Breakdance",
+        "Popping",
+        "Locking",
+        "Krumping"
+      ]
     },
     {
       "id": "folk",
       "label": "Folk Dances",
-      "items": ["Polka", "Hora", "Ceilidh", "Tarantella"]
+      "items": [
+        "Polka",
+        "Hora",
+        "Ceilidh",
+        "Tarantella"
+      ]
     }
   ]
 }

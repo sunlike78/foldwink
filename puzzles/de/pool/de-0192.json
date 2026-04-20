@@ -2,11 +2,51 @@
   "id": "de-0192",
   "title": "Physik im Alltag",
   "difficulty": "easy",
-  "meta": { "theme": "Wissenschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Wissenschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 38
+  },
   "groups": [
-    { "id": "group_a", "label": "Lichtphänomene", "items": ["Regenbogen", "Spiegelbild", "Brechung", "Schatten"] },
-    { "id": "group_b", "label": "Schallphänomene", "items": ["Echo", "Ultraschall", "Resonanz", "Lärm"] },
-    { "id": "group_c", "label": "Wärmephänomene", "items": ["Ausdehnung", "Konvektion", "Wärmeleitung", "Strahlung"] },
-    { "id": "group_d", "label": "Elektrizität", "items": ["Blitz", "Magnet", "Kurzschluss", "Reibungselektrizität"] }
+    {
+      "id": "group_a",
+      "label": "Lichtphänomene",
+      "items": [
+        "Regenbogen",
+        "Spiegelbild",
+        "Brechung",
+        "Schatten"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schallphänomene",
+      "items": [
+        "Echo",
+        "Ultraschall",
+        "Resonanz",
+        "Lärm"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wärmephänomene",
+      "items": [
+        "Ausdehnung",
+        "Konvektion",
+        "Wärmeleitung",
+        "Strahlung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Elektrizität",
+      "items": [
+        "Blitz",
+        "Magnet",
+        "Kurzschluss",
+        "Reibungselektrizität"
+      ]
+    }
   ]
 }

@@ -3,11 +3,53 @@
   "title": "Ballet Moves",
   "difficulty": "easy",
   "editorialSummary": "Ballet terms grouped by movement type: jumps, turns, positions, and barre exercises. False trail: Pirouette and Fouetté are both turning moves; Arabesque is a position not a turn.",
-  "meta": { "theme": "dance", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "dance",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "g1", "label": "BALLET JUMPS", "items": ["Jeté", "Sauté", "Cabriole", "Assemblé"] },
-    { "id": "g2", "label": "BALLET TURNS", "items": ["Pirouette", "Fouetté", "Chaîné", "Piqué Turn"] },
-    { "id": "g3", "label": "BALLET POSITIONS", "items": ["Arabesque", "Attitude", "Croisé", "Effacé"] },
-    { "id": "g4", "label": "BARRE EXERCISES", "items": ["Plie", "Tendu", "Dégagé", "Rond de Jambe"] }
+    {
+      "id": "g1",
+      "label": "BALLET JUMPS",
+      "items": [
+        "Jeté",
+        "Sauté",
+        "Cabriole",
+        "Assemblé"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "BALLET TURNS",
+      "items": [
+        "Pirouette",
+        "Fouetté",
+        "Chaîné",
+        "Piqué Turn"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "BALLET POSITIONS",
+      "items": [
+        "Arabesque",
+        "Attitude",
+        "Croisé",
+        "Effacé"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "BARRE EXERCISES",
+      "items": [
+        "Plie",
+        "Tendu",
+        "Dégagé",
+        "Rond de Jambe"
+      ]
+    }
   ]
 }

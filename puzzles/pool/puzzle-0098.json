@@ -8,25 +8,48 @@
       "id": "light",
       "label": "Light Phenomena",
       "revealHint": "OPTIC",
-      "items": ["Refraction", "Prism", "Rainbow", "Mirage"]
+      "items": [
+        "Refraction",
+        "Prism",
+        "Rainbow",
+        "Mirage"
+      ]
     },
     {
       "id": "sound",
       "label": "Sound Phenomena",
       "revealHint": "SOUND",
-      "items": ["Echo", "Doppler", "Resonance", "Sonic Boom"]
+      "items": [
+        "Echo",
+        "Doppler",
+        "Resonance",
+        "Sonic Boom"
+      ]
     },
     {
       "id": "heat",
       "label": "Heat Transfer",
       "revealHint": "HEAT",
-      "items": ["Conduction", "Convection", "Radiation", "Insulation"]
+      "items": [
+        "Conduction",
+        "Convection",
+        "Radiation",
+        "Insulation"
+      ]
     },
     {
       "id": "electricity",
       "label": "Electric Phenomena",
       "revealHint": "CURRENT",
-      "items": ["Voltage", "Resistance", "Circuit", "Static"]
+      "items": [
+        "Voltage",
+        "Resistance",
+        "Circuit",
+        "Static"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 37
+  }
 }

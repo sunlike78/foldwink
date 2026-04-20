@@ -7,32 +7,53 @@
     "theme": "law",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 34
   },
   "groups": [
     {
       "id": "objections",
       "label": "Objection Grounds",
       "revealHint": "Objection",
-      "items": ["Leading", "Hearsay", "Relevance", "Speculation"]
+      "items": [
+        "Leading",
+        "Hearsay",
+        "Relevance",
+        "Speculation"
+      ]
     },
     {
       "id": "pleas",
       "label": "Plea Types",
       "revealHint": "Plea",
-      "items": ["Guilty", "Not Guilty", "No Contest", "Alford"]
+      "items": [
+        "Guilty",
+        "Not Guilty",
+        "No Contest",
+        "Alford"
+      ]
     },
     {
       "id": "verdicts",
       "label": "Verdict Outcomes",
       "revealHint": "Verdict",
-      "items": ["Convicted", "Acquitted", "Mistrial", "Hung Jury"]
+      "items": [
+        "Convicted",
+        "Acquitted",
+        "Mistrial",
+        "Hung Jury"
+      ]
     },
     {
       "id": "motions",
       "label": "Motion Types",
       "revealHint": "Motion",
-      "items": ["Dismiss", "Continuance", "Suppress", "Summary"]
+      "items": [
+        "Dismiss",
+        "Continuance",
+        "Suppress",
+        "Summary"
+      ]
     }
   ]
 }

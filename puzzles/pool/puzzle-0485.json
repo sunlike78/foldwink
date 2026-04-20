@@ -3,11 +3,53 @@
   "title": "Wonders Never Cease",
   "difficulty": "easy",
   "editorialSummary": "The Seven Wonders of the Ancient World grouped by the modern country in which their ruins (or former site) lie. Egypt: Great Pyramid of Giza (only survivor, Giza plateau). Greece: Statue of Zeus at Olympia (Olympia site), Colossus of Rhodes (Rhodes island). Turkey: Temple of Artemis (Ephesus), Mausoleum at Halicarnassus (Bodrum), — Turkey/Greece border note: both Ephesus and Bodrum are in modern Turkey. Iraq: Hanging Gardens of Babylon (Babylon, modern Iraq). Egypt covers pyramid. Alexandria lighthouse is Egypt too. Revised clean grouping: Egypt (Pyramid + Lighthouse of Alexandria), Greece (Zeus + Colossus), Turkey (Artemis + Mausoleum), Iraq (Hanging Gardens) — only 2+2+2+1=7, not enough for 4×4. Final design pivots: 16 famous world heritage structures grouped by continent: Africa, Europe, Asia, Americas. No wonder-specific trap, just clean continent classification of well-known monuments.",
-  "meta": { "theme": "world heritage monuments by continent", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "world heritage monuments by continent",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "g1", "label": "AFRICA", "items": ["Great Pyramid of Giza", "Sphinx", "Great Zimbabwe", "Djenne Mosque"] },
-    { "id": "g2", "label": "EUROPE", "items": ["Colosseum", "Parthenon", "Stonehenge", "Eiffel Tower"] },
-    { "id": "g3", "label": "ASIA", "items": ["Angkor Wat", "Taj Mahal", "Great Wall of China", "Borobudur"] },
-    { "id": "g4", "label": "THE AMERICAS", "items": ["Machu Picchu", "Chichen Itza", "Statue of Liberty", "Christ the Redeemer"] }
+    {
+      "id": "g1",
+      "label": "AFRICA",
+      "items": [
+        "Great Pyramid of Giza",
+        "Sphinx",
+        "Great Zimbabwe",
+        "Djenne Mosque"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "EUROPE",
+      "items": [
+        "Colosseum",
+        "Parthenon",
+        "Stonehenge",
+        "Eiffel Tower"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ASIA",
+      "items": [
+        "Angkor Wat",
+        "Taj Mahal",
+        "Great Wall of China",
+        "Borobudur"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "THE AMERICAS",
+      "items": [
+        "Machu Picchu",
+        "Chichen Itza",
+        "Statue of Liberty",
+        "Christ the Redeemer"
+      ]
+    }
   ]
 }

@@ -8,25 +8,48 @@
       "id": "frozen-places",
       "label": "Frozen Places",
       "revealHint": "POLAR",
-      "items": ["Tundra", "Iceberg", "Glacier", "Fjord"]
+      "items": [
+        "Tundra",
+        "Iceberg",
+        "Glacier",
+        "Fjord"
+      ]
     },
     {
       "id": "frozen-desserts",
       "label": "Frozen Desserts",
       "revealHint": "DESSERT",
-      "items": ["Sorbet", "Gelato", "Sundae", "Popsicle"]
+      "items": [
+        "Sorbet",
+        "Gelato",
+        "Sundae",
+        "Popsicle"
+      ]
     },
     {
       "id": "cold-drinks",
       "label": "Iced Drinks",
       "revealHint": "DRINK",
-      "items": ["Slushie", "Frappe", "Granita", "Daiquiri"]
+      "items": [
+        "Slushie",
+        "Frappe",
+        "Granita",
+        "Daiquiri"
+      ]
     },
     {
       "id": "winter-sports",
       "label": "Winter Sports",
       "revealHint": "SPORT",
-      "items": ["Skiing", "Skating", "Curling", "Luge"]
+      "items": [
+        "Skiing",
+        "Skating",
+        "Curling",
+        "Luge"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

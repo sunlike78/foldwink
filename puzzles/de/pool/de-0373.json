@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Internat. Organisationen",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 42
   },
   "groups": [
     {

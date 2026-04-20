@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Крупнейшие художественные музеи мира",
-    "batch": "ru-batch-18"
+    "batch": "ru-batch-18",
+    "difficultyScore": 26
   },
   "groups": [
     {

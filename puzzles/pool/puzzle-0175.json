@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 34
   },
   "groups": [
     {
       "id": "theatre",
       "label": "Theatre stage",
       "revealHint": "Theatre",
-      "items": ["Curtain", "Spotlight", "Wings", "Backdrop"]
+      "items": [
+        "Curtain",
+        "Spotlight",
+        "Wings",
+        "Backdrop"
+      ]
     },
     {
       "id": "rocket",
       "label": "Rocket stage",
       "revealHint": "Rocket",
-      "items": ["Booster", "Separation", "Payload", "Thruster"]
+      "items": [
+        "Booster",
+        "Separation",
+        "Payload",
+        "Thruster"
+      ]
     },
     {
       "id": "develop",
       "label": "Development stage",
       "revealHint": "Develop",
-      "items": ["Prototype", "Beta", "Launch", "Iteration"]
+      "items": [
+        "Prototype",
+        "Beta",
+        "Launch",
+        "Iteration"
+      ]
     },
     {
       "id": "cycling",
       "label": "Cycling stage",
       "revealHint": "Cycling",
-      "items": ["Peloton", "Sprint", "Climb", "Time Trial"]
+      "items": [
+        "Peloton",
+        "Sprint",
+        "Climb",
+        "Time Trial"
+      ]
     }
   ]
 }

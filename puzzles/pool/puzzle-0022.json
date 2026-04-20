@@ -8,25 +8,48 @@
       "id": "library",
       "label": "Library",
       "revealHint": "LIBRARY",
-      "items": ["Bookmark", "Shelf", "Catalog", "Reference"]
+      "items": [
+        "Bookmark",
+        "Shelf",
+        "Catalog",
+        "Reference"
+      ]
     },
     {
       "id": "school",
       "label": "Classroom",
       "revealHint": "SCHOOL",
-      "items": ["Chalkboard", "Eraser", "Locker", "Textbook"]
+      "items": [
+        "Chalkboard",
+        "Eraser",
+        "Locker",
+        "Textbook"
+      ]
     },
     {
       "id": "hospital",
       "label": "Hospital",
       "revealHint": "WARD",
-      "items": ["Bandage", "Stethoscope", "Scalpel", "Gurney"]
+      "items": [
+        "Bandage",
+        "Stethoscope",
+        "Scalpel",
+        "Gurney"
+      ]
     },
     {
       "id": "park",
       "label": "Park",
       "revealHint": "PARK",
-      "items": ["Bench", "Swing", "Fountain", "Gazebo"]
+      "items": [
+        "Bench",
+        "Swing",
+        "Fountain",
+        "Gazebo"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

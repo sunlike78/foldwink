@@ -2,11 +2,55 @@
   "id": "de-0412",
   "title": "Märchenmotive",
   "difficulty": "medium",
-  "meta": { "theme": "märchen", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "märchen",
+    "batch": "de-batch-05",
+    "difficultyScore": 33
+  },
   "groups": [
-    { "id": "group_a", "label": "Verwandlung", "revealHint": "Gestaltwandel", "items": ["Froschkönig", "Schwanjungfrau", "Bärenhaut", "Rumpelstilzchen"] },
-    { "id": "group_b", "label": "Prüfung", "revealHint": "Aufgabe bestehen", "items": ["Drei Aufgaben", "Rätsel lösen", "Drachen töten", "Turm erklimmen"] },
-    { "id": "group_c", "label": "Magischer Helfer", "revealHint": "Übernatürlich", "items": ["Fee", "Zwerg", "Hexe (gut)", "Tier spricht"] },
-    { "id": "group_d", "label": "Belohnung", "revealHint": "Gutes Ende", "items": ["Prinzessin", "Halbes Königreich", "Goldener Ring", "Zaubermantel"] }
+    {
+      "id": "group_a",
+      "label": "Verwandlung",
+      "revealHint": "Gestaltwandel",
+      "items": [
+        "Froschkönig",
+        "Schwanjungfrau",
+        "Bärenhaut",
+        "Rumpelstilzchen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Prüfung",
+      "revealHint": "Aufgabe bestehen",
+      "items": [
+        "Drei Aufgaben",
+        "Rätsel lösen",
+        "Drachen töten",
+        "Turm erklimmen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Magischer Helfer",
+      "revealHint": "Übernatürlich",
+      "items": [
+        "Fee",
+        "Zwerg",
+        "Hexe (gut)",
+        "Tier spricht"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Belohnung",
+      "revealHint": "Gutes Ende",
+      "items": [
+        "Prinzessin",
+        "Halbes Königreich",
+        "Goldener Ring",
+        "Zaubermantel"
+      ]
+    }
   ]
 }

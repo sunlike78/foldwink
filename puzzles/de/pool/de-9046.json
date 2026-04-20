@@ -2,31 +2,55 @@
   "id": "de-9046",
   "title": "Beruf raten",
   "difficulty": "medium",
-  "meta": { "theme": "Berufe durch Alltagsszenen", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Berufe durch Alltagsszenen",
+    "batch": "de-batch-12",
+    "difficultyScore": 37
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Dirigent",
       "revealHint": "STAB GIBT DEN TAKT",
-      "items": ["Taktstock heben", "Orchester mit Blick", "Partitur auswendig", "Einsatz geben stumm"]
+      "items": [
+        "Taktstock heben",
+        "Orchester mit Blick",
+        "Partitur auswendig",
+        "Einsatz geben stumm"
+      ]
     },
     {
       "id": "group_b",
       "label": "Hebamme",
       "revealHint": "ERSTE HÄNDE BEI GEBURT",
-      "items": ["Nacht um drei Uhr wach", "Atemübung anleiten", "Neugeborenes halten", "Maß und Gewicht"]
+      "items": [
+        "Nacht um drei Uhr wach",
+        "Atemübung anleiten",
+        "Neugeborenes halten",
+        "Maß und Gewicht"
+      ]
     },
     {
       "id": "group_c",
       "label": "Förster",
       "revealHint": "HÜTER DES WALDES",
-      "items": ["Wildkamera aufhängen", "Abschussplan festlegen", "Kranken Baum markieren", "Schonzeit überwachen"]
+      "items": [
+        "Wildkamera aufhängen",
+        "Abschussplan festlegen",
+        "Kranken Baum markieren",
+        "Schonzeit überwachen"
+      ]
     },
     {
       "id": "group_d",
       "label": "Bibliothekar",
       "revealHint": "WÄCHTER DER BÜCHER",
-      "items": ["Rückgabedatum stempeln", "Mahngebühr berechnen", "Lesesaal still halten", "Bestand katalogisieren"]
+      "items": [
+        "Rückgabedatum stempeln",
+        "Mahngebühr berechnen",
+        "Lesesaal still halten",
+        "Bestand katalogisieren"
+      ]
     }
   ]
 }

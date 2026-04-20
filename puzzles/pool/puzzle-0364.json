@@ -2,11 +2,53 @@
   "id": "puzzle-0364",
   "title": "Popular Science Concepts",
   "difficulty": "easy",
-  "meta": { "theme": "popular-science", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "popular-science",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 41
+  },
   "groups": [
-    { "id": "g1", "label": "Quantum Physics Terms", "items": ["Superposition", "Entanglement", "Wave Function", "Qubit"] },
-    { "id": "g2", "label": "Evolutionary Concepts", "items": ["Natural Selection", "Mutation", "Adaptation", "Speciation"] },
-    { "id": "g3", "label": "Cosmology Terms", "items": ["Dark Matter", "Dark Energy", "Cosmic Inflation", "Redshift"] },
-    { "id": "g4", "label": "Chemistry Concepts", "items": ["Metallic Bond", "Isotope", "Catalyst", "Valence"] }
+    {
+      "id": "g1",
+      "label": "Quantum Physics Terms",
+      "items": [
+        "Superposition",
+        "Entanglement",
+        "Wave Function",
+        "Qubit"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Evolutionary Concepts",
+      "items": [
+        "Natural Selection",
+        "Mutation",
+        "Adaptation",
+        "Speciation"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Cosmology Terms",
+      "items": [
+        "Dark Matter",
+        "Dark Energy",
+        "Cosmic Inflation",
+        "Redshift"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Chemistry Concepts",
+      "items": [
+        "Metallic Bond",
+        "Isotope",
+        "Catalyst",
+        "Valence"
+      ]
+    }
   ]
 }

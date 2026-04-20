@@ -7,32 +7,53 @@
     "theme": "technology",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 67
   },
   "groups": [
     {
       "id": "g1",
       "label": "Consumer Gadgets First Sold in the 1970s",
       "revealHint": "Analogue",
-      "items": ["Pocket Calculator", "VHS Recorder", "Walkman", "Digital Watch"]
+      "items": [
+        "Pocket Calculator",
+        "VHS Recorder",
+        "Walkman",
+        "Digital Watch"
+      ]
     },
     {
       "id": "g2",
       "label": "Consumer Gadgets First Sold in the 1980s",
       "revealHint": "Compact",
-      "items": ["CD Player", "Camcorder", "Mobile Phone", "Fax Machine"]
+      "items": [
+        "CD Player",
+        "Camcorder",
+        "Mobile Phone",
+        "Fax Machine"
+      ]
     },
     {
       "id": "g3",
       "label": "Consumer Gadgets First Sold in the 1990s",
       "revealHint": "Digital",
-      "items": ["Digital Camera", "DVD Player", "MP3 Player", "GPS Device"]
+      "items": [
+        "Digital Camera",
+        "DVD Player",
+        "MP3 Player",
+        "GPS Device"
+      ]
     },
     {
       "id": "g4",
       "label": "Consumer Gadgets First Sold in the 2000s",
       "revealHint": "Wireless",
-      "items": ["iPod", "Flat-Screen TV", "e-Reader", "Bluetooth Headset"]
+      "items": [
+        "iPod",
+        "Flat-Screen TV",
+        "e-Reader",
+        "Bluetooth Headset"
+      ]
     }
   ]
 }

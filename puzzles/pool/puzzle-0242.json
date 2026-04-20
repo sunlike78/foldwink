@@ -6,28 +6,49 @@
     "theme": "wine",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "reds",
       "label": "Red Grape Varieties",
-      "items": ["Merlot", "Cabernet", "Pinot Noir", "Shiraz"]
+      "items": [
+        "Merlot",
+        "Cabernet",
+        "Pinot Noir",
+        "Shiraz"
+      ]
     },
     {
       "id": "whites",
       "label": "White Grape Varieties",
-      "items": ["Chardonnay", "Sauvignon Blanc", "Riesling", "Pinot Grigio"]
+      "items": [
+        "Chardonnay",
+        "Sauvignon Blanc",
+        "Riesling",
+        "Pinot Grigio"
+      ]
     },
     {
       "id": "regions",
       "label": "Wine Regions",
-      "items": ["Bordeaux", "Tuscany", "Napa Valley", "Rioja"]
+      "items": [
+        "Bordeaux",
+        "Tuscany",
+        "Napa Valley",
+        "Rioja"
+      ]
     },
     {
       "id": "vessels",
       "label": "Wine Service",
-      "items": ["Decanter", "Wine Glass", "Corkscrew", "Aerator"]
+      "items": [
+        "Decanter",
+        "Wine Glass",
+        "Corkscrew",
+        "Aerator"
+      ]
     }
   ]
 }

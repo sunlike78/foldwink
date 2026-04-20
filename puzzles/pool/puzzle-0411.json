@@ -3,11 +3,53 @@
   "title": "Poetry Forms",
   "difficulty": "easy",
   "editorialSummary": "Poetry types grouped by structure: syllabic forms, rhyming forms, narrative forms, and free/experimental forms. False trail: Ode might seem narrative but is a lyric form; Ballad is narrative.",
-  "meta": { "theme": "literature", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "literature",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 29
+  },
   "groups": [
-    { "id": "g1", "label": "SYLLABIC FORMS", "items": ["Haiku", "Tanka", "Cinquain", "Etheree"] },
-    { "id": "g2", "label": "RHYMING FORMS", "items": ["Sonnet", "Limerick", "Villanelle", "Rondel"] },
-    { "id": "g3", "label": "NARRATIVE POETRY", "items": ["Ballad", "Epic", "Idyll", "Lay"] },
-    { "id": "g4", "label": "FREE & MODERN FORMS", "items": ["Free Verse", "Prose Poem", "Found Poem", "Concrete Poem"] }
+    {
+      "id": "g1",
+      "label": "SYLLABIC FORMS",
+      "items": [
+        "Haiku",
+        "Tanka",
+        "Cinquain",
+        "Etheree"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "RHYMING FORMS",
+      "items": [
+        "Sonnet",
+        "Limerick",
+        "Villanelle",
+        "Rondel"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NARRATIVE POETRY",
+      "items": [
+        "Ballad",
+        "Epic",
+        "Idyll",
+        "Lay"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "FREE & MODERN FORMS",
+      "items": [
+        "Free Verse",
+        "Prose Poem",
+        "Found Poem",
+        "Concrete Poem"
+      ]
+    }
   ]
 }

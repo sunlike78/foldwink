@@ -2,31 +2,55 @@
   "id": "de-0323",
   "title": "Götter nach Funktion",
   "difficulty": "medium",
-  "meta": { "theme": "Mythologie Götter", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Mythologie Götter",
+    "batch": "de-batch-04",
+    "difficultyScore": 25
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Kriegsgott verschiedener",
       "revealHint": "Götter des Kampfes",
-      "items": ["Ares", "Mars", "Thor", "Tyr"]
+      "items": [
+        "Ares",
+        "Mars",
+        "Thor",
+        "Tyr"
+      ]
     },
     {
       "id": "group_b",
       "label": "Weisheitsgott verschiedener",
       "revealHint": "Götter des Wissens",
-      "items": ["Athene", "Odin", "Thoth", "Saraswati"]
+      "items": [
+        "Athene",
+        "Odin",
+        "Thoth",
+        "Saraswati"
+      ]
     },
     {
       "id": "group_c",
       "label": "Fruchtbarkeitsgott",
       "revealHint": "Götter der Ernte",
-      "items": ["Demeter", "Freya", "Osiris", "Ceres"]
+      "items": [
+        "Demeter",
+        "Freya",
+        "Osiris",
+        "Ceres"
+      ]
     },
     {
       "id": "group_d",
       "label": "Todesgott verschiedener",
       "revealHint": "Götter des Todes",
-      "items": ["Hades", "Hel", "Anubis", "Yama"]
+      "items": [
+        "Hades",
+        "Hel",
+        "Anubis",
+        "Yama"
+      ]
     }
   ]
 }

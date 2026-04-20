@@ -7,32 +7,53 @@
     "theme": "transport",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 34
   },
   "groups": [
     {
       "id": "victorian",
       "label": "Victorian Transport",
       "revealHint": "Horse",
-      "items": ["Hansom Cab", "Penny-Farthing", "Stagecoach", "Steam Train"]
+      "items": [
+        "Hansom Cab",
+        "Penny-Farthing",
+        "Stagecoach",
+        "Steam Train"
+      ]
     },
     {
       "id": "wartime",
       "label": "Wartime Vehicles",
       "revealHint": "War",
-      "items": ["Jeep", "Spitfire", "U-Boat", "Tank"]
+      "items": [
+        "Jeep",
+        "Spitfire",
+        "U-Boat",
+        "Tank"
+      ]
     },
     {
       "id": "fifties",
       "label": "1950s Auto Icons",
       "revealHint": "Chrome",
-      "items": ["Tailfin", "Whitewall Tire", "Hood Ornament", "Hot Rod"]
+      "items": [
+        "Tailfin",
+        "Whitewall Tire",
+        "Hood Ornament",
+        "Hot Rod"
+      ]
     },
     {
       "id": "space",
       "label": "Space-Age Craft",
       "revealHint": "Rocket",
-      "items": ["Lunar Module", "Space Shuttle", "Satellite", "Rover"]
+      "items": [
+        "Lunar Module",
+        "Space Shuttle",
+        "Satellite",
+        "Rover"
+      ]
     }
   ]
 }

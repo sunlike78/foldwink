@@ -2,11 +2,51 @@
   "id": "de-0012",
   "title": "Sportarten",
   "difficulty": "easy",
-  "meta": { "theme": "Sportarten", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Sportarten",
+    "batch": "de-batch-01",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "group_a", "label": "Ballsport", "items": ["Fußball", "Basketball", "Volleyball", "Tennis"] },
-    { "id": "group_b", "label": "Kampfsport", "items": ["Judo", "Karate", "Boxen", "Ringen"] },
-    { "id": "group_c", "label": "Wassersport", "items": ["Schwimmen", "Rudern", "Segeln", "Surfen"] },
-    { "id": "group_d", "label": "Wintersport", "items": ["Skifahren", "Snowboard", "Rodeln", "Eislaufen"] }
+    {
+      "id": "group_a",
+      "label": "Ballsport",
+      "items": [
+        "Fußball",
+        "Basketball",
+        "Volleyball",
+        "Tennis"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kampfsport",
+      "items": [
+        "Judo",
+        "Karate",
+        "Boxen",
+        "Ringen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wassersport",
+      "items": [
+        "Schwimmen",
+        "Rudern",
+        "Segeln",
+        "Surfen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wintersport",
+      "items": [
+        "Skifahren",
+        "Snowboard",
+        "Rodeln",
+        "Eislaufen"
+      ]
+    }
   ]
 }

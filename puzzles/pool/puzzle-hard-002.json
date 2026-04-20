@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "light",
       "label": "Types of light",
       "revealHint": "Light",
-      "items": ["Pilot", "Flash", "Beam", "Strobe"]
+      "items": [
+        "Pilot",
+        "Flash",
+        "Beam",
+        "Strobe"
+      ]
     },
     {
       "id": "card",
       "label": "Card game terms",
       "revealHint": "Cards",
-      "items": ["Dealer", "Shuffle", "Draw", "Fold"]
+      "items": [
+        "Dealer",
+        "Shuffle",
+        "Draw",
+        "Fold"
+      ]
     },
     {
       "id": "court",
       "label": "Court terms",
       "revealHint": "Court",
-      "items": ["Judge", "Witness", "Appeal", "Bail"]
+      "items": [
+        "Judge",
+        "Witness",
+        "Appeal",
+        "Bail"
+      ]
     },
     {
       "id": "fabric",
       "label": "Fabric actions",
       "revealHint": "Fabric",
-      "items": ["Weave", "Dye", "Press", "Stitch"]
+      "items": [
+        "Weave",
+        "Dye",
+        "Press",
+        "Stitch"
+      ]
     }
   ]
 }

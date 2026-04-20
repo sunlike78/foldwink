@@ -2,31 +2,55 @@
   "id": "de-0389",
   "title": "Geologie Deutschland",
   "difficulty": "medium",
-  "meta": { "theme": "Geologie Deutschland", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Geologie Deutschland",
+    "batch": "de-batch-04",
+    "difficultyScore": 51
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Geologische Regionen",
       "revealHint": "Landschaftsräume",
-      "items": ["Mittelgebirge", "Norddeutsches Tief.", "Alpenvorland", "Rheinisches Schild"]
+      "items": [
+        "Mittelgebirge",
+        "Norddeutsches Tief.",
+        "Alpenvorland",
+        "Rheinisches Schild"
+      ]
     },
     {
       "id": "group_b",
       "label": "Gesteinsarten Deutschl.",
       "revealHint": "Gesteinstypen",
-      "items": ["Buntsandstein", "Muschelkalk", "Basalt", "Granit"]
+      "items": [
+        "Buntsandstein",
+        "Muschelkalk",
+        "Basalt",
+        "Granit"
+      ]
     },
     {
       "id": "group_c",
       "label": "Vulkane in Deutschland",
       "revealHint": "Eruptivgeschichte",
-      "items": ["Laacher See", "Vogelsberg", "Kaiserstuhl", "Eifelmaare"]
+      "items": [
+        "Laacher See",
+        "Vogelsberg",
+        "Kaiserstuhl",
+        "Eifelmaare"
+      ]
     },
     {
       "id": "group_d",
       "label": "Geologische Ereignisse",
       "revealHint": "Geolog. Geschichte",
-      "items": ["Variskische Faltung", "Alpenhebung", "Elster-Vergletscherung", "Kreideküste"]
+      "items": [
+        "Variskische Faltung",
+        "Alpenhebung",
+        "Elster-Vergletscherung",
+        "Kreideküste"
+      ]
     }
   ]
 }

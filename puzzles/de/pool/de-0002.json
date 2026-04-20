@@ -2,11 +2,51 @@
   "id": "de-0002",
   "title": "Wetterkunde",
   "difficulty": "easy",
-  "meta": { "theme": "Wetter", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Wetter",
+    "batch": "de-batch-01",
+    "difficultyScore": 15
+  },
   "groups": [
-    { "id": "group_a", "label": "Niederschlagsarten", "items": ["Regen", "Schnee", "Hagel", "Nieselregen"] },
-    { "id": "group_b", "label": "Wolkentypen", "items": ["Cumulus", "Stratus", "Cirrus", "Nimbus"] },
-    { "id": "group_c", "label": "Wetterwarnungen", "items": ["Sturm", "Frost", "Glatteis", "Gewitter"] },
-    { "id": "group_d", "label": "Messgeräte", "items": ["Thermometer", "Barometer", "Hygrometer", "Anemometer"] }
+    {
+      "id": "group_a",
+      "label": "Niederschlagsarten",
+      "items": [
+        "Regen",
+        "Schnee",
+        "Hagel",
+        "Nieselregen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Wolkentypen",
+      "items": [
+        "Cumulus",
+        "Stratus",
+        "Cirrus",
+        "Nimbus"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wetterwarnungen",
+      "items": [
+        "Sturm",
+        "Frost",
+        "Glatteis",
+        "Gewitter"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Messgeräte",
+      "items": [
+        "Thermometer",
+        "Barometer",
+        "Hygrometer",
+        "Anemometer"
+      ]
+    }
   ]
 }

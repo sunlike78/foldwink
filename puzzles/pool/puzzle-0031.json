@@ -6,22 +6,45 @@
     {
       "id": "stationery",
       "label": "Stationery",
-      "items": ["Stapler", "Eraser", "Highlighter", "Tape"]
+      "items": [
+        "Stapler",
+        "Eraser",
+        "Highlighter",
+        "Tape"
+      ]
     },
     {
       "id": "currency",
       "label": "World Currencies",
-      "items": ["Rupee", "Franc", "Lira", "Krone"]
+      "items": [
+        "Rupee",
+        "Franc",
+        "Lira",
+        "Krone"
+      ]
     },
     {
       "id": "trees",
       "label": "Conifers",
-      "items": ["Pine", "Cedar", "Spruce", "Fir"]
+      "items": [
+        "Pine",
+        "Cedar",
+        "Spruce",
+        "Fir"
+      ]
     },
     {
       "id": "cookies",
       "label": "Cookies",
-      "items": ["Oatmeal", "Shortbread", "Macaron", "Biscotti"]
+      "items": [
+        "Oatmeal",
+        "Shortbread",
+        "Macaron",
+        "Biscotti"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 11
+  }
 }

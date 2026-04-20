@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 42
   },
   "groups": [
     {
       "id": "fire",
       "label": "Fire matches",
       "revealHint": "Fire",
-      "items": ["Strike", "Sulfur", "Flint", "Wick"]
+      "items": [
+        "Strike",
+        "Sulfur",
+        "Flint",
+        "Wick"
+      ]
     },
     {
       "id": "sport",
       "label": "Sports match",
       "revealHint": "Sport",
-      "items": ["Fixture", "Referee", "Halftime", "Scoreboard"]
+      "items": [
+        "Fixture",
+        "Referee",
+        "Halftime",
+        "Scoreboard"
+      ]
     },
     {
       "id": "pair",
       "label": "Matching pairs",
       "revealHint": "Pair",
-      "items": ["Twin", "Mirror", "Counterpart", "Double"]
+      "items": [
+        "Twin",
+        "Mirror",
+        "Counterpart",
+        "Double"
+      ]
     },
     {
       "id": "pattern",
       "label": "Pattern matching",
       "revealHint": "Pattern",
-      "items": ["Regex", "Template", "Wildcard", "Filter"]
+      "items": [
+        "Regex",
+        "Template",
+        "Wildcard",
+        "Filter"
+      ]
     }
   ]
 }

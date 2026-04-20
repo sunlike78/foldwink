@@ -7,35 +7,56 @@
     "theme": "linguistics",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 39
   },
   "groups": [
     {
       "id": "g1",
       "label": "Alphabetic Scripts",
       "revealHint": "Alphabet",
-      "items": ["Latin", "Cyrillic", "Greek", "Armenian"],
+      "items": [
+        "Latin",
+        "Cyrillic",
+        "Greek",
+        "Armenian"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Syllabic Scripts",
       "revealHint": "Syllabary",
-      "items": ["Hiragana", "Katakana", "Cherokee", "Linear B"],
+      "items": [
+        "Hiragana",
+        "Katakana",
+        "Cherokee",
+        "Linear B"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Logographic Scripts",
       "revealHint": "Logograph",
-      "items": ["Chinese Characters", "Egyptian Hieroglyphs", "Sumerian Cuneiform", "Mayan Glyphs"],
+      "items": [
+        "Chinese Characters",
+        "Egyptian Hieroglyphs",
+        "Sumerian Cuneiform",
+        "Mayan Glyphs"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Abjad Scripts",
       "revealHint": "Consonants",
-      "items": ["Arabic", "Hebrew Script", "Phoenician", "Syriac"],
+      "items": [
+        "Arabic",
+        "Hebrew Script",
+        "Phoenician",
+        "Syriac"
+      ],
       "color": "purple"
     }
   ]

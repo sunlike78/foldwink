@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "thematic",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "blade",
       "label": "Sharp edges",
       "revealHint": "Edge",
-      "items": ["Scalpel", "Razor", "Dagger", "Sickle"]
+      "items": [
+        "Scalpel",
+        "Razor",
+        "Dagger",
+        "Sickle"
+      ]
     },
     {
       "id": "mind",
       "label": "Sharp mind",
       "revealHint": "Mind",
-      "items": ["Astute", "Shrewd", "Perceptive", "Cunning"]
+      "items": [
+        "Astute",
+        "Shrewd",
+        "Perceptive",
+        "Cunning"
+      ]
     },
     {
       "id": "taste",
       "label": "Sharp flavour",
       "revealHint": "Flavour",
-      "items": ["Vinegar", "Mustard", "Wasabi", "Horseradish"]
+      "items": [
+        "Vinegar",
+        "Mustard",
+        "Wasabi",
+        "Horseradish"
+      ]
     },
     {
       "id": "sound",
       "label": "Sharp sound",
       "revealHint": "Sound",
-      "items": ["Whistle", "Screech", "Crack", "Snap"]
+      "items": [
+        "Whistle",
+        "Screech",
+        "Crack",
+        "Snap"
+      ]
     }
   ]
 }

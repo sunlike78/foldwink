@@ -6,28 +6,49 @@
     "theme": "everyday",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "mailables",
       "label": "Mailed Items",
-      "items": ["Letter", "Greeting Card", "Birthday Card", "Magazine"]
+      "items": [
+        "Letter",
+        "Greeting Card",
+        "Birthday Card",
+        "Magazine"
+      ]
     },
     {
       "id": "stamps",
       "label": "Postal Markings",
-      "items": ["Postage Stamp", "Postmark", "Barcode", "Return Address"]
+      "items": [
+        "Postage Stamp",
+        "Postmark",
+        "Barcode",
+        "Return Address"
+      ]
     },
     {
       "id": "services",
       "label": "Mail Services",
-      "items": ["First Class", "Registered", "Express", "Certified"]
+      "items": [
+        "First Class",
+        "Registered",
+        "Express",
+        "Certified"
+      ]
     },
     {
       "id": "staff",
       "label": "Postal Staff",
-      "items": ["Postman", "Clerk", "Sorter", "Courier"]
+      "items": [
+        "Postman",
+        "Clerk",
+        "Sorter",
+        "Courier"
+      ]
     }
   ]
 }

@@ -6,22 +6,45 @@
     {
       "id": "coffee",
       "label": "Coffee Drinks",
-      "items": ["Espresso", "Latte", "Macchiato", "Cortado"]
+      "items": [
+        "Espresso",
+        "Latte",
+        "Macchiato",
+        "Cortado"
+      ]
     },
     {
       "id": "tea",
       "label": "Tea Leaves",
-      "items": ["Oolong", "Darjeeling", "Assam", "Sencha"]
+      "items": [
+        "Oolong",
+        "Darjeeling",
+        "Assam",
+        "Sencha"
+      ]
     },
     {
       "id": "juice",
       "label": "Juice",
-      "items": ["Orange", "Apple", "Grapefruit", "Cranberry"]
+      "items": [
+        "Orange",
+        "Apple",
+        "Grapefruit",
+        "Cranberry"
+      ]
     },
     {
       "id": "pastries",
       "label": "Pastries",
-      "items": ["Croissant", "Muffin", "Scone", "Danish"]
+      "items": [
+        "Croissant",
+        "Muffin",
+        "Scone",
+        "Danish"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

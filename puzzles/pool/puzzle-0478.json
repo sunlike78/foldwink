@@ -3,11 +3,57 @@
   "title": "Weight Class",
   "difficulty": "medium",
   "editorialSummary": "Combat sport weight classes sorted by sport (boxing, wrestling, MMA, and judo). False trail: weight class names (flyweight, bantamweight, etc.) are shared across sports, so players may try to group by name rather than sport. The canonical grouping is by the governing body and sport that uses those exact classes.",
-  "meta": { "theme": "combat sport weight classes", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "combat sport weight classes",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 63
+  },
   "groups": [
-    { "id": "g1", "label": "BOXING (WBC)", "revealHint": "Boxing", "items": ["Minimumweight", "Super Flyweight", "Super Featherweight", "Super Welterweight"] },
-    { "id": "g2", "label": "UFC / MMA", "revealHint": "MMA", "items": ["Strawweight", "Flyweight", "Bantamweight", "Featherweight"] },
-    { "id": "g3", "label": "FREESTYLE WRESTLING", "revealHint": "Wrestling", "items": ["57 kg", "65 kg", "74 kg", "86 kg"] },
-    { "id": "g4", "label": "JUDO", "revealHint": "Judo", "items": ["Extra-Lightweight", "Half-Lightweight", "Lightweight", "Half-Middleweight"] }
+    {
+      "id": "g1",
+      "label": "BOXING (WBC)",
+      "revealHint": "Boxing",
+      "items": [
+        "Minimumweight",
+        "Super Flyweight",
+        "Super Featherweight",
+        "Super Welterweight"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "UFC / MMA",
+      "revealHint": "MMA",
+      "items": [
+        "Strawweight",
+        "Flyweight",
+        "Bantamweight",
+        "Featherweight"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "FREESTYLE WRESTLING",
+      "revealHint": "Wrestling",
+      "items": [
+        "57 kg",
+        "65 kg",
+        "74 kg",
+        "86 kg"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "JUDO",
+      "revealHint": "Judo",
+      "items": [
+        "Extra-Lightweight",
+        "Half-Lightweight",
+        "Lightweight",
+        "Half-Middleweight"
+      ]
+    }
   ]
 }

@@ -2,11 +2,51 @@
   "id": "de-0082",
   "title": "Nationalparks Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "Nationalparks Deutschland", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Nationalparks Deutschland",
+    "batch": "de-batch-04",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "group_a", "label": "Küsten-Nationalparks", "items": ["Wattenmeer NDS", "Wattenmeer HH", "Wattenmeer SH", "Jasmund"] },
-    { "id": "group_b", "label": "Mittelgebirgs-Parks", "items": ["Harz", "Eifel", "Hunsrück-Hochwald", "Schwarzwald"] },
-    { "id": "group_c", "label": "Alpen-Nationalparks", "items": ["Berchtesgaden", "Bayerischer Wald", "Gesäuse", "Hohe Tauern"] },
-    { "id": "group_d", "label": "Tiefland-Nationalparks", "items": ["Müritz", "Unteres Odertal", "Kellerwald", "Sächs. Schweiz"] }
+    {
+      "id": "group_a",
+      "label": "Küsten-Nationalparks",
+      "items": [
+        "Wattenmeer NDS",
+        "Wattenmeer HH",
+        "Wattenmeer SH",
+        "Jasmund"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Mittelgebirgs-Parks",
+      "items": [
+        "Harz",
+        "Eifel",
+        "Hunsrück-Hochwald",
+        "Schwarzwald"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Alpen-Nationalparks",
+      "items": [
+        "Berchtesgaden",
+        "Bayerischer Wald",
+        "Gesäuse",
+        "Hohe Tauern"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Tiefland-Nationalparks",
+      "items": [
+        "Müritz",
+        "Unteres Odertal",
+        "Kellerwald",
+        "Sächs. Schweiz"
+      ]
+    }
   ]
 }

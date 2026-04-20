@@ -6,28 +6,49 @@
     "theme": "sports",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 60
   },
   "groups": [
     {
       "id": "extreme-air",
       "label": "Air Extreme Sports",
-      "items": ["Skydiving", "Paragliding", "Bungee Jumping", "Hang Gliding"]
+      "items": [
+        "Skydiving",
+        "Paragliding",
+        "Bungee Jumping",
+        "Hang Gliding"
+      ]
     },
     {
       "id": "extreme-water",
       "label": "Water Extreme Sports",
-      "items": ["Surfing", "White Water Rafting", "Kitesurfing", "Cliff Diving"]
+      "items": [
+        "Surfing",
+        "White Water Rafting",
+        "Kitesurfing",
+        "Cliff Diving"
+      ]
     },
     {
       "id": "extreme-climb",
       "label": "Climbing Sports",
-      "items": ["Rock Climbing", "Rappelling", "Ice Climbing", "Mountaineering"]
+      "items": [
+        "Rock Climbing",
+        "Rappelling",
+        "Ice Climbing",
+        "Mountaineering"
+      ]
     },
     {
       "id": "extreme-wheels",
       "label": "Wheeled Extreme",
-      "items": ["BMX", "Skateboarding", "Mountain Biking", "Inline Skating"]
+      "items": [
+        "BMX",
+        "Skateboarding",
+        "Mountain Biking",
+        "Inline Skating"
+      ]
     }
   ]
 }

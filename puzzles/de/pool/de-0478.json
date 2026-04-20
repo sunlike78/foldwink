@@ -2,11 +2,55 @@
   "id": "de-0478",
   "title": "Slow Food vs. Fast Food",
   "difficulty": "medium",
-  "meta": { "theme": "lebensmittel", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "lebensmittel",
+    "batch": "de-batch-05",
+    "difficultyScore": 44
+  },
   "groups": [
-    { "id": "group_a", "label": "Slow Food Konzepte", "revealHint": "Genuss mit Bedacht", "items": ["Presidia", "Arche des Geschmacks", "Geschmackserziehung", "Terra Madre"] },
-    { "id": "group_b", "label": "Slow Food Gerichte", "revealHint": "Trad. Speisen", "items": ["Zwiebelrostbraten", "Sauerbraten", "Maultaschen", "Gaisburger Marsch"] },
-    { "id": "group_c", "label": "Fast Food Konzepte", "revealHint": "Schnell & günstig", "items": ["Drive-Through", "Value Menu", "Supersize", "Systemgastronomie"] },
-    { "id": "group_d", "label": "Fast Food Ketten", "revealHint": "Bekannte Marken", "items": ["McDonalds", "Burger King", "KFC", "Subway"] }
+    {
+      "id": "group_a",
+      "label": "Slow Food Konzepte",
+      "revealHint": "Genuss mit Bedacht",
+      "items": [
+        "Presidia",
+        "Arche des Geschmacks",
+        "Geschmackserziehung",
+        "Terra Madre"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Slow Food Gerichte",
+      "revealHint": "Trad. Speisen",
+      "items": [
+        "Zwiebelrostbraten",
+        "Sauerbraten",
+        "Maultaschen",
+        "Gaisburger Marsch"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Fast Food Konzepte",
+      "revealHint": "Schnell & günstig",
+      "items": [
+        "Drive-Through",
+        "Value Menu",
+        "Supersize",
+        "Systemgastronomie"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Fast Food Ketten",
+      "revealHint": "Bekannte Marken",
+      "items": [
+        "McDonalds",
+        "Burger King",
+        "KFC",
+        "Subway"
+      ]
+    }
   ]
 }

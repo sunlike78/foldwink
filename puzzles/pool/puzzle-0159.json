@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "lock",
       "label": "Lock and key",
       "revealHint": "Lock",
-      "items": ["Padlock", "Deadbolt", "Tumbler", "Master Key"]
+      "items": [
+        "Padlock",
+        "Deadbolt",
+        "Tumbler",
+        "Master Key"
+      ]
     },
     {
       "id": "music",
       "label": "Musical key",
       "revealHint": "Music",
-      "items": ["Transpose", "Modulate", "Signature", "Harmony"]
+      "items": [
+        "Transpose",
+        "Modulate",
+        "Signature",
+        "Harmony"
+      ]
     },
     {
       "id": "map",
       "label": "Map key",
       "revealHint": "Map",
-      "items": ["Legend", "Symbol", "Scale Bar", "Compass Rose"]
+      "items": [
+        "Legend",
+        "Symbol",
+        "Scale Bar",
+        "Compass Rose"
+      ]
     },
     {
       "id": "keyboard",
       "label": "Keyboard keys",
       "revealHint": "Keyboard",
-      "items": ["Spacebar", "Enter", "Shift", "Backspace"]
+      "items": [
+        "Spacebar",
+        "Enter",
+        "Shift",
+        "Backspace"
+      ]
     }
   ]
 }

@@ -8,25 +8,48 @@
       "id": "beach",
       "label": "Beach",
       "revealHint": "BEACH",
-      "items": ["Shell", "Dune", "Crab", "Surfboard"]
+      "items": [
+        "Shell",
+        "Dune",
+        "Crab",
+        "Surfboard"
+      ]
     },
     {
       "id": "forest",
       "label": "Forest",
       "revealHint": "FOREST",
-      "items": ["Moss", "Acorn", "Deer", "Mushroom"]
+      "items": [
+        "Moss",
+        "Acorn",
+        "Deer",
+        "Mushroom"
+      ]
     },
     {
       "id": "desert",
       "label": "Desert",
       "revealHint": "DESERT",
-      "items": ["Cactus", "Oasis", "Scorpion", "Camel"]
+      "items": [
+        "Cactus",
+        "Oasis",
+        "Scorpion",
+        "Camel"
+      ]
     },
     {
       "id": "mountain",
       "label": "Mountain",
       "revealHint": "PEAK",
-      "items": ["Summit", "Glacier", "Eagle", "Avalanche"]
+      "items": [
+        "Summit",
+        "Glacier",
+        "Eagle",
+        "Avalanche"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 9
+  }
 }

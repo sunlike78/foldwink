@@ -6,24 +6,49 @@
     "theme": "tools",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "fasten",
       "label": "Fastening Tools",
-      "items": ["Hammer", "Screwdriver", "Wrench", "Pliers"]
+      "items": [
+        "Hammer",
+        "Screwdriver",
+        "Wrench",
+        "Pliers"
+      ]
     },
     {
       "id": "measure",
       "label": "Measuring Tools",
-      "items": ["Level", "Tape Measure", "Ruler", "Caliper"]
+      "items": [
+        "Level",
+        "Tape Measure",
+        "Ruler",
+        "Caliper"
+      ]
     },
     {
       "id": "cut",
       "label": "Cutting Tools",
-      "items": ["Hacksaw", "Chisel", "Utility Knife", "Tin Snips"]
+      "items": [
+        "Hacksaw",
+        "Chisel",
+        "Utility Knife",
+        "Tin Snips"
+      ]
     },
-    { "id": "power", "label": "Power Tools", "items": ["Drill", "Jigsaw", "Sander", "Grinder"] }
+    {
+      "id": "power",
+      "label": "Power Tools",
+      "items": [
+        "Drill",
+        "Jigsaw",
+        "Sander",
+        "Grinder"
+      ]
+    }
   ]
 }

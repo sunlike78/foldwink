@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Мировые рекорды Гиннеса",
-    "batch": "ru-batch-18"
+    "batch": "ru-batch-18",
+    "difficultyScore": 55
   },
   "groups": [
     {

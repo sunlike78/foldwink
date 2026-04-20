@@ -3,11 +3,53 @@
   "title": "Word Mashup",
   "difficulty": "easy",
   "editorialSummary": "Portmanteau words sorted by their source domains: food portmanteaus (brunch, spork…), technology portmanteaus (podcast, emoticon…), animal portmanteaus (liger, mule…), and pop-culture/modern portmanteaus. Each item is a genuine blended word.",
-  "meta": { "theme": "portmanteau words", "categoryType": "word-pattern", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "portmanteau words",
+    "categoryType": "word-pattern",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 22
+  },
   "groups": [
-    { "id": "g1", "label": "FOOD PORTMANTEAUS", "items": ["Brunch", "Spork", "Turducken", "Cronut"] },
-    { "id": "g2", "label": "TECH PORTMANTEAUS", "items": ["Podcast", "Emoticon", "Pixel", "Netiquette"] },
-    { "id": "g3", "label": "ANIMAL BLENDS", "items": ["Liger", "Mule", "Zorse", "Wholphin"] },
-    { "id": "g4", "label": "MODERN CULTURE BLENDS", "items": ["Bromance", "Frenemy", "Infomercial", "Chillax"] }
+    {
+      "id": "g1",
+      "label": "FOOD PORTMANTEAUS",
+      "items": [
+        "Brunch",
+        "Spork",
+        "Turducken",
+        "Cronut"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "TECH PORTMANTEAUS",
+      "items": [
+        "Podcast",
+        "Emoticon",
+        "Pixel",
+        "Netiquette"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ANIMAL BLENDS",
+      "items": [
+        "Liger",
+        "Mule",
+        "Zorse",
+        "Wholphin"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "MODERN CULTURE BLENDS",
+      "items": [
+        "Bromance",
+        "Frenemy",
+        "Infomercial",
+        "Chillax"
+      ]
+    }
   ]
 }

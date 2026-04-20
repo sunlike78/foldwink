@@ -3,11 +3,57 @@
   "title": "Still Open",
   "difficulty": "hard",
   "editorialSummary": "Famous unsolved problems in mathematics and science grouped by field. Pure mathematics: Riemann Hypothesis, P vs NP, Goldbach's Conjecture, Collatz Conjecture — all open problems in pure math/theoretical CS (P vs NP straddles both but is formally a math problem). Physics: Dark Matter Identity, Quantum Gravity, Turbulence (Navier-Stokes smooth solutions), Matter-Antimatter Asymmetry — foundational open questions in physics. Biology/medicine: Origin of Life, Protein Folding (now partially solved by AlphaFold but the general mechanism is still debated), Consciousness, Ageing Mechanism — open biological questions. Cosmology: Nature of Dark Energy, Shape of the Universe, Hubble Tension, Fermi Paradox. Hard because P vs NP looks computational rather than mathematical; Protein Folding looks chemical; Consciousness looks philosophical; Hubble Tension looks like a physics measurement dispute rather than cosmology.",
-  "meta": { "theme": "famous unsolved problems", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "famous unsolved problems",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "g1", "label": "UNSOLVED PURE MATHEMATICS", "revealHint": "Proof", "items": ["Riemann Hypothesis", "Goldbach's Conjecture", "Collatz Conjecture", "Twin Prime Conjecture"] },
-    { "id": "g2", "label": "UNSOLVED PHYSICS", "revealHint": "Force", "items": ["Dark Matter Identity", "Quantum Gravity", "Matter-Antimatter Asymmetry", "P vs NP"] },
-    { "id": "g3", "label": "UNSOLVED BIOLOGY", "revealHint": "Life", "items": ["Origin of Life", "Consciousness", "Ageing Mechanism", "Why We Sleep"] },
-    { "id": "g4", "label": "UNSOLVED COSMOLOGY", "revealHint": "Cosmos", "items": ["Nature of Dark Energy", "Shape of the Universe", "Hubble Tension", "Fermi Paradox"] }
+    {
+      "id": "g1",
+      "label": "UNSOLVED PURE MATHEMATICS",
+      "revealHint": "Proof",
+      "items": [
+        "Riemann Hypothesis",
+        "Goldbach's Conjecture",
+        "Collatz Conjecture",
+        "Twin Prime Conjecture"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "UNSOLVED PHYSICS",
+      "revealHint": "Force",
+      "items": [
+        "Dark Matter Identity",
+        "Quantum Gravity",
+        "Matter-Antimatter Asymmetry",
+        "P vs NP"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "UNSOLVED BIOLOGY",
+      "revealHint": "Life",
+      "items": [
+        "Origin of Life",
+        "Consciousness",
+        "Ageing Mechanism",
+        "Why We Sleep"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "UNSOLVED COSMOLOGY",
+      "revealHint": "Cosmos",
+      "items": [
+        "Nature of Dark Energy",
+        "Shape of the Universe",
+        "Hubble Tension",
+        "Fermi Paradox"
+      ]
+    }
   ]
 }

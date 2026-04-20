@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Национальные парки и заповедники",
-    "batch": "ru-batch-15"
+    "batch": "ru-batch-15",
+    "difficultyScore": 43
   },
   "groups": [
     {

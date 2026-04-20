@@ -6,24 +6,49 @@
     "theme": "science",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 34
   },
   "groups": [
     {
       "id": "planet",
       "label": "Rocky Planets",
-      "items": ["Mercury", "Venus", "Mars", "Earth"]
+      "items": [
+        "Mercury",
+        "Venus",
+        "Mars",
+        "Earth"
+      ]
     },
-    { "id": "gas", "label": "Gas Giants", "items": ["Jupiter", "Saturn", "Uranus", "Neptune"] },
+    {
+      "id": "gas",
+      "label": "Gas Giants",
+      "items": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ]
+    },
     {
       "id": "small",
       "label": "Small Bodies",
-      "items": ["Asteroid", "Comet", "Meteoroid", "Dwarf Planet"]
+      "items": [
+        "Asteroid",
+        "Comet",
+        "Meteoroid",
+        "Dwarf Planet"
+      ]
     },
     {
       "id": "star",
       "label": "Star Types",
-      "items": ["Red Dwarf", "Supergiant", "Neutron Star", "White Dwarf"]
+      "items": [
+        "Red Dwarf",
+        "Supergiant",
+        "Neutron Star",
+        "White Dwarf"
+      ]
     }
   ]
 }

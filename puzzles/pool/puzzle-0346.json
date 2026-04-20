@@ -7,35 +7,56 @@
     "theme": "art",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 47
   },
   "groups": [
     {
       "id": "g1",
       "label": "17th-Century Art Movements",
       "revealHint": "Baroque",
-      "items": ["Baroque", "Dutch Golden Age", "Caravaggism", "Tenebrism"],
+      "items": [
+        "Baroque",
+        "Dutch Golden Age",
+        "Caravaggism",
+        "Tenebrism"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "18th-Century Art Movements",
       "revealHint": "Rococo",
-      "items": ["Rococo", "Neoclassicism", "Grand Manner", "Veduta"],
+      "items": [
+        "Rococo",
+        "Neoclassicism",
+        "Grand Manner",
+        "Veduta"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Late 19th-Century Art Movements",
       "revealHint": "Symbolism",
-      "items": ["Symbolism", "Post-Impressionism", "Art Nouveau", "Pointillism"],
+      "items": [
+        "Symbolism",
+        "Post-Impressionism",
+        "Art Nouveau",
+        "Pointillism"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Early 20th-Century Art Movements",
       "revealHint": "Futurism",
-      "items": ["Futurism", "Dadaism", "Constructivism", "De Stijl"],
+      "items": [
+        "Futurism",
+        "Dadaism",
+        "Constructivism",
+        "De Stijl"
+      ],
       "color": "purple"
     }
   ]

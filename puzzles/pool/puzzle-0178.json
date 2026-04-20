@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "media",
       "label": "Press (media)",
       "revealHint": "Media",
-      "items": ["Reporter", "Headline", "Byline", "Newsroom"]
+      "items": [
+        "Reporter",
+        "Headline",
+        "Byline",
+        "Newsroom"
+      ]
     },
     {
       "id": "button",
       "label": "Press (button)",
       "revealHint": "Button",
-      "items": ["Click", "Toggle", "Switch", "Latch"]
+      "items": [
+        "Click",
+        "Toggle",
+        "Switch",
+        "Latch"
+      ]
     },
     {
       "id": "gym",
       "label": "Press (exercise)",
       "revealHint": "Exercise",
-      "items": ["Bench Press", "Shoulder Press", "Barbell", "Rep"]
+      "items": [
+        "Bench Press",
+        "Shoulder Press",
+        "Barbell",
+        "Rep"
+      ]
     },
     {
       "id": "wine",
       "label": "Press (wine)",
       "revealHint": "Wine",
-      "items": ["Vineyard", "Grape", "Barrel", "Cider"]
+      "items": [
+        "Vineyard",
+        "Grape",
+        "Barrel",
+        "Cider"
+      ]
     }
   ]
 }

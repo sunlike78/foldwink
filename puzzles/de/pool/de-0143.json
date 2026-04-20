@@ -2,11 +2,51 @@
   "id": "de-0143",
   "title": "Volleyball und Beach",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "group_a", "label": "Positionen", "items": ["Libero", "Zuspieler", "Mittelblock", "Außenangreifer"] },
-    { "id": "group_b", "label": "Techniken", "items": ["Aufschlag", "Annahme", "Zuspiel", "Angriff"] },
-    { "id": "group_c", "label": "Spielregeln", "items": ["Satz", "Punkt", "Netzberührung", "Aufstellung"] },
-    { "id": "group_d", "label": "Turniere", "items": ["Bundesliga", "Champions League", "Weltliga", "Olympia"] }
+    {
+      "id": "group_a",
+      "label": "Positionen",
+      "items": [
+        "Libero",
+        "Zuspieler",
+        "Mittelblock",
+        "Außenangreifer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Techniken",
+      "items": [
+        "Aufschlag",
+        "Annahme",
+        "Zuspiel",
+        "Angriff"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spielregeln",
+      "items": [
+        "Satz",
+        "Punkt",
+        "Netzberührung",
+        "Aufstellung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Turniere",
+      "items": [
+        "Bundesliga",
+        "Champions League",
+        "Weltliga",
+        "Olympia"
+      ]
+    }
   ]
 }

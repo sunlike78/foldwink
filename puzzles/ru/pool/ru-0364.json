@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Конституционные системы мира",
-    "batch": "ru-batch-15"
+    "batch": "ru-batch-15",
+    "difficultyScore": 41
   },
   "groups": [
     {

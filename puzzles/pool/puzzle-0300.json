@@ -7,32 +7,53 @@
     "theme": "literature",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 39
   },
   "groups": [
     {
       "id": "g1",
       "label": "European Romanticism Writers",
       "revealHint": "Feeling",
-      "items": ["Wordsworth", "Keats", "Shelley", "Byron"]
+      "items": [
+        "Wordsworth",
+        "Keats",
+        "Shelley",
+        "Byron"
+      ]
     },
     {
       "id": "g2",
       "label": "American Transcendentalist Writers",
       "revealHint": "Concord",
-      "items": ["Emerson", "Thoreau", "Whitman", "Fuller"]
+      "items": [
+        "Emerson",
+        "Thoreau",
+        "Whitman",
+        "Fuller"
+      ]
     },
     {
       "id": "g3",
       "label": "French Symbolist Poets",
       "revealHint": "Symbol",
-      "items": ["Baudelaire", "Verlaine", "Rimbaud", "Mallarme"]
+      "items": [
+        "Baudelaire",
+        "Verlaine",
+        "Rimbaud",
+        "Mallarme"
+      ]
     },
     {
       "id": "g4",
       "label": "Modernist Novelists",
       "revealHint": "Stream",
-      "items": ["Virginia Woolf", "James Joyce", "William Faulkner", "Dorothy Richardson"]
+      "items": [
+        "Virginia Woolf",
+        "James Joyce",
+        "William Faulkner",
+        "Dorothy Richardson"
+      ]
     }
   ]
 }

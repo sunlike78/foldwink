@@ -6,28 +6,49 @@
     "theme": "culture",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "chinese",
       "label": "Chinese Symbols",
-      "items": ["Dragon", "Phoenix", "Jade", "Yin Yang"]
+      "items": [
+        "Dragon",
+        "Phoenix",
+        "Jade",
+        "Yin Yang"
+      ]
     },
     {
       "id": "japanese",
       "label": "Japanese Symbols",
-      "items": ["Cherry Blossom", "Koi", "Torii Gate", "Bonsai"]
+      "items": [
+        "Cherry Blossom",
+        "Koi",
+        "Torii Gate",
+        "Bonsai"
+      ]
     },
     {
       "id": "food-chinese",
       "label": "Chinese Food",
-      "items": ["Dumpling", "Spring Roll", "Fried Rice", "Bao Bun"]
+      "items": [
+        "Dumpling",
+        "Spring Roll",
+        "Fried Rice",
+        "Bao Bun"
+      ]
     },
     {
       "id": "food-japanese",
       "label": "Japanese Food",
-      "items": ["Ramen", "Tempura", "Onigiri", "Miso Soup"]
+      "items": [
+        "Ramen",
+        "Tempura",
+        "Onigiri",
+        "Miso Soup"
+      ]
     }
   ]
 }

@@ -2,31 +2,55 @@
   "id": "de-0386",
   "title": "Anthropologie",
   "difficulty": "medium",
-  "meta": { "theme": "Anthropologie", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Anthropologie",
+    "batch": "de-batch-04",
+    "difficultyScore": 20
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Hominiden-Arten",
       "revealHint": "Menschenartige",
-      "items": ["Homo erectus", "Neandertaler", "Homo habilis", "Denisova"]
+      "items": [
+        "Homo erectus",
+        "Neandertaler",
+        "Homo habilis",
+        "Denisova"
+      ]
     },
     {
       "id": "group_b",
       "label": "Werkzeugkulturen",
       "revealHint": "Steinzeit-Technik",
-      "items": ["Oldowan", "Acheuléen", "Moustérien", "Aurignacien"]
+      "items": [
+        "Oldowan",
+        "Acheuléen",
+        "Moustérien",
+        "Aurignacien"
+      ]
     },
     {
       "id": "group_c",
       "label": "Gesellschaftsformen",
       "revealHint": "Soziale Strukturen",
-      "items": ["Nomaden", "Sesshaft", "Stammesgesell.", "Häuptlingstum"]
+      "items": [
+        "Nomaden",
+        "Sesshaft",
+        "Stammesgesell.",
+        "Häuptlingstum"
+      ]
     },
     {
       "id": "group_d",
       "label": "Anthropologie-Begriffe",
       "revealHint": "Fachvokabular",
-      "items": ["Kulturrelativismus", "Ethnozentrismus", "Participant Obs.", "Feldarbeit"]
+      "items": [
+        "Kulturrelativismus",
+        "Ethnozentrismus",
+        "Participant Obs.",
+        "Feldarbeit"
+      ]
     }
   ]
 }

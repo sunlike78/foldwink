@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "animal",
       "label": "Seal the animal",
       "revealHint": "Ocean",
-      "items": ["Flipper", "Blubber", "Pup", "Whiskers"]
+      "items": [
+        "Flipper",
+        "Blubber",
+        "Pup",
+        "Whiskers"
+      ]
     },
     {
       "id": "wax",
       "label": "Wax seal",
       "revealHint": "Stamp",
-      "items": ["Insignia", "Crest", "Signet", "Parchment"]
+      "items": [
+        "Insignia",
+        "Crest",
+        "Signet",
+        "Parchment"
+      ]
     },
     {
       "id": "close",
       "label": "Seal tightly",
       "revealHint": "Close",
-      "items": ["Airtight", "Gasket", "Caulk", "Weatherproof"]
+      "items": [
+        "Airtight",
+        "Gasket",
+        "Caulk",
+        "Weatherproof"
+      ]
     },
     {
       "id": "navy",
       "label": "Navy SEAL",
       "revealHint": "Team",
-      "items": ["Commando", "Trident", "Special Ops", "Frogman"]
+      "items": [
+        "Commando",
+        "Trident",
+        "Special Ops",
+        "Frogman"
+      ]
     }
   ]
 }

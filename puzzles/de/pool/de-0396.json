@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Epidemiologie",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 27
   },
   "groups": [
     {

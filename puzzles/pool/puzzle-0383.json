@@ -3,11 +3,53 @@
   "title": "Weather Watch",
   "difficulty": "easy",
   "editorialSummary": "Weather events by type. False trail: Hail feels storm-like but is purely precipitation. Aurora might read as a storm but is definitionally optical.",
-  "meta": { "theme": "nature", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "nature",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 22
+  },
   "groups": [
-    { "id": "g1", "label": "PRECIPITATION", "items": ["Hail", "Sleet", "Drizzle", "Freezing Rain"] },
-    { "id": "g2", "label": "WIND EVENTS", "items": ["Gust", "Squall", "Gale", "Sirocco"] },
-    { "id": "g3", "label": "OPTICAL PHENOMENA", "items": ["Aurora", "Halo", "Sun Dog", "Mirage"] },
-    { "id": "g4", "label": "SEVERE STORMS", "items": ["Tornado", "Blizzard", "Derecho", "Supercell"] }
+    {
+      "id": "g1",
+      "label": "PRECIPITATION",
+      "items": [
+        "Hail",
+        "Sleet",
+        "Drizzle",
+        "Freezing Rain"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "WIND EVENTS",
+      "items": [
+        "Gust",
+        "Squall",
+        "Gale",
+        "Sirocco"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "OPTICAL PHENOMENA",
+      "items": [
+        "Aurora",
+        "Halo",
+        "Sun Dog",
+        "Mirage"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SEVERE STORMS",
+      "items": [
+        "Tornado",
+        "Blizzard",
+        "Derecho",
+        "Supercell"
+      ]
+    }
   ]
 }

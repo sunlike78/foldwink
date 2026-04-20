@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "picture",
       "label": "Picture frame",
       "revealHint": "Picture",
-      "items": ["Matting", "Gallery", "Canvas", "Mounting"]
+      "items": [
+        "Matting",
+        "Gallery",
+        "Canvas",
+        "Mounting"
+      ]
     },
     {
       "id": "body",
       "label": "Body frame",
       "revealHint": "Body",
-      "items": ["Skeleton", "Posture", "Stature", "Build"]
+      "items": [
+        "Skeleton",
+        "Posture",
+        "Stature",
+        "Build"
+      ]
     },
     {
       "id": "accuse",
       "label": "Frame (accuse)",
       "revealHint": "Accuse",
-      "items": ["Setup", "Conspiracy", "Fabricate", "Alibi"]
+      "items": [
+        "Setup",
+        "Conspiracy",
+        "Fabricate",
+        "Alibi"
+      ]
     },
     {
       "id": "film",
       "label": "Film frame",
       "revealHint": "Film",
-      "items": ["Storyboard", "Shot", "Sequence", "Reel"]
+      "items": [
+        "Storyboard",
+        "Shot",
+        "Sequence",
+        "Reel"
+      ]
     }
   ]
 }

@@ -8,25 +8,48 @@
       "id": "transport-system",
       "label": "Transport System",
       "revealHint": "BLOOD",
-      "items": ["Heart", "Artery", "Vein", "Capillary"]
+      "items": [
+        "Heart",
+        "Artery",
+        "Vein",
+        "Capillary"
+      ]
     },
     {
       "id": "support-system",
       "label": "Support System",
       "revealHint": "BONE",
-      "items": ["Skull", "Spine", "Rib", "Pelvis"]
+      "items": [
+        "Skull",
+        "Spine",
+        "Rib",
+        "Pelvis"
+      ]
     },
     {
       "id": "defense-system",
       "label": "Defense System",
       "revealHint": "IMMUNE",
-      "items": ["Thymus", "Spleen", "Tonsil", "Lymph Node"]
+      "items": [
+        "Thymus",
+        "Spleen",
+        "Tonsil",
+        "Lymph Node"
+      ]
     },
     {
       "id": "message-system",
       "label": "Message System",
       "revealHint": "SIGNAL",
-      "items": ["Neuron", "Axon", "Synapse", "Dendrite"]
+      "items": [
+        "Neuron",
+        "Axon",
+        "Synapse",
+        "Dendrite"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 17
+  }
 }

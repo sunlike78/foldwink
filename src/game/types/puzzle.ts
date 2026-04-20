@@ -29,6 +29,14 @@ export interface PuzzleMeta {
   batch?: string;
   /** Editorial status: "approved" is the default; others document workflow state. */
   status?: "approved" | "needs-review" | "pilot";
+  /**
+   * Heuristic within-tier difficulty (0–100, ascending = easier→harder).
+   * Populated by `scripts/score-puzzles.mjs`. Drives the standard-mode
+   * ramp: the ramped pools in `loader*.ts` sort by this field. Daily mode
+   * ignores it on purpose — the daily puzzle must stay deterministic by
+   * id ordering.
+   */
+  difficultyScore?: number;
 }
 
 export interface PuzzleGroup {

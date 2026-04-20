@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Deutsche Sagen und Legenden",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 30
   },
   "groups": [
     {

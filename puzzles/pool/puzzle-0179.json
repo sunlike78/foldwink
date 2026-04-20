@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "tv",
       "label": "TV channel",
       "revealHint": "TV",
-      "items": ["Broadcast", "Satellite", "Cable", "Antenna"]
+      "items": [
+        "Broadcast",
+        "Satellite",
+        "Cable",
+        "Antenna"
+      ]
     },
     {
       "id": "water",
       "label": "Water channel",
       "revealHint": "Water",
-      "items": ["Canal", "Aqueduct", "Strait", "Spillway"]
+      "items": [
+        "Canal",
+        "Aqueduct",
+        "Strait",
+        "Spillway"
+      ]
     },
     {
       "id": "comms",
       "label": "Communication channel",
       "revealHint": "Comms",
-      "items": ["Frequency", "Wavelength", "Transmitter", "Receiver"]
+      "items": [
+        "Frequency",
+        "Wavelength",
+        "Transmitter",
+        "Receiver"
+      ]
     },
     {
       "id": "business",
       "label": "Distribution channel",
       "revealHint": "Distribution",
-      "items": ["Retail", "Wholesale", "Supply", "Logistics"]
+      "items": [
+        "Retail",
+        "Wholesale",
+        "Supply",
+        "Logistics"
+      ]
     }
   ]
 }

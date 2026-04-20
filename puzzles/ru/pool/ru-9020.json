@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Искусство и культура — фольклор",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 36
   },
   "groups": [
     {

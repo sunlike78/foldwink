@@ -2,11 +2,51 @@
   "id": "de-0084",
   "title": "Das Rheintal",
   "difficulty": "easy",
-  "meta": { "theme": "Rheintal", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Rheintal",
+    "batch": "de-batch-04",
+    "difficultyScore": 34
+  },
   "groups": [
-    { "id": "group_a", "label": "Rheinburgen", "items": ["Burg Rheinstein", "Burg Katz", "Maus", "Burg Gutenfels"] },
-    { "id": "group_b", "label": "Rheinweine", "items": ["Riesling", "Spätburgunder", "Müller-Thurgau", "Silvaner"] },
-    { "id": "group_c", "label": "Rheinorte", "items": ["Rüdesheim", "Bacharach", "Sankt Goar", "Boppard"] },
-    { "id": "group_d", "label": "Rhein-Sagen", "items": ["Loreley", "Nibelungen", "Mäuseturm", "Drachenfels"] }
+    {
+      "id": "group_a",
+      "label": "Rheinburgen",
+      "items": [
+        "Burg Rheinstein",
+        "Burg Katz",
+        "Maus",
+        "Burg Gutenfels"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Rheinweine",
+      "items": [
+        "Riesling",
+        "Spätburgunder",
+        "Müller-Thurgau",
+        "Silvaner"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Rheinorte",
+      "items": [
+        "Rüdesheim",
+        "Bacharach",
+        "Sankt Goar",
+        "Boppard"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Rhein-Sagen",
+      "items": [
+        "Loreley",
+        "Nibelungen",
+        "Mäuseturm",
+        "Drachenfels"
+      ]
+    }
   ]
 }

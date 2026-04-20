@@ -2,11 +2,53 @@
   "id": "puzzle-0361",
   "title": "Professional kitchen",
   "difficulty": "easy",
-  "meta": { "theme": "food", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 43
+  },
   "groups": [
-    { "id": "cutting", "label": "Cutting Tools", "items": ["Mandoline", "Mezzaluna", "Cleaver", "Paring Knife"] },
-    { "id": "measuring", "label": "Measuring Tools", "items": ["Digital Scale", "Candy Thermometer", "Measuring Cup", "Probe Thermometer"] },
-    { "id": "mixing", "label": "Mixing Equipment", "items": ["Stand Mixer", "Pastry Cutter", "Balloon Whisk", "Dough Hook"] },
-    { "id": "heat", "label": "Heat Equipment", "items": ["Salamander", "Bain-Marie", "Rondeau", "Induction Plate"] }
+    {
+      "id": "cutting",
+      "label": "Cutting Tools",
+      "items": [
+        "Mandoline",
+        "Mezzaluna",
+        "Cleaver",
+        "Paring Knife"
+      ]
+    },
+    {
+      "id": "measuring",
+      "label": "Measuring Tools",
+      "items": [
+        "Digital Scale",
+        "Candy Thermometer",
+        "Measuring Cup",
+        "Probe Thermometer"
+      ]
+    },
+    {
+      "id": "mixing",
+      "label": "Mixing Equipment",
+      "items": [
+        "Stand Mixer",
+        "Pastry Cutter",
+        "Balloon Whisk",
+        "Dough Hook"
+      ]
+    },
+    {
+      "id": "heat",
+      "label": "Heat Equipment",
+      "items": [
+        "Salamander",
+        "Bain-Marie",
+        "Rondeau",
+        "Induction Plate"
+      ]
+    }
   ]
 }

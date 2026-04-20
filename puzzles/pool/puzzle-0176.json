@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 35
   },
   "groups": [
     {
       "id": "music",
       "label": "Music track",
       "revealHint": "Music",
-      "items": ["Album", "Single", "Remix", "Playlist"]
+      "items": [
+        "Album",
+        "Single",
+        "Remix",
+        "Playlist"
+      ]
     },
     {
       "id": "athletics",
       "label": "Running track",
       "revealHint": "Athletics",
-      "items": ["Lane", "Hurdle", "Relay", "Starting Block"]
+      "items": [
+        "Lane",
+        "Hurdle",
+        "Relay",
+        "Starting Block"
+      ]
     },
     {
       "id": "rail",
       "label": "Railway track",
       "revealHint": "Railway",
-      "items": ["Sleeper", "Junction", "Signal Box", "Platform"]
+      "items": [
+        "Sleeper",
+        "Junction",
+        "Signal Box",
+        "Platform"
+      ]
     },
     {
       "id": "evidence",
       "label": "Tracking evidence",
       "revealHint": "Evidence",
-      "items": ["Footprint", "Trail", "GPS", "Surveillance"]
+      "items": [
+        "Footprint",
+        "Trail",
+        "GPS",
+        "Surveillance"
+      ]
     }
   ]
 }

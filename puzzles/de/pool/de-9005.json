@@ -2,27 +2,51 @@
   "id": "de-9005",
   "title": "Küche nach Methode",
   "difficulty": "easy",
-  "meta": { "theme": "Gastronomie-Techniken DACH", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Gastronomie-Techniken DACH",
+    "batch": "de-batch-11",
+    "difficultyScore": 35
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Räuchern",
-      "items": ["Schwarzwälder Schinken", "Aal aus der Elbe", "Tiroler Bauchspeck", "Forelle vom Bergsee"]
+      "items": [
+        "Schwarzwälder Schinken",
+        "Aal aus der Elbe",
+        "Tiroler Bauchspeck",
+        "Forelle vom Bergsee"
+      ]
     },
     {
       "id": "group_b",
       "label": "Fermentieren",
-      "items": ["Sauerkraut gestampft", "Brotteig angesetzt", "Bier im Keller gereift", "Buttermilch gerührt"]
+      "items": [
+        "Sauerkraut gestampft",
+        "Brotteig angesetzt",
+        "Bier im Keller gereift",
+        "Buttermilch gerührt"
+      ]
     },
     {
       "id": "group_c",
       "label": "Einlegen",
-      "items": ["Gurken im Steintopf", "Pflaumen in Essig", "Zwiebeln in Öl", "Paprika im Glas"]
+      "items": [
+        "Gurken im Steintopf",
+        "Pflaumen in Essig",
+        "Zwiebeln in Öl",
+        "Paprika im Glas"
+      ]
     },
     {
       "id": "group_d",
       "label": "Schmoren",
-      "items": ["Sauerbraten im Bräter", "Kalbshaxe zugedeckt", "Gulasch kleine Flamme", "Rouladen im Saft"]
+      "items": [
+        "Sauerbraten im Bräter",
+        "Kalbshaxe zugedeckt",
+        "Gulasch kleine Flamme",
+        "Rouladen im Saft"
+      ]
     }
   ]
 }

@@ -7,35 +7,56 @@
     "theme": "philosophy",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 47
   },
   "groups": [
     {
       "id": "g1",
       "label": "Valid Argument Forms",
       "revealHint": "Valid",
-      "items": ["Modus Ponens", "Modus Tollens", "Disjunctive Syllogism", "Hypothetical Syllogism"],
+      "items": [
+        "Modus Ponens",
+        "Modus Tollens",
+        "Disjunctive Syllogism",
+        "Hypothetical Syllogism"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Informal Fallacies",
       "revealHint": "Fallacy",
-      "items": ["Straw Man", "Ad Hominem", "False Dichotomy", "Slippery Slope"],
+      "items": [
+        "Straw Man",
+        "Ad Hominem",
+        "False Dichotomy",
+        "Slippery Slope"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Formal Fallacies",
       "revealHint": "Invalid",
-      "items": ["Affirming the Consequent", "Denying the Antecedent", "Undistributed Middle", "Four Terms"],
+      "items": [
+        "Affirming the Consequent",
+        "Denying the Antecedent",
+        "Undistributed Middle",
+        "Four Terms"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Logic Operators",
       "revealHint": "Connective",
-      "items": ["Conjunction", "Disjunction", "Negation", "Biconditional"],
+      "items": [
+        "Conjunction",
+        "Disjunction",
+        "Negation",
+        "Biconditional"
+      ],
       "color": "purple"
     }
   ]

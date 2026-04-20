@@ -8,25 +8,48 @@
       "id": "festivals-of-light",
       "label": "Festivals of Light",
       "revealHint": "LIGHT",
-      "items": ["Diwali", "Hanukkah", "Loi Krathong", "St Lucia Day"]
+      "items": [
+        "Diwali",
+        "Hanukkah",
+        "Loi Krathong",
+        "St Lucia Day"
+      ]
     },
     {
       "id": "festivals-of-water",
       "label": "Festivals of Water",
       "revealHint": "WATER",
-      "items": ["Songkran", "Holi Phera", "La Tomatina", "Water Splashing"]
+      "items": [
+        "Songkran",
+        "Holi Phera",
+        "La Tomatina",
+        "Water Splashing"
+      ]
     },
     {
       "id": "festivals-of-music",
       "label": "Music Festivals",
       "revealHint": "MUSIC",
-      "items": ["Glastonbury", "Montreux", "Fuji Rock", "Roskilde"]
+      "items": [
+        "Glastonbury",
+        "Montreux",
+        "Fuji Rock",
+        "Roskilde"
+      ]
     },
     {
       "id": "festivals-of-food",
       "label": "Food Festivals",
       "revealHint": "FOOD",
-      "items": ["Oktoberfest", "La Mercè", "Pizzafest", "Mooncake"]
+      "items": [
+        "Oktoberfest",
+        "La Mercè",
+        "Pizzafest",
+        "Mooncake"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 39
+  }
 }

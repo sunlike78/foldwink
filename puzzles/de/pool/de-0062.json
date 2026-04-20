@@ -2,11 +2,51 @@
   "id": "de-0062",
   "title": "Kochtechniken",
   "difficulty": "easy",
-  "meta": { "theme": "Kochtechniken", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "Kochtechniken",
+    "batch": "de-batch-03",
+    "difficultyScore": 52
+  },
   "groups": [
-    { "id": "group_a", "label": "Bratmethoden", "items": ["Anbraten", "Schmoren", "Frittieren", "Dünsten"] },
-    { "id": "group_b", "label": "Kochmethoden", "items": ["Kochen", "Dämpfen", "Blanchieren", "Pochieren"] },
-    { "id": "group_c", "label": "Backmethoden", "items": ["Überbacken", "Braten im Ofen", "Garen", "Gratinieren"] },
-    { "id": "group_d", "label": "Grillmethoden", "items": ["Direktes Grillen", "Indirektes Grillen", "Räuchern", "Plancha"] }
+    {
+      "id": "group_a",
+      "label": "Bratmethoden",
+      "items": [
+        "Anbraten",
+        "Schmoren",
+        "Frittieren",
+        "Dünsten"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kochmethoden",
+      "items": [
+        "Kochen",
+        "Dämpfen",
+        "Blanchieren",
+        "Pochieren"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Backmethoden",
+      "items": [
+        "Überbacken",
+        "Braten im Ofen",
+        "Garen",
+        "Gratinieren"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Grillmethoden",
+      "items": [
+        "Direktes Grillen",
+        "Indirektes Grillen",
+        "Räuchern",
+        "Plancha"
+      ]
+    }
   ]
 }

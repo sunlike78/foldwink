@@ -6,22 +6,45 @@
     {
       "id": "citrus",
       "label": "Citrus Fruits",
-      "items": ["Lime", "Grapefruit", "Mandarin", "Kumquat"]
+      "items": [
+        "Lime",
+        "Grapefruit",
+        "Mandarin",
+        "Kumquat"
+      ]
     },
     {
       "id": "berries",
       "label": "Berries",
-      "items": ["Raspberry", "Blueberry", "Blackberry", "Gooseberry"]
+      "items": [
+        "Raspberry",
+        "Blueberry",
+        "Blackberry",
+        "Gooseberry"
+      ]
     },
     {
       "id": "melons",
       "label": "Melons",
-      "items": ["Watermelon", "Cantaloupe", "Honeydew", "Galia"]
+      "items": [
+        "Watermelon",
+        "Cantaloupe",
+        "Honeydew",
+        "Galia"
+      ]
     },
     {
       "id": "tropical",
       "label": "Tropical Fruits",
-      "items": ["Mango", "Papaya", "Guava", "Lychee"]
+      "items": [
+        "Mango",
+        "Papaya",
+        "Guava",
+        "Lychee"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

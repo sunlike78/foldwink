@@ -2,11 +2,51 @@
   "id": "de-0148",
   "title": "Gewichtheben und Kraftsport",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 28
+  },
   "groups": [
-    { "id": "group_a", "label": "Übungen", "items": ["Reißen", "Stoßen", "Bankdrücken", "Kreuzheben"] },
-    { "id": "group_b", "label": "Ausrüstung", "items": ["Langhantel", "Kurzhantel", "Gürtel", "Griffe"] },
-    { "id": "group_c", "label": "Wettkampfarten", "items": ["Gewichtheben", "Powerlifting", "Strongman", "Kettlebell"] },
-    { "id": "group_d", "label": "Kraftsportbegriffe", "items": ["Maximum", "Volumen", "Intensität", "Wiederholung"] }
+    {
+      "id": "group_a",
+      "label": "Übungen",
+      "items": [
+        "Reißen",
+        "Stoßen",
+        "Bankdrücken",
+        "Kreuzheben"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ausrüstung",
+      "items": [
+        "Langhantel",
+        "Kurzhantel",
+        "Gürtel",
+        "Griffe"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wettkampfarten",
+      "items": [
+        "Gewichtheben",
+        "Powerlifting",
+        "Strongman",
+        "Kettlebell"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kraftsportbegriffe",
+      "items": [
+        "Maximum",
+        "Volumen",
+        "Intensität",
+        "Wiederholung"
+      ]
+    }
   ]
 }

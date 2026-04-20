@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Искусство и культура — музыка",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 33
   },
   "groups": [
     {

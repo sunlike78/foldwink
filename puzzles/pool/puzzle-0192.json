@@ -6,28 +6,49 @@
     "theme": "everyday",
     "categoryType": "classification",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "input",
       "label": "Input Devices",
-      "items": ["Keyboard", "Mouse", "Trackpad", "Stylus"]
+      "items": [
+        "Keyboard",
+        "Mouse",
+        "Trackpad",
+        "Stylus"
+      ]
     },
     {
       "id": "output",
       "label": "Output Devices",
-      "items": ["Monitor", "Speakers", "Printer", "Headphones"]
+      "items": [
+        "Monitor",
+        "Speakers",
+        "Printer",
+        "Headphones"
+      ]
     },
     {
       "id": "storage",
       "label": "Storage Devices",
-      "items": ["Hard Drive", "SSD", "USB Stick", "SD Card"]
+      "items": [
+        "Hard Drive",
+        "SSD",
+        "USB Stick",
+        "SD Card"
+      ]
     },
     {
       "id": "network",
       "label": "Network Gear",
-      "items": ["Router", "Modem", "Switch", "Ethernet"]
+      "items": [
+        "Router",
+        "Modem",
+        "Switch",
+        "Ethernet"
+      ]
     }
   ]
 }

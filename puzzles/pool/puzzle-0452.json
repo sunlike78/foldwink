@@ -3,11 +3,57 @@
   "title": "Skull and Crossbones",
   "difficulty": "medium",
   "editorialSummary": "Pirate terminology sorted by role/context: ship and navigation terms, combat and raiding terms, pirate ranks and roles, and pirate punishments/codes. The false trail: several terms like 'Articles' or 'Parley' sound administrative but have combat connotations in pop culture.",
-  "meta": { "theme": "pirate terminology", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "pirate terminology",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 45
+  },
   "groups": [
-    { "id": "g1", "label": "SHIP / NAVIGATION", "items": ["Crow's Nest", "Starboard", "Bilge", "Fo'c'sle"], "revealHint": "Ship" },
-    { "id": "g2", "label": "RAIDING / COMBAT", "items": ["Broadside", "Boarding", "Grappling Hook", "Cutlass"], "revealHint": "Raid" },
-    { "id": "g3", "label": "RANKS / ROLES", "items": ["Quartermaster", "Boatswain", "Powder Monkey", "Helmsman"], "revealHint": "Rank" },
-    { "id": "g4", "label": "CODES / PUNISHMENT", "items": ["Articles", "Parley", "Marooning", "Flogging"], "revealHint": "Code" }
+    {
+      "id": "g1",
+      "label": "SHIP / NAVIGATION",
+      "items": [
+        "Crow's Nest",
+        "Starboard",
+        "Bilge",
+        "Fo'c'sle"
+      ],
+      "revealHint": "Ship"
+    },
+    {
+      "id": "g2",
+      "label": "RAIDING / COMBAT",
+      "items": [
+        "Broadside",
+        "Boarding",
+        "Grappling Hook",
+        "Cutlass"
+      ],
+      "revealHint": "Raid"
+    },
+    {
+      "id": "g3",
+      "label": "RANKS / ROLES",
+      "items": [
+        "Quartermaster",
+        "Boatswain",
+        "Powder Monkey",
+        "Helmsman"
+      ],
+      "revealHint": "Rank"
+    },
+    {
+      "id": "g4",
+      "label": "CODES / PUNISHMENT",
+      "items": [
+        "Articles",
+        "Parley",
+        "Marooning",
+        "Flogging"
+      ],
+      "revealHint": "Code"
+    }
   ]
 }

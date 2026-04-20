@@ -2,11 +2,55 @@
   "id": "ru-0234",
   "title": "Автомобильные марки",
   "difficulty": "medium",
-  "meta": { "theme": "Автомобильные бренды по странам", "batch": "ru-batch-08" },
+  "meta": {
+    "theme": "Автомобильные бренды по странам",
+    "batch": "ru-batch-08",
+    "difficultyScore": 6
+  },
   "groups": [
-    { "id": "german_cars", "label": "Германия", "revealHint": "ГЕРМАНИЯ", "items": ["BMW", "Mercedes", "Audi", "Volkswagen"] },
-    { "id": "japanese_cars", "label": "Япония", "revealHint": "ЯПОНИЯ", "items": ["Toyota", "Honda", "Nissan", "Mazda"] },
-    { "id": "american_cars", "label": "США", "revealHint": "США", "items": ["Ford", "Chevrolet", "Tesla", "Jeep"] },
-    { "id": "italian_cars", "label": "Италия", "revealHint": "ИТАЛИЯ", "items": ["Ferrari", "Lamborghini", "Alfa Romeo", "Fiat"] }
+    {
+      "id": "german_cars",
+      "label": "Германия",
+      "revealHint": "ГЕРМАНИЯ",
+      "items": [
+        "BMW",
+        "Mercedes",
+        "Audi",
+        "Volkswagen"
+      ]
+    },
+    {
+      "id": "japanese_cars",
+      "label": "Япония",
+      "revealHint": "ЯПОНИЯ",
+      "items": [
+        "Toyota",
+        "Honda",
+        "Nissan",
+        "Mazda"
+      ]
+    },
+    {
+      "id": "american_cars",
+      "label": "США",
+      "revealHint": "США",
+      "items": [
+        "Ford",
+        "Chevrolet",
+        "Tesla",
+        "Jeep"
+      ]
+    },
+    {
+      "id": "italian_cars",
+      "label": "Италия",
+      "revealHint": "ИТАЛИЯ",
+      "items": [
+        "Ferrari",
+        "Lamborghini",
+        "Alfa Romeo",
+        "Fiat"
+      ]
+    }
   ]
 }

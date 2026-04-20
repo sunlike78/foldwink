@@ -2,11 +2,51 @@
   "id": "de-0167",
   "title": "Düsseldorf Sehenswürdigkeiten",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Altstadt", "items": ["Bolkerstraße", "Burgplatz", "Lambertuskirche", "Rheinuferpromenade"] },
-    { "id": "group_b", "label": "Museen", "items": ["Kunstsammlung NRW", "Kunsthalle", "Hetjens-Museum", "Filmmuseum"] },
-    { "id": "group_c", "label": "Stadtteile", "items": ["Pempelfort", "Flingern", "Gerresheim", "Benrath"] },
-    { "id": "group_d", "label": "Mode und Stil", "items": ["Königsallee", "Modewochen", "Japan-Viertel", "Designkaufhäuser"] }
+    {
+      "id": "group_a",
+      "label": "Altstadt",
+      "items": [
+        "Bolkerstraße",
+        "Burgplatz",
+        "Lambertuskirche",
+        "Rheinuferpromenade"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Museen",
+      "items": [
+        "Kunstsammlung NRW",
+        "Kunsthalle",
+        "Hetjens-Museum",
+        "Filmmuseum"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Stadtteile",
+      "items": [
+        "Pempelfort",
+        "Flingern",
+        "Gerresheim",
+        "Benrath"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Mode und Stil",
+      "items": [
+        "Königsallee",
+        "Modewochen",
+        "Japan-Viertel",
+        "Designkaufhäuser"
+      ]
+    }
   ]
 }

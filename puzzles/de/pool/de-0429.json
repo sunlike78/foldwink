@@ -2,11 +2,55 @@
   "id": "de-0429",
   "title": "NATO-Begriffe",
   "difficulty": "medium",
-  "meta": { "theme": "politik", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "politik",
+    "batch": "de-batch-05",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "group_a", "label": "NATO-Strukturen", "revealHint": "Organisation", "items": ["Nordatlantikrat", "SHAPE", "Generalsekretär", "Kommandostruktur"] },
-    { "id": "group_b", "label": "NATO-Missionen", "revealHint": "Einsätze", "items": ["ISAF", "Kosovo-Einsatz", "Resolute Support", "Sea Guardian"] },
-    { "id": "group_c", "label": "NATO-Prinzipien", "revealHint": "Grundwerte", "items": ["Beistandspflicht", "Konsultationspflicht", "Koll. Verteidigung", "Art. 5"] },
-    { "id": "group_d", "label": "NATO-Geschichte", "revealHint": "Meilensteine", "items": ["Gründung 1949", "Osterweiterung", "Deutschlandsbeitritt", "Ende Kalter Krieg"] }
+    {
+      "id": "group_a",
+      "label": "NATO-Strukturen",
+      "revealHint": "Organisation",
+      "items": [
+        "Nordatlantikrat",
+        "SHAPE",
+        "Generalsekretär",
+        "Kommandostruktur"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "NATO-Missionen",
+      "revealHint": "Einsätze",
+      "items": [
+        "ISAF",
+        "Kosovo-Einsatz",
+        "Resolute Support",
+        "Sea Guardian"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "NATO-Prinzipien",
+      "revealHint": "Grundwerte",
+      "items": [
+        "Beistandspflicht",
+        "Konsultationspflicht",
+        "Koll. Verteidigung",
+        "Art. 5"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "NATO-Geschichte",
+      "revealHint": "Meilensteine",
+      "items": [
+        "Gründung 1949",
+        "Osterweiterung",
+        "Deutschlandsbeitritt",
+        "Ende Kalter Krieg"
+      ]
+    }
   ]
 }

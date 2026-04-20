@@ -3,11 +3,57 @@
   "title": "Shape Shifter",
   "difficulty": "medium",
   "editorialSummary": "Geometric transformations sorted by type: isometries (preserve shape and size), similarity transformations (preserve shape), projections, and topological transformations. The false trail: reflection and rotation are both isometries but players may classify by axis or direction instead.",
-  "meta": { "theme": "geometric transformations", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "geometric transformations",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 47
+  },
   "groups": [
-    { "id": "g1", "label": "ISOMETRIES", "items": ["Reflection", "Rotation", "Translation", "Glide Reflection"], "revealHint": "Isometry" },
-    { "id": "g2", "label": "SIMILARITY TRANSFORMS", "items": ["Dilation", "Scaling", "Spiral Similarity", "Homothety"], "revealHint": "Similarity" },
-    { "id": "g3", "label": "PROJECTIONS", "items": ["Orthographic", "Perspective", "Isometric", "Oblique"], "revealHint": "Projection" },
-    { "id": "g4", "label": "TOPOLOGICAL", "items": ["Homeomorphism", "Homotopy", "Deformation", "Inversion"], "revealHint": "Topology" }
+    {
+      "id": "g1",
+      "label": "ISOMETRIES",
+      "items": [
+        "Reflection",
+        "Rotation",
+        "Translation",
+        "Glide Reflection"
+      ],
+      "revealHint": "Isometry"
+    },
+    {
+      "id": "g2",
+      "label": "SIMILARITY TRANSFORMS",
+      "items": [
+        "Dilation",
+        "Scaling",
+        "Spiral Similarity",
+        "Homothety"
+      ],
+      "revealHint": "Similarity"
+    },
+    {
+      "id": "g3",
+      "label": "PROJECTIONS",
+      "items": [
+        "Orthographic",
+        "Perspective",
+        "Isometric",
+        "Oblique"
+      ],
+      "revealHint": "Projection"
+    },
+    {
+      "id": "g4",
+      "label": "TOPOLOGICAL",
+      "items": [
+        "Homeomorphism",
+        "Homotopy",
+        "Deformation",
+        "Inversion"
+      ],
+      "revealHint": "Topology"
+    }
   ]
 }

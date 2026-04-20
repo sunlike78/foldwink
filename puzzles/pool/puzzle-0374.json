@@ -2,11 +2,53 @@
   "id": "puzzle-0374",
   "title": "Skeletal regions",
   "difficulty": "easy",
-  "meta": { "theme": "anatomy", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "anatomy",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 29
+  },
   "groups": [
-    { "id": "skull", "label": "Skull Bones", "items": ["Frontal", "Parietal", "Temporal", "Occipital"] },
-    { "id": "spine", "label": "Vertebra Types", "items": ["Cervical", "Thoracic", "Lumbar", "Coccygeal"] },
-    { "id": "thorax", "label": "Thorax Bones", "items": ["Sternum", "True Rib", "Floating Rib", "Clavicle"] },
-    { "id": "girdle", "label": "Pelvic Girdle Bones", "items": ["Ilium", "Ischium", "Pubis", "Sacrum"] }
+    {
+      "id": "skull",
+      "label": "Skull Bones",
+      "items": [
+        "Frontal",
+        "Parietal",
+        "Temporal",
+        "Occipital"
+      ]
+    },
+    {
+      "id": "spine",
+      "label": "Vertebra Types",
+      "items": [
+        "Cervical",
+        "Thoracic",
+        "Lumbar",
+        "Coccygeal"
+      ]
+    },
+    {
+      "id": "thorax",
+      "label": "Thorax Bones",
+      "items": [
+        "Sternum",
+        "True Rib",
+        "Floating Rib",
+        "Clavicle"
+      ]
+    },
+    {
+      "id": "girdle",
+      "label": "Pelvic Girdle Bones",
+      "items": [
+        "Ilium",
+        "Ischium",
+        "Pubis",
+        "Sacrum"
+      ]
+    }
   ]
 }

@@ -3,11 +3,57 @@
   "title": "Jazz Club",
   "difficulty": "medium",
   "editorialSummary": "Jazz subgenres sorted by era and style. The false trail: Bebop and Hard Bop are closely related, and Cool Jazz and West Coast Jazz overlap, causing misplacements. Tabs reveal one letter per correct solve.",
-  "meta": { "theme": "jazz subgenres", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "jazz subgenres",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 66
+  },
   "groups": [
-    { "id": "g1", "label": "EARLY JAZZ STYLES", "items": ["Dixieland", "Swing", "Ragtime", "New Orleans Jazz"], "revealHint": "Early" },
-    { "id": "g2", "label": "BEBOP ERA", "items": ["Bebop", "Hard Bop", "Post-Bop", "Soul Jazz"], "revealHint": "Bebop" },
-    { "id": "g3", "label": "COOL / WEST COAST", "items": ["Cool Jazz", "West Coast Jazz", "Third Stream", "Chamber Jazz"], "revealHint": "Cool" },
-    { "id": "g4", "label": "FUSION / MODERN", "items": ["Jazz Fusion", "Acid Jazz", "Smooth Jazz", "Free Jazz"], "revealHint": "Fusion" }
+    {
+      "id": "g1",
+      "label": "EARLY JAZZ STYLES",
+      "items": [
+        "Dixieland",
+        "Swing",
+        "Ragtime",
+        "New Orleans Jazz"
+      ],
+      "revealHint": "Early"
+    },
+    {
+      "id": "g2",
+      "label": "BEBOP ERA",
+      "items": [
+        "Bebop",
+        "Hard Bop",
+        "Post-Bop",
+        "Soul Jazz"
+      ],
+      "revealHint": "Bebop"
+    },
+    {
+      "id": "g3",
+      "label": "COOL / WEST COAST",
+      "items": [
+        "Cool Jazz",
+        "West Coast Jazz",
+        "Third Stream",
+        "Chamber Jazz"
+      ],
+      "revealHint": "Cool"
+    },
+    {
+      "id": "g4",
+      "label": "FUSION / MODERN",
+      "items": [
+        "Jazz Fusion",
+        "Acid Jazz",
+        "Smooth Jazz",
+        "Free Jazz"
+      ],
+      "revealHint": "Fusion"
+    }
   ]
 }

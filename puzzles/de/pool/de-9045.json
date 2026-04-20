@@ -2,31 +2,55 @@
   "id": "de-9045",
   "title": "Zeichen am Horizont",
   "difficulty": "medium",
-  "meta": { "theme": "Wetterphänomene als Vorzeichen", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Wetterphänomene als Vorzeichen",
+    "batch": "de-batch-12",
+    "difficultyScore": 36
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Gewitter",
       "revealHint": "ELEKTRISCH GELADEN",
-      "items": ["Schwüle Luft drückt", "Ambosswolke quillt auf", "Riecht nach Ozon", "Haare stehen auf"]
+      "items": [
+        "Schwüle Luft drückt",
+        "Ambosswolke quillt auf",
+        "Riecht nach Ozon",
+        "Haare stehen auf"
+      ]
     },
     {
       "id": "group_b",
       "label": "Föhn",
       "revealHint": "WARMER FALLWIND ALPEN",
-      "items": ["Kopf dumpf und schwer", "Berge nah wie gemalt", "Luft ungewöhnlich klar", "Nervosität ohne Grund"]
+      "items": [
+        "Kopf dumpf und schwer",
+        "Berge nah wie gemalt",
+        "Luft ungewöhnlich klar",
+        "Nervosität ohne Grund"
+      ]
     },
     {
       "id": "group_c",
       "label": "Hagel",
       "revealHint": "EISKÖRNIGER SCHAUER",
-      "items": ["Prasseln auf Blechdach", "Weißer Teppich im Juni", "Auto beult ein", "Weinstock getroffen"]
+      "items": [
+        "Prasseln auf Blechdach",
+        "Weißer Teppich im Juni",
+        "Auto beult ein",
+        "Weinstock getroffen"
+      ]
     },
     {
       "id": "group_d",
       "label": "Nebel",
       "revealHint": "SICHT UNTER 100 METER",
-      "items": ["Laternen verschwimmen", "Stimmen ohne Gestalt", "Autobahn 30 km/h", "Tal verschluckt alles"]
+      "items": [
+        "Laternen verschwimmen",
+        "Stimmen ohne Gestalt",
+        "Autobahn 30 km/h",
+        "Tal verschluckt alles"
+      ]
     }
   ]
 }

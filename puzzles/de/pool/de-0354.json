@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Musiktheorie",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 10
   },
   "groups": [
     {

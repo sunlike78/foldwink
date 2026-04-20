@@ -2,11 +2,51 @@
   "id": "de-0118",
   "title": "Wimbledon und Tennis",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 22
+  },
   "groups": [
-    { "id": "group_a", "label": "Grand-Slam-Turniere", "items": ["Wimbledon", "Roland Garros", "US Open", "Australian Open"] },
-    { "id": "group_b", "label": "Ausrüstung", "items": ["Schläger", "Tennisball", "Netz", "Schweißband"] },
-    { "id": "group_c", "label": "Spieler-Begriffe", "items": ["Aufschlag", "Return", "Volley", "Smash"] },
-    { "id": "group_d", "label": "Spielbegriffe", "items": ["Vorteil", "Einstand", "Satz", "Match"] }
+    {
+      "id": "group_a",
+      "label": "Grand-Slam-Turniere",
+      "items": [
+        "Wimbledon",
+        "Roland Garros",
+        "US Open",
+        "Australian Open"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ausrüstung",
+      "items": [
+        "Schläger",
+        "Tennisball",
+        "Netz",
+        "Schweißband"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spieler-Begriffe",
+      "items": [
+        "Aufschlag",
+        "Return",
+        "Volley",
+        "Smash"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Spielbegriffe",
+      "items": [
+        "Vorteil",
+        "Einstand",
+        "Satz",
+        "Match"
+      ]
+    }
   ]
 }

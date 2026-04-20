@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Feste",
-    "batch": "de-batch-02"
+    "batch": "de-batch-02",
+    "difficultyScore": 44
   },
   "groups": [
     {

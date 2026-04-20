@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Deutsche Erfinder und Entdecker",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 34
   },
   "groups": [
     {

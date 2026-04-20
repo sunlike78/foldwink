@@ -53,6 +53,23 @@ export const DE_HARD_POOL: readonly Puzzle[] = DE_PUZZLE_POOL.filter(
   (p) => p.difficulty === "hard",
 );
 
+function compareByDifficultyScore(a: Puzzle, b: Puzzle): number {
+  const sa = a.meta?.difficultyScore ?? 50;
+  const sb = b.meta?.difficultyScore ?? 50;
+  if (sa !== sb) return sa - sb;
+  return a.id.localeCompare(b.id);
+}
+
+export const DE_EASY_POOL_RAMPED: readonly Puzzle[] = [...DE_EASY_POOL].sort(
+  compareByDifficultyScore,
+);
+export const DE_MEDIUM_POOL_RAMPED: readonly Puzzle[] = [...DE_MEDIUM_POOL].sort(
+  compareByDifficultyScore,
+);
+export const DE_HARD_POOL_RAMPED: readonly Puzzle[] = [...DE_HARD_POOL].sort(
+  compareByDifficultyScore,
+);
+
 function getFromPool(pool: readonly Puzzle[], index: number): Puzzle | undefined {
   if (pool.length === 0) return undefined;
   const idx = ((index % pool.length) + pool.length) % pool.length;
@@ -77,4 +94,16 @@ export function getDEMediumByIndex(index: number): Puzzle | undefined {
 
 export function getDEHardByIndex(index: number): Puzzle | undefined {
   return getFromPool(DE_HARD_POOL, index);
+}
+
+export function getDEEasyRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(DE_EASY_POOL_RAMPED, index);
+}
+
+export function getDEMediumRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(DE_MEDIUM_POOL_RAMPED, index);
+}
+
+export function getDEHardRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(DE_HARD_POOL_RAMPED, index);
 }

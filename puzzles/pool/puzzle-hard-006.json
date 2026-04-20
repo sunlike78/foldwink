@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "musical",
       "label": "Musical time",
       "revealHint": "Music",
-      "items": ["Tempo", "Beat", "Syncopation", "Fermata"]
+      "items": [
+        "Tempo",
+        "Beat",
+        "Syncopation",
+        "Fermata"
+      ]
     },
     {
       "id": "geological",
       "label": "Geological time",
       "revealHint": "Geology",
-      "items": ["Epoch", "Era", "Eon", "Period"]
+      "items": [
+        "Epoch",
+        "Era",
+        "Eon",
+        "Period"
+      ]
     },
     {
       "id": "cooking",
       "label": "Cooking times",
       "revealHint": "Cooking",
-      "items": ["Simmer", "Braise", "Blanch", "Marinate"]
+      "items": [
+        "Simmer",
+        "Braise",
+        "Blanch",
+        "Marinate"
+      ]
     },
     {
       "id": "sports",
       "label": "Sports time",
       "revealHint": "Sports",
-      "items": ["Quarter", "Overtime", "Halftime", "Inning"]
+      "items": [
+        "Quarter",
+        "Overtime",
+        "Halftime",
+        "Inning"
+      ]
     }
   ]
 }

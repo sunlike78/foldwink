@@ -2,27 +2,52 @@
   "id": "puzzle-0018",
   "title": "Makers Corner",
   "difficulty": "easy",
-  "tags": ["crafts"],
+  "tags": [
+    "crafts"
+  ],
   "groups": [
     {
       "id": "building",
       "label": "Building Materials",
-      "items": ["Cement", "Concrete", "Plaster", "Mortar"]
+      "items": [
+        "Cement",
+        "Concrete",
+        "Plaster",
+        "Mortar"
+      ]
     },
     {
       "id": "art",
       "label": "Art Supplies",
-      "items": ["Crayon", "Marker", "Paint", "Canvas"]
+      "items": [
+        "Crayon",
+        "Marker",
+        "Paint",
+        "Canvas"
+      ]
     },
     {
       "id": "craft",
       "label": "Craft Supplies",
-      "items": ["Scissors", "Glue", "Tape", "Ribbon"]
+      "items": [
+        "Scissors",
+        "Glue",
+        "Tape",
+        "Ribbon"
+      ]
     },
     {
       "id": "houseplants",
       "label": "Houseplants",
-      "items": ["Fern", "Bamboo", "Cactus", "Ivy"]
+      "items": [
+        "Fern",
+        "Bamboo",
+        "Cactus",
+        "Ivy"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 14
+  }
 }

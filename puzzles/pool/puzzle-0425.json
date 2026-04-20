@@ -3,11 +3,57 @@
   "title": "Dinosaur Era",
   "difficulty": "medium",
   "editorialSummary": "Dinosaurs and prehistoric creatures sorted by geological period: Triassic, Jurassic, Cretaceous, and Paleogene (post-dinosaur megafauna). False trail: Many players think all dinosaurs lived at the same time; T. Rex (Cretaceous) never met Stegosaurus (Jurassic).",
-  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "science",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 56
+  },
   "groups": [
-    { "id": "g1", "label": "TRIASSIC CREATURES", "items": ["Coelophysis", "Plateosaurus", "Eoraptor", "Herrerasaurus"], "revealHint": "Triassic" },
-    { "id": "g2", "label": "JURASSIC CREATURES", "items": ["Stegosaurus", "Camarasaurus", "Ceratosaurus", "Archaeopteryx"], "revealHint": "Jurassic" },
-    { "id": "g3", "label": "CRETACEOUS CREATURES", "items": ["Ankylosaurus", "Pachycephalosaurus", "Quetzalcoatlus", "Mosasaurus"], "revealHint": "Cretaceous" },
-    { "id": "g4", "label": "PALEOGENE MEGAFAUNA", "items": ["Mammoth", "Saber-Tooth Tiger", "Megalodon", "Dodo"], "revealHint": "Ice Age" }
+    {
+      "id": "g1",
+      "label": "TRIASSIC CREATURES",
+      "items": [
+        "Coelophysis",
+        "Plateosaurus",
+        "Eoraptor",
+        "Herrerasaurus"
+      ],
+      "revealHint": "Triassic"
+    },
+    {
+      "id": "g2",
+      "label": "JURASSIC CREATURES",
+      "items": [
+        "Stegosaurus",
+        "Camarasaurus",
+        "Ceratosaurus",
+        "Archaeopteryx"
+      ],
+      "revealHint": "Jurassic"
+    },
+    {
+      "id": "g3",
+      "label": "CRETACEOUS CREATURES",
+      "items": [
+        "Ankylosaurus",
+        "Pachycephalosaurus",
+        "Quetzalcoatlus",
+        "Mosasaurus"
+      ],
+      "revealHint": "Cretaceous"
+    },
+    {
+      "id": "g4",
+      "label": "PALEOGENE MEGAFAUNA",
+      "items": [
+        "Mammoth",
+        "Saber-Tooth Tiger",
+        "Megalodon",
+        "Dodo"
+      ],
+      "revealHint": "Ice Age"
+    }
   ]
 }

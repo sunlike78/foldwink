@@ -2,11 +2,51 @@
   "id": "de-0052",
   "title": "Oktoberfest",
   "difficulty": "easy",
-  "meta": { "theme": "Oktoberfest", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Oktoberfest",
+    "batch": "de-batch-02",
+    "difficultyScore": 29
+  },
   "groups": [
-    { "id": "group_a", "label": "Trachten", "items": ["Dirndl", "Lederhose", "Charivari", "Miesbacher Hut"] },
-    { "id": "group_b", "label": "Bier und Speisen", "items": ["Maßkrug", "Breze", "Hendl", "Obazda"] },
-    { "id": "group_c", "label": "Attraktionen", "items": ["Riesenrad", "Achterbahn", "Schiffsschaukel", "Bierzelt"] },
-    { "id": "group_d", "label": "Oktoberfest-Bräuche", "items": ["Bieranstich", "Einzug", "Volkssänger", "Wiesn-Hit"] }
+    {
+      "id": "group_a",
+      "label": "Trachten",
+      "items": [
+        "Dirndl",
+        "Lederhose",
+        "Charivari",
+        "Miesbacher Hut"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bier und Speisen",
+      "items": [
+        "Maßkrug",
+        "Breze",
+        "Hendl",
+        "Obazda"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Attraktionen",
+      "items": [
+        "Riesenrad",
+        "Achterbahn",
+        "Schiffsschaukel",
+        "Bierzelt"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Oktoberfest-Bräuche",
+      "items": [
+        "Bieranstich",
+        "Einzug",
+        "Volkssänger",
+        "Wiesn-Hit"
+      ]
+    }
   ]
 }

@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "postage",
       "label": "Postage stamp",
       "revealHint": "Postage",
-      "items": ["Philately", "Perforated", "First Class", "Commemorative"]
+      "items": [
+        "Philately",
+        "Perforated",
+        "First Class",
+        "Commemorative"
+      ]
     },
     {
       "id": "rubber",
       "label": "Rubber stamp",
       "revealHint": "Rubber",
-      "items": ["Ink Pad", "Emboss", "Notarize", "Seal"]
+      "items": [
+        "Ink Pad",
+        "Emboss",
+        "Notarize",
+        "Seal"
+      ]
     },
     {
       "id": "document",
       "label": "Stamp of approval",
       "revealHint": "Approval",
-      "items": ["Endorse", "Certify", "Authorize", "Ratify"]
+      "items": [
+        "Endorse",
+        "Certify",
+        "Authorize",
+        "Ratify"
+      ]
     },
     {
       "id": "dance",
       "label": "Foot stamp",
       "revealHint": "Dance",
-      "items": ["Flamenco", "Stomp", "Clog", "Tap"]
+      "items": [
+        "Flamenco",
+        "Stomp",
+        "Clog",
+        "Tap"
+      ]
     }
   ]
 }

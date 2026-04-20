@@ -2,11 +2,51 @@
   "id": "de-0035",
   "title": "Käsesorten",
   "difficulty": "easy",
-  "meta": { "theme": "Käsesorten", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Käsesorten",
+    "batch": "de-batch-01",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "group_a", "label": "Weichkäse", "items": ["Brie", "Camembert", "Mozzarella", "Ricotta"] },
-    { "id": "group_b", "label": "Hartkäse", "items": ["Parmesan", "Gouda", "Emmentaler", "Cheddar"] },
-    { "id": "group_c", "label": "Schimmelkäse", "items": ["Gorgonzola", "Roquefort", "Stilton", "Fourme"] },
-    { "id": "group_d", "label": "Deutsche Käse", "items": ["Tilsiter", "Limburger", "Allgäuer", "Obatzda"] }
+    {
+      "id": "group_a",
+      "label": "Weichkäse",
+      "items": [
+        "Brie",
+        "Camembert",
+        "Mozzarella",
+        "Ricotta"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Hartkäse",
+      "items": [
+        "Parmesan",
+        "Gouda",
+        "Emmentaler",
+        "Cheddar"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Schimmelkäse",
+      "items": [
+        "Gorgonzola",
+        "Roquefort",
+        "Stilton",
+        "Fourme"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Deutsche Käse",
+      "items": [
+        "Tilsiter",
+        "Limburger",
+        "Allgäuer",
+        "Obatzda"
+      ]
+    }
   ]
 }

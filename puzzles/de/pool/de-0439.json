@@ -2,11 +2,55 @@
   "id": "de-0439",
   "title": "Religiöse Feste",
   "difficulty": "medium",
-  "meta": { "theme": "religion", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "religion",
+    "batch": "de-batch-05",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Christliche Feste", "revealHint": "Kirchenjahr", "items": ["Weihnachten", "Ostern", "Pfingsten", "Erntedankfest"] },
-    { "id": "group_b", "label": "Jüdische Feste", "revealHint": "Hebr. Kalender", "items": ["Jom Kippur", "Rosch ha-Schana", "Schabbat", "Pessach"] },
-    { "id": "group_c", "label": "Islamische Feste", "revealHint": "Isl. Kalender", "items": ["Eid al-Fitr", "Eid al-Adha", "Ramadan", "Mawlid an-Nabi"] },
-    { "id": "group_d", "label": "Buddhistische Feste", "revealHint": "Buddhistisch", "items": ["Vesak", "Kathina", "Asalha Puja", "Losar"] }
+    {
+      "id": "group_a",
+      "label": "Christliche Feste",
+      "revealHint": "Kirchenjahr",
+      "items": [
+        "Weihnachten",
+        "Ostern",
+        "Pfingsten",
+        "Erntedankfest"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Jüdische Feste",
+      "revealHint": "Hebr. Kalender",
+      "items": [
+        "Jom Kippur",
+        "Rosch ha-Schana",
+        "Schabbat",
+        "Pessach"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Islamische Feste",
+      "revealHint": "Isl. Kalender",
+      "items": [
+        "Eid al-Fitr",
+        "Eid al-Adha",
+        "Ramadan",
+        "Mawlid an-Nabi"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Buddhistische Feste",
+      "revealHint": "Buddhistisch",
+      "items": [
+        "Vesak",
+        "Kathina",
+        "Asalha Puja",
+        "Losar"
+      ]
+    }
   ]
 }

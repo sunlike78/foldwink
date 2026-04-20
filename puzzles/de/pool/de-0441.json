@@ -2,11 +2,55 @@
   "id": "de-0441",
   "title": "Antike Philosophen-Schulen",
   "difficulty": "medium",
-  "meta": { "theme": "philosophie", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "philosophie",
+    "batch": "de-batch-05",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "group_a", "label": "Sokratiker", "revealHint": "Sokrates-Schüler", "items": ["Platon", "Xenophon", "Antisthenes", "Aristipp"] },
-    { "id": "group_b", "label": "Stoiker", "revealHint": "Tugend & Vernunft", "items": ["Mark Aurel", "Epiktet", "Seneca", "Zenon"] },
-    { "id": "group_c", "label": "Epikureer", "revealHint": "Lust & Ataraxie", "items": ["Epikur", "Lukrez", "Philodem", "Hermarchos"] },
-    { "id": "group_d", "label": "Neuplatoniker", "revealHint": "Platon erweitert", "items": ["Plotin", "Porphyrios", "Proklos", "Iamblichos"] }
+    {
+      "id": "group_a",
+      "label": "Sokratiker",
+      "revealHint": "Sokrates-Schüler",
+      "items": [
+        "Platon",
+        "Xenophon",
+        "Antisthenes",
+        "Aristipp"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Stoiker",
+      "revealHint": "Tugend & Vernunft",
+      "items": [
+        "Mark Aurel",
+        "Epiktet",
+        "Seneca",
+        "Zenon"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Epikureer",
+      "revealHint": "Lust & Ataraxie",
+      "items": [
+        "Epikur",
+        "Lukrez",
+        "Philodem",
+        "Hermarchos"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Neuplatoniker",
+      "revealHint": "Platon erweitert",
+      "items": [
+        "Plotin",
+        "Porphyrios",
+        "Proklos",
+        "Iamblichos"
+      ]
+    }
   ]
 }

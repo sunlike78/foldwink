@@ -7,32 +7,53 @@
     "theme": "finance",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "accounts",
       "label": "Account Types",
       "revealHint": "Account",
-      "items": ["Checking", "Savings", "Money Market", "Joint"]
+      "items": [
+        "Checking",
+        "Savings",
+        "Money Market",
+        "Joint"
+      ]
     },
     {
       "id": "loans",
       "label": "Loan Types",
       "revealHint": "Loan",
-      "items": ["Mortgage", "Auto Loan", "Student Loan", "Personal"]
+      "items": [
+        "Mortgage",
+        "Auto Loan",
+        "Student Loan",
+        "Personal"
+      ]
     },
     {
       "id": "cards",
       "label": "Card Types",
       "revealHint": "Card",
-      "items": ["Debit", "Credit", "Prepaid", "Charge"]
+      "items": [
+        "Debit",
+        "Credit",
+        "Prepaid",
+        "Charge"
+      ]
     },
     {
       "id": "fees",
       "label": "Fee Types",
       "revealHint": "Fee",
-      "items": ["Overdraft", "Monthly", "ATM", "Wire"]
+      "items": [
+        "Overdraft",
+        "Monthly",
+        "ATM",
+        "Wire"
+      ]
     }
   ]
 }

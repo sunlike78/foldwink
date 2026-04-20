@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "elektronische-musik",
-    "batch": "de-batch-03"
+    "batch": "de-batch-03",
+    "difficultyScore": 34
   },
   "groups": [
     {

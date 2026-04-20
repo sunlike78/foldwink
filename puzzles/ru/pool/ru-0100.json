@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Художники России",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 17
   },
   "groups": [
     {

@@ -2,31 +2,55 @@
   "id": "de-9053",
   "title": "Vierbeiner verstehen",
   "difficulty": "medium",
-  "meta": { "theme": "Tierkommunikation und Signale", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Tierkommunikation und Signale",
+    "batch": "de-batch-12",
+    "difficultyScore": 48
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Dominanz",
       "revealHint": "ICH BIN DER CHEF",
-      "items": ["Blick hält stand", "Körper breit machen", "Erster am Futter", "Anderen wegdrängen"]
+      "items": [
+        "Blick hält stand",
+        "Körper breit machen",
+        "Erster am Futter",
+        "Anderen wegdrängen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Unterwerfung",
       "revealHint": "DU BIST DER BOSS",
-      "items": ["Bauch zeigen liegend", "Schwanz eingezogen", "Blick ausweichen", "Leckt Maul des Anderen"]
+      "items": [
+        "Bauch zeigen liegend",
+        "Schwanz eingezogen",
+        "Blick ausweichen",
+        "Leckt Maul des Anderen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Spielaufforderung",
       "revealHint": "KOMM LASS UNS SPIELEN",
-      "items": ["Vorderbeine tief", "Hintern hoch gestreckt", "Kurzer Anlauf weg", "Anbellen und weglaufen"]
+      "items": [
+        "Vorderbeine tief",
+        "Hintern hoch gestreckt",
+        "Kurzer Anlauf weg",
+        "Anbellen und weglaufen"
+      ]
     },
     {
       "id": "group_d",
       "label": "Angst",
       "revealHint": "GEFAHR WAHRGENOMMEN",
-      "items": ["Ohren nach hinten", "Fell am Rücken sträubt", "Zittern ohne Kälte", "Hinter Besitzer"]
+      "items": [
+        "Ohren nach hinten",
+        "Fell am Rücken sträubt",
+        "Zittern ohne Kälte",
+        "Hinter Besitzer"
+      ]
     }
   ]
 }

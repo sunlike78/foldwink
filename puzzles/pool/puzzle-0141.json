@@ -6,28 +6,49 @@
     "theme": "transport",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 37
   },
   "groups": [
     {
       "id": "rescue",
       "label": "Rescue Vehicles",
-      "items": ["Fire Truck", "Ambulance", "Lifeboat", "Rescue Helicopter"]
+      "items": [
+        "Fire Truck",
+        "Ambulance",
+        "Lifeboat",
+        "Rescue Helicopter"
+      ]
     },
     {
       "id": "law",
       "label": "Law Enforcement",
-      "items": ["Patrol Car", "SWAT Van", "Motorcycle Unit", "K-9 Vehicle"]
+      "items": [
+        "Patrol Car",
+        "SWAT Van",
+        "Motorcycle Unit",
+        "K-9 Vehicle"
+      ]
     },
     {
       "id": "utility",
       "label": "Utility Vehicles",
-      "items": ["Tow Truck", "Snowplow", "Street Sweeper", "Garbage Truck"]
+      "items": [
+        "Tow Truck",
+        "Snowplow",
+        "Street Sweeper",
+        "Garbage Truck"
+      ]
     },
     {
       "id": "construction",
       "label": "Construction Vehicles",
-      "items": ["Bulldozer", "Crane", "Excavator", "Cement Mixer"]
+      "items": [
+        "Bulldozer",
+        "Crane",
+        "Excavator",
+        "Cement Mixer"
+      ]
     }
   ]
 }

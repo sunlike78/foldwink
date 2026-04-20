@@ -7,32 +7,53 @@
     "theme": "scents",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "citrus",
       "label": "Citrus Notes",
       "revealHint": "Citrus",
-      "items": ["Bergamot", "Lemon", "Grapefruit", "Mandarin"]
+      "items": [
+        "Bergamot",
+        "Lemon",
+        "Grapefruit",
+        "Mandarin"
+      ]
     },
     {
       "id": "floral",
       "label": "Floral Notes",
       "revealHint": "Flower",
-      "items": ["Jasmine", "Rose", "Lavender", "Tuberose"]
+      "items": [
+        "Jasmine",
+        "Rose",
+        "Lavender",
+        "Tuberose"
+      ]
     },
     {
       "id": "woody",
       "label": "Woody Notes",
       "revealHint": "Wood",
-      "items": ["Sandalwood", "Cedar", "Oud", "Vetiver"]
+      "items": [
+        "Sandalwood",
+        "Cedar",
+        "Oud",
+        "Vetiver"
+      ]
     },
     {
       "id": "spicy",
       "label": "Spicy Notes",
       "revealHint": "Spice",
-      "items": ["Cinnamon", "Clove", "Cardamom", "Pepper"]
+      "items": [
+        "Cinnamon",
+        "Clove",
+        "Cardamom",
+        "Pepper"
+      ]
     }
   ]
 }

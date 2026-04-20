@@ -2,27 +2,51 @@
   "id": "de-9002",
   "title": "Geiz in Sprichwörtern",
   "difficulty": "easy",
-  "meta": { "theme": "Charaktereigenschaften durch Redewendungen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Charaktereigenschaften durch Redewendungen",
+    "batch": "de-batch-11",
+    "difficultyScore": 41
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Geiz",
-      "items": ["Pfennig dreimal dreht", "Sitzt auf seinem Geld", "Rückt nichts raus", "Kein Trinkgeld je"]
+      "items": [
+        "Pfennig dreimal dreht",
+        "Sitzt auf seinem Geld",
+        "Rückt nichts raus",
+        "Kein Trinkgeld je"
+      ]
     },
     {
       "id": "group_b",
       "label": "Freigiebigkeit",
-      "items": ["Mit vollen Händen gibt", "Das Hemd vom Leib", "Sagt nie nein", "Tür steht immer offen"]
+      "items": [
+        "Mit vollen Händen gibt",
+        "Das Hemd vom Leib",
+        "Sagt nie nein",
+        "Tür steht immer offen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Neid",
-      "items": ["Gönnt keinem was", "Schielt auf andere", "Bleich beim Lob andrer", "Immer vergleichend"]
+      "items": [
+        "Gönnt keinem was",
+        "Schielt auf andere",
+        "Bleich beim Lob andrer",
+        "Immer vergleichend"
+      ]
     },
     {
       "id": "group_d",
       "label": "Hochmut",
-      "items": ["Schaut von oben herab", "Trägt Nase hoch", "Grüßt kaum zurück", "Fühlt sich über alle"]
+      "items": [
+        "Schaut von oben herab",
+        "Trägt Nase hoch",
+        "Grüßt kaum zurück",
+        "Fühlt sich über alle"
+      ]
     }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "law",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "professionals",
       "label": "Court Professionals",
-      "items": ["Judge", "Attorney", "Bailiff", "Clerk"]
+      "items": [
+        "Judge",
+        "Attorney",
+        "Bailiff",
+        "Clerk"
+      ]
     },
     {
       "id": "documents",
       "label": "Legal Documents",
-      "items": ["Subpoena", "Warrant", "Affidavit", "Brief"]
+      "items": [
+        "Subpoena",
+        "Warrant",
+        "Affidavit",
+        "Brief"
+      ]
     },
     {
       "id": "phases",
       "label": "Trial Phases",
-      "items": ["Arraignment", "Opening Statement", "Verdict", "Sentencing"]
+      "items": [
+        "Arraignment",
+        "Opening Statement",
+        "Verdict",
+        "Sentencing"
+      ]
     },
     {
       "id": "types",
       "label": "Court Types",
-      "items": ["Supreme", "Family", "Small Claims", "Appellate"]
+      "items": [
+        "Supreme",
+        "Family",
+        "Small Claims",
+        "Appellate"
+      ]
     }
   ]
 }

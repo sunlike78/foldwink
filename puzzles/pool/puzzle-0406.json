@@ -3,11 +3,53 @@
   "title": "Types of Tea",
   "difficulty": "easy",
   "editorialSummary": "Four distinct tea families: green, black, herbal (tisane), and oolong/white. False trail: chamomile could seem floral like jasmine, but jasmine is scented green tea while chamomile is herbal.",
-  "meta": { "theme": "beverages", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "beverages",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "g1", "label": "GREEN TEA VARIETIES", "items": ["Matcha", "Sencha", "Gyokuro", "Dragonwell"] },
-    { "id": "g2", "label": "BLACK TEA VARIETIES", "items": ["Assam", "Darjeeling", "Earl Grey", "Ceylon"] },
-    { "id": "g3", "label": "HERBAL TEAS", "items": ["Chamomile", "Peppermint", "Hibiscus", "Rooibos"] },
-    { "id": "g4", "label": "OOLONG & WHITE TEAS", "items": ["Tie Guan Yin", "Da Hong Pao", "Silver Needle", "White Peony"] }
+    {
+      "id": "g1",
+      "label": "GREEN TEA VARIETIES",
+      "items": [
+        "Matcha",
+        "Sencha",
+        "Gyokuro",
+        "Dragonwell"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "BLACK TEA VARIETIES",
+      "items": [
+        "Assam",
+        "Darjeeling",
+        "Earl Grey",
+        "Ceylon"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "HERBAL TEAS",
+      "items": [
+        "Chamomile",
+        "Peppermint",
+        "Hibiscus",
+        "Rooibos"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "OOLONG & WHITE TEAS",
+      "items": [
+        "Tie Guan Yin",
+        "Da Hong Pao",
+        "Silver Needle",
+        "White Peony"
+      ]
+    }
   ]
 }

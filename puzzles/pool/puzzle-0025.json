@@ -8,25 +8,48 @@
       "id": "smart",
       "label": "Meaning SMART",
       "revealHint": "SMART",
-      "items": ["Clever", "Sharp", "Bright", "Wise"]
+      "items": [
+        "Clever",
+        "Sharp",
+        "Bright",
+        "Wise"
+      ]
     },
     {
       "id": "strong",
       "label": "Meaning STRONG",
       "revealHint": "STRONG",
-      "items": ["Mighty", "Robust", "Sturdy", "Hardy"]
+      "items": [
+        "Mighty",
+        "Robust",
+        "Sturdy",
+        "Hardy"
+      ]
     },
     {
       "id": "brave",
       "label": "Meaning BRAVE",
       "revealHint": "BRAVE",
-      "items": ["Bold", "Fearless", "Valiant", "Daring"]
+      "items": [
+        "Bold",
+        "Fearless",
+        "Valiant",
+        "Daring"
+      ]
     },
     {
       "id": "kind",
       "label": "Meaning KIND",
       "revealHint": "KIND",
-      "items": ["Gentle", "Warm", "Tender", "Caring"]
+      "items": [
+        "Gentle",
+        "Warm",
+        "Tender",
+        "Caring"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 33
+  }
 }

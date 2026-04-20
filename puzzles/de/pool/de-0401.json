@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Komposita",
-    "batch": "de-batch-05"
+    "batch": "de-batch-05",
+    "difficultyScore": 32
   },
   "groups": [
     {

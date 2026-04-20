@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "physical",
       "label": "Running (physical)",
       "revealHint": "Sprint",
-      "items": ["Marathon", "Relay", "Hurdle", "Dash"]
+      "items": [
+        "Marathon",
+        "Relay",
+        "Hurdle",
+        "Dash"
+      ]
     },
     {
       "id": "operate",
       "label": "Running (operating)",
       "revealHint": "Operate",
-      "items": ["Engine", "Generator", "Software", "Appliance"]
+      "items": [
+        "Engine",
+        "Generator",
+        "Software",
+        "Appliance"
+      ]
     },
     {
       "id": "flow",
       "label": "Running (flowing)",
       "revealHint": "Flow",
-      "items": ["Stream", "Faucet", "Drain", "Overflow"]
+      "items": [
+        "Stream",
+        "Faucet",
+        "Drain",
+        "Overflow"
+      ]
     },
     {
       "id": "politics",
       "label": "Running (political)",
       "revealHint": "Politics",
-      "items": ["Candidate", "Campaign", "Platform", "Nomination"]
+      "items": [
+        "Candidate",
+        "Campaign",
+        "Platform",
+        "Nomination"
+      ]
     }
   ]
 }

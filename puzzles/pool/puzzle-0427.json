@@ -3,11 +3,57 @@
   "title": "Tea Ceremony Cultures",
   "difficulty": "medium",
   "editorialSummary": "Tea traditions grouped by culture of origin: Japanese, Chinese, British, and Moroccan/North African. False trail: Matcha is Japanese ceremony, Gongfu is Chinese ceremony — both are Asian but distinct traditions with different vessels and rituals.",
-  "meta": { "theme": "culture", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "culture",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "g1", "label": "JAPANESE TEA CEREMONY", "items": ["Chashaku", "Chakin", "Fukusa", "Chasen"], "revealHint": "Chado" },
-    { "id": "g2", "label": "CHINESE GONGFU TEA", "items": ["Gaiwan", "Yixing Pot", "Tea Tray", "Justice Cup"], "revealHint": "Gongfu" },
-    { "id": "g3", "label": "BRITISH AFTERNOON TEA", "items": ["Scone", "Clotted Cream", "Tiered Stand", "Fine China"], "revealHint": "Afternoon" },
-    { "id": "g4", "label": "MOROCCAN TEA RITUAL", "items": ["Mint Leaves", "Gunpowder Tea", "High Pour", "Decorated Glass"], "revealHint": "Maghreb" }
+    {
+      "id": "g1",
+      "label": "JAPANESE TEA CEREMONY",
+      "items": [
+        "Chashaku",
+        "Chakin",
+        "Fukusa",
+        "Chasen"
+      ],
+      "revealHint": "Chado"
+    },
+    {
+      "id": "g2",
+      "label": "CHINESE GONGFU TEA",
+      "items": [
+        "Gaiwan",
+        "Yixing Pot",
+        "Tea Tray",
+        "Justice Cup"
+      ],
+      "revealHint": "Gongfu"
+    },
+    {
+      "id": "g3",
+      "label": "BRITISH AFTERNOON TEA",
+      "items": [
+        "Scone",
+        "Clotted Cream",
+        "Tiered Stand",
+        "Fine China"
+      ],
+      "revealHint": "Afternoon"
+    },
+    {
+      "id": "g4",
+      "label": "MOROCCAN TEA RITUAL",
+      "items": [
+        "Mint Leaves",
+        "Gunpowder Tea",
+        "High Pour",
+        "Decorated Glass"
+      ],
+      "revealHint": "Maghreb"
+    }
   ]
 }

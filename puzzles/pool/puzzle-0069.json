@@ -8,25 +8,48 @@
       "id": "noble",
       "label": "Noble Gases",
       "revealHint": "GAS",
-      "items": ["Helium", "Neon", "Argon", "Krypton"]
+      "items": [
+        "Helium",
+        "Neon",
+        "Argon",
+        "Krypton"
+      ]
     },
     {
       "id": "alkali",
       "label": "Alkali Metals",
       "revealHint": "ALKALI",
-      "items": ["Lithium", "Sodium", "Potassium", "Rubidium"]
+      "items": [
+        "Lithium",
+        "Sodium",
+        "Potassium",
+        "Rubidium"
+      ]
     },
     {
       "id": "halogens",
       "label": "Halogens",
       "revealHint": "HALOGEN",
-      "items": ["Fluorine", "Chlorine", "Bromine", "Iodine"]
+      "items": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ]
     },
     {
       "id": "coinage",
       "label": "Coinage Metals",
       "revealHint": "COIN",
-      "items": ["Copper", "Silver", "Gold", "Platinum"]
+      "items": [
+        "Copper",
+        "Silver",
+        "Gold",
+        "Platinum"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 19
+  }
 }

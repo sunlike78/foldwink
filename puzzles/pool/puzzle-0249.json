@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 46
   },
   "groups": [
     {
       "id": "photo",
       "label": "Photo shot",
       "revealHint": "Camera",
-      "items": ["Headshot", "Snapshot", "Close-Up", "Portrait"]
+      "items": [
+        "Headshot",
+        "Snapshot",
+        "Close-Up",
+        "Portrait"
+      ]
     },
     {
       "id": "drink",
       "label": "Shot glass",
       "revealHint": "Drink",
-      "items": ["Tequila", "Whiskey", "Vodka", "Chaser"]
+      "items": [
+        "Tequila",
+        "Whiskey",
+        "Vodka",
+        "Chaser"
+      ]
     },
     {
       "id": "injection",
       "label": "Flu shot",
       "revealHint": "Needle",
-      "items": ["Vaccine", "Booster", "Syringe", "Jab"]
+      "items": [
+        "Vaccine",
+        "Booster",
+        "Syringe",
+        "Jab"
+      ]
     },
     {
       "id": "hoop",
       "label": "Basketball shot",
       "revealHint": "Hoop",
-      "items": ["Three-Pointer", "Layup", "Dunk", "Free Throw"]
+      "items": [
+        "Three-Pointer",
+        "Layup",
+        "Dunk",
+        "Free Throw"
+      ]
     }
   ]
 }

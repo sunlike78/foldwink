@@ -2,11 +2,53 @@
   "id": "puzzle-0360",
   "title": "Bone types",
   "difficulty": "easy",
-  "meta": { "theme": "anatomy", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "anatomy",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 32
+  },
   "groups": [
-    { "id": "arm", "label": "Arm Bones", "items": ["Humerus", "Radius", "Ulna", "Scaphoid"] },
-    { "id": "leg", "label": "Leg Bones", "items": ["Femur", "Tibia", "Fibula", "Patella"] },
-    { "id": "hand", "label": "Hand Bones", "items": ["Carpals", "Metacarpals", "Phalanges", "Sesamoid"] },
-    { "id": "foot", "label": "Foot Bones", "items": ["Metatarsal", "Navicular", "Calcaneus", "Cuboid"] }
+    {
+      "id": "arm",
+      "label": "Arm Bones",
+      "items": [
+        "Humerus",
+        "Radius",
+        "Ulna",
+        "Scaphoid"
+      ]
+    },
+    {
+      "id": "leg",
+      "label": "Leg Bones",
+      "items": [
+        "Femur",
+        "Tibia",
+        "Fibula",
+        "Patella"
+      ]
+    },
+    {
+      "id": "hand",
+      "label": "Hand Bones",
+      "items": [
+        "Carpals",
+        "Metacarpals",
+        "Phalanges",
+        "Sesamoid"
+      ]
+    },
+    {
+      "id": "foot",
+      "label": "Foot Bones",
+      "items": [
+        "Metatarsal",
+        "Navicular",
+        "Calcaneus",
+        "Cuboid"
+      ]
+    }
   ]
 }

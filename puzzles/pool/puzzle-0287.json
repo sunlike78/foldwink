@@ -7,32 +7,53 @@
     "theme": "geography",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "g1",
       "label": "West African Rivers",
       "revealHint": "West",
-      "items": ["Niger", "Senegal", "Volta", "Gambia"]
+      "items": [
+        "Niger",
+        "Senegal",
+        "Volta",
+        "Gambia"
+      ]
     },
     {
       "id": "g2",
       "label": "East African Rivers",
       "revealHint": "East",
-      "items": ["Jubba", "Awash", "Rufiji", "Tana"]
+      "items": [
+        "Jubba",
+        "Awash",
+        "Rufiji",
+        "Tana"
+      ]
     },
     {
       "id": "g3",
       "label": "North African Rivers",
       "revealHint": "North",
-      "items": ["Moulouya", "Medjerda", "Chelif", "Sebou"]
+      "items": [
+        "Moulouya",
+        "Medjerda",
+        "Chelif",
+        "Sebou"
+      ]
     },
     {
       "id": "g4",
       "label": "Congo Basin Tributaries",
       "revealHint": "Basin",
-      "items": ["Kasai", "Ubangi", "Lualaba", "Lomami"]
+      "items": [
+        "Kasai",
+        "Ubangi",
+        "Lualaba",
+        "Lomami"
+      ]
     }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "kitchen",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "cookware",
       "label": "Stovetop Cookware",
-      "items": ["Skillet", "Saucepan", "Wok", "Stockpot"]
+      "items": [
+        "Skillet",
+        "Saucepan",
+        "Wok",
+        "Stockpot"
+      ]
     },
     {
       "id": "bakeware",
       "label": "Ovenware",
-      "items": ["Muffin Tin", "Loaf Pan", "Baking Sheet", "Pie Dish"]
+      "items": [
+        "Muffin Tin",
+        "Loaf Pan",
+        "Baking Sheet",
+        "Pie Dish"
+      ]
     },
     {
       "id": "small-appliances",
       "label": "Small Appliances",
-      "items": ["Blender", "Toaster", "Kettle", "Microwave"]
+      "items": [
+        "Blender",
+        "Toaster",
+        "Kettle",
+        "Microwave"
+      ]
     },
     {
       "id": "textiles",
       "label": "Kitchen Textiles",
-      "items": ["Apron", "Oven Mitt", "Dish Towel", "Potholder"]
+      "items": [
+        "Apron",
+        "Oven Mitt",
+        "Dish Towel",
+        "Potholder"
+      ]
     }
   ]
 }

@@ -3,11 +3,53 @@
   "title": "Photo Lab",
   "difficulty": "easy",
   "editorialSummary": "Photography concepts by category. False trail: Depth of Field is controlled by aperture but is a compositional outcome, not a setting. Bracketing is a shooting technique that produces material for processing.",
-  "meta": { "theme": "photography", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "photography",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 42
+  },
   "groups": [
-    { "id": "g1", "label": "CAMERA SETTINGS", "items": ["Aperture", "Shutter Speed", "ISO", "White Balance"] },
-    { "id": "g2", "label": "COMPOSITION PRINCIPLES", "items": ["Rule of Thirds", "Leading Lines", "Depth of Field", "Negative Space"] },
-    { "id": "g3", "label": "LIGHTING TYPES", "items": ["Rembrandt", "Split Lighting", "Butterfly Lighting", "Rim Light"] },
-    { "id": "g4", "label": "PROCESSING TERMS", "items": ["Dodging", "Burning", "Bracketing", "Vignette"] }
+    {
+      "id": "g1",
+      "label": "CAMERA SETTINGS",
+      "items": [
+        "Aperture",
+        "Shutter Speed",
+        "ISO",
+        "White Balance"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "COMPOSITION PRINCIPLES",
+      "items": [
+        "Rule of Thirds",
+        "Leading Lines",
+        "Depth of Field",
+        "Negative Space"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "LIGHTING TYPES",
+      "items": [
+        "Rembrandt",
+        "Split Lighting",
+        "Butterfly Lighting",
+        "Rim Light"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PROCESSING TERMS",
+      "items": [
+        "Dodging",
+        "Burning",
+        "Bracketing",
+        "Vignette"
+      ]
+    }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "g1",
       "label": "Flatbreads",
-      "items": ["Roti", "Lavash", "Tortilla", "Focaccia"]
+      "items": [
+        "Roti",
+        "Lavash",
+        "Tortilla",
+        "Focaccia"
+      ]
     },
     {
       "id": "g2",
       "label": "Leavened Loaves",
-      "items": ["Sourdough", "Soda Bread", "Ciabatta", "Brioche"]
+      "items": [
+        "Sourdough",
+        "Soda Bread",
+        "Ciabatta",
+        "Brioche"
+      ]
     },
     {
       "id": "g3",
       "label": "Steamed Breads",
-      "items": ["Mantou", "Dhokla", "Chinese Flower Roll", "Bao Bun"]
+      "items": [
+        "Mantou",
+        "Dhokla",
+        "Chinese Flower Roll",
+        "Bao Bun"
+      ]
     },
     {
       "id": "g4",
       "label": "Enriched Sweet Breads",
-      "items": ["Challah", "Panettone", "Babka", "Stollen"]
+      "items": [
+        "Challah",
+        "Panettone",
+        "Babka",
+        "Stollen"
+      ]
     }
   ]
 }

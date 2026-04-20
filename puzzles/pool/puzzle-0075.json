@@ -6,22 +6,45 @@
     {
       "id": "face",
       "label": "Face Parts",
-      "items": ["Eyelid", "Cheek", "Chin", "Forehead"]
+      "items": [
+        "Eyelid",
+        "Cheek",
+        "Chin",
+        "Forehead"
+      ]
     },
     {
       "id": "hand",
       "label": "Hand Parts",
-      "items": ["Knuckle", "Palm", "Thumb", "Wrist Bone"]
+      "items": [
+        "Knuckle",
+        "Palm",
+        "Thumb",
+        "Wrist Bone"
+      ]
     },
     {
       "id": "digestive",
       "label": "Digestive Organs",
-      "items": ["Stomach", "Liver", "Intestine", "Pancreas"]
+      "items": [
+        "Stomach",
+        "Liver",
+        "Intestine",
+        "Pancreas"
+      ]
     },
     {
       "id": "sensory",
       "label": "Sensory Organs",
-      "items": ["Retina", "Cochlea", "Taste Bud", "Nerve Ending"]
+      "items": [
+        "Retina",
+        "Cochlea",
+        "Taste Bud",
+        "Nerve Ending"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 24
+  }
 }

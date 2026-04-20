@@ -6,28 +6,49 @@
     "theme": "history",
     "categoryType": "classification",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "christian",
       "label": "Christian Buildings",
-      "items": ["Cathedral", "Chapel", "Basilica", "Abbey"]
+      "items": [
+        "Cathedral",
+        "Chapel",
+        "Basilica",
+        "Abbey"
+      ]
     },
     {
       "id": "islamic",
       "label": "Islamic Buildings",
-      "items": ["Mosque", "Minaret", "Madrasa", "Caravanserai"]
+      "items": [
+        "Mosque",
+        "Minaret",
+        "Madrasa",
+        "Caravanserai"
+      ]
     },
     {
       "id": "eastern",
       "label": "Eastern Temples",
-      "items": ["Pagoda", "Stupa", "Shrine", "Torii Gate"]
+      "items": [
+        "Pagoda",
+        "Stupa",
+        "Shrine",
+        "Torii Gate"
+      ]
     },
     {
       "id": "ancient",
       "label": "Ancient Monuments",
-      "items": ["Ziggurat", "Colosseum", "Pyramid", "Obelisk"]
+      "items": [
+        "Ziggurat",
+        "Colosseum",
+        "Pyramid",
+        "Obelisk"
+      ]
     }
   ]
 }

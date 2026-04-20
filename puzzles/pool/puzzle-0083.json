@@ -6,22 +6,45 @@
     {
       "id": "latin-dances",
       "label": "Latin Dances",
-      "items": ["Rumba", "Samba", "Cha-Cha", "Paso Doble"]
+      "items": [
+        "Rumba",
+        "Samba",
+        "Cha-Cha",
+        "Paso Doble"
+      ]
     },
     {
       "id": "ballroom",
       "label": "Ballroom Dances",
-      "items": ["Waltz", "Foxtrot", "Quickstep", "Viennese Waltz"]
+      "items": [
+        "Waltz",
+        "Foxtrot",
+        "Quickstep",
+        "Viennese Waltz"
+      ]
     },
     {
       "id": "swing",
       "label": "Swing Styles",
-      "items": ["Lindy Hop", "Charleston", "Jitterbug", "Jive"]
+      "items": [
+        "Lindy Hop",
+        "Charleston",
+        "Jitterbug",
+        "Jive"
+      ]
     },
     {
       "id": "street",
       "label": "Street Dances",
-      "items": ["Breaking", "Popping", "Locking", "Krumping"]
+      "items": [
+        "Breaking",
+        "Popping",
+        "Locking",
+        "Krumping"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 31
+  }
 }

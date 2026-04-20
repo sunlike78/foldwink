@@ -6,28 +6,49 @@
     "theme": "professions",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 37
   },
   "groups": [
     {
       "id": "health",
       "label": "Healthcare Workers",
-      "items": ["Surgeon", "Pharmacist", "Midwife", "Radiologist"]
+      "items": [
+        "Surgeon",
+        "Pharmacist",
+        "Midwife",
+        "Radiologist"
+      ]
     },
     {
       "id": "legal",
       "label": "Legal Professionals",
-      "items": ["Barrister", "Solicitor", "Magistrate", "Notary"]
+      "items": [
+        "Barrister",
+        "Solicitor",
+        "Magistrate",
+        "Notary"
+      ]
     },
     {
       "id": "creative",
       "label": "Creative Professionals",
-      "items": ["Illustrator", "Copywriter", "Animator", "Typographer"]
+      "items": [
+        "Illustrator",
+        "Copywriter",
+        "Animator",
+        "Typographer"
+      ]
     },
     {
       "id": "trade",
       "label": "Skilled Trades",
-      "items": ["Electrician", "Plumber", "Welder", "Carpenter"]
+      "items": [
+        "Electrician",
+        "Plumber",
+        "Welder",
+        "Carpenter"
+      ]
     }
   ]
 }

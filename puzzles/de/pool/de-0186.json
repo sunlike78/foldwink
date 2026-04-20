@@ -2,11 +2,51 @@
   "id": "de-0186",
   "title": "Recycling und Müll",
   "difficulty": "easy",
-  "meta": { "theme": "Umwelt", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Umwelt",
+    "batch": "de-batch-02",
+    "difficultyScore": 34
+  },
   "groups": [
-    { "id": "group_a", "label": "Gelbe Tonne", "items": ["Plastikflasche", "Alufolie", "Joghurtbecher", "Getränkekarton"] },
-    { "id": "group_b", "label": "Papiertonne", "items": ["Zeitung", "Karton", "Papiertüte", "Heft"] },
-    { "id": "group_c", "label": "Biotonne", "items": ["Kaffeesatz", "Gemüseschalen", "Eierschalen", "Laub"] },
-    { "id": "group_d", "label": "Restmüll", "items": ["Zigarettenstummel", "Windeln", "Katzenstreu", "Spiegel"] }
+    {
+      "id": "group_a",
+      "label": "Gelbe Tonne",
+      "items": [
+        "Plastikflasche",
+        "Alufolie",
+        "Joghurtbecher",
+        "Getränkekarton"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Papiertonne",
+      "items": [
+        "Zeitung",
+        "Karton",
+        "Papiertüte",
+        "Heft"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Biotonne",
+      "items": [
+        "Kaffeesatz",
+        "Gemüseschalen",
+        "Eierschalen",
+        "Laub"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Restmüll",
+      "items": [
+        "Zigarettenstummel",
+        "Windeln",
+        "Katzenstreu",
+        "Spiegel"
+      ]
+    }
   ]
 }

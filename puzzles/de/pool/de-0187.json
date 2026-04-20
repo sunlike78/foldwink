@@ -2,11 +2,51 @@
   "id": "de-0187",
   "title": "Landwirtschaft",
   "difficulty": "easy",
-  "meta": { "theme": "Wirtschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Wirtschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "group_a", "label": "Getreide", "items": ["Weizen", "Roggen", "Gerste", "Hafer"] },
-    { "id": "group_b", "label": "Viehzucht", "items": ["Rind", "Schwein", "Schaf", "Ziege"] },
-    { "id": "group_c", "label": "Obst und Gemüse", "items": ["Erdbeere", "Spargel", "Raps", "Zwiebel"] },
-    { "id": "group_d", "label": "Landmaschinen", "items": ["Traktor", "Mähdrescher", "Pflug", "Erntemaschine"] }
+    {
+      "id": "group_a",
+      "label": "Getreide",
+      "items": [
+        "Weizen",
+        "Roggen",
+        "Gerste",
+        "Hafer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Viehzucht",
+      "items": [
+        "Rind",
+        "Schwein",
+        "Schaf",
+        "Ziege"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Obst und Gemüse",
+      "items": [
+        "Erdbeere",
+        "Spargel",
+        "Raps",
+        "Zwiebel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Landmaschinen",
+      "items": [
+        "Traktor",
+        "Mähdrescher",
+        "Pflug",
+        "Erntemaschine"
+      ]
+    }
   ]
 }

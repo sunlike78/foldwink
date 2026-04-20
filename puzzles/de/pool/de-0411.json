@@ -2,11 +2,55 @@
   "id": "de-0411",
   "title": "Sprichwörter vervollständigen",
   "difficulty": "medium",
-  "meta": { "theme": "sprichwörter", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "sprichwörter",
+    "batch": "de-batch-05",
+    "difficultyScore": 62
+  },
   "groups": [
-    { "id": "group_a", "label": "Ende gut …", "revealHint": "Alles gut", "items": ["… alles gut", "… Ende gut", "… wohl bedacht", "… Glück gehabt"] },
-    { "id": "group_b", "label": "Der frühe Vogel …", "revealHint": "Fleißig sein", "items": ["… fängt den Wurm", "… singt am besten", "… fliegt am weit", "… kennt den Tag"] },
-    { "id": "group_c", "label": "Viele Köche …", "revealHint": "Zuviel schadet", "items": ["… verderben den Brei", "… brauchen viel Salz", "… streiten sich", "… essen zuviel"] },
-    { "id": "group_d", "label": "Wer zuletzt lacht …", "revealHint": "Geduld lohnt", "items": ["… lacht am besten", "… hat lang gewartet", "… hat Recht gehabt", "… gewinnt immer"] }
+    {
+      "id": "group_a",
+      "label": "Ende gut …",
+      "revealHint": "Alles gut",
+      "items": [
+        "… alles gut",
+        "… Ende gut",
+        "… wohl bedacht",
+        "… Glück gehabt"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Der frühe Vogel …",
+      "revealHint": "Fleißig sein",
+      "items": [
+        "… fängt den Wurm",
+        "… singt am besten",
+        "… fliegt am weit",
+        "… kennt den Tag"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Viele Köche …",
+      "revealHint": "Zuviel schadet",
+      "items": [
+        "… verderben den Brei",
+        "… brauchen viel Salz",
+        "… streiten sich",
+        "… essen zuviel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wer zuletzt lacht …",
+      "revealHint": "Geduld lohnt",
+      "items": [
+        "… lacht am besten",
+        "… hat lang gewartet",
+        "… hat Recht gehabt",
+        "… gewinnt immer"
+      ]
+    }
   ]
 }

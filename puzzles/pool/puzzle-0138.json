@@ -6,28 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "broth",
       "label": "Broth-Based Soups",
-      "items": ["Pho", "Ramen", "Minestrone", "Consomme"]
+      "items": [
+        "Pho",
+        "Ramen",
+        "Minestrone",
+        "Consomme"
+      ]
     },
     {
       "id": "cream",
       "label": "Cream Soups",
-      "items": ["Chowder", "Bisque", "Vichyssoise", "Cream of Mushroom"]
+      "items": [
+        "Chowder",
+        "Bisque",
+        "Vichyssoise",
+        "Cream of Mushroom"
+      ]
     },
     {
       "id": "cold",
       "label": "Cold Soups",
-      "items": ["Gazpacho", "Cucumber", "Borscht", "Tarator"]
+      "items": [
+        "Gazpacho",
+        "Cucumber",
+        "Borscht",
+        "Tarator"
+      ]
     },
     {
       "id": "stew",
       "label": "Thick Stews",
-      "items": ["Gumbo", "Chili", "Bouillabaisse", "Cassoulet"]
+      "items": [
+        "Gumbo",
+        "Chili",
+        "Bouillabaisse",
+        "Cassoulet"
+      ]
     }
   ]
 }

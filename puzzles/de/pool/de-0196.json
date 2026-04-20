@@ -2,11 +2,51 @@
   "id": "de-0196",
   "title": "Geologie",
   "difficulty": "easy",
-  "meta": { "theme": "Wissenschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Wissenschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 21
+  },
   "groups": [
-    { "id": "group_a", "label": "Gesteinsarten", "items": ["Granit", "Basalt", "Kalkstein", "Sandstein"] },
-    { "id": "group_b", "label": "Mineralien", "items": ["Quarz", "Feldspat", "Glimmer", "Pyrit"] },
-    { "id": "group_c", "label": "Erdschichten", "items": ["Erdkruste", "Erdmantel", "Äußerer Kern", "Innerer Kern"] },
-    { "id": "group_d", "label": "Geologische Prozesse", "items": ["Erosion", "Tektonik", "Vulkanismus", "Sedimentation"] }
+    {
+      "id": "group_a",
+      "label": "Gesteinsarten",
+      "items": [
+        "Granit",
+        "Basalt",
+        "Kalkstein",
+        "Sandstein"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Mineralien",
+      "items": [
+        "Quarz",
+        "Feldspat",
+        "Glimmer",
+        "Pyrit"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Erdschichten",
+      "items": [
+        "Erdkruste",
+        "Erdmantel",
+        "Äußerer Kern",
+        "Innerer Kern"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Geologische Prozesse",
+      "items": [
+        "Erosion",
+        "Tektonik",
+        "Vulkanismus",
+        "Sedimentation"
+      ]
+    }
   ]
 }

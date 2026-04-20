@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "fragile",
       "label": "Physically fragile",
       "revealHint": "Fragile",
-      "items": ["Glass", "Bone", "Twig", "Shell"]
+      "items": [
+        "Glass",
+        "Bone",
+        "Twig",
+        "Shell"
+      ]
     },
     {
       "id": "commit",
       "label": "Broken commitments",
       "revealHint": "Commit",
-      "items": ["Vow", "Oath", "Pledge", "Promise"]
+      "items": [
+        "Vow",
+        "Oath",
+        "Pledge",
+        "Promise"
+      ]
     },
     {
       "id": "secure",
       "label": "Break security",
       "revealHint": "Secure",
-      "items": ["Code", "Cipher", "Seal", "Safe"]
+      "items": [
+        "Code",
+        "Cipher",
+        "Seal",
+        "Safe"
+      ]
     },
     {
       "id": "idiom",
       "label": "Break a ritual",
       "revealHint": "Ritual",
-      "items": ["Silence", "Fast", "Record", "Spell"]
+      "items": [
+        "Silence",
+        "Fast",
+        "Record",
+        "Spell"
+      ]
     }
   ]
 }

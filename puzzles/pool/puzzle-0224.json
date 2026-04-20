@@ -7,32 +7,53 @@
     "theme": "wordplay",
     "categoryType": "wordplay",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "cookware",
       "label": "Pan the Cookware",
       "revealHint": "Kitchen",
-      "items": ["Nonstick", "Cast Iron", "Saute", "Sear"]
+      "items": [
+        "Nonstick",
+        "Cast Iron",
+        "Saute",
+        "Sear"
+      ]
     },
     {
       "id": "camera",
       "label": "Camera Pan",
       "revealHint": "Camera",
-      "items": ["Tilt", "Zoom", "Dolly", "Sweep"]
+      "items": [
+        "Tilt",
+        "Zoom",
+        "Dolly",
+        "Sweep"
+      ]
     },
     {
       "id": "criticise",
       "label": "Pan the Review",
       "revealHint": "Slam",
-      "items": ["Trash", "Roast", "Bash", "Knock"]
+      "items": [
+        "Trash",
+        "Roast",
+        "Bash",
+        "Knock"
+      ]
     },
     {
       "id": "gold",
       "label": "Panning for Gold",
       "revealHint": "Miner",
-      "items": ["Nugget", "Sieve", "Stream", "Claim"]
+      "items": [
+        "Nugget",
+        "Sieve",
+        "Stream",
+        "Claim"
+      ]
     }
   ]
 }

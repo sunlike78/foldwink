@@ -3,11 +3,53 @@
   "title": "Sports Equipment",
   "difficulty": "easy",
   "editorialSummary": "Equipment grouped by sport: tennis, cricket, ice hockey, archery. False trail: a bat appears in both cricket and baseball, but all items here are unambiguously cricket-specific (bat, wicket, bail, crease line is not an item — stumps are).",
-  "meta": { "theme": "sports", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "sports",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "g1", "label": "TENNIS EQUIPMENT", "items": ["Racket", "Net Strap", "Ball Hopper", "Dampener"] },
-    { "id": "g2", "label": "CRICKET EQUIPMENT", "items": ["Bat", "Stumps", "Bails", "Leg Guards"] },
-    { "id": "g3", "label": "ICE HOCKEY EQUIPMENT", "items": ["Puck", "Stick", "Blocker", "Goalie Mask"] },
-    { "id": "g4", "label": "ARCHERY EQUIPMENT", "items": ["Quiver", "Bracer", "Nocking Point", "Arrow Rest"] }
+    {
+      "id": "g1",
+      "label": "TENNIS EQUIPMENT",
+      "items": [
+        "Racket",
+        "Net Strap",
+        "Ball Hopper",
+        "Dampener"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "CRICKET EQUIPMENT",
+      "items": [
+        "Bat",
+        "Stumps",
+        "Bails",
+        "Leg Guards"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ICE HOCKEY EQUIPMENT",
+      "items": [
+        "Puck",
+        "Stick",
+        "Blocker",
+        "Goalie Mask"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "ARCHERY EQUIPMENT",
+      "items": [
+        "Quiver",
+        "Bracer",
+        "Nocking Point",
+        "Arrow Rest"
+      ]
+    }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Олимпийские виды спорта",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 45
   },
   "groups": [
     {

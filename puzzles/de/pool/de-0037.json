@@ -2,11 +2,51 @@
   "id": "de-0037",
   "title": "Fußball",
   "difficulty": "easy",
-  "meta": { "theme": "Fußball", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Fußball",
+    "batch": "de-batch-01",
+    "difficultyScore": 36
+  },
   "groups": [
-    { "id": "group_a", "label": "Spieler-Positionen", "items": ["Torwart", "Stürmer", "Mittelfeldspieler", "Verteidiger"] },
-    { "id": "group_b", "label": "Spielfeldbereiche", "items": ["Strafraum", "Mittelkreis", "Torraum", "Eckfahne"] },
-    { "id": "group_c", "label": "Schiedsrichter-Begriffe", "items": ["Elfmeter", "Gelbe Karte", "Abseits", "Freistoß"] },
-    { "id": "group_d", "label": "Turnier-Begriffe", "items": ["Gruppenphase", "Halbfinale", "Finale", "Verlängerung"] }
+    {
+      "id": "group_a",
+      "label": "Spieler-Positionen",
+      "items": [
+        "Torwart",
+        "Stürmer",
+        "Mittelfeldspieler",
+        "Verteidiger"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Spielfeldbereiche",
+      "items": [
+        "Strafraum",
+        "Mittelkreis",
+        "Torraum",
+        "Eckfahne"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Schiedsrichter-Begriffe",
+      "items": [
+        "Elfmeter",
+        "Gelbe Karte",
+        "Abseits",
+        "Freistoß"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Turnier-Begriffe",
+      "items": [
+        "Gruppenphase",
+        "Halbfinale",
+        "Finale",
+        "Verlängerung"
+      ]
+    }
   ]
 }

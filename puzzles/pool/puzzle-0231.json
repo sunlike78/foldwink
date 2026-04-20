@@ -6,28 +6,49 @@
     "theme": "art",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "roles",
       "label": "Gallery Roles",
-      "items": ["Curator", "Docent", "Conservator", "Registrar"]
+      "items": [
+        "Curator",
+        "Docent",
+        "Conservator",
+        "Registrar"
+      ]
     },
     {
       "id": "spaces",
       "label": "Museum Spaces",
-      "items": ["Main Hall", "Side Wing", "Archive", "Workshop"]
+      "items": [
+        "Main Hall",
+        "Side Wing",
+        "Archive",
+        "Workshop"
+      ]
     },
     {
       "id": "display",
       "label": "Display Elements",
-      "items": ["Plinth", "Vitrine", "Plaque", "Label Card"]
+      "items": [
+        "Plinth",
+        "Vitrine",
+        "Plaque",
+        "Label Card"
+      ]
     },
     {
       "id": "visit",
       "label": "Visitor Experience",
-      "items": ["Audio Guide", "Gift Shop", "Cloakroom", "Ticket Desk"]
+      "items": [
+        "Audio Guide",
+        "Gift Shop",
+        "Cloakroom",
+        "Ticket Desk"
+      ]
     }
   ]
 }

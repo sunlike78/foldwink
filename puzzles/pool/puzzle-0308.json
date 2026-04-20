@@ -6,28 +6,49 @@
     "theme": "music",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "g1",
       "label": "Musical Time Signatures",
-      "items": ["Four-Four", "Three-Four", "Six-Eight", "Five-Four"]
+      "items": [
+        "Four-Four",
+        "Three-Four",
+        "Six-Eight",
+        "Five-Four"
+      ]
     },
     {
       "id": "g2",
       "label": "Musical Dynamics Markings",
-      "items": ["Fortissimo", "Forte", "Mezzo-Forte", "Pianissimo"]
+      "items": [
+        "Fortissimo",
+        "Forte",
+        "Mezzo-Forte",
+        "Pianissimo"
+      ]
     },
     {
       "id": "g3",
       "label": "Musical Tempo Markings",
-      "items": ["Andante", "Allegro", "Adagio", "Presto"]
+      "items": [
+        "Andante",
+        "Allegro",
+        "Adagio",
+        "Presto"
+      ]
     },
     {
       "id": "g4",
       "label": "Musical Key Signatures",
-      "items": ["C Major", "G Major", "D Minor", "A Minor"]
+      "items": [
+        "C Major",
+        "G Major",
+        "D Minor",
+        "A Minor"
+      ]
     }
   ]
 }

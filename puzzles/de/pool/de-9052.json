@@ -2,31 +2,55 @@
   "id": "de-9052",
   "title": "Schule macht Eindruck",
   "difficulty": "medium",
-  "meta": { "theme": "Lernmethoden und Unterrichtsstile", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Lernmethoden und Unterrichtsstile",
+    "batch": "de-batch-12",
+    "difficultyScore": 36
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Frontalunterricht",
       "revealHint": "LEHRER SPRICHT ALLE AN",
-      "items": ["Tafel vollgeschrieben", "Alle schauen nach vorn", "Hand hoch", "Mitschreiben diktiert"]
+      "items": [
+        "Tafel vollgeschrieben",
+        "Alle schauen nach vorn",
+        "Hand hoch",
+        "Mitschreiben diktiert"
+      ]
     },
     {
       "id": "group_b",
       "label": "Gruppenarbeit",
       "revealHint": "ZUSAMMEN ERARBEITEN",
-      "items": ["Tische zusammenrücken", "Rollen verteilen", "Plakat gemeinsam malen", "Ergebnis vorstellen"]
+      "items": [
+        "Tische zusammenrücken",
+        "Rollen verteilen",
+        "Plakat gemeinsam malen",
+        "Ergebnis vorstellen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Freiarbeit",
       "revealHint": "EIGENES TEMPO WÄHLEN",
-      "items": ["Material wählen", "Stille im Klassenraum", "Lehrer geht nur herum", "Aufgabe selbst"]
+      "items": [
+        "Material wählen",
+        "Stille im Klassenraum",
+        "Lehrer geht nur herum",
+        "Aufgabe selbst"
+      ]
     },
     {
       "id": "group_d",
       "label": "Projektarbeit",
       "revealHint": "WOCHEN THEMA FORSCHEN",
-      "items": ["Recherche außer Haus", "Experte zu Besuch", "Abschlusspräsentation", "Eltern eingeladen"]
+      "items": [
+        "Recherche außer Haus",
+        "Experte zu Besuch",
+        "Abschlusspräsentation",
+        "Eltern eingeladen"
+      ]
     }
   ]
 }

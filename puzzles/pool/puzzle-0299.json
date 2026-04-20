@@ -2,11 +2,53 @@
   "id": "puzzle-0299",
   "title": "Story building blocks",
   "difficulty": "easy",
-  "meta": { "theme": "literature", "categoryType": "classification", "batch": "batch-07", "status": "approved" },
+  "meta": {
+    "theme": "literature",
+    "categoryType": "classification",
+    "batch": "batch-07",
+    "status": "approved",
+    "difficultyScore": 33
+  },
   "groups": [
-    { "id": "plot", "label": "Plot Devices", "items": ["Foreshadowing", "Flashback", "Cliffhanger", "Red Herring"] },
-    { "id": "character", "label": "Character Types", "items": ["Protagonist", "Antagonist", "Foil", "Mentor"] },
-    { "id": "perspective", "label": "Narrative Perspectives", "items": ["First Person", "Third Person", "Omniscient", "Unreliable Narrator"] },
-    { "id": "conflict", "label": "Conflict Types", "items": ["Man vs Man", "Man vs Nature", "Man vs Self", "Man vs Society"] }
+    {
+      "id": "plot",
+      "label": "Plot Devices",
+      "items": [
+        "Foreshadowing",
+        "Flashback",
+        "Cliffhanger",
+        "Red Herring"
+      ]
+    },
+    {
+      "id": "character",
+      "label": "Character Types",
+      "items": [
+        "Protagonist",
+        "Antagonist",
+        "Foil",
+        "Mentor"
+      ]
+    },
+    {
+      "id": "perspective",
+      "label": "Narrative Perspectives",
+      "items": [
+        "First Person",
+        "Third Person",
+        "Omniscient",
+        "Unreliable Narrator"
+      ]
+    },
+    {
+      "id": "conflict",
+      "label": "Conflict Types",
+      "items": [
+        "Man vs Man",
+        "Man vs Nature",
+        "Man vs Self",
+        "Man vs Society"
+      ]
+    }
   ]
 }

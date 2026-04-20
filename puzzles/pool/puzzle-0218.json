@@ -6,28 +6,49 @@
     "theme": "music",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "vocal-ranges",
       "label": "Vocal Ranges",
-      "items": ["Soprano", "Alto", "Tenor", "Bass"]
+      "items": [
+        "Soprano",
+        "Alto",
+        "Tenor",
+        "Bass"
+      ]
     },
     {
       "id": "song-types",
       "label": "Song Types",
-      "items": ["Ballad", "Lullaby", "Anthem", "Serenade"]
+      "items": [
+        "Ballad",
+        "Lullaby",
+        "Anthem",
+        "Serenade"
+      ]
     },
     {
       "id": "music-venues",
       "label": "Music Venues",
-      "items": ["Concert Hall", "Arena", "Bandstand", "Amphitheatre"]
+      "items": [
+        "Concert Hall",
+        "Arena",
+        "Bandstand",
+        "Amphitheatre"
+      ]
     },
     {
       "id": "music-gear",
       "label": "Musician's Gear",
-      "items": ["Metronome", "Music Stand", "Case", "Strap"]
+      "items": [
+        "Metronome",
+        "Music Stand",
+        "Case",
+        "Strap"
+      ]
     }
   ]
 }

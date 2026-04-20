@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "empty",
       "label": "Blank (empty)",
       "revealHint": "Empty",
-      "items": ["Vacant", "Hollow", "Barren", "Desolate"]
+      "items": [
+        "Vacant",
+        "Hollow",
+        "Barren",
+        "Desolate"
+      ]
     },
     {
       "id": "face",
       "label": "Blank expression",
       "revealHint": "Face",
-      "items": ["Deadpan", "Poker Face", "Impassive", "Glazed"]
+      "items": [
+        "Deadpan",
+        "Poker Face",
+        "Impassive",
+        "Glazed"
+      ]
     },
     {
       "id": "ammo",
       "label": "Blank ammunition",
       "revealHint": "Ammo",
-      "items": ["Cartridge", "Propellant", "Report", "Recoil"]
+      "items": [
+        "Cartridge",
+        "Propellant",
+        "Report",
+        "Recoil"
+      ]
     },
     {
       "id": "form",
       "label": "Blank form",
       "revealHint": "Form",
-      "items": ["Template", "Placeholder", "Field", "Checkbox"]
+      "items": [
+        "Template",
+        "Placeholder",
+        "Field",
+        "Checkbox"
+      ]
     }
   ]
 }

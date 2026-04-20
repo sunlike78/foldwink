@@ -7,32 +7,53 @@
     "theme": "cinema",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 39
   },
   "groups": [
     {
       "id": "g1",
       "label": "Procedural Drama Examples",
       "revealHint": "Case",
-      "items": ["Law and Order", "ER", "NYPD Blue", "Grey's Anatomy"]
+      "items": [
+        "Law and Order",
+        "ER",
+        "NYPD Blue",
+        "Grey's Anatomy"
+      ]
     },
     {
       "id": "g2",
       "label": "Anthology Series Examples",
       "revealHint": "Reset",
-      "items": ["Black Mirror", "The Twilight Zone", "American Horror Story", "Fargo"]
+      "items": [
+        "Black Mirror",
+        "The Twilight Zone",
+        "American Horror Story",
+        "Fargo"
+      ]
     },
     {
       "id": "g3",
       "label": "Sitcom Examples",
       "revealHint": "Laugh",
-      "items": ["Seinfeld", "Friends", "The Office", "30 Rock"]
+      "items": [
+        "Seinfeld",
+        "Friends",
+        "The Office",
+        "30 Rock"
+      ]
     },
     {
       "id": "g4",
       "label": "Reality Competition Examples",
       "revealHint": "Vote",
-      "items": ["Survivor", "The Amazing Race", "Big Brother", "MasterChef"]
+      "items": [
+        "Survivor",
+        "The Amazing Race",
+        "Big Brother",
+        "MasterChef"
+      ]
     }
   ]
 }

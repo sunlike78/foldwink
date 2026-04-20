@@ -7,32 +7,53 @@
     "theme": "literature",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "g1",
       "label": "Nobel Prize in Literature: 1950s",
       "revealHint": "Fifties",
-      "items": ["Bertrand Russell", "Pär Lagerkvist", "François Mauriac", "Winston Churchill"]
+      "items": [
+        "Bertrand Russell",
+        "Pär Lagerkvist",
+        "François Mauriac",
+        "Winston Churchill"
+      ]
     },
     {
       "id": "g2",
       "label": "Nobel Prize in Literature: 1970s",
       "revealHint": "Seventies",
-      "items": ["Pablo Neruda", "Saul Bellow", "Isaac Bashevis Singer", "Odysseas Elytis"]
+      "items": [
+        "Pablo Neruda",
+        "Saul Bellow",
+        "Isaac Bashevis Singer",
+        "Odysseas Elytis"
+      ]
     },
     {
       "id": "g3",
       "label": "Nobel Prize in Literature: 1990s",
       "revealHint": "Nineties",
-      "items": ["Toni Morrison", "Seamus Heaney", "Wisława Szymborska", "José Saramago"]
+      "items": [
+        "Toni Morrison",
+        "Seamus Heaney",
+        "Wisława Szymborska",
+        "José Saramago"
+      ]
     },
     {
       "id": "g4",
       "label": "Nobel Prize in Literature: 2010s",
       "revealHint": "Tens",
-      "items": ["Mo Yan", "Alice Munro", "Patrick Modiano", "Svetlana Alexievich"]
+      "items": [
+        "Mo Yan",
+        "Alice Munro",
+        "Patrick Modiano",
+        "Svetlana Alexievich"
+      ]
     }
   ]
 }

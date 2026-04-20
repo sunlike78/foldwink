@@ -2,31 +2,55 @@
   "id": "de-0362",
   "title": "Designbegriffe",
   "difficulty": "medium",
-  "meta": { "theme": "Design", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Design",
+    "batch": "de-batch-04",
+    "difficultyScore": 22
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Typografie-Begriffe",
       "revealHint": "Schrift gestalten",
-      "items": ["Serif", "Kerning", "Leading", "Laufweite"]
+      "items": [
+        "Serif",
+        "Kerning",
+        "Leading",
+        "Laufweite"
+      ]
     },
     {
       "id": "group_b",
       "label": "Kompositions-Begriffe",
       "revealHint": "Bild aufbauen",
-      "items": ["Goldener Schnitt", "Drittelregel", "Balance", "Symmetrie"]
+      "items": [
+        "Goldener Schnitt",
+        "Drittelregel",
+        "Balance",
+        "Symmetrie"
+      ]
     },
     {
       "id": "group_c",
       "label": "Farb-Design-Begriffe",
       "revealHint": "Farben einsetzen",
-      "items": ["Komplementärfarbe", "Farbton", "Sättigung", "Helligkeit"]
+      "items": [
+        "Komplementärfarbe",
+        "Farbton",
+        "Sättigung",
+        "Helligkeit"
+      ]
     },
     {
       "id": "group_d",
       "label": "UX-Design-Begriffe",
       "revealHint": "Nutzerfreundlich",
-      "items": ["Wireframe", "Prototyp", "Usability", "Affordanz"]
+      "items": [
+        "Wireframe",
+        "Prototyp",
+        "Usability",
+        "Affordanz"
+      ]
     }
   ]
 }

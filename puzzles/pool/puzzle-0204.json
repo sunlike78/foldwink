@@ -6,28 +6,49 @@
     "theme": "experimental",
     "categoryType": "thematic",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "blooms",
       "label": "Spring Blooms",
-      "items": ["Daffodil", "Tulip", "Cherry Blossom", "Magnolia"]
+      "items": [
+        "Daffodil",
+        "Tulip",
+        "Cherry Blossom",
+        "Magnolia"
+      ]
     },
     {
       "id": "weather",
       "label": "Spring Weather",
-      "items": ["Drizzle", "Mild", "Showers", "Breezy"]
+      "items": [
+        "Drizzle",
+        "Mild",
+        "Showers",
+        "Breezy"
+      ]
     },
     {
       "id": "fauna",
       "label": "Spring Animals",
-      "items": ["Lamb", "Chick", "Bumblebee", "Robin"]
+      "items": [
+        "Lamb",
+        "Chick",
+        "Bumblebee",
+        "Robin"
+      ]
     },
     {
       "id": "traditions",
       "label": "Spring Traditions",
-      "items": ["Egg Hunt", "Spring Clean", "Maypole", "Picnic"]
+      "items": [
+        "Egg Hunt",
+        "Spring Clean",
+        "Maypole",
+        "Picnic"
+      ]
     }
   ]
 }

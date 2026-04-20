@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "car",
       "label": "Driving a car",
       "revealHint": "Car",
-      "items": ["Steering", "Gear", "Accelerate", "Brake"]
+      "items": [
+        "Steering",
+        "Gear",
+        "Accelerate",
+        "Brake"
+      ]
     },
     {
       "id": "motivation",
       "label": "Inner drive",
       "revealHint": "Motivation",
-      "items": ["Ambition", "Determination", "Willpower", "Tenacity"]
+      "items": [
+        "Ambition",
+        "Determination",
+        "Willpower",
+        "Tenacity"
+      ]
     },
     {
       "id": "computing",
       "label": "Computer drive",
       "revealHint": "Computing",
-      "items": ["Hard Drive", "SSD", "Partition", "Format"]
+      "items": [
+        "Hard Drive",
+        "SSD",
+        "Partition",
+        "Format"
+      ]
     },
     {
       "id": "golf",
       "label": "Golf drive",
       "revealHint": "Golf",
-      "items": ["Tee", "Fairway", "Driver", "Backswing"]
+      "items": [
+        "Tee",
+        "Fairway",
+        "Driver",
+        "Backswing"
+      ]
     }
   ]
 }

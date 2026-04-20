@@ -3,11 +3,57 @@
   "title": "Tarot Arcana",
   "difficulty": "medium",
   "editorialSummary": "Major Arcana tarot cards by thematic cluster. False trail: The Hermit reads as a journey card (wandering figure) but represents inward reflection/wisdom — placed with virtue. The Tower represents sudden upheaval — placed with change, not power.",
-  "meta": { "theme": "culture", "categoryType": "thematic", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "culture",
+    "categoryType": "thematic",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 54
+  },
   "groups": [
-    { "id": "g1", "label": "CELESTIAL CARDS", "revealHint": "Cosmos", "items": ["The Star", "The Moon", "The Sun", "The World"] },
-    { "id": "g2", "label": "VIRTUE CARDS", "revealHint": "Virtue", "items": ["Strength", "Justice", "Temperance", "The Hermit"] },
-    { "id": "g3", "label": "POWER AND AUTHORITY CARDS", "revealHint": "Power", "items": ["The Emperor", "The Empress", "The Hierophant", "The High Priestess"] },
-    { "id": "g4", "label": "JOURNEY AND CHANGE CARDS", "revealHint": "Journey", "items": ["The Fool", "The Tower", "Wheel of Fortune", "Judgement"] }
+    {
+      "id": "g1",
+      "label": "CELESTIAL CARDS",
+      "revealHint": "Cosmos",
+      "items": [
+        "The Star",
+        "The Moon",
+        "The Sun",
+        "The World"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "VIRTUE CARDS",
+      "revealHint": "Virtue",
+      "items": [
+        "Strength",
+        "Justice",
+        "Temperance",
+        "The Hermit"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "POWER AND AUTHORITY CARDS",
+      "revealHint": "Power",
+      "items": [
+        "The Emperor",
+        "The Empress",
+        "The Hierophant",
+        "The High Priestess"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "JOURNEY AND CHANGE CARDS",
+      "revealHint": "Journey",
+      "items": [
+        "The Fool",
+        "The Tower",
+        "Wheel of Fortune",
+        "Judgement"
+      ]
+    }
   ]
 }

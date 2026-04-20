@@ -6,28 +6,49 @@
     "theme": "clothing",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "shirts",
       "label": "Types of Shirt",
-      "items": ["Polo", "Henley", "Oxford", "T-Shirt"]
+      "items": [
+        "Polo",
+        "Henley",
+        "Oxford",
+        "T-Shirt"
+      ]
     },
     {
       "id": "trousers",
       "label": "Types of Trouser",
-      "items": ["Chinos", "Jeans", "Slacks", "Cargos"]
+      "items": [
+        "Chinos",
+        "Jeans",
+        "Slacks",
+        "Cargos"
+      ]
     },
     {
       "id": "outerwear",
       "label": "Outerwear",
-      "items": ["Parka", "Blazer", "Trench", "Anorak"]
+      "items": [
+        "Parka",
+        "Blazer",
+        "Trench",
+        "Anorak"
+      ]
     },
     {
       "id": "accessories",
       "label": "Accessories",
-      "items": ["Belt", "Scarf", "Gloves", "Tie"]
+      "items": [
+        "Belt",
+        "Scarf",
+        "Gloves",
+        "Tie"
+      ]
     }
   ]
 }

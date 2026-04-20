@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "thematic",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "temp",
       "label": "Cold temperatures",
       "revealHint": "Temp",
-      "items": ["Frostbite", "Hypothermia", "Permafrost", "Glacial"]
+      "items": [
+        "Frostbite",
+        "Hypothermia",
+        "Permafrost",
+        "Glacial"
+      ]
     },
     {
       "id": "person",
       "label": "Cold personality",
       "revealHint": "Person",
-      "items": ["Aloof", "Distant", "Stoic", "Detached"]
+      "items": [
+        "Aloof",
+        "Distant",
+        "Stoic",
+        "Detached"
+      ]
     },
     {
       "id": "illness",
       "label": "Cold symptoms",
       "revealHint": "Illness",
-      "items": ["Sneeze", "Sniffle", "Congestion", "Sore Throat"]
+      "items": [
+        "Sneeze",
+        "Sniffle",
+        "Congestion",
+        "Sore Throat"
+      ]
     },
     {
       "id": "colour",
       "label": "Cool colours",
       "revealHint": "Colour",
-      "items": ["Slate", "Pewter", "Ash", "Silver"]
+      "items": [
+        "Slate",
+        "Pewter",
+        "Ash",
+        "Silver"
+      ]
     }
   ]
 }

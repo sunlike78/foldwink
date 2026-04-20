@@ -3,11 +3,53 @@
   "title": "Mountains of Fire",
   "difficulty": "easy",
   "editorialSummary": "Volcanoes grouped by structural type. Shield volcanoes (broad, low-slope, basaltic): Mauna Loa, Mauna Kea, Olympus Mons, Kilauea. Stratovolcanoes / composite (steep, explosive): Fuji, Vesuvius, Krakatoa, St. Helens. Cinder cone (small, steep, pyroclastic): Paricutin, Cerro Negro, Sunset Crater, Pu'u 'O'o. Lava dome (viscous lava plug): Lassen Peak, Soufriere Hills, Novarupta, Mount Pelee. No false trails — each volcano is a textbook example of its type.",
-  "meta": { "theme": "volcano structural types", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "volcano structural types",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "g1", "label": "SHIELD VOLCANOES", "items": ["Mauna Loa", "Kilauea", "Olympus Mons", "Mauna Kea"] },
-    { "id": "g2", "label": "STRATOVOLCANOES", "items": ["Mount Fuji", "Vesuvius", "Krakatoa", "Mount St. Helens"] },
-    { "id": "g3", "label": "CINDER CONE VOLCANOES", "items": ["Paricutin", "Cerro Negro", "Sunset Crater", "Pu'u 'O'o"] },
-    { "id": "g4", "label": "LAVA DOME VOLCANOES", "items": ["Lassen Peak", "Soufriere Hills", "Novarupta", "Mount Pelee"] }
+    {
+      "id": "g1",
+      "label": "SHIELD VOLCANOES",
+      "items": [
+        "Mauna Loa",
+        "Kilauea",
+        "Olympus Mons",
+        "Mauna Kea"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "STRATOVOLCANOES",
+      "items": [
+        "Mount Fuji",
+        "Vesuvius",
+        "Krakatoa",
+        "Mount St. Helens"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "CINDER CONE VOLCANOES",
+      "items": [
+        "Paricutin",
+        "Cerro Negro",
+        "Sunset Crater",
+        "Pu'u 'O'o"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "LAVA DOME VOLCANOES",
+      "items": [
+        "Lassen Peak",
+        "Soufriere Hills",
+        "Novarupta",
+        "Mount Pelee"
+      ]
+    }
   ]
 }

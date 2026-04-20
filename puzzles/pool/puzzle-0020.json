@@ -8,25 +8,48 @@
       "id": "small",
       "label": "Meaning SMALL",
       "revealHint": "SMALL",
-      "items": ["Tiny", "Little", "Petite", "Wee"]
+      "items": [
+        "Tiny",
+        "Little",
+        "Petite",
+        "Wee"
+      ]
     },
     {
       "id": "big",
       "label": "Meaning BIG",
       "revealHint": "BIG",
-      "items": ["Huge", "Vast", "Giant", "Colossal"]
+      "items": [
+        "Huge",
+        "Vast",
+        "Giant",
+        "Colossal"
+      ]
     },
     {
       "id": "fast",
       "label": "Meaning FAST",
       "revealHint": "FAST",
-      "items": ["Quick", "Rapid", "Swift", "Speedy"]
+      "items": [
+        "Quick",
+        "Rapid",
+        "Swift",
+        "Speedy"
+      ]
     },
     {
       "id": "quiet",
       "label": "Meaning QUIET",
       "revealHint": "QUIET",
-      "items": ["Silent", "Hushed", "Muted", "Still"]
+      "items": [
+        "Silent",
+        "Hushed",
+        "Muted",
+        "Still"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 17
+  }
 }

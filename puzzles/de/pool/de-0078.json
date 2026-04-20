@@ -2,11 +2,51 @@
   "id": "de-0078",
   "title": "Internet und Soziale Medien",
   "difficulty": "easy",
-  "meta": { "theme": "Internet und Soziale Medien", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "Internet und Soziale Medien",
+    "batch": "de-batch-03",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "group_a", "label": "Plattformen", "items": ["Instagram", "TikTok", "YouTube", "LinkedIn"] },
-    { "id": "group_b", "label": "Inhaltsformate", "items": ["Reel", "Podcast", "Blog", "Livestream"] },
-    { "id": "group_c", "label": "Internet-Begriffe", "items": ["Hashtag", "Like", "Follow", "Teilen"] },
-    { "id": "group_d", "label": "Online-Berufe", "items": ["Influencer", "Content Creator", "Community Manager", "SEO-Experte"] }
+    {
+      "id": "group_a",
+      "label": "Plattformen",
+      "items": [
+        "Instagram",
+        "TikTok",
+        "YouTube",
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Inhaltsformate",
+      "items": [
+        "Reel",
+        "Podcast",
+        "Blog",
+        "Livestream"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Internet-Begriffe",
+      "items": [
+        "Hashtag",
+        "Like",
+        "Follow",
+        "Teilen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Online-Berufe",
+      "items": [
+        "Influencer",
+        "Content Creator",
+        "Community Manager",
+        "SEO-Experte"
+      ]
+    }
   ]
 }

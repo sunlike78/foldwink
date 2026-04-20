@@ -6,28 +6,49 @@
     "theme": "games",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "trick",
       "label": "Trick-Taking Games",
-      "items": ["Bridge", "Spades", "Hearts", "Euchre"]
+      "items": [
+        "Bridge",
+        "Spades",
+        "Hearts",
+        "Euchre"
+      ]
     },
     {
       "id": "match",
       "label": "Matching Games",
-      "items": ["Rummy", "Canasta", "Gin", "Mahjong"]
+      "items": [
+        "Rummy",
+        "Canasta",
+        "Gin",
+        "Mahjong"
+      ]
     },
     {
       "id": "casino",
       "label": "Casino Card Games",
-      "items": ["Blackjack", "Poker", "Baccarat", "War"]
+      "items": [
+        "Blackjack",
+        "Poker",
+        "Baccarat",
+        "War"
+      ]
     },
     {
       "id": "solitaire",
       "label": "Patience Games",
-      "items": ["Klondike", "Spider", "FreeCell", "Pyramid"]
+      "items": [
+        "Klondike",
+        "Spider",
+        "FreeCell",
+        "Pyramid"
+      ]
     }
   ]
 }

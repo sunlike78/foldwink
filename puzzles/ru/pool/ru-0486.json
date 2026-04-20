@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Необычные и нишевые виды спорта",
-    "batch": "ru-batch-21"
+    "batch": "ru-batch-21",
+    "difficultyScore": 27
   },
   "groups": [
     {

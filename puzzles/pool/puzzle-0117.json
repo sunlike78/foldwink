@@ -6,28 +6,49 @@
     "theme": "household",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 51
   },
   "groups": [
     {
       "id": "clean",
       "label": "Cleaning Tasks",
-      "items": ["Vacuuming", "Mopping", "Dusting", "Scrubbing"]
+      "items": [
+        "Vacuuming",
+        "Mopping",
+        "Dusting",
+        "Scrubbing"
+      ]
     },
     {
       "id": "laundry",
       "label": "Laundry Tasks",
-      "items": ["Ironing", "Folding", "Sorting", "Hanging"]
+      "items": [
+        "Ironing",
+        "Folding",
+        "Sorting",
+        "Hanging"
+      ]
     },
     {
       "id": "kitchen",
       "label": "Kitchen Tasks",
-      "items": ["Washing Up", "Wiping Counter", "Emptying Bin", "Loading Dishwasher"]
+      "items": [
+        "Washing Up",
+        "Wiping Counter",
+        "Emptying Bin",
+        "Loading Dishwasher"
+      ]
     },
     {
       "id": "outdoor",
       "label": "Outdoor Tasks",
-      "items": ["Mowing", "Raking", "Sweeping Path", "Weeding"]
+      "items": [
+        "Mowing",
+        "Raking",
+        "Sweeping Path",
+        "Weeding"
+      ]
     }
   ]
 }

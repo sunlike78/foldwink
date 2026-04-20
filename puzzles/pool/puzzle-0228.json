@@ -7,32 +7,53 @@
     "theme": "music",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 21
   },
   "groups": [
     {
       "id": "structure",
       "label": "Song Structure",
       "revealHint": "Parts",
-      "items": ["Verse", "Chorus", "Outro", "Intro"]
+      "items": [
+        "Verse",
+        "Chorus",
+        "Outro",
+        "Intro"
+      ]
     },
     {
       "id": "tempo",
       "label": "Tempo Markings",
       "revealHint": "Speed",
-      "items": ["Allegro", "Adagio", "Presto", "Largo"]
+      "items": [
+        "Allegro",
+        "Adagio",
+        "Presto",
+        "Largo"
+      ]
     },
     {
       "id": "chord-quality",
       "label": "Chord Qualities",
       "revealHint": "Chord",
-      "items": ["Major", "Minor", "Diminished", "Augmented"]
+      "items": [
+        "Major",
+        "Minor",
+        "Diminished",
+        "Augmented"
+      ]
     },
     {
       "id": "dynamics",
       "label": "Performance Dynamics",
       "revealHint": "Volume",
-      "items": ["Forte", "Fortissimo", "Crescendo", "Pianissimo"]
+      "items": [
+        "Forte",
+        "Fortissimo",
+        "Crescendo",
+        "Pianissimo"
+      ]
     }
   ]
 }

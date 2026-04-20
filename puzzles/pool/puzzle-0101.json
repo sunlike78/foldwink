@@ -6,28 +6,49 @@
     "theme": "materials",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 19
   },
   "groups": [
     {
       "id": "natural",
       "label": "Natural Fibres",
-      "items": ["Cotton", "Linen", "Silk", "Wool"]
+      "items": [
+        "Cotton",
+        "Linen",
+        "Silk",
+        "Wool"
+      ]
     },
     {
       "id": "synthetic",
       "label": "Synthetic Fabrics",
-      "items": ["Nylon", "Polyester", "Spandex", "Acrylic"]
+      "items": [
+        "Nylon",
+        "Polyester",
+        "Spandex",
+        "Acrylic"
+      ]
     },
     {
       "id": "weave",
       "label": "Weave Patterns",
-      "items": ["Twill", "Satin", "Herringbone", "Jacquard"]
+      "items": [
+        "Twill",
+        "Satin",
+        "Herringbone",
+        "Jacquard"
+      ]
     },
     {
       "id": "garment",
       "label": "Garment Types",
-      "items": ["Tunic", "Kaftan", "Poncho", "Sarong"]
+      "items": [
+        "Tunic",
+        "Kaftan",
+        "Poncho",
+        "Sarong"
+      ]
     }
   ]
 }

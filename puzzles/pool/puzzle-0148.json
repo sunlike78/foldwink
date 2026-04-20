@@ -6,28 +6,49 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "style",
       "label": "Architectural Styles",
-      "items": ["Gothic", "Art Deco", "Brutalist", "Neoclassical"]
+      "items": [
+        "Gothic",
+        "Art Deco",
+        "Brutalist",
+        "Neoclassical"
+      ]
     },
     {
       "id": "element",
       "label": "Building Elements",
-      "items": ["Column", "Arch", "Dome", "Buttress"]
+      "items": [
+        "Column",
+        "Arch",
+        "Dome",
+        "Buttress"
+      ]
     },
     {
       "id": "room",
       "label": "Building Rooms",
-      "items": ["Atrium", "Foyer", "Mezzanine", "Lobby"]
+      "items": [
+        "Atrium",
+        "Foyer",
+        "Mezzanine",
+        "Lobby"
+      ]
     },
     {
       "id": "material",
       "label": "Building Materials",
-      "items": ["Concrete", "Marble", "Granite", "Sandstone"]
+      "items": [
+        "Concrete",
+        "Marble",
+        "Granite",
+        "Sandstone"
+      ]
     }
   ]
 }

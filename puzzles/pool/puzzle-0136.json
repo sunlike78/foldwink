@@ -6,20 +6,49 @@
     "theme": "agriculture",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 16
   },
   "groups": [
-    { "id": "grain", "label": "Grain Crops", "items": ["Wheat", "Barley", "Oats", "Rye"] },
+    {
+      "id": "grain",
+      "label": "Grain Crops",
+      "items": [
+        "Wheat",
+        "Barley",
+        "Oats",
+        "Rye"
+      ]
+    },
     {
       "id": "root",
       "label": "Root Vegetables",
-      "items": ["Potato", "Carrot", "Turnip", "Beetroot"]
+      "items": [
+        "Potato",
+        "Carrot",
+        "Turnip",
+        "Beetroot"
+      ]
     },
     {
       "id": "orchard",
       "label": "Orchard Fruits",
-      "items": ["Peach", "Apricot", "Nectarine", "Fig"]
+      "items": [
+        "Peach",
+        "Apricot",
+        "Nectarine",
+        "Fig"
+      ]
     },
-    { "id": "vine", "label": "Vine Plants", "items": ["Grape", "Pumpkin", "Cucumber", "Melon"] }
+    {
+      "id": "vine",
+      "label": "Vine Plants",
+      "items": [
+        "Grape",
+        "Pumpkin",
+        "Cucumber",
+        "Melon"
+      ]
+    }
   ]
 }

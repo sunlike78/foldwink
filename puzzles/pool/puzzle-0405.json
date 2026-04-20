@@ -3,11 +3,53 @@
   "title": "Elements by Periodic Group",
   "difficulty": "hard",
   "editorialSummary": "Chemical elements by periodic table group. False trail: Sodium and Potassium feel like one group to non-chemists — they are both alkali metals, correctly together. Hardest part: separating alkali (Group 1) from alkaline earth (Group 2). Barium and Calcium are most commonly misidentified. Noble gases and Halogens are the solving anchors.",
-  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "science",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "g1", "label": "NOBLE GASES", "items": ["Helium", "Neon", "Argon", "Krypton"] },
-    { "id": "g2", "label": "HALOGENS", "items": ["Fluorine", "Chlorine", "Bromine", "Iodine"] },
-    { "id": "g3", "label": "ALKALI METALS", "items": ["Lithium", "Sodium", "Potassium", "Caesium"] },
-    { "id": "g4", "label": "ALKALINE EARTH METALS", "items": ["Beryllium", "Magnesium", "Calcium", "Barium"] }
+    {
+      "id": "g1",
+      "label": "NOBLE GASES",
+      "items": [
+        "Helium",
+        "Neon",
+        "Argon",
+        "Krypton"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "HALOGENS",
+      "items": [
+        "Fluorine",
+        "Chlorine",
+        "Bromine",
+        "Iodine"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ALKALI METALS",
+      "items": [
+        "Lithium",
+        "Sodium",
+        "Potassium",
+        "Caesium"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "ALKALINE EARTH METALS",
+      "items": [
+        "Beryllium",
+        "Magnesium",
+        "Calcium",
+        "Barium"
+      ]
+    }
   ]
 }

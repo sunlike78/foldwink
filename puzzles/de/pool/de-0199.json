@@ -2,11 +2,51 @@
   "id": "de-0199",
   "title": "Bundeswehr",
   "difficulty": "easy",
-  "meta": { "theme": "Politik", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Politik",
+    "batch": "de-batch-02",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "group_a", "label": "Teilstreitkräfte", "items": ["Heer", "Luftwaffe", "Marine", "Cyber-Kommando"] },
-    { "id": "group_b", "label": "Dienstgrade", "items": ["Gefreiter", "Unteroffizier", "Leutnant", "General"] },
-    { "id": "group_c", "label": "Ausrüstung", "items": ["Leopard 2", "Eurofighter", "Fregatte", "G36"] },
-    { "id": "group_d", "label": "Einsatzgebiete", "items": ["Afghanistan", "Mali", "Kosovo", "Libanon"] }
+    {
+      "id": "group_a",
+      "label": "Teilstreitkräfte",
+      "items": [
+        "Heer",
+        "Luftwaffe",
+        "Marine",
+        "Cyber-Kommando"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Dienstgrade",
+      "items": [
+        "Gefreiter",
+        "Unteroffizier",
+        "Leutnant",
+        "General"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Ausrüstung",
+      "items": [
+        "Leopard 2",
+        "Eurofighter",
+        "Fregatte",
+        "G36"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Einsatzgebiete",
+      "items": [
+        "Afghanistan",
+        "Mali",
+        "Kosovo",
+        "Libanon"
+      ]
+    }
   ]
 }

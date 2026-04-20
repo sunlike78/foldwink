@@ -6,28 +6,49 @@
     "theme": "fashion",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "formal",
       "label": "Formal Hats",
-      "items": ["Top Hat", "Bowler", "Fedora", "Trilby"]
+      "items": [
+        "Top Hat",
+        "Bowler",
+        "Fedora",
+        "Trilby"
+      ]
     },
     {
       "id": "warm",
       "label": "Warm Headwear",
-      "items": ["Beanie", "Ushanka", "Trapper", "Balaclava"]
+      "items": [
+        "Beanie",
+        "Ushanka",
+        "Trapper",
+        "Balaclava"
+      ]
     },
     {
       "id": "sun",
       "label": "Sun Hats",
-      "items": ["Panama", "Straw Hat", "Visor", "Bucket Hat"]
+      "items": [
+        "Panama",
+        "Straw Hat",
+        "Visor",
+        "Bucket Hat"
+      ]
     },
     {
       "id": "sport",
       "label": "Sport Caps",
-      "items": ["Baseball Cap", "Cycling Helmet", "Swim Cap", "Jockey Cap"]
+      "items": [
+        "Baseball Cap",
+        "Cycling Helmet",
+        "Swim Cap",
+        "Jockey Cap"
+      ]
     }
   ]
 }

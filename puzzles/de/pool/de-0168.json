@@ -2,11 +2,51 @@
   "id": "de-0168",
   "title": "Hannover Sehenswürdigkeiten",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "group_a", "label": "Messen", "items": ["Hannover Messe", "CeBIT", "IAA", "Agritechnica"] },
-    { "id": "group_b", "label": "Parks", "items": ["Herrenhäuser Gärten", "Eilenriede", "Stadtpark", "Georgengarten"] },
-    { "id": "group_c", "label": "Sehenswürdigkeiten", "items": ["Neues Rathaus", "Marktkirche", "Kröpcke", "Sprengel Museum"] },
-    { "id": "group_d", "label": "Geschichte", "items": ["Königshaus", "Weltausstellung EXPO", "Kriegszerstörung", "Wiederaufbau"] }
+    {
+      "id": "group_a",
+      "label": "Messen",
+      "items": [
+        "Hannover Messe",
+        "CeBIT",
+        "IAA",
+        "Agritechnica"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Parks",
+      "items": [
+        "Herrenhäuser Gärten",
+        "Eilenriede",
+        "Stadtpark",
+        "Georgengarten"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Sehenswürdigkeiten",
+      "items": [
+        "Neues Rathaus",
+        "Marktkirche",
+        "Kröpcke",
+        "Sprengel Museum"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Geschichte",
+      "items": [
+        "Königshaus",
+        "Weltausstellung EXPO",
+        "Kriegszerstörung",
+        "Wiederaufbau"
+      ]
+    }
   ]
 }

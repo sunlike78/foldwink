@@ -21,6 +21,9 @@ import {
   getEasyByIndex,
   getMediumByIndex,
   getHardByIndex,
+  getEasyRampedByIndex,
+  getMediumRampedByIndex,
+  getHardRampedByIndex,
   PUZZLE_POOL,
   EASY_POOL,
   MEDIUM_POOL,
@@ -32,6 +35,9 @@ import {
   getDEEasyByIndex,
   getDEMediumByIndex,
   getDEHardByIndex,
+  getDEEasyRampedByIndex,
+  getDEMediumRampedByIndex,
+  getDEHardRampedByIndex,
   DE_PUZZLE_POOL,
   DE_EASY_POOL,
   DE_MEDIUM_POOL,
@@ -43,6 +49,9 @@ import {
   getRUEasyByIndex,
   getRUMediumByIndex,
   getRUHardByIndex,
+  getRUEasyRampedByIndex,
+  getRUMediumRampedByIndex,
+  getRUHardRampedByIndex,
   RU_PUZZLE_POOL,
   RU_EASY_POOL,
   RU_MEDIUM_POOL,
@@ -127,6 +136,28 @@ function langGetHardByIndex(i: number): Puzzle | undefined {
   return getHardByIndex(i);
 }
 
+// Ramped variants — used by standard-mode actions so the player walks an
+// easy→hard difficulty ramp inside each tier. Daily mode keeps the id-sorted
+// pools above so the daily puzzle stays deterministic.
+function langGetEasyRampedByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEEasyRampedByIndex(i) ?? getEasyRampedByIndex(i);
+  if (lang === "ru") return getRUEasyRampedByIndex(i) ?? getEasyRampedByIndex(i);
+  return getEasyRampedByIndex(i);
+}
+function langGetMediumRampedByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEMediumRampedByIndex(i) ?? getMediumRampedByIndex(i);
+  if (lang === "ru") return getRUMediumRampedByIndex(i) ?? getMediumRampedByIndex(i);
+  return getMediumRampedByIndex(i);
+}
+function langGetHardRampedByIndex(i: number): Puzzle | undefined {
+  const lang = getLangSync();
+  if (lang === "de") return getDEHardRampedByIndex(i) ?? getHardRampedByIndex(i);
+  if (lang === "ru") return getRUHardRampedByIndex(i) ?? getHardRampedByIndex(i);
+  return getHardRampedByIndex(i);
+}
+
 function langGetPool(): readonly Puzzle[] {
   const lang = getLangSync();
   if (lang === "de" && DE_PUZZLE_POOL.length > 0) return DE_PUZZLE_POOL;
@@ -159,6 +190,9 @@ export const useGameStore = createStore({
   getEasyByIndex: langGetEasyByIndex,
   getMediumByIndex: langGetMediumByIndex,
   getHardByIndex: langGetHardByIndex,
+  getEasyRampedByIndex: langGetEasyRampedByIndex,
+  getMediumRampedByIndex: langGetMediumRampedByIndex,
+  getHardRampedByIndex: langGetHardRampedByIndex,
   getPool: langGetPool,
   getEasyPool: langGetEasyPool,
   getMediumPool: langGetMediumPool,

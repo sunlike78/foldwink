@@ -6,28 +6,49 @@
     "theme": "games",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "g1",
       "label": "Worker Placement Games",
-      "items": ["Agricola", "Viticulture", "Caverna", "Architects of the West Kingdom"]
+      "items": [
+        "Agricola",
+        "Viticulture",
+        "Caverna",
+        "Architects of the West Kingdom"
+      ]
     },
     {
       "id": "g2",
       "label": "Deck-Building Games",
-      "items": ["Dominion", "Thunderstone", "Ascension", "Star Realms"]
+      "items": [
+        "Dominion",
+        "Thunderstone",
+        "Ascension",
+        "Star Realms"
+      ]
     },
     {
       "id": "g3",
       "label": "Area Control Games",
-      "items": ["Inis", "Scythe", "Blood Rage", "Nexus Ops"]
+      "items": [
+        "Inis",
+        "Scythe",
+        "Blood Rage",
+        "Nexus Ops"
+      ]
     },
     {
       "id": "g4",
       "label": "Cooperative Games",
-      "items": ["Pandemic", "Spirit Island", "Arkham Horror", "Gloomhaven"]
+      "items": [
+        "Pandemic",
+        "Spirit Island",
+        "Arkham Horror",
+        "Gloomhaven"
+      ]
     }
   ]
 }

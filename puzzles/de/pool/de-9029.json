@@ -2,31 +2,55 @@
   "id": "de-9029",
   "title": "Theater der Gefühle",
   "difficulty": "medium",
-  "meta": { "theme": "Dramatische Genres und ihre Kerne", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Dramatische Genres und ihre Kerne",
+    "batch": "de-batch-11",
+    "difficultyScore": 37
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Tragödie",
       "revealHint": "FALL AUS GROSSER HÖHE",
-      "items": ["Held scheitert an sich", "Chor beklagt das Ende", "Schuld ohne Ausweg", "Katharsis im Publikum"]
+      "items": [
+        "Held scheitert an sich",
+        "Chor beklagt das Ende",
+        "Schuld ohne Ausweg",
+        "Katharsis im Publikum"
+      ]
     },
     {
       "id": "group_b",
       "label": "Komödie",
       "revealHint": "LACHEN ÜBER SCHWÄCHEN",
-      "items": ["Verwechslung rettet", "Geizhals wird entlarvt", "Alles gut am Schluss", "Hochzeit als Finale"]
+      "items": [
+        "Verwechslung rettet",
+        "Geizhals wird entlarvt",
+        "Alles gut am Schluss",
+        "Hochzeit als Finale"
+      ]
     },
     {
       "id": "group_c",
       "label": "Satire",
       "revealHint": "SPOTT ALS KRITIK",
-      "items": ["Übertreibung enthüllt", "Mächtiger wird Narr", "Lachen mit Unbehagen", "Tucholsky über Kaiser"]
+      "items": [
+        "Übertreibung enthüllt",
+        "Mächtiger wird Narr",
+        "Lachen mit Unbehagen",
+        "Tucholsky über Kaiser"
+      ]
     },
     {
       "id": "group_d",
       "label": "Episches Theater",
       "revealHint": "ABSTAND STATT MITLEIDEN",
-      "items": ["Schild erklärt Szene", "Brecht bricht Illusion", "Zuschauer soll denken", "Verfremdung absichtl."]
+      "items": [
+        "Schild erklärt Szene",
+        "Brecht bricht Illusion",
+        "Zuschauer soll denken",
+        "Verfremdung absichtl."
+      ]
     }
   ]
 }

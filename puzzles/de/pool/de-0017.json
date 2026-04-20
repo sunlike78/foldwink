@@ -2,11 +2,51 @@
   "id": "de-0017",
   "title": "Küchengeräte",
   "difficulty": "easy",
-  "meta": { "theme": "Küchengeräte", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Küchengeräte",
+    "batch": "de-batch-01",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Kochgeräte", "items": ["Herd", "Backofen", "Mikrowelle", "Fritteuse"] },
-    { "id": "group_b", "label": "Kältegeräte", "items": ["Kühlschrank", "Gefriertruhe", "Gefrierschrank", "Weinkühlschrank"] },
-    { "id": "group_c", "label": "Kleine Helfer", "items": ["Mixer", "Toaster", "Kaffeemaschine", "Wasserkocher"] },
-    { "id": "group_d", "label": "Schneidewerkzeuge", "items": ["Messer", "Brotmesser", "Gemüsehobel", "Dosenöffner"] }
+    {
+      "id": "group_a",
+      "label": "Kochgeräte",
+      "items": [
+        "Herd",
+        "Backofen",
+        "Mikrowelle",
+        "Fritteuse"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kältegeräte",
+      "items": [
+        "Kühlschrank",
+        "Gefriertruhe",
+        "Gefrierschrank",
+        "Weinkühlschrank"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Kleine Helfer",
+      "items": [
+        "Mixer",
+        "Toaster",
+        "Kaffeemaschine",
+        "Wasserkocher"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Schneidewerkzeuge",
+      "items": [
+        "Messer",
+        "Brotmesser",
+        "Gemüsehobel",
+        "Dosenöffner"
+      ]
+    }
   ]
 }

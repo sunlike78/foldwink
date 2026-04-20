@@ -2,11 +2,51 @@
   "id": "de-0091",
   "title": "Tee",
   "difficulty": "easy",
-  "meta": { "theme": "Tee", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Tee",
+    "batch": "de-batch-04",
+    "difficultyScore": 19
+  },
   "groups": [
-    { "id": "group_a", "label": "Schwarzteesorten", "items": ["Assam", "Darjeeling", "Earl Grey", "English Breakfast"] },
-    { "id": "group_b", "label": "Grünteesorten", "items": ["Sencha", "Matcha", "Gunpowder", "Jasmin"] },
-    { "id": "group_c", "label": "Kräuterteesorten", "items": ["Kamille", "Pfefferminze", "Melisse", "Salbei"] },
-    { "id": "group_d", "label": "Früchteteesorten", "items": ["Hagebutte", "Hibiskus", "Waldbeere", "Apfel-Zimt"] }
+    {
+      "id": "group_a",
+      "label": "Schwarzteesorten",
+      "items": [
+        "Assam",
+        "Darjeeling",
+        "Earl Grey",
+        "English Breakfast"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Grünteesorten",
+      "items": [
+        "Sencha",
+        "Matcha",
+        "Gunpowder",
+        "Jasmin"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Kräuterteesorten",
+      "items": [
+        "Kamille",
+        "Pfefferminze",
+        "Melisse",
+        "Salbei"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Früchteteesorten",
+      "items": [
+        "Hagebutte",
+        "Hibiskus",
+        "Waldbeere",
+        "Apfel-Zimt"
+      ]
+    }
   ]
 }

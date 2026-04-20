@@ -6,28 +6,49 @@
     "theme": "transport",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "air",
       "label": "Air Transport",
-      "items": ["Helicopter", "Blimp", "Glider", "Biplane"]
+      "items": [
+        "Helicopter",
+        "Blimp",
+        "Glider",
+        "Biplane"
+      ]
     },
     {
       "id": "rail",
       "label": "Rail Transport",
-      "items": ["Monorail", "Tram", "Freight Train", "Maglev"]
+      "items": [
+        "Monorail",
+        "Tram",
+        "Freight Train",
+        "Maglev"
+      ]
     },
     {
       "id": "water",
       "label": "Water Transport",
-      "items": ["Kayak", "Ferry", "Tugboat", "Canoe"]
+      "items": [
+        "Kayak",
+        "Ferry",
+        "Tugboat",
+        "Canoe"
+      ]
     },
     {
       "id": "road",
       "label": "Road Vehicles",
-      "items": ["Scooter", "Minivan", "Ambulance", "Rickshaw"]
+      "items": [
+        "Scooter",
+        "Minivan",
+        "Ambulance",
+        "Rickshaw"
+      ]
     }
   ]
 }

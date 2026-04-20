@@ -2,31 +2,55 @@
   "id": "de-0356",
   "title": "Jazzstile",
   "difficulty": "medium",
-  "meta": { "theme": "Jazz", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Jazz",
+    "batch": "de-batch-04",
+    "difficultyScore": 40
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Bebop-Merkmale",
       "revealHint": "Schneller Bebop",
-      "items": ["Schnelles Tempo", "Chromatik", "Improvisation", "Parker"]
+      "items": [
+        "Schnelles Tempo",
+        "Chromatik",
+        "Improvisation",
+        "Parker"
+      ]
     },
     {
       "id": "group_b",
       "label": "Cool Jazz-Merkmale",
       "revealHint": "Kühler Klang",
-      "items": ["Entspanntes Tempo", "Miles Davis", "West Coast", "Kontrapunkt"]
+      "items": [
+        "Entspanntes Tempo",
+        "Miles Davis",
+        "West Coast",
+        "Kontrapunkt"
+      ]
     },
     {
       "id": "group_c",
       "label": "Free Jazz-Merkmale",
       "revealHint": "Frei und atonal",
-      "items": ["Atonalität", "Ornette Coleman", "Kollektivimprov.", "Keine Struktur"]
+      "items": [
+        "Atonalität",
+        "Ornette Coleman",
+        "Kollektivimprov.",
+        "Keine Struktur"
+      ]
     },
     {
       "id": "group_d",
       "label": "Fusion-Merkmale",
       "revealHint": "Jazz meets Rock",
-      "items": ["E-Gitarre", "Synthesizer", "Weather Report", "Rockrhythmen"]
+      "items": [
+        "E-Gitarre",
+        "Synthesizer",
+        "Weather Report",
+        "Rockrhythmen"
+      ]
     }
   ]
 }

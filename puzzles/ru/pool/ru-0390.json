@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Чудеса света — древние и новые",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 42
   },
   "groups": [
     {

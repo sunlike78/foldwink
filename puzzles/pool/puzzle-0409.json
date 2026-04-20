@@ -3,11 +3,53 @@
   "title": "Types of Beer",
   "difficulty": "easy",
   "editorialSummary": "Beer styles grouped by broad family: lagers, stouts/porters, IPAs/pale ales, wheat beers. False trail: Porter is dark like Stout but both belong in the dark ale group.",
-  "meta": { "theme": "beverages", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "beverages",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "g1", "label": "LAGER STYLES", "items": ["Pilsner", "Märzen", "Helles", "Dunkel"] },
-    { "id": "g2", "label": "DARK ALES", "items": ["Stout", "Porter", "Schwarzbier", "Milk Stout"] },
-    { "id": "g3", "label": "PALE ALES & IPAs", "items": ["West Coast IPA", "Session IPA", "Pale Ale", "Bitter"] },
-    { "id": "g4", "label": "WHEAT BEERS", "items": ["Hefeweizen", "Witbier", "Berliner Weisse", "Gose"] }
+    {
+      "id": "g1",
+      "label": "LAGER STYLES",
+      "items": [
+        "Pilsner",
+        "Märzen",
+        "Helles",
+        "Dunkel"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "DARK ALES",
+      "items": [
+        "Stout",
+        "Porter",
+        "Schwarzbier",
+        "Milk Stout"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "PALE ALES & IPAs",
+      "items": [
+        "West Coast IPA",
+        "Session IPA",
+        "Pale Ale",
+        "Bitter"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "WHEAT BEERS",
+      "items": [
+        "Hefeweizen",
+        "Witbier",
+        "Berliner Weisse",
+        "Gose"
+      ]
+    }
   ]
 }

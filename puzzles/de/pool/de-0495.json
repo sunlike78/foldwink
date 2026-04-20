@@ -2,11 +2,55 @@
   "id": "de-0495",
   "title": "Zukunft der Demokratie",
   "difficulty": "medium",
-  "meta": { "theme": "politik", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "politik",
+    "batch": "de-batch-05",
+    "difficultyScore": 45
+  },
   "groups": [
-    { "id": "group_a", "label": "Herausforderungen", "revealHint": "Bedrohungen heute", "items": ["Populismus", "Desinformation", "Politikverdrossenheit", "Wahlmüdigkeit"] },
-    { "id": "group_b", "label": "Demokratie-Konzepte", "revealHint": "Neue Formen", "items": ["Liquid Democracy", "Delib. Demokratie", "Bürgerrat", "Partizipationsplattf."] },
-    { "id": "group_c", "label": "Digitale Demokratie", "revealHint": "Demokratie online", "items": ["E-Voting", "Online-Petitionen", "Bürgerhaushalt digit.", "Open Government"] },
-    { "id": "group_d", "label": "Demokratie-Bewegungen", "revealHint": "Aktivismus", "items": ["Fridays for Future", "Querdenker", "Pegida", "Letzte Generation"] }
+    {
+      "id": "group_a",
+      "label": "Herausforderungen",
+      "revealHint": "Bedrohungen heute",
+      "items": [
+        "Populismus",
+        "Desinformation",
+        "Politikverdrossenheit",
+        "Wahlmüdigkeit"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Demokratie-Konzepte",
+      "revealHint": "Neue Formen",
+      "items": [
+        "Liquid Democracy",
+        "Delib. Demokratie",
+        "Bürgerrat",
+        "Partizipationsplattf."
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Digitale Demokratie",
+      "revealHint": "Demokratie online",
+      "items": [
+        "E-Voting",
+        "Online-Petitionen",
+        "Bürgerhaushalt digit.",
+        "Open Government"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Demokratie-Bewegungen",
+      "revealHint": "Aktivismus",
+      "items": [
+        "Fridays for Future",
+        "Querdenker",
+        "Pegida",
+        "Letzte Generation"
+      ]
+    }
   ]
 }

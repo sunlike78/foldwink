@@ -6,28 +6,49 @@
     "theme": "history",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 51
   },
   "groups": [
     {
       "id": "g1",
       "label": "French Revolution Key Events",
-      "items": ["Storming the Bastille", "Reign of Terror", "Declaration of Rights", "Thermidorian Reaction"]
+      "items": [
+        "Storming the Bastille",
+        "Reign of Terror",
+        "Declaration of Rights",
+        "Thermidorian Reaction"
+      ]
     },
     {
       "id": "g2",
       "label": "American Revolution Key Events",
-      "items": ["Boston Tea Party", "Lexington and Concord", "Valley Forge", "Battle of Yorktown"]
+      "items": [
+        "Boston Tea Party",
+        "Lexington and Concord",
+        "Valley Forge",
+        "Battle of Yorktown"
+      ]
     },
     {
       "id": "g3",
       "label": "Russian Revolution Key Events",
-      "items": ["Bloody Sunday", "February Revolution", "October Revolution", "Treaty of Brest-Litovsk"]
+      "items": [
+        "Bloody Sunday",
+        "February Revolution",
+        "October Revolution",
+        "Treaty of Brest-Litovsk"
+      ]
     },
     {
       "id": "g4",
       "label": "Chinese Revolution Key Events",
-      "items": ["Long March", "Yan'an Base", "Land Reform", "Proclamation of PRC"]
+      "items": [
+        "Long March",
+        "Yan'an Base",
+        "Land Reform",
+        "Proclamation of PRC"
+      ]
     }
   ]
 }

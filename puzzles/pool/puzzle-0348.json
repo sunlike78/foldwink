@@ -7,35 +7,56 @@
     "theme": "linguistics",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 64
   },
   "groups": [
     {
       "id": "g1",
       "label": "Word Classes",
       "revealHint": "Syntax",
-      "items": ["Preposition", "Interjection", "Determiner", "Article"],
+      "items": [
+        "Preposition",
+        "Interjection",
+        "Determiner",
+        "Article"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Grammatical Cases",
       "revealHint": "Declension",
-      "items": ["Nominative", "Accusative", "Dative", "Genitive"],
+      "items": [
+        "Nominative",
+        "Accusative",
+        "Dative",
+        "Genitive"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Verb Moods",
       "revealHint": "Mood",
-      "items": ["Indicative", "Subjunctive", "Imperative", "Conditional"],
+      "items": [
+        "Indicative",
+        "Subjunctive",
+        "Imperative",
+        "Conditional"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Verb Forms",
       "revealHint": "Morphology",
-      "items": ["Gerund", "Infinitive", "Participle", "Supine"],
+      "items": [
+        "Gerund",
+        "Infinitive",
+        "Participle",
+        "Supine"
+      ],
       "color": "purple"
     }
   ]

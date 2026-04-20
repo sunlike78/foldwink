@@ -7,32 +7,53 @@
     "theme": "science",
     "categoryType": "thematic",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 17
   },
   "groups": [
     {
       "id": "ocean",
       "label": "Ocean waves",
       "revealHint": "Ocean",
-      "items": ["Swell", "Breaker", "Whitecap", "Tsunami"]
+      "items": [
+        "Swell",
+        "Breaker",
+        "Whitecap",
+        "Tsunami"
+      ]
     },
     {
       "id": "sound",
       "label": "Sound waves",
       "revealHint": "Sound",
-      "items": ["Amplitude", "Frequency", "Echo", "Resonance"]
+      "items": [
+        "Amplitude",
+        "Frequency",
+        "Echo",
+        "Resonance"
+      ]
     },
     {
       "id": "hair",
       "label": "Hair waves",
       "revealHint": "Hair",
-      "items": ["Curl", "Perm", "Crimp", "Marcel"]
+      "items": [
+        "Curl",
+        "Perm",
+        "Crimp",
+        "Marcel"
+      ]
     },
     {
       "id": "social",
       "label": "Social waves",
       "revealHint": "Social",
-      "items": ["Trend", "Viral", "Movement", "Uprising"]
+      "items": [
+        "Trend",
+        "Viral",
+        "Movement",
+        "Uprising"
+      ]
     }
   ]
 }

@@ -7,34 +7,55 @@
     "theme": "psychology",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 42
   },
   "groups": [
     {
       "id": "g1",
       "label": "Freudian Concepts",
-      "items": ["Id", "Ego", "Superego", "Repression"],
+      "items": [
+        "Id",
+        "Ego",
+        "Superego",
+        "Repression"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Cognitive Biases",
-      "items": ["Confirmation Bias", "Anchoring", "Dunning-Kruger", "Halo Effect"],
+      "items": [
+        "Confirmation Bias",
+        "Anchoring",
+        "Dunning-Kruger",
+        "Halo Effect"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Attachment Styles",
-      "items": ["Secure", "Anxious", "Avoidant", "Disorganised"],
+      "items": [
+        "Secure",
+        "Anxious",
+        "Avoidant",
+        "Disorganised"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Conditioning Types",
-      "items": ["Classical", "Operant", "Observational", "Latent Learning"],
+      "items": [
+        "Classical",
+        "Operant",
+        "Observational",
+        "Latent Learning"
+      ],
       "color": "purple",
       "revealHint": ""
     }

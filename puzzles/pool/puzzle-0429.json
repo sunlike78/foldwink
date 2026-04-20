@@ -3,11 +3,57 @@
   "title": "Hidden Animal",
   "difficulty": "hard",
   "editorialSummary": "Each card contains a hidden animal spelled consecutively inside it. Four groups by hidden animal: CAT (concatenate, scatter, locate, vacation), RAT (grateful, vibrate, narrate, strategy), COD (decode, barcode, encoder, codex), EWE (sewer, jewel, skewer, brewer). Classic hard misdirection: you classify a hidden substring, not the word's meaning.",
-  "meta": { "theme": "wordplay", "categoryType": "hidden-word", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "wordplay",
+    "categoryType": "hidden-word",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "g1", "label": "HIDES 'CAT'", "items": ["Concatenate", "Scatter", "Locate", "Vacation"], "revealHint": "Feline" },
-    { "id": "g2", "label": "HIDES 'RAT'", "items": ["Grateful", "Vibrate", "Narrate", "Strategy"], "revealHint": "Rodent" },
-    { "id": "g3", "label": "HIDES 'COD'", "items": ["Decode", "Barcode", "Encoder", "Codex"], "revealHint": "Fish" },
-    { "id": "g4", "label": "HIDES 'EWE'", "items": ["Sewer", "Jewel", "Skewer", "Brewer"], "revealHint": "Sheep" }
+    {
+      "id": "g1",
+      "label": "HIDES 'CAT'",
+      "items": [
+        "Concatenate",
+        "Scatter",
+        "Locate",
+        "Vacation"
+      ],
+      "revealHint": "Feline"
+    },
+    {
+      "id": "g2",
+      "label": "HIDES 'RAT'",
+      "items": [
+        "Grateful",
+        "Vibrate",
+        "Narrate",
+        "Strategy"
+      ],
+      "revealHint": "Rodent"
+    },
+    {
+      "id": "g3",
+      "label": "HIDES 'COD'",
+      "items": [
+        "Decode",
+        "Barcode",
+        "Encoder",
+        "Codex"
+      ],
+      "revealHint": "Fish"
+    },
+    {
+      "id": "g4",
+      "label": "HIDES 'EWE'",
+      "items": [
+        "Sewer",
+        "Jewel",
+        "Skewer",
+        "Brewer"
+      ],
+      "revealHint": "Sheep"
+    }
   ]
 }

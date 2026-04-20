@@ -6,22 +6,45 @@
     {
       "id": "short-pasta",
       "label": "Short Pasta",
-      "items": ["Penne", "Fusilli", "Rigatoni", "Farfalle"]
+      "items": [
+        "Penne",
+        "Fusilli",
+        "Rigatoni",
+        "Farfalle"
+      ]
     },
     {
       "id": "long-pasta",
       "label": "Long Pasta",
-      "items": ["Spaghetti", "Linguine", "Fettuccine", "Bucatini"]
+      "items": [
+        "Spaghetti",
+        "Linguine",
+        "Fettuccine",
+        "Bucatini"
+      ]
     },
     {
       "id": "stuffed",
       "label": "Stuffed Pasta",
-      "items": ["Ravioli", "Tortellini", "Agnolotti", "Cappelletti"]
+      "items": [
+        "Ravioli",
+        "Tortellini",
+        "Agnolotti",
+        "Cappelletti"
+      ]
     },
     {
       "id": "dumpling",
       "label": "Dumplings",
-      "items": ["Gnocchi", "Pierogi", "Wonton", "Manti"]
+      "items": [
+        "Gnocchi",
+        "Pierogi",
+        "Wonton",
+        "Manti"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 33
+  }
 }

@@ -2,11 +2,51 @@
   "id": "de-0092",
   "title": "Deutsche Dichter",
   "difficulty": "easy",
-  "meta": { "theme": "Deutsche Dichter", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Deutsche Dichter",
+    "batch": "de-batch-04",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "group_a", "label": "Goethe-Werke", "items": ["Faust", "Werther", "Iphigenie", "Hermann und Dorothea"] },
-    { "id": "group_b", "label": "Schiller-Werke", "items": ["Wilhelm Tell", "Die Räuber", "Wallenstein", "Maria Stuart"] },
-    { "id": "group_c", "label": "Brecht-Werke", "items": ["Dreigroschenoper", "Mutter Courage", "Kreidekreis", "Galilei"] },
-    { "id": "group_d", "label": "Heine-Themen", "items": ["Lorelei", "Wintermärchen", "Buch der Lieder", "Deutschland"] }
+    {
+      "id": "group_a",
+      "label": "Goethe-Werke",
+      "items": [
+        "Faust",
+        "Werther",
+        "Iphigenie",
+        "Hermann und Dorothea"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schiller-Werke",
+      "items": [
+        "Wilhelm Tell",
+        "Die Räuber",
+        "Wallenstein",
+        "Maria Stuart"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Brecht-Werke",
+      "items": [
+        "Dreigroschenoper",
+        "Mutter Courage",
+        "Kreidekreis",
+        "Galilei"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Heine-Themen",
+      "items": [
+        "Lorelei",
+        "Wintermärchen",
+        "Buch der Lieder",
+        "Deutschland"
+      ]
+    }
   ]
 }

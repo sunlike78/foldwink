@@ -2,11 +2,55 @@
   "id": "de-0464",
   "title": "Symbole und ihre Bedeutung",
   "difficulty": "medium",
-  "meta": { "theme": "symbole", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "symbole",
+    "batch": "de-batch-05",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "group_a", "label": "Kreuz-Bedeutungen", "revealHint": "Kreuz als Symbol", "items": ["Christentum", "Gesundheitswesen", "Orientierung", "Verbot"] },
-    { "id": "group_b", "label": "Anker-Bedeutungen", "revealHint": "Halt & Hoffnung", "items": ["Hoffnung", "Stabilität", "Marine", "Treue"] },
-    { "id": "group_c", "label": "Herz-Bedeutungen", "revealHint": "Mehr als Liebe", "items": ["Romantische Liebe", "Mitgefühl", "Lebenskraft", "Kartenspiel"] },
-    { "id": "group_d", "label": "Krone-Bedeutungen", "revealHint": "Macht & Ehre", "items": ["Herrschaft", "Sieg", "Heiligkeit", "Bestes Produkt"] }
+    {
+      "id": "group_a",
+      "label": "Kreuz-Bedeutungen",
+      "revealHint": "Kreuz als Symbol",
+      "items": [
+        "Christentum",
+        "Gesundheitswesen",
+        "Orientierung",
+        "Verbot"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Anker-Bedeutungen",
+      "revealHint": "Halt & Hoffnung",
+      "items": [
+        "Hoffnung",
+        "Stabilität",
+        "Marine",
+        "Treue"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Herz-Bedeutungen",
+      "revealHint": "Mehr als Liebe",
+      "items": [
+        "Romantische Liebe",
+        "Mitgefühl",
+        "Lebenskraft",
+        "Kartenspiel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Krone-Bedeutungen",
+      "revealHint": "Macht & Ehre",
+      "items": [
+        "Herrschaft",
+        "Sieg",
+        "Heiligkeit",
+        "Bestes Produkt"
+      ]
+    }
   ]
 }

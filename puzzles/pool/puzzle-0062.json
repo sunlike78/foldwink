@@ -8,25 +8,48 @@
       "id": "whisper",
       "label": "Meaning WHISPER",
       "revealHint": "WHISPER",
-      "items": ["Murmur", "Mutter", "Mumble", "Breathe"]
+      "items": [
+        "Murmur",
+        "Mutter",
+        "Mumble",
+        "Breathe"
+      ]
     },
     {
       "id": "shout",
       "label": "Meaning SHOUT",
       "revealHint": "SHOUT",
-      "items": ["Yell", "Holler", "Bellow", "Roar"]
+      "items": [
+        "Yell",
+        "Holler",
+        "Bellow",
+        "Roar"
+      ]
     },
     {
       "id": "laugh",
       "label": "Meaning LAUGH",
       "revealHint": "LAUGH",
-      "items": ["Giggle", "Chuckle", "Snicker", "Cackle"]
+      "items": [
+        "Giggle",
+        "Chuckle",
+        "Snicker",
+        "Cackle"
+      ]
     },
     {
       "id": "cry",
       "label": "Meaning CRY",
       "revealHint": "CRY",
-      "items": ["Sob", "Weep", "Wail", "Whimper"]
+      "items": [
+        "Sob",
+        "Weep",
+        "Wail",
+        "Whimper"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 16
+  }
 }

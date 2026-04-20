@@ -7,32 +7,53 @@
     "theme": "science",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 67
   },
   "groups": [
     {
       "id": "g1",
       "label": "Newton's Contributions",
       "revealHint": "Apple",
-      "items": ["Universal Gravitation", "Laws of Motion", "Reflecting Telescope", "Optics"]
+      "items": [
+        "Universal Gravitation",
+        "Laws of Motion",
+        "Reflecting Telescope",
+        "Optics"
+      ]
     },
     {
       "id": "g2",
       "label": "Einstein's Contributions",
       "revealHint": "Relativity",
-      "items": ["Special Relativity", "General Relativity", "Photoelectric Effect", "Mass-Energy Equivalence"]
+      "items": [
+        "Special Relativity",
+        "General Relativity",
+        "Photoelectric Effect",
+        "Mass-Energy Equivalence"
+      ]
     },
     {
       "id": "g3",
       "label": "Maxwell's Contributions",
       "revealHint": "Electro",
-      "items": ["Electromagnetic Spectrum", "Maxwell's Equations", "Displacement Current", "Colour Vision"]
+      "items": [
+        "Electromagnetic Spectrum",
+        "Maxwell's Equations",
+        "Displacement Current",
+        "Colour Vision"
+      ]
     },
     {
       "id": "g4",
       "label": "Bohr's Contributions",
       "revealHint": "Atom",
-      "items": ["Atomic Model", "Electron Shells", "Quantum Numbers", "Complementarity"]
+      "items": [
+        "Atomic Model",
+        "Electron Shells",
+        "Quantum Numbers",
+        "Complementarity"
+      ]
     }
   ]
 }

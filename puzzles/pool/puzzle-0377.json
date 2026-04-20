@@ -3,11 +3,57 @@
   "title": "Influencer Culture",
   "difficulty": "medium",
   "editorialSummary": "Four content-creator archetypes separated by their primary platform identity; the false trail is that both the Lifestyle Vlogger and the Day-In-My-Life creator seem identical in content, but here platform era and format distinguish them into separate genre groups.",
-  "meta": { "theme": "social-media", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "social-media",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 40
+  },
   "groups": [
-    { "id": "g1", "label": "Creator Revenue Streams", "revealHint": "Money", "items": ["Brand Deal", "Merch Drop", "Paid Subscription", "Affiliate Link"] },
-    { "id": "g2", "label": "Influencer Red Flags", "revealHint": "Scandal", "items": ["Cancel Culture", "Bought Followers", "Fake Giveaway", "Parasocial Abuse"] },
-    { "id": "g3", "label": "Creator Metrics", "revealHint": "Numbers", "items": ["Engagement Rate", "Reach", "Impressions", "Click-Through Rate"] },
-    { "id": "g4", "label": "Creator Community Terms", "revealHint": "Fans", "items": ["Stan", "Simp", "Army", "Fandom"] }
+    {
+      "id": "g1",
+      "label": "Creator Revenue Streams",
+      "revealHint": "Money",
+      "items": [
+        "Brand Deal",
+        "Merch Drop",
+        "Paid Subscription",
+        "Affiliate Link"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Influencer Red Flags",
+      "revealHint": "Scandal",
+      "items": [
+        "Cancel Culture",
+        "Bought Followers",
+        "Fake Giveaway",
+        "Parasocial Abuse"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Creator Metrics",
+      "revealHint": "Numbers",
+      "items": [
+        "Engagement Rate",
+        "Reach",
+        "Impressions",
+        "Click-Through Rate"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Creator Community Terms",
+      "revealHint": "Fans",
+      "items": [
+        "Stan",
+        "Simp",
+        "Army",
+        "Fandom"
+      ]
+    }
   ]
 }

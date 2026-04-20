@@ -2,11 +2,51 @@
   "id": "de-0038",
   "title": "Olympische Sportarten",
   "difficulty": "easy",
-  "meta": { "theme": "Olympische Sportarten", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Olympische Sportarten",
+    "batch": "de-batch-01",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "group_a", "label": "Leichtathletik", "items": ["Sprint", "Hochsprung", "Kugelstoßen", "Diskuswerfen"] },
-    { "id": "group_b", "label": "Schwimmdisziplinen", "items": ["Freistil", "Rücken", "Brust", "Schmetterling"] },
-    { "id": "group_c", "label": "Turnarten", "items": ["Reck", "Barren", "Boden", "Sprung"] },
-    { "id": "group_d", "label": "Kampfsportarten", "items": ["Judo", "Taekwondo", "Ringen", "Boxen"] }
+    {
+      "id": "group_a",
+      "label": "Leichtathletik",
+      "items": [
+        "Sprint",
+        "Hochsprung",
+        "Kugelstoßen",
+        "Diskuswerfen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schwimmdisziplinen",
+      "items": [
+        "Freistil",
+        "Rücken",
+        "Brust",
+        "Schmetterling"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Turnarten",
+      "items": [
+        "Reck",
+        "Barren",
+        "Boden",
+        "Sprung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kampfsportarten",
+      "items": [
+        "Judo",
+        "Taekwondo",
+        "Ringen",
+        "Boxen"
+      ]
+    }
   ]
 }

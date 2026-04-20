@@ -6,22 +6,45 @@
     {
       "id": "hats",
       "label": "Hats",
-      "items": ["Beret", "Fedora", "Panama", "Trilby"]
+      "items": [
+        "Beret",
+        "Fedora",
+        "Panama",
+        "Trilby"
+      ]
     },
     {
       "id": "bags",
       "label": "Bags",
-      "items": ["Tote", "Clutch", "Duffel", "Satchel"]
+      "items": [
+        "Tote",
+        "Clutch",
+        "Duffel",
+        "Satchel"
+      ]
     },
     {
       "id": "watches",
       "label": "Watch Parts",
-      "items": ["Bezel", "Crown", "Dial", "Strap"]
+      "items": [
+        "Bezel",
+        "Crown",
+        "Dial",
+        "Strap"
+      ]
     },
     {
       "id": "knots",
       "label": "Tie Knots",
-      "items": ["Windsor", "Four-in-hand", "Half Windsor", "Pratt"]
+      "items": [
+        "Windsor",
+        "Four-in-hand",
+        "Half Windsor",
+        "Pratt"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 12
+  }
 }

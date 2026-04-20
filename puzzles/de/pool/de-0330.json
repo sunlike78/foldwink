@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Waffen Geschichte",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 30
   },
   "groups": [
     {

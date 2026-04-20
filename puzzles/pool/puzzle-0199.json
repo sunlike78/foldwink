@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "animal",
       "label": "Flying bat",
       "revealHint": "Winged",
-      "items": ["Cave", "Sonar", "Nocturnal", "Vampire"]
+      "items": [
+        "Cave",
+        "Sonar",
+        "Nocturnal",
+        "Vampire"
+      ]
     },
     {
       "id": "baseball",
       "label": "Baseball bat",
       "revealHint": "Ball",
-      "items": ["Slugger", "Home Run", "Louisville", "Dugout"]
+      "items": [
+        "Slugger",
+        "Home Run",
+        "Louisville",
+        "Dugout"
+      ]
     },
     {
       "id": "eyelash",
       "label": "Bat an eyelash",
       "revealHint": "Blink",
-      "items": ["Flutter", "Lash Flick", "Flirt", "Glance"]
+      "items": [
+        "Flutter",
+        "Lash Flick",
+        "Flirt",
+        "Glance"
+      ]
     },
     {
       "id": "cricket",
       "label": "Cricket bat",
       "revealHint": "Wicket",
-      "items": ["Crease", "Innings", "Willow", "Bowler"]
+      "items": [
+        "Crease",
+        "Innings",
+        "Willow",
+        "Bowler"
+      ]
     }
   ]
 }

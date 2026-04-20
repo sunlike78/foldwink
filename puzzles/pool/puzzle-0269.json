@@ -6,28 +6,49 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "columns",
       "label": "Column Orders",
-      "items": ["Doric", "Ionic", "Corinthian", "Tuscan"]
+      "items": [
+        "Doric",
+        "Ionic",
+        "Corinthian",
+        "Tuscan"
+      ]
     },
     {
       "id": "arches",
       "label": "Arch Types",
-      "items": ["Round", "Pointed", "Horseshoe", "Ogee"]
+      "items": [
+        "Round",
+        "Pointed",
+        "Horseshoe",
+        "Ogee"
+      ]
     },
     {
       "id": "domes",
       "label": "Dome Types",
-      "items": ["Onion", "Geodesic", "Saucer", "Oculus"]
+      "items": [
+        "Onion",
+        "Geodesic",
+        "Saucer",
+        "Oculus"
+      ]
     },
     {
       "id": "stairs",
       "label": "Staircase Types",
-      "items": ["Spiral", "Straight", "Floating", "Split"]
+      "items": [
+        "Spiral",
+        "Straight",
+        "Floating",
+        "Split"
+      ]
     }
   ]
 }

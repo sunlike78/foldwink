@@ -6,28 +6,49 @@
     "theme": "sports",
     "categoryType": "classification",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "cardio",
       "label": "Cardio Machines",
-      "items": ["Treadmill", "Rower", "Stair Climber", "Elliptical"]
+      "items": [
+        "Treadmill",
+        "Rower",
+        "Stair Climber",
+        "Elliptical"
+      ]
     },
     {
       "id": "weights",
       "label": "Free Weights",
-      "items": ["Dumbbell", "Kettlebell", "Barbell", "Medicine Ball"]
+      "items": [
+        "Dumbbell",
+        "Kettlebell",
+        "Barbell",
+        "Medicine Ball"
+      ]
     },
     {
       "id": "bodyweight",
       "label": "Bodyweight Moves",
-      "items": ["Push-Up", "Pull-Up", "Squat", "Plank"]
+      "items": [
+        "Push-Up",
+        "Pull-Up",
+        "Squat",
+        "Plank"
+      ]
     },
     {
       "id": "yoga",
       "label": "Yoga Props",
-      "items": ["Yoga Mat", "Yoga Block", "Yoga Strap", "Bolster"]
+      "items": [
+        "Yoga Mat",
+        "Yoga Block",
+        "Yoga Strap",
+        "Bolster"
+      ]
     }
   ]
 }

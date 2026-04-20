@@ -2,11 +2,55 @@
   "id": "de-0483",
   "title": "Cybersecurity",
   "difficulty": "medium",
-  "meta": { "theme": "digital", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "digital",
+    "batch": "de-batch-05",
+    "difficultyScore": 24
+  },
   "groups": [
-    { "id": "group_a", "label": "Angriffsmethoden", "revealHint": "Hacker-Taktiken", "items": ["Phishing", "Ransomware", "SQL-Injection", "Man-in-the-Middle"] },
-    { "id": "group_b", "label": "Schutzmaßnahmen", "revealHint": "Sich verteidigen", "items": ["Firewall", "2-Faktor-Auth.", "Patch Management", "VPN"] },
-    { "id": "group_c", "label": "Sicherheits-Begriffe", "revealHint": "Fachvokabular", "items": ["Zero-Day-Exploit", "Payload", "Vulnerability", "Penetrationstest"] },
-    { "id": "group_d", "label": "Sicherheits-Standards", "revealHint": "Normen & Rahmen", "items": ["ISO 27001", "BSI-Grundschutz", "NIST Framework", "PCI DSS"] }
+    {
+      "id": "group_a",
+      "label": "Angriffsmethoden",
+      "revealHint": "Hacker-Taktiken",
+      "items": [
+        "Phishing",
+        "Ransomware",
+        "SQL-Injection",
+        "Man-in-the-Middle"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schutzmaßnahmen",
+      "revealHint": "Sich verteidigen",
+      "items": [
+        "Firewall",
+        "2-Faktor-Auth.",
+        "Patch Management",
+        "VPN"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Sicherheits-Begriffe",
+      "revealHint": "Fachvokabular",
+      "items": [
+        "Zero-Day-Exploit",
+        "Payload",
+        "Vulnerability",
+        "Penetrationstest"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Sicherheits-Standards",
+      "revealHint": "Normen & Rahmen",
+      "items": [
+        "ISO 27001",
+        "BSI-Grundschutz",
+        "NIST Framework",
+        "PCI DSS"
+      ]
+    }
   ]
 }

@@ -6,22 +6,45 @@
     {
       "id": "soccer",
       "label": "Soccer Positions",
-      "items": ["Striker", "Midfielder", "Keeper", "Defender"]
+      "items": [
+        "Striker",
+        "Midfielder",
+        "Keeper",
+        "Defender"
+      ]
     },
     {
       "id": "baseball",
       "label": "Baseball Positions",
-      "items": ["Pitcher", "Catcher", "Shortstop", "Outfielder"]
+      "items": [
+        "Pitcher",
+        "Catcher",
+        "Shortstop",
+        "Outfielder"
+      ]
     },
     {
       "id": "basketball",
       "label": "Basketball Positions",
-      "items": ["Point Guard", "Center", "Power Forward", "Small Forward"]
+      "items": [
+        "Point Guard",
+        "Center",
+        "Power Forward",
+        "Small Forward"
+      ]
     },
     {
       "id": "rugby",
       "label": "Rugby Positions",
-      "items": ["Scrum Half", "Fly Half", "Prop", "Hooker"]
+      "items": [
+        "Scrum Half",
+        "Fly Half",
+        "Prop",
+        "Hooker"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 33
+  }
 }

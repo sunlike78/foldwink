@@ -6,28 +6,49 @@
     "theme": "everyday",
     "categoryType": "classification",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 34
   },
   "groups": [
     {
       "id": "warning",
       "label": "Warning Signs",
-      "items": ["Slippery Road", "Falling Rocks", "Deer Crossing", "Sharp Curve"]
+      "items": [
+        "Slippery Road",
+        "Falling Rocks",
+        "Deer Crossing",
+        "Sharp Curve"
+      ]
     },
     {
       "id": "regulatory",
       "label": "Regulatory Signs",
-      "items": ["Stop", "Yield", "Speed Limit", "No Entry"]
+      "items": [
+        "Stop",
+        "Yield",
+        "Speed Limit",
+        "No Entry"
+      ]
     },
     {
       "id": "guide",
       "label": "Guide Signs",
-      "items": ["Exit", "Rest Area", "Mile Marker", "Detour"]
+      "items": [
+        "Exit",
+        "Rest Area",
+        "Mile Marker",
+        "Detour"
+      ]
     },
     {
       "id": "work",
       "label": "Road Work Signs",
-      "items": ["Workers Ahead", "Flagger", "Lane Closed", "Cones Ahead"]
+      "items": [
+        "Workers Ahead",
+        "Flagger",
+        "Lane Closed",
+        "Cones Ahead"
+      ]
     }
   ]
 }

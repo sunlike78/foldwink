@@ -7,35 +7,56 @@
     "theme": "games",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 65
   },
   "groups": [
     {
       "id": "g1",
       "label": "Resource Management Mechanics",
       "revealHint": "Resources",
-      "items": ["Worker Placement", "Set Collection", "Engine Building", "Tableau Building"],
+      "items": [
+        "Worker Placement",
+        "Set Collection",
+        "Engine Building",
+        "Tableau Building"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Card-Based Mechanics",
       "revealHint": "Cards",
-      "items": ["Deck Building", "Hand Management", "Drafting", "Trick-Taking"],
+      "items": [
+        "Deck Building",
+        "Hand Management",
+        "Drafting",
+        "Trick-Taking"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Territory Mechanics",
       "revealHint": "Territory",
-      "items": ["Area Control", "Area Movement", "Route Building", "Tile Placement"],
+      "items": [
+        "Area Control",
+        "Area Movement",
+        "Route Building",
+        "Tile Placement"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Social Mechanics",
       "revealHint": "Social",
-      "items": ["Negotiation", "Hidden Roles", "Voting", "Trading"],
+      "items": [
+        "Negotiation",
+        "Hidden Roles",
+        "Voting",
+        "Trading"
+      ],
       "color": "purple"
     }
   ]

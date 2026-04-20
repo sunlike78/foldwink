@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "political",
       "label": "Political state",
       "revealHint": "Political",
-      "items": ["Sovereignty", "Border", "Capitol", "Embassy"]
+      "items": [
+        "Sovereignty",
+        "Border",
+        "Capitol",
+        "Embassy"
+      ]
     },
     {
       "id": "matter",
       "label": "States of matter",
       "revealHint": "Matter",
-      "items": ["Solid", "Liquid", "Plasma", "Gas"]
+      "items": [
+        "Solid",
+        "Liquid",
+        "Plasma",
+        "Gas"
+      ]
     },
     {
       "id": "emotion",
       "label": "Emotional states",
       "revealHint": "Emotion",
-      "items": ["Euphoria", "Anxiety", "Serenity", "Dread"]
+      "items": [
+        "Euphoria",
+        "Anxiety",
+        "Serenity",
+        "Dread"
+      ]
     },
     {
       "id": "computing",
       "label": "Program state",
       "revealHint": "Program",
-      "items": ["Variable", "Boolean", "Stack", "Cache"]
+      "items": [
+        "Variable",
+        "Boolean",
+        "Stack",
+        "Cache"
+      ]
     }
   ]
 }

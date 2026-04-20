@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 22
   },
   "groups": [
     {
       "id": "dog",
       "label": "Dog's bark",
       "revealHint": "Dog",
-      "items": ["Woof", "Growl", "Yip", "Howl"]
+      "items": [
+        "Woof",
+        "Growl",
+        "Yip",
+        "Howl"
+      ]
     },
     {
       "id": "tree",
       "label": "Tree bark",
       "revealHint": "Tree",
-      "items": ["Cork", "Cambium", "Birch", "Peeling"]
+      "items": [
+        "Cork",
+        "Cambium",
+        "Birch",
+        "Peeling"
+      ]
     },
     {
       "id": "ship",
       "label": "Bark ship",
       "revealHint": "Ship",
-      "items": ["Schooner", "Rigging", "Mast", "Vessel"]
+      "items": [
+        "Schooner",
+        "Rigging",
+        "Mast",
+        "Vessel"
+      ]
     },
     {
       "id": "shout",
       "label": "Bark a command",
       "revealHint": "Order",
-      "items": ["Snap", "Bellow", "Scold", "Drill Sergeant"]
+      "items": [
+        "Snap",
+        "Bellow",
+        "Scold",
+        "Drill Sergeant"
+      ]
     }
   ]
 }

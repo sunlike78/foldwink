@@ -2,11 +2,51 @@
   "id": "de-0054",
   "title": "Deutsche Autohersteller",
   "difficulty": "easy",
-  "meta": { "theme": "Deutsche Autohersteller", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Deutsche Autohersteller",
+    "batch": "de-batch-02",
+    "difficultyScore": 8
+  },
   "groups": [
-    { "id": "group_a", "label": "BMW-Modelle", "items": ["3er", "5er", "X5", "M3"] },
-    { "id": "group_b", "label": "Mercedes-Modelle", "items": ["C-Klasse", "E-Klasse", "GLE", "AMG GT"] },
-    { "id": "group_c", "label": "VW-Modelle", "items": ["Golf", "Passat", "Tiguan", "Polo"] },
-    { "id": "group_d", "label": "Audi-Modelle", "items": ["A4", "Q5", "R8", "TT"] }
+    {
+      "id": "group_a",
+      "label": "BMW-Modelle",
+      "items": [
+        "3er",
+        "5er",
+        "X5",
+        "M3"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Mercedes-Modelle",
+      "items": [
+        "C-Klasse",
+        "E-Klasse",
+        "GLE",
+        "AMG GT"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "VW-Modelle",
+      "items": [
+        "Golf",
+        "Passat",
+        "Tiguan",
+        "Polo"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Audi-Modelle",
+      "items": [
+        "A4",
+        "Q5",
+        "R8",
+        "TT"
+      ]
+    }
   ]
 }

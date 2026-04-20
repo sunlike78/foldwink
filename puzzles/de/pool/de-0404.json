@@ -2,31 +2,55 @@
   "id": "de-0404",
   "title": "Wortfamilien",
   "difficulty": "medium",
-  "meta": { "theme": "Wortfamilien", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "Wortfamilien",
+    "batch": "de-batch-05",
+    "difficultyScore": 48
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Substantive",
       "revealHint": "Das Nomen",
-      "items": ["Lauf", "Schrift", "Sprung", "Wurf"]
+      "items": [
+        "Lauf",
+        "Schrift",
+        "Sprung",
+        "Wurf"
+      ]
     },
     {
       "id": "group_b",
       "label": "Verben",
       "revealHint": "Das Tätigkeitswort",
-      "items": ["laufen", "schreiben", "springen", "werfen"]
+      "items": [
+        "laufen",
+        "schreiben",
+        "springen",
+        "werfen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Adjektive",
       "revealHint": "Das Eigenschaftswort",
-      "items": ["läuferisch", "schriftlich", "sprunghaft", "wurfgerecht"]
+      "items": [
+        "läuferisch",
+        "schriftlich",
+        "sprunghaft",
+        "wurfgerecht"
+      ]
     },
     {
       "id": "group_d",
       "label": "Adverbien",
       "revealHint": "Das Umstandswort",
-      "items": ["laufend", "schriftweise", "sprungartig", "werfend"]
+      "items": [
+        "laufend",
+        "schriftweise",
+        "sprungartig",
+        "werfend"
+      ]
     }
   ]
 }

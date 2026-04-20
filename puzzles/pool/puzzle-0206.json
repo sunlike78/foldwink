@@ -6,28 +6,49 @@
     "theme": "transportation",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "train-types",
       "label": "Types of Train",
-      "items": ["Bullet", "Freight", "Steam", "Monorail"]
+      "items": [
+        "Bullet",
+        "Freight",
+        "Steam",
+        "Monorail"
+      ]
     },
     {
       "id": "train-parts",
       "label": "Parts of a Train",
-      "items": ["Locomotive", "Caboose", "Boxcar", "Coupler"]
+      "items": [
+        "Locomotive",
+        "Caboose",
+        "Boxcar",
+        "Coupler"
+      ]
     },
     {
       "id": "station",
       "label": "At the Station",
-      "items": ["Platform", "Ticket", "Timetable", "Conductor"]
+      "items": [
+        "Platform",
+        "Ticket",
+        "Timetable",
+        "Conductor"
+      ]
     },
     {
       "id": "rail-gear",
       "label": "On the Tracks",
-      "items": ["Rail", "Sleeper", "Switch", "Signal"]
+      "items": [
+        "Rail",
+        "Sleeper",
+        "Switch",
+        "Signal"
+      ]
     }
   ]
 }

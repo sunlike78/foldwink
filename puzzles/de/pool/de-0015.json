@@ -2,11 +2,51 @@
   "id": "de-0015",
   "title": "Familie",
   "difficulty": "easy",
-  "meta": { "theme": "Familienbeziehungen", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Familienbeziehungen",
+    "batch": "de-batch-01",
+    "difficultyScore": 22
+  },
   "groups": [
-    { "id": "group_a", "label": "Eltern", "items": ["Vater", "Mutter", "Stiefvater", "Stiefmutter"] },
-    { "id": "group_b", "label": "Geschwister", "items": ["Bruder", "Schwester", "Halbbruder", "Halbschwester"] },
-    { "id": "group_c", "label": "Großeltern", "items": ["Opa", "Oma", "Uropa", "Uroma"] },
-    { "id": "group_d", "label": "Onkel und Tanten", "items": ["Onkel", "Tante", "Großonkel", "Großtante"] }
+    {
+      "id": "group_a",
+      "label": "Eltern",
+      "items": [
+        "Vater",
+        "Mutter",
+        "Stiefvater",
+        "Stiefmutter"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Geschwister",
+      "items": [
+        "Bruder",
+        "Schwester",
+        "Halbbruder",
+        "Halbschwester"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Großeltern",
+      "items": [
+        "Opa",
+        "Oma",
+        "Uropa",
+        "Uroma"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Onkel und Tanten",
+      "items": [
+        "Onkel",
+        "Tante",
+        "Großonkel",
+        "Großtante"
+      ]
+    }
   ]
 }

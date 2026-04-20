@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "moderne-literatur",
-    "batch": "de-batch-03"
+    "batch": "de-batch-03",
+    "difficultyScore": 41
   },
   "groups": [
     {

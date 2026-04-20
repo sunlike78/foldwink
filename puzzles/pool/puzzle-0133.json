@@ -6,24 +6,49 @@
     "theme": "geography",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 12
   },
   "groups": [
     {
       "id": "europe",
       "label": "European Currencies",
-      "items": ["Euro", "Pound", "Krona", "Franc"]
+      "items": [
+        "Euro",
+        "Pound",
+        "Krona",
+        "Franc"
+      ]
     },
-    { "id": "asia", "label": "Asian Currencies", "items": ["Yen", "Rupee", "Baht", "Won"] },
+    {
+      "id": "asia",
+      "label": "Asian Currencies",
+      "items": [
+        "Yen",
+        "Rupee",
+        "Baht",
+        "Won"
+      ]
+    },
     {
       "id": "americas",
       "label": "American Currencies",
-      "items": ["Dollar", "Peso", "Real", "Sol"]
+      "items": [
+        "Dollar",
+        "Peso",
+        "Real",
+        "Sol"
+      ]
     },
     {
       "id": "historical",
       "label": "Historical Currencies",
-      "items": ["Drachma", "Guilder", "Lira", "Mark"]
+      "items": [
+        "Drachma",
+        "Guilder",
+        "Lira",
+        "Mark"
+      ]
     }
   ]
 }

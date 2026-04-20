@@ -2,11 +2,55 @@
   "id": "de-0497",
   "title": "Migration",
   "difficulty": "medium",
-  "meta": { "theme": "gesellschaft", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "gesellschaft",
+    "batch": "de-batch-05",
+    "difficultyScore": 42
+  },
   "groups": [
-    { "id": "group_a", "label": "Migrations-Typen", "revealHint": "Wanderungsformen", "items": ["Arbeitsmigration", "Flucht", "Familienzusammenf.", "Bildungsmigration"] },
-    { "id": "group_b", "label": "Migrations-Gründe", "revealHint": "Push und Pull", "items": ["Krieg & Gewalt", "Wirtschaftliche Not", "Klimawandel", "Politische Verfolgung"] },
-    { "id": "group_c", "label": "Migrations-Rechte", "revealHint": "Rechtlicher Schutz", "items": ["Asylrecht", "Genfer Flüchtlingskonv", "Aufenthaltsrecht", "Abschiebeschutz"] },
-    { "id": "group_d", "label": "Migrations-Herausford.", "revealHint": "Schwierige Fragen", "items": ["Integration", "Sprachbarriere", "Wohnungsmarkt", "Abschiebung"] }
+    {
+      "id": "group_a",
+      "label": "Migrations-Typen",
+      "revealHint": "Wanderungsformen",
+      "items": [
+        "Arbeitsmigration",
+        "Flucht",
+        "Familienzusammenf.",
+        "Bildungsmigration"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Migrations-Gründe",
+      "revealHint": "Push und Pull",
+      "items": [
+        "Krieg & Gewalt",
+        "Wirtschaftliche Not",
+        "Klimawandel",
+        "Politische Verfolgung"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Migrations-Rechte",
+      "revealHint": "Rechtlicher Schutz",
+      "items": [
+        "Asylrecht",
+        "Genfer Flüchtlingskonv",
+        "Aufenthaltsrecht",
+        "Abschiebeschutz"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Migrations-Herausford.",
+      "revealHint": "Schwierige Fragen",
+      "items": [
+        "Integration",
+        "Sprachbarriere",
+        "Wohnungsmarkt",
+        "Abschiebung"
+      ]
+    }
   ]
 }

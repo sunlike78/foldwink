@@ -3,11 +3,57 @@
   "title": "Printing History",
   "difficulty": "medium",
   "editorialSummary": "Printing history by process. False trail: Woodcut and Letterpress both stamp ink onto paper — Woodcut is a reproduction/art technique; Letterpress is a press type. Vellum is an animal-skin material, not a paper size.",
-  "meta": { "theme": "history", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "history",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 56
+  },
   "groups": [
-    { "id": "g1", "label": "REPRODUCTION TECHNIQUES", "revealHint": "Technique", "items": ["Woodcut", "Etching", "Engraving", "Screen Printing"] },
-    { "id": "g2", "label": "TYPESETTING TECHNOLOGIES", "revealHint": "Typeset", "items": ["Linotype", "Monotype", "Phototypesetting", "Cold Type"] },
-    { "id": "g3", "label": "PRINTING PRESS TYPES", "revealHint": "Press", "items": ["Letterpress", "Lithography", "Offset Printing", "Gravure"] },
-    { "id": "g4", "label": "PAPER AND BINDING TERMS", "revealHint": "Binding", "items": ["Folio", "Quire", "Vellum", "Perfect Binding"] }
+    {
+      "id": "g1",
+      "label": "REPRODUCTION TECHNIQUES",
+      "revealHint": "Technique",
+      "items": [
+        "Woodcut",
+        "Etching",
+        "Engraving",
+        "Screen Printing"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "TYPESETTING TECHNOLOGIES",
+      "revealHint": "Typeset",
+      "items": [
+        "Linotype",
+        "Monotype",
+        "Phototypesetting",
+        "Cold Type"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "PRINTING PRESS TYPES",
+      "revealHint": "Press",
+      "items": [
+        "Letterpress",
+        "Lithography",
+        "Offset Printing",
+        "Gravure"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PAPER AND BINDING TERMS",
+      "revealHint": "Binding",
+      "items": [
+        "Folio",
+        "Quire",
+        "Vellum",
+        "Perfect Binding"
+      ]
+    }
   ]
 }

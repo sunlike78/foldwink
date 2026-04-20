@@ -2,11 +2,55 @@
   "id": "de-0455",
   "title": "Managementtheorien",
   "difficulty": "medium",
-  "meta": { "theme": "management", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "management",
+    "batch": "de-batch-05",
+    "difficultyScore": 46
+  },
   "groups": [
-    { "id": "group_a", "label": "Taylors Theorie", "revealHint": "Effizienz Taylor", "items": ["Arbeitsteilung", "Zeitstudien", "Bewegungsstudien", "Lohnprämien"] },
-    { "id": "group_b", "label": "Maslows Pyramide", "revealHint": "Bedürfnisstufung", "items": ["Physiologische Bed.", "Sicherheitsbedürfnis", "Soziale Bedürfnisse", "Selbstverwirklichung"] },
-    { "id": "group_c", "label": "McGregors Theorie", "revealHint": "X und Y Annahmen", "items": ["Theorie X", "Theorie Y", "Kontroll-Vertrauensp.", "Menschenbild Chef"] },
-    { "id": "group_d", "label": "Herzbergs Modell", "revealHint": "Zwei-Faktoren", "items": ["Hygienefaktoren", "Motivatoren", "Unzufriedenheit", "Arbeitszufriedenheit"] }
+    {
+      "id": "group_a",
+      "label": "Taylors Theorie",
+      "revealHint": "Effizienz Taylor",
+      "items": [
+        "Arbeitsteilung",
+        "Zeitstudien",
+        "Bewegungsstudien",
+        "Lohnprämien"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Maslows Pyramide",
+      "revealHint": "Bedürfnisstufung",
+      "items": [
+        "Physiologische Bed.",
+        "Sicherheitsbedürfnis",
+        "Soziale Bedürfnisse",
+        "Selbstverwirklichung"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "McGregors Theorie",
+      "revealHint": "X und Y Annahmen",
+      "items": [
+        "Theorie X",
+        "Theorie Y",
+        "Kontroll-Vertrauensp.",
+        "Menschenbild Chef"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Herzbergs Modell",
+      "revealHint": "Zwei-Faktoren",
+      "items": [
+        "Hygienefaktoren",
+        "Motivatoren",
+        "Unzufriedenheit",
+        "Arbeitszufriedenheit"
+      ]
+    }
   ]
 }

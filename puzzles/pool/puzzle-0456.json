@@ -3,11 +3,53 @@
   "title": "French Kitchen",
   "difficulty": "easy",
   "editorialSummary": "Classic French cooking techniques sorted by method: dry-heat (sauté, roast, flambé, grill), moist-heat (braise, poach, steam, blanch), fat-based (confit, deep-fry, baste, render), and sauce-building (deglaze, reduce, mount, emulsify). Each group is a single canonical method family.",
-  "meta": { "theme": "French cooking techniques", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "French cooking techniques",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "g1", "label": "DRY HEAT", "items": ["Sauté", "Roast", "Flambé", "Grill"] },
-    { "id": "g2", "label": "MOIST HEAT", "items": ["Braise", "Poach", "Steam", "Blanch"] },
-    { "id": "g3", "label": "FAT-BASED", "items": ["Confit", "Deep-Fry", "Baste", "Render"] },
-    { "id": "g4", "label": "SAUCE-BUILDING", "items": ["Deglaze", "Reduce", "Mount", "Emulsify"] }
+    {
+      "id": "g1",
+      "label": "DRY HEAT",
+      "items": [
+        "Sauté",
+        "Roast",
+        "Flambé",
+        "Grill"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MOIST HEAT",
+      "items": [
+        "Braise",
+        "Poach",
+        "Steam",
+        "Blanch"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "FAT-BASED",
+      "items": [
+        "Confit",
+        "Deep-Fry",
+        "Baste",
+        "Render"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SAUCE-BUILDING",
+      "items": [
+        "Deglaze",
+        "Reduce",
+        "Mount",
+        "Emulsify"
+      ]
+    }
   ]
 }

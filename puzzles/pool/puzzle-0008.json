@@ -2,27 +2,52 @@
   "id": "puzzle-0008",
   "title": "Shape of Things",
   "difficulty": "easy",
-  "tags": ["abstract"],
+  "tags": [
+    "abstract"
+  ],
   "groups": [
     {
       "id": "shapes",
       "label": "Shapes",
-      "items": ["Circle", "Square", "Triangle", "Hexagon"]
+      "items": [
+        "Circle",
+        "Square",
+        "Triangle",
+        "Hexagon"
+      ]
     },
     {
       "id": "metals",
       "label": "Metals",
-      "items": ["Iron", "Copper", "Platinum", "Zinc"]
+      "items": [
+        "Iron",
+        "Copper",
+        "Platinum",
+        "Zinc"
+      ]
     },
     {
       "id": "gems",
       "label": "Gems",
-      "items": ["Ruby", "Emerald", "Sapphire", "Diamond"]
+      "items": [
+        "Ruby",
+        "Emerald",
+        "Sapphire",
+        "Diamond"
+      ]
     },
     {
       "id": "elements",
       "label": "Classical Elements",
-      "items": ["Fire", "Water", "Earth", "Air"]
+      "items": [
+        "Fire",
+        "Water",
+        "Earth",
+        "Air"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 15
+  }
 }

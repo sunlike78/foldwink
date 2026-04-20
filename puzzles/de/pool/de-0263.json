@@ -2,11 +2,51 @@
   "id": "de-0263",
   "title": "Handwerk in Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "handwerk", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "handwerk",
+    "batch": "de-batch-03",
+    "difficultyScore": 39
+  },
   "groups": [
-    { "id": "group_a", "label": "Traditionelle Berufe", "items": ["Schmied", "Schreiner", "Töpfer", "Gerber"] },
-    { "id": "group_b", "label": "Zünfte", "items": ["Bäckerzunft", "Fleischerzunft", "Schuhmacherzunft", "Zimmerzunft"] },
-    { "id": "group_c", "label": "Handwerkstechniken", "items": ["Schmieden", "Drechseln", "Hämmern", "Schleifen"] },
-    { "id": "group_d", "label": "Handwerksprodukte", "items": ["Tracht", "Kruzifix", "Truhe", "Kessel"] }
+    {
+      "id": "group_a",
+      "label": "Traditionelle Berufe",
+      "items": [
+        "Schmied",
+        "Schreiner",
+        "Töpfer",
+        "Gerber"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Zünfte",
+      "items": [
+        "Bäckerzunft",
+        "Fleischerzunft",
+        "Schuhmacherzunft",
+        "Zimmerzunft"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Handwerkstechniken",
+      "items": [
+        "Schmieden",
+        "Drechseln",
+        "Hämmern",
+        "Schleifen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Handwerksprodukte",
+      "items": [
+        "Tracht",
+        "Kruzifix",
+        "Truhe",
+        "Kessel"
+      ]
+    }
   ]
 }

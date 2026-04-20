@@ -7,32 +7,53 @@
     "theme": "games",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "stats",
       "label": "Character Stats",
       "revealHint": "Ability",
-      "items": ["Strength", "Dexterity", "Wisdom", "Charisma"]
+      "items": [
+        "Strength",
+        "Dexterity",
+        "Wisdom",
+        "Charisma"
+      ]
     },
     {
       "id": "dice",
       "label": "Polyhedral Dice",
       "revealHint": "Dice",
-      "items": ["D4", "D6", "D12", "D20"]
+      "items": [
+        "D4",
+        "D6",
+        "D12",
+        "D20"
+      ]
     },
     {
       "id": "classes",
       "label": "Character Classes",
       "revealHint": "Class",
-      "items": ["Wizard", "Paladin", "Rogue", "Bard"]
+      "items": [
+        "Wizard",
+        "Paladin",
+        "Rogue",
+        "Bard"
+      ]
     },
     {
       "id": "spells",
       "label": "Common Spells",
       "revealHint": "Spell",
-      "items": ["Fireball", "Heal", "Teleport", "Shield"]
+      "items": [
+        "Fireball",
+        "Heal",
+        "Teleport",
+        "Shield"
+      ]
     }
   ]
 }

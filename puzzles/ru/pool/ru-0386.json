@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Соусы кухонь мира",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 19
   },
   "groups": [
     {

@@ -2,11 +2,51 @@
   "id": "de-0106",
   "title": "Dinosaurier",
   "difficulty": "easy",
-  "meta": { "theme": "Urzeit", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Urzeit",
+    "batch": "de-batch-02",
+    "difficultyScore": 54
+  },
   "groups": [
-    { "id": "group_a", "label": "Sauropoden", "items": ["Brachiosaurus", "Diplodocus", "Apatosaurus", "Brontosaurus"] },
-    { "id": "group_b", "label": "Theropoden", "items": ["T-Rex", "Velociraptor", "Spinosaurus", "Allosaurus"] },
-    { "id": "group_c", "label": "Ornithopoden", "items": ["Iguanodon", "Parasaurolophus", "Hadrosaur", "Edmontosaurus"] },
-    { "id": "group_d", "label": "Ceratopsier", "items": ["Triceratops", "Styracosaurus", "Torosaurus", "Pentaceratops"] }
+    {
+      "id": "group_a",
+      "label": "Sauropoden",
+      "items": [
+        "Brachiosaurus",
+        "Diplodocus",
+        "Apatosaurus",
+        "Brontosaurus"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Theropoden",
+      "items": [
+        "T-Rex",
+        "Velociraptor",
+        "Spinosaurus",
+        "Allosaurus"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Ornithopoden",
+      "items": [
+        "Iguanodon",
+        "Parasaurolophus",
+        "Hadrosaur",
+        "Edmontosaurus"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Ceratopsier",
+      "items": [
+        "Triceratops",
+        "Styracosaurus",
+        "Torosaurus",
+        "Pentaceratops"
+      ]
+    }
   ]
 }

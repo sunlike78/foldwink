@@ -3,11 +3,57 @@
   "title": "Rhetorical Devices",
   "difficulty": "medium",
   "editorialSummary": "Rhetorical devices by function. False trail: Litotes (understatement by negated opposite) could seem like a substitution trope — it is a contrast device. Chiasmus involves repetition in reversed order — placed with contrast for its structural inversion function.",
-  "meta": { "theme": "language", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "language",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 39
+  },
   "groups": [
-    { "id": "g1", "label": "REPETITION SCHEMES", "revealHint": "Repeat", "items": ["Anaphora", "Epistrophe", "Epanalepsis", "Anadiplosis"] },
-    { "id": "g2", "label": "CONTRAST AND OPPOSITION", "revealHint": "Contrast", "items": ["Antithesis", "Chiasmus", "Litotes", "Oxymoron"] },
-    { "id": "g3", "label": "SUBSTITUTION TROPES", "revealHint": "Replace", "items": ["Metaphor", "Metonymy", "Synecdoche", "Euphemism"] },
-    { "id": "g4", "label": "SOUND DEVICES", "revealHint": "Sound", "items": ["Alliteration", "Assonance", "Onomatopoeia", "Consonance"] }
+    {
+      "id": "g1",
+      "label": "REPETITION SCHEMES",
+      "revealHint": "Repeat",
+      "items": [
+        "Anaphora",
+        "Epistrophe",
+        "Epanalepsis",
+        "Anadiplosis"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "CONTRAST AND OPPOSITION",
+      "revealHint": "Contrast",
+      "items": [
+        "Antithesis",
+        "Chiasmus",
+        "Litotes",
+        "Oxymoron"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "SUBSTITUTION TROPES",
+      "revealHint": "Replace",
+      "items": [
+        "Metaphor",
+        "Metonymy",
+        "Synecdoche",
+        "Euphemism"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SOUND DEVICES",
+      "revealHint": "Sound",
+      "items": [
+        "Alliteration",
+        "Assonance",
+        "Onomatopoeia",
+        "Consonance"
+      ]
+    }
   ]
 }

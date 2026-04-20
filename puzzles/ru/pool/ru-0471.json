@@ -2,11 +2,55 @@
   "id": "ru-0471",
   "title": "Психологи и теоретики",
   "difficulty": "medium",
-  "meta": { "theme": "Великие психологи и их теории", "batch": "ru-batch-20" },
+  "meta": {
+    "theme": "Великие психологи и их теории",
+    "batch": "ru-batch-20",
+    "difficultyScore": 10
+  },
   "groups": [
-    { "id": "freudian_school", "label": "Психоанализ", "revealHint": "ПСИХОАНАЛИЗ", "items": ["Фрейд", "Юнг", "Адлер", "Кляйн"] },
-    { "id": "behaviorism", "label": "Бихевиоризм", "revealHint": "БИХЕВИОРИЗМ", "items": ["Уотсон", "Скиннер", "Павлов", "Торндайк"] },
-    { "id": "humanistic_psych", "label": "Гуманистическая", "revealHint": "ГУМАНИЗМ", "items": ["Маслоу", "Роджерс", "Франкл", "Перлс"] },
-    { "id": "cognitive_psych", "label": "Когнитивная", "revealHint": "КОГНИЦИЯ", "items": ["Бандура", "Бек", "Эллис", "Пиаже"] }
+    {
+      "id": "freudian_school",
+      "label": "Психоанализ",
+      "revealHint": "ПСИХОАНАЛИЗ",
+      "items": [
+        "Фрейд",
+        "Юнг",
+        "Адлер",
+        "Кляйн"
+      ]
+    },
+    {
+      "id": "behaviorism",
+      "label": "Бихевиоризм",
+      "revealHint": "БИХЕВИОРИЗМ",
+      "items": [
+        "Уотсон",
+        "Скиннер",
+        "Павлов",
+        "Торндайк"
+      ]
+    },
+    {
+      "id": "humanistic_psych",
+      "label": "Гуманистическая",
+      "revealHint": "ГУМАНИЗМ",
+      "items": [
+        "Маслоу",
+        "Роджерс",
+        "Франкл",
+        "Перлс"
+      ]
+    },
+    {
+      "id": "cognitive_psych",
+      "label": "Когнитивная",
+      "revealHint": "КОГНИЦИЯ",
+      "items": [
+        "Бандура",
+        "Бек",
+        "Эллис",
+        "Пиаже"
+      ]
+    }
   ]
 }

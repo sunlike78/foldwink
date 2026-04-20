@@ -2,27 +2,52 @@
   "id": "puzzle-0014",
   "title": "Moving Bodies",
   "difficulty": "easy",
-  "tags": ["sports"],
+  "tags": [
+    "sports"
+  ],
   "groups": [
     {
       "id": "dances",
       "label": "Dances",
-      "items": ["Salsa", "Tango", "Waltz", "Ballet"]
+      "items": [
+        "Salsa",
+        "Tango",
+        "Waltz",
+        "Ballet"
+      ]
     },
     {
       "id": "martial",
       "label": "Martial Arts",
-      "items": ["Karate", "Judo", "Taekwondo", "Kung Fu"]
+      "items": [
+        "Karate",
+        "Judo",
+        "Taekwondo",
+        "Kung Fu"
+      ]
     },
     {
       "id": "gym",
       "label": "Gymnastics",
-      "items": ["Vault", "Beam", "Rings", "Bars"]
+      "items": [
+        "Vault",
+        "Beam",
+        "Rings",
+        "Bars"
+      ]
     },
     {
       "id": "track",
       "label": "Track Events",
-      "items": ["Sprint", "Hurdles", "Relay", "Marathon"]
+      "items": [
+        "Sprint",
+        "Hurdles",
+        "Relay",
+        "Marathon"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

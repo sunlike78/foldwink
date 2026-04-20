@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Börse",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 21
   },
   "groups": [
     {

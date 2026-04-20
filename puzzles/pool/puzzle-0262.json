@@ -6,28 +6,49 @@
     "theme": "music",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 61
   },
   "groups": [
     {
       "id": "notes",
       "label": "Note Values",
-      "items": ["Whole Note", "Half Note", "Quarter Note", "Eighth Note"]
+      "items": [
+        "Whole Note",
+        "Half Note",
+        "Quarter Note",
+        "Eighth Note"
+      ]
     },
     {
       "id": "rests",
       "label": "Rest Values",
-      "items": ["Whole Rest", "Half Rest", "Quarter Rest", "Eighth Rest"]
+      "items": [
+        "Whole Rest",
+        "Half Rest",
+        "Quarter Rest",
+        "Eighth Rest"
+      ]
     },
     {
       "id": "clefs",
       "label": "Clef Types",
-      "items": ["Treble", "Bass", "Alto", "Tenor"]
+      "items": [
+        "Treble",
+        "Bass",
+        "Alto",
+        "Tenor"
+      ]
     },
     {
       "id": "keys",
       "label": "Key Signature Marks",
-      "items": ["Sharp", "Flat", "Natural", "Double Sharp"]
+      "items": [
+        "Sharp",
+        "Flat",
+        "Natural",
+        "Double Sharp"
+      ]
     }
   ]
 }

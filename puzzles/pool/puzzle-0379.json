@@ -3,11 +3,57 @@
   "title": "Kitchen Science",
   "difficulty": "medium",
   "editorialSummary": "Four everyday cooking phenomena grouped by the underlying scientific process; the false trail is that Caramelization and Maillard Reaction both produce browning and flavour, so players must decide which group each belongs to based on the sugar-versus-protein distinction.",
-  "meta": { "theme": "popular-science", "categoryType": "attribute", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "popular-science",
+    "categoryType": "attribute",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 47
+  },
   "groups": [
-    { "id": "g1", "label": "Heat Reactions", "revealHint": "Brown", "items": ["Maillard Reaction", "Caramelization", "Pyrolysis", "Rendering"] },
-    { "id": "g2", "label": "Fermentation Processes", "revealHint": "Ferment", "items": ["Yeast Fermentation", "Lactic Acid", "Acetic Acid", "Alcoholic Ferment"] },
-    { "id": "g3", "label": "Emulsification", "revealHint": "Mix", "items": ["Aioli", "Mayonnaise", "Hollandaise", "Vinaigrette"] },
-    { "id": "g4", "label": "Protein Changes", "revealHint": "Denature", "items": ["Coagulation", "Denaturation", "Gelation", "Curing"] }
+    {
+      "id": "g1",
+      "label": "Heat Reactions",
+      "revealHint": "Brown",
+      "items": [
+        "Maillard Reaction",
+        "Caramelization",
+        "Pyrolysis",
+        "Rendering"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Fermentation Processes",
+      "revealHint": "Ferment",
+      "items": [
+        "Yeast Fermentation",
+        "Lactic Acid",
+        "Acetic Acid",
+        "Alcoholic Ferment"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Emulsification",
+      "revealHint": "Mix",
+      "items": [
+        "Aioli",
+        "Mayonnaise",
+        "Hollandaise",
+        "Vinaigrette"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Protein Changes",
+      "revealHint": "Denature",
+      "items": [
+        "Coagulation",
+        "Denaturation",
+        "Gelation",
+        "Curing"
+      ]
+    }
   ]
 }

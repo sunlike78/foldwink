@@ -6,28 +6,49 @@
     "theme": "science",
     "categoryType": "classification",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "g1",
       "label": "Types of Cells",
-      "items": ["Red Blood Cell", "White Blood Cell", "Stem Cell", "Adipocyte"]
+      "items": [
+        "Red Blood Cell",
+        "White Blood Cell",
+        "Stem Cell",
+        "Adipocyte"
+      ]
     },
     {
       "id": "g2",
       "label": "Cell Organelles",
-      "items": ["Mitochondria", "Ribosome", "Golgi Apparatus", "Vacuole"]
+      "items": [
+        "Mitochondria",
+        "Ribosome",
+        "Golgi Apparatus",
+        "Vacuole"
+      ]
     },
     {
       "id": "g3",
       "label": "Types of Tissues",
-      "items": ["Epithelial Tissue", "Connective Tissue", "Muscle Tissue", "Nervous Tissue"]
+      "items": [
+        "Epithelial Tissue",
+        "Connective Tissue",
+        "Muscle Tissue",
+        "Nervous Tissue"
+      ]
     },
     {
       "id": "g4",
       "label": "Microorganism Types",
-      "items": ["Bacterium", "Virus", "Fungus", "Protozoan"]
+      "items": [
+        "Bacterium",
+        "Virus",
+        "Fungus",
+        "Protozoan"
+      ]
     }
   ]
 }

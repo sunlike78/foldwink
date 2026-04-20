@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Rockgeschichte",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 46
   },
   "groups": [
     {

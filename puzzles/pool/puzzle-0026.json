@@ -8,25 +8,48 @@
       "id": "europe",
       "label": "European Capitals",
       "revealHint": "EUROPE",
-      "items": ["Lisbon", "Vienna", "Athens", "Prague"]
+      "items": [
+        "Lisbon",
+        "Vienna",
+        "Athens",
+        "Prague"
+      ]
     },
     {
       "id": "asia",
       "label": "Asian Capitals",
       "revealHint": "ASIA",
-      "items": ["Seoul", "Bangkok", "Hanoi", "Manila"]
+      "items": [
+        "Seoul",
+        "Bangkok",
+        "Hanoi",
+        "Manila"
+      ]
     },
     {
       "id": "africa",
       "label": "African Capitals",
       "revealHint": "AFRICA",
-      "items": ["Nairobi", "Lagos", "Accra", "Kampala"]
+      "items": [
+        "Nairobi",
+        "Lagos",
+        "Accra",
+        "Kampala"
+      ]
     },
     {
       "id": "americas",
       "label": "American Capitals",
       "revealHint": "AMERICAS",
-      "items": ["Ottawa", "Lima", "Brasilia", "Havana"]
+      "items": [
+        "Ottawa",
+        "Lima",
+        "Brasilia",
+        "Havana"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 16
+  }
 }

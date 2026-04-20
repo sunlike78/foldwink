@@ -7,34 +7,55 @@
     "theme": "animals",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "g1",
       "label": "Animals That Travel in a Pack",
-      "items": ["Wolf", "Hyena", "Wild Dog", "Coyote"],
+      "items": [
+        "Wolf",
+        "Hyena",
+        "Wild Dog",
+        "Coyote"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Animals That Live in a Colony",
-      "items": ["Penguin", "Ant", "Bat", "Prairie Dog"],
+      "items": [
+        "Penguin",
+        "Ant",
+        "Bat",
+        "Prairie Dog"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Animals That Move in a Pod",
-      "items": ["Dolphin", "Whale", "Orca", "Narwhal"],
+      "items": [
+        "Dolphin",
+        "Whale",
+        "Orca",
+        "Narwhal"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Birds That Fly in a Murmuration or Flock",
-      "items": ["Starling", "Goose", "Flamingo", "Parakeet"],
+      "items": [
+        "Starling",
+        "Goose",
+        "Flamingo",
+        "Parakeet"
+      ],
       "color": "purple",
       "revealHint": ""
     }

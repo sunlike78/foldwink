@@ -2,11 +2,55 @@
   "id": "ru-0242",
   "title": "Знаки зодиака",
   "difficulty": "medium",
-  "meta": { "theme": "Знаки зодиака по стихиям", "batch": "ru-batch-09" },
+  "meta": {
+    "theme": "Знаки зодиака по стихиям",
+    "batch": "ru-batch-09",
+    "difficultyScore": 16
+  },
   "groups": [
-    { "id": "fire_signs", "label": "Огонь", "revealHint": "ОГОНЬ", "items": ["Овен", "Лев", "Стрелец", "Марс"] },
-    { "id": "earth_signs", "label": "Земля", "revealHint": "ЗЕМЛЯ", "items": ["Телец", "Дева", "Козерог", "Венера"] },
-    { "id": "air_signs", "label": "Воздух", "revealHint": "ВОЗДУХ", "items": ["Близнецы", "Весы", "Водолей", "Меркурий"] },
-    { "id": "water_signs", "label": "Вода", "revealHint": "ВОДА", "items": ["Рак", "Скорпион", "Рыбы", "Луна"] }
+    {
+      "id": "fire_signs",
+      "label": "Огонь",
+      "revealHint": "ОГОНЬ",
+      "items": [
+        "Овен",
+        "Лев",
+        "Стрелец",
+        "Марс"
+      ]
+    },
+    {
+      "id": "earth_signs",
+      "label": "Земля",
+      "revealHint": "ЗЕМЛЯ",
+      "items": [
+        "Телец",
+        "Дева",
+        "Козерог",
+        "Венера"
+      ]
+    },
+    {
+      "id": "air_signs",
+      "label": "Воздух",
+      "revealHint": "ВОЗДУХ",
+      "items": [
+        "Близнецы",
+        "Весы",
+        "Водолей",
+        "Меркурий"
+      ]
+    },
+    {
+      "id": "water_signs",
+      "label": "Вода",
+      "revealHint": "ВОДА",
+      "items": [
+        "Рак",
+        "Скорпион",
+        "Рыбы",
+        "Луна"
+      ]
+    }
   ]
 }

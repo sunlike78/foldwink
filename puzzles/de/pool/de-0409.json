@@ -2,11 +2,55 @@
   "id": "de-0409",
   "title": "Arien und ihre Opern",
   "difficulty": "medium",
-  "meta": { "theme": "oper", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "oper",
+    "batch": "de-batch-05",
+    "difficultyScore": 43
+  },
   "groups": [
-    { "id": "group_a", "label": "Aus der Zauberflöte", "revealHint": "Mozart", "items": ["Der Vogelfänger", "Der Hölle Rache", "Dies Bildnis", "Ein Mädchen"] },
-    { "id": "group_b", "label": "Aus Don Giovanni", "revealHint": "Mozart Italien", "items": ["Là ci darem", "Madamina", "Batti batti", "Champagnerarie"] },
-    { "id": "group_c", "label": "Aus Fidelio", "revealHint": "Beethoven", "items": ["O welche Lust", "Abscheulicher", "Komm Hoffnung", "Hat man nicht"] },
-    { "id": "group_d", "label": "Aus dem Freischütz", "revealHint": "Weber", "items": ["Durch die Wälder", "Leise fromme", "Wie nahte mir", "Was gleicht wohl"] }
+    {
+      "id": "group_a",
+      "label": "Aus der Zauberflöte",
+      "revealHint": "Mozart",
+      "items": [
+        "Der Vogelfänger",
+        "Der Hölle Rache",
+        "Dies Bildnis",
+        "Ein Mädchen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Aus Don Giovanni",
+      "revealHint": "Mozart Italien",
+      "items": [
+        "Là ci darem",
+        "Madamina",
+        "Batti batti",
+        "Champagnerarie"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Aus Fidelio",
+      "revealHint": "Beethoven",
+      "items": [
+        "O welche Lust",
+        "Abscheulicher",
+        "Komm Hoffnung",
+        "Hat man nicht"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Aus dem Freischütz",
+      "revealHint": "Weber",
+      "items": [
+        "Durch die Wälder",
+        "Leise fromme",
+        "Wie nahte mir",
+        "Was gleicht wohl"
+      ]
+    }
   ]
 }

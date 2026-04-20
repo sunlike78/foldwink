@@ -3,11 +3,57 @@
   "title": "Field of Battle",
   "difficulty": "medium",
   "editorialSummary": "Famous battles grouped by historical era. False trail: Thermopylae (ancient) and Marathon (ancient) both involve Greeks, and Waterloo (Napoleonic) and Trafalgar (Napoleonic) both involve Napoleon — players may try to group by nation rather than era. The canonical grouping is strictly by era.",
-  "meta": { "theme": "famous battles by era", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "famous battles by era",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "g1", "label": "ANCIENT", "revealHint": "Ancient", "items": ["Thermopylae", "Marathon", "Gaugamela", "Zama"] },
-    { "id": "g2", "label": "MEDIEVAL", "revealHint": "Medieval", "items": ["Hastings", "Agincourt", "Crécy", "Poitiers"] },
-    { "id": "g3", "label": "NAPOLEONIC", "revealHint": "Napoleon", "items": ["Waterloo", "Trafalgar", "Austerlitz", "Borodino"] },
-    { "id": "g4", "label": "WORLD WAR II", "revealHint": "WWII", "items": ["Stalingrad", "Midway", "El Alamein", "Kursk"] }
+    {
+      "id": "g1",
+      "label": "ANCIENT",
+      "revealHint": "Ancient",
+      "items": [
+        "Thermopylae",
+        "Marathon",
+        "Gaugamela",
+        "Zama"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MEDIEVAL",
+      "revealHint": "Medieval",
+      "items": [
+        "Hastings",
+        "Agincourt",
+        "Crécy",
+        "Poitiers"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NAPOLEONIC",
+      "revealHint": "Napoleon",
+      "items": [
+        "Waterloo",
+        "Trafalgar",
+        "Austerlitz",
+        "Borodino"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "WORLD WAR II",
+      "revealHint": "WWII",
+      "items": [
+        "Stalingrad",
+        "Midway",
+        "El Alamein",
+        "Kursk"
+      ]
+    }
   ]
 }

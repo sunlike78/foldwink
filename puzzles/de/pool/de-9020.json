@@ -2,31 +2,55 @@
   "id": "de-9020",
   "title": "Revolutionen ohne Waffe",
   "difficulty": "medium",
-  "meta": { "theme": "Friedliche Umbrüche in der Geschichte", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Friedliche Umbrüche in der Geschichte",
+    "batch": "de-batch-11",
+    "difficultyScore": 34
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Reformation",
       "revealHint": "KIRCHE NEU GEDACHT",
-      "items": ["Thesen ans Tor", "Ablassbrief verbrannt", "Bibel fürs Volk", "Zwei Konfessionen"]
+      "items": [
+        "Thesen ans Tor",
+        "Ablassbrief verbrannt",
+        "Bibel fürs Volk",
+        "Zwei Konfessionen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Aufklärung",
       "revealHint": "VERNUNFT GEGEN DOGMA",
-      "items": ["Kant über Pflicht", "Enzyklopädie erscheint", "Toleranzedikt erlassen", "Lessing und Licht"]
+      "items": [
+        "Kant über Pflicht",
+        "Enzyklopädie erscheint",
+        "Toleranzedikt erlassen",
+        "Lessing und Licht"
+      ]
     },
     {
       "id": "group_c",
       "label": "Wiedervereinigung",
       "revealHint": "GETEILT DANN EINS",
-      "items": ["Grenzpfahl umgefallen", "Verwandte umarmt", "Zwei Währungen eine", "Volkskammer löst auf"]
+      "items": [
+        "Grenzpfahl umgefallen",
+        "Verwandte umarmt",
+        "Zwei Währungen eine",
+        "Volkskammer löst auf"
+      ]
     },
     {
       "id": "group_d",
       "label": "Frauenwahlrecht",
       "revealHint": "STIMME ENDLICH GLEICH",
-      "items": ["1918 erste Wahl", "Langer Kampf davor", "Zettel wie der Mann", "Recht erkämpft"]
+      "items": [
+        "1918 erste Wahl",
+        "Langer Kampf davor",
+        "Zettel wie der Mann",
+        "Recht erkämpft"
+      ]
     }
   ]
 }

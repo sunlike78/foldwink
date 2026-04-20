@@ -2,27 +2,51 @@
   "id": "de-9041",
   "title": "Tierisch schlau",
   "difficulty": "easy",
-  "meta": { "theme": "Tierintelligenz und Lernfähigkeit", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Tierintelligenz und Lernfähigkeit",
+    "batch": "de-batch-12",
+    "difficultyScore": 32
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Rabe",
-      "items": ["Nuss auf Straße legen", "Beerdigt Gefährten", "Erkennt Spiegel", "Merkt sich Gesichter"]
+      "items": [
+        "Nuss auf Straße legen",
+        "Beerdigt Gefährten",
+        "Erkennt Spiegel",
+        "Merkt sich Gesichter"
+      ]
     },
     {
       "id": "group_b",
       "label": "Delfin",
-      "items": ["Ruft sich beim Namen", "Lehrt Jungen Tricks", "Werkzeug aus Schwamm", "Trauert um Tote"]
+      "items": [
+        "Ruft sich beim Namen",
+        "Lehrt Jungen Tricks",
+        "Werkzeug aus Schwamm",
+        "Trauert um Tote"
+      ]
     },
     {
       "id": "group_c",
       "label": "Elefant",
-      "items": ["Vergisst nie Weg", "Hilft Verletzten", "Malt mit Rüssel", "Findet alte Knochen"]
+      "items": [
+        "Vergisst nie Weg",
+        "Hilft Verletzten",
+        "Malt mit Rüssel",
+        "Findet alte Knochen"
+      ]
     },
     {
       "id": "group_d",
       "label": "Oktopus",
-      "items": ["Öffnet Verschluss", "Schläft träumend", "Tarnt blitzschnell", "Baut Muschelfestung"]
+      "items": [
+        "Öffnet Verschluss",
+        "Schläft träumend",
+        "Tarnt blitzschnell",
+        "Baut Muschelfestung"
+      ]
     }
   ]
 }

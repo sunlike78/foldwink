@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "religion",
-    "batch": "de-batch-05"
+    "batch": "de-batch-05",
+    "difficultyScore": 20
   },
   "groups": [
     {

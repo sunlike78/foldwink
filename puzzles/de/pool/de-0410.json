@@ -2,11 +2,55 @@
   "id": "de-0410",
   "title": "Literarische Epochen",
   "difficulty": "medium",
-  "meta": { "theme": "literatur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "literatur",
+    "batch": "de-batch-05",
+    "difficultyScore": 54
+  },
   "groups": [
-    { "id": "group_a", "label": "Sturm und Drang", "revealHint": "1760–1785", "items": ["Goethe (jung)", "Schiller (jung)", "Klinger", "Lenz"] },
-    { "id": "group_b", "label": "Weimarer Klassik", "revealHint": "1786–1832", "items": ["Wieland", "Herder", "Schiller (reif)", "Goethe (reif)"] },
-    { "id": "group_c", "label": "Romantik-Vertreter", "revealHint": "1795–1848", "items": ["Novalis", "Tieck", "Eichendorff", "Brentano"] },
-    { "id": "group_d", "label": "Poetischer Realismus", "revealHint": "1848–1900", "items": ["Fontane", "Storm", "Keller", "Raabe"] }
+    {
+      "id": "group_a",
+      "label": "Sturm und Drang",
+      "revealHint": "1760–1785",
+      "items": [
+        "Goethe (jung)",
+        "Schiller (jung)",
+        "Klinger",
+        "Lenz"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Weimarer Klassik",
+      "revealHint": "1786–1832",
+      "items": [
+        "Wieland",
+        "Herder",
+        "Schiller (reif)",
+        "Goethe (reif)"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Romantik-Vertreter",
+      "revealHint": "1795–1848",
+      "items": [
+        "Novalis",
+        "Tieck",
+        "Eichendorff",
+        "Brentano"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Poetischer Realismus",
+      "revealHint": "1848–1900",
+      "items": [
+        "Fontane",
+        "Storm",
+        "Keller",
+        "Raabe"
+      ]
+    }
   ]
 }

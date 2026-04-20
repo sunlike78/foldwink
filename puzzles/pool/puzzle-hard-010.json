@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "optical",
       "label": "Eye pair terms",
       "revealHint": "Eye",
-      "items": ["Pupil", "Iris", "Retina", "Cornea"]
+      "items": [
+        "Pupil",
+        "Iris",
+        "Retina",
+        "Cornea"
+      ]
     },
     {
       "id": "shoe",
       "label": "Shoe pair terms",
       "revealHint": "Shoe",
-      "items": ["Sole", "Heel", "Insole", "Lace"]
+      "items": [
+        "Sole",
+        "Heel",
+        "Insole",
+        "Lace"
+      ]
     },
     {
       "id": "hand",
       "label": "Hand pair terms",
       "revealHint": "Hand",
-      "items": ["Palm", "Knuckle", "Thumb", "Wrist"]
+      "items": [
+        "Palm",
+        "Knuckle",
+        "Thumb",
+        "Wrist"
+      ]
     },
     {
       "id": "wing",
       "label": "Wing pair terms",
       "revealHint": "Wing",
-      "items": ["Feather", "Aileron", "Span", "Tip"]
+      "items": [
+        "Feather",
+        "Aileron",
+        "Span",
+        "Tip"
+      ]
     }
   ]
 }

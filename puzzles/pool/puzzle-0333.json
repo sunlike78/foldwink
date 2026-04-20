@@ -7,34 +7,55 @@
     "theme": "linguistics",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "g1",
       "label": "Indo-European Languages",
-      "items": ["English", "Russian", "Hindi", "Persian"],
+      "items": [
+        "English",
+        "Russian",
+        "Hindi",
+        "Persian"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Afroasiatic Languages",
-      "items": ["Arabic", "Amharic", "Hebrew", "Hausa"],
+      "items": [
+        "Arabic",
+        "Amharic",
+        "Hebrew",
+        "Hausa"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Sino-Tibetan Languages",
-      "items": ["Mandarin", "Tibetan", "Burmese", "Cantonese"],
+      "items": [
+        "Mandarin",
+        "Tibetan",
+        "Burmese",
+        "Cantonese"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Turkic Languages",
-      "items": ["Turkish", "Uzbek", "Kazakh", "Azerbaijani"],
+      "items": [
+        "Turkish",
+        "Uzbek",
+        "Kazakh",
+        "Azerbaijani"
+      ],
       "color": "purple",
       "revealHint": ""
     }

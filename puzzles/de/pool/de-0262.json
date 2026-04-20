@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "modemarken",
-    "batch": "de-batch-03"
+    "batch": "de-batch-03",
+    "difficultyScore": 14
   },
   "groups": [
     {

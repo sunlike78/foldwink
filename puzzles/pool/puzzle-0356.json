@@ -2,11 +2,53 @@
   "id": "puzzle-0356",
   "title": "Thinking Errors",
   "difficulty": "easy",
-  "meta": { "theme": "psychology", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "psychology",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 46
+  },
   "groups": [
-    { "id": "g1", "label": "Cognitive Biases", "items": ["Confirmation Bias", "Anchoring", "Dunning-Kruger", "Availability Heuristic"] },
-    { "id": "g2", "label": "Logical Fallacies", "items": ["Straw Man", "Ad Hominem", "False Dilemma", "Slippery Slope"] },
-    { "id": "g3", "label": "Memory Distortions", "items": ["False Memory", "Confabulation", "Source Amnesia", "Misinformation Effect"] },
-    { "id": "g4", "label": "Behavioural Economics Biases", "items": ["Sunk Cost", "Loss Aversion", "Status Quo Bias", "Endowment Effect"] }
+    {
+      "id": "g1",
+      "label": "Cognitive Biases",
+      "items": [
+        "Confirmation Bias",
+        "Anchoring",
+        "Dunning-Kruger",
+        "Availability Heuristic"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Logical Fallacies",
+      "items": [
+        "Straw Man",
+        "Ad Hominem",
+        "False Dilemma",
+        "Slippery Slope"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Memory Distortions",
+      "items": [
+        "False Memory",
+        "Confabulation",
+        "Source Amnesia",
+        "Misinformation Effect"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Behavioural Economics Biases",
+      "items": [
+        "Sunk Cost",
+        "Loss Aversion",
+        "Status Quo Bias",
+        "Endowment Effect"
+      ]
+    }
   ]
 }

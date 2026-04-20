@@ -2,11 +2,51 @@
   "id": "de-0105",
   "title": "Haie und Meeresraubtiere",
   "difficulty": "easy",
-  "meta": { "theme": "Meerestiere", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Meerestiere",
+    "batch": "de-batch-02",
+    "difficultyScore": 28
+  },
   "groups": [
-    { "id": "group_a", "label": "Haifischarten", "items": ["Weißer Hai", "Hammerhai", "Walhai", "Blauhai"] },
-    { "id": "group_b", "label": "Angriffsmuster", "items": ["Beißen", "Rammen", "Verfolgen", "Lauern"] },
-    { "id": "group_c", "label": "Lebensräume", "items": ["Korallenriff", "Tiefsee", "Küstengewässer", "Hochsee"] },
-    { "id": "group_d", "label": "Schutzmaßnahmen", "items": ["Haifischnetz", "Taucherkleid", "Haischutzanzug", "Drohne"] }
+    {
+      "id": "group_a",
+      "label": "Haifischarten",
+      "items": [
+        "Weißer Hai",
+        "Hammerhai",
+        "Walhai",
+        "Blauhai"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Angriffsmuster",
+      "items": [
+        "Beißen",
+        "Rammen",
+        "Verfolgen",
+        "Lauern"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Lebensräume",
+      "items": [
+        "Korallenriff",
+        "Tiefsee",
+        "Küstengewässer",
+        "Hochsee"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Schutzmaßnahmen",
+      "items": [
+        "Haifischnetz",
+        "Taucherkleid",
+        "Haischutzanzug",
+        "Drohne"
+      ]
+    }
   ]
 }

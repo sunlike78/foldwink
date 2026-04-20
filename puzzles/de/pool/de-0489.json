@@ -2,11 +2,55 @@
   "id": "de-0489",
   "title": "Genomeditierung",
   "difficulty": "medium",
-  "meta": { "theme": "biologie", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "biologie",
+    "batch": "de-batch-05",
+    "difficultyScore": 28
+  },
   "groups": [
-    { "id": "group_a", "label": "Genediting-Methoden", "revealHint": "Genetik-Werkzeuge", "items": ["CRISPR-Cas9", "TALEN", "Zinkfinger-Nuklease", "Base Editing"] },
-    { "id": "group_b", "label": "Genediting-Anwendungen", "revealHint": "Einsatzgebiete", "items": ["Erbkrankheiten heilen", "Pflanzenzüchtung", "Krebstherapie", "Gen-Antrieb"] },
-    { "id": "group_c", "label": "Genediting-Ethik", "revealHint": "Moralische Fragen", "items": ["Keimbahneingriff", "Designer-Baby", "Einwilligungsrecht", "Risikobewertung"] },
-    { "id": "group_d", "label": "Genediting-Organism.", "revealHint": "Was verändert wird", "items": ["Mais resistenter", "Moskito steril", "Schwein Organ", "Maus Modelltier"] }
+    {
+      "id": "group_a",
+      "label": "Genediting-Methoden",
+      "revealHint": "Genetik-Werkzeuge",
+      "items": [
+        "CRISPR-Cas9",
+        "TALEN",
+        "Zinkfinger-Nuklease",
+        "Base Editing"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Genediting-Anwendungen",
+      "revealHint": "Einsatzgebiete",
+      "items": [
+        "Erbkrankheiten heilen",
+        "Pflanzenzüchtung",
+        "Krebstherapie",
+        "Gen-Antrieb"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Genediting-Ethik",
+      "revealHint": "Moralische Fragen",
+      "items": [
+        "Keimbahneingriff",
+        "Designer-Baby",
+        "Einwilligungsrecht",
+        "Risikobewertung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Genediting-Organism.",
+      "revealHint": "Was verändert wird",
+      "items": [
+        "Mais resistenter",
+        "Moskito steril",
+        "Schwein Organ",
+        "Maus Modelltier"
+      ]
+    }
   ]
 }

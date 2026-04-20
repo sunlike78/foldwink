@@ -3,11 +3,53 @@
   "title": "Roman Gods",
   "difficulty": "easy",
   "editorialSummary": "Roman gods by domain. False trail: Players who know Greek names may assign by Greek domain rather than Roman function. Bacchus with harvest is the educational payoff.",
-  "meta": { "theme": "mythology", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "mythology",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "g1", "label": "SKY AND STATE GODS", "items": ["Jupiter", "Juno", "Minerva", "Mercury"] },
-    { "id": "g2", "label": "SEA AND UNDERWORLD GODS", "items": ["Neptune", "Pluto", "Proserpina", "Charon"] },
-    { "id": "g3", "label": "HARVEST AND EARTH GODS", "items": ["Ceres", "Bacchus", "Pomona", "Faunus"] },
-    { "id": "g4", "label": "LOVE WAR AND HEARTH GODS", "items": ["Venus", "Mars", "Vulcan", "Vesta"] }
+    {
+      "id": "g1",
+      "label": "SKY AND STATE GODS",
+      "items": [
+        "Jupiter",
+        "Juno",
+        "Minerva",
+        "Mercury"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "SEA AND UNDERWORLD GODS",
+      "items": [
+        "Neptune",
+        "Pluto",
+        "Proserpina",
+        "Charon"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "HARVEST AND EARTH GODS",
+      "items": [
+        "Ceres",
+        "Bacchus",
+        "Pomona",
+        "Faunus"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "LOVE WAR AND HEARTH GODS",
+      "items": [
+        "Venus",
+        "Mars",
+        "Vulcan",
+        "Vesta"
+      ]
+    }
   ]
 }

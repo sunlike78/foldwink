@@ -8,25 +8,48 @@
       "id": "book",
       "label": "___ BOOK",
       "revealHint": "BOOK",
-      "items": ["Note", "Cook", "Text", "Scrap"]
+      "items": [
+        "Note",
+        "Cook",
+        "Text",
+        "Scrap"
+      ]
     },
     {
       "id": "face",
       "label": "___ FACE",
       "revealHint": "FACE",
-      "items": ["Inter", "Sur", "Type", "Poker"]
+      "items": [
+        "Inter",
+        "Sur",
+        "Type",
+        "Poker"
+      ]
     },
     {
       "id": "word",
       "label": "___ WORD",
       "revealHint": "WORD",
-      "items": ["Cross", "Pass", "Key", "Fore"]
+      "items": [
+        "Cross",
+        "Pass",
+        "Key",
+        "Fore"
+      ]
     },
     {
       "id": "line",
       "label": "___ LINE",
       "revealHint": "LINE",
-      "items": ["Head", "Out", "Pipe", "Dead"]
+      "items": [
+        "Head",
+        "Out",
+        "Pipe",
+        "Dead"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

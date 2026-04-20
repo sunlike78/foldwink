@@ -2,31 +2,55 @@
   "id": "de-9056",
   "title": "Reise im Kopf",
   "difficulty": "medium",
-  "meta": { "theme": "Reisemotivationen psychologisch", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Reisemotivationen psychologisch",
+    "batch": "de-batch-12",
+    "difficultyScore": 41
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Flucht",
       "revealHint": "WEG VON ALLEM HIER",
-      "items": ["Koffer packen sofort", "Kein Rückflug gebucht", "Handy bleibt zuhause", "Niemand weiß wo"]
+      "items": [
+        "Koffer packen sofort",
+        "Kein Rückflug gebucht",
+        "Handy bleibt zuhause",
+        "Niemand weiß wo"
+      ]
     },
     {
       "id": "group_b",
       "label": "Entdeckerdrang",
       "revealHint": "NEUES TERRITORY SUCHEN",
-      "items": ["Karte ohne Route", "Straße endet irgendwo", "Sprache unbekannt", "Ersten sein an Ort"]
+      "items": [
+        "Karte ohne Route",
+        "Straße endet irgendwo",
+        "Sprache unbekannt",
+        "Ersten sein an Ort"
+      ]
     },
     {
       "id": "group_c",
       "label": "Selbstfindung",
       "revealHint": "WER BIN ICH WIRKLICH",
-      "items": ["Alleine unterwegs sein", "Tagebuch täglich voll", "Fremde fragen nach mir", "Ohne Spiegel"]
+      "items": [
+        "Alleine unterwegs sein",
+        "Tagebuch täglich voll",
+        "Fremde fragen nach mir",
+        "Ohne Spiegel"
+      ]
     },
     {
       "id": "group_d",
       "label": "Genuss",
       "revealHint": "SCHÖNHEIT EINFACH LEBEN",
-      "items": ["Hotel mit Aussicht", "Lokales Menü bestellen", "Siesta einhalten hier", "Morgen nichts planen"]
+      "items": [
+        "Hotel mit Aussicht",
+        "Lokales Menü bestellen",
+        "Siesta einhalten hier",
+        "Morgen nichts planen"
+      ]
     }
   ]
 }

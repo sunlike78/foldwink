@@ -2,11 +2,55 @@
   "id": "de-0481",
   "title": "Digitale Transformation",
   "difficulty": "medium",
-  "meta": { "theme": "digital", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "digital",
+    "batch": "de-batch-05",
+    "difficultyScore": 57
+  },
   "groups": [
-    { "id": "group_a", "label": "Industrie 4.0", "revealHint": "Fabrik der Zukunft", "items": ["Cyber-physische Syst.", "IoT Produktion", "Digitaler Zwilling", "Predictive Maint."] },
-    { "id": "group_b", "label": "Smart City", "revealHint": "Digitale Stadt", "items": ["Verkehrssteuerung", "Intelligente Laterne", "Smart Grid", "Bürgerdienste App"] },
-    { "id": "group_c", "label": "E-Government", "revealHint": "Staat digital", "items": ["Online-Ausweis", "Bürgerportal", "Digitales Amt", "E-Akte"] },
-    { "id": "group_d", "label": "Bildungsdigitalis.", "revealHint": "Lernen digital", "items": ["E-Learning", "Lernmanagementsystem", "MOOC", "Digitales Klassenz."] }
+    {
+      "id": "group_a",
+      "label": "Industrie 4.0",
+      "revealHint": "Fabrik der Zukunft",
+      "items": [
+        "Cyber-physische Syst.",
+        "IoT Produktion",
+        "Digitaler Zwilling",
+        "Predictive Maint."
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Smart City",
+      "revealHint": "Digitale Stadt",
+      "items": [
+        "Verkehrssteuerung",
+        "Intelligente Laterne",
+        "Smart Grid",
+        "Bürgerdienste App"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "E-Government",
+      "revealHint": "Staat digital",
+      "items": [
+        "Online-Ausweis",
+        "Bürgerportal",
+        "Digitales Amt",
+        "E-Akte"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bildungsdigitalis.",
+      "revealHint": "Lernen digital",
+      "items": [
+        "E-Learning",
+        "Lernmanagementsystem",
+        "MOOC",
+        "Digitales Klassenz."
+      ]
+    }
   ]
 }

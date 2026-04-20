@@ -6,22 +6,45 @@
     {
       "id": "paradigms",
       "label": "Programming Paradigms",
-      "items": ["Functional", "Object-Oriented", "Procedural", "Declarative"]
+      "items": [
+        "Functional",
+        "Object-Oriented",
+        "Procedural",
+        "Declarative"
+      ]
     },
     {
       "id": "data-structures",
       "label": "Data Structures",
-      "items": ["Stack", "Queue", "Tree", "Graph"]
+      "items": [
+        "Stack",
+        "Queue",
+        "Tree",
+        "Graph"
+      ]
     },
     {
       "id": "control-flow",
       "label": "Control Flow",
-      "items": ["If", "Loop", "Switch", "Goto"]
+      "items": [
+        "If",
+        "Loop",
+        "Switch",
+        "Goto"
+      ]
     },
     {
       "id": "shell",
       "label": "Shell Commands",
-      "items": ["Grep", "Awk", "Sed", "Cat"]
+      "items": [
+        "Grep",
+        "Awk",
+        "Sed",
+        "Cat"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 18
+  }
 }

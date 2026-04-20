@@ -6,28 +6,49 @@
     "theme": "technology",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 38
   },
   "groups": [
     {
       "id": "g1",
       "label": "Created a Widely-Used Programming Language",
-      "items": ["Grace Hopper", "Dennis Ritchie", "Guido van Rossum", "Bjarne Stroustrup"]
+      "items": [
+        "Grace Hopper",
+        "Dennis Ritchie",
+        "Guido van Rossum",
+        "Bjarne Stroustrup"
+      ]
     },
     {
       "id": "g2",
       "label": "Founded a Major Tech Company",
-      "items": ["Steve Jobs", "Bill Gates", "Larry Ellison", "Michael Dell"]
+      "items": [
+        "Steve Jobs",
+        "Bill Gates",
+        "Larry Ellison",
+        "Michael Dell"
+      ]
     },
     {
       "id": "g3",
       "label": "Pioneers of the Internet",
-      "items": ["Tim Berners-Lee", "Vint Cerf", "Bob Kahn", "Jon Postel"]
+      "items": [
+        "Tim Berners-Lee",
+        "Vint Cerf",
+        "Bob Kahn",
+        "Jon Postel"
+      ]
     },
     {
       "id": "g4",
       "label": "Computer Science Theorists",
-      "items": ["Alan Turing", "John von Neumann", "Claude Shannon", "Donald Knuth"]
+      "items": [
+        "Alan Turing",
+        "John von Neumann",
+        "Claude Shannon",
+        "Donald Knuth"
+      ]
     }
   ]
 }

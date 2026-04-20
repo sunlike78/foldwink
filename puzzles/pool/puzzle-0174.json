@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "metal",
       "label": "Metal chain",
       "revealHint": "Metal",
-      "items": ["Link", "Padlock", "Shackle", "Anchor Chain"]
+      "items": [
+        "Link",
+        "Padlock",
+        "Shackle",
+        "Anchor Chain"
+      ]
     },
     {
       "id": "food",
       "label": "Food chain",
       "revealHint": "Food",
-      "items": ["Predator", "Herbivore", "Apex", "Decomposer"]
+      "items": [
+        "Predator",
+        "Herbivore",
+        "Apex",
+        "Decomposer"
+      ]
     },
     {
       "id": "business",
       "label": "Business chain",
       "revealHint": "Business",
-      "items": ["Franchise", "Branch", "Outlet", "Headquarters"]
+      "items": [
+        "Franchise",
+        "Branch",
+        "Outlet",
+        "Headquarters"
+      ]
     },
     {
       "id": "mountain",
       "label": "Mountain chain",
       "revealHint": "Mountain",
-      "items": ["Range", "Summit", "Ridge", "Pass"]
+      "items": [
+        "Range",
+        "Summit",
+        "Ridge",
+        "Pass"
+      ]
     }
   ]
 }

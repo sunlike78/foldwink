@@ -6,28 +6,49 @@
     "theme": "geography",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 16
   },
   "groups": [
     {
       "id": "europe",
       "label": "European Capitals",
-      "items": ["Vienna", "Lisbon", "Prague", "Athens"]
+      "items": [
+        "Vienna",
+        "Lisbon",
+        "Prague",
+        "Athens"
+      ]
     },
     {
       "id": "asia",
       "label": "Asian Capitals",
-      "items": ["Tokyo", "Bangkok", "Seoul", "Hanoi"]
+      "items": [
+        "Tokyo",
+        "Bangkok",
+        "Seoul",
+        "Hanoi"
+      ]
     },
     {
       "id": "africa",
       "label": "African Capitals",
-      "items": ["Nairobi", "Cairo", "Accra", "Dakar"]
+      "items": [
+        "Nairobi",
+        "Cairo",
+        "Accra",
+        "Dakar"
+      ]
     },
     {
       "id": "americas",
       "label": "American Capitals",
-      "items": ["Ottawa", "Lima", "Havana", "Bogota"]
+      "items": [
+        "Ottawa",
+        "Lima",
+        "Havana",
+        "Bogota"
+      ]
     }
   ]
 }

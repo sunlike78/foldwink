@@ -2,11 +2,51 @@
   "id": "de-0289",
   "title": "Wahlen in Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "wahlen", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "wahlen",
+    "batch": "de-batch-03",
+    "difficultyScore": 41
+  },
   "groups": [
-    { "id": "group_a", "label": "Wahlsysteme", "items": ["Erststimme", "Zweitstimme", "Verhältniswahlrecht", "Mehrheitswahlrecht"] },
-    { "id": "group_b", "label": "Wahlbehörden", "items": ["Bundeswahlleiter", "Landeswahlleiter", "Wahlausschuss", "Wahlbüro"] },
-    { "id": "group_c", "label": "Wahlprozess", "items": ["Kandidatur", "Briefwahl", "Wahllokal", "Stimmzettel"] },
-    { "id": "group_d", "label": "Wahl-Begriffe", "items": ["Direktmandat", "Überhangmandat", "Fünf-Prozent-Hürde", "Koalitionsverhandlung"] }
+    {
+      "id": "group_a",
+      "label": "Wahlsysteme",
+      "items": [
+        "Erststimme",
+        "Zweitstimme",
+        "Verhältniswahlrecht",
+        "Mehrheitswahlrecht"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Wahlbehörden",
+      "items": [
+        "Bundeswahlleiter",
+        "Landeswahlleiter",
+        "Wahlausschuss",
+        "Wahlbüro"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wahlprozess",
+      "items": [
+        "Kandidatur",
+        "Briefwahl",
+        "Wahllokal",
+        "Stimmzettel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wahl-Begriffe",
+      "items": [
+        "Direktmandat",
+        "Überhangmandat",
+        "Fünf-Prozent-Hürde",
+        "Koalitionsverhandlung"
+      ]
+    }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 16
   },
   "groups": [
     {
       "id": "roof",
       "label": "Roof Shapes",
-      "items": ["Gable", "Hip", "Mansard", "Flat"]
+      "items": [
+        "Gable",
+        "Hip",
+        "Mansard",
+        "Flat"
+      ]
     },
     {
       "id": "window",
       "label": "Window Styles",
-      "items": ["Bay", "Bow", "Casement", "Sash"]
+      "items": [
+        "Bay",
+        "Bow",
+        "Casement",
+        "Sash"
+      ]
     },
     {
       "id": "door",
       "label": "Door Types",
-      "items": ["Dutch", "French", "Sliding", "Pocket"]
+      "items": [
+        "Dutch",
+        "French",
+        "Sliding",
+        "Pocket"
+      ]
     },
     {
       "id": "ceiling",
       "label": "Ceiling Finishes",
-      "items": ["Coffered", "Vaulted", "Tray", "Beamed"]
+      "items": [
+        "Coffered",
+        "Vaulted",
+        "Tray",
+        "Beamed"
+      ]
     }
   ]
 }

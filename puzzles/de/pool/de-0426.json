@@ -2,11 +2,55 @@
   "id": "de-0426",
   "title": "Verfassungsorgane",
   "difficulty": "medium",
-  "meta": { "theme": "politik", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "politik",
+    "batch": "de-batch-05",
+    "difficultyScore": 50
+  },
   "groups": [
-    { "id": "group_a", "label": "Bundestag", "revealHint": "Volksvertretung", "items": ["Fraktionen", "Plenum", "Bundestagspräsident", "Wahlperiode"] },
-    { "id": "group_b", "label": "Bundesrat", "revealHint": "Ländervertretung", "items": ["Länderkammer", "Einspruchsrecht", "Bundesratspräsident", "Stimmengewicht"] },
-    { "id": "group_c", "label": "Bundespräsident", "revealHint": "Staatsoberhaupt", "items": ["Amtszeit 5 Jahre", "Repräsentation", "Ausfertigung Gesetze", "Bundesversammlung"] },
-    { "id": "group_d", "label": "Bundesverfassungsgericht", "revealHint": "Höchstgericht", "items": ["Karlsruhe", "Normenkontrolle", "Verfassungsbeschwerde", "Richteramt 12 J."] }
+    {
+      "id": "group_a",
+      "label": "Bundestag",
+      "revealHint": "Volksvertretung",
+      "items": [
+        "Fraktionen",
+        "Plenum",
+        "Bundestagspräsident",
+        "Wahlperiode"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bundesrat",
+      "revealHint": "Ländervertretung",
+      "items": [
+        "Länderkammer",
+        "Einspruchsrecht",
+        "Bundesratspräsident",
+        "Stimmengewicht"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bundespräsident",
+      "revealHint": "Staatsoberhaupt",
+      "items": [
+        "Amtszeit 5 Jahre",
+        "Repräsentation",
+        "Ausfertigung Gesetze",
+        "Bundesversammlung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bundesverfassungsgericht",
+      "revealHint": "Höchstgericht",
+      "items": [
+        "Karlsruhe",
+        "Normenkontrolle",
+        "Verfassungsbeschwerde",
+        "Richteramt 12 J."
+      ]
+    }
   ]
 }

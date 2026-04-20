@@ -7,34 +7,55 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "g1",
       "label": "Baroque Architects",
-      "items": ["Bernini", "Borromini", "Wren", "Fischer von Erlach"],
+      "items": [
+        "Bernini",
+        "Borromini",
+        "Wren",
+        "Fischer von Erlach"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Art Nouveau Architects",
-      "items": ["Gaudi", "Horta", "Guimard", "Mackintosh"],
+      "items": [
+        "Gaudi",
+        "Horta",
+        "Guimard",
+        "Mackintosh"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Modernist Architects",
-      "items": ["Le Corbusier", "Mies van der Rohe", "Gropius", "Niemeyer"],
+      "items": [
+        "Le Corbusier",
+        "Mies van der Rohe",
+        "Gropius",
+        "Niemeyer"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Deconstructivist Architects",
-      "items": ["Gehry", "Hadid", "Libeskind", "Eisenman"],
+      "items": [
+        "Gehry",
+        "Hadid",
+        "Libeskind",
+        "Eisenman"
+      ],
       "color": "purple",
       "revealHint": ""
     }

@@ -2,11 +2,51 @@
   "id": "de-0158",
   "title": "Augenarzt",
   "difficulty": "easy",
-  "meta": { "theme": "Gesundheit", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Gesundheit",
+    "batch": "de-batch-02",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "group_a", "label": "Sehfehler", "items": ["Kurzsichtigkeit", "Weitsichtigkeit", "Astigmatismus", "Alterssichtigkeit"] },
-    { "id": "group_b", "label": "Sehhilfen", "items": ["Brille", "Kontaktlinsen", "Lupenbrille", "Laser-OP"] },
-    { "id": "group_c", "label": "Augenerkrankungen", "items": ["Grauer Star", "Grüner Star", "Makuladegeneration", "Bindehautentzündung"] },
-    { "id": "group_d", "label": "Untersuchungen", "items": ["Sehtest", "Augendruckmessung", "Spaltlampe", "Gesichtsfeld"] }
+    {
+      "id": "group_a",
+      "label": "Sehfehler",
+      "items": [
+        "Kurzsichtigkeit",
+        "Weitsichtigkeit",
+        "Astigmatismus",
+        "Alterssichtigkeit"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Sehhilfen",
+      "items": [
+        "Brille",
+        "Kontaktlinsen",
+        "Lupenbrille",
+        "Laser-OP"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Augenerkrankungen",
+      "items": [
+        "Grauer Star",
+        "Grüner Star",
+        "Makuladegeneration",
+        "Bindehautentzündung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Untersuchungen",
+      "items": [
+        "Sehtest",
+        "Augendruckmessung",
+        "Spaltlampe",
+        "Gesichtsfeld"
+      ]
+    }
   ]
 }

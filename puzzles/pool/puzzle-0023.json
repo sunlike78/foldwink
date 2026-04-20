@@ -8,25 +8,48 @@
       "id": "throw",
       "label": "Meaning THROW",
       "revealHint": "THROW",
-      "items": ["Toss", "Hurl", "Chuck", "Fling"]
+      "items": [
+        "Toss",
+        "Hurl",
+        "Chuck",
+        "Fling"
+      ]
     },
     {
       "id": "catch",
       "label": "Meaning CATCH",
       "revealHint": "CATCH",
-      "items": ["Grab", "Snag", "Snatch", "Nab"]
+      "items": [
+        "Grab",
+        "Snag",
+        "Snatch",
+        "Nab"
+      ]
     },
     {
       "id": "break",
       "label": "Meaning BREAK",
       "revealHint": "BREAK",
-      "items": ["Smash", "Crack", "Shatter", "Split"]
+      "items": [
+        "Smash",
+        "Crack",
+        "Shatter",
+        "Split"
+      ]
     },
     {
       "id": "fix",
       "label": "Meaning FIX",
       "revealHint": "MEND",
-      "items": ["Repair", "Mend", "Patch", "Restore"]
+      "items": [
+        "Repair",
+        "Mend",
+        "Patch",
+        "Restore"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 19
+  }
 }

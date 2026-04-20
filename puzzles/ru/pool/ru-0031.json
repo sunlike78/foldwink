@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Супы русской кухни",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 45
   },
   "groups": [
     {

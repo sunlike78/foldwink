@@ -7,32 +7,53 @@
     "theme": "wordplay",
     "categoryType": "wordplay",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 54
   },
   "groups": [
     {
       "id": "train-station",
       "label": "Train Station",
       "revealHint": "Rail",
-      "items": ["Turnstile", "Ticket Gate", "Waiting Room", "Luggage Rack"]
+      "items": [
+        "Turnstile",
+        "Ticket Gate",
+        "Waiting Room",
+        "Luggage Rack"
+      ]
     },
     {
       "id": "gas-station",
       "label": "Gas Station",
       "revealHint": "Fuel",
-      "items": ["Pump", "Nozzle", "Kiosk", "Canopy"]
+      "items": [
+        "Pump",
+        "Nozzle",
+        "Kiosk",
+        "Canopy"
+      ]
     },
     {
       "id": "police-station",
       "label": "Police Station",
       "revealHint": "Law",
-      "items": ["Cell", "Desk Sergeant", "Booking", "Interview Room"]
+      "items": [
+        "Cell",
+        "Desk Sergeant",
+        "Booking",
+        "Interview Room"
+      ]
     },
     {
       "id": "broadcast",
       "label": "Broadcast Station",
       "revealHint": "Radio",
-      "items": ["Antenna", "Studio", "DJ Booth", "Transmitter"]
+      "items": [
+        "Antenna",
+        "Studio",
+        "DJ Booth",
+        "Transmitter"
+      ]
     }
   ]
 }

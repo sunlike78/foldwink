@@ -2,11 +2,51 @@
   "id": "de-0047",
   "title": "Berlin entdecken",
   "difficulty": "easy",
-  "meta": { "theme": "Berlin Sehenswürdigkeiten", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Berlin Sehenswürdigkeiten",
+    "batch": "de-batch-02",
+    "difficultyScore": 39
+  },
   "groups": [
-    { "id": "group_a", "label": "Berliner Museen", "items": ["Pergamonmuseum", "Bode-Museum", "Gemäldegalerie", "DDR-Museum"] },
-    { "id": "group_b", "label": "Berliner Denkmäler", "items": ["Brandenburger Tor", "Siegessäule", "Reichstag", "Holocaust-Denkmal"] },
-    { "id": "group_c", "label": "Berliner Parks", "items": ["Tiergarten", "Treptower Park", "Volkspark Hasenheide", "Grunewald"] },
-    { "id": "group_d", "label": "Berliner Stadtteile", "items": ["Mitte", "Prenzlauer Berg", "Kreuzberg", "Charlottenburg"] }
+    {
+      "id": "group_a",
+      "label": "Berliner Museen",
+      "items": [
+        "Pergamonmuseum",
+        "Bode-Museum",
+        "Gemäldegalerie",
+        "DDR-Museum"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Berliner Denkmäler",
+      "items": [
+        "Brandenburger Tor",
+        "Siegessäule",
+        "Reichstag",
+        "Holocaust-Denkmal"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Berliner Parks",
+      "items": [
+        "Tiergarten",
+        "Treptower Park",
+        "Volkspark Hasenheide",
+        "Grunewald"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Berliner Stadtteile",
+      "items": [
+        "Mitte",
+        "Prenzlauer Berg",
+        "Kreuzberg",
+        "Charlottenburg"
+      ]
+    }
   ]
 }

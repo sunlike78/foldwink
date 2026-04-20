@@ -6,28 +6,49 @@
     "theme": "garden",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "bulbs",
       "label": "Bulb Flowers",
-      "items": ["Tulip", "Daffodil", "Hyacinth", "Crocus"]
+      "items": [
+        "Tulip",
+        "Daffodil",
+        "Hyacinth",
+        "Crocus"
+      ]
     },
     {
       "id": "perennials",
       "label": "Garden Perennials",
-      "items": ["Peony", "Iris", "Daylily", "Coneflower"]
+      "items": [
+        "Peony",
+        "Iris",
+        "Daylily",
+        "Coneflower"
+      ]
     },
     {
       "id": "wild",
       "label": "Wildflowers",
-      "items": ["Poppy", "Cornflower", "Buttercup", "Bluebell"]
+      "items": [
+        "Poppy",
+        "Cornflower",
+        "Buttercup",
+        "Bluebell"
+      ]
     },
     {
       "id": "tropical",
       "label": "Tropical Flowers",
-      "items": ["Hibiscus", "Plumeria", "Bird of Paradise", "Bougainvillea"]
+      "items": [
+        "Hibiscus",
+        "Plumeria",
+        "Bird of Paradise",
+        "Bougainvillea"
+      ]
     }
   ]
 }

@@ -7,32 +7,53 @@
     "theme": "colour",
     "categoryType": "thematic",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "emotion",
       "label": "Feeling blue",
       "revealHint": "Emotion",
-      "items": ["Melancholy", "Longing", "Wistful", "Pensive"]
+      "items": [
+        "Melancholy",
+        "Longing",
+        "Wistful",
+        "Pensive"
+      ]
     },
     {
       "id": "sea",
       "label": "Blue sea",
       "revealHint": "Sea",
-      "items": ["Lagoon", "Sapphire", "Cobalt", "Azure"]
+      "items": [
+        "Lagoon",
+        "Sapphire",
+        "Cobalt",
+        "Azure"
+      ]
     },
     {
       "id": "music",
       "label": "Blues music",
       "revealHint": "Music",
-      "items": ["Delta", "Slide Guitar", "Twelve-Bar", "Muddy"]
+      "items": [
+        "Delta",
+        "Slide Guitar",
+        "Twelve-Bar",
+        "Muddy"
+      ]
     },
     {
       "id": "sky",
       "label": "Blue sky",
       "revealHint": "Sky",
-      "items": ["Zenith", "Horizon", "Cirrus", "Canopy"]
+      "items": [
+        "Zenith",
+        "Horizon",
+        "Cirrus",
+        "Canopy"
+      ]
     }
   ]
 }

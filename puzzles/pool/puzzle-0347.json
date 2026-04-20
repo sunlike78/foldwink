@@ -7,35 +7,56 @@
     "theme": "art",
     "categoryType": "attribute",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 59
   },
   "groups": [
     {
       "id": "g1",
       "label": "Works by da Vinci",
       "revealHint": "Leonardo",
-      "items": ["Mona Lisa", "The Last Supper", "Vitruvian Man", "Lady with Ermine"],
+      "items": [
+        "Mona Lisa",
+        "The Last Supper",
+        "Vitruvian Man",
+        "Lady with Ermine"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Painted by Rembrandt",
       "revealHint": "Rembrandt",
-      "items": ["The Night Watch", "The Anatomy Lesson", "Jewish Bride", "Belshazzar's Feast"],
+      "items": [
+        "The Night Watch",
+        "The Anatomy Lesson",
+        "Jewish Bride",
+        "Belshazzar's Feast"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Painted by Van Gogh",
       "revealHint": "Vincent",
-      "items": ["Starry Night", "Sunflowers", "The Bedroom", "Wheat Field with Crows"],
+      "items": [
+        "Starry Night",
+        "Sunflowers",
+        "The Bedroom",
+        "Wheat Field with Crows"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Painted by Vermeer",
       "revealHint": "Johannes",
-      "items": ["Girl with a Pearl Earring", "The Milkmaid", "View of Delft", "The Music Lesson"],
+      "items": [
+        "Girl with a Pearl Earring",
+        "The Milkmaid",
+        "View of Delft",
+        "The Music Lesson"
+      ],
       "color": "purple"
     }
   ]

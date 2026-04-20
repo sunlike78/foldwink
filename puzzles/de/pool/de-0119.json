@@ -2,11 +2,51 @@
   "id": "de-0119",
   "title": "Schach",
   "difficulty": "easy",
-  "meta": { "theme": "Spiele", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Spiele",
+    "batch": "de-batch-02",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "group_a", "label": "Figuren", "items": ["König", "Dame", "Turm", "Läufer"] },
-    { "id": "group_b", "label": "Eröffnungen", "items": ["Sizilianisch", "Königsgambit", "Franzosen", "Spanisch"] },
-    { "id": "group_c", "label": "Spielbegriffe", "items": ["Schach", "Rochade", "En passant", "Patt"] },
-    { "id": "group_d", "label": "Spielregeln", "items": ["Zugzwang", "Remis", "Aufgabe", "Umwandlung"] }
+    {
+      "id": "group_a",
+      "label": "Figuren",
+      "items": [
+        "König",
+        "Dame",
+        "Turm",
+        "Läufer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Eröffnungen",
+      "items": [
+        "Sizilianisch",
+        "Königsgambit",
+        "Franzosen",
+        "Spanisch"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spielbegriffe",
+      "items": [
+        "Schach",
+        "Rochade",
+        "En passant",
+        "Patt"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Spielregeln",
+      "items": [
+        "Zugzwang",
+        "Remis",
+        "Aufgabe",
+        "Umwandlung"
+      ]
+    }
   ]
 }

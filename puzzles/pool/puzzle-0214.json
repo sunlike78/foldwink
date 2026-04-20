@@ -6,28 +6,49 @@
     "theme": "weather",
     "categoryType": "thematic",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "summer",
       "label": "Summer Things",
-      "items": ["Sunscreen", "Popsicle", "Flip-Flops", "Beach Towel"]
+      "items": [
+        "Sunscreen",
+        "Popsicle",
+        "Flip-Flops",
+        "Beach Towel"
+      ]
     },
     {
       "id": "autumn",
       "label": "Autumn Things",
-      "items": ["Acorn", "Pumpkin", "Rake", "Scarecrow"]
+      "items": [
+        "Acorn",
+        "Pumpkin",
+        "Rake",
+        "Scarecrow"
+      ]
     },
     {
       "id": "winter",
       "label": "Winter Things",
-      "items": ["Mittens", "Sled", "Snowman", "Icicle"]
+      "items": [
+        "Mittens",
+        "Sled",
+        "Snowman",
+        "Icicle"
+      ]
     },
     {
       "id": "spring",
       "label": "Spring Things",
-      "items": ["Umbrella", "Kite", "Daffodil", "Nest"]
+      "items": [
+        "Umbrella",
+        "Kite",
+        "Daffodil",
+        "Nest"
+      ]
     }
   ]
 }

@@ -7,34 +7,55 @@
     "theme": "mineralogy",
     "categoryType": "attribute",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 45
   },
   "groups": [
     {
       "id": "g1",
       "label": "Red Gemstones",
-      "items": ["Garnet", "Red Spinel", "Rhodolite", "Carnelian"],
+      "items": [
+        "Garnet",
+        "Red Spinel",
+        "Rhodolite",
+        "Carnelian"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Blue Gemstones",
-      "items": ["Sapphire", "Lapis Lazuli", "Blue Topaz", "Tanzanite"],
+      "items": [
+        "Sapphire",
+        "Lapis Lazuli",
+        "Blue Topaz",
+        "Tanzanite"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Green Gemstones",
-      "items": ["Green Tourmaline", "Peridot", "Jade", "Malachite"],
+      "items": [
+        "Green Tourmaline",
+        "Peridot",
+        "Jade",
+        "Malachite"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Purple Gemstones",
-      "items": ["Sugilite", "Charoite", "Iolite", "Purple Fluorite"],
+      "items": [
+        "Sugilite",
+        "Charoite",
+        "Iolite",
+        "Purple Fluorite"
+      ],
       "color": "purple",
       "revealHint": ""
     }

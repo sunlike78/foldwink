@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Nietzsche",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 49
   },
   "groups": [
     {

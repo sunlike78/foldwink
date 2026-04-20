@@ -2,11 +2,51 @@
   "id": "de-0150",
   "title": "Segeln und Rudern",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 7
+  },
   "groups": [
-    { "id": "group_a", "label": "Bootstypen", "items": ["Jolle", "Kajak", "Kanu", "Ruderboot"] },
-    { "id": "group_b", "label": "Segelausrüstung", "items": ["Segel", "Mast", "Großbaum", "Fock"] },
-    { "id": "group_c", "label": "Segelbegriffe", "items": ["Halse", "Wende", "Luv", "Lee"] },
-    { "id": "group_d", "label": "Ruderwettkämpfe", "items": ["Ergometer", "Skull", "Riemen", "Achter"] }
+    {
+      "id": "group_a",
+      "label": "Bootstypen",
+      "items": [
+        "Jolle",
+        "Kajak",
+        "Kanu",
+        "Ruderboot"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Segelausrüstung",
+      "items": [
+        "Segel",
+        "Mast",
+        "Großbaum",
+        "Fock"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Segelbegriffe",
+      "items": [
+        "Halse",
+        "Wende",
+        "Luv",
+        "Lee"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Ruderwettkämpfe",
+      "items": [
+        "Ergometer",
+        "Skull",
+        "Riemen",
+        "Achter"
+      ]
+    }
   ]
 }

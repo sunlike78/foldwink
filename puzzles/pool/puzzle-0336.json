@@ -7,34 +7,55 @@
     "theme": "philosophy",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "g1",
       "label": "Ancient Greek Philosophers",
-      "items": ["Socrates", "Plato", "Aristotle", "Epicurus"],
+      "items": [
+        "Socrates",
+        "Plato",
+        "Aristotle",
+        "Epicurus"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Enlightenment Philosophers",
-      "items": ["Locke", "Hume", "Kant", "Voltaire"],
+      "items": [
+        "Locke",
+        "Hume",
+        "Kant",
+        "Voltaire"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Existentialist Philosophers",
-      "items": ["Sartre", "Camus", "Simone de Beauvoir", "Kierkegaard"],
+      "items": [
+        "Sartre",
+        "Camus",
+        "Simone de Beauvoir",
+        "Kierkegaard"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Analytic Philosophers",
-      "items": ["Russell", "Wittgenstein", "Frege", "Quine"],
+      "items": [
+        "Russell",
+        "Wittgenstein",
+        "Frege",
+        "Quine"
+      ],
       "color": "purple",
       "revealHint": ""
     }

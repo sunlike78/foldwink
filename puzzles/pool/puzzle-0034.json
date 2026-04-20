@@ -6,22 +6,45 @@
     {
       "id": "constellations",
       "label": "Constellations",
-      "items": ["Orion", "Cassiopeia", "Lyra", "Draco"]
+      "items": [
+        "Orion",
+        "Cassiopeia",
+        "Lyra",
+        "Draco"
+      ]
     },
     {
       "id": "moons",
       "label": "Moons of Planets",
-      "items": ["Io", "Europa", "Titan", "Ganymede"]
+      "items": [
+        "Io",
+        "Europa",
+        "Titan",
+        "Ganymede"
+      ]
     },
     {
       "id": "phases",
       "label": "Moon Phases",
-      "items": ["Crescent", "Gibbous", "Waning", "Waxing"]
+      "items": [
+        "Crescent",
+        "Gibbous",
+        "Waning",
+        "Waxing"
+      ]
     },
     {
       "id": "sky-events",
       "label": "Sky Events",
-      "items": ["Eclipse", "Meteor", "Comet", "Aurora"]
+      "items": [
+        "Eclipse",
+        "Meteor",
+        "Comet",
+        "Aurora"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Genetik",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 25
   },
   "groups": [
     {

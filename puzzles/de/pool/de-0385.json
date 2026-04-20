@@ -2,31 +2,55 @@
   "id": "de-0385",
   "title": "Trainingsformen",
   "difficulty": "medium",
-  "meta": { "theme": "Training", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Training",
+    "batch": "de-batch-04",
+    "difficultyScore": 24
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Ausdauertraining",
       "revealHint": "Lange Belastung",
-      "items": ["Dauerlauf", "Intervalltraining", "Fahrradfahren", "Schwimmen"]
+      "items": [
+        "Dauerlauf",
+        "Intervalltraining",
+        "Fahrradfahren",
+        "Schwimmen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Krafttraining",
       "revealHint": "Muskeln aufbauen",
-      "items": ["Bankdrücken", "Kniebeuge", "Kreuzheben", "Klimmzug"]
+      "items": [
+        "Bankdrücken",
+        "Kniebeuge",
+        "Kreuzheben",
+        "Klimmzug"
+      ]
     },
     {
       "id": "group_c",
       "label": "Koordinationstraining",
       "revealHint": "Bewegung steuern",
-      "items": ["Balance", "Reaktion", "Rhythmisierung", "Differenzierung"]
+      "items": [
+        "Balance",
+        "Reaktion",
+        "Rhythmisierung",
+        "Differenzierung"
+      ]
     },
     {
       "id": "group_d",
       "label": "Flexibilitätstraining",
       "revealHint": "Beweglichkeit",
-      "items": ["Statisches Dehnen", "Dynamisches Dehnen", "Yoga", "PNF-Methode"]
+      "items": [
+        "Statisches Dehnen",
+        "Dynamisches Dehnen",
+        "Yoga",
+        "PNF-Methode"
+      ]
     }
   ]
 }

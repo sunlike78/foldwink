@@ -7,32 +7,53 @@
     "theme": "mythology",
     "categoryType": "attribute",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 48
   },
   "groups": [
     {
       "id": "ra",
       "label": "Signs of Ra",
       "revealHint": "Sun",
-      "items": ["Sun Disk", "Solar Barque", "Ram Head", "Scarab Beetle"]
+      "items": [
+        "Sun Disk",
+        "Solar Barque",
+        "Ram Head",
+        "Scarab Beetle"
+      ]
     },
     {
       "id": "osiris",
       "label": "Signs of Osiris",
       "revealHint": "Afterlife",
-      "items": ["Green Skin", "Crook and Flail", "Atef Crown", "Mummy Wrap"]
+      "items": [
+        "Green Skin",
+        "Crook and Flail",
+        "Atef Crown",
+        "Mummy Wrap"
+      ]
     },
     {
       "id": "bastet",
       "label": "Signs of Bastet",
       "revealHint": "Cat",
-      "items": ["Cat Head", "Sistrum", "Kittens", "Perfume Jar"]
+      "items": [
+        "Cat Head",
+        "Sistrum",
+        "Kittens",
+        "Perfume Jar"
+      ]
     },
     {
       "id": "horus",
       "label": "Signs of Horus",
       "revealHint": "Sky",
-      "items": ["Eye of Horus", "Falcon", "Double Crown", "Winged Disk"]
+      "items": [
+        "Eye of Horus",
+        "Falcon",
+        "Double Crown",
+        "Winged Disk"
+      ]
     }
   ]
 }

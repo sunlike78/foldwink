@@ -6,28 +6,49 @@
     "theme": "cooking",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 15
   },
   "groups": [
     {
       "id": "knife-cuts",
       "label": "Knife Cuts",
-      "items": ["Dice", "Mince", "Slice", "Chop"]
+      "items": [
+        "Dice",
+        "Mince",
+        "Slice",
+        "Chop"
+      ]
     },
     {
       "id": "dry-heat",
       "label": "Dry-Heat Methods",
-      "items": ["Roast", "Bake", "Grill", "Broil"]
+      "items": [
+        "Roast",
+        "Bake",
+        "Grill",
+        "Broil"
+      ]
     },
     {
       "id": "wet-heat",
       "label": "Wet-Heat Methods",
-      "items": ["Boil", "Steam", "Poach", "Simmer"]
+      "items": [
+        "Boil",
+        "Steam",
+        "Poach",
+        "Simmer"
+      ]
     },
     {
       "id": "mixing",
       "label": "Mixing Actions",
-      "items": ["Whisk", "Fold", "Knead", "Stir"]
+      "items": [
+        "Whisk",
+        "Fold",
+        "Knead",
+        "Stir"
+      ]
     }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Советская еда и продукты",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 31
   },
   "groups": [
     {

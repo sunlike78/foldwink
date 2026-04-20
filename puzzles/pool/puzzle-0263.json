@@ -6,28 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "cakes",
       "label": "Layer Cakes",
-      "items": ["Sponge", "Pound", "Angel Food", "Red Velvet"]
+      "items": [
+        "Sponge",
+        "Pound",
+        "Angel Food",
+        "Red Velvet"
+      ]
     },
     {
       "id": "cookies",
       "label": "Classic Cookies",
-      "items": ["Shortbread", "Macaron", "Biscotti", "Gingerbread"]
+      "items": [
+        "Shortbread",
+        "Macaron",
+        "Biscotti",
+        "Gingerbread"
+      ]
     },
     {
       "id": "frozen",
       "label": "Frozen Desserts",
-      "items": ["Sorbet", "Gelato", "Sundae", "Sherbet"]
+      "items": [
+        "Sorbet",
+        "Gelato",
+        "Sundae",
+        "Sherbet"
+      ]
     },
     {
       "id": "puddings",
       "label": "Traditional Puddings",
-      "items": ["Rice Pudding", "Bread Pudding", "Tapioca", "Christmas Pudding"]
+      "items": [
+        "Rice Pudding",
+        "Bread Pudding",
+        "Tapioca",
+        "Christmas Pudding"
+      ]
     }
   ]
 }

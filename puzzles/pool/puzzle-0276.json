@@ -7,32 +7,53 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "pies",
       "label": "Pie Desserts",
       "revealHint": "Pie",
-      "items": ["Apple Pie", "Key Lime", "Pecan Pie", "Banoffee"]
+      "items": [
+        "Apple Pie",
+        "Key Lime",
+        "Pecan Pie",
+        "Banoffee"
+      ]
     },
     {
       "id": "cakes",
       "label": "Cake Desserts",
       "revealHint": "Cake",
-      "items": ["Black Forest", "Tiramisu", "Victoria Sponge", "Opera"]
+      "items": [
+        "Black Forest",
+        "Tiramisu",
+        "Victoria Sponge",
+        "Opera"
+      ]
     },
     {
       "id": "custards",
       "label": "Custard Desserts",
       "revealHint": "Custard",
-      "items": ["Creme Brulee", "Flan", "Panna Cotta", "Trifle"]
+      "items": [
+        "Creme Brulee",
+        "Flan",
+        "Panna Cotta",
+        "Trifle"
+      ]
     },
     {
       "id": "frozen",
       "label": "Frozen Desserts",
       "revealHint": "Frozen",
-      "items": ["Baked Alaska", "Affogato", "Granita", "Ice Cream Cake"]
+      "items": [
+        "Baked Alaska",
+        "Affogato",
+        "Granita",
+        "Ice Cream Cake"
+      ]
     }
   ]
 }

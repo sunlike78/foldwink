@@ -3,11 +3,57 @@
   "title": "Religious Rituals",
   "difficulty": "medium",
   "editorialSummary": "Four world religions each contribute their core ritual practices; the false trail is that Confession and Repentance appear in multiple traditions, but here Confession locks into the Catholic-specific sacramental group while Repentance grounds the Jewish High Holiday ritual cluster.",
-  "meta": { "theme": "religion", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "religion",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "g1", "label": "Catholic Sacraments", "revealHint": "Sacrament", "items": ["Baptism", "Confession", "Eucharist", "Confirmation"] },
-    { "id": "g2", "label": "Islamic Pillars", "revealHint": "Pillar", "items": ["Salah", "Zakat", "Sawm", "Hajj"] },
-    { "id": "g3", "label": "Jewish Rituals", "revealHint": "Covenant", "items": ["Shabbat", "Repentance", "Bar Mitzvah", "Circumcision"] },
-    { "id": "g4", "label": "Hindu Rituals", "revealHint": "Puja", "items": ["Puja", "Havan", "Prasad", "Darshan"] }
+    {
+      "id": "g1",
+      "label": "Catholic Sacraments",
+      "revealHint": "Sacrament",
+      "items": [
+        "Baptism",
+        "Confession",
+        "Eucharist",
+        "Confirmation"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Islamic Pillars",
+      "revealHint": "Pillar",
+      "items": [
+        "Salah",
+        "Zakat",
+        "Sawm",
+        "Hajj"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Jewish Rituals",
+      "revealHint": "Covenant",
+      "items": [
+        "Shabbat",
+        "Repentance",
+        "Bar Mitzvah",
+        "Circumcision"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Hindu Rituals",
+      "revealHint": "Puja",
+      "items": [
+        "Puja",
+        "Havan",
+        "Prasad",
+        "Darshan"
+      ]
+    }
   ]
 }

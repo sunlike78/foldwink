@@ -6,22 +6,45 @@
     {
       "id": "sprints",
       "label": "Sprints",
-      "items": ["100m", "200m", "400m", "Relay"]
+      "items": [
+        "100m",
+        "200m",
+        "400m",
+        "Relay"
+      ]
     },
     {
       "id": "field-throws",
       "label": "Throwing Events",
-      "items": ["Javelin", "Discus", "Shot Put", "Hammer"]
+      "items": [
+        "Javelin",
+        "Discus",
+        "Shot Put",
+        "Hammer"
+      ]
     },
     {
       "id": "jumps",
       "label": "Jumping Events",
-      "items": ["High Jump", "Long Jump", "Triple Jump", "Pole Vault"]
+      "items": [
+        "High Jump",
+        "Long Jump",
+        "Triple Jump",
+        "Pole Vault"
+      ]
     },
     {
       "id": "distance",
       "label": "Distance Events",
-      "items": ["Mile", "5000m", "10000m", "Steeplechase"]
+      "items": [
+        "Mile",
+        "5000m",
+        "10000m",
+        "Steeplechase"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 27
+  }
 }

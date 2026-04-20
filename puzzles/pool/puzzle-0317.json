@@ -7,32 +7,53 @@
     "theme": "history",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 53
   },
   "groups": [
     {
       "id": "g1",
       "label": "World Events of the 1910s",
       "revealHint": "War",
-      "items": ["Assassination of Archduke Franz Ferdinand", "Battle of the Marne", "Russian Revolution", "Treaty of Versailles"]
+      "items": [
+        "Assassination of Archduke Franz Ferdinand",
+        "Battle of the Marne",
+        "Russian Revolution",
+        "Treaty of Versailles"
+      ]
     },
     {
       "id": "g2",
       "label": "World Events of the 1930s",
       "revealHint": "Depression",
-      "items": ["Wall Street Crash Aftermath", "Spanish Civil War", "Kristallnacht", "Molotov-Ribbentrop Pact"]
+      "items": [
+        "Wall Street Crash Aftermath",
+        "Spanish Civil War",
+        "Kristallnacht",
+        "Molotov-Ribbentrop Pact"
+      ]
     },
     {
       "id": "g3",
       "label": "World Events of the 1940s",
       "revealHint": "Wartime",
-      "items": ["D-Day Landings", "Hiroshima Bombing", "Nuremberg Trials", "Berlin Airlift"]
+      "items": [
+        "D-Day Landings",
+        "Hiroshima Bombing",
+        "Nuremberg Trials",
+        "Berlin Airlift"
+      ]
     },
     {
       "id": "g4",
       "label": "World Events of the 1960s",
       "revealHint": "Protest",
-      "items": ["Bay of Pigs Invasion", "Cuban Missile Crisis", "Moon Landing", "Prague Spring"]
+      "items": [
+        "Bay of Pigs Invasion",
+        "Cuban Missile Crisis",
+        "Moon Landing",
+        "Prague Spring"
+      ]
     }
   ]
 }

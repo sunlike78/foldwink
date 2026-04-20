@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 41
   },
   "groups": [
     {
       "id": "card",
       "label": "Bridge card game",
       "revealHint": "Cards",
-      "items": ["Trick", "Trump", "Bid", "Declarer"]
+      "items": [
+        "Trick",
+        "Trump",
+        "Bid",
+        "Declarer"
+      ]
     },
     {
       "id": "struct",
       "label": "Bridge structure",
       "revealHint": "Structure",
-      "items": ["Suspension", "Arch", "Drawbridge", "Pier"]
+      "items": [
+        "Suspension",
+        "Arch",
+        "Drawbridge",
+        "Pier"
+      ]
     },
     {
       "id": "dental",
       "label": "Dental bridge",
       "revealHint": "Dental",
-      "items": ["Crown", "Implant", "Porcelain", "Molar"]
+      "items": [
+        "Crown",
+        "Implant",
+        "Porcelain",
+        "Molar"
+      ]
     },
     {
       "id": "music",
       "label": "Musical bridge",
       "revealHint": "Song",
-      "items": ["Chorus", "Verse", "Refrain", "Hook"]
+      "items": [
+        "Chorus",
+        "Verse",
+        "Refrain",
+        "Hook"
+      ]
     }
   ]
 }

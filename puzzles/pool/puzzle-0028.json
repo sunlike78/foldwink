@@ -8,25 +8,48 @@
       "id": "writing",
       "label": "Writing Tools",
       "revealHint": "WRITE",
-      "items": ["Quill", "Ballpoint", "Fountain Pen", "Pencil"]
+      "items": [
+        "Quill",
+        "Ballpoint",
+        "Fountain Pen",
+        "Pencil"
+      ]
     },
     {
       "id": "painting",
       "label": "Painting Tools",
       "revealHint": "PAINT",
-      "items": ["Palette", "Easel", "Brush", "Primer"]
+      "items": [
+        "Palette",
+        "Easel",
+        "Brush",
+        "Primer"
+      ]
     },
     {
       "id": "sculpting",
       "label": "Sculpting Tools",
       "revealHint": "SCULPT",
-      "items": ["Chisel", "Mallet", "Clay", "Kiln"]
+      "items": [
+        "Chisel",
+        "Mallet",
+        "Clay",
+        "Kiln"
+      ]
     },
     {
       "id": "photography",
       "label": "Photography Tools",
       "revealHint": "PHOTO",
-      "items": ["Tripod", "Lens", "Shutter", "Aperture"]
+      "items": [
+        "Tripod",
+        "Lens",
+        "Shutter",
+        "Aperture"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 27
+  }
 }

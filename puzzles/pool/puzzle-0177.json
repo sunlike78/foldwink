@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "geometry",
       "label": "Geometric point",
       "revealHint": "Geometry",
-      "items": ["Vertex", "Origin", "Intersection", "Coordinate"]
+      "items": [
+        "Vertex",
+        "Origin",
+        "Intersection",
+        "Coordinate"
+      ]
     },
     {
       "id": "score",
       "label": "Scoring point",
       "revealHint": "Score",
-      "items": ["Goal", "Penalty", "Bonus", "Deduction"]
+      "items": [
+        "Goal",
+        "Penalty",
+        "Bonus",
+        "Deduction"
+      ]
     },
     {
       "id": "argument",
       "label": "Argument point",
       "revealHint": "Argument",
-      "items": ["Thesis", "Rebuttal", "Stance", "Counterpoint"]
+      "items": [
+        "Thesis",
+        "Rebuttal",
+        "Stance",
+        "Counterpoint"
+      ]
     },
     {
       "id": "sharp",
       "label": "Sharp point",
       "revealHint": "Sharp",
-      "items": ["Needle", "Thorn", "Spear", "Arrow"]
+      "items": [
+        "Needle",
+        "Thorn",
+        "Spear",
+        "Arrow"
+      ]
     }
   ]
 }

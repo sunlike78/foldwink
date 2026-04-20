@@ -2,31 +2,55 @@
   "id": "de-0380",
   "title": "Neurologie und Gehirn",
   "difficulty": "medium",
-  "meta": { "theme": "Neurologie", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Neurologie",
+    "batch": "de-batch-04",
+    "difficultyScore": 17
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Hirnbereiche",
       "revealHint": "Teile des Gehirns",
-      "items": ["Frontallappen", "Hippocampus", "Amygdala", "Kleinhirn"]
+      "items": [
+        "Frontallappen",
+        "Hippocampus",
+        "Amygdala",
+        "Kleinhirn"
+      ]
     },
     {
       "id": "group_b",
       "label": "Neurotransmitter",
       "revealHint": "Botenstoffe",
-      "items": ["Dopamin", "Serotonin", "GABA", "Acetylcholin"]
+      "items": [
+        "Dopamin",
+        "Serotonin",
+        "GABA",
+        "Acetylcholin"
+      ]
     },
     {
       "id": "group_c",
       "label": "Neurologische Störungen",
       "revealHint": "Erkrankungen",
-      "items": ["Alzheimer", "Parkinson", "Epilepsie", "Migräne"]
+      "items": [
+        "Alzheimer",
+        "Parkinson",
+        "Epilepsie",
+        "Migräne"
+      ]
     },
     {
       "id": "group_d",
       "label": "Neuroforschung-Methoden",
       "revealHint": "Gehirn erforschen",
-      "items": ["fMRT", "EEG", "PET", "Optogenetik"]
+      "items": [
+        "fMRT",
+        "EEG",
+        "PET",
+        "Optogenetik"
+      ]
     }
   ]
 }

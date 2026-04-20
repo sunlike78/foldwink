@@ -6,28 +6,49 @@
     "theme": "sports",
     "categoryType": "classification",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 46
   },
   "groups": [
     {
       "id": "g1",
       "label": "FIFA World Cup Winners",
-      "items": ["Uruguay", "Italy", "West Germany", "Argentina"]
+      "items": [
+        "Uruguay",
+        "Italy",
+        "West Germany",
+        "Argentina"
+      ]
     },
     {
       "id": "g2",
       "label": "Cricket World Cup Winners",
-      "items": ["West Indies", "India", "Pakistan", "Sri Lanka"]
+      "items": [
+        "West Indies",
+        "India",
+        "Pakistan",
+        "Sri Lanka"
+      ]
     },
     {
       "id": "g3",
       "label": "Ice Hockey World Champions",
-      "items": ["Canada", "Soviet Union", "Czechia", "Sweden"]
+      "items": [
+        "Canada",
+        "Soviet Union",
+        "Czechia",
+        "Sweden"
+      ]
     },
     {
       "id": "g4",
       "label": "FIFA Women's World Cup Winners",
-      "items": ["USA", "Norway", "Germany", "Netherlands"]
+      "items": [
+        "USA",
+        "Norway",
+        "Germany",
+        "Netherlands"
+      ]
     }
   ]
 }

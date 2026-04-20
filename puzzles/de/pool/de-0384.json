@@ -2,31 +2,55 @@
   "id": "de-0384",
   "title": "Sportmedizin",
   "difficulty": "medium",
-  "meta": { "theme": "Sportmedizin", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Sportmedizin",
+    "batch": "de-batch-04",
+    "difficultyScore": 27
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Sportverletzungen",
       "revealHint": "Häufige Schäden",
-      "items": ["Kreuzbandriss", "Muskelfaserriss", "Knochenbruch", "Zerrung"]
+      "items": [
+        "Kreuzbandriss",
+        "Muskelfaserriss",
+        "Knochenbruch",
+        "Zerrung"
+      ]
     },
     {
       "id": "group_b",
       "label": "Verletzungsbehandlung",
       "revealHint": "Therapiemaßnahmen",
-      "items": ["PECH-Regel", "Physiotherapie", "Operation", "Tape"]
+      "items": [
+        "PECH-Regel",
+        "Physiotherapie",
+        "Operation",
+        "Tape"
+      ]
     },
     {
       "id": "group_c",
       "label": "Verletzungsprävention",
       "revealHint": "Schutz vor Schäden",
-      "items": ["Aufwärmen", "Dehnübungen", "Techniktraining", "Schutzausrüstung"]
+      "items": [
+        "Aufwärmen",
+        "Dehnübungen",
+        "Techniktraining",
+        "Schutzausrüstung"
+      ]
     },
     {
       "id": "group_d",
       "label": "Leistungsdiagnostik",
       "revealHint": "Leistung messen",
-      "items": ["Laktattest", "VO2max", "Spiroergometrie", "EKG Belastung"]
+      "items": [
+        "Laktattest",
+        "VO2max",
+        "Spiroergometrie",
+        "EKG Belastung"
+      ]
     }
   ]
 }

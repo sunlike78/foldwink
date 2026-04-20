@@ -2,11 +2,51 @@
   "id": "de-0141",
   "title": "Handball in Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "group_a", "label": "Vereine", "items": ["THW Kiel", "Rhein-Neckar Löwen", "SG Flensburg", "Bergischer HC"] },
-    { "id": "group_b", "label": "Positionen", "items": ["Torwart", "Kreisläufer", "Rückraum", "Außen"] },
-    { "id": "group_c", "label": "Spielregeln", "items": ["Sieben-Meter", "Zeitstrafe", "Abseits", "Freiwurf"] },
-    { "id": "group_d", "label": "Turniere", "items": ["Bundesliga", "EHF Champions League", "EM", "WM"] }
+    {
+      "id": "group_a",
+      "label": "Vereine",
+      "items": [
+        "THW Kiel",
+        "Rhein-Neckar Löwen",
+        "SG Flensburg",
+        "Bergischer HC"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Positionen",
+      "items": [
+        "Torwart",
+        "Kreisläufer",
+        "Rückraum",
+        "Außen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spielregeln",
+      "items": [
+        "Sieben-Meter",
+        "Zeitstrafe",
+        "Abseits",
+        "Freiwurf"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Turniere",
+      "items": [
+        "Bundesliga",
+        "EHF Champions League",
+        "EM",
+        "WM"
+      ]
+    }
   ]
 }

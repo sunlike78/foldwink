@@ -7,32 +7,53 @@
     "theme": "music",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "g1",
       "label": "Bowed String Instruments",
       "revealHint": "Bow",
-      "items": ["Violin", "Cello", "Viola da Gamba", "Erhu"]
+      "items": [
+        "Violin",
+        "Cello",
+        "Viola da Gamba",
+        "Erhu"
+      ]
     },
     {
       "id": "g2",
       "label": "Plucked String Instruments",
       "revealHint": "Pluck",
-      "items": ["Harp", "Lute", "Sitar", "Banjo"]
+      "items": [
+        "Harp",
+        "Lute",
+        "Sitar",
+        "Banjo"
+      ]
     },
     {
       "id": "g3",
       "label": "Struck String Instruments",
       "revealHint": "Strike",
-      "items": ["Dulcimer", "Cimbalom", "Clavichord", "Piano"]
+      "items": [
+        "Dulcimer",
+        "Cimbalom",
+        "Clavichord",
+        "Piano"
+      ]
     },
     {
       "id": "g4",
       "label": "Keyboard-Plucked Instruments",
       "revealHint": "Keys",
-      "items": ["Harpsichord", "Virginal", "Spinet", "Psaltery"]
+      "items": [
+        "Harpsichord",
+        "Virginal",
+        "Spinet",
+        "Psaltery"
+      ]
     }
   ]
 }

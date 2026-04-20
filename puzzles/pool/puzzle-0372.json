@@ -3,11 +3,57 @@
   "title": "Psychological Disorders",
   "difficulty": "medium",
   "editorialSummary": "Four diagnostic clusters grouped by DSM category; the false trail is that PTSD and OCD both involve intrusive thoughts, tempting players to pair them, but PTSD belongs to trauma disorders while OCD is an obsessive-compulsive cluster.",
-  "meta": { "theme": "psychology", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "psychology",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 48
+  },
   "groups": [
-    { "id": "g1", "label": "Mood Disorders", "revealHint": "Emotion", "items": ["Depression", "Bipolar I", "Dysthymia", "Cyclothymia"] },
-    { "id": "g2", "label": "Anxiety Disorders", "revealHint": "Fear", "items": ["Generalised Anxiety", "Panic Disorder", "Social Anxiety", "Specific Phobia"] },
-    { "id": "g3", "label": "Trauma Disorders", "revealHint": "Stress", "items": ["PTSD", "Acute Stress Disorder", "Adjustment Disorder", "Reactive Attachment"] },
-    { "id": "g4", "label": "Obsessive-Compulsive", "revealHint": "Ritual", "items": ["OCD", "Body Dysmorphia", "Hoarding Disorder", "Trichotillomania"] }
+    {
+      "id": "g1",
+      "label": "Mood Disorders",
+      "revealHint": "Emotion",
+      "items": [
+        "Depression",
+        "Bipolar I",
+        "Dysthymia",
+        "Cyclothymia"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Anxiety Disorders",
+      "revealHint": "Fear",
+      "items": [
+        "Generalised Anxiety",
+        "Panic Disorder",
+        "Social Anxiety",
+        "Specific Phobia"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Trauma Disorders",
+      "revealHint": "Stress",
+      "items": [
+        "PTSD",
+        "Acute Stress Disorder",
+        "Adjustment Disorder",
+        "Reactive Attachment"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Obsessive-Compulsive",
+      "revealHint": "Ritual",
+      "items": [
+        "OCD",
+        "Body Dysmorphia",
+        "Hoarding Disorder",
+        "Trichotillomania"
+      ]
+    }
   ]
 }

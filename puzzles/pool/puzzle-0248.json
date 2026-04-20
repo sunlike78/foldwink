@@ -7,32 +7,53 @@
     "theme": "mythology",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "heroes",
       "label": "Legendary Heroes",
       "revealHint": "Hero",
-      "items": ["Hercules", "Perseus", "Theseus", "Jason"]
+      "items": [
+        "Hercules",
+        "Perseus",
+        "Theseus",
+        "Jason"
+      ]
     },
     {
       "id": "monsters",
       "label": "Mythic Monsters",
       "revealHint": "Beast",
-      "items": ["Medusa", "Minotaur", "Hydra", "Cyclops"]
+      "items": [
+        "Medusa",
+        "Minotaur",
+        "Hydra",
+        "Cyclops"
+      ]
     },
     {
       "id": "underworld",
       "label": "The Underworld",
       "revealHint": "Hades",
-      "items": ["Styx", "Cerberus", "Charon", "Elysium"]
+      "items": [
+        "Styx",
+        "Cerberus",
+        "Charon",
+        "Elysium"
+      ]
     },
     {
       "id": "mortals",
       "label": "Mortal Kings",
       "revealHint": "King",
-      "items": ["Midas", "Priam", "Agamemnon", "Oedipus"]
+      "items": [
+        "Midas",
+        "Priam",
+        "Agamemnon",
+        "Oedipus"
+      ]
     }
   ]
 }

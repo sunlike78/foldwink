@@ -2,11 +2,51 @@
   "id": "de-0021",
   "title": "Bundesländer",
   "difficulty": "easy",
-  "meta": { "theme": "Bundesländer", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Bundesländer",
+    "batch": "de-batch-01",
+    "difficultyScore": 49
+  },
   "groups": [
-    { "id": "group_a", "label": "Norddeutsche Länder", "items": ["Schleswig-Holstein", "Hamburg", "Bremen", "Mecklenburg-Vorp."] },
-    { "id": "group_b", "label": "Süddeutsche Länder", "items": ["Bayern", "Baden-Württemberg", "Saarland", "Rheinland-Pfalz"] },
-    { "id": "group_c", "label": "Ostdeutsche Länder", "items": ["Berlin", "Brandenburg", "Sachsen", "Thüringen"] },
-    { "id": "group_d", "label": "Westdeutsche Länder", "items": ["NRW", "Hessen", "Niedersachsen", "Sachsen-Anhalt"] }
+    {
+      "id": "group_a",
+      "label": "Norddeutsche Länder",
+      "items": [
+        "Schleswig-Holstein",
+        "Hamburg",
+        "Bremen",
+        "Mecklenburg-Vorp."
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Süddeutsche Länder",
+      "items": [
+        "Bayern",
+        "Baden-Württemberg",
+        "Saarland",
+        "Rheinland-Pfalz"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Ostdeutsche Länder",
+      "items": [
+        "Berlin",
+        "Brandenburg",
+        "Sachsen",
+        "Thüringen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Westdeutsche Länder",
+      "items": [
+        "NRW",
+        "Hessen",
+        "Niedersachsen",
+        "Sachsen-Anhalt"
+      ]
+    }
   ]
 }

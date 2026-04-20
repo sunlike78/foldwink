@@ -6,28 +6,49 @@
     "theme": "garden",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 31
   },
   "groups": [
     {
       "id": "features",
       "label": "Garden Features",
-      "items": ["Gazebo", "Trellis", "Pergola", "Fountain"]
+      "items": [
+        "Gazebo",
+        "Trellis",
+        "Pergola",
+        "Fountain"
+      ]
     },
     {
       "id": "paths",
       "label": "Garden Paths",
-      "items": ["Flagstone", "Gravel", "Brick", "Stepping Stone"]
+      "items": [
+        "Flagstone",
+        "Gravel",
+        "Brick",
+        "Stepping Stone"
+      ]
     },
     {
       "id": "styles",
       "label": "Garden Styles",
-      "items": ["Cottage", "Zen", "Formal", "Wildflower Meadow"]
+      "items": [
+        "Cottage",
+        "Zen",
+        "Formal",
+        "Wildflower Meadow"
+      ]
     },
     {
       "id": "borders",
       "label": "Garden Edging",
-      "items": ["Hedge", "Boxwood", "Picket Fence", "Stone Wall"]
+      "items": [
+        "Hedge",
+        "Boxwood",
+        "Picket Fence",
+        "Stone Wall"
+      ]
     }
   ]
 }

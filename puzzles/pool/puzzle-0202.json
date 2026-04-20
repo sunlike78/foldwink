@@ -7,32 +7,53 @@
     "theme": "language",
     "categoryType": "thematic",
     "batch": "batch-03",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "furious",
       "label": "Meaning FURIOUS",
       "revealHint": "Rage",
-      "items": ["Livid", "Enraged", "Incensed", "Irate"]
+      "items": [
+        "Livid",
+        "Enraged",
+        "Incensed",
+        "Irate"
+      ]
     },
     {
       "id": "annoyed",
       "label": "Meaning ANNOYED",
       "revealHint": "Irked",
-      "items": ["Peeved", "Miffed", "Vexed", "Nettled"]
+      "items": [
+        "Peeved",
+        "Miffed",
+        "Vexed",
+        "Nettled"
+      ]
     },
     {
       "id": "sad",
       "label": "Meaning SAD",
       "revealHint": "Blue",
-      "items": ["Melancholy", "Forlorn", "Glum", "Despondent"]
+      "items": [
+        "Melancholy",
+        "Forlorn",
+        "Glum",
+        "Despondent"
+      ]
     },
     {
       "id": "afraid",
       "label": "Meaning AFRAID",
       "revealHint": "Fear",
-      "items": ["Terrified", "Petrified", "Frightened", "Spooked"]
+      "items": [
+        "Terrified",
+        "Petrified",
+        "Frightened",
+        "Spooked"
+      ]
     }
   ]
 }

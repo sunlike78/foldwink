@@ -14,6 +14,9 @@ import {
   getEasyByIndex,
   getMediumByIndex,
   getHardByIndex,
+  getEasyRampedByIndex,
+  getMediumRampedByIndex,
+  getHardRampedByIndex,
 } from "../../puzzles/loader";
 import { getDailyPuzzleId } from "../../puzzles/daily";
 import { shuffleItems, seedFromString } from "../engine/shuffle";
@@ -75,6 +78,16 @@ export interface StoreDeps {
   getEasyByIndex: (i: number) => Puzzle | undefined;
   getMediumByIndex: (i: number) => Puzzle | undefined;
   getHardByIndex: (i: number) => Puzzle | undefined;
+  /**
+   * Standard-mode cursor readers. Use the difficulty-ramped order so the
+   * player walks easy→hard inside each tier. Daily mode still uses the
+   * id-sorted pools via `getPool`/`getEasyPool`/etc. so the daily puzzle
+   * remains deterministic across versions. Optional because test fixtures
+   * rarely care about ramp — they fall back to the id-sorted getters.
+   */
+  getEasyRampedByIndex?: (i: number) => Puzzle | undefined;
+  getMediumRampedByIndex?: (i: number) => Puzzle | undefined;
+  getHardRampedByIndex?: (i: number) => Puzzle | undefined;
   now: () => number;
   todayLocal: () => string;
   initialStats: Stats;
@@ -96,6 +109,9 @@ export const defaultDeps: StoreDeps = {
   getEasyByIndex,
   getMediumByIndex,
   getHardByIndex,
+  getEasyRampedByIndex,
+  getMediumRampedByIndex,
+  getHardRampedByIndex,
   now: () => Date.now(),
   todayLocal,
   initialStats: INITIAL_STATS,
@@ -176,7 +192,8 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     startEasy: () => {
       const progress = get().progress;
       const cursor = resolveCursor(progress, "easy");
-      const fromEasy = deps.getEasyByIndex(cursor);
+      const rampedGetter = deps.getEasyRampedByIndex ?? deps.getEasyByIndex;
+      const fromEasy = rampedGetter(cursor);
       // Fallback to the full pool when there is no easy puzzle loaded (edge
       // case for test fixtures with no easy entries). This keeps the action
       // safe for callers that don't distinguish pools.
@@ -197,7 +214,8 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     startMedium: () => {
       const progress = get().progress;
       const cursor = resolveCursor(progress, "medium");
-      const puzzle = deps.getMediumByIndex(cursor);
+      const rampedGetter = deps.getMediumRampedByIndex ?? deps.getMediumByIndex;
+      const puzzle = rampedGetter(cursor);
       if (!puzzle) return;
       const active = initialActive(puzzle, "standard", String(deps.now()), true, deps.now());
       set({
@@ -214,7 +232,8 @@ export function createStore(deps: StoreDeps = defaultDeps) {
     startHard: () => {
       const progress = get().progress;
       const cursor = resolveCursor(progress, "hard");
-      const puzzle = deps.getHardByIndex(cursor);
+      const rampedGetter = deps.getHardRampedByIndex ?? deps.getHardByIndex;
+      const puzzle = rampedGetter(cursor);
       // Hard is scaffolded — if no Hard content exists yet, the action is a
       // safe no-op. The menu surfaces this via its own disabled state.
       if (!puzzle) return;

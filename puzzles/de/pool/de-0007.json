@@ -2,11 +2,51 @@
   "id": "de-0007",
   "title": "Berufe im Krankenhaus",
   "difficulty": "easy",
-  "meta": { "theme": "Berufe Gesundheit", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Berufe Gesundheit",
+    "batch": "de-batch-01",
+    "difficultyScore": 26
+  },
   "groups": [
-    { "id": "group_a", "label": "Ärzte", "items": ["Chirurg", "Internist", "Radiologe", "Anästhesist"] },
-    { "id": "group_b", "label": "Pflegeberufe", "items": ["Krankenpfleger", "Hebamme", "Pflegehelferin", "Stationsschwester"] },
-    { "id": "group_c", "label": "Medizintechnik", "items": ["MTA", "MTRA", "OTA", "BTA"] },
-    { "id": "group_d", "label": "Verwaltung", "items": ["Stationsleitung", "Klinikverwaltung", "Patientenaufnahme", "Sozialdienst"] }
+    {
+      "id": "group_a",
+      "label": "Ärzte",
+      "items": [
+        "Chirurg",
+        "Internist",
+        "Radiologe",
+        "Anästhesist"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Pflegeberufe",
+      "items": [
+        "Krankenpfleger",
+        "Hebamme",
+        "Pflegehelferin",
+        "Stationsschwester"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Medizintechnik",
+      "items": [
+        "MTA",
+        "MTRA",
+        "OTA",
+        "BTA"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Verwaltung",
+      "items": [
+        "Stationsleitung",
+        "Klinikverwaltung",
+        "Patientenaufnahme",
+        "Sozialdienst"
+      ]
+    }
   ]
 }

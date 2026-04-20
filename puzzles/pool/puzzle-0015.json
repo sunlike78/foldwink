@@ -2,27 +2,52 @@
   "id": "puzzle-0015",
   "title": "Around the House",
   "difficulty": "easy",
-  "tags": ["home"],
+  "tags": [
+    "home"
+  ],
   "groups": [
     {
       "id": "appliances",
       "label": "Appliances",
-      "items": ["Fridge", "Oven", "Blender", "Toaster"]
+      "items": [
+        "Fridge",
+        "Oven",
+        "Blender",
+        "Toaster"
+      ]
     },
     {
       "id": "garden",
       "label": "Garden Tools",
-      "items": ["Rake", "Shovel", "Hose", "Mower"]
+      "items": [
+        "Rake",
+        "Shovel",
+        "Hose",
+        "Mower"
+      ]
     },
     {
       "id": "cleaning",
       "label": "Cleaning Supplies",
-      "items": ["Broom", "Mop", "Sponge", "Bucket"]
+      "items": [
+        "Broom",
+        "Mop",
+        "Sponge",
+        "Bucket"
+      ]
     },
     {
       "id": "office",
       "label": "Office Items",
-      "items": ["Stapler", "Folder", "Desk", "Printer"]
+      "items": [
+        "Stapler",
+        "Folder",
+        "Desk",
+        "Printer"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 22
+  }
 }

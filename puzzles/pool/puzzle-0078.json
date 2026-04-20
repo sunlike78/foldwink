@@ -6,22 +6,45 @@
     {
       "id": "skiing",
       "label": "Skiing Disciplines",
-      "items": ["Slalom", "Downhill", "Moguls", "Cross-Country"]
+      "items": [
+        "Slalom",
+        "Downhill",
+        "Moguls",
+        "Cross-Country"
+      ]
     },
     {
       "id": "ice-sports",
       "label": "Ice Events",
-      "items": ["Curling", "Hockey", "Bobsleigh", "Luge"]
+      "items": [
+        "Curling",
+        "Hockey",
+        "Bobsleigh",
+        "Luge"
+      ]
     },
     {
       "id": "skating",
       "label": "Skating",
-      "items": ["Figure", "Speed", "Short Track", "Pairs"]
+      "items": [
+        "Figure",
+        "Speed",
+        "Short Track",
+        "Pairs"
+      ]
     },
     {
       "id": "snowboard",
       "label": "Snowboarding",
-      "items": ["Halfpipe", "Slopestyle", "Big Air", "Boardercross"]
+      "items": [
+        "Halfpipe",
+        "Slopestyle",
+        "Big Air",
+        "Boardercross"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 23
+  }
 }

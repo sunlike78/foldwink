@@ -2,11 +2,51 @@
   "id": "de-0014",
   "title": "Körperteile",
   "difficulty": "easy",
-  "meta": { "theme": "Körperteile", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Körperteile",
+    "batch": "de-batch-01",
+    "difficultyScore": 25
+  },
   "groups": [
-    { "id": "group_a", "label": "Am Kopf", "items": ["Stirn", "Wange", "Kinn", "Schläfe"] },
-    { "id": "group_b", "label": "Am Rumpf", "items": ["Schulter", "Brust", "Bauch", "Rücken"] },
-    { "id": "group_c", "label": "Am Arm", "items": ["Ellbogen", "Handgelenk", "Daumen", "Handfläche"] },
-    { "id": "group_d", "label": "Am Bein", "items": ["Knie", "Wade", "Knöchel", "Ferse"] }
+    {
+      "id": "group_a",
+      "label": "Am Kopf",
+      "items": [
+        "Stirn",
+        "Wange",
+        "Kinn",
+        "Schläfe"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Am Rumpf",
+      "items": [
+        "Schulter",
+        "Brust",
+        "Bauch",
+        "Rücken"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Am Arm",
+      "items": [
+        "Ellbogen",
+        "Handgelenk",
+        "Daumen",
+        "Handfläche"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Am Bein",
+      "items": [
+        "Knie",
+        "Wade",
+        "Knöchel",
+        "Ferse"
+      ]
+    }
   ]
 }

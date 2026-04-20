@@ -7,34 +7,55 @@
     "theme": "ecology",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "g1",
       "label": "Forest Biomes",
-      "items": ["Boreal Forest", "Temperate Rainforest", "Cloud Forest", "Deciduous Forest"],
+      "items": [
+        "Boreal Forest",
+        "Temperate Rainforest",
+        "Cloud Forest",
+        "Deciduous Forest"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Grassland Biomes",
-      "items": ["Savanna", "Veld", "Pampas", "Steppe"],
+      "items": [
+        "Savanna",
+        "Veld",
+        "Pampas",
+        "Steppe"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Aquatic Biomes",
-      "items": ["Coral Reef", "Deep Sea", "Open Ocean", "Kelp Forest"],
+      "items": [
+        "Coral Reef",
+        "Deep Sea",
+        "Open Ocean",
+        "Kelp Forest"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Extreme Biomes",
-      "items": ["Polar Desert", "Hot Desert", "Salt Flat", "Polar Ice"],
+      "items": [
+        "Polar Desert",
+        "Hot Desert",
+        "Salt Flat",
+        "Polar Ice"
+      ],
       "color": "purple",
       "revealHint": ""
     }

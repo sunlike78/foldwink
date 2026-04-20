@@ -2,11 +2,51 @@
   "id": "de-0252",
   "title": "Bauhaus",
   "difficulty": "easy",
-  "meta": { "theme": "bauhaus", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "bauhaus",
+    "batch": "de-batch-03",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "group_a", "label": "Bauhaus-Meister", "items": ["Gropius", "Mies van der Rohe", "Marcel Breuer", "Herbert Bayer"] },
-    { "id": "group_b", "label": "Bauhaus-Prinzipien", "items": ["Form folgt Funktion", "Gesamtkunstwerk", "Handwerk", "Experiment"] },
-    { "id": "group_c", "label": "Bauhaus-Werke", "items": ["Stahlrohrsessel", "Schreibtischlampe", "Wandteppich", "Plakat"] },
-    { "id": "group_d", "label": "Bauhaus-Standorte", "items": ["Weimar", "Dessau", "Berlin", "Chicago"] }
+    {
+      "id": "group_a",
+      "label": "Bauhaus-Meister",
+      "items": [
+        "Gropius",
+        "Mies van der Rohe",
+        "Marcel Breuer",
+        "Herbert Bayer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bauhaus-Prinzipien",
+      "items": [
+        "Form folgt Funktion",
+        "Gesamtkunstwerk",
+        "Handwerk",
+        "Experiment"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bauhaus-Werke",
+      "items": [
+        "Stahlrohrsessel",
+        "Schreibtischlampe",
+        "Wandteppich",
+        "Plakat"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bauhaus-Standorte",
+      "items": [
+        "Weimar",
+        "Dessau",
+        "Berlin",
+        "Chicago"
+      ]
+    }
   ]
 }

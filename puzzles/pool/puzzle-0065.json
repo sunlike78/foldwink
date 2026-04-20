@@ -8,25 +8,48 @@
       "id": "star-types",
       "label": "Star Types",
       "revealHint": "STAR",
-      "items": ["Dwarf", "Giant", "Supergiant", "Pulsar"]
+      "items": [
+        "Dwarf",
+        "Giant",
+        "Supergiant",
+        "Pulsar"
+      ]
     },
     {
       "id": "orbits",
       "label": "Orbital Terms",
       "revealHint": "ORBIT",
-      "items": ["Apogee", "Perigee", "Eccentric", "Retrograde"]
+      "items": [
+        "Apogee",
+        "Perigee",
+        "Eccentric",
+        "Retrograde"
+      ]
     },
     {
       "id": "galaxies",
       "label": "Galaxy Shapes",
       "revealHint": "GALAXY",
-      "items": ["Spiral", "Elliptical", "Barred", "Irregular"]
+      "items": [
+        "Spiral",
+        "Elliptical",
+        "Barred",
+        "Irregular"
+      ]
     },
     {
       "id": "phenomena",
       "label": "Sky Phenomena",
       "revealHint": "EVENT",
-      "items": ["Nova", "Eclipse", "Transit", "Meteor Shower"]
+      "items": [
+        "Nova",
+        "Eclipse",
+        "Transit",
+        "Meteor Shower"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 26
+  }
 }

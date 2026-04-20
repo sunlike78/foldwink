@@ -2,11 +2,55 @@
   "id": "de-0496",
   "title": "Globalisierung",
   "difficulty": "medium",
-  "meta": { "theme": "gesellschaft", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "gesellschaft",
+    "batch": "de-batch-05",
+    "difficultyScore": 34
+  },
   "groups": [
-    { "id": "group_a", "label": "Vorteile", "revealHint": "Was sie bringt", "items": ["Günstigere Preise", "Mehr Handel", "Kultureller Austausch", "Tech-Transfer"] },
-    { "id": "group_b", "label": "Nachteile", "revealHint": "Was sie kostet", "items": ["Jobverlust Industrie", "Ungleichheit steigt", "Umweltschäden", "Monokultur Risiko"] },
-    { "id": "group_c", "label": "Globalis.-Akteure", "revealHint": "Wer sie treibt", "items": ["WTO", "IMF", "Weltbank", "Multinationale Konz."] },
-    { "id": "group_d", "label": "Globalis.-Ereignisse", "revealHint": "Wendepunkte", "items": ["Mauerfall 1989", "China WTO-Beitritt", "Finanzkrise 2008", "COVID Lieferkettenk."] }
+    {
+      "id": "group_a",
+      "label": "Vorteile",
+      "revealHint": "Was sie bringt",
+      "items": [
+        "Günstigere Preise",
+        "Mehr Handel",
+        "Kultureller Austausch",
+        "Tech-Transfer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nachteile",
+      "revealHint": "Was sie kostet",
+      "items": [
+        "Jobverlust Industrie",
+        "Ungleichheit steigt",
+        "Umweltschäden",
+        "Monokultur Risiko"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Globalis.-Akteure",
+      "revealHint": "Wer sie treibt",
+      "items": [
+        "WTO",
+        "IMF",
+        "Weltbank",
+        "Multinationale Konz."
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Globalis.-Ereignisse",
+      "revealHint": "Wendepunkte",
+      "items": [
+        "Mauerfall 1989",
+        "China WTO-Beitritt",
+        "Finanzkrise 2008",
+        "COVID Lieferkettenk."
+      ]
+    }
   ]
 }

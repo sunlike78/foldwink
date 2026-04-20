@@ -2,11 +2,55 @@
   "id": "de-0463",
   "title": "Farben in der Kunst",
   "difficulty": "medium",
-  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "kunst",
+    "batch": "de-batch-05",
+    "difficultyScore": 53
+  },
   "groups": [
-    { "id": "group_a", "label": "Bedeutung von Rot", "revealHint": "Viele Bedeutungen", "items": ["Liebe (Westen)", "Glück (China)", "Gefahr (Straße)", "Revolution"] },
-    { "id": "group_b", "label": "Bedeutung von Blau", "revealHint": "Himmel & Tiefe", "items": ["Treue (Deutschland)", "Trauer (Iran)", "Frieden", "Göttlichkeit"] },
-    { "id": "group_c", "label": "Bedeutung von Gelb", "revealHint": "Sonne & Warnung", "items": ["Freude (westl.)", "Neid (Frz.)", "Heiligkeit (Indien)", "Warnung (Verkehr)"] },
-    { "id": "group_d", "label": "Bedeutung von Schwarz", "revealHint": "Dunkel & Würde", "items": ["Trauer (Europa)", "Eleganz (Mode)", "Böses (Märchen)", "Würde (Japan)"] }
+    {
+      "id": "group_a",
+      "label": "Bedeutung von Rot",
+      "revealHint": "Viele Bedeutungen",
+      "items": [
+        "Liebe (Westen)",
+        "Glück (China)",
+        "Gefahr (Straße)",
+        "Revolution"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bedeutung von Blau",
+      "revealHint": "Himmel & Tiefe",
+      "items": [
+        "Treue (Deutschland)",
+        "Trauer (Iran)",
+        "Frieden",
+        "Göttlichkeit"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bedeutung von Gelb",
+      "revealHint": "Sonne & Warnung",
+      "items": [
+        "Freude (westl.)",
+        "Neid (Frz.)",
+        "Heiligkeit (Indien)",
+        "Warnung (Verkehr)"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Bedeutung von Schwarz",
+      "revealHint": "Dunkel & Würde",
+      "items": [
+        "Trauer (Europa)",
+        "Eleganz (Mode)",
+        "Böses (Märchen)",
+        "Würde (Japan)"
+      ]
+    }
   ]
 }

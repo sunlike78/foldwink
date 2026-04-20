@@ -3,11 +3,57 @@
   "title": "Fifth Sun",
   "difficulty": "medium",
   "editorialSummary": "Aztec gods sorted by domain. The false trail: several gods share war or nature roles, so players must commit to the correct primary domain. Tabs reveal one letter per solve, guiding players toward the category name.",
-  "meta": { "theme": "Aztec mythology", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "Aztec mythology",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 73
+  },
   "groups": [
-    { "id": "g1", "label": "SUN / FIRE GODS", "items": ["Tonatiuh", "Xiuhtecuhtli", "Huitzilopochtli", "Nanahuatzin"], "revealHint": "Sun" },
-    { "id": "g2", "label": "RAIN / WATER GODS", "items": ["Tlaloc", "Chalchiuhtlicue", "Huixtocihuatl", "Ehecatl"], "revealHint": "Rain" },
-    { "id": "g3", "label": "DEATH / UNDERWORLD", "items": ["Mictlantecuhtli", "Mictecacihuatl", "Xolotl", "Ah Puch"], "revealHint": "Death" },
-    { "id": "g4", "label": "EARTH / FERTILITY", "items": ["Coatlicue", "Xipe Totec", "Centeotl", "Toci"], "revealHint": "Earth" }
+    {
+      "id": "g1",
+      "label": "SUN / FIRE GODS",
+      "items": [
+        "Tonatiuh",
+        "Xiuhtecuhtli",
+        "Huitzilopochtli",
+        "Nanahuatzin"
+      ],
+      "revealHint": "Sun"
+    },
+    {
+      "id": "g2",
+      "label": "RAIN / WATER GODS",
+      "items": [
+        "Tlaloc",
+        "Chalchiuhtlicue",
+        "Huixtocihuatl",
+        "Ehecatl"
+      ],
+      "revealHint": "Rain"
+    },
+    {
+      "id": "g3",
+      "label": "DEATH / UNDERWORLD",
+      "items": [
+        "Mictlantecuhtli",
+        "Mictecacihuatl",
+        "Xolotl",
+        "Ah Puch"
+      ],
+      "revealHint": "Death"
+    },
+    {
+      "id": "g4",
+      "label": "EARTH / FERTILITY",
+      "items": [
+        "Coatlicue",
+        "Xipe Totec",
+        "Centeotl",
+        "Toci"
+      ],
+      "revealHint": "Earth"
+    }
   ]
 }

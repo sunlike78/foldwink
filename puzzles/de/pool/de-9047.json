@@ -2,31 +2,55 @@
   "id": "de-9047",
   "title": "Bau und Form",
   "difficulty": "medium",
-  "meta": { "theme": "Architekturepochen durch Details", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Architekturepochen durch Details",
+    "batch": "de-batch-12",
+    "difficultyScore": 35
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Jugendstil",
       "revealHint": "PFLANZEN ALS ORNAMENT",
-      "items": ["Eisenblumen Geländer", "Schlanke Frauengestalt", "Fassade wie gewoben", "Mosaik in Kurven"]
+      "items": [
+        "Eisenblumen Geländer",
+        "Schlanke Frauengestalt",
+        "Fassade wie gewoben",
+        "Mosaik in Kurven"
+      ]
     },
     {
       "id": "group_b",
       "label": "Klassizismus",
       "revealHint": "ANTIKE NEU GEDACHT",
-      "items": ["Säulenreihe am Eingang", "Dreiecksgiebel oben", "Strenge Symmetrie", "Pilaster verputzt"]
+      "items": [
+        "Säulenreihe am Eingang",
+        "Dreiecksgiebel oben",
+        "Strenge Symmetrie",
+        "Pilaster verputzt"
+      ]
     },
     {
       "id": "group_c",
       "label": "Brutalismus",
       "revealHint": "BETON OHNE VERKLEIDUNG",
-      "items": ["Sichtbeton roh", "Massig und wuchtig", "Tiefe Fenster", "Keine Zierde"]
+      "items": [
+        "Sichtbeton roh",
+        "Massig und wuchtig",
+        "Tiefe Fenster",
+        "Keine Zierde"
+      ]
     },
     {
       "id": "group_d",
       "label": "Fachwerkbau",
       "revealHint": "BALKEN ZEIGEN SICH",
-      "items": ["Eichenbalken sichtbar", "Gefache ausgemauert", "Überkragend nach oben", "Schwelle am Boden alt"]
+      "items": [
+        "Eichenbalken sichtbar",
+        "Gefache ausgemauert",
+        "Überkragend nach oben",
+        "Schwelle am Boden alt"
+      ]
     }
   ]
 }

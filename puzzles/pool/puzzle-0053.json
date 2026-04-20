@@ -6,22 +6,45 @@
     {
       "id": "roles",
       "label": "Crew Roles",
-      "items": ["Director", "Producer", "Gaffer", "Grip"]
+      "items": [
+        "Director",
+        "Producer",
+        "Gaffer",
+        "Grip"
+      ]
     },
     {
       "id": "shots",
       "label": "Camera Shots",
-      "items": ["Closeup", "Wide", "Pan", "Dolly"]
+      "items": [
+        "Closeup",
+        "Wide",
+        "Pan",
+        "Dolly"
+      ]
     },
     {
       "id": "post",
       "label": "Post-production",
-      "items": ["Cut", "Fade", "Dub", "Color Grade"]
+      "items": [
+        "Cut",
+        "Fade",
+        "Dub",
+        "Color Grade"
+      ]
     },
     {
       "id": "script",
       "label": "Script Parts",
-      "items": ["Logline", "Synopsis", "Scene", "Slug Line"]
+      "items": [
+        "Logline",
+        "Synopsis",
+        "Scene",
+        "Slug Line"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 14
+  }
 }

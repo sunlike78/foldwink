@@ -6,28 +6,49 @@
     "theme": "finance",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 37
   },
   "groups": [
     {
       "id": "payment",
       "label": "Payment Methods",
-      "items": ["Cash", "Credit Card", "Wire Transfer", "Cheque"]
+      "items": [
+        "Cash",
+        "Credit Card",
+        "Wire Transfer",
+        "Cheque"
+      ]
     },
     {
       "id": "banking",
       "label": "Bank Actions",
-      "items": ["Deposit", "Withdrawal", "Transfer", "Balance Check"]
+      "items": [
+        "Deposit",
+        "Withdrawal",
+        "Transfer",
+        "Balance Check"
+      ]
     },
     {
       "id": "market",
       "label": "Investment Terms",
-      "items": ["Stock", "Bond", "Dividend", "Portfolio"]
+      "items": [
+        "Stock",
+        "Bond",
+        "Dividend",
+        "Portfolio"
+      ]
     },
     {
       "id": "tax",
       "label": "Tax Documents",
-      "items": ["Invoice", "Receipt", "Payslip", "Tax Return"]
+      "items": [
+        "Invoice",
+        "Receipt",
+        "Payslip",
+        "Tax Return"
+      ]
     }
   ]
 }

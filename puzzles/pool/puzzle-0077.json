@@ -6,22 +6,45 @@
     {
       "id": "gemstones",
       "label": "Gemstones",
-      "items": ["Topaz", "Opal", "Garnet", "Aquamarine"]
+      "items": [
+        "Topaz",
+        "Opal",
+        "Garnet",
+        "Aquamarine"
+      ]
     },
     {
       "id": "soil-types",
       "label": "Soil Types",
-      "items": ["Loam", "Clay", "Peat", "Silt"]
+      "items": [
+        "Loam",
+        "Clay",
+        "Peat",
+        "Silt"
+      ]
     },
     {
       "id": "sand-types",
       "label": "Sands",
-      "items": ["White Sand", "Black Sand", "Red Sand", "Golden Sand"]
+      "items": [
+        "White Sand",
+        "Black Sand",
+        "Red Sand",
+        "Golden Sand"
+      ]
     },
     {
       "id": "ores",
       "label": "Ores",
-      "items": ["Bauxite", "Magnetite", "Hematite", "Galena"]
+      "items": [
+        "Bauxite",
+        "Magnetite",
+        "Hematite",
+        "Galena"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 16
+  }
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Wikinger",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 20
   },
   "groups": [
     {

@@ -6,28 +6,49 @@
     "theme": "transportation",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "small-boats",
       "label": "Small Boats",
-      "items": ["Canoe", "Kayak", "Dinghy", "Rowboat"]
+      "items": [
+        "Canoe",
+        "Kayak",
+        "Dinghy",
+        "Rowboat"
+      ]
     },
     {
       "id": "sailing-ships",
       "label": "Sailing Ships",
-      "items": ["Schooner", "Galleon", "Clipper", "Sloop"]
+      "items": [
+        "Schooner",
+        "Galleon",
+        "Clipper",
+        "Sloop"
+      ]
     },
     {
       "id": "power-vessels",
       "label": "Powered Vessels",
-      "items": ["Ferry", "Tugboat", "Yacht", "Trawler"]
+      "items": [
+        "Ferry",
+        "Tugboat",
+        "Yacht",
+        "Trawler"
+      ]
     },
     {
       "id": "parts-of-boat",
       "label": "Parts of a Boat",
-      "items": ["Hull", "Mast", "Bow", "Rudder"]
+      "items": [
+        "Hull",
+        "Mast",
+        "Bow",
+        "Rudder"
+      ]
     }
   ]
 }

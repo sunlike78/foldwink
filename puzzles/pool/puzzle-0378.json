@@ -3,11 +3,57 @@
   "title": "Mind and Self",
   "difficulty": "medium",
   "editorialSummary": "Four psychological self-concept families; the false trail is that Self-Esteem and Self-Efficacy both sound like confidence-related terms but here Self-Esteem belongs in the self-worth cluster and Self-Efficacy anchors the agency/belief group.",
-  "meta": { "theme": "psychology", "categoryType": "attribute", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "psychology",
+    "categoryType": "attribute",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 45
+  },
   "groups": [
-    { "id": "g1", "label": "Self-Worth Concepts", "revealHint": "Value", "items": ["Self-Esteem", "Self-Respect", "Self-Worth", "Dignity"] },
-    { "id": "g2", "label": "Self-Regulation", "revealHint": "Control", "items": ["Impulse Control", "Emotional Regulation", "Delayed Gratification", "Metacognition"] },
-    { "id": "g3", "label": "Self-Belief Concepts", "revealHint": "Agency", "items": ["Self-Efficacy", "Growth Mindset", "Internal Locus", "Resilience"] },
-    { "id": "g4", "label": "Identity Concepts", "revealHint": "Identity", "items": ["Self-Concept", "Social Identity", "Role Identity", "Ego"] }
+    {
+      "id": "g1",
+      "label": "Self-Worth Concepts",
+      "revealHint": "Value",
+      "items": [
+        "Self-Esteem",
+        "Self-Respect",
+        "Self-Worth",
+        "Dignity"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Self-Regulation",
+      "revealHint": "Control",
+      "items": [
+        "Impulse Control",
+        "Emotional Regulation",
+        "Delayed Gratification",
+        "Metacognition"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Self-Belief Concepts",
+      "revealHint": "Agency",
+      "items": [
+        "Self-Efficacy",
+        "Growth Mindset",
+        "Internal Locus",
+        "Resilience"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Identity Concepts",
+      "revealHint": "Identity",
+      "items": [
+        "Self-Concept",
+        "Social Identity",
+        "Role Identity",
+        "Ego"
+      ]
+    }
   ]
 }

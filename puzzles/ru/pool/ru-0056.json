@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Социальные сети",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 33
   },
   "groups": [
     {

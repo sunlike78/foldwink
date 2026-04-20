@@ -2,27 +2,51 @@
   "id": "de-9003",
   "title": "Zeitalter der Geschichte",
   "difficulty": "easy",
-  "meta": { "theme": "Historische Epochen via Artefakte", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Historische Epochen via Artefakte",
+    "batch": "de-batch-11",
+    "difficultyScore": 34
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Mittelalter",
-      "items": ["Burggraf", "Zunftbrief", "Pestmaske", "Reliquienschrein"]
+      "items": [
+        "Burggraf",
+        "Zunftbrief",
+        "Pestmaske",
+        "Reliquienschrein"
+      ]
     },
     {
       "id": "group_b",
       "label": "Reformation",
-      "items": ["95 Thesen", "Ablasshandel", "Bibelübersetzung", "Augsburger Frieden"]
+      "items": [
+        "95 Thesen",
+        "Ablasshandel",
+        "Bibelübersetzung",
+        "Augsburger Frieden"
+      ]
     },
     {
       "id": "group_c",
       "label": "Industrialisierung",
-      "items": ["Dampfmaschine", "Kinderarbeit", "Fabrikhalle", "Arbeiterstreik"]
+      "items": [
+        "Dampfmaschine",
+        "Kinderarbeit",
+        "Fabrikhalle",
+        "Arbeiterstreik"
+      ]
     },
     {
       "id": "group_d",
       "label": "Weimarer Republik",
-      "items": ["Hyperinflation", "Neue Sachlichkeit", "Dawes-Plan", "Goldene Zwanziger"]
+      "items": [
+        "Hyperinflation",
+        "Neue Sachlichkeit",
+        "Dawes-Plan",
+        "Goldene Zwanziger"
+      ]
     }
   ]
 }

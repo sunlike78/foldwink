@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Озёра России",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 38
   },
   "groups": [
     {

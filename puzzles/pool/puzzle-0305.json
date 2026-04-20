@@ -7,32 +7,53 @@
     "theme": "cooking",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 45
   },
   "groups": [
     {
       "id": "g1",
       "label": "French Dry-Heat Techniques",
       "revealHint": "Flame",
-      "items": ["Rotisserie", "Griller", "Poeler", "Sauter"]
+      "items": [
+        "Rotisserie",
+        "Griller",
+        "Poeler",
+        "Sauter"
+      ]
     },
     {
       "id": "g2",
       "label": "French Moist-Heat Techniques",
       "revealHint": "Steam",
-      "items": ["Braiser", "Pocher", "Blanchir", "Mijoter"]
+      "items": [
+        "Braiser",
+        "Pocher",
+        "Blanchir",
+        "Mijoter"
+      ]
     },
     {
       "id": "g3",
       "label": "French Pastry Methods",
       "revealHint": "Dough",
-      "items": ["Laminage", "Crémage", "Feuilletage", "Foncer"]
+      "items": [
+        "Laminage",
+        "Crémage",
+        "Feuilletage",
+        "Foncer"
+      ]
     },
     {
       "id": "g4",
       "label": "French Sauce Bases",
       "revealHint": "Sauce",
-      "items": ["Bechamel", "Veloute", "Espagnole", "Hollandaise"]
+      "items": [
+        "Bechamel",
+        "Veloute",
+        "Espagnole",
+        "Hollandaise"
+      ]
     }
   ]
 }

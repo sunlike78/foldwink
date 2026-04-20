@@ -6,28 +6,49 @@
     "theme": "entertainment",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 29
   },
   "groups": [
     {
       "id": "performers",
       "label": "Circus Performers",
-      "items": ["Clown", "Juggler", "Strongman", "Sword Swallower"]
+      "items": [
+        "Clown",
+        "Juggler",
+        "Strongman",
+        "Sword Swallower"
+      ]
     },
     {
       "id": "animals",
       "label": "Circus Animals",
-      "items": ["Lion", "Elephant", "Horse", "Performing Dog"]
+      "items": [
+        "Lion",
+        "Elephant",
+        "Horse",
+        "Performing Dog"
+      ]
     },
     {
       "id": "gear",
       "label": "Circus Equipment",
-      "items": ["Cannon", "Unicycle", "Juggling Pins", "Stilts"]
+      "items": [
+        "Cannon",
+        "Unicycle",
+        "Juggling Pins",
+        "Stilts"
+      ]
     },
     {
       "id": "setting",
       "label": "Circus Setting",
-      "items": ["Big Top", "Bleachers", "Sideshow", "Sawdust Floor"]
+      "items": [
+        "Big Top",
+        "Bleachers",
+        "Sideshow",
+        "Sawdust Floor"
+      ]
     }
   ]
 }

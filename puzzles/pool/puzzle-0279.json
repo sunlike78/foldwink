@@ -6,28 +6,49 @@
     "theme": "medical",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 41
   },
   "groups": [
     {
       "id": "pain",
       "label": "Pain Relief",
-      "items": ["Aspirin", "Ibuprofen", "Paracetamol", "Naproxen"]
+      "items": [
+        "Aspirin",
+        "Ibuprofen",
+        "Paracetamol",
+        "Naproxen"
+      ]
     },
     {
       "id": "cold",
       "label": "Cold and Flu",
-      "items": ["Cough Syrup", "Decongestant", "Throat Lozenge", "Vapor Rub"]
+      "items": [
+        "Cough Syrup",
+        "Decongestant",
+        "Throat Lozenge",
+        "Vapor Rub"
+      ]
     },
     {
       "id": "allergy",
       "label": "Allergy Relief",
-      "items": ["Antihistamine", "Eye Drops", "Nasal Spray", "Inhaler"]
+      "items": [
+        "Antihistamine",
+        "Eye Drops",
+        "Nasal Spray",
+        "Inhaler"
+      ]
     },
     {
       "id": "digest",
       "label": "Digestive Aid",
-      "items": ["Antacid", "Laxative", "Anti-Diarrheal", "Probiotic"]
+      "items": [
+        "Antacid",
+        "Laxative",
+        "Anti-Diarrheal",
+        "Probiotic"
+      ]
     }
   ]
 }

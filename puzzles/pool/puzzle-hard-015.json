@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "geology",
       "label": "Geological fault",
       "revealHint": "Geology",
-      "items": ["Tectonic", "Seismic", "Epicentre", "Rift"]
+      "items": [
+        "Tectonic",
+        "Seismic",
+        "Epicentre",
+        "Rift"
+      ]
     },
     {
       "id": "blame",
       "label": "Fault (blame)",
       "revealHint": "Blame",
-      "items": ["Liability", "Negligence", "Culprit", "Accountability"]
+      "items": [
+        "Liability",
+        "Negligence",
+        "Culprit",
+        "Accountability"
+      ]
     },
     {
       "id": "tennis",
       "label": "Tennis fault",
       "revealHint": "Tennis",
-      "items": ["Serve", "Double Fault", "Let", "Advantage"]
+      "items": [
+        "Serve",
+        "Double Fault",
+        "Let",
+        "Advantage"
+      ]
     },
     {
       "id": "circuit",
       "label": "Circuit fault",
       "revealHint": "Circuit",
-      "items": ["Short Circuit", "Overload", "Fuse", "Ground Fault"]
+      "items": [
+        "Short Circuit",
+        "Overload",
+        "Fuse",
+        "Ground Fault"
+      ]
     }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "fashion",
     "categoryType": "classification",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "g1",
       "label": "Fashion Capitals",
-      "items": ["Paris", "Milan", "London", "New York"]
+      "items": [
+        "Paris",
+        "Milan",
+        "London",
+        "New York"
+      ]
     },
     {
       "id": "g2",
       "label": "Clothing Fasteners",
-      "items": ["Zip", "Hook and Eye", "Press Stud", "Drawstring"]
+      "items": [
+        "Zip",
+        "Hook and Eye",
+        "Press Stud",
+        "Drawstring"
+      ]
     },
     {
       "id": "g3",
       "label": "Hat Styles",
-      "items": ["Cloche", "Boater", "Porkpie", "Homburg"]
+      "items": [
+        "Cloche",
+        "Boater",
+        "Porkpie",
+        "Homburg"
+      ]
     },
     {
       "id": "g4",
       "label": "Neckline Styles",
-      "items": ["Cowl", "Sweetheart", "Halter", "Bateau"]
+      "items": [
+        "Cowl",
+        "Sweetheart",
+        "Halter",
+        "Bateau"
+      ]
     }
   ]
 }

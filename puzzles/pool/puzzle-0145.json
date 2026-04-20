@@ -6,28 +6,49 @@
     "theme": "materials",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "stitch",
       "label": "Sewing Stitches",
-      "items": ["Backstitch", "Cross-Stitch", "Blanket Stitch", "Running Stitch"]
+      "items": [
+        "Backstitch",
+        "Cross-Stitch",
+        "Blanket Stitch",
+        "Running Stitch"
+      ]
     },
     {
       "id": "pattern",
       "label": "Fabric Patterns",
-      "items": ["Plaid", "Polka Dot", "Houndstooth", "Paisley"]
+      "items": [
+        "Plaid",
+        "Polka Dot",
+        "Houndstooth",
+        "Paisley"
+      ]
     },
     {
       "id": "closure",
       "label": "Garment Closures",
-      "items": ["Zipper", "Button", "Velcro", "Snap"]
+      "items": [
+        "Zipper",
+        "Button",
+        "Velcro",
+        "Snap"
+      ]
     },
     {
       "id": "fiber",
       "label": "Luxury Fibres",
-      "items": ["Cashmere", "Alpaca", "Mohair", "Angora"]
+      "items": [
+        "Cashmere",
+        "Alpaca",
+        "Mohair",
+        "Angora"
+      ]
     }
   ]
 }

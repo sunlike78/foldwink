@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 24
   },
   "groups": [
     {
       "id": "metal",
       "label": "Iron metal",
       "revealHint": "Metal",
-      "items": ["Wrought", "Cast Iron", "Forge", "Anvil"]
+      "items": [
+        "Wrought",
+        "Cast Iron",
+        "Forge",
+        "Anvil"
+      ]
     },
     {
       "id": "clothes",
       "label": "Ironing clothes",
       "revealHint": "Clothes",
-      "items": ["Steam", "Crease", "Pressing", "Collar"]
+      "items": [
+        "Steam",
+        "Crease",
+        "Pressing",
+        "Collar"
+      ]
     },
     {
       "id": "golf",
       "label": "Golf irons",
       "revealHint": "Golf",
-      "items": ["Wedge", "Pitching", "Sand Trap", "Fairway"]
+      "items": [
+        "Wedge",
+        "Pitching",
+        "Sand Trap",
+        "Fairway"
+      ]
     },
     {
       "id": "health",
       "label": "Iron nutrient",
       "revealHint": "Nutrient",
-      "items": ["Spinach", "Anaemia", "Supplement", "Haemoglobin"]
+      "items": [
+        "Spinach",
+        "Anaemia",
+        "Supplement",
+        "Haemoglobin"
+      ]
     }
   ]
 }

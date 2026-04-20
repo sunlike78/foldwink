@@ -6,24 +6,49 @@
     "theme": "nature",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 31
   },
   "groups": [
     {
       "id": "storm",
       "label": "Storm Types",
-      "items": ["Thunderstorm", "Tornado", "Hurricane", "Blizzard"]
+      "items": [
+        "Thunderstorm",
+        "Tornado",
+        "Hurricane",
+        "Blizzard"
+      ]
     },
     {
       "id": "precip",
       "label": "Precipitation",
-      "items": ["Drizzle", "Hail", "Sleet", "Freezing Rain"]
+      "items": [
+        "Drizzle",
+        "Hail",
+        "Sleet",
+        "Freezing Rain"
+      ]
     },
-    { "id": "wind", "label": "Wind Types", "items": ["Breeze", "Gale", "Gust", "Squall"] },
+    {
+      "id": "wind",
+      "label": "Wind Types",
+      "items": [
+        "Breeze",
+        "Gale",
+        "Gust",
+        "Squall"
+      ]
+    },
     {
       "id": "optical",
       "label": "Sky Phenomena",
-      "items": ["Rainbow", "Aurora", "Halo", "Mirage"]
+      "items": [
+        "Rainbow",
+        "Aurora",
+        "Halo",
+        "Mirage"
+      ]
     }
   ]
 }

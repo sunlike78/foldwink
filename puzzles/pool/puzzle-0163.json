@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "legal",
       "label": "Legal court",
       "revealHint": "Legal",
-      "items": ["Jury", "Gavel", "Plaintiff", "Testimony"]
+      "items": [
+        "Jury",
+        "Gavel",
+        "Plaintiff",
+        "Testimony"
+      ]
     },
     {
       "id": "royal",
       "label": "Royal court",
       "revealHint": "Royal",
-      "items": ["Throne", "Chamberlain", "Herald", "Page"]
+      "items": [
+        "Throne",
+        "Chamberlain",
+        "Herald",
+        "Page"
+      ]
     },
     {
       "id": "tennis",
       "label": "Tennis court",
       "revealHint": "Tennis",
-      "items": ["Baseline", "Deuce", "Volley", "Ace"]
+      "items": [
+        "Baseline",
+        "Deuce",
+        "Volley",
+        "Ace"
+      ]
     },
     {
       "id": "romance",
       "label": "Courtship",
       "revealHint": "Romance",
-      "items": ["Suitor", "Bouquet", "Serenade", "Proposal"]
+      "items": [
+        "Suitor",
+        "Bouquet",
+        "Serenade",
+        "Proposal"
+      ]
     }
   ]
 }

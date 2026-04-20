@@ -2,31 +2,55 @@
   "id": "de-9026",
   "title": "Sprache in Bewegung",
   "difficulty": "medium",
-  "meta": { "theme": "Sprachwandel im Deutschen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Sprachwandel im Deutschen",
+    "batch": "de-batch-11",
+    "difficultyScore": 31
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Anglizismen",
       "revealHint": "ENGLISCH IM DEUTSCHEN",
-      "items": ["Laptop statt Rechner", "Meeting statt Sitzung", "downloaden statt laden", "Kids statt Kinder"]
+      "items": [
+        "Laptop statt Rechner",
+        "Meeting statt Sitzung",
+        "downloaden statt laden",
+        "Kids statt Kinder"
+      ]
     },
     {
       "id": "group_b",
       "label": "Jugendsprache",
       "revealHint": "NEUE WÖRTER DER JUGEND",
-      "items": ["Cringe wenn peinlich", "Lit wenn fantastisch", "Flexen beim Angeben", "Boah als Ausruf"]
+      "items": [
+        "Cringe wenn peinlich",
+        "Lit wenn fantastisch",
+        "Flexen beim Angeben",
+        "Boah als Ausruf"
+      ]
     },
     {
       "id": "group_c",
       "label": "Behördensprache",
       "revealHint": "UNVERSTÄNDLICH AMTLICH",
-      "items": ["Kraftfahrzeugzulassung", "Ruhigstellung Vorgang", "Bescheiderteilung", "Zur Kenntnisnahme"]
+      "items": [
+        "Kraftfahrzeugzulassung",
+        "Ruhigstellung Vorgang",
+        "Bescheiderteilung",
+        "Zur Kenntnisnahme"
+      ]
     },
     {
       "id": "group_d",
       "label": "Dialekt",
       "revealHint": "REGIONAL UND LEBENDIG",
-      "items": ["Moin im Norden", "Grüezi in der Schweiz", "Servus in Wien", "Miad statt müde"]
+      "items": [
+        "Moin im Norden",
+        "Grüezi in der Schweiz",
+        "Servus in Wien",
+        "Miad statt müde"
+      ]
     }
   ]
 }

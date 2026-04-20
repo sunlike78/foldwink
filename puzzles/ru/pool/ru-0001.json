@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Новый год и зима",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 23
   },
   "groups": [
     {

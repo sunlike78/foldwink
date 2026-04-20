@@ -2,11 +2,51 @@
   "id": "de-0039",
   "title": "Computerspiele",
   "difficulty": "easy",
-  "meta": { "theme": "Computerspiele", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Computerspiele",
+    "batch": "de-batch-01",
+    "difficultyScore": 24
+  },
   "groups": [
-    { "id": "group_a", "label": "Action-Spiele", "items": ["Shooter", "Beat 'em up", "Hack and Slash", "Plattformer"] },
-    { "id": "group_b", "label": "Strategie-Spiele", "items": ["Echtzeit-Strategie", "Rundenstrategie", "Aufbauspiel", "Tower Defense"] },
-    { "id": "group_c", "label": "Rollenspiele", "items": ["Action-RPG", "JRPG", "MMORPG", "Dungeon Crawler"] },
-    { "id": "group_d", "label": "Sport-Spiele", "items": ["Fußball-Sim", "Rennspiel", "Basketball-Sim", "Golf-Sim"] }
+    {
+      "id": "group_a",
+      "label": "Action-Spiele",
+      "items": [
+        "Shooter",
+        "Beat 'em up",
+        "Hack and Slash",
+        "Plattformer"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Strategie-Spiele",
+      "items": [
+        "Echtzeit-Strategie",
+        "Rundenstrategie",
+        "Aufbauspiel",
+        "Tower Defense"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Rollenspiele",
+      "items": [
+        "Action-RPG",
+        "JRPG",
+        "MMORPG",
+        "Dungeon Crawler"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Sport-Spiele",
+      "items": [
+        "Fußball-Sim",
+        "Rennspiel",
+        "Basketball-Sim",
+        "Golf-Sim"
+      ]
+    }
   ]
 }

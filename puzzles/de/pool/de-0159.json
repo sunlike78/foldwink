@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Wissenschaft",
-    "batch": "de-batch-02"
+    "batch": "de-batch-02",
+    "difficultyScore": 26
   },
   "groups": [
     {

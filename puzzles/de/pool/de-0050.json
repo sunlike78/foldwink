@@ -2,11 +2,51 @@
   "id": "de-0050",
   "title": "Deutsche Erfindungen",
   "difficulty": "easy",
-  "meta": { "theme": "Deutsche Erfindungen", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Deutsche Erfindungen",
+    "batch": "de-batch-02",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "group_a", "label": "Auto-Erfindungen", "items": ["Benzinmotor", "Diesel", "Airbag", "ABS"] },
-    { "id": "group_b", "label": "Technik-Erfindungen", "items": ["Telefon", "MP3", "Röntgen", "Transistor"] },
-    { "id": "group_c", "label": "Medizin-Erfindungen", "items": ["Aspirin", "Insulin", "Narkose", "Impfung"] },
-    { "id": "group_d", "label": "Wissenschafts-Erf.", "items": ["Relativitätstheorie", "Quantenmechanik", "Kepler-Gesetze", "Buchdruck"] }
+    {
+      "id": "group_a",
+      "label": "Auto-Erfindungen",
+      "items": [
+        "Benzinmotor",
+        "Diesel",
+        "Airbag",
+        "ABS"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Technik-Erfindungen",
+      "items": [
+        "Telefon",
+        "MP3",
+        "Röntgen",
+        "Transistor"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Medizin-Erfindungen",
+      "items": [
+        "Aspirin",
+        "Insulin",
+        "Narkose",
+        "Impfung"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wissenschafts-Erf.",
+      "items": [
+        "Relativitätstheorie",
+        "Quantenmechanik",
+        "Kepler-Gesetze",
+        "Buchdruck"
+      ]
+    }
   ]
 }

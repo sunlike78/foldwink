@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "thematic",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 26
   },
   "groups": [
     {
       "id": "physical",
       "label": "Physical weight",
       "revealHint": "Physical",
-      "items": ["Anvil", "Boulder", "Anchor", "Barbell"]
+      "items": [
+        "Anvil",
+        "Boulder",
+        "Anchor",
+        "Barbell"
+      ]
     },
     {
       "id": "emotional",
       "label": "Emotional weight",
       "revealHint": "Emotional",
-      "items": ["Grief", "Burden", "Guilt", "Responsibility"]
+      "items": [
+        "Grief",
+        "Burden",
+        "Guilt",
+        "Responsibility"
+      ]
     },
     {
       "id": "importance",
       "label": "Weighty matters",
       "revealHint": "Serious",
-      "items": ["Verdict", "Precedent", "Consequence", "Mandate"]
+      "items": [
+        "Verdict",
+        "Precedent",
+        "Consequence",
+        "Mandate"
+      ]
     },
     {
       "id": "type",
       "label": "Font weight",
       "revealHint": "Font",
-      "items": ["Bold", "Light", "Regular", "Semibold"]
+      "items": [
+        "Bold",
+        "Light",
+        "Regular",
+        "Semibold"
+      ]
     }
   ]
 }

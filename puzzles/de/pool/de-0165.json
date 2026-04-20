@@ -2,11 +2,51 @@
   "id": "de-0165",
   "title": "Dresden Sehenswürdigkeiten",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 22
+  },
   "groups": [
-    { "id": "group_a", "label": "Barockbauten", "items": ["Zwinger", "Frauenkirche", "Hofkirche", "Semperoper"] },
-    { "id": "group_b", "label": "Museen", "items": ["Gemäldegalerie", "Grünes Gewölbe", "Hygiene-Museum", "Albertinum"] },
-    { "id": "group_c", "label": "Stadtteile", "items": ["Neustadt", "Striesen", "Loschwitz", "Blasewitz"] },
-    { "id": "group_d", "label": "Geschichte", "items": ["Bombenangriff 1945", "Wiedervereinigung", "DDR-Zeit", "Kurfürsten"] }
+    {
+      "id": "group_a",
+      "label": "Barockbauten",
+      "items": [
+        "Zwinger",
+        "Frauenkirche",
+        "Hofkirche",
+        "Semperoper"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Museen",
+      "items": [
+        "Gemäldegalerie",
+        "Grünes Gewölbe",
+        "Hygiene-Museum",
+        "Albertinum"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Stadtteile",
+      "items": [
+        "Neustadt",
+        "Striesen",
+        "Loschwitz",
+        "Blasewitz"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Geschichte",
+      "items": [
+        "Bombenangriff 1945",
+        "Wiedervereinigung",
+        "DDR-Zeit",
+        "Kurfürsten"
+      ]
+    }
   ]
 }

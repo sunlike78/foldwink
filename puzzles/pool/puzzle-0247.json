@@ -7,32 +7,53 @@
     "theme": "emotions",
     "categoryType": "thematic",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 38
   },
   "groups": [
     {
       "id": "wonder",
       "label": "Meaning WONDER",
       "revealHint": "Gaze",
-      "items": ["Awe", "Marvel", "Amazement", "Astonishment"]
+      "items": [
+        "Awe",
+        "Marvel",
+        "Amazement",
+        "Astonishment"
+      ]
     },
     {
       "id": "pride",
       "label": "Meaning PRIDE",
       "revealHint": "Proud",
-      "items": ["Satisfaction", "Triumph", "Dignity", "Honor"]
+      "items": [
+        "Satisfaction",
+        "Triumph",
+        "Dignity",
+        "Honor"
+      ]
     },
     {
       "id": "shame",
       "label": "Meaning SHAME",
       "revealHint": "Blush",
-      "items": ["Embarrassment", "Humiliation", "Chagrin", "Mortification"]
+      "items": [
+        "Embarrassment",
+        "Humiliation",
+        "Chagrin",
+        "Mortification"
+      ]
     },
     {
       "id": "anticipation",
       "label": "Meaning ANTICIPATION",
       "revealHint": "Expect",
-      "items": ["Eagerness", "Excitement", "Suspense", "Expectancy"]
+      "items": [
+        "Eagerness",
+        "Excitement",
+        "Suspense",
+        "Expectancy"
+      ]
     }
   ]
 }

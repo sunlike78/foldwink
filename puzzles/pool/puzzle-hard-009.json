@@ -9,32 +9,53 @@
     "wordplay": true,
     "fairnessRisk": 2,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "ball",
       "label": "___ ball",
       "revealHint": "Ball",
-      "items": ["Snow", "Fire", "Basket", "Cannon"]
+      "items": [
+        "Snow",
+        "Fire",
+        "Basket",
+        "Cannon"
+      ]
     },
     {
       "id": "board",
       "label": "___ board",
       "revealHint": "Board",
-      "items": ["Skate", "Card", "Score", "Dart"]
+      "items": [
+        "Skate",
+        "Card",
+        "Score",
+        "Dart"
+      ]
     },
     {
       "id": "house",
       "label": "___ house",
       "revealHint": "House",
-      "items": ["Green", "Power", "Ware", "Light"]
+      "items": [
+        "Green",
+        "Power",
+        "Ware",
+        "Light"
+      ]
     },
     {
       "id": "side",
       "label": "___ side",
       "revealHint": "Side",
-      "items": ["Out", "Hill", "Ring", "Bed"]
+      "items": [
+        "Out",
+        "Hill",
+        "Ring",
+        "Bed"
+      ]
     }
   ]
 }

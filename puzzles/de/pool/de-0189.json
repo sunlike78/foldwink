@@ -2,11 +2,51 @@
   "id": "de-0189",
   "title": "Fischerei",
   "difficulty": "easy",
-  "meta": { "theme": "Wirtschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Wirtschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 28
+  },
   "groups": [
-    { "id": "group_a", "label": "Fischarten", "items": ["Hering", "Kabeljau", "Lachs", "Thunfisch"] },
-    { "id": "group_b", "label": "Fangmethoden", "items": ["Schleppnetz", "Ringwade", "Langleine", "Reuse"] },
-    { "id": "group_c", "label": "Verarbeitung", "items": ["Räuchern", "Einfrieren", "Einlegen", "Trocknen"] },
-    { "id": "group_d", "label": "Nachhaltigkeit", "items": ["MSC-Siegel", "Fangquote", "Schonzeit", "Aquakultur"] }
+    {
+      "id": "group_a",
+      "label": "Fischarten",
+      "items": [
+        "Hering",
+        "Kabeljau",
+        "Lachs",
+        "Thunfisch"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Fangmethoden",
+      "items": [
+        "Schleppnetz",
+        "Ringwade",
+        "Langleine",
+        "Reuse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Verarbeitung",
+      "items": [
+        "Räuchern",
+        "Einfrieren",
+        "Einlegen",
+        "Trocknen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Nachhaltigkeit",
+      "items": [
+        "MSC-Siegel",
+        "Fangquote",
+        "Schonzeit",
+        "Aquakultur"
+      ]
+    }
   ]
 }

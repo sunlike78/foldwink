@@ -2,11 +2,55 @@
   "id": "ru-0215",
   "title": "Философия",
   "difficulty": "medium",
-  "meta": { "theme": "Философские школы", "batch": "ru-batch-07" },
+  "meta": {
+    "theme": "Философские школы",
+    "batch": "ru-batch-07",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "ancient_philosophy", "label": "Античность", "revealHint": "АНТИЧНОСТЬ", "items": ["Стоицизм", "Эпикуреизм", "Платонизм", "Цинизм"] },
-    { "id": "modern_philosophy", "label": "Новое время", "revealHint": "НОВОЕ ВРЕМЯ", "items": ["Рационализм", "Эмпиризм", "Просвещение", "Идеализм"] },
-    { "id": "19c_philosophy", "label": "XIX век", "revealHint": "XIX ВЕК", "items": ["Марксизм", "Позитивизм", "Экзистенциализм", "Нигилизм"] },
-    { "id": "eastern_philosophy", "label": "Восточная", "revealHint": "ВОСТОК", "items": ["Конфуцианство", "Даосизм", "Дзен", "Веданта"] }
+    {
+      "id": "ancient_philosophy",
+      "label": "Античность",
+      "revealHint": "АНТИЧНОСТЬ",
+      "items": [
+        "Стоицизм",
+        "Эпикуреизм",
+        "Платонизм",
+        "Цинизм"
+      ]
+    },
+    {
+      "id": "modern_philosophy",
+      "label": "Новое время",
+      "revealHint": "НОВОЕ ВРЕМЯ",
+      "items": [
+        "Рационализм",
+        "Эмпиризм",
+        "Просвещение",
+        "Идеализм"
+      ]
+    },
+    {
+      "id": "19c_philosophy",
+      "label": "XIX век",
+      "revealHint": "XIX ВЕК",
+      "items": [
+        "Марксизм",
+        "Позитивизм",
+        "Экзистенциализм",
+        "Нигилизм"
+      ]
+    },
+    {
+      "id": "eastern_philosophy",
+      "label": "Восточная",
+      "revealHint": "ВОСТОК",
+      "items": [
+        "Конфуцианство",
+        "Даосизм",
+        "Дзен",
+        "Веданта"
+      ]
+    }
   ]
 }

@@ -2,11 +2,55 @@
   "id": "de-0474",
   "title": "Naturschutz-Konzepte",
   "difficulty": "medium",
-  "meta": { "theme": "natur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "natur",
+    "batch": "de-batch-05",
+    "difficultyScore": 38
+  },
   "groups": [
-    { "id": "group_a", "label": "Schutzgebietskategorien", "revealHint": "Arten von Gebieten", "items": ["Nationalpark", "Naturschutzgebiet", "Biosphärenreservat", "Landschaftsschutz"] },
-    { "id": "group_b", "label": "Schutz-Methoden", "revealHint": "Wie man schützt", "items": ["Ex-situ-Schutz", "In-situ-Schutz", "Renaturierung", "Wildtierkorridore"] },
-    { "id": "group_c", "label": "Naturschutz-Gesetze", "revealHint": "Rechtlicher Rahmen", "items": ["BNatSchG", "FFH-Richtlinie", "CITES", "Artenschutzabkommen"] },
-    { "id": "group_d", "label": "Naturschutz-Begriffe", "revealHint": "Fachvokabular", "items": ["Biodiversität", "Rote Liste", "Hotspot", "Endemismus"] }
+    {
+      "id": "group_a",
+      "label": "Schutzgebietskategorien",
+      "revealHint": "Arten von Gebieten",
+      "items": [
+        "Nationalpark",
+        "Naturschutzgebiet",
+        "Biosphärenreservat",
+        "Landschaftsschutz"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schutz-Methoden",
+      "revealHint": "Wie man schützt",
+      "items": [
+        "Ex-situ-Schutz",
+        "In-situ-Schutz",
+        "Renaturierung",
+        "Wildtierkorridore"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Naturschutz-Gesetze",
+      "revealHint": "Rechtlicher Rahmen",
+      "items": [
+        "BNatSchG",
+        "FFH-Richtlinie",
+        "CITES",
+        "Artenschutzabkommen"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Naturschutz-Begriffe",
+      "revealHint": "Fachvokabular",
+      "items": [
+        "Biodiversität",
+        "Rote Liste",
+        "Hotspot",
+        "Endemismus"
+      ]
+    }
   ]
 }

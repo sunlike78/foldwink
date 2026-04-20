@@ -9,32 +9,53 @@
     "wordplay": true,
     "fairnessRisk": 2,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "light",
       "label": "___ light",
       "revealHint": "Light",
-      "items": ["Moon", "Spot", "Flash", "Star"]
+      "items": [
+        "Moon",
+        "Spot",
+        "Flash",
+        "Star"
+      ]
     },
     {
       "id": "work",
       "label": "___ work",
       "revealHint": "Work",
-      "items": ["Frame", "Ground", "Team", "Net"]
+      "items": [
+        "Frame",
+        "Ground",
+        "Team",
+        "Net"
+      ]
     },
     {
       "id": "line",
       "label": "___ line",
       "revealHint": "Line",
-      "items": ["Dead", "Head", "Shore", "Guide"]
+      "items": [
+        "Dead",
+        "Head",
+        "Shore",
+        "Guide"
+      ]
     },
     {
       "id": "stone",
       "label": "___ stone",
       "revealHint": "Stone",
-      "items": ["Key", "Lime", "Mile", "Corner"]
+      "items": [
+        "Key",
+        "Lime",
+        "Mile",
+        "Corner"
+      ]
     }
   ]
 }

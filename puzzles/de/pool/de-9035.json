@@ -2,27 +2,51 @@
   "id": "de-9035",
   "title": "Steine erzählen",
   "difficulty": "easy",
-  "meta": { "theme": "Baustile durch Merkmale", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Baustile durch Merkmale",
+    "batch": "de-batch-12",
+    "difficultyScore": 36
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Romanik",
-      "items": ["Rundbogen über Portal", "Mauern meterdick", "Wenige schmale Fenster", "Würfelkapitell"]
+      "items": [
+        "Rundbogen über Portal",
+        "Mauern meterdick",
+        "Wenige schmale Fenster",
+        "Würfelkapitell"
+      ]
     },
     {
       "id": "group_b",
       "label": "Gotik",
-      "items": ["Spitzbogen im Chor", "Strebewerk außen", "Rosette aus Maßwerk", "Gewölberippen kreuzen"]
+      "items": [
+        "Spitzbogen im Chor",
+        "Strebewerk außen",
+        "Rosette aus Maßwerk",
+        "Gewölberippen kreuzen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Barock",
-      "items": ["Kuppel über dem Schiff", "Vergoldete Stuckdecke", "Doppelturm an Fassade", "Geschwungene Treppe"]
+      "items": [
+        "Kuppel über dem Schiff",
+        "Vergoldete Stuckdecke",
+        "Doppelturm an Fassade",
+        "Geschwungene Treppe"
+      ]
     },
     {
       "id": "group_d",
       "label": "Bauhaus",
-      "items": ["Flachdach aus Beton", "Stahl und Glas", "Ornament weggelassen", "Funktion formt Gestalt"]
+      "items": [
+        "Flachdach aus Beton",
+        "Stahl und Glas",
+        "Ornament weggelassen",
+        "Funktion formt Gestalt"
+      ]
     }
   ]
 }

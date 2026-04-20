@@ -3,11 +3,53 @@
   "title": "Schools of Thought",
   "difficulty": "easy",
   "editorialSummary": "Western philosophical schools sorted by their core commitment: rationalist (Descartes, Leibniz, Spinoza, Wolff), empiricist (Locke, Hume, Berkeley, Bacon), existentialist (Sartre, Camus, Heidegger, de Beauvoir), and utilitarian (Bentham, Mill, Sidgwick, Smart). All philosophers are textbook representatives of exactly one school.",
-  "meta": { "theme": "philosophical schools", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "philosophical schools",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 14
+  },
   "groups": [
-    { "id": "g1", "label": "RATIONALIST", "items": ["Descartes", "Leibniz", "Spinoza", "Wolff"] },
-    { "id": "g2", "label": "EMPIRICIST", "items": ["Locke", "Hume", "Berkeley", "Bacon"] },
-    { "id": "g3", "label": "EXISTENTIALIST", "items": ["Sartre", "Camus", "Heidegger", "De Beauvoir"] },
-    { "id": "g4", "label": "UTILITARIAN", "items": ["Bentham", "Mill", "Sidgwick", "Smart"] }
+    {
+      "id": "g1",
+      "label": "RATIONALIST",
+      "items": [
+        "Descartes",
+        "Leibniz",
+        "Spinoza",
+        "Wolff"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "EMPIRICIST",
+      "items": [
+        "Locke",
+        "Hume",
+        "Berkeley",
+        "Bacon"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "EXISTENTIALIST",
+      "items": [
+        "Sartre",
+        "Camus",
+        "Heidegger",
+        "De Beauvoir"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "UTILITARIAN",
+      "items": [
+        "Bentham",
+        "Mill",
+        "Sidgwick",
+        "Smart"
+      ]
+    }
   ]
 }

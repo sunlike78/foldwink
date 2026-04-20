@@ -7,34 +7,55 @@
     "theme": "heraldry",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "g1",
       "label": "Heraldic Colors",
-      "items": ["Gules", "Azure", "Sable", "Vert"],
+      "items": [
+        "Gules",
+        "Azure",
+        "Sable",
+        "Vert"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Heraldic Furs",
-      "items": ["Ermine", "Vair", "Potent", "Pean"],
+      "items": [
+        "Ermine",
+        "Vair",
+        "Potent",
+        "Pean"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Heraldic Ordinaries",
-      "items": ["Chief", "Pale", "Bend", "Fess"],
+      "items": [
+        "Chief",
+        "Pale",
+        "Bend",
+        "Fess"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Heraldic Attitudes",
-      "items": ["Rampant", "Passant", "Couchant", "Sejant"],
+      "items": [
+        "Rampant",
+        "Passant",
+        "Couchant",
+        "Sejant"
+      ],
       "color": "purple",
       "revealHint": ""
     }

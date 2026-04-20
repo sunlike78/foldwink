@@ -6,22 +6,45 @@
     {
       "id": "forces",
       "label": "Physics Forces",
-      "items": ["Gravity", "Friction", "Magnetism", "Tension"]
+      "items": [
+        "Gravity",
+        "Friction",
+        "Magnetism",
+        "Tension"
+      ]
     },
     {
       "id": "units",
       "label": "Physics Units",
-      "items": ["Joule", "Newton", "Watt", "Pascal"]
+      "items": [
+        "Joule",
+        "Newton",
+        "Watt",
+        "Pascal"
+      ]
     },
     {
       "id": "particles",
       "label": "Particles",
-      "items": ["Electron", "Proton", "Neutron", "Photon"]
+      "items": [
+        "Electron",
+        "Proton",
+        "Neutron",
+        "Photon"
+      ]
     },
     {
       "id": "waves",
       "label": "Wave Types",
-      "items": ["Radio", "Micro", "Infrared", "Ultraviolet"]
+      "items": [
+        "Radio",
+        "Micro",
+        "Infrared",
+        "Ultraviolet"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 21
+  }
 }

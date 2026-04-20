@@ -2,11 +2,53 @@
   "id": "puzzle-0357",
   "title": "Shape Families",
   "difficulty": "easy",
-  "meta": { "theme": "mathematics", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "mathematics",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "g1", "label": "Quadrilaterals", "items": ["Rhombus", "Trapezoid", "Parallelogram", "Rectangle"] },
-    { "id": "g2", "label": "Types of Triangles", "items": ["Acute", "Obtuse", "Right", "Equilateral"] },
-    { "id": "g3", "label": "3D Solids", "items": ["Tetrahedron", "Octahedron", "Dodecahedron", "Icosahedron"] },
-    { "id": "g4", "label": "Conic Sections", "items": ["Ellipse", "Parabola", "Hyperbola", "Circle"] }
+    {
+      "id": "g1",
+      "label": "Quadrilaterals",
+      "items": [
+        "Rhombus",
+        "Trapezoid",
+        "Parallelogram",
+        "Rectangle"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Types of Triangles",
+      "items": [
+        "Acute",
+        "Obtuse",
+        "Right",
+        "Equilateral"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "3D Solids",
+      "items": [
+        "Tetrahedron",
+        "Octahedron",
+        "Dodecahedron",
+        "Icosahedron"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Conic Sections",
+      "items": [
+        "Ellipse",
+        "Parabola",
+        "Hyperbola",
+        "Circle"
+      ]
+    }
   ]
 }

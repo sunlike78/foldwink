@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "jugendstil",
-    "batch": "de-batch-03"
+    "batch": "de-batch-03",
+    "difficultyScore": 31
   },
   "groups": [
     {

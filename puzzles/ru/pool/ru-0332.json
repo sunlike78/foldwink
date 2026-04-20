@@ -2,11 +2,55 @@
   "id": "ru-0332",
   "title": "Виды тестирования ПО",
   "difficulty": "medium",
-  "meta": { "theme": "Тестирование программного обеспечения", "batch": "ru-batch-13" },
+  "meta": {
+    "theme": "Тестирование программного обеспечения",
+    "batch": "ru-batch-13",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "functional_testing", "label": "Функциональное", "revealHint": "ФУНКЦИИ", "items": ["Юнит-тест", "Интеграционный", "Системный", "Регрессионный"] },
-    { "id": "nonfunc_testing", "label": "Нефункциональное", "revealHint": "НЕФУНКЦ.", "items": ["Нагрузочное", "Стресс-тест", "Безопасность", "Юзабилити"] },
-    { "id": "testing_methods", "label": "Методы", "revealHint": "МЕТОДЫ", "items": ["Чёрный ящик", "Белый ящик", "Серый ящик", "Исследовательское"] },
-    { "id": "testing_tools", "label": "Инструменты", "revealHint": "ИНСТРУМЕНТЫ", "items": ["Selenium", "Jest", "Postman", "JMeter"] }
+    {
+      "id": "functional_testing",
+      "label": "Функциональное",
+      "revealHint": "ФУНКЦИИ",
+      "items": [
+        "Юнит-тест",
+        "Интеграционный",
+        "Системный",
+        "Регрессионный"
+      ]
+    },
+    {
+      "id": "nonfunc_testing",
+      "label": "Нефункциональное",
+      "revealHint": "НЕФУНКЦ.",
+      "items": [
+        "Нагрузочное",
+        "Стресс-тест",
+        "Безопасность",
+        "Юзабилити"
+      ]
+    },
+    {
+      "id": "testing_methods",
+      "label": "Методы",
+      "revealHint": "МЕТОДЫ",
+      "items": [
+        "Чёрный ящик",
+        "Белый ящик",
+        "Серый ящик",
+        "Исследовательское"
+      ]
+    },
+    {
+      "id": "testing_tools",
+      "label": "Инструменты",
+      "revealHint": "ИНСТРУМЕНТЫ",
+      "items": [
+        "Selenium",
+        "Jest",
+        "Postman",
+        "JMeter"
+      ]
+    }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Народные приметы и пословицы о природе",
-    "batch": "ru-batch-19"
+    "batch": "ru-batch-19",
+    "difficultyScore": 46
   },
   "groups": [
     {

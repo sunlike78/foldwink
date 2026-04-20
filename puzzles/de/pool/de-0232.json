@@ -2,11 +2,51 @@
   "id": "de-0232",
   "title": "Deutsche Literatur Klassiker",
   "difficulty": "easy",
-  "meta": { "theme": "literatur-klassiker", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "literatur-klassiker",
+    "batch": "de-batch-03",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "group_a", "label": "Goethe-Werke", "items": ["Faust", "Werther", "Iphigenie", "Egmont"] },
-    { "id": "group_b", "label": "Schiller-Werke", "items": ["Wallenstein", "Maria Stuart", "Die Räuber", "Wilhelm Tell"] },
-    { "id": "group_c", "label": "Kleist-Werke", "items": ["Penthesilea", "Zerbrochner Krug", "Michael Kohlhaas", "Prinz Homburg"] },
-    { "id": "group_d", "label": "Storm-Werke", "items": ["Der Schimmelreiter", "Immensee", "Pole Poppenspäler", "Aquis submersus"] }
+    {
+      "id": "group_a",
+      "label": "Goethe-Werke",
+      "items": [
+        "Faust",
+        "Werther",
+        "Iphigenie",
+        "Egmont"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schiller-Werke",
+      "items": [
+        "Wallenstein",
+        "Maria Stuart",
+        "Die Räuber",
+        "Wilhelm Tell"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Kleist-Werke",
+      "items": [
+        "Penthesilea",
+        "Zerbrochner Krug",
+        "Michael Kohlhaas",
+        "Prinz Homburg"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Storm-Werke",
+      "items": [
+        "Der Schimmelreiter",
+        "Immensee",
+        "Pole Poppenspäler",
+        "Aquis submersus"
+      ]
+    }
   ]
 }

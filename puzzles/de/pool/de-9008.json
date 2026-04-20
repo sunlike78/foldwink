@@ -2,27 +2,51 @@
   "id": "de-9008",
   "title": "Mut in anderen Worten",
   "difficulty": "easy",
-  "meta": { "theme": "Charaktereigenschaften via Redewendungen", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Charaktereigenschaften via Redewendungen",
+    "batch": "de-batch-11",
+    "difficultyScore": 44
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Mut",
-      "items": ["Ins Kalte gesprungen", "Gegen den Strom", "Erster Stein gewagt", "Allein losgegangen"]
+      "items": [
+        "Ins Kalte gesprungen",
+        "Gegen den Strom",
+        "Erster Stein gewagt",
+        "Allein losgegangen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Feigheit",
-      "items": ["Hinterm Ofen geblieben", "Anderen vorgeschickt", "Schwanz eingezogen", "Lieber nichts gesagt"]
+      "items": [
+        "Hinterm Ofen geblieben",
+        "Anderen vorgeschickt",
+        "Schwanz eingezogen",
+        "Lieber nichts gesagt"
+      ]
     },
     {
       "id": "group_c",
       "label": "Entschlossenheit",
-      "items": ["Würfel gefallen", "Kein Zurück mehr", "Brücken abgebrochen", "Bis zum Ende durch"]
+      "items": [
+        "Würfel gefallen",
+        "Kein Zurück mehr",
+        "Brücken abgebrochen",
+        "Bis zum Ende durch"
+      ]
     },
     {
       "id": "group_d",
       "label": "Zögern",
-      "items": ["Auf Zeit gespielt", "Wartet noch ab", "Immer noch ein Aber", "Entschluss auf morgen"]
+      "items": [
+        "Auf Zeit gespielt",
+        "Wartet noch ab",
+        "Immer noch ein Aber",
+        "Entschluss auf morgen"
+      ]
     }
   ]
 }

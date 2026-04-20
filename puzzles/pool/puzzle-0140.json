@@ -6,24 +6,49 @@
     "theme": "literature",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 22
   },
   "groups": [
     {
       "id": "form",
       "label": "Poetry Forms",
-      "items": ["Sonnet", "Haiku", "Limerick", "Ballad"]
+      "items": [
+        "Sonnet",
+        "Haiku",
+        "Limerick",
+        "Ballad"
+      ]
     },
     {
       "id": "device",
       "label": "Poetic Devices",
-      "items": ["Metaphor", "Alliteration", "Enjambment", "Simile"]
+      "items": [
+        "Metaphor",
+        "Alliteration",
+        "Enjambment",
+        "Simile"
+      ]
     },
-    { "id": "genre", "label": "Literary Genres", "items": ["Epic", "Satire", "Elegy", "Ode"] },
+    {
+      "id": "genre",
+      "label": "Literary Genres",
+      "items": [
+        "Epic",
+        "Satire",
+        "Elegy",
+        "Ode"
+      ]
+    },
     {
       "id": "rhythm",
       "label": "Rhythmic Terms",
-      "items": ["Iambic", "Trochee", "Anapest", "Spondee"]
+      "items": [
+        "Iambic",
+        "Trochee",
+        "Anapest",
+        "Spondee"
+      ]
     }
   ]
 }

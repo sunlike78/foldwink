@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "money",
       "label": "Financial bank",
       "revealHint": "Finance",
-      "items": ["Vault", "Mortgage", "Interest", "Loan"]
+      "items": [
+        "Vault",
+        "Mortgage",
+        "Interest",
+        "Loan"
+      ]
     },
     {
       "id": "river",
       "label": "River bank",
       "revealHint": "River",
-      "items": ["Embankment", "Levee", "Shore", "Floodplain"]
+      "items": [
+        "Embankment",
+        "Levee",
+        "Shore",
+        "Floodplain"
+      ]
     },
     {
       "id": "blood",
       "label": "Blood bank",
       "revealHint": "Blood",
-      "items": ["Donor", "Transfusion", "Plasma", "Type"]
+      "items": [
+        "Donor",
+        "Transfusion",
+        "Plasma",
+        "Type"
+      ]
     },
     {
       "id": "data",
       "label": "Data bank",
       "revealHint": "Data",
-      "items": ["Repository", "Archive", "Backup", "Storage"]
+      "items": [
+        "Repository",
+        "Archive",
+        "Backup",
+        "Storage"
+      ]
     }
   ]
 }

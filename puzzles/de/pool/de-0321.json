@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Deutsche Sagen",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 48
   },
   "groups": [
     {

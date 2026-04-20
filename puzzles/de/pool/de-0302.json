@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Umgangssprache Berufe",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 43
   },
   "groups": [
     {

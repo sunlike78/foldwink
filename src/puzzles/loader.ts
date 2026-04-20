@@ -58,6 +58,24 @@ export const MEDIUM_POOL: readonly Puzzle[] = PUZZLE_POOL.filter(
 );
 export const HARD_POOL: readonly Puzzle[] = PUZZLE_POOL.filter((p) => p.difficulty === "hard");
 
+// Ramped pools — same puzzles as EASY/MEDIUM/HARD_POOL, sorted ascending by
+// `meta.difficultyScore` (populated by `scripts/score-puzzles.mjs`). Used by
+// standard-mode so the player walks a gentle easy→hard ramp inside each tier.
+// Daily mode intentionally keeps using the id-sorted pools — switching ramped
+// would reshuffle which puzzle falls on which date for every existing player.
+function compareByDifficultyScore(a: Puzzle, b: Puzzle): number {
+  const sa = a.meta?.difficultyScore ?? 50;
+  const sb = b.meta?.difficultyScore ?? 50;
+  if (sa !== sb) return sa - sb;
+  return a.id.localeCompare(b.id);
+}
+
+export const EASY_POOL_RAMPED: readonly Puzzle[] = [...EASY_POOL].sort(compareByDifficultyScore);
+export const MEDIUM_POOL_RAMPED: readonly Puzzle[] = [...MEDIUM_POOL].sort(
+  compareByDifficultyScore,
+);
+export const HARD_POOL_RAMPED: readonly Puzzle[] = [...HARD_POOL].sort(compareByDifficultyScore);
+
 export function getPuzzleById(id: string): Puzzle | undefined {
   return PUZZLE_POOL.find((p) => p.id === id);
 }
@@ -82,4 +100,16 @@ export function getMediumByIndex(index: number): Puzzle | undefined {
 
 export function getHardByIndex(index: number): Puzzle | undefined {
   return getFromPool(HARD_POOL, index);
+}
+
+export function getEasyRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(EASY_POOL_RAMPED, index);
+}
+
+export function getMediumRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(MEDIUM_POOL_RAMPED, index);
+}
+
+export function getHardRampedByIndex(index: number): Puzzle | undefined {
+  return getFromPool(HARD_POOL_RAMPED, index);
 }

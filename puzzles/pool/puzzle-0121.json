@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 48
   },
   "groups": [
     {
       "id": "home",
       "label": "Flat as dwelling",
       "revealHint": "Dwelling",
-      "items": ["Apartment", "Bedsit", "Studio", "Penthouse"]
+      "items": [
+        "Apartment",
+        "Bedsit",
+        "Studio",
+        "Penthouse"
+      ]
     },
     {
       "id": "tire",
       "label": "Flat tire",
       "revealHint": "Tire",
-      "items": ["Puncture", "Blowout", "Patch", "Spare"]
+      "items": [
+        "Puncture",
+        "Blowout",
+        "Patch",
+        "Spare"
+      ]
     },
     {
       "id": "music",
       "label": "Flat in music",
       "revealHint": "Music",
-      "items": ["Semitone", "Sharp", "Natural", "Key Signature"]
+      "items": [
+        "Semitone",
+        "Sharp",
+        "Natural",
+        "Key Signature"
+      ]
     },
     {
       "id": "land",
       "label": "Flat terrain",
       "revealHint": "Terrain",
-      "items": ["Prairie", "Steppe", "Mesa", "Plateau"]
+      "items": [
+        "Prairie",
+        "Steppe",
+        "Mesa",
+        "Plateau"
+      ]
     }
   ]
 }

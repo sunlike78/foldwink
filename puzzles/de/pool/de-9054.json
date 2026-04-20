@@ -2,31 +2,55 @@
   "id": "de-9054",
   "title": "Brücken der Welt",
   "difficulty": "medium",
-  "meta": { "theme": "Brückenbautypen durch strukturelle Merkmale", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Brückenbautypen durch strukturelle Merkmale",
+    "batch": "de-batch-12",
+    "difficultyScore": 35
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Hängebrücke",
       "revealHint": "KABEL TRÄGT VON OBEN",
-      "items": ["Seil am Pylon", "Fahrbahn hängt frei", "Wind schwingt sie", "Pylone ragen hoch"]
+      "items": [
+        "Seil am Pylon",
+        "Fahrbahn hängt frei",
+        "Wind schwingt sie",
+        "Pylone ragen hoch"
+      ]
     },
     {
       "id": "group_b",
       "label": "Bogenbrücke",
       "revealHint": "BOGEN LEITET KRAFT AB",
-      "items": ["Druck ins Widerlager", "Halbkreis über Fluss", "Keilstein in der Mitte", "Römer bauten so"]
+      "items": [
+        "Druck ins Widerlager",
+        "Halbkreis über Fluss",
+        "Keilstein in der Mitte",
+        "Römer bauten so"
+      ]
     },
     {
       "id": "group_c",
       "label": "Klappbrücke",
       "revealHint": "ÖFFNET FÜR SCHIFFE",
-      "items": ["Flügel heben sich", "Schiff passiert", "Autofahrer warten", "Gegengewicht zieht"]
+      "items": [
+        "Flügel heben sich",
+        "Schiff passiert",
+        "Autofahrer warten",
+        "Gegengewicht zieht"
+      ]
     },
     {
       "id": "group_d",
       "label": "Pontonbrücke",
       "revealHint": "SCHWIMMT AUF WASSER",
-      "items": ["Schiffe als Brücke", "Feldbrücke im Krieg", "Wackelt beim Gehen", "Abrüstbar schnell"]
+      "items": [
+        "Schiffe als Brücke",
+        "Feldbrücke im Krieg",
+        "Wackelt beim Gehen",
+        "Abrüstbar schnell"
+      ]
     }
   ]
 }

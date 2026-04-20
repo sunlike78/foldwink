@@ -3,11 +3,57 @@
   "title": "Canvas and Chisel",
   "difficulty": "medium",
   "editorialSummary": "Western art movements sorted by era/style. The false trail: Expressionism and Fauvism both distort colour and form, so players may conflate them. Each group is a real, distinct movement with a canonical time period.",
-  "meta": { "theme": "art movements", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "art movements",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 63
+  },
   "groups": [
-    { "id": "g1", "label": "EARLY MODERN (PRE-1900)", "items": ["Impressionism", "Realism", "Romanticism", "Neoclassicism"], "revealHint": "Early" },
-    { "id": "g2", "label": "EARLY 20TH CENTURY", "items": ["Cubism", "Fauvism", "Expressionism", "Futurism"], "revealHint": "Modern" },
-    { "id": "g3", "label": "MID-CENTURY", "items": ["Abstract Expressionism", "Surrealism", "Pop Art", "Minimalism"], "revealHint": "Mid-century" },
-    { "id": "g4", "label": "CONTEMPORARY", "items": ["Street Art", "Digital Art", "Neo-Expressionism", "Conceptual Art"], "revealHint": "Contemporary" }
+    {
+      "id": "g1",
+      "label": "EARLY MODERN (PRE-1900)",
+      "items": [
+        "Impressionism",
+        "Realism",
+        "Romanticism",
+        "Neoclassicism"
+      ],
+      "revealHint": "Early"
+    },
+    {
+      "id": "g2",
+      "label": "EARLY 20TH CENTURY",
+      "items": [
+        "Cubism",
+        "Fauvism",
+        "Expressionism",
+        "Futurism"
+      ],
+      "revealHint": "Modern"
+    },
+    {
+      "id": "g3",
+      "label": "MID-CENTURY",
+      "items": [
+        "Abstract Expressionism",
+        "Surrealism",
+        "Pop Art",
+        "Minimalism"
+      ],
+      "revealHint": "Mid-century"
+    },
+    {
+      "id": "g4",
+      "label": "CONTEMPORARY",
+      "items": [
+        "Street Art",
+        "Digital Art",
+        "Neo-Expressionism",
+        "Conceptual Art"
+      ],
+      "revealHint": "Contemporary"
+    }
   ]
 }

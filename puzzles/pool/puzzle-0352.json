@@ -7,35 +7,56 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "g1",
       "label": "Compression Structures",
       "revealHint": "Compression",
-      "items": ["Masonry Arch", "Vault", "Dome", "Buttress"],
+      "items": [
+        "Masonry Arch",
+        "Vault",
+        "Dome",
+        "Buttress"
+      ],
       "color": "yellow"
     },
     {
       "id": "g2",
       "label": "Tension Structures",
       "revealHint": "Tension",
-      "items": ["Suspension Bridge", "Cable-Stayed", "Tent Structure", "Tensegrity"],
+      "items": [
+        "Suspension Bridge",
+        "Cable-Stayed",
+        "Tent Structure",
+        "Tensegrity"
+      ],
       "color": "green"
     },
     {
       "id": "g3",
       "label": "Frame Structures",
       "revealHint": "Frame",
-      "items": ["Steel Frame", "Timber Frame", "Portal Frame", "Space Frame"],
+      "items": [
+        "Steel Frame",
+        "Timber Frame",
+        "Portal Frame",
+        "Space Frame"
+      ],
       "color": "blue"
     },
     {
       "id": "g4",
       "label": "Shell Structures",
       "revealHint": "Shell",
-      "items": ["Thin Shell", "Geodesic Dome", "Folded Plate", "Monocoque"],
+      "items": [
+        "Thin Shell",
+        "Geodesic Dome",
+        "Folded Plate",
+        "Monocoque"
+      ],
       "color": "purple"
     }
   ]

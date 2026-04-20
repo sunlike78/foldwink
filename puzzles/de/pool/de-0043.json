@@ -2,11 +2,51 @@
   "id": "de-0043",
   "title": "Bücher und Literatur",
   "difficulty": "easy",
-  "meta": { "theme": "Bücher und Literatur", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Bücher und Literatur",
+    "batch": "de-batch-02",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "group_a", "label": "Romangattungen", "items": ["Krimi", "Thriller", "Science-Fiction", "Fantasy"] },
-    { "id": "group_b", "label": "Sachbücher", "items": ["Biografie", "Ratgeber", "Reiseführer", "Lexikon"] },
-    { "id": "group_c", "label": "Lyrik-Formen", "items": ["Sonett", "Haiku", "Ballade", "Ode"] },
-    { "id": "group_d", "label": "Kinder- und Jugendbuch", "items": ["Bilderbuch", "Märchen", "Abenteuerroman", "Comicroman"] }
+    {
+      "id": "group_a",
+      "label": "Romangattungen",
+      "items": [
+        "Krimi",
+        "Thriller",
+        "Science-Fiction",
+        "Fantasy"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Sachbücher",
+      "items": [
+        "Biografie",
+        "Ratgeber",
+        "Reiseführer",
+        "Lexikon"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Lyrik-Formen",
+      "items": [
+        "Sonett",
+        "Haiku",
+        "Ballade",
+        "Ode"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kinder- und Jugendbuch",
+      "items": [
+        "Bilderbuch",
+        "Märchen",
+        "Abenteuerroman",
+        "Comicroman"
+      ]
+    }
   ]
 }

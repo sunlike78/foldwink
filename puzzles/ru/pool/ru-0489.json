@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Города-герои и исторические места ВОВ",
-    "batch": "ru-batch-21"
+    "batch": "ru-batch-21",
+    "difficultyScore": 51
   },
   "groups": [
     {

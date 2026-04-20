@@ -2,31 +2,55 @@
   "id": "de-0336",
   "title": "Arzneimittel nach Wirkung",
   "difficulty": "medium",
-  "meta": { "theme": "Pharmakologie Wirk.", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Pharmakologie Wirk.",
+    "batch": "de-batch-04",
+    "difficultyScore": 32
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Schmerzmittel",
       "revealHint": "Gegen Schmerzen",
-      "items": ["Ibuprofen", "Paracetamol", "Aspirin", "Tramadol"]
+      "items": [
+        "Ibuprofen",
+        "Paracetamol",
+        "Aspirin",
+        "Tramadol"
+      ]
     },
     {
       "id": "group_b",
       "label": "Antibiotika",
       "revealHint": "Gegen Bakterien",
-      "items": ["Penicillin", "Amoxicillin", "Tetracyclin", "Ciprofloxacin"]
+      "items": [
+        "Penicillin",
+        "Amoxicillin",
+        "Tetracyclin",
+        "Ciprofloxacin"
+      ]
     },
     {
       "id": "group_c",
       "label": "Blutdruckmittel",
       "revealHint": "Gegen Hypertonie",
-      "items": ["Ramipril", "Metoprolol", "Amlodipin", "Lisinopril"]
+      "items": [
+        "Ramipril",
+        "Metoprolol",
+        "Amlodipin",
+        "Lisinopril"
+      ]
     },
     {
       "id": "group_d",
       "label": "Schlafmittel",
       "revealHint": "Fördert Schlaf",
-      "items": ["Zolpidem", "Melatonin", "Triazolam", "Temazepam"]
+      "items": [
+        "Zolpidem",
+        "Melatonin",
+        "Triazolam",
+        "Temazepam"
+      ]
     }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "cinema",
     "categoryType": "classification",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "g1",
       "label": "Film Genres",
-      "items": ["Noir", "Western", "Screwball", "Melodrama"]
+      "items": [
+        "Noir",
+        "Western",
+        "Screwball",
+        "Melodrama"
+      ]
     },
     {
       "id": "g2",
       "label": "Camera Movement Types",
-      "items": ["Dolly Shot", "Pan Shot", "Tilt Shot", "Crane Shot"]
+      "items": [
+        "Dolly Shot",
+        "Pan Shot",
+        "Tilt Shot",
+        "Crane Shot"
+      ]
     },
     {
       "id": "g3",
       "label": "Film Crew Roles",
-      "items": ["Best Boy", "Foley Artist", "Script Supervisor", "Boom Operator"]
+      "items": [
+        "Best Boy",
+        "Foley Artist",
+        "Script Supervisor",
+        "Boom Operator"
+      ]
     },
     {
       "id": "g4",
       "label": "Post-Production Terms",
-      "items": ["Colour Grade", "Sound Mix", "Rotoscoping", "Picture Lock"]
+      "items": [
+        "Colour Grade",
+        "Sound Mix",
+        "Rotoscoping",
+        "Picture Lock"
+      ]
     }
   ]
 }

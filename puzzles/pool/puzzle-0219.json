@@ -6,28 +6,49 @@
     "theme": "household",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "cleaning-tools",
       "label": "Cleaning Tools",
-      "items": ["Broom", "Mop", "Duster", "Vacuum"]
+      "items": [
+        "Broom",
+        "Mop",
+        "Duster",
+        "Vacuum"
+      ]
     },
     {
       "id": "cleaning-liquids",
       "label": "Cleaning Liquids",
-      "items": ["Bleach", "Detergent", "Polish", "Ammonia"]
+      "items": [
+        "Bleach",
+        "Detergent",
+        "Polish",
+        "Ammonia"
+      ]
     },
     {
       "id": "laundry",
       "label": "Laundry Gear",
-      "items": ["Washer", "Dryer", "Hamper", "Iron"]
+      "items": [
+        "Washer",
+        "Dryer",
+        "Hamper",
+        "Iron"
+      ]
     },
     {
       "id": "disposal",
       "label": "Trash & Recycling",
-      "items": ["Bin", "Trash Bag", "Compost", "Liner"]
+      "items": [
+        "Bin",
+        "Trash Bag",
+        "Compost",
+        "Liner"
+      ]
     }
   ]
 }

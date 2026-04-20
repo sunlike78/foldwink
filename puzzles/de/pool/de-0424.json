@@ -2,11 +2,55 @@
   "id": "de-0424",
   "title": "Finanzmarkt-Begriffe",
   "difficulty": "medium",
-  "meta": { "theme": "finanzen", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "finanzen",
+    "batch": "de-batch-05",
+    "difficultyScore": 57
+  },
   "groups": [
-    { "id": "group_a", "label": "Bullish = Steigernd", "revealHint": "Aufwärtstrend", "items": ["Hausse", "Rally", "Ausbruch oben", "Kaufsignal"] },
-    { "id": "group_b", "label": "Bearish = Fallend", "revealHint": "Abwärtstrend", "items": ["Baisse", "Crash", "Ausbruch unten", "Verkaufssignal"] },
-    { "id": "group_c", "label": "Hedge-Strategien", "revealHint": "Absicherung", "items": ["Put-Option", "Leerverkauf", "Futures", "Collar"] },
-    { "id": "group_d", "label": "Derivate-Typen", "revealHint": "Derivate-Produkte", "items": ["Call-Option", "Swap", "Forward", "Zertifikat"] }
+    {
+      "id": "group_a",
+      "label": "Bullish = Steigernd",
+      "revealHint": "Aufwärtstrend",
+      "items": [
+        "Hausse",
+        "Rally",
+        "Ausbruch oben",
+        "Kaufsignal"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Bearish = Fallend",
+      "revealHint": "Abwärtstrend",
+      "items": [
+        "Baisse",
+        "Crash",
+        "Ausbruch unten",
+        "Verkaufssignal"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Hedge-Strategien",
+      "revealHint": "Absicherung",
+      "items": [
+        "Put-Option",
+        "Leerverkauf",
+        "Futures",
+        "Collar"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Derivate-Typen",
+      "revealHint": "Derivate-Produkte",
+      "items": [
+        "Call-Option",
+        "Swap",
+        "Forward",
+        "Zertifikat"
+      ]
+    }
   ]
 }

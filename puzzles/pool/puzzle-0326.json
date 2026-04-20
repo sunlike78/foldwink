@@ -7,32 +7,53 @@
     "theme": "fashion",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 54
   },
   "groups": [
     {
       "id": "g1",
       "label": "Designers Defined by Paris",
       "revealHint": "Couture",
-      "items": ["Karl Lagerfeld", "Yves Saint Laurent", "Christian Dior", "Hubert de Givenchy"]
+      "items": [
+        "Karl Lagerfeld",
+        "Yves Saint Laurent",
+        "Christian Dior",
+        "Hubert de Givenchy"
+      ]
     },
     {
       "id": "g2",
       "label": "Designers Defined by Milan",
       "revealHint": "Milan",
-      "items": ["Giorgio Armani", "Gianni Versace", "Miuccia Prada", "Franco Moschino"]
+      "items": [
+        "Giorgio Armani",
+        "Gianni Versace",
+        "Miuccia Prada",
+        "Franco Moschino"
+      ]
     },
     {
       "id": "g3",
       "label": "Designers Defined by London",
       "revealHint": "London",
-      "items": ["Vivienne Westwood", "Alexander McQueen", "Paul Smith", "Mary Quant"]
+      "items": [
+        "Vivienne Westwood",
+        "Alexander McQueen",
+        "Paul Smith",
+        "Mary Quant"
+      ]
     },
     {
       "id": "g4",
       "label": "Designers Defined by New York",
       "revealHint": "Seventh Ave",
-      "items": ["Ralph Lauren", "Calvin Klein", "Donna Karan", "Marc Jacobs"]
+      "items": [
+        "Ralph Lauren",
+        "Calvin Klein",
+        "Donna Karan",
+        "Marc Jacobs"
+      ]
     }
   ]
 }

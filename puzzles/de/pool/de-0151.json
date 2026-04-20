@@ -2,11 +2,51 @@
   "id": "de-0151",
   "title": "Tanzsport",
   "difficulty": "easy",
-  "meta": { "theme": "Kultur", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Kultur",
+    "batch": "de-batch-02",
+    "difficultyScore": 16
+  },
   "groups": [
-    { "id": "group_a", "label": "Standardtänze", "items": ["Walzer", "Tango", "Foxtrott", "Quickstep"] },
-    { "id": "group_b", "label": "Lateintänze", "items": ["Cha-Cha-Cha", "Samba", "Rumba", "Paso Doble"] },
-    { "id": "group_c", "label": "Streetdance", "items": ["Breakdance", "Hip-Hop", "Popping", "Locking"] },
-    { "id": "group_d", "label": "Volkstänze", "items": ["Schuhplattler", "Polka", "Zwiefacher", "Landler"] }
+    {
+      "id": "group_a",
+      "label": "Standardtänze",
+      "items": [
+        "Walzer",
+        "Tango",
+        "Foxtrott",
+        "Quickstep"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Lateintänze",
+      "items": [
+        "Cha-Cha-Cha",
+        "Samba",
+        "Rumba",
+        "Paso Doble"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Streetdance",
+      "items": [
+        "Breakdance",
+        "Hip-Hop",
+        "Popping",
+        "Locking"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Volkstänze",
+      "items": [
+        "Schuhplattler",
+        "Polka",
+        "Zwiefacher",
+        "Landler"
+      ]
+    }
   ]
 }

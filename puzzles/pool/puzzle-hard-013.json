@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 21
   },
   "groups": [
     {
       "id": "battery",
       "label": "Dead battery",
       "revealHint": "Battery",
-      "items": ["Drained", "Flat", "Charger", "Jumper Cable"]
+      "items": [
+        "Drained",
+        "Flat",
+        "Charger",
+        "Jumper Cable"
+      ]
     },
     {
       "id": "language",
       "label": "Dead language",
       "revealHint": "Language",
-      "items": ["Latin", "Sanskrit", "Aramaic", "Coptic"]
+      "items": [
+        "Latin",
+        "Sanskrit",
+        "Aramaic",
+        "Coptic"
+      ]
     },
     {
       "id": "metaphor",
       "label": "Dead metaphor",
       "revealHint": "Metaphor",
-      "items": ["Deadline", "Headstone", "Footstep", "Eyebrow"]
+      "items": [
+        "Deadline",
+        "Headstone",
+        "Footstep",
+        "Eyebrow"
+      ]
     },
     {
       "id": "silence",
       "label": "Dead silence",
       "revealHint": "Silence",
-      "items": ["Hush", "Stillness", "Void", "Vacuum"]
+      "items": [
+        "Hush",
+        "Stillness",
+        "Void",
+        "Vacuum"
+      ]
     }
   ]
 }

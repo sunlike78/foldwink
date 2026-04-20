@@ -3,11 +3,53 @@
   "title": "In Your Head",
   "difficulty": "easy",
   "editorialSummary": "Types of human memory grouped by the psychological category they belong to. Working memory: the temporary scratch-pad — digit span, mental arithmetic, remembering a phone number, keeping track of a sentence. Episodic memory: autobiographical, time-stamped events — your first day of school, a birthday party, last night's dinner, a holiday trip. Semantic memory: general world knowledge facts with no personal timestamp — knowing Paris is in France, knowing what a dog is, capital cities, word meanings. Procedural memory: knowing how to do something physically — riding a bike, typing, swimming, tying a shoelace. Items are descriptive examples, all unambiguous.",
-  "meta": { "theme": "types of human memory", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "types of human memory",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "g1", "label": "WORKING MEMORY", "items": ["Remembering a phone number", "Mental arithmetic", "Tracking a sentence", "Keeping a score in mind"] },
-    { "id": "g2", "label": "EPISODIC MEMORY", "items": ["Your first day of school", "A childhood birthday party", "Last night's dinner", "A memorable holiday"] },
-    { "id": "g3", "label": "SEMANTIC MEMORY", "items": ["Paris is in France", "A dog is a mammal", "Water boils at 100°C", "The alphabet"] },
-    { "id": "g4", "label": "PROCEDURAL MEMORY", "items": ["Riding a bike", "Touch typing", "Swimming strokes", "Tying a shoelace"] }
+    {
+      "id": "g1",
+      "label": "WORKING MEMORY",
+      "items": [
+        "Remembering a phone number",
+        "Mental arithmetic",
+        "Tracking a sentence",
+        "Keeping a score in mind"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "EPISODIC MEMORY",
+      "items": [
+        "Your first day of school",
+        "A childhood birthday party",
+        "Last night's dinner",
+        "A memorable holiday"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "SEMANTIC MEMORY",
+      "items": [
+        "Paris is in France",
+        "A dog is a mammal",
+        "Water boils at 100°C",
+        "The alphabet"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "PROCEDURAL MEMORY",
+      "items": [
+        "Riding a bike",
+        "Touch typing",
+        "Swimming strokes",
+        "Tying a shoelace"
+      ]
+    }
   ]
 }

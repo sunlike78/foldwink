@@ -2,11 +2,55 @@
   "id": "de-0471",
   "title": "Ökologische Nischen",
   "difficulty": "medium",
-  "meta": { "theme": "natur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "natur",
+    "batch": "de-batch-05",
+    "difficultyScore": 23
+  },
   "groups": [
-    { "id": "group_a", "label": "Nahrungsebenen", "revealHint": "Trophiestufen", "items": ["Produzenten", "Herbivore", "Karnivore", "Destruenten"] },
-    { "id": "group_b", "label": "Typische Nischen-Arten", "revealHint": "Spezialisten", "items": ["Kletterspecht", "Bartgeier", "Blattschneider-Ameise", "Schmale Biene"] },
-    { "id": "group_c", "label": "Artenbeziehungen", "revealHint": "Zusammenleben", "items": ["Mutualismus", "Kommensalismus", "Parasitismus", "Konkurrenz"] },
-    { "id": "group_d", "label": "Ökologie-Begriffe", "revealHint": "Fachwörter", "items": ["Habitat", "Nische", "Biogeozönose", "Sukzession"] }
+    {
+      "id": "group_a",
+      "label": "Nahrungsebenen",
+      "revealHint": "Trophiestufen",
+      "items": [
+        "Produzenten",
+        "Herbivore",
+        "Karnivore",
+        "Destruenten"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Typische Nischen-Arten",
+      "revealHint": "Spezialisten",
+      "items": [
+        "Kletterspecht",
+        "Bartgeier",
+        "Blattschneider-Ameise",
+        "Schmale Biene"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Artenbeziehungen",
+      "revealHint": "Zusammenleben",
+      "items": [
+        "Mutualismus",
+        "Kommensalismus",
+        "Parasitismus",
+        "Konkurrenz"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Ökologie-Begriffe",
+      "revealHint": "Fachwörter",
+      "items": [
+        "Habitat",
+        "Nische",
+        "Biogeozönose",
+        "Sukzession"
+      ]
+    }
   ]
 }

@@ -2,11 +2,53 @@
   "id": "puzzle-0359",
   "title": "Governing Institutions",
   "difficulty": "easy",
-  "meta": { "theme": "politics", "categoryType": "classification", "batch": "batch-10", "status": "approved" },
+  "meta": {
+    "theme": "politics",
+    "categoryType": "classification",
+    "batch": "batch-10",
+    "status": "approved",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "g1", "label": "Legislative Bodies", "items": ["House of Lords", "Parliament", "Congress", "Diet"] },
-    { "id": "g2", "label": "Executive Titles", "items": ["President", "Prime Minister", "Chancellor", "Premier"] },
-    { "id": "g3", "label": "Judicial Institutions", "items": ["Supreme Court", "High Court", "Appeals Court", "Tribunal"] },
-    { "id": "g4", "label": "Supranational Bodies", "items": ["United Nations", "World Bank", "NATO", "WHO"] }
+    {
+      "id": "g1",
+      "label": "Legislative Bodies",
+      "items": [
+        "House of Lords",
+        "Parliament",
+        "Congress",
+        "Diet"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "Executive Titles",
+      "items": [
+        "President",
+        "Prime Minister",
+        "Chancellor",
+        "Premier"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "Judicial Institutions",
+      "items": [
+        "Supreme Court",
+        "High Court",
+        "Appeals Court",
+        "Tribunal"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "Supranational Bodies",
+      "items": [
+        "United Nations",
+        "World Bank",
+        "NATO",
+        "WHO"
+      ]
+    }
   ]
 }

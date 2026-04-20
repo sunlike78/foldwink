@@ -2,11 +2,51 @@
   "id": "de-0229",
   "title": "Artussage",
   "difficulty": "easy",
-  "meta": { "theme": "artus", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "artus",
+    "batch": "de-batch-03",
+    "difficultyScore": 41
+  },
   "groups": [
-    { "id": "group_a", "label": "Ritter der Tafelrunde", "items": ["Lancelot", "Gawain", "Percival", "Tristan"] },
-    { "id": "group_b", "label": "Artus-Orte", "items": ["Camelot", "Avalon", "Tintagel", "Glastonbury"] },
-    { "id": "group_c", "label": "Artus-Gegenstände", "items": ["Excalibur", "Heiliger Gral", "Tafelrunde", "Schwert im Stein"] },
-    { "id": "group_d", "label": "Artus-Ereignisse", "items": ["Schwertziehen", "Gralsuche", "Camlann", "Zauberschlaf"] }
+    {
+      "id": "group_a",
+      "label": "Ritter der Tafelrunde",
+      "items": [
+        "Lancelot",
+        "Gawain",
+        "Percival",
+        "Tristan"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Artus-Orte",
+      "items": [
+        "Camelot",
+        "Avalon",
+        "Tintagel",
+        "Glastonbury"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Artus-Gegenstände",
+      "items": [
+        "Excalibur",
+        "Heiliger Gral",
+        "Tafelrunde",
+        "Schwert im Stein"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Artus-Ereignisse",
+      "items": [
+        "Schwertziehen",
+        "Gralsuche",
+        "Camlann",
+        "Zauberschlaf"
+      ]
+    }
   ]
 }

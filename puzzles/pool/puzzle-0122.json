@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "electric",
       "label": "Electrical current",
       "revealHint": "Electric",
-      "items": ["Ampere", "Voltage", "Circuit", "Resistor"]
+      "items": [
+        "Ampere",
+        "Voltage",
+        "Circuit",
+        "Resistor"
+      ]
     },
     {
       "id": "water",
       "label": "Water current",
       "revealHint": "Water",
-      "items": ["Tide", "Riptide", "Eddy", "Undertow"]
+      "items": [
+        "Tide",
+        "Riptide",
+        "Eddy",
+        "Undertow"
+      ]
     },
     {
       "id": "present",
       "label": "Present-day",
       "revealHint": "Today",
-      "items": ["Modern", "Contemporary", "Ongoing", "Latest"]
+      "items": [
+        "Modern",
+        "Contemporary",
+        "Ongoing",
+        "Latest"
+      ]
     },
     {
       "id": "fruit",
       "label": "Currants",
       "revealHint": "Dried",
-      "items": ["Sultana", "Raisin", "Zante", "Corinth"]
+      "items": [
+        "Sultana",
+        "Raisin",
+        "Zante",
+        "Corinth"
+      ]
     }
   ]
 }

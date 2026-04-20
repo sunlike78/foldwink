@@ -2,11 +2,51 @@
   "id": "de-0107",
   "title": "Vögel Deutschlands",
   "difficulty": "easy",
-  "meta": { "theme": "Tiere", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Tiere",
+    "batch": "de-batch-02",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Singvögel", "items": ["Amsel", "Buchfink", "Rotkehlchen", "Blaumeise"] },
-    { "id": "group_b", "label": "Greifvögel", "items": ["Seeadler", "Mäusebussard", "Turmfalke", "Rotmilan"] },
-    { "id": "group_c", "label": "Wasservögel", "items": ["Graureiher", "Stockente", "Haubentaucher", "Teichhuhn"] },
-    { "id": "group_d", "label": "Zugvögel", "items": ["Weißstorch", "Mauersegler", "Kuckuck", "Rauchschwalbe"] }
+    {
+      "id": "group_a",
+      "label": "Singvögel",
+      "items": [
+        "Amsel",
+        "Buchfink",
+        "Rotkehlchen",
+        "Blaumeise"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Greifvögel",
+      "items": [
+        "Seeadler",
+        "Mäusebussard",
+        "Turmfalke",
+        "Rotmilan"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wasservögel",
+      "items": [
+        "Graureiher",
+        "Stockente",
+        "Haubentaucher",
+        "Teichhuhn"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Zugvögel",
+      "items": [
+        "Weißstorch",
+        "Mauersegler",
+        "Kuckuck",
+        "Rauchschwalbe"
+      ]
+    }
   ]
 }

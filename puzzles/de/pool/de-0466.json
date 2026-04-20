@@ -2,11 +2,55 @@
   "id": "de-0466",
   "title": "Aberglaube in Deutschland",
   "difficulty": "medium",
-  "meta": { "theme": "kultur", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "kultur",
+    "batch": "de-batch-05",
+    "difficultyScore": 32
+  },
   "groups": [
-    { "id": "group_a", "label": "Glücksbringer", "revealHint": "Bringt Glück!", "items": ["Hufeisen", "Marienkäfer", "Vierblättriges Kleebl.", "Schornsteinfeger"] },
-    { "id": "group_b", "label": "Unglücksbringer", "revealHint": "Bringt Pech!", "items": ["Schwarze Katze links", "Spiegel zerbrechen", "Leiter unterqueren", "Regenschirm drinnen"] },
-    { "id": "group_c", "label": "Tier-Aberglaube", "revealHint": "Tiere als Zeichen", "items": ["Eule = Tod", "Schwalbe = Glück", "Krähe = Unglück", "Grille = Heim"] },
-    { "id": "group_d", "label": "Objekt-Aberglaube", "revealHint": "Dinge als Zeichen", "items": ["Salz verschütten", "Neue Schuhe auf Tisch", "Hut aufs Bett", "Messer als Geschenk"] }
+    {
+      "id": "group_a",
+      "label": "Glücksbringer",
+      "revealHint": "Bringt Glück!",
+      "items": [
+        "Hufeisen",
+        "Marienkäfer",
+        "Vierblättriges Kleebl.",
+        "Schornsteinfeger"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Unglücksbringer",
+      "revealHint": "Bringt Pech!",
+      "items": [
+        "Schwarze Katze links",
+        "Spiegel zerbrechen",
+        "Leiter unterqueren",
+        "Regenschirm drinnen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Tier-Aberglaube",
+      "revealHint": "Tiere als Zeichen",
+      "items": [
+        "Eule = Tod",
+        "Schwalbe = Glück",
+        "Krähe = Unglück",
+        "Grille = Heim"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Objekt-Aberglaube",
+      "revealHint": "Dinge als Zeichen",
+      "items": [
+        "Salz verschütten",
+        "Neue Schuhe auf Tisch",
+        "Hut aufs Bett",
+        "Messer als Geschenk"
+      ]
+    }
   ]
 }

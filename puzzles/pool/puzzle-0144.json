@@ -6,28 +6,49 @@
     "theme": "geography",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "terrain",
       "label": "Terrain Types",
-      "items": ["Canyon", "Valley", "Peninsula", "Archipelago"]
+      "items": [
+        "Canyon",
+        "Valley",
+        "Peninsula",
+        "Archipelago"
+      ]
     },
     {
       "id": "water",
       "label": "Water Bodies",
-      "items": ["Fjord", "Strait", "Lagoon", "Estuary"]
+      "items": [
+        "Fjord",
+        "Strait",
+        "Lagoon",
+        "Estuary"
+      ]
     },
     {
       "id": "climate",
       "label": "Climate Zones",
-      "items": ["Tropical", "Arid", "Temperate", "Polar"]
+      "items": [
+        "Tropical",
+        "Arid",
+        "Temperate",
+        "Polar"
+      ]
     },
     {
       "id": "feature",
       "label": "Map Features",
-      "items": ["Longitude", "Latitude", "Meridian", "Equator"]
+      "items": [
+        "Longitude",
+        "Latitude",
+        "Meridian",
+        "Equator"
+      ]
     }
   ]
 }

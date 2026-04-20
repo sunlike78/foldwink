@@ -3,11 +3,53 @@
   "title": "Tick Tock",
   "difficulty": "easy",
   "editorialSummary": "Timekeeping devices by era and type. False trail: Quartz Watch is electronic (correctly with electronic timers). Atomic Clock sounds space-age but is a precision timer. Sidereal Time is a star-based measurement system.",
-  "meta": { "theme": "science", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "science",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 52
+  },
   "groups": [
-    { "id": "g1", "label": "TRADITIONAL CLOCKS", "items": ["Pendulum Clock", "Cuckoo Clock", "Carriage Clock", "Mantel Clock"] },
-    { "id": "g2", "label": "ELECTRONIC TIMERS", "items": ["Quartz Watch", "Digital Timer", "Stopwatch", "Atomic Clock"] },
-    { "id": "g3", "label": "ANCIENT TIMEKEEPING", "items": ["Sundial", "Hourglass", "Water Clock", "Candle Clock"] },
-    { "id": "g4", "label": "CALENDAR SYSTEMS", "items": ["Julian Calendar", "Gregorian Calendar", "Lunar Calendar", "Sidereal Time"] }
+    {
+      "id": "g1",
+      "label": "TRADITIONAL CLOCKS",
+      "items": [
+        "Pendulum Clock",
+        "Cuckoo Clock",
+        "Carriage Clock",
+        "Mantel Clock"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "ELECTRONIC TIMERS",
+      "items": [
+        "Quartz Watch",
+        "Digital Timer",
+        "Stopwatch",
+        "Atomic Clock"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ANCIENT TIMEKEEPING",
+      "items": [
+        "Sundial",
+        "Hourglass",
+        "Water Clock",
+        "Candle Clock"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "CALENDAR SYSTEMS",
+      "items": [
+        "Julian Calendar",
+        "Gregorian Calendar",
+        "Lunar Calendar",
+        "Sidereal Time"
+      ]
+    }
   ]
 }

@@ -6,28 +6,49 @@
     "theme": "fashion",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "athletic",
       "label": "Athletic Shoes",
-      "items": ["Sneaker", "Cleat", "Running Shoe", "High-Top"]
+      "items": [
+        "Sneaker",
+        "Cleat",
+        "Running Shoe",
+        "High-Top"
+      ]
     },
     {
       "id": "formal",
       "label": "Formal Footwear",
-      "items": ["Oxford", "Loafer", "Derby", "Brogue"]
+      "items": [
+        "Oxford",
+        "Loafer",
+        "Derby",
+        "Brogue"
+      ]
     },
     {
       "id": "casual",
       "label": "Casual Footwear",
-      "items": ["Sandal", "Flip-Flop", "Espadrille", "Moccasin"]
+      "items": [
+        "Sandal",
+        "Flip-Flop",
+        "Espadrille",
+        "Moccasin"
+      ]
     },
     {
       "id": "boot",
       "label": "Boots",
-      "items": ["Chelsea", "Cowboy", "Hiking Boot", "Wellington"]
+      "items": [
+        "Chelsea",
+        "Cowboy",
+        "Hiking Boot",
+        "Wellington"
+      ]
     }
   ]
 }

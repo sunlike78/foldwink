@@ -2,11 +2,51 @@
   "id": "de-0093",
   "title": "Deutsche Philosophen",
   "difficulty": "easy",
-  "meta": { "theme": "Deutsche Philosophen", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Deutsche Philosophen",
+    "batch": "de-batch-04",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "group_a", "label": "Kant-Begriffe", "items": ["Kat. Imperativ", "Ding an sich", "Vernunft", "Aufklärung"] },
-    { "id": "group_b", "label": "Hegel-Begriffe", "items": ["Dialektik", "Weltgeist", "Aufhebung", "Phänomenologie"] },
-    { "id": "group_c", "label": "Nietzsche-Begriffe", "items": ["Übermensch", "Nihilismus", "Wille zur Macht", "Ewige Wiederkehr"] },
-    { "id": "group_d", "label": "Marx-Begriffe", "items": ["Klassenkampf", "Kapital", "Mehrwert", "Entfremdung"] }
+    {
+      "id": "group_a",
+      "label": "Kant-Begriffe",
+      "items": [
+        "Kat. Imperativ",
+        "Ding an sich",
+        "Vernunft",
+        "Aufklärung"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Hegel-Begriffe",
+      "items": [
+        "Dialektik",
+        "Weltgeist",
+        "Aufhebung",
+        "Phänomenologie"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Nietzsche-Begriffe",
+      "items": [
+        "Übermensch",
+        "Nihilismus",
+        "Wille zur Macht",
+        "Ewige Wiederkehr"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Marx-Begriffe",
+      "items": [
+        "Klassenkampf",
+        "Kapital",
+        "Mehrwert",
+        "Entfremdung"
+      ]
+    }
   ]
 }

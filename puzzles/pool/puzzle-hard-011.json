@@ -8,32 +8,53 @@
     "categoryType": "thematic",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "electric",
       "label": "Electrical power",
       "revealHint": "Electric",
-      "items": ["Watt", "Transformer", "Generator", "Turbine"]
+      "items": [
+        "Watt",
+        "Transformer",
+        "Generator",
+        "Turbine"
+      ]
     },
     {
       "id": "political",
       "label": "Political power",
       "revealHint": "Political",
-      "items": ["Veto", "Mandate", "Regime", "Sovereignty"]
+      "items": [
+        "Veto",
+        "Mandate",
+        "Regime",
+        "Sovereignty"
+      ]
     },
     {
       "id": "math",
       "label": "Math power",
       "revealHint": "Math",
-      "items": ["Exponent", "Logarithm", "Squared", "Cubed"]
+      "items": [
+        "Exponent",
+        "Logarithm",
+        "Squared",
+        "Cubed"
+      ]
     },
     {
       "id": "physical",
       "label": "Physical power",
       "revealHint": "Physical",
-      "items": ["Horsepower", "Torque", "Thrust", "Momentum"]
+      "items": [
+        "Horsepower",
+        "Torque",
+        "Thrust",
+        "Momentum"
+      ]
     }
   ]
 }

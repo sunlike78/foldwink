@@ -2,11 +2,51 @@
   "id": "de-0023",
   "title": "Transportmittel",
   "difficulty": "easy",
-  "meta": { "theme": "Transportmittel", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Transportmittel",
+    "batch": "de-batch-01",
+    "difficultyScore": 11
+  },
   "groups": [
-    { "id": "group_a", "label": "Straßenfahrzeuge", "items": ["Auto", "Motorrad", "LKW", "Bus"] },
-    { "id": "group_b", "label": "Schienenfahrzeuge", "items": ["Zug", "U-Bahn", "Straßenbahn", "S-Bahn"] },
-    { "id": "group_c", "label": "Wasserfahrzeuge", "items": ["Schiff", "Boot", "Fähre", "Kanu"] },
-    { "id": "group_d", "label": "Luftfahrzeuge", "items": ["Flugzeug", "Hubschrauber", "Heißluftballon", "Zeppelin"] }
+    {
+      "id": "group_a",
+      "label": "Straßenfahrzeuge",
+      "items": [
+        "Auto",
+        "Motorrad",
+        "LKW",
+        "Bus"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schienenfahrzeuge",
+      "items": [
+        "Zug",
+        "U-Bahn",
+        "Straßenbahn",
+        "S-Bahn"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wasserfahrzeuge",
+      "items": [
+        "Schiff",
+        "Boot",
+        "Fähre",
+        "Kanu"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Luftfahrzeuge",
+      "items": [
+        "Flugzeug",
+        "Hubschrauber",
+        "Heißluftballon",
+        "Zeppelin"
+      ]
+    }
   ]
 }

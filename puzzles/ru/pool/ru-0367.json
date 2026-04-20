@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Известные детские книги",
-    "batch": "ru-batch-15"
+    "batch": "ru-batch-15",
+    "difficultyScore": 28
   },
   "groups": [
     {

@@ -7,32 +7,53 @@
     "theme": "plants",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "g1",
       "label": "Plants With Physical Defences",
       "revealHint": "Spines",
-      "items": ["Cactus", "Holly", "Hawthorn", "Rose"]
+      "items": [
+        "Cactus",
+        "Holly",
+        "Hawthorn",
+        "Rose"
+      ]
     },
     {
       "id": "g2",
       "label": "Plants With Chemical Defences",
       "revealHint": "Toxin",
-      "items": ["Stinging Nettle", "Poison Ivy", "Deadly Nightshade", "Giant Hogweed"]
+      "items": [
+        "Stinging Nettle",
+        "Poison Ivy",
+        "Deadly Nightshade",
+        "Giant Hogweed"
+      ]
     },
     {
       "id": "g3",
       "label": "Carnivorous Plants",
       "revealHint": "Trap",
-      "items": ["Venus Flytrap", "Pitcher Plant", "Sundew", "Bladderwort"]
+      "items": [
+        "Venus Flytrap",
+        "Pitcher Plant",
+        "Sundew",
+        "Bladderwort"
+      ]
     },
     {
       "id": "g4",
       "label": "Plants With Mimicry Defences",
       "revealHint": "Disguise",
-      "items": ["Living Stone", "Passionflower", "Wild Ginger", "Bee Orchid"]
+      "items": [
+        "Living Stone",
+        "Passionflower",
+        "Wild Ginger",
+        "Bee Orchid"
+      ]
     }
   ]
 }

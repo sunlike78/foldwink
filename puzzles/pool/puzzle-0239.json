@@ -6,28 +6,49 @@
     "theme": "automotive",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "engine",
       "label": "Engine Parts",
-      "items": ["Piston", "Spark Plug", "Radiator", "Alternator"]
+      "items": [
+        "Piston",
+        "Spark Plug",
+        "Radiator",
+        "Alternator"
+      ]
     },
     {
       "id": "body",
       "label": "Body Panels",
-      "items": ["Hood", "Fender", "Bumper", "Door"]
+      "items": [
+        "Hood",
+        "Fender",
+        "Bumper",
+        "Door"
+      ]
     },
     {
       "id": "wheels",
       "label": "Wheel Assembly",
-      "items": ["Tire", "Rim", "Hubcap", "Axle"]
+      "items": [
+        "Tire",
+        "Rim",
+        "Hubcap",
+        "Axle"
+      ]
     },
     {
       "id": "interior",
       "label": "Car Interior",
-      "items": ["Dashboard", "Glove Box", "Seatbelt", "Gear Stick"]
+      "items": [
+        "Dashboard",
+        "Glove Box",
+        "Seatbelt",
+        "Gear Stick"
+      ]
     }
   ]
 }

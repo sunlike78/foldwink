@@ -3,11 +3,53 @@
   "title": "Operating Theatre",
   "difficulty": "easy",
   "editorialSummary": "Types of surgery grouped by approach: open surgery (laparotomy, thoracotomy, craniotomy, sternotomy), minimally invasive (laparoscopy, arthroscopy, thoracoscopy, hysteroscopy), reconstructive (skin graft, flap repair, rhinoplasty, palatoplasty), and transplant (renal, liver, heart, cornea). Each surgical type fits one approach family without ambiguity.",
-  "meta": { "theme": "types of surgery", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "types of surgery",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 50
+  },
   "groups": [
-    { "id": "g1", "label": "OPEN SURGERY", "items": ["Laparotomy", "Thoracotomy", "Craniotomy", "Sternotomy"] },
-    { "id": "g2", "label": "MINIMALLY INVASIVE", "items": ["Laparoscopy", "Arthroscopy", "Thoracoscopy", "Hysteroscopy"] },
-    { "id": "g3", "label": "RECONSTRUCTIVE", "items": ["Skin Graft", "Flap Repair", "Rhinoplasty", "Palatoplasty"] },
-    { "id": "g4", "label": "TRANSPLANT", "items": ["Renal", "Liver", "Heart", "Cornea"] }
+    {
+      "id": "g1",
+      "label": "OPEN SURGERY",
+      "items": [
+        "Laparotomy",
+        "Thoracotomy",
+        "Craniotomy",
+        "Sternotomy"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MINIMALLY INVASIVE",
+      "items": [
+        "Laparoscopy",
+        "Arthroscopy",
+        "Thoracoscopy",
+        "Hysteroscopy"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "RECONSTRUCTIVE",
+      "items": [
+        "Skin Graft",
+        "Flap Repair",
+        "Rhinoplasty",
+        "Palatoplasty"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "TRANSPLANT",
+      "items": [
+        "Renal",
+        "Liver",
+        "Heart",
+        "Cornea"
+      ]
+    }
   ]
 }

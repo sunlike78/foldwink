@@ -6,28 +6,49 @@
     "theme": "language",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "punctuation",
       "label": "Punctuation Marks",
-      "items": ["Comma", "Semicolon", "Colon", "Apostrophe"]
+      "items": [
+        "Comma",
+        "Semicolon",
+        "Colon",
+        "Apostrophe"
+      ]
     },
     {
       "id": "parts",
       "label": "Parts of Speech",
-      "items": ["Noun", "Verb", "Adjective", "Adverb"]
+      "items": [
+        "Noun",
+        "Verb",
+        "Adjective",
+        "Adverb"
+      ]
     },
     {
       "id": "alphabets",
       "label": "World Alphabets",
-      "items": ["Cyrillic", "Greek", "Hebrew", "Arabic"]
+      "items": [
+        "Cyrillic",
+        "Greek",
+        "Hebrew",
+        "Arabic"
+      ]
     },
     {
       "id": "sentence",
       "label": "Sentence Types",
-      "items": ["Statement", "Question", "Command", "Exclamation"]
+      "items": [
+        "Statement",
+        "Question",
+        "Command",
+        "Exclamation"
+      ]
     }
   ]
 }

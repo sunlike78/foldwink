@@ -6,28 +6,49 @@
     "theme": "history",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 32
   },
   "groups": [
     {
       "id": "g1",
       "label": "Medieval Clergy Ranks",
-      "items": ["Archbishop", "Bishop", "Abbot", "Deacon"]
+      "items": [
+        "Archbishop",
+        "Bishop",
+        "Abbot",
+        "Deacon"
+      ]
     },
     {
       "id": "g2",
       "label": "Medieval Nobility Titles",
-      "items": ["Duke", "Earl", "Marquess", "Baron"]
+      "items": [
+        "Duke",
+        "Earl",
+        "Marquess",
+        "Baron"
+      ]
     },
     {
       "id": "g3",
       "label": "Medieval Guild Tradespeople",
-      "items": ["Blacksmith", "Cooper", "Tanner", "Fletcher"]
+      "items": [
+        "Blacksmith",
+        "Cooper",
+        "Tanner",
+        "Fletcher"
+      ]
     },
     {
       "id": "g4",
       "label": "Medieval Military Roles",
-      "items": ["Knight", "Squire", "Archer", "Man-at-Arms"]
+      "items": [
+        "Knight",
+        "Squire",
+        "Archer",
+        "Man-at-Arms"
+      ]
     }
   ]
 }

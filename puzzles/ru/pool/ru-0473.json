@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Единицы измерения расстояния",
-    "batch": "ru-batch-20"
+    "batch": "ru-batch-20",
+    "difficultyScore": 13
   },
   "groups": [
     {

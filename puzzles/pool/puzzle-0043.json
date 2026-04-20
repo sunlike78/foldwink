@@ -6,22 +6,45 @@
     {
       "id": "high-clouds",
       "label": "High Clouds",
-      "items": ["Cirrus", "Cirrocumulus", "Cirrostratus", "Contrail"]
+      "items": [
+        "Cirrus",
+        "Cirrocumulus",
+        "Cirrostratus",
+        "Contrail"
+      ]
     },
     {
       "id": "low-clouds",
       "label": "Low Clouds",
-      "items": ["Stratus", "Stratocumulus", "Fog", "Mist"]
+      "items": [
+        "Stratus",
+        "Stratocumulus",
+        "Fog",
+        "Mist"
+      ]
     },
     {
       "id": "storm",
       "label": "Storm Signs",
-      "items": ["Anvil", "Gust Front", "Squall", "Funnel"]
+      "items": [
+        "Anvil",
+        "Gust Front",
+        "Squall",
+        "Funnel"
+      ]
     },
     {
       "id": "colors",
       "label": "Sky Colors",
-      "items": ["Dusk", "Golden", "Overcast", "Twilight"]
+      "items": [
+        "Dusk",
+        "Golden",
+        "Overcast",
+        "Twilight"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 52
+  }
 }

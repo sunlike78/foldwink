@@ -2,11 +2,51 @@
   "id": "ru-0194",
   "title": "Мода и стиль",
   "difficulty": "easy",
-  "meta": { "theme": "Стили в моде", "batch": "ru-batch-06" },
+  "meta": {
+    "theme": "Стили в моде",
+    "batch": "ru-batch-06",
+    "difficultyScore": 16
+  },
   "groups": [
-    { "id": "classic_fashion", "label": "Классика", "items": ["Смокинг", "Фрак", "Редингот", "Сюртук"] },
-    { "id": "street_fashion", "label": "Уличная мода", "items": ["Худи", "Сникеры", "Бомбер", "Кепка"] },
-    { "id": "subcultures", "label": "Субкультуры", "items": ["Готика", "Панк", "Хиппи", "Стимпанк"] },
-    { "id": "fashion_houses", "label": "Дома моды", "items": ["Chanel", "Dior", "Gucci", "Versace"] }
+    {
+      "id": "classic_fashion",
+      "label": "Классика",
+      "items": [
+        "Смокинг",
+        "Фрак",
+        "Редингот",
+        "Сюртук"
+      ]
+    },
+    {
+      "id": "street_fashion",
+      "label": "Уличная мода",
+      "items": [
+        "Худи",
+        "Сникеры",
+        "Бомбер",
+        "Кепка"
+      ]
+    },
+    {
+      "id": "subcultures",
+      "label": "Субкультуры",
+      "items": [
+        "Готика",
+        "Панк",
+        "Хиппи",
+        "Стимпанк"
+      ]
+    },
+    {
+      "id": "fashion_houses",
+      "label": "Дома моды",
+      "items": [
+        "Chanel",
+        "Dior",
+        "Gucci",
+        "Versace"
+      ]
+    }
   ]
 }

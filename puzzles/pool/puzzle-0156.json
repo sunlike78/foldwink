@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 23
   },
   "groups": [
     {
       "id": "theatre",
       "label": "Theatre cast",
       "revealHint": "Theatre",
-      "items": ["Ensemble", "Understudy", "Lead Role", "Audition"]
+      "items": [
+        "Ensemble",
+        "Understudy",
+        "Lead Role",
+        "Audition"
+      ]
     },
     {
       "id": "fishing",
       "label": "Fishing cast",
       "revealHint": "Fishing",
-      "items": ["Reel", "Rod", "Fly", "Lure"]
+      "items": [
+        "Reel",
+        "Rod",
+        "Fly",
+        "Lure"
+      ]
     },
     {
       "id": "medical",
       "label": "Medical cast",
       "revealHint": "Medical",
-      "items": ["Plaster", "Splint", "Sling", "Fracture"]
+      "items": [
+        "Plaster",
+        "Splint",
+        "Sling",
+        "Fracture"
+      ]
     },
     {
       "id": "metal",
       "label": "Metal casting",
       "revealHint": "Metal",
-      "items": ["Mould", "Foundry", "Alloy", "Crucible"]
+      "items": [
+        "Mould",
+        "Foundry",
+        "Alloy",
+        "Crucible"
+      ]
     }
   ]
 }

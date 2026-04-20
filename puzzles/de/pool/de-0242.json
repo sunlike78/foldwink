@@ -2,11 +2,51 @@
   "id": "de-0242",
   "title": "Deutsche Filmklassiker",
   "difficulty": "easy",
-  "meta": { "theme": "filmklassiker", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "filmklassiker",
+    "batch": "de-batch-03",
+    "difficultyScore": 33
+  },
   "groups": [
-    { "id": "group_a", "label": "Expressionismus-Filme", "items": ["Nosferatu", "Das Cabinet", "Golem", "Metropolis"] },
-    { "id": "group_b", "label": "Nachkriegsfilme", "items": ["Die Mörder", "Irgendwo in Berlin", "Rotation", "In jenen Tagen"] },
-    { "id": "group_c", "label": "Neue Welle Filme", "items": ["Das Boot", "Angst essen Seele", "Tin Drum", "Woyzeck"] },
-    { "id": "group_d", "label": "Gegenwartsfilme", "items": ["Good Bye Lenin!", "Das Leben der Anderen", "Lola rennt", "Toni Erdmann"] }
+    {
+      "id": "group_a",
+      "label": "Expressionismus-Filme",
+      "items": [
+        "Nosferatu",
+        "Das Cabinet",
+        "Golem",
+        "Metropolis"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Nachkriegsfilme",
+      "items": [
+        "Die Mörder",
+        "Irgendwo in Berlin",
+        "Rotation",
+        "In jenen Tagen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Neue Welle Filme",
+      "items": [
+        "Das Boot",
+        "Angst essen Seele",
+        "Tin Drum",
+        "Woyzeck"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Gegenwartsfilme",
+      "items": [
+        "Good Bye Lenin!",
+        "Das Leben der Anderen",
+        "Lola rennt",
+        "Toni Erdmann"
+      ]
+    }
   ]
 }

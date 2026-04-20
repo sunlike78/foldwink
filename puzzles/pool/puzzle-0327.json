@@ -7,32 +7,53 @@
     "theme": "transport",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 53
   },
   "groups": [
     {
       "id": "g1",
       "label": "Steam-Powered Vehicles",
       "revealHint": "Steam",
-      "items": ["Steam Locomotive", "Paddle Steamer", "Stanley Steamer", "Traction Engine"]
+      "items": [
+        "Steam Locomotive",
+        "Paddle Steamer",
+        "Stanley Steamer",
+        "Traction Engine"
+      ]
     },
     {
       "id": "g2",
       "label": "Internal Combustion Vehicles",
       "revealHint": "Engine",
-      "items": ["Petrol Car", "Diesel Truck", "Motorboat", "Piston Aircraft"]
+      "items": [
+        "Petrol Car",
+        "Diesel Truck",
+        "Motorboat",
+        "Piston Aircraft"
+      ]
     },
     {
       "id": "g3",
       "label": "Electric-Powered Vehicles",
       "revealHint": "Battery",
-      "items": ["Electric Tram", "Diesel-Electric Locomotive", "Trolleybus", "Maglev Train"]
+      "items": [
+        "Electric Tram",
+        "Diesel-Electric Locomotive",
+        "Trolleybus",
+        "Maglev Train"
+      ]
     },
     {
       "id": "g4",
       "label": "Human or Wind-Powered Vehicles",
       "revealHint": "Wind",
-      "items": ["Sailing Ship", "Bicycle", "Glider", "Kayak"]
+      "items": [
+        "Sailing Ship",
+        "Bicycle",
+        "Glider",
+        "Kayak"
+      ]
     }
   ]
 }

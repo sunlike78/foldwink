@@ -6,22 +6,45 @@
     {
       "id": "impressionists",
       "label": "Impressionists",
-      "items": ["Monet", "Renoir", "Degas", "Pissarro"]
+      "items": [
+        "Monet",
+        "Renoir",
+        "Degas",
+        "Pissarro"
+      ]
     },
     {
       "id": "renaissance",
       "label": "Renaissance Masters",
-      "items": ["Da Vinci", "Raphael", "Titian", "Botticelli"]
+      "items": [
+        "Da Vinci",
+        "Raphael",
+        "Titian",
+        "Botticelli"
+      ]
     },
     {
       "id": "modernists",
       "label": "Modernists",
-      "items": ["Picasso", "Matisse", "Kandinsky", "Mondrian"]
+      "items": [
+        "Picasso",
+        "Matisse",
+        "Kandinsky",
+        "Mondrian"
+      ]
     },
     {
       "id": "art-terms",
       "label": "Art Terms",
-      "items": ["Mural", "Still Life", "Portrait", "Landscape"]
+      "items": [
+        "Mural",
+        "Still Life",
+        "Portrait",
+        "Landscape"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 26
+  }
 }

@@ -6,28 +6,49 @@
     "theme": "mythology",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 35
   },
   "groups": [
     {
       "id": "characters",
       "label": "Arthurian Characters",
-      "items": ["King Arthur", "Merlin", "Guinevere", "Lancelot"]
+      "items": [
+        "King Arthur",
+        "Merlin",
+        "Guinevere",
+        "Lancelot"
+      ]
     },
     {
       "id": "objects",
       "label": "Legendary Objects",
-      "items": ["Excalibur", "Round Table", "Holy Grail", "Sword in the Stone"]
+      "items": [
+        "Excalibur",
+        "Round Table",
+        "Holy Grail",
+        "Sword in the Stone"
+      ]
     },
     {
       "id": "places",
       "label": "Legendary Places",
-      "items": ["Camelot", "Avalon", "Castle", "Forest"]
+      "items": [
+        "Camelot",
+        "Avalon",
+        "Castle",
+        "Forest"
+      ]
     },
     {
       "id": "themes",
       "label": "Knightly Themes",
-      "items": ["Chivalry", "Quest", "Joust", "Honor"]
+      "items": [
+        "Chivalry",
+        "Quest",
+        "Joust",
+        "Honor"
+      ]
     }
   ]
 }

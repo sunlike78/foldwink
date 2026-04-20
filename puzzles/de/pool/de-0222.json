@@ -2,11 +2,51 @@
   "id": "de-0222",
   "title": "Europäische Märchen",
   "difficulty": "easy",
-  "meta": { "theme": "europaeische-maerchen", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "europaeische-maerchen",
+    "batch": "de-batch-03",
+    "difficultyScore": 35
+  },
   "groups": [
-    { "id": "group_a", "label": "Grimm-Märchen", "items": ["Rotkäppchen", "Hänsel und Gretel", "Froschkönig", "Rumpelstilzchen"] },
-    { "id": "group_b", "label": "Andersen-Märchen", "items": ["Kleine Meerjungfrau", "Däumelinchen", "Hässliches Entlein", "Standhafter Zinnsoldat"] },
-    { "id": "group_c", "label": "Perrault-Märchen", "items": ["Blaubart", "Gestiefelte Kater", "Dornröschen", "Aschenputtel"] },
-    { "id": "group_d", "label": "Slawische Märchen", "items": ["Baba Jaga", "Iwan Zarewitsch", "Firebird", "Wassilissa"] }
+    {
+      "id": "group_a",
+      "label": "Grimm-Märchen",
+      "items": [
+        "Rotkäppchen",
+        "Hänsel und Gretel",
+        "Froschkönig",
+        "Rumpelstilzchen"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Andersen-Märchen",
+      "items": [
+        "Kleine Meerjungfrau",
+        "Däumelinchen",
+        "Hässliches Entlein",
+        "Standhafter Zinnsoldat"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Perrault-Märchen",
+      "items": [
+        "Blaubart",
+        "Gestiefelte Kater",
+        "Dornröschen",
+        "Aschenputtel"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Slawische Märchen",
+      "items": [
+        "Baba Jaga",
+        "Iwan Zarewitsch",
+        "Firebird",
+        "Wassilissa"
+      ]
+    }
   ]
 }

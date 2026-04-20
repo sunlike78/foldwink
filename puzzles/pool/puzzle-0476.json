@@ -3,11 +3,57 @@
   "title": "Once Upon a Time",
   "difficulty": "medium",
   "editorialSummary": "Fairy tale character archetypes sorted by their narrative function. False trail: the Witch and the Stepmother are both antagonists, but the grouping is by function archetype — Trickster, Villain, Helper, and Hero. Some characters can seem like heroes or helpers, so the canonical function label is the anchor.",
-  "meta": { "theme": "fairy tale archetypes", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "fairy tale archetypes",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 38
+  },
   "groups": [
-    { "id": "g1", "label": "THE HERO", "revealHint": "Hero", "items": ["Youngest Son", "Cinderella", "Jack", "Little Tailor"] },
-    { "id": "g2", "label": "THE VILLAIN", "revealHint": "Villain", "items": ["Evil Stepmother", "Witch", "Wolf", "Ogre"] },
-    { "id": "g3", "label": "THE HELPER", "revealHint": "Helper", "items": ["Fairy Godmother", "Talking Animal", "Wise Old Man", "Magic Fish"] },
-    { "id": "g4", "label": "THE TRICKSTER", "revealHint": "Trick", "items": ["Tom Thumb", "Puss in Boots", "Rumpelstiltskin", "Clever Gretel"] }
+    {
+      "id": "g1",
+      "label": "THE HERO",
+      "revealHint": "Hero",
+      "items": [
+        "Youngest Son",
+        "Cinderella",
+        "Jack",
+        "Little Tailor"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "THE VILLAIN",
+      "revealHint": "Villain",
+      "items": [
+        "Evil Stepmother",
+        "Witch",
+        "Wolf",
+        "Ogre"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "THE HELPER",
+      "revealHint": "Helper",
+      "items": [
+        "Fairy Godmother",
+        "Talking Animal",
+        "Wise Old Man",
+        "Magic Fish"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "THE TRICKSTER",
+      "revealHint": "Trick",
+      "items": [
+        "Tom Thumb",
+        "Puss in Boots",
+        "Rumpelstiltskin",
+        "Clever Gretel"
+      ]
+    }
   ]
 }

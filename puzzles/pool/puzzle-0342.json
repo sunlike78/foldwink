@@ -7,34 +7,55 @@
     "theme": "architecture",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 41
   },
   "groups": [
     {
       "id": "g1",
       "label": "Famous Cathedrals",
-      "items": ["Notre-Dame", "Chartres Cathedral", "Cologne Cathedral", "St Basil's"],
+      "items": [
+        "Notre-Dame",
+        "Chartres Cathedral",
+        "Cologne Cathedral",
+        "St Basil's"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Famous Palaces",
-      "items": ["Versailles", "Alhambra", "Topkapi", "Potala Palace"],
+      "items": [
+        "Versailles",
+        "Alhambra",
+        "Topkapi",
+        "Potala Palace"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Famous Opera Houses",
-      "items": ["Sydney Opera House", "La Scala", "Vienna State Opera", "Met Opera"],
+      "items": [
+        "Sydney Opera House",
+        "La Scala",
+        "Vienna State Opera",
+        "Met Opera"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Famous Modern Towers",
-      "items": ["Burj Khalifa", "The Shard", "One World Trade", "Petronas Towers"],
+      "items": [
+        "Burj Khalifa",
+        "The Shard",
+        "One World Trade",
+        "Petronas Towers"
+      ],
       "color": "purple",
       "revealHint": ""
     }

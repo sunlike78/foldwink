@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Виды хирургических операций",
-    "batch": "ru-batch-20"
+    "batch": "ru-batch-20",
+    "difficultyScore": 46
   },
   "groups": [
     {

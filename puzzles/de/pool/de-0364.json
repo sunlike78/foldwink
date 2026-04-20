@@ -2,31 +2,55 @@
   "id": "de-0364",
   "title": "Modestile der Jahrzehnte",
   "difficulty": "medium",
-  "meta": { "theme": "Mode Geschichte", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Mode Geschichte",
+    "batch": "de-batch-04",
+    "difficultyScore": 42
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Mode der 1950er",
       "revealHint": "Nachkriegsstil",
-      "items": ["New Look", "Petticoat", "Wespentaille", "Poodle Skirt"]
+      "items": [
+        "New Look",
+        "Petticoat",
+        "Wespentaille",
+        "Poodle Skirt"
+      ]
     },
     {
       "id": "group_b",
       "label": "Mode der 1960er",
       "revealHint": "Jugendrevolution",
-      "items": ["Minirock", "Go-Go-Boots", "Mod-Look", "Mary Quant"]
+      "items": [
+        "Minirock",
+        "Go-Go-Boots",
+        "Mod-Look",
+        "Mary Quant"
+      ]
     },
     {
       "id": "group_c",
       "label": "Mode der 1970er",
       "revealHint": "Disco und Hippie",
-      "items": ["Schlaghose", "Platform-Shoes", "Lederfransen", "Batik"]
+      "items": [
+        "Schlaghose",
+        "Platform-Shoes",
+        "Lederfransen",
+        "Batik"
+      ]
     },
     {
       "id": "group_d",
       "label": "Mode der 1980er",
       "revealHint": "Glanz und Power",
-      "items": ["Schulterpolster", "Neonfarben", "Oversize", "Leg Warmers"]
+      "items": [
+        "Schulterpolster",
+        "Neonfarben",
+        "Oversize",
+        "Leg Warmers"
+      ]
     }
   ]
 }

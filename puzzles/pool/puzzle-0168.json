@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "write",
       "label": "Writing paper",
       "revealHint": "Writing",
-      "items": ["Parchment", "Vellum", "Letterhead", "Stationery"]
+      "items": [
+        "Parchment",
+        "Vellum",
+        "Letterhead",
+        "Stationery"
+      ]
     },
     {
       "id": "news",
       "label": "Newspaper",
       "revealHint": "News",
-      "items": ["Headline", "Editorial", "Column", "Classified"]
+      "items": [
+        "Headline",
+        "Editorial",
+        "Column",
+        "Classified"
+      ]
     },
     {
       "id": "academic",
       "label": "Academic paper",
       "revealHint": "Academic",
-      "items": ["Abstract", "Citation", "Peer Review", "Journal"]
+      "items": [
+        "Abstract",
+        "Citation",
+        "Peer Review",
+        "Journal"
+      ]
     },
     {
       "id": "origami",
       "label": "Paper folding",
       "revealHint": "Origami",
-      "items": ["Crane", "Lotus", "Fortune Teller", "Swan"]
+      "items": [
+        "Crane",
+        "Lotus",
+        "Fortune Teller",
+        "Swan"
+      ]
     }
   ]
 }

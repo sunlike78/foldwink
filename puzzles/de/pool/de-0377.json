@@ -2,31 +2,55 @@
   "id": "de-0377",
   "title": "Nachhaltigkeit",
   "difficulty": "medium",
-  "meta": { "theme": "Nachhaltigkeit", "batch": "de-batch-04" },
+  "meta": {
+    "theme": "Nachhaltigkeit",
+    "batch": "de-batch-04",
+    "difficultyScore": 31
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Nachhaltigkeits-Konzepte",
       "revealHint": "Grundideen",
-      "items": ["Kreislaufwirtschaft", "CO2-Neutralität", "SDGs", "Triple Bottom Line"]
+      "items": [
+        "Kreislaufwirtschaft",
+        "CO2-Neutralität",
+        "SDGs",
+        "Triple Bottom Line"
+      ]
     },
     {
       "id": "group_b",
       "label": "Nachhaltigkeitszertifikate",
       "revealHint": "Öko-Siegel",
-      "items": ["Fairtrade", "Bio-Siegel", "FSC", "Blauer Engel"]
+      "items": [
+        "Fairtrade",
+        "Bio-Siegel",
+        "FSC",
+        "Blauer Engel"
+      ]
     },
     {
       "id": "group_c",
       "label": "Nachhaltige Technologien",
       "revealHint": "Grüne Technik",
-      "items": ["Solarenergie", "Windkraft", "Wasserstoff", "Geothermie"]
+      "items": [
+        "Solarenergie",
+        "Windkraft",
+        "Wasserstoff",
+        "Geothermie"
+      ]
     },
     {
       "id": "group_d",
       "label": "Nachhaltige Unternehmen",
       "revealHint": "Grüne Firmen",
-      "items": ["Patagonia", "Oatly", "Vestas", "Beyond Meat"]
+      "items": [
+        "Patagonia",
+        "Oatly",
+        "Vestas",
+        "Beyond Meat"
+      ]
     }
   ]
 }

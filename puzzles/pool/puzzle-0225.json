@@ -7,32 +7,53 @@
     "theme": "clothing",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "hats",
       "label": "Hat Styles",
       "revealHint": "Head",
-      "items": ["Fedora", "Beret", "Beanie", "Top Hat"]
+      "items": [
+        "Fedora",
+        "Beret",
+        "Beanie",
+        "Top Hat"
+      ]
     },
     {
       "id": "gloves",
       "label": "Glove Styles",
       "revealHint": "Hand",
-      "items": ["Mitten", "Gauntlet", "Oven Mitt", "Fingerless"]
+      "items": [
+        "Mitten",
+        "Gauntlet",
+        "Oven Mitt",
+        "Fingerless"
+      ]
     },
     {
       "id": "belts",
       "label": "Belt Styles",
       "revealHint": "Waist",
-      "items": ["Sash", "Cummerbund", "Tool Belt", "Obi"]
+      "items": [
+        "Sash",
+        "Cummerbund",
+        "Tool Belt",
+        "Obi"
+      ]
     },
     {
       "id": "scarves",
       "label": "Scarf Styles",
       "revealHint": "Neck",
-      "items": ["Shawl", "Pashmina", "Cravat", "Bandana"]
+      "items": [
+        "Shawl",
+        "Pashmina",
+        "Cravat",
+        "Bandana"
+      ]
     }
   ]
 }

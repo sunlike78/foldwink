@@ -8,25 +8,48 @@
       "id": "cuban",
       "label": "Cuban Origin",
       "revealHint": "CUBA",
-      "items": ["Mambo", "Son", "Danzón", "Guaguancó"]
+      "items": [
+        "Mambo",
+        "Son",
+        "Danzón",
+        "Guaguancó"
+      ]
     },
     {
       "id": "brazilian",
       "label": "Brazilian Origin",
       "revealHint": "BRAZIL",
-      "items": ["Samba", "Bossa Nova", "Forró", "Maracatu"]
+      "items": [
+        "Samba",
+        "Bossa Nova",
+        "Forró",
+        "Maracatu"
+      ]
     },
     {
       "id": "argentine",
       "label": "Argentine Origin",
       "revealHint": "TANGO",
-      "items": ["Milonga", "Zamba", "Chacarera", "Malambo"]
+      "items": [
+        "Milonga",
+        "Zamba",
+        "Chacarera",
+        "Malambo"
+      ]
     },
     {
       "id": "european",
       "label": "European Origin",
       "revealHint": "VIENNA",
-      "items": ["Waltz", "Polka", "Flamenco", "Tarantella"]
+      "items": [
+        "Waltz",
+        "Polka",
+        "Flamenco",
+        "Tarantella"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 36
+  }
 }

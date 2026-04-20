@@ -3,11 +3,53 @@
   "title": "Both Ways",
   "difficulty": "easy",
   "editorialSummary": "Contronyms (autoantonyms) — single English words with two directly opposite meanings — grouped by the type of opposition they embody. ALLOW vs PROHIBIT: sanction (permit vs penalise), enjoin (urge vs legally forbid), screen (show to an audience vs hide from view), table (put forward for discussion in British English vs postpone in American English). SEPARATE vs JOIN: cleave (split apart vs cling together), ravel (tangle vs untangle), buckle (fasten securely vs bend and collapse), fix (make permanent vs repair/remove). ADD vs REMOVE: dust (remove dust vs apply powder), seed (plant seeds vs remove seeds), stone (remove stones from fruit vs pave with stones), trim (cut away vs decorate with trimmings). SECURED vs FREE: bolt (lock a door vs sprint away), bound (tied up vs leaping forward), fast (firmly fixed vs moving quickly), left (departed vs remaining).",
-  "meta": { "theme": "contronyms / autoantonyms", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "contronyms / autoantonyms",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 21
+  },
   "groups": [
-    { "id": "g1", "label": "MEANS ALLOW AND PROHIBIT", "items": ["Sanction", "Enjoin", "Screen", "Table"] },
-    { "id": "g2", "label": "MEANS SEPARATE AND JOIN", "items": ["Cleave", "Ravel", "Buckle", "Fix"] },
-    { "id": "g3", "label": "MEANS ADD AND REMOVE", "items": ["Dust", "Seed", "Stone", "Trim"] },
-    { "id": "g4", "label": "MEANS SECURED AND FREE", "items": ["Bolt", "Bound", "Fast", "Left"] }
+    {
+      "id": "g1",
+      "label": "MEANS ALLOW AND PROHIBIT",
+      "items": [
+        "Sanction",
+        "Enjoin",
+        "Screen",
+        "Table"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MEANS SEPARATE AND JOIN",
+      "items": [
+        "Cleave",
+        "Ravel",
+        "Buckle",
+        "Fix"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "MEANS ADD AND REMOVE",
+      "items": [
+        "Dust",
+        "Seed",
+        "Stone",
+        "Trim"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "MEANS SECURED AND FREE",
+      "items": [
+        "Bolt",
+        "Bound",
+        "Fast",
+        "Left"
+      ]
+    }
   ]
 }

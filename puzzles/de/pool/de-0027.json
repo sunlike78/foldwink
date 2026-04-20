@@ -2,11 +2,51 @@
   "id": "de-0027",
   "title": "Unser Sonnensystem",
   "difficulty": "easy",
-  "meta": { "theme": "Planetensystem", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Planetensystem",
+    "batch": "de-batch-01",
+    "difficultyScore": 15
+  },
   "groups": [
-    { "id": "group_a", "label": "Gesteinsplaneten", "items": ["Merkur", "Venus", "Erde", "Mars"] },
-    { "id": "group_b", "label": "Gasriesen", "items": ["Jupiter", "Saturn", "Uranus", "Neptun"] },
-    { "id": "group_c", "label": "Bekannte Monde", "items": ["Mond", "Titan", "Europa", "Ganymed"] },
-    { "id": "group_d", "label": "Kleinkörper", "items": ["Komet", "Asteroid", "Meteorit", "Pluto"] }
+    {
+      "id": "group_a",
+      "label": "Gesteinsplaneten",
+      "items": [
+        "Merkur",
+        "Venus",
+        "Erde",
+        "Mars"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Gasriesen",
+      "items": [
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptun"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Bekannte Monde",
+      "items": [
+        "Mond",
+        "Titan",
+        "Europa",
+        "Ganymed"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kleinkörper",
+      "items": [
+        "Komet",
+        "Asteroid",
+        "Meteorit",
+        "Pluto"
+      ]
+    }
   ]
 }

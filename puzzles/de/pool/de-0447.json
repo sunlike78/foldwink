@@ -2,11 +2,55 @@
   "id": "de-0447",
   "title": "Pop Art",
   "difficulty": "medium",
-  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "kunst",
+    "batch": "de-batch-05",
+    "difficultyScore": 40
+  },
   "groups": [
-    { "id": "group_a", "label": "Pop Art Künstler", "revealHint": "Stars der Bewegung", "items": ["Andy Warhol", "Roy Lichtenstein", "Jasper Johns", "Claes Oldenburg"] },
-    { "id": "group_b", "label": "Pop Art Werke", "revealHint": "Bekannte Bilder", "items": ["Campbell's Soup", "Marilyn Monroe", "Whaam!", "Drowning Girl"] },
-    { "id": "group_c", "label": "Pop Art Motive", "revealHint": "Typische Themen", "items": ["Konsumartikel", "Comicstreifen", "Filmstars", "Werbeplakate"] },
-    { "id": "group_d", "label": "Pop Art Länder", "revealHint": "Herkunftsländer", "items": ["USA", "Großbritannien", "Deutschland", "Japan"] }
+    {
+      "id": "group_a",
+      "label": "Pop Art Künstler",
+      "revealHint": "Stars der Bewegung",
+      "items": [
+        "Andy Warhol",
+        "Roy Lichtenstein",
+        "Jasper Johns",
+        "Claes Oldenburg"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Pop Art Werke",
+      "revealHint": "Bekannte Bilder",
+      "items": [
+        "Campbell's Soup",
+        "Marilyn Monroe",
+        "Whaam!",
+        "Drowning Girl"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Pop Art Motive",
+      "revealHint": "Typische Themen",
+      "items": [
+        "Konsumartikel",
+        "Comicstreifen",
+        "Filmstars",
+        "Werbeplakate"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Pop Art Länder",
+      "revealHint": "Herkunftsländer",
+      "items": [
+        "USA",
+        "Großbritannien",
+        "Deutschland",
+        "Japan"
+      ]
+    }
   ]
 }

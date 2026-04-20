@@ -8,25 +8,48 @@
       "id": "shoes",
       "label": "Shoe Styles",
       "revealHint": "SHOES",
-      "items": ["Loafer", "Oxford", "Brogue", "Moccasin"]
+      "items": [
+        "Loafer",
+        "Oxford",
+        "Brogue",
+        "Moccasin"
+      ]
     },
     {
       "id": "pants",
       "label": "Pants",
       "revealHint": "PANTS",
-      "items": ["Jeans", "Chinos", "Leggings", "Cargo"]
+      "items": [
+        "Jeans",
+        "Chinos",
+        "Leggings",
+        "Cargo"
+      ]
     },
     {
       "id": "shirts",
       "label": "Shirts",
       "revealHint": "SHIRT",
-      "items": ["Polo", "Blouse", "Tank", "Henley"]
+      "items": [
+        "Polo",
+        "Blouse",
+        "Tank",
+        "Henley"
+      ]
     },
     {
       "id": "coats",
       "label": "Coats",
       "revealHint": "COAT",
-      "items": ["Parka", "Trench", "Peacoat", "Blazer"]
+      "items": [
+        "Parka",
+        "Trench",
+        "Peacoat",
+        "Blazer"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 12
+  }
 }

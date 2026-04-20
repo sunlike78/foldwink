@@ -8,25 +8,48 @@
       "id": "chess",
       "label": "Chess Terms",
       "revealHint": "CHESS",
-      "items": ["Gambit", "Pin", "Zugzwang", "Fianchetto"]
+      "items": [
+        "Gambit",
+        "Pin",
+        "Zugzwang",
+        "Fianchetto"
+      ]
     },
     {
       "id": "poker",
       "label": "Poker Terms",
       "revealHint": "POKER",
-      "items": ["Flop", "Bluff", "River", "Straight"]
+      "items": [
+        "Flop",
+        "Bluff",
+        "River",
+        "Straight"
+      ]
     },
     {
       "id": "go",
       "label": "Go Terms",
       "revealHint": "GO",
-      "items": ["Atari", "Joseki", "Komi", "Seki"]
+      "items": [
+        "Atari",
+        "Joseki",
+        "Komi",
+        "Seki"
+      ]
     },
     {
       "id": "tennis",
       "label": "Tennis Terms",
       "revealHint": "TENNIS",
-      "items": ["Ace", "Lob", "Volley", "Deuce"]
+      "items": [
+        "Ace",
+        "Lob",
+        "Volley",
+        "Deuce"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 20
+  }
 }

@@ -6,20 +6,49 @@
     "theme": "garden",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
-    { "id": "dig", "label": "Digging Tools", "items": ["Spade", "Trowel", "Hoe", "Mattock"] },
-    { "id": "cut", "label": "Cutting Tools", "items": ["Pruner", "Shears", "Saw", "Loppers"] },
+    {
+      "id": "dig",
+      "label": "Digging Tools",
+      "items": [
+        "Spade",
+        "Trowel",
+        "Hoe",
+        "Mattock"
+      ]
+    },
+    {
+      "id": "cut",
+      "label": "Cutting Tools",
+      "items": [
+        "Pruner",
+        "Shears",
+        "Saw",
+        "Loppers"
+      ]
+    },
     {
       "id": "water",
       "label": "Watering Tools",
-      "items": ["Hose", "Sprinkler", "Watering Can", "Drip Line"]
+      "items": [
+        "Hose",
+        "Sprinkler",
+        "Watering Can",
+        "Drip Line"
+      ]
     },
     {
       "id": "carry",
       "label": "Carrying Tools",
-      "items": ["Wheelbarrow", "Bucket", "Basket", "Sack"]
+      "items": [
+        "Wheelbarrow",
+        "Bucket",
+        "Basket",
+        "Sack"
+      ]
     }
   ]
 }

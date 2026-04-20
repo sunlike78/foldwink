@@ -2,11 +2,51 @@
   "id": "de-0109",
   "title": "Gemüsegarten",
   "difficulty": "easy",
-  "meta": { "theme": "Garten", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Garten",
+    "batch": "de-batch-02",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "group_a", "label": "Wurzelgemüse", "items": ["Möhre", "Rote Bete", "Rettich", "Pastinake"] },
-    { "id": "group_b", "label": "Blattgemüse", "items": ["Spinat", "Mangold", "Grünkohl", "Kopfsalat"] },
-    { "id": "group_c", "label": "Fruchtgemüse", "items": ["Tomate", "Zucchini", "Gurke", "Paprika"] },
-    { "id": "group_d", "label": "Kräuter", "items": ["Petersilie", "Schnittlauch", "Basilikum", "Dill"] }
+    {
+      "id": "group_a",
+      "label": "Wurzelgemüse",
+      "items": [
+        "Möhre",
+        "Rote Bete",
+        "Rettich",
+        "Pastinake"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Blattgemüse",
+      "items": [
+        "Spinat",
+        "Mangold",
+        "Grünkohl",
+        "Kopfsalat"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Fruchtgemüse",
+      "items": [
+        "Tomate",
+        "Zucchini",
+        "Gurke",
+        "Paprika"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kräuter",
+      "items": [
+        "Petersilie",
+        "Schnittlauch",
+        "Basilikum",
+        "Dill"
+      ]
+    }
   ]
 }

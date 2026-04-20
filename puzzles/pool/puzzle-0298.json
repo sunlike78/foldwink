@@ -7,32 +7,53 @@
     "theme": "science",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 61
   },
   "groups": [
     {
       "id": "g1",
       "label": "Earth's Core Layers",
       "revealHint": "Iron",
-      "items": ["Inner Core", "Outer Core", "D-Prime Layer", "Core-Mantle Boundary"]
+      "items": [
+        "Inner Core",
+        "Outer Core",
+        "D-Prime Layer",
+        "Core-Mantle Boundary"
+      ]
     },
     {
       "id": "g2",
       "label": "Earth's Mantle Zones",
       "revealHint": "Mantle",
-      "items": ["Upper Mantle", "Lower Mantle", "Asthenosphere", "Transition Zone"]
+      "items": [
+        "Upper Mantle",
+        "Lower Mantle",
+        "Asthenosphere",
+        "Transition Zone"
+      ]
     },
     {
       "id": "g3",
       "label": "Earth's Crust Types",
       "revealHint": "Crust",
-      "items": ["Continental Crust", "Oceanic Crust", "Granite Layer", "Basalt Layer"]
+      "items": [
+        "Continental Crust",
+        "Oceanic Crust",
+        "Granite Layer",
+        "Basalt Layer"
+      ]
     },
     {
       "id": "g4",
       "label": "Atmospheric Layers",
       "revealHint": "Sky",
-      "items": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"]
+      "items": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere"
+      ]
     }
   ]
 }

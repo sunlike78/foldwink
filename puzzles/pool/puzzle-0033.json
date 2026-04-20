@@ -6,22 +6,45 @@
     {
       "id": "power-tools",
       "label": "Power Tools",
-      "items": ["Sander", "Jigsaw", "Grinder", "Router"]
+      "items": [
+        "Sander",
+        "Jigsaw",
+        "Grinder",
+        "Router"
+      ]
     },
     {
       "id": "fasteners",
       "label": "Fasteners",
-      "items": ["Screw", "Bolt", "Nail", "Rivet"]
+      "items": [
+        "Screw",
+        "Bolt",
+        "Nail",
+        "Rivet"
+      ]
     },
     {
       "id": "measuring",
       "label": "Measuring",
-      "items": ["Ruler", "Caliper", "Level", "Compass"]
+      "items": [
+        "Ruler",
+        "Caliper",
+        "Level",
+        "Compass"
+      ]
     },
     {
       "id": "safety",
       "label": "Safety Gear",
-      "items": ["Goggles", "Gloves", "Helmet", "Earplugs"]
+      "items": [
+        "Goggles",
+        "Gloves",
+        "Helmet",
+        "Earplugs"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 12
+  }
 }

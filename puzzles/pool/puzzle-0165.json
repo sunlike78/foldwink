@@ -7,32 +7,53 @@
     "theme": "abstract",
     "categoryType": "attribute",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 20
   },
   "groups": [
     {
       "id": "tv",
       "label": "Watching TV",
       "revealHint": "TV",
-      "items": ["Binge", "Episode", "Season", "Streaming"]
+      "items": [
+        "Binge",
+        "Episode",
+        "Season",
+        "Streaming"
+      ]
     },
     {
       "id": "birds",
       "label": "Birdwatching",
       "revealHint": "Birds",
-      "items": ["Binoculars", "Field Guide", "Migration", "Nesting"]
+      "items": [
+        "Binoculars",
+        "Field Guide",
+        "Migration",
+        "Nesting"
+      ]
     },
     {
       "id": "time",
       "label": "Watching time",
       "revealHint": "Time",
-      "items": ["Wristwatch", "Sundial", "Hourglass", "Stopwatch"]
+      "items": [
+        "Wristwatch",
+        "Sundial",
+        "Hourglass",
+        "Stopwatch"
+      ]
     },
     {
       "id": "sports",
       "label": "Spectating",
       "revealHint": "Spectate",
-      "items": ["Stadium", "Bleachers", "Replay", "Commentary"]
+      "items": [
+        "Stadium",
+        "Bleachers",
+        "Replay",
+        "Commentary"
+      ]
     }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Фокусы и оптические иллюзии",
-    "batch": "ru-batch-14"
+    "batch": "ru-batch-14",
+    "difficultyScore": 46
   },
   "groups": [
     {

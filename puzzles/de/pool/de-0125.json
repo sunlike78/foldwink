@@ -2,11 +2,51 @@
   "id": "de-0125",
   "title": "Aquarium und Terrarium",
   "difficulty": "easy",
-  "meta": { "theme": "Tiere", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Tiere",
+    "batch": "de-batch-02",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "group_a", "label": "Süßwasserfische", "items": ["Guppy", "Neon", "Diskusfisch", "Goldfisch"] },
-    { "id": "group_b", "label": "Meerwasserfische", "items": ["Clownfisch", "Doktorfisch", "Feuerfisch", "Lippfisch"] },
-    { "id": "group_c", "label": "Reptilien", "items": ["Bartagame", "Königspython", "Leopardgecko", "Wasseragame"] },
-    { "id": "group_d", "label": "Wasserpflanzen", "items": ["Anubias", "Vallisnerien", "Cryptocoryne", "Javafarn"] }
+    {
+      "id": "group_a",
+      "label": "Süßwasserfische",
+      "items": [
+        "Guppy",
+        "Neon",
+        "Diskusfisch",
+        "Goldfisch"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Meerwasserfische",
+      "items": [
+        "Clownfisch",
+        "Doktorfisch",
+        "Feuerfisch",
+        "Lippfisch"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Reptilien",
+      "items": [
+        "Bartagame",
+        "Königspython",
+        "Leopardgecko",
+        "Wasseragame"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wasserpflanzen",
+      "items": [
+        "Anubias",
+        "Vallisnerien",
+        "Cryptocoryne",
+        "Javafarn"
+      ]
+    }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Цирк",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 23
   },
   "groups": [
     {

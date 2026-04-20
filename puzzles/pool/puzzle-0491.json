@@ -3,11 +3,57 @@
   "title": "Your Eyes Deceive You",
   "difficulty": "medium",
   "editorialSummary": "Optical illusions grouped by the perceptual mechanism that causes them. Ambiguous figure illusions (figure-ground or multistable perception): Rubin's Vase, Necker Cube, Duck-Rabbit, Old-Young Woman. Geometric distortion illusions (lines or shapes appear different sizes or angles than they are): Muller-Lyer, Ponzo, Cafe Wall, Zollner. Motion illusions (static images perceived as moving): Rotating Snakes, Fraser Spiral, Peripheral Drift, Pinna-Brelstaff. Colour/contrast illusions (identical colours or brightness perceived as different): Checker Shadow, Hermann Grid, Simultaneous Contrast, Mach Bands. False trail: the Necker Cube involves perceived motion (rotation) but is canonically an ambiguous figure illusion; Cafe Wall involves both colour contrast and geometric distortion but is primarily classified as geometric.",
-  "meta": { "theme": "optical illusion types", "categoryType": "classification", "batch": "batch-15", "status": "approved" },
+  "meta": {
+    "theme": "optical illusion types",
+    "categoryType": "classification",
+    "batch": "batch-15",
+    "status": "approved",
+    "difficultyScore": 43
+  },
   "groups": [
-    { "id": "g1", "label": "AMBIGUOUS FIGURE", "revealHint": "Both", "items": ["Rubin's Vase", "Necker Cube", "Duck-Rabbit", "Old-Young Woman"] },
-    { "id": "g2", "label": "GEOMETRIC DISTORTION", "revealHint": "Bent", "items": ["Muller-Lyer", "Ponzo Illusion", "Cafe Wall", "Zollner Illusion"] },
-    { "id": "g3", "label": "MOTION ILLUSION", "revealHint": "Move", "items": ["Rotating Snakes", "Peripheral Drift", "Pinna-Brelstaff", "Enigma Illusion"] },
-    { "id": "g4", "label": "COLOUR / CONTRAST", "revealHint": "Same", "items": ["Checker Shadow", "Hermann Grid", "Simultaneous Contrast", "Mach Bands"] }
+    {
+      "id": "g1",
+      "label": "AMBIGUOUS FIGURE",
+      "revealHint": "Both",
+      "items": [
+        "Rubin's Vase",
+        "Necker Cube",
+        "Duck-Rabbit",
+        "Old-Young Woman"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "GEOMETRIC DISTORTION",
+      "revealHint": "Bent",
+      "items": [
+        "Muller-Lyer",
+        "Ponzo Illusion",
+        "Cafe Wall",
+        "Zollner Illusion"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "MOTION ILLUSION",
+      "revealHint": "Move",
+      "items": [
+        "Rotating Snakes",
+        "Peripheral Drift",
+        "Pinna-Brelstaff",
+        "Enigma Illusion"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "COLOUR / CONTRAST",
+      "revealHint": "Same",
+      "items": [
+        "Checker Shadow",
+        "Hermann Grid",
+        "Simultaneous Contrast",
+        "Mach Bands"
+      ]
+    }
   ]
 }

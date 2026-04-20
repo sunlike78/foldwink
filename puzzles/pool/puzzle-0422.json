@@ -3,11 +3,57 @@
   "title": "Architectural Movements",
   "difficulty": "medium",
   "editorialSummary": "Architecture movements grouped by era and aesthetic: Baroque/Rococo, Neoclassical, Art Nouveau/Art Deco, Modernist. False trail: Bauhaus is Modernist not Art Deco despite shared geometric aesthetics; Rococo could be confused with Baroque (it is its ornate sub-style).",
-  "meta": { "theme": "architecture", "categoryType": "classification", "batch": "batch-12", "status": "approved" },
+  "meta": {
+    "theme": "architecture",
+    "categoryType": "classification",
+    "batch": "batch-12",
+    "status": "approved",
+    "difficultyScore": 43
+  },
   "groups": [
-    { "id": "g1", "label": "BAROQUE & ROCOCO", "items": ["Versailles", "St. Peter's Basilica", "Schönbrunn Palace", "Zwinger Palace"], "revealHint": "Baroque" },
-    { "id": "g2", "label": "NEOCLASSICAL", "items": ["Panthéon", "US Capitol", "Brandenburg Gate", "British Museum"], "revealHint": "Classical" },
-    { "id": "g3", "label": "ART NOUVEAU & DECO", "items": ["Sagrada Família", "Chrysler Building", "Hôtel Tassel", "30 St Mary Axe"], "revealHint": "Deco" },
-    { "id": "g4", "label": "MODERNIST & BRUTALIST", "items": ["Fallingwater", "Habitat 67", "Unité d'Habitation", "Seagram Building"], "revealHint": "Modern" }
+    {
+      "id": "g1",
+      "label": "BAROQUE & ROCOCO",
+      "items": [
+        "Versailles",
+        "St. Peter's Basilica",
+        "Schönbrunn Palace",
+        "Zwinger Palace"
+      ],
+      "revealHint": "Baroque"
+    },
+    {
+      "id": "g2",
+      "label": "NEOCLASSICAL",
+      "items": [
+        "Panthéon",
+        "US Capitol",
+        "Brandenburg Gate",
+        "British Museum"
+      ],
+      "revealHint": "Classical"
+    },
+    {
+      "id": "g3",
+      "label": "ART NOUVEAU & DECO",
+      "items": [
+        "Sagrada Família",
+        "Chrysler Building",
+        "Hôtel Tassel",
+        "30 St Mary Axe"
+      ],
+      "revealHint": "Deco"
+    },
+    {
+      "id": "g4",
+      "label": "MODERNIST & BRUTALIST",
+      "items": [
+        "Fallingwater",
+        "Habitat 67",
+        "Unité d'Habitation",
+        "Seagram Building"
+      ],
+      "revealHint": "Modern"
+    }
   ]
 }

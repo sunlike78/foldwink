@@ -6,28 +6,49 @@
     "theme": "theatre",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "genres",
       "label": "Play Genres",
-      "items": ["Tragedy", "Comedy", "Farce", "Musical"]
+      "items": [
+        "Tragedy",
+        "Comedy",
+        "Farce",
+        "Musical"
+      ]
     },
     {
       "id": "crew",
       "label": "Backstage Crew",
-      "items": ["Stage Manager", "Dresser", "Prop Master", "Lighting Tech"]
+      "items": [
+        "Stage Manager",
+        "Dresser",
+        "Prop Master",
+        "Lighting Tech"
+      ]
     },
     {
       "id": "traditions",
       "label": "Theatre Traditions",
-      "items": ["Curtain Call", "Standing Ovation", "Dress Rehearsal", "Opening Night"]
+      "items": [
+        "Curtain Call",
+        "Standing Ovation",
+        "Dress Rehearsal",
+        "Opening Night"
+      ]
     },
     {
       "id": "seating",
       "label": "Seating Areas",
-      "items": ["Orchestra", "Mezzanine", "Balcony", "Box Seat"]
+      "items": [
+        "Orchestra",
+        "Mezzanine",
+        "Balcony",
+        "Box Seat"
+      ]
     }
   ]
 }

@@ -2,11 +2,55 @@
   "id": "ru-0427",
   "title": "Музыкальные стили",
   "difficulty": "medium",
-  "meta": { "theme": "Музыкальные жанры и стили", "batch": "ru-batch-18" },
+  "meta": {
+    "theme": "Музыкальные жанры и стили",
+    "batch": "ru-batch-18",
+    "difficultyScore": 32
+  },
   "groups": [
-    { "id": "jazz_styles", "label": "Джаз", "revealHint": "ДЖАЗ", "items": ["Бибоп", "Свинг", "Фьюжн", "Фри-джаз"] },
-    { "id": "electronic_styles", "label": "Электронная музыка", "revealHint": "ЭЛЕКТРО", "items": ["House", "Techno", "Drum and Bass", "Trance"] },
-    { "id": "folk_styles", "label": "Народная музыка", "revealHint": "ФОЛК", "items": ["Блюграсс", "Фолк-рок", "Этно", "Фламенко"] },
-    { "id": "classical_styles", "label": "Академические стили", "revealHint": "АКАДЕМИЧ.", "items": ["Барокко", "Классицизм", "Романтизм", "Современная"] }
+    {
+      "id": "jazz_styles",
+      "label": "Джаз",
+      "revealHint": "ДЖАЗ",
+      "items": [
+        "Бибоп",
+        "Свинг",
+        "Фьюжн",
+        "Фри-джаз"
+      ]
+    },
+    {
+      "id": "electronic_styles",
+      "label": "Электронная музыка",
+      "revealHint": "ЭЛЕКТРО",
+      "items": [
+        "House",
+        "Techno",
+        "Drum and Bass",
+        "Trance"
+      ]
+    },
+    {
+      "id": "folk_styles",
+      "label": "Народная музыка",
+      "revealHint": "ФОЛК",
+      "items": [
+        "Блюграсс",
+        "Фолк-рок",
+        "Этно",
+        "Фламенко"
+      ]
+    },
+    {
+      "id": "classical_styles",
+      "label": "Академические стили",
+      "revealHint": "АКАДЕМИЧ.",
+      "items": [
+        "Барокко",
+        "Классицизм",
+        "Романтизм",
+        "Современная"
+      ]
+    }
   ]
 }

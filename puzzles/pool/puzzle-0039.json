@@ -6,22 +6,45 @@
     {
       "id": "islands",
       "label": "Islands",
-      "items": ["Sicily", "Crete", "Bali", "Malta"]
+      "items": [
+        "Sicily",
+        "Crete",
+        "Bali",
+        "Malta"
+      ]
     },
     {
       "id": "peninsulas",
       "label": "Peninsulas",
-      "items": ["Iberian", "Korean", "Arabian", "Jutland"]
+      "items": [
+        "Iberian",
+        "Korean",
+        "Arabian",
+        "Jutland"
+      ]
     },
     {
       "id": "deserts",
       "label": "Deserts",
-      "items": ["Sahara", "Gobi", "Kalahari", "Mojave"]
+      "items": [
+        "Sahara",
+        "Gobi",
+        "Kalahari",
+        "Mojave"
+      ]
     },
     {
       "id": "volcanoes",
       "label": "Volcanoes",
-      "items": ["Etna", "Vesuvius", "Krakatoa", "Stromboli"]
+      "items": [
+        "Etna",
+        "Vesuvius",
+        "Krakatoa",
+        "Stromboli"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 10
+  }
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Виды хлеба и выпечки",
-    "batch": "ru-batch-10"
+    "batch": "ru-batch-10",
+    "difficultyScore": 17
   },
   "groups": [
     {

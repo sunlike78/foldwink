@@ -3,11 +3,53 @@
   "title": "Live Cultures",
   "difficulty": "easy",
   "editorialSummary": "Fermented foods and drinks sorted by the type of fermentation that produces them: lactic acid (kimchi, sauerkraut, yogurt, kefir), alcoholic (beer, wine, sake, mead), acetic acid (kombucha, vinegar, shrub, tepache), and mould-fermented (miso, tempeh, soy sauce, doenjang).",
-  "meta": { "theme": "fermentation types", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "fermentation types",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "g1", "label": "LACTIC ACID", "items": ["Kimchi", "Sauerkraut", "Yogurt", "Kefir"] },
-    { "id": "g2", "label": "ALCOHOLIC", "items": ["Beer", "Wine", "Sake", "Mead"] },
-    { "id": "g3", "label": "ACETIC ACID", "items": ["Kombucha", "Vinegar", "Shrub", "Tepache"] },
-    { "id": "g4", "label": "MOULD-FERMENTED", "items": ["Miso", "Tempeh", "Soy Sauce", "Doenjang"] }
+    {
+      "id": "g1",
+      "label": "LACTIC ACID",
+      "items": [
+        "Kimchi",
+        "Sauerkraut",
+        "Yogurt",
+        "Kefir"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "ALCOHOLIC",
+      "items": [
+        "Beer",
+        "Wine",
+        "Sake",
+        "Mead"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "ACETIC ACID",
+      "items": [
+        "Kombucha",
+        "Vinegar",
+        "Shrub",
+        "Tepache"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "MOULD-FERMENTED",
+      "items": [
+        "Miso",
+        "Tempeh",
+        "Soy Sauce",
+        "Doenjang"
+      ]
+    }
   ]
 }

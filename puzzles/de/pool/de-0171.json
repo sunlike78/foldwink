@@ -2,11 +2,51 @@
   "id": "de-0171",
   "title": "Deutschlands Nachbarländer",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Nordnachbarn", "items": ["Dänemark", "Nordsee", "Ostsee", "Schleswig-Holstein"] },
-    { "id": "group_b", "label": "Ostnachbarn", "items": ["Polen", "Tschechien", "Oder", "Neisse"] },
-    { "id": "group_c", "label": "Südnachbarn", "items": ["Österreich", "Schweiz", "Bodensee", "Zugspitze"] },
-    { "id": "group_d", "label": "Westnachbarn", "items": ["Frankreich", "Luxemburg", "Belgien", "Niederlande"] }
+    {
+      "id": "group_a",
+      "label": "Nordnachbarn",
+      "items": [
+        "Dänemark",
+        "Nordsee",
+        "Ostsee",
+        "Schleswig-Holstein"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ostnachbarn",
+      "items": [
+        "Polen",
+        "Tschechien",
+        "Oder",
+        "Neisse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Südnachbarn",
+      "items": [
+        "Österreich",
+        "Schweiz",
+        "Bodensee",
+        "Zugspitze"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Westnachbarn",
+      "items": [
+        "Frankreich",
+        "Luxemburg",
+        "Belgien",
+        "Niederlande"
+      ]
+    }
   ]
 }

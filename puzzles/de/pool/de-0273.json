@@ -2,11 +2,51 @@
   "id": "de-0273",
   "title": "Maschinenbau Deutschland",
   "difficulty": "easy",
-  "meta": { "theme": "maschinenbau", "batch": "de-batch-03" },
+  "meta": {
+    "theme": "maschinenbau",
+    "batch": "de-batch-03",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "group_a", "label": "Maschinenbau-Firmen", "items": ["Siemens", "Bosch", "Festo", "Kuka"] },
-    { "id": "group_b", "label": "Maschinenbau-Produkte", "items": ["Turbine", "Pumpe", "Roboter", "Fördertechnik"] },
-    { "id": "group_c", "label": "Maschinenbau-Branchen", "items": ["Drucktechnik", "Medizintechnik", "Energietechnik", "Werkzeugbau"] },
-    { "id": "group_d", "label": "Maschinenbau-Standorte", "items": ["Stuttgart", "Frankfurt", "Hamburg", "Leipzig"] }
+    {
+      "id": "group_a",
+      "label": "Maschinenbau-Firmen",
+      "items": [
+        "Siemens",
+        "Bosch",
+        "Festo",
+        "Kuka"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Maschinenbau-Produkte",
+      "items": [
+        "Turbine",
+        "Pumpe",
+        "Roboter",
+        "Fördertechnik"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Maschinenbau-Branchen",
+      "items": [
+        "Drucktechnik",
+        "Medizintechnik",
+        "Energietechnik",
+        "Werkzeugbau"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Maschinenbau-Standorte",
+      "items": [
+        "Stuttgart",
+        "Frankfurt",
+        "Hamburg",
+        "Leipzig"
+      ]
+    }
   ]
 }

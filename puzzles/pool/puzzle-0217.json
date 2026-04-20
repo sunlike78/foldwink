@@ -6,28 +6,49 @@
     "theme": "medical",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 30
   },
   "groups": [
     {
       "id": "specialists",
       "label": "Medical Specialists",
-      "items": ["Cardiologist", "Dermatologist", "Pediatrician", "Surgeon"]
+      "items": [
+        "Cardiologist",
+        "Dermatologist",
+        "Pediatrician",
+        "Surgeon"
+      ]
     },
     {
       "id": "body-joints",
       "label": "Body Joints",
-      "items": ["Elbow", "Knee", "Wrist", "Ankle"]
+      "items": [
+        "Elbow",
+        "Knee",
+        "Wrist",
+        "Ankle"
+      ]
     },
     {
       "id": "five-senses",
       "label": "The Five Senses",
-      "items": ["Sight", "Hearing", "Taste", "Smell"]
+      "items": [
+        "Sight",
+        "Hearing",
+        "Taste",
+        "Smell"
+      ]
     },
     {
       "id": "exam-room",
       "label": "In the Exam Room",
-      "items": ["Stethoscope", "Thermometer", "Scale", "Bandage"]
+      "items": [
+        "Stethoscope",
+        "Thermometer",
+        "Scale",
+        "Bandage"
+      ]
     }
   ]
 }

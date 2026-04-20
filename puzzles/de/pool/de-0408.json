@@ -2,11 +2,55 @@
   "id": "de-0408",
   "title": "Kunstwerk und Schöpfer",
   "difficulty": "medium",
-  "meta": { "theme": "kunst", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "kunst",
+    "batch": "de-batch-05",
+    "difficultyScore": 47
+  },
   "groups": [
-    { "id": "group_a", "label": "Werke von Dürer", "revealHint": "Nürnberger Meister", "items": ["Feldhase", "Ritter Tod Teufel", "Selbstbildnis", "Melencolia I"] },
-    { "id": "group_b", "label": "Werke von Rembrandt", "revealHint": "Niederländisch", "items": ["Nachtwache", "Anatomie Dr. Tulp", "Bathseba", "Selbstporträt alt"] },
-    { "id": "group_c", "label": "Werke von Klimt", "revealHint": "Wiener Jugendstil", "items": ["Der Kuss", "Judith I", "Adele Bloch", "Hoffnung II"] },
-    { "id": "group_d", "label": "Werke von C.D. Friedrich", "revealHint": "Romantik", "items": ["Mönch am Meer", "Kreidefelsen", "Wanderer", "Eismeer"] }
+    {
+      "id": "group_a",
+      "label": "Werke von Dürer",
+      "revealHint": "Nürnberger Meister",
+      "items": [
+        "Feldhase",
+        "Ritter Tod Teufel",
+        "Selbstbildnis",
+        "Melencolia I"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Werke von Rembrandt",
+      "revealHint": "Niederländisch",
+      "items": [
+        "Nachtwache",
+        "Anatomie Dr. Tulp",
+        "Bathseba",
+        "Selbstporträt alt"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Werke von Klimt",
+      "revealHint": "Wiener Jugendstil",
+      "items": [
+        "Der Kuss",
+        "Judith I",
+        "Adele Bloch",
+        "Hoffnung II"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Werke von C.D. Friedrich",
+      "revealHint": "Romantik",
+      "items": [
+        "Mönch am Meer",
+        "Kreidefelsen",
+        "Wanderer",
+        "Eismeer"
+      ]
+    }
   ]
 }

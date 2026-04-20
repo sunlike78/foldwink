@@ -3,11 +3,53 @@
   "title": "Mission Control",
   "difficulty": "easy",
   "editorialSummary": "Space missions sorted by objective type: crewed exploration (Apollo 11, Gemini 4, Vostok 1, Artemis I), robotic landers (Curiosity, Perseverance, Huygens, Surveyor 3), flyby/probe (Voyager 1, New Horizons, Pioneer 10, Cassini), and space telescope (Hubble, Kepler, Chandra, Spitzer). Each mission has one unambiguous objective class.",
-  "meta": { "theme": "space mission types", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "space mission types",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 27
+  },
   "groups": [
-    { "id": "g1", "label": "CREWED EXPLORATION", "items": ["Apollo 11", "Gemini 4", "Vostok 1", "Artemis I"] },
-    { "id": "g2", "label": "ROBOTIC LANDERS", "items": ["Curiosity", "Perseverance", "Huygens", "Surveyor 3"] },
-    { "id": "g3", "label": "FLYBY / PROBE", "items": ["Voyager 1", "New Horizons", "Pioneer 10", "Cassini"] },
-    { "id": "g4", "label": "SPACE TELESCOPE", "items": ["Hubble", "Kepler", "Chandra", "Spitzer"] }
+    {
+      "id": "g1",
+      "label": "CREWED EXPLORATION",
+      "items": [
+        "Apollo 11",
+        "Gemini 4",
+        "Vostok 1",
+        "Artemis I"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "ROBOTIC LANDERS",
+      "items": [
+        "Curiosity",
+        "Perseverance",
+        "Huygens",
+        "Surveyor 3"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "FLYBY / PROBE",
+      "items": [
+        "Voyager 1",
+        "New Horizons",
+        "Pioneer 10",
+        "Cassini"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SPACE TELESCOPE",
+      "items": [
+        "Hubble",
+        "Kepler",
+        "Chandra",
+        "Spitzer"
+      ]
+    }
   ]
 }

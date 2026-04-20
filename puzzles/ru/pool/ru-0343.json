@@ -2,11 +2,55 @@
   "id": "ru-0343",
   "title": "Языки программирования",
   "difficulty": "medium",
-  "meta": { "theme": "Языки программирования по сфере применения", "batch": "ru-batch-14" },
+  "meta": {
+    "theme": "Языки программирования по сфере применения",
+    "batch": "ru-batch-14",
+    "difficultyScore": 11
+  },
   "groups": [
-    { "id": "web_langs", "label": "Веб", "revealHint": "ВЕБ", "items": ["JavaScript", "TypeScript", "PHP", "Ruby"] },
-    { "id": "systems_langs", "label": "Системные", "revealHint": "СИСТЕМНЫЕ", "items": ["C", "C++", "Rust", "Go"] },
-    { "id": "data_langs", "label": "Данные и наука", "revealHint": "ДАННЫЕ", "items": ["Python", "R", "Julia", "Scala"] },
-    { "id": "mobile_langs", "label": "Мобильные", "revealHint": "МОБАЙЛ", "items": ["Swift", "Kotlin", "Dart", "Objective-C"] }
+    {
+      "id": "web_langs",
+      "label": "Веб",
+      "revealHint": "ВЕБ",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Ruby"
+      ]
+    },
+    {
+      "id": "systems_langs",
+      "label": "Системные",
+      "revealHint": "СИСТЕМНЫЕ",
+      "items": [
+        "C",
+        "C++",
+        "Rust",
+        "Go"
+      ]
+    },
+    {
+      "id": "data_langs",
+      "label": "Данные и наука",
+      "revealHint": "ДАННЫЕ",
+      "items": [
+        "Python",
+        "R",
+        "Julia",
+        "Scala"
+      ]
+    },
+    {
+      "id": "mobile_langs",
+      "label": "Мобильные",
+      "revealHint": "МОБАЙЛ",
+      "items": [
+        "Swift",
+        "Kotlin",
+        "Dart",
+        "Objective-C"
+      ]
+    }
   ]
 }

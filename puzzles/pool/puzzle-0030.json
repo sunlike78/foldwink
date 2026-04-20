@@ -8,25 +8,48 @@
       "id": "dogs",
       "label": "Sounds a DOG makes",
       "revealHint": "DOG",
-      "items": ["Bark", "Growl", "Whine", "Yelp"]
+      "items": [
+        "Bark",
+        "Growl",
+        "Whine",
+        "Yelp"
+      ]
     },
     {
       "id": "cats",
       "label": "Sounds a CAT makes",
       "revealHint": "CAT",
-      "items": ["Meow", "Purr", "Hiss", "Yowl"]
+      "items": [
+        "Meow",
+        "Purr",
+        "Hiss",
+        "Yowl"
+      ]
     },
     {
       "id": "cows",
       "label": "Sounds a COW makes",
       "revealHint": "COW",
-      "items": ["Moo", "Low", "Bellow", "Snort"]
+      "items": [
+        "Moo",
+        "Low",
+        "Bellow",
+        "Snort"
+      ]
     },
     {
       "id": "birds",
       "label": "Sounds a BIRD makes",
       "revealHint": "BIRD",
-      "items": ["Tweet", "Chirp", "Squawk", "Caw"]
+      "items": [
+        "Tweet",
+        "Chirp",
+        "Squawk",
+        "Caw"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 31
+  }
 }

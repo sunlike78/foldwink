@@ -2,11 +2,55 @@
   "id": "ru-0398",
   "title": "Астрология — планеты",
   "difficulty": "medium",
-  "meta": { "theme": "Планеты в астрологии", "batch": "ru-batch-16" },
+  "meta": {
+    "theme": "Планеты в астрологии",
+    "batch": "ru-batch-16",
+    "difficultyScore": 17
+  },
   "groups": [
-    { "id": "personal_planets", "label": "Личные планеты", "revealHint": "ЛИЧНЫЕ", "items": ["Солнце", "Луна", "Меркурий", "Венера"] },
-    { "id": "social_planets", "label": "Социальные планеты", "revealHint": "СОЦИАЛЬНЫЕ", "items": ["Марс", "Юпитер", "Сатурн", "Уран"] },
-    { "id": "outer_planets_astro", "label": "Внешние планеты", "revealHint": "ВНЕШНИЕ", "items": ["Нептун", "Плутон", "Лилит", "Хирон"] },
-    { "id": "astro_houses", "label": "Астрологические дома", "revealHint": "ДОМА", "items": ["1-й дом", "4-й дом", "7-й дом", "10-й дом"] }
+    {
+      "id": "personal_planets",
+      "label": "Личные планеты",
+      "revealHint": "ЛИЧНЫЕ",
+      "items": [
+        "Солнце",
+        "Луна",
+        "Меркурий",
+        "Венера"
+      ]
+    },
+    {
+      "id": "social_planets",
+      "label": "Социальные планеты",
+      "revealHint": "СОЦИАЛЬНЫЕ",
+      "items": [
+        "Марс",
+        "Юпитер",
+        "Сатурн",
+        "Уран"
+      ]
+    },
+    {
+      "id": "outer_planets_astro",
+      "label": "Внешние планеты",
+      "revealHint": "ВНЕШНИЕ",
+      "items": [
+        "Нептун",
+        "Плутон",
+        "Лилит",
+        "Хирон"
+      ]
+    },
+    {
+      "id": "astro_houses",
+      "label": "Астрологические дома",
+      "revealHint": "ДОМА",
+      "items": [
+        "1-й дом",
+        "4-й дом",
+        "7-й дом",
+        "10-й дом"
+      ]
+    }
   ]
 }

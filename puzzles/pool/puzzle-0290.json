@@ -7,32 +7,53 @@
     "theme": "geography",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "g1",
       "label": "Flags: Red, White and Blue Tricolour",
       "revealHint": "Stripes",
-      "items": ["Netherlands", "Luxembourg", "Croatia", "Slovakia"]
+      "items": [
+        "Netherlands",
+        "Luxembourg",
+        "Croatia",
+        "Slovakia"
+      ]
     },
     {
       "id": "g2",
       "label": "Flags: Nordic Cross Design",
       "revealHint": "Cross",
-      "items": ["Denmark", "Norway", "Finland", "Sweden"]
+      "items": [
+        "Denmark",
+        "Norway",
+        "Finland",
+        "Sweden"
+      ]
     },
     {
       "id": "g3",
       "label": "Flags: Crescent and Star",
       "revealHint": "Crescent",
-      "items": ["Pakistan", "Algeria", "Azerbaijan", "Mauritania"]
+      "items": [
+        "Pakistan",
+        "Algeria",
+        "Azerbaijan",
+        "Mauritania"
+      ]
     },
     {
       "id": "g4",
       "label": "Flags: Eagle Emblem",
       "revealHint": "Eagle",
-      "items": ["Germany", "Mexico", "Albania", "Serbia"]
+      "items": [
+        "Germany",
+        "Mexico",
+        "Albania",
+        "Serbia"
+      ]
     }
   ]
 }

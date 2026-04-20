@@ -2,11 +2,55 @@
   "id": "de-0405",
   "title": "Fremdwörter nach Herkunft",
   "difficulty": "medium",
-  "meta": { "theme": "sprache", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "sprache",
+    "batch": "de-batch-05",
+    "difficultyScore": 36
+  },
   "groups": [
-    { "id": "group_a", "label": "Aus dem Latein", "revealHint": "Römersprache", "items": ["Kalkulation", "Struktur", "Kultur", "Notiz"] },
-    { "id": "group_b", "label": "Aus dem Griechischen", "revealHint": "Hellenisch", "items": ["Demokratie", "Philosophie", "Chaos", "Kritik"] },
-    { "id": "group_c", "label": "Aus dem Französischen", "revealHint": "Galloromanisch", "items": ["Balkon", "Friseur", "Parfüm", "Restaurant"] },
-    { "id": "group_d", "label": "Aus dem Englischen", "revealHint": "Anglizismen", "items": ["Computer", "Manager", "Hobby", "Job"] }
+    {
+      "id": "group_a",
+      "label": "Aus dem Latein",
+      "revealHint": "Römersprache",
+      "items": [
+        "Kalkulation",
+        "Struktur",
+        "Kultur",
+        "Notiz"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Aus dem Griechischen",
+      "revealHint": "Hellenisch",
+      "items": [
+        "Demokratie",
+        "Philosophie",
+        "Chaos",
+        "Kritik"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Aus dem Französischen",
+      "revealHint": "Galloromanisch",
+      "items": [
+        "Balkon",
+        "Friseur",
+        "Parfüm",
+        "Restaurant"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Aus dem Englischen",
+      "revealHint": "Anglizismen",
+      "items": [
+        "Computer",
+        "Manager",
+        "Hobby",
+        "Job"
+      ]
+    }
   ]
 }

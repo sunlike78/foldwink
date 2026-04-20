@@ -2,11 +2,55 @@
   "id": "de-0456",
   "title": "Projektmanagement-Methoden",
   "difficulty": "medium",
-  "meta": { "theme": "management", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "management",
+    "batch": "de-batch-05",
+    "difficultyScore": 29
+  },
   "groups": [
-    { "id": "group_a", "label": "Scrum-Begriffe", "revealHint": "Agiles Framework", "items": ["Sprint", "Product Backlog", "Daily Standup", "Retrospektive"] },
-    { "id": "group_b", "label": "Kanban-Begriffe", "revealHint": "Visualis. Fluss", "items": ["Kanban-Board", "WIP-Limit", "Pull-Prinzip", "Karte"] },
-    { "id": "group_c", "label": "Wasserfall-Begriffe", "revealHint": "Sequenz. Phasen", "items": ["Anforderungsanalyse", "Design", "Implementierung", "Test & Abnahme"] },
-    { "id": "group_d", "label": "PRINCE2-Begriffe", "revealHint": "Britische Methode", "items": ["Business Case", "Phasenplan", "Projektboard", "Risikoregister"] }
+    {
+      "id": "group_a",
+      "label": "Scrum-Begriffe",
+      "revealHint": "Agiles Framework",
+      "items": [
+        "Sprint",
+        "Product Backlog",
+        "Daily Standup",
+        "Retrospektive"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Kanban-Begriffe",
+      "revealHint": "Visualis. Fluss",
+      "items": [
+        "Kanban-Board",
+        "WIP-Limit",
+        "Pull-Prinzip",
+        "Karte"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Wasserfall-Begriffe",
+      "revealHint": "Sequenz. Phasen",
+      "items": [
+        "Anforderungsanalyse",
+        "Design",
+        "Implementierung",
+        "Test & Abnahme"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "PRINCE2-Begriffe",
+      "revealHint": "Britische Methode",
+      "items": [
+        "Business Case",
+        "Phasenplan",
+        "Projektboard",
+        "Risikoregister"
+      ]
+    }
   ]
 }

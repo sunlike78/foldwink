@@ -6,28 +6,49 @@
     "theme": "food",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 21
   },
   "groups": [
     {
       "id": "bread",
       "label": "Bread-Based",
-      "items": ["Toast", "Bagel", "Croissant", "Waffle"]
+      "items": [
+        "Toast",
+        "Bagel",
+        "Croissant",
+        "Waffle"
+      ]
     },
     {
       "id": "egg",
       "label": "Egg Dishes",
-      "items": ["Omelette", "Scrambled", "Poached", "Frittata"]
+      "items": [
+        "Omelette",
+        "Scrambled",
+        "Poached",
+        "Frittata"
+      ]
     },
     {
       "id": "cereal",
       "label": "Cereals and Grains",
-      "items": ["Oatmeal", "Granola", "Muesli", "Cornflakes"]
+      "items": [
+        "Oatmeal",
+        "Granola",
+        "Muesli",
+        "Cornflakes"
+      ]
     },
     {
       "id": "drink",
       "label": "Morning Drinks",
-      "items": ["Espresso", "Matcha", "Smoothie", "Chai"]
+      "items": [
+        "Espresso",
+        "Matcha",
+        "Smoothie",
+        "Chai"
+      ]
     }
   ]
 }

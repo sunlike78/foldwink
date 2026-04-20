@@ -2,11 +2,51 @@
   "id": "de-0179",
   "title": "Kontinente",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 34
+  },
   "groups": [
-    { "id": "group_a", "label": "Europäische Länder", "items": ["Deutschland", "Frankreich", "Polen", "Spanien"] },
-    { "id": "group_b", "label": "Amerikanische Länder", "items": ["Kanada", "Argentinien", "Mexiko", "Brasilien"] },
-    { "id": "group_c", "label": "Asiatische Länder", "items": ["China", "Indien", "Japan", "Vietnam"] },
-    { "id": "group_d", "label": "Afrikanische Länder", "items": ["Kenia", "Ägypten", "Nigeria", "Südafrika"] }
+    {
+      "id": "group_a",
+      "label": "Europäische Länder",
+      "items": [
+        "Deutschland",
+        "Frankreich",
+        "Polen",
+        "Spanien"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Amerikanische Länder",
+      "items": [
+        "Kanada",
+        "Argentinien",
+        "Mexiko",
+        "Brasilien"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Asiatische Länder",
+      "items": [
+        "China",
+        "Indien",
+        "Japan",
+        "Vietnam"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Afrikanische Länder",
+      "items": [
+        "Kenia",
+        "Ägypten",
+        "Nigeria",
+        "Südafrika"
+      ]
+    }
   ]
 }

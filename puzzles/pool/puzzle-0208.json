@@ -6,28 +6,49 @@
     "theme": "transportation",
     "categoryType": "classification",
     "batch": "batch-04",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 25
   },
   "groups": [
     {
       "id": "winged-aircraft",
       "label": "Winged Aircraft",
-      "items": ["Biplane", "Glider", "Jet", "Airliner"]
+      "items": [
+        "Biplane",
+        "Glider",
+        "Jet",
+        "Airliner"
+      ]
     },
     {
       "id": "rotorcraft",
       "label": "Rotorcraft",
-      "items": ["Helicopter", "Gyrocopter", "Chinook", "Drone"]
+      "items": [
+        "Helicopter",
+        "Gyrocopter",
+        "Chinook",
+        "Drone"
+      ]
     },
     {
       "id": "lighter-than-air",
       "label": "Lighter Than Air",
-      "items": ["Blimp", "Zeppelin", "Balloon", "Airship"]
+      "items": [
+        "Blimp",
+        "Zeppelin",
+        "Balloon",
+        "Airship"
+      ]
     },
     {
       "id": "airport",
       "label": "At the Airport",
-      "items": ["Runway", "Gate", "Hangar", "Tower"]
+      "items": [
+        "Runway",
+        "Gate",
+        "Hangar",
+        "Tower"
+      ]
     }
   ]
 }

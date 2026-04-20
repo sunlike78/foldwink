@@ -3,11 +3,53 @@
   "title": "Pasta Shapes",
   "difficulty": "easy",
   "editorialSummary": "Pasta shapes by structural family. False trail: Fettuccine and Linguine are both flat and narrow — players must accept both in the ribbon group rather than trying to split on width. Anchor: Filled group is unambiguous.",
-  "meta": { "theme": "food", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "food",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 52
+  },
   "groups": [
-    { "id": "g1", "label": "TUBE PASTA", "items": ["Rigatoni", "Penne", "Ziti", "Manicotti"] },
-    { "id": "g2", "label": "RIBBON PASTA", "items": ["Tagliatelle", "Pappardelle", "Fettuccine", "Linguine"] },
-    { "id": "g3", "label": "FILLED PASTA", "items": ["Ravioli", "Tortellini", "Agnolotti", "Cappelletti"] },
-    { "id": "g4", "label": "SMALL PASTA", "items": ["Orzo", "Ditalini", "Stelline", "Acini di Pepe"] }
+    {
+      "id": "g1",
+      "label": "TUBE PASTA",
+      "items": [
+        "Rigatoni",
+        "Penne",
+        "Ziti",
+        "Manicotti"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "RIBBON PASTA",
+      "items": [
+        "Tagliatelle",
+        "Pappardelle",
+        "Fettuccine",
+        "Linguine"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "FILLED PASTA",
+      "items": [
+        "Ravioli",
+        "Tortellini",
+        "Agnolotti",
+        "Cappelletti"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SMALL PASTA",
+      "items": [
+        "Orzo",
+        "Ditalini",
+        "Stelline",
+        "Acini di Pepe"
+      ]
+    }
   ]
 }

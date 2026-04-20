@@ -2,31 +2,55 @@
   "id": "de-9027",
   "title": "Architekturgespräch",
   "difficulty": "medium",
-  "meta": { "theme": "Architekturstile im DACH-Raum", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Architekturstile im DACH-Raum",
+    "batch": "de-batch-11",
+    "difficultyScore": 39
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Gotik",
       "revealHint": "HIMMELWÄRTS IN STEIN",
-      "items": ["Spitzbogen im Dom", "Strebewerk trägt Last", "Maßwerk im Fenster", "Kölner Dom, 8 Jhd."]
+      "items": [
+        "Spitzbogen im Dom",
+        "Strebewerk trägt Last",
+        "Maßwerk im Fenster",
+        "Kölner Dom, 8 Jhd."
+      ]
     },
     {
       "id": "group_b",
       "label": "Barock",
       "revealHint": "PRUNK UND BEWEGUNG",
-      "items": ["Zwinger in Dresden", "Schönheit als Lob", "Kurven statt Geraden", "Deckengemälde bewegt"]
+      "items": [
+        "Zwinger in Dresden",
+        "Schönheit als Lob",
+        "Kurven statt Geraden",
+        "Deckengemälde bewegt"
+      ]
     },
     {
       "id": "group_c",
       "label": "Funktionalismus",
       "revealHint": "ZWECK VOR VERZIERUNG",
-      "items": ["Siedlung für Arbeiter", "Flachdach als Aussicht", "Kein Zierrat erlaubt", "Licht durch Glasband"]
+      "items": [
+        "Siedlung für Arbeiter",
+        "Flachdach als Aussicht",
+        "Kein Zierrat erlaubt",
+        "Licht durch Glasband"
+      ]
     },
     {
       "id": "group_d",
       "label": "Brutalismus",
       "revealHint": "BETON EHRLICH GEZEIGT",
-      "items": ["Sichtbeton unverputzt", "Berliner Kongresshalle", "Wucht als Aussage", "Material spricht"]
+      "items": [
+        "Sichtbeton unverputzt",
+        "Berliner Kongresshalle",
+        "Wucht als Aussage",
+        "Material spricht"
+      ]
     }
   ]
 }

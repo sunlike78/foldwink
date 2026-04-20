@@ -6,22 +6,45 @@
     {
       "id": "percussion",
       "label": "Percussion",
-      "items": ["Bongo", "Conga", "Tambourine", "Xylophone"]
+      "items": [
+        "Bongo",
+        "Conga",
+        "Tambourine",
+        "Xylophone"
+      ]
     },
     {
       "id": "brass",
       "label": "Brass",
-      "items": ["Trumpet", "Trombone", "Tuba", "Horn"]
+      "items": [
+        "Trumpet",
+        "Trombone",
+        "Tuba",
+        "Horn"
+      ]
     },
     {
       "id": "strings",
       "label": "Stringed",
-      "items": ["Cello", "Banjo", "Harp", "Mandolin"]
+      "items": [
+        "Cello",
+        "Banjo",
+        "Harp",
+        "Mandolin"
+      ]
     },
     {
       "id": "woodwind",
       "label": "Woodwind",
-      "items": ["Clarinet", "Oboe", "Bassoon", "Piccolo"]
+      "items": [
+        "Clarinet",
+        "Oboe",
+        "Bassoon",
+        "Piccolo"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 19
+  }
 }

@@ -6,28 +6,49 @@
     "theme": "everyday",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 35
   },
   "groups": [
     {
       "id": "checkin",
       "label": "Check-in Desk",
-      "items": ["Passport", "Boarding Pass", "Luggage Tag", "Kiosk"]
+      "items": [
+        "Passport",
+        "Boarding Pass",
+        "Luggage Tag",
+        "Kiosk"
+      ]
     },
     {
       "id": "security",
       "label": "Security Screening",
-      "items": ["Metal Detector", "Scanner Tray", "X-ray Belt", "Pat Down"]
+      "items": [
+        "Metal Detector",
+        "Scanner Tray",
+        "X-ray Belt",
+        "Pat Down"
+      ]
     },
     {
       "id": "cabin",
       "label": "Cabin Classes",
-      "items": ["Economy", "Premium", "Business", "First Class"]
+      "items": [
+        "Economy",
+        "Premium",
+        "Business",
+        "First Class"
+      ]
     },
     {
       "id": "inflight",
       "label": "In-Flight Service",
-      "items": ["Meal Cart", "Pillow", "Headphones", "Safety Card"]
+      "items": [
+        "Meal Cart",
+        "Pillow",
+        "Headphones",
+        "Safety Card"
+      ]
     }
   ]
 }

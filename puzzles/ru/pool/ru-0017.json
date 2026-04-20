@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Дикие животные",
-    "batch": "ru-batch-01"
+    "batch": "ru-batch-01",
+    "difficultyScore": 46
   },
   "groups": [
     {

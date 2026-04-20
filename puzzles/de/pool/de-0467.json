@@ -2,11 +2,55 @@
   "id": "de-0467",
   "title": "Alternativmedizin",
   "difficulty": "medium",
-  "meta": { "theme": "medizin", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "medizin",
+    "batch": "de-batch-05",
+    "difficultyScore": 37
+  },
   "groups": [
-    { "id": "group_a", "label": "Alternativmed. Methoden", "revealHint": "Heilungsansätze", "items": ["Akupunktur", "Homöopathie", "Osteopathie", "Naturheilkunde"] },
-    { "id": "group_b", "label": "Alternativmed. Mittel", "revealHint": "Kräuter & Mittel", "items": ["Kamille", "Arnika", "Globuli", "Schüßler-Salze"] },
-    { "id": "group_c", "label": "Grundsätze Alt.med.", "revealHint": "Prinzipien", "items": ["Vis medicatrix", "Ganzheitlichkeit", "Ähnliches heilt ähnl.", "Lebensenergie"] },
-    { "id": "group_d", "label": "Kritik an Alt.med.", "revealHint": "Wiss. Bedenken", "items": ["Placebo-Effekt", "Fehlende Evidenz", "Verzögerte Behandlung", "Nocebo-Effekt"] }
+    {
+      "id": "group_a",
+      "label": "Alternativmed. Methoden",
+      "revealHint": "Heilungsansätze",
+      "items": [
+        "Akupunktur",
+        "Homöopathie",
+        "Osteopathie",
+        "Naturheilkunde"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Alternativmed. Mittel",
+      "revealHint": "Kräuter & Mittel",
+      "items": [
+        "Kamille",
+        "Arnika",
+        "Globuli",
+        "Schüßler-Salze"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Grundsätze Alt.med.",
+      "revealHint": "Prinzipien",
+      "items": [
+        "Vis medicatrix",
+        "Ganzheitlichkeit",
+        "Ähnliches heilt ähnl.",
+        "Lebensenergie"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Kritik an Alt.med.",
+      "revealHint": "Wiss. Bedenken",
+      "items": [
+        "Placebo-Effekt",
+        "Fehlende Evidenz",
+        "Verzögerte Behandlung",
+        "Nocebo-Effekt"
+      ]
+    }
   ]
 }

@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Известные советские песни",
-    "batch": "ru-batch-19"
+    "batch": "ru-batch-19",
+    "difficultyScore": 27
   },
   "groups": [
     {

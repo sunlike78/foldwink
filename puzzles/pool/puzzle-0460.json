@@ -3,11 +3,53 @@
   "title": "Signal and Noise",
   "difficulty": "easy",
   "editorialSummary": "Networking terms sorted by OSI layer function: physical layer (bandwidth, latency, fiber, coax), data link (MAC address, VLAN, frame, switch), network (IP address, subnet, router, gateway), and application (DNS, HTTP, TLS, proxy). Each term belongs unambiguously to one layer family.",
-  "meta": { "theme": "networking terms", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "networking terms",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 33
+  },
   "groups": [
-    { "id": "g1", "label": "PHYSICAL LAYER", "items": ["Bandwidth", "Latency", "Fiber", "Coax"] },
-    { "id": "g2", "label": "DATA LINK LAYER", "items": ["MAC Address", "VLAN", "Frame", "Switch"] },
-    { "id": "g3", "label": "NETWORK LAYER", "items": ["IP Address", "Subnet", "Router", "Gateway"] },
-    { "id": "g4", "label": "APPLICATION LAYER", "items": ["DNS", "HTTP", "TLS", "Proxy"] }
+    {
+      "id": "g1",
+      "label": "PHYSICAL LAYER",
+      "items": [
+        "Bandwidth",
+        "Latency",
+        "Fiber",
+        "Coax"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "DATA LINK LAYER",
+      "items": [
+        "MAC Address",
+        "VLAN",
+        "Frame",
+        "Switch"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NETWORK LAYER",
+      "items": [
+        "IP Address",
+        "Subnet",
+        "Router",
+        "Gateway"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "APPLICATION LAYER",
+      "items": [
+        "DNS",
+        "HTTP",
+        "TLS",
+        "Proxy"
+      ]
+    }
   ]
 }

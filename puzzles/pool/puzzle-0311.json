@@ -7,28 +7,49 @@
     "theme": "fashion",
     "categoryType": "classification",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 50
   },
   "groups": [
     {
       "id": "g1",
       "label": "1920s Fashion Trends",
-      "items": ["Flapper Dress", "Cloche Hat", "T-Bar Shoes", "Feather Boa"]
+      "items": [
+        "Flapper Dress",
+        "Cloche Hat",
+        "T-Bar Shoes",
+        "Feather Boa"
+      ]
     },
     {
       "id": "g2",
       "label": "1960s Fashion Trends",
-      "items": ["Mini Skirt", "Go-Go Boots", "Shift Dress", "Nehru Collar"]
+      "items": [
+        "Mini Skirt",
+        "Go-Go Boots",
+        "Shift Dress",
+        "Nehru Collar"
+      ]
     },
     {
       "id": "g3",
       "label": "1980s Fashion Trends",
-      "items": ["Power Shoulder", "Leg Warmers", "Acid Wash Jeans", "Oversized Blazer"]
+      "items": [
+        "Power Shoulder",
+        "Leg Warmers",
+        "Acid Wash Jeans",
+        "Oversized Blazer"
+      ]
     },
     {
       "id": "g4",
       "label": "1990s Fashion Trends",
-      "items": ["Slip Dress", "Choker Necklace", "Platform Trainers", "Bucket Hat"]
+      "items": [
+        "Slip Dress",
+        "Choker Necklace",
+        "Platform Trainers",
+        "Bucket Hat"
+      ]
     }
   ]
 }

@@ -3,11 +3,57 @@
   "title": "Court is in Session",
   "difficulty": "medium",
   "editorialSummary": "Areas of law grouped by subject matter. False trail: tort and contract are both civil law, but the groups split civil law from criminal law; constitutional law and administrative law both involve government but belong to different groups. Players must know the exact branch, not just public vs private.",
-  "meta": { "theme": "types of law", "categoryType": "classification", "batch": "batch-14", "status": "approved" },
+  "meta": {
+    "theme": "types of law",
+    "categoryType": "classification",
+    "batch": "batch-14",
+    "status": "approved",
+    "difficultyScore": 45
+  },
   "groups": [
-    { "id": "g1", "label": "CRIMINAL LAW", "revealHint": "Criminal", "items": ["Homicide", "Burglary", "Assault", "Fraud"] },
-    { "id": "g2", "label": "CIVIL / TORT", "revealHint": "Civil", "items": ["Negligence", "Defamation", "Nuisance", "Trespass"] },
-    { "id": "g3", "label": "CONSTITUTIONAL", "revealHint": "Constitution", "items": ["Due Process", "Equal Protection", "Free Speech", "Habeas Corpus"] },
-    { "id": "g4", "label": "CONTRACT LAW", "revealHint": "Contract", "items": ["Offer", "Acceptance", "Consideration", "Breach"] }
+    {
+      "id": "g1",
+      "label": "CRIMINAL LAW",
+      "revealHint": "Criminal",
+      "items": [
+        "Homicide",
+        "Burglary",
+        "Assault",
+        "Fraud"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "CIVIL / TORT",
+      "revealHint": "Civil",
+      "items": [
+        "Negligence",
+        "Defamation",
+        "Nuisance",
+        "Trespass"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "CONSTITUTIONAL",
+      "revealHint": "Constitution",
+      "items": [
+        "Due Process",
+        "Equal Protection",
+        "Free Speech",
+        "Habeas Corpus"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "CONTRACT LAW",
+      "revealHint": "Contract",
+      "items": [
+        "Offer",
+        "Acceptance",
+        "Consideration",
+        "Breach"
+      ]
+    }
   ]
 }

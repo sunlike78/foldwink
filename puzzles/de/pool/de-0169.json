@@ -2,11 +2,51 @@
   "id": "de-0169",
   "title": "Bremen Sehenswürdigkeiten",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 42
+  },
   "groups": [
-    { "id": "group_a", "label": "Altstadt", "items": ["Marktplatz", "Roland-Statue", "Rathaus", "Böttcherstraße"] },
-    { "id": "group_b", "label": "Häfen", "items": ["Überseestadt", "Bremerhaven", "Weserhafen", "Fischereihafen"] },
-    { "id": "group_c", "label": "Stadtteile", "items": ["Schwachhausen", "Findorff", "Ostertor", "Vahr"] },
-    { "id": "group_d", "label": "Wahrzeichen", "items": ["Stadtmusikanten", "Schüttinghaus", "Kunsthalle", "Universum"] }
+    {
+      "id": "group_a",
+      "label": "Altstadt",
+      "items": [
+        "Marktplatz",
+        "Roland-Statue",
+        "Rathaus",
+        "Böttcherstraße"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Häfen",
+      "items": [
+        "Überseestadt",
+        "Bremerhaven",
+        "Weserhafen",
+        "Fischereihafen"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Stadtteile",
+      "items": [
+        "Schwachhausen",
+        "Findorff",
+        "Ostertor",
+        "Vahr"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Wahrzeichen",
+      "items": [
+        "Stadtmusikanten",
+        "Schüttinghaus",
+        "Kunsthalle",
+        "Universum"
+      ]
+    }
   ]
 }

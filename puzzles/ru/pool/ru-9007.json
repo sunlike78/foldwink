@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Наука и технологии — российские открытия",
-    "batch": "ru-batch-16"
+    "batch": "ru-batch-16",
+    "difficultyScore": 39
   },
   "groups": [
     {

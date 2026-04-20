@@ -2,11 +2,55 @@
   "id": "ru-0378",
   "title": "Питание и здоровье",
   "difficulty": "medium",
-  "meta": { "theme": "Диеты и принципы питания", "batch": "ru-batch-15" },
+  "meta": {
+    "theme": "Диеты и принципы питания",
+    "batch": "ru-batch-15",
+    "difficultyScore": 20
+  },
   "groups": [
-    { "id": "special_diets", "label": "Специальные диеты", "revealHint": "ДИЕТЫ", "items": ["Кетодиета", "Средиземноморская", "DASH", "Веганская"] },
-    { "id": "eating_patterns", "label": "Режимы питания", "revealHint": "РЕЖИМ", "items": ["Интервальное голодание", "16:8", "OMAD", "5:2"] },
-    { "id": "nutrients", "label": "Нутриенты", "revealHint": "НУТРИЕНТЫ", "items": ["Белки", "Жиры", "Углеводы", "Клетчатка"] },
-    { "id": "vitamins_minerals", "label": "Витамины", "revealHint": "ВИТАМИНЫ", "items": ["Витамин C", "Витамин D", "Омега-3", "Железо"] }
+    {
+      "id": "special_diets",
+      "label": "Специальные диеты",
+      "revealHint": "ДИЕТЫ",
+      "items": [
+        "Кетодиета",
+        "Средиземноморская",
+        "DASH",
+        "Веганская"
+      ]
+    },
+    {
+      "id": "eating_patterns",
+      "label": "Режимы питания",
+      "revealHint": "РЕЖИМ",
+      "items": [
+        "Интервальное голодание",
+        "16:8",
+        "OMAD",
+        "5:2"
+      ]
+    },
+    {
+      "id": "nutrients",
+      "label": "Нутриенты",
+      "revealHint": "НУТРИЕНТЫ",
+      "items": [
+        "Белки",
+        "Жиры",
+        "Углеводы",
+        "Клетчатка"
+      ]
+    },
+    {
+      "id": "vitamins_minerals",
+      "label": "Витамины",
+      "revealHint": "ВИТАМИНЫ",
+      "items": [
+        "Витамин C",
+        "Витамин D",
+        "Омега-3",
+        "Железо"
+      ]
+    }
   ]
 }

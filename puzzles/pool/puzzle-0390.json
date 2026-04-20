@@ -3,11 +3,53 @@
   "title": "Literary Genres",
   "difficulty": "easy",
   "editorialSummary": "Literary genres by mode. False trail: Satire straddles fiction and non-fiction — placed with poetic/dramatic forms as a classical rhetorical mode. Dystopia and Gothic both sound dark but are in different groups.",
-  "meta": { "theme": "literature", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "literature",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 44
+  },
   "groups": [
-    { "id": "g1", "label": "NARRATIVE FICTION MODES", "items": ["Gothic", "Picaresque", "Bildungsroman", "Epistolary"] },
-    { "id": "g2", "label": "SPECULATIVE FICTION", "items": ["Science Fiction", "Dystopia", "Cyberpunk", "Alternate History"] },
-    { "id": "g3", "label": "NON-FICTION PROSE", "items": ["Memoir", "Essay", "Travel Writing", "Gonzo Journalism"] },
-    { "id": "g4", "label": "POETIC AND DRAMATIC FORMS", "items": ["Epic", "Elegy", "Satire", "Pastoral"] }
+    {
+      "id": "g1",
+      "label": "NARRATIVE FICTION MODES",
+      "items": [
+        "Gothic",
+        "Picaresque",
+        "Bildungsroman",
+        "Epistolary"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "SPECULATIVE FICTION",
+      "items": [
+        "Science Fiction",
+        "Dystopia",
+        "Cyberpunk",
+        "Alternate History"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NON-FICTION PROSE",
+      "items": [
+        "Memoir",
+        "Essay",
+        "Travel Writing",
+        "Gonzo Journalism"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "POETIC AND DRAMATIC FORMS",
+      "items": [
+        "Epic",
+        "Elegy",
+        "Satire",
+        "Pastoral"
+      ]
+    }
   ]
 }

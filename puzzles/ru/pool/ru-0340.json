@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Собиратели и авторы сказок",
-    "batch": "ru-batch-13"
+    "batch": "ru-batch-13",
+    "difficultyScore": 30
   },
   "groups": [
     {

@@ -6,28 +6,49 @@
     "theme": "tools",
     "categoryType": "classification",
     "batch": "batch-06",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 48
   },
   "groups": [
     {
       "id": "plumber",
       "label": "Plumber's Kit",
-      "items": ["Pipe Wrench", "Plunger", "Auger", "Thread Tape"]
+      "items": [
+        "Pipe Wrench",
+        "Plunger",
+        "Auger",
+        "Thread Tape"
+      ]
     },
     {
       "id": "electrician",
       "label": "Electrician's Kit",
-      "items": ["Multimeter", "Wire Stripper", "Voltage Tester", "Fish Tape"]
+      "items": [
+        "Multimeter",
+        "Wire Stripper",
+        "Voltage Tester",
+        "Fish Tape"
+      ]
     },
     {
       "id": "painter",
       "label": "Painter's Kit",
-      "items": ["Roller", "Drop Cloth", "Paint Tray", "Masking Tape"]
+      "items": [
+        "Roller",
+        "Drop Cloth",
+        "Paint Tray",
+        "Masking Tape"
+      ]
     },
     {
       "id": "welder",
       "label": "Welder's Kit",
-      "items": ["Torch", "Filler Rod", "Welding Helmet", "Ground Clamp"]
+      "items": [
+        "Torch",
+        "Filler Rod",
+        "Welding Helmet",
+        "Ground Clamp"
+      ]
     }
   ]
 }

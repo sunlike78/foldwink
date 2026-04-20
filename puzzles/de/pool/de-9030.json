@@ -2,31 +2,55 @@
   "id": "de-9030",
   "title": "Wege des Wissens",
   "difficulty": "medium",
-  "meta": { "theme": "Erkenntnistheorien via Alltagsbilder", "batch": "de-batch-11" },
+  "meta": {
+    "theme": "Erkenntnistheorien via Alltagsbilder",
+    "batch": "de-batch-11",
+    "difficultyScore": 40
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Empirismus",
       "revealHint": "NUR WAS MAN SIEHT ZÄHLT",
-      "items": ["Experiment entscheidet", "Sinne als Richter", "Theorie am Fall prüfen", "Erst beobachten"]
+      "items": [
+        "Experiment entscheidet",
+        "Sinne als Richter",
+        "Theorie am Fall prüfen",
+        "Erst beobachten"
+      ]
     },
     {
       "id": "group_b",
       "label": "Rationalismus",
       "revealHint": "DENKEN VOR ERFAHRUNG",
-      "items": ["Descartes zweifelt", "Aus Axiomen ableiten", "Mathematik als Modell", "Vernunft trügt nicht"]
+      "items": [
+        "Descartes zweifelt",
+        "Aus Axiomen ableiten",
+        "Mathematik als Modell",
+        "Vernunft trügt nicht"
+      ]
     },
     {
       "id": "group_c",
       "label": "Intuition",
       "revealHint": "WISSEN OHNE HERLEITUNG",
-      "items": ["Bauch entscheidet", "Lösung kommt im Schlaf", "Fingerzeig ohne Grund", "Ahnung ohne Beweis"]
+      "items": [
+        "Bauch entscheidet",
+        "Lösung kommt im Schlaf",
+        "Fingerzeig ohne Grund",
+        "Ahnung ohne Beweis"
+      ]
     },
     {
       "id": "group_d",
       "label": "Tradition",
       "revealHint": "WISSEN VOM GROSSVATER",
-      "items": ["Oma kannte das schon", "Immer schon so gemacht", "Regel von früher gilt", "Weil früher bewährt"]
+      "items": [
+        "Oma kannte das schon",
+        "Immer schon so gemacht",
+        "Regel von früher gilt",
+        "Weil früher bewährt"
+      ]
     }
   ]
 }

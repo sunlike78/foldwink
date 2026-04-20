@@ -3,11 +3,53 @@
   "title": "Press Start",
   "difficulty": "easy",
   "editorialSummary": "Video game genres sorted by gameplay focus: action/combat genres, strategy genres, narrative/adventure genres, and simulation genres. Every item is a standard industry genre label.",
-  "meta": { "theme": "video game genres", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "video game genres",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 41
+  },
   "groups": [
-    { "id": "g1", "label": "ACTION / COMBAT", "items": ["Beat 'em Up", "Shoot 'em Up", "Fighting Game", "Hack and Slash"] },
-    { "id": "g2", "label": "STRATEGY", "items": ["Turn-Based Strategy", "Real-Time Strategy", "Tower Defense", "Grand Strategy"] },
-    { "id": "g3", "label": "NARRATIVE / ADVENTURE", "items": ["Visual Novel", "Point and Click", "Walking Simulator", "Metroidvania"] },
-    { "id": "g4", "label": "SIMULATION", "items": ["City Builder", "Life Sim", "Flight Sim", "Farming Sim"] }
+    {
+      "id": "g1",
+      "label": "ACTION / COMBAT",
+      "items": [
+        "Beat 'em Up",
+        "Shoot 'em Up",
+        "Fighting Game",
+        "Hack and Slash"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "STRATEGY",
+      "items": [
+        "Turn-Based Strategy",
+        "Real-Time Strategy",
+        "Tower Defense",
+        "Grand Strategy"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "NARRATIVE / ADVENTURE",
+      "items": [
+        "Visual Novel",
+        "Point and Click",
+        "Walking Simulator",
+        "Metroidvania"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "SIMULATION",
+      "items": [
+        "City Builder",
+        "Life Sim",
+        "Flight Sim",
+        "Farming Sim"
+      ]
+    }
   ]
 }

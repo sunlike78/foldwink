@@ -2,11 +2,51 @@
   "id": "de-0145",
   "title": "Eishockey",
   "difficulty": "easy",
-  "meta": { "theme": "Sport", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Sport",
+    "batch": "de-batch-02",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "group_a", "label": "Positionen", "items": ["Torwart", "Verteidiger", "Stürmer", "Flügel"] },
-    { "id": "group_b", "label": "Ausrüstung", "items": ["Schlittschuhe", "Schläger", "Puck", "Helm"] },
-    { "id": "group_c", "label": "Spielregeln", "items": ["Icing", "Abseits", "Powerplay", "Bully"] },
-    { "id": "group_d", "label": "Strafen", "items": ["2 Minuten", "5 Minuten", "Spielstrafe", "Matchstrafe"] }
+    {
+      "id": "group_a",
+      "label": "Positionen",
+      "items": [
+        "Torwart",
+        "Verteidiger",
+        "Stürmer",
+        "Flügel"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Ausrüstung",
+      "items": [
+        "Schlittschuhe",
+        "Schläger",
+        "Puck",
+        "Helm"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Spielregeln",
+      "items": [
+        "Icing",
+        "Abseits",
+        "Powerplay",
+        "Bully"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Strafen",
+      "items": [
+        "2 Minuten",
+        "5 Minuten",
+        "Spielstrafe",
+        "Matchstrafe"
+      ]
+    }
   ]
 }

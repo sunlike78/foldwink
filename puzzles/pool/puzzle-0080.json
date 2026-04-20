@@ -6,22 +6,45 @@
     {
       "id": "winter-holidays",
       "label": "Winter Holidays",
-      "items": ["Hanukkah", "Christmas", "Kwanzaa", "Yule"]
+      "items": [
+        "Hanukkah",
+        "Christmas",
+        "Kwanzaa",
+        "Yule"
+      ]
     },
     {
       "id": "spring-festivals",
       "label": "Spring Festivals",
-      "items": ["Holi", "Easter", "Passover", "Songkran"]
+      "items": [
+        "Holi",
+        "Easter",
+        "Passover",
+        "Songkran"
+      ]
     },
     {
       "id": "autumn-festivals",
       "label": "Autumn Festivals",
-      "items": ["Diwali", "Oktoberfest", "Mooncake", "Samhain"]
+      "items": [
+        "Diwali",
+        "Oktoberfest",
+        "Mooncake",
+        "Samhain"
+      ]
     },
     {
       "id": "summer-events",
       "label": "Summer Events",
-      "items": ["Midsummer", "Obon", "Carnival", "Bastille Day"]
+      "items": [
+        "Midsummer",
+        "Obon",
+        "Carnival",
+        "Bastille Day"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 25
+  }
 }

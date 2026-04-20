@@ -6,28 +6,49 @@
     "theme": "celebrations",
     "categoryType": "thematic",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 36
   },
   "groups": [
     {
       "id": "costumes",
       "label": "Halloween Costumes",
-      "items": ["Witch", "Vampire", "Zombie", "Mummy"]
+      "items": [
+        "Witch",
+        "Vampire",
+        "Zombie",
+        "Mummy"
+      ]
     },
     {
       "id": "decor",
       "label": "Halloween Decor",
-      "items": ["Jack-O-Lantern", "Cobweb", "Skeleton", "Gravestone"]
+      "items": [
+        "Jack-O-Lantern",
+        "Cobweb",
+        "Skeleton",
+        "Gravestone"
+      ]
     },
     {
       "id": "candy",
       "label": "Halloween Candy",
-      "items": ["Candy Corn", "Lollipop", "Chocolate Bar", "Gummy Worm"]
+      "items": [
+        "Candy Corn",
+        "Lollipop",
+        "Chocolate Bar",
+        "Gummy Worm"
+      ]
     },
     {
       "id": "activities",
       "label": "Halloween Activities",
-      "items": ["Trick-or-Treat", "Haunted House", "Bobbing Apples", "Costume Party"]
+      "items": [
+        "Trick-or-Treat",
+        "Haunted House",
+        "Bobbing Apples",
+        "Costume Party"
+      ]
     }
   ]
 }

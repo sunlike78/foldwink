@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Kosmologie",
-    "batch": "de-batch-04"
+    "batch": "de-batch-04",
+    "difficultyScore": 36
   },
   "groups": [
     {

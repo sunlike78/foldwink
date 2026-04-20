@@ -7,32 +7,53 @@
     "theme": "literature",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 39
   },
   "groups": [
     {
       "id": "g1",
       "label": "Narrative Time Techniques",
       "revealHint": "Time",
-      "items": ["Flashback", "Flash-Forward", "In Medias Res", "Anachrony"]
+      "items": [
+        "Flashback",
+        "Flash-Forward",
+        "In Medias Res",
+        "Anachrony"
+      ]
     },
     {
       "id": "g2",
       "label": "Point of View Types",
       "revealHint": "Voice",
-      "items": ["First Person", "Third Limited", "Third Omniscient", "Second Person"]
+      "items": [
+        "First Person",
+        "Third Limited",
+        "Third Omniscient",
+        "Second Person"
+      ]
     },
     {
       "id": "g3",
       "label": "Structural Story Devices",
       "revealHint": "Frame",
-      "items": ["Frame Narrative", "Unreliable Narrator", "Epistolary", "Parallel Narrative"]
+      "items": [
+        "Frame Narrative",
+        "Unreliable Narrator",
+        "Epistolary",
+        "Parallel Narrative"
+      ]
     },
     {
       "id": "g4",
       "label": "Rhetorical Figures",
       "revealHint": "Rhetorical",
-      "items": ["Anaphora", "Chiasmus", "Antithesis", "Aposiopesis"]
+      "items": [
+        "Anaphora",
+        "Chiasmus",
+        "Antithesis",
+        "Aposiopesis"
+      ]
     }
   ]
 }

@@ -7,34 +7,55 @@
     "theme": "mathematics",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 33
   },
   "groups": [
     {
       "id": "g1",
       "label": "Types of Triangle",
-      "items": ["Equilateral", "Isosceles", "Scalene", "Right-Angled"],
+      "items": [
+        "Equilateral",
+        "Isosceles",
+        "Scalene",
+        "Right-Angled"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Types of Quadrilateral",
-      "items": ["Rhombus", "Trapezoid", "Parallelogram", "Kite"],
+      "items": [
+        "Rhombus",
+        "Trapezoid",
+        "Parallelogram",
+        "Kite"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "3D Solids",
-      "items": ["Tetrahedron", "Octahedron", "Prism", "Torus"],
+      "items": [
+        "Tetrahedron",
+        "Octahedron",
+        "Prism",
+        "Torus"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Conic Sections",
-      "items": ["Ellipse", "Hyperbola", "Parabola", "Circle"],
+      "items": [
+        "Ellipse",
+        "Hyperbola",
+        "Parabola",
+        "Circle"
+      ],
       "color": "purple",
       "revealHint": ""
     }

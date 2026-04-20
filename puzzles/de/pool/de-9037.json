@@ -2,27 +2,51 @@
   "id": "de-9037",
   "title": "Unterwegs in Europa",
   "difficulty": "easy",
-  "meta": { "theme": "Reiseverhalten nach Verkehrsmittel", "batch": "de-batch-12" },
+  "meta": {
+    "theme": "Reiseverhalten nach Verkehrsmittel",
+    "batch": "de-batch-12",
+    "difficultyScore": 41
+  },
   "groups": [
     {
       "id": "group_a",
       "label": "Zug",
-      "items": ["Fahrkarte entwerten", "Fensterplatz gebucht", "Schaffner kommt vorbei", "Speisewagen aufsuchen"]
+      "items": [
+        "Fahrkarte entwerten",
+        "Fensterplatz gebucht",
+        "Schaffner kommt vorbei",
+        "Speisewagen aufsuchen"
+      ]
     },
     {
       "id": "group_b",
       "label": "Fähre",
-      "items": ["Kabine buchen", "Auto unter Deck", "Seekrank am Reling", "Leinen loswerfen"]
+      "items": [
+        "Kabine buchen",
+        "Auto unter Deck",
+        "Seekrank am Reling",
+        "Leinen loswerfen"
+      ]
     },
     {
       "id": "group_c",
       "label": "Reisebus",
-      "items": ["Koffer im Bauch", "Kissen am Nacken", "Pause auf Rastplatz", "Reiseführer gibt Mikro"]
+      "items": [
+        "Koffer im Bauch",
+        "Kissen am Nacken",
+        "Pause auf Rastplatz",
+        "Reiseführer gibt Mikro"
+      ]
     },
     {
       "id": "group_d",
       "label": "Fahrrad",
-      "items": ["Packtaschen beidseitig", "Reifen pumpen morgens", "Karte ans Lenker", "Hosenbein einrollen"]
+      "items": [
+        "Packtaschen beidseitig",
+        "Reifen pumpen morgens",
+        "Karte ans Lenker",
+        "Hosenbein einrollen"
+      ]
     }
   ]
 }

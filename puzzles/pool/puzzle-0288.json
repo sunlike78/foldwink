@@ -7,32 +7,53 @@
     "theme": "geography",
     "categoryType": "attribute",
     "batch": "batch-07",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 54
   },
   "groups": [
     {
       "id": "g1",
       "label": "European Mountain Ranges",
       "revealHint": "Europe",
-      "items": ["Pyrenees", "Carpathians", "Apennines", "Urals"]
+      "items": [
+        "Pyrenees",
+        "Carpathians",
+        "Apennines",
+        "Urals"
+      ]
     },
     {
       "id": "g2",
       "label": "Asian Mountain Ranges",
       "revealHint": "Asia",
-      "items": ["Karakoram", "Hindu Kush", "Tian Shan", "Zagros"]
+      "items": [
+        "Karakoram",
+        "Hindu Kush",
+        "Tian Shan",
+        "Zagros"
+      ]
     },
     {
       "id": "g3",
       "label": "African Mountain Ranges",
       "revealHint": "Africa",
-      "items": ["Drakensberg", "Rwenzori", "Ahaggar", "Ethiopian Highlands"]
+      "items": [
+        "Drakensberg",
+        "Rwenzori",
+        "Ahaggar",
+        "Ethiopian Highlands"
+      ]
     },
     {
       "id": "g4",
       "label": "Americas Mountain Ranges",
       "revealHint": "Americas",
-      "items": ["Blue Ridge", "Appalachians", "Sierra Madre", "Coast Range"]
+      "items": [
+        "Blue Ridge",
+        "Appalachians",
+        "Sierra Madre",
+        "Coast Range"
+      ]
     }
   ]
 }

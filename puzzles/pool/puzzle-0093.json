@@ -8,25 +8,48 @@
       "id": "romanesque",
       "label": "Romanesque",
       "revealHint": "ROUND",
-      "items": ["Barrel Vault", "Round Arch", "Thick Wall", "Tympanum"]
+      "items": [
+        "Barrel Vault",
+        "Round Arch",
+        "Thick Wall",
+        "Tympanum"
+      ]
     },
     {
       "id": "gothic",
       "label": "Gothic",
       "revealHint": "SPIRE",
-      "items": ["Pointed Arch", "Rib Vault", "Flying Buttress", "Tracery"]
+      "items": [
+        "Pointed Arch",
+        "Rib Vault",
+        "Flying Buttress",
+        "Tracery"
+      ]
     },
     {
       "id": "baroque",
       "label": "Baroque",
       "revealHint": "DRAMA",
-      "items": ["Oval Plan", "Cherubs", "Cartouche", "Trompe l'Oeil"]
+      "items": [
+        "Oval Plan",
+        "Cherubs",
+        "Cartouche",
+        "Trompe l'Oeil"
+      ]
     },
     {
       "id": "modernist",
       "label": "Modernist",
       "revealHint": "GLASS",
-      "items": ["Cantilever", "Curtain Wall", "Pilotis", "Ribbon Window"]
+      "items": [
+        "Cantilever",
+        "Curtain Wall",
+        "Pilotis",
+        "Ribbon Window"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 30
+  }
 }

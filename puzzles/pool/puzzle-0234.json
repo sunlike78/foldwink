@@ -6,28 +6,49 @@
     "theme": "games",
     "categoryType": "classification",
     "batch": "batch-05",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 39
   },
   "groups": [
     {
       "id": "word-puzzles",
       "label": "Word Puzzles",
-      "items": ["Crossword", "Anagram", "Word Search", "Cryptogram"]
+      "items": [
+        "Crossword",
+        "Anagram",
+        "Word Search",
+        "Cryptogram"
+      ]
     },
     {
       "id": "number-puzzles",
       "label": "Number Puzzles",
-      "items": ["Sudoku", "Kakuro", "Nonogram", "Magic Square"]
+      "items": [
+        "Sudoku",
+        "Kakuro",
+        "Nonogram",
+        "Magic Square"
+      ]
     },
     {
       "id": "physical-puzzles",
       "label": "Physical Puzzles",
-      "items": ["Jigsaw", "Rubik's Cube", "Tangram", "Slide Puzzle"]
+      "items": [
+        "Jigsaw",
+        "Rubik's Cube",
+        "Tangram",
+        "Slide Puzzle"
+      ]
     },
     {
       "id": "logic-puzzles",
       "label": "Logic Puzzles",
-      "items": ["Riddle", "Maze", "Logic Grid", "Syllogism"]
+      "items": [
+        "Riddle",
+        "Maze",
+        "Logic Grid",
+        "Syllogism"
+      ]
     }
   ]
 }

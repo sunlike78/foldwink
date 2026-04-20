@@ -6,22 +6,45 @@
     {
       "id": "herding",
       "label": "Herding Dogs",
-      "items": ["Collie", "Shepherd", "Corgi", "Sheepdog"]
+      "items": [
+        "Collie",
+        "Shepherd",
+        "Corgi",
+        "Sheepdog"
+      ]
     },
     {
       "id": "toy-dogs",
       "label": "Toy Dogs",
-      "items": ["Chihuahua", "Maltese", "Pug", "Pomeranian"]
+      "items": [
+        "Chihuahua",
+        "Maltese",
+        "Pug",
+        "Pomeranian"
+      ]
     },
     {
       "id": "cats-long",
       "label": "Long-haired Cats",
-      "items": ["Persian", "Ragdoll", "Maine Coon", "Birman"]
+      "items": [
+        "Persian",
+        "Ragdoll",
+        "Maine Coon",
+        "Birman"
+      ]
     },
     {
       "id": "cats-short",
       "label": "Short-haired Cats",
-      "items": ["Bengal", "Siamese", "Sphynx", "Burmese"]
+      "items": [
+        "Bengal",
+        "Siamese",
+        "Sphynx",
+        "Burmese"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 31
+  }
 }

@@ -6,28 +6,49 @@
     "theme": "history",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 27
   },
   "groups": [
     {
       "id": "egypt",
       "label": "Ancient Egypt",
-      "items": ["Pharaoh", "Pyramid", "Sphinx", "Hieroglyph"]
+      "items": [
+        "Pharaoh",
+        "Pyramid",
+        "Sphinx",
+        "Hieroglyph"
+      ]
     },
     {
       "id": "rome",
       "label": "Ancient Rome",
-      "items": ["Gladiator", "Colosseum", "Senate", "Aqueduct"]
+      "items": [
+        "Gladiator",
+        "Colosseum",
+        "Senate",
+        "Aqueduct"
+      ]
     },
     {
       "id": "greece",
       "label": "Ancient Greece",
-      "items": ["Acropolis", "Agora", "Amphitheatre", "Parthenon"]
+      "items": [
+        "Acropolis",
+        "Agora",
+        "Amphitheatre",
+        "Parthenon"
+      ]
     },
     {
       "id": "china",
       "label": "Ancient China",
-      "items": ["Dynasty", "Great Wall", "Terracotta", "Silk Road"]
+      "items": [
+        "Dynasty",
+        "Great Wall",
+        "Terracotta",
+        "Silk Road"
+      ]
     }
   ]
 }

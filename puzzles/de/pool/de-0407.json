@@ -2,11 +2,55 @@
   "id": "de-0407",
   "title": "Beruf und sein Werkzeug",
   "difficulty": "medium",
-  "meta": { "theme": "berufe", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "berufe",
+    "batch": "de-batch-05",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "group_a", "label": "Tischler-Werkzeug", "revealHint": "Holzbearbeitung", "items": ["Hobel", "Stecheisen", "Säge", "Zwinge"] },
-    { "id": "group_b", "label": "Schneider-Werkzeug", "revealHint": "Näherei", "items": ["Nähnadel", "Maßband", "Schere", "Fingerhut"] },
-    { "id": "group_c", "label": "Koch-Werkzeug", "revealHint": "Küche", "items": ["Kochmesser", "Schneebesen", "Pfanne", "Sieb"] },
-    { "id": "group_d", "label": "Arzt-Werkzeug", "revealHint": "Medizin", "items": ["Stethoskop", "Skalpell", "Spritze", "Blutdruckmanschette"] }
+    {
+      "id": "group_a",
+      "label": "Tischler-Werkzeug",
+      "revealHint": "Holzbearbeitung",
+      "items": [
+        "Hobel",
+        "Stecheisen",
+        "Säge",
+        "Zwinge"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Schneider-Werkzeug",
+      "revealHint": "Näherei",
+      "items": [
+        "Nähnadel",
+        "Maßband",
+        "Schere",
+        "Fingerhut"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Koch-Werkzeug",
+      "revealHint": "Küche",
+      "items": [
+        "Kochmesser",
+        "Schneebesen",
+        "Pfanne",
+        "Sieb"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Arzt-Werkzeug",
+      "revealHint": "Medizin",
+      "items": [
+        "Stethoskop",
+        "Skalpell",
+        "Spritze",
+        "Blutdruckmanschette"
+      ]
+    }
   ]
 }

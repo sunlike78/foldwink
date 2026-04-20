@@ -2,11 +2,51 @@
   "id": "de-0180",
   "title": "Klimazonen",
   "difficulty": "easy",
-  "meta": { "theme": "Geografie", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Geografie",
+    "batch": "de-batch-02",
+    "difficultyScore": 31
+  },
   "groups": [
-    { "id": "group_a", "label": "Tropisches Klima", "items": ["Regenwald", "Savanne", "Monsun", "Regenzeit"] },
-    { "id": "group_b", "label": "Gemäßigtes Klima", "items": ["Vier Jahreszeiten", "Laubwald", "Schnee", "Frühling"] },
-    { "id": "group_c", "label": "Polares Klima", "items": ["Permafrost", "Polarnacht", "Eiskappen", "Tundra"] },
-    { "id": "group_d", "label": "Trockenes Klima", "items": ["Wüste", "Halbwüste", "Dürre", "Sandsturm"] }
+    {
+      "id": "group_a",
+      "label": "Tropisches Klima",
+      "items": [
+        "Regenwald",
+        "Savanne",
+        "Monsun",
+        "Regenzeit"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Gemäßigtes Klima",
+      "items": [
+        "Vier Jahreszeiten",
+        "Laubwald",
+        "Schnee",
+        "Frühling"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Polares Klima",
+      "items": [
+        "Permafrost",
+        "Polarnacht",
+        "Eiskappen",
+        "Tundra"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Trockenes Klima",
+      "items": [
+        "Wüste",
+        "Halbwüste",
+        "Dürre",
+        "Sandsturm"
+      ]
+    }
   ]
 }

@@ -6,22 +6,45 @@
     {
       "id": "rock-subgenres",
       "label": "Rock Subgenres",
-      "items": ["Punk", "Grunge", "Indie", "Prog"]
+      "items": [
+        "Punk",
+        "Grunge",
+        "Indie",
+        "Prog"
+      ]
     },
     {
       "id": "electronic",
       "label": "Electronic",
-      "items": ["House", "Techno", "Trance", "Ambient"]
+      "items": [
+        "House",
+        "Techno",
+        "Trance",
+        "Ambient"
+      ]
     },
     {
       "id": "jazz-subgenres",
       "label": "Jazz Styles",
-      "items": ["Bebop", "Swing", "Fusion", "Cool"]
+      "items": [
+        "Bebop",
+        "Swing",
+        "Fusion",
+        "Cool"
+      ]
     },
     {
       "id": "folk-world",
       "label": "Folk & World",
-      "items": ["Bluegrass", "Flamenco", "Fado", "Reggae"]
+      "items": [
+        "Bluegrass",
+        "Flamenco",
+        "Fado",
+        "Reggae"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 16
+  }
 }

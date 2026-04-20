@@ -6,28 +6,49 @@
     "theme": "sports",
     "categoryType": "classification",
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 31
   },
   "groups": [
     {
       "id": "ball",
       "label": "Ball Sports",
-      "items": ["Cricket", "Lacrosse", "Polo", "Squash"]
+      "items": [
+        "Cricket",
+        "Lacrosse",
+        "Polo",
+        "Squash"
+      ]
     },
     {
       "id": "water",
       "label": "Water Sports",
-      "items": ["Rowing", "Sailing", "Surfing", "Water Polo"]
+      "items": [
+        "Rowing",
+        "Sailing",
+        "Surfing",
+        "Water Polo"
+      ]
     },
     {
       "id": "combat",
       "label": "Combat Sports",
-      "items": ["Fencing", "Judo", "Karate", "Taekwondo"]
+      "items": [
+        "Fencing",
+        "Judo",
+        "Karate",
+        "Taekwondo"
+      ]
     },
     {
       "id": "track",
       "label": "Track and Field",
-      "items": ["Hurdles", "Javelin", "Discus", "Shot Put"]
+      "items": [
+        "Hurdles",
+        "Javelin",
+        "Discus",
+        "Shot Put"
+      ]
     }
   ]
 }

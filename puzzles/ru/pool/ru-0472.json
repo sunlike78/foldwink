@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Профессии в строительстве",
-    "batch": "ru-batch-20"
+    "batch": "ru-batch-20",
+    "difficultyScore": 41
   },
   "groups": [
     {

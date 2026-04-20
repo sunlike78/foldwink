@@ -2,11 +2,51 @@
   "id": "de-0009",
   "title": "Möbel im Haus",
   "difficulty": "easy",
-  "meta": { "theme": "Möbel", "batch": "de-batch-01" },
+  "meta": {
+    "theme": "Möbel",
+    "batch": "de-batch-01",
+    "difficultyScore": 49
+  },
   "groups": [
-    { "id": "group_a", "label": "Schlafzimmermöbel", "items": ["Bett", "Kleiderschrank", "Nachttisch", "Kommode"] },
-    { "id": "group_b", "label": "Wohnzimmermöbel", "items": ["Sofa", "Couchtisch", "Regal", "Sessel"] },
-    { "id": "group_c", "label": "Küchenmöbel", "items": ["Küchenschrank", "Herd", "Spülbecken", "Kühlschrank"] },
-    { "id": "group_d", "label": "Badezimmermöbel", "items": ["Badewanne", "Waschbecken", "Spiegelschrank", "Toilette"] }
+    {
+      "id": "group_a",
+      "label": "Schlafzimmermöbel",
+      "items": [
+        "Bett",
+        "Kleiderschrank",
+        "Nachttisch",
+        "Kommode"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Wohnzimmermöbel",
+      "items": [
+        "Sofa",
+        "Couchtisch",
+        "Regal",
+        "Sessel"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Küchenmöbel",
+      "items": [
+        "Küchenschrank",
+        "Herd",
+        "Spülbecken",
+        "Kühlschrank"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Badezimmermöbel",
+      "items": [
+        "Badewanne",
+        "Waschbecken",
+        "Spiegelschrank",
+        "Toilette"
+      ]
+    }
   ]
 }

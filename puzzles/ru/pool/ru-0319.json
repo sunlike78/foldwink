@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Виды массажа и мануальных техник",
-    "batch": "ru-batch-12"
+    "batch": "ru-batch-12",
+    "difficultyScore": 41
   },
   "groups": [
     {

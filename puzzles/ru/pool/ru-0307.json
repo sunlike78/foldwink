@@ -4,7 +4,8 @@
   "difficulty": "easy",
   "meta": {
     "theme": "Жанры романтической литературы",
-    "batch": "ru-batch-12"
+    "batch": "ru-batch-12",
+    "difficultyScore": 32
   },
   "groups": [
     {

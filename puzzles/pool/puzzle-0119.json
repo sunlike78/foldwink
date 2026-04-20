@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "wordplay": true,
     "batch": "batch-01",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 40
   },
   "groups": [
     {
       "id": "candy",
       "label": "Candy bars",
       "revealHint": "Candy",
-      "items": ["Snickers", "Kit Kat", "Twix", "Milky Way"]
+      "items": [
+        "Snickers",
+        "Kit Kat",
+        "Twix",
+        "Milky Way"
+      ]
     },
     {
       "id": "legal",
       "label": "Legal bars",
       "revealHint": "Legal",
-      "items": ["Bench", "Counsel", "Objection", "Verdict"]
+      "items": [
+        "Bench",
+        "Counsel",
+        "Objection",
+        "Verdict"
+      ]
     },
     {
       "id": "music",
       "label": "Musical bars",
       "revealHint": "Music",
-      "items": ["Measure", "Rest", "Clef", "Tempo"]
+      "items": [
+        "Measure",
+        "Rest",
+        "Clef",
+        "Tempo"
+      ]
     },
     {
       "id": "gym",
       "label": "Gymnastics bars",
       "revealHint": "Gymnastics",
-      "items": ["Uneven", "Parallel", "Dismount", "Mount"]
+      "items": [
+        "Uneven",
+        "Parallel",
+        "Dismount",
+        "Mount"
+      ]
     }
   ]
 }

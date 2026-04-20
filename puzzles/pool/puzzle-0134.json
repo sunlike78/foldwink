@@ -6,28 +6,49 @@
     "theme": "office",
     "categoryType": "classification",
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 28
   },
   "groups": [
     {
       "id": "write",
       "label": "Writing Tools",
-      "items": ["Fountain Pen", "Marker", "Highlighter", "Pencil"]
+      "items": [
+        "Fountain Pen",
+        "Marker",
+        "Highlighter",
+        "Pencil"
+      ]
     },
     {
       "id": "clip",
       "label": "Fastening Supplies",
-      "items": ["Stapler", "Paper Clip", "Binder Clip", "Tape"]
+      "items": [
+        "Stapler",
+        "Paper Clip",
+        "Binder Clip",
+        "Tape"
+      ]
     },
     {
       "id": "measure",
       "label": "Planning Tools",
-      "items": ["Ruler", "Calendar", "Planner", "Protractor"]
+      "items": [
+        "Ruler",
+        "Calendar",
+        "Planner",
+        "Protractor"
+      ]
     },
     {
       "id": "organize",
       "label": "Organization Tools",
-      "items": ["Folder", "Envelope", "Label Maker", "File Box"]
+      "items": [
+        "Folder",
+        "Envelope",
+        "Label Maker",
+        "File Box"
+      ]
     }
   ]
 }

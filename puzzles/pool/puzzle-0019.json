@@ -8,25 +8,48 @@
       "id": "fly",
       "label": "___ FLY",
       "revealHint": "FLY",
-      "items": ["House", "Butter", "Dragon", "Horse"]
+      "items": [
+        "House",
+        "Butter",
+        "Dragon",
+        "Horse"
+      ]
     },
     {
       "id": "ball",
       "label": "___ BALL",
       "revealHint": "BALL",
-      "items": ["Foot", "Basket", "Base", "Volley"]
+      "items": [
+        "Foot",
+        "Basket",
+        "Base",
+        "Volley"
+      ]
     },
     {
       "id": "pot",
       "label": "___ POT",
       "revealHint": "POT",
-      "items": ["Tea", "Flower", "Jack", "Honey"]
+      "items": [
+        "Tea",
+        "Flower",
+        "Jack",
+        "Honey"
+      ]
     },
     {
       "id": "house",
       "label": "___ HOUSE",
       "revealHint": "HOUSE",
-      "items": ["Ware", "Light", "Court", "Farm"]
+      "items": [
+        "Ware",
+        "Light",
+        "Court",
+        "Farm"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 19
+  }
 }

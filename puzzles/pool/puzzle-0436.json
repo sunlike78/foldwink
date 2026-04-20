@@ -3,11 +3,53 @@
   "title": "Omakase",
   "difficulty": "easy",
   "editorialSummary": "Sushi types sorted by preparation style: nigiri (hand-pressed rice with a topping), maki (rolled in nori), hand rolls (temaki), and cooked/non-raw options. Every item is a well-known sushi menu entry.",
-  "meta": { "theme": "sushi", "categoryType": "classification", "batch": "batch-13", "status": "approved" },
+  "meta": {
+    "theme": "sushi",
+    "categoryType": "classification",
+    "batch": "batch-13",
+    "status": "approved",
+    "difficultyScore": 53
+  },
   "groups": [
-    { "id": "g1", "label": "NIGIRI", "items": ["Salmon Nigiri", "Tuna Nigiri", "Shrimp Nigiri", "Eel Nigiri"] },
-    { "id": "g2", "label": "MAKI ROLLS", "items": ["California Roll", "Spicy Tuna Roll", "Dragon Roll", "Rainbow Roll"] },
-    { "id": "g3", "label": "TEMAKI (HAND ROLL)", "items": ["Salmon Temaki", "Tuna Temaki", "Scallop Temaki", "Avocado Temaki"] },
-    { "id": "g4", "label": "COOKED SUSHI", "items": ["Ebi", "Kani", "Tamago", "Unagi"] }
+    {
+      "id": "g1",
+      "label": "NIGIRI",
+      "items": [
+        "Salmon Nigiri",
+        "Tuna Nigiri",
+        "Shrimp Nigiri",
+        "Eel Nigiri"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "MAKI ROLLS",
+      "items": [
+        "California Roll",
+        "Spicy Tuna Roll",
+        "Dragon Roll",
+        "Rainbow Roll"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "TEMAKI (HAND ROLL)",
+      "items": [
+        "Salmon Temaki",
+        "Tuna Temaki",
+        "Scallop Temaki",
+        "Avocado Temaki"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "COOKED SUSHI",
+      "items": [
+        "Ebi",
+        "Kani",
+        "Tamago",
+        "Unagi"
+      ]
+    }
   ]
 }

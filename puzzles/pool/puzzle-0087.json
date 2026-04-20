@@ -6,22 +6,45 @@
     {
       "id": "egyptian",
       "label": "Egyptian Kingdom",
-      "items": ["Pyramid", "Sphinx", "Pharaoh", "Scarab"]
+      "items": [
+        "Pyramid",
+        "Sphinx",
+        "Pharaoh",
+        "Scarab"
+      ]
     },
     {
       "id": "roman",
       "label": "Roman Empire",
-      "items": ["Senate", "Legion", "Colosseum", "Aqueduct"]
+      "items": [
+        "Senate",
+        "Legion",
+        "Colosseum",
+        "Aqueduct"
+      ]
     },
     {
       "id": "greek",
       "label": "Ancient Greek",
-      "items": ["Agora", "Acropolis", "Oracle", "Hoplite"]
+      "items": [
+        "Agora",
+        "Acropolis",
+        "Oracle",
+        "Hoplite"
+      ]
     },
     {
       "id": "mayan",
       "label": "Mayan Civilization",
-      "items": ["Stela", "Cenote", "Glyph", "Calendar Stone"]
+      "items": [
+        "Stela",
+        "Cenote",
+        "Glyph",
+        "Calendar Stone"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 24
+  }
 }

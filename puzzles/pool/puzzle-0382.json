@@ -3,11 +3,53 @@
   "title": "Knot Know-How",
   "difficulty": "easy",
   "editorialSummary": "Knots by function. False trail: Bowline looks like a bend (joins two lines) but is definitionally a loop. Figure-Eight and Figure-Eight Loop are deliberately similar — the loop variant is with loops, the plain is a stopper.",
-  "meta": { "theme": "skills", "categoryType": "classification", "batch": "batch-11", "status": "approved" },
+  "meta": {
+    "theme": "skills",
+    "categoryType": "classification",
+    "batch": "batch-11",
+    "status": "approved",
+    "difficultyScore": 44
+  },
   "groups": [
-    { "id": "g1", "label": "HITCH KNOTS", "items": ["Cleat Hitch", "Clove Hitch", "Timber Hitch", "Rolling Hitch"] },
-    { "id": "g2", "label": "BEND KNOTS", "items": ["Sheet Bend", "Carrick Bend", "Fisherman's Knot", "Double Fisherman's"] },
-    { "id": "g3", "label": "LOOP KNOTS", "items": ["Bowline", "Figure-Eight Loop", "Surgeon's Loop", "Angler's Loop"] },
-    { "id": "g4", "label": "STOPPER KNOTS", "items": ["Figure-Eight", "Overhand", "Ashley's Stopper", "Monkey's Fist"] }
+    {
+      "id": "g1",
+      "label": "HITCH KNOTS",
+      "items": [
+        "Cleat Hitch",
+        "Clove Hitch",
+        "Timber Hitch",
+        "Rolling Hitch"
+      ]
+    },
+    {
+      "id": "g2",
+      "label": "BEND KNOTS",
+      "items": [
+        "Sheet Bend",
+        "Carrick Bend",
+        "Fisherman's Knot",
+        "Double Fisherman's"
+      ]
+    },
+    {
+      "id": "g3",
+      "label": "LOOP KNOTS",
+      "items": [
+        "Bowline",
+        "Figure-Eight Loop",
+        "Surgeon's Loop",
+        "Angler's Loop"
+      ]
+    },
+    {
+      "id": "g4",
+      "label": "STOPPER KNOTS",
+      "items": [
+        "Figure-Eight",
+        "Overhand",
+        "Ashley's Stopper",
+        "Monkey's Fist"
+      ]
+    }
   ]
 }

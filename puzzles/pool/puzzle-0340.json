@@ -7,34 +7,55 @@
     "theme": "sports",
     "categoryType": "classification",
     "batch": "batch-09",
-    "status": "draft"
+    "status": "draft",
+    "difficultyScore": 42
   },
   "groups": [
     {
       "id": "g1",
       "label": "Olympic Sports Debuting in 1996",
-      "items": ["Beach Volleyball", "Mountain Bike", "Softball", "Lightweight Rowing"],
+      "items": [
+        "Beach Volleyball",
+        "Mountain Bike",
+        "Softball",
+        "Lightweight Rowing"
+      ],
       "color": "yellow",
       "revealHint": ""
     },
     {
       "id": "g2",
       "label": "Olympic Sports Debuting in 2000",
-      "items": ["Triathlon", "Taekwondo", "Trampoline", "Synchronized Diving"],
+      "items": [
+        "Triathlon",
+        "Taekwondo",
+        "Trampoline",
+        "Synchronized Diving"
+      ],
       "color": "green",
       "revealHint": ""
     },
     {
       "id": "g3",
       "label": "Olympic Sports Debuting in 2008",
-      "items": ["BMX Racing", "Open Water Swimming", "Women's Team Sprint", "Women's Steeplechase"],
+      "items": [
+        "BMX Racing",
+        "Open Water Swimming",
+        "Women's Team Sprint",
+        "Women's Steeplechase"
+      ],
       "color": "blue",
       "revealHint": ""
     },
     {
       "id": "g4",
       "label": "Olympic Sports Debuting in 2021",
-      "items": ["Skateboarding", "Sport Climbing", "Surfing", "Karate"],
+      "items": [
+        "Skateboarding",
+        "Sport Climbing",
+        "Surfing",
+        "Karate"
+      ],
       "color": "purple",
       "revealHint": ""
     }

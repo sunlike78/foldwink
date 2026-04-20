@@ -2,11 +2,51 @@
   "id": "de-0160",
   "title": "Soziales Leben",
   "difficulty": "easy",
-  "meta": { "theme": "Gesellschaft", "batch": "de-batch-02" },
+  "meta": {
+    "theme": "Gesellschaft",
+    "batch": "de-batch-02",
+    "difficultyScore": 30
+  },
   "groups": [
-    { "id": "group_a", "label": "Familienbeziehungen", "items": ["Eltern", "Geschwister", "Großeltern", "Tante"] },
-    { "id": "group_b", "label": "Freundschaft", "items": ["Bestfreund", "Bekannter", "Nachbar", "Kollege"] },
-    { "id": "group_c", "label": "Schulbeziehungen", "items": ["Klassenlehrer", "Mitschüler", "Schulleiter", "Hausmeister"] },
-    { "id": "group_d", "label": "Arbeitsbeziehungen", "items": ["Chef", "Teammitglied", "Kunde", "Lieferant"] }
+    {
+      "id": "group_a",
+      "label": "Familienbeziehungen",
+      "items": [
+        "Eltern",
+        "Geschwister",
+        "Großeltern",
+        "Tante"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Freundschaft",
+      "items": [
+        "Bestfreund",
+        "Bekannter",
+        "Nachbar",
+        "Kollege"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Schulbeziehungen",
+      "items": [
+        "Klassenlehrer",
+        "Mitschüler",
+        "Schulleiter",
+        "Hausmeister"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Arbeitsbeziehungen",
+      "items": [
+        "Chef",
+        "Teammitglied",
+        "Kunde",
+        "Lieferant"
+      ]
+    }
   ]
 }

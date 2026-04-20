@@ -2,11 +2,55 @@
   "id": "de-0431",
   "title": "Dialekt-Wörter erraten",
   "difficulty": "medium",
-  "meta": { "theme": "dialekte", "batch": "de-batch-05" },
+  "meta": {
+    "theme": "dialekte",
+    "batch": "de-batch-05",
+    "difficultyScore": 18
+  },
   "groups": [
-    { "id": "group_a", "label": "Bairisch", "revealHint": "Südostdeutsch", "items": ["Bazi", "Hendl", "Semmel", "Gstanzl"] },
-    { "id": "group_b", "label": "Sächsisch", "revealHint": "Mitteldeutsch", "items": ["Eierschecke", "Dresdner", "Guten Morsch", "Mäse"] },
-    { "id": "group_c", "label": "Berlinerisch", "revealHint": "Hauptstadtdialekt", "items": ["Icke", "Jut", "Kiez", "Schrippe"] },
-    { "id": "group_d", "label": "Schwäbisch", "revealHint": "Baden-Württemberg", "items": ["Noi", "Spätzle", "Gell", "Schaffe"] }
+    {
+      "id": "group_a",
+      "label": "Bairisch",
+      "revealHint": "Südostdeutsch",
+      "items": [
+        "Bazi",
+        "Hendl",
+        "Semmel",
+        "Gstanzl"
+      ]
+    },
+    {
+      "id": "group_b",
+      "label": "Sächsisch",
+      "revealHint": "Mitteldeutsch",
+      "items": [
+        "Eierschecke",
+        "Dresdner",
+        "Guten Morsch",
+        "Mäse"
+      ]
+    },
+    {
+      "id": "group_c",
+      "label": "Berlinerisch",
+      "revealHint": "Hauptstadtdialekt",
+      "items": [
+        "Icke",
+        "Jut",
+        "Kiez",
+        "Schrippe"
+      ]
+    },
+    {
+      "id": "group_d",
+      "label": "Schwäbisch",
+      "revealHint": "Baden-Württemberg",
+      "items": [
+        "Noi",
+        "Spätzle",
+        "Gell",
+        "Schaffe"
+      ]
+    }
   ]
 }

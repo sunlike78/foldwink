@@ -8,32 +8,53 @@
     "categoryType": "attribute",
     "fairnessRisk": 1,
     "batch": "batch-02",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 18
   },
   "groups": [
     {
       "id": "quality",
       "label": "Fine (quality)",
       "revealHint": "Quality",
-      "items": ["Exquisite", "Refined", "Elegant", "Impeccable"]
+      "items": [
+        "Exquisite",
+        "Refined",
+        "Elegant",
+        "Impeccable"
+      ]
     },
     {
       "id": "penalty",
       "label": "Fine (penalty)",
       "revealHint": "Penalty",
-      "items": ["Infraction", "Ticket", "Citation", "Surcharge"]
+      "items": [
+        "Infraction",
+        "Ticket",
+        "Citation",
+        "Surcharge"
+      ]
     },
     {
       "id": "thin",
       "label": "Fine (thin)",
       "revealHint": "Thin",
-      "items": ["Thread", "Filament", "Grain", "Mist"]
+      "items": [
+        "Thread",
+        "Filament",
+        "Grain",
+        "Mist"
+      ]
     },
     {
       "id": "weather",
       "label": "Fine (weather)",
       "revealHint": "Weather",
-      "items": ["Clear", "Sunny", "Mild", "Balmy"]
+      "items": [
+        "Clear",
+        "Sunny",
+        "Mild",
+        "Balmy"
+      ]
     }
   ]
 }

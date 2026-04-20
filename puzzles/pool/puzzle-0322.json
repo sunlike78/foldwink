@@ -7,32 +7,53 @@
     "theme": "music",
     "categoryType": "attribute",
     "batch": "batch-08",
-    "status": "approved"
+    "status": "approved",
+    "difficultyScore": 43
   },
   "groups": [
     {
       "id": "g1",
       "label": "Classic Jazz / Swing Artists",
       "revealHint": "Swing",
-      "items": ["Duke Ellington", "Count Basie", "Benny Goodman", "Louis Armstrong"]
+      "items": [
+        "Duke Ellington",
+        "Count Basie",
+        "Benny Goodman",
+        "Louis Armstrong"
+      ]
     },
     {
       "id": "g2",
       "label": "Bebop Artists",
       "revealHint": "Bebop",
-      "items": ["Charlie Parker", "Dizzy Gillespie", "Thelonious Monk", "Bud Powell"]
+      "items": [
+        "Charlie Parker",
+        "Dizzy Gillespie",
+        "Thelonious Monk",
+        "Bud Powell"
+      ]
     },
     {
       "id": "g3",
       "label": "Hard Bop Artists",
       "revealHint": "Gospel",
-      "items": ["Art Blakey", "Clifford Brown", "Horace Silver", "Lee Morgan"]
+      "items": [
+        "Art Blakey",
+        "Clifford Brown",
+        "Horace Silver",
+        "Lee Morgan"
+      ]
     },
     {
       "id": "g4",
       "label": "Cool Jazz / Modal Jazz Artists",
       "revealHint": "Modal",
-      "items": ["Miles Davis", "Dave Brubeck", "Bill Evans", "John Coltrane"]
+      "items": [
+        "Miles Davis",
+        "Dave Brubeck",
+        "Bill Evans",
+        "John Coltrane"
+      ]
     }
   ]
 }

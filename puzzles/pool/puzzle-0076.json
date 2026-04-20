@@ -6,22 +6,45 @@
     {
       "id": "classics",
       "label": "Classic Authors",
-      "items": ["Austen", "Dickens", "Tolstoy", "Dumas"]
+      "items": [
+        "Austen",
+        "Dickens",
+        "Tolstoy",
+        "Dumas"
+      ]
     },
     {
       "id": "modernists",
       "label": "Modernist Authors",
-      "items": ["Woolf", "Joyce", "Kafka", "Proust"]
+      "items": [
+        "Woolf",
+        "Joyce",
+        "Kafka",
+        "Proust"
+      ]
     },
     {
       "id": "sci-fi",
       "label": "Science Fiction Authors",
-      "items": ["Asimov", "Le Guin", "Bradbury", "Clarke"]
+      "items": [
+        "Asimov",
+        "Le Guin",
+        "Bradbury",
+        "Clarke"
+      ]
     },
     {
       "id": "mystery",
       "label": "Mystery Authors",
-      "items": ["Christie", "Conan Doyle", "Chandler", "Highsmith"]
+      "items": [
+        "Christie",
+        "Conan Doyle",
+        "Chandler",
+        "Highsmith"
+      ]
     }
-  ]
+  ],
+  "meta": {
+    "difficultyScore": 22
+  }
 }

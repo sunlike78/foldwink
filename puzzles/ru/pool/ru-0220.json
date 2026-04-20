@@ -4,7 +4,8 @@
   "difficulty": "medium",
   "meta": {
     "theme": "Советские изобретения и разработки",
-    "batch": "ru-batch-07"
+    "batch": "ru-batch-07",
+    "difficultyScore": 25
   },
   "groups": [
     {
