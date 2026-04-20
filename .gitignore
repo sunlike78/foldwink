@@ -18,5 +18,8 @@ audit-results/
 # export archives
 export/
 
+# itch.io butler target (per-developer, never committed)
+.itch-target
+
 # puzzle batch staging (audit trail lives in docs/reports/batch-*-audit/)
 puzzles/pool/_drafts/

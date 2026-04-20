@@ -7,6 +7,7 @@ import { ShareButton } from "../components/ShareButton";
 import { DailyCountdown } from "../components/DailyCountdown";
 import { buildShareString } from "../game/engine/share";
 import { gradeResult } from "../game/engine/grading";
+import { mediumReadiness } from "../game/engine/readiness";
 import { todayLocal } from "../utils/date";
 import { useSound } from "../audio/useSound";
 import { useHaptics } from "../haptics/useHaptics";
@@ -22,6 +23,7 @@ export function ResultScreen() {
   const goToMenu = useGameStore((s) => s.goToMenu);
   const showStats = useGameStore((s) => s.showStats);
   const startNextSame = useGameStore((s) => s.startNextSame);
+  const startMedium = useGameStore((s) => s.startMedium);
   const play = useSound();
   const haptic = useHaptics();
   const t = useT();
@@ -144,6 +146,18 @@ export function ResultScreen() {
             {t.result.nextPuzzle}
           </Button>
         )}
+        {!isDaily &&
+          isWin &&
+          puzzle.difficulty === "easy" &&
+          mediumReadiness(stats).unlocked && (
+            <Button
+              variant="secondary"
+              onClick={startMedium}
+              data-testid="result-try-medium"
+            >
+              {t.result.tryMedium}
+            </Button>
+          )}
         <Button variant="secondary" onClick={showStats}>
           {t.result.showStats}
         </Button>

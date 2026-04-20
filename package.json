@@ -16,6 +16,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "pack:itch": "npm run build && node scripts/pack-itch.mjs",
+    "release:butler": "node scripts/release-butler.mjs",
     "gen:ru": "node scripts/generate-ru-puzzles.mjs",
     "gen:ru:dry": "node scripts/generate-ru-puzzles.mjs --dry-run --count=10",
     "gen:de": "node scripts/generate-de-puzzles.mjs",

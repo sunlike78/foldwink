@@ -67,6 +67,7 @@ export interface Strings {
     nextDaily: string;
     tryFresh: string;
     nextPuzzle: string;
+    tryMedium: string;
     showStats: string;
     subtitleDaily: (date: string) => string;
     subtitleStandard: (n: number) => string;
@@ -245,6 +246,7 @@ export const strings: Record<Lang, Strings> = {
       nextDaily: "A new daily lands tomorrow.",
       tryFresh: "Try a fresh one — the pattern won't catch you twice.",
       nextPuzzle: "Next puzzle",
+      tryMedium: "Try a Medium puzzle",
       showStats: "Stats",
       subtitleDaily: (d) => `Daily · ${d}`,
       subtitleStandard: (n) => `Standard · #${String(n).padStart(3, "0")}`,
@@ -424,6 +426,7 @@ export const strings: Record<Lang, Strings> = {
       nextDaily: "Morgen gibt es ein neues Tagesrätsel.",
       tryFresh: "Versuch ein neues — das Muster erwischt dich kein zweites Mal.",
       nextPuzzle: "Nächstes Rätsel",
+      tryMedium: "Mittel-Rätsel probieren",
       showStats: "Statistik",
       subtitleDaily: (d) => `Tagesrätsel · ${d}`,
       subtitleStandard: (n) => `Standard · #${String(n).padStart(3, "0")}`,
@@ -609,6 +612,7 @@ export const strings: Record<Lang, Strings> = {
       nextDaily: "Новый дневной пазл появится завтра.",
       tryFresh: "Попробуй следующий — закономерность тебя не поймает дважды.",
       nextPuzzle: "Следующий пазл",
+      tryMedium: "Попробовать средний",
       showStats: "Статистика",
       subtitleDaily: (d) => `Дневной · ${d}`,
       subtitleStandard: (n) => `Стандарт · #${String(n).padStart(3, "0")}`,
