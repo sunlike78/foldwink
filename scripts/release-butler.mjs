@@ -17,7 +17,7 @@
  *   --skip-pack        Skip rebuilding the zip (use latest existing)
  */
 import { spawnSync } from "node:child_process";
-import { readFileSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -92,8 +92,15 @@ if (!skipPack) {
 const exportDir = join(root, "itch.io", "export");
 const zips = readdirSync(exportDir)
   .filter((f) => f.startsWith(`foldwink-itch-upload-v${version}-`) && f.endsWith(".zip"))
-  .map((f) => ({ name: f, path: join(exportDir, f) }))
-  .sort((a, b) => b.name.localeCompare(a.name));
+  .map((f) => {
+    const path = join(exportDir, f);
+    return { name: f, path, mtime: statSync(path).mtimeMs };
+  })
+  // Sort by modification time, newest first. Name-sort is wrong because
+  // pack-itch.mjs produces "...-YYYY-MM-DD.zip" then "...-YYYY-MM-DD-rN.zip"
+  // for same-day re-packs, and "." sorts AFTER "-" in ASCII — so the
+  // first-of-the-day zip wins a descending name-sort even after -r3 arrives.
+  .sort((a, b) => b.mtime - a.mtime);
 
 if (zips.length === 0) {
   console.error(`No zip for v${version} found in ${exportDir}.`);
