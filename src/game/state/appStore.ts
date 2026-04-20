@@ -48,7 +48,7 @@ import {
   RU_MEDIUM_POOL,
   RU_HARD_POOL,
 } from "../../puzzles/loaderRu";
-import { getLangSync } from "../../i18n/useLanguage";
+import { getLangSync, useLangStore } from "../../i18n/useLanguage";
 import { todayLocal } from "../../utils/date";
 
 function initialTodayDailyRecord(): DailyRecord | null {
@@ -72,12 +72,19 @@ function tryResumeSession(): ResumedSession | null {
     clearActiveSession();
     return null;
   }
-  const puzzle = getPuzzleById(session.puzzleId) ?? getDEPuzzleById(session.puzzleId);
+  // Resume strictly from the current language pool. Resuming a puzzle from a
+  // different language mixes chrome (current lang) with content (saved lang)
+  // and confuses the player.
+  const lang = getLangSync();
+  const findById =
+    lang === "ru" ? getRUPuzzleById
+    : lang === "de" ? getDEPuzzleById
+    : getPuzzleById;
+  const puzzle = findById(session.puzzleId);
   if (!puzzle) {
     clearActiveSession();
     return null;
   }
-  // Defensive: the saved active must match the current puzzle schema.
   if (session.active.puzzleId !== puzzle.id) {
     clearActiveSession();
     return null;
@@ -216,4 +223,19 @@ useGameStore.subscribe((state: StoreState) => {
   prevActive = state.active;
   prevScreen = state.screen;
   prevPuzzleId = currentPuzzleId;
+});
+
+// When the player switches language, an in-flight game would carry its
+// original-language puzzle into a different-language chrome (English title
+// under Russian UI, etc.). Drop any active/resumable game and send them back
+// to the menu so the next action starts in the new language pool.
+let prevLang = useLangStore.getState().lang;
+useLangStore.subscribe((state) => {
+  if (state.lang === prevLang) return;
+  prevLang = state.lang;
+  const game = useGameStore.getState();
+  if (game.active || game.screen === "game" || game.screen === "result") {
+    game.goToMenu();
+  }
+  clearActiveSession();
 });
