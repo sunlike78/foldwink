@@ -11,19 +11,27 @@ URL is stable and returning players keep their saves.
 
 ## One-time setup (≈ 2 minutes)
 
-1. **Install butler.**
-   Download from <https://itch.io/docs/butler/installing.html> and put the
-   binary somewhere on `PATH`. Verify:
+1. **Install butler.** Two options — the release script finds it either way:
+
+   - **Local (recommended for this repo):** download
+     `butler-windows-amd64.zip` from
+     <https://itch.io/docs/butler/installing.html> and unzip into
+     `itch.io/tools/butler/` so the binary sits at
+     `itch.io/tools/butler/butler.exe`. This folder is gitignored.
+   - **Global:** put `butler.exe` somewhere on `PATH`.
+
+   Verify:
 
    ```bash
-   butler -V
+   itch.io/tools/butler/butler.exe -V    # or just `butler -V` if global
    ```
 
 2. **Log in once.** Opens a browser, grants butler an API key, stored in
-   your user profile.
+   your user profile (not inside the repo). Use whichever path your
+   install used:
 
    ```bash
-   butler login
+   itch.io/tools/butler/butler.exe login
    ```
 
 3. **Record your itch target** (`user/game-slug`, e.g. `sunlike78/foldwink`).

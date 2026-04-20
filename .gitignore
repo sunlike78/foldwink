@@ -21,5 +21,8 @@ export/
 # itch.io butler target (per-developer, never committed)
 .itch-target
 
+# itch.io butler CLI (unpacked locally, never committed)
+itch.io/tools/butler/
+
 # puzzle batch staging (audit trail lives in docs/reports/batch-*-audit/)
 puzzles/pool/_drafts/

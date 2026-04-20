@@ -25,6 +25,13 @@ const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const pkg = JSON.parse(readFileSync(join(root, "package.json"), "utf8"));
 const version = pkg.version;
 
+const localButlerCandidates = [
+  join(root, "itch.io", "tools", "butler", "butler.exe"),
+  join(root, "itch.io", "tools", "butler", "butler"),
+];
+const localButler = localButlerCandidates.find(existsSync) ?? null;
+const butlerCmd = localButler ?? "butler";
+
 const args = new Map(
   process.argv.slice(2).map((a) => {
     const m = a.match(/^--([^=]+)(?:=(.*))?$/);
@@ -63,13 +70,14 @@ function run(cmd, argv, opts = {}) {
   }
 }
 
-const butlerCheck = spawnSync("butler", ["-V"], { shell: true, stdio: "ignore" });
+const butlerCheck = spawnSync(butlerCmd, ["-V"], { shell: true, stdio: "ignore" });
 if (butlerCheck.status !== 0) {
   console.error(
     [
-      "butler CLI not found on PATH.",
+      "butler CLI not found.",
       "",
-      "Install: https://itch.io/docs/butler/installing.html",
+      "Either install it globally (https://itch.io/docs/butler/installing.html)",
+      "or unzip butler-windows-amd64.zip into itch.io/tools/butler/.",
       "Then run `butler login` once before `npm run release:butler`.",
     ].join("\n"),
   );
@@ -96,7 +104,7 @@ const zip = zips[0];
 const channelSpec = `${target}:${channel}`;
 
 console.log(`→ butler push ${zip.name} ${channelSpec} (userversion=${version})`);
-run("butler", [
+run(butlerCmd, [
   "push",
   `"${zip.path}"`,
   channelSpec,
