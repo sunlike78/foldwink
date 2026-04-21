@@ -1,63 +1,33 @@
-import { createStore, defaultDeps, type StoreState } from "./store";
+import { createStore, defaultDeps } from "./store";
 import {
   loadStats,
-  saveStats,
   loadProgress,
-  saveProgress,
   loadDailyHistory,
-  saveDailyHistory,
   loadOnboarded,
-  saveOnboarded,
   loadActiveSession,
-  saveActiveSession,
   clearActiveSession,
 } from "../../stats/persistence";
+import { statsPersistenceObserver } from "./persistence/statsObserver";
+import { sessionPersistenceObserver } from "./persistence/sessionObserver";
 import type { DailyRecord } from "../types/stats";
 import type { ActiveGame, AppScreen } from "../types/game";
 import type { Puzzle } from "../types/puzzle";
 import {
-  getPuzzleById,
-  getPuzzleByIndex,
-  getEasyByIndex,
-  getMediumByIndex,
-  getHardByIndex,
-  getEasyRampedByIndex,
-  getMediumRampedByIndex,
-  getHardRampedByIndex,
-  PUZZLE_POOL,
-  EASY_POOL,
-  MEDIUM_POOL,
-  HARD_POOL,
-} from "../../puzzles/loader";
-import {
-  getDEPuzzleById,
-  getDEPuzzleByIndex,
-  getDEEasyByIndex,
-  getDEMediumByIndex,
-  getDEHardByIndex,
-  getDEEasyRampedByIndex,
-  getDEMediumRampedByIndex,
-  getDEHardRampedByIndex,
-  DE_PUZZLE_POOL,
-  DE_EASY_POOL,
-  DE_MEDIUM_POOL,
-  DE_HARD_POOL,
-} from "../../puzzles/loaderDe";
-import {
-  getRUPuzzleById,
-  getRUPuzzleByIndex,
-  getRUEasyByIndex,
-  getRUMediumByIndex,
-  getRUHardByIndex,
-  getRUEasyRampedByIndex,
-  getRUMediumRampedByIndex,
-  getRUHardRampedByIndex,
-  RU_PUZZLE_POOL,
-  RU_EASY_POOL,
-  RU_MEDIUM_POOL,
-  RU_HARD_POOL,
-} from "../../puzzles/loaderRu";
-import { getLangSync, useLangStore } from "../../i18n/useLanguage";
+  langGetPuzzleById,
+  langGetPuzzleByIdStrict,
+  langGetPuzzleByIndex,
+  langGetEasyByIndex,
+  langGetMediumByIndex,
+  langGetHardByIndex,
+  langGetEasyRampedByIndex,
+  langGetMediumRampedByIndex,
+  langGetHardRampedByIndex,
+  langGetPool,
+  langGetEasyPool,
+  langGetMediumPool,
+  langGetHardPool,
+} from "../../puzzles/byLang";
+import { useLangStore } from "../../i18n/useLanguage";
 import { todayLocal } from "../../utils/date";
 
 function initialTodayDailyRecord(): DailyRecord | null {
@@ -81,15 +51,10 @@ function tryResumeSession(): ResumedSession | null {
     clearActiveSession();
     return null;
   }
-  // Resume strictly from the current language pool. Resuming a puzzle from a
-  // different language mixes chrome (current lang) with content (saved lang)
-  // and confuses the player.
-  const lang = getLangSync();
-  const findById =
-    lang === "ru" ? getRUPuzzleById
-    : lang === "de" ? getDEPuzzleById
-    : getPuzzleById;
-  const puzzle = findById(session.puzzleId);
+  // Resume strictly from the current language pool — no EN fallback here,
+  // otherwise a DE/RU session could reopen with English puzzle content after
+  // a language switch.
+  const puzzle = langGetPuzzleByIdStrict(session.puzzleId);
   if (!puzzle) {
     clearActiveSession();
     return null;
@@ -102,86 +67,6 @@ function tryResumeSession(): ResumedSession | null {
 }
 
 const resumed = tryResumeSession();
-
-// Language-aware getters: read current language at call time so switching
-// language takes effect on the next game start without recreating the store.
-function langGetPuzzleById(id: string): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEPuzzleById(id) ?? getPuzzleById(id);
-  if (lang === "ru") return getRUPuzzleById(id) ?? getPuzzleById(id);
-  return getPuzzleById(id);
-}
-function langGetPuzzleByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEPuzzleByIndex(i) ?? getPuzzleByIndex(i);
-  if (lang === "ru") return getRUPuzzleByIndex(i) ?? getPuzzleByIndex(i);
-  return getPuzzleByIndex(i);
-}
-function langGetEasyByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEEasyByIndex(i) ?? getEasyByIndex(i);
-  if (lang === "ru") return getRUEasyByIndex(i) ?? getEasyByIndex(i);
-  return getEasyByIndex(i);
-}
-function langGetMediumByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEMediumByIndex(i) ?? getMediumByIndex(i);
-  if (lang === "ru") return getRUMediumByIndex(i) ?? getMediumByIndex(i);
-  return getMediumByIndex(i);
-}
-function langGetHardByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEHardByIndex(i) ?? getHardByIndex(i);
-  if (lang === "ru") return getRUHardByIndex(i) ?? getHardByIndex(i);
-  return getHardByIndex(i);
-}
-
-// Ramped variants — used by standard-mode actions so the player walks an
-// easy→hard difficulty ramp inside each tier. Daily mode keeps the id-sorted
-// pools above so the daily puzzle stays deterministic.
-function langGetEasyRampedByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEEasyRampedByIndex(i) ?? getEasyRampedByIndex(i);
-  if (lang === "ru") return getRUEasyRampedByIndex(i) ?? getEasyRampedByIndex(i);
-  return getEasyRampedByIndex(i);
-}
-function langGetMediumRampedByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEMediumRampedByIndex(i) ?? getMediumRampedByIndex(i);
-  if (lang === "ru") return getRUMediumRampedByIndex(i) ?? getMediumRampedByIndex(i);
-  return getMediumRampedByIndex(i);
-}
-function langGetHardRampedByIndex(i: number): Puzzle | undefined {
-  const lang = getLangSync();
-  if (lang === "de") return getDEHardRampedByIndex(i) ?? getHardRampedByIndex(i);
-  if (lang === "ru") return getRUHardRampedByIndex(i) ?? getHardRampedByIndex(i);
-  return getHardRampedByIndex(i);
-}
-
-function langGetPool(): readonly Puzzle[] {
-  const lang = getLangSync();
-  if (lang === "de" && DE_PUZZLE_POOL.length > 0) return DE_PUZZLE_POOL;
-  if (lang === "ru" && RU_PUZZLE_POOL.length > 0) return RU_PUZZLE_POOL;
-  return PUZZLE_POOL;
-}
-function langGetEasyPool(): readonly Puzzle[] {
-  const lang = getLangSync();
-  if (lang === "de" && DE_EASY_POOL.length > 0) return DE_EASY_POOL;
-  if (lang === "ru" && RU_EASY_POOL.length > 0) return RU_EASY_POOL;
-  return EASY_POOL;
-}
-function langGetMediumPool(): readonly Puzzle[] {
-  const lang = getLangSync();
-  if (lang === "de" && DE_MEDIUM_POOL.length > 0) return DE_MEDIUM_POOL;
-  if (lang === "ru" && RU_MEDIUM_POOL.length > 0) return RU_MEDIUM_POOL;
-  return MEDIUM_POOL;
-}
-function langGetHardPool(): readonly Puzzle[] {
-  const lang = getLangSync();
-  if (lang === "de" && DE_HARD_POOL.length > 0) return DE_HARD_POOL;
-  if (lang === "ru" && RU_HARD_POOL.length > 0) return RU_HARD_POOL;
-  return HARD_POOL;
-}
 
 export const useGameStore = createStore({
   ...defaultDeps,
@@ -206,58 +91,10 @@ export const useGameStore = createStore({
   initialScreen: resumed?.screen ?? "menu",
 });
 
-let prevStats = useGameStore.getState().stats;
-let prevProgress = useGameStore.getState().progress;
-let prevTodayDailyRecord = useGameStore.getState().todayDailyRecord;
-let prevOnboarded = useGameStore.getState().onboarded;
-let prevActive = useGameStore.getState().active;
-let prevScreen = useGameStore.getState().screen;
-let prevPuzzleId = useGameStore.getState().puzzle?.id ?? null;
-
-useGameStore.subscribe((state: StoreState) => {
-  if (state.stats !== prevStats) {
-    prevStats = state.stats;
-    saveStats(state.stats);
-  }
-  if (state.progress !== prevProgress) {
-    prevProgress = state.progress;
-    saveProgress(state.progress);
-  }
-  if (state.todayDailyRecord !== prevTodayDailyRecord) {
-    prevTodayDailyRecord = state.todayDailyRecord;
-    if (state.todayDailyRecord) {
-      const history = loadDailyHistory();
-      history[state.todayDailyRecord.date] = state.todayDailyRecord;
-      saveDailyHistory(history);
-    }
-  }
-  if (state.onboarded !== prevOnboarded) {
-    prevOnboarded = state.onboarded;
-    saveOnboarded(state.onboarded);
-  }
-
-  // Mid-game persistence.
-  const currentPuzzleId = state.puzzle?.id ?? null;
-  if (state.screen === "game" && state.active && !state.active.result && state.puzzle) {
-    if (state.active !== prevActive || currentPuzzleId !== prevPuzzleId) {
-      saveActiveSession({
-        active: state.active,
-        puzzleId: state.puzzle.id,
-        savedAt: Date.now(),
-      });
-    }
-  } else if (
-    state.screen !== prevScreen ||
-    state.active !== prevActive ||
-    !!state.active?.result
-  ) {
-    // Any transition away from an active game screen clears the session.
-    clearActiveSession();
-  }
-  prevActive = state.active;
-  prevScreen = state.screen;
-  prevPuzzleId = currentPuzzleId;
-});
+// Persistence is split into two narrow observers so tests can exercise
+// each policy independently (stats vs mid-game session).
+statsPersistenceObserver(useGameStore);
+sessionPersistenceObserver(useGameStore);
 
 // When the player switches language, an in-flight game would carry its
 // original-language puzzle into a different-language chrome (English title

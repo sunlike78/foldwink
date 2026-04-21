@@ -1,0 +1,1129 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Foldwink · Launch Plan</title>
+    <style>
+      :root {
+        --bg: #0f1115;
+        --bg-elev: #161922;
+        --bg-card: #1a1e28;
+        --line: #262b37;
+        --text: #e8eaf0;
+        --muted: #8a8f9a;
+        --accent: #7aa9ff;
+        --g-planets: #f5c85a;
+        --g-colors: #7bd389;
+        --g-pets: #f79292;
+        --g-sports: #b89dff;
+        --danger: #ff8a8a;
+        --ok: #7bd389;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "SF Pro Text", Inter, Roboto, Arial,
+          sans-serif;
+        font-size: 15px;
+        line-height: 1.55;
+        letter-spacing: 0.01em;
+      }
+      a {
+        color: var(--accent);
+        text-decoration: none;
+        border-bottom: 1px dashed rgba(122, 169, 255, 0.35);
+      }
+      a:hover {
+        border-bottom-style: solid;
+      }
+      code,
+      kbd {
+        font-family: "SF Mono", Menlo, Consolas, monospace;
+        font-size: 13px;
+        background: #0b0d12;
+        padding: 1px 6px;
+        border-radius: 4px;
+        border: 1px solid var(--line);
+      }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 40px 24px 96px;
+      }
+      header.hero {
+        padding: 64px 0 36px;
+        border-bottom: 1px solid var(--line);
+        margin-bottom: 40px;
+      }
+      .kicker {
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 11px;
+        color: var(--muted);
+      }
+      h1 {
+        font-size: 40px;
+        line-height: 1.08;
+        margin: 10px 0 14px;
+        font-weight: 700;
+        letter-spacing: -0.01em;
+      }
+      h1 span.accent {
+        color: var(--accent);
+      }
+      .sub {
+        color: var(--muted);
+        max-width: 640px;
+      }
+      h2 {
+        font-size: 22px;
+        margin: 54px 0 14px;
+        font-weight: 600;
+        letter-spacing: -0.005em;
+      }
+      h2 .num {
+        display: inline-block;
+        min-width: 28px;
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 22px 0 8px;
+        font-weight: 600;
+      }
+      p {
+        margin: 0 0 12px;
+      }
+      ul,
+      ol {
+        margin: 0 0 14px;
+        padding-left: 20px;
+      }
+      ul li,
+      ol li {
+        margin: 4px 0;
+      }
+      .muted {
+        color: var(--muted);
+      }
+      .card {
+        background: var(--bg-card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px;
+        margin: 14px 0;
+      }
+      .card h3 {
+        margin-top: 0;
+      }
+
+      /* TL;DR banner */
+      .tldr {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        margin: 28px 0 8px;
+      }
+      .tldr .stat {
+        background: var(--bg-elev);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 14px 16px;
+      }
+      .tldr .stat .n {
+        font-size: 22px;
+        font-weight: 700;
+        display: block;
+      }
+      .tldr .stat .l {
+        color: var(--muted);
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+      @media (max-width: 640px) {
+        .tldr {
+          grid-template-columns: 1fr 1fr;
+        }
+        .tldr .stat:nth-child(3) {
+          grid-column: span 2;
+        }
+      }
+
+      /* schedule table */
+      table.schedule {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        margin: 12px 0 24px;
+        font-size: 14px;
+      }
+      table.schedule th,
+      table.schedule td {
+        padding: 10px 12px;
+        text-align: left;
+        border-bottom: 1px solid var(--line);
+        vertical-align: middle;
+      }
+      table.schedule th {
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: var(--muted);
+        font-weight: 500;
+        background: transparent;
+      }
+      table.schedule td.day {
+        color: var(--muted);
+        font-variant-numeric: tabular-nums;
+      }
+      table.schedule td.vid {
+        font-weight: 600;
+      }
+      table.schedule td.why {
+        color: var(--muted);
+      }
+      table.schedule tr:last-child td {
+        border-bottom: none;
+      }
+
+      /* video grid */
+      .videos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        margin: 18px 0 12px;
+      }
+      @media (max-width: 720px) {
+        .videos {
+          grid-template-columns: 1fr;
+        }
+      }
+      .video {
+        background: var(--bg-card);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+      .video .thumb {
+        position: relative;
+        aspect-ratio: 9 / 16;
+        background: #0b0d12 center/cover no-repeat;
+        max-height: 380px;
+      }
+      .video .thumb .badge {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: rgba(15, 17, 21, 0.85);
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+      }
+      .video .thumb .badge.s {
+        color: var(--g-colors);
+        border-color: rgba(123, 211, 137, 0.4);
+      }
+      .video .thumb .badge.c {
+        color: var(--g-pets);
+        border-color: rgba(247, 146, 146, 0.4);
+      }
+      .video .thumb .day-pill {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: var(--accent);
+        color: #0b0d12;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 0.06em;
+        border-radius: 999px;
+        padding: 4px 10px;
+      }
+      .video .meta {
+        padding: 14px 16px 16px;
+      }
+      .video h4 {
+        margin: 0 0 6px;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      .video .hook {
+        color: var(--text);
+        font-size: 14px;
+        margin: 0 0 10px;
+      }
+      .video .caption {
+        color: var(--muted);
+        font-size: 13px;
+        margin: 0 0 10px;
+      }
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        margin-top: 8px;
+      }
+      .tag {
+        background: var(--bg-elev);
+        border: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 11px;
+        border-radius: 999px;
+        padding: 3px 8px;
+      }
+
+      /* Groups color strip */
+      .strip {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 6px;
+        margin: 16px 0 6px;
+      }
+      .strip .chip {
+        border-radius: 8px;
+        padding: 10px 12px;
+        font-size: 13px;
+        text-align: center;
+        color: #0b0d12;
+        font-weight: 600;
+      }
+      .strip .chip:nth-child(1) {
+        background: var(--g-planets);
+      }
+      .strip .chip:nth-child(2) {
+        background: var(--g-colors);
+      }
+      .strip .chip:nth-child(3) {
+        background: var(--g-pets);
+      }
+      .strip .chip:nth-child(4) {
+        background: var(--g-sports);
+      }
+
+      /* playbook callouts */
+      .callout {
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        gap: 16px;
+        background: var(--bg-elev);
+        border: 1px solid var(--line);
+        border-left: 3px solid var(--accent);
+        border-radius: 10px;
+        padding: 14px 16px;
+        margin: 12px 0;
+      }
+      .callout .icn {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 18px;
+        background: rgba(122, 169, 255, 0.15);
+        color: var(--accent);
+      }
+      .callout.ok {
+        border-left-color: var(--ok);
+      }
+      .callout.ok .icn {
+        background: rgba(123, 211, 137, 0.15);
+        color: var(--ok);
+      }
+      .callout.danger {
+        border-left-color: var(--danger);
+      }
+      .callout.danger .icn {
+        background: rgba(255, 138, 138, 0.15);
+        color: var(--danger);
+      }
+      .callout h4 {
+        margin: 0 0 4px;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .callout p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      /* KPI grid */
+      .kpi {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 14px 0;
+      }
+      @media (max-width: 700px) {
+        .kpi {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      .kpi .k {
+        background: var(--bg-elev);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 12px;
+        font-size: 13px;
+      }
+      .kpi .k .v {
+        font-size: 18px;
+        font-weight: 700;
+        display: block;
+        margin-bottom: 2px;
+        font-variant-numeric: tabular-nums;
+        color: var(--accent);
+      }
+      .kpi .k .n {
+        color: var(--muted);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      /* timeline */
+      .timeline {
+        border-left: 2px solid var(--line);
+        padding-left: 18px;
+        margin: 12px 0;
+      }
+      .timeline .t {
+        position: relative;
+        padding-bottom: 14px;
+      }
+      .timeline .t::before {
+        content: "";
+        position: absolute;
+        left: -25px;
+        top: 6px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+      .timeline .t strong {
+        display: block;
+        font-size: 13px;
+        letter-spacing: 0.04em;
+      }
+      .timeline .t .d {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      footer {
+        margin-top: 80px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .two-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      @media (max-width: 720px) {
+        .two-col {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="hero">
+        <div class="kicker">Foldwink · 1.0 launch · TikTok / Shorts / Reels / Reddit</div>
+        <h1>
+          План <span class="accent">органической</span> раскрутки<br />на 6 дней + 2 недели
+        </h1>
+        <p class="sub">
+          <strong>Find 4 hidden groups of 4. You have 4 mistakes. 2–5 минут.</strong> 200
+          пазлов, браузер, free, без ads/аккаунтов. Игра живёт здесь →
+          <a href="https://neural-void.itch.io/foldwink" target="_blank" rel="noopener"
+            >neural-void.itch.io/foldwink</a
+          >
+          · автор <strong>@neural-void</strong> на itch · <strong>u/SunLike78</strong> на
+          Reddit.
+        </p>
+        <p class="sub">
+          6 готовых вертикальных роликов, нулевой бюджет на старте. Страница на itch уже
+          опубликована, пост-запрос фидбека на
+          <a
+            href="https://www.reddit.com/r/playmygame/comments/1smwmh3/foldwink_short_browser_grouping_puzzle_looking/"
+            target="_blank"
+            rel="noopener"
+            >r/playmygame</a
+          >
+          уже висит — стартуем с этой базой.
+        </p>
+
+        <div class="tldr">
+          <div class="stat">
+            <span class="n">200</span><span class="l">пазлов в игре (уже live)</span>
+          </div>
+          <div class="stat">
+            <span class="n">6</span><span class="l">готовых MP4 9:16</span>
+          </div>
+          <div class="stat">
+            <span class="n">$0</span><span class="l">бюджет на неделе 1</span>
+          </div>
+        </div>
+
+        <div class="strip">
+          <div class="chip">Planets</div>
+          <div class="chip">Colors</div>
+          <div class="chip">Pets</div>
+          <div class="chip">Sports</div>
+        </div>
+        <p class="muted" style="margin-top: 6px; font-size: 13px">
+          Цвета групп Foldwink — используй их в описаниях и pinned-комментах для визуальной
+          consistency.
+        </p>
+      </header>
+
+      <h2><span class="num">01</span> Pre-launch · день −1</h2>
+      <div class="card">
+        <ul>
+          <li>
+            TikTok / IG / YT — один handle: <strong>@neuralvoid</strong> или
+            <strong>@foldwink.game</strong> (тот же, что на itch — упрощает memorability +
+            cross-link).
+          </li>
+          <li>
+            Bio (одна строка):
+            <code>Find 4 hidden groups of 4. Daily puzzle, free, in browser.</code>
+          </li>
+          <li>
+            Link in bio:
+            <a href="https://neural-void.itch.io/foldwink" target="_blank" rel="noopener"
+              >neural-void.itch.io/foldwink</a
+            >. Не делай <code>linktr.ee</code> для одной ссылки — прямой URL конвертит лучше.
+          </li>
+          <li>
+            Pinned-комментарий под каждым роликом, первым:
+            <code>Play free → neural-void.itch.io/foldwink</code>. Заранее скопирован в буфер.
+          </li>
+          <li>
+            Авто-описание itch-страницы уже сильное (tagline про 4-4-4 + 200 curated puzzles) —
+            используем эти же цифры в TikTok-captions, чтобы messaging был когерентным.
+          </li>
+          <li>
+            Включи <em>TikTok Analytics</em>, <em>YouTube Studio</em>,
+            <em>Meta Business Suite</em>. Без них — ловить победителя невозможно.
+          </li>
+          <li>
+            Прогрев фида: 15 мин перед постом — лайки/комменты в #puzzletok, #brainteaser,
+            #browsergames. Алгоритм связывает аккаунт с нишей.
+          </li>
+        </ul>
+      </div>
+
+      <h2><span class="num">02</span> Расписание 6 дней</h2>
+      <p class="muted">
+        Окно для puzzle-аудитории: <strong>18:00–21:00</strong> по местному времени (вечер
+        «убей-5-минут»). Не постить 2 видео в день — каннибализируют охват.
+      </p>
+
+      <table class="schedule">
+        <thead>
+          <tr>
+            <th>День</th>
+            <th>Ролик</th>
+            <th>Платформа #1</th>
+            <th>Цель дня</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="day">1 · Пн</td>
+            <td class="vid">satisfying_v2</td>
+            <td>TikTok + Shorts</td>
+            <td class="why">Бесспорный вход, loop-friendly 10.8s</td>
+          </tr>
+          <tr>
+            <td class="day">2 · Вт</td>
+            <td class="vid">challenge_v1</td>
+            <td>TikTok</td>
+            <td class="why">Максимум комментов — «Why most people miss this»</td>
+          </tr>
+          <tr>
+            <td class="day">3 · Ср</td>
+            <td class="vid">satisfying_v3</td>
+            <td>Reels + Shorts</td>
+            <td class="why">Самый красивый финал (цветные группы)</td>
+          </tr>
+          <tr>
+            <td class="day">4 · Чт</td>
+            <td class="vid">challenge_v3</td>
+            <td>TikTok + Shorts</td>
+            <td class="why">Прямой вопрос → response-видео</td>
+          </tr>
+          <tr>
+            <td class="day">5 · Пт</td>
+            <td class="vid">satisfying_v1</td>
+            <td>TikTok</td>
+            <td class="why">POV-hook — долгожитель в ленте выходного</td>
+          </tr>
+          <tr>
+            <td class="day">6 · Сб</td>
+            <td class="vid">challenge_v2</td>
+            <td>Reels</td>
+            <td class="why">Reveal «I missed one on purpose» — rewatch-friendly</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2><span class="num">02.5</span> Reddit playbook · параллельный канал</h2>
+      <p class="muted">
+        У <strong>u/SunLike78</strong> уже висит
+        <a
+          href="https://www.reddit.com/r/playmygame/comments/1smwmh3/foldwink_short_browser_grouping_puzzle_looking/"
+          target="_blank"
+          rel="noopener"
+          >пост на r/playmygame</a
+        >. Не бросай его — Reddit даёт более «качественный» трафик на itch чем TikTok (ищут
+        играть, а не смотреть). Используй одновременно с TikTok-расписанием, но не в один день с
+        тем же содержимым.
+      </p>
+
+      <div class="card">
+        <h3>Карта сабреддитов (по убыванию приоритета)</h3>
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Subreddit</th>
+              <th>Правило / окно</th>
+              <th>Что постить</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/playmygame" target="_blank" rel="noopener"
+                  >r/playmygame</a
+                >
+              </td>
+              <td class="muted">✓ уже запостил</td>
+              <td class="why">Отвечай на комменты, обнови post через 7 дней c прогрессом</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/WebGames" target="_blank" rel="noopener"
+                  >r/WebGames</a
+                >
+              </td>
+              <td class="muted">Без ограничений, но читают правила</td>
+              <td class="why">Прямая ссылка на itch + короткое описание (4–4–4)</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/BrowserGames" target="_blank" rel="noopener"
+                  >r/BrowserGames</a
+                >
+              </td>
+              <td class="muted">Без промо-дней, читают wiki</td>
+              <td class="why">Screenshot игры с пазлом, без спойлера</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/IndieDev" target="_blank" rel="noopener"
+                  >r/IndieDev</a
+                >
+              </td>
+              <td class="muted">Без специфичных дней</td>
+              <td class="why">Dev-пост: что унесла из разработки Wink-механики</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/gamedev" target="_blank" rel="noopener"
+                  >r/gamedev</a
+                >
+              </td>
+              <td class="muted">Пятница → Feedback Friday · Суббота → Screenshot Saturday</td>
+              <td class="why">Только в эти дни, иначе удалят</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/puzzlevideogames" target="_blank" rel="noopener"
+                  >r/puzzlevideogames</a
+                >
+              </td>
+              <td class="muted">Sparse community</td>
+              <td class="why">Когда наберёшь 3-4 отзыва — хороший пост «попробуйте»</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="https://reddit.com/r/IndieGaming" target="_blank" rel="noopener"
+                  >r/IndieGaming</a
+                >
+              </td>
+              <td class="muted">Self-promo 9/10</td>
+              <td class="why">После первых 10-20 игр на itch</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 style="margin-top: 22px">Расписание Reddit-постов (параллельно с TikTok)</h3>
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Когда</th>
+              <th>Сабреддит</th>
+              <th>Тип поста</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="day">день 2</td>
+              <td class="vid">r/WebGames</td>
+              <td class="why">
+                Прямой анонс + тот же 14-секундный satisfying_v2.mp4 (TikTok уже полетел)
+              </td>
+            </tr>
+            <tr>
+              <td class="day">день 4</td>
+              <td class="vid">r/BrowserGames</td>
+              <td class="why">Скриншот решённой сетки с цветами + короткое описание</td>
+            </tr>
+            <tr>
+              <td class="day">день 5 (пт)</td>
+              <td class="vid">r/gamedev · Feedback Friday</td>
+              <td class="why">
+                Пост «built a 4×4 grouping puzzle with Wink mechanic — feedback welcome» +
+                ссылка
+              </td>
+            </tr>
+            <tr>
+              <td class="day">день 6 (сб)</td>
+              <td class="vid">r/gamedev · Screenshot Saturday</td>
+              <td class="why">Медиум-пазл с раскрытыми FOLDWINK TABS — цветно и эффектно</td>
+            </tr>
+            <tr>
+              <td class="day">день 8</td>
+              <td class="vid">r/IndieDev</td>
+              <td class="why">Post-mortem про Wink и почему именно 4/4/4</td>
+            </tr>
+            <tr>
+              <td class="day">день 14</td>
+              <td class="vid">r/playmygame</td>
+              <td class="why">
+                Update-пост: «7 дней, X игр, что изменил» — алгоритм любит return-posts
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <div class="icn">!</div>
+        <div>
+          <h4>Reddit-этикет критичен</h4>
+          <p>
+            Нельзя: crosspost один-в-один в 5 сабов за час, слать DM с просьбами тестировать,
+            редактировать пост после первого комментария. Можно: отвечать на каждый коммент в
+            первые 24 часа, благодарить bug-reports, делать update-пост через неделю.
+          </p>
+        </div>
+      </div>
+
+      <h2><span class="num">03</span> Каждый ролик в деталях</h2>
+
+      <div class="videos">
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/satisfying_v2_t01.jpg&quot;)"
+          >
+            <span class="badge s">satisfying</span>
+            <span class="day-pill">день 1</span>
+          </div>
+          <div class="meta">
+            <h4>satisfying_v2.mp4 · 10.8s</h4>
+            <p class="hook"><strong>Hook:</strong> «Clean brain candy»</p>
+            <p class="caption">Clean brain candy. No download, no account. Just solve.</p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#braingames</span>
+              <span class="tag">#puzzletok</span>
+              <span class="tag">#satisfying</span>
+              <span class="tag">#foryou</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/challenge_v1_t01.jpg&quot;)"
+          >
+            <span class="badge c">challenge</span>
+            <span class="day-pill">день 2</span>
+          </div>
+          <div class="meta">
+            <h4>challenge_v1.mp4 · 14.0s</h4>
+            <p class="hook">
+              <strong>Hook:</strong> «Why most people miss this on the first try»
+            </p>
+            <p class="caption">
+              Why most people miss this on the first try. Comment how many groups you got.
+            </p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#canyousolveit</span>
+              <span class="tag">#brainteaser</span>
+              <span class="tag">#puzzle</span>
+              <span class="tag">#fyp</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/satisfying_v3_t01.jpg&quot;)"
+          >
+            <span class="badge s">satisfying</span>
+            <span class="day-pill">день 3</span>
+          </div>
+          <div class="meta">
+            <h4>satisfying_v3.mp4 · 14.0s</h4>
+            <p class="hook"><strong>Hook:</strong> «A new puzzle every day»</p>
+            <p class="caption">A new puzzle every day. One game ≈ 3 minutes. Browser. Free.</p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#dailypuzzle</span>
+              <span class="tag">#braingame</span>
+              <span class="tag">#relaxinggames</span>
+              <span class="tag">#shorts</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/challenge_v3_t01.jpg&quot;)"
+          >
+            <span class="badge c">challenge</span>
+            <span class="day-pill">день 4</span>
+          </div>
+          <div class="meta">
+            <h4>challenge_v3.mp4 · 11.0s</h4>
+            <p class="hook">
+              <strong>Hook:</strong> «Can you solve it without a single mistake?»
+            </p>
+            <p class="caption">
+              Can you solve it without a single mistake? 16 cards. 4 hidden groups. 4 lives.
+            </p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#tryit</span>
+              <span class="tag">#logicpuzzle</span>
+              <span class="tag">#quiz</span>
+              <span class="tag">#fyp</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/satisfying_v1_t01.jpg&quot;)"
+          >
+            <span class="badge s">satisfying</span>
+            <span class="day-pill">день 5</span>
+          </div>
+          <div class="meta">
+            <h4>satisfying_v1.mp4 · 10.8s</h4>
+            <p class="hook"><strong>Hook:</strong> «POV: the perfect 5-minute brain fix»</p>
+            <p class="caption">
+              POV: the perfect 5-minute break from doomscrolling. 16 cards, 4 hidden groups.
+            </p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#browsergame</span>
+              <span class="tag">#indiegame</span>
+              <span class="tag">#brainbreak</span>
+              <span class="tag">#foryou</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="video">
+          <div
+            class="thumb"
+            style="background-image: url(&quot;thumbs/challenge_v2_t01.jpg&quot;)"
+          >
+            <span class="badge c">challenge</span>
+            <span class="day-pill">день 6</span>
+          </div>
+          <div class="meta">
+            <h4>challenge_v2.mp4 · 12.0s</h4>
+            <p class="hook"><strong>Hook:</strong> «I missed one on purpose»</p>
+            <p class="caption">
+              I missed one on purpose. Would you have spotted it? Solve it clean — 4 groups,
+              zero mistakes.
+            </p>
+            <div class="tags">
+              <span class="tag">#foldwink</span>
+              <span class="tag">#itchio</span>
+              <span class="tag">#braingame</span>
+              <span class="tag">#rewatch</span>
+              <span class="tag">#puzzleaddict</span>
+              <span class="tag">#reels</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <h2><span class="num">04</span> Engagement playbook · первые 60 минут после постинга</h2>
+      <p class="muted">
+        Это — <strong>самое важное</strong> в органическом росте. Алгоритм оценивает сигналы
+        первых 30–60 минут и решает, расширять ли показ. Плохие первые 30 минут = роль
+        похоронен.
+      </p>
+
+      <div class="timeline">
+        <div class="t">
+          <strong>+0 мин · постинг</strong>
+          <div class="d">
+            Публикация. Сразу первым комментом от себя —
+            <code>Play free → neural-void.itch.io/foldwink</code>, pin.
+          </div>
+        </div>
+        <div class="t">
+          <strong>+5 мин · собственный прогрев</strong>
+          <div class="d">
+            Отправь видео 3–5 друзьям в личку в TikTok (не в сторонних мессенджерах — нужен
+            сигнал внутри платформы).
+          </div>
+        </div>
+        <div class="t">
+          <strong>+15…+60 мин · отвечать на каждый коммент</strong>
+          <div class="d">
+            Даже на «cool» — одним словом. Ответ автора считается сильнее, чем лайк. 30–50
+            ответов в первый час — стандарт.
+          </div>
+        </div>
+        <div class="t">
+          <strong>+60 мин · не редактировать пост</strong>
+          <div class="d">
+            Любая правда caption/hashtag в первый час — алгоритм пересчитывает entry. Опечатка?
+            Оставь.
+          </div>
+        </div>
+      </div>
+
+      <h2><span class="num">05</span> Целевые KPI для органики</h2>
+      <div class="kpi">
+        <div class="k"><span class="v">≥30%</span><span class="n">1-sec retention</span></div>
+        <div class="k"><span class="v">≥15%</span><span class="n">completion rate</span></div>
+        <div class="k"><span class="v">≥2%</span><span class="n">like rate</span></div>
+        <div class="k"><span class="v">≥0.5%</span><span class="n">comment rate</span></div>
+      </div>
+      <p class="muted" style="font-size: 13px">
+        Ролик, который переступает все четыре за первые 24 часа — кандидат на boost. Ролик, не
+        добивший 1-sec retention 30%, — в любом случае не бустим; он просто плохо цепляет.
+      </p>
+
+      <h2><span class="num">06</span> Платный промо · когда включать</h2>
+
+      <div class="callout ok">
+        <div class="icn">✓</div>
+        <div>
+          <h4>Включай Spark Ads если…</h4>
+          <p>
+            …конкретный ролик органически прошёл все 4 KPI выше. Бюджет — $30 на тест, целься на
+            engagement (не на follow/sales). Это покупка <em>ускорения</em>, не замена органики.
+          </p>
+        </div>
+      </div>
+
+      <div class="callout danger">
+        <div class="icn">✕</div>
+        <div>
+          <h4>Не бусти, если…</h4>
+          <p>
+            …первые 3 поста — flat (&lt;500 показов без явного retention-пика). Сначала чини
+            hook/thumbnail, потом трать деньги.
+          </p>
+        </div>
+      </div>
+
+      <div class="callout danger">
+        <div class="icn">✕</div>
+        <div>
+          <h4>Не используй TikTok «Promote» button</h4>
+          <p>
+            Кнопка «Promote» в приложении даёт худший CPM чем Spark Ads через Ads Manager.
+            Разница $0 vs $$$$ — не цепляйся за простоту.
+          </p>
+        </div>
+      </div>
+
+      <h2><span class="num">07</span> Неделя 2 и дальше</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>Если один ролик полетел</h3>
+          <ul>
+            <li>
+              Повтори его <strong>формулу</strong>, не сам ролик: тот же hook-шаблон с другим
+              пазлом.
+            </li>
+            <li>
+              Сними <strong>duet/response</strong> на свои же комменты — алгоритм любит серии.
+            </li>
+            <li>Возможно запустить paid boost $30 на 3 дня. KPI мониторить ежедневно.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Если flat-линия</h3>
+          <ul>
+            <li>Пересними первые 1.5 секунды — hook почти наверняка слабый.</li>
+            <li>
+              Смени thumbnail — в TikTok это обложка на profile grid, влияет на профильную
+              конверсию.
+            </li>
+            <li>Тестируй другое время (утро 7–9 вместо вечера).</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2><span class="num">08</span> Чего не делать</h2>
+      <ul>
+        <li>
+          <strong>Не покупать followers/views.</strong> TikTok чистит, аккаунт попадает в
+          shadowban.
+        </li>
+        <li>
+          <strong>Не постить одно и то же на три платформы одним днём.</strong> Следующий день —
+          Reels, через день — Shorts: чистый A/B.
+        </li>
+        <li>
+          <strong>Не менять профиль</strong> в первую неделю — bio/avatar/name. Каждое изменение
+          сбрасывает «доверие» алгоритма.
+        </li>
+        <li>
+          <strong>Не игнорировать негативные комменты.</strong> Короткий ответ «fair point»
+          убирает их влияние; удаление — триггерит repost.
+        </li>
+        <li>
+          <strong>Не увлекайся hashtag spam.</strong> 5–7 хэштегов — потолок.
+          <code>#fyp #foryou #viral</code> каждый пост = понижение в ранге.
+        </li>
+      </ul>
+
+      <h2><span class="num">09</span> Реальные ссылки и материалы</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>Живые страницы</h3>
+          <ul>
+            <li>
+              Игра ·
+              <a href="https://neural-void.itch.io/foldwink" target="_blank" rel="noopener"
+                >neural-void.itch.io/foldwink</a
+              >
+            </li>
+            <li>
+              Dashboard игры ·
+              <a href="https://itch.io/game/summary/4480001" target="_blank" rel="noopener"
+                >itch.io/game/summary/4480001</a
+              >
+              (приватно)
+            </li>
+            <li>
+              r/playmygame thread ·
+              <a
+                href="https://www.reddit.com/r/playmygame/comments/1smwmh3/foldwink_short_browser_grouping_puzzle_looking/"
+                target="_blank"
+                rel="noopener"
+                >пост с запросом фидбека</a
+              >
+            </li>
+            <li>
+              Reddit-профиль ·
+              <a href="https://www.reddit.com/user/SunLike78/" target="_blank" rel="noopener"
+                >u/SunLike78</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Локальные заготовки</h3>
+          <ul>
+            <li><a href="captions_en.md">captions_en.md</a> — EN-заготовки под каждый ролик</li>
+            <li><a href="captions_ru.md">captions_ru.md</a> — RU-версии</li>
+            <li><a href="hashtags.txt">hashtags.txt</a> — хэштеги по темам</li>
+            <li><a href="posting_notes.md">posting_notes.md</a> — платформенные заметки</li>
+            <li>
+              <a href="video_manifest.json">video_manifest.json</a> — audio-events, длительности
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h2><span class="num">10</span> Метрики, которые смотришь ежедневно</h2>
+      <div class="two-col">
+        <div class="card">
+          <h3>itch.io Analytics</h3>
+          <ul>
+            <li><strong>Views / Plays</strong> — отношение показывает, цепляет ли превью.</li>
+            <li>
+              <strong>Country breakdown</strong> — где живёт аудитория, под неё ставь часовой
+              пояс TikTok-постов.
+            </li>
+            <li>
+              <strong>Ratings</strong> — если дают рейтинг после игры, значит закончили хотя бы
+              пару пазлов.
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>TikTok Analytics</h3>
+          <ul>
+            <li><strong>1-sec retention</strong> — hook работает или нет (цель ≥30%).</li>
+            <li>
+              <strong>Average watch time</strong> / <strong>completion rate</strong> — контент
+              работает.
+            </li>
+            <li>
+              <strong>Traffic source → Profile</strong> — сколько людей дошли до ссылки в bio.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer>
+        Foldwink launch plan · сгенерировано автоматическим pipeline.<br />
+        Для апдейта: отредактируй файл или переглени
+        <code>reports/video_automation/scripts/compose.mjs</code>.
+      </footer>
+    </div>
+  </body>
+</html>

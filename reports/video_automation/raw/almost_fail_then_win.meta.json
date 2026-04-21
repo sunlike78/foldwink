@@ -1,0 +1,11 @@
+{
+  "scenarioId": "almost_fail_then_win",
+  "difficulty": "medium",
+  "plannedMistakes": 2,
+  "viewport": {
+    "width": 720,
+    "height": 1280
+  },
+  "recordedAt": "2026-04-17T17:48:43.510Z",
+  "file": "reports\\video_automation\\raw\\almost_fail_then_win.webm"
+}

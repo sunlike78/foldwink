@@ -1,0 +1,28 @@
+{
+  "goal": "Batch C: (#4) auto-route first-time onboarding dismissal to startDaily() in App.tsx (gated on gamesPlayed===0 && todayDailyRecord===null), (#9) MistakesDots optional oneAwayLast prop tints last consumed dot amber (#e0b25e) via transition-colors, triggered from GameScreen when flash==='one-away'.",
+  "verdict": "approve_with_changes",
+  "findings": [
+    {
+      "type": "missed-edge-case",
+      "severity": "medium",
+      "file": "src/app/App.tsx",
+      "issue": "`src/app/App.tsx:23-26` auto-starts daily on any onboarding dismiss when `gamesPlayed===0 && todayDailyRecord===null`. Because the onboarding overlay is rendered globally and the app can boot directly into a resumed in-progress game (`src/game/state/appStore.ts:69,89-91`), dismissing onboarding in that state would replace the restored session with a fresh daily instead of simply closing the dialog.",
+      "suggestion": "Gate the auto-route on being on the menu with no active session, or introduce an explicit first-launch flag instead of inferring 'first-time' from stats alone."
+    },
+    {
+      "type": "missed-edge-case",
+      "severity": "medium",
+      "file": "src/screens/GameScreen.tsx",
+      "issue": "`src/screens/GameScreen.tsx:177` only shows the amber last-dot state while `GameScreen` is mounted. On a fourth-mistake one-away miss, the store finalizes immediately (`src/game/state/store.ts:347-350,410`) and switches to the result screen before this component can render the new tint, so the feature disappears on the terminal 'close call' case.",
+      "suggestion": "Either carry the one-away loss state into `ResultScreen`, or delay the screen transition long enough for the final amber-dot feedback to render once before navigating away."
+    },
+    {
+      "type": "test-gap",
+      "severity": "low",
+      "file": "src/game/engine/__tests__/share.test.ts",
+      "issue": "The only added coverage is `src/game/engine/__tests__/share.test.ts:49-95` for share-string formatting. There is no corresponding test for the new onboarding auto-route (`src/app/App.tsx:23-26`) or the new one-away dot tint path (`src/components/MistakesDots.tsx:14-37`), so both user-facing behaviors can regress unnoticed.",
+      "suggestion": "Add a store/App-level test for first-dismiss routing behavior and a component test for `MistakesDots`/`GameScreen` that covers both ordinary one-away misses and the terminal one-away-loss path."
+    }
+  ],
+  "summary": "No hard red-line violations are present in this batch. The share-string changes are covered, and the MistakesDots/App changes stay within the product constraints, but there are two behavioral gaps to fix before approval: onboarding dismissal can currently clobber a resumed session because the new auto-route is inferred too loosely, and the amber one-away dot never appears on terminal close-call losses because the game screen unmounts immediately. Coverage is also too narrow for the new UI behavior, so those regressions would not be caught by the added tests."
+}

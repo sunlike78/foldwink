@@ -30,6 +30,12 @@ import { mediumReadiness, hardReadiness } from "../engine/readiness";
 
 type FlashKind = "correct" | "incorrect" | "one-away" | null;
 
+// How long the fully-painted board stays visible after the terminal
+// submit before the Result screen takes over. Tuned in the audit top-10
+// recommendation — 550–700 ms felt like the sweet spot between "this
+// lingered" and "why am I still on the game".
+const RESULT_HOLD_MS = 600;
+
 export interface StoreState {
   screen: AppScreen;
   stats: Stats;
@@ -88,6 +94,14 @@ export interface StoreDeps {
   getEasyRampedByIndex?: (i: number) => Puzzle | undefined;
   getMediumRampedByIndex?: (i: number) => Puzzle | undefined;
   getHardRampedByIndex?: (i: number) => Puzzle | undefined;
+  /**
+   * Schedule a deferred action. The store uses this to hold the final
+   * painted board visible for ~600 ms after a terminal submit before
+   * flipping to the Result screen, so the win/loss climax lands on the
+   * grid the player was looking at. Defaults to `setTimeout` in prod;
+   * tests pass a fake scheduler that records calls.
+   */
+  scheduleTransition?: (cb: () => void, ms: number) => void;
   now: () => number;
   todayLocal: () => string;
   initialStats: Stats;
@@ -112,6 +126,13 @@ export const defaultDeps: StoreDeps = {
   getEasyRampedByIndex,
   getMediumRampedByIndex,
   getHardRampedByIndex,
+  scheduleTransition: (cb, ms) => {
+    if (typeof window === "undefined") {
+      cb();
+      return;
+    }
+    window.setTimeout(cb, ms);
+  },
   now: () => Date.now(),
   todayLocal,
   initialStats: INITIAL_STATS,
@@ -401,17 +422,32 @@ export function createStore(deps: StoreDeps = defaultDeps) {
         }
       }
 
+      // Two-phase terminal write: keep the board visible for ~600 ms so the
+      // win/loss climax lands on the fully-painted grid, then flip to the
+      // result screen. Stats + progress + summary commit immediately so
+      // persistence observers fire on time; only `screen` is deferred.
       set({
         active: finalized.active,
         stats: nextStats,
         progress: nextProgress,
         todayDailyRecord: nextTodayDailyRecord,
         summary,
-        screen: "result",
         flash,
         streakDelta,
         newBest,
       });
+      const schedule =
+        deps.scheduleTransition ?? ((cb) => cb());
+      const currentScreen = get().screen;
+      schedule(() => {
+        // Guard against a race: if the player already navigated elsewhere
+        // (quit-to-menu, etc.) before the delay fires, don't overwrite
+        // their intent.
+        const now = get();
+        if (now.screen !== currentScreen) return;
+        if (!now.active || !now.active.result) return;
+        set({ screen: "result" });
+      }, RESULT_HOLD_MS);
     },
 
     goToMenu: () => {

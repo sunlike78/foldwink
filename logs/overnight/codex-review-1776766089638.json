@@ -1,0 +1,21 @@
+{
+  "goal": "Batch D: (#1) hold final board 600ms before ResultScreen. Store.submit splits state write: stats/progress/summary commit immediately, screen:'result' flip deferred via new deps.scheduleTransition(cb, RESULT_HOLD_MS=600). Sound/haptic cue moved from ResultScreen mount to GameScreen effect on active.result change. Default scheduleTransition uses window.setTimeout; tests pass a fake scheduler.",
+  "verdict": "reject",
+  "findings": [
+    {
+      "type": "correctness",
+      "severity": "high",
+      "file": "src/screens/GameScreen.tsx:81, src/screens/GameScreen.tsx:98, src/game/state/store.ts:429",
+      "issue": "Terminal submits now trigger two feedback cues. The store keeps `screen` on `\"game\"` for 600 ms while still setting `flash`, so GameScreen's existing flash effect plays `correct`/`wrong` (`lines 81-89`) and the new terminal effect also plays `win`/`loss` (`lines 98-105`) for the same final submit. Before this change, the GameScreen flash effect never had a chance to run on terminal submits because the screen flipped immediately to ResultScreen in the same commit.",
+      "suggestion": "Choose exactly one cue path for terminal submits. The smallest fix is to suppress the flash effect when `active.result` is already set, or have the store emit a dedicated terminal cue state instead of reusing `flash`. Add coverage for final-win and final-loss submissions so this cannot regress again."
+    },
+    {
+      "type": "correctness",
+      "severity": "medium",
+      "file": "src/app/App.tsx:26, src/screens/MenuScreen.tsx:171",
+      "issue": "Dismissing onboarding now has a hidden navigation side effect long after first launch. `handleOnboardingDismiss()` auto-starts the daily whenever `gamesPlayed === 0`, `todayDailyRecord === null`, and `screen === \"menu\"`. Because the menu exposes `showOnboarding` again (`MenuScreen.tsx:171`), a player who has not yet completed a game can reopen the help overlay from the menu and get forced into Daily just by closing it.",
+      "suggestion": "Gate the auto-start behind a true first-boot signal rather than derived stats, or only trigger it on the initial app load. Add a test for reopening onboarding from the menu before any completed games."
+    }
+  ],
+  "summary": "No CLAUDE red lines are crossed in this batch, but I would not merge it as-is. The result-hold change introduces a user-facing feedback regression by double-playing sound/haptics on terminal submits, and the new onboarding dismiss handler now performs unexpected navigation when the player reopens help from the menu before finishing a first game. Both are behavior changes on core flows and should be corrected before approval."
+}

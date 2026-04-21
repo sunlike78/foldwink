@@ -46,4 +46,50 @@ describe("buildShareString", () => {
     expect(s).toContain("⬛⬛⬛⬛");
     expect(s).toContain("🟥🟥🟥🟥");
   });
+
+  it("appends the grade line on a win when grade is provided", () => {
+    const summary: ResultSummary = {
+      result: "win",
+      mistakesUsed: 0,
+      durationMs: 75_000,
+      solvedGroupIds: ["a", "b", "c", "d"],
+    };
+    const s = buildShareString(summary, puzzle, {
+      mode: "standard",
+      index: 12,
+      grade: {
+        base: "flawless",
+        noWinkMedium: false,
+        label: "Flawless",
+        caption: "0 mistakes",
+      },
+    });
+    expect(s).toContain("✦ Flawless");
+    // Grade line should sit between status and the grid blank separator.
+    const lines = s.split("\n");
+    const flawlessIdx = lines.findIndex((l) => l.startsWith("✦"));
+    const solvedIdx = lines.findIndex((l) => l.startsWith("Solved in"));
+    expect(solvedIdx).toBeGreaterThanOrEqual(0);
+    expect(flawlessIdx).toBeGreaterThan(solvedIdx);
+  });
+
+  it("omits the grade line on a loss even if grade is provided", () => {
+    const summary: ResultSummary = {
+      result: "loss",
+      mistakesUsed: 4,
+      durationMs: 60_000,
+      solvedGroupIds: ["a"],
+    };
+    const s = buildShareString(summary, puzzle, {
+      mode: "daily",
+      dayLabel: "2026-04-12",
+      grade: {
+        base: "loss",
+        noWinkMedium: false,
+        label: "Close call",
+        caption: null,
+      },
+    });
+    expect(s).not.toContain("✦");
+  });
 });

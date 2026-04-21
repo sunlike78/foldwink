@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useGameStore } from "../game/state/appStore";
 import { useT } from "../i18n/useLanguage";
 import { Button } from "../components/Button";
@@ -8,9 +7,16 @@ import { DailyCountdown } from "../components/DailyCountdown";
 import { buildShareString } from "../game/engine/share";
 import { gradeResult } from "../game/engine/grading";
 import { mediumReadiness } from "../game/engine/readiness";
+import { seedFromString } from "../game/engine/shuffle";
 import { todayLocal } from "../utils/date";
-import { useSound } from "../audio/useSound";
-import { useHaptics } from "../haptics/useHaptics";
+
+// Deterministic picker: same puzzle id → same copy every replay, so we
+// rotate without introducing variable-reward feel. Empty array safe-guard.
+function pickVariant(variants: readonly string[], seed: string): string {
+  if (variants.length === 0) return "";
+  const h = seedFromString(seed);
+  return variants[h % variants.length];
+}
 
 export function ResultScreen() {
   const summary = useGameStore((s) => s.summary);
@@ -24,17 +30,12 @@ export function ResultScreen() {
   const showStats = useGameStore((s) => s.showStats);
   const startNextSame = useGameStore((s) => s.startNextSame);
   const startMedium = useGameStore((s) => s.startMedium);
-  const play = useSound();
-  const haptic = useHaptics();
   const t = useT();
 
-  useEffect(() => {
-    if (!summary) return;
-    play(summary.result === "win" ? "win" : "loss");
-    haptic(summary.result === "win" ? "win" : "loss");
-    // Play once on arrival only — summary is frozen for this result.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // The terminal win/loss sound used to play from this screen's mount.
+  // After v0.7's 600 ms board-hold (store.ts RESULT_HOLD_MS), it plays
+  // from GameScreen the instant the board finalises so the cue lands on
+  // the fully-painted grid, not here.
 
   if (!summary || !puzzle) {
     return (
@@ -55,6 +56,7 @@ export function ResultScreen() {
     dayLabel: isDaily ? todayLocal() : undefined,
     index: isDaily ? undefined : Math.max(1, progress.cursor),
     strings: t,
+    grade,
   });
 
   const subtitle = isDaily
@@ -115,6 +117,12 @@ export function ResultScreen() {
               )}
             </div>
           )}
+          {/* Seeded win affirmation — deterministic per puzzle id, keeps
+              repeat sessions feeling fresh without introducing variable-
+              ratio randomness. */}
+          <div className="text-[11px] text-muted mt-1 italic opacity-80">
+            {pickVariant(t.result.winAffirmations, puzzle.id)}
+          </div>
         </div>
       )}
 
@@ -124,7 +132,7 @@ export function ResultScreen() {
             {t.result.closeOne}
           </div>
           <p className="text-sm text-text">
-            {t.result.missedMsg}{" "}
+            {pickVariant(t.result.missedVariants, puzzle.id)}{" "}
             {isDaily ? t.result.nextDaily : t.result.tryFresh}
           </p>
         </div>

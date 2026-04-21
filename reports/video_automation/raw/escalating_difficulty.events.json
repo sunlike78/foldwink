@@ -1,0 +1,125 @@
+{
+  "scenarioId": "escalating_difficulty",
+  "events": [
+    {
+      "t": 0.975,
+      "type": "select"
+    },
+    {
+      "t": 1.297,
+      "type": "select"
+    },
+    {
+      "t": 1.599,
+      "type": "select"
+    },
+    {
+      "t": 1.863,
+      "type": "select"
+    },
+    {
+      "t": 2.531,
+      "type": "submit"
+    },
+    {
+      "t": 2.879,
+      "type": "wrong"
+    },
+    {
+      "t": 3.698,
+      "type": "select"
+    },
+    {
+      "t": 3.997,
+      "type": "select"
+    },
+    {
+      "t": 4.229,
+      "type": "select"
+    },
+    {
+      "t": 4.548,
+      "type": "select"
+    },
+    {
+      "t": 5.169,
+      "type": "submit"
+    },
+    {
+      "t": 5.518,
+      "type": "correct"
+    },
+    {
+      "t": 6.464,
+      "type": "select"
+    },
+    {
+      "t": 6.713,
+      "type": "select"
+    },
+    {
+      "t": 7.014,
+      "type": "select"
+    },
+    {
+      "t": 7.264,
+      "type": "select"
+    },
+    {
+      "t": 7.86,
+      "type": "submit"
+    },
+    {
+      "t": 8.201,
+      "type": "correct"
+    },
+    {
+      "t": 9.129,
+      "type": "select"
+    },
+    {
+      "t": 9.43,
+      "type": "select"
+    },
+    {
+      "t": 9.713,
+      "type": "select"
+    },
+    {
+      "t": 10.031,
+      "type": "select"
+    },
+    {
+      "t": 10.549,
+      "type": "submit"
+    },
+    {
+      "t": 10.902,
+      "type": "correct"
+    },
+    {
+      "t": 11.731,
+      "type": "select"
+    },
+    {
+      "t": 11.996,
+      "type": "select"
+    },
+    {
+      "t": 12.263,
+      "type": "select"
+    },
+    {
+      "t": 12.58,
+      "type": "select"
+    },
+    {
+      "t": 13.188,
+      "type": "submit"
+    },
+    {
+      "t": 13.532,
+      "type": "correct"
+    }
+  ]
+}

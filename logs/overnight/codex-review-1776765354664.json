@@ -1,0 +1,21 @@
+{
+  "goal": "Batch B: (#5) add optional grade line in share string via ShareContext.grade, (#6) replace single-string missedMsg + new winAffirmations with deterministic seeded picker (seedFromString(puzzle.id) % variants.length). Updated EN/DE/RU. Fixed ru shareResult copy.",
+  "verdict": "reject",
+  "findings": [
+    {
+      "type": "correctness",
+      "severity": "medium",
+      "file": "src/game/state/appStore.ts",
+      "issue": "`tryResumeSession` now resolves the saved puzzle through `langGetPuzzleById` at `src/game/state/appStore.ts:53-57`, but that helper falls back to English in `src/puzzles/byLang.ts:159`. That changes the documented behavior from 'resume strictly from the current language pool' into 'resume from current language or EN fallback', so a saved DE/RU session can reopen with English puzzle content after a language change or a missing localized entry.",
+      "suggestion": "Use a current-language-only lookup for the resume path, or add a non-fallback resolver in `byLang.ts` and call that from `tryResumeSession` so cross-language resumes are still rejected."
+    },
+    {
+      "type": "correctness",
+      "severity": "medium",
+      "file": "src/screens/ResultScreen.tsx",
+      "issue": "The seeded affirmation is rendered for every win at `src/screens/ResultScreen.tsx:128-133`, but the shared variant pool contains tab-specific copy such as `src/i18n/strings.ts:264`, `src/i18n/strings.ts:455`, and `src/i18n/strings.ts:652` ('The tabs told you the truth.' / localized equivalents). Easy puzzles have no Foldwink Tabs, so some easy-puzzle wins will now show factually wrong result copy.",
+      "suggestion": "Either split affirmations by difficulty/mechanic and pick from the matching pool, or remove tab-specific lines from the generic `winAffirmations` arrays."
+    }
+  ],
+  "summary": "No hard red-line violations are present in this diff, but there are two blocking correctness problems. The app-store refactor weakens the existing 'resume only in the current language pool' rule by reintroducing English fallback during session restore, and the new deterministic win-affirmation system can surface tab-specific text on easy puzzles that do not have Tabs. The share-grade tests cover the happy-path formatting change, but they do not protect either of these user-facing regressions."
+}

@@ -1,0 +1,11 @@
+{
+  "scenarioId": "hard_mode_flex",
+  "difficulty": "hard",
+  "plannedMistakes": 0,
+  "viewport": {
+    "width": 720,
+    "height": 1280
+  },
+  "recordedAt": "2026-04-17T17:49:07.472Z",
+  "file": "reports\\video_automation\\raw\\hard_mode_flex.webm"
+}

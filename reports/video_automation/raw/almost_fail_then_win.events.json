@@ -1,0 +1,149 @@
+{
+  "scenarioId": "almost_fail_then_win",
+  "events": [
+    {
+      "t": 1.007,
+      "type": "select"
+    },
+    {
+      "t": 1.26,
+      "type": "select"
+    },
+    {
+      "t": 1.513,
+      "type": "select"
+    },
+    {
+      "t": 1.78,
+      "type": "select"
+    },
+    {
+      "t": 2.331,
+      "type": "submit"
+    },
+    {
+      "t": 2.68,
+      "type": "wrong"
+    },
+    {
+      "t": 3.578,
+      "type": "select"
+    },
+    {
+      "t": 3.828,
+      "type": "select"
+    },
+    {
+      "t": 4.078,
+      "type": "select"
+    },
+    {
+      "t": 4.345,
+      "type": "select"
+    },
+    {
+      "t": 5.012,
+      "type": "submit"
+    },
+    {
+      "t": 5.356,
+      "type": "wrong"
+    },
+    {
+      "t": 6.227,
+      "type": "select"
+    },
+    {
+      "t": 6.528,
+      "type": "select"
+    },
+    {
+      "t": 6.793,
+      "type": "select"
+    },
+    {
+      "t": 7.063,
+      "type": "select"
+    },
+    {
+      "t": 7.613,
+      "type": "submit"
+    },
+    {
+      "t": 7.954,
+      "type": "correct"
+    },
+    {
+      "t": 8.811,
+      "type": "select"
+    },
+    {
+      "t": 9.078,
+      "type": "select"
+    },
+    {
+      "t": 9.328,
+      "type": "select"
+    },
+    {
+      "t": 9.645,
+      "type": "select"
+    },
+    {
+      "t": 10.319,
+      "type": "submit"
+    },
+    {
+      "t": 10.664,
+      "type": "correct"
+    },
+    {
+      "t": 11.512,
+      "type": "select"
+    },
+    {
+      "t": 11.761,
+      "type": "select"
+    },
+    {
+      "t": 12.026,
+      "type": "select"
+    },
+    {
+      "t": 12.278,
+      "type": "select"
+    },
+    {
+      "t": 12.929,
+      "type": "submit"
+    },
+    {
+      "t": 13.269,
+      "type": "correct"
+    },
+    {
+      "t": 14.194,
+      "type": "select"
+    },
+    {
+      "t": 14.459,
+      "type": "select"
+    },
+    {
+      "t": 14.726,
+      "type": "select"
+    },
+    {
+      "t": 14.978,
+      "type": "select"
+    },
+    {
+      "t": 15.452,
+      "type": "submit"
+    },
+    {
+      "t": 15.795,
+      "type": "correct"
+    }
+  ]
+}

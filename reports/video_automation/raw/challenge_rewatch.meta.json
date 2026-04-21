@@ -1,0 +1,11 @@
+{
+  "scenarioId": "challenge_rewatch",
+  "difficulty": "easy",
+  "plannedMistakes": 1,
+  "viewport": {
+    "width": 720,
+    "height": 1280
+  },
+  "recordedAt": "2026-04-17T17:48:55.104Z",
+  "file": "reports\\video_automation\\raw\\challenge_rewatch.webm"
+}

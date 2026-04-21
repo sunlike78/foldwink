@@ -98,6 +98,43 @@ describe("store — standard mode", () => {
   });
 });
 
+describe("store — result-hold timing", () => {
+  it("defers screen:'result' through scheduleTransition and keeps screen:'game' until fired", async () => {
+    const pool = [mkPuzzle("p1"), mkPuzzle("p2")];
+    let pending: Array<{ cb: () => void; ms: number }> = [];
+    const schedule = (cb: () => void, ms: number) => {
+      pending.push({ cb, ms });
+    };
+    const store = createStore(makeDeps(pool, { scheduleTransition: schedule }));
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    // Hold: state finalized (summary present, stats updated) but screen
+    // stays on game until the scheduled callback fires.
+    expect(store.getState().active?.result).toBe("win");
+    expect(store.getState().summary).not.toBeNull();
+    expect(store.getState().screen).toBe("game");
+    expect(pending).toHaveLength(1);
+    expect(pending[0].ms).toBe(600);
+    pending[0].cb();
+    expect(store.getState().screen).toBe("result");
+  });
+
+  it("does not clobber screen if player navigated away during the hold", () => {
+    const pool = [mkPuzzle("p1")];
+    let pending: Array<{ cb: () => void; ms: number }> = [];
+    const schedule = (cb: () => void, ms: number) => {
+      pending.push({ cb, ms });
+    };
+    const store = createStore(makeDeps(pool, { scheduleTransition: schedule }));
+    store.getState().startStandard();
+    winCurrentPuzzle(store);
+    store.getState().goToMenu();
+    expect(store.getState().screen).toBe("menu");
+    pending[0].cb();
+    expect(store.getState().screen).toBe("menu");
+  });
+});
+
 describe("store — daily mode", () => {
   it("records daily completion and blocks stat double-count on replay", () => {
     const pool = [mkPuzzle("p1"), mkPuzzle("p2")];

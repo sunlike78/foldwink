@@ -14,9 +14,7 @@ import {
   mediumReadinessDisplay,
   hardReadinessDisplay,
 } from "../game/engine/readiness";
-import { HARD_POOL, PUZZLE_POOL } from "../puzzles/loader";
-import { DE_PUZZLE_POOL, DE_HARD_POOL } from "../puzzles/loaderDe";
-import { RU_PUZZLE_POOL, RU_HARD_POOL } from "../puzzles/loaderRu";
+import { currentBundle } from "../puzzles/byLang";
 import { isIosSafariInBrowser } from "../utils/platform";
 import { useLang, useT } from "../i18n/useLanguage";
 
@@ -28,19 +26,12 @@ export function MenuScreen() {
   const showStats = useGameStore((s) => s.showStats);
   const showOnboarding = useGameStore((s) => s.showOnboarding);
   const lang = useLang();
-  const langPool =
-    lang === "de" && DE_PUZZLE_POOL.length > 0
-      ? DE_PUZZLE_POOL
-      : lang === "ru" && RU_PUZZLE_POOL.length > 0
-        ? RU_PUZZLE_POOL
-        : PUZZLE_POOL;
-  const langHardPool =
-    lang === "de" && DE_HARD_POOL.length > 0
-      ? DE_HARD_POOL
-      : lang === "ru" && RU_HARD_POOL.length > 0
-        ? RU_HARD_POOL
-        : HARD_POOL;
-  const poolSize = langPool.length;
+  // Subscribe to `lang` so that a language switch re-renders the menu with
+  // the matching pool. The bundle itself is read each render via currentBundle().
+  void lang;
+  const bundle = currentBundle();
+  const poolSize = bundle.pool.length;
+  const langHardPool = bundle.hard;
   const stats = useGameStore((s) => s.stats);
   const todayDailyRecord = useGameStore((s) => s.todayDailyRecord);
   const t = useT();

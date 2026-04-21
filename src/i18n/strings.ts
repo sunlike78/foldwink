@@ -63,9 +63,16 @@ export interface Strings {
     grade: string;
     newBest: (n: number) => string;
     closeOne: string;
-    missedMsg: string;
+    /** Multi-variant loss prose — puzzle-id-seeded picker in ResultScreen
+     *  gives each puzzle a consistent (non-random-feeling) flavour while
+     *  avoiding the single-line repetition flagged in the audit. Keep 3–5
+     *  entries per locale. */
+    missedVariants: readonly string[];
     nextDaily: string;
     tryFresh: string;
+    /** Multi-variant win affirmations, picked deterministically per
+     *  puzzle id. Optional flavour under the grade card. Keep 3–5. */
+    winAffirmations: readonly string[];
     nextPuzzle: string;
     tryMedium: string;
     showStats: string;
@@ -242,9 +249,20 @@ export const strings: Record<Lang, Strings> = {
       grade: "Grade",
       newBest: (n) => `✦ New best streak ${n}`,
       closeOne: "Close one",
-      missedMsg: "Every good solver misses a puzzle.",
+      missedVariants: [
+        "Every good solver misses a puzzle.",
+        "Even seasoned players misread a grid now and then.",
+        "This one didn't land — happens to the best.",
+        "Wrong turn on this one. Nothing a fresh board can't fix.",
+      ],
       nextDaily: "A new daily lands tomorrow.",
       tryFresh: "Try a fresh one — the pattern won't catch you twice.",
+      winAffirmations: [
+        "Clean read of the board.",
+        "Nice chain of solves.",
+        "Clear thinking paid off.",
+        "The categories held together.",
+      ],
       nextPuzzle: "Next puzzle",
       tryMedium: "Try a Medium puzzle",
       showStats: "Stats",
@@ -422,9 +440,20 @@ export const strings: Record<Lang, Strings> = {
       grade: "Bewertung",
       newBest: (n) => `✦ Neue Beststreak: ${n}`,
       closeOne: "Knapp daneben",
-      missedMsg: "Jedem guten Spieler entgeht mal ein Rätsel.",
+      missedVariants: [
+        "Jedem guten Spieler entgeht mal ein Rätsel.",
+        "Auch erfahrene Spieler lesen das Brett manchmal falsch.",
+        "Diesmal hat's nicht gepasst — passt zum besten Spieler.",
+        "Falsche Spur. Ein frisches Brett löst das.",
+      ],
       nextDaily: "Morgen gibt es ein neues Tagesrätsel.",
       tryFresh: "Versuch ein neues — das Muster erwischt dich kein zweites Mal.",
+      winAffirmations: [
+        "Klares Lesen der Karten.",
+        "Saubere Kette an Lösungen.",
+        "Klarer Kopf hat sich gelohnt.",
+        "Die Kategorien passten zusammen.",
+      ],
       nextPuzzle: "Nächstes Rätsel",
       tryMedium: "Mittel-Rätsel probieren",
       showStats: "Statistik",
@@ -608,9 +637,20 @@ export const strings: Record<Lang, Strings> = {
       grade: "Оценка",
       newBest: (n) => `✦ Новый рекорд серии: ${n}`,
       closeOne: "Почти!",
-      missedMsg: "Даже опытные игроки иногда ошибаются.",
+      missedVariants: [
+        "Даже опытные игроки иногда ошибаются.",
+        "Иногда сетка читается не с первого раза.",
+        "В этот раз не сложилось — бывает у всех.",
+        "Ложный след. Новая сетка всё исправит.",
+      ],
       nextDaily: "Новый дневной пазл появится завтра.",
       tryFresh: "Попробуй следующий — закономерность тебя не поймает дважды.",
+      winAffirmations: [
+        "Чистое чтение сетки.",
+        "Хорошая цепочка верных решений.",
+        "Ясная голова — ясный результат.",
+        "Категории сложились.",
+      ],
       nextPuzzle: "Следующий пазл",
       tryMedium: "Попробовать средний",
       showStats: "Статистика",
@@ -655,7 +695,7 @@ export const strings: Record<Lang, Strings> = {
       failedShort: "Провал",
     },
     share: {
-      shareResult: "Поделиться",
+      shareResult: "Поделиться результатом",
       preparing: "Готовлю…",
       copied: "Скопировано!",
       savedImage: "Картинка сохранена",

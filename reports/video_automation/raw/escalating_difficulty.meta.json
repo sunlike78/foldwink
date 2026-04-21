@@ -1,0 +1,11 @@
+{
+  "scenarioId": "escalating_difficulty",
+  "difficulty": "medium",
+  "plannedMistakes": 1,
+  "viewport": {
+    "width": 720,
+    "height": 1280
+  },
+  "recordedAt": "2026-04-17T17:48:24.941Z",
+  "file": "reports\\video_automation\\raw\\escalating_difficulty.webm"
+}

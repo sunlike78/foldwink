@@ -1,0 +1,101 @@
+{
+  "scenarioId": "clean_fast_solve",
+  "events": [
+    {
+      "t": 1.061,
+      "type": "select"
+    },
+    {
+      "t": 1.302,
+      "type": "select"
+    },
+    {
+      "t": 1.566,
+      "type": "select"
+    },
+    {
+      "t": 1.766,
+      "type": "select"
+    },
+    {
+      "t": 2.22,
+      "type": "submit"
+    },
+    {
+      "t": 2.568,
+      "type": "correct"
+    },
+    {
+      "t": 3.184,
+      "type": "select"
+    },
+    {
+      "t": 3.37,
+      "type": "select"
+    },
+    {
+      "t": 3.6,
+      "type": "select"
+    },
+    {
+      "t": 3.867,
+      "type": "select"
+    },
+    {
+      "t": 4.261,
+      "type": "submit"
+    },
+    {
+      "t": 4.605,
+      "type": "correct"
+    },
+    {
+      "t": 5.132,
+      "type": "select"
+    },
+    {
+      "t": 5.349,
+      "type": "select"
+    },
+    {
+      "t": 5.583,
+      "type": "select"
+    },
+    {
+      "t": 5.817,
+      "type": "select"
+    },
+    {
+      "t": 6.3,
+      "type": "submit"
+    },
+    {
+      "t": 6.649,
+      "type": "correct"
+    },
+    {
+      "t": 7.233,
+      "type": "select"
+    },
+    {
+      "t": 7.482,
+      "type": "select"
+    },
+    {
+      "t": 7.667,
+      "type": "select"
+    },
+    {
+      "t": 7.852,
+      "type": "select"
+    },
+    {
+      "t": 8.373,
+      "type": "submit"
+    },
+    {
+      "t": 8.719,
+      "type": "correct"
+    }
+  ]
+}

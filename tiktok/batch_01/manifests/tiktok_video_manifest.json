@@ -1,0 +1,1839 @@
+{
+  "createdAt": "2026-04-17T18:15:12.329Z",
+  "ffmpeg": "C:\\AI\\neural-void.com\\foldwink\\node_modules\\ffmpeg-static\\ffmpeg.exe",
+  "audio": true,
+  "videos": [
+    {
+      "output": "tiktok/batch_01/exports/tiktok_01_pause_and_solve.mp4",
+      "rawSource": "clean_fast_solve.webm",
+      "bucket": "challenge",
+      "hookId": "pause_solve",
+      "hookText": "Pause and solve.",
+      "ctaId": "could_you_get",
+      "ctaText": "Could you get this?",
+      "reserve": false,
+      "cadence": "fast",
+      "plannedMistakes": 0,
+      "startSec": 0.2,
+      "durationSec": 10,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.861,
+            "type": "select"
+          },
+          {
+            "t": 1.102,
+            "type": "select"
+          },
+          {
+            "t": 1.366,
+            "type": "select"
+          },
+          {
+            "t": 1.566,
+            "type": "select"
+          },
+          {
+            "t": 2.02,
+            "type": "submit"
+          },
+          {
+            "t": 2.368,
+            "type": "correct"
+          },
+          {
+            "t": 2.984,
+            "type": "select"
+          },
+          {
+            "t": 3.17,
+            "type": "select"
+          },
+          {
+            "t": 3.4,
+            "type": "select"
+          },
+          {
+            "t": 3.667,
+            "type": "select"
+          },
+          {
+            "t": 4.061,
+            "type": "submit"
+          },
+          {
+            "t": 4.405,
+            "type": "correct"
+          },
+          {
+            "t": 4.932,
+            "type": "select"
+          },
+          {
+            "t": 5.149,
+            "type": "select"
+          },
+          {
+            "t": 5.383,
+            "type": "select"
+          },
+          {
+            "t": 5.617,
+            "type": "select"
+          },
+          {
+            "t": 6.1,
+            "type": "submit"
+          },
+          {
+            "t": 6.449,
+            "type": "correct"
+          },
+          {
+            "t": 7.033,
+            "type": "select"
+          },
+          {
+            "t": 7.282,
+            "type": "select"
+          },
+          {
+            "t": 7.467,
+            "type": "select"
+          },
+          {
+            "t": 7.652,
+            "type": "select"
+          },
+          {
+            "t": 8.173,
+            "type": "submit"
+          },
+          {
+            "t": 8.519,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 686235
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_02_can_you_solve.mp4",
+      "rawSource": "escalating_difficulty.webm",
+      "bucket": "challenge",
+      "hookId": "can_you",
+      "hookText": "Can you solve this?",
+      "ctaId": "would_you_faster",
+      "ctaText": "Would you solve it faster?",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 1,
+      "startSec": 0.2,
+      "durationSec": 15,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.775,
+            "type": "select"
+          },
+          {
+            "t": 1.097,
+            "type": "select"
+          },
+          {
+            "t": 1.399,
+            "type": "select"
+          },
+          {
+            "t": 1.663,
+            "type": "select"
+          },
+          {
+            "t": 2.331,
+            "type": "submit"
+          },
+          {
+            "t": 2.679,
+            "type": "wrong"
+          },
+          {
+            "t": 3.498,
+            "type": "select"
+          },
+          {
+            "t": 3.797,
+            "type": "select"
+          },
+          {
+            "t": 4.029,
+            "type": "select"
+          },
+          {
+            "t": 4.348,
+            "type": "select"
+          },
+          {
+            "t": 4.969,
+            "type": "submit"
+          },
+          {
+            "t": 5.318,
+            "type": "correct"
+          },
+          {
+            "t": 6.264,
+            "type": "select"
+          },
+          {
+            "t": 6.513,
+            "type": "select"
+          },
+          {
+            "t": 6.814,
+            "type": "select"
+          },
+          {
+            "t": 7.064,
+            "type": "select"
+          },
+          {
+            "t": 7.66,
+            "type": "submit"
+          },
+          {
+            "t": 8.001,
+            "type": "correct"
+          },
+          {
+            "t": 8.929,
+            "type": "select"
+          },
+          {
+            "t": 9.23,
+            "type": "select"
+          },
+          {
+            "t": 9.513,
+            "type": "select"
+          },
+          {
+            "t": 9.831,
+            "type": "select"
+          },
+          {
+            "t": 10.349,
+            "type": "submit"
+          },
+          {
+            "t": 10.702,
+            "type": "correct"
+          },
+          {
+            "t": 11.531,
+            "type": "select"
+          },
+          {
+            "t": 11.796,
+            "type": "select"
+          },
+          {
+            "t": 12.063,
+            "type": "select"
+          },
+          {
+            "t": 12.38,
+            "type": "select"
+          },
+          {
+            "t": 12.988,
+            "type": "submit"
+          },
+          {
+            "t": 13.332,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 912214
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_03_looks_easy.mp4",
+      "rawSource": "almost_fail_then_win.webm",
+      "bucket": "challenge",
+      "hookId": "looks_easy",
+      "hookText": "Looks easy. It isn’t.",
+      "ctaId": "post_level_3",
+      "ctaText": "Should I post level 3?",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 2,
+      "startSec": 0,
+      "durationSec": 18,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 1.007,
+            "type": "select"
+          },
+          {
+            "t": 1.26,
+            "type": "select"
+          },
+          {
+            "t": 1.513,
+            "type": "select"
+          },
+          {
+            "t": 1.78,
+            "type": "select"
+          },
+          {
+            "t": 2.331,
+            "type": "submit"
+          },
+          {
+            "t": 2.68,
+            "type": "wrong"
+          },
+          {
+            "t": 3.578,
+            "type": "select"
+          },
+          {
+            "t": 3.828,
+            "type": "select"
+          },
+          {
+            "t": 4.078,
+            "type": "select"
+          },
+          {
+            "t": 4.345,
+            "type": "select"
+          },
+          {
+            "t": 5.012,
+            "type": "submit"
+          },
+          {
+            "t": 5.356,
+            "type": "wrong"
+          },
+          {
+            "t": 6.227,
+            "type": "select"
+          },
+          {
+            "t": 6.528,
+            "type": "select"
+          },
+          {
+            "t": 6.793,
+            "type": "select"
+          },
+          {
+            "t": 7.063,
+            "type": "select"
+          },
+          {
+            "t": 7.613,
+            "type": "submit"
+          },
+          {
+            "t": 7.954,
+            "type": "correct"
+          },
+          {
+            "t": 8.811,
+            "type": "select"
+          },
+          {
+            "t": 9.078,
+            "type": "select"
+          },
+          {
+            "t": 9.328,
+            "type": "select"
+          },
+          {
+            "t": 9.645,
+            "type": "select"
+          },
+          {
+            "t": 10.319,
+            "type": "submit"
+          },
+          {
+            "t": 10.664,
+            "type": "correct"
+          },
+          {
+            "t": 11.512,
+            "type": "select"
+          },
+          {
+            "t": 11.761,
+            "type": "select"
+          },
+          {
+            "t": 12.026,
+            "type": "select"
+          },
+          {
+            "t": 12.278,
+            "type": "select"
+          },
+          {
+            "t": 12.929,
+            "type": "submit"
+          },
+          {
+            "t": 13.269,
+            "type": "correct"
+          },
+          {
+            "t": 14.194,
+            "type": "select"
+          },
+          {
+            "t": 14.459,
+            "type": "select"
+          },
+          {
+            "t": 14.726,
+            "type": "select"
+          },
+          {
+            "t": 14.978,
+            "type": "select"
+          },
+          {
+            "t": 15.452,
+            "type": "submit"
+          },
+          {
+            "t": 15.795,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 1060976
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_04_escalated_fast.mp4",
+      "rawSource": "escalating_difficulty.webm",
+      "bucket": "escalation",
+      "hookId": "escalated_fast",
+      "hookText": "This escalated fast.",
+      "ctaId": "want_harder",
+      "ctaText": "Want harder ones?",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 1,
+      "startSec": 0.3,
+      "durationSec": 15,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.675,
+            "type": "select"
+          },
+          {
+            "t": 0.997,
+            "type": "select"
+          },
+          {
+            "t": 1.299,
+            "type": "select"
+          },
+          {
+            "t": 1.563,
+            "type": "select"
+          },
+          {
+            "t": 2.231,
+            "type": "submit"
+          },
+          {
+            "t": 2.579,
+            "type": "wrong"
+          },
+          {
+            "t": 3.398,
+            "type": "select"
+          },
+          {
+            "t": 3.697,
+            "type": "select"
+          },
+          {
+            "t": 3.929,
+            "type": "select"
+          },
+          {
+            "t": 4.248,
+            "type": "select"
+          },
+          {
+            "t": 4.869,
+            "type": "submit"
+          },
+          {
+            "t": 5.218,
+            "type": "correct"
+          },
+          {
+            "t": 6.164,
+            "type": "select"
+          },
+          {
+            "t": 6.413,
+            "type": "select"
+          },
+          {
+            "t": 6.714,
+            "type": "select"
+          },
+          {
+            "t": 6.964,
+            "type": "select"
+          },
+          {
+            "t": 7.56,
+            "type": "submit"
+          },
+          {
+            "t": 7.901,
+            "type": "correct"
+          },
+          {
+            "t": 8.829,
+            "type": "select"
+          },
+          {
+            "t": 9.13,
+            "type": "select"
+          },
+          {
+            "t": 9.413,
+            "type": "select"
+          },
+          {
+            "t": 9.731,
+            "type": "select"
+          },
+          {
+            "t": 10.249,
+            "type": "submit"
+          },
+          {
+            "t": 10.602,
+            "type": "correct"
+          },
+          {
+            "t": 11.431,
+            "type": "select"
+          },
+          {
+            "t": 11.696,
+            "type": "select"
+          },
+          {
+            "t": 11.963,
+            "type": "select"
+          },
+          {
+            "t": 12.28,
+            "type": "select"
+          },
+          {
+            "t": 12.888,
+            "type": "submit"
+          },
+          {
+            "t": 13.232,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 901080
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_05_worse_later.mp4",
+      "rawSource": "almost_fail_then_win.webm",
+      "bucket": "escalation",
+      "hookId": "worse_later",
+      "hookText": "It gets worse later.",
+      "ctaId": "part_2",
+      "ctaText": "Part 2?",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 2,
+      "startSec": 0.8,
+      "durationSec": 17,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.207,
+            "type": "select"
+          },
+          {
+            "t": 0.46,
+            "type": "select"
+          },
+          {
+            "t": 0.713,
+            "type": "select"
+          },
+          {
+            "t": 0.98,
+            "type": "select"
+          },
+          {
+            "t": 1.531,
+            "type": "submit"
+          },
+          {
+            "t": 1.88,
+            "type": "wrong"
+          },
+          {
+            "t": 2.778,
+            "type": "select"
+          },
+          {
+            "t": 3.028,
+            "type": "select"
+          },
+          {
+            "t": 3.278,
+            "type": "select"
+          },
+          {
+            "t": 3.545,
+            "type": "select"
+          },
+          {
+            "t": 4.212,
+            "type": "submit"
+          },
+          {
+            "t": 4.556,
+            "type": "wrong"
+          },
+          {
+            "t": 5.427,
+            "type": "select"
+          },
+          {
+            "t": 5.728,
+            "type": "select"
+          },
+          {
+            "t": 5.993,
+            "type": "select"
+          },
+          {
+            "t": 6.263,
+            "type": "select"
+          },
+          {
+            "t": 6.813,
+            "type": "submit"
+          },
+          {
+            "t": 7.154,
+            "type": "correct"
+          },
+          {
+            "t": 8.011,
+            "type": "select"
+          },
+          {
+            "t": 8.278,
+            "type": "select"
+          },
+          {
+            "t": 8.528,
+            "type": "select"
+          },
+          {
+            "t": 8.845,
+            "type": "select"
+          },
+          {
+            "t": 9.519,
+            "type": "submit"
+          },
+          {
+            "t": 9.864,
+            "type": "correct"
+          },
+          {
+            "t": 10.712,
+            "type": "select"
+          },
+          {
+            "t": 10.961,
+            "type": "select"
+          },
+          {
+            "t": 11.226,
+            "type": "select"
+          },
+          {
+            "t": 11.478,
+            "type": "select"
+          },
+          {
+            "t": 12.129,
+            "type": "submit"
+          },
+          {
+            "t": 12.469,
+            "type": "correct"
+          },
+          {
+            "t": 13.394,
+            "type": "select"
+          },
+          {
+            "t": 13.659,
+            "type": "select"
+          },
+          {
+            "t": 13.926,
+            "type": "select"
+          },
+          {
+            "t": 14.178,
+            "type": "select"
+          },
+          {
+            "t": 14.652,
+            "type": "submit"
+          },
+          {
+            "t": 14.995,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 985323
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_06_tiny_big.mp4",
+      "rawSource": "clean_fast_solve.webm",
+      "bucket": "satisfying",
+      "hookId": "tiny_big",
+      "hookText": "Tiny puzzle, huge satisfaction.",
+      "ctaId": null,
+      "ctaText": null,
+      "reserve": false,
+      "cadence": "fast",
+      "plannedMistakes": 0,
+      "startSec": 0.5,
+      "durationSec": 10,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.561,
+            "type": "select"
+          },
+          {
+            "t": 0.802,
+            "type": "select"
+          },
+          {
+            "t": 1.066,
+            "type": "select"
+          },
+          {
+            "t": 1.266,
+            "type": "select"
+          },
+          {
+            "t": 1.72,
+            "type": "submit"
+          },
+          {
+            "t": 2.068,
+            "type": "correct"
+          },
+          {
+            "t": 2.684,
+            "type": "select"
+          },
+          {
+            "t": 2.87,
+            "type": "select"
+          },
+          {
+            "t": 3.1,
+            "type": "select"
+          },
+          {
+            "t": 3.367,
+            "type": "select"
+          },
+          {
+            "t": 3.761,
+            "type": "submit"
+          },
+          {
+            "t": 4.105,
+            "type": "correct"
+          },
+          {
+            "t": 4.632,
+            "type": "select"
+          },
+          {
+            "t": 4.849,
+            "type": "select"
+          },
+          {
+            "t": 5.083,
+            "type": "select"
+          },
+          {
+            "t": 5.317,
+            "type": "select"
+          },
+          {
+            "t": 5.8,
+            "type": "submit"
+          },
+          {
+            "t": 6.149,
+            "type": "correct"
+          },
+          {
+            "t": 6.733,
+            "type": "select"
+          },
+          {
+            "t": 6.982,
+            "type": "select"
+          },
+          {
+            "t": 7.167,
+            "type": "select"
+          },
+          {
+            "t": 7.352,
+            "type": "select"
+          },
+          {
+            "t": 7.873,
+            "type": "submit"
+          },
+          {
+            "t": 8.219,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 631671
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_07_clean_solve.mp4",
+      "rawSource": "challenge_rewatch.webm",
+      "bucket": "satisfying",
+      "hookId": "clean_solve",
+      "hookText": "Clean solve.",
+      "ctaId": null,
+      "ctaText": null,
+      "reserve": false,
+      "cadence": "snappy",
+      "plannedMistakes": 1,
+      "startSec": 0.3,
+      "durationSec": 10,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.604,
+            "type": "select"
+          },
+          {
+            "t": 0.826,
+            "type": "select"
+          },
+          {
+            "t": 1.057,
+            "type": "select"
+          },
+          {
+            "t": 1.293,
+            "type": "select"
+          },
+          {
+            "t": 1.629,
+            "type": "submit"
+          },
+          {
+            "t": 1.97,
+            "type": "wrong"
+          },
+          {
+            "t": 2.409,
+            "type": "select"
+          },
+          {
+            "t": 2.593,
+            "type": "select"
+          },
+          {
+            "t": 2.776,
+            "type": "select"
+          },
+          {
+            "t": 2.957,
+            "type": "select"
+          },
+          {
+            "t": 3.262,
+            "type": "submit"
+          },
+          {
+            "t": 3.616,
+            "type": "correct"
+          },
+          {
+            "t": 4.026,
+            "type": "select"
+          },
+          {
+            "t": 4.225,
+            "type": "select"
+          },
+          {
+            "t": 4.442,
+            "type": "select"
+          },
+          {
+            "t": 4.675,
+            "type": "select"
+          },
+          {
+            "t": 5.002,
+            "type": "submit"
+          },
+          {
+            "t": 5.354,
+            "type": "correct"
+          },
+          {
+            "t": 5.807,
+            "type": "select"
+          },
+          {
+            "t": 5.992,
+            "type": "select"
+          },
+          {
+            "t": 6.175,
+            "type": "select"
+          },
+          {
+            "t": 6.359,
+            "type": "select"
+          },
+          {
+            "t": 6.742,
+            "type": "submit"
+          },
+          {
+            "t": 7.096,
+            "type": "correct"
+          },
+          {
+            "t": 7.544,
+            "type": "select"
+          },
+          {
+            "t": 7.758,
+            "type": "select"
+          },
+          {
+            "t": 7.941,
+            "type": "select"
+          },
+          {
+            "t": 8.158,
+            "type": "select"
+          },
+          {
+            "t": 8.48,
+            "type": "submit"
+          },
+          {
+            "t": 8.821,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 758375
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_08_almost_ruined.mp4",
+      "rawSource": "almost_fail_then_win.webm",
+      "bucket": "near_fail",
+      "hookId": "almost_ruined",
+      "hookText": "I almost ruined it here.",
+      "ctaId": "worse_later_cta",
+      "ctaText": "This gets worse later.",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 2,
+      "startSec": 0,
+      "durationSec": 17,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 1.007,
+            "type": "select"
+          },
+          {
+            "t": 1.26,
+            "type": "select"
+          },
+          {
+            "t": 1.513,
+            "type": "select"
+          },
+          {
+            "t": 1.78,
+            "type": "select"
+          },
+          {
+            "t": 2.331,
+            "type": "submit"
+          },
+          {
+            "t": 2.68,
+            "type": "wrong"
+          },
+          {
+            "t": 3.578,
+            "type": "select"
+          },
+          {
+            "t": 3.828,
+            "type": "select"
+          },
+          {
+            "t": 4.078,
+            "type": "select"
+          },
+          {
+            "t": 4.345,
+            "type": "select"
+          },
+          {
+            "t": 5.012,
+            "type": "submit"
+          },
+          {
+            "t": 5.356,
+            "type": "wrong"
+          },
+          {
+            "t": 6.227,
+            "type": "select"
+          },
+          {
+            "t": 6.528,
+            "type": "select"
+          },
+          {
+            "t": 6.793,
+            "type": "select"
+          },
+          {
+            "t": 7.063,
+            "type": "select"
+          },
+          {
+            "t": 7.613,
+            "type": "submit"
+          },
+          {
+            "t": 7.954,
+            "type": "correct"
+          },
+          {
+            "t": 8.811,
+            "type": "select"
+          },
+          {
+            "t": 9.078,
+            "type": "select"
+          },
+          {
+            "t": 9.328,
+            "type": "select"
+          },
+          {
+            "t": 9.645,
+            "type": "select"
+          },
+          {
+            "t": 10.319,
+            "type": "submit"
+          },
+          {
+            "t": 10.664,
+            "type": "correct"
+          },
+          {
+            "t": 11.512,
+            "type": "select"
+          },
+          {
+            "t": 11.761,
+            "type": "select"
+          },
+          {
+            "t": 12.026,
+            "type": "select"
+          },
+          {
+            "t": 12.278,
+            "type": "select"
+          },
+          {
+            "t": 12.929,
+            "type": "submit"
+          },
+          {
+            "t": 13.269,
+            "type": "correct"
+          },
+          {
+            "t": 14.194,
+            "type": "select"
+          },
+          {
+            "t": 14.459,
+            "type": "select"
+          },
+          {
+            "t": 14.726,
+            "type": "select"
+          },
+          {
+            "t": 14.978,
+            "type": "select"
+          },
+          {
+            "t": 15.452,
+            "type": "submit"
+          },
+          {
+            "t": 15.795,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 1061997
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_09_watch_last.mp4",
+      "rawSource": "hard_mode_flex.webm",
+      "bucket": "near_fail",
+      "hookId": "watch_last",
+      "hookText": "Watch the last move.",
+      "ctaId": null,
+      "ctaText": null,
+      "reserve": false,
+      "cadence": "confident",
+      "plannedMistakes": 0,
+      "startSec": 0,
+      "durationSec": 11.92,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.998,
+            "type": "select"
+          },
+          {
+            "t": 1.202,
+            "type": "select"
+          },
+          {
+            "t": 1.451,
+            "type": "select"
+          },
+          {
+            "t": 1.733,
+            "type": "select"
+          },
+          {
+            "t": 2.221,
+            "type": "submit"
+          },
+          {
+            "t": 2.568,
+            "type": "correct"
+          },
+          {
+            "t": 3.284,
+            "type": "select"
+          },
+          {
+            "t": 3.532,
+            "type": "select"
+          },
+          {
+            "t": 3.834,
+            "type": "select"
+          },
+          {
+            "t": 4.101,
+            "type": "select"
+          },
+          {
+            "t": 4.678,
+            "type": "submit"
+          },
+          {
+            "t": 5.023,
+            "type": "correct"
+          },
+          {
+            "t": 5.799,
+            "type": "select"
+          },
+          {
+            "t": 6.015,
+            "type": "select"
+          },
+          {
+            "t": 6.316,
+            "type": "select"
+          },
+          {
+            "t": 6.583,
+            "type": "select"
+          },
+          {
+            "t": 7.02,
+            "type": "submit"
+          },
+          {
+            "t": 7.37,
+            "type": "correct"
+          },
+          {
+            "t": 8.099,
+            "type": "select"
+          },
+          {
+            "t": 8.366,
+            "type": "select"
+          },
+          {
+            "t": 8.618,
+            "type": "select"
+          },
+          {
+            "t": 8.866,
+            "type": "select"
+          },
+          {
+            "t": 9.355,
+            "type": "submit"
+          },
+          {
+            "t": 9.7,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 750830
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_10_didnt_expect.mp4",
+      "rawSource": "escalating_difficulty.webm",
+      "bucket": "curiosity",
+      "hookId": "didnt_expect",
+      "hookText": "Browser puzzle I didn’t expect to like.",
+      "ctaId": "want_harder",
+      "ctaText": "Want harder ones?",
+      "reserve": false,
+      "cadence": "medium",
+      "plannedMistakes": 1,
+      "startSec": 0.4,
+      "durationSec": 14,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.575,
+            "type": "select"
+          },
+          {
+            "t": 0.897,
+            "type": "select"
+          },
+          {
+            "t": 1.199,
+            "type": "select"
+          },
+          {
+            "t": 1.463,
+            "type": "select"
+          },
+          {
+            "t": 2.131,
+            "type": "submit"
+          },
+          {
+            "t": 2.479,
+            "type": "wrong"
+          },
+          {
+            "t": 3.298,
+            "type": "select"
+          },
+          {
+            "t": 3.597,
+            "type": "select"
+          },
+          {
+            "t": 3.829,
+            "type": "select"
+          },
+          {
+            "t": 4.148,
+            "type": "select"
+          },
+          {
+            "t": 4.769,
+            "type": "submit"
+          },
+          {
+            "t": 5.118,
+            "type": "correct"
+          },
+          {
+            "t": 6.064,
+            "type": "select"
+          },
+          {
+            "t": 6.313,
+            "type": "select"
+          },
+          {
+            "t": 6.614,
+            "type": "select"
+          },
+          {
+            "t": 6.864,
+            "type": "select"
+          },
+          {
+            "t": 7.46,
+            "type": "submit"
+          },
+          {
+            "t": 7.801,
+            "type": "correct"
+          },
+          {
+            "t": 8.729,
+            "type": "select"
+          },
+          {
+            "t": 9.03,
+            "type": "select"
+          },
+          {
+            "t": 9.313,
+            "type": "select"
+          },
+          {
+            "t": 9.631,
+            "type": "select"
+          },
+          {
+            "t": 10.149,
+            "type": "submit"
+          },
+          {
+            "t": 10.502,
+            "type": "correct"
+          },
+          {
+            "t": 11.331,
+            "type": "select"
+          },
+          {
+            "t": 11.596,
+            "type": "select"
+          },
+          {
+            "t": 11.863,
+            "type": "select"
+          },
+          {
+            "t": 12.18,
+            "type": "select"
+          },
+          {
+            "t": 12.788,
+            "type": "submit"
+          },
+          {
+            "t": 13.132,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 903796
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_r1_one_move.mp4",
+      "rawSource": "challenge_rewatch.webm",
+      "bucket": "reserve",
+      "hookId": "one_move_left",
+      "hookText": "One move left.",
+      "ctaId": null,
+      "ctaText": null,
+      "reserve": true,
+      "cadence": "snappy",
+      "plannedMistakes": 1,
+      "startSec": 0.5,
+      "durationSec": 10,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.404,
+            "type": "select"
+          },
+          {
+            "t": 0.626,
+            "type": "select"
+          },
+          {
+            "t": 0.857,
+            "type": "select"
+          },
+          {
+            "t": 1.093,
+            "type": "select"
+          },
+          {
+            "t": 1.429,
+            "type": "submit"
+          },
+          {
+            "t": 1.77,
+            "type": "wrong"
+          },
+          {
+            "t": 2.209,
+            "type": "select"
+          },
+          {
+            "t": 2.393,
+            "type": "select"
+          },
+          {
+            "t": 2.576,
+            "type": "select"
+          },
+          {
+            "t": 2.757,
+            "type": "select"
+          },
+          {
+            "t": 3.062,
+            "type": "submit"
+          },
+          {
+            "t": 3.416,
+            "type": "correct"
+          },
+          {
+            "t": 3.826,
+            "type": "select"
+          },
+          {
+            "t": 4.025,
+            "type": "select"
+          },
+          {
+            "t": 4.242,
+            "type": "select"
+          },
+          {
+            "t": 4.475,
+            "type": "select"
+          },
+          {
+            "t": 4.802,
+            "type": "submit"
+          },
+          {
+            "t": 5.154,
+            "type": "correct"
+          },
+          {
+            "t": 5.607,
+            "type": "select"
+          },
+          {
+            "t": 5.792,
+            "type": "select"
+          },
+          {
+            "t": 5.975,
+            "type": "select"
+          },
+          {
+            "t": 6.159,
+            "type": "select"
+          },
+          {
+            "t": 6.542,
+            "type": "submit"
+          },
+          {
+            "t": 6.896,
+            "type": "correct"
+          },
+          {
+            "t": 7.344,
+            "type": "select"
+          },
+          {
+            "t": 7.558,
+            "type": "select"
+          },
+          {
+            "t": 7.741,
+            "type": "select"
+          },
+          {
+            "t": 7.958,
+            "type": "select"
+          },
+          {
+            "t": 8.28,
+            "type": "submit"
+          },
+          {
+            "t": 8.621,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 693757
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_r2_looks_easy_alt.mp4",
+      "rawSource": "escalating_difficulty.webm",
+      "bucket": "reserve",
+      "hookId": "looks_easy",
+      "hookText": "Looks easy. It isn’t.",
+      "ctaId": "could_you_get",
+      "ctaText": "Could you get this?",
+      "reserve": true,
+      "cadence": "medium",
+      "plannedMistakes": 1,
+      "startSec": 1,
+      "durationSec": 13,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.297,
+            "type": "select"
+          },
+          {
+            "t": 0.599,
+            "type": "select"
+          },
+          {
+            "t": 0.863,
+            "type": "select"
+          },
+          {
+            "t": 1.531,
+            "type": "submit"
+          },
+          {
+            "t": 1.879,
+            "type": "wrong"
+          },
+          {
+            "t": 2.698,
+            "type": "select"
+          },
+          {
+            "t": 2.997,
+            "type": "select"
+          },
+          {
+            "t": 3.229,
+            "type": "select"
+          },
+          {
+            "t": 3.548,
+            "type": "select"
+          },
+          {
+            "t": 4.169,
+            "type": "submit"
+          },
+          {
+            "t": 4.518,
+            "type": "correct"
+          },
+          {
+            "t": 5.464,
+            "type": "select"
+          },
+          {
+            "t": 5.713,
+            "type": "select"
+          },
+          {
+            "t": 6.014,
+            "type": "select"
+          },
+          {
+            "t": 6.264,
+            "type": "select"
+          },
+          {
+            "t": 6.86,
+            "type": "submit"
+          },
+          {
+            "t": 7.201,
+            "type": "correct"
+          },
+          {
+            "t": 8.129,
+            "type": "select"
+          },
+          {
+            "t": 8.43,
+            "type": "select"
+          },
+          {
+            "t": 8.713,
+            "type": "select"
+          },
+          {
+            "t": 9.031,
+            "type": "select"
+          },
+          {
+            "t": 9.549,
+            "type": "submit"
+          },
+          {
+            "t": 9.902,
+            "type": "correct"
+          },
+          {
+            "t": 10.731,
+            "type": "select"
+          },
+          {
+            "t": 10.996,
+            "type": "select"
+          },
+          {
+            "t": 11.263,
+            "type": "select"
+          },
+          {
+            "t": 11.58,
+            "type": "select"
+          },
+          {
+            "t": 12.188,
+            "type": "submit"
+          },
+          {
+            "t": 12.532,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 833796
+    },
+    {
+      "output": "tiktok/batch_01/exports/tiktok_r3_can_you_alt.mp4",
+      "rawSource": "almost_fail_then_win.webm",
+      "bucket": "reserve",
+      "hookId": "can_you",
+      "hookText": "Can you solve this?",
+      "ctaId": "part_2",
+      "ctaText": "Part 2?",
+      "reserve": true,
+      "cadence": "medium",
+      "plannedMistakes": 2,
+      "startSec": 1.5,
+      "durationSec": 15,
+      "audio": {
+        "eventsSource": "measured",
+        "events": [
+          {
+            "t": 0.013,
+            "type": "select"
+          },
+          {
+            "t": 0.28,
+            "type": "select"
+          },
+          {
+            "t": 0.831,
+            "type": "submit"
+          },
+          {
+            "t": 1.18,
+            "type": "wrong"
+          },
+          {
+            "t": 2.078,
+            "type": "select"
+          },
+          {
+            "t": 2.328,
+            "type": "select"
+          },
+          {
+            "t": 2.578,
+            "type": "select"
+          },
+          {
+            "t": 2.845,
+            "type": "select"
+          },
+          {
+            "t": 3.512,
+            "type": "submit"
+          },
+          {
+            "t": 3.856,
+            "type": "wrong"
+          },
+          {
+            "t": 4.727,
+            "type": "select"
+          },
+          {
+            "t": 5.028,
+            "type": "select"
+          },
+          {
+            "t": 5.293,
+            "type": "select"
+          },
+          {
+            "t": 5.563,
+            "type": "select"
+          },
+          {
+            "t": 6.113,
+            "type": "submit"
+          },
+          {
+            "t": 6.454,
+            "type": "correct"
+          },
+          {
+            "t": 7.311,
+            "type": "select"
+          },
+          {
+            "t": 7.578,
+            "type": "select"
+          },
+          {
+            "t": 7.828,
+            "type": "select"
+          },
+          {
+            "t": 8.145,
+            "type": "select"
+          },
+          {
+            "t": 8.819,
+            "type": "submit"
+          },
+          {
+            "t": 9.164,
+            "type": "correct"
+          },
+          {
+            "t": 10.012,
+            "type": "select"
+          },
+          {
+            "t": 10.261,
+            "type": "select"
+          },
+          {
+            "t": 10.526,
+            "type": "select"
+          },
+          {
+            "t": 10.778,
+            "type": "select"
+          },
+          {
+            "t": 11.429,
+            "type": "submit"
+          },
+          {
+            "t": 11.769,
+            "type": "correct"
+          },
+          {
+            "t": 12.694,
+            "type": "select"
+          },
+          {
+            "t": 12.959,
+            "type": "select"
+          },
+          {
+            "t": 13.226,
+            "type": "select"
+          },
+          {
+            "t": 13.478,
+            "type": "select"
+          },
+          {
+            "t": 13.952,
+            "type": "submit"
+          },
+          {
+            "t": 14.295,
+            "type": "correct"
+          }
+        ]
+      },
+      "bytes": 949400
+    }
+  ]
+}

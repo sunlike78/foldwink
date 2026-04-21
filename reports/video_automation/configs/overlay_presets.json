@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "safeZone": {
+    "topPct": 14,
+    "bottomPct": 18,
+    "sidePct": 6,
+    "note": "Keep critical text inside these margins so TikTok/Shorts UI never clips it."
+  },
+  "fontStack": {
+    "windows": "C\\:/Windows/Fonts/arialbd.ttf",
+    "fallbackBoxColor": "black@0.55"
+  },
+  "hooks": {
+    "satisfying": [
+      {
+        "id": "sat_pov_kill5",
+        "text_ru": "POV: нашёл идеальную игру, чтобы убить 5 минут",
+        "text_en": "POV: the perfect 5-minute brain fix",
+        "tone": "chill",
+        "position": "top"
+      },
+      {
+        "id": "sat_no_download",
+        "text_ru": "Без скачивания. Просто в браузере.",
+        "text_en": "No download. Runs in your browser.",
+        "tone": "neutral",
+        "position": "top"
+      },
+      {
+        "id": "sat_clean_brain",
+        "text_ru": "Чистый кайф для мозга",
+        "text_en": "Clean brain candy",
+        "tone": "warm",
+        "position": "top"
+      },
+      {
+        "id": "sat_play_free",
+        "text_ru": "Играй бесплатно",
+        "text_en": "Free to play",
+        "tone": "cta",
+        "position": "bottom"
+      },
+      {
+        "id": "sat_daily_ritual",
+        "text_ru": "Новая головоломка каждый день",
+        "text_en": "A new puzzle every day",
+        "tone": "ritual",
+        "position": "top"
+      }
+    ],
+    "challenge": [
+      {
+        "id": "ch_most_fail",
+        "text_ru": "Почему большинство ошибается здесь с первой попытки?",
+        "text_en": "Why most people miss this on the first try",
+        "tone": "tension",
+        "position": "top"
+      },
+      {
+        "id": "ch_watch_end",
+        "text_ru": "Смотри до конца",
+        "text_en": "Watch to the end",
+        "tone": "tension",
+        "position": "top"
+      },
+      {
+        "id": "ch_on_purpose",
+        "text_ru": "Я специально ошибся один раз",
+        "text_en": "I missed one on purpose",
+        "tone": "reveal",
+        "position": "top"
+      },
+      {
+        "id": "ch_try_yourself",
+        "text_ru": "Попробуй сам",
+        "text_en": "Try it yourself",
+        "tone": "cta",
+        "position": "bottom"
+      },
+      {
+        "id": "ch_can_you",
+        "text_ru": "Сможешь решить без единой ошибки?",
+        "text_en": "Can you solve it without a single mistake?",
+        "tone": "tension",
+        "position": "top"
+      }
+    ],
+    "cta_footer": [
+      {
+        "id": "cta_url",
+        "text_ru": "foldwink — в браузере",
+        "text_en": "foldwink — in your browser",
+        "position": "bottom"
+      },
+      {
+        "id": "cta_try",
+        "text_ru": "Играй сейчас",
+        "text_en": "Play now",
+        "position": "bottom"
+      }
+    ]
+  }
+}

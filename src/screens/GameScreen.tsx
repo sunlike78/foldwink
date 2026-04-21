@@ -78,17 +78,38 @@ export function GameScreen() {
 
   useEffect(() => {
     if (!flash) return;
-    if (flash === "correct") {
+    // On a terminal submit the store now holds the board for ~600 ms
+    // before flipping to ResultScreen. During that hold both `flash` and
+    // `active.result` are set. The win/loss cue below supersedes the
+    // generic correct/wrong flash cue, so skip it here to avoid double-
+    // playing sound + haptics in the same 600 ms window.
+    const terminal = active?.result != null;
+    if (flash === "correct" && !terminal) {
       play("correct");
       haptic("correct");
     }
-    if (flash === "incorrect" || flash === "one-away") {
+    if ((flash === "incorrect" || flash === "one-away") && !terminal) {
       play("wrong");
       haptic("wrong");
     }
     const id = setTimeout(() => clearFlash(), flash === "one-away" ? 1400 : 450);
     return () => clearTimeout(id);
-  }, [flash, clearFlash, play, haptic]);
+  }, [flash, active, clearFlash, play, haptic]);
+
+  // Terminal cue — the store now holds the board visible for ~600 ms
+  // after a win/loss before flipping to ResultScreen (see RESULT_HOLD_MS
+  // in store.ts). Play the win/loss sound at the moment the board
+  // finalises so the climax lands on the grid the player was looking at,
+  // not on the Result panel.
+  const terminalResultPlayed = useRef<string | null>(null);
+  useEffect(() => {
+    if (!active || !active.result) return;
+    const key = `${active.puzzleId}:${active.result}`;
+    if (terminalResultPlayed.current === key) return;
+    terminalResultPlayed.current = key;
+    play(active.result === "win" ? "win" : "loss");
+    haptic(active.result === "win" ? "win" : "loss");
+  }, [active, play, haptic]);
 
   useEffect(() => {
     if (!active || !puzzle) {
@@ -174,7 +195,7 @@ export function GameScreen() {
         right={
           <div className="flex items-center gap-3">
             <GameTimer startedAt={active.startedAt} endedAt={active.endedAt} />
-            <MistakesDots used={active.mistakesUsed} />
+            <MistakesDots used={active.mistakesUsed} oneAwayLast={flash === "one-away"} />
           </div>
         }
       />

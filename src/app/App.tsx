@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useGameStore } from "../game/state/appStore";
 import { MenuScreen } from "../screens/MenuScreen";
 import { GameScreen } from "../screens/GameScreen";
@@ -10,6 +10,31 @@ export function App() {
   const screen = useGameStore((s) => s.screen);
   const onboarded = useGameStore((s) => s.onboarded);
   const dismissOnboarding = useGameStore((s) => s.dismissOnboarding);
+  const stats = useGameStore((s) => s.stats);
+  const todayDailyRecord = useGameStore((s) => s.todayDailyRecord);
+  const startDaily = useGameStore((s) => s.startDaily);
+
+  // First-time user experience: after dismissing the onboarding overlay,
+  // drop the player straight into today's daily puzzle instead of leaving
+  // them on the menu to figure out the next step. Four gates:
+  //   - gamesPlayed === 0 (truly first time)
+  //   - todayDailyRecord === null (hasn't touched today yet)
+  //   - screen === "menu" (not resuming an in-progress or finished game)
+  //   - this is the *initial* dismiss, not a re-open from the menu's
+  //     `showOnboarding` button. Without this gate, a player who hasn't
+  //     solved a game yet could tap "How to play" from the menu and be
+  //     force-navigated into the daily when they close it.
+  const initialDismissConsumed = useRef(false);
+  const handleOnboardingDismiss = () => {
+    const shouldAutoRoute =
+      !initialDismissConsumed.current &&
+      stats.gamesPlayed === 0 &&
+      todayDailyRecord === null &&
+      screen === "menu";
+    initialDismissConsumed.current = true;
+    dismissOnboarding();
+    if (shouldAutoRoute) startDaily();
+  };
 
   // Reset document scroll on every screen change. Without this, opening a
   // taller result screen after several next-puzzle rounds leaves the user
@@ -32,7 +57,7 @@ export function App() {
         {screen === "result" && <ResultScreen />}
         {screen === "stats" && <StatsScreen />}
       </main>
-      {!onboarded && <Onboarding onDismiss={dismissOnboarding} />}
+      {!onboarded && <Onboarding onDismiss={handleOnboardingDismiss} />}
     </div>
   );
 }

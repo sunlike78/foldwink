@@ -1,0 +1,21 @@
+{
+  "goal": "Batch A: consolidate per-language pool helpers into src/puzzles/byLang.ts (#8) and split appStore subscribe into statsPersistenceObserver + sessionPersistenceObserver (#10). Pure refactors, behaviour-preserving.",
+  "verdict": "approve_with_changes",
+  "findings": [
+    {
+      "type": "correctness",
+      "severity": "medium",
+      "file": "src/puzzles/byLang.ts",
+      "issue": "`src/puzzles/byLang.ts:135-159` changed the fallback rule from per-pool to per-language-bundle. Before this refactor, `HARD_POOL`, `MEDIUM_POOL`, and `EASY_POOL` each fell back to English independently; now `bundleFor()` returns `DE_BUNDLE`/`RU_BUNDLE` whenever the top-level localized pool is non-empty, and `langGetEasyPool`/`langGetMediumPool`/`langGetHardPool` return that bundle's tier arrays directly. That regresses partially populated locales and test fixtures: `src/screens/MenuScreen.tsx:32-49` will report `hardPool.length === 0` and hide/disable Hard, and `src/game/state/appStore.ts:80-83` feeds those empty tier pools into daily eligibility in `store.ts`, even though English fallback content still exists.",
+      "suggestion": "Restore fallback at the tier level, not only at the whole-bundle level. For example, have `langGetEasyPool`/`langGetMediumPool`/`langGetHardPool` return the localized tier only when that tier is non-empty, otherwise return the corresponding English pool, matching the pre-refactor behavior."
+    },
+    {
+      "type": "test-gap",
+      "severity": "medium",
+      "file": "src/puzzles/byLang.ts",
+      "issue": "The refactor extracts two new behavior-bearing seams but adds no focused regression coverage for them. `src/game/state/appStore.ts:93-96` explicitly says the observer split was done so tests can exercise the policies independently, yet there is no targeted test coverage for `src/game/state/persistence/sessionObserver.ts:9-35`/`statsObserver.ts:14-38`, and there is likewise no direct test for the fallback contract documented in `src/puzzles/byLang.ts:60-62` and implemented in `src/puzzles/byLang.ts:149-184`. For a claimed behavior-preserving refactor, the missing coverage leaves the partial-locale regression above and session-save/clear parity unguarded.",
+      "suggestion": "Add narrow unit tests for `byLang` fallback behavior with partially populated DE/RU pools, plus observer tests covering save-on-in-progress updates and clear-on-leave/result transitions. That would lock the extracted logic to the pre-refactor contract."
+    }
+  ],
+  "summary": "No CLAUDE red lines are crossed in this diff, but I would not merge it as behavior-preserving yet. The `byLang` consolidation changed fallback semantics from per-tier to per-bundle, which can hide Hard content and alter daily eligibility in partially populated non-English locales. The refactor also extracted persistence observers specifically for testability without adding focused tests, so the new seams are not protecting the old contract."
+}

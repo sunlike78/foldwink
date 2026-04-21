@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "baseUrl": "http://localhost:4174",
+  "viewport": { "width": 720, "height": 1280 },
+  "humanLike": { "minMs": 110, "maxMs": 260, "thinkingMs": 420 },
+  "scenarios": [
+    {
+      "id": "clean_fast_solve",
+      "difficulty": "easy",
+      "maxRounds": 4,
+      "plannedMistakes": 0,
+      "cadence": "fast",
+      "description": "Clean Easy solve, no mistakes, fast pace."
+    },
+    {
+      "id": "escalating_difficulty",
+      "difficulty": "medium",
+      "maxRounds": 4,
+      "plannedMistakes": 1,
+      "cadence": "medium",
+      "description": "Medium puzzle with Foldwink Tabs; one tactical mistake then recovery."
+    },
+    {
+      "id": "almost_fail_then_win",
+      "difficulty": "medium",
+      "maxRounds": 4,
+      "plannedMistakes": 2,
+      "cadence": "medium",
+      "description": "Two mistakes early — tension build — then close it out."
+    },
+    {
+      "id": "challenge_rewatch",
+      "difficulty": "easy",
+      "maxRounds": 4,
+      "plannedMistakes": 1,
+      "cadence": "snappy",
+      "description": "Tight Easy solve with one bait-and-correct for rewatch effect."
+    },
+    {
+      "id": "hard_mode_flex",
+      "difficulty": "hard",
+      "maxRounds": 4,
+      "plannedMistakes": 0,
+      "cadence": "confident",
+      "description": "Master Challenge flex — harder puzzle, clean solve."
+    }
+  ]
+}

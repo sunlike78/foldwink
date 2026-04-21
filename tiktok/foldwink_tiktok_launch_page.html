@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foldwink / Neural Void — TikTok Batch 01</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #121a31;
+      --panel-2: #18223f;
+      --text: #eef2ff;
+      --muted: #b6c2e1;
+      --accent: #7aa2ff;
+      --accent-2: #97f0c6;
+      --border: rgba(255,255,255,0.10);
+      --code: #0d1428;
+      --shadow: 0 10px 30px rgba(0,0,0,0.28);
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #0a0f1d 0%, #0d1326 100%);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .wrap {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 24px 18px 64px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(122,162,255,0.18), rgba(151,240,198,0.10));
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 4vw, 42px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 17px;
+      margin: 0;
+      max-width: 900px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .chip {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+    }
+
+    .toc {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin: 20px 0 28px;
+    }
+
+    .toc a {
+      color: var(--text);
+      text-decoration: none;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      display: block;
+      box-shadow: var(--shadow);
+    }
+
+    .toc a:hover { border-color: rgba(122,162,255,0.5); }
+
+    section {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 24px;
+      margin: 18px 0;
+      box-shadow: var(--shadow);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: clamp(22px, 2.6vw, 30px);
+      letter-spacing: -0.02em;
+    }
+
+    h3 {
+      margin: 22px 0 10px;
+      font-size: 18px;
+      color: var(--accent-2);
+    }
+
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); }
+
+    ul, ol {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .post-card {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    .post-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .post-head strong {
+      font-size: 18px;
+      color: var(--accent-2);
+    }
+
+    .label {
+      font-size: 13px;
+      color: var(--muted);
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 10px;
+    }
+
+    .kv {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 8px 12px;
+      margin-top: 10px;
+    }
+
+    .kv div:nth-child(odd) {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    pre {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: var(--code);
+      color: #e8eeff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      font-size: 13px;
+      line-height: 1.5;
+      overflow: auto;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+    }
+
+    .copy-btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(122,162,255,0.18), rgba(122,162,255,0.10));
+      color: var(--text);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      margin: 0 0 12px;
+    }
+
+    .copy-btn:hover { border-color: rgba(122,162,255,0.45); }
+
+    .note {
+      border-left: 4px solid var(--accent);
+      padding: 12px 14px;
+      background: rgba(122,162,255,0.10);
+      border-radius: 0 14px 14px 0;
+      color: var(--text);
+      margin: 12px 0 6px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .wrap { padding: 14px 12px 52px; }
+      .hero, section { padding: 18px; border-radius: 18px; }
+      .kv { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Foldwink / Neural Void — TikTok Batch 01</h1>
+      <p class="subtitle">Понятная рабочая страница для запуска первых интерфейсных роликов: мегапромпт для Claude Code, порядок публикации, подписи, первые комментарии, тестовая логика и чек-лист запуска.</p>
+      <div class="chips">
+        <div class="chip">Формат: TikTok-first</div>
+        <div class="chip">Контент: только интерфейс / gameplay</div>
+        <div class="chip">Аккаунт: Business</div>
+        <div class="chip">Задача: протестировать хуки</div>
+        <div class="chip">Серия: 10 постов</div>
+      </div>
+    </div>
+
+    <div class="toc">
+      <a href="#strategy">1. Что делаем</a>
+      <a href="#claude">2. Мегапромпт для Claude Code</a>
+      <a href="#schedule">3. Порядок публикации</a>
+      <a href="#posts">4. Готовые 10 постов</a>
+      <a href="#checklist">5. Чек-лист запуска</a>
+      <a href="#metrics">6. Что смотреть в аналитике</a>
+    </div>
+
+    <section id="strategy">
+      <h2>1. Что делаем</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Главный принцип</h3>
+          <p>На первом этапе не делаем «рекламу с актёром». Сначала проверяем, цепляет ли сама механика игры: challenge, near-fail, escalation, satisfying solve, curiosity click.</p>
+        </div>
+        <div class="card">
+          <h3>Что должен дать первый батч</h3>
+          <p>Не просто красивые ролики, а ясный ответ: какие хуки реально удерживают внимание, заставляют комментировать, пересматривать и переходить к следующему ролику.</p>
+        </div>
+      </div>
+      <div class="note">Логика простая: сначала тестируем нативные вертикальные gameplay-клипы. Потом, если видно сильные победители, уже докручиваем UGC / псевдоактёра на базе самых рабочих хуков.</div>
+    </section>
+
+    <section id="claude">
+      <h2>2. Мегапромпт для Claude Code</h2>
+      <button class="copy-btn" onclick="copyBlock('prompt')">Скопировать промпт</button>
+      <pre id="prompt">You are acting as a senior short-form video editor, creative strategist, and QA operator.
+
+Project:
+Create the first TikTok content batch for Foldwink, a browser-based puzzle game.
+
+Primary goal:
+Turn one or more existing Foldwink gameplay/interface recordings into a batch of native-feeling, vertical, high-retention TikTok clips.
+
+This is NOT a cinematic trailer.
+This is NOT a corporate promo.
+This is NOT a polished brand film.
+
+We are deliberately testing interface-first TikTok hooks before making any human/actor-style or pseudo-UGC videos.
+
+Context:
+- Brand: Neural Void
+- Product/game: Foldwink
+- Format: browser puzzle game
+- Core value:
+  - visually satisfying
+  - quick to understand
+  - “looks easy but isn’t”
+  - one-more-try feel
+  - escalating difficulty
+  - short play sessions
+- Target audience:
+  - English-speaking TikTok users
+  - puzzle lovers
+  - browser/mobile game audience
+  - people who like quick brain challenges
+  - people who respond to satisfying UI/gameplay motion
+
+Important strategic rule:
+The gameplay is the hero.
+Do not hide the game behind branding.
+Do not start with logo.
+Do not start with menu browsing.
+Do not start with slow explanation.
+Do not create ad-like intros.
+
+Use the source footage and create a first batch of post-ready short videos optimized for:
+- hook in the first 1 second
+- retention
+- rewatch
+- comments
+- curiosity clicks
+- mental participation (“can I solve this?”)
+
+Inputs:
+- Main gameplay/interface video: [INSERT FILE PATH]
+- Optional extra captures: [INSERT FILE PATHS]
+- Optional logo asset: [INSERT FILE PATH]
+- Optional sound effects folder: [INSERT FILE PATH]
+- Optional output project folder: [INSERT PATH]
+
+Required output folder:
+Create everything under:
+tiktok/batch_01/
+
+Create these subfolders:
+- tiktok/batch_01/exports/
+- tiktok/batch_01/previews/
+- tiktok/batch_01/covers/
+- tiktok/batch_01/manifests/
+- tiktok/batch_01/workfiles/
+
+Deliverables:
+1. 10 final publish-ready vertical MP4 videos
+2. 3 reserve/backup variants
+3. 1 markdown manifest file
+4. 1 CSV manifest file
+5. 1 simple contact sheet / preview board with frame grabs
+6. 1 short QA report
+7. 1 post schedule recommendation file
+8. 1 caption file with exact post text
+9. 1 file with first-comment suggestions
+10. 1 file with A/B hook notes and what each clip is testing
+
+Technical output requirements:
+- Aspect ratio: 9:16
+- Resolution: 1080x1920
+- High readability on phone
+- Safe margins for TikTok UI overlays
+- Export ready for TikTok upload
+- Clean, modern, readable text overlays
+- No tiny interface details
+- No cluttered screen
+- Preserve the puzzle area clearly
+- Use smart crop or zoom where needed
+- Keep enough real UI context so it still feels like a real game
+
+Audio rules:
+Because this content is for a business/product account, do NOT rely on licensed mainstream music.
+Prepare:
+- one clean export with only essential SFX or no music
+- one optional SFX-enhanced export if appropriate
+Do not bake in copyrighted popular songs.
+Keep audio light, modern, unobtrusive, and supportive.
+If audio hurts clarity, simplify it.
+
+Editing philosophy:
+- Native TikTok, not “ad”
+- Fast, clear, slightly sharp
+- Curiosity-driven
+- Challenge-first
+- Satisfaction-second
+- Strong openings
+- Aggressive trimming
+- No dead air
+- No bloated explanation
+- No generic promo language
+
+The first 1 second must do one of these:
+- pose a challenge
+- show a tense almost-solved state
+- reveal a strange/interesting puzzle layout
+- show a near-fail moment
+- show an elegant transformation
+- create immediate “wait, what is this?” curiosity
+
+Never open with:
+- title card
+- logo sting
+- black screen
+- menu idle state
+- static overview
+- slow intro text
+- brand splash
+
+Create the batch across these 5 buckets:
+
+BUCKET 1 — Challenge hooks
+Purpose: make the viewer pause and try to solve it mentally
+Create 3 clips
+
+BUCKET 2 — Escalation
+Purpose: show that the game becomes trickier quickly
+Create 2 clips
+
+BUCKET 3 — Satisfying solves
+Purpose: visual payoff and elegant completion
+Create 2 clips
+
+BUCKET 4 — Near-fail / replay bait
+Purpose: induce rewatch and comments
+Create 2 clips
+
+BUCKET 5 — Curiosity click / “found this weirdly good game”
+Purpose: make people want to try it
+Create 1 clip
+
+Also create 3 reserve clips that can replace weak performers.
+
+Length mix:
+- 4 clips: 8–12 seconds
+- 4 clips: 13–18 seconds
+- 2 clips: 18–24 seconds
+- reserves can vary
+
+Mandatory hook styles to cover:
+- Can you solve this?
+- Looks easy. It isn’t.
+- Watch the last move.
+- This escalated fast.
+- I almost ruined it here.
+- Tiny puzzle, huge satisfaction.
+- Browser puzzle I didn’t expect to like.
+- Pause and solve.
+- One move left.
+- It gets worse later.
+
+Text overlay rules:
+- Keep overlays short
+- One idea at a time
+- Large enough for mobile
+- High contrast
+- No paragraphs
+- No rulebook/tutorial walls of text
+- Overlay must support the hook, not explain everything
+
+Text style guidance:
+Use concise native-feeling phrases like:
+- Can you solve this?
+- Looks easy. It isn’t.
+- Pause here.
+- One move left.
+- This is where I almost lost.
+- It got harder immediately.
+- Watch the last move.
+- Clean solve.
+- Tiny puzzle. Big payoff.
+- I thought this was casual.
+
+Narrative patterns to use:
+Pattern A:
+Hook → tense attempt → satisfying solve
+
+Pattern B:
+Hook → easy-looking start → sudden difficulty spike
+
+Pattern C:
+Hook → near fail → freeze-worthy final move
+
+Pattern D:
+Hook → smooth solve → harder next level tease
+
+Pattern E:
+Hook → interesting puzzle motion montage → challenge CTA
+
+Endings:
+Use a mix of:
+- resolved
+- unresolved
+- harder-next-level tease
+- comment bait
+- replay bait
+
+CTA rules:
+Do NOT use ad-sounding CTAs.
+Avoid:
+- Download now
+- Install now
+- Buy now
+- Play now!!! 
+
+Prefer:
+- Would you solve it faster?
+- Want harder ones?
+- Should I post level 3?
+- Could you get this?
+- This gets worse later.
+- Part 2?
+
+Do not put CTA on every clip.
+
+Game presentation rules:
+- Keep the puzzle itself central
+- De-emphasize irrelevant menus
+- If the source footage includes unimportant navigation, trim it hard
+- If the best moments are buried, find them and restructure
+- If needed, zoom into the puzzle state before the critical move
+- Preserve enough reality so it still feels like actual gameplay, not motion graphics
+
+Variation rules:
+Across the 10 main clips, vary:
+- opening hook
+- pace
+- duration
+- amount of tension
+- whether it resolves
+- whether it is challenge-first or payoff-first
+- wording on text overlay
+- intensity of motion
+
+Do NOT make 10 versions of the same video.
+
+Required manifest fields for each clip:
+- filename
+- working title
+- duration
+- hook type
+- content bucket
+- exact on-screen text
+- exact caption
+- suggested first comment
+- hashtag set
+- ending type
+- what this clip is testing
+- why it may work
+- recommended posting slot
+- reserve or main
+- notes on music/SFX version
+
+Captions:
+Write captions in English.
+Keep them native, concise, and non-corporate.
+Do not make every caption promotional.
+Some captions should be direct challenge captions.
+Some should be curiosity captions.
+Some should be short observational captions.
+
+Hashtags:
+Use only a small relevant set per clip.
+Do not stuff hashtags.
+Mix:
+- broad category
+- puzzle/game intent
+- one or two content-specific tags
+Example directions:
+#puzzlegame
+#braingame
+#browsergame
+#indiegame
+#logicpuzzle
+#mobilegames
+#casualgame
+
+Cover frames:
+Pick one clean frame for each video.
+Make sure cover text is readable on profile grid.
+Suggested cover text should be 2–5 words maximum.
+
+QA requirements:
+Before finalizing, review every clip for:
+- readability on mobile
+- text safe zones
+- pacing
+- no dead first second
+- no boring intro
+- no unreadable UI
+- no visual clutter
+- no awkward cut at ending
+- no broken aspect ratio
+- no important text hidden by TikTok UI
+- no overlong caption
+
+Then create:
+1. tiktok/batch_01/manifests/tiktok_batch_01_manifest.md
+2. tiktok/batch_01/manifests/tiktok_batch_01_manifest.csv
+3. tiktok/batch_01/manifests/tiktok_batch_01_schedule.md
+4. tiktok/batch_01/manifests/tiktok_batch_01_captions.md
+5. tiktok/batch_01/manifests/tiktok_batch_01_first_comments.md
+6. tiktok/batch_01/manifests/tiktok_batch_01_qa_report.md
+
+Very important:
+If editing time is limited, prioritize the strongest 5 clips first:
+- one direct challenge clip
+- one escalation clip
+- one near-fail clip
+- one satisfying-solve clip
+- one curiosity-click clip
+
+Do not stop after concepting.
+Actually produce the exported files.
+
+At the end, output a concise summary:
+- which 5 clips are strongest
+- which 3 clips are most likely to get comments
+- which 3 clips are most likely to get rewatches
+- which 2 clips should be posted first
+- what should be tested in batch 02 based on this batch</pre>
+    </section>
+
+    <section id="schedule">
+      <h2>3. Порядок публикации</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Ритм</h3>
+          <p>Первые 5 дней — по 2 поста в день. Это даёт достаточно материала, чтобы понять, какие хуки реально работают, а какие нет.</p>
+        </div>
+        <div class="card">
+          <h3>Стартовые слоты</h3>
+          <p><strong>13:00</strong> и <strong>20:30</strong> по Берлину. Это не догма, а стартовая гипотеза. После 10 постов смотришь аналитику и корректируешь график по реальным данным аккаунта.</p>
+        </div>
+      </div>
+      <div class="note">Главная задача серии — не «просто постить», а протестировать 5 типов крючков: challenge, escalation, satisfying solve, near-fail, curiosity click.</div>
+    </section>
+
+    <section id="posts">
+      <h2>4. Готовые 10 постов</h2>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 1</strong><span class="label">Challenge / mental participation</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Can you solve this?</div>
+          <div>Подпись</div><div>Can you get this before the last move?</div>
+          <div>Первый комментарий</div><div>I’ll post the harder one next.</div>
+          <div>Хэштеги</div><div>#puzzlegame #braingame #logicpuzzle #browsergame</div>
+          <div>Почему первым</div><div>Самый чистый тест на то, останавливает ли ролик зрителя и заставляет ли мысленно решать задачу.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 2</strong><span class="label">Satisfying solve / payoff</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Tiny puzzle. Big payoff.</div>
+          <div>Подпись</div><div>This is way more satisfying than it should be.</div>
+          <div>Первый комментарий</div><div>The last move is the whole point.</div>
+          <div>Хэштеги</div><div>#puzzlegame #casualgame #oddlysatisfying #browsergame</div>
+          <div>Зачем</div><div>Контраст к первому ролику: вместо challenge здесь чистое визуальное удовольствие и ощущение «хочу ещё».</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 3</strong><span class="label">Escalation / difficulty</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Level 1: easy. Level 3: wait what?</div>
+          <div>Подпись</div><div>It got harder immediately.</div>
+          <div>Первый комментарий</div><div>Level 3 is where it stops being polite.</div>
+          <div>Хэштеги</div><div>#puzzlegame #indiegame #logicpuzzle #casualgame</div>
+          <div>Зачем</div><div>Проверка, работает ли у Foldwink формат «начинается просто, потом резко кусается».</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 4</strong><span class="label">Near-fail / replay bait</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Watch the last move.</div>
+          <div>Подпись</div><div>I almost ruined it here.</div>
+          <div>Первый комментарий</div><div>This is where most people would throw.</div>
+          <div>Хэштеги</div><div>#puzzlegame #braingame #replaybait #browsergame</div>
+          <div>Зачем</div><div>Хороший ролик на пересмотр и комментарии, потому что зритель хочет увидеть тот самый критический момент ещё раз.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 5</strong><span class="label">Curiosity click</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Browser puzzle I didn’t expect to like</div>
+          <div>Подпись</div><div>Found a weirdly good browser puzzle.</div>
+          <div>Первый комментарий</div><div>I thought this would be basic. It wasn’t.</div>
+          <div>Хэштеги</div><div>#browsergame #indiegame #puzzlegame #logicgame</div>
+          <div>Зачем</div><div>Более мягкий формат под интерес к самой игре как продукту, а не только к одному моменту ролика.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 6</strong><span class="label">Pause-and-solve / comment bait</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Pause and solve</div>
+          <div>Подпись</div><div>Pause here. What’s your move?</div>
+          <div>Первый комментарий</div><div>No cheating in the comments.</div>
+          <div>Хэштеги</div><div>#puzzlegame #logicpuzzle #braingame #challenge</div>
+          <div>Зачем</div><div>Прямая провокация на вовлечение. Такие ролики удобно оценивать по комментариям и удержанию.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 7</strong><span class="label">Tension / one move left</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>One move left</div>
+          <div>Подпись</div><div>This is the exact kind of move that makes me restart.</div>
+          <div>Первый комментарий</div><div>The pain is always one move away.</div>
+          <div>Хэштеги</div><div>#puzzlegame #casualgame #logicpuzzle #indiegame</div>
+          <div>Зачем</div><div>Тест напряжения без долгих объяснений. Если работает, это сильная база для дальнейших серий.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 8</strong><span class="label">Harder-next-level tease</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>It gets worse later</div>
+          <div>Подпись</div><div>The early levels are lying to you.</div>
+          <div>Первый комментарий</div><div>I haven’t posted the meanest one yet.</div>
+          <div>Хэштеги</div><div>#puzzlegame #braingame #browsergame #indiegame</div>
+          <div>Зачем</div><div>Нужен как мост к следующему батчу и как тест любопытства к усложнению.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 9</strong><span class="label">Clean solve / payoff</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Clean solve</div>
+          <div>Подпись</div><div>When it finally clicks, it really clicks.</div>
+          <div>Первый комментарий</div><div>This one is pure brain massage.</div>
+          <div>Хэштеги</div><div>#oddlysatisfying #puzzlegame #logicpuzzle #browsergame</div>
+          <div>Зачем</div><div>Второй чистый тест на satisfying payoff. Нужен, чтобы сравнить с challenge-роликами, а не гадать.</div>
+        </div>
+      </div>
+
+      <div class="post-card">
+        <div class="post-head"><strong>Пост 10</strong><span class="label">Looks easy trap</span></div>
+        <div class="kv">
+          <div>Текст на видео</div><div>Looks easy. It isn’t.</div>
+          <div>Подпись</div><div>This is exactly how the game tricks you.</div>
+          <div>Первый комментарий</div><div>The simple-looking ones are the worst.</div>
+          <div>Хэштеги</div><div>#puzzlegame #logicgame #braingame #casualgame</div>
+          <div>Зачем</div><div>Хороший контрольный формат на конец серии: он коротко и ясно передаёт сам характер Foldwink.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checklist">
+      <h2>5. Чек-лист запуска</h2>
+      <ol>
+        <li>Сделать отдельный аккаунт для бренда или продукта.</li>
+        <li>Переключить аккаунт на <strong>Business</strong>.</li>
+        <li>Поставить ссылку в профиль.</li>
+        <li>Заполнить короткое bio в одну строку.</li>
+        <li>Подготовить 10 роликов и хотя бы 3 резервных.</li>
+        <li>Загрузить первые 4 ролика в черновики заранее.</li>
+        <li>Постить 5 дней подряд по 2 ролика.</li>
+        <li>Отвечать на нормальные комментарии в первые 30–60 минут после публикации.</li>
+        <li>Не использовать случайную популярную музыку, если аккаунт бизнесовый.</li>
+        <li>После 10 постов выбрать 3 победителя и уже от них строить Batch 02.</li>
+      </ol>
+      <div class="note">Если времени мало, в абсолютном приоритете делай сначала эти 5 роликов: Can you solve this? / Watch the last move / Level 1 easy, Level 3 wait what? / Tiny puzzle. Big payoff. / Looks easy. It isn’t.</div>
+    </section>
+
+    <section id="metrics">
+      <h2>6. Что смотреть в аналитике</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3>Главные метрики</h3>
+          <ul>
+            <li>удержание первых секунд;</li>
+            <li>average watch time;</li>
+            <li>completion rate;</li>
+            <li>rewatch-сигналы;</li>
+            <li>comments;</li>
+            <li>shares;</li>
+            <li>saves, если они заметны.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Чего не делать</h3>
+          <ul>
+            <li>не судить ролики только по лайкам;</li>
+            <li>не делать выводы по одному посту;</li>
+            <li>не менять стратегию после 1–2 слабых роликов;</li>
+            <li>не переходить сразу к «рекламе с актёром», если ещё не понятны победившие хуки.</li>
+          </ul>
+        </div>
+      </div>
+      <p class="muted">После первой десятки задача проста: понять, какие 2–3 типа роликов реально цепляют аудиторию Foldwink. Уже на этом строится вторая волна: сильнее вариации, более точные подписи, более умные комментарии и, если надо, UGC-слой.</p>
+    </section>
+
+    <div class="footer">HTML-страница подготовлена как рабочая шпаргалка для запуска TikTok Batch 01 по Foldwink / Neural Void.</div>
+  </div>
+
+  <script>
+    function copyBlock(id) {
+      const el = document.getElementById(id);
+      const text = el.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = event.target;
+        const old = btn.textContent;
+        btn.textContent = 'Скопировано';
+        setTimeout(() => btn.textContent = old, 1400);
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "scenarioId": "hard_mode_flex",
+  "events": [
+    {
+      "t": 0.998,
+      "type": "select"
+    },
+    {
+      "t": 1.202,
+      "type": "select"
+    },
+    {
+      "t": 1.451,
+      "type": "select"
+    },
+    {
+      "t": 1.733,
+      "type": "select"
+    },
+    {
+      "t": 2.221,
+      "type": "submit"
+    },
+    {
+      "t": 2.568,
+      "type": "correct"
+    },
+    {
+      "t": 3.284,
+      "type": "select"
+    },
+    {
+      "t": 3.532,
+      "type": "select"
+    },
+    {
+      "t": 3.834,
+      "type": "select"
+    },
+    {
+      "t": 4.101,
+      "type": "select"
+    },
+    {
+      "t": 4.678,
+      "type": "submit"
+    },
+    {
+      "t": 5.023,
+      "type": "correct"
+    },
+    {
+      "t": 5.799,
+      "type": "select"
+    },
+    {
+      "t": 6.015,
+      "type": "select"
+    },
+    {
+      "t": 6.316,
+      "type": "select"
+    },
+    {
+      "t": 6.583,
+      "type": "select"
+    },
+    {
+      "t": 7.02,
+      "type": "submit"
+    },
+    {
+      "t": 7.37,
+      "type": "correct"
+    },
+    {
+      "t": 8.099,
+      "type": "select"
+    },
+    {
+      "t": 8.366,
+      "type": "select"
+    },
+    {
+      "t": 8.618,
+      "type": "select"
+    },
+    {
+      "t": 8.866,
+      "type": "select"
+    },
+    {
+      "t": 9.355,
+      "type": "submit"
+    },
+    {
+      "t": 9.7,
+      "type": "correct"
+    }
+  ]
+}
