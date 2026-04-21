@@ -17,7 +17,6 @@
     {
       "id": "metal",
       "label": "Iron metal",
-      "revealHint": "Metal",
       "items": [
         "Wrought",
         "Cast Iron",
@@ -28,7 +27,6 @@
     {
       "id": "clothes",
       "label": "Ironing clothes",
-      "revealHint": "Clothes",
       "items": [
         "Steam",
         "Crease",
@@ -39,18 +37,16 @@
     {
       "id": "golf",
       "label": "Golf irons",
-      "revealHint": "Golf",
       "items": [
         "Wedge",
         "Pitching",
-        "Sand Trap",
-        "Fairway"
+        "3-Iron",
+        "7-Iron"
       ]
     },
     {
       "id": "health",
       "label": "Iron nutrient",
-      "revealHint": "Nutrient",
       "items": [
         "Spinach",
         "Anaemia",

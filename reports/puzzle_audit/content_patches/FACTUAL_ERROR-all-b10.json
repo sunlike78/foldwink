@@ -1,0 +1,261 @@
+{
+  "batchIndex": 9,
+  "decisions": [
+    {
+      "puzzleId": "ru-0122",
+      "action": "patch",
+      "rationale": "Группа описывает не нарушения, а стандартные игровые ситуации; достаточно переименовать её и заменить единственный неподходящий элемент.",
+      "patches": [
+        {
+          "groupId": "fouls",
+          "field": "label",
+          "oldValue": "Нарушения",
+          "newValue": "Стандартные положения",
+          "itemIndex": null
+        },
+        {
+          "groupId": "fouls",
+          "field": "item",
+          "oldValue": "Офсайд",
+          "newValue": "Аут",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0145",
+      "action": "skip-would-break-structure",
+      "rationale": "В группе «Твёрдые» фактически неверны сразу три позиции из четырёх; точечная правка не спасает категорию без полной пересборки.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0151",
+      "action": "patch",
+      "rationale": "Проблема локальна в двух элементах группы про шашлык; категорию можно сохранить, заменив неподходящие блюда на узнаваемые виды шашлыка.",
+      "patches": [
+        {
+          "groupId": "kebab_types",
+          "field": "item",
+          "oldValue": "Цыплёнок табака",
+          "newValue": "Шашлык из курицы",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "kebab_types",
+          "field": "item",
+          "oldValue": "Тикка",
+          "newValue": "Шашлык из свинины",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0158",
+      "action": "patch",
+      "rationale": "Только «Квас» выбивается из алкогольной подборки; достаточно заменить один элемент.",
+      "patches": [
+        {
+          "groupId": "russia_alc",
+          "field": "item",
+          "oldValue": "Квас",
+          "newValue": "Наливка",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0161",
+      "action": "patch",
+      "rationale": "Ошибка в одном имени: Борис Годунов не Рюрикович. Проще заменить его на бесспорного представителя династии.",
+      "patches": [
+        {
+          "groupId": "rurik",
+          "field": "item",
+          "oldValue": "Борис Годунов",
+          "newValue": "Иван III",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0168",
+      "action": "patch",
+      "rationale": "Состав четвёрки лучше соответствует лирическим комедиям, чем драмам; достаточно уточнить ярлык группы.",
+      "patches": [
+        {
+          "groupId": "drama_sov",
+          "field": "label",
+          "oldValue": "Драмы",
+          "newValue": "Лирические комедии",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0187",
+      "action": "patch",
+      "rationale": "Проблема не в типе животных, а в слишком узкой географической привязке; корректнее уточнить ареал группы.",
+      "patches": [
+        {
+          "groupId": "monotremes",
+          "field": "label",
+          "oldValue": "Однопроходные",
+          "newValue": "Однопроходные Австралии и Новой Гвинеи",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0208",
+      "action": "patch",
+      "rationale": "Три элемента группы относятся к детям Локи, а Имир нет; минимальная правка — переименовать группу и заменить один элемент.",
+      "patches": [
+        {
+          "groupId": "giants",
+          "field": "label",
+          "oldValue": "Великаны",
+          "newValue": "Дети Локи",
+          "itemIndex": null
+        },
+        {
+          "groupId": "giants",
+          "field": "item",
+          "oldValue": "Имир",
+          "newValue": "Слейпнир",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0216",
+      "action": "patch",
+      "rationale": "Ошибка в одном элементе: клещ не насекомое. Достаточно заменить его на типичного насекомого-вредителя.",
+      "patches": [
+        {
+          "groupId": "pests_insect",
+          "field": "item",
+          "oldValue": "Клещ",
+          "newValue": "Клоп",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0218",
+      "action": "patch",
+      "rationale": "Здесь нужны точечные географические исправления: уточнить азиатскую группу и заменить два неамериканских пика в группе «Америка».",
+      "patches": [
+        {
+          "groupId": "himalaya_peaks",
+          "field": "label",
+          "oldValue": "Гималаи",
+          "newValue": "Высочайшие вершины Азии",
+          "itemIndex": null
+        },
+        {
+          "groupId": "americas_peaks",
+          "field": "item",
+          "oldValue": "Килиманджаро",
+          "newValue": "Логан",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "americas_peaks",
+          "field": "item",
+          "oldValue": "Монблан",
+          "newValue": "Орисаба",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0224",
+      "action": "patch",
+      "rationale": "Ошибки локальны: один спорный российский объект и слишком общий ярлык для европейской четвёрки.",
+      "patches": [
+        {
+          "groupId": "russian_lakes",
+          "field": "item",
+          "oldValue": "Каспий",
+          "newValue": "Чудское",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "mountain_lakes",
+          "field": "label",
+          "oldValue": "Горные озёра",
+          "newValue": "Альпийские озёра",
+          "itemIndex": null
+        },
+        {
+          "groupId": "mountain_lakes",
+          "field": "item",
+          "oldValue": "Титикака",
+          "newValue": "Гарда",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0239",
+      "action": "skip-would-break-structure",
+      "rationale": "Последняя группа почти полностью некорректна: только водное поло подходит, а остальные три элемента требуют полной замены и пересборки категории.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0243",
+      "action": "skip-would-break-structure",
+      "rationale": "Четвёрка про стихии принципиально неполна без «Земли»; исправление потребовало бы перестройки всей группы или размера пазла.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0251",
+      "action": "patch",
+      "rationale": "Можно исправить двумя точечными правками: уточнить северную категорию и заменить саванну на настоящую лесную зону.",
+      "patches": [
+        {
+          "groupId": "polar_zones",
+          "field": "label",
+          "oldValue": "Полярные зоны",
+          "newValue": "Полярные и приполярные",
+          "itemIndex": null
+        },
+        {
+          "groupId": "forest_zones",
+          "field": "item",
+          "oldValue": "Саванна",
+          "newValue": "Широколиственный лес",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0255",
+      "action": "patch",
+      "rationale": "Здесь достаточно заменить один явно неверный сюрреалистический пример и два некорректно оформленных/сомнительных названия в импрессионизме.",
+      "patches": [
+        {
+          "groupId": "impressionism",
+          "field": "item",
+          "oldValue": "Танец в Мулен",
+          "newValue": "Впечатление. Восход солнца",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "impressionism",
+          "field": "item",
+          "oldValue": "Бал в ля Мулен",
+          "newValue": "Бал в Мулен де ла Галетт",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "surrealism_pics",
+          "field": "item",
+          "oldValue": "Герника",
+          "newValue": "Сын человеческий",
+          "itemIndex": 2
+        }
+      ]
+    }
+  ]
+}

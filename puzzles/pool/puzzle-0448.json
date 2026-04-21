@@ -22,8 +22,7 @@
         "Realism",
         "Romanticism",
         "Neoclassicism"
-      ],
-      "revealHint": "Early"
+      ]
     },
     {
       "id": "g2",
@@ -33,30 +32,27 @@
         "Fauvism",
         "Expressionism",
         "Futurism"
-      ],
-      "revealHint": "Modern"
+      ]
     },
     {
       "id": "g3",
       "label": "MID-CENTURY",
       "items": [
         "Abstract Expressionism",
-        "Surrealism",
+        "Color Field Painting",
         "Pop Art",
         "Minimalism"
-      ],
-      "revealHint": "Mid-century"
+      ]
     },
     {
       "id": "g4",
-      "label": "CONTEMPORARY",
+      "label": "LATE 20TH CENTURY & CONTEMPORARY",
       "items": [
         "Street Art",
         "Digital Art",
         "Neo-Expressionism",
         "Conceptual Art"
-      ],
-      "revealHint": "Contemporary"
+      ]
     }
   ]
 }

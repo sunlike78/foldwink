@@ -13,7 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Rockbands 70er",
+      "label": "Deutsche Bands 70er",
       "items": [
         "Scorpions",
         "Kraftwerk",
@@ -23,7 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Rockbands 80er",
+      "label": "Deutsche Bands 80er",
       "items": [
         "Nena",
         "Trio",
@@ -33,7 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Rockbands 90er",
+      "label": "Deutsche Bands 90er",
       "items": [
         "Die Toten Hosen",
         "Rammstein",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Rockbands 2000er",
+      "label": "Deutsche Bands 2000er",
       "items": [
         "Tokio Hotel",
         "Silbermond",

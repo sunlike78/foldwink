@@ -33,12 +33,12 @@
     },
     {
       "id": "group_c",
-      "label": "Medizintechnik",
+      "label": "Medizinische Assistenzberufe",
       "items": [
         "MTA",
         "MTRA",
         "OTA",
-        "BTA"
+        "ATA"
       ]
     },
     {

@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "Narrative Time Techniques",
-      "revealHint": "Time",
       "items": [
         "Flashback",
         "Flash-Forward",
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "Point of View Types",
-      "revealHint": "Voice",
       "items": [
         "First Person",
         "Third Limited",
@@ -39,10 +37,9 @@
     {
       "id": "g3",
       "label": "Structural Story Devices",
-      "revealHint": "Frame",
       "items": [
         "Frame Narrative",
-        "Unreliable Narrator",
+        "Circular Narrative",
         "Epistolary",
         "Parallel Narrative"
       ]
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "Rhetorical Figures",
-      "revealHint": "Rhetorical",
       "items": [
         "Anaphora",
         "Chiasmus",

@@ -15,17 +15,17 @@
   "groups": [
     {
       "id": "long",
-      "label": "Long Hair Styles",
+      "label": "Updos",
       "items": [
         "Ponytail",
         "Low Bun",
-        "Beach Waves",
-        "Extensions"
+        "Chignon",
+        "Top Knot"
       ]
     },
     {
       "id": "short",
-      "label": "Short Hair Styles",
+      "label": "Haircuts",
       "items": [
         "Pixie",
         "Crew Cut",

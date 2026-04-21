@@ -1,0 +1,248 @@
+{
+  "batchIndex": 3,
+  "decisions": [
+    {
+      "puzzleId": "de-0348",
+      "action": "patch",
+      "rationale": "Die Gruppe zu dunkler Materie enthält zwei sachlich unpassende Einträge; beide lassen sich durch echte Kandidaten ersetzen.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Dunkle Energie",
+          "newValue": "MACHO",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Gravitationslinse",
+          "newValue": "Steriles Neutrino",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0361",
+      "action": "skip-would-break-structure",
+      "rationale": "Mehrere Gruppen sind technisch unsauber oder inkonsistent aufgebaut; eine faire Korrektur würde etliche Werke und teils auch die Gruppenkonzepte neu aufsetzen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0372",
+      "action": "patch",
+      "rationale": "\"Bundesverfassung\" ist hier kein passender paralleler Eintrag; ein zentrales Verfassungsorgan passt besser zur Gruppe.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Bundesverfassung",
+          "newValue": "Bundespräsident",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0378",
+      "action": "patch",
+      "rationale": "Die Gruppe enthält überwiegend Begriffe und Werkzeuge, nicht Anwendungen; ein Label-Fix ist die minimal saubere Korrektur.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Gentechnik-Anwendungen",
+          "newValue": "Gentechnik-Begriffe",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0382",
+      "action": "patch",
+      "rationale": "Wasser passt nicht sauber in die klassische Makronährstoff-Kategorie; das Label lässt sich minimal verbreitern.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Makronährstoffe",
+          "newValue": "Hauptnährstoffe und Wasser",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0389",
+      "action": "patch",
+      "rationale": "\"Kreideküste\" ist eine geologische Form, kein Ereignis; ein reales Vergletscherungsereignis behebt den Fehler.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Kreideküste",
+          "newValue": "Saale-Vergletscherung",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0390",
+      "action": "patch",
+      "rationale": "Die Strömungsgruppe mischt Phänomene und Zirkulationsbegriffe mit echten Meeresströmungen; zwei Ersetzungen genügen.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Thermohalin",
+          "newValue": "Kuroshio",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "El Niño",
+          "newValue": "Labradorstrom",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0404",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Adverb-Gruppe ist grammatisch nicht tragfähig und würde mehrere Austausche oder ein neues Gruppenkonzept erfordern.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0413",
+      "action": "patch",
+      "rationale": "Hier ist eher die Epochenbezeichnung als die Personenliste das Problem; breitere Zeitlabels beheben die Zuordnungsunschärfe minimal.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "label",
+          "oldValue": "Aufklärung",
+          "newValue": "18. Jahrhundert",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_d",
+          "field": "label",
+          "oldValue": "Romantik-Ära",
+          "newValue": "19. Jahrhundert",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0420",
+      "action": "patch",
+      "rationale": "Das Pan-Am-Gebäude ist keine gleich klare Gropius-Zuschreibung wie die übrigen Bauten; ein direktes Gropius-Werk ist fairer.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Pan Am Gebäude",
+          "newValue": "Gropius House",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0427",
+      "action": "patch",
+      "rationale": "\"Auslieferungsverbot\" liegt nicht in Art. 11–15 GG; ein tatsächlich dort verankerter Begriff passt besser.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Auslieferungsverbot",
+          "newValue": "Eigentum",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0430",
+      "action": "patch",
+      "rationale": "Ein Ozonschutzabkommen und ein nie abgeschlossenes Handelsprojekt passen nicht sauber in die jeweiligen Gruppen; beide sind ersetzbar.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Montrealer Protokoll",
+          "newValue": "Klimarahmenkonvention",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "TTIP-Entwurf",
+          "newValue": "NAFTA",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0435",
+      "action": "patch",
+      "rationale": "Die Kulturgruppe enthält einen Bündnisbegriff und ein unscharfes Epochenadjektiv statt konkreter kultureller Symbole.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Wilhelminisch",
+          "newValue": "Jugendstilfassade",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Dreibund",
+          "newValue": "Kaiserdenkmal",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0439",
+      "action": "patch",
+      "rationale": "Schabbat und Ramadan sind kein Fest im selben Sinn wie die anderen Gruppeneinträge; zwei echte Festtage lösen das sauber.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Schabbat",
+          "newValue": "Chanukka",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Ramadan",
+          "newValue": "Islamisches Neujahr",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0445",
+      "action": "patch",
+      "rationale": "Die Werkgruppe braucht eindeutig expressionistische, klar benannte Titel statt Grenz- oder Mehrdeutigkeitsfälle.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Der Schrei",
+          "newValue": "Potsdamer Platz",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Verkündigung",
+          "newValue": "Tierschicksale",
+          "itemIndex": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "batchIndex": 4,
+  "decisions": [
+    {
+      "puzzleId": "de-0471",
+      "action": "patch",
+      "rationale": "\"Schmale Biene\" ist als typische, etablierte Bezeichnung hier unpassend; der Gruppentitel wird durch eine präzisere Formulierung fairer.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "label",
+          "oldValue": "Typische Nischen-Arten",
+          "newValue": "Beispiele für Nischen-Spezialisten",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Schmale Biene",
+          "newValue": "Koala",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0492",
+      "action": "patch",
+      "rationale": "Mars hat geringe, nicht fehlende Schwerkraft; Gerard O'Neill ist nicht klar marsspezifisch.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Fehlende Schwerkraft",
+          "newValue": "Geringe Schwerkraft",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Gerard O'Neill",
+          "newValue": "Wernher von Braun",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-9020",
+      "action": "patch",
+      "rationale": "Die erste reichsweite Wahl mit Frauenbeteiligung war 1919, nicht 1918.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "1918 erste Wahl",
+          "newValue": "1919 erste Wahl",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0043",
+      "action": "patch",
+      "rationale": "Die Gruppe mischt niedrige Wolken mit bodennahen Sichtphänomenen; ein präziserer Titel behebt das ohne Strukturbruch.",
+      "patches": [
+        {
+          "groupId": "low-clouds",
+          "field": "label",
+          "oldValue": "Low Sky Conditions",
+          "newValue": "Low Clouds and Ground Fog",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0046",
+      "action": "skip-subjective",
+      "rationale": "Die aktuelle Gruppe ist bereits als \"Outer Planets\" bezeichnet; der beanstandete Gasriesen-Fehler liegt im vorliegenden Puzzle nicht mehr vor.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0052",
+      "action": "skip-subjective",
+      "rationale": "Die beanstandete Fehlzuordnung ist in der aktuellen Fassung nicht vorhanden; die Katzen-Gruppen sind so sachlich vertretbar.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0087",
+      "action": "skip-subjective",
+      "rationale": "Das konkret beanstandete Objekt ist in der aktuellen Maya-Gruppe nicht enthalten; die vorhandenen Einträge sind für ein leichtes Puzzle vertretbar.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0106",
+      "action": "skip-subjective",
+      "rationale": "Das beanstandete Nicht-Kartenspiel kommt in der aktuellen Fassung nicht vor; die Gruppen sind sachlich stimmig.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "action": "skip-subjective",
+      "rationale": "Das konkret beanstandete Gebäude ist in der aktuellen islamischen Gruppe nicht enthalten; die aktuelle Fassung ist ausreichend tragfähig.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0187",
+      "action": "skip-subjective",
+      "rationale": "Der konkret kritisierte Ausreißer ist bereits ersetzt; die aktuelle Constrictor-Gruppe ist für das Niveau passend.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0257",
+      "action": "skip-subjective",
+      "rationale": "Die konkret beanstandeten Elemente sind in der aktuellen Fassung nicht vorhanden; die verbleibenden Zuordnungen sind für ein leichtes Mythologie-Puzzle vertretbar.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0258",
+      "action": "skip-subjective",
+      "rationale": "Die beanstandeten Grenzfälle sind in der aktuellen Pharaonen-Gruppe nicht enthalten; die Gruppe ist nun klar genug.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0266",
+      "action": "skip-subjective",
+      "rationale": "Die problematische Fehlbeschriftung ist bereits behoben; \"Financial Documents\" passt zu allen vier Einträgen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0309",
+      "action": "skip-subjective",
+      "rationale": "Die beanstandete Person ist in der aktuellen Sprachentwickler-Gruppe nicht enthalten; die aktuelle Besetzung ist sachlich sauber.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "action": "patch",
+      "rationale": "Die Gruppe enthält neben kabelgestützten auch allgemein aufgehängte Brücken; ein präziserer Titel behebt die Unschärfe minimalinvasiv.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "label",
+          "oldValue": "Cable-Supported Bridges",
+          "newValue": "Cable-Supported or Suspended Bridges",
+          "itemIndex": null
+        }
+      ]
+    }
+  ]
+}

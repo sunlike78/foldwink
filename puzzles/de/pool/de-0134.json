@@ -33,10 +33,10 @@
     },
     {
       "id": "group_c",
-      "label": "Wettkämpfe",
+      "label": "Wassersportarten",
       "items": [
-        "Freistil",
-        "Staffel",
+        "Turmspringen",
+        "Freiwasserschwimmen",
         "Wasserball",
         "Synchronschwimmen"
       ]

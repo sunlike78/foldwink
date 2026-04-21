@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "World Events of the 1910s",
-      "revealHint": "War",
       "items": [
         "Assassination of Archduke Franz Ferdinand",
         "Battle of the Marne",
@@ -28,9 +27,8 @@
     {
       "id": "g2",
       "label": "World Events of the 1930s",
-      "revealHint": "Depression",
       "items": [
-        "Wall Street Crash Aftermath",
+        "Great Depression",
         "Spanish Civil War",
         "Kristallnacht",
         "Molotov-Ribbentrop Pact"
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "World Events of the 1940s",
-      "revealHint": "Wartime",
       "items": [
         "D-Day Landings",
         "Hiroshima Bombing",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "World Events of the 1960s",
-      "revealHint": "Protest",
       "items": [
         "Bay of Pigs Invasion",
         "Cuban Missile Crisis",

@@ -16,10 +16,9 @@
   "groups": [
     {
       "id": "g1",
-      "label": "INCOME TAX",
-      "revealHint": "Income",
+      "label": "INCOME / PROFITS TAX",
       "items": [
-        "Wage Tax",
+        "Personal Income Tax",
         "Capital Gains",
         "Dividend Tax",
         "Corporate Tax"
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "CONSUMPTION TAX",
-      "revealHint": "Spend",
       "items": [
         "VAT",
         "Sales Tax",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "WEALTH TAX",
-      "revealHint": "Wealth",
       "items": [
         "Estate Tax",
         "Inheritance Tax",
@@ -49,8 +46,7 @@
     },
     {
       "id": "g4",
-      "label": "PAYROLL TAX",
-      "revealHint": "Payroll",
+      "label": "SOCIAL INSURANCE PAYROLL CHARGES",
       "items": [
         "Social Security",
         "Medicare Levy",

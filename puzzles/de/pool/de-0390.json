@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Meeresströmungen",
-      "revealHint": "Wasserbewegungen",
       "items": [
         "Golfstrom",
         "Humboldtstrom",
-        "Thermohalin",
-        "El Niño"
+        "Kuroshio",
+        "Labradorstrom"
       ]
     },
     {
       "id": "group_b",
       "label": "Tiefsee-Zonen",
-      "revealHint": "Tiefseebereiche",
       "items": [
         "Hadal",
         "Abyssal",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Meeresökosysteme",
-      "revealHint": "Lebensräume Meer",
       "items": [
         "Korallenriff",
         "Mangrovenwälder",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Meeresforschung",
-      "revealHint": "Meeresforschung",
       "items": [
         "ROV",
         "Bathyscaph",

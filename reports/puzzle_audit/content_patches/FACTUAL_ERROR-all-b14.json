@@ -1,0 +1,259 @@
+{
+  "batchIndex": 13,
+  "decisions": [
+    {
+      "puzzleId": "ru-0229",
+      "action": "patch",
+      "rationale": "Два элемента выбиваются из врачебных специальностей в своих группах: «Дефектолог» не врач, «Невролог» не относится к психическому здоровью как остальные.",
+      "patches": [
+        {
+          "groupId": "children_docs",
+          "field": "item",
+          "oldValue": "Дефектолог",
+          "newValue": "Детский невролог",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "mental_docs",
+          "field": "item",
+          "oldValue": "Невролог",
+          "newValue": "Психотерапевт",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0242",
+      "action": "skip-would-break-structure",
+      "rationale": "Во всех четырёх группах четвёртый элемент не знак зодиака. Починка потребует пересобирать основу пазла целиком, потому что все 12 знаков уже исчерпаны.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0250",
+      "action": "patch",
+      "rationale": "Группа «Центральная Америка» собрана из стран других регионов; её можно исправить точечной заменой всех четырёх элементов на реальные страны Центральной Америки.",
+      "patches": [
+        {
+          "groupId": "central_am",
+          "field": "item",
+          "oldValue": "Мексика",
+          "newValue": "Гватемала",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "central_am",
+          "field": "item",
+          "oldValue": "Куба",
+          "newValue": "Белиз",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "central_am",
+          "field": "item",
+          "oldValue": "Колумбия",
+          "newValue": "Гондурас",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "central_am",
+          "field": "item",
+          "oldValue": "Венесуэла",
+          "newValue": "Панама",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0256",
+      "action": "skip-would-break-structure",
+      "rationale": "Ошибки затрагивают сразу несколько облачных групп: есть неканоничные названия и неверное распределение по высоте. Нужна полная пересборка классификации.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0258",
+      "action": "patch",
+      "rationale": "Проблема в названии группы: перечислены не только научно-фантастические фильмы. Минимальная корректная правка — сделать метку нейтральной.",
+      "patches": [
+        {
+          "groupId": "kubrick_scifi",
+          "field": "label",
+          "oldValue": "Фантастика",
+          "newValue": "Фильмы Кубрика",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0269",
+      "action": "skip-subjective",
+      "rationale": "По видимым группам это рабочие категории крупных соревнований по видам спорта. Претензия относится скорее к скрытой общей рамке «трофеи», которую точечно не исправить через доступные поля.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0274",
+      "action": "patch",
+      "rationale": "В группе мембран один элемент обозначает органеллу/систему мембран, а не мембрану. Достаточно заменить его на реальный мембранный компонент.",
+      "patches": [
+        {
+          "groupId": "cell_membranes",
+          "field": "item",
+          "oldValue": "Эндоплазм. сеть",
+          "newValue": "Лизосомная мембрана",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0284",
+      "action": "patch",
+      "rationale": "Несколько брендов отнесены к неверным регионам. Это исправляется точечной заменой конкретных марок без перестройки пазла.",
+      "patches": [
+        {
+          "groupId": "us_phones",
+          "field": "item",
+          "oldValue": "OnePlus",
+          "newValue": "Palm",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "eu_phones",
+          "field": "item",
+          "oldValue": "Sony",
+          "newValue": "Wiko",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "eu_phones",
+          "field": "item",
+          "oldValue": "HTC",
+          "newValue": "Gigaset",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0286",
+      "action": "patch",
+      "rationale": "Проблема в том, что группа перечисляет в основном системы ПВО, а не зенитные ракеты, плюс один элемент вообще другого класса. Минимально корректно переименовать группу и заменить «Искандер».",
+      "patches": [
+        {
+          "groupId": "aa_missiles",
+          "field": "label",
+          "oldValue": "Зенитные",
+          "newValue": "Системы ПВО",
+          "itemIndex": null
+        },
+        {
+          "groupId": "aa_missiles",
+          "field": "item",
+          "oldValue": "Искандер",
+          "newValue": "NASAMS",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0293",
+      "action": "patch",
+      "rationale": "Здесь смешаны источники, физические принципы и приборы. Минимальная правка — сделать группу источников однородной и заменить два элемента в группе цветовых моделей.",
+      "patches": [
+        {
+          "groupId": "light_sources",
+          "field": "item",
+          "oldValue": "Неон",
+          "newValue": "Неоновая лампа",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "light_sources",
+          "field": "item",
+          "oldValue": "Накаливание",
+          "newValue": "Лампа накаливания",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "color_mixing",
+          "field": "item",
+          "oldValue": "Спектр",
+          "newValue": "HSL",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "color_mixing",
+          "field": "item",
+          "oldValue": "Призма",
+          "newValue": "HSV",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0320",
+      "action": "skip-would-break-structure",
+      "rationale": "Проблемы затрагивают несколько групп сразу: неполные названия, смешение таксонов с типами паутины и сомнительные скорпионьи названия. Точечной правкой это не починить.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0326",
+      "action": "patch",
+      "rationale": "В группе горнолыжных курортов только «Охрид» выбивается как неоднозначный выбор. Достаточно заменить его на общеизвестный лыжный курорт.",
+      "patches": [
+        {
+          "groupId": "other_resorts",
+          "field": "item",
+          "oldValue": "Охрид",
+          "newValue": "Боровец",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0332",
+      "action": "patch",
+      "rationale": "В группе смешаны уровни тестирования и регрессионное тестирование по цели. Минимально корректно заменить один элемент, чтобы группа стала однороднее.",
+      "patches": [
+        {
+          "groupId": "functional_testing",
+          "field": "item",
+          "oldValue": "Регрессионный",
+          "newValue": "Приёмочный",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0346",
+      "action": "skip-would-break-structure",
+      "rationale": "Смешаны века, археологические периоды, исторические эпохи и отдельные события. Исправление потребует пересобирать несколько групп целиком.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0354",
+      "action": "patch",
+      "rationale": "Первая группа на самом деле ближе к персонажам комедии дель арте, но содержит одну настоящую маску; в Хэллоуине один элемент является атрибутом, а не персонажем. Это чинится двумя точечными правками.",
+      "patches": [
+        {
+          "groupId": "venice_masks",
+          "field": "label",
+          "oldValue": "Венецианские маски",
+          "newValue": "Комедия дель арте",
+          "itemIndex": null
+        },
+        {
+          "groupId": "venice_masks",
+          "field": "item",
+          "oldValue": "Баута",
+          "newValue": "Панталоне",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "halloween_chars",
+          "field": "item",
+          "oldValue": "Тыква",
+          "newValue": "Скелет",
+          "itemIndex": 3
+        }
+      ]
+    }
+  ]
+}

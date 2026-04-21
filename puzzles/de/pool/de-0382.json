@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Makronährstoffe",
-      "revealHint": "Hauptnährstoffe",
+      "label": "Hauptnährstoffe und Wasser",
       "items": [
         "Kohlenhydrate",
         "Protein",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Stoffwechsel-Begriffe",
-      "revealHint": "Körper verwertet",
       "items": [
         "Glykolyse",
         "Ketose",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Diätformen",
-      "revealHint": "Ernährungsweisen",
       "items": [
         "Vegan",
         "Ketogen",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Nahrungsinhaltsstoffe",
-      "revealHint": "Kleinste Bausteine",
       "items": [
         "Vitamin C",
         "Eisen",

@@ -23,7 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Gasriesen",
+      "label": "Riesenplaneten",
       "items": [
         "Jupiter",
         "Saturn",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Kleinkörper",
+      "label": "Kleine Himmelskörper",
       "items": [
         "Komet",
         "Asteroid",

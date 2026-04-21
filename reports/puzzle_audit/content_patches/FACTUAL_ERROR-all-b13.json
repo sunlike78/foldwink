@@ -1,0 +1,231 @@
+{
+  "batchIndex": 12,
+  "decisions": [
+    {
+      "puzzleId": "ru-9002",
+      "action": "skip-would-break-structure",
+      "rationale": "Ошибки распределены по нескольким группам и требуют более 4 правок; точечный патч не сохранит чистую структуру категорий.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-9004",
+      "action": "patch",
+      "rationale": "Исправляется один неверный заголовок фильма.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Они сражались за неё",
+          "newValue": "Они сражались за Родину",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-9005",
+      "action": "patch",
+      "rationale": "Здесь достаточно точечно заменить два неверных фразеологизма и исправить одну искаженную форму.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Ни рыба ни мясо",
+          "newValue": "Бьёт баклуши",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Горит работа",
+          "newValue": "Засучив рукава",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "На все руки от скуки",
+          "newValue": "На все руки мастер",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-9006",
+      "action": "skip-would-break-structure",
+      "rationale": "Некорректны сразу многие идиомы в разных группах; нужен полноценный редакторский пересмотр набора.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-9009",
+      "action": "patch",
+      "rationale": "Проблема решается четырьмя точечными заменами на стандартные и семантически точные выражения.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "На словах Толстой",
+          "newValue": "Мягко стелет, да жёстко спать",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Слово не с делом",
+          "newValue": "Положа руку на сердце",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "На чужом горбу в рай",
+          "newValue": "Чужое добро покоя не даёт",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Теши — не своротишь",
+          "newValue": "Колом не вышибешь",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-9010",
+      "action": "patch",
+      "rationale": "Фактическую неточность можно снять переименованием рамки без перестройки групп.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Репин написал",
+          "newValue": "Русская живопись: кто написал",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-9012",
+      "action": "patch",
+      "rationale": "Нужны две точечные замены на однозначные имена персонажей.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Герасим",
+          "newValue": "Пьер Безухов",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Вишнёвый сад Раневской",
+          "newValue": "Раневская",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0108",
+      "action": "patch",
+      "rationale": "Проблема в слишком узком названии одной группы; безопаснее расширить ярлык, не трогая состав.",
+      "patches": [
+        {
+          "groupId": "youth",
+          "field": "label",
+          "oldValue": "Молодёжные орг.",
+          "newValue": "Советские массовые аббревиатуры",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0110",
+      "action": "skip-would-break-structure",
+      "rationale": "Спорные и неверные атрибуции затрагивают слишком много позиций сразу; нужен ручной пересбор.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0111",
+      "action": "skip-would-break-structure",
+      "rationale": "Неточность относится к общей рамке всего пазла, а не к одной группе; локальный патч не исправит концептуальную проблему.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0130",
+      "action": "patch",
+      "rationale": "Исправляется один неверный объект в группе столиц.",
+      "patches": [
+        {
+          "groupId": "africa",
+          "field": "item",
+          "oldValue": "Лагос",
+          "newValue": "Абуджа",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0160",
+      "action": "patch",
+      "rationale": "Достаточно заменить одно спорное блюдо на бесспорно мексиканское.",
+      "patches": [
+        {
+          "groupId": "mexico_food",
+          "field": "item",
+          "oldValue": "Чили кон карне",
+          "newValue": "Кесадилья",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0185",
+      "action": "patch",
+      "rationale": "Две точечные замены убирают спортсменов с неверной национальной/видовой атрибуцией.",
+      "patches": [
+        {
+          "groupId": "weightlifters",
+          "field": "item",
+          "oldValue": "Арямнов",
+          "newValue": "Жаботинский",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "weightlifters",
+          "field": "item",
+          "oldValue": "Ломаченко",
+          "newValue": "Поддубный",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0193",
+      "action": "patch",
+      "rationale": "Одна замена и одно уточнение ярлыка снимают основные фактические претензии без перестройки пазла.",
+      "patches": [
+        {
+          "groupId": "medieval_arch",
+          "field": "item",
+          "oldValue": "Русский",
+          "newValue": "Византийский",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "renaissance",
+          "field": "label",
+          "oldValue": "Ренессанс и барокко",
+          "newValue": "Новое время",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0220",
+      "action": "skip-would-break-structure",
+      "rationale": "Здесь несколько грубых ошибок в разных группах, и аккуратное исправление требует пересобрать значительную часть пазла.",
+      "patches": []
+    }
+  ]
+}

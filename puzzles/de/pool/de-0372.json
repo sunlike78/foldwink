@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Deutsches Politiksystem",
-      "revealHint": "Bundesrepublik",
       "items": [
         "Bundestag",
         "Bundesrat",
         "Bundeskanzler",
-        "Bundesverfassung"
+        "Bundespräsident"
       ]
     },
     {
       "id": "group_b",
       "label": "US-Politiksystem",
-      "revealHint": "Vereinigte Staaten",
       "items": [
         "Kongress",
         "Senat",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Französisches Politiksyst.",
-      "revealHint": "Fünfte Republik",
       "items": [
         "Assemblée nationale",
         "Sénat",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Britisches Politiksystem",
-      "revealHint": "Westminster-Modell",
       "items": [
         "House of Commons",
         "House of Lords",

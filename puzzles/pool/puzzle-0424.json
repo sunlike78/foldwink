@@ -18,12 +18,11 @@
       "id": "g1",
       "label": "CENTRAL ASIAN CAPITALS",
       "items": [
-        "Nur-Sultan",
+        "Astana",
         "Tashkent",
         "Bishkek",
         "Dushanbe"
-      ],
-      "revealHint": "Steppe"
+      ]
     },
     {
       "id": "g2",
@@ -33,8 +32,7 @@
         "Funafuti",
         "Apia",
         "Honiara"
-      ],
-      "revealHint": "Pacific"
+      ]
     },
     {
       "id": "g3",
@@ -44,8 +42,7 @@
         "Castries",
         "Roseau",
         "Port of Spain"
-      ],
-      "revealHint": "Caribbean"
+      ]
     },
     {
       "id": "g4",
@@ -55,8 +52,7 @@
         "Niamey",
         "Bamako",
         "N'Djamena"
-      ],
-      "revealHint": "Sahel"
+      ]
     }
   ]
 }

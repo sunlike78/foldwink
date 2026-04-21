@@ -33,7 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Streetwear-Marken",
+      "label": "Bekleidungsmarken",
       "items": [
         "Trigema",
         "Armedangels",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Accessoires-Marken",
+      "label": "Lifestyle-Marken",
       "items": [
         "Braun Büffel",
         "Steiff",

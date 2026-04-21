@@ -1,0 +1,254 @@
+{
+  "batchIndex": 10,
+  "decisions": [
+    {
+      "puzzleId": "ru-0277",
+      "action": "patch",
+      "rationale": "Группа с осетровыми подписана как сомовые; это исправляется переименованием группы и заменой одного неверного вида.",
+      "patches": [
+        {
+          "groupId": "catfish_family",
+          "field": "label",
+          "oldValue": "Сомовые",
+          "newValue": "Осетровые",
+          "itemIndex": null
+        },
+        {
+          "groupId": "catfish_family",
+          "field": "item",
+          "oldValue": "Сом",
+          "newValue": "Севрюга",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0289",
+      "action": "skip-would-break-structure",
+      "rationale": "Чтобы убрать грибы из пазла про ядовитые растения, нужно заменить все 4 элемента группы и её ярлык, а это выходит за лимит патчей и по сути пересобирает категорию.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0299",
+      "action": "patch",
+      "rationale": "Один элемент в группе XX–XXI вв. лучше заменить на более однозначного математика XX века.",
+      "patches": [
+        {
+          "groupId": "modern_math",
+          "field": "item",
+          "oldValue": "Рамануджан",
+          "newValue": "Гёдель",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0302",
+      "action": "skip-would-break-structure",
+      "rationale": "Здесь фактически сломаны две группы сразу: у фильтраторов неверный вид, а у 'небольших видов' несколько крупных акул. Исправление потребует пересборки структуры.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0310",
+      "action": "patch",
+      "rationale": "Фактическая ошибка в ярлыке группы: чечевица, нут, маш и соя — это бобовые, не злаки.",
+      "patches": [
+        {
+          "groupId": "legumes_grain",
+          "field": "label",
+          "oldValue": "Бобовые злаки",
+          "newValue": "Бобовые",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0329",
+      "action": "patch",
+      "rationale": "Нужно привести одну группу к объектам, а в группе галактик заменить неверный объект.",
+      "patches": [
+        {
+          "groupId": "star_events",
+          "field": "label",
+          "oldValue": "Звёздные события",
+          "newValue": "Космические объекты",
+          "itemIndex": null
+        },
+        {
+          "groupId": "star_events",
+          "field": "item",
+          "oldValue": "Сверхновая",
+          "newValue": "Белый карлик",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "galaxy_features",
+          "field": "item",
+          "oldValue": "Чёрная дыра",
+          "newValue": "Треугольник",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0340",
+      "action": "patch",
+      "rationale": "Эпическая группа может быть исправлена переименованием, а в зарубежной группе стоит убрать дубль Перро.",
+      "patches": [
+        {
+          "groupId": "epic_traditions",
+          "field": "label",
+          "oldValue": "Эпические традиции",
+          "newValue": "Эпические произведения",
+          "itemIndex": null
+        },
+        {
+          "groupId": "world_fairy_authors",
+          "field": "item",
+          "oldValue": "Перро",
+          "newValue": "Гауф",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0353",
+      "action": "patch",
+      "rationale": "В кукольной группе два неоднозначных или неверных примера; их можно заменить на однозначные советские кукольные мультфильмы.",
+      "patches": [
+        {
+          "groupId": "puppet_sov",
+          "field": "item",
+          "oldValue": "Ёжик в тумане",
+          "newValue": "38 попугаев",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "puppet_sov",
+          "field": "item",
+          "oldValue": "Маша и медведь",
+          "newValue": "Чертёнок № 13",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0355",
+      "action": "patch",
+      "rationale": "Для easy лучше использовать основные, однозначно узнаваемые реки черноморского бассейна.",
+      "patches": [
+        {
+          "groupId": "black_sea_basin",
+          "field": "item",
+          "oldValue": "Псёл",
+          "newValue": "Днепр",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "black_sea_basin",
+          "field": "item",
+          "oldValue": "Хопёр",
+          "newValue": "Днестр",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0361",
+      "action": "patch",
+      "rationale": "Скорпион не насекомое, поэтому достаточно расширить ярлык группы до членистоногих.",
+      "patches": [
+        {
+          "groupId": "venomous_insects_2",
+          "field": "label",
+          "oldValue": "Ядовитые насекомые",
+          "newValue": "Ядовитые членистоногие",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0377",
+      "action": "patch",
+      "rationale": "В североамериканской группе один водопад стоит заменить, чтобы убрать прямое противоречие с африканской Викторией.",
+      "patches": [
+        {
+          "groupId": "american_falls",
+          "field": "item",
+          "oldValue": "Виктории",
+          "newValue": "Хавасу",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0384",
+      "action": "patch",
+      "rationale": "Два элемента выбиваются из казачьей темы и заменяются на более однозначные.",
+      "patches": [
+        {
+          "groupId": "cossack_weapons",
+          "field": "item",
+          "oldValue": "Лук",
+          "newValue": "Карабин",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "cossack_dances",
+          "field": "item",
+          "oldValue": "Лезгинка",
+          "newValue": "Казачий круг",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0403",
+      "action": "patch",
+      "rationale": "Здесь два явных фактических сбоя: неверное имя в автопроме и ошибочная фамилия российского предпринимателя.",
+      "patches": [
+        {
+          "groupId": "auto_entrepreneurs",
+          "field": "item",
+          "oldValue": "Альф Ромео",
+          "newValue": "Никола Ромео",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "ru_entrepreneurs",
+          "field": "item",
+          "oldValue": "Волождин",
+          "newValue": "Волож",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0404",
+      "action": "patch",
+      "rationale": "В огненной группе нужно заменить два нерелевантных явления на вулканические огненные процессы.",
+      "patches": [
+        {
+          "groupId": "fire_events",
+          "field": "item",
+          "oldValue": "Метеорный удар",
+          "newValue": "Извержение вулкана",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "fire_events",
+          "field": "item",
+          "oldValue": "Лавина",
+          "newValue": "Лавовый поток",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0407",
+      "action": "skip-would-break-structure",
+      "rationale": "Здесь проблемна почти вся группа прыжков в воду плюс ещё один элемент в водных видах спорта; аккуратная правка потребует пересобрать не меньше одной полной группы.",
+      "patches": []
+    }
+  ]
+}

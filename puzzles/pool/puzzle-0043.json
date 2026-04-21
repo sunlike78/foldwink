@@ -15,7 +15,7 @@
     },
     {
       "id": "low-clouds",
-      "label": "Low Sky Conditions",
+      "label": "Low Clouds and Ground Fog",
       "items": [
         "Stratus",
         "Stratocumulus",

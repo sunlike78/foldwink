@@ -1,0 +1,305 @@
+{
+  "batchIndex": 6,
+  "decisions": [
+    {
+      "puzzleId": "puzzle-0404",
+      "action": "patch",
+      "rationale": "Only one OVER completion is off; replacing it keeps the word-building set intact.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Ture",
+          "newValue": "Time",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0430",
+      "action": "patch",
+      "rationale": "The snake set has two weak/incomplete colour+snake entries; replacing them yields cleaner parallel animal names.",
+      "patches": [
+        {
+          "groupId": "g4",
+          "field": "item",
+          "oldValue": "Red-Bellied Black",
+          "newValue": "Black Rat Snake",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "g4",
+          "field": "item",
+          "oldValue": "Coral Snake",
+          "newValue": "Brown Snake",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0479",
+      "action": "skip-would-break-structure",
+      "rationale": "The Nahuatl puzzle has multiple misplaced items and one incoherent category; fixing it cleanly would require regrouping across several groups, not a minimal patch.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0492",
+      "action": "patch",
+      "rationale": "A few entries are misclassified; replacing the obvious physics/cosmology mismatch and broadening the life-science label fixes the fairness issue without restructuring.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "P vs NP",
+          "newValue": "Turbulence",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "g3",
+          "field": "label",
+          "oldValue": "UNSOLVED BIOLOGY",
+          "newValue": "UNSOLVED LIFE SCIENCE",
+          "itemIndex": null
+        },
+        {
+          "groupId": "g4",
+          "field": "item",
+          "oldValue": "Fermi Paradox",
+          "newValue": "Cosmic Inflation",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0026",
+      "action": "patch",
+      "rationale": "One capital is factually wrong.",
+      "patches": [
+        {
+          "groupId": "africa",
+          "field": "item",
+          "oldValue": "Lagos",
+          "newValue": "Abuja",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0035",
+      "action": "patch",
+      "rationale": "Only one newspaper item is not a section.",
+      "patches": [
+        {
+          "groupId": "newspapers",
+          "field": "item",
+          "oldValue": "Tabloid",
+          "newValue": "Sports",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0069",
+      "action": "patch",
+      "rationale": "Only one coinage metal is incorrect.",
+      "patches": [
+        {
+          "groupId": "coinage",
+          "field": "item",
+          "oldValue": "Platinum",
+          "newValue": "Roentgenium",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0096",
+      "action": "patch",
+      "rationale": "Only one circulatory item is mismatched with the vessel-focused set.",
+      "patches": [
+        {
+          "groupId": "transport-system",
+          "field": "item",
+          "oldValue": "Heart",
+          "newValue": "Blood",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0097",
+      "action": "patch",
+      "rationale": "The water-festival group has two unfair entries; replacing them with clear water festivals preserves the structure.",
+      "patches": [
+        {
+          "groupId": "festivals-of-water",
+          "field": "item",
+          "oldValue": "Holi Phera",
+          "newValue": "Thingyan",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "festivals-of-water",
+          "field": "item",
+          "oldValue": "La Tomatina",
+          "newValue": "Bon Om Touk",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0121",
+      "action": "patch",
+      "rationale": "The music group is factually off; replacing the set with actual flat note names fixes it without changing group structure.",
+      "patches": [
+        {
+          "groupId": "music",
+          "field": "item",
+          "oldValue": "Semitone",
+          "newValue": "B-flat",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "music",
+          "field": "item",
+          "oldValue": "Sharp",
+          "newValue": "E-flat",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "music",
+          "field": "item",
+          "oldValue": "Natural",
+          "newValue": "A-flat",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "music",
+          "field": "item",
+          "oldValue": "Key Signature",
+          "newValue": "D-flat",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0129",
+      "action": "patch",
+      "rationale": "Most items are underground storage structures rather than true roots, so a label correction is the minimal coherent fix.",
+      "patches": [
+        {
+          "groupId": "plant",
+          "field": "label",
+          "oldValue": "Plant roots",
+          "newValue": "Underground Plant Parts",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0164",
+      "action": "patch",
+      "rationale": "Two entries in the mosses/lichens set are not actually mosses or lichens.",
+      "patches": [
+        {
+          "groupId": "moss",
+          "field": "item",
+          "oldValue": "Peat",
+          "newValue": "Haircap Moss",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "moss",
+          "field": "item",
+          "oldValue": "Club Moss",
+          "newValue": "Iceland Moss",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0169",
+      "action": "patch",
+      "rationale": "The golf group includes two course terms instead of iron/club terms.",
+      "patches": [
+        {
+          "groupId": "golf",
+          "field": "item",
+          "oldValue": "Sand Trap",
+          "newValue": "3-Iron",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "golf",
+          "field": "item",
+          "oldValue": "Fairway",
+          "newValue": "7-Iron",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0178",
+      "action": "patch",
+      "rationale": "The wine/press group is too loose and includes a non-wine item; replacing the set with direct winemaking press terms makes it fair.",
+      "patches": [
+        {
+          "groupId": "wine",
+          "field": "item",
+          "oldValue": "Vineyard",
+          "newValue": "Crush",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "wine",
+          "field": "item",
+          "oldValue": "Grape",
+          "newValue": "Must",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "wine",
+          "field": "item",
+          "oldValue": "Barrel",
+          "newValue": "Pomace",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "wine",
+          "field": "item",
+          "oldValue": "Cider",
+          "newValue": "Winepress",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0197",
+      "action": "patch",
+      "rationale": "The bark/barque ship group has one wrong vessel type and one overly generic item; a small label tightening plus replacements makes it fair.",
+      "patches": [
+        {
+          "groupId": "ship",
+          "field": "label",
+          "oldValue": "Bark ship",
+          "newValue": "Barque Ship Terms",
+          "itemIndex": null
+        },
+        {
+          "groupId": "ship",
+          "field": "item",
+          "oldValue": "Schooner",
+          "newValue": "Barque",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "ship",
+          "field": "item",
+          "oldValue": "Vessel",
+          "newValue": "Mizzenmast",
+          "itemIndex": 3
+        }
+      ]
+    }
+  ]
+}

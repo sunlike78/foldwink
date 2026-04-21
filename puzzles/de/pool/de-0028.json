@@ -33,11 +33,11 @@
     },
     {
       "id": "group_c",
-      "label": "Schalentiere",
+      "label": "Krebstiere",
       "items": [
         "Krabbe",
         "Hummer",
-        "Muschel",
+        "Krebs",
         "Garnele"
       ]
     },

@@ -16,8 +16,7 @@
   "groups": [
     {
       "id": "g1",
-      "label": "Consumer Gadgets First Sold in the 1970s",
-      "revealHint": "Analogue",
+      "label": "Consumer Gadgets Popularized in the 1970s",
       "items": [
         "Pocket Calculator",
         "VHS Recorder",
@@ -27,8 +26,7 @@
     },
     {
       "id": "g2",
-      "label": "Consumer Gadgets First Sold in the 1980s",
-      "revealHint": "Compact",
+      "label": "Consumer Gadgets Popularized in the 1980s",
       "items": [
         "CD Player",
         "Camcorder",
@@ -38,8 +36,7 @@
     },
     {
       "id": "g3",
-      "label": "Consumer Gadgets First Sold in the 1990s",
-      "revealHint": "Digital",
+      "label": "Consumer Gadgets Popularized in the 1990s",
       "items": [
         "Digital Camera",
         "DVD Player",
@@ -49,8 +46,7 @@
     },
     {
       "id": "g4",
-      "label": "Consumer Gadgets First Sold in the 2000s",
-      "revealHint": "Wireless",
+      "label": "Consumer Gadgets Popularized in the 2000s",
       "items": [
         "iPod",
         "Flat-Screen TV",

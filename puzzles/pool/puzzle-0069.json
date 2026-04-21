@@ -7,7 +7,6 @@
     {
       "id": "noble",
       "label": "Noble Gases",
-      "revealHint": "GAS",
       "items": [
         "Helium",
         "Neon",
@@ -18,7 +17,6 @@
     {
       "id": "alkali",
       "label": "Alkali Metals",
-      "revealHint": "ALKALI",
       "items": [
         "Lithium",
         "Sodium",
@@ -29,7 +27,6 @@
     {
       "id": "halogens",
       "label": "Halogens",
-      "revealHint": "HALOGEN",
       "items": [
         "Fluorine",
         "Chlorine",
@@ -40,12 +37,11 @@
     {
       "id": "coinage",
       "label": "Coinage Metals",
-      "revealHint": "COIN",
       "items": [
         "Copper",
         "Silver",
         "Gold",
-        "Platinum"
+        "Roentgenium"
       ]
     }
   ],

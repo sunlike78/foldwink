@@ -21,12 +21,12 @@
         "Apollo 11",
         "Gemini 4",
         "Vostok 1",
-        "Artemis I"
+        "Apollo 8"
       ]
     },
     {
       "id": "g2",
-      "label": "ROBOTIC LANDERS",
+      "label": "SURFACE MISSIONS",
       "items": [
         "Curiosity",
         "Perseverance",
@@ -36,7 +36,7 @@
     },
     {
       "id": "g3",
-      "label": "FLYBY / PROBE",
+      "label": "SPACE PROBES",
       "items": [
         "Voyager 1",
         "New Horizons",

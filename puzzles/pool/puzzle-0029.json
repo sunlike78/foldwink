@@ -6,8 +6,7 @@
   "groups": [
     {
       "id": "storm",
-      "label": "Storm Events",
-      "revealHint": "STORM",
+      "label": "Thunderstorm Phenomena",
       "items": [
         "Thunder",
         "Lightning",
@@ -17,8 +16,7 @@
     },
     {
       "id": "cold",
-      "label": "Cold Weather",
-      "revealHint": "COLD",
+      "label": "Winter Weather",
       "items": [
         "Blizzard",
         "Frost",
@@ -28,8 +26,7 @@
     },
     {
       "id": "hot",
-      "label": "Hot Weather",
-      "revealHint": "HEAT",
+      "label": "Heat Conditions",
       "items": [
         "Heatwave",
         "Drought",
@@ -39,8 +36,7 @@
     },
     {
       "id": "calm",
-      "label": "Calm Weather",
-      "revealHint": "CALM",
+      "label": "Mild/Cloudy Conditions",
       "items": [
         "Breeze",
         "Mist",

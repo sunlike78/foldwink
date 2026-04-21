@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Militär-Symbole",
-      "revealHint": "Armee & Krieg",
       "items": [
         "Pickelhaube",
         "Eisernes Kreuz",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Herrschafts-Symbole",
-      "revealHint": "Macht & Würde",
       "items": [
         "Kaiserkrone",
         "Reichsadler",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Industrie-Symbole",
-      "revealHint": "Wirtschaftsmacht",
       "items": [
         "Stahlwerk",
         "Zeche",
@@ -47,11 +44,10 @@
     {
       "id": "group_d",
       "label": "Kulturelle Symbole",
-      "revealHint": "Kultur & Stil",
       "items": [
         "Gründerzeit-Villa",
-        "Wilhelminisch",
-        "Dreibund",
+        "Jugendstilfassade",
+        "Kaiserdenkmal",
         "Promenade"
       ]
     }

@@ -37,10 +37,10 @@
       "id": "genre",
       "label": "Literary Genres",
       "items": [
-        "Epic",
-        "Satire",
-        "Elegy",
-        "Ode"
+        "Novel",
+        "Drama",
+        "Essay",
+        "Short Story"
       ]
     },
     {

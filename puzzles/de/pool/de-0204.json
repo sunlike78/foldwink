@@ -13,12 +13,12 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Kaiser",
+      "label": "Herrscher im Kaiserreich",
       "items": [
         "Wilhelm I.",
         "Friedrich III.",
         "Wilhelm II.",
-        "Karl I."
+        "Wilhelm I."
       ]
     },
     {

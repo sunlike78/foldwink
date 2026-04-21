@@ -13,7 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Übungen",
+      "label": "Kraftübungen",
       "items": [
         "Reißen",
         "Stoßen",
@@ -33,7 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Wettkampfarten",
+      "label": "Kraftsportarten",
       "items": [
         "Gewichtheben",
         "Powerlifting",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Kraftsportbegriffe",
+      "label": "Trainingsbegriffe",
       "items": [
         "Maximum",
         "Volumen",

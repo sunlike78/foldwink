@@ -13,7 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Nordnachbarn",
+      "label": "Norden Deutschlands",
       "items": [
         "Dänemark",
         "Nordsee",
@@ -23,7 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Ostnachbarn",
+      "label": "Osten Deutschlands",
       "items": [
         "Polen",
         "Tschechien",
@@ -33,7 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Südnachbarn",
+      "label": "Süden Deutschlands",
       "items": [
         "Österreich",
         "Schweiz",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Westnachbarn",
+      "label": "Westen Deutschlands",
       "items": [
         "Frankreich",
         "Luxemburg",

@@ -23,17 +23,17 @@
     },
     {
       "id": "group_b",
-      "label": "Deutsche Rock-Künstler",
+      "label": "Deutsche Bands",
       "items": [
         "Scorpions",
         "Rammstein",
         "Die Toten Hosen",
-        "Nena"
+        "Die Ärzte"
       ]
     },
     {
       "id": "group_c",
-      "label": "Deutsche Pop-Künstler",
+      "label": "Deutschsprachige Solokünstler",
       "items": [
         "Helene Fischer",
         "Peter Maffay",

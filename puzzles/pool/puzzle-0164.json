@@ -17,7 +17,6 @@
     {
       "id": "herb",
       "label": "Culinary herbs",
-      "revealHint": "Culinary",
       "items": [
         "Basil",
         "Dill",
@@ -28,7 +27,6 @@
     {
       "id": "succulent",
       "label": "Succulents",
-      "revealHint": "Succulent",
       "items": [
         "Aloe",
         "Jade",
@@ -39,7 +37,6 @@
     {
       "id": "fern",
       "label": "Ferns",
-      "revealHint": "Fern",
       "items": [
         "Maidenhair",
         "Staghorn",
@@ -50,12 +47,11 @@
     {
       "id": "moss",
       "label": "Mosses and lichens",
-      "revealHint": "Moss",
       "items": [
         "Sphagnum",
         "Reindeer Lichen",
-        "Peat",
-        "Club Moss"
+        "Haircap Moss",
+        "Iceland Moss"
       ]
     }
   ]

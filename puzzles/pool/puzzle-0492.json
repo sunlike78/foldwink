@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "UNSOLVED PURE MATHEMATICS",
-      "revealHint": "Proof",
       "items": [
         "Riemann Hypothesis",
         "Goldbach's Conjecture",
@@ -28,18 +27,16 @@
     {
       "id": "g2",
       "label": "UNSOLVED PHYSICS",
-      "revealHint": "Force",
       "items": [
         "Dark Matter Identity",
         "Quantum Gravity",
         "Matter-Antimatter Asymmetry",
-        "P vs NP"
+        "Turbulence"
       ]
     },
     {
       "id": "g3",
-      "label": "UNSOLVED BIOLOGY",
-      "revealHint": "Life",
+      "label": "UNSOLVED LIFE SCIENCE",
       "items": [
         "Origin of Life",
         "Consciousness",
@@ -50,12 +47,11 @@
     {
       "id": "g4",
       "label": "UNSOLVED COSMOLOGY",
-      "revealHint": "Cosmos",
       "items": [
         "Nature of Dark Energy",
         "Shape of the Universe",
         "Hubble Tension",
-        "Fermi Paradox"
+        "Cosmic Inflation"
       ]
     }
   ]

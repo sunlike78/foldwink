@@ -17,8 +17,7 @@
   "groups": [
     {
       "id": "plant",
-      "label": "Plant roots",
-      "revealHint": "Plant",
+      "label": "Underground Plant Parts",
       "items": [
         "Taproot",
         "Tuber",
@@ -29,7 +28,6 @@
     {
       "id": "math",
       "label": "Math roots",
-      "revealHint": "Math",
       "items": [
         "Square Root",
         "Cube Root",
@@ -40,7 +38,6 @@
     {
       "id": "word",
       "label": "Word roots",
-      "revealHint": "Word",
       "items": [
         "Etymology",
         "Prefix",
@@ -51,7 +48,6 @@
     {
       "id": "tooth",
       "label": "Tooth root",
-      "revealHint": "Tooth",
       "items": [
         "Canal",
         "Pulp",

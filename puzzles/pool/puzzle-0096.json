@@ -7,9 +7,8 @@
     {
       "id": "transport-system",
       "label": "Transport System",
-      "revealHint": "BLOOD",
       "items": [
-        "Heart",
+        "Blood",
         "Artery",
         "Vein",
         "Capillary"
@@ -18,7 +17,6 @@
     {
       "id": "support-system",
       "label": "Support System",
-      "revealHint": "BONE",
       "items": [
         "Skull",
         "Spine",
@@ -29,7 +27,6 @@
     {
       "id": "defense-system",
       "label": "Defense System",
-      "revealHint": "IMMUNE",
       "items": [
         "Thymus",
         "Spleen",
@@ -40,7 +37,6 @@
     {
       "id": "message-system",
       "label": "Message System",
-      "revealHint": "SIGNAL",
       "items": [
         "Neuron",
         "Axon",

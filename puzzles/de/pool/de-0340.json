@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Datenbankmodelle",
-      "revealHint": "Struktur der Daten",
       "items": [
         "Relational",
         "Dokumenten-DB",
@@ -25,18 +24,16 @@
     {
       "id": "group_b",
       "label": "Datenbanksprachen",
-      "revealHint": "Abfragesprachen",
       "items": [
         "SQL",
-        "NoSQL",
-        "GraphQL",
+        "Cypher",
+        "XQuery",
         "SPARQL"
       ]
     },
     {
       "id": "group_c",
       "label": "Datenbankkonzepte",
-      "revealHint": "Theoretische Ideen",
       "items": [
         "Transaktion",
         "ACID",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Datenbankprodukte",
-      "revealHint": "Bekannte Systeme",
       "items": [
         "MySQL",
         "PostgreSQL",

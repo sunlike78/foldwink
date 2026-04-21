@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Gentechnik-Anwendungen",
-      "revealHint": "Gene verändern",
+      "label": "Gentechnik-Begriffe",
       "items": [
         "CRISPR",
         "GMO",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Stammzellen-Forschung",
-      "revealHint": "Stammzell-Typen",
       "items": [
         "Pluripotent",
         "Embryonal",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Enzym-Anwendungen",
-      "revealHint": "Biolog. Katalyse",
       "items": [
         "Waschmittel",
         "Käseherstellung",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Fermentation-Anwendungen",
-      "revealHint": "Mikroben arbeiten",
       "items": [
         "Bierbrauerei",
         "Joghurt",

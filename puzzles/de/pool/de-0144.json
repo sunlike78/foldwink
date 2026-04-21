@@ -23,11 +23,11 @@
     },
     {
       "id": "group_b",
-      "label": "Spielregeln",
+      "label": "Punktearten",
       "items": [
         "Try",
         "Umwandlung",
-        "Gedränge",
+        "Dropkick",
         "Strafkick"
       ]
     },

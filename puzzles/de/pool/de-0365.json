@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Asiatische Gerichte",
-      "revealHint": "Ostasien/Südasien",
       "items": [
         "Dim Sum",
         "Pad Thai",
@@ -24,19 +23,17 @@
     },
     {
       "id": "group_b",
-      "label": "Mediterrane Gerichte",
-      "revealHint": "Mittelmeerküche",
+      "label": "Südeuropäische Gerichte",
       "items": [
         "Paella",
         "Moussaka",
         "Risotto",
-        "Falafel"
+        "Pizza"
       ]
     },
     {
       "id": "group_c",
       "label": "Lateinamerikan. Gerichte",
-      "revealHint": "Mittel-/Südamerika",
       "items": [
         "Tacos",
         "Ceviche",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Arabische Gerichte",
-      "revealHint": "Naher Osten",
       "items": [
         "Hummus",
         "Shawarma",

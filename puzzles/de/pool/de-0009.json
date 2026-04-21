@@ -33,7 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Küchenmöbel",
+      "label": "Kücheneinrichtung",
       "items": [
         "Küchenschrank",
         "Herd",
@@ -43,7 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Badezimmermöbel",
+      "label": "Badezimmereinrichtung",
       "items": [
         "Badewanne",
         "Waschbecken",

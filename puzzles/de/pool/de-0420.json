@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Schinkel-Bauten",
-      "revealHint": "Preuß. Klassizist",
       "items": [
         "Altes Museum",
         "Neue Wache",
@@ -25,18 +24,16 @@
     {
       "id": "group_b",
       "label": "Gropius-Bauten",
-      "revealHint": "Bauhaus-Gründer",
       "items": [
         "Bauhaus Dessau",
         "Fagus-Werk",
         "Harvard Gebäude",
-        "Pan Am Gebäude"
+        "Gropius House"
       ]
     },
     {
       "id": "group_c",
       "label": "Mies van der Rohe",
-      "revealHint": "Less is more",
       "items": [
         "Neue Nationalgalerie",
         "Seagram Building",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Renzo Piano",
-      "revealHint": "Ital. Architekt",
       "items": [
         "Pompidou Centre",
         "Potsdamer Platz",

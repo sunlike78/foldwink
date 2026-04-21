@@ -21,14 +21,22 @@ async function startEasy(page) {
 
 await runCases("gameplay-smoke", [
   {
-    name: "first visit: onboarding modal appears and Got it dismisses",
+    name: "first visit: onboarding modal appears, Got it dismisses and FTUE routes to daily",
     fn: async ({ page }) => {
       await page.goto(BASE_URL);
       await page.waitForSelector("text=How to play");
       await page.locator("button", { hasText: "Got it" }).click();
-      await waitForMenu(page);
+      // v0.7.0 auto-routes a first-time dismiss to the daily puzzle
+      // (gamesPlayed===0 + todayDailyRecord===null + screen==="menu"),
+      // so we expect to land on the game screen, not the menu. Verify via
+      // the subtitle under the header (the h1 holds the puzzle title).
+      await page.waitForSelector("header h1", { timeout: 10_000 });
       const onboarded = await page.evaluate(() => localStorage.getItem("foldwink:onboarded"));
       if (onboarded !== "true") throw new Error(`onboarded flag not set: ${onboarded}`);
+      const modeSubtitle = await page.locator("header p").first().textContent();
+      if (!modeSubtitle?.toLowerCase().includes("daily")) {
+        throw new Error(`first dismiss should route to daily; subtitle was "${modeSubtitle}"`);
+      }
     },
   },
   {

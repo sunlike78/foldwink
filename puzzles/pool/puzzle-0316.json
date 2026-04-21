@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "Bowed String Instruments",
-      "revealHint": "Bow",
       "items": [
         "Violin",
         "Cello",
@@ -27,8 +26,7 @@
     },
     {
       "id": "g2",
-      "label": "Plucked String Instruments",
-      "revealHint": "Pluck",
+      "label": "Hand-Plucked String Instruments",
       "items": [
         "Harp",
         "Lute",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "Struck String Instruments",
-      "revealHint": "Strike",
       "items": [
         "Dulcimer",
         "Cimbalom",
@@ -49,13 +46,12 @@
     },
     {
       "id": "g4",
-      "label": "Keyboard-Plucked Instruments",
-      "revealHint": "Keys",
+      "label": "Keyboard String Instruments",
       "items": [
         "Harpsichord",
         "Virginal",
         "Spinet",
-        "Psaltery"
+        "Clavicytherium"
       ]
     }
   ]

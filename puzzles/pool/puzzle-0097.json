@@ -7,7 +7,6 @@
     {
       "id": "festivals-of-light",
       "label": "Festivals of Light",
-      "revealHint": "LIGHT",
       "items": [
         "Diwali",
         "Hanukkah",
@@ -18,18 +17,16 @@
     {
       "id": "festivals-of-water",
       "label": "Festivals of Water",
-      "revealHint": "WATER",
       "items": [
         "Songkran",
-        "Holi Phera",
-        "La Tomatina",
+        "Thingyan",
+        "Bon Om Touk",
         "Water Splashing"
       ]
     },
     {
       "id": "festivals-of-music",
       "label": "Music Festivals",
-      "revealHint": "MUSIC",
       "items": [
         "Glastonbury",
         "Montreux",
@@ -40,7 +37,6 @@
     {
       "id": "festivals-of-food",
       "label": "Food Festivals",
-      "revealHint": "FOOD",
       "items": [
         "Oktoberfest",
         "La Mercè",

@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Mittelalter",
-      "revealHint": "500–1500",
       "items": [
         "Karl der Große",
         "Hildegard v. Bingen",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Reformation",
-      "revealHint": "1517–1648",
       "items": [
         "Martin Luther",
         "Thomas Müntzer",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Aufklärung",
-      "revealHint": "1700–1800",
+      "label": "18. Jahrhundert",
       "items": [
         "Kant",
         "Lessing",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Romantik-Ära",
-      "revealHint": "1800–1850",
+      "label": "19. Jahrhundert",
       "items": [
         "Beethoven",
         "C. D. Friedrich",

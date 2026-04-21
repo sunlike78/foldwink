@@ -1,0 +1,142 @@
+{
+  "batchIndex": 15,
+  "decisions": [
+    {
+      "puzzleId": "ru-0433",
+      "action": "skip-would-break-structure",
+      "rationale": "Ошибки затрагивают как минимум три группы и несколько элементов; аккуратная правка потребует полной пересборки примеров.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0438",
+      "action": "patch",
+      "rationale": "В группе вулканических гор один очевидно неверный пример; достаточно заменить его на бесспорно вулканическую гору.",
+      "patches": [
+        {
+          "groupId": "volcanic_mountains",
+          "field": "item",
+          "oldValue": "Аконкагуа",
+          "newValue": "Везувий",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0465",
+      "action": "patch",
+      "rationale": "Неверен один элемент в группе о колонне; его можно заменить на корректный архитектурный термин.",
+      "patches": [
+        {
+          "groupId": "column_elements",
+          "field": "item",
+          "oldValue": "Антаблемент",
+          "newValue": "Эхин",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0467",
+      "action": "patch",
+      "rationale": "Проблема в двух нерусских композиторах; минимальная правка — заменить их на бесспорных русских/советских авторов.",
+      "patches": [
+        {
+          "groupId": "modern_russian_music",
+          "field": "item",
+          "oldValue": "Пярт",
+          "newValue": "Шнитке",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "modern_russian_music",
+          "field": "item",
+          "oldValue": "Канчели",
+          "newValue": "Денисов",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0482",
+      "action": "patch",
+      "rationale": "Нужно убрать устаревший термин и сделать ярлык группы иерархически нейтральным.",
+      "patches": [
+        {
+          "groupId": "buddhism_branches",
+          "field": "label",
+          "oldValue": "Ветви",
+          "newValue": "Направления и школы",
+          "itemIndex": null
+        },
+        {
+          "groupId": "buddhism_branches",
+          "field": "item",
+          "oldValue": "Хинаяна",
+          "newValue": "Тхеравада",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0490",
+      "action": "patch",
+      "rationale": "Состав группы ближе к широкой эпохе XVIII — начала XIX века, чем к Просвещению как ярлыку.",
+      "patches": [
+        {
+          "groupId": "enlightenment_leaders",
+          "field": "label",
+          "oldValue": "Просвещение",
+          "newValue": "XVIII — начало XIX века",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0497",
+      "action": "patch",
+      "rationale": "Здесь две точечные неточности: Янус не подходит под ярлык малых богов, а «Энеида» — произведение, а не мифологический сюжет.",
+      "patches": [
+        {
+          "groupId": "roman_gods_minor",
+          "field": "item",
+          "oldValue": "Янус",
+          "newValue": "Флора",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "roman_myths",
+          "field": "item",
+          "oldValue": "Энеида",
+          "newValue": "Похищение Прозерпины",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-9015",
+      "action": "skip-would-break-structure",
+      "rationale": "Сломанные или ненормативные формы есть сразу в нескольких группах; точечной правкой 1–4 заменами проблему не закрыть.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-9018",
+      "action": "skip-would-break-structure",
+      "rationale": "Одна из групп целиком построена вокруг несостоявшегося проекта и выбивается из темы; нужна замена всей группы, а не точечная правка.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-9020",
+      "action": "patch",
+      "rationale": "Смешение фольклора и авторской сказки создаёт одну точечную проблему; достаточно заменить авторский персонаж на фольклорный.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Конёк-Горбунок",
+          "newValue": "Сивка-бурка",
+          "itemIndex": 0
+        }
+      ]
+    }
+  ]
+}

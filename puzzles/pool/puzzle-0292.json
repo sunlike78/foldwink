@@ -17,18 +17,16 @@
     {
       "id": "g1",
       "label": "Procedural Drama Examples",
-      "revealHint": "Case",
       "items": [
         "Law and Order",
-        "ER",
+        "CSI",
         "NYPD Blue",
-        "Grey's Anatomy"
+        "NCIS"
       ]
     },
     {
       "id": "g2",
       "label": "Anthology Series Examples",
-      "revealHint": "Reset",
       "items": [
         "Black Mirror",
         "The Twilight Zone",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "Sitcom Examples",
-      "revealHint": "Laugh",
       "items": [
         "Seinfeld",
         "Friends",
@@ -50,11 +47,10 @@
     {
       "id": "g4",
       "label": "Reality Competition Examples",
-      "revealHint": "Vote",
       "items": [
         "Survivor",
         "The Amazing Race",
-        "Big Brother",
+        "Top Chef",
         "MasterChef"
       ]
     }

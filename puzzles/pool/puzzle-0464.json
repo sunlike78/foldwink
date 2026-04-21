@@ -36,7 +36,7 @@
     },
     {
       "id": "g3",
-      "label": "METAPHYSICS",
+      "label": "METAPHYSICS & MIND",
       "items": [
         "Ship of Theseus",
         "Teleporter",
@@ -46,12 +46,12 @@
     },
     {
       "id": "g4",
-      "label": "POLITICAL PHILOSOPHY",
+      "label": "SOCIAL AND POLITICAL THEORY",
       "items": [
         "Veil of Ignorance",
         "State of Nature",
-        "Utility Monster",
-        "Desert Island"
+        "Social Contract",
+        "Prisoner's Dilemma"
       ]
     }
   ]

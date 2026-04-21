@@ -13,10 +13,9 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Verbrennungsreaktion",
-      "revealHint": "Feuer/Sauerstoff",
+      "label": "Verbrennungsbegriffe",
       "items": [
-        "Oxidation",
+        "Zündtemperatur",
         "Exotherm",
         "Flammpunkt",
         "Rauchgase"
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Säure-Base-Reaktion",
-      "revealHint": "pH-Wert Reaktion",
       "items": [
         "Neutralisation",
         "Protonentransfer",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Redoxreaktion",
-      "revealHint": "Elektronen wandern",
       "items": [
         "Reduktion",
         "Oxidationsmittel",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Fällungsreaktion",
-      "revealHint": "Feststoff entsteht",
       "items": [
         "Präzipitat",
         "Löslichkeit",

@@ -17,7 +17,6 @@
     {
       "id": "dog",
       "label": "Dog's bark",
-      "revealHint": "Dog",
       "items": [
         "Woof",
         "Growl",
@@ -28,7 +27,6 @@
     {
       "id": "tree",
       "label": "Tree bark",
-      "revealHint": "Tree",
       "items": [
         "Cork",
         "Cambium",
@@ -38,19 +36,17 @@
     },
     {
       "id": "ship",
-      "label": "Bark ship",
-      "revealHint": "Ship",
+      "label": "Barque Ship Terms",
       "items": [
-        "Schooner",
+        "Barque",
         "Rigging",
         "Mast",
-        "Vessel"
+        "Mizzenmast"
       ]
     },
     {
       "id": "shout",
       "label": "Bark a command",
-      "revealHint": "Order",
       "items": [
         "Snap",
         "Bellow",

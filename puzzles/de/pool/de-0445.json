@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Expressionis.-Maler",
-      "revealHint": "Farbe & Emotion",
       "items": [
         "Kirchner",
         "Nolde",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Expressionis.-Autoren",
-      "revealHint": "Seele & Schrei",
       "items": [
         "Trakl",
         "Heym",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Expressionis.-Merkmale",
-      "revealHint": "Stilkennzeichen",
       "items": [
         "Verzerrung",
         "Leuchtende Farben",
@@ -47,11 +44,10 @@
     {
       "id": "group_d",
       "label": "Expressionis.-Werke",
-      "revealHint": "Bekannte Bilder",
       "items": [
-        "Der Schrei",
+        "Potsdamer Platz",
         "Brücke Straßenszene",
-        "Verkündigung",
+        "Tierschicksale",
         "Mann und Frau"
       ]
     }

@@ -16,12 +16,12 @@
   "groups": [
     {
       "id": "g1",
-      "label": "IONISING RADIATION",
+      "label": "X-RAY-BASED IMAGING",
       "items": [
         "X-Ray",
         "CT Scan",
         "Fluoroscopy",
-        "PET Scan"
+        "Mammography"
       ]
     },
     {
@@ -41,7 +41,7 @@
         "Ultrasound",
         "Echocardiogram",
         "Doppler",
-        "HIFU"
+        "Sonogram"
       ]
     },
     {

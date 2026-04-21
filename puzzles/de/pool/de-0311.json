@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Nobelpreis Physik",
-      "revealHint": "Physik-Spitze",
       "items": [
         "Röntgen",
         "Planck",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Nobelpreis Chemie",
-      "revealHint": "Chemische Spitze",
       "items": [
         "Haber",
         "Fischer",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Nobelpreis Medizin",
-      "revealHint": "Medizin-Spitze",
       "items": [
         "Koch",
         "Ehrlich",
@@ -47,11 +44,10 @@
     {
       "id": "group_d",
       "label": "Nobelpreis Frieden",
-      "revealHint": "Friedensstifter",
       "items": [
         "Brandt",
-        "Qasim",
-        "Bahr",
+        "Schweitzer",
+        "Ossietzky",
         "Stresemann"
       ]
     }

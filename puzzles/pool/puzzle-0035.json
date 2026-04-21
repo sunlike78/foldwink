@@ -7,9 +7,8 @@
     {
       "id": "newspapers",
       "label": "Newspaper Sections",
-      "revealHint": "NEWS",
       "items": [
-        "Tabloid",
+        "Sports",
         "Headline",
         "Classifieds",
         "Editorial"
@@ -18,7 +17,6 @@
     {
       "id": "book-parts",
       "label": "Book Parts",
-      "revealHint": "BOOK",
       "items": [
         "Preface",
         "Chapter",
@@ -29,7 +27,6 @@
     {
       "id": "magazines",
       "label": "Magazine Types",
-      "revealHint": "MAG",
       "items": [
         "Fashion",
         "Gossip",
@@ -40,7 +37,6 @@
     {
       "id": "print-formats",
       "label": "Print Formats",
-      "revealHint": "PRINT",
       "items": [
         "Pamphlet",
         "Brochure",

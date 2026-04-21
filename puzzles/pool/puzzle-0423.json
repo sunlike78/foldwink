@@ -16,47 +16,43 @@
   "groups": [
     {
       "id": "g1",
-      "label": "GREEK LETTERS 1–6",
+      "label": "SELECTED GREEK LETTERS 1–6",
       "items": [
         "Alpha",
         "Beta",
         "Gamma",
         "Delta"
-      ],
-      "revealHint": "First"
+      ]
     },
     {
       "id": "g2",
-      "label": "GREEK LETTERS 7–12",
+      "label": "SELECTED GREEK LETTERS 7–12",
       "items": [
         "Eta",
         "Theta",
         "Iota",
         "Kappa"
-      ],
-      "revealHint": "Second"
+      ]
     },
     {
       "id": "g3",
-      "label": "GREEK LETTERS 13–18",
+      "label": "SELECTED GREEK LETTERS 13–18",
       "items": [
         "Nu",
         "Xi",
         "Omicron",
         "Pi"
-      ],
-      "revealHint": "Third"
+      ]
     },
     {
       "id": "g4",
-      "label": "GREEK LETTERS 19–24",
+      "label": "SELECTED GREEK LETTERS 19–24",
       "items": [
         "Tau",
         "Upsilon",
         "Phi",
         "Omega"
-      ],
-      "revealHint": "Fourth"
+      ]
     }
   ]
 }

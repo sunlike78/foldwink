@@ -14,7 +14,6 @@
     {
       "id": "launch_vehicles",
       "label": "Ракеты-носители",
-      "revealHint": "НОСИТЕЛИ",
       "items": [
         "Союз",
         "Протон",
@@ -25,7 +24,6 @@
     {
       "id": "ballistic_missiles",
       "label": "Баллистические",
-      "revealHint": "БАЛЛИСТИКА",
       "items": [
         "Сатана",
         "Тополь",
@@ -36,7 +34,6 @@
     {
       "id": "cruise_missiles",
       "label": "Крылатые ракеты",
-      "revealHint": "КРЫЛАТЫЕ",
       "items": [
         "Калибр",
         "Томагавк",
@@ -46,12 +43,11 @@
     },
     {
       "id": "aa_missiles",
-      "label": "Зенитные",
-      "revealHint": "ЗЕНИТНЫЕ",
+      "label": "Системы ПВО",
       "items": [
         "С-400",
         "Пэтриот",
-        "Искандер",
+        "NASAMS",
         "Тор"
       ]
     }

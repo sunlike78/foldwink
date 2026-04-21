@@ -19,11 +19,10 @@
       "label": "BAROQUE & ROCOCO",
       "items": [
         "Versailles",
-        "St. Peter's Basilica",
+        "Trevi Fountain",
         "Schönbrunn Palace",
         "Zwinger Palace"
-      ],
-      "revealHint": "Baroque"
+      ]
     },
     {
       "id": "g2",
@@ -33,8 +32,7 @@
         "US Capitol",
         "Brandenburg Gate",
         "British Museum"
-      ],
-      "revealHint": "Classical"
+      ]
     },
     {
       "id": "g3",
@@ -43,9 +41,8 @@
         "Sagrada Família",
         "Chrysler Building",
         "Hôtel Tassel",
-        "30 St Mary Axe"
-      ],
-      "revealHint": "Deco"
+        "Empire State Building"
+      ]
     },
     {
       "id": "g4",
@@ -55,8 +52,7 @@
         "Habitat 67",
         "Unité d'Habitation",
         "Seagram Building"
-      ],
-      "revealHint": "Modern"
+      ]
     }
   ]
 }

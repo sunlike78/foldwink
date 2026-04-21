@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Christliche Feste",
-      "revealHint": "Kirchenjahr",
       "items": [
         "Weihnachten",
         "Ostern",
@@ -25,29 +24,26 @@
     {
       "id": "group_b",
       "label": "Jüdische Feste",
-      "revealHint": "Hebr. Kalender",
       "items": [
         "Jom Kippur",
         "Rosch ha-Schana",
-        "Schabbat",
+        "Chanukka",
         "Pessach"
       ]
     },
     {
       "id": "group_c",
       "label": "Islamische Feste",
-      "revealHint": "Isl. Kalender",
       "items": [
         "Eid al-Fitr",
         "Eid al-Adha",
-        "Ramadan",
+        "Islamisches Neujahr",
         "Mawlid an-Nabi"
       ]
     },
     {
       "id": "group_d",
       "label": "Buddhistische Feste",
-      "revealHint": "Buddhistisch",
       "items": [
         "Vesak",
         "Kathina",

@@ -14,7 +14,6 @@
     {
       "id": "ancient_leaders",
       "label": "Древние",
-      "revealHint": "ДРЕВНОСТЬ",
       "items": [
         "Александр Македонский",
         "Цезарь",
@@ -24,8 +23,7 @@
     },
     {
       "id": "enlightenment_leaders",
-      "label": "Просвещение",
-      "revealHint": "ПРОСВЕЩЕНИЕ",
+      "label": "XVIII — начало XIX века",
       "items": [
         "Наполеон",
         "Вашингтон",
@@ -36,7 +34,6 @@
     {
       "id": "modern_leaders",
       "label": "XX век",
-      "revealHint": "XX ВЕК",
       "items": [
         "Черчилль",
         "Рузвельт",
@@ -47,7 +44,6 @@
     {
       "id": "reformers",
       "label": "Реформаторы",
-      "revealHint": "РЕФОРМЫ",
       "items": [
         "Мандела",
         "Атюрк",

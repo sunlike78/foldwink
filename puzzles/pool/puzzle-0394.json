@@ -17,18 +17,16 @@
     {
       "id": "g1",
       "label": "WORKER PLACEMENT",
-      "revealHint": "Control",
       "items": [
         "Agricola",
-        "Carcassonne",
-        "Ticket to Ride",
+        "Stone Age",
+        "Viticulture",
         "Lords of Waterdeep"
       ]
     },
     {
       "id": "g2",
       "label": "DECK-BUILDING GAMES",
-      "revealHint": "Deck",
       "items": [
         "Dominion",
         "Ascension",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "COOPERATIVE GAMES",
-      "revealHint": "Together",
       "items": [
         "Pandemic",
         "Pandemic Legacy",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "ABSTRACT STRATEGY",
-      "revealHint": "Abstract",
       "items": [
         "Go",
         "Othello",

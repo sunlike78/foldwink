@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Kants drei Kritiken",
-      "revealHint": "Kritische Werke",
+      "label": "Kants Hauptwerke",
       "items": [
         "Reine Vernunft",
         "Praktische Vernunft",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Kants Kernbegriffe",
-      "revealHint": "Philos. Schlüssel",
       "items": [
         "Kateg. Imperativ",
         "Ding an sich",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Kants Schriften",
-      "revealHint": "Kleinere Werke",
       "items": [
         "Zum ewigen Frieden",
         "Anthropologie",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Kants Kategorien",
-      "revealHint": "Kategorienlehre",
       "items": [
         "Kausalität",
         "Substanz",

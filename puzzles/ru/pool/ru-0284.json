@@ -14,18 +14,16 @@
     {
       "id": "us_phones",
       "label": "США",
-      "revealHint": "США",
       "items": [
         "Apple iPhone",
         "Google Pixel",
         "Motorola",
-        "OnePlus"
+        "Palm"
       ]
     },
     {
       "id": "korean_phones",
       "label": "Корея",
-      "revealHint": "КОРЕЯ",
       "items": [
         "Samsung",
         "LG",
@@ -36,7 +34,6 @@
     {
       "id": "chinese_phones",
       "label": "Китай",
-      "revealHint": "КИТАЙ",
       "items": [
         "Huawei",
         "Xiaomi",
@@ -47,11 +44,10 @@
     {
       "id": "eu_phones",
       "label": "Европа",
-      "revealHint": "ЕВРОПА",
       "items": [
         "Nokia",
-        "Sony",
-        "HTC",
+        "Wiko",
+        "Gigaset",
         "Fairphone"
       ]
     }

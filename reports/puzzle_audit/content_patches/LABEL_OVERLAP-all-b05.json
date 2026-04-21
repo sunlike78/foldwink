@@ -1,0 +1,214 @@
+{
+  "batchIndex": 4,
+  "decisions": [
+    {
+      "puzzleId": "puzzle-0029",
+      "action": "patch",
+      "rationale": "The item sets can stay; clearer, narrower labels remove the storm/winter overlap.",
+      "patches": [
+        {
+          "groupId": "storm",
+          "field": "label",
+          "oldValue": "Storm Events",
+          "newValue": "Thunderstorm Phenomena",
+          "itemIndex": null
+        },
+        {
+          "groupId": "cold",
+          "field": "label",
+          "oldValue": "Cold Weather",
+          "newValue": "Winter Weather",
+          "itemIndex": null
+        },
+        {
+          "groupId": "hot",
+          "field": "label",
+          "oldValue": "Hot Weather",
+          "newValue": "Heat Conditions",
+          "itemIndex": null
+        },
+        {
+          "groupId": "calm",
+          "field": "label",
+          "oldValue": "Calm Weather",
+          "newValue": "Mild/Cloudy Conditions",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0126",
+      "action": "patch",
+      "rationale": "Two label refinements make the chemistry/material groups more mutually exclusive without changing the puzzle structure.",
+      "patches": [
+        {
+          "groupId": "precious",
+          "field": "label",
+          "oldValue": "Precious metals",
+          "newValue": "Platinum-group metals",
+          "itemIndex": null
+        },
+        {
+          "groupId": "industrial",
+          "field": "label",
+          "oldValue": "Industrial metals",
+          "newValue": "Base/utility metals",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0202",
+      "action": "skip-subjective",
+      "rationale": "These are standard synonym groups for distinct emotions rather than a clear factual overlap; the concern is mainly about taste and granularity.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0276",
+      "action": "patch",
+      "rationale": "A few hybrid desserts are causing most of the category bleed; replacing them with cleaner examples preserves the puzzle.",
+      "patches": [
+        {
+          "groupId": "custards",
+          "field": "item",
+          "oldValue": "Trifle",
+          "newValue": "Pots de Creme",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "frozen",
+          "field": "item",
+          "oldValue": "Baked Alaska",
+          "newValue": "Gelato",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "frozen",
+          "field": "item",
+          "oldValue": "Ice Cream Cake",
+          "newValue": "Sorbet",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0301",
+      "action": "patch",
+      "rationale": "The main overlap comes from one POV-adjacent item inside the structural group; replacing that item is enough.",
+      "patches": [
+        {
+          "groupId": "g3",
+          "field": "item",
+          "oldValue": "Unreliable Narrator",
+          "newValue": "Circular Narrative",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0316",
+      "action": "patch",
+      "rationale": "The items can stay if the labels are made parallel by separating hand-plucked from keyboard string instruments.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "label",
+          "oldValue": "Plucked String Instruments",
+          "newValue": "Hand-Plucked String Instruments",
+          "itemIndex": null
+        },
+        {
+          "groupId": "g4",
+          "field": "label",
+          "oldValue": "Keyboard-Plucked Instruments",
+          "newValue": "Keyboard String Instruments",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0323",
+      "action": "skip-would-break-structure",
+      "rationale": "The overlap is built into the heat-transfer scheme across multiple groups, so a fair fix would require reworking much of the puzzle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0368",
+      "action": "skip-would-break-structure",
+      "rationale": "Several groups mix regime type, state structure, and religious authority, so a clean fix would require rebuilding the category framework.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0445",
+      "action": "skip-would-break-structure",
+      "rationale": "The overlap between antojitos/street food and corn-based dishes affects too many items to fix with a minimal patch.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0469",
+      "action": "skip-would-break-structure",
+      "rationale": "The problem is systemic multiparadigm overlap across several groups and items, so a minimal patch would not make the sorting reliably fair.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0474",
+      "action": "patch",
+      "rationale": "More precise tax labels plus one item replacement remove the wage/payroll ambiguity while preserving the structure.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "label",
+          "oldValue": "INCOME TAX",
+          "newValue": "INCOME / PROFITS TAX",
+          "itemIndex": null
+        },
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Wage Tax",
+          "newValue": "Personal Income Tax",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "g4",
+          "field": "label",
+          "oldValue": "PAYROLL TAX",
+          "newValue": "SOCIAL INSURANCE PAYROLL CHARGES",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0005",
+      "action": "skip-would-break-structure",
+      "rationale": "The situational grouping around school items affects the logic of multiple groups, and a fair fix would require broader editorial restructuring.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0016",
+      "action": "skip-would-break-structure",
+      "rationale": "The livestock/farm-animal overlap is spread across too many items and labels to resolve with 1–4 minimal patches.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0020",
+      "action": "skip-would-break-structure",
+      "rationale": "The categories mix movement, behavior, and taxonomy across multiple groups, so a clean fairness fix would require rebuilding the puzzle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0037",
+      "action": "patch",
+      "rationale": "The overlap is localized to one label; narrowing it resolves the issue cleanly.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Части руки",
+          "newValue": "Части руки без пальцев",
+          "itemIndex": null
+        }
+      ]
+    }
+  ]
+}

@@ -43,12 +43,12 @@
     },
     {
       "id": "group_d",
-      "label": "Heine-Themen",
+      "label": "Heine-Werke",
       "items": [
-        "Lorelei",
-        "Wintermärchen",
+        "Die Lore-Ley",
+        "Harzreise",
         "Buch der Lieder",
-        "Deutschland"
+        "Deutschland. Ein Wintermärchen"
       ]
     }
   ]

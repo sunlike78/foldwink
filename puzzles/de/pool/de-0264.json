@@ -23,11 +23,11 @@
     },
     {
       "id": "group_b",
-      "label": "Keramik-Stile",
+      "label": "Keramikarten",
       "items": [
         "Steingut",
         "Steinzeug",
-        "Porzellan",
+        "Fayence",
         "Terrakotta"
       ]
     },

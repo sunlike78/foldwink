@@ -14,18 +14,16 @@
     {
       "id": "functional_testing",
       "label": "Функциональное",
-      "revealHint": "ФУНКЦИИ",
       "items": [
         "Юнит-тест",
         "Интеграционный",
         "Системный",
-        "Регрессионный"
+        "Приёмочный"
       ]
     },
     {
       "id": "nonfunc_testing",
       "label": "Нефункциональное",
-      "revealHint": "НЕФУНКЦ.",
       "items": [
         "Нагрузочное",
         "Стресс-тест",
@@ -36,7 +34,6 @@
     {
       "id": "testing_methods",
       "label": "Методы",
-      "revealHint": "МЕТОДЫ",
       "items": [
         "Чёрный ящик",
         "Белый ящик",
@@ -47,7 +44,6 @@
     {
       "id": "testing_tools",
       "label": "Инструменты",
-      "revealHint": "ИНСТРУМЕНТЫ",
       "items": [
         "Selenium",
         "Jest",

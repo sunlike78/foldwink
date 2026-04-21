@@ -17,18 +17,16 @@
     {
       "id": "g1",
       "label": "FALCON FAMILY (SpaceX)",
-      "revealHint": "Falcon",
       "items": [
         "Falcon 1",
         "Falcon 9",
         "Falcon Heavy",
-        "Starship"
+        "Falcon 9 Block 5"
       ]
     },
     {
       "id": "g2",
       "label": "SOYUZ FAMILY (Roscosmos)",
-      "revealHint": "Soyuz",
       "items": [
         "Soyuz-2.1a",
         "Soyuz-2.1b",
@@ -39,18 +37,16 @@
     {
       "id": "g3",
       "label": "ARIANE FAMILY (ESA)",
-      "revealHint": "Ariane",
       "items": [
         "Ariane 4",
         "Ariane 5",
         "Ariane 6",
-        "Vega-C"
+        "Ariane 1"
       ]
     },
     {
       "id": "g4",
       "label": "LONG MARCH FAMILY (CNSA)",
-      "revealHint": "March",
       "items": [
         "Long March 2",
         "Long March 5",

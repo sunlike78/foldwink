@@ -14,7 +14,6 @@
     {
       "id": "buddhism_concepts",
       "label": "Ключевые понятия",
-      "revealHint": "ПОНЯТИЯ",
       "items": [
         "Нирвана",
         "Карма",
@@ -25,7 +24,6 @@
     {
       "id": "buddhism_practices",
       "label": "Практики",
-      "revealHint": "ПРАКТИКИ",
       "items": [
         "Медитация",
         "Мантра",
@@ -35,10 +33,9 @@
     },
     {
       "id": "buddhism_branches",
-      "label": "Ветви",
-      "revealHint": "ВЕТВИ",
+      "label": "Направления и школы",
       "items": [
-        "Хинаяна",
+        "Тхеравада",
         "Махаяна",
         "Ваджраяна",
         "Дзен"
@@ -47,7 +44,6 @@
     {
       "id": "buddhism_symbols_2",
       "label": "Символы",
-      "revealHint": "СИМВОЛЫ",
       "items": [
         "Колесо Дхармы",
         "Лотос",

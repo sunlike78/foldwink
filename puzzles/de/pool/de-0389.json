@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Geologische Regionen",
-      "revealHint": "Landschaftsräume",
       "items": [
         "Mittelgebirge",
         "Norddeutsches Tief.",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Gesteinsarten Deutschl.",
-      "revealHint": "Gesteinstypen",
       "items": [
         "Buntsandstein",
         "Muschelkalk",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Vulkane in Deutschland",
-      "revealHint": "Eruptivgeschichte",
       "items": [
         "Laacher See",
         "Vogelsberg",
@@ -47,12 +44,11 @@
     {
       "id": "group_d",
       "label": "Geologische Ereignisse",
-      "revealHint": "Geolog. Geschichte",
       "items": [
         "Variskische Faltung",
         "Alpenhebung",
         "Elster-Vergletscherung",
-        "Kreideküste"
+        "Saale-Vergletscherung"
       ]
     }
   ]

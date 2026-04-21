@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Klimaschutz",
-      "revealHint": "CO2 & Temperaturen",
       "items": [
         "Pariser Abkommen",
         "Kyoto-Protokoll",
-        "Montrealer Protokoll",
+        "Klimarahmenkonvention",
         "Glasgow-Pakt"
       ]
     },
     {
       "id": "group_b",
       "label": "Abrüstung",
-      "revealHint": "Waffen reduzieren",
       "items": [
         "INF-Vertrag",
         "START-Vertrag",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Menschenrechte",
-      "revealHint": "Schutz aller",
       "items": [
         "UN-Charta",
         "EMRK",
@@ -47,12 +44,11 @@
     {
       "id": "group_d",
       "label": "Handel",
-      "revealHint": "Freier Austausch",
       "items": [
         "GATT",
         "WTO-Abkommen",
         "CETA",
-        "TTIP-Entwurf"
+        "NAFTA"
       ]
     }
   ]

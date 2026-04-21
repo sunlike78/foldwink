@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Mars-Probleme",
-      "revealHint": "Herausforderungen",
       "items": [
         "Kosmische Strahlung",
         "Dünne Atmosphäre",
-        "Fehlende Schwerkraft",
+        "Geringe Schwerkraft",
         "Isolation"
       ]
     },
     {
       "id": "group_b",
       "label": "Mars-Lösungen",
-      "revealHint": "Wie man sie löst",
       "items": [
         "Terraforming",
         "Unterirdische Basis",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Mars-Missionen",
-      "revealHint": "Mars-Raumschiffe",
       "items": [
         "Curiosity Rover",
         "Perseverance",
@@ -47,12 +44,11 @@
     {
       "id": "group_d",
       "label": "Mars-Personen",
-      "revealHint": "Menschen & Ideen",
       "items": [
         "Elon Musk",
         "Robert Zubrin",
         "Buzz Aldrin",
-        "Gerard O'Neill"
+        "Wernher von Braun"
       ]
     }
   ]

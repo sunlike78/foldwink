@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Newtons Gesetze",
-      "revealHint": "Klassik-Mechanik",
+      "label": "Newtonsche Physik",
       "items": [
         "Trägheitsgesetz",
         "Actio-reactio",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Einsteins Konzepte",
-      "revealHint": "Relativität",
       "items": [
         "E=mc²",
         "Zeitdilatation",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Ohms Gesetze",
-      "revealHint": "Elektrizität",
+      "label": "Elektrische Grundbegriffe",
       "items": [
         "Ohmsches Gesetz",
         "Widerstand",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Boyles Gasgesetze",
-      "revealHint": "Gase und Druck",
+      "label": "Gasgesetze",
       "items": [
         "Boyle-Mariotte",
         "Gay-Lussac",

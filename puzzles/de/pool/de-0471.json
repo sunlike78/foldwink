@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Nahrungsebenen",
-      "revealHint": "Trophiestufen",
       "items": [
         "Produzenten",
         "Herbivore",
@@ -24,19 +23,17 @@
     },
     {
       "id": "group_b",
-      "label": "Typische Nischen-Arten",
-      "revealHint": "Spezialisten",
+      "label": "Beispiele für Nischen-Spezialisten",
       "items": [
         "Kletterspecht",
         "Bartgeier",
         "Blattschneider-Ameise",
-        "Schmale Biene"
+        "Koala"
       ]
     },
     {
       "id": "group_c",
       "label": "Artenbeziehungen",
-      "revealHint": "Zusammenleben",
       "items": [
         "Mutualismus",
         "Kommensalismus",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Ökologie-Begriffe",
-      "revealHint": "Fachwörter",
       "items": [
         "Habitat",
         "Nische",

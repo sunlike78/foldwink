@@ -17,7 +17,6 @@
     {
       "id": "pies",
       "label": "Pie Desserts",
-      "revealHint": "Pie",
       "items": [
         "Apple Pie",
         "Key Lime",
@@ -28,7 +27,6 @@
     {
       "id": "cakes",
       "label": "Cake Desserts",
-      "revealHint": "Cake",
       "items": [
         "Black Forest",
         "Tiramisu",
@@ -39,23 +37,21 @@
     {
       "id": "custards",
       "label": "Custard Desserts",
-      "revealHint": "Custard",
       "items": [
         "Creme Brulee",
         "Flan",
         "Panna Cotta",
-        "Trifle"
+        "Pots de Creme"
       ]
     },
     {
       "id": "frozen",
       "label": "Frozen Desserts",
-      "revealHint": "Frozen",
       "items": [
-        "Baked Alaska",
+        "Gelato",
         "Affogato",
         "Granita",
-        "Ice Cream Cake"
+        "Sorbet"
       ]
     }
   ]

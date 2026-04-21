@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Nur katholisch",
-      "revealHint": "Römische Tradition",
+      "label": "Katholische Begriffe",
       "items": [
         "Papst",
         "Beichte",
@@ -24,8 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Nur evangelisch",
-      "revealHint": "Reformatorisch",
+      "label": "Evangelische Begriffe",
       "items": [
         "Synode",
         "Presbyterium",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Nur orthodox",
-      "revealHint": "Ostkirche",
+      "label": "Orthodoxe Begriffe",
       "items": [
         "Patriarch",
         "Ikonostase",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Allgemein christlich",
-      "revealHint": "Alle Konfessionen",
       "items": [
         "Taufe",
         "Eucharistie",

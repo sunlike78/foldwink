@@ -22,8 +22,7 @@
         "Plateosaurus",
         "Eoraptor",
         "Herrerasaurus"
-      ],
-      "revealHint": "Triassic"
+      ]
     },
     {
       "id": "g2",
@@ -33,8 +32,7 @@
         "Camarasaurus",
         "Ceratosaurus",
         "Archaeopteryx"
-      ],
-      "revealHint": "Jurassic"
+      ]
     },
     {
       "id": "g3",
@@ -44,19 +42,17 @@
         "Pachycephalosaurus",
         "Quetzalcoatlus",
         "Mosasaurus"
-      ],
-      "revealHint": "Cretaceous"
+      ]
     },
     {
       "id": "g4",
-      "label": "PALEOGENE MEGAFAUNA",
+      "label": "CENOZOIC ANIMALS",
       "items": [
         "Mammoth",
         "Saber-Tooth Tiger",
         "Megalodon",
         "Dodo"
-      ],
-      "revealHint": "Ice Age"
+      ]
     }
   ]
 }

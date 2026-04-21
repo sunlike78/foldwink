@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Mise en place Begriffe",
-      "revealHint": "Vorbereitung Küche",
+      "label": "Schneidetechniken",
       "items": [
         "Taillieren",
         "Brunoise",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Service-Begriffe",
-      "revealHint": "Im Restaurant",
       "items": [
         "À la carte",
         "Amuse-Bouche",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Küchenbrigade-Titel",
-      "revealHint": "Hierarchie Küche",
       "items": [
         "Chef de cuisine",
         "Sous-chef",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Französische Küchentechn.",
-      "revealHint": "Kochtechniken frz.",
+      "label": "Garmethoden",
       "items": [
         "Sautieren",
         "Flambieren",

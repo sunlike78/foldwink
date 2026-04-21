@@ -1,0 +1,237 @@
+{
+  "batchIndex": 1,
+  "decisions": [
+    {
+      "puzzleId": "de-0206",
+      "action": "patch",
+      "rationale": "Ein problematischer Begriff macht die Überschneidung mit den konkreten Ereignissen unnötig groß; ein strukturelles Republik-Problem behebt das minimal.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Putschversuche",
+          "newValue": "Reparationslast",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0209",
+      "action": "patch",
+      "rationale": "In der Symbolgruppe ist nur ein Alltagsgegenstand der Ausreißer; ein klareres DDR-Symbol trennt die Gruppen sauberer.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Datsche",
+          "newValue": "Staatswappen",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0216",
+      "action": "patch",
+      "rationale": "Zwei Industriebegriffe in der Geschichtsgruppe erzeugen die Hauptüberschneidung; historische Schlagwörter lösen das mit minimalen Eingriffen.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Kohlebergbau",
+          "newValue": "Zechensterben",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Stahlproduktion",
+          "newValue": "Stahlkrise",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0231",
+      "action": "skip-would-break-structure",
+      "rationale": "Hier sind sowohl die Kategorie 'Schreibstile' als auch die Easy-Tier-Eignung von 'Folio/Oktav' betroffen; eine saubere Reparatur würde mehrere Gruppen neu zuschneiden.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0237",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Personen-Gruppen sind als Biografie/Autobiografie-Typen nicht aus den Namen selbst erkennbar; das erfordert eine grundlegende Neukonstruktion des Puzzles.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0240",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Trennung zwischen TV-Formaten und TV-Genres ist in mehreren Items grundsätzlich instabil; das lässt sich nicht mit 1–4 lokalen Patches sauber lösen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0243",
+      "action": "patch",
+      "rationale": "Die problematische Überschneidung liegt vor allem in der Rock/Pop-Abgrenzung; klarere Personen-vs.-Band-Labels plus ein passender Bandname beheben das minimal.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "label",
+          "oldValue": "Deutsche Rock-Künstler",
+          "newValue": "Deutsche Bands",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Nena",
+          "newValue": "Die Ärzte",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "group_c",
+          "field": "label",
+          "oldValue": "Deutsche Pop-Künstler",
+          "newValue": "Deutschsprachige Solokünstler",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0264",
+      "action": "patch",
+      "rationale": "Die Materialgruppe ist eher eine Arten-Gruppe als eine Stil-Gruppe; außerdem vermeidet ein neutralerer Typ die starke Meißen-Überlappung.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "label",
+          "oldValue": "Keramik-Stile",
+          "newValue": "Keramikarten",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Porzellan",
+          "newValue": "Fayence",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0265",
+      "action": "patch",
+      "rationale": "Zwei Grenzfälle verwischen Produkt und Anwendung; mit je einem klareren Produkt und einer klareren Anwendung wird die Trennung stabil.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Linse",
+          "newValue": "Flasche",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Trinkglas",
+          "newValue": "Isolierung",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0268",
+      "action": "patch",
+      "rationale": "Die Mustergruppe enthält zwei technisch geprägte Begriffe; einfache visuelle Muster passen besser zum Easy-Tier und trennen sauberer von Webtechniken.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Damast",
+          "newValue": "Punkte",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Jacquard",
+          "newValue": "Blumenmuster",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0280",
+      "action": "patch",
+      "rationale": "Die Gruppe ist falsch befüllt statt falsch benannt; vier konkrete Waren beheben das ohne Strukturänderung.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Eigenmarke",
+          "newValue": "Milch",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Markenprodukt",
+          "newValue": "Brot",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Sonderangebot",
+          "newValue": "Obst",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Aktionsware",
+          "newValue": "Waschmittel",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0313",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Überschneidung zwischen Kernbegriffen, Kategorien und teils auch den Schriften ist systematisch; eine faire Lösung braucht eine inhaltliche Neuordnung mehrerer Gruppen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0327",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Gruppen mischen Rang, Amt, Religion und historische Epoche zugleich; eine saubere Entflechtung würde mehrere Gruppen grundlegend neu aufbauen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0332",
+      "action": "patch",
+      "rationale": "Die direkte Redox-Überschneidung kommt vor allem durch 'Oxidation'; ein konkreter Verbrennungsbegriff plus präzisere Gruppenbezeichnung löst das lokal.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Verbrennungsreaktion",
+          "newValue": "Verbrennungsbegriffe",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Oxidation",
+          "newValue": "Zündtemperatur",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0352",
+      "action": "skip-would-break-structure",
+      "rationale": "Stummfilm und Expressionismus sind hier inhaltlich stark verschränkt, inklusive eines faktischen Titel-Doppels bei Caligari; das braucht eine größere redaktionelle Neusortierung.",
+      "patches": []
+    }
+  ]
+}

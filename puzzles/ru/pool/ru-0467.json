@@ -14,7 +14,6 @@
     {
       "id": "early_russian_music",
       "label": "XIX век",
-      "revealHint": "XIX ВЕК",
       "items": [
         "Глинка",
         "Балакирев",
@@ -25,7 +24,6 @@
     {
       "id": "late_russian_music",
       "label": "Рубеж XIX–XX вв.",
-      "revealHint": "РУБЕЖ ВЕКОВ",
       "items": [
         "Чайковский",
         "Рахманинов",
@@ -36,7 +34,6 @@
     {
       "id": "soviet_music",
       "label": "Советская эпоха",
-      "revealHint": "СОВЕТСКОЕ",
       "items": [
         "Шостакович",
         "Прокофьев",
@@ -47,12 +44,11 @@
     {
       "id": "modern_russian_music",
       "label": "Современная",
-      "revealHint": "СОВРЕМЕННАЯ",
       "items": [
         "Губайдулина",
         "Щедрин",
-        "Пярт",
-        "Канчели"
+        "Шнитке",
+        "Денисов"
       ]
     }
   ]

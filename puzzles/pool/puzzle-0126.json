@@ -16,8 +16,7 @@
   "groups": [
     {
       "id": "precious",
-      "label": "Precious metals",
-      "revealHint": "Precious",
+      "label": "Platinum-group metals",
       "items": [
         "Platinum",
         "Palladium",
@@ -27,8 +26,7 @@
     },
     {
       "id": "industrial",
-      "label": "Industrial metals",
-      "revealHint": "Industrial",
+      "label": "Base/utility metals",
       "items": [
         "Steel",
         "Aluminium",
@@ -39,7 +37,6 @@
     {
       "id": "music",
       "label": "Metal subgenres",
-      "revealHint": "Genres",
       "items": [
         "Thrash",
         "Doom",
@@ -50,7 +47,6 @@
     {
       "id": "alkali",
       "label": "Alkali metals",
-      "revealHint": "Alkali",
       "items": [
         "Lithium",
         "Sodium",

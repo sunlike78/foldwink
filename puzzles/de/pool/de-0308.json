@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Erstes Wort: Goethe",
-      "revealHint": "Weimarer Klassiker",
+      "label": "Werke von Goethe",
       "items": [
         "Faust",
         "Iphigenie",
@@ -24,8 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Erstes Wort: Schiller",
-      "revealHint": "Dramen-Klassiker",
+      "label": "Werke von Schiller",
       "items": [
         "Kabale",
         "Räuber",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Erstes Wort: Kafka",
-      "revealHint": "Prager Modernist",
+      "label": "Werke von Kafka",
       "items": [
         "Verwandlung",
         "Prozess",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Erstes Wort: Thomas Mann",
-      "revealHint": "Lübecker Autor",
+      "label": "Werke von Thomas Mann",
       "items": [
         "Buddenbrooks",
         "Zauberberg",

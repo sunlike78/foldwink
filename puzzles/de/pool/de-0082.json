@@ -33,17 +33,17 @@
     },
     {
       "id": "group_c",
-      "label": "Alpen-Nationalparks",
+      "label": "Nationalparks im Alpenraum",
       "items": [
         "Berchtesgaden",
-        "Bayerischer Wald",
+        "Kalkalpen",
         "Gesäuse",
         "Hohe Tauern"
       ]
     },
     {
       "id": "group_d",
-      "label": "Tiefland-Nationalparks",
+      "label": "Weitere Nationalparks",
       "items": [
         "Müritz",
         "Unteres Odertal",

@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Reformation",
-      "revealHint": "KIRCHE NEU GEDACHT",
       "items": [
         "Thesen ans Tor",
         "Ablassbrief verbrannt",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Aufklärung",
-      "revealHint": "VERNUNFT GEGEN DOGMA",
       "items": [
         "Kant über Pflicht",
         "Enzyklopädie erscheint",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Wiedervereinigung",
-      "revealHint": "GETEILT DANN EINS",
       "items": [
         "Grenzpfahl umgefallen",
         "Verwandte umarmt",
@@ -47,9 +44,8 @@
     {
       "id": "group_d",
       "label": "Frauenwahlrecht",
-      "revealHint": "STIMME ENDLICH GLEICH",
       "items": [
-        "1918 erste Wahl",
+        "1919 erste Wahl",
         "Langer Kampf davor",
         "Zettel wie der Mann",
         "Recht erkämpft"

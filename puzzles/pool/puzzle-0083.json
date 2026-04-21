@@ -5,7 +5,7 @@
   "groups": [
     {
       "id": "latin-dances",
-      "label": "Latin Dances",
+      "label": "Latin Ballroom Dances",
       "items": [
         "Rumba",
         "Samba",
@@ -15,7 +15,7 @@
     },
     {
       "id": "ballroom",
-      "label": "Ballroom Dances",
+      "label": "Standard Ballroom Dances",
       "items": [
         "Waltz",
         "Foxtrot",

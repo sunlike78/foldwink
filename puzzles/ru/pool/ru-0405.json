@@ -14,7 +14,6 @@
     {
       "id": "abstract_art",
       "label": "Абстракционизм",
-      "revealHint": "АБСТРАКЦИЯ",
       "items": [
         "Кандинский",
         "Мондриан",
@@ -25,18 +24,16 @@
     {
       "id": "pop_art",
       "label": "Поп-арт",
-      "revealHint": "ПОП-АРТ",
       "items": [
         "Уорхол",
         "Лихтенштейн",
-        "Хамеринг",
+        "Ричард Гамильтон",
         "Джаспер Джонс"
       ]
     },
     {
       "id": "conceptual_art",
       "label": "Концептуальное",
-      "revealHint": "КОНЦЕПТ",
       "items": [
         "Дюшан",
         "Кунс",
@@ -47,10 +44,9 @@
     {
       "id": "street_art_artists",
       "label": "Уличное искусство",
-      "revealHint": "СТРИТ-АРТ",
       "items": [
         "Бэнкси",
-        "Ромерo Britto",
+        "Invader",
         "Shepard Fairey",
         "JR"
       ]
