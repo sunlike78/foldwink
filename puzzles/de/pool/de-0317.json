@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Freuds Triebe",
-      "revealHint": "Antriebskräfte",
       "items": [
         "Eros",
         "Thanatos",
-        "Libido",
+        "Sexualtrieb",
         "Aggressionstrieb"
       ]
     },
     {
       "id": "group_b",
-      "label": "Freuds Instanzen",
-      "revealHint": "Persönlichkeit",
+      "label": "Freuds Psyche",
       "items": [
         "Es",
         "Ich",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Freuds Konzepte",
-      "revealHint": "Theoretische Ideen",
       "items": [
         "Verdrängung",
         "Übertragung",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Freuds Methoden",
-      "revealHint": "Therapieverfahren",
       "items": [
         "Freie Assoziation",
         "Traumdeutung",

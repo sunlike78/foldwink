@@ -22,9 +22,7 @@
         "Hyena",
         "Wild Dog",
         "Coyote"
-      ],
-      "color": "yellow",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g2",
@@ -34,9 +32,7 @@
         "Ant",
         "Bat",
         "Prairie Dog"
-      ],
-      "color": "green",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g3",
@@ -44,11 +40,9 @@
       "items": [
         "Dolphin",
         "Whale",
-        "Orca",
+        "Porpoise",
         "Narwhal"
-      ],
-      "color": "blue",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g4",
@@ -58,9 +52,7 @@
         "Goose",
         "Flamingo",
         "Parakeet"
-      ],
-      "color": "purple",
-      "revealHint": ""
+      ]
     }
   ]
 }

@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Fairness",
-      "revealHint": "REGELN ÜBER SIEG",
       "items": [
         "Gegner aufhelfen",
         "Vorteil ablehnen",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Ehrgeiz",
-      "revealHint": "SIEG UM JEDEN PREIS",
       "items": [
         "Training bei 38 Grad",
         "Schmerz ignorieren",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Angeben",
-      "revealHint": "SCHAUEN WIE GUT ICH BIN",
       "items": [
         "Aufwärmen mit Show",
         "Jubel ohne Tor",
@@ -47,10 +44,9 @@
     {
       "id": "group_d",
       "label": "Teamgeist",
-      "revealHint": "ZUSAMMEN STÄRKER",
       "items": [
         "Mitspieler freistellen",
-        "Eigentor zugeben",
+        "Pass statt Alleingang",
         "Aufbauen nach Fehler",
         "Kreis vor Spiel bilden"
       ]

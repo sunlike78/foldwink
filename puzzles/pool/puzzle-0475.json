@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "ANCIENT",
-      "revealHint": "Ancient",
       "items": [
         "Thermopylae",
         "Marathon",
@@ -28,18 +27,16 @@
     {
       "id": "g2",
       "label": "MEDIEVAL",
-      "revealHint": "Medieval",
       "items": [
         "Hastings",
         "Agincourt",
         "Crécy",
-        "Poitiers"
+        "Bannockburn"
       ]
     },
     {
       "id": "g3",
       "label": "NAPOLEONIC",
-      "revealHint": "Napoleon",
       "items": [
         "Waterloo",
         "Trafalgar",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "WORLD WAR II",
-      "revealHint": "WWII",
       "items": [
         "Stalingrad",
         "Midway",

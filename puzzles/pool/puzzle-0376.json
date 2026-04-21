@@ -17,10 +17,9 @@
     {
       "id": "g1",
       "label": "Geometry Theorems",
-      "revealHint": "Shape",
       "items": [
         "Pythagorean Theorem",
-        "Euler's Formula",
+        "Euler's Polyhedron Formula",
         "Thales' Theorem",
         "Midpoint Theorem"
       ]
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "Number Theory Theorems",
-      "revealHint": "Primes",
       "items": [
         "Fermat's Last Theorem",
         "Euler's Theorem",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "Calculus Theorems",
-      "revealHint": "Limit",
       "items": [
         "Mean Value Theorem",
         "Fundamental Theorem of Calculus",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "Algebra Theorems",
-      "revealHint": "Equation",
       "items": [
         "Binomial Theorem",
         "Factor Theorem",

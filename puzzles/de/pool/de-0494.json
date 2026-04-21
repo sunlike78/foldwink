@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "SETI-Suche",
-      "revealHint": "Wie man sucht",
+      "label": "SETI-Methoden & -Instrumente",
       "items": [
         "Radioteleskop",
         "Optisches SETI",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Außerird.-Konzepte",
-      "revealHint": "Theorien & Ideen",
       "items": [
         "Fermi-Paradoxon",
         "Kardaschev-Skala",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Außerird.-Theorien",
-      "revealHint": "Warum wir allein",
       "items": [
         "Rare Earth Hypothesis",
         "Dunkle Wald-Theorie",
@@ -47,12 +44,11 @@
     {
       "id": "group_d",
       "label": "SETI-Projekte",
-      "revealHint": "Bekannte Programme",
       "items": [
         "SETI@home",
         "Breakthrough Listen",
-        "WOW-Signal",
-        "Arecibo-Botschaft"
+        "Project Phoenix",
+        "SERENDIP"
       ]
     }
   ]

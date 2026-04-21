@@ -14,18 +14,16 @@
     {
       "id": "european_museums",
       "label": "Европейские",
-      "revealHint": "ЕВРОПА",
       "items": [
         "Лувр",
         "Прадо",
-        "Метрополитен",
+        "Британский музей",
         "Уффици"
       ]
     },
     {
       "id": "american_museums",
       "label": "Американские",
-      "revealHint": "АМЕРИКА",
       "items": [
         "MoMA",
         "Metropolitan",
@@ -36,7 +34,6 @@
     {
       "id": "asian_museums",
       "label": "Азиатские",
-      "revealHint": "АЗИЯ",
       "items": [
         "Дворец-музей Тайбэй",
         "Национальный Токио",
@@ -47,7 +44,6 @@
     {
       "id": "russian_museums_2",
       "label": "Российские",
-      "revealHint": "РОССИЯ",
       "items": [
         "Третьяковская галерея",
         "Русский музей",

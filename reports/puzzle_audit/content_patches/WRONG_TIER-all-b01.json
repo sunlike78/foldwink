@@ -1,0 +1,95 @@
+{
+  "batchIndex": 0,
+  "decisions": [
+    {
+      "puzzleId": "de-0093",
+      "action": "skip-would-break-structure",
+      "rationale": "The fairness issue is the entire puzzle concept: all four groups depend on abstract philosopher-specific terminology that is not easy-tier. Fixing it would require replacing most items and labels across the whole puzzle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0226",
+      "action": "skip-would-break-structure",
+      "rationale": "The problem is the full knowledge domain and tier, not one bad item. Making this easy would require rebuilding all four mythology-based groups with simpler content.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0409",
+      "action": "skip-would-break-structure",
+      "rationale": "The puzzle is uniformly too specialist for medium, and the shortened aria incipits are the core structure. A fair fix would require broad replacement of items or a full re-concepting.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0432",
+      "action": "skip-would-break-structure",
+      "rationale": "The decade assignments are broadly unstable across many items and groups, not isolated to one entry. Repairing fairness would require restructuring the whole puzzle around a different organizing principle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0045",
+      "action": "skip-would-break-structure",
+      "rationale": "This is an easy-tier mismatch across the entire set of architectural vocabulary. A proper fix would require replacing most groups with more everyday building categories.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0314",
+      "action": "skip-would-break-structure",
+      "rationale": "The issue is the overall reliance on hobby board-game taxonomy and titles, which is not easy-tier. Fixing it would require replacing the full puzzle concept, not a small patch.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0335",
+      "action": "skip-would-break-structure",
+      "rationale": "Most items across all groups are technical phobia terms, so the whole puzzle is too vocabulary-heavy for easy. A fair repair would require rewriting the groups in plain-language fear categories.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0337",
+      "action": "skip-would-break-structure",
+      "rationale": "The full puzzle depends on specialist architecture-history classification. Making it easy would require replacing most items and likely the labels as well.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0340",
+      "action": "skip-would-break-structure",
+      "rationale": "Olympic debut-year sorting is specialized trivia across all four groups. Fixing the fairness issue would require a new grouping scheme and substantial item replacement.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0341",
+      "action": "skip-would-break-structure",
+      "rationale": "The entire puzzle uses specialist heraldry terminology that is not easy-tier. A proper fix would mean replacing the whole vocabulary set, not patching one or two entries.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0461",
+      "action": "skip-would-break-structure",
+      "rationale": "The puzzle is built from specialized surgical terminology throughout all groups. To make it fair for easy, the content would need to be rebuilt around broader everyday medical categories.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0486",
+      "action": "skip-would-break-structure",
+      "rationale": "The contronym concept and several entries rely on subtle dictionary senses across the whole puzzle. Repairing this for easy would require replacing the structure rather than making a minimal edit.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0287",
+      "action": "skip-would-break-structure",
+      "rationale": "The regional river sorting is too specialized for medium across multiple groups and labels. A fair fix would require swapping in a much more widely known geography set.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0305",
+      "action": "skip-would-break-structure",
+      "rationale": "The problem is the overall use of specialist French culinary terminology, not a single incorrect item. Making it fair for medium would require broad replacement and re-labeling.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0152",
+      "action": "skip-would-break-structure",
+      "rationale": "The easy-tier problem affects multiple groups, especially the knife-cut and sauce-technique vocabulary. A proper fix would require replacing much of the puzzle with everyday kitchen actions.",
+      "patches": []
+    }
+  ]
+}

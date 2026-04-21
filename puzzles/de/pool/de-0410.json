@@ -14,10 +14,9 @@
     {
       "id": "group_a",
       "label": "Sturm und Drang",
-      "revealHint": "1760–1785",
       "items": [
-        "Goethe (jung)",
-        "Schiller (jung)",
+        "Wagner",
+        "Leisewitz",
         "Klinger",
         "Lenz"
       ]
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Weimarer Klassik",
-      "revealHint": "1786–1832",
       "items": [
         "Wieland",
         "Herder",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Romantik-Vertreter",
-      "revealHint": "1795–1848",
       "items": [
         "Novalis",
         "Tieck",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Poetischer Realismus",
-      "revealHint": "1848–1900",
       "items": [
         "Fontane",
         "Storm",

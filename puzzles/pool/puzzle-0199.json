@@ -17,7 +17,6 @@
     {
       "id": "animal",
       "label": "Flying bat",
-      "revealHint": "Winged",
       "items": [
         "Cave",
         "Sonar",
@@ -27,8 +26,7 @@
     },
     {
       "id": "baseball",
-      "label": "Baseball bat",
-      "revealHint": "Ball",
+      "label": "Baseball",
       "items": [
         "Slugger",
         "Home Run",
@@ -39,7 +37,6 @@
     {
       "id": "eyelash",
       "label": "Bat an eyelash",
-      "revealHint": "Blink",
       "items": [
         "Flutter",
         "Lash Flick",
@@ -49,8 +46,7 @@
     },
     {
       "id": "cricket",
-      "label": "Cricket bat",
-      "revealHint": "Wicket",
+      "label": "Cricket",
       "items": [
         "Crease",
         "Innings",

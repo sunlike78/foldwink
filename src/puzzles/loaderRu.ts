@@ -1,9 +1,9 @@
 import type { Puzzle } from "../game/types/puzzle";
 
-const modules = import.meta.glob("../../puzzles/ru/pool/*.json", {
-  eager: true,
+// Lazy-loaded RU puzzle pool. See loaderDe.ts for the pattern rationale.
+const lazyModules = import.meta.glob("../../puzzles/ru/pool/*.json", {
   import: "default",
-}) as Record<string, unknown>;
+}) as Record<string, () => Promise<unknown>>;
 
 function isValidPuzzle(value: unknown): value is Puzzle {
   if (!value || typeof value !== "object") return false;
@@ -26,86 +26,112 @@ function isValidPuzzle(value: unknown): value is Puzzle {
   return true;
 }
 
-function buildPool(): Puzzle[] {
-  const collected: Puzzle[] = [];
-  const seenIds = new Set<string>();
-  for (const [path, mod] of Object.entries(modules)) {
-    if (!isValidPuzzle(mod)) {
-      console.warn(`[puzzles/ru] dropping invalid puzzle at ${path}`);
-      continue;
-    }
-    if (seenIds.has(mod.id)) continue;
-    seenIds.add(mod.id);
-    collected.push(mod);
-  }
-  collected.sort((a, b) => a.id.localeCompare(b.id));
-  return collected;
-}
-
-export const RU_PUZZLE_POOL: readonly Puzzle[] = buildPool();
-export const RU_EASY_POOL: readonly Puzzle[] = RU_PUZZLE_POOL.filter(
-  (p) => p.difficulty === "easy",
-);
-export const RU_MEDIUM_POOL: readonly Puzzle[] = RU_PUZZLE_POOL.filter(
-  (p) => p.difficulty === "medium",
-);
-export const RU_HARD_POOL: readonly Puzzle[] = RU_PUZZLE_POOL.filter(
-  (p) => p.difficulty === "hard",
-);
-
 function compareByDifficultyScore(a: Puzzle, b: Puzzle): number {
-  // Prefer the GPT + heuristic blended editorialRank when available; fall
-  // back to the pure-heuristic difficultyScore; fall back to the midpoint.
   const sa = a.meta?.editorialRank ?? a.meta?.difficultyScore ?? 50;
   const sb = b.meta?.editorialRank ?? b.meta?.difficultyScore ?? 50;
   if (sa !== sb) return sa - sb;
   return a.id.localeCompare(b.id);
 }
 
-export const RU_EASY_POOL_RAMPED: readonly Puzzle[] = [...RU_EASY_POOL].sort(
-  compareByDifficultyScore,
-);
-export const RU_MEDIUM_POOL_RAMPED: readonly Puzzle[] = [...RU_MEDIUM_POOL].sort(
-  compareByDifficultyScore,
-);
-export const RU_HARD_POOL_RAMPED: readonly Puzzle[] = [...RU_HARD_POOL].sort(
-  compareByDifficultyScore,
-);
+const pool: Puzzle[] = [];
+const easy: Puzzle[] = [];
+const medium: Puzzle[] = [];
+const hard: Puzzle[] = [];
+const easyRamped: Puzzle[] = [];
+const mediumRamped: Puzzle[] = [];
+const hardRamped: Puzzle[] = [];
+const byId = new Map<string, Puzzle>();
+let loadPromise: Promise<void> | null = null;
 
-function getFromPool(pool: readonly Puzzle[], index: number): Puzzle | undefined {
-  if (pool.length === 0) return undefined;
-  const idx = ((index % pool.length) + pool.length) % pool.length;
-  return pool[idx];
+export function ensureRuLoaded(): Promise<void> {
+  if (loadPromise) return loadPromise;
+  loadPromise = (async () => {
+    const paths = Object.keys(lazyModules).sort();
+    const collected: Puzzle[] = [];
+    const seen = new Set<string>();
+    for (const path of paths) {
+      let mod: unknown;
+      try {
+        mod = await lazyModules[path]();
+      } catch (err) {
+        console.warn(`[puzzles/ru] failed to load ${path}: ${String(err)}`);
+        continue;
+      }
+      if (!isValidPuzzle(mod)) {
+        console.warn(`[puzzles/ru] dropping invalid puzzle at ${path}`);
+        continue;
+      }
+      if (seen.has(mod.id)) continue;
+      seen.add(mod.id);
+      collected.push(mod);
+    }
+    collected.sort((a, b) => a.id.localeCompare(b.id));
+    pool.length = 0;
+    pool.push(...collected);
+    easy.length = 0;
+    easy.push(...collected.filter((p) => p.difficulty === "easy"));
+    medium.length = 0;
+    medium.push(...collected.filter((p) => p.difficulty === "medium"));
+    hard.length = 0;
+    hard.push(...collected.filter((p) => p.difficulty === "hard"));
+    easyRamped.length = 0;
+    easyRamped.push(...[...easy].sort(compareByDifficultyScore));
+    mediumRamped.length = 0;
+    mediumRamped.push(...[...medium].sort(compareByDifficultyScore));
+    hardRamped.length = 0;
+    hardRamped.push(...[...hard].sort(compareByDifficultyScore));
+    byId.clear();
+    for (const p of collected) byId.set(p.id, p);
+  })();
+  return loadPromise;
+}
+
+export function isRuLoaded(): boolean {
+  return pool.length > 0;
+}
+
+export const RU_PUZZLE_POOL: readonly Puzzle[] = pool;
+export const RU_EASY_POOL: readonly Puzzle[] = easy;
+export const RU_MEDIUM_POOL: readonly Puzzle[] = medium;
+export const RU_HARD_POOL: readonly Puzzle[] = hard;
+export const RU_EASY_POOL_RAMPED: readonly Puzzle[] = easyRamped;
+export const RU_MEDIUM_POOL_RAMPED: readonly Puzzle[] = mediumRamped;
+export const RU_HARD_POOL_RAMPED: readonly Puzzle[] = hardRamped;
+
+function getFromPool(p: readonly Puzzle[], index: number): Puzzle | undefined {
+  if (p.length === 0) return undefined;
+  const idx = ((index % p.length) + p.length) % p.length;
+  return p[idx];
 }
 
 export function getRUPuzzleById(id: string): Puzzle | undefined {
-  return RU_PUZZLE_POOL.find((p) => p.id === id);
+  return byId.get(id);
 }
 
-export function getRUPuzzleByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_PUZZLE_POOL, index);
+export function getRUPuzzleByIndex(i: number): Puzzle | undefined {
+  return getFromPool(pool, i);
 }
 
-export function getRUEasyByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_EASY_POOL, index);
+export function getRUEasyByIndex(i: number): Puzzle | undefined {
+  return getFromPool(easy, i);
 }
 
-export function getRUMediumByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_MEDIUM_POOL, index);
+export function getRUMediumByIndex(i: number): Puzzle | undefined {
+  return getFromPool(medium, i);
 }
 
-export function getRUHardByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_HARD_POOL, index);
+export function getRUHardByIndex(i: number): Puzzle | undefined {
+  return getFromPool(hard, i);
 }
 
-export function getRUEasyRampedByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_EASY_POOL_RAMPED, index);
+export function getRUEasyRampedByIndex(i: number): Puzzle | undefined {
+  return getFromPool(easyRamped, i);
 }
 
-export function getRUMediumRampedByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_MEDIUM_POOL_RAMPED, index);
+export function getRUMediumRampedByIndex(i: number): Puzzle | undefined {
+  return getFromPool(mediumRamped, i);
 }
 
-export function getRUHardRampedByIndex(index: number): Puzzle | undefined {
-  return getFromPool(RU_HARD_POOL_RAMPED, index);
+export function getRUHardRampedByIndex(i: number): Puzzle | undefined {
+  return getFromPool(hardRamped, i);
 }

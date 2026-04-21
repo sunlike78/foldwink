@@ -1,0 +1,201 @@
+{
+  "batchIndex": 4,
+  "decisions": [
+    {
+      "puzzleId": "puzzle-0480",
+      "action": "skip-would-break-structure",
+      "rationale": "At least two groups are non-unique: \"Pig\" overlaps with push-your-luck, and the bluffing group uses near-duplicate variants (\"Perudo\"/\"Liar's Dice\") that would require broader reworking.",
+      "patches": []
+    },
+    {
+      "puzzleId": "hard-001",
+      "action": "patch",
+      "rationale": "\"Record\" does not fit the ritual/observance sense of the group; replacing it resolves the mismatch without changing structure.",
+      "patches": [
+        {
+          "groupId": "idiom",
+          "field": "item",
+          "oldValue": "Record",
+          "newValue": "Sabbath",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0175",
+      "action": "patch",
+      "rationale": "\"Launch\" overlaps too naturally with the rocket group; replacing it makes the development group unique.",
+      "patches": [
+        {
+          "groupId": "develop",
+          "field": "item",
+          "oldValue": "Launch",
+          "newValue": "Alpha",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0199",
+      "action": "patch",
+      "rationale": "The sports groups contain general baseball/cricket terms rather than bat-specific terms, so broadening those two labels removes the unfair overlap.",
+      "patches": [
+        {
+          "groupId": "baseball",
+          "field": "label",
+          "oldValue": "Baseball bat",
+          "newValue": "Baseball",
+          "itemIndex": null
+        },
+        {
+          "groupId": "cricket",
+          "field": "label",
+          "oldValue": "Cricket bat",
+          "newValue": "Cricket",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0255",
+      "action": "patch",
+      "rationale": "The crime-scene group overlaps with evidence/clues because two items are evidence-related rather than scene-setting.",
+      "patches": [
+        {
+          "groupId": "evidence",
+          "field": "item",
+          "oldValue": "Evidence Bag",
+          "newValue": "Flashlight",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "evidence",
+          "field": "item",
+          "oldValue": "Witness Statement",
+          "newValue": "Forensics Marker",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0290",
+      "action": "patch",
+      "rationale": "Refining the first label removes Norway's overlap with the Nordic-cross group.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "label",
+          "oldValue": "Flags: Red, White and Blue Tricolour",
+          "newValue": "Flags: Horizontal Red, White and Blue Tricolour",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0322",
+      "action": "skip-would-break-structure",
+      "rationale": "The artist-based subgenre groupings are broadly non-exclusive across multiple groups, so fixing fairness would require rebuilding much of the puzzle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0352",
+      "action": "skip-would-break-structure",
+      "rationale": "The structural families overlap conceptually in several directions (for example dome/frame/shell), so a fair fix would require substantial regrouping.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0353",
+      "action": "skip-would-break-structure",
+      "rationale": "These board-game mechanics are cross-cutting by nature, and multiple groups would need redesign to become uniquely sortable.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0367",
+      "action": "skip-would-break-structure",
+      "rationale": "Several therapies span the listed schools, so the taxonomy itself is too overlapping for a small patch.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0400",
+      "action": "patch",
+      "rationale": "The start-based groups need to exclude all-dot/all-dash codes, and \"CH\" should be replaced with a standard Morse symbol for English use.",
+      "patches": [
+        {
+          "groupId": "g3",
+          "field": "label",
+          "oldValue": "MORSE STARTS WITH DOT",
+          "newValue": "MORSE MIXED, STARTS WITH DOT",
+          "itemIndex": null
+        },
+        {
+          "groupId": "g4",
+          "field": "label",
+          "oldValue": "MORSE STARTS WITH DASH",
+          "newValue": "MORSE MIXED, STARTS WITH DASH",
+          "itemIndex": null
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "CH",
+          "newValue": "0",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0450",
+      "action": "skip-would-break-structure",
+      "rationale": "The puzzle mixes overlapping transformation classes, near-synonyms, and projection types; making it exclusive would require major restructuring.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0472",
+      "action": "patch",
+      "rationale": "Several listed terms are dual-use across crimes and torts; replacing them with more exclusive doctrinal examples makes the group boundaries fairer.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Assault",
+          "newValue": "Arson",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Fraud",
+          "newValue": "Robbery",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Trespass",
+          "newValue": "Conversion",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0475",
+      "action": "patch",
+      "rationale": "\"Poitiers\" is historically ambiguous without qualification; replacing it with an unambiguous medieval battle fixes the issue cleanly.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Poitiers",
+          "newValue": "Bannockburn",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0476",
+      "action": "skip-would-break-structure",
+      "rationale": "The archetype roles overlap across several characters, especially in the trickster group, so a fair solution would need multiple replacements and likely rethinking of the set.",
+      "patches": []
+    }
+  ]
+}

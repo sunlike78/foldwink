@@ -5,6 +5,21 @@ import { colorIndexForGroup, SOLVED_COLOR_CLASSES } from "../game/solvedColors";
 import { MOTION_CLASS } from "../styles/motion";
 import { useT } from "../i18n/useLanguage";
 
+// Split the revealed label into per-character spans so the Wink CSS
+// keyframe can stagger each letter's fade-in via an index CSS var.
+// The stagger is purely cosmetic; aria-label still carries the full word.
+function renderWinkedLabel(text: string): React.ReactNode {
+  return Array.from(text).map((ch, i) => (
+    <span
+      key={i}
+      className="fw-wink-letter"
+      style={{ ["--i" as string]: i } as React.CSSProperties}
+    >
+      {ch}
+    </span>
+  ));
+}
+
 interface Props {
   puzzle: Puzzle;
   solvedGroupIds: readonly string[];
@@ -114,6 +129,15 @@ export function FoldwinkTabs({
             );
           }
 
+          // Celebrate the Wink payoff: when a tab is winked (and not yet
+          // solved), render the label letter-by-letter with a staggered
+          // fade so the reveal feels like something the player chose,
+          // not a silent text swap.
+          const content = tab.winked && !tab.solved ? (
+            renderWinkedLabel(tab.display)
+          ) : (
+            tab.display
+          );
           return (
             <div
               key={`${tab.groupId}:${stageKey}`}
@@ -125,7 +149,7 @@ export function FoldwinkTabs({
                   ✦
                 </span>
               )}
-              {tab.display}
+              {content}
             </div>
           );
         })}

@@ -1,0 +1,191 @@
+{
+  "batchIndex": 0,
+  "decisions": [
+    {
+      "puzzleId": "de-0053",
+      "action": "patch",
+      "rationale": "„Krapfen“ und „Berliner“ sind regionale Bezeichnungen für sehr ähnliches bzw. dasselbe Gebäck; ein Eintrag sollte ersetzt werden.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Berliner",
+          "newValue": "Quarkbällchen",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0112",
+      "action": "patch",
+      "rationale": "„Maifeiertag“ und „Tag der Arbeit“ bezeichnen denselben Feiertag; einer der beiden Einträge muss ersetzt werden.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Maifeiertag",
+          "newValue": "Reformationstag",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0254",
+      "action": "patch",
+      "rationale": "„Deutsches Historisches“ und „DHM Berlin“ verweisen auf dasselbe Museum.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "DHM Berlin",
+          "newValue": "Zeitgeschichtliches Forum",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0352",
+      "action": "patch",
+      "rationale": "„Das Cabinet“ und „Caligari“ referenzieren denselben Film und erzeugen eine unfaire Dopplung über zwei Gruppen.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Das Cabinet",
+          "newValue": "Der letzte Mann",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0361",
+      "action": "patch",
+      "rationale": "„Nachtwache“ und „Die Nachtwache“ sind derselbe Titel; ein eigener Ölgemälde-Eintrag ist nötig.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Nachtwache",
+          "newValue": "Sternennacht",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0366",
+      "action": "patch",
+      "rationale": "„Pinot Noir“ und „Spätburgunder“ sind dieselbe Rebsorte unter verschiedenen Namen.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Pinot Noir",
+          "newValue": "Syrah",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0446",
+      "action": "patch",
+      "rationale": "„Automat. Schreiben“ und „Écriture automatique“ sind dasselbe Verfahren in zwei Bezeichnungen.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Automat. Schreiben",
+          "newValue": "Cadavre exquis",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0241",
+      "action": "patch",
+      "rationale": "“Birthday Card” is a subtype of “Greeting Card,” so the group contains a nested duplicate.",
+      "patches": [
+        {
+          "groupId": "mailables",
+          "field": "item",
+          "oldValue": "Birthday Card",
+          "newValue": "Postcard",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0092",
+      "action": "patch",
+      "rationale": "“Sublime” and “Sublimity” are near-duplicates in the same group.",
+      "patches": [
+        {
+          "groupId": "romantic",
+          "field": "item",
+          "oldValue": "Sublimity",
+          "newValue": "Nature",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0378",
+      "action": "skip-would-break-structure",
+      "rationale": "The fairness issue is structural: multiple near-synonyms within one group and overlapping adjacent category concepts. A clean fix would require redesigning more than a single item or label.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0450",
+      "action": "skip-would-break-structure",
+      "rationale": "The similarity-transforms group contains multiple overlapping near-duplicates, and the surrounding mathematical families are also close enough that a fair repair would require broader restructuring.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0047",
+      "action": "patch",
+      "rationale": "«Хоккей» и «Айсхоккей» в этом контексте воспринимаются как одно и то же.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Айсхоккей",
+          "newValue": "Юкигассен",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0074",
+      "action": "skip-would-break-structure",
+      "rationale": "Проблема системная: в нескольких группах элементы построены на синонимах и близких оттенках, поэтому точечная замена одного-двух items не исправит структуру честно.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0080",
+      "action": "patch",
+      "rationale": "В группе «Цвета моря» есть слишком близкие оттенки; достаточно заменить один из почти дублирующих элементов на более самостоятельный цвет.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Бирюзово-синий",
+          "newValue": "Индиго",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0302",
+      "action": "patch",
+      "rationale": "«Гоблин-акула» и «Акула-домовой» — два названия одной и той же акулы.",
+      "patches": [
+        {
+          "groupId": "deep_sharks",
+          "field": "item",
+          "oldValue": "Акула-домовой",
+          "newValue": "Плащеносная акула",
+          "itemIndex": 1
+        }
+      ]
+    }
+  ]
+}

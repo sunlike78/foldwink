@@ -1,0 +1,102 @@
+{
+  "batchIndex": 0,
+  "decisions": [
+    {
+      "puzzleId": "de-0238",
+      "action": "patch",
+      "rationale": "Die Fairness-Probleme liegen bei zwei unklaren bzw. zu schweren Autoren; die Gruppenstruktur bleibt mit zwei bekannten Reiseschriftstellern erhalten.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Thielicke",
+          "newValue": "Goethe",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Roth",
+          "newValue": "Heine",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0373",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Beanstandung betrifft mehrere Items in mindestens zwei Gruppen; eine faire Korrektur würde eine inhaltliche Neuaufstellung ganzer Gruppen erfordern, nicht nur 1–4 Minimalpatches.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0433",
+      "action": "patch",
+      "rationale": "Vier Slogans sind für ein deutsches Medium-Puzzle zu unbekannt; gezielte Ersetzungen durch breiter bekannte Werbesprüche beheben das ohne Strukturänderung.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Samsung needs you",
+          "newValue": "Connecting People",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Made for real life",
+          "newValue": "Hello Moto",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Inspire Innovate",
+          "newValue": "Life's Good",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Create together",
+          "newValue": "Never Stop Exploring",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0344",
+      "action": "patch",
+      "rationale": "Проблема в нескольких слишком специальных или неестественно оформленных терминах; точечные замены делают набор заметно более понятным для easy-уровня.",
+      "patches": [
+        {
+          "groupId": "optical_illusions",
+          "field": "item",
+          "oldValue": "Невозм. треугольник",
+          "newValue": "Треугольник Пенроуза",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "perception_tricks",
+          "field": "item",
+          "oldValue": "Afterimage",
+          "newValue": "Послеобраз",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "perception_tricks",
+          "field": "item",
+          "oldValue": "Иллюзия Мюллера",
+          "newValue": "Иллюзия Мюллера-Лайера",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "perception_tricks",
+          "field": "item",
+          "oldValue": "Эффект Пандема",
+          "newValue": "Утка-кролик",
+          "itemIndex": 3
+        }
+      ]
+    }
+  ]
+}

@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Sortieralgorithmen",
-      "revealHint": "Ordnung herstellen",
       "items": [
         "Quicksort",
         "Mergesort",
@@ -24,10 +23,9 @@
     },
     {
       "id": "group_b",
-      "label": "Suchalgorithmen",
-      "revealHint": "Etwas finden",
+      "label": "Graphsuchalgorithmen",
       "items": [
-        "Binäre Suche",
+        "Bidirektionale Suche",
         "Breitensuche",
         "Tiefensuche",
         "A-Stern"
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Graphenalgorithmen",
-      "revealHint": "Graphen-Analyse",
       "items": [
         "Dijkstra",
         "Bellman-Ford",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Kryptographiealgorithmen",
-      "revealHint": "Verschlüsseln",
+      "label": "Kryptographische Verfahren",
       "items": [
         "AES",
         "RSA",

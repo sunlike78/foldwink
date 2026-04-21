@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Temperatur-Gegensätze",
-      "revealHint": "Heiß oder kalt",
+      "label": "Temperaturwörter",
       "items": [
         "heiß",
         "kalt",
@@ -24,8 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Größen-Gegensätze",
-      "revealHint": "Groß oder klein",
+      "label": "Größenwörter",
       "items": [
         "riesig",
         "winzig",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Geschwindigkeits-Gegensätze",
-      "revealHint": "Schnell oder langsam",
+      "label": "Geschwindigkeitswörter",
       "items": [
         "rasend",
         "gemächlich",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Emotions-Gegensätze",
-      "revealHint": "Froh oder traurig",
+      "label": "Emotionswörter",
       "items": [
         "heiter",
         "trübsinnig",

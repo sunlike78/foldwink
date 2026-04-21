@@ -1,0 +1,224 @@
+{
+  "batchIndex": 5,
+  "decisions": [
+    {
+      "puzzleId": "puzzle-0478",
+      "action": "patch",
+      "rationale": "The MMA group overlaps with boxing on shared class names; adding standard UFC/MMA weight values makes those items uniquely identifiable without restructuring.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Strawweight",
+          "newValue": "Women's Strawweight (115 lb)",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Flyweight",
+          "newValue": "Flyweight (125 lb)",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Bantamweight",
+          "newValue": "Bantamweight (135 lb)",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Featherweight",
+          "newValue": "Featherweight (145 lb)",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0488",
+      "action": "patch",
+      "rationale": "The problem is the category scope, not a single item; renaming the group to a broader and accurate cryptography family resolves the ambiguity.",
+      "patches": [
+        {
+          "groupId": "g3",
+          "field": "label",
+          "oldValue": "ASYMMETRIC / PUBLIC KEY",
+          "newValue": "PUBLIC-KEY CRYPTOGRAPHY",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0489",
+      "action": "patch",
+      "rationale": "Two items in the divide-and-conquer group are hybrids; replacing them with cleaner divide-and-conquer sorts fixes the overlap while preserving the structure.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Tim Sort",
+          "newValue": "Bitonic Sort",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Intro Sort",
+          "newValue": "Stooge Sort",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0014",
+      "action": "skip-would-break-structure",
+      "rationale": "The overlap is systemic across multiple habitat-based berry groups at easy tier; fixing it cleanly would require broader recategorization, not 1–4 minimal patches.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0067",
+      "action": "skip-would-break-structure",
+      "rationale": "The geography labels overlap structurally: several seas can belong both to Russia and to Europe/Asia, so a fair fix would require redesigning the category scheme.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0076",
+      "action": "skip-subjective",
+      "rationale": "The flagged explanation refers to 'Параллелограмм', but that item is not present in the puzzle. The current groups are internally consistent.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0112",
+      "action": "patch",
+      "rationale": "The generic 'Герои' label overlaps with other roles; narrowing it to fairy-tale heroines and replacing the one mismatched male character resolves the issue.",
+      "patches": [
+        {
+          "groupId": "heroes",
+          "field": "label",
+          "oldValue": "Герои",
+          "newValue": "Сказочные героини",
+          "itemIndex": null
+        },
+        {
+          "groupId": "heroes",
+          "field": "item",
+          "oldValue": "Иван-дурак",
+          "newValue": "Елена Прекрасная",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0117",
+      "action": "patch",
+      "rationale": "The fish group is too broad relative to the 'other' group; narrowing it to commercially familiar fish removes the overlap without changing items.",
+      "patches": [
+        {
+          "groupId": "fish",
+          "field": "label",
+          "oldValue": "Рыбы",
+          "newValue": "Промысловые рыбы",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0126",
+      "action": "patch",
+      "rationale": "Only one item is misclassified: 'Блесна' is a lure, not bait in the same sense as the others. Replacing that item is the minimal fix.",
+      "patches": [
+        {
+          "groupId": "bait",
+          "field": "item",
+          "oldValue": "Блесна",
+          "newValue": "Кукуруза",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0142",
+      "action": "skip-would-break-structure",
+      "rationale": "Several groups contain multiple dishes that are not uniquely tied to the stated meat source, so a fair repair would require substantial reworking.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0164",
+      "action": "patch",
+      "rationale": "Near-duplicate locality wording across groups creates avoidable confusion; replacing one repeated tradition root is sufficient.",
+      "patches": [
+        {
+          "groupId": "painting",
+          "field": "item",
+          "oldValue": "Городецкая",
+          "newValue": "Палех",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0216",
+      "action": "patch",
+      "rationale": "The puzzle repeats the bee identity across two groups; replacing the social-insect item with another familiar social insect removes that duplication.",
+      "patches": [
+        {
+          "groupId": "social_insects",
+          "field": "item",
+          "oldValue": "Пчела рабочая",
+          "newValue": "Шершень",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0224",
+      "action": "patch",
+      "rationale": "The items are specifically the Great Lakes, so tightening the label makes the category distinct and factual.",
+      "patches": [
+        {
+          "groupId": "american_lakes",
+          "field": "label",
+          "oldValue": "Северная Америка",
+          "newValue": "Великие озёра",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0288",
+      "action": "skip-would-break-structure",
+      "rationale": "The bee duplication is real, but replacing it cleanly in an easy-tier 'raw materials' group without introducing obscure insects would require broader editorial rework.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0312",
+      "action": "patch",
+      "rationale": "The sports-club ambiguity can be reduced with minimal disambiguation of the overlapping Russian brands.",
+      "patches": [
+        {
+          "groupId": "russian_football",
+          "field": "label",
+          "oldValue": "Российский футбол",
+          "newValue": "Футбольные клубы России",
+          "itemIndex": null
+        },
+        {
+          "groupId": "russian_football",
+          "field": "item",
+          "oldValue": "ЦСКА",
+          "newValue": "ЦСКА Москва",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "hockey_teams",
+          "field": "item",
+          "oldValue": "Динамо",
+          "newValue": "Динамо Москва",
+          "itemIndex": 1
+        }
+      ]
+    }
+  ]
+}

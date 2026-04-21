@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "CLASSICAL CIPHERS",
-      "revealHint": "Hand",
       "items": [
         "Caesar Cipher",
         "Vigenere Cipher",
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "SYMMETRIC ENCRYPTION",
-      "revealHint": "Same",
       "items": [
         "AES",
         "DES",
@@ -38,8 +36,7 @@
     },
     {
       "id": "g3",
-      "label": "ASYMMETRIC / PUBLIC KEY",
-      "revealHint": "Pair",
+      "label": "PUBLIC-KEY CRYPTOGRAPHY",
       "items": [
         "RSA",
         "Diffie-Hellman",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "HASH FUNCTIONS",
-      "revealHint": "Hash",
       "items": [
         "MD5",
         "SHA-256",

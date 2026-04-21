@@ -26,8 +26,9 @@ import {
   langGetEasyPool,
   langGetMediumPool,
   langGetHardPool,
+  ensureLangLoaded,
 } from "../../puzzles/byLang";
-import { useLangStore } from "../../i18n/useLanguage";
+import { getLangSync, useLangStore } from "../../i18n/useLanguage";
 import { todayLocal } from "../../utils/date";
 
 function initialTodayDailyRecord(): DailyRecord | null {
@@ -66,6 +67,13 @@ function tryResumeSession(): ResumedSession | null {
   return { active: session.active, puzzle, screen: "game" };
 }
 
+// Before anything else: if the saved/active language is DE or RU, block
+// module evaluation on its chunk load. Without this, `tryResumeSession`
+// below would see an empty pool and drop the player's mid-round session.
+// Top-level await in an ESM module (appStore.ts is .ts → ESM at build)
+// is fully supported by Vite and our target browsers.
+await ensureLangLoaded(getLangSync());
+
 const resumed = tryResumeSession();
 
 export const useGameStore = createStore({
@@ -99,7 +107,9 @@ sessionPersistenceObserver(useGameStore);
 // When the player switches language, an in-flight game would carry its
 // original-language puzzle into a different-language chrome (English title
 // under Russian UI, etc.). Drop any active/resumable game and send them back
-// to the menu so the next action starts in the new language pool.
+// to the menu so the next action starts in the new language pool. Also
+// kick the lazy loader for the new language — fire-and-forget; menu stays
+// responsive, puzzle arrays populate as soon as the chunk resolves.
 let prevLang = useLangStore.getState().lang;
 useLangStore.subscribe((state) => {
   if (state.lang === prevLang) return;
@@ -109,4 +119,7 @@ useLangStore.subscribe((state) => {
     game.goToMenu();
   }
   clearActiveSession();
+  ensureLangLoaded(state.lang).catch((err) =>
+    console.warn(`[lang] failed to preload ${state.lang} pool:`, err),
+  );
 });

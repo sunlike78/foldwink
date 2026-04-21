@@ -7,18 +7,16 @@
     {
       "id": "romantic",
       "label": "Romantic Period",
-      "revealHint": "NATURE",
       "items": [
         "Sublime",
         "Passion",
-        "Sublimity",
+        "Nature",
         "Solitude"
       ]
     },
     {
       "id": "realist",
       "label": "Realist Period",
-      "revealHint": "REAL",
       "items": [
         "Ordinary",
         "Social",
@@ -29,7 +27,6 @@
     {
       "id": "modernist",
       "label": "Modernist Period",
-      "revealHint": "BREAK",
       "items": [
         "Fragment",
         "Stream",
@@ -40,7 +37,6 @@
     {
       "id": "postmodern",
       "label": "Postmodern Period",
-      "revealHint": "PLAY",
       "items": [
         "Irony",
         "Pastiche",

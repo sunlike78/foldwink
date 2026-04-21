@@ -32,6 +32,7 @@ import {
   getDEEasyRampedByIndex,
   getDEMediumRampedByIndex,
   getDEHardRampedByIndex,
+  ensureDeLoaded,
 } from "./loaderDe";
 import {
   RU_PUZZLE_POOL,
@@ -49,6 +50,7 @@ import {
   getRUEasyRampedByIndex,
   getRUMediumRampedByIndex,
   getRUHardRampedByIndex,
+  ensureRuLoaded,
 } from "./loaderRu";
 import { getLangSync } from "../i18n/useLanguage";
 import type { Lang } from "../i18n/strings";
@@ -146,6 +148,15 @@ function bundleFor(lang: Lang): LangBundle {
 // never a different-language substitute under localised chrome.
 export function langGetPuzzleByIdStrict(id: string): Puzzle | undefined {
   return bundleFor(getLangSync()).getById(id);
+}
+
+// Kick the lazy loader for a language chunk. EN is eager and resolves
+// immediately; DE/RU fetch their `import.meta.glob` entries via Vite's
+// dynamic-import plumbing. Idempotent per language.
+export function ensureLangLoaded(lang: Lang): Promise<void> {
+  if (lang === "de") return ensureDeLoaded();
+  if (lang === "ru") return ensureRuLoaded();
+  return Promise.resolve();
 }
 
 // currentBundle returns a per-tier composite: every tier independently

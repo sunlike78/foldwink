@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "BOXING (WBC)",
-      "revealHint": "Boxing",
       "items": [
         "Minimumweight",
         "Super Flyweight",
@@ -28,18 +27,16 @@
     {
       "id": "g2",
       "label": "UFC / MMA",
-      "revealHint": "MMA",
       "items": [
-        "Strawweight",
-        "Flyweight",
-        "Bantamweight",
-        "Featherweight"
+        "Women's Strawweight (115 lb)",
+        "Flyweight (125 lb)",
+        "Bantamweight (135 lb)",
+        "Featherweight (145 lb)"
       ]
     },
     {
       "id": "g3",
       "label": "FREESTYLE WRESTLING",
-      "revealHint": "Wrestling",
       "items": [
         "57 kg",
         "65 kg",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "JUDO",
-      "revealHint": "Judo",
       "items": [
         "Extra-Lightweight",
         "Half-Lightweight",

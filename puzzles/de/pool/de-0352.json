@@ -14,18 +14,16 @@
     {
       "id": "group_a",
       "label": "Stummfilme Meisterwerke",
-      "revealHint": "Ohne Ton",
       "items": [
         "Nosferatu",
         "Metropolis",
         "Der Golem",
-        "Das Cabinet"
+        "Der letzte Mann"
       ]
     },
     {
       "id": "group_b",
       "label": "Expressionistisch",
-      "revealHint": "Verzerrte Realität",
       "items": [
         "Caligari",
         "Schatten",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Nachkriegsfilm",
-      "revealHint": "Nach 1945",
       "items": [
         "Die Mörder",
         "Rosen für Pros.",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Neues Deutsches Kino",
-      "revealHint": "1960er–1970er",
       "items": [
         "Angst essen Seele",
         "Die Ehe der Maria",

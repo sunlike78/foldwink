@@ -18,8 +18,8 @@
       "id": "g1",
       "label": "PHYSICAL LAYER",
       "items": [
-        "Bandwidth",
-        "Latency",
+        "Hub",
+        "Repeater",
         "Fiber",
         "Coax"
       ]
@@ -41,7 +41,7 @@
         "IP Address",
         "Subnet",
         "Router",
-        "Gateway"
+        "Packet"
       ]
     },
     {
@@ -50,7 +50,7 @@
       "items": [
         "DNS",
         "HTTP",
-        "TLS",
+        "SMTP",
         "Proxy"
       ]
     }

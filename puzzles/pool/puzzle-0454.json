@@ -19,11 +19,10 @@
       "label": "NEBULAE",
       "items": [
         "Orion Nebula",
-        "Crab Nebula",
+        "Lagoon Nebula",
         "Helix Nebula",
         "Eagle Nebula"
-      ],
-      "revealHint": "Nebula"
+      ]
     },
     {
       "id": "g2",
@@ -33,8 +32,7 @@
         "Whirlpool Galaxy",
         "Sombrero Galaxy",
         "Triangulum"
-      ],
-      "revealHint": "Galaxy"
+      ]
     },
     {
       "id": "g3",
@@ -44,8 +42,7 @@
         "Beehive Cluster",
         "Omega Centauri",
         "Jewel Box"
-      ],
-      "revealHint": "Cluster"
+      ]
     },
     {
       "id": "g4",
@@ -55,8 +52,7 @@
         "Cassiopeia A",
         "Vela Remnant",
         "Tycho's Remnant"
-      ],
-      "revealHint": "Remnant"
+      ]
     }
   ]
 }

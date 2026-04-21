@@ -16,8 +16,7 @@
   "groups": [
     {
       "id": "g1",
-      "label": "Flags: Red, White and Blue Tricolour",
-      "revealHint": "Stripes",
+      "label": "Flags: Horizontal Red, White and Blue Tricolour",
       "items": [
         "Netherlands",
         "Luxembourg",
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "Flags: Nordic Cross Design",
-      "revealHint": "Cross",
       "items": [
         "Denmark",
         "Norway",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "Flags: Crescent and Star",
-      "revealHint": "Crescent",
       "items": [
         "Pakistan",
         "Algeria",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "Flags: Eagle Emblem",
-      "revealHint": "Eagle",
       "items": [
         "Germany",
         "Mexico",

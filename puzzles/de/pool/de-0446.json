@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Dada-Künstler",
-      "revealHint": "Anti-Kunst",
       "items": [
         "Hugo Ball",
         "Marcel Duchamp",
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Surrealisten",
-      "revealHint": "Traumlogik",
       "items": [
         "Salvador Dalí",
         "Magritte",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Dada-Techniken",
-      "revealHint": "Methoden",
       "items": [
         "Fotomontage",
         "Readymade",
@@ -47,9 +44,8 @@
     {
       "id": "group_d",
       "label": "Surrealist.-Techniken",
-      "revealHint": "Unbewusstes",
       "items": [
-        "Automat. Schreiben",
+        "Cadavre exquis",
         "Écriture automatique",
         "Traumprotokoll",
         "Grattage"

@@ -1,0 +1,203 @@
+{
+  "batchIndex": 2,
+  "decisions": [
+    {
+      "puzzleId": "de-9049",
+      "action": "patch",
+      "rationale": "„Eigentor zugeben“ liest sich stärker als Fairness/Ehrlichkeit als als Teamgeist. Ein klar kooperatives Team-Item behebt die Mehrdeutigkeit ohne Strukturänderung.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Eigentor zugeben",
+          "newValue": "Pass statt Alleingang",
+          "itemIndex": 1
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0050",
+      "action": "patch",
+      "rationale": "\"Fork\" is a tactic, not a special move. Replacing it with a castling variant keeps the group clearly chess-specific and accessible.",
+      "patches": [
+        {
+          "groupId": "moves",
+          "field": "item",
+          "oldValue": "Fork",
+          "newValue": "Kingside Castle",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0052",
+      "action": "patch",
+      "rationale": "The herding-dog group is weakened by generic type terms. Replacing the non-breed labels with specific breed names makes the set cleaner.",
+      "patches": [
+        {
+          "groupId": "herding",
+          "field": "item",
+          "oldValue": "Shepherd",
+          "newValue": "Australian Shepherd",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "herding",
+          "field": "item",
+          "oldValue": "Sheepdog",
+          "newValue": "Shetland Sheepdog",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0071",
+      "action": "patch",
+      "rationale": "\"Compass\" creates an unnecessary cue overlap with map-reading. A more distinct hiking item keeps the categories separate.",
+      "patches": [
+        {
+          "groupId": "hiking",
+          "field": "item",
+          "oldValue": "Compass",
+          "newValue": "Boots",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0079",
+      "action": "patch",
+      "rationale": "\"Relay\" is too broad for a sprint group. A specific sprint relay event makes the category fairer.",
+      "patches": [
+        {
+          "groupId": "sprints",
+          "field": "item",
+          "oldValue": "Relay",
+          "newValue": "4x100m Relay",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0103",
+      "action": "skip-would-break-structure",
+      "rationale": "The overlap is systemic across multiple groups defined by use/occasion rather than distinct shoe types. A fair fix would require reworking several categories, not a minimal patch.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0110",
+      "action": "skip-would-break-structure",
+      "rationale": "\"Fruit Trees\" substantially overlaps with \"Deciduous Trees,\" and the tropical/fruit split is also blurry. Fixing this cleanly would require a broader category redesign.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0135",
+      "action": "skip-would-break-structure",
+      "rationale": "The category boundaries are broadly fuzzy across formal, sun, warm, and sport headwear. A reliable fix needs more than one-item swaps and would effectively restructure the puzzle.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0235",
+      "action": "patch",
+      "rationale": "The Chinese/Japanese culture groups are weakened by items with broad East Asian associations. Replacing the least specific entries with clearer national cues improves fairness while preserving structure.",
+      "patches": [
+        {
+          "groupId": "japanese",
+          "field": "item",
+          "oldValue": "Bonsai",
+          "newValue": "Mount Fuji",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "food-chinese",
+          "field": "item",
+          "oldValue": "Spring Roll",
+          "newValue": "Peking Duck",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "food-chinese",
+          "field": "item",
+          "oldValue": "Fried Rice",
+          "newValue": "Mapo Tofu",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0236",
+      "action": "patch",
+      "rationale": "\"Castle\" and \"Forest\" are too generic for specifically Arthurian places. Replacing them with named Arthurian locations makes the set materially fairer.",
+      "patches": [
+        {
+          "groupId": "places",
+          "field": "item",
+          "oldValue": "Castle",
+          "newValue": "Tintagel",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "places",
+          "field": "item",
+          "oldValue": "Forest",
+          "newValue": "Logres",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0306",
+      "action": "skip-would-break-structure",
+      "rationale": "The steam-power and transport groups overlap at the category level, not just on one item. A fair repair would require rethinking at least one full group.",
+      "patches": []
+    },
+    {
+      "puzzleId": "puzzle-0313",
+      "action": "patch",
+      "rationale": "\"Focaccia\" is plausibly both a flatbread and a leavened bread. Replacing it with a more clearly flat-only bread resolves the ambiguity minimally.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Focaccia",
+          "newValue": "Matzo",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0331",
+      "action": "patch",
+      "rationale": "\"Orca\" is a whale, creating an avoidable species/subgroup overlap within the pod category. A sibling marine mammal keeps the group cleaner.",
+      "patches": [
+        {
+          "groupId": "g3",
+          "field": "item",
+          "oldValue": "Orca",
+          "newValue": "Porpoise",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "action": "patch",
+      "rationale": "\"Bowstring Arch Bridge\" overlaps too closely with tied-arch terminology for an easy puzzle. Replacing it with a more distinct arch subtype improves separation.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Bowstring Arch Bridge",
+          "newValue": "Deck Arch Bridge",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0356",
+      "action": "skip-would-break-structure",
+      "rationale": "The entire behavioural-economics group substantially overlaps with cognitive biases. A clean fix would require replacing or redefining the whole category.",
+      "patches": []
+    }
+  ]
+}

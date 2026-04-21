@@ -13,8 +13,7 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Einkommensteuer",
-      "revealHint": "Lohn & Gehalt",
+      "label": "Begriffe zur Einkommensteuer",
       "items": [
         "Grundfreibetrag",
         "Steuertarif",
@@ -24,8 +23,7 @@
     },
     {
       "id": "group_b",
-      "label": "Umsatzsteuer",
-      "revealHint": "Mehrwertsteuer",
+      "label": "Begriffe zur Umsatzsteuer",
       "items": [
         "Regelsteuersatz",
         "Ermäßigter Satz",
@@ -35,8 +33,7 @@
     },
     {
       "id": "group_c",
-      "label": "Gewerbesteuer",
-      "revealHint": "Unternehmen",
+      "label": "Begriffe zur Gewerbesteuer",
       "items": [
         "Hebesatz",
         "Gewerbeertrag",
@@ -46,8 +43,7 @@
     },
     {
       "id": "group_d",
-      "label": "Erbschaftsteuer",
-      "revealHint": "Nachlass",
+      "label": "Begriffe zur Erbschaft- und Schenkungsteuer",
       "items": [
         "Freibetrag",
         "Steuerklasse",

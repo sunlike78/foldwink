@@ -1,0 +1,239 @@
+{
+  "batchIndex": 0,
+  "decisions": [
+    {
+      "puzzleId": "de-0011",
+      "action": "patch",
+      "rationale": "Zwei Items überschneiden sich plausibel mit der anderen Frühstückskategorie; beide lassen sich punktuell ersetzen.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Butter",
+          "newValue": "Erdnussbutter",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Frischkäse",
+          "newValue": "Sahne",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0022",
+      "action": "patch",
+      "rationale": "Die Ambiguität entsteht vor allem durch das unscharfe Label des Elbe-Systems; mit einem präziseren Label ist die Abgrenzung klar.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "label",
+          "oldValue": "Elbe-System",
+          "newValue": "Elbe-Nebenflüsse",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0031",
+      "action": "skip-would-break-structure",
+      "rationale": "Das Puzzle mischt durchgehend zwei Sortierlogiken (Alkoholgehalt und Temperatur). Eine saubere Reparatur würde mehrere Gruppen grundlegend neu aufbauen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0040",
+      "action": "patch",
+      "rationale": "Die App-Gruppe lässt sich mit eindeutig app-artigen Einträgen präzisieren, ohne die restliche Struktur zu ändern.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Kamera",
+          "newValue": "Browser",
+          "itemIndex": 0
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Kalender",
+          "newValue": "Messenger",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Karten",
+          "newValue": "Taschenrechner",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Notizen",
+          "newValue": "Wecker",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0045",
+      "action": "patch",
+      "rationale": "Der klare Sachfehler liegt beim nicht-magischen Gegenstand; ein einzelner Austausch behebt das Problem minimal.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Rotkäppchens Korb",
+          "newValue": "Zauberstab",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0096",
+      "action": "patch",
+      "rationale": "Die Items sind als Burgteile stimmig; das zu enge Label ist das Problem.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "label",
+          "oldValue": "Burgwohnbereiche",
+          "newValue": "Burgbereiche",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0097",
+      "action": "patch",
+      "rationale": "Ein einzelnes Item ist doppeldeutig zwischen Schutz- und Waffenkategorie; ein direkter Ersatz reicht.",
+      "patches": [
+        {
+          "groupId": "group_b",
+          "field": "item",
+          "oldValue": "Schild",
+          "newValue": "Morgenstern",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0103",
+      "action": "patch",
+      "rationale": "Die Überschneidung lässt sich minimal lösen, indem die erste Gruppe zu Landtieren wird und die zwei marinen Säuger ersetzt werden.",
+      "patches": [
+        {
+          "groupId": "group_a",
+          "field": "label",
+          "oldValue": "Säugetiere",
+          "newValue": "Landtiere",
+          "itemIndex": null
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Walross",
+          "newValue": "Polarfuchs",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_a",
+          "field": "item",
+          "oldValue": "Narwal",
+          "newValue": "Moschusochse",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0107",
+      "action": "skip-would-break-structure",
+      "rationale": "Hier werden taxonomische Vogelgruppen mit Zugverhalten gemischt. Eine faire Lösung würde mindestens eine ganze Gruppe neu aufbauen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0149",
+      "action": "patch",
+      "rationale": "Die Tourenwagen-Gruppe wird mit zwei serienbezogenen Begriffen exklusiver und vermeidet allgemeine Motorsportwörter.",
+      "patches": [
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Slipstream",
+          "newValue": "TCR",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "group_d",
+          "field": "item",
+          "oldValue": "Fahrerfeld",
+          "newValue": "BTCC",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0153",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Überschneidungen betreffen das Grundprinzip des Puzzles: mehrere Gruppen beschreiben kompatible Ernährungsweisen statt trennscharfer Klassen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0207",
+      "action": "patch",
+      "rationale": "Ein einzelner Wendepunkt ist zu nah an einer bereits verwendeten Schlacht; ein Austausch behebt die Doppelbedeutung.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Stalingrad-Kessel",
+          "newValue": "Midway",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0210",
+      "action": "patch",
+      "rationale": "Die direkte Doppelverwendung desselben Begriffs lässt sich mit einem einzelnen Symbol-Ersatz sauber beheben.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Montagsdemo",
+          "newValue": "Begrüßungsgeld",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "de-0212",
+      "action": "skip-would-break-structure",
+      "rationale": "Die Regionalgruppen sind insgesamt unscharf und teils geografisch falsch. Eine saubere Korrektur würde mehrere Gruppen und Items gleichzeitig neu ordnen.",
+      "patches": []
+    },
+    {
+      "puzzleId": "de-0218",
+      "action": "patch",
+      "rationale": "Zwei regionale Marker sind nicht eindeutig genug; zwei klar schwäbische Orte lösen das minimal.",
+      "patches": [
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Allgäu",
+          "newValue": "Kempten",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "group_c",
+          "field": "item",
+          "oldValue": "Bodensee",
+          "newValue": "Memmingen",
+          "itemIndex": 2
+        }
+      ]
+    }
+  ]
+}

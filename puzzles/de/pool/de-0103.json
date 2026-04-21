@@ -13,11 +13,11 @@
   "groups": [
     {
       "id": "group_a",
-      "label": "Säugetiere",
+      "label": "Landtiere",
       "items": [
         "Eisbär",
-        "Walross",
-        "Narwal",
+        "Polarfuchs",
+        "Moschusochse",
         "Rentier"
       ]
     },

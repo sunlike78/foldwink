@@ -1,0 +1,95 @@
+{
+  "batchIndex": 1,
+  "decisions": [
+    {
+      "puzzleId": "ru-0304",
+      "action": "patch",
+      "rationale": "В группе однопроходных смешаны родовые и видовые названия, из-за чего возникают дубли по смыслу. Исправляю группу на четыре различимых таксона.",
+      "patches": [
+        {
+          "groupId": "monotremes",
+          "field": "item",
+          "oldValue": "Ехидна",
+          "newValue": "Короткоклювая ехидна",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "monotremes",
+          "field": "item",
+          "oldValue": "Проехидна",
+          "newValue": "Западная проехидна",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "monotremes",
+          "field": "item",
+          "oldValue": "Обыкновенная ехидна",
+          "newValue": "Восточная проехидна",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0335",
+      "action": "patch",
+      "rationale": "AABW дублирует по смыслу «Антарктическое донное». Заменяю один элемент на другой самостоятельный глубинный водный поток.",
+      "patches": [
+        {
+          "groupId": "deep_currents",
+          "field": "item",
+          "oldValue": "AABW",
+          "newValue": "Антарктическое промежуточное",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0340",
+      "action": "skip-subjective",
+      "rationale": "Флаг не соответствует текущему составу пазла: в группе есть только «Шарль Перро», отдельного «Перро» нет, явного дублирования сейчас нет.",
+      "patches": []
+    },
+    {
+      "puzzleId": "ru-0458",
+      "action": "patch",
+      "rationale": "«Если друг вдруг…» и «Песня о друге» — по сути одна и та же песня. Заменяю один элемент на другую известную авторскую песню.",
+      "patches": [
+        {
+          "groupId": "bard_songs",
+          "field": "item",
+          "oldValue": "Если друг вдруг…",
+          "newValue": "Он не вернулся из боя",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0240",
+      "action": "patch",
+      "rationale": "«Романский» и «Романеск» — дублетные названия одного стиля. Заменяю один элемент на другой средневековый архитектурный стиль.",
+      "patches": [
+        {
+          "groupId": "medieval_arch",
+          "field": "item",
+          "oldValue": "Романеск",
+          "newValue": "Византийский",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "ru-0469",
+      "action": "patch",
+      "rationale": "«Тора» и «Танах» находятся в отношении часть-целое и плохо работают как параллельные элементы одной группы. Заменяю один элемент на самостоятельный религиозный текст.",
+      "patches": [
+        {
+          "groupId": "abrahamic_texts",
+          "field": "item",
+          "oldValue": "Танах",
+          "newValue": "Талмуд",
+          "itemIndex": 3
+        }
+      ]
+    }
+  ]
+}

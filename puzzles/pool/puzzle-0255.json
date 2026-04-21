@@ -17,7 +17,6 @@
     {
       "id": "clues",
       "label": "Physical Clues",
-      "revealHint": "Clue",
       "items": [
         "Fingerprint",
         "Blood Stain",
@@ -28,7 +27,6 @@
     {
       "id": "sleuths",
       "label": "Detective Types",
-      "revealHint": "Sleuth",
       "items": [
         "Private Eye",
         "Inspector",
@@ -39,7 +37,6 @@
     {
       "id": "elements",
       "label": "Mystery Story Beats",
-      "revealHint": "Story",
       "items": [
         "Red Herring",
         "Plot Twist",
@@ -50,12 +47,11 @@
     {
       "id": "evidence",
       "label": "Crime Scene",
-      "revealHint": "Scene",
       "items": [
         "Chalk Outline",
         "Yellow Tape",
-        "Evidence Bag",
-        "Witness Statement"
+        "Flashlight",
+        "Forensics Marker"
       ]
     }
   ]

@@ -14,7 +14,6 @@
     {
       "id": "tech_companies",
       "label": "IT и технологии",
-      "revealHint": "IT",
       "items": [
         "Apple",
         "Google",
@@ -25,7 +24,6 @@
     {
       "id": "oil_companies",
       "label": "Нефть и газ",
-      "revealHint": "НЕФТЬ",
       "items": [
         "Газпром",
         "Роснефть",
@@ -36,18 +34,16 @@
     {
       "id": "retail_companies",
       "label": "Ритейл",
-      "revealHint": "РИТЕЙЛ",
       "items": [
-        "Amazon",
+        "Costco",
         "Walmart",
-        "Alibaba",
+        "Target",
         "IKEA"
       ]
     },
     {
       "id": "bank_companies",
       "label": "Банки",
-      "revealHint": "БАНКИ",
       "items": [
         "JPMorgan",
         "HSBC",

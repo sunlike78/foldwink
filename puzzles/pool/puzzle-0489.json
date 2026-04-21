@@ -17,18 +17,16 @@
     {
       "id": "g1",
       "label": "DIVIDE AND CONQUER",
-      "revealHint": "Split",
       "items": [
         "Merge Sort",
         "Quick Sort",
-        "Tim Sort",
-        "Intro Sort"
+        "Bitonic Sort",
+        "Stooge Sort"
       ]
     },
     {
       "id": "g2",
       "label": "INSERTION-BASED",
-      "revealHint": "Build",
       "items": [
         "Insertion Sort",
         "Shell Sort",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "SELECTION-BASED",
-      "revealHint": "Pick",
       "items": [
         "Selection Sort",
         "Heap Sort",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "DISTRIBUTION / NON-COMPARISON",
-      "revealHint": "Count",
       "items": [
         "Radix Sort",
         "Counting Sort",

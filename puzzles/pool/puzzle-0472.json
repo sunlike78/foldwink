@@ -17,29 +17,26 @@
     {
       "id": "g1",
       "label": "CRIMINAL LAW",
-      "revealHint": "Criminal",
       "items": [
         "Homicide",
         "Burglary",
-        "Assault",
-        "Fraud"
+        "Arson",
+        "Robbery"
       ]
     },
     {
       "id": "g2",
       "label": "CIVIL / TORT",
-      "revealHint": "Civil",
       "items": [
         "Negligence",
         "Defamation",
         "Nuisance",
-        "Trespass"
+        "Conversion"
       ]
     },
     {
       "id": "g3",
       "label": "CONSTITUTIONAL",
-      "revealHint": "Constitution",
       "items": [
         "Due Process",
         "Equal Protection",
@@ -50,7 +47,6 @@
     {
       "id": "g4",
       "label": "CONTRACT LAW",
-      "revealHint": "Contract",
       "items": [
         "Offer",
         "Acceptance",

@@ -18,7 +18,6 @@
     {
       "id": "fragile",
       "label": "Physically fragile",
-      "revealHint": "Fragile",
       "items": [
         "Glass",
         "Bone",
@@ -29,7 +28,6 @@
     {
       "id": "commit",
       "label": "Broken commitments",
-      "revealHint": "Commit",
       "items": [
         "Vow",
         "Oath",
@@ -40,7 +38,6 @@
     {
       "id": "secure",
       "label": "Break security",
-      "revealHint": "Secure",
       "items": [
         "Code",
         "Cipher",
@@ -51,11 +48,10 @@
     {
       "id": "idiom",
       "label": "Break a ritual",
-      "revealHint": "Ritual",
       "items": [
         "Silence",
         "Fast",
-        "Record",
+        "Sabbath",
         "Spell"
       ]
     }

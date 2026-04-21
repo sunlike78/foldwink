@@ -14,10 +14,9 @@
     {
       "id": "group_a",
       "label": "Öl auf Leinwand",
-      "revealHint": "Ölfarbe auf Tuch",
       "items": [
         "Mona Lisa",
-        "Nachtwache",
+        "Sternennacht",
         "Guernica",
         "Die Nachtwache"
       ]
@@ -25,7 +24,6 @@
     {
       "id": "group_b",
       "label": "Aquarell-Werke",
-      "revealHint": "Wasserfarbe",
       "items": [
         "Turner Seestücke",
         "Dürer Feldhasen",
@@ -36,7 +34,6 @@
     {
       "id": "group_c",
       "label": "Fresco-Werke",
-      "revealHint": "Auf nassen Putz",
       "items": [
         "Sixtinische Kapelle",
         "Letztes Abendmahl",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Skulpturen",
-      "revealHint": "Dreidimensional",
       "items": [
         "Pietà",
         "David",

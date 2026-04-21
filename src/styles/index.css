@@ -177,13 +177,47 @@ button {
   animation: fw-tab-reveal 220ms ease-out both;
 }
 
+/* Wink payoff: staggered letter fade-in across the newly-revealed tab.
+   The component splits the label into <span class="fw-wink-letter"> with
+   a `--i` CSS variable for position. Each letter eases in 30 ms later
+   than the previous one so the whole word visibly "assembles" instead
+   of appearing as a single text swap. 60 ms × up to 30 letters = a
+   cheap but visible celebration, no JS timers, no animation library. */
+@keyframes fw-wink-letter {
+  0% {
+    opacity: 0;
+    transform: translateY(3px) scale(0.96);
+    filter: blur(2px);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.fw-wink-letter {
+  display: inline-block;
+  opacity: 0;
+  animation: fw-wink-letter 380ms ease-out both;
+  animation-delay: calc(var(--i, 0) * 30ms);
+  /* Preserve whitespace so spaces don't collapse between spans. */
+  white-space: pre;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fw-result-pop,
   .fw-streak-pulse,
   .fw-shake,
   .fw-pop,
   .fw-tab-reveal,
+  .fw-wink-letter,
   [style*="fw-tab-fade"] {
     animation: none !important;
+    opacity: 1 !important;
   }
 }

@@ -14,7 +14,6 @@
     {
       "id": "group_a",
       "label": "Weiße Rebsorten",
-      "revealHint": "Weißweintrauben",
       "items": [
         "Riesling",
         "Chardonnay",
@@ -25,18 +24,16 @@
     {
       "id": "group_b",
       "label": "Rote Rebsorten",
-      "revealHint": "Rotweintrauben",
       "items": [
         "Cabernet",
         "Merlot",
-        "Pinot Noir",
+        "Syrah",
         "Spätburgunder"
       ]
     },
     {
       "id": "group_c",
       "label": "Weinproduktion Begriffe",
-      "revealHint": "Im Keller",
       "items": [
         "Gärung",
         "Maische",
@@ -47,7 +44,6 @@
     {
       "id": "group_d",
       "label": "Weinverkostung Begriffe",
-      "revealHint": "Beim Probieren",
       "items": [
         "Bouquet",
         "Abgang",

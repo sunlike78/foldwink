@@ -17,7 +17,6 @@
     {
       "id": "g1",
       "label": "NAHUATL: FOOD",
-      "revealHint": "Food",
       "items": [
         "Chocolate",
         "Tomato",
@@ -28,7 +27,6 @@
     {
       "id": "g2",
       "label": "NAHUATL: ANIMALS",
-      "revealHint": "Animal",
       "items": [
         "Ocelot",
         "Coyote",
@@ -39,7 +37,6 @@
     {
       "id": "g3",
       "label": "NAHUATL: PLANTS",
-      "revealHint": "Plant",
       "items": [
         "Mesquite",
         "Copal",
@@ -50,11 +47,10 @@
     {
       "id": "g4",
       "label": "NAHUATL: PLACE / RITUAL",
-      "revealHint": "Place",
       "items": [
-        "Cocoa",
+        "Milpa",
         "Atlatl",
-        "Chipotle",
+        "Teocalli",
         "Cenote"
       ]
     }
