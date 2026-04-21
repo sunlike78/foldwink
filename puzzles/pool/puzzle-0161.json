@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 39,
+    "gptDifficulty": 52,
+    "gptRationale": "Draft/draught meanings are distinct, but the spelling variant and mixed noun-process entries create a bit of friction."
   },
   "groups": [
     {

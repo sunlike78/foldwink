@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 45,
+    "gptDifficulty": 59,
+    "gptRationale": "The ancient-civilization groupings are clear but several iconic terms are culturally adjacent enough to create moderate cross-category false trails."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Средневековье",
     "batch": "ru-batch-07",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 38,
+    "gptDifficulty": 46,
+    "gptRationale": "Still fairly concrete, but medieval architecture and siege-engine terms like 'барбакан' and 'требушет' raise the bar."
   },
   "groups": [
     {

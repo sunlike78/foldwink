@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 17,
+    "gptDifficulty": 14,
+    "gptRationale": "The travel theme creates some surface overlap, yet the category labels remain concrete and the answers are widely known."
   }
 }

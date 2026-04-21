@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kunsttechniken",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 50,
+    "gptDifficulty": 65,
+    "gptRationale": "Techniken von Kunstwerken zu trennen ist merklich trickreicher, weil manche Werke oder Künstlersignale nur mit konkreter Kunstkenntnis sitzen."
   },
   "groups": [
     {

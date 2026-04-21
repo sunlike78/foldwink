@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 56,
+    "gptDifficulty": 74,
+    "gptRationale": "The word 'cloud' spans technical, meteorological, figurative, and culinary contexts, creating strong thematic overlap and some unconventional items."
   },
   "groups": [
     {

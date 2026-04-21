@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Казачьи войска и традиции",
     "batch": "ru-batch-16",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 53,
+    "gptDifficulty": 77,
+    "gptRationale": "Казачья тема требует культурно-исторической точности, а ряд терминов вроде паланки и рады для широкого игрока уже малоизвестен."
   },
   "groups": [
     {

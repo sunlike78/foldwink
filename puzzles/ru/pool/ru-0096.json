@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Произведения Пушкина",
     "batch": "ru-batch-01",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 46,
+    "gptDifficulty": 51,
+    "gptRationale": "Пушкин каноничен, но игроку нужно не просто знать произведения, а ещё уверенно делить их по жанрам."
   },
   "groups": [
     {

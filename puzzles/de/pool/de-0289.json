@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wahlen",
     "batch": "de-batch-03",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 54,
+    "gptDifficulty": 62,
+    "gptRationale": "Wahlrechtliche Fachwörter wie Überhangmandat oder Verhältniswahlrecht sind konkret, aber für viele typische Spieler nicht wirklich alltagsnah."
   },
   "groups": [
     {

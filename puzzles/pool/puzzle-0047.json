@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 43,
+    "gptDifficulty": 57,
+    "gptRationale": "Mythology fans will fly through it, but separating multiple pantheons asks for exact cultural tagging rather than casual recognition."
   }
 }

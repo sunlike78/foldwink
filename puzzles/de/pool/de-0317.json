@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Psychoanalyse",
     "batch": "de-batch-04",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 43,
+    "gptDifficulty": 45,
+    "gptRationale": "Viele psychoanalytische Begriffe sind populärkulturell verankert, wodurch die Gruppen trotz etwas Fachsprache meist gut greifbar bleiben."
   },
   "groups": [
     {

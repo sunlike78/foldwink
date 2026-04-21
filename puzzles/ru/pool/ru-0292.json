@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Грамматика русского языка",
     "batch": "ru-batch-11",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 51,
+    "gptDifficulty": 53,
+    "gptRationale": "Grammar sets are familiar from school, yet the inclusion of cross-linguistic forms like 'герундий' makes the sorting less clean."
   },
   "groups": [
     {

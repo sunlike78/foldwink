@@ -54,8 +54,10 @@ export const RU_HARD_POOL: readonly Puzzle[] = RU_PUZZLE_POOL.filter(
 );
 
 function compareByDifficultyScore(a: Puzzle, b: Puzzle): number {
-  const sa = a.meta?.difficultyScore ?? 50;
-  const sb = b.meta?.difficultyScore ?? 50;
+  // Prefer the GPT + heuristic blended editorialRank when available; fall
+  // back to the pure-heuristic difficultyScore; fall back to the midpoint.
+  const sa = a.meta?.editorialRank ?? a.meta?.difficultyScore ?? 50;
+  const sb = b.meta?.editorialRank ?? b.meta?.difficultyScore ?? 50;
   if (sa !== sb) return sa - sb;
   return a.id.localeCompare(b.id);
 }

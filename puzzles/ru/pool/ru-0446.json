@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Игры на улице — детские и взрослые",
     "batch": "ru-batch-19",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 26,
+    "gptDifficulty": 24,
+    "gptRationale": "Игры на улице предельно конкретны и знакомы, даже при небольшом пересечении вроде пряток в разных группах."
   },
   "groups": [
     {

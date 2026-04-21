@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Farben der Natur",
     "batch": "de-batch-01",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 34,
+    "gptDifficulty": 44,
+    "gptRationale": "Farben als Ordnungsidee ist verständlich, aber bei Blumen, Früchten und Mineralien braucht man teils genauere Sachkenntnis über typische Farbzuordnungen."
   },
   "groups": [
     {

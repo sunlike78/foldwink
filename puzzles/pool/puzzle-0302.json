@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 61,
+    "gptDifficulty": 68,
+    "gptRationale": "The category is clear once seen, but many laureates here are less globally familiar and the decade grouping demands specific literary-history knowledge."
   },
   "groups": [
     {

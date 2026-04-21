@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 37,
+    "gptDifficulty": 44,
+    "gptRationale": "The creative-domain labels are intuitive, but several entries are tools, materials, or concepts rather than the same semantic type."
   }
 }

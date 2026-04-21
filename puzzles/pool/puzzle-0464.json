@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 62,
+    "gptDifficulty": 76,
+    "gptRationale": "Thought experiments are abstract and often known only by philosophy students, so both recognition and categorization are difficult here."
   },
   "groups": [
     {

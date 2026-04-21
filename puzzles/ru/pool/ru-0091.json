@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советская еда и продукты",
     "batch": "ru-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 36,
+    "gptDifficulty": 39,
+    "gptRationale": "Категории еды очень конкретные и культурно узнаваемые, хотя успех заметно зависит от знакомства с советскими брендами."
   },
   "groups": [
     {

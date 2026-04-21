@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Фрукты и ягоды по климату",
     "batch": "ru-batch-10",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 13,
+    "gptDifficulty": 11,
+    "gptRationale": "Fruit and berry groupings are everyday shopping vocabulary with almost no abstraction or hidden traps."
   },
   "groups": [
     {

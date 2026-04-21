@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kultur",
     "batch": "de-batch-05",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 30,
+    "gptDifficulty": 26,
+    "gptRationale": "Bräuche sind lebensnah und die Anlässe stark voneinander abgegrenzt, wodurch die Sortierung ziemlich direkt gelingt."
   },
   "groups": [
     {

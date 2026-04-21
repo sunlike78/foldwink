@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 20,
+    "gptDifficulty": 23,
+    "gptRationale": "Cooking-action terminology is fairly common, though separating cut types, heat methods, and mixing verbs needs some technical precision."
   },
   "groups": [
     {

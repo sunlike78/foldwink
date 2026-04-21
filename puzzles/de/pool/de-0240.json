@@ -5,7 +5,10 @@
   "meta": {
     "theme": "fernsehen",
     "batch": "de-batch-03",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 16,
+    "gptDifficulty": 14,
+    "gptRationale": "Fernsehen in Deutschland ist maximal alltagsnah und die Gruppen Sender, Formate, Genres und TV-Jargon sind fast selbsterklärend."
   },
   "groups": [
     {

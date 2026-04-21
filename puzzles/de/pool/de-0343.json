@@ -5,7 +5,10 @@
   "meta": {
     "theme": "KI",
     "batch": "de-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 26,
+    "gptDifficulty": 21,
+    "gptRationale": "KI-Begriffe sind aktuell und stark präsent, wodurch Modelltypen, Anwendungen und Ethikbegriffe vergleichsweise leicht zu erkennen sind."
   },
   "groups": [
     {

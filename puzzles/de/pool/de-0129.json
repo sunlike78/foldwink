@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 44,
+    "gptDifficulty": 57,
+    "gptRationale": "Hunting terminology is less everyday and includes culturally specific jargon that typical players may not know well."
   },
   "groups": [
     {

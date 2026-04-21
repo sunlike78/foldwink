@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 22,
+    "gptDifficulty": 14,
+    "gptRationale": "School-subject categories are extremely familiar and the items are standard textbook examples."
   },
   "groups": [
     {

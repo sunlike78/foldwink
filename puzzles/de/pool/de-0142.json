@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 27,
+    "gptDifficulty": 29,
+    "gptRationale": "Basketball hat sehr bekannte Positionen und Techniken, sodass die Kategorien für die meisten Spieler schnell sichtbar werden."
   },
   "groups": [
     {

@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 45,
+    "gptDifficulty": 42,
+    "gptRationale": "The four senses of spring are accessible, but some entries are loosely associated rather than exact same-type members."
   },
   "groups": [
     {

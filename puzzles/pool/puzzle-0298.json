@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 60,
+    "gptDifficulty": 60,
+    "gptRationale": "Earth-science layers are systematic, but the crust/core/mantle distinctions involve technical terminology that can blur together."
   },
   "groups": [
     {

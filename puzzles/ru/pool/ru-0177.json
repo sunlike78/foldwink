@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Приложения и соцсети",
     "batch": "ru-batch-05",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 19,
+    "gptDifficulty": 14,
+    "gptRationale": "Приложения и сервисы из повседневной цифровой жизни образуют очень прозрачные группы без скрытых ловушек."
   },
   "groups": [
     {

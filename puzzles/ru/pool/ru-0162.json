@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Лидеры СССР",
     "batch": "ru-batch-05",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Советские деятели узнаваемы, но категории построены на исторических периодах, а не на очевидных бытовых признаках."
   },
   "groups": [
     {

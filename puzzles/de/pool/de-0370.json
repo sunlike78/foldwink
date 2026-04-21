@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Börse",
     "batch": "de-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 26,
+    "gptDifficulty": 30,
+    "gptRationale": "Aktienmarkt-Grundbegriffe und Indizes sind relativ geläufig, sodass die Gruppen trotz etwas Finanzjargon gut erkennbar bleiben."
   },
   "groups": [
     {

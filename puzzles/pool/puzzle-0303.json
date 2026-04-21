@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 55,
+    "gptDifficulty": 62,
+    "gptRationale": "Ancient-site knowledge is familiar at the headline level, but sorting famous wonders, temples, and megalithic sites needs more exact recall."
   },
   "groups": [
     {

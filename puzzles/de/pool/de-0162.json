@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 48,
+    "gptDifficulty": 56,
+    "gptRationale": "Köln ist bekannt, aber Stadtteile, Museen und Veranstaltungen verlangen lokales Wissen jenseits der offensichtlichsten Sehenswürdigkeiten."
   },
   "groups": [
     {

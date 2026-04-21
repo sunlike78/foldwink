@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Страны Европы по региону",
     "batch": "ru-batch-07",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 41,
+    "gptDifficulty": 43,
+    "gptRationale": "Европейские регионы в основном понятны, но блоки вроде Балкан и 'Бенилюкс и окрестности' добавляют немного геополитической неоднозначности."
   },
   "groups": [
     {

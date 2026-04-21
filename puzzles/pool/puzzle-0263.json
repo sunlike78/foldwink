@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 29,
+    "gptDifficulty": 25,
+    "gptRationale": "Dessert groups are intuitive, with only a few terms like macaron or sherbet potentially slowing recognition."
   },
   "groups": [
     {

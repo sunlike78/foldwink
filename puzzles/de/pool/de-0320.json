@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Politische Theorie",
     "batch": "de-batch-04",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 34,
+    "gptDifficulty": 49,
+    "gptRationale": "Politische Theorien und ihre Vertreter sind klassisches Bildungswissen, aber einzelne Namen wie Schmitt oder Rawls sind nicht für alle sofort sicher."
   },
   "groups": [
     {

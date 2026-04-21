@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Frühstückskulturen DACH",
     "batch": "de-batch-12",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 48,
+    "gptDifficulty": 45,
+    "gptRationale": "Die regionalen Frühstücksbilder sind anschaulich, aber mehrere Hinweise leben von DACH-spezifischem Kulturwissen und feinen regionalen Unterschieden."
   },
   "groups": [
     {

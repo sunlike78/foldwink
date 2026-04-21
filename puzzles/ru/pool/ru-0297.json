@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Форматы файлов по типу",
     "batch": "ru-batch-11",
-    "difficultyScore": 2
+    "difficultyScore": 2,
+    "editorialRank": 6,
+    "gptDifficulty": 8,
+    "gptRationale": "Форматы файлов принадлежат к предельно ясным и современно знакомым категориям без заметных ложных троп."
   },
   "groups": [
     {

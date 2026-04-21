@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gartenarbeit",
     "batch": "de-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 21,
+    "gptDifficulty": 18,
+    "gptRationale": "Gartenarbeit ist sehr konkret, und Werkzeuge, Pflanzen, Schädlinge und Tätigkeiten sind klar unterscheidbar."
   },
   "groups": [
     {

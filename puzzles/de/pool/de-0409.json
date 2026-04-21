@@ -5,7 +5,10 @@
   "meta": {
     "theme": "oper",
     "batch": "de-batch-05",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 68,
+    "gptDifficulty": 84,
+    "gptRationale": "Opernarien und ihre Werke sind hochkulturelles Spezialwissen, bei dem selbst bekannte Titel oft nur vage zugeordnet werden können."
   },
   "groups": [
     {

@@ -1,0 +1,964 @@
+{
+  "lang": "de",
+  "tier": "easy",
+  "batchIndex": 1,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "de-0070",
+    "de-0071",
+    "de-0072",
+    "de-0073",
+    "de-0074",
+    "de-0076",
+    "de-0077",
+    "de-0078",
+    "de-0079",
+    "de-0080",
+    "de-0081",
+    "de-0082",
+    "de-0083",
+    "de-0084",
+    "de-0085",
+    "de-0086",
+    "de-0087",
+    "de-0088",
+    "de-0089",
+    "de-0090",
+    "de-0091",
+    "de-0092",
+    "de-0093",
+    "de-0094",
+    "de-0095",
+    "de-0096",
+    "de-0097",
+    "de-0098",
+    "de-0100",
+    "de-0101",
+    "de-0102",
+    "de-0103",
+    "de-0104",
+    "de-0105",
+    "de-0106",
+    "de-0107",
+    "de-0109",
+    "de-0110",
+    "de-0111",
+    "de-0112",
+    "de-0113",
+    "de-0115",
+    "de-0116",
+    "de-0117",
+    "de-0118",
+    "de-0119",
+    "de-0120",
+    "de-0121",
+    "de-0122",
+    "de-0123",
+    "de-0124",
+    "de-0125",
+    "de-0126",
+    "de-0127",
+    "de-0129",
+    "de-0130",
+    "de-0131",
+    "de-0132",
+    "de-0133",
+    "de-0134"
+  ],
+  "elapsedSec": 143,
+  "findings": [
+    {
+      "puzzleId": "de-0074",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Röntgen“ bezeichnet im Alltagsdeutschen meist das Verfahren bzw. die Untersuchung, nicht eindeutig ein Medizingerät. In einer Geräte-Gruppe wäre „Röntgengerät“ klarer.",
+      "items": [
+        "Röntgen"
+      ],
+      "groups": [
+        "Medizingeräte"
+      ],
+      "suggestedFix": "Durch „Röntgengerät“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0080",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Für easy ist die Kombination aus Methoden, Modelltypen und Ethikbegriffen zu abstrakt und fachsprachlich. Mehrere Items wie „Reinforcement“, „Transformer“, „Random Forest“ und „SVM“ sind nicht konkrete Alltagsbegriffe.",
+      "items": [
+        "Reinforcement",
+        "Transformer",
+        "Random Forest",
+        "SVM",
+        "Bias",
+        "Transparenz",
+        "Fairness"
+      ],
+      "groups": [
+        "KI-Methoden",
+        "KI-Modelle",
+        "KI-Ethik-Begriffe"
+      ],
+      "suggestedFix": "Für easy stärker alltagsnahe KI-Begriffe verwenden, z. B. Chatbot, Sprachassistent, Bilderkennung, Übersetzung, Roboter, Empfehlungssystem."
+    },
+    {
+      "puzzleId": "de-0080",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Reinforcement“ allein ist kein üblicher deutscher KI-Methodenbegriff; gemeint ist vermutlich „Reinforcement Learning“ bzw. „bestärkendes Lernen“.",
+      "items": [
+        "Reinforcement"
+      ],
+      "groups": [
+        "KI-Methoden"
+      ],
+      "suggestedFix": "Durch „Reinforcement Learning“ oder „bestärkendes Lernen“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0080",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„KI-Methoden“ und „KI-Modelle“ sind für Spieler nicht trennscharf genug: Deep Learning ist eng mit neuronalen Netzen und Transformer-Modellen verbunden, Random Forest und SVM können zugleich als ML-Methoden/Algorithmen verstanden werden.",
+      "items": [
+        "Deep Learning",
+        "Neuronales Netz",
+        "Transformer",
+        "Random Forest",
+        "SVM"
+      ],
+      "groups": [
+        "KI-Methoden",
+        "KI-Modelle"
+      ],
+      "suggestedFix": "Eine der Gruppen in eine klar andere Alltagskategorie ändern, z. B. „KI-Geräte/Apps“ oder „Dinge, die KI erzeugt“."
+    },
+    {
+      "puzzleId": "de-0081",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Der Titel und die Gruppen sprechen von „Schlössern“, aber mehrere Items sind Burgen, besonders „Wartburg“, „Marksburg“, „Rheinfels“ und „Pfalzgrafenstein“. Das verwischt die Kategorie.",
+      "items": [
+        "Wartburg",
+        "Marksburg",
+        "Rheinfels",
+        "Pfalzgrafenstein"
+      ],
+      "groups": [
+        "Deutsche Schlösser",
+        "Rheinschlösser",
+        "Thüringische Schlösser"
+      ],
+      "suggestedFix": "Titel und Labels auf „Burgen und Schlösser“ ändern oder echte Schlösser wählen."
+    },
+    {
+      "puzzleId": "de-0082",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Die Kategorie „Alpen-Nationalparks“ enthält „Gesäuse“ und „Hohe Tauern“, die in Österreich liegen, obwohl der Titel „Nationalparks Deutschland“ lautet. Außerdem ist „Bayerischer Wald“ kein Alpen-Nationalpark.",
+      "items": [
+        "Gesäuse",
+        "Hohe Tauern",
+        "Bayerischer Wald"
+      ],
+      "groups": [
+        "Alpen-Nationalparks"
+      ],
+      "suggestedFix": "Entweder den Titel auf DACH/Alpenraum ändern oder nur deutsche Nationalparks verwenden; „Berchtesgaden“ ist der einzige deutsche Alpen-Nationalpark."
+    },
+    {
+      "puzzleId": "de-0082",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "„Kellerwald“ und „Sächs. Schweiz“ sind keine Tiefland-Nationalparks; sie liegen in Mittelgebirgslandschaften. Die Gruppe ist sachlich falsch.",
+      "items": [
+        "Kellerwald",
+        "Sächs. Schweiz"
+      ],
+      "groups": [
+        "Tiefland-Nationalparks"
+      ],
+      "suggestedFix": "Für Tiefland z. B. „Müritz“, „Unteres Odertal“, „Vorpommersche Boddenlandschaft“ und „Hamburgisches Wattenmeer“ verwenden, sofern die übrigen Gruppen entsprechend angepasst werden."
+    },
+    {
+      "puzzleId": "de-0083",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Zwiebelrostbraten“ ist eher schwäbisch/süddeutsch als ein typisches Schwarzwald-Gericht. Für eine easy-regionale Kategorie ist das zu wenig eindeutig.",
+      "items": [
+        "Zwiebelrostbraten"
+      ],
+      "groups": [
+        "Schwarzwald-Gerichte"
+      ],
+      "suggestedFix": "Durch ein klareres Schwarzwald-Item wie „Schwarzwälder Schinken“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0083",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Tracht“ ist kein spezifisches Schwarzwald-Produkt und kann auch allgemein regionale Kleidung bezeichnen; „Bollenhut“ ist bereits das spezifischere Item in derselben Gruppe.",
+      "items": [
+        "Tracht",
+        "Bollenhut"
+      ],
+      "groups": [
+        "Schwarzwald-Produkte"
+      ],
+      "suggestedFix": "„Tracht“ durch ein eindeutigeres Produkt ersetzen, z. B. „Schwarzwälder Schinken“ oder „Kirschwasser“."
+    },
+    {
+      "puzzleId": "de-0085",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Strandkorb“ ist ein Gegenstand, keine Aktivität. Spieler könnten ihn eher als Küsten-/Strandobjekt statt als „Nordsee-Aktivität“ verstehen.",
+      "items": [
+        "Strandkorb"
+      ],
+      "groups": [
+        "Nordsee-Aktivitäten"
+      ],
+      "suggestedFix": "Durch eine echte Aktivität ersetzen, z. B. „Strandspaziergang“, „Kitesurfen“ oder „Muscheln sammeln“."
+    },
+    {
+      "puzzleId": "de-0086",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "„Rügen“ und „Usedom“ sind Inseln, keine Ostseebäder. In derselben Gruppe stehen mit „Warnemünde“ und „Binz“ tatsächliche Badeorte, daher ist die Kategorie gemischt.",
+      "items": [
+        "Rügen",
+        "Usedom"
+      ],
+      "groups": [
+        "Ostseebäder"
+      ],
+      "suggestedFix": "Durch konkrete Ostseebäder wie „Heringsdorf“, „Ahlbeck“, „Sellin“ oder „Kühlungsborn“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0086",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Kaiserbäder“ sind konkrete Ostseebäder auf Usedom und passen damit semantisch auch zur Gruppe „Ostseebäder“, nicht nur zu „Ostsee-Besonderheiten“.",
+      "items": [
+        "Kaiserbäder"
+      ],
+      "groups": [
+        "Ostseebäder",
+        "Ostsee-Besonderheiten"
+      ],
+      "suggestedFix": "„Kaiserbäder“ durch eine eindeutig landschaftliche Besonderheit ersetzen."
+    },
+    {
+      "puzzleId": "de-0087",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "„Berghütte“, „Almhütte“ und „Schutzhütte“ sind sehr nahe beieinander und für easy keine klar unterscheidbaren Einzelitems. Die Gruppe wirkt dadurch redundant.",
+      "items": [
+        "Berghütte",
+        "Almhütte",
+        "Schutzhütte"
+      ],
+      "groups": [
+        "Alpenhütten"
+      ],
+      "suggestedFix": "Entweder konkrete Hüttennamen verwenden oder die Gruppe in eine andere Alpenkategorie ändern."
+    },
+    {
+      "puzzleId": "de-0087",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "„Reintalangerhütte“ ist im Vergleich zu den generischen Items sehr spezifisch und für easy deutlich schwerer.",
+      "items": [
+        "Reintalangerhütte"
+      ],
+      "groups": [
+        "Alpenhütten"
+      ],
+      "suggestedFix": "Durch ein alltäglicheres Item ersetzen oder die ganze Gruppe auf konkrete bekannte Hütten umstellen."
+    },
+    {
+      "puzzleId": "de-0088",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Sekt“ ist als Schaumwein ein Weintyp, aber die Gruppe „Weintypen“ mischt Farbe/Stillwein-Kategorien mit einer Herstellungs-/Produktart. Das ist nicht unfair allein, aber semantisch weniger sauber als die anderen Gruppen.",
+      "items": [
+        "Sekt"
+      ],
+      "groups": [
+        "Weintypen"
+      ],
+      "suggestedFix": "Entweder „Schaumwein“ als eigene klarere Kategorie verwenden oder „Sekt“ durch „Grauwein“/„Perlwein“ nur bei passender Gruppe ersetzen."
+    },
+    {
+      "puzzleId": "de-0092",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Drei Gruppen sind Werke nach Autor, die vierte heißt aber „Heine-Themen“ und enthält ebenfalls Werkstitel bzw. verkürzte Werknamen. Das Label ist nicht parallel und macht die Kategorie unnötig unklar.",
+      "items": [
+        "Lorelei",
+        "Wintermärchen",
+        "Buch der Lieder",
+        "Deutschland"
+      ],
+      "groups": [
+        "Heine-Themen"
+      ],
+      "suggestedFix": "Label zu „Heine-Werke“ ändern und die Items als eindeutige Werktitel formulieren, z. B. „Die Lore-Ley“ und „Deutschland. Ein Wintermärchen“."
+    },
+    {
+      "puzzleId": "de-0093",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Die Begriffe sind für easy sehr abstrakt und bildungs-/fachsprachlich. Kategorien wie Kant-, Hegel-, Nietzsche- und Marx-Begriffe sind eher Expertenwissen als konkrete Alltagskategorien.",
+      "items": [
+        "Kat. Imperativ",
+        "Ding an sich",
+        "Weltgeist",
+        "Aufhebung",
+        "Phänomenologie",
+        "Übermensch",
+        "Ewige Wiederkehr",
+        "Mehrwert",
+        "Entfremdung"
+      ],
+      "groups": [
+        "Kant-Begriffe",
+        "Hegel-Begriffe",
+        "Nietzsche-Begriffe",
+        "Marx-Begriffe"
+      ],
+      "suggestedFix": "Auf ein höheres Tier verschieben oder für easy Philosophie durch deutlich bekanntere, konkrete Kategorien ersetzen."
+    },
+    {
+      "puzzleId": "de-0093",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Vernunft“ und „Aufklärung“ sind nicht spezifisch genug für Kant; sie sind allgemeine philosophische bzw. historische Begriffe und könnten auch bei anderen Denkern auftauchen.",
+      "items": [
+        "Vernunft",
+        "Aufklärung"
+      ],
+      "groups": [
+        "Kant-Begriffe"
+      ],
+      "suggestedFix": "Durch eindeutigere Kant-Begriffe ersetzen, z. B. „Kategorischer Imperativ“ ausgeschrieben und „Kritik der reinen Vernunft“ als Werk."
+    },
+    {
+      "puzzleId": "de-0095",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Nobelpreisträger“ überschneidet sich konzeptionell mit den Jahrhunderten-Gruppen: Planck, Heisenberg, Koch und Mayer sind ebenfalls Personen des 19./20. Jahrhunderts. Die Labels sind nicht parallel und Spieler können Personen nach Zeit oder Nobelpreis sortieren.",
+      "items": [
+        "Planck",
+        "Heisenberg",
+        "Koch",
+        "Mayer"
+      ],
+      "groups": [
+        "Erfinder 19. Jh.",
+        "Erfinder 20. Jh.",
+        "Nobelpreisträger"
+      ],
+      "suggestedFix": "Alle Gruppen nach demselben Prinzip bilden, z. B. nur Erfinder nach Jahrhundert oder nur Nobelpreisträger nach Fachgebiet."
+    },
+    {
+      "puzzleId": "de-0095",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Gutenberg gehört nicht ins 17.-18. Jahrhundert; er lebte im 15. Jahrhundert. Leibniz war zudem eher Universalgelehrter/Mathematiker als einfach „Erfinder“ im selben Sinn wie die anderen.",
+      "items": [
+        "Gutenberg",
+        "Leibniz"
+      ],
+      "groups": [
+        "Erfinder 17-18. Jh."
+      ],
+      "suggestedFix": "Gutenberg in eine passende frühere Gruppe setzen oder ersetzen; die Kategorie allgemein sauberer definieren."
+    },
+    {
+      "puzzleId": "de-0095",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Einstein, Hahn und teils Mayer sind primär Wissenschaftler, nicht alltagssprachlich „Erfinder“. Das Label „Erfinder“ passt nicht sauber.",
+      "items": [
+        "Einstein",
+        "Hahn",
+        "Mayer"
+      ],
+      "groups": [
+        "Erfinder 20. Jh.",
+        "Nobelpreisträger"
+      ],
+      "suggestedFix": "Titel/Labels auf „Deutsche Wissenschaftler und Erfinder“ ändern oder echte Erfinder wählen."
+    },
+    {
+      "puzzleId": "de-0096",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Bergfried“ ist kein Wohnbereich, sondern der Hauptturm einer Burg und kann zudem zur Verteidigung gehören. „Vorburg“ ist ein Burgbereich, aber nicht typisch ein Wohnbereich. Die Gruppe „Burgwohnbereiche“ ist dadurch unsauber.",
+      "items": [
+        "Bergfried",
+        "Vorburg"
+      ],
+      "groups": [
+        "Burgverteidigung",
+        "Burgwohnbereiche"
+      ],
+      "suggestedFix": "Label zu „Burgbereiche“ ändern oder Wohnräume wie „Kemenate“, „Saal“, „Küche“ und „Kammer“ verwenden."
+    },
+    {
+      "puzzleId": "de-0096",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Kessel mit Pech“ ist eher ein Verteidigungsmittel als eine Waffe im selben Sinn wie Katapult oder Baliste. Es könnte mit der Verteidigungsgruppe konkurrieren.",
+      "items": [
+        "Kessel mit Pech"
+      ],
+      "groups": [
+        "Burgverteidigung",
+        "Burgwaffen"
+      ],
+      "suggestedFix": "Durch eine eindeutigere Burgwaffe wie „Armbrust“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0097",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Schild“ ist sowohl Teil der Ritterausrüstung als auch eine Waffe/Schutzwaffe. Da die Gruppe „Ritterrüstung“ ebenfalls Ausrüstungsteile enthält, kann es plausibel in zwei Gruppen passen.",
+      "items": [
+        "Schild"
+      ],
+      "groups": [
+        "Ritterrüstung",
+        "Ritterwaffen"
+      ],
+      "suggestedFix": "Durch eine eindeutigere Waffe wie „Morgenstern“ oder „Axt“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0097",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "„Tjost“ ist eine Turnierdisziplin, während „Ritterturnier“ der Oberbegriff ist. Das wirkt innerhalb derselben Gruppe redundant und nicht parallel.",
+      "items": [
+        "Tjost",
+        "Ritterturnier"
+      ],
+      "groups": [
+        "Turnierdisziplinen"
+      ],
+      "suggestedFix": "„Ritterturnier“ durch eine konkrete Disziplin ersetzen."
+    },
+    {
+      "puzzleId": "de-0097",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "„Behourd“ ist für easy sehr obscure und vielen deutschen Spielern nicht geläufig. Zusätzlich ist es nah bei „Buhurt“.",
+      "items": [
+        "Behourd",
+        "Buhurt"
+      ],
+      "groups": [
+        "Turnierdisziplinen"
+      ],
+      "suggestedFix": "Eine einfachere Kategorie mit geläufigen Turnierbegriffen verwenden."
+    },
+    {
+      "puzzleId": "de-0098",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Schildwall“ ist eine Formation/Taktik, keine Waffe. Es passt nicht sauber in „Wikingerwaffen“.",
+      "items": [
+        "Schildwall"
+      ],
+      "groups": [
+        "Wikingerwaffen"
+      ],
+      "suggestedFix": "Durch „Axt“, „Schild“ oder „Bogen“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0100",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Mephisto“ ist vor allem aus Goethes Faust bekannt, nicht spezifisch eine Brocken-Sage. Er kann mit allgemeiner deutscher Literatur/Sage verwechselt werden.",
+      "items": [
+        "Mephisto"
+      ],
+      "groups": [
+        "Brocken-Sagen"
+      ],
+      "suggestedFix": "Durch einen eindeutigeren Harz-/Brocken-Sagenbegriff ersetzen."
+    },
+    {
+      "puzzleId": "de-0100",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Rübezahl“ ist keine Stadtlegende, sondern eine Berg-/Riesengebirgssage. Die Gruppe „Stadtlegenden“ ist dadurch sachlich gemischt.",
+      "items": [
+        "Rübezahl"
+      ],
+      "groups": [
+        "Stadtlegenden"
+      ],
+      "suggestedFix": "Durch eine echte Stadtlegende oder einen städtischen Sagenstoff ersetzen."
+    },
+    {
+      "puzzleId": "de-0103",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Walross“ ist ein Meeressäugetier und könnte genauso in „Meerestiere“ passen. „Leopardenrobbe“ und „Blauwal“ sind ebenfalls Säugetiere, stehen aber in „Meerestiere“. Die Kategorien „Säugetiere“ und „Meerestiere“ überschneiden sich stark.",
+      "items": [
+        "Walross",
+        "Leopardenrobbe",
+        "Blauwal",
+        "Narwal"
+      ],
+      "groups": [
+        "Säugetiere",
+        "Meerestiere"
+      ],
+      "suggestedFix": "Statt „Säugetiere“ und „Meerestiere“ trennscharfe Gruppen verwenden, z. B. „Landtiere“, „Meeressäuger“, „Fische und Wirbellose“, „Vögel“."
+    },
+    {
+      "puzzleId": "de-0105",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "„Walhai“ ist kein Meeresraubtier im üblichen Sinn, sondern ein filtrierender Planktonfresser. In einem Puzzle über Haie und Meeresraubtiere ist das irreführend.",
+      "items": [
+        "Walhai"
+      ],
+      "groups": [
+        "Haifischarten"
+      ],
+      "suggestedFix": "Durch einen räuberischen Hai wie „Tigerhai“ oder „Makohai“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0105",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Taucherkleid“ ist kein gängiger Begriff für eine spezifische Haischutzmaßnahme. Vermutlich ist „Kettenhemd“ oder „Haischutzanzug“ gemeint, letzteres steht bereits in der Gruppe.",
+      "items": [
+        "Taucherkleid"
+      ],
+      "groups": [
+        "Schutzmaßnahmen"
+      ],
+      "suggestedFix": "Durch „Kettenhemd“ oder „Käfigtauchen“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0105",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "„Angriffsmuster“ von Haien ist für easy zu speziell und wirkt eher dokumentarisch als alltagsnah. Die Items sind außerdem Verben/Verhaltensweisen, während die anderen Gruppen konkrete Dinge sind.",
+      "items": [
+        "Beißen",
+        "Rammen",
+        "Verfolgen",
+        "Lauern"
+      ],
+      "groups": [
+        "Angriffsmuster"
+      ],
+      "suggestedFix": "Für easy eine konkretere Gruppe verwenden, z. B. „Meeresraubtiere“ mit Orca, Barrakuda, Muräne, Schwertfisch."
+    },
+    {
+      "puzzleId": "de-0106",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Hadrosaur“ ist kein üblicher deutscher Art-/Gattungsname wie die anderen Items, sondern ein englisch wirkender Gruppenbegriff. In „Ornithopoden“ stehen sonst konkrete Dinosauriergattungen.",
+      "items": [
+        "Hadrosaur"
+      ],
+      "groups": [
+        "Ornithopoden"
+      ],
+      "suggestedFix": "Durch „Hadrosaurus“ oder einen bekannteren Ornithopoden ersetzen."
+    },
+    {
+      "puzzleId": "de-0107",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Die Gruppen „Singvögel“ und „Zugvögel“ überschneiden sich biologisch: Mauersegler, Kuckuck und Rauchschwalbe sind keine Singvögel im engeren Sinn teils, aber mehrere Singvogel-Items sind ebenfalls Zugvögel oder Teilzieher. Spieler können nach Zugverhalten statt Ordnung sortieren.",
+      "items": [
+        "Amsel",
+        "Buchfink",
+        "Rotkehlchen",
+        "Blaumeise",
+        "Mauersegler",
+        "Kuckuck",
+        "Rauchschwalbe"
+      ],
+      "groups": [
+        "Singvögel",
+        "Zugvögel"
+      ],
+      "suggestedFix": "Keine taxonomischen Gruppen mit Verhaltensgruppen mischen; z. B. „Singvögel“, „Greifvögel“, „Wasservögel“, „Rabenvögel“ verwenden."
+    },
+    {
+      "puzzleId": "de-0110",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Küchenkräuter“, „Heilkräuter“ und „Teepflanzen“ überschneiden sich stark: Kamille, Pfefferminze, Melisse und Salbei können Heilkräuter und Teepflanzen sein; mehrere Küchenkräuter werden ebenfalls heilkundlich verwendet.",
+      "items": [
+        "Kamille",
+        "Pfefferminze",
+        "Melisse",
+        "Salbei",
+        "Rosmarin",
+        "Thymian"
+      ],
+      "groups": [
+        "Küchenkräuter",
+        "Heilkräuter",
+        "Teepflanzen"
+      ],
+      "suggestedFix": "Trennscharfe Gruppen nach Pflanzenteil, Giftigkeit, Küchenverwendung oder konkreten Produktformen bilden, nicht nach überlappenden Nutzungen."
+    },
+    {
+      "puzzleId": "de-0111",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Drachen steigen“ ist im deutschen Kontext typischerweise eine Herbstaktivität, steht hier aber unter Frühling. Auch „Wandern“ und „Fahrrad fahren“ sind jahreszeitlich nicht eindeutig.",
+      "items": [
+        "Drachen steigen",
+        "Wandern",
+        "Fahrrad fahren"
+      ],
+      "groups": [
+        "Frühling",
+        "Sommer",
+        "Herbst"
+      ],
+      "suggestedFix": "Jahreszeitengruppen mit eindeutigeren saisonalen Aktivitäten füllen."
+    },
+    {
+      "puzzleId": "de-0112",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "„Maifeiertag“ und „Tag der Arbeit“ sind in Deutschland derselbe Feiertag. Zwei Items sind damit Synonyme/nahe Duplikate in derselben Gruppe.",
+      "items": [
+        "Maifeiertag",
+        "Tag der Arbeit"
+      ],
+      "groups": [
+        "Staatliche Feiertage"
+      ],
+      "suggestedFix": "Eines der beiden Items durch „Tag der Deutschen Einheit“ ausgeschrieben oder einen anderen gesetzlichen Feiertag ersetzen."
+    },
+    {
+      "puzzleId": "de-0112",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Weihnachtsmarkt“ gehört inhaltlich zu Weihnachten und könnte mit „Religiöse Feiertage“ assoziiert werden, ist aber als Markt/Fest in „Volksfeste“ gelistet. Für easy kann das verwirren.",
+      "items": [
+        "Weihnachtsmarkt",
+        "Weihnachten"
+      ],
+      "groups": [
+        "Religiöse Feiertage",
+        "Volksfeste"
+      ],
+      "suggestedFix": "„Weihnachtsmarkt“ durch ein nicht-feiertagsbezogenes Volksfest ersetzen."
+    },
+    {
+      "puzzleId": "de-0115",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Erntedankfest“ ist zugleich ein Herbstfest und erscheint in einem anderen Puzzle als religiöser/kalenderbezogener Feiertag. Innerhalb dieses Puzzles ist die Zuordnung plausibel, aber die Gruppe „Herbstfeste“ überlappt mit dem allgemeinen Ernte-/Naturthema.",
+      "items": [
+        "Erntedankfest"
+      ],
+      "groups": [
+        "Herbstfeste",
+        "Obst und Gemüse",
+        "Weinlese"
+      ],
+      "suggestedFix": "Kein zwingender Blocker; für mehr Trennschärfe eine rein konkrete Kategorie wie „Herbstmärkte“ oder „Erntearbeiten“ verwenden."
+    },
+    {
+      "puzzleId": "de-0117",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Das Berliner „Olympiastadion“ ist kein aktuelles Bundesliga-Stadion, solange Hertha BSC nicht in der Bundesliga spielt. Für eine Bundesliga-easy-Kategorie ist das zeitabhängig und potenziell falsch.",
+      "items": [
+        "Olympiastadion"
+      ],
+      "groups": [
+        "Stadien"
+      ],
+      "suggestedFix": "Durch ein stabileres Bundesliga-Stadion ersetzen oder Label zu „Bekannte Fußballstadien“ ändern."
+    },
+    {
+      "puzzleId": "de-0118",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Satz“ ist sowohl ein Tennis-Spielbegriff als auch ein allgemeiner Sport-/Fitnessbegriff und taucht in de-0116 als Fitnessbegriff auf. Innerhalb des Puzzles passt es, ist aber in der Kategorie „Spielbegriffe“ sehr allgemein.",
+      "items": [
+        "Satz"
+      ],
+      "groups": [
+        "Spielbegriffe"
+      ],
+      "suggestedFix": "Durch einen tennisspezifischeren Begriff wie „Tie-Break“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0119",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Spielbegriffe“ und „Spielregeln“ sind nicht trennscharf: Rochade, En passant, Patt, Remis, Aufgabe und Umwandlung sind alles regelbezogene Schachbegriffe. Spieler können sie plausibel in beide Gruppen sortieren.",
+      "items": [
+        "Rochade",
+        "En passant",
+        "Patt",
+        "Remis",
+        "Aufgabe",
+        "Umwandlung"
+      ],
+      "groups": [
+        "Spielbegriffe",
+        "Spielregeln"
+      ],
+      "suggestedFix": "Eine Gruppe klarer ändern, z. B. „Mattmotive“, „Endspielbegriffe“ oder „Turnierbegriffe“."
+    },
+    {
+      "puzzleId": "de-0119",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Zugzwang“ ist keine Spielregel, sondern eine Spielsituation bzw. ein taktisch-strategischer Begriff.",
+      "items": [
+        "Zugzwang"
+      ],
+      "groups": [
+        "Spielregeln"
+      ],
+      "suggestedFix": "In eine Begriffsgruppe verschieben oder durch eine echte Regel wie „Berührt-geführt“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0121",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Puzzles“ sind häufig Brett-/Tischspiele bzw. klassisches Spielzeug und passen nicht eindeutig nur zu „Kreativspielzeug“.",
+      "items": [
+        "Puzzles"
+      ],
+      "groups": [
+        "Brettspiele",
+        "Kreativspielzeug",
+        "Klassisches Spielzeug"
+      ],
+      "suggestedFix": "Durch ein klar kreatives Item wie „Perlen“, „Bastelpapier“ oder „Fingerfarben“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0122",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Artisten“ und „Berufe“ überschneiden sich: Akrobat, Jongleur, Trapezartist und Seiltänzer sind ebenfalls Zirkusberufe. Die Labels sind nicht parallel genug.",
+      "items": [
+        "Akrobat",
+        "Jongleur",
+        "Trapezartist",
+        "Seiltänzer",
+        "Clown",
+        "Zauberer",
+        "Dompteur",
+        "Conférencier"
+      ],
+      "groups": [
+        "Artisten",
+        "Berufe"
+      ],
+      "suggestedFix": "„Berufe“ enger benennen, z. B. „Bühnenrollen“, oder eine andere konkrete Gruppe verwenden."
+    },
+    {
+      "puzzleId": "de-0122",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Zylinder“ ist sowohl ein Requisit als auch stark mit Zauberer/Clown als Rollen- oder Kostümteil verbunden. Für eine Requisiten-Gruppe ist es noch plausibel, aber nicht ganz eindeutig.",
+      "items": [
+        "Zylinder"
+      ],
+      "groups": [
+        "Requisiten",
+        "Berufe"
+      ],
+      "suggestedFix": "Durch ein eindeutig zirzensisches Requisit wie „Jonglierkeule“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0124",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Die Gruppen mischen Pflegehandlungen, Gegenstände und Tierkategorien. „Fellpflege“ ist generisch und könnte auch Hundepflege sein; „Zähne putzen“ ist ebenfalls nicht katzenspezifisch.",
+      "items": [
+        "Fellpflege",
+        "Zähne putzen",
+        "Bürsten",
+        "Baden"
+      ],
+      "groups": [
+        "Hundepflege",
+        "Katzenpflege"
+      ],
+      "suggestedFix": "Hund und Katze mit eindeutig artspezifischen Items trennen oder alle Gruppen nach Pflegetyp statt Tierart bilden."
+    },
+    {
+      "puzzleId": "de-0124",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Kratzkralle“ ist kein geläufiges Standarditem der Katzenpflege; vermutlich ist „Kratzbaum“ oder „Kratzbrett“ gemeint.",
+      "items": [
+        "Kratzkralle"
+      ],
+      "groups": [
+        "Katzenpflege"
+      ],
+      "suggestedFix": "Durch „Kratzbaum“ oder „Kratzbrett“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0126",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Teich“ und „Vogeltränke“ können auch in einem formalen Garten vorkommen; „Thymian“ ist zugleich ein Küchenkräuter-Item aus anderen Themen und nicht eindeutig nur Steingarten.",
+      "items": [
+        "Teich",
+        "Vogeltränke",
+        "Thymian"
+      ],
+      "groups": [
+        "Formaler Garten",
+        "Naturgarten",
+        "Steingarten"
+      ],
+      "suggestedFix": "Für Gartentypen stärker typische, exklusive Elemente wählen."
+    },
+    {
+      "puzzleId": "de-0127",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Sukkulenten“ und „Blühpflanzen“ überschneiden sich: Kalanchoe ist eine Sukkulente und zugleich eine Blühpflanze. Auch Kakteen können blühen. Die Gruppen sind nicht trennscharf.",
+      "items": [
+        "Kalanchoe",
+        "Kaktus",
+        "Aloe Vera",
+        "Echeveria",
+        "Jade-Pflanze"
+      ],
+      "groups": [
+        "Sukkulenten",
+        "Blühpflanzen"
+      ],
+      "suggestedFix": "Kalanchoe in Sukkulenten ersetzen oder Gruppen nach nicht überlappenden Zimmerpflanzenfamilien/Alltagsnamen bilden."
+    },
+    {
+      "puzzleId": "de-0127",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Bromelien“ sind nicht generell Luftpflanzen; nur manche Bromelien wachsen epiphytisch. Als Gruppenitem neben Tillandsia und Spanischem Moos ist das zu ungenau.",
+      "items": [
+        "Bromelien"
+      ],
+      "groups": [
+        "Luftpflanzen"
+      ],
+      "suggestedFix": "Durch eine konkrete Tillandsienart oder „Tillandsien“ ersetzen und Tillandsia an anderer Stelle vermeiden."
+    },
+    {
+      "puzzleId": "de-0129",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Brunft“ ist keine Jagdzeit, sondern eine Paarungszeit. Sie kann jagdlich relevant sein, passt aber nicht parallel zu Frühjahr, Herbst und Schonzeit.",
+      "items": [
+        "Brunft"
+      ],
+      "groups": [
+        "Jagdzeiten"
+      ],
+      "suggestedFix": "Durch „Jagdzeit“, „Setzzeit“ oder eine konkrete Saison ersetzen."
+    },
+    {
+      "puzzleId": "de-0131",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Lagerfeuer“ kann auch als Ausrüstung/Platzbestandteil verstanden werden und ist keine Aktivität im selben Sinn wie Wandern oder Kanufahren; die Zuordnung ist aber noch nachvollziehbar.",
+      "items": [
+        "Lagerfeuer"
+      ],
+      "groups": [
+        "Aktivitäten"
+      ],
+      "suggestedFix": "Durch „Feuer machen“ oder eine eindeutigere Aktivität ersetzen."
+    },
+    {
+      "puzzleId": "de-0131",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Wohnwagen“ und „Camper“ sind Fahrzeuge/Unterkünfte, keine Camping-Arten. „Zelten“ und „Biwak“ sind dagegen Formen des Campings.",
+      "items": [
+        "Wohnwagen",
+        "Camper"
+      ],
+      "groups": [
+        "Camping-Arten"
+      ],
+      "suggestedFix": "Label zu „Camping-Unterkünfte“ ändern oder Items wie „Glamping“, „Wildcampen“, „Dauercamping“ verwenden."
+    },
+    {
+      "puzzleId": "de-0132",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Gipfel“, „Sattel“, „Kamm“ und „Scharte“ sind Bergformen bzw. Geländeformen, keine Bergtypen. Das Label ist ungenau.",
+      "items": [
+        "Gipfel",
+        "Sattel",
+        "Kamm",
+        "Scharte"
+      ],
+      "groups": [
+        "Bergtypen"
+      ],
+      "suggestedFix": "Label zu „Geländeformen“ oder „Bergformen“ ändern."
+    },
+    {
+      "puzzleId": "de-0133",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„ADFC-Sterne“ sind eine Qualitäts-/Bewertungskategorie für Radrouten, keine Fahrradtour wie Rheinradweg, Elberadweg oder Donauradweg.",
+      "items": [
+        "ADFC-Sterne"
+      ],
+      "groups": [
+        "Fahrrad-Touren"
+      ],
+      "suggestedFix": "Durch einen konkreten Radweg wie „Weserradweg“ oder „Bodensee-Radweg“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0133",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Helm“ und „Licht“ sind eher Ausrüstung/Sicherheitsausstattung als Verkehrsregeln. Die Gruppe „Verkehrsregeln“ mischt Regeln, Infrastruktur und Ausrüstung.",
+      "items": [
+        "Helm",
+        "Licht",
+        "Fahrradweg",
+        "Handzeichen"
+      ],
+      "groups": [
+        "Verkehrsregeln"
+      ],
+      "suggestedFix": "Label zu „Verkehr und Sicherheit“ ändern oder nur echte Regeln verwenden."
+    },
+    {
+      "puzzleId": "de-0134",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Schwimmstile“ und „Wettkämpfe“ überschneiden sich: „Freistil“ ist ein Wettkampfformat, bedeutet in der Praxis aber meist Kraulschwimmen; Staffelrennen können in verschiedenen Schwimmstilen stattfinden. Die Kategorien sind für Spieler nicht sauber getrennt.",
+      "items": [
+        "Kraulen",
+        "Freistil",
+        "Staffel"
+      ],
+      "groups": [
+        "Schwimmstile",
+        "Wettkämpfe"
+      ],
+      "suggestedFix": "„Wettkämpfe“ durch eine klar andere Gruppe ersetzen oder nur Schwimmdisziplinen als eigene, parallel definierte Gruppe verwenden."
+    }
+  ]
+}

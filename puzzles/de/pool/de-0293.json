@@ -5,7 +5,10 @@
   "meta": {
     "theme": "gesundheit",
     "batch": "de-batch-03",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 27,
+    "gptDifficulty": 31,
+    "gptRationale": "Krankenkassen, Fachärzte und typische Gesundheitsbegriffe sind vielen vertraut, auch wenn einzelne Arztbezeichnungen etwas Fachsprache einbringen."
   },
   "groups": [
     {

@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 31,
+    "gptDifficulty": 38,
+    "gptRationale": "All the entries live in a cold-themed semantic field, so the main challenge is separating subtype clusters from one another."
   }
 }

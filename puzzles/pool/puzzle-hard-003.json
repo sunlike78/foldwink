@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 50,
+    "gptDifficulty": 57,
+    "gptRationale": "Body-part metaphors across objects create solid misdirection, though the category types are still concrete enough to recover with careful sorting."
   },
   "groups": [
     {

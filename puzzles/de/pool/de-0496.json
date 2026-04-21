@@ -5,7 +5,10 @@
   "meta": {
     "theme": "gesellschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 32,
+    "gptDifficulty": 30,
+    "gptRationale": "Globalisierung ist schulisch stark etabliert, und Vorteile, Nachteile, Akteure und Ereignisse sind recht klassische Cluster."
   },
   "groups": [
     {

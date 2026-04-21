@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Komponisten",
     "batch": "de-batch-04",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 27,
+    "gptDifficulty": 25,
+    "gptRationale": "Komponisten nach Epoche ist ein sehr vertrautes Bildungsformat mit deutlich markierten Stilgruppen."
   },
   "groups": [
     {

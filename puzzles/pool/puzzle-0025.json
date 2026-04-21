@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 25,
+    "gptDifficulty": 19,
+    "gptRationale": "These adjective-synonym groups are accessible, but several positive-descriptor words could briefly cross-pull between categories."
   }
 }

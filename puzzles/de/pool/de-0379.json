@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Zukunftsmedizin",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 55,
+    "gptDifficulty": 64,
+    "gptRationale": "Die Zukunftsmedizin-Kategorien sind plausibel, aber fast alle Begriffe klingen gleichermaßen modern und technisch und trennen sich erst über Detailwissen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wirtschaft",
     "batch": "de-batch-03",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 49,
+    "gptDifficulty": 67,
+    "gptRationale": "Wirtschaftsinstitutionen und Fachbegriffe verlangen recht viel Deutschlandwissen und haben mehr abstrakte, weniger sofort sichtbare Gruppen."
   },
   "groups": [
     {

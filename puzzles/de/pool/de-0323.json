@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Mythologie Götter",
     "batch": "de-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 33,
+    "gptDifficulty": 38,
+    "gptRationale": "Götter nach Funktion sind ein vertrautes Muster, nur die kulturübergreifende Mischung erzeugt etwas Zusatzaufwand."
   },
   "groups": [
     {

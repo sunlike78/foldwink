@@ -5,7 +5,10 @@
   "meta": {
     "theme": "muenchner-architektur",
     "batch": "de-batch-03",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 51,
+    "gptDifficulty": 62,
+    "gptRationale": "Münchner Architektur kombiniert Stil-, Orts- und Gebäudewissen auf recht lokaler Ebene und hat dadurch höhere Hürden."
   },
   "groups": [
     {

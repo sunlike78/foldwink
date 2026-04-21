@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цвета флагов",
     "batch": "ru-batch-01",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 69,
+    "gptDifficulty": 79,
+    "gptRationale": "Задание держится на ассоциативных и поэтических обозначениях цветов флагов, где легко спутать описание с буквальным цветом или символом."
   },
   "groups": [
     {

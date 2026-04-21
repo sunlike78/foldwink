@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие российские спортсмены",
     "batch": "ru-batch-06",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 44,
+    "gptDifficulty": 57,
+    "gptRationale": "Известные спортсмены помогают, но задача чувствительна к поколенческому знанию, а последняя группа особенно менее однородна и очевидна."
   },
   "groups": [
     {

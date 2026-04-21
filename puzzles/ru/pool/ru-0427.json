@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Музыкальные жанры и стили",
     "batch": "ru-batch-18",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 41,
+    "gptDifficulty": 47,
+    "gptRationale": "Музыкальные стили достаточно известны, но часть жанров может восприниматься как пересекающаяся или нишевая без музыкальной насмотренности."
   },
   "groups": [
     {

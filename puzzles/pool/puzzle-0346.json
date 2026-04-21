@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 59,
+    "gptDifficulty": 67,
+    "gptRationale": "Art-movement chronology plus specialized labels like Veduta and Tenebrism make this noticeably trickier than a typical medium-tier sort."
   },
   "groups": [
     {

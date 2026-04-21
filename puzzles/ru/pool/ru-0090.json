@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советские игрушки",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 38,
+    "gptDifficulty": 41,
+    "gptRationale": "Игрушки и игры в целом бытовые, но советская специфика и несколько старых предметных названий слегка поднимают сложность."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 47,
+    "gptDifficulty": 49,
+    "gptRationale": "The plant categories are coherent, but mimicry examples are fairly niche and several items could feel scientifically slippery to non-specialists."
   },
   "groups": [
     {

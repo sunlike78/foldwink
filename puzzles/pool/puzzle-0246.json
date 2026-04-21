@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 30,
+    "gptDifficulty": 30,
+    "gptRationale": "The perfume-note families are intuitive and internally coherent, with few misleading crossovers once the theme is recognized."
   },
   "groups": [
     {

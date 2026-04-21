@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Известные советские песни",
     "batch": "ru-batch-19",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 39,
+    "gptDifficulty": 47,
+    "gptRationale": "Советские песни многим знакомы, но группы частично пересекаются по жанру и культурной памяти поколений."
   },
   "groups": [
     {

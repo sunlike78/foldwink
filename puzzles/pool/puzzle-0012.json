@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 32,
+    "gptDifficulty": 34,
+    "gptRationale": "Game knowledge is common but somewhat culture-dependent, and board games versus card games can momentarily blur."
   }
 }

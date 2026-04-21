@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 42,
+    "gptDifficulty": 57,
+    "gptRationale": "The science-lab frame is clear, but mixing chemistry, physics units, and equipment requires broader classroom knowledge."
   },
   "groups": [
     {

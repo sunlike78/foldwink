@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 48,
+    "gptDifficulty": 64,
+    "gptRationale": "State across politics, matter, emotion, and computing is a clean abstraction, but words like border, variable, and cache do not all signal their group equally well."
   },
   "groups": [
     {

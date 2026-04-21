@@ -1,0 +1,309 @@
+{
+  "lang": "en",
+  "tier": "medium",
+  "batchIndex": 2,
+  "batchTotal": 4,
+  "elapsedSec": 50,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0319",
+      "difficulty": 47,
+      "rationale": "The country groupings are clean, but several less-famous Baroque composers and overlap in player familiarity make it a bit tougher than average."
+    },
+    {
+      "puzzleId": "puzzle-0320",
+      "difficulty": 14,
+      "rationale": "The decade buckets use very familiar internet milestones with little ambiguity, so most groups should fall quickly."
+    },
+    {
+      "puzzleId": "puzzle-0321",
+      "difficulty": 34,
+      "rationale": "The civilization-achievement links are broad and recognizable, though a few items like sexagesimal maths and papyrus add mild knowledge load."
+    },
+    {
+      "puzzleId": "puzzle-0322",
+      "difficulty": 58,
+      "rationale": "Jazz artist-to-subgenre mapping demands genuine genre knowledge and invites confusion around figures associated with multiple adjacent styles."
+    },
+    {
+      "puzzleId": "puzzle-0323",
+      "difficulty": 41,
+      "rationale": "The cooking methods are mostly familiar, but distinguishing heat-transfer modes from liquid-medium techniques creates some conceptual friction."
+    },
+    {
+      "puzzleId": "puzzle-0324",
+      "difficulty": 72,
+      "rationale": "Several signaling modes are specialized biology knowledge, and obscure examples like ostracod or black ghost knifefish raise the difficulty sharply."
+    },
+    {
+      "puzzleId": "puzzle-0325",
+      "difficulty": 29,
+      "rationale": "The gadgets are recognizable, but exact first-sale decade knowledge is fuzzier than the surface familiarity suggests."
+    },
+    {
+      "puzzleId": "puzzle-0326",
+      "difficulty": 52,
+      "rationale": "The fashion capitals are intuitive, yet success depends on moderate designer-name knowledge and resisting cross-city false placements."
+    },
+    {
+      "puzzleId": "puzzle-0327",
+      "difficulty": 44,
+      "rationale": "The propulsion categories are understandable, but edge cases like diesel-electric locomotives and maglev create light technical misdirection."
+    },
+    {
+      "puzzleId": "puzzle-0328",
+      "difficulty": 37,
+      "rationale": "Body-system groupings are standard educational material, though organs like pancreas and diaphragm can tempt cross-system mistakes."
+    },
+    {
+      "puzzleId": "puzzle-0329",
+      "difficulty": 84,
+      "rationale": "This is heavily knowledge-gated by medieval battle names and centuries, with minimal help from surface patterns."
+    },
+    {
+      "puzzleId": "puzzle-0330",
+      "difficulty": 49,
+      "rationale": "The plant categories are coherent, but mimicry examples are fairly niche and several items could feel scientifically slippery to non-specialists."
+    },
+    {
+      "puzzleId": "puzzle-0346",
+      "difficulty": 67,
+      "rationale": "Art-movement chronology plus specialized labels like Veduta and Tenebrism make this noticeably trickier than a typical medium-tier sort."
+    },
+    {
+      "puzzleId": "puzzle-0347",
+      "difficulty": 32,
+      "rationale": "Most works and painters are very famous, so only a few less ubiquitous titles create resistance."
+    },
+    {
+      "puzzleId": "puzzle-0348",
+      "difficulty": 63,
+      "rationale": "Grammar terminology is abstract and several terms are easy to confuse unless the player has formal linguistics background."
+    },
+    {
+      "puzzleId": "puzzle-0349",
+      "difficulty": 56,
+      "rationale": "Script families are intellectually neat but require classification knowledge beyond everyday familiarity, especially for abjad versus syllabic distinctions."
+    },
+    {
+      "puzzleId": "puzzle-0350",
+      "difficulty": 61,
+      "rationale": "Logic vocabulary is precise and somewhat academic, with multiple categories sounding similar enough to create real false trails."
+    },
+    {
+      "puzzleId": "puzzle-0351",
+      "difficulty": 54,
+      "rationale": "Ecology terms are broadly learnable, but the puzzle mixes role types, system terms, and cycles in a way that demands careful sorting."
+    },
+    {
+      "puzzleId": "puzzle-0352",
+      "difficulty": 71,
+      "rationale": "Structural-engineering categories are specialized, and terms like tensegrity, monocoque, and folded plate push it toward the harder end of the tier."
+    },
+    {
+      "puzzleId": "puzzle-0353",
+      "difficulty": 46,
+      "rationale": "Board-game mechanisms are recognizable to hobby players, but genre overlap and jargon make it less accessible to casual solvers."
+    },
+    {
+      "puzzleId": "puzzle-0367",
+      "difficulty": 64,
+      "rationale": "Therapy families are semitechnical and acronym-heavy, with several modalities plausibly belonging in more than one cluster."
+    },
+    {
+      "puzzleId": "puzzle-0368",
+      "difficulty": 57,
+      "rationale": "Political-system labels are conceptually related enough to blur together, especially between structural and participatory terms."
+    },
+    {
+      "puzzleId": "puzzle-0371",
+      "difficulty": 43,
+      "rationale": "The math branches are mostly textbook-level, though some players may hesitate over where probability or game theory belongs."
+    },
+    {
+      "puzzleId": "puzzle-0372",
+      "difficulty": 62,
+      "rationale": "Psychological-disorder groupings require fairly specific diagnostic-category knowledge, and several disorders can feel adjacent or overlapping."
+    },
+    {
+      "puzzleId": "puzzle-0373",
+      "difficulty": 22,
+      "rationale": "Platform-native content formats are contemporary and distinct, making the groups relatively easy for regular internet users to spot."
+    },
+    {
+      "puzzleId": "puzzle-0377",
+      "difficulty": 39,
+      "rationale": "The categories are modern and legible, though internet-slang terms and red-flag vocabulary may be unevenly familiar across players."
+    },
+    {
+      "puzzleId": "puzzle-0378",
+      "difficulty": 59,
+      "rationale": "The concepts are all semantically close self-psychology terms, so abstraction rather than obscurity drives the challenge."
+    },
+    {
+      "puzzleId": "puzzle-0379",
+      "difficulty": 53,
+      "rationale": "Kitchen science mixes familiar examples with technical process words, creating a moderate but fair classification task."
+    },
+    {
+      "puzzleId": "puzzle-0380",
+      "difficulty": 51,
+      "rationale": "The major religious groupings are clear, but accuracy depends on cross-cultural ritual knowledge and careful avoidance of broad-association guesses."
+    },
+    {
+      "puzzleId": "puzzle-0394",
+      "difficulty": 36,
+      "rationale": "Most titles are well-known to hobby gamers, though a couple of intentionally mismatched-seeming inclusions can slow confident sorting."
+    },
+    {
+      "puzzleId": "puzzle-0395",
+      "difficulty": 68,
+      "rationale": "Rhetorical-device terminology is dense, often confused even by strong readers, and the category boundaries demand real precision."
+    },
+    {
+      "puzzleId": "puzzle-0396",
+      "difficulty": 66,
+      "rationale": "Chess-opening families require specialized opening knowledge, and several names are familiar enough to mislead without deeper understanding."
+    },
+    {
+      "puzzleId": "puzzle-0397",
+      "difficulty": 42,
+      "rationale": "Many explorers are famous, but distinguishing exploration regions and eras adds enough historical detail to keep it from being easy."
+    },
+    {
+      "puzzleId": "puzzle-0398",
+      "difficulty": 79,
+      "rationale": "Classical-architecture vocabulary is highly specialized, and even players with some exposure may struggle to separate decorative, structural, and proportional terms."
+    },
+    {
+      "puzzleId": "puzzle-0399",
+      "difficulty": 74,
+      "rationale": "Printing-history terminology is niche and technical, with multiple terms sounding plausibly interchangeable unless the player knows the field."
+    },
+    {
+      "puzzleId": "puzzle-0400",
+      "difficulty": 33,
+      "rationale": "The Morse grouping rule is elegant and pattern-based, but it still requires enough code familiarity to avoid becoming guesswork."
+    },
+    {
+      "puzzleId": "puzzle-0401",
+      "difficulty": 18,
+      "rationale": "The UK word groups are highly familiar and concrete, with straightforward topical buckets and minimal ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0402",
+      "difficulty": 48,
+      "rationale": "Major Arcana cards are recognizable to many players, but the thematic buckets are interpretive enough to create moderate uncertainty."
+    },
+    {
+      "puzzleId": "puzzle-0403",
+      "difficulty": 57,
+      "rationale": "Constellation knowledge is uneven and the seasonal-versus-hemisphere distinction creates a subtle extra layer of sorting."
+    },
+    {
+      "puzzleId": "puzzle-0419",
+      "difficulty": 26,
+      "rationale": "Wine-region groupings are geographically intuitive and mostly famous, with just enough niche regional knowledge to keep it from the very easiest end."
+    },
+    {
+      "puzzleId": "puzzle-0420",
+      "difficulty": 12,
+      "rationale": "Olympic event types are extremely familiar and the category boundaries are clean and concrete."
+    },
+    {
+      "puzzleId": "puzzle-0421",
+      "difficulty": 31,
+      "rationale": "Cheese styles are broadly recognizable, though a few examples can feel texture-adjacent to neighboring groups."
+    },
+    {
+      "puzzleId": "puzzle-0422",
+      "difficulty": 69,
+      "rationale": "Famous buildings help, but mapping them accurately to architectural movements requires solid art-history knowledge and tolerating mixed labels."
+    },
+    {
+      "puzzleId": "puzzle-0423",
+      "difficulty": 28,
+      "rationale": "The sequence-based Greek-letter blocks are systematic, though players still need enough alphabet recall to place them correctly."
+    },
+    {
+      "puzzleId": "puzzle-0424",
+      "difficulty": 64,
+      "rationale": "Capital cities of less commonly discussed countries are knowledge-heavy, and several names offer little semantic help if unknown."
+    },
+    {
+      "puzzleId": "puzzle-0425",
+      "difficulty": 46,
+      "rationale": "The era categories are familiar, but some creatures are less well-known and the Paleogene group introduces a deliberate curveball."
+    },
+    {
+      "puzzleId": "puzzle-0426",
+      "difficulty": 17,
+      "rationale": "Roman numeral ranges are clear and the examples are straightforward to decode for anyone with basic familiarity."
+    },
+    {
+      "puzzleId": "puzzle-0427",
+      "difficulty": 73,
+      "rationale": "Tea-ceremony objects and rituals are culturally specific and terminology-heavy, making this one of the more knowledge-dependent medium puzzles."
+    },
+    {
+      "puzzleId": "puzzle-0428",
+      "difficulty": 58,
+      "rationale": "Ballet companies are specialized enough that many solvers will know only the biggest names, and national origins are not always obvious from titles."
+    },
+    {
+      "puzzleId": "puzzle-0444",
+      "difficulty": 87,
+      "rationale": "Mesoamerican deity names are obscure for most players, and the thematic domains are subtle enough to leave very little foothold without prior knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0445",
+      "difficulty": 38,
+      "rationale": "The food categories are appetizingly concrete, but regional Mexican dish knowledge and condiment-versus-dish distinctions add some bite."
+    },
+    {
+      "puzzleId": "puzzle-0446",
+      "difficulty": 24,
+      "rationale": "Major mountain ranges by continent are broadly familiar and geographically cleanly separated."
+    },
+    {
+      "puzzleId": "puzzle-0447",
+      "difficulty": 35,
+      "rationale": "Island-chain geography is manageable, though a few Atlantic and Mediterranean sets can blur for players without strong map knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0448",
+      "difficulty": 44,
+      "rationale": "The art movements are widely known at a high level, but exact chronology and category membership still require some care."
+    },
+    {
+      "puzzleId": "puzzle-0449",
+      "difficulty": 52,
+      "rationale": "Jazz style labels are related and overlapping enough that even informed players may second-guess era versus regional substyle groupings."
+    },
+    {
+      "puzzleId": "puzzle-0450",
+      "difficulty": 76,
+      "rationale": "This leans hard on formal geometry vocabulary, and terms like homothety or inversion make the category boundaries feel quite technical."
+    },
+    {
+      "puzzleId": "puzzle-0451",
+      "difficulty": 45,
+      "rationale": "Statistics categories are standard educational material, but some terms are conceptually adjacent and easy to cross-wire."
+    },
+    {
+      "puzzleId": "puzzle-0452",
+      "difficulty": 41,
+      "rationale": "Pirate-era terminology is colorful and semi-familiar, though nautical jargon like fo'c'sle and bilge adds mild difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0453",
+      "difficulty": 55,
+      "rationale": "Samurai-era vocabulary mixes famous and specialized Japanese terms, with social concepts and martial disciplines close enough to mislead."
+    },
+    {
+      "puzzleId": "puzzle-0469",
+      "difficulty": 27,
+      "rationale": "Programming-paradigm buckets are familiar to many modern solvers, and most language examples have strong canonical associations despite a few debatable edges."
+    }
+  ]
+}

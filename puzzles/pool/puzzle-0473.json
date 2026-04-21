@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 49,
+    "gptDifficulty": 49,
+    "gptRationale": "Court-process stages are intuitive, but several terms are specialized enough that players may hesitate between procedural phases and dispute-resolution grouping."
   },
   "groups": [
     {

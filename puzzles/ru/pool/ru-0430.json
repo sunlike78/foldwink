@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Компоненты ЗОЖ",
     "batch": "ru-batch-18",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 20,
+    "gptDifficulty": 14,
+    "gptRationale": "Категории повседневные и очень прозрачные, почти все элементы мгновенно читаются без двусмысленности."
   },
   "groups": [
     {

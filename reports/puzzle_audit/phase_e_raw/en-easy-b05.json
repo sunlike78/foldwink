@@ -1,0 +1,169 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 4,
+  "batchTotal": 5,
+  "elapsedSec": 28,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0432",
+      "difficulty": 71,
+      "rationale": "Cricket terminology is tightly grouped but highly culture-dependent, so many players will struggle unless they already know the sport well."
+    },
+    {
+      "puzzleId": "puzzle-0433",
+      "difficulty": 78,
+      "rationale": "Egyptian gods are recognizable in broad strokes, but sorting many lesser-known names into precise domains is one of the harder tasks in this tier."
+    },
+    {
+      "puzzleId": "puzzle-0434",
+      "difficulty": 36,
+      "rationale": "The swimming vocabulary is fairly concrete and familiar, though relay/start distinctions add a little sorting friction."
+    },
+    {
+      "puzzleId": "puzzle-0435",
+      "difficulty": 29,
+      "rationale": "Monopoly categories are very accessible, with strong surface familiarity and only mild false trails among property names."
+    },
+    {
+      "puzzleId": "puzzle-0436",
+      "difficulty": 57,
+      "rationale": "Sushi terms are common enough for many players, but Japanese form labels like nigiri, maki, and temaki require some specific food knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0437",
+      "difficulty": 73,
+      "rationale": "Indian spice blends and cooking terms create heavy insider-knowledge demand, especially where several items look generically interchangeable."
+    },
+    {
+      "puzzleId": "puzzle-0438",
+      "difficulty": 24,
+      "rationale": "The repeated HAND construction makes the wordplay structure easy to spot, and the categories are broad everyday English."
+    },
+    {
+      "puzzleId": "puzzle-0439",
+      "difficulty": 22,
+      "rationale": "The FIRE compounds and idioms are very familiar, with clear patterning and minimal obscurity."
+    },
+    {
+      "puzzleId": "puzzle-0440",
+      "difficulty": 48,
+      "rationale": "Portmanteaus are approachable, but distinguishing culture, tech, food, and animal blends can produce some moderate cross-category ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0441",
+      "difficulty": 14,
+      "rationale": "These are highly familiar sound words with intuitive semantic groupings and almost no abstraction required."
+    },
+    {
+      "puzzleId": "puzzle-0442",
+      "difficulty": 44,
+      "rationale": "Video game genre labels are recognizable for many players, though some modern genre names blur into one another."
+    },
+    {
+      "puzzleId": "puzzle-0443",
+      "difficulty": 54,
+      "rationale": "Mushroom names are concrete but unevenly familiar, and separating edible, toxic, supermarket, and medicinal groups is not always obvious."
+    },
+    {
+      "puzzleId": "puzzle-0456",
+      "difficulty": 63,
+      "rationale": "Cooking methods are learnable, but the French-kitchen framing and technical distinctions between heat/fat/sauce processes raise the precision needed."
+    },
+    {
+      "puzzleId": "puzzle-0457",
+      "difficulty": 61,
+      "rationale": "Bread-making stages are conceptually close to one another, so even common words become tricky when players must sort by process step."
+    },
+    {
+      "puzzleId": "puzzle-0458",
+      "difficulty": 66,
+      "rationale": "Fermentation categories mix familiar foods with less familiar biochemical labels, creating a noticeable knowledge barrier."
+    },
+    {
+      "puzzleId": "puzzle-0459",
+      "difficulty": 41,
+      "rationale": "Computer hardware acronyms are common for many players, though storage versus memory versus processor terms can still mislead."
+    },
+    {
+      "puzzleId": "puzzle-0460",
+      "difficulty": 69,
+      "rationale": "Networking terms demand technical layer-model knowledge, and several items feel adjacent enough to create strong false placements."
+    },
+    {
+      "puzzleId": "puzzle-0461",
+      "difficulty": 83,
+      "rationale": "Surgical terminology is specialized and lexically dense, making the fine-grained procedure families hard to separate for non-experts."
+    },
+    {
+      "puzzleId": "puzzle-0462",
+      "difficulty": 80,
+      "rationale": "Medical imaging names are somewhat familiar individually, but distinguishing overlapping modalities like nuclear, magnetic, and sound-based techniques is quite exacting."
+    },
+    {
+      "puzzleId": "puzzle-0463",
+      "difficulty": 72,
+      "rationale": "The philosopher names are canonical but still fairly academic, and assigning each thinker to the correct school requires real humanities knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0464",
+      "difficulty": 76,
+      "rationale": "Thought experiments are abstract and often known only by philosophy students, so both recognition and categorization are difficult here."
+    },
+    {
+      "puzzleId": "puzzle-0465",
+      "difficulty": 52,
+      "rationale": "Many mission names are famous, but the categories blur because probes, landers, telescopes, and crewed programs all sit in the same general space domain."
+    },
+    {
+      "puzzleId": "puzzle-0466",
+      "difficulty": 47,
+      "rationale": "Card and table game families are fairly concrete, though some titles are region-specific and a few category borders are not obvious."
+    },
+    {
+      "puzzleId": "puzzle-0467",
+      "difficulty": 64,
+      "rationale": "Some Yiddish borrowings are common in English, but others are meaning-shifty enough that the semantic groupings take careful language intuition."
+    },
+    {
+      "puzzleId": "puzzle-0468",
+      "difficulty": 58,
+      "rationale": "Several deserts are well known, but the geography test becomes tricky once less famous regions and cold-desert classification enter the mix."
+    },
+    {
+      "puzzleId": "puzzle-0481",
+      "difficulty": 43,
+      "rationale": "Most prizewinners are famous enough to recognize, and Nobel fields are concrete, but the puzzle still asks for a fair amount of cultural recall."
+    },
+    {
+      "puzzleId": "puzzle-0482",
+      "difficulty": 67,
+      "rationale": "Volcano names are specialized enough already, and sorting them by volcano type adds a second layer of geologic knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0483",
+      "difficulty": 59,
+      "rationale": "Classical music titles are somewhat familiar, but distinguishing symphonies, sonatas, concertos, and operas depends on genre-specific knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0484",
+      "difficulty": 74,
+      "rationale": "Mountaineering jargon contains many unfamiliar technical and hazard terms, with several items opaque to players outside the hobby."
+    },
+    {
+      "puzzleId": "puzzle-0485",
+      "difficulty": 33,
+      "rationale": "Famous landmarks are broadly recognizable and the continental groupings are straightforward despite a few opportunities for geographic slips."
+    },
+    {
+      "puzzleId": "puzzle-0486",
+      "difficulty": 88,
+      "rationale": "This is driven by contronyms and semantic precision, so success depends on recognizing uncommon double meanings rather than simple topic knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0487",
+      "difficulty": 28,
+      "rationale": "Memory types are standard introductory-psychology concepts with very clear example-based grouping once the labels are recognized."
+    }
+  ]
+}

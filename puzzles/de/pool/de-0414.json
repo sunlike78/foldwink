@@ -5,7 +5,10 @@
   "meta": {
     "theme": "geschichte",
     "batch": "de-batch-05",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 59,
+    "gptDifficulty": 72,
+    "gptRationale": "Dynastien des Reiches setzen solides Geschichtswissen voraus, und dieselben Herrschernamen über mehrere Häuser hinweg erhöhen die Verwechslungsgefahr stark."
   },
   "groups": [
     {

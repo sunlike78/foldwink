@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Части тела",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 27,
+    "gptDifficulty": 25,
+    "gptRationale": "Body-part groupings are highly concrete, with only a slight bump from anatomical vocabulary like phalanx."
   },
   "groups": [
     {

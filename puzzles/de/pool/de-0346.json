@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Astronomie Monde",
     "batch": "de-batch-04",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 51,
+    "gptDifficulty": 67,
+    "gptRationale": "Die absichtlich gemischten Mars-Bezeichnungen neben echten Mondnamen erhöhen die Fehleranfälligkeit deutlich, obwohl die großen Planetengruppen bekannt sind."
   },
   "groups": [
     {

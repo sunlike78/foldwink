@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 53,
+    "gptDifficulty": 69,
+    "gptRationale": "Fault has several technical meanings, and the mixture of geology, law, tennis, and circuitry creates strong cross-domain interference."
   },
   "groups": [
     {

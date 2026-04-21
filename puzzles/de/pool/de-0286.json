@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bundeswehr",
     "batch": "de-batch-03",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 58,
+    "gptDifficulty": 73,
+    "gptRationale": "Die vielen militärischen Einheitsbezeichnungen sind spezialisiert, ähnlich gebaut und ohne Bundeswehrwissen schwer sauber zu trennen."
   },
   "groups": [
     {

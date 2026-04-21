@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 62,
+    "gptDifficulty": 82,
+    "gptRationale": "Astronomy categories are logically neat, but black-hole classes and stellar life-cycle terms are specialized enough to feel near the top of easy-tier difficulty."
   }
 }

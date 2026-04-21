@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Человеческие эмоции",
     "batch": "ru-batch-13",
-    "difficultyScore": 57
+    "difficultyScore": 57,
+    "editorialRank": 40,
+    "gptDifficulty": 28,
+    "gptRationale": "Эмоции интуитивно понятны почти всем, хотя границы между сложными и социальными чувствами местами пересекаются."
   },
   "groups": [
     {

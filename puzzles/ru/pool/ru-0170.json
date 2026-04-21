@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Архитектура Москвы",
     "batch": "ru-batch-05",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 44,
+    "gptDifficulty": 41,
+    "gptRationale": "Московские достопримечательности и группы достаточно узнаваемы, хотя современный блок и церковные объекты могут немного смешиваться."
   },
   "groups": [
     {

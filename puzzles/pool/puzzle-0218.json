@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 39,
+    "gptDifficulty": 41,
+    "gptRationale": "Several musical terms are common, but vocal ranges and venue or gear vocabulary push it above easy-tier average."
   },
   "groups": [
     {

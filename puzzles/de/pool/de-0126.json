@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Garten",
     "batch": "de-batch-02",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 37,
+    "gptDifficulty": 36,
+    "gptRationale": "Garden-style categories are clear in concept, but some plants and design elements need a bit of gardening knowledge."
   },
   "groups": [
     {

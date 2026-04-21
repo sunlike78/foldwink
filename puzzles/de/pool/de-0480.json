@@ -5,7 +5,10 @@
   "meta": {
     "theme": "lebensmittel",
     "batch": "de-batch-05",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 58,
+    "gptDifficulty": 65,
+    "gptRationale": "Molekulare Küche kombiniert prominente Köche mit spezialisierten Techniken und Zusatzstoffen, was für Nicht-Gourmets recht niche ist."
   },
   "groups": [
     {

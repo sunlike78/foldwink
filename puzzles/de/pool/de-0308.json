@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Literatur Anfänge",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 64,
+    "gptDifficulty": 79,
+    "gptRationale": "Erste Wörter berühmter Werke sind deutlich abstrakter als Titel- oder Figurenwissen und kaum über Teilassoziationen lösbar."
   },
   "groups": [
     {

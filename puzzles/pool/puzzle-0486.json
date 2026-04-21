@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 61,
+    "gptDifficulty": 88,
+    "gptRationale": "This is driven by contronyms and semantic precision, so success depends on recognizing uncommon double meanings rather than simple topic knowledge."
   },
   "groups": [
     {

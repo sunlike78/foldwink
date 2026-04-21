@@ -1,0 +1,309 @@
+{
+  "lang": "en",
+  "tier": "medium",
+  "batchIndex": 0,
+  "batchTotal": 4,
+  "elapsedSec": 49,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0019",
+      "difficulty": 34,
+      "rationale": "Common compounds make this approachable, though several prefixes feel interchangeable before the category boundaries settle."
+    },
+    {
+      "puzzleId": "puzzle-0020",
+      "difficulty": 8,
+      "rationale": "Pure synonym sets with very high-frequency words make the intended groupings almost immediate."
+    },
+    {
+      "puzzleId": "puzzle-0021",
+      "difficulty": 18,
+      "rationale": "Color-shade groupings are familiar, but a few items like teal and amber introduce slight hesitation over category fit."
+    },
+    {
+      "puzzleId": "puzzle-0022",
+      "difficulty": 22,
+      "rationale": "Location-based sets are concrete and everyday, with only minor overlap from generally placeable objects."
+    },
+    {
+      "puzzleId": "puzzle-0023",
+      "difficulty": 14,
+      "rationale": "Straight verb-synonym clustering is clear and uses common vocabulary with little real misdirection."
+    },
+    {
+      "puzzleId": "puzzle-0024",
+      "difficulty": 16,
+      "rationale": "Terrain-themed items are vivid and familiar, so most groups emerge quickly despite some broad nature overlap."
+    },
+    {
+      "puzzleId": "puzzle-0025",
+      "difficulty": 19,
+      "rationale": "These adjective-synonym groups are accessible, but several positive-descriptor words could briefly cross-pull between categories."
+    },
+    {
+      "puzzleId": "puzzle-0026",
+      "difficulty": 47,
+      "rationale": "The continent theme is clear, but accuracy depends on enough geography knowledge and noticing Lagos is a false-looking outlier."
+    },
+    {
+      "puzzleId": "puzzle-0027",
+      "difficulty": 28,
+      "rationale": "Clothing categories are familiar, though a few fashion terms require some lexical precision to place confidently."
+    },
+    {
+      "puzzleId": "puzzle-0028",
+      "difficulty": 44,
+      "rationale": "The creative-domain labels are intuitive, but several entries are tools, materials, or concepts rather than the same semantic type."
+    },
+    {
+      "puzzleId": "puzzle-0029",
+      "difficulty": 31,
+      "rationale": "Weather grouping is natural, but calm and hot categories contain terms that feel more descriptive than event-based."
+    },
+    {
+      "puzzleId": "puzzle-0030",
+      "difficulty": 12,
+      "rationale": "Animal sounds are highly familiar and the categories are distinct enough to sort almost on sight."
+    },
+    {
+      "puzzleId": "puzzle-0035",
+      "difficulty": 41,
+      "rationale": "Print-related vocabulary creates strong thematic cohesion, but distinguishing section, type, and format takes an extra pass."
+    },
+    {
+      "puzzleId": "puzzle-0036",
+      "difficulty": 23,
+      "rationale": "Movement and action synonyms are mostly common, with just enough semantic closeness between run, walk, and escape to slow things slightly."
+    },
+    {
+      "puzzleId": "puzzle-0037",
+      "difficulty": 38,
+      "rationale": "All the entries live in a cold-themed semantic field, so the main challenge is separating subtype clusters from one another."
+    },
+    {
+      "puzzleId": "puzzle-0038",
+      "difficulty": 33,
+      "rationale": "Coin-related sets are conceptually tidy, though shared vocabulary around metals and denominations creates mild overlap."
+    },
+    {
+      "puzzleId": "puzzle-0061",
+      "difficulty": 63,
+      "rationale": "This hinges on spotting four different prefix-compound patterns, with several fragments feeling plausible in more than one slot."
+    },
+    {
+      "puzzleId": "puzzle-0062",
+      "difficulty": 17,
+      "rationale": "The sound-action synonym groups are familiar and direct, with only light ambiguity at the edges."
+    },
+    {
+      "puzzleId": "puzzle-0063",
+      "difficulty": 58,
+      "rationale": "The categories are neat once seen, but success depends on fairly specific German food vocabulary and orthographic familiarity."
+    },
+    {
+      "puzzleId": "puzzle-0064",
+      "difficulty": 61,
+      "rationale": "Film-production terminology is coherent but somewhat specialized, and multiple terms could plausibly belong to adjacent production stages."
+    },
+    {
+      "puzzleId": "puzzle-0065",
+      "difficulty": 68,
+      "rationale": "Astronomy vocabulary raises the tier through domain knowledge demands and some less transparent technical terms."
+    },
+    {
+      "puzzleId": "puzzle-0066",
+      "difficulty": 76,
+      "rationale": "This is one of the tougher medium puzzles because it mixes specialized terminology from four games, including several terms many players will not know."
+    },
+    {
+      "puzzleId": "puzzle-0067",
+      "difficulty": 57,
+      "rationale": "For tech-literate players the sets are fair, but jargon and cross-domain software vocabulary raise the barrier for a typical solver."
+    },
+    {
+      "puzzleId": "puzzle-0068",
+      "difficulty": 36,
+      "rationale": "The motion-word families are sensible, but the semantic boundaries between turn, bend, twist, and fold are intentionally close."
+    },
+    {
+      "puzzleId": "puzzle-0069",
+      "difficulty": 54,
+      "rationale": "Chemistry groupings are orderly, yet they rely on remembering periodic-family labels rather than just surface familiarity."
+    },
+    {
+      "puzzleId": "puzzle-0070",
+      "difficulty": 26,
+      "rationale": "Basic grammar categories are familiar, though mixing affixes with function words adds a little terminology friction."
+    },
+    {
+      "puzzleId": "puzzle-0092",
+      "difficulty": 82,
+      "rationale": "Literary-period abstraction and theory-heavy vocabulary make this notably hard unless the player already knows the historical schools."
+    },
+    {
+      "puzzleId": "puzzle-0093",
+      "difficulty": 88,
+      "rationale": "Architectural-style markers are specialized and demand precise art-history knowledge with little help from everyday language."
+    },
+    {
+      "puzzleId": "puzzle-0094",
+      "difficulty": 79,
+      "rationale": "Rock classification is systematic but quite knowledge-dependent, especially for distinguishing intrusive, extrusive, and clastic terms."
+    },
+    {
+      "puzzleId": "puzzle-0095",
+      "difficulty": 84,
+      "rationale": "Regional dance and music forms require substantial cultural knowledge, and several unfamiliar names offer limited inference clues."
+    },
+    {
+      "puzzleId": "puzzle-0096",
+      "difficulty": 52,
+      "rationale": "Human-body system groupings are logical, but the labels are slightly abstract and some organs or structures feel less obviously assigned."
+    },
+    {
+      "puzzleId": "puzzle-0097",
+      "difficulty": 73,
+      "rationale": "Festival categories are interesting but culturally wide-ranging, with several names likely unfamiliar to a typical player."
+    },
+    {
+      "puzzleId": "puzzle-0098",
+      "difficulty": 46,
+      "rationale": "Science phenomena are recognizable, though the set mixes processes, effects, and general terms in ways that invite second-guessing."
+    },
+    {
+      "puzzleId": "puzzle-0119",
+      "difficulty": 64,
+      "rationale": "The repeated 'bar' concept creates strong false trails because every category uses nearby vocabulary from a different sense of the same word."
+    },
+    {
+      "puzzleId": "puzzle-0120",
+      "difficulty": 42,
+      "rationale": "The four senses of spring are accessible, but some entries are loosely associated rather than exact same-type members."
+    },
+    {
+      "puzzleId": "puzzle-0121",
+      "difficulty": 66,
+      "rationale": "This leans on four meanings of flat, and several items feel only indirectly connected, making the partitions less clean."
+    },
+    {
+      "puzzleId": "puzzle-0122",
+      "difficulty": 71,
+      "rationale": "Multiple senses of current produce solid wordplay, but the electrical set in particular blurs related concepts rather than exact equivalents."
+    },
+    {
+      "puzzleId": "puzzle-0123",
+      "difficulty": 62,
+      "rationale": "The 'scale' theme is clever, though each group mixes objects and associated terms, which makes the category logic feel less immediate."
+    },
+    {
+      "puzzleId": "puzzle-0124",
+      "difficulty": 59,
+      "rationale": "Different meanings of match are fair, but modern technical language like regex competes with more everyday senses for attention."
+    },
+    {
+      "puzzleId": "puzzle-0125",
+      "difficulty": 67,
+      "rationale": "The blue-theme sets are evocative yet slippery, with several entries depending on metaphorical association rather than strict category membership."
+    },
+    {
+      "puzzleId": "puzzle-0126",
+      "difficulty": 56,
+      "rationale": "Metal-based groupings are gettable, but overlap between chemistry and everyday material terms adds some misleading surface similarity."
+    },
+    {
+      "puzzleId": "puzzle-0127",
+      "difficulty": 69,
+      "rationale": "Bridge as a polysemous anchor works well, but dental and musical vocabulary add enough specialization to make the split tricky."
+    },
+    {
+      "puzzleId": "puzzle-0128",
+      "difficulty": 74,
+      "rationale": "The word 'cloud' spans technical, meteorological, figurative, and culinary contexts, creating strong thematic overlap and some unconventional items."
+    },
+    {
+      "puzzleId": "puzzle-0129",
+      "difficulty": 72,
+      "rationale": "Root has four distinct senses, but several groups include adjacent concepts rather than pure examples, which muddies the solve path."
+    },
+    {
+      "puzzleId": "puzzle-0130",
+      "difficulty": 63,
+      "rationale": "Pitch has well-known multiple meanings, yet the tar sense is less common and some sports entries are region-specific."
+    },
+    {
+      "puzzleId": "puzzle-0151",
+      "difficulty": 43,
+      "rationale": "The adjective 'sharp' creates nice thematic unity, but the sensory and figurative uses are still common enough to decode without much strain."
+    },
+    {
+      "puzzleId": "puzzle-0152",
+      "difficulty": 61,
+      "rationale": "Cold branches into temperature, personality, illness, and palette, and the colour set is especially associative rather than exact."
+    },
+    {
+      "puzzleId": "puzzle-0153",
+      "difficulty": 57,
+      "rationale": "Weight-based metaphorical extensions are clear in hindsight, but abstract senses like legal or emotional weight require more interpretation."
+    },
+    {
+      "puzzleId": "puzzle-0154",
+      "difficulty": 65,
+      "rationale": "Green spans ecology, envy, inexperience, and money, and the last two categories especially rely on idiomatic understanding."
+    },
+    {
+      "puzzleId": "puzzle-0155",
+      "difficulty": 53,
+      "rationale": "The four senses of running are familiar, though the operating and political sets depend on a more abstract reading of the word."
+    },
+    {
+      "puzzleId": "puzzle-0156",
+      "difficulty": 49,
+      "rationale": "Cast has four clean domains and mostly distinct vocabulary, with only modest ambiguity from shared object-oriented nouns."
+    },
+    {
+      "puzzleId": "puzzle-0157",
+      "difficulty": 51,
+      "rationale": "Wave-based meanings are broad and intuitive, but the social and hair sets are more metaphorical and style-specific."
+    },
+    {
+      "puzzleId": "puzzle-0158",
+      "difficulty": 48,
+      "rationale": "Light has several common senses, so the puzzle is fair, though the beer category adds a small extra step for non-drinkers."
+    },
+    {
+      "puzzleId": "puzzle-0159",
+      "difficulty": 46,
+      "rationale": "Key splits into four familiar meanings, and while map and music terminology can blur slightly, the overall structure is approachable."
+    },
+    {
+      "puzzleId": "puzzle-0160",
+      "difficulty": 44,
+      "rationale": "Ring is a strong multi-meaning anchor and the category vocabulary is mostly recognizable, keeping the challenge moderate."
+    },
+    {
+      "puzzleId": "puzzle-0161",
+      "difficulty": 52,
+      "rationale": "Draft/draught meanings are distinct, but the spelling variant and mixed noun-process entries create a bit of friction."
+    },
+    {
+      "puzzleId": "puzzle-0162",
+      "difficulty": 39,
+      "rationale": "Bank as a repeated word sense is easy to grasp, and the surrounding vocabulary makes each domain fairly legible."
+    },
+    {
+      "puzzleId": "puzzle-0163",
+      "difficulty": 37,
+      "rationale": "Court splits cleanly across legal, royal, tennis, and romance senses, with little serious competition between groups."
+    },
+    {
+      "puzzleId": "puzzle-0164",
+      "difficulty": 77,
+      "rationale": "Plant taxonomy and common names here are substantially more specialized than average, especially in the fern and moss-lichen groups."
+    },
+    {
+      "puzzleId": "puzzle-0165",
+      "difficulty": 45,
+      "rationale": "Watch meanings are varied but everyday enough that the four domains usually emerge after a short scan."
+    }
+  ]
+}

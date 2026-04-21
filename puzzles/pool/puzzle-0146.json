@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 25,
+    "gptDifficulty": 19,
+    "gptRationale": "Fruit families are very familiar and the examples are prototypical with little ambiguity."
   },
   "groups": [
     {

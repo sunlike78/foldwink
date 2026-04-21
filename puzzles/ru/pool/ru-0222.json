@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые космические программы",
     "batch": "ru-batch-08",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 33,
+    "gptDifficulty": 46,
+    "gptRationale": "Космические программы многим знакомы, но часть названий требует не общей эрудиции, а именно ориентации в типах миссий и станций."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 39,
+    "gptDifficulty": 39,
+    "gptRationale": "The categories are modern and legible, though internet-slang terms and red-flag vocabulary may be unevenly familiar across players."
   },
   "groups": [
     {

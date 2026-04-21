@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 60,
+    "gptDifficulty": 71,
+    "gptRationale": "Multiple senses of current produce solid wordplay, but the electrical set in particular blurs related concepts rather than exact equivalents."
   },
   "groups": [
     {

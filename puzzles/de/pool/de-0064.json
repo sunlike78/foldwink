@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Malerei",
     "batch": "de-batch-03",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 41,
+    "gptDifficulty": 51,
+    "gptRationale": "Malerei enthält mehrere kunsttheoretische Begriffe, die zwar bekannt wirken, aber zwischen Stil, Technik und Bildthema sauber getrennt werden müssen."
   },
   "groups": [
     {

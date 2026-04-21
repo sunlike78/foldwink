@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Персонажи Библии",
     "batch": "ru-batch-12",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 23,
+    "gptDifficulty": 29,
+    "gptRationale": "Библейские имена и места знакомы многим, но смешение персонажей разных типов слегка повышает шанс неверной группировки."
   },
   "groups": [
     {

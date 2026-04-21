@@ -5,7 +5,10 @@
   "meta": {
     "theme": "philosophie",
     "batch": "de-batch-05",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 47,
+    "gptDifficulty": 68,
+    "gptRationale": "Philosophen lassen sich oft mehreren Teilgebieten zuordnen, wodurch Hauptthese statt bloßer Bekanntheit entscheidend wird."
   },
   "groups": [
     {

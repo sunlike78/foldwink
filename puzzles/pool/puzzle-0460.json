@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 55,
+    "gptDifficulty": 69,
+    "gptRationale": "Networking terms demand technical layer-model knowledge, and several items feel adjacent enough to create strong false placements."
   },
   "groups": [
     {

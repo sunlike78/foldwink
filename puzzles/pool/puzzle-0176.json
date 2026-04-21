@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 41,
+    "gptDifficulty": 45,
+    "gptRationale": "Track as music, sport, rail, and surveillance is fair, but a few terms feel generic enough to delay confident grouping."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Filmsprache",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 25,
+    "gptDifficulty": 26,
+    "gptRationale": "Filmsprache nutzt standardisierte Fachwörter, die in vier deutlich unterscheidbare Werkzeuge des Filmemachens zerfallen."
   },
   "groups": [
     {

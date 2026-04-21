@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Периоды истории России",
     "batch": "ru-batch-01",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 55,
+    "gptDifficulty": 71,
+    "gptRationale": "Нужно узнавать исторические термины разных эпох России, что уже требует школьно-исторической памяти и уверенности в периодизации."
   },
   "groups": [
     {

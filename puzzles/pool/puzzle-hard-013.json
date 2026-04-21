@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 55,
+    "gptDifficulty": 78,
+    "gptRationale": "The 'dead' modifier spans literal, figurative, and idiomatic uses, and some entries feel especially loose unless the solver buys into the metaphorical reading."
   },
   "groups": [
     {

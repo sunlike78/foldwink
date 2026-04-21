@@ -1,0 +1,892 @@
+{
+  "lang": "en",
+  "tier": "medium",
+  "batchIndex": 1,
+  "batchTotal": 4,
+  "puzzleIds": [
+    "puzzle-0166",
+    "puzzle-0167",
+    "puzzle-0168",
+    "puzzle-0169",
+    "puzzle-0170",
+    "puzzle-0171",
+    "puzzle-0172",
+    "puzzle-0173",
+    "puzzle-0174",
+    "puzzle-0175",
+    "puzzle-0176",
+    "puzzle-0177",
+    "puzzle-0178",
+    "puzzle-0179",
+    "puzzle-0180",
+    "puzzle-0196",
+    "puzzle-0197",
+    "puzzle-0198",
+    "puzzle-0199",
+    "puzzle-0200",
+    "puzzle-0202",
+    "puzzle-0203",
+    "puzzle-0221",
+    "puzzle-0223",
+    "puzzle-0224",
+    "puzzle-0225",
+    "puzzle-0226",
+    "puzzle-0227",
+    "puzzle-0228",
+    "puzzle-0246",
+    "puzzle-0247",
+    "puzzle-0248",
+    "puzzle-0249",
+    "puzzle-0250",
+    "puzzle-0252",
+    "puzzle-0253",
+    "puzzle-0255",
+    "puzzle-0271",
+    "puzzle-0272",
+    "puzzle-0273",
+    "puzzle-0274",
+    "puzzle-0276",
+    "puzzle-0277",
+    "puzzle-0278",
+    "puzzle-0280",
+    "puzzle-0282",
+    "puzzle-0285",
+    "puzzle-0287",
+    "puzzle-0288",
+    "puzzle-0290",
+    "puzzle-0292",
+    "puzzle-0293",
+    "puzzle-0296",
+    "puzzle-0298",
+    "puzzle-0300",
+    "puzzle-0301",
+    "puzzle-0305",
+    "puzzle-0316",
+    "puzzle-0317",
+    "puzzle-0318"
+  ],
+  "elapsedSec": 127,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0167",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "In Net finance, Profit and Income are very close because “net income” is essentially profit. Revenue is also commonly contrasted with profit but can be used in “net revenue,” making the set feel like overlapping accounting terms rather than four distinct net-finance items.",
+      "items": [
+        "Profit",
+        "Income",
+        "Revenue"
+      ],
+      "groups": [
+        "Net finance"
+      ],
+      "suggestedFix": "Use more distinct “net ___” finance phrases, or avoid placing Profit and Income together."
+    },
+    {
+      "puzzleId": "puzzle-0169",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Sand Trap is not a type of golf iron or an iron-related club term; it is a course hazard. Fairway is also a course area, not a golf iron. This makes the Golf irons group unfair.",
+      "items": [
+        "Sand Trap",
+        "Fairway"
+      ],
+      "groups": [
+        "Golf irons"
+      ],
+      "suggestedFix": "Replace with actual iron/club terms such as 3-Iron, 7-Iron, Long Iron, Short Iron, or Blade."
+    },
+    {
+      "puzzleId": "puzzle-0170",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Concrete (definite) and Concrete evidence are conceptually nested: concrete evidence is a specific application of concrete meaning tangible/specific/verifiable. The item Verifiable especially bridges the two labels.",
+      "items": [
+        "Verifiable",
+        "Proof",
+        "Testimony",
+        "Exhibit",
+        "Forensic"
+      ],
+      "groups": [
+        "Concrete (definite)",
+        "Concrete evidence"
+      ],
+      "suggestedFix": "Change one group to a non-overlapping sense of “concrete,” or replace the evidence group with a clearer separate phrase."
+    },
+    {
+      "puzzleId": "puzzle-0171",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Tower can reasonably belong to Cell phone as “cell tower,” but it can also be a prison watchtower in the prison setting. Because Prison cell is another listed category, this creates avoidable ambiguity.",
+      "items": [
+        "Tower"
+      ],
+      "groups": [
+        "Cell phone",
+        "Prison cell"
+      ],
+      "suggestedFix": "Use a more phone-specific item such as Carrier, Handset, SIM, or Voicemail."
+    },
+    {
+      "puzzleId": "puzzle-0171",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Parole is associated with prisons and criminal justice, but it is not a feature of a prison cell. Warden is also prison-related rather than cell-specific, weakening the category.",
+      "items": [
+        "Parole",
+        "Warden"
+      ],
+      "groups": [
+        "Prison cell"
+      ],
+      "suggestedFix": "Use cell-specific items such as Bunk, Bars, Lock, Toilet, or Solitary."
+    },
+    {
+      "puzzleId": "puzzle-0173",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Emboss is not primarily a rubber-stamp item; embossing creates a raised impression and is closer to seal/notarial processes than a standard rubber stamp. It may pull toward Wax seal or official certification associations.",
+      "items": [
+        "Emboss"
+      ],
+      "groups": [
+        "Rubber stamp"
+      ],
+      "suggestedFix": "Replace with Handle, Rubber, Ink, Impression, or Date Stamp."
+    },
+    {
+      "puzzleId": "puzzle-0174",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Range is the common term for a mountain chain, but it is also a generic ordered sequence or extent and can read as a chain-like series. More importantly, Summit, Ridge, and Pass are mountain features rather than mountain-chain terms, making the category less precise.",
+      "items": [
+        "Summit",
+        "Ridge",
+        "Pass"
+      ],
+      "groups": [
+        "Mountain chain"
+      ],
+      "suggestedFix": "Use clearer mountain-chain items such as Himalayas, Andes, Alps, Rockies, or Cordillera."
+    },
+    {
+      "puzzleId": "puzzle-0175",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Launch belongs naturally to Rocket stage as well as Development stage. The rocket category already includes rocket-launch concepts, so this item can reasonably be selected with the rocket group.",
+      "items": [
+        "Launch"
+      ],
+      "groups": [
+        "Rocket stage",
+        "Development stage"
+      ],
+      "suggestedFix": "Replace Launch in Development stage with Pilot, MVP, Alpha, or Release Candidate."
+    },
+    {
+      "puzzleId": "puzzle-0176",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Trail is very close to the title theme Track record and can also fit running/railway contexts as a physical path. In Tracking evidence it is valid, but not uniquely anchored.",
+      "items": [
+        "Trail"
+      ],
+      "groups": [
+        "Tracking evidence",
+        "Running track",
+        "Railway track"
+      ],
+      "suggestedFix": "Use Trace, Log, Timestamp, or Breadcrumb instead."
+    },
+    {
+      "puzzleId": "puzzle-0178",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Cider is not wine, and Vineyard and Barrel are wine-production associations rather than a wine press itself. The Press (wine) group is semantically loose and one item is placed incorrectly.",
+      "items": [
+        "Vineyard",
+        "Barrel",
+        "Cider"
+      ],
+      "groups": [
+        "Press (wine)"
+      ],
+      "suggestedFix": "Rename to Press (beverage making) or replace with Pomace, Crush, Must, Winepress."
+    },
+    {
+      "puzzleId": "puzzle-0180",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Gallery and Canvas can belong to Picture frame, but they are broader art-display/art-object terms and not frame-specific. Canvas can also relate to film/storyboard visual media, making it less uniquely tied to the intended group.",
+      "items": [
+        "Gallery",
+        "Canvas"
+      ],
+      "groups": [
+        "Picture frame",
+        "Film frame"
+      ],
+      "suggestedFix": "Use Rabbet, Glazing, Backing Board, Moulding, or Hanging Wire for the picture-frame group."
+    },
+    {
+      "puzzleId": "puzzle-0197",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Schooner is not a bark/barque; it is a different type of sailing vessel. Vessel is also generic rather than specifically a bark ship.",
+      "items": [
+        "Schooner",
+        "Vessel"
+      ],
+      "groups": [
+        "Bark ship"
+      ],
+      "suggestedFix": "Use Barque, Three-Master, Foremast, Mainmast, Mizzenmast, or Square-Rigged."
+    },
+    {
+      "puzzleId": "puzzle-0197",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Growl and Howl are dog vocalizations, but they are not specifically barks. Because the category is Dog's bark rather than Dog sounds, these are imprecise.",
+      "items": [
+        "Growl",
+        "Howl"
+      ],
+      "groups": [
+        "Dog's bark"
+      ],
+      "suggestedFix": "Rename the group to Dog sounds or use Bark-specific items such as Yap, Ruff, Woof, Arf."
+    },
+    {
+      "puzzleId": "puzzle-0198",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Strike can mean a lightning strike, but it is also a general action in sports, labor, or combat. With Hardware bolt present, Wrench is similarly hardware-generic rather than bolt-specific, making the solve rely on broad association.",
+      "items": [
+        "Strike",
+        "Wrench"
+      ],
+      "groups": [
+        "Lightning bolt",
+        "Hardware bolt"
+      ],
+      "suggestedFix": "Use more bolt-specific terms such as Hex Head, Shank, Carriage, or Anchor Bolt, and lightning-specific terms such as Forked, Arc, or Discharge."
+    },
+    {
+      "puzzleId": "puzzle-0199",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Crease and Bowler are central cricket terms but not specific to a cricket bat. Dugout and Home Run are baseball-game terms rather than baseball-bat terms. The two bat-sport groups are close enough that generic sport terms weaken uniqueness.",
+      "items": [
+        "Crease",
+        "Bowler",
+        "Dugout",
+        "Home Run"
+      ],
+      "groups": [
+        "Baseball bat",
+        "Cricket bat"
+      ],
+      "suggestedFix": "Make the labels broader, such as Baseball and Cricket, or use bat-specific items like Barrel, Knob, Handle, Willow, Blade, and Grip."
+    },
+    {
+      "puzzleId": "puzzle-0202",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "These four emotion categories are intensity levels or related affective states, not cleanly separated meanings. Afraid contains Terrified/Petrified while Furious contains Enraged, and the puzzle is mostly synonym sorting by subtle intensity, which is brittle for medium.",
+      "items": [
+        "Livid",
+        "Enraged",
+        "Incensed",
+        "Irate",
+        "Terrified",
+        "Petrified",
+        "Frightened",
+        "Spooked"
+      ],
+      "groups": [
+        "Meaning FURIOUS",
+        "Meaning ANNOYED",
+        "Meaning SAD",
+        "Meaning AFRAID"
+      ],
+      "suggestedFix": "Use clearer non-overlapping synonym sets or make the title/difficulty reflect a synonym ladder with carefully separated intensities."
+    },
+    {
+      "puzzleId": "puzzle-0203",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Decadent and Indulgent can describe wealth/luxury as well as flavor, so they can pull toward Rich (wealthy). Saturated and Vivid are color terms, but Deep Red and Jewel Tone are examples rather than synonyms for a deep tone.",
+      "items": [
+        "Decadent",
+        "Indulgent",
+        "Saturated",
+        "Vivid",
+        "Deep Red",
+        "Jewel Tone"
+      ],
+      "groups": [
+        "Rich (wealthy)",
+        "Rich (flavour)",
+        "Rich (deep tone)"
+      ],
+      "suggestedFix": "Use more flavor-specific items such as Full-Bodied, Savory, Umami, Heavy, and more tone-specific adjectives rather than examples."
+    },
+    {
+      "puzzleId": "puzzle-0221",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Sleeve Art in Record Jacket overlaps with Book Jacket because jackets and sleeves are both cover-art packaging domains. Blurb and Synopsis are near-duplicates in Book Jacket, and both describe summary copy.",
+      "items": [
+        "Blurb",
+        "Synopsis",
+        "Sleeve Art"
+      ],
+      "groups": [
+        "Book Jacket",
+        "Record Jacket"
+      ],
+      "suggestedFix": "Replace Synopsis with Spine or Back Cover, and use record-specific items such as Inner Sleeve, Label, Catalog Number, or Gatefold."
+    },
+    {
+      "puzzleId": "puzzle-0223",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The organ-system labels are biologically parallel, but several items are not organs despite the title Read the organs. Neuron, Synapse, Alveoli, Artery, Vein, Aorta, and Capillary are cells/structures/vessels, not organs. This is a title/category precision issue rather than a solve blocker.",
+      "items": [
+        "Neuron",
+        "Synapse",
+        "Alveoli",
+        "Artery",
+        "Vein",
+        "Aorta",
+        "Capillary"
+      ],
+      "groups": [
+        "Cardiovascular System",
+        "Respiratory System",
+        "Nervous System"
+      ],
+      "suggestedFix": "Rename the title/category framing to body-system parts, or use actual organs consistently."
+    },
+    {
+      "puzzleId": "puzzle-0224",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Tilt, Zoom, and Dolly are camera movements but not pans. They are parallel camera operations, so the label Camera Pan is too narrow.",
+      "items": [
+        "Tilt",
+        "Zoom",
+        "Dolly"
+      ],
+      "groups": [
+        "Camera Pan"
+      ],
+      "suggestedFix": "Rename to Camera Moves or replace with Pan-specific items such as Left, Right, Sweep, Horizontal."
+    },
+    {
+      "puzzleId": "puzzle-0225",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several items are not cleanly “styles” of the named garment: Oven Mitt is a type of mitt rather than a glove style, Tool Belt is a functional belt, and Bandana/Cravat/Shawl can be neckwear but not necessarily scarf styles. The groups are solvable but the labels overpromise.",
+      "items": [
+        "Oven Mitt",
+        "Tool Belt",
+        "Bandana",
+        "Cravat",
+        "Shawl"
+      ],
+      "groups": [
+        "Glove Styles",
+        "Belt Styles",
+        "Scarf Styles"
+      ],
+      "suggestedFix": "Rename groups to Hat Types, Handwear, Belt Types, and Neckwear, or use stricter style examples."
+    },
+    {
+      "puzzleId": "puzzle-0226",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Heave Ho, Ahoy, Avast, and All Hands are nautical expressions/calls, but not all are specifically sailing commands. Ahoy is a greeting, and All Hands is a muster call.",
+      "items": [
+        "Ahoy",
+        "All Hands"
+      ],
+      "groups": [
+        "Sailing Commands"
+      ],
+      "suggestedFix": "Rename to Nautical Calls or replace with commands like Tack, Jibe, Trim, Reef."
+    },
+    {
+      "puzzleId": "puzzle-0227",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Cell belongs naturally to Police Station, but it also strongly evokes prison cell from nearby puzzle vocabulary and is not station-specific. Antenna and Transmitter can also fit Communication channel-style categories in this batch, though within this puzzle they are only in Broadcast Station.",
+      "items": [
+        "Cell",
+        "Antenna",
+        "Transmitter"
+      ],
+      "groups": [
+        "Police Station",
+        "Broadcast Station"
+      ],
+      "suggestedFix": "Use Holding Cell for police, and consider more station-specific broadcast items such as Control Room or Call Sign."
+    },
+    {
+      "puzzleId": "puzzle-0247",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Wonder, anticipation, and pride are broad feelings, and several items can cross categories: Excitement can be anticipation or wonder, Triumph can be pride or an event outcome, and Amazement/Astonishment overlap with Awe/Marvel very tightly. This is mostly a synonym-sorting puzzle with fuzzy boundaries.",
+      "items": [
+        "Excitement",
+        "Triumph",
+        "Awe",
+        "Marvel",
+        "Amazement",
+        "Astonishment"
+      ],
+      "groups": [
+        "Meaning WONDER",
+        "Meaning PRIDE",
+        "Meaning ANTICIPATION"
+      ],
+      "suggestedFix": "Use more sharply separated emotional states or replace cross-cutting words like Excitement and Triumph."
+    },
+    {
+      "puzzleId": "puzzle-0248",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Oedipus is both a mortal king and a legendary Greek hero figure, comparable to the hero-category items. Heracles/Hercules, Theseus, and Jason are also royal or semi-royal in some traditions, so Mortal Kings and Legendary Heroes are not fully disjoint conceptually.",
+      "items": [
+        "Oedipus",
+        "Theseus",
+        "Jason",
+        "Hercules"
+      ],
+      "groups": [
+        "Legendary Heroes",
+        "Mortal Kings"
+      ],
+      "suggestedFix": "Replace Oedipus with a king less strongly framed as a hero, or rename the group to Mythic Kings and avoid hero-category overlap."
+    },
+    {
+      "puzzleId": "puzzle-0250",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Heal and Shield are not D&D spell names in the same iconic way as Fireball; “Healing Word,” “Cure Wounds,” and “Shield” are spells, but plain Heal depends on edition/context. The group also assumes D&D-specific knowledge while using generic tabletop wording.",
+      "items": [
+        "Heal",
+        "Shield"
+      ],
+      "groups": [
+        "Common Spells"
+      ],
+      "suggestedFix": "Use exact spell names such as Fireball, Cure Wounds, Magic Missile, Shield, or rename the puzzle/category to D&D."
+    },
+    {
+      "puzzleId": "puzzle-0252",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Victorian Transport and Wartime Vehicles are not parallel categories: a vehicle can be both Victorian and wartime, and the labels mix era with use case. Stagecoach predates and extends beyond the Victorian period, while Spitfire/U-Boat are specific WWII craft.",
+      "items": [
+        "Stagecoach",
+        "Steam Train",
+        "Spitfire",
+        "U-Boat"
+      ],
+      "groups": [
+        "Victorian Transport",
+        "Wartime Vehicles"
+      ],
+      "suggestedFix": "Use consistently era-based groups or consistently function/type-based groups."
+    },
+    {
+      "puzzleId": "puzzle-0255",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Witness Statement can be a physical clue/evidence item, and Evidence Bag is part of handling physical clues. The Crime Scene and Physical Clues groups overlap in the evidence domain.",
+      "items": [
+        "Witness Statement",
+        "Evidence Bag",
+        "Fingerprint",
+        "DNA Sample"
+      ],
+      "groups": [
+        "Physical Clues",
+        "Crime Scene"
+      ],
+      "suggestedFix": "Make Crime Scene contain scene-setting items only, such as Yellow Tape, Chalk Outline, Body, Flashlight, or remove evidence-container/document items."
+    },
+    {
+      "puzzleId": "puzzle-0271",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Branch is a code-fork term, but it also maps strongly to fork-in-the-road imagery. Prong is very close to Tine, since both refer to fork-like projections, creating a dining/tuning ambiguity.",
+      "items": [
+        "Branch",
+        "Prong",
+        "Tine"
+      ],
+      "groups": [
+        "Fork in the road",
+        "Code fork",
+        "Dining fork",
+        "Tuning fork"
+      ],
+      "suggestedFix": "Use Git-specific items like Clone, Upstream, Remote, or Merge, and avoid pairing Tine with Prong."
+    },
+    {
+      "puzzleId": "puzzle-0272",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Athena is a goddess of wisdom but also a war goddess, which overlaps with Gods of War. Pluto is a Roman underworld/death god and also paired with Hades, so the item is valid, but the cross-pantheon pairings make some domains broad.",
+      "items": [
+        "Athena"
+      ],
+      "groups": [
+        "Gods of War",
+        "Gods of Wisdom"
+      ],
+      "suggestedFix": "Replace Athena or Ares/Mars set with deities whose domains do not intentionally overlap within the puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0273",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Dismiss and Summary are incomplete names for motion types and can read as ordinary legal outcomes/adjectives. Mistrial and Hung Jury are not verdicts in the same sense as convicted/acquitted; hung jury often results in a mistrial, so Verdict Outcomes is imprecise.",
+      "items": [
+        "Dismiss",
+        "Summary",
+        "Mistrial",
+        "Hung Jury"
+      ],
+      "groups": [
+        "Motion Types",
+        "Verdict Outcomes"
+      ],
+      "suggestedFix": "Use full legal phrases: Motion to Dismiss, Motion for Continuance, Motion to Suppress, Summary Judgment; rename verdict group to Trial Outcomes."
+    },
+    {
+      "puzzleId": "puzzle-0274",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Fishing Net is a Loki sign in myth, but it also reads as a mundane net item and can pull toward other net-themed puzzles. Red Beard and Thunderstorm are looser Thor signs compared with Mjolnir and Goat Chariot.",
+      "items": [
+        "Fishing Net",
+        "Red Beard",
+        "Thunderstorm"
+      ],
+      "groups": [
+        "Signs of Loki",
+        "Signs of Thor"
+      ],
+      "suggestedFix": "Use more canonical, compact identifiers such as Jormungandr, Fenrir, Laufey, Mjolnir, Bilskirnir, or Megingjord."
+    },
+    {
+      "puzzleId": "puzzle-0276",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Several desserts belong to more than one listed dessert category. Tiramisu and Opera are cakes but also layered cream desserts; Trifle is commonly a custard dessert but also cake/cream layered; Baked Alaska and Ice Cream Cake combine cake and frozen dessert. The category boundaries are not clean.",
+      "items": [
+        "Tiramisu",
+        "Opera",
+        "Trifle",
+        "Baked Alaska",
+        "Ice Cream Cake"
+      ],
+      "groups": [
+        "Cake Desserts",
+        "Custard Desserts",
+        "Frozen Desserts"
+      ],
+      "suggestedFix": "Use mutually exclusive dessert families or replace hybrid desserts with cleaner examples."
+    },
+    {
+      "puzzleId": "puzzle-0277",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Bloom season varies significantly by climate and cultivar. Lavender appears in Summer Bloomers but can also be a floral/perfume note in another puzzle, and Camellia can bloom autumn through winter depending on variety. The seasonal taxonomy is less stable than medium fairness usually needs.",
+      "items": [
+        "Lavender",
+        "Camellia",
+        "Snowdrop",
+        "Witch Hazel"
+      ],
+      "groups": [
+        "Spring Bloomers",
+        "Summer Bloomers",
+        "Autumn Bloomers",
+        "Winter Bloomers"
+      ],
+      "suggestedFix": "Use region-specific wording or choose plants with more universally recognized bloom seasons."
+    },
+    {
+      "puzzleId": "puzzle-0280",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Winged Disk is associated with Horus/Behdety but also broadly solar and can pull toward Ra. Scarab Beetle is also strongly associated with Khepri and solar rebirth, so it may not uniquely identify Ra for a medium puzzle.",
+      "items": [
+        "Winged Disk",
+        "Scarab Beetle"
+      ],
+      "groups": [
+        "Signs of Ra",
+        "Signs of Horus"
+      ],
+      "suggestedFix": "Use more exclusive identifiers, or make the category labels broader Egyptian solar/falcon iconography if overlap is intended."
+    },
+    {
+      "puzzleId": "puzzle-0287",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Regional African river sorting with items like Moulouya, Medjerda, Chelif, Sebou, Jubba, Awash, Rufiji, and Lomami is specialist geography knowledge and too hard for medium.",
+      "items": [
+        "Moulouya",
+        "Medjerda",
+        "Chelif",
+        "Sebou",
+        "Jubba",
+        "Awash",
+        "Rufiji",
+        "Lomami"
+      ],
+      "groups": [
+        "West African Rivers",
+        "East African Rivers",
+        "North African Rivers",
+        "Congo Basin Tributaries"
+      ],
+      "suggestedFix": "Move to hard/expert or use more widely known rivers and less granular regional labels."
+    },
+    {
+      "puzzleId": "puzzle-0288",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Appalachians and Blue Ridge overlap because the Blue Ridge is part of the Appalachian Mountains. This creates nested items within the same group and weakens distinctness.",
+      "items": [
+        "Blue Ridge",
+        "Appalachians"
+      ],
+      "groups": [
+        "Americas Mountain Ranges"
+      ],
+      "suggestedFix": "Replace one with a separate range such as Rockies, Andes, Cascades, or Sierra Nevada."
+    },
+    {
+      "puzzleId": "puzzle-0288",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Some ranges such as Ahaggar, Rwenzori, Zagros, and Tian Shan may be a stretch for medium depending on the target audience. The puzzle leans toward geography-specialist sorting.",
+      "items": [
+        "Ahaggar",
+        "Rwenzori",
+        "Zagros",
+        "Tian Shan"
+      ],
+      "groups": [
+        "Asian Mountain Ranges",
+        "African Mountain Ranges"
+      ],
+      "suggestedFix": "Consider hard tier or swap in more broadly known examples."
+    },
+    {
+      "puzzleId": "puzzle-0290",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Norway has both a Nordic cross design and a red-white-blue flag, so it fits two listed categories. Several Eagle Emblem countries also have red/white/blue elements, but Norway is the clearest direct overlap with the explicit Red, White and Blue category.",
+      "items": [
+        "Norway"
+      ],
+      "groups": [
+        "Flags: Red, White and Blue Tricolour",
+        "Flags: Nordic Cross Design"
+      ],
+      "suggestedFix": "Change the first label to Horizontal Red/White/Blue Tricolour and avoid any country also matching another flag-design category."
+    },
+    {
+      "puzzleId": "puzzle-0292",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "ER and Grey's Anatomy are medical dramas, not procedural dramas in the usual TV-format sense. Big Brother is a reality show, but not always a competition format in the same way as Survivor, The Amazing Race, or MasterChef.",
+      "items": [
+        "ER",
+        "Grey's Anatomy",
+        "Big Brother"
+      ],
+      "groups": [
+        "Procedural Drama Examples",
+        "Reality Competition Examples"
+      ],
+      "suggestedFix": "Use clearer procedurals such as CSI, Law & Order, NCIS, Criminal Minds, and rename or adjust the reality group if including Big Brother."
+    },
+    {
+      "puzzleId": "puzzle-0293",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Kubrick was born in the United States but became a naturalized British citizen and worked largely in the UK. National-director sorting can therefore be less clean than intended.",
+      "items": [
+        "Kubrick"
+      ],
+      "groups": [
+        "American Directors"
+      ],
+      "suggestedFix": "Use a less ambiguous American director or label the category U.S.-born directors."
+    },
+    {
+      "puzzleId": "puzzle-0296",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Electromagnetic Spectrum is associated with Maxwell's electromagnetic theory, but Maxwell did not discover or define the full spectrum as a named contribution in the same way as Maxwell's Equations or displacement current. Quantum Numbers are not primarily Bohr's contribution; they are more associated with later quantum theory.",
+      "items": [
+        "Electromagnetic Spectrum",
+        "Quantum Numbers"
+      ],
+      "groups": [
+        "Maxwell's Contributions",
+        "Bohr's Contributions"
+      ],
+      "suggestedFix": "Use more precise contributions such as Kinetic Theory, Maxwell Distribution, Bohr Model, Correspondence Principle, or Quantized Orbits."
+    },
+    {
+      "puzzleId": "puzzle-0298",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "D-Prime Layer and Core-Mantle Boundary are boundary/lower-mantle-region terms rather than Earth's core layers. They overlap conceptually with mantle structure instead of fitting cleanly under core layers.",
+      "items": [
+        "D-Prime Layer",
+        "Core-Mantle Boundary"
+      ],
+      "groups": [
+        "Earth's Core Layers",
+        "Earth's Mantle Zones"
+      ],
+      "suggestedFix": "Rename to Core and Boundary Terms, or replace with core-specific items such as Solid Inner Core, Liquid Outer Core, Nickel-Iron, or Lehmann Discontinuity."
+    },
+    {
+      "puzzleId": "puzzle-0300",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Whitman is often treated as a major American Romantic or proto-modernist poet as much as a Transcendentalist-adjacent writer. He is not as cleanly a Transcendentalist as Emerson, Thoreau, or Fuller.",
+      "items": [
+        "Whitman"
+      ],
+      "groups": [
+        "American Transcendentalist Writers"
+      ],
+      "suggestedFix": "Replace with Margaret Fuller if not already used, Bronson Alcott, or another less disputed Transcendentalist figure."
+    },
+    {
+      "puzzleId": "puzzle-0301",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Structural Story Devices overlaps with Point of View Types because Unreliable Narrator is fundamentally a narration/point-of-view device. Frame Narrative and Epistolary are also narrative structure/time/perspective devices, making the categories conceptually entangled.",
+      "items": [
+        "Unreliable Narrator",
+        "Frame Narrative",
+        "Epistolary",
+        "Parallel Narrative"
+      ],
+      "groups": [
+        "Point of View Types",
+        "Structural Story Devices",
+        "Narrative Time Techniques"
+      ],
+      "suggestedFix": "Separate by unmistakable surface forms, or replace Unreliable Narrator with a purely structural item."
+    },
+    {
+      "puzzleId": "puzzle-0305",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "French culinary technique names such as Poeler, Mijoter, Laminage, Crémage, Feuilletage, and Foncer are specialist terminology and too hard for English medium unless the audience is culinary-trained.",
+      "items": [
+        "Poeler",
+        "Mijoter",
+        "Laminage",
+        "Crémage",
+        "Feuilletage",
+        "Foncer"
+      ],
+      "groups": [
+        "French Dry-Heat Techniques",
+        "French Moist-Heat Techniques",
+        "French Pastry Methods"
+      ],
+      "suggestedFix": "Move to hard/expert or use English culinary terms with only widely recognized French sauce names."
+    },
+    {
+      "puzzleId": "puzzle-0305",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Hollandaise is a mother sauce, but it is an emulsion rather than a “sauce base” in the same roux/stock sense as Bechamel, Veloute, and Espagnole. The label is slightly inaccurate.",
+      "items": [
+        "Hollandaise"
+      ],
+      "groups": [
+        "French Sauce Bases"
+      ],
+      "suggestedFix": "Rename to French Mother Sauces."
+    },
+    {
+      "puzzleId": "puzzle-0316",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Keyboard-Plucked Instruments is a subset of Plucked String Instruments, and Struck String Instruments also includes keyboard instruments like Piano and Clavichord. The categories are nested by playing mechanism and interface, so the labels overlap conceptually.",
+      "items": [
+        "Harpsichord",
+        "Virginal",
+        "Spinet",
+        "Psaltery",
+        "Clavichord",
+        "Piano"
+      ],
+      "groups": [
+        "Plucked String Instruments",
+        "Struck String Instruments",
+        "Keyboard-Plucked Instruments"
+      ],
+      "suggestedFix": "Make categories parallel, for example Bowed, Plucked Non-keyboard, Struck, Keyboard String, and move Psaltery out of keyboard-plucked."
+    },
+    {
+      "puzzleId": "puzzle-0316",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Psaltery is plucked or struck, but it is not a keyboard-plucked instrument. Harpsichord, virginal, and spinet are keyboard-plucked; psaltery does not belong with them.",
+      "items": [
+        "Psaltery"
+      ],
+      "groups": [
+        "Keyboard-Plucked Instruments"
+      ],
+      "suggestedFix": "Replace Psaltery with Clavicytherium or another keyboard-plucked instrument, or move Psaltery to Plucked String Instruments."
+    },
+    {
+      "puzzleId": "puzzle-0317",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Treaty of Versailles was signed in 1919, so it fits the 1910s, but it is strongly a post-WWI settlement; Wall Street Crash Aftermath is awkward because the crash was in 1929 and only the aftermath is 1930s. The label relies on a phrasing workaround and is less clean than the other event items.",
+      "items": [
+        "Wall Street Crash Aftermath"
+      ],
+      "groups": [
+        "World Events of the 1930s"
+      ],
+      "suggestedFix": "Use Great Depression, Dust Bowl, Munich Agreement, or another unambiguously 1930s event."
+    },
+    {
+      "puzzleId": "puzzle-0318",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Poison Dart Frog can be a forest-floor dweller but many species are also arboreal or use vegetation, while Red-Eyed Tree Frog clearly belongs in canopy/arboreal contexts. The distinction between canopy and forest floor is ecologically variable and may be too fuzzy.",
+      "items": [
+        "Poison Dart Frog",
+        "Red-Eyed Tree Frog"
+      ],
+      "groups": [
+        "Forest Canopy Dwellers",
+        "Forest Floor Dwellers"
+      ],
+      "suggestedFix": "Use animals more consistently tied to the listed forest layer, or rename to Arboreal Rainforest Animals and Terrestrial Rainforest Animals."
+    }
+  ]
+}

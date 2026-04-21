@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Морские животные",
     "batch": "ru-batch-02",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 35,
+    "gptDifficulty": 45,
+    "gptRationale": "Морские животные общеизвестны, но последняя группа специально собрана как остаточная, а не как строгий биологический класс."
   },
   "groups": [
     {

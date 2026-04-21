@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Литературные герои по произведению",
     "batch": "ru-batch-02",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 36,
+    "gptDifficulty": 34,
+    "gptRationale": "Литературные герои в целом известны, но задача зависит от школьного канона и может тормозить на менее мгновенно узнаваемых персонажах."
   },
   "groups": [
     {

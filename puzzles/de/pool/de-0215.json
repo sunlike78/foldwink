@@ -5,7 +5,10 @@
   "meta": {
     "theme": "tiefebene",
     "batch": "de-batch-03",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 47,
+    "gptDifficulty": 57,
+    "gptRationale": "Regionen, Städte, Flüsse und Landschaftsbegriffe der Tiefebene sind sachlich nah verwandt und nicht alle Begriffe sind gleich geläufig."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы кораблей и судов",
     "batch": "ru-batch-13",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 29,
+    "gptDifficulty": 39,
+    "gptRationale": "Базовые типы судов знакомы, но исторические названия и различия между военными классами делают набор чуть менее очевидным."
   },
   "groups": [
     {

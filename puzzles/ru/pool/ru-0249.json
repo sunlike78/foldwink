@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Страны и животные Африки",
     "batch": "ru-batch-09",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 23,
+    "gptDifficulty": 21,
+    "gptRationale": "Countries, animals, and major rivers of Africa form very familiar buckets with little overlap."
   },
   "groups": [
     {

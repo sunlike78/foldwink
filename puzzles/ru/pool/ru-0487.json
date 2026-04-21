@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ягоды и плоды российских лесов",
     "batch": "ru-batch-21",
-    "difficultyScore": 57
+    "difficultyScore": 57,
+    "editorialRank": 49,
+    "gptDifficulty": 43,
+    "gptRationale": "Российские ягоды в целом знакомы, но редкие и условно лечебные позиции требуют более точного ботанико-бытового знания."
   },
   "groups": [
     {

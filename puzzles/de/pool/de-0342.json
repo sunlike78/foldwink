@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kryptografie",
     "batch": "de-batch-04",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 35,
+    "gptDifficulty": 39,
+    "gptRationale": "Kryptografie wirkt technisch, doch die meisten Verfahren und Anwendungen sind mittlerweile recht bekannt und thematisch sauber gebündelt."
   },
   "groups": [
     {

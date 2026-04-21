@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Сон и сновидения",
     "batch": "ru-batch-21",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 48,
+    "gptDifficulty": 54,
+    "gptRationale": "Тема сна знакома, но внутри набора смешаны стадии, нарушения, типы сновидений и гигиенические практики."
   },
   "groups": [
     {

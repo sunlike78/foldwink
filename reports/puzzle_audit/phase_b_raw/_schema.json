@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "findings"
+  ],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "puzzleId",
+          "type",
+          "severity",
+          "explanation",
+          "items",
+          "groups",
+          "suggestedFix"
+        ],
+        "properties": {
+          "puzzleId": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "AMBIGUOUS_ITEM",
+              "LABEL_OVERLAP",
+              "SAME_SPECIES_SPLIT",
+              "OBSCURE",
+              "WRONG_TIER",
+              "FACTUAL_ERROR",
+              "TRIVIAL",
+              "REDUNDANT_ITEMS",
+              "CULTURAL_MISFIT",
+              "OTHER"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "items": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "groups": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "suggestedFix": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

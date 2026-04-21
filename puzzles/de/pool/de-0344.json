@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Quantencomputing",
     "batch": "de-batch-04",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 45,
+    "gptDifficulty": 51,
+    "gptRationale": "Die Grundideen des Quantencomputings sind vertraut, aber Hardware- und Algorithmusnamen treiben das Rätsel knapp über die Mittellage."
   },
   "groups": [
     {

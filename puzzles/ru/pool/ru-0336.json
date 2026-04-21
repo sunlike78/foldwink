@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рок-группы по жанру",
     "batch": "ru-batch-13",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 22,
+    "gptDifficulty": 21,
+    "gptRationale": "Рок-группы и поджанры в основном хрестоматийны, поэтому это одна из более лёгких тематических подборок."
   },
   "groups": [
     {

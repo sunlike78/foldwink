@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tierintelligenz und Lernfähigkeit",
     "batch": "de-batch-12",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 46,
+    "gptDifficulty": 55,
+    "gptRationale": "Die Tierintelligenz-Beispiele sind spannend, aber teilweise überraschend oder weniger allgemein bekannt und daher nicht immer sofort zuzuordnen."
   },
   "groups": [
     {

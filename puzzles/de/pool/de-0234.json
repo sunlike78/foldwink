@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kriminalromane",
     "batch": "de-batch-03",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 26,
+    "gptDifficulty": 18,
+    "gptRationale": "Krimi ist extrem zugänglich und die Kategorien folgen offensichtlichen Rollen-, Orts- und Genrelogiken."
   },
   "groups": [
     {

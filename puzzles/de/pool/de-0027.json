@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Planetensystem",
     "batch": "de-batch-01",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 34,
+    "gptDifficulty": 46,
+    "gptRationale": "Das Sonnensystem ist bekannt, doch bei Monden und Kleinkörpern entstehen durch Pluto und ähnliche astronomische Grenzfälle merkliche Unsicherheiten."
   },
   "groups": [
     {

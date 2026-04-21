@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 53,
+    "gptDifficulty": 70,
+    "gptRationale": "Historical grouping is intuitive in shape, but placing names and events into the right era requires more exact recall than average."
   }
 }

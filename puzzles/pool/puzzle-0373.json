@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 34,
+    "gptDifficulty": 22,
+    "gptRationale": "Platform-native content formats are contemporary and distinct, making the groups relatively easy for regular internet users to spot."
   },
   "groups": [
     {

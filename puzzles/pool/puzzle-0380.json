@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 43,
+    "gptDifficulty": 51,
+    "gptRationale": "The major religious groupings are clear, but accuracy depends on cross-cultural ritual knowledge and careful avoidance of broad-association guesses."
   },
   "groups": [
     {

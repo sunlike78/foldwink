@@ -1,0 +1,309 @@
+{
+  "lang": "de",
+  "tier": "medium",
+  "batchIndex": 2,
+  "batchTotal": 4,
+  "elapsedSec": 55,
+  "ratings": [
+    {
+      "puzzleId": "de-0429",
+      "difficulty": 58,
+      "rationale": "Die Kategorien sind sauber getrennt, aber viele Begriffe setzen recht spezifisches NATO-Sachwissen voraus und klingen für Laien ähnlich technisch."
+    },
+    {
+      "puzzleId": "de-0430",
+      "difficulty": 54,
+      "rationale": "Mehrere bekannte Abkommen helfen, doch die Nähe zwischen Völkerrecht, Menschenrechten und internationaler Politik erzeugt plausible Fehlzuordnungen."
+    },
+    {
+      "puzzleId": "de-0431",
+      "difficulty": 67,
+      "rationale": "Dialektwissen ist stark regional verteilt, sodass selbst bekannte Wörter ohne Herkunftsgefühl schnell zwischen Gruppen verrutschen."
+    },
+    {
+      "puzzleId": "de-0432",
+      "difficulty": 39,
+      "rationale": "Die Jahrzehnte sind kulturell gut unterscheidbar, auch wenn einige Ausdrücke überlappen oder länger im Umlauf blieben."
+    },
+    {
+      "puzzleId": "de-0433",
+      "difficulty": 63,
+      "rationale": "Slogans sind oft wiedererkennbar, aber Markenwissen und die Ähnlichkeit werblicher Formulierungen erzeugen deutliche False Trails."
+    },
+    {
+      "puzzleId": "de-0434",
+      "difficulty": 34,
+      "rationale": "DDR-Begriffe bilden sehr klare Cluster, und viele der Einträge sind im deutschen Allgemeinwissen relativ fest verankert."
+    },
+    {
+      "puzzleId": "de-0435",
+      "difficulty": 72,
+      "rationale": "Hier mischen sich historische, kulturelle und symbolische Ebenen, wodurch einige Begriffe ohne Kaiserreich-Kontext recht abstrakt wirken."
+    },
+    {
+      "puzzleId": "de-0436",
+      "difficulty": 24,
+      "rationale": "Die Fachsprachen sind durch typische Wortfelder sehr klar markiert und bieten nur wenige ernsthafte Verwechslungsmöglichkeiten."
+    },
+    {
+      "puzzleId": "de-0437",
+      "difficulty": 61,
+      "rationale": "Die Verzerrungen sind konzeptionell verwandt, und mehrere Hinweise beschreiben eher Effekte als eindeutige Schlagwörter."
+    },
+    {
+      "puzzleId": "de-0438",
+      "difficulty": 70,
+      "rationale": "Philosophische Schulen verlangen begriffliche Präzision, und Namen, Prinzipien und Fachvokabular liegen semantisch dicht beieinander."
+    },
+    {
+      "puzzleId": "de-0439",
+      "difficulty": 57,
+      "rationale": "Die Religionsblöcke sind grundsätzlich klar, aber einzelne Feste sind je nach Vorwissen deutlich weniger geläufig."
+    },
+    {
+      "puzzleId": "de-0440",
+      "difficulty": 41,
+      "rationale": "Viele Figuren sind bekannt, doch die Trennung zwischen Testamenten, Propheten und Aposteln verlangt etwas Bibelorientierung."
+    },
+    {
+      "puzzleId": "de-0441",
+      "difficulty": 76,
+      "rationale": "Mehrere antike Schulen sind außerhalb geisteswissenschaftlicher Bildung recht obskur und die Personennamen bieten kaum alltagsnahe Anker."
+    },
+    {
+      "puzzleId": "de-0442",
+      "difficulty": 55,
+      "rationale": "Aufklärung ist ein vertrautes Oberthema, aber Werke, Ideen und Ereignisse überschneiden sich gedanklich stark."
+    },
+    {
+      "puzzleId": "de-0443",
+      "difficulty": 68,
+      "rationale": "Die nationale Zuordnung romantischer Autoren ist für viele nicht stabil präsent und die Namen sind teils nur literarisch Gebildeten geläufig."
+    },
+    {
+      "puzzleId": "de-0444",
+      "difficulty": 52,
+      "rationale": "Merkmale und Werke stützen gut, aber die Mischung aus Malern, Autoren und Titeln fordert solides Realismuswissen."
+    },
+    {
+      "puzzleId": "de-0445",
+      "difficulty": 69,
+      "rationale": "Expressionismus ist stilistisch erkennbar, doch Werke und Personen sind deutlich spezieller und laden zu kunsthistorischen Verwechslungen ein."
+    },
+    {
+      "puzzleId": "de-0446",
+      "difficulty": 74,
+      "rationale": "Dada und Surrealismus stehen kulturell nahe beieinander, sodass Techniken und Personen ohne präzises Kunstwissen leicht kreuzen."
+    },
+    {
+      "puzzleId": "de-0447",
+      "difficulty": 36,
+      "rationale": "Pop Art ist sehr ikonisch, und Werke, Motive und Hauptnamen sind für diese Stufe vergleichsweise zugänglich."
+    },
+    {
+      "puzzleId": "de-0452",
+      "difficulty": 59,
+      "rationale": "Die Lerntheorien sind didaktisch verwandt und einige Kernbegriffe könnten auch in mehreren Modellen plausibel erscheinen."
+    },
+    {
+      "puzzleId": "de-0453",
+      "difficulty": 47,
+      "rationale": "Die Modelle sind in Ausbildungskontexten recht bekannt, aber einzelne Ebenen und Bausteine klingen untereinander ähnlich abstrakt."
+    },
+    {
+      "puzzleId": "de-0455",
+      "difficulty": 56,
+      "rationale": "Managementtheorien haben klare Leitbegriffe, doch sie stammen aus ähnlichen BWL-Kontexten und verlangen begriffliche Sortierung statt Alltagswissen."
+    },
+    {
+      "puzzleId": "de-0456",
+      "difficulty": 28,
+      "rationale": "Die Methoden haben sehr markante Buzzwords, sodass sich die vier Cluster für viele Spieler schnell erschließen."
+    },
+    {
+      "puzzleId": "de-0457",
+      "difficulty": 49,
+      "rationale": "Qualitätsmanagement-Begriffe sind fachlich klar, aber Lean, TQM und Six Sigma teilen eine ähnliche Verbesserungssprache."
+    },
+    {
+      "puzzleId": "de-0458",
+      "difficulty": 51,
+      "rationale": "Die Logistikfelder sind nachvollziehbar, jedoch sind mehrere englische Fachbegriffe für Nicht-BWLer nicht sofort trennscharf."
+    },
+    {
+      "puzzleId": "de-0459",
+      "difficulty": 44,
+      "rationale": "Finanz- und Controllingblöcke folgen vertrauten Business-Kategorien, auch wenn einzelne Kennzahlen Abkürzungswissen verlangen."
+    },
+    {
+      "puzzleId": "de-0460",
+      "difficulty": 20,
+      "rationale": "Recruiting, Onboarding, Performance und Offboarding sind sehr alltagsnahe HR-Phasen mit klar unterscheidbaren Begriffen."
+    },
+    {
+      "puzzleId": "de-0461",
+      "difficulty": 71,
+      "rationale": "Die Zuordnung einzelner Gedichttitel zu Autoren setzt recht spezifisches Literaturwissen voraus und bietet kaum semantische Hilfen."
+    },
+    {
+      "puzzleId": "de-0462",
+      "difficulty": 46,
+      "rationale": "Musikbegriffe sind oft vertraut oder intuitiv, doch Ausdruckswörter und Stimmungskonnotationen fordern etwas kulturelles Vorwissen."
+    },
+    {
+      "puzzleId": "de-0463",
+      "difficulty": 62,
+      "rationale": "Farbbedeutungen sind kulturabhängig und teils mehrdeutig, was trotz einfacher Oberflächenwörter für subtile Fehlgriffe sorgt."
+    },
+    {
+      "puzzleId": "de-0464",
+      "difficulty": 31,
+      "rationale": "Die Symbole sind allgemein bekannt, und ihre Bedeutungsfelder sind breit, aber meist noch gut voneinander zu unterscheiden."
+    },
+    {
+      "puzzleId": "de-0465",
+      "difficulty": 26,
+      "rationale": "Bräuche sind lebensnah und die Anlässe stark voneinander abgegrenzt, wodurch die Sortierung ziemlich direkt gelingt."
+    },
+    {
+      "puzzleId": "de-0466",
+      "difficulty": 43,
+      "rationale": "Aberglaube ist kulturell vertraut, aber einige Tier- und Objektdeutungen sind weniger standardisiert im Alltagsgedächtnis."
+    },
+    {
+      "puzzleId": "de-0467",
+      "difficulty": 38,
+      "rationale": "Die Kategorien sind inhaltlich klar aufgebaut, und selbst ohne Zustimmung zum Thema lassen sich Methoden, Mittel, Prinzipien und Kritik gut trennen."
+    },
+    {
+      "puzzleId": "de-0470",
+      "difficulty": 64,
+      "rationale": "Meditationsschulen teilen Vokabular und Praxisnähe, während einzelne Eigennamen und Sanskrit-Begriffe nur begrenzt bekannt sind."
+    },
+    {
+      "puzzleId": "de-0471",
+      "difficulty": 66,
+      "rationale": "Ökologische Begriffe, Nischenarten und Beziehungsformen verlangen Fachwissen, und nicht alle Beispiele tragen ihre Kategorie offen im Namen."
+    },
+    {
+      "puzzleId": "de-0472",
+      "difficulty": 53,
+      "rationale": "Vogelzug ist thematisch homogen, aber Routen, Navigation und Gefahren liegen begrifflich nah und brauchen biologisches Vorwissen."
+    },
+    {
+      "puzzleId": "de-0473",
+      "difficulty": 23,
+      "rationale": "Ursachen, Folgen, Lösungen und Beispielinsekten sind sehr intuitive Umweltcluster mit kaum versteckter Wortspiel-Ebene."
+    },
+    {
+      "puzzleId": "de-0474",
+      "difficulty": 60,
+      "rationale": "Naturschutz mischt Rechtsquellen, Methoden und Grundbegriffe, was ohne Fachnähe zu einigen sauberen, aber trockenen Abgrenzungen führt."
+    },
+    {
+      "puzzleId": "de-0475",
+      "difficulty": 42,
+      "rationale": "Stadtökologie ist anschaulich und aktuell, auch wenn einzelne Arten oder Planungsbegriffe etwas spezieller ausfallen."
+    },
+    {
+      "puzzleId": "de-0476",
+      "difficulty": 45,
+      "rationale": "Die Bereiche sind klar funktional getrennt, doch HACCP und Rückverfolgbarkeit nutzen technisches Fachvokabular."
+    },
+    {
+      "puzzleId": "de-0478",
+      "difficulty": 40,
+      "rationale": "Fast-Food-Seite und Grundidee sind leicht, nur die Slow-Food-Spezialbegriffe erhöhen den Anspruch etwas."
+    },
+    {
+      "puzzleId": "de-0480",
+      "difficulty": 65,
+      "rationale": "Molekulare Küche kombiniert prominente Köche mit spezialisierten Techniken und Zusatzstoffen, was für Nicht-Gourmets recht niche ist."
+    },
+    {
+      "puzzleId": "de-0481",
+      "difficulty": 33,
+      "rationale": "Die vier Digitalisierungsfelder sind modern, verständlich und jeweils durch typische Schlagwörter gut markiert."
+    },
+    {
+      "puzzleId": "de-0482",
+      "difficulty": 37,
+      "rationale": "Datenschutz ist im deutschen Kontext sehr präsent, sodass Rechte, Behörden und Grundbegriffe meist gut zuordenbar sind."
+    },
+    {
+      "puzzleId": "de-0483",
+      "difficulty": 29,
+      "rationale": "Cybersecurity-Begriffe sind weithin verbreitet und die Kategorien Angriff, Schutz, Standard und Grundbegriff sind deutlich verschieden."
+    },
+    {
+      "puzzleId": "de-0484",
+      "difficulty": 35,
+      "rationale": "Krypto-Themen haben klare Schlagwörter, und die Trennung zwischen Coins, Technologien, Prinzipien und Anwendungen ist relativ offensichtlich."
+    },
+    {
+      "puzzleId": "de-0485",
+      "difficulty": 48,
+      "rationale": "Die Zukunftstechnologien sind populär, aber manche Begriffe könnten auch in benachbarte Tech-Cluster passen."
+    },
+    {
+      "puzzleId": "de-0489",
+      "difficulty": 58,
+      "rationale": "Die Oberkategorien helfen, doch die Fachbegriffe aus Genomeditierung und Ethik verlangen präzises naturwissenschaftliches Verständnis."
+    },
+    {
+      "puzzleId": "de-0490",
+      "difficulty": 73,
+      "rationale": "Synthetische Biologie ist für viele deutlich obskurer als allgemeine Gentechnik, und mehrere Einträge sind konzeptionell statt alltagsnah."
+    },
+    {
+      "puzzleId": "de-0491",
+      "difficulty": 32,
+      "rationale": "Unternehmen, Fahrzeuge, Ziele und Hürden im Weltraumtourismus sind sauber getrennt und medial recht präsent."
+    },
+    {
+      "puzzleId": "de-0492",
+      "difficulty": 50,
+      "rationale": "Marswissen ist populär, aber Personen, Missionen, Probleme und Lösungsansätze fordern dennoch breiteres Raumfahrtwissen."
+    },
+    {
+      "puzzleId": "de-0493",
+      "difficulty": 69,
+      "rationale": "Exoplaneten bündelt viele spezialisierte astronomische Begriffe, bei denen Typen, Methoden und Messgrößen leicht ineinanderlaufen."
+    },
+    {
+      "puzzleId": "de-0494",
+      "difficulty": 75,
+      "rationale": "SETI, Theorien über Außerirdische und Projekte liegen semantisch eng zusammen und setzen teils sehr spezielles SciTech-Vorwissen voraus."
+    },
+    {
+      "puzzleId": "de-0495",
+      "difficulty": 57,
+      "rationale": "Die Themen sind politisch aktuell, aber Bewegungen, Konzepte und digitale Formate erzeugen einige absichtliche Grenzfälle."
+    },
+    {
+      "puzzleId": "de-0496",
+      "difficulty": 30,
+      "rationale": "Globalisierung ist schulisch stark etabliert, und Vorteile, Nachteile, Akteure und Ereignisse sind recht klassische Cluster."
+    },
+    {
+      "puzzleId": "de-0497",
+      "difficulty": 27,
+      "rationale": "Die Migrationskategorien sind sozialkundlich vertraut und durch ihre funktionalen Unterschiede gut unterscheidbar."
+    },
+    {
+      "puzzleId": "de-0498",
+      "difficulty": 52,
+      "rationale": "Interkulturelle Kompetenz arbeitet mit mehreren abstrakten Sozialwissenschaftsbegriffen, die ohne Vorwissen recht ähnlich klingen."
+    },
+    {
+      "puzzleId": "de-0499",
+      "difficulty": 34,
+      "rationale": "Die Zukunft-der-Arbeit-Felder sind gegenwartsnah und ihre Beispiele sehr sprechend, trotz einzelner Anglizismen."
+    },
+    {
+      "puzzleId": "de-0500",
+      "difficulty": 64,
+      "rationale": "AGI-, Singularitäts- und AI-Safety-Begriffe sind stark diskursnah und überschneiden sich für typische Spieler deutlich."
+    }
+  ]
+}

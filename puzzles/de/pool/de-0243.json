@@ -5,7 +5,10 @@
   "meta": {
     "theme": "musik-deutschland",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 27,
+    "gptDifficulty": 26,
+    "gptRationale": "Die Musikblöcke sind prominent besetzt und stilistisch gut voneinander abgegrenzt, obwohl einzelne Acts genreübergreifend wirken könnten."
   },
   "groups": [
     {

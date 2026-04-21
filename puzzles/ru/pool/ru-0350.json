@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Понятия социологии",
     "batch": "ru-batch-14",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 47,
+    "gptDifficulty": 61,
+    "gptRationale": "Социологические термины достаточно академичны, а различие между группами, институтами, мобильностью и теориями не всегда интуитивно."
   },
   "groups": [
     {

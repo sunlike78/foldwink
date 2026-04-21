@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Werkzeugfunktionen im Handwerk",
     "batch": "de-batch-12",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 30,
+    "gptDifficulty": 27,
+    "gptRationale": "Werkzeuge und ihre Handgriffe sind konkret, doch einige technische Details wie Libelle oder Tiefenanschlag setzen leichte Heimwerkerkenntnis voraus."
   },
   "groups": [
     {

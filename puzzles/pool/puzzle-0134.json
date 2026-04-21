@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 28,
+    "gptDifficulty": 28,
+    "gptRationale": "Desk-drawer supplies are familiar and the use-based categories are mostly obvious despite a little overlap around planning tools."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Neurologie",
     "batch": "de-batch-04",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 33,
+    "gptDifficulty": 44,
+    "gptRationale": "Neurologische Grundbegriffe sind recht bekannt, doch Forschungsmethoden und Hirnstrukturen verlangen etwas fachliche Sicherheit."
   },
   "groups": [
     {

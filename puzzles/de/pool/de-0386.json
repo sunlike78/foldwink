@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Anthropologie",
     "batch": "de-batch-04",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 55,
+    "gptDifficulty": 78,
+    "gptRationale": "Anthropologie verbindet spezialisierte Epochen-, Kultur- und Methodennamen, die für typische Spieler deutlich außerhalb des Alltagswissens liegen."
   },
   "groups": [
     {

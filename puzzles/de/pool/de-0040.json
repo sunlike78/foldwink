@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Smartphone",
     "batch": "de-batch-01",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 15,
+    "gptDifficulty": 15,
+    "gptRationale": "Smartphone-Begriffe stammen aus dem Alltag fast aller Spieler und die vier Gruppen sind sehr deutlich getrennt."
   },
   "groups": [
     {

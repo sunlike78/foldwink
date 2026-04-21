@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gesundheit",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 46,
+    "gptDifficulty": 63,
+    "gptRationale": "Asanas sind noch recht erkennbar, doch Atemtechniken und philosophische Sanskrit-Begriffe machen die Kategorien deutlich anspruchsvoller."
   },
   "groups": [
     {

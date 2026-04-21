@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 2
+    "difficultyScore": 2,
+    "editorialRank": 25,
+    "gptDifficulty": 41,
+    "gptRationale": "Computer hardware acronyms are common for many players, though storage versus memory versus processor terms can still mislead."
   },
   "groups": [
     {

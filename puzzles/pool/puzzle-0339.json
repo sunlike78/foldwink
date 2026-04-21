@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 62,
+    "gptDifficulty": 69,
+    "gptRationale": "Everything is math-related, so the false trail density is high and the distinctions depend on formal terminology."
   },
   "groups": [
     {

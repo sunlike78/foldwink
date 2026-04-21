@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рыбалка",
     "batch": "ru-batch-03",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 27,
+    "gptDifficulty": 35,
+    "gptRationale": "Рыбалка опирается на бытовые слова и очевидные группы, хотя отдельные снасти и наживки знакомы не абсолютно всем."
   },
   "groups": [
     {

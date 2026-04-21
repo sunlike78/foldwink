@@ -5,7 +5,10 @@
   "meta": {
     "theme": "oper-operette",
     "batch": "de-batch-03",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 53,
+    "gptDifficulty": 65,
+    "gptRationale": "Oper und Operette ist stark kulturkanonisch und erfordert sichere Trennung von Werken, Komponisten, Figuren und Häusern."
   },
   "groups": [
     {

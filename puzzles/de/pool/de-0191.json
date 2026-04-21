@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 30,
+    "gptDifficulty": 38,
+    "gptRationale": "Chemie im Alltag bleibt durch die lebensnahen Unterthemen gut zugänglich, auch wenn einzelne Fachbegriffe etwas genaueres Wissen verlangen."
   },
   "groups": [
     {

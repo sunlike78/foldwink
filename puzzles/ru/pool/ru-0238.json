@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Священные символы мировых религий",
     "batch": "ru-batch-08",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 42,
+    "gptDifficulty": 54,
+    "gptRationale": "Religious symbols are concrete but culturally specific, and some items can feel less universally obvious than the category labels."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 55,
+    "gptDifficulty": 61,
+    "gptRationale": "Logic vocabulary is precise and somewhat academic, with multiple categories sounding similar enough to create real false trails."
   },
   "groups": [
     {

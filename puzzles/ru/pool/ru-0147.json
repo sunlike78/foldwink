@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кофейные напитки",
     "batch": "ru-batch-04",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 36,
+    "gptDifficulty": 33,
+    "gptRationale": "Кофейные категории довольно очевидны, и большинство названий широко встречаются в меню кофеен."
   },
   "groups": [
     {

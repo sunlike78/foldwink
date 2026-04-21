@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ремонт квартиры",
     "batch": "ru-batch-07",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 14,
+    "gptDifficulty": 12,
+    "gptRationale": "Very everyday home-improvement vocabulary with clean category borders and almost no plausible cross-category confusion."
   },
   "groups": [
     {

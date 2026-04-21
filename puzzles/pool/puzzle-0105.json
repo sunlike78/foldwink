@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 25,
+    "gptDifficulty": 29,
+    "gptRationale": "Garden tools split into intuitive use-based categories with only a couple of less common tool names adding minor resistance."
   },
   "groups": [
     {

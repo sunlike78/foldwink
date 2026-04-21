@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Детские игры",
     "batch": "ru-batch-01",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 46,
+    "gptDifficulty": 50,
+    "gptRationale": "Childhood games are concrete but culturally specific, and several traditional game names are easy to confuse."
   },
   "groups": [
     {

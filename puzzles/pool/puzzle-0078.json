@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 48,
+    "gptDifficulty": 65,
+    "gptRationale": "Winter-sport categories are clear, but event names like moguls, slopestyle, and boardercross are not broadly known by casual players."
   }
 }

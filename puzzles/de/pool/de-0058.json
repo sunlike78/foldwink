@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Hafen und Schifffahrt",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 44,
+    "gptDifficulty": 55,
+    "gptRationale": "Schifffahrtsbegriffe sind logisch gruppiert, aber nautisches Fachvokabular wie Sextant, Lotse oder Manifest erhöht die Schwierigkeit spürbar."
   },
   "groups": [
     {

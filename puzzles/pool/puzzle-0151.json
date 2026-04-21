@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 33,
+    "gptDifficulty": 43,
+    "gptRationale": "The adjective 'sharp' creates nice thematic unity, but the sensory and figurative uses are still common enough to decode without much strain."
   },
   "groups": [
     {

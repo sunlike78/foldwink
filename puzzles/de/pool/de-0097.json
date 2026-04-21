@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ritter und Rittertum",
     "batch": "de-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 47,
+    "gptDifficulty": 63,
+    "gptRationale": "Rittertum terms are somewhat familiar, yet tournament and order names introduce archaic vocabulary and stronger false trails."
   },
   "groups": [
     {

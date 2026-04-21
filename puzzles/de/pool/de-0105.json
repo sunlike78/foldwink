@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Meerestiere",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 48,
+    "gptDifficulty": 61,
+    "gptRationale": "Marine-predator vocabulary includes technical or unusual terms, and the protection set is less intuitively grouped than the others."
   },
   "groups": [
     {

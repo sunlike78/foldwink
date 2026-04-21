@@ -5,7 +5,10 @@
   "meta": {
     "theme": "astronomie",
     "batch": "de-batch-05",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 57,
+    "gptDifficulty": 75,
+    "gptRationale": "SETI, Theorien über Außerirdische und Projekte liegen semantisch eng zusammen und setzen teils sehr spezielles SciTech-Vorwissen voraus."
   },
   "groups": [
     {

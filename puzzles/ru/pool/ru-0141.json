@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Супы по кухне",
     "batch": "ru-batch-04",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 21,
+    "gptDifficulty": 29,
+    "gptRationale": "Большинство супов очень узнаваемы, а деление по регионам мира довольно прямое и без сильных ложных следов."
   },
   "groups": [
     {

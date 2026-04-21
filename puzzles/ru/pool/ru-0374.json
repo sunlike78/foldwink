@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классики мировой литературы",
     "batch": "ru-batch-15",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 35,
+    "gptDifficulty": 41,
+    "gptRationale": "Классики мировой литературы в основном школьные, но нужно помнить национальную принадлежность авторов без лишних ложных ассоциаций."
   },
   "groups": [
     {

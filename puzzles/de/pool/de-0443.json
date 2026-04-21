@@ -5,7 +5,10 @@
   "meta": {
     "theme": "literatur",
     "batch": "de-batch-05",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 50,
+    "gptDifficulty": 68,
+    "gptRationale": "Die nationale Zuordnung romantischer Autoren ist für viele nicht stabil präsent und die Namen sind teils nur literarisch Gebildeten geläufig."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 30,
+    "gptDifficulty": 34,
+    "gptRationale": "The four meanings of 'net' are familiar and most entries are strongly anchored to their categories with limited ambiguity."
   },
   "groups": [
     {

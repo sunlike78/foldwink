@@ -1,0 +1,309 @@
+{
+  "lang": "ru",
+  "tier": "easy",
+  "batchIndex": 3,
+  "batchTotal": 6,
+  "elapsedSec": 46,
+  "ratings": [
+    {
+      "puzzleId": "ru-0211",
+      "difficulty": 12,
+      "rationale": "Very everyday home-improvement vocabulary with clean category borders and almost no plausible cross-category confusion."
+    },
+    {
+      "puzzleId": "ru-0212",
+      "difficulty": 46,
+      "rationale": "Still fairly concrete, but medieval architecture and siege-engine terms like 'барбакан' and 'требушет' raise the bar."
+    },
+    {
+      "puzzleId": "ru-0213",
+      "difficulty": 34,
+      "rationale": "Most groups are familiar, yet specifically Soviet-era playground games create some generational and cultural friction."
+    },
+    {
+      "puzzleId": "ru-0214",
+      "difficulty": 24,
+      "rationale": "Modern fitness categories are obvious and highly familiar, with only minor jargon from supplements and training styles."
+    },
+    {
+      "puzzleId": "ru-0216",
+      "difficulty": 43,
+      "rationale": "The insect theme is concrete, but overlap like bees appearing in multiple biological roles creates mild false trails."
+    },
+    {
+      "puzzleId": "ru-0217",
+      "difficulty": 57,
+      "rationale": "Arctic versus Antarctic fauna and specialist ice terminology demand more precise knowledge than the average easy-tier set."
+    },
+    {
+      "puzzleId": "ru-0218",
+      "difficulty": 55,
+      "rationale": "Mountain terms are easy, but distinguishing real regional peaks and spotting the out-of-region pairings is noticeably trickier."
+    },
+    {
+      "puzzleId": "ru-0219",
+      "difficulty": 31,
+      "rationale": "Media and journalism categories are intuitive, though identifying specific Russian outlets adds a small knowledge check."
+    },
+    {
+      "puzzleId": "ru-0221",
+      "difficulty": 28,
+      "rationale": "Dinosaur groupings are broadly familiar pop-culture material, with only the flying and marine reptile sets adding slight nuance."
+    },
+    {
+      "puzzleId": "ru-0223",
+      "difficulty": 49,
+      "rationale": "Russian river names are concrete, but regional grouping requires stronger geography recall than everyday-category puzzles."
+    },
+    {
+      "puzzleId": "ru-0224",
+      "difficulty": 58,
+      "rationale": "World-lake knowledge is less automatic, and the 'горные озёра' set depends on somewhat specialized geographic familiarity."
+    },
+    {
+      "puzzleId": "ru-0226",
+      "difficulty": 29,
+      "rationale": "The medieval theme is broad but the four groups themselves are standard textbook categories with low ambiguity."
+    },
+    {
+      "puzzleId": "ru-0228",
+      "difficulty": 41,
+      "rationale": "Literary genre labels are school-familiar, yet distinctions like 'роман/повесть/новелла' and special genres add abstraction."
+    },
+    {
+      "puzzleId": "ru-0230",
+      "difficulty": 18,
+      "rationale": "Solar-system categories are among the most standard educational groupings, with minimal room for confusion."
+    },
+    {
+      "puzzleId": "ru-0232",
+      "difficulty": 52,
+      "rationale": "Greek mythology is recognizable, but several lesser-known sea and underworld figures require more than surface familiarity."
+    },
+    {
+      "puzzleId": "ru-0233",
+      "difficulty": 22,
+      "rationale": "Dog-breed categories are concrete and popular, with most examples widely recognizable even to non-experts."
+    },
+    {
+      "puzzleId": "ru-0235",
+      "difficulty": 37,
+      "rationale": "Cat breeds are still accessible, but the more exotic modern breeds and hybrid-looking group increase difficulty somewhat."
+    },
+    {
+      "puzzleId": "ru-0238",
+      "difficulty": 54,
+      "rationale": "Religious symbols are concrete but culturally specific, and some items can feel less universally obvious than the category labels."
+    },
+    {
+      "puzzleId": "ru-0239",
+      "difficulty": 63,
+      "rationale": "Several sports invite category overlap or misclassification, and the final group includes non-water items that create strong false trails."
+    },
+    {
+      "puzzleId": "ru-0241",
+      "difficulty": 35,
+      "rationale": "Dance families are fairly intuitive, though folk and street substyles require a bit of cultural recognition."
+    },
+    {
+      "puzzleId": "ru-0243",
+      "difficulty": 26,
+      "rationale": "The zodiac animals are highly familiar and the structure is explicit, with only the elements adding slight extra thought."
+    },
+    {
+      "puzzleId": "ru-0245",
+      "difficulty": 33,
+      "rationale": "Instrument families are standard educational material, and most terms are recognizable despite a few orchestral specifics."
+    },
+    {
+      "puzzleId": "ru-0247",
+      "difficulty": 60,
+      "rationale": "Math vocabulary is school-based but more abstract than typical easy-tier content, especially in statistics and number-type terminology."
+    },
+    {
+      "puzzleId": "ru-0248",
+      "difficulty": 61,
+      "rationale": "Winter sports are concrete, yet discipline names like 'натбоб' and snowboard event labels are meaningfully more specialized."
+    },
+    {
+      "puzzleId": "ru-0249",
+      "difficulty": 21,
+      "rationale": "Countries, animals, and major rivers of Africa form very familiar buckets with little overlap."
+    },
+    {
+      "puzzleId": "ru-0251",
+      "difficulty": 64,
+      "rationale": "Natural-zone terminology is more technical than it first appears, with several borderline habitat labels inviting misgrouping."
+    },
+    {
+      "puzzleId": "ru-0253",
+      "difficulty": 44,
+      "rationale": "Game genres are familiar to many players, but acronym-heavy strategy and RPG subgenres raise the knowledge threshold."
+    },
+    {
+      "puzzleId": "ru-0255",
+      "difficulty": 68,
+      "rationale": "Recognizing famous paintings across multiple art-historical movements requires substantial cultural knowledge and invites author/style confusion."
+    },
+    {
+      "puzzleId": "ru-0257",
+      "difficulty": 19,
+      "rationale": "School subjects are among the most straightforward everyday categories, with only a couple of less-common class names adding minor resistance."
+    },
+    {
+      "puzzleId": "ru-0259",
+      "difficulty": 56,
+      "rationale": "Bird categories are simple in theory, but several species names are less familiar to a typical player."
+    },
+    {
+      "puzzleId": "ru-0263",
+      "difficulty": 27,
+      "rationale": "Russian folk-tale figures are highly canonical, and the four buckets are distinct enough to sort comfortably."
+    },
+    {
+      "puzzleId": "ru-0265",
+      "difficulty": 20,
+      "rationale": "World capitals by continent is classic general knowledge with very clear category boundaries."
+    },
+    {
+      "puzzleId": "ru-0267",
+      "difficulty": 62,
+      "rationale": "Basic theater forms are easy, but puppet and folk-theater terminology is specialized and less mainstream."
+    },
+    {
+      "puzzleId": "ru-0268",
+      "difficulty": 11,
+      "rationale": "Fruit and berry groupings are everyday shopping vocabulary with almost no abstraction or hidden traps."
+    },
+    {
+      "puzzleId": "ru-0270",
+      "difficulty": 47,
+      "rationale": "Northern Europe is accessible overall, but cultural items like 'смёрребрёд' and 'хюгге' add some precision demands."
+    },
+    {
+      "puzzleId": "ru-0272",
+      "difficulty": 66,
+      "rationale": "Religious holidays are concrete yet strongly culture-dependent, and distinguishing names across four traditions is fairly demanding."
+    },
+    {
+      "puzzleId": "ru-0273",
+      "difficulty": 39,
+      "rationale": "Bread and pastry categories are tangible and appealing, though some regional baked goods may be unfamiliar."
+    },
+    {
+      "puzzleId": "ru-0276",
+      "difficulty": 50,
+      "rationale": "Fabric classes are concrete but material-science and trade names like 'гортекс' and 'спандекс' make sorting less automatic."
+    },
+    {
+      "puzzleId": "ru-0277",
+      "difficulty": 67,
+      "rationale": "Russian freshwater fish taxonomy mixes common and specialist names, creating a significant knowledge burden for non-anglers."
+    },
+    {
+      "puzzleId": "ru-0279",
+      "difficulty": 42,
+      "rationale": "Martial-arts origins are mostly recognizable, but transliterated Korean and Chinese forms add moderate difficulty."
+    },
+    {
+      "puzzleId": "ru-0282",
+      "difficulty": 59,
+      "rationale": "Rhetoric and text-type labels are school terms but considerably more abstract and terminology-driven than standard easy-tier content."
+    },
+    {
+      "puzzleId": "ru-0283",
+      "difficulty": 23,
+      "rationale": "Russian cuisine categories are everyday and concrete, with dishes that are widely recognizable to the target audience."
+    },
+    {
+      "puzzleId": "ru-0285",
+      "difficulty": 25,
+      "rationale": "Summer sports categories are familiar and structurally obvious, with only mild overlap between combat-sport labels."
+    },
+    {
+      "puzzleId": "ru-0288",
+      "difficulty": 71,
+      "rationale": "Beneficial insects is a narrower knowledge domain, and several species are obscure or multifunctional enough to mislead."
+    },
+    {
+      "puzzleId": "ru-0289",
+      "difficulty": 48,
+      "rationale": "Poisonous plants and fungi are concrete, but severity distinctions and allergy-related items introduce some category fuzziness."
+    },
+    {
+      "puzzleId": "ru-0292",
+      "difficulty": 53,
+      "rationale": "Grammar sets are familiar from school, yet the inclusion of cross-linguistic forms like 'герундий' makes the sorting less clean."
+    },
+    {
+      "puzzleId": "ru-0294",
+      "difficulty": 58,
+      "rationale": "Ethnic groups, foods, and dances of the Caucasus require region-specific cultural knowledge beyond baseline general knowledge."
+    },
+    {
+      "puzzleId": "ru-0296",
+      "difficulty": 74,
+      "rationale": "This puzzle mixes astronomy, mythology, science-fiction worlds, and symbol notation, creating the strongest abstraction and cross-domain load here."
+    },
+    {
+      "puzzleId": "ru-0298",
+      "difficulty": 45,
+      "rationale": "Mushrooms are concrete, but edible-value labels and several lookalike or lesser-known species create moderate uncertainty."
+    },
+    {
+      "puzzleId": "ru-0299",
+      "difficulty": 51,
+      "rationale": "Great mathematicians is recognizable for some names, but era-based grouping and less mainstream figures make it tougher than average."
+    },
+    {
+      "puzzleId": "ru-0302",
+      "difficulty": 73,
+      "rationale": "Shark taxonomy is specialized and several labels are uncommon or misleadingly grouped, producing heavy false-trail pressure."
+    },
+    {
+      "puzzleId": "ru-0304",
+      "difficulty": 57,
+      "rationale": "Australian animals are famous at a high level, but monotreme and reptile specifics include some much less familiar names."
+    },
+    {
+      "puzzleId": "ru-0305",
+      "difficulty": 17,
+      "rationale": "Childhood games here are very concrete and familiar, with especially transparent category cues."
+    },
+    {
+      "puzzleId": "ru-0307",
+      "difficulty": 52,
+      "rationale": "Genre families are understandable, but cross-genre literary labels and abbreviated subgenres make the set more conceptual than it first appears."
+    },
+    {
+      "puzzleId": "ru-0309",
+      "difficulty": 14,
+      "rationale": "Family relations are everyday vocabulary with strongly separated generations and kinship roles."
+    },
+    {
+      "puzzleId": "ru-0310",
+      "difficulty": 65,
+      "rationale": "Grains and pseudo-grains are concrete food items, but the taxonomy is messy and several entries challenge the category names themselves."
+    },
+    {
+      "puzzleId": "ru-0312",
+      "difficulty": 36,
+      "rationale": "Big sports teams are widely known, though mixing Russian and global clubs adds a moderate recall requirement."
+    },
+    {
+      "puzzleId": "ru-0313",
+      "difficulty": 30,
+      "rationale": "Workout types are very contemporary and intuitive, with only a few branded fitness formats adding light difficulty."
+    },
+    {
+      "puzzleId": "ru-0315",
+      "difficulty": 78,
+      "rationale": "Norse-myth creatures include multiple obscure Old Norse-derived terms, making this one of the most precision-dependent puzzles in the set."
+    },
+    {
+      "puzzleId": "ru-0317",
+      "difficulty": 32,
+      "rationale": "Map types are easy to grasp, and only the inclusion of specific digital platforms adds a small twist."
+    }
+  ]
+}

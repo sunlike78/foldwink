@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 21,
+    "gptDifficulty": 27,
+    "gptRationale": "Programming-paradigm buckets are familiar to many modern solvers, and most language examples have strong canonical associations despite a few debatable edges."
   },
   "groups": [
     {

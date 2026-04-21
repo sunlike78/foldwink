@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bauhaus",
     "batch": "de-batch-03",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 38,
+    "gptDifficulty": 45,
+    "gptRationale": "Bauhaus ist als Marke sehr bekannt, doch Prinzipien, Werke und Standorte verlangen etwas mehr Sachwissen als reine Namenslisten."
   },
   "groups": [
     {

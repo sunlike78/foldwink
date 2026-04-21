@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Правители Российского государства",
     "batch": "ru-batch-17",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 38,
+    "gptDifficulty": 34,
+    "gptRationale": "История российских правителей узнаваема, но нужно помнить династические и эпохальные рамки, чтобы не перепутать соседние фигуры."
   },
   "groups": [
     {

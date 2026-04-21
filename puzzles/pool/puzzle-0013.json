@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 28,
+    "gptDifficulty": 39,
+    "gptRationale": "Countries and languages are easy enough, but capitals and currencies demand a bit more factual recall and precision."
   }
 }

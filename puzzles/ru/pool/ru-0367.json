@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Известные детские книги",
     "batch": "ru-batch-15",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 31,
+    "gptDifficulty": 33,
+    "gptRationale": "Большинство книг очень известны, а тематические блоки читаются достаточно естественно даже при нескольких пограничных примерах."
   },
   "groups": [
     {

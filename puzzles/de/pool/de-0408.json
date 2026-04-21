@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kunst",
     "batch": "de-batch-05",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 58,
+    "gptDifficulty": 66,
+    "gptRationale": "Kunstwerke und Künstler verlangen kulturelles Detailwissen, und mehrere berühmte Werke sind zwar bekannt, aber nicht sicher autorenscharf verankert."
   },
   "groups": [
     {

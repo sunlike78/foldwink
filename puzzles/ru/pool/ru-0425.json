@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Морские рыбы российских морей",
     "batch": "ru-batch-18",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 47,
+    "gptDifficulty": 66,
+    "gptRationale": "Российские моря и их рыбы требуют предметной географо-биологической памяти, а многие виды знакомы не всем игрокам."
   },
   "groups": [
     {

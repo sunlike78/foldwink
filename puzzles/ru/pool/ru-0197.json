@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Транспорт",
     "batch": "ru-batch-06",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 19,
+    "gptDifficulty": 19,
+    "gptRationale": "Транспортные средства крайне знакомы, а категории бытовые и хорошо разделимы даже без долгих раздумий."
   },
   "groups": [
     {

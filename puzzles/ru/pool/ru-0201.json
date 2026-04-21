@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Малоизвестные виды спорта",
     "batch": "ru-batch-07",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 45,
+    "gptDifficulty": 60,
+    "gptRationale": "Некоторые виды спорта и дисциплины, особенно конные и стрелковые, знакомы не всем и могут смешиваться по принципу инвентаря."
   },
   "groups": [
     {

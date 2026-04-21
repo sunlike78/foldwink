@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Морские державы в истории",
     "batch": "ru-batch-18",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 54,
+    "gptDifficulty": 58,
+    "gptRationale": "Флоты разных эпох и стран узнаваемы неравномерно, а смешение государств, исторических объединений и региональных флотов повышает сложность."
   },
   "groups": [
     {

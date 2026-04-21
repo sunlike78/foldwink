@@ -8,7 +8,10 @@
     "categoryType": "geography",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 43,
+    "gptDifficulty": 35,
+    "gptRationale": "Island-chain geography is manageable, though a few Atlantic and Mediterranean sets can blur for players without strong map knowledge."
   },
   "groups": [
     {

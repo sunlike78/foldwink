@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 13,
+    "gptDifficulty": 11,
+    "gptRationale": "Family, jobs, clothing, and footwear are highly familiar and visually distinct, leaving very few false trails."
   }
 }

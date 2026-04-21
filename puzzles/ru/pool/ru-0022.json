@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цветы и растения",
     "batch": "ru-batch-01",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 24,
+    "gptDifficulty": 26,
+    "gptRationale": "Plant categories are intuitive and imageable, though a few items could tempt cross-placement between wild and cultivated settings."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Polarzonen",
     "batch": "de-batch-02",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 44,
+    "gptDifficulty": 58,
+    "gptRationale": "Polar-region content mixes animals from both ends of the world with research stations, which adds notable knowledge load."
   },
   "groups": [
     {

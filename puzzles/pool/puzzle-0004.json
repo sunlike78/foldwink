@@ -49,6 +49,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 18,
+    "gptDifficulty": 20,
+    "gptRationale": "All groups are common knowledge, but body parts and instruments are slightly less automatic than the very easiest household sets."
   }
 }

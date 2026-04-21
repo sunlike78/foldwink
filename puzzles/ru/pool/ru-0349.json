@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские имена по происхождению",
     "batch": "ru-batch-14",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 32,
+    "gptDifficulty": 36,
+    "gptRationale": "Русские имена очень знакомы, однако происхождение некоторых имён и граница между старинными и просто редкими может немного путать."
   },
   "groups": [
     {

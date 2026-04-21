@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Специи Востока",
     "batch": "ru-batch-04",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 44,
+    "gptDifficulty": 55,
+    "gptRationale": "Многие пряности знакомы, но границы между ароматными, сладкими и травяными группами легко дают ложные ассоциации."
   },
   "groups": [
     {

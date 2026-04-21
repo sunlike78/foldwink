@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советский быт",
     "batch": "ru-batch-01",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 42,
+    "gptDifficulty": 47,
+    "gptRationale": "Советский быт для части игроков интуитивен, но многое завязано на поколенческий опыт и знание устаревших названий."
   },
   "groups": [
     {

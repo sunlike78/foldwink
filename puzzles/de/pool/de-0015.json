@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Familienbeziehungen",
     "batch": "de-batch-01",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 23,
+    "gptDifficulty": 23,
+    "gptRationale": "Verwandtschaftsbezeichnungen sind sehr geläufig und die vier Familiengruppen sind klar getrennt."
   },
   "groups": [
     {

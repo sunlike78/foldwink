@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 35,
+    "gptDifficulty": 46,
+    "gptRationale": "The multiple senses of 'fine' are familiar, and although some words are slightly slippery the grouping logic is more transparent than in the tougher abstracts."
   },
   "groups": [
     {

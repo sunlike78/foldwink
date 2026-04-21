@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Charaktereigenschaften durch Redewendungen",
     "batch": "de-batch-11",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 45,
+    "gptDifficulty": 47,
+    "gptRationale": "Sprichwörtliche Umschreibungen statt nackter Begriffe machen die Zuordnung weniger direkt und verlangen idiomatisches Sprachgefühl."
   },
   "groups": [
     {

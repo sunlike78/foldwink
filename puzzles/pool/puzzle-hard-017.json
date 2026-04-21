@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 43,
+    "gptDifficulty": 54,
+    "gptRationale": "Glass supports several obvious meanings, yet a few metaphor entries are broad enough to delay confirmation of the final grouping."
   },
   "groups": [
     {

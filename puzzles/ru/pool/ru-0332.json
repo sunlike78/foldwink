@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Тестирование программного обеспечения",
     "batch": "ru-batch-13",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 29,
+    "gptDifficulty": 28,
+    "gptRationale": "Для аудитории с базовым IT-бэкграундом группы очень естественные, а инструменты и методы хорошо отделимы друг от друга."
   },
   "groups": [
     {

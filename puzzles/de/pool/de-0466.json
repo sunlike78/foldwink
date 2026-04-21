@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kultur",
     "batch": "de-batch-05",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 39,
+    "gptDifficulty": 43,
+    "gptRationale": "Aberglaube ist kulturell vertraut, aber einige Tier- und Objektdeutungen sind weniger standardisiert im Alltagsgedächtnis."
   },
   "groups": [
     {

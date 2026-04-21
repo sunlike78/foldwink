@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Диеты и принципы питания",
     "batch": "ru-batch-15",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 21,
+    "gptDifficulty": 22,
+    "gptRationale": "Диеты, нутриенты и базовые элементы здорового питания сейчас очень массово узнаваемы."
   },
   "groups": [
     {

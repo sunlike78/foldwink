@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Компьютерные игры по механике",
     "batch": "ru-batch-15",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 23,
+    "gptDifficulty": 19,
+    "gptRationale": "Популярные игровые жанры и их флагманские тайтлы считываются почти мгновенно для массовой аудитории."
   },
   "groups": [
     {

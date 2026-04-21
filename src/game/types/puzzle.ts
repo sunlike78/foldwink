@@ -37,6 +37,23 @@ export interface PuzzleMeta {
    * id ordering.
    */
   difficultyScore?: number;
+  /**
+   * GPT perceived within-tier difficulty (1–100), produced by
+   * `scripts/phase-e-gpt-ranking.mjs` via a codex CLI pass. Raw signal —
+   * the blended `editorialRank` is what the loader actually sorts by.
+   */
+  gptDifficulty?: number;
+  /** GPT's one-sentence rationale for the `gptDifficulty` rating. */
+  gptRationale?: string;
+  /**
+   * Blended editorial difficulty rank (0–100, ascending = easier→harder).
+   * Computed as `round(0.4 * difficultyScore + 0.6 * gptDifficulty)` by
+   * `scripts/phase-e-blend.mjs`. The loader prefers this over
+   * `difficultyScore` when present — so the standard-mode ramp reflects
+   * both the heuristic and GPT's perception. Falls back to
+   * `difficultyScore` for puzzles without a GPT rating (e.g. new drafts).
+   */
+  editorialRank?: number;
 }
 
 export interface PuzzleGroup {

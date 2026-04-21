@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Реки России",
     "batch": "ru-batch-08",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 34,
+    "gptDifficulty": 49,
+    "gptRationale": "Russian river names are concrete, but regional grouping requires stronger geography recall than everyday-category puzzles."
   },
   "groups": [
     {

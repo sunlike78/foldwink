@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Вина и виноделие",
     "batch": "ru-batch-14",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 37,
+    "gptDifficulty": 38,
+    "gptRationale": "Названия вин узнаваемы, однако сорта, стили и регионы требуют хотя бы минимальной винной насмотренности."
   },
   "groups": [
     {

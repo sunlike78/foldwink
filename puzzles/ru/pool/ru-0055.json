@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Смартфон и приложения",
     "batch": "ru-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 20,
+    "gptDifficulty": 16,
+    "gptRationale": "Smartphone functions and apps are highly familiar to most players, with clean category cues."
   },
   "groups": [
     {

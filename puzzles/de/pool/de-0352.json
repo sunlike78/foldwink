@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutscher Film",
     "batch": "de-batch-04",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 62,
+    "gptDifficulty": 72,
+    "gptRationale": "Deutsche Filmgeschichte verlangt konkretes Werk- und Epochenwissen und enthält mehrere Titel, die nur cinephil gut verankert kennen."
   },
   "groups": [
     {

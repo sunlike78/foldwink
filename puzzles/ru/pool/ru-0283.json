@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Традиционные русские блюда",
     "batch": "ru-batch-11",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 24,
+    "gptDifficulty": 23,
+    "gptRationale": "Russian cuisine categories are everyday and concrete, with dishes that are widely recognizable to the target audience."
   },
   "groups": [
     {

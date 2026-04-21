@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 37,
+    "gptDifficulty": 33,
+    "gptRationale": "Postal concepts are still concrete, but service names and markings can blur together unless the player knows mail systems fairly well."
   },
   "groups": [
     {

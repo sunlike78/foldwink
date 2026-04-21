@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Berufe durch typische Handgriffe",
     "batch": "de-batch-12",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 26,
+    "gptDifficulty": 17,
+    "gptRationale": "Berufe und typische Handgriffe sind extrem konkret und liefern sehr klare Bündel ohne nennenswerte Fehlspuren."
   },
   "groups": [
     {

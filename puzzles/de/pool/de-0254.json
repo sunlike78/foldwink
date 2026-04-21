@@ -5,7 +5,10 @@
   "meta": {
     "theme": "museen",
     "batch": "de-batch-03",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 50,
+    "gptDifficulty": 47,
+    "gptRationale": "Museen Deutschland ist noch konkret, doch die Unterscheidung ähnlicher Institutionsnamen und Doppelnennungen erzeugt etwas Reibung."
   },
   "groups": [
     {

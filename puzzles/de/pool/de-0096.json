@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Mittelalterliche Burg",
     "batch": "de-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 39,
+    "gptDifficulty": 48,
+    "gptRationale": "Castle life is concrete in theme, but several medieval terms are niche enough to slow confident sorting."
   },
   "groups": [
     {

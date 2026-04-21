@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 43,
+    "gptDifficulty": 49,
+    "gptRationale": "Rocket, development, and cycling all use stage language naturally, so the solver has to disentangle several equally plausible modern senses."
   },
   "groups": [
     {

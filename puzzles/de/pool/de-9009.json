@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaftliche Umbrüche",
     "batch": "de-batch-11",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 56,
+    "gptDifficulty": 71,
+    "gptRationale": "Vier große Wissenschaftsbereiche mit ikonischen, aber teilweise hochschulnahen Stichworten machen das Puzzle wissenslastig und deutlich überdurchschnittlich schwer."
   },
   "groups": [
     {

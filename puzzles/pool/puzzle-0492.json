@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 51,
+    "gptDifficulty": 61,
+    "gptRationale": "The broad idea of open problems is accessible, but the categories blur and one entry especially invites cross-disciplinary second-guessing."
   },
   "groups": [
     {

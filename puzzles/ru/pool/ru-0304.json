@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Эндемики Австралии",
     "batch": "ru-batch-12",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 46,
+    "gptDifficulty": 57,
+    "gptRationale": "Australian animals are famous at a high level, but monotreme and reptile specifics include some much less familiar names."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Neid als soziales Phänomen",
     "batch": "de-batch-11",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 30,
+    "gptDifficulty": 22,
+    "gptRationale": "The four emotional states are familiar and the clues point cleanly to each attitude with little thematic overlap."
   },
   "groups": [
     {

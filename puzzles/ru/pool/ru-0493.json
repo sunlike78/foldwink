@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ароматические и лечебные травы",
     "batch": "ru-batch-21",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Ароматические травы повседневны, и даже при частичном пересечении кулинарных и лечебных применений группы читаются легко."
   },
   "groups": [
     {

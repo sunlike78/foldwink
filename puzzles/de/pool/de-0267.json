@@ -5,7 +5,10 @@
   "meta": {
     "theme": "metallverarbeitung",
     "batch": "de-batch-03",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 19,
+    "gptDifficulty": 22,
+    "gptRationale": "Auch hier sind die Kategorien konkret und vertraut, nur die Nähe von Techniken, Werkzeugen und Produkten erzeugt etwas mehr Sortierarbeit."
   },
   "groups": [
     {

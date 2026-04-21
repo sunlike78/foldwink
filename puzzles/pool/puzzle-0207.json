@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 14,
+    "gptDifficulty": 8,
+    "gptRationale": "All four groups are everyday boat words with very clear category boundaries and almost no misleading overlap."
   },
   "groups": [
     {

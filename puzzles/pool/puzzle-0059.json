@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 46,
+    "gptDifficulty": 71,
+    "gptRationale": "Trade vocabulary across woodworking, masonry, plumbing, and electrical is clear in structure but specialized in language."
   }
 }

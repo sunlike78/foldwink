@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Съедобные и несъедобные грибы",
     "batch": "ru-batch-11",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 40,
+    "gptDifficulty": 45,
+    "gptRationale": "Mushrooms are concrete, but edible-value labels and several lookalike or lesser-known species create moderate uncertainty."
   },
   "groups": [
     {

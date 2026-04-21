@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рекорды в спорте",
     "batch": "ru-batch-19",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 57,
+    "gptDifficulty": 73,
+    "gptRationale": "Спортивные рекорды быстро устаревают в памяти, а часть формулировок слишком конкретна для среднего игрока."
   },
   "groups": [
     {

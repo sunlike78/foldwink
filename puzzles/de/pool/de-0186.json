@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Umwelt",
     "batch": "de-batch-02",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 27,
+    "gptDifficulty": 22,
+    "gptRationale": "Recycling nutzt sehr konkrete Alltagsobjekte und ein bekanntes deutsches Mülltrennungsschema mit wenig Interpretationsspielraum."
   },
   "groups": [
     {

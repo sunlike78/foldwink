@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 39,
+    "gptDifficulty": 44,
+    "gptRationale": "Human bone regions are concrete and taught in school, though a few smaller bone names raise the precision needed."
   },
   "groups": [
     {

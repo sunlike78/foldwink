@@ -5,7 +5,10 @@
   "meta": {
     "theme": "hexerei",
     "batch": "de-batch-03",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 26,
+    "gptDifficulty": 22,
+    "gptRationale": "Zauberei und Hexerei arbeitet mit sehr stereotypen und sofort lesbaren Kategorien, selbst wenn ein paar Kräuterbegriffe spezieller sind."
   },
   "groups": [
     {

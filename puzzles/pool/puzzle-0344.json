@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 43,
+    "gptDifficulty": 50,
+    "gptRationale": "Basic geometry helps a lot, but 'torus' and the conic-section set make it a bit more technical than average."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Шахматные термины",
     "batch": "ru-batch-03",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 39,
+    "gptDifficulty": 47,
+    "gptRationale": "Шахматные фигуры и итоги партии просты, однако дебюты и специальные ходы знают уже не все игроки."
   },
   "groups": [
     {

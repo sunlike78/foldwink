@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Профессии на определённую букву",
     "batch": "ru-batch-16",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 22,
+    "gptDifficulty": 14,
+    "gptRationale": "Буквенная схема слишком явная, а профессии сами по себе общеупотребительные, так что это одна из самых простых задач в пакете."
   },
   "groups": [
     {

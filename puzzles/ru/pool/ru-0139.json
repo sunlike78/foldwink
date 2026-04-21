@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Народы России по региону",
     "batch": "ru-batch-03",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 49,
+    "gptDifficulty": 61,
+    "gptRationale": "Народы России требуют хорошей этнографической ориентации, а региональные границы и редкие этнонимы легко дают неверные группировки."
   },
   "groups": [
     {

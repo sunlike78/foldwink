@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kindliche Denkweisen und Weltbilder",
     "batch": "de-batch-12",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 47,
+    "gptDifficulty": 57,
+    "gptRationale": "The child-psychology concepts are coherent but somewhat abstract, and animism, magic, and allmacht can initially feel adjacent."
   },
   "groups": [
     {

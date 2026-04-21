@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские поэты",
     "batch": "ru-batch-01",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 48,
+    "gptDifficulty": 56,
+    "gptRationale": "Известные имена помогают, однако различение по литературным эпохам уже требует культурно-исторической точности."
   },
   "groups": [
     {

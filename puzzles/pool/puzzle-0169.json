@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 43,
+    "gptDifficulty": 55,
+    "gptRationale": "The golf and nutrient groups introduce enough domain knowledge and false trails to push this above a comfortable medium solve."
   },
   "groups": [
     {

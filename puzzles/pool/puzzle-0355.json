@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 61,
+    "gptDifficulty": 74,
+    "gptRationale": "Gem families are specialized knowledge and several stones feel plausibly cross-grouped unless you already know mineral classification."
   },
   "groups": [
     {

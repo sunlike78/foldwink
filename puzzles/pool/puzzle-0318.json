@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 63,
+    "gptDifficulty": 75,
+    "gptRationale": "Animal-by-ecosystem sorting is rich and thematic, but it depends on nontrivial zoological knowledge across multiple habitat layers."
   },
   "groups": [
     {

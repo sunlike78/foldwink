@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Звёзды и созвездия",
     "batch": "ru-batch-01",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 46,
+    "gptDifficulty": 58,
+    "gptRationale": "Нужно различать звёзды, созвездия и ещё отдельный класс сверхгигантов, а астрономические названия для многих уже не совсем бытовые."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Käsesorten",
     "batch": "de-batch-01",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 42,
+    "gptDifficulty": 57,
+    "gptRationale": "Käsegruppen sind für viele Spieler nicht ganz trennscharf und einzelne Sorten verlangen spezifischere Genuss- oder Herkunftskenntnis."
   },
   "groups": [
     {

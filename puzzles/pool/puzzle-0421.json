@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 29,
+    "gptDifficulty": 31,
+    "gptRationale": "Cheese styles are broadly recognizable, though a few examples can feel texture-adjacent to neighboring groups."
   },
   "groups": [
     {

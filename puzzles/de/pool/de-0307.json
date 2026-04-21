@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Literatur",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 55,
+    "gptDifficulty": 63,
+    "gptRationale": "Die Werke sind kanonisch, aber die Figurennamen verlangen konkrete Literaturkenntnis statt bloßem Oberflächenwissen."
   },
   "groups": [
     {

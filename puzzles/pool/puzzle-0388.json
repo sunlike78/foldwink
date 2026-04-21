@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 31,
+    "gptDifficulty": 32,
+    "gptRationale": "Garden plants and herbs are everyday enough that most players can sort by broad plant type without much struggle."
   },
   "groups": [
     {

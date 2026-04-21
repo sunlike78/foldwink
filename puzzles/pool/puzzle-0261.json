@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 38,
+    "gptDifficulty": 35,
+    "gptRationale": "Theatre categories are coherent, though backstage roles and seating terminology are not equally familiar to all players."
   },
   "groups": [
     {

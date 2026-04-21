@@ -5,7 +5,10 @@
   "meta": {
     "theme": "preussen",
     "batch": "de-batch-03",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 60,
+    "gptDifficulty": 78,
+    "gptRationale": "Friedrich der Große ist stark wissensbasiert, und Schlachten, Hofpersonen und preußische Orte sind für typische Spieler eher Spezialstoff."
   },
   "groups": [
     {

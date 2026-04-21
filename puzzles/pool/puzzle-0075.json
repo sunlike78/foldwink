@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 43,
+    "gptDifficulty": 56,
+    "gptRationale": "Body-related terms are familiar overall, though sensory and digestive anatomy introduce a more technical biological vocabulary."
   }
 }

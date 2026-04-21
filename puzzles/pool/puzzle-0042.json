@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 23,
+    "gptDifficulty": 24,
+    "gptRationale": "These are all small, familiar objects with limited overlap, so sorting mostly comes down to quick recognition."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kunst",
     "batch": "de-batch-05",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 38,
+    "gptDifficulty": 36,
+    "gptRationale": "Pop Art ist sehr ikonisch, und Werke, Motive und Hauptnamen sind für diese Stufe vergleichsweise zugänglich."
   },
   "groups": [
     {

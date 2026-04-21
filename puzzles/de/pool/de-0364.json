@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Mode Geschichte",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 28,
+    "gptDifficulty": 19,
+    "gptRationale": "Modestile der Jahrzehnte arbeiten mit sehr ikonischen Signaturen, die schnell und mit wenig Ablenkung erkennbar sind."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Jahreszeiten durch Wetterphänomene",
     "batch": "de-batch-12",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 32,
+    "gptDifficulty": 23,
+    "gptRationale": "Jahreszeiten mit typischen Naturzeichen sind sehr vertraut, auch wenn einzelne Wetterphänomene kurz in Nachbarjahreszeiten passen könnten."
   },
   "groups": [
     {

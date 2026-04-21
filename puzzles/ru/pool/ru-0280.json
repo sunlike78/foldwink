@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мировые сыры по стране",
     "batch": "ru-batch-10",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 24,
+    "gptDifficulty": 28,
+    "gptRationale": "Сыры по странам в основном бытово известны, и названия редко вызывают двусмысленность даже у неспециалиста."
   },
   "groups": [
     {

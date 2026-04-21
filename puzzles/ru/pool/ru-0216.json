@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Насекомые",
     "batch": "ru-batch-07",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 39,
+    "gptDifficulty": 43,
+    "gptRationale": "The insect theme is concrete, but overlap like bees appearing in multiple biological roles creates mild false trails."
   },
   "groups": [
     {

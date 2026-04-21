@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Küchengeräte",
     "batch": "de-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 31,
+    "gptDifficulty": 31,
+    "gptRationale": "Küchengeräte sind alltagsnah, doch einige Gegenstände liegen funktional nah beieinander und Schneidewerkzeuge sind nicht ganz homogen."
   },
   "groups": [
     {

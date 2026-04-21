@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Страны Европы",
     "batch": "ru-batch-01",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 53,
+    "gptDifficulty": 64,
+    "gptRationale": "Здесь есть сильные ложные следы и спорные ощущения по географии вроде Польши в Балтии и Франции в Пиренеях."
   },
   "groups": [
     {

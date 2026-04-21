@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды географических и игровых карт",
     "batch": "ru-batch-12",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 36,
+    "gptDifficulty": 32,
+    "gptRationale": "Map types are easy to grasp, and only the inclusion of specific digital platforms adds a small twist."
   },
   "groups": [
     {

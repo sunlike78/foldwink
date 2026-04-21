@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Выпечка России",
     "batch": "ru-batch-04",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 53,
+    "gptDifficulty": 67,
+    "gptRationale": "Русская выпечка даёт много редких или устаревающих слов, поэтому трудность создают культурная узнаваемость и пересечения между видами изделий."
   },
   "groups": [
     {

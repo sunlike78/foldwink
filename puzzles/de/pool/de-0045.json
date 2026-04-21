@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Märchen Grimm",
     "batch": "de-batch-02",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 40,
+    "gptDifficulty": 38,
+    "gptRationale": "Grimm-Motive sind kulturell vertraut, aber einige Figuren und Gegenstände lassen sich märchenübergreifend denken und dadurch nicht sofort trennen."
   },
   "groups": [
     {

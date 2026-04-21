@@ -5,7 +5,10 @@
   "meta": {
     "theme": "widerstand",
     "batch": "de-batch-03",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 49,
+    "gptDifficulty": 58,
+    "gptRationale": "Widerstandsgruppen, Personen, Aktionen und Orte liegen thematisch nah beieinander und fordern präzisere historische Zuordnung als viele andere leichte Themen."
   },
   "groups": [
     {

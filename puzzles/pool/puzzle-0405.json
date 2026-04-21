@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 24,
+    "gptDifficulty": 19,
+    "gptRationale": "Periodic table groups are canonical categories with very familiar members, making this easy relative to the hard tier."
   },
   "groups": [
     {

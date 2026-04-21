@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wirtschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 48,
+    "gptDifficulty": 69,
+    "gptRationale": "Bergbau enthält mehrere wenig alltagsnahe Fachbegriffe und maschinennahe Wörter, die ohne Sachwissen nicht sofort sauber gruppiert werden."
   },
   "groups": [
     {

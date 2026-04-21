@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Berlin Sehenswürdigkeiten",
     "batch": "de-batch-02",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 41,
+    "gptDifficulty": 43,
+    "gptRationale": "Berlin-Orte sind vielen bekannt, aber Parks, Museen und Stadtteile setzen doch ein wenig spezifisches Stadtwissen voraus."
   },
   "groups": [
     {

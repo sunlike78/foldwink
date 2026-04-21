@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kriegsschiffe",
     "batch": "de-batch-04",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 51,
+    "gptDifficulty": 64,
+    "gptRationale": "Viele Schiffstypen sind historisch spezifisch und ohne solides Vorwissen schwer sauber nach Epochen zu bündeln."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 47,
+    "gptDifficulty": 62,
+    "gptRationale": "Sewing and textile terms are less universal, and pattern, stitch, and fibre knowledge can blur for non-crafters."
   },
   "groups": [
     {

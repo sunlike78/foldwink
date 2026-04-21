@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 37,
+    "gptDifficulty": 35,
+    "gptRationale": "These are famous landmarks and building types that are broadly known, so most groupings are discoverable from general knowledge."
   },
   "groups": [
     {

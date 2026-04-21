@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Transportmittel",
     "batch": "de-batch-01",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 13,
+    "gptDifficulty": 14,
+    "gptRationale": "Transportmittel nach Verkehrsweg sind archetypische Kategorien mit praktisch keinen falschen Fährten."
   },
   "groups": [
     {

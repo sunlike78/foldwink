@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 13,
+    "gptDifficulty": 16,
+    "gptRationale": "Terrain-themed items are vivid and familiar, so most groups emerge quickly despite some broad nature overlap."
   }
 }

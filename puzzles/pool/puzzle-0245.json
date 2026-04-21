@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 32,
+    "gptDifficulty": 26,
+    "gptRationale": "Makeup categories are logical, but players without cosmetics vocabulary may struggle with tools versus product types."
   },
   "groups": [
     {

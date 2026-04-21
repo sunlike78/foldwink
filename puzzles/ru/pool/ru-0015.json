@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Грибы леса",
     "batch": "ru-batch-01",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 62,
+    "gptDifficulty": 76,
+    "gptRationale": "Mushroom taxonomy and dangerous look-alikes demand specific cultural knowledge and invite strong confusion among similar-sounding items."
   },
   "groups": [
     {

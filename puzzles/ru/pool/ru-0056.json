@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Социальные сети",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 29,
+    "gptDifficulty": 27,
+    "gptRationale": "Social-media vocabulary is current and accessible, though a few profile and engagement terms can blur together."
   },
   "groups": [
     {

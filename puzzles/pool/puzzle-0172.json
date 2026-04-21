@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 35,
+    "gptDifficulty": 31,
+    "gptRationale": "The four drives are everyday meanings and nearly every entry points cleanly to one domain without much trap potential."
   },
   "groups": [
     {

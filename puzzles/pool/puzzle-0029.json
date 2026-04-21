@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 29,
+    "gptDifficulty": 31,
+    "gptRationale": "Weather grouping is natural, but calm and hot categories contain terms that feel more descriptive than event-based."
   }
 }

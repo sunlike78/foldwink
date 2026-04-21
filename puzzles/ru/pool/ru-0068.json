@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Горы мира",
     "batch": "ru-batch-01",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 36,
+    "gptDifficulty": 42,
+    "gptRationale": "Материал в целом узнаваемый, но смешение горных систем и отдельных восьмитысячников добавляет немного географической точности."
   },
   "groups": [
     {

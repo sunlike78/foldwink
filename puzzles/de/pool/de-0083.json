@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Schwarzwald",
     "batch": "de-batch-04",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 45,
+    "gptDifficulty": 55,
+    "gptRationale": "The Schwarzwald theme is accessible in outline, but several place, food, and culture references require regional familiarity."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 26,
+    "gptDifficulty": 27,
+    "gptRationale": "This is mostly a pure synonym sort, and the emotion buckets are broad but familiar enough to make the groupings accessible."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "filmklassiker",
     "batch": "de-batch-03",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 53,
+    "gptDifficulty": 66,
+    "gptRationale": "Deutsche Filmklassiker fordert mehr Filmhistorik und Periodenwissen, weil viele Titel nicht mehr alltäglich präsent sind."
   },
   "groups": [
     {

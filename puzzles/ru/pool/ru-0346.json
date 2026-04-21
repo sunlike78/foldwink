@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Периодизация всемирной истории",
     "batch": "ru-batch-14",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 39,
+    "gptDifficulty": 41,
+    "gptRationale": "Периоды истории знакомы, но внутри групп смешаны собственно эпохи и частные явления вроде крестовых походов, что даёт лишний шум."
   },
   "groups": [
     {

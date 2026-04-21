@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ozeanografie",
     "batch": "de-batch-04",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 56,
+    "gptDifficulty": 73,
+    "gptRationale": "Ozeanografische Zonen, Strömungen und Forschungstechnik sind fachnah und enthalten mehrere wenig vertraute Fremdwörter mit hoher Verwechslungsgefahr."
   },
   "groups": [
     {

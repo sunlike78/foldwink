@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 57
+    "difficultyScore": 57,
+    "editorialRank": 67,
+    "gptDifficulty": 74,
+    "gptRationale": "This is algorithmically precise and includes several less-famous sorts, so solving depends on fairly technical knowledge rather than broad familiarity."
   },
   "groups": [
     {

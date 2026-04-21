@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Erfinder und Entdecker",
     "batch": "de-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 59,
+    "gptDifficulty": 76,
+    "gptRationale": "Historical inventor groupings require precise background knowledge and the category boundaries are less naturally visible from the names alone."
   },
   "groups": [
     {

@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 20,
+    "gptDifficulty": 26,
+    "gptRationale": "Basic grammar categories are familiar, though mixing affixes with function words adds a little terminology friction."
   }
 }

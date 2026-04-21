@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры видеоигр",
     "batch": "ru-batch-02",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 24,
+    "gptDifficulty": 31,
+    "gptRationale": "Игровые жанры в основном легко распознаются современной аудиторией, хотя англоязычные поджанры могут немного отпугнуть неиграющих."
   },
   "groups": [
     {

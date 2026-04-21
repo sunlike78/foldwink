@@ -5,7 +5,10 @@
   "meta": {
     "theme": "toepferei",
     "batch": "de-batch-03",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 30,
+    "gptDifficulty": 34,
+    "gptRationale": "Töpferei und Keramik hat klare handwerkliche Kategorien und überwiegend sehr konkrete Gegenstände und Verfahren."
   },
   "groups": [
     {

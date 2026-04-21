@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды и источники энергии",
     "batch": "ru-batch-12",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 19,
+    "gptDifficulty": 18,
+    "gptRationale": "Категории очень школьные и различаются почти без ложных следов, поэтому внутри medium это ближе к нижней границе."
   },
   "groups": [
     {

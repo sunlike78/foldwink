@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Алкогольные напитки по стране",
     "batch": "ru-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 37,
+    "gptDifficulty": 47,
+    "gptRationale": "Страны в целом угадываются, но несколько напитков менее общеизвестны, а часть ассоциаций может уводить не к той стране."
   },
   "groups": [
     {

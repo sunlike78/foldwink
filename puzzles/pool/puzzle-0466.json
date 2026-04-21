@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 33,
+    "gptDifficulty": 47,
+    "gptRationale": "Card and table game families are fairly concrete, though some titles are region-specific and a few category borders are not obvious."
   },
   "groups": [
     {

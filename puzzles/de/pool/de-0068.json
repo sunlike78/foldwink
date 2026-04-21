@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Werkzeug und Handwerk",
     "batch": "de-batch-03",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 46,
+    "gptDifficulty": 60,
+    "gptRationale": "Werkzeug- und Handwerksbegriffe sind greifbar, aber viele spezielle Werkzeuge setzen praktisches Fachwissen voraus."
   },
   "groups": [
     {

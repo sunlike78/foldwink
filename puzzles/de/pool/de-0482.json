@@ -5,7 +5,10 @@
   "meta": {
     "theme": "digital",
     "batch": "de-batch-05",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 41,
+    "gptDifficulty": 37,
+    "gptRationale": "Datenschutz ist im deutschen Kontext sehr präsent, sodass Rechte, Behörden und Grundbegriffe meist gut zuordenbar sind."
   },
   "groups": [
     {

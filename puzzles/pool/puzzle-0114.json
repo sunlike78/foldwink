@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 37,
+    "gptDifficulty": 46,
+    "gptRationale": "Art vocabulary is accessible, though several terms live in adjacent art-school domains and can misdirect before the pattern clicks."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 62,
+    "gptDifficulty": 77,
+    "gptRationale": "Literary movements plus author affiliation is a high-knowledge combination, and the French symbolist/modernist distinctions are not casual-player friendly."
   },
   "groups": [
     {

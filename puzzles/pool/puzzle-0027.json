@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 22,
+    "gptDifficulty": 28,
+    "gptRationale": "Clothing categories are familiar, though a few fashion terms require some lexical precision to place confidently."
   }
 }

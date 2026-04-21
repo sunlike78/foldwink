@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musikgenres",
     "batch": "de-batch-02",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 36,
+    "gptDifficulty": 52,
+    "gptRationale": "Musikgenres und klassische Formen sind bekannt, aber stilistische Fachbegriffe wie Bebop, Fusion oder Sonate verlangen mehr kulturelles Vorwissen."
   },
   "groups": [
     {

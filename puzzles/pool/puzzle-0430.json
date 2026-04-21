@@ -8,7 +8,10 @@
     "categoryType": "false-trail",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 72
+    "difficultyScore": 72,
+    "editorialRank": 64,
+    "gptDifficulty": 58,
+    "gptRationale": "Colour-plus-animal naming is recognizable, but the groups overlap semantically and some entries depend on knowing exact common species names."
   },
   "groups": [
     {

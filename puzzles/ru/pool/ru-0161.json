@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цари и императоры России",
     "batch": "ru-batch-05",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 51,
+    "gptDifficulty": 57,
+    "gptRationale": "Исторические фигуры в целом знакомы, но внутри династий и эпох легко ошибиться без уверенного знания русской истории."
   },
   "groups": [
     {

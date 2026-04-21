@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 34,
+    "gptDifficulty": 24,
+    "gptRationale": "Best Picture winners are famous and the decade buckets are clean, so this is relatively approachable for a hard-tier cultural set."
   },
   "groups": [
     {

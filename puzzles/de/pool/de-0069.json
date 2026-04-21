@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Baustelle",
     "batch": "de-batch-03",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Baustelle als Thema ist sehr konkret und die Gruppen sind klar, auch wenn einzelne Berufe oder Materialien minimale Fachnähe haben."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Известные спортивные клубы",
     "batch": "ru-batch-12",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 32,
+    "gptDifficulty": 36,
+    "gptRationale": "Big sports teams are widely known, though mixing Russian and global clubs adds a moderate recall requirement."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 28,
+    "gptDifficulty": 31,
+    "gptRationale": "Golf terms are common sports vocabulary, and the subgroups are concrete enough that even non-golfers can infer many matches."
   },
   "groups": [
     {

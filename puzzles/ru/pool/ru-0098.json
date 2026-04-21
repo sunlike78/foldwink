@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские писатели XIX века",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 50,
+    "gptDifficulty": 62,
+    "gptRationale": "Русская литература XIX века знакома неравномерно, а деление по типу творчества и сатире не всегда интуитивно с первого взгляда."
   },
   "groups": [
     {

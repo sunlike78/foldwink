@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 41,
+    "gptDifficulty": 53,
+    "gptRationale": "The four senses of running are familiar, though the operating and political sets depend on a more abstract reading of the word."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Герои греческой мифологии",
     "batch": "ru-batch-13",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 28,
+    "gptDifficulty": 34,
+    "gptRationale": "Греческая мифология достаточно канонична, но персонажи Троянской войны и общие герои Греции дают умеренные ложные связи."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 34,
+    "gptDifficulty": 37,
+    "gptRationale": "The 'chain' senses are straightforward and the category members are mostly concrete, familiar, and easy to separate."
   },
   "groups": [
     {

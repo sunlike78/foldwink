@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы железнодорожных поездов",
     "batch": "ru-batch-16",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Поезда как тема бытовые, но рядом стоят бренды, типы вагонопотоков и экзотические спецпоезда, что немного размывает логику."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wirtschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 48,
+    "gptDifficulty": 51,
+    "gptRationale": "Das Thema ist historisch gut zugänglich, doch die Mischung aus Symbolen, Ereignissen, Personen und Produkten erzeugt einige plausible Überkreuzungen."
   },
   "groups": [
     {

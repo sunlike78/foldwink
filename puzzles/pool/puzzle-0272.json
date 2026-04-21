@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 52,
+    "gptDifficulty": 68,
+    "gptRationale": "Cross-mythology deity matching requires real cultural knowledge and the categories are similar enough to make mistakes easy."
   },
   "groups": [
     {

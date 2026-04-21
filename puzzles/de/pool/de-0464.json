@@ -5,7 +5,10 @@
   "meta": {
     "theme": "symbole",
     "batch": "de-batch-05",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 31,
+    "gptDifficulty": 31,
+    "gptRationale": "Die Symbole sind allgemein bekannt, und ihre Bedeutungsfelder sind breit, aber meist noch gut voneinander zu unterscheiden."
   },
   "groups": [
     {

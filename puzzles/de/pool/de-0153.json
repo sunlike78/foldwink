@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ernährung",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 28,
+    "gptDifficulty": 32,
+    "gptRationale": "Ernährungsformen arbeiten mit sehr vertrauten Lebensmitteln und klaren Mustern, sodass die Einteilung meist schnell gelingt."
   },
   "groups": [
     {

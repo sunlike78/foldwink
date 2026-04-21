@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Динозавры",
     "batch": "ru-batch-08",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 35,
+    "gptDifficulty": 28,
+    "gptRationale": "Dinosaur groupings are broadly familiar pop-culture material, with only the flying and marine reptile sets adding slight nuance."
   },
   "groups": [
     {

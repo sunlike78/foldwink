@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Полярные регионы",
     "batch": "ru-batch-07",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 46,
+    "gptDifficulty": 57,
+    "gptRationale": "Arctic versus Antarctic fauna and specialist ice terminology demand more precise knowledge than the average easy-tier set."
   },
   "groups": [
     {

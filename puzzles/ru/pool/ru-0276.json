@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды тканей и материалов",
     "batch": "ru-batch-10",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 50,
+    "gptRationale": "Fabric classes are concrete but material-science and trade names like 'гортекс' and 'спандекс' make sorting less automatic."
   },
   "groups": [
     {

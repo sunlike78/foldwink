@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 19,
+    "gptDifficulty": 12,
+    "gptRationale": "Olympic event types are extremely familiar and the category boundaries are clean and concrete."
   },
   "groups": [
     {

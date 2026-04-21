@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Geschichte",
     "batch": "de-batch-02",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Die Epochen sind schulbekannt, doch die historischen Marker verlangen mehr Kontextwissen als typische konkrete Easy-Puzzles."
   },
   "groups": [
     {

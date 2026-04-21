@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kommunikation",
     "batch": "de-batch-05",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 40,
+    "gptDifficulty": 47,
+    "gptRationale": "Die Modelle sind in Ausbildungskontexten recht bekannt, aber einzelne Ebenen und Bausteine klingen untereinander ähnlich abstrakt."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 46,
+    "gptDifficulty": 36,
+    "gptRationale": "The swimming vocabulary is fairly concrete and familiar, though relay/start distinctions add a little sorting friction."
   },
   "groups": [
     {

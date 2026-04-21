@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 36,
+    "gptDifficulty": 47,
+    "gptRationale": "The science groupings are conceptually clean, though particles and famous scientists are less immediate than ordinary consumer categories."
   }
 }

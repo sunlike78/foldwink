@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 51,
+    "gptDifficulty": 64,
+    "gptRationale": "Textile patterns are visually grounded, but many names are niche or commonly confused outside fashion and design circles."
   },
   "groups": [
     {

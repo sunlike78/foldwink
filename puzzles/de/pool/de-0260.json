@@ -5,7 +5,10 @@
   "meta": {
     "theme": "jugendstil",
     "batch": "de-batch-03",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 49,
+    "gptDifficulty": 61,
+    "gptRationale": "Jugendstil bleibt visuell greifbar, aber viele Einzelobjekte und Künstler sind nur kulturinteressierten Spielern sofort präsent."
   },
   "groups": [
     {

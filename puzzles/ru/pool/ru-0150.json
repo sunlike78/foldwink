@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Японская кухня",
     "batch": "ru-batch-04",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 33,
+    "gptDifficulty": 31,
+    "gptRationale": "Японские блюда уже стали массово знакомыми, а группы вроде суши, горячих блюд и соусов легко отделяются друг от друга."
   },
   "groups": [
     {

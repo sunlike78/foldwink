@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 58,
+    "gptDifficulty": 63,
+    "gptRationale": "The revolution theme is accessible, but separating specific historical flashpoints by country demands fairly exact recall."
   },
   "groups": [
     {

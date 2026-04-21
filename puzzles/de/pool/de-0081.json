@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Schlösser",
     "batch": "de-batch-04",
-    "difficultyScore": 62
+    "difficultyScore": 62,
+    "editorialRank": 68,
+    "gptDifficulty": 72,
+    "gptRationale": "This depends heavily on German regional cultural knowledge, and many castle names are not broadly familiar enough to sort confidently."
   },
   "groups": [
     {

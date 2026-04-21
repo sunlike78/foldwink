@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 51,
+    "gptDifficulty": 71,
+    "gptRationale": "Cricket terminology is tightly grouped but highly culture-dependent, so many players will struggle unless they already know the sport well."
   },
   "groups": [
     {

@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 43,
+    "gptDifficulty": 53,
+    "gptRationale": "All four groups are part-whole vocabularies, so the solver has to notice which anatomy belongs to which paired object rather than rely on theme alone."
   },
   "groups": [
     {

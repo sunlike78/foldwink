@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Деревья",
     "batch": "ru-batch-03",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 20,
+    "gptDifficulty": 23,
+    "gptRationale": "Типы деревьев и примеры очень узнаваемы, а категории почти не оставляют места для серьёзных ложных ходов."
   },
   "groups": [
     {

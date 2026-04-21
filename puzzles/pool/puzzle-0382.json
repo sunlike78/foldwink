@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 64,
+    "gptDifficulty": 78,
+    "gptRationale": "Knot names are technical and repetitive-sounding, so only players with ropework knowledge will sort them confidently."
   },
   "groups": [
     {

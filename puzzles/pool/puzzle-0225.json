@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 36,
+    "gptDifficulty": 48,
+    "gptRationale": "This one depends less on wordplay and more on fashion-term recognition, with a few items like 'obi' and 'cummerbund' making it a bit trickier."
   },
   "groups": [
     {

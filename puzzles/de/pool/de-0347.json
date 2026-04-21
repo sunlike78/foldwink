@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Astronomische Objekte",
     "batch": "de-batch-04",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 34,
+    "gptDifficulty": 29,
+    "gptRationale": "Astronomische Objekttypen sind anschaulich und begrifflich recht klar voneinander unterschieden."
   },
   "groups": [
     {

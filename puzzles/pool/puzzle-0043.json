@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 66,
+    "gptDifficulty": 76,
+    "gptRationale": "Cloud taxonomy and sky terms are the hardest kind of easy-tier material because the words are specialized and several items feel visually or conceptually adjacent."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мебель",
     "batch": "ru-batch-01",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 38,
+    "gptDifficulty": 37,
+    "gptRationale": "Furniture is everyday, but several pieces fit multiple use-based categories, creating mild ambiguity."
   },
   "groups": [
     {

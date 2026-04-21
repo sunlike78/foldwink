@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 35,
+    "gptDifficulty": 45,
+    "gptRationale": "Cafe items are common, but tea-leaf names and some coffee-drink distinctions raise the vocabulary load."
   }
 }

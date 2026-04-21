@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 44,
+    "gptDifficulty": 62,
+    "gptRationale": "Greek-myth knowledge is required throughout, and several names are familiar enough to create cross-category temptations without strong surface markers."
   },
   "groups": [
     {

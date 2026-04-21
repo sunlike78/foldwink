@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Anatomie",
     "batch": "de-batch-04",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 33,
+    "gptDifficulty": 31,
+    "gptRationale": "Anatomische Systeme und ihre Bestandteile sind anschaulich und großteils sehr bekannt, mit klaren semantischen Clustern."
   },
   "groups": [
     {

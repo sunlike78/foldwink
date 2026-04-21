@@ -5,7 +5,10 @@
   "meta": {
     "theme": "logistik",
     "batch": "de-batch-05",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 44,
+    "gptDifficulty": 51,
+    "gptRationale": "Die Logistikfelder sind nachvollziehbar, jedoch sind mehrere englische Fachbegriffe für Nicht-BWLer nicht sofort trennscharf."
   },
   "groups": [
     {

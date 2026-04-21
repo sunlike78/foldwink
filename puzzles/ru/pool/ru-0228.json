@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры литературы",
     "batch": "ru-batch-08",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 31,
+    "gptDifficulty": 41,
+    "gptRationale": "Literary genre labels are school-familiar, yet distinctions like 'роман/повесть/новелла' and special genres add abstraction."
   },
   "groups": [
     {

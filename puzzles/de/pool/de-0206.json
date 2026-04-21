@@ -5,7 +5,10 @@
   "meta": {
     "theme": "weimarer-republik",
     "batch": "de-batch-03",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 45,
+    "gptDifficulty": 48,
+    "gptRationale": "Weimar mischt Politik, Krisenbegriffe und Kultur, was vertraut ist, aber wegen mehrerer abstrakter Republikprobleme etwas trennschärferes Wissen verlangt."
   },
   "groups": [
     {

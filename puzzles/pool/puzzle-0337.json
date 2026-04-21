@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 55,
+    "gptDifficulty": 73,
+    "gptRationale": "This relies on architecture-history knowledge, and many names are only sortable if the player already knows the styles."
   },
   "groups": [
     {

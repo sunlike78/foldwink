@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Kraftsport hat teils bekannte Übungen, doch Wettkampfarten und Trainingsbegriffe wie Volumen oder Reißen verlangen etwas Szenewissen."
   },
   "groups": [
     {

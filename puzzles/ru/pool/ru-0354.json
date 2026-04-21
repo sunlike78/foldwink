@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Карнавальные традиции и маски",
     "batch": "ru-batch-14",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 31,
+    "gptDifficulty": 31,
+    "gptRationale": "Карнавалы и масочные образы узнаются легко, хотя смешение конкретных праздников и персонажей слегка маскирует структуру."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Major rivers by continent is classic general knowledge with very strong geographic anchors and little ambiguity."
   },
   "groups": [
     {

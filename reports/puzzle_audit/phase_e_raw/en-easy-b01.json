@@ -1,0 +1,309 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 0,
+  "batchTotal": 5,
+  "elapsedSec": 52,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0001",
+      "difficulty": 6,
+      "rationale": "These are extremely familiar everyday categories with clean boundaries and almost no plausible cross-category confusion."
+    },
+    {
+      "puzzleId": "puzzle-0002",
+      "difficulty": 18,
+      "rationale": "Still very accessible, but items like ladle and garage are a touch less instantly grouped than the most obvious beginner sets."
+    },
+    {
+      "puzzleId": "puzzle-0003",
+      "difficulty": 14,
+      "rationale": "The travel theme creates some surface overlap, yet the category labels remain concrete and the answers are widely known."
+    },
+    {
+      "puzzleId": "puzzle-0004",
+      "difficulty": 20,
+      "rationale": "All groups are common knowledge, but body parts and instruments are slightly less automatic than the very easiest household sets."
+    },
+    {
+      "puzzleId": "puzzle-0005",
+      "difficulty": 32,
+      "rationale": "Mostly familiar food words, though breads, cheeses, desserts, and spices can create mild culinary blur for some players."
+    },
+    {
+      "puzzleId": "puzzle-0006",
+      "difficulty": 22,
+      "rationale": "Animal classes are straightforward, but fish and reptile knowledge is a little less universal than pets or colors."
+    },
+    {
+      "puzzleId": "puzzle-0007",
+      "difficulty": 35,
+      "rationale": "Plant knowledge varies more by player, and herbs versus vegetables adds a modest layer of categorization precision."
+    },
+    {
+      "puzzleId": "puzzle-0008",
+      "difficulty": 28,
+      "rationale": "The groups are distinct and common, though metals versus gems requires a bit more vocabulary certainty than simpler everyday themes."
+    },
+    {
+      "puzzleId": "puzzle-0009",
+      "difficulty": 19,
+      "rationale": "Days, months, emotions, and basic tools are all familiar, with only slight friction from mixed concrete and abstract categories."
+    },
+    {
+      "puzzleId": "puzzle-0010",
+      "difficulty": 41,
+      "rationale": "Geography remains concrete, but rivers and mountain ranges ask for more school-knowledge recall than most easy-tier sets."
+    },
+    {
+      "puzzleId": "puzzle-0011",
+      "difficulty": 11,
+      "rationale": "Family, jobs, clothing, and footwear are highly familiar and visually distinct, leaving very few false trails."
+    },
+    {
+      "puzzleId": "puzzle-0012",
+      "difficulty": 34,
+      "rationale": "Game knowledge is common but somewhat culture-dependent, and board games versus card games can momentarily blur."
+    },
+    {
+      "puzzleId": "puzzle-0013",
+      "difficulty": 39,
+      "rationale": "Countries and languages are easy enough, but capitals and currencies demand a bit more factual recall and precision."
+    },
+    {
+      "puzzleId": "puzzle-0014",
+      "difficulty": 46,
+      "rationale": "Sports-related terms are concrete, yet gymnastics and track vocabulary are less universal and raise the recall burden."
+    },
+    {
+      "puzzleId": "puzzle-0015",
+      "difficulty": 17,
+      "rationale": "Household and office objects are very familiar, with only minor ambiguity from desk being a larger item than the others."
+    },
+    {
+      "puzzleId": "puzzle-0016",
+      "difficulty": 44,
+      "rationale": "The words are common in popular culture, but mythology and zodiac knowledge are less evenly distributed than ordinary daily-life sets."
+    },
+    {
+      "puzzleId": "puzzle-0017",
+      "difficulty": 52,
+      "rationale": "This is still accessible, but several borrowed food and drink terms increase cultural exposure demands and invite cross-category hesitation."
+    },
+    {
+      "puzzleId": "puzzle-0018",
+      "difficulty": 37,
+      "rationale": "The categories are concrete, though building materials can sound close to one another and houseplants are not universal knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0031",
+      "difficulty": 58,
+      "rationale": "World currencies and conifers are noticeably more knowledge-based than typical easy-tier material, despite the everyday wrapper."
+    },
+    {
+      "puzzleId": "puzzle-0032",
+      "difficulty": 29,
+      "rationale": "Most items are everyday and concrete, with only shellfish adding a slightly less universal vocabulary set."
+    },
+    {
+      "puzzleId": "puzzle-0033",
+      "difficulty": 55,
+      "rationale": "Toolbox language is tangible but specialized, especially power tools and measuring instruments that many casual players rarely name."
+    },
+    {
+      "puzzleId": "puzzle-0034",
+      "difficulty": 63,
+      "rationale": "Astronomy terms like planetary moons and constellations are still common enough to feel easy-tier, but they require more learned knowledge than average."
+    },
+    {
+      "puzzleId": "puzzle-0039",
+      "difficulty": 61,
+      "rationale": "Geographic features are concrete, yet peninsulas and volcano names push the set toward factual recall and possible uncertainty."
+    },
+    {
+      "puzzleId": "puzzle-0040",
+      "difficulty": 49,
+      "rationale": "Instrument families are tidy once seen, but distinguishing orchestral categories depends on some music vocabulary."
+    },
+    {
+      "puzzleId": "puzzle-0041",
+      "difficulty": 47,
+      "rationale": "The science groupings are conceptually clean, though particles and famous scientists are less immediate than ordinary consumer categories."
+    },
+    {
+      "puzzleId": "puzzle-0042",
+      "difficulty": 24,
+      "rationale": "These are all small, familiar objects with limited overlap, so sorting mostly comes down to quick recognition."
+    },
+    {
+      "puzzleId": "puzzle-0043",
+      "difficulty": 76,
+      "rationale": "Cloud taxonomy and sky terms are the hardest kind of easy-tier material because the words are specialized and several items feel visually or conceptually adjacent."
+    },
+    {
+      "puzzleId": "puzzle-0044",
+      "difficulty": 68,
+      "rationale": "Pasta and dumpling names are concrete but culturally specific, and several Italian forms are easy to mix up without strong food vocabulary."
+    },
+    {
+      "puzzleId": "puzzle-0045",
+      "difficulty": 83,
+      "rationale": "Architectural-era features demand niche terminology and historical style recognition, creating both obscurity and strong false-trail risk."
+    },
+    {
+      "puzzleId": "puzzle-0046",
+      "difficulty": 43,
+      "rationale": "Solar-system categories are well taught, but dwarf planets and Jupiter's moons add a moderate recall challenge."
+    },
+    {
+      "puzzleId": "puzzle-0047",
+      "difficulty": 57,
+      "rationale": "Mythology fans will fly through it, but separating multiple pantheons asks for exact cultural tagging rather than casual recognition."
+    },
+    {
+      "puzzleId": "puzzle-0048",
+      "difficulty": 54,
+      "rationale": "For general players this is approachable but domain-specific, with programming and shell terms being familiar mainly to tech-literate solvers."
+    },
+    {
+      "puzzleId": "puzzle-0049",
+      "difficulty": 64,
+      "rationale": "Keeping everything inside German geography and cuisine raises the precision requirement and makes it tougher for players without that regional knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0050",
+      "difficulty": 59,
+      "rationale": "Basic chess terms are common, but famous openings and tactical vocabulary make this distinctly trickier than average easy-tier content."
+    },
+    {
+      "puzzleId": "puzzle-0051",
+      "difficulty": 72,
+      "rationale": "Italian musical terminology is systematic but not widely mastered, and the categories can sound similar if the vocabulary is shaky."
+    },
+    {
+      "puzzleId": "puzzle-0052",
+      "difficulty": 66,
+      "rationale": "Breed knowledge is concrete yet specialized, and players may know the animals without confidently knowing the subgroup labels."
+    },
+    {
+      "puzzleId": "puzzle-0053",
+      "difficulty": 62,
+      "rationale": "Film-production language is moderately specialized, especially crew and script terms that are familiar mainly through media-savvy exposure."
+    },
+    {
+      "puzzleId": "puzzle-0054",
+      "difficulty": 40,
+      "rationale": "Marine life is vivid and concrete, though cephalopods and reef life require a bit more category awareness than basic animal sets."
+    },
+    {
+      "puzzleId": "puzzle-0055",
+      "difficulty": 45,
+      "rationale": "Cafe items are common, but tea-leaf names and some coffee-drink distinctions raise the vocabulary load."
+    },
+    {
+      "puzzleId": "puzzle-0056",
+      "difficulty": 67,
+      "rationale": "Sports positions are concrete but sport-specific, and rugby in particular pushes this above the middle of the easy tier."
+    },
+    {
+      "puzzleId": "puzzle-0057",
+      "difficulty": 50,
+      "rationale": "Literary forms are broadly familiar, yet theater and non-fiction labels can feel more academic than everyday."
+    },
+    {
+      "puzzleId": "puzzle-0058",
+      "difficulty": 53,
+      "rationale": "Fruit categories are concrete, but words like kumquat, galia, and lychee make the grouping less universal than it first appears."
+    },
+    {
+      "puzzleId": "puzzle-0059",
+      "difficulty": 71,
+      "rationale": "Trade vocabulary across woodworking, masonry, plumbing, and electrical is clear in structure but specialized in language."
+    },
+    {
+      "puzzleId": "puzzle-0060",
+      "difficulty": 27,
+      "rationale": "Paper-based everyday objects are easy to visualize, with only minor overlap between documents and mail items."
+    },
+    {
+      "puzzleId": "puzzle-0071",
+      "difficulty": 60,
+      "rationale": "Outdoor gear is accessible, but knot names and map-feature terminology introduce technical recall and some cross-category overlap."
+    },
+    {
+      "puzzleId": "puzzle-0072",
+      "difficulty": 74,
+      "rationale": "Art-history groupings are orderly yet knowledge-heavy, and recognizing which famous names belong to which period is not trivial."
+    },
+    {
+      "puzzleId": "puzzle-0073",
+      "difficulty": 73,
+      "rationale": "International cuisine makes the categories concrete but culturally dependent, with many borrowed dish names that are easy to misplace."
+    },
+    {
+      "puzzleId": "puzzle-0074",
+      "difficulty": 70,
+      "rationale": "Historical grouping is intuitive in shape, but placing names and events into the right era requires more exact recall than average."
+    },
+    {
+      "puzzleId": "puzzle-0075",
+      "difficulty": 56,
+      "rationale": "Body-related terms are familiar overall, though sensory and digestive anatomy introduce a more technical biological vocabulary."
+    },
+    {
+      "puzzleId": "puzzle-0076",
+      "difficulty": 78,
+      "rationale": "Author names demand substantial literary knowledge, and distinguishing movements and genres makes the classification notably tough for this tier."
+    },
+    {
+      "puzzleId": "puzzle-0077",
+      "difficulty": 69,
+      "rationale": "Earth-material words are concrete but unevenly familiar, and ores especially rely on niche vocabulary rather than everyday recognition."
+    },
+    {
+      "puzzleId": "puzzle-0078",
+      "difficulty": 65,
+      "rationale": "Winter-sport categories are clear, but event names like moguls, slopestyle, and boardercross are not broadly known by casual players."
+    },
+    {
+      "puzzleId": "puzzle-0079",
+      "difficulty": 48,
+      "rationale": "Track-and-field events are concrete and school-familiar, though steeplechase and relay placement add some mild friction."
+    },
+    {
+      "puzzleId": "puzzle-0080",
+      "difficulty": 80,
+      "rationale": "Festival names are specific and globally mixed, so success depends heavily on cultural breadth and precise seasonal association."
+    },
+    {
+      "puzzleId": "puzzle-0081",
+      "difficulty": 82,
+      "rationale": "Astronomy categories are logically neat, but black-hole classes and stellar life-cycle terms are specialized enough to feel near the top of easy-tier difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0082",
+      "difficulty": 42,
+      "rationale": "Vehicle types are tangible and distinct, though some less-common forms like maglev, schooner, and seaplane make it mildly harder."
+    },
+    {
+      "puzzleId": "puzzle-0083",
+      "difficulty": 75,
+      "rationale": "Dance styles are concrete but culturally and technically specific, with multiple subfamilies that can easily blur together."
+    },
+    {
+      "puzzleId": "puzzle-0084",
+      "difficulty": 77,
+      "rationale": "Music subgenres are familiar in broad strokes, but exact genre labeling is notoriously fuzzy and invites false trails."
+    },
+    {
+      "puzzleId": "puzzle-0085",
+      "difficulty": 79,
+      "rationale": "Physics terms are learned rather than lived, and separating forces, units, particles, and wave bands requires solid science vocabulary."
+    },
+    {
+      "puzzleId": "puzzle-0086",
+      "difficulty": 51,
+      "rationale": "This stays grounded in food, but greens, sprouts, herbs, and cabbage-family items are close enough to create steady classification pressure."
+    }
+  ]
+}

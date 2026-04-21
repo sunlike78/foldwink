@@ -5,7 +5,10 @@
   "meta": {
     "theme": "mecklenburg-vorp",
     "batch": "de-batch-03",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 43,
+    "gptDifficulty": 39,
+    "gptRationale": "Mecklenburg-Vorpommern bleibt durch Küste, Seen und Städte anschaulich, auch wenn einzelne Besonderheiten regionaler wirken."
   },
   "groups": [
     {

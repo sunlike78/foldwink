@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 37,
+    "gptDifficulty": 29,
+    "gptRationale": "The decade labels strongly anchor each set, and while a few fashion terms are specialized, most items are familiar enough to sort comfortably."
   },
   "groups": [
     {

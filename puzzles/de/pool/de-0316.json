@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Marxismus",
     "batch": "de-batch-04",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 49,
+    "gptDifficulty": 52,
+    "gptRationale": "Marxistische Grundbegriffe sind recht präsent, aber Werk- und Phasenwissen hebt das Rätsel etwas über das Komfortniveau."
   },
   "groups": [
     {

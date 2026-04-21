@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Psychologie Schulen",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 52,
+    "gptDifficulty": 59,
+    "gptRationale": "Die Schulen sind grundsätzlich bekannt, aber die Zuordnung zu Jung, Adler, Erikson und Maslow setzt etwas Vorwissen jenseits von Alltagspsychologie voraus."
   },
   "groups": [
     {

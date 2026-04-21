@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды молока и молочных напитков",
     "batch": "ru-batch-20",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 33,
+    "gptDifficulty": 33,
+    "gptRationale": "Молоко и молочные продукты повседневны, хотя кисломолочные и производные категории слегка пересекаются."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Rheintal",
     "batch": "de-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 54,
+    "gptDifficulty": 67,
+    "gptRationale": "Rheintal knowledge is specialized and the legend, wine, and place names create meaningful confusion for typical players."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Погода и явления природы",
     "batch": "ru-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 40,
+    "gptDifficulty": 46,
+    "gptRationale": "Nature terms are familiar overall, but the boundary between weather, sky events, and disasters can blur."
   },
   "groups": [
     {

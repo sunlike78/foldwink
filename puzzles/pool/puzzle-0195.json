@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 29,
+    "gptDifficulty": 25,
+    "gptRationale": "Road-sign categories are everyday and practical, though some work-zone signs feel a touch less universal."
   },
   "groups": [
     {

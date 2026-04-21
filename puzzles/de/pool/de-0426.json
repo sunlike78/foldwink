@@ -5,7 +5,10 @@
   "meta": {
     "theme": "politik",
     "batch": "de-batch-05",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 51,
+    "gptDifficulty": 52,
+    "gptRationale": "Die Verfassungsorgane sind bekannt, doch einzelne Detailmerkmale wie Normenkontrolle oder Stimmengewicht verlangen präzisere Staatsrechtskenntnis."
   },
   "groups": [
     {

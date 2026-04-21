@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 56,
+    "gptDifficulty": 62,
+    "gptRationale": "Psychological-disorder groupings require fairly specific diagnostic-category knowledge, and several disorders can feel adjacent or overlapping."
   },
   "groups": [
     {

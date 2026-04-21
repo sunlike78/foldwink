@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Pflanzen",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 32,
+    "gptDifficulty": 34,
+    "gptRationale": "Houseplant groups are intuitive, though several plant names are specialized enough to slow non-gardeners."
   },
   "groups": [
     {

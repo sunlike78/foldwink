@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мировые религии",
     "batch": "ru-batch-05",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 53,
+    "gptDifficulty": 62,
+    "gptRationale": "Крупные религии известны, но конкретные ветви и течения уже требуют терминологической аккуратности и культурной осведомлённости."
   },
   "groups": [
     {

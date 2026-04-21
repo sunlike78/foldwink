@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 54,
+    "gptDifficulty": 62,
+    "gptRationale": "Kitchen-tool grouping is tangible, but several professional culinary terms are specialized and not obvious to casual players."
   },
   "groups": [
     {

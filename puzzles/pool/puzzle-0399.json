@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 56
+    "difficultyScore": 56,
+    "editorialRank": 67,
+    "gptDifficulty": 74,
+    "gptRationale": "Printing-history terminology is niche and technical, with multiple terms sounding plausibly interchangeable unless the player knows the field."
   },
   "groups": [
     {

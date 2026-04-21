@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Компьютер и интернет",
     "batch": "ru-batch-01",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 19,
+    "gptDifficulty": 17,
+    "gptRationale": "Basic computer and internet terms are mainstream and the categories are simple everyday digital knowledge."
   },
   "groups": [
     {

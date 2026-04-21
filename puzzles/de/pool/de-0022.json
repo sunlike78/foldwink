@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Flüsse Deutschlands",
     "batch": "de-batch-01",
-    "difficultyScore": 7
+    "difficultyScore": 7,
+    "editorialRank": 45,
+    "gptDifficulty": 71,
+    "gptRationale": "Flusssysteme und Nordsee-Zuflüsse erfordern deutlich mehr Sachwissen als typische Easy-Themen und bieten starke Verwechslungsgefahr zwischen Einzugsgebiet und Zielmeer."
   },
   "groups": [
     {

@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 54,
+    "gptDifficulty": 62,
+    "gptRationale": "The 'scale' theme is clever, though each group mixes objects and associated terms, which makes the category logic feel less immediate."
   },
   "groups": [
     {

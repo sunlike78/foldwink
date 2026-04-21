@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 43,
+    "gptDifficulty": 61,
+    "gptRationale": "Body frame, picture frame, film frame, and frame-as-accuse create a fairly subtle mix of literal and metaphorical meanings."
   },
   "groups": [
     {

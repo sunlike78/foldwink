@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Geschichte Abk.",
     "batch": "de-batch-04",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 34,
+    "gptDifficulty": 44,
+    "gptRationale": "Viele Abkürzungen sind historisch bekannt, doch die Epochen grenzen sich nicht immer sofort eindeutig gegeneinander ab."
   },
   "groups": [
     {

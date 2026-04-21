@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tiere",
     "batch": "de-batch-02",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 33,
+    "gptDifficulty": 35,
+    "gptRationale": "German bird categories are logical and concrete, though some species require moderate birding knowledge."
   },
   "groups": [
     {

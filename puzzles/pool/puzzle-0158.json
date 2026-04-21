@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 36,
+    "gptDifficulty": 48,
+    "gptRationale": "Light has several common senses, so the puzzle is fair, though the beer category adds a small extra step for non-drinkers."
   },
   "groups": [
     {

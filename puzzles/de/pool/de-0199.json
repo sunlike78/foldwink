@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Politik",
     "batch": "de-batch-02",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 43,
+    "gptDifficulty": 60,
+    "gptRationale": "Bundeswehr mischt geläufige Einträge mit aktuellen Organisationsbegriffen und Einsatzorten, die nicht jeder sicher einordnen kann."
   },
   "groups": [
     {

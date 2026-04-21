@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые телесериалы",
     "batch": "ru-batch-09",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 40,
+    "gptDifficulty": 51,
+    "gptRationale": "Сериалы широко известны, но жанры условны, часть названий дана сокращённо, а одна группа строится уже по национальному признаку, а не по типу."
   },
   "groups": [
     {

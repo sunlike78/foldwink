@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды ювелирных украшений",
     "batch": "ru-batch-16",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 36,
+    "gptDifficulty": 32,
+    "gptRationale": "Украшения легко узнаются по месту ношения, хотя несколько предметов вроде чёток и броши-заколки чуть выбиваются из самого очевидного ряда."
   },
   "groups": [
     {

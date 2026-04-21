@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советские конфеты по типу",
     "batch": "ru-batch-02",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 48,
+    "gptDifficulty": 52,
+    "gptRationale": "Советские конфеты многим знакомы, однако пересечение по формату сладости и по сказочному названию создаёт хорошие ложные тропы."
   },
   "groups": [
     {

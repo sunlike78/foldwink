@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 54,
+    "gptDifficulty": 78,
+    "gptRationale": "This leans hard on knowing specific observatories by wavelength, with multiple famous-but-easy-to-misplace space telescope names creating strong false trails."
   },
   "groups": [
     {

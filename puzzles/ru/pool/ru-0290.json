@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Языковые семьи мира",
     "batch": "ru-batch-11",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 51,
+    "gptDifficulty": 57,
+    "gptRationale": "Здесь уже нужны не школьные европейские семьи, а более широкая лингвистическая карта мира, включая менее привычные примеры вроде дунганского."
   },
   "groups": [
     {

@@ -1,0 +1,179 @@
+{
+  "lang": "en",
+  "tier": "hard",
+  "batchIndex": 0,
+  "batchTotal": 1,
+  "elapsedSec": 34,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0294",
+      "difficulty": 24,
+      "rationale": "Best Picture winners are famous and the decade buckets are clean, so this is relatively approachable for a hard-tier cultural set."
+    },
+    {
+      "puzzleId": "puzzle-0302",
+      "difficulty": 68,
+      "rationale": "The category is clear once seen, but many laureates here are less globally familiar and the decade grouping demands specific literary-history knowledge."
+    },
+    {
+      "puzzleId": "hard-023",
+      "difficulty": 91,
+      "rationale": "This is highly abstract and terminology-dense, with several schools of philosophy that many players will only partially recognize."
+    },
+    {
+      "puzzleId": "hard-024",
+      "difficulty": 74,
+      "rationale": "Gem families are specialized knowledge and several stones feel plausibly cross-grouped unless you already know mineral classification."
+    },
+    {
+      "puzzleId": "puzzle-0376",
+      "difficulty": 55,
+      "rationale": "Some theorem names are very famous, but distinguishing by branch gets harder because names like Euler and theorem-style wording create strong false trails."
+    },
+    {
+      "puzzleId": "puzzle-0404",
+      "difficulty": 47,
+      "rationale": "The mechanic is simple, yet many completions are not equally common compounds, so solvers need precise lexical recall rather than broad theme recognition."
+    },
+    {
+      "puzzleId": "puzzle-0405",
+      "difficulty": 19,
+      "rationale": "Periodic table groups are canonical categories with very familiar members, making this easy relative to the hard tier."
+    },
+    {
+      "puzzleId": "puzzle-0429",
+      "difficulty": 36,
+      "rationale": "Once the hidden-string gimmick is spotted the set opens quickly, though finding the last one or two embedded animals can still take a moment."
+    },
+    {
+      "puzzleId": "puzzle-0430",
+      "difficulty": 58,
+      "rationale": "Colour-plus-animal naming is recognizable, but the groups overlap semantically and some entries depend on knowing exact common species names."
+    },
+    {
+      "puzzleId": "puzzle-0454",
+      "difficulty": 72,
+      "rationale": "Astronomy object types are niche enough that many players will know some items but struggle to separate nebulae, galaxies, clusters, and remnants cleanly."
+    },
+    {
+      "puzzleId": "puzzle-0455",
+      "difficulty": 63,
+      "rationale": "Lab equipment is learnable but specialized, and several tools sound interchangeable unless the solver has chemistry-lab familiarity."
+    },
+    {
+      "puzzleId": "puzzle-0479",
+      "difficulty": 86,
+      "rationale": "This combines etymology with category sorting, and several words are familiar in English without most players knowing their Nahuatl origin."
+    },
+    {
+      "puzzleId": "puzzle-0480",
+      "difficulty": 82,
+      "rationale": "Dice-game taxonomy is obscure for many players, with many unfamiliar titles and little surface help beyond partial genre intuition."
+    },
+    {
+      "puzzleId": "puzzle-0492",
+      "difficulty": 61,
+      "rationale": "The broad idea of open problems is accessible, but the categories blur and one entry especially invites cross-disciplinary second-guessing."
+    },
+    {
+      "puzzleId": "hard-001",
+      "difficulty": 44,
+      "rationale": "The shared verb 'break' is elegant and solvable, but several nouns could plausibly sit in multiple metaphorical senses before the set locks in."
+    },
+    {
+      "puzzleId": "hard-002",
+      "difficulty": 66,
+      "rationale": "These are ordinary words in specialized domains, so heavy semantic overlap and sparse anchors make the correct partitions noticeably tricky."
+    },
+    {
+      "puzzleId": "hard-003",
+      "difficulty": 57,
+      "rationale": "Body-part metaphors across objects create solid misdirection, though the category types are still concrete enough to recover with careful sorting."
+    },
+    {
+      "puzzleId": "hard-004",
+      "difficulty": 52,
+      "rationale": "The mood and imagery are cohesive enough to mislead, but the underlying category distinctions are still fairly legible once a few anchors fall."
+    },
+    {
+      "puzzleId": "hard-005",
+      "difficulty": 71,
+      "rationale": "This is mostly compound-word assembly, but the four stems are broad and many plausible pairings create persistent false starts."
+    },
+    {
+      "puzzleId": "hard-006",
+      "difficulty": 34,
+      "rationale": "The four senses of time are distinct and the vocabulary inside each group is comparatively standard, so it plays easier than most hard-tier abstracts."
+    },
+    {
+      "puzzleId": "hard-007",
+      "difficulty": 49,
+      "rationale": "The repeated 'field' sense works well, but several terms are domain-generic enough to cause moderate ambiguity before the themes crystallize."
+    },
+    {
+      "puzzleId": "hard-008",
+      "difficulty": 64,
+      "rationale": "State across politics, matter, emotion, and computing is a clean abstraction, but words like border, variable, and cache do not all signal their group equally well."
+    },
+    {
+      "puzzleId": "hard-009",
+      "difficulty": 59,
+      "rationale": "Common compounds are the core trick, yet the anchor words are broad and the board invites lots of believable but wrong pairings."
+    },
+    {
+      "puzzleId": "hard-010",
+      "difficulty": 53,
+      "rationale": "All four groups are part-whole vocabularies, so the solver has to notice which anatomy belongs to which paired object rather than rely on theme alone."
+    },
+    {
+      "puzzleId": "hard-011",
+      "difficulty": 62,
+      "rationale": "Power across physics, politics, math, and mechanics is conceptually neat, but several terms are technical enough to keep the set above average in difficulty."
+    },
+    {
+      "puzzleId": "hard-012",
+      "difficulty": 46,
+      "rationale": "The multiple senses of 'fine' are familiar, and although some words are slightly slippery the grouping logic is more transparent than in the tougher abstracts."
+    },
+    {
+      "puzzleId": "hard-013",
+      "difficulty": 78,
+      "rationale": "The 'dead' modifier spans literal, figurative, and idiomatic uses, and some entries feel especially loose unless the solver buys into the metaphorical reading."
+    },
+    {
+      "puzzleId": "hard-014",
+      "difficulty": 43,
+      "rationale": "Different senses of 'space' are intuitive and distinct enough that this abstract theme resolves fairly cleanly for a typical player."
+    },
+    {
+      "puzzleId": "hard-015",
+      "difficulty": 69,
+      "rationale": "Fault has several technical meanings, and the mixture of geology, law, tennis, and circuitry creates strong cross-domain interference."
+    },
+    {
+      "puzzleId": "hard-016",
+      "difficulty": 56,
+      "rationale": "The four 'blank' senses are fair, but some entries depend on collocational feel rather than crisp category boundaries."
+    },
+    {
+      "puzzleId": "hard-017",
+      "difficulty": 54,
+      "rationale": "Glass supports several obvious meanings, yet a few metaphor entries are broad enough to delay confirmation of the final grouping."
+    },
+    {
+      "puzzleId": "hard-018",
+      "difficulty": 31,
+      "rationale": "This is mostly disciplinary terminology sorting, and the vocab in each field is standard enough that educated players can separate them relatively quickly."
+    },
+    {
+      "puzzleId": "hard-019",
+      "difficulty": 51,
+      "rationale": "The repeated 'floor' sense is tidy, but economic and oceanographic terms raise the difficulty beyond a straightforward multi-meaning sort."
+    },
+    {
+      "puzzleId": "hard-020",
+      "difficulty": 42,
+      "rationale": "The 'black' constructions are familiar and diverse, so despite some thematic overlap the groups are easier to infer than many abstract hard sets."
+    }
+  ]
+}

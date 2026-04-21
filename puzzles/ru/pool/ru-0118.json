@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды ткани",
     "batch": "ru-batch-02",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 46,
+    "gptDifficulty": 67,
+    "gptRationale": "Ткани и материалы требуют предметного словаря одежды, а различия между составом, фактурой и декоративностью не для всех очевидны."
   },
   "groups": [
     {

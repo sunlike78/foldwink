@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Jahreszeiten-Blumen",
     "batch": "de-batch-01",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 15,
+    "gptDifficulty": 18,
+    "gptRationale": "Die Jahreszeiten- und Alltagskategorien sind sehr vertraut und die Begriffe lassen sich fast ohne konkurrierende Deutungen sauber zuordnen."
   },
   "groups": [
     {

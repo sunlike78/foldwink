@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Конституционные системы мира",
     "batch": "ru-batch-15",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 54,
+    "gptDifficulty": 63,
+    "gptRationale": "Конституционные модели и исторические документы требуют политико-правовой эрудиции, а некоторые группы остаются менее бытовыми."
   },
   "groups": [
     {

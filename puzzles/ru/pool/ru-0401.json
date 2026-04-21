@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Бюджет и государственные финансы",
     "batch": "ru-batch-17",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 70,
+    "gptDifficulty": 81,
+    "gptRationale": "Это уже полудидактический набор по бюджету и налогам, где смешаны режимы налогообложения, статьи расходов и макрофинансовые термины."
   },
   "groups": [
     {

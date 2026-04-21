@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 28,
+    "gptDifficulty": 31,
+    "gptRationale": "The historical-era categories are very distinct and many battle names are iconic, making this relatively approachable despite some history dependence."
   },
   "groups": [
     {

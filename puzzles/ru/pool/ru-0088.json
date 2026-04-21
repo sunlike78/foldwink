@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советские мультфильмы",
     "batch": "ru-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 29,
+    "gptDifficulty": 28,
+    "gptRationale": "Главные советские мультгерои крайне известны, а группы в основном читаются почти сразу."
   },
   "groups": [
     {

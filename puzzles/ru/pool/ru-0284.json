@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Бренды смартфонов по стране",
     "batch": "ru-batch-11",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 38,
+    "gptDifficulty": 55,
+    "gptRationale": "Бренды телефонов кажутся простыми, но группы по странам происхождения содержат спорные и менее известные марки, что повышает риск ошибок."
   },
   "groups": [
     {

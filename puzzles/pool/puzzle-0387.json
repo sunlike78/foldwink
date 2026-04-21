@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 51,
+    "gptDifficulty": 57,
+    "gptRationale": "Photography terms are concrete for hobbyists, but composition, lighting, and processing vocabulary can blur for general players."
   },
   "groups": [
     {

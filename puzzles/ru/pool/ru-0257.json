@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Школьные и вузовские предметы",
     "batch": "ru-batch-09",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 25,
+    "gptDifficulty": 19,
+    "gptRationale": "School subjects are among the most straightforward everyday categories, with only a couple of less-common class names adding minor resistance."
   },
   "groups": [
     {

@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 36,
+    "gptDifficulty": 46,
+    "gptRationale": "Sports-related terms are concrete, yet gymnastics and track vocabulary are less universal and raise the recall burden."
   }
 }

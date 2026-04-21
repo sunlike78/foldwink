@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 17,
+    "gptDifficulty": 22,
+    "gptRationale": "Animal classes are straightforward, but fish and reptile knowledge is a little less universal than pets or colors."
   }
 }

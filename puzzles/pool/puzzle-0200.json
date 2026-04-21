@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 36,
+    "gptDifficulty": 41,
+    "gptRationale": "The seal senses are common, but Navy SEAL introduces a capitalization-dependent distinction that adds a bit of precision."
   },
   "groups": [
     {

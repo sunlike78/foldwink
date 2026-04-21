@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 21,
+    "gptDifficulty": 18,
+    "gptRationale": "Color-shade groupings are familiar, but a few items like teal and amber introduce slight hesitation over category fit."
   }
 }

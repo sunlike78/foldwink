@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 65,
+    "gptDifficulty": 88,
+    "gptRationale": "Architectural-style markers are specialized and demand precise art-history knowledge with little help from everyday language."
   }
 }

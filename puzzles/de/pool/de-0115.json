@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Jahreszeiten",
     "batch": "de-batch-02",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 24,
+    "gptDifficulty": 20,
+    "gptRationale": "Harvest and autumn imagery is concrete and familiar, making the intended categories easy to infer."
   },
   "groups": [
     {

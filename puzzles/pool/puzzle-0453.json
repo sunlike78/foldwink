@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 43,
+    "gptDifficulty": 55,
+    "gptRationale": "Samurai-era vocabulary mixes famous and specialized Japanese terms, with social concepts and martial disciplines close enough to mislead."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "pädagogik",
     "batch": "de-batch-05",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 48,
+    "gptDifficulty": 59,
+    "gptRationale": "Die Lerntheorien sind didaktisch verwandt und einige Kernbegriffe könnten auch in mehreren Modellen plausibel erscheinen."
   },
   "groups": [
     {

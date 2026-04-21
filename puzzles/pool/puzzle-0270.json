@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 22,
+    "gptDifficulty": 13,
+    "gptRationale": "Airport processes and objects are familiar to most players and separate into very natural travel-related clusters."
   },
   "groups": [
     {

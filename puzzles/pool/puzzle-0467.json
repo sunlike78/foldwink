@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 56,
+    "gptDifficulty": 64,
+    "gptRationale": "Some Yiddish borrowings are common in English, but others are meaning-shifty enough that the semantic groupings take careful language intuition."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "geschichte",
     "batch": "de-batch-05",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 56,
+    "gptDifficulty": 56,
+    "gptRationale": "Historische Personen sind bekannt, aber Epochenabgrenzungen wie Aufklärung versus Romantik-Ära erfordern kulturelle Einordnung statt bloßes Namenserkennen."
   },
   "groups": [
     {

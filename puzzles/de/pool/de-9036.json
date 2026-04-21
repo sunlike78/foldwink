@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Schulerfahrungen Kindheit DACH",
     "batch": "de-batch-12",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 24,
+    "gptDifficulty": 12,
+    "gptRationale": "Die Gefühlslagen am ersten Schultag sind unmittelbar nachvollziehbar und fast jeder Hinweis passt sehr deutlich zu genau einer Gruppe."
   },
   "groups": [
     {

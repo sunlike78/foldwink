@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kaffeesorten",
     "batch": "de-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 36,
+    "gptDifficulty": 44,
+    "gptRationale": "Coffee culture is familiar, but many variant names are close enough to invite mix-ups across drink and preparation groups."
   },
   "groups": [
     {

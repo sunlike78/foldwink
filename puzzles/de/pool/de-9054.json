@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Brückenbautypen durch strukturelle Merkmale",
     "batch": "de-batch-12",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 46,
+    "gptDifficulty": 54,
+    "gptRationale": "Bridge types are structurally distinct once recognized, but solving requires some engineering vocabulary and image-building from the clues."
   },
   "groups": [
     {

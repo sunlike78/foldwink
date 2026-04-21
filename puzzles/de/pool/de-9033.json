@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tierverhalten als Erkennungszeichen",
     "batch": "de-batch-12",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 34,
+    "gptDifficulty": 32,
+    "gptRationale": "Tierverhalten ist anschaulich und markant, aber ein paar kuriose Einzelmerkmale muss man tatsächlich wissen statt nur erschließen."
   },
   "groups": [
     {

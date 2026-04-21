@@ -5,7 +5,10 @@
   "meta": {
     "theme": "hamburger-architektur",
     "batch": "de-batch-03",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 49,
+    "gptDifficulty": 55,
+    "gptRationale": "Hamburger Architektur ist regional enger und enthält einige spezifische Bau- und Ortsnamen, die außerhalb Hamburgs weniger vertraut sind."
   },
   "groups": [
     {

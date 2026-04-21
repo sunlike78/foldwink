@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советское кино",
     "batch": "ru-batch-05",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 35,
+    "gptDifficulty": 39,
+    "gptRationale": "Фильмы очень известные, а жанрово-тематические группы в основном легко считываются, несмотря на пару пограничных примеров."
   },
   "groups": [
     {

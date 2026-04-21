@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Philosophen",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 60,
+    "gptDifficulty": 82,
+    "gptRationale": "Philosophical terminology is abstract, culturally specific, and easy to confuse without prior subject knowledge."
   },
   "groups": [
     {

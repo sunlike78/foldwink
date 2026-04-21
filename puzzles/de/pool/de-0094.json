@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Klassische Musik",
     "batch": "de-batch-04",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 66,
+    "gptDifficulty": 73,
+    "gptRationale": "Classical music works demand substantial recognition memory, and composer-to-title matching is hard for non-specialists."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 48,
+    "gptDifficulty": 43,
+    "gptRationale": "Most prizewinners are famous enough to recognize, and Nobel fields are concrete, but the puzzle still asks for a fair amount of cultural recall."
   },
   "groups": [
     {

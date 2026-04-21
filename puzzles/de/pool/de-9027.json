@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Architekturstile im DACH-Raum",
     "batch": "de-batch-11",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 50,
+    "gptDifficulty": 58,
+    "gptRationale": "Architectural styles are separable only if the solver knows technical markers and can ignore some historically noisy details."
   },
   "groups": [
     {

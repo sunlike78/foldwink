@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 46,
+    "gptDifficulty": 63,
+    "gptRationale": "Astronomy terms like planetary moons and constellations are still common enough to feel easy-tier, but they require more learned knowledge than average."
   }
 }

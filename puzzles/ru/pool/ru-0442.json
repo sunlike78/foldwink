@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые актёры кино",
     "batch": "ru-batch-19",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 30,
+    "gptDifficulty": 29,
+    "gptRationale": "Большинство имён очень известны, а деление на голливудских, советских и экшн-звёзд считывается быстро."
   },
   "groups": [
     {

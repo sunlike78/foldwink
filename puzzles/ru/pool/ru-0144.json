@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Специи и приправы",
     "batch": "ru-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 24,
+    "gptDifficulty": 24,
+    "gptRationale": "Почти все специи и травы массово известны, а группы интуитивны даже для игрока без специальных знаний."
   },
   "groups": [
     {

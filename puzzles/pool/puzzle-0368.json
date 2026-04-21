@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 59,
+    "gptDifficulty": 57,
+    "gptRationale": "Political-system labels are conceptually related enough to blur together, especially between structural and participatory terms."
   },
   "groups": [
     {

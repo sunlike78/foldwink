@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Экономические термины",
     "batch": "ru-batch-06",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 30,
+    "gptDifficulty": 36,
+    "gptRationale": "Экономические блоки собраны из базовых терминов, и даже при некоторой пересекаемости сферы различаются достаточно ясно."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классификация воздушных судов",
     "batch": "ru-batch-20",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 24,
+    "gptDifficulty": 22,
+    "gptRationale": "Типы самолётов и вертолётов крайне конкретны, а группы различаются по форме и назначению почти без ловушек."
   },
   "groups": [
     {

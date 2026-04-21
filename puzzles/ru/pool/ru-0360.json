@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды микрофонов и звукозапись",
     "batch": "ru-batch-14",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 53,
+    "gptDifficulty": 67,
+    "gptRationale": "Это уже нишевая аудио-тема, где типы микрофонов, диаграммы, техники записи и обработка звука требуют хорошей терминологической базы."
   },
   "groups": [
     {

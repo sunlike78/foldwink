@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рукоделие и творческие хобби",
     "batch": "ru-batch-21",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 37,
+    "gptDifficulty": 34,
+    "gptRationale": "Рукоделие бытовое и визуально конкретное, хотя часть техник может пересекаться по материалу или способу работы."
   },
   "groups": [
     {

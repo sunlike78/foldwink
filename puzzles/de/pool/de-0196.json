@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 38,
+    "gptDifficulty": 50,
+    "gptRationale": "Geologie ist noch schulnah, doch Mineralien, Erdschichten und Prozessbegriffe liegen für viele nicht mehr ganz präsent bereit."
   },
   "groups": [
     {

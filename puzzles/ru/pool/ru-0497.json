@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Боги и мифы Древнего Рима",
     "batch": "ru-batch-21",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 40,
+    "gptDifficulty": 41,
+    "gptRationale": "Римская мифология интуитивна для гуманитарно образованного игрока, хотя герои, боги и сюжеты местами пересекаются по ассоциациям."
   },
   "groups": [
     {

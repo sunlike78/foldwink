@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 58,
+    "gptDifficulty": 79,
+    "gptRationale": "This leans heavily on African river geography, which is specialized knowledge with few internal wordplay hooks to rescue the solver."
   },
   "groups": [
     {

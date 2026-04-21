@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 46,
+    "gptDifficulty": 55,
+    "gptRationale": "Biome categories are understandable, yet several terms are less everyday and some environments can plausibly cross categories."
   },
   "groups": [
     {

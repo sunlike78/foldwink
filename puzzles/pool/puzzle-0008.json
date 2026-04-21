@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 23,
+    "gptDifficulty": 28,
+    "gptRationale": "The groups are distinct and common, though metals versus gems requires a bit more vocabulary certainty than simpler everyday themes."
   }
 }

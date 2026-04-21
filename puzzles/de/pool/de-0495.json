@@ -5,7 +5,10 @@
   "meta": {
     "theme": "politik",
     "batch": "de-batch-05",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 52,
+    "gptDifficulty": 57,
+    "gptRationale": "Die Themen sind politisch aktuell, aber Bewegungen, Konzepte und digitale Formate erzeugen einige absichtliche Grenzfälle."
   },
   "groups": [
     {

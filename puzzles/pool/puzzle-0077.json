@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 48,
+    "gptDifficulty": 69,
+    "gptRationale": "Earth-material words are concrete but unevenly familiar, and ores especially rely on niche vocabulary rather than everyday recognition."
   }
 }

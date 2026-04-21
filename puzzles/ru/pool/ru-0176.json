@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Технологии и IT",
     "batch": "ru-batch-05",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 19,
+    "gptDifficulty": 17,
+    "gptRationale": "Все категории максимально современные и массово знакомые, поэтому связи обычно видны почти сразу."
   },
   "groups": [
     {

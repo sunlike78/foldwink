@@ -5,7 +5,10 @@
   "meta": {
     "theme": "parteien",
     "batch": "de-batch-03",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 58,
+    "gptDifficulty": 79,
+    "gptRationale": "Parteigeschichte, Koalitionsnamen und aktuelle Vorsitzende mischen politisches Detailwissen mit zeitgebundenen Referenzen und sind dadurch sehr anspruchsvoll."
   },
   "groups": [
     {

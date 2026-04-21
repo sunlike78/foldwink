@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Художники России",
     "batch": "ru-batch-01",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 39,
+    "gptDifficulty": 53,
+    "gptRationale": "Крупные художники известны, но различение между передвижниками, авангардистами и исторической живописью требует уже некоторой насмотренности."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кулинарные техники",
     "batch": "ru-batch-04",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 62,
+    "gptDifficulty": 72,
+    "gptRationale": "Это уже не просто бытовая кухня, а терминологические техники вроде брюнуаз или деглазирования, которые ощутимо труднее среднего easy-уровня."
   },
   "groups": [
     {

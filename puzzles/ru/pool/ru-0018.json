@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Птицы России",
     "batch": "ru-batch-01",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 34,
+    "gptDifficulty": 42,
+    "gptRationale": "Bird categories are clear in principle, but ornithology knowledge and cross-category candidates add moderate difficulty."
   },
   "groups": [
     {

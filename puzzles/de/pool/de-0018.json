@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Bäume Deutschlands",
     "batch": "de-batch-01",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 39,
+    "gptDifficulty": 39,
+    "gptRationale": "Baumarten sind noch recht konkret, aber Zierbaum-Beispiele und die Abgrenzung zwischen Laub-, Obst- und Zierbaum verlangen mehr Präzision."
   },
   "groups": [
     {

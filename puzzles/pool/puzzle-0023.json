@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 16,
+    "gptDifficulty": 14,
+    "gptRationale": "Straight verb-synonym clustering is clear and uses common vocabulary with little real misdirection."
   }
 }

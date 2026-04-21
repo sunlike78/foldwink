@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musikinstrumente",
     "batch": "de-batch-01",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 19,
+    "gptDifficulty": 22,
+    "gptRationale": "Instrumentenfamilien sind schulnah und die meisten Beispiele sind prototypisch, sodass kaum falsche Fährten entstehen."
   },
   "groups": [
     {

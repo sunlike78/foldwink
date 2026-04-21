@@ -5,7 +5,10 @@
   "meta": {
     "theme": "maschinenbau",
     "batch": "de-batch-03",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 45,
+    "gptDifficulty": 61,
+    "gptRationale": "Maschinenbau ist als Themenfeld weniger alltagsnah und die Produkt-, Branchen- und Standortbegriffe wirken vergleichsweise technisch und austauschbar."
   },
   "groups": [
     {

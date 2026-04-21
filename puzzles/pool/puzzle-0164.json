@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 55,
+    "gptDifficulty": 77,
+    "gptRationale": "Plant taxonomy and common names here are substantially more specialized than average, especially in the fern and moss-lichen groups."
   },
   "groups": [
     {

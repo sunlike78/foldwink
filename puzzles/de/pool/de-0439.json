@@ -5,7 +5,10 @@
   "meta": {
     "theme": "religion",
     "batch": "de-batch-05",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 47,
+    "gptDifficulty": 57,
+    "gptRationale": "Die Religionsblöcke sind grundsätzlich klar, aber einzelne Feste sind je nach Vorwissen deutlich weniger geläufig."
   },
   "groups": [
     {

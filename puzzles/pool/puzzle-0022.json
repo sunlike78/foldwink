@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 21,
+    "gptDifficulty": 22,
+    "gptRationale": "Location-based sets are concrete and everyday, with only minor overlap from generally placeable objects."
   }
 }

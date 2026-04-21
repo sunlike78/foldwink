@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 45,
+    "gptDifficulty": 43,
+    "gptRationale": "Tax-type buckets are conceptually straightforward, though a few items vary by jurisdiction and can blur wealth, payroll, and consumption distinctions."
   },
   "groups": [
     {

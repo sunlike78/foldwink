@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Режиссёрский стиль и фильмы Кубрика",
     "batch": "ru-batch-09",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 57,
+    "gptDifficulty": 77,
+    "gptRationale": "Нужно одновременно знать фильмографию Кубрика, его приёмы и актёров, причём жанровые группы составлены не самым ожидаемым образом."
   },
   "groups": [
     {

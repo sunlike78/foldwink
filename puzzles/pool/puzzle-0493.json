@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 63,
+    "gptDifficulty": 64,
+    "gptRationale": "Cognitive-bias labels are semantically slippery and overlap conceptually, so the challenge comes from fine-grained distinctions rather than obvious category boundaries."
   },
   "groups": [
     {

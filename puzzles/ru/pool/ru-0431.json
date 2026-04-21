@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ветры мира и их названия",
     "batch": "ru-batch-18",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 58,
+    "gptDifficulty": 82,
+    "gptRationale": "Названия ветров узкоспециальные и малоизвестные, а границы между региональными и физическими типами легко спутать."
   },
   "groups": [
     {

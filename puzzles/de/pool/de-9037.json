@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Reiseverhalten nach Verkehrsmittel",
     "batch": "de-batch-12",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 26,
+    "gptDifficulty": 16,
+    "gptRationale": "Vier Reisearten mit typischen Routinen sind sehr bildhaft und alltagsnah, mit fast keiner echten Mehrdeutigkeit."
   },
   "groups": [
     {

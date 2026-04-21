@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Vertrauen als soziales Phänomen",
     "batch": "de-batch-11",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 32,
+    "gptDifficulty": 26,
+    "gptRationale": "Vertrauen, Misstrauen, Naivität und Skepsis sind sehr intuitive Konzepte, und die Beispiele signalisieren ihre Richtung fast immer direkt."
   },
   "groups": [
     {

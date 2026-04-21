@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Berufe durch Alltagsszenen",
     "batch": "de-batch-12",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 24,
+    "gptDifficulty": 16,
+    "gptRationale": "These professions are everyday and each set of actions strongly anchors one job with almost no abstraction."
   },
   "groups": [
     {

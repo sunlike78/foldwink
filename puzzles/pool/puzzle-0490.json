@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 28,
+    "gptDifficulty": 29,
+    "gptRationale": "Human-body systems are common knowledge and most terms are strongly associated with one organ system, keeping the sort fairly clean."
   },
   "groups": [
     {

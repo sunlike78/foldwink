@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Nachhaltigkeit",
     "batch": "de-batch-04",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 45,
+    "gptDifficulty": 54,
+    "gptRationale": "Nachhaltigkeit ist als Oberthema vertraut, aber Konzepte, Zertifikate, Technologien und Unternehmen liegen begrifflich enger beieinander."
   },
   "groups": [
     {

@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 65,
+    "gptDifficulty": 84,
+    "gptRationale": "Regional dance and music forms require substantial cultural knowledge, and several unfamiliar names offer limited inference clues."
   }
 }

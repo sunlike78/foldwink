@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 43,
+    "gptDifficulty": 54,
+    "gptRationale": "The communication and distribution senses are more abstract than the TV and water sets, raising the within-tier difficulty."
   },
   "groups": [
     {

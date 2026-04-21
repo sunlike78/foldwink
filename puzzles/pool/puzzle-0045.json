@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 59,
+    "gptDifficulty": 83,
+    "gptRationale": "Architectural-era features demand niche terminology and historical style recognition, creating both obscurity and strong false-trail risk."
   }
 }

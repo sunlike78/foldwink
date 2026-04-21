@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Профессии в строительстве",
     "batch": "ru-batch-20",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 32,
+    "gptDifficulty": 26,
+    "gptRationale": "Строительные профессии конкретны и житейски понятны, а деление по этапам работ достаточно очевидно."
   },
   "groups": [
     {

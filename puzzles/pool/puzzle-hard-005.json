@@ -10,7 +10,10 @@
     "fairnessRisk": 2,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 55,
+    "gptDifficulty": 71,
+    "gptRationale": "This is mostly compound-word assembly, but the four stems are broad and many plausible pairings create persistent false starts."
   },
   "groups": [
     {

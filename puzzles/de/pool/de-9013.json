@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Charaktereigenschaften via Alltagsbilder",
     "batch": "de-batch-11",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 39,
+    "gptDifficulty": 37,
+    "gptRationale": "Die vier Charakterhaltungen sind semantisch gut getrennt, nur einzelne alltagsnahe Formulierungen könnten kurz zwischen Ungeduld und Launenhaftigkeit kippen."
   },
   "groups": [
     {

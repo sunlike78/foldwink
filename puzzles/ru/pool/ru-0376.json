@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды страхования",
     "batch": "ru-batch-15",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 48,
+    "gptDifficulty": 59,
+    "gptRationale": "Страховые продукты многим знакомы понаслышке, но бизнес-блок и пересечения между медицинским и личным страхованием заметно повышают сложность."
   },
   "groups": [
     {

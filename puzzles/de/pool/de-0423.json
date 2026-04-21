@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wirtschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 40,
+    "gptDifficulty": 48,
+    "gptRationale": "Der deutsche Mittelstand ist als Konzept bekannt, aber Regionen, Merkmale und Beispielunternehmen sind weniger unmittelbar als die Branchen."
   },
   "groups": [
     {

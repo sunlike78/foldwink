@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Злаки и крупы",
     "batch": "ru-batch-04",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 44,
+    "gptDifficulty": 64,
+    "gptRationale": "Игроку нужно различать злаки, крупы, псевдозлаки и продукты переработки, а эти классы для непрофильного знания часто сливаются."
   },
   "groups": [
     {

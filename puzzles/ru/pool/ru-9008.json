@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Исторические эпохи через артефакты",
     "batch": "ru-batch-16",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 39,
+    "gptDifficulty": 38,
+    "gptRationale": "Советский быт культурно цельный и узнаваемый, а группы достаточно образные и хорошо отличаются друг от друга."
   },
   "groups": [
     {

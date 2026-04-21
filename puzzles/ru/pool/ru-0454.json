@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Острова и архипелаги",
     "batch": "ru-batch-19",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 42,
+    "gptDifficulty": 52,
+    "gptRationale": "Архипелаги в целом узнаваемы, но океанические привязки и спорные объекты вроде Мадагаскара делают подбор менее очевидным."
   },
   "groups": [
     {

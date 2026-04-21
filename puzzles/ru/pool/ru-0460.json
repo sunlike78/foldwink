@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Произведения А. С. Пушкина",
     "batch": "ru-batch-19",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 31,
+    "gptDifficulty": 28,
+    "gptRationale": "Пушкинский канон очень известен, а жанровое деление произведений обычно распознаётся без большого сопротивления."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gastronomische Traditionen im DACH-Raum",
     "batch": "de-batch-11",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 42,
+    "gptDifficulty": 44,
+    "gptRationale": "The food-culture groupings are concrete, but some clues rely on German-speaking cultural familiarity rather than pure lexical signals."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Dramatische Genres und ihre Kerne",
     "batch": "de-batch-11",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 46,
+    "gptDifficulty": 52,
+    "gptRationale": "The theatrical forms are conceptually neat, but distinguishing satire from comedy and recalling epic theater signals adds some pressure."
   },
   "groups": [
     {

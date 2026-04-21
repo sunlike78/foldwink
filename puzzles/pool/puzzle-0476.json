@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 50,
+    "gptDifficulty": 58,
+    "gptRationale": "Fairy-tale archetypes are recognizable, but several characters can plausibly fit multiple story roles, which adds thematic ambiguity."
   },
   "groups": [
     {

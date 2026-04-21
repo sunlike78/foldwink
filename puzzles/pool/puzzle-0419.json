@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 29,
+    "gptDifficulty": 26,
+    "gptRationale": "Wine-region groupings are geographically intuitive and mostly famous, with just enough niche regional knowledge to keep it from the very easiest end."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Bundesländer",
     "batch": "de-batch-01",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 57,
+    "gptDifficulty": 62,
+    "gptRationale": "Die Bundesländergruppen erzeugen merkliche Stolpersteine, weil mehrere Zuordnungen kulturell oder geografisch diskutabel wirken und Abkürzungen zusätzliche Präzision verlangen."
   },
   "groups": [
     {

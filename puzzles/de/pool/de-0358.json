@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Elektronische Musik",
     "batch": "de-batch-04",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 36,
+    "gptDifficulty": 34,
+    "gptRationale": "Elektronische Genres haben erkennbare Schlagwörter, auch wenn BPM-Angaben und Szenereferenzen etwas Vorwissen verlangen."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "false-trail",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 54,
+    "gptDifficulty": 72,
+    "gptRationale": "Astronomy object types are niche enough that many players will know some items but struggle to separate nebulae, galaxies, clusters, and remnants cleanly."
   },
   "groups": [
     {

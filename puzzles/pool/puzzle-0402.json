@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 50,
+    "gptDifficulty": 48,
+    "gptRationale": "Major Arcana cards are recognizable to many players, but the thematic buckets are interpretive enough to create moderate uncertainty."
   },
   "groups": [
     {

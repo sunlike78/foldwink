@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 35,
+    "gptDifficulty": 36,
+    "gptRationale": "Regional African geography is teachable but not equally automatic for all players, so the country grouping takes moderate recall."
   },
   "groups": [
     {

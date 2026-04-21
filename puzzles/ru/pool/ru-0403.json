@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые предприниматели",
     "batch": "ru-batch-17",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 50,
+    "gptDifficulty": 64,
+    "gptRationale": "Имена громкие, но игроку нужно не только знать людей, но и правильно соотнести их с отраслью, при этом один российский пример выглядит неточным."
   },
   "groups": [
     {

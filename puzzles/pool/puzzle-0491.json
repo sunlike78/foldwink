@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 66,
+    "gptDifficulty": 82,
+    "gptRationale": "Many illusion names are obscure unless you already know the literature, and the subtype distinctions are subtle enough to invite repeated misgrouping."
   },
   "groups": [
     {

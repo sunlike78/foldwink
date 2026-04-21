@@ -5,7 +5,10 @@
   "meta": {
     "theme": "griechische-mythologie",
     "batch": "de-batch-03",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 22,
+    "gptDifficulty": 24,
+    "gptRationale": "Griechische Mythologie ist sehr kanonisch und die vier Blöcke Götter, Helden, Monster und Orte sind ausgesprochen sauber getrennt."
   },
   "groups": [
     {

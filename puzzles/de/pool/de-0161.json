@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 52,
+    "gptDifficulty": 61,
+    "gptRationale": "Man braucht recht konkretes Wissen über deutsche Stadtgrößenklassen, und mehrere Städte könnten ohne Einwohnerkenntnis austauschbar wirken."
   },
   "groups": [
     {

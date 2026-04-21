@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 20,
+    "gptDifficulty": 18,
+    "gptRationale": "Gym equipment and exercise categories are very familiar modern-life vocabulary with clear functional distinctions."
   },
   "groups": [
     {

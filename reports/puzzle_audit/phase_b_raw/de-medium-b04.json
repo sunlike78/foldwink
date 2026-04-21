@@ -1,0 +1,177 @@
+{
+  "lang": "de",
+  "tier": "medium",
+  "batchIndex": 3,
+  "batchTotal": 4,
+  "puzzleIds": [
+    "de-9019",
+    "de-9020",
+    "de-9021",
+    "de-9022",
+    "de-9023",
+    "de-9024",
+    "de-9025",
+    "de-9026",
+    "de-9027",
+    "de-9028",
+    "de-9029",
+    "de-9030",
+    "de-9045",
+    "de-9046",
+    "de-9047",
+    "de-9048",
+    "de-9049",
+    "de-9050",
+    "de-9051",
+    "de-9052",
+    "de-9053",
+    "de-9054",
+    "de-9055",
+    "de-9056"
+  ],
+  "elapsedSec": 40,
+  "findings": [
+    {
+      "puzzleId": "de-9020",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "„1918 erste Wahl“ ist für das deutsche Frauenwahlrecht sachlich falsch formuliert. Das Wahlrecht wurde im November 1918 eingeführt, aber die erste reichsweite Wahl, an der Frauen teilnehmen konnten, war die Wahl zur Nationalversammlung am 19. Januar 1919.",
+      "items": [
+        "1918 erste Wahl"
+      ],
+      "groups": [
+        "Frauenwahlrecht"
+      ],
+      "suggestedFix": "Zum Beispiel „1918 Wahlrecht erkämpft“ oder „1919 erste Wahl“ verwenden."
+    },
+    {
+      "puzzleId": "de-9023",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Die Kategorien sind abstrakte Stimmungsmetaphern, und mehrere Naturbilder lassen sich plausibel mehreren Gruppen zuordnen. „Fluss versickert“, „Quelle trocken“ und „Same ohne Regen“ können alle Erschöpfung, Stagnation oder Dürre/Bedrohung signalisieren; „Baum nach Sturm nackt“ kann ebenso Nachwirkung einer Bedrohung wie Erschöpfung sein.",
+      "items": [
+        "Fluss versickert",
+        "Baum nach Sturm nackt",
+        "Quelle trocken",
+        "Same ohne Regen"
+      ],
+      "groups": [
+        "Erschöpfung",
+        "Bedrohung",
+        "Stagnation"
+      ],
+      "suggestedFix": "Die Gruppen stärker durch klarere, weniger austauschbare Naturzeichen trennen oder konkretere Labels wählen, etwa Dürre, Neubeginn, Unwettergefahr, Stillstand."
+    },
+    {
+      "puzzleId": "de-9027",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Kölner Dom, 8 Jhd.“ ist missverständlich bis falsch: Der heutige gotische Kölner Dom wurde ab 1248 gebaut; „8. Jahrhundert“ passt nicht zur gotischen Bauphase. Gemeint ist vermutlich eine acht Jahrhunderte lange Bau-/Vollendungsgeschichte.",
+      "items": [
+        "Kölner Dom, 8 Jhd."
+      ],
+      "groups": [
+        "Gotik"
+      ],
+      "suggestedFix": "Zum Beispiel „Kölner Dom ab 1248“ oder „Kölner Dom jahrhundertelang“ verwenden."
+    },
+    {
+      "puzzleId": "de-9027",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Die Berliner Kongresshalle ist nicht das typische oder eindeutige Beispiel für Brutalismus; sie wird meist der Nachkriegsmoderne zugeordnet und hat nicht die klaren Brutalismus-Merkmale der übrigen Items.",
+      "items": [
+        "Berliner Kongresshalle"
+      ],
+      "groups": [
+        "Brutalismus"
+      ],
+      "suggestedFix": "Durch ein eindeutigeres brutalistisches Beispiel ersetzen, etwa „Mächtige Betonburg“, „Universitätsbau aus Rohbeton“ oder ein klar brutalistisches deutsches Gebäude."
+    },
+    {
+      "puzzleId": "de-9028",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Pegel steigt im Tal“ kann in dieser Puzzleoberfläche leicht zur Gruppe „Überschwemmung“ gelegt werden, weil steigende Pegel dort ein zentrales Signal sind. In der Gletscherschwund-Gruppe ist es nur indirekt über Schmelzwasser plausibel.",
+      "items": [
+        "Pegel steigt im Tal"
+      ],
+      "groups": [
+        "Gletscherschwund",
+        "Überschwemmung"
+      ],
+      "suggestedFix": "Für Gletscherschwund ein eindeutigeres Bild wählen, etwa „Gletscherzunge zieht sich zurück“ oder „Moräne liegt frei“."
+    },
+    {
+      "puzzleId": "de-9048",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Einatmen stoppt Regen“ kann sowohl als kindliche Allmachtsvorstellung als auch als magisches Denken gelesen werden. Die Kategorien „Magie“ und „Allmacht“ liegen hier konzeptuell nah beieinander.",
+      "items": [
+        "Einatmen stoppt Regen"
+      ],
+      "groups": [
+        "Magie",
+        "Allmacht"
+      ],
+      "suggestedFix": "Die Allmacht-Items stärker auf körperliche oder soziale Überlegenheit statt übernatürliche Kausalität ausrichten."
+    },
+    {
+      "puzzleId": "de-9049",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Eigentor zugeben“ passt semantisch sehr stark zu Fairness, weil es um Ehrlichkeit und das Zugeben eines eigenen Fehlers geht. In „Teamgeist“ ist es deutlich weniger eindeutig als die anderen Items.",
+      "items": [
+        "Eigentor zugeben"
+      ],
+      "groups": [
+        "Fairness",
+        "Teamgeist"
+      ],
+      "suggestedFix": "Für Teamgeist ein klar kooperatives Item verwenden, etwa „Pass statt Alleingang“, „Mitspieler trösten“ oder „Gemeinsam verteidigen“."
+    },
+    {
+      "puzzleId": "de-9050",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Kette schmieden“ enthält „schmieden“ und kann dadurch stark zur Gruppe „Schmied“ gezogen werden. Fachlich ist „Kette“ beim Weben zwar die Kettfäden, aber die Formulierung ist für ein Medium-Puzzle unnötig irreführend.",
+      "items": [
+        "Kette schmieden"
+      ],
+      "groups": [
+        "Weber",
+        "Schmied"
+      ],
+      "suggestedFix": "Eindeutiger formulieren, etwa „Kettfäden spannen“."
+    },
+    {
+      "puzzleId": "de-9051",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Baum ausschießen“ ist kein naheliegender oder korrekt wirkender Ausdruck beim Segelsetzen. Üblicher wären etwa „Baum ausschwenken“, „Schot fieren“ oder „Segel setzen“.",
+      "items": [
+        "Baum ausschießen"
+      ],
+      "groups": [
+        "Segelsetzen"
+      ],
+      "suggestedFix": "Durch einen gängigen Segelbegriff ersetzen, etwa „Großsegel setzen“, „Schot fieren“ oder „Fock hochziehen“."
+    },
+    {
+      "puzzleId": "de-9055",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Mehrere Items in „Lügen“ sind populäre, aber wissenschaftlich unzuverlässige Körpersprache-Mythen. Besonders „Blick nach oben links“ ist keine belastbare Lügenanzeige und kann Spieler fairerweise nicht eindeutig zur Kategorie führen.",
+      "items": [
+        "Blick nach oben links",
+        "Nase kurz berühren",
+        "Stimme höher",
+        "Hand vor Mund kurz"
+      ],
+      "groups": [
+        "Lügen"
+      ],
+      "suggestedFix": "Die Kategorie als „Unsicherheit“ oder „Nervosität“ umarbeiten, oder eindeutigere Kontextsignale fürs Lügen verwenden, z. B. „Widerspruch in der Geschichte“."
+    }
+  ]
+}

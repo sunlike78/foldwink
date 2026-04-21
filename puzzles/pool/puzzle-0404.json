@@ -8,7 +8,10 @@
     "categoryType": "wordplay",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 44,
+    "gptDifficulty": 47,
+    "gptRationale": "The mechanic is simple, yet many completions are not equally common compounds, so solvers need precise lexical recall rather than broad theme recognition."
   },
   "groups": [
     {

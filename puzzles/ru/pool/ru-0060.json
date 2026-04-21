@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Театр и сцена",
     "batch": "ru-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 30,
+    "gptDifficulty": 30,
+    "gptRationale": "Theater vocabulary is fairly standard, though a few backstage terms are less common in everyday speech."
   },
   "groups": [
     {

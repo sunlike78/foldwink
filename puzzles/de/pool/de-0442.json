@@ -5,7 +5,10 @@
   "meta": {
     "theme": "philosophie",
     "batch": "de-batch-05",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 47,
+    "gptDifficulty": 55,
+    "gptRationale": "Aufklärung ist ein vertrautes Oberthema, aber Werke, Ideen und Ereignisse überschneiden sich gedanklich stark."
   },
   "groups": [
     {

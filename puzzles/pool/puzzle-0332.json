@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 65
+    "difficultyScore": 65,
+    "editorialRank": 69,
+    "gptDifficulty": 71,
+    "gptRationale": "Bridge terminology is technical and several items sound structurally similar, making the group boundaries easy to blur."
   },
   "groups": [
     {

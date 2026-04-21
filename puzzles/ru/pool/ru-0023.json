@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Профессии",
     "batch": "ru-batch-01",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 28,
+    "gptDifficulty": 23,
+    "gptRationale": "Profession clusters are socially familiar and their functions are easy to distinguish."
   },
   "groups": [
     {

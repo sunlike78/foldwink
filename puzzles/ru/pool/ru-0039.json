@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Члены семьи",
     "batch": "ru-batch-01",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 34,
+    "gptDifficulty": 36,
+    "gptRationale": "Family relations are everyday, but in-law terms and extended-generation labels add some linguistic friction."
   },
   "groups": [
     {

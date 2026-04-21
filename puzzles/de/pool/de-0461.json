@@ -5,7 +5,10 @@
   "meta": {
     "theme": "literatur",
     "batch": "de-batch-05",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 57,
+    "gptDifficulty": 71,
+    "gptRationale": "Die Zuordnung einzelner Gedichttitel zu Autoren setzt recht spezifisches Literaturwissen voraus und bietet kaum semantische Hilfen."
   },
   "groups": [
     {

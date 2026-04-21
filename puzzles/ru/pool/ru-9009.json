@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Черты характера через идиомы",
     "batch": "ru-batch-16",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 50,
+    "gptDifficulty": 66,
+    "gptRationale": "Моральные качества в пословицах тонко различаются, а некоторые выражения могут уводить в соседние категории вроде хитрости или резкости."
   },
   "groups": [
     {

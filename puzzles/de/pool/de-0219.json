@@ -5,7 +5,10 @@
   "meta": {
     "theme": "brandenburg-berlin",
     "batch": "de-batch-03",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 46,
+    "gptDifficulty": 47,
+    "gptRationale": "Brandenburg und Berlin sind gut fassbar, doch historische Begriffe und Berliner Alltagsmarker erzeugen etwas Überschneidungspotenzial."
   },
   "groups": [
     {

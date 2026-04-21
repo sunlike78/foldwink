@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Naturmetaphern für menschliche Zustände",
     "batch": "de-batch-11",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 34,
+    "gptDifficulty": 29,
+    "gptRationale": "The nature images consistently mirror emotional or situational states, making the intended groupings fairly legible despite mild metaphor."
   },
   "groups": [
     {

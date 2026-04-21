@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musikalische Ausdrucksformen",
     "batch": "de-batch-11",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 53,
+    "gptDifficulty": 63,
+    "gptRationale": "Mapping musical-aesthetic movements from poetic image-heavy clues requires genre knowledge and tolerating several abstract descriptions."
   },
   "groups": [
     {

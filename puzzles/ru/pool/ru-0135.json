@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Птицы России по среде обитания",
     "batch": "ru-batch-03",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 27,
+    "gptDifficulty": 38,
+    "gptRationale": "Птицы в целом узнаваемы, но различение певчих, лесных и водоплавающих местами требует чуть большей натуралистической уверенности."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "word-pattern",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 64
+    "difficultyScore": 64,
+    "editorialRank": 39,
+    "gptDifficulty": 22,
+    "gptRationale": "The FIRE compounds and idioms are very familiar, with clear patterning and minimal obscurity."
   },
   "groups": [
     {

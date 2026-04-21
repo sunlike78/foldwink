@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Принципы визуального и UX-дизайна",
     "batch": "ru-batch-21",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 26,
+    "gptDifficulty": 22,
+    "gptRationale": "Принципы дизайна здесь разбиты на очень чистые прикладные группы с терминологией, которая хорошо маркирует нужную категорию."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Собиратели и авторы сказок",
     "batch": "ru-batch-13",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 62,
+    "gptDifficulty": 84,
+    "gptRationale": "Набор неровный, с редкими фамилиями, дублем Перро и переходом от авторов к эпическим традициям, поэтому классификация получается очень шумной."
   },
   "groups": [
     {

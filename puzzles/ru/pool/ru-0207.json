@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Учёные по открытию",
     "batch": "ru-batch-07",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 28,
+    "gptDifficulty": 31,
+    "gptRationale": "Имена учёных очень известные, а дисциплинарные группы широкие и хорошо различимы даже без глубокой специализации."
   },
   "groups": [
     {

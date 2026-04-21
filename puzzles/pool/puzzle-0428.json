@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 63
+    "difficultyScore": 63,
+    "editorialRank": 60,
+    "gptDifficulty": 58,
+    "gptRationale": "Ballet companies are specialized enough that many solvers will know only the biggest names, and national origins are not always obvious from titles."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды фитнеса и тренировок",
     "batch": "ru-batch-12",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 32,
+    "gptDifficulty": 30,
+    "gptRationale": "Workout types are very contemporary and intuitive, with only a few branded fitness formats adding light difficulty."
   },
   "groups": [
     {

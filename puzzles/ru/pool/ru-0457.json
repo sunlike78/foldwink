@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Части самолёта и авиация",
     "batch": "ru-batch-19",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 46,
+    "gptDifficulty": 52,
+    "gptRationale": "Базовые части самолёта понятны, но специальные авиационные термины и авионика могут сливаться для неспециалиста в один технический блок."
   },
   "groups": [
     {

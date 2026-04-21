@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 61,
+    "gptDifficulty": 58,
+    "gptRationale": "Forest categories are sensible, yet several subtype names are specialized and can plausibly fit more than one environmental bucket."
   },
   "groups": [
     {

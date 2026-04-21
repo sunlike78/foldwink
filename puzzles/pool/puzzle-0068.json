@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 28,
+    "gptDifficulty": 36,
+    "gptRationale": "The motion-word families are sensible, but the semantic boundaries between turn, bend, twist, and fold are intentionally close."
   }
 }

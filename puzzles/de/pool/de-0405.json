@@ -5,7 +5,10 @@
   "meta": {
     "theme": "sprache",
     "batch": "de-batch-05",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 35,
+    "gptDifficulty": 34,
+    "gptRationale": "Herkunftssprachen vieler Fremdwörter sind schulnah, nur einige etymologische Grenzfälle machen das Set leicht kniffliger."
   },
   "groups": [
     {

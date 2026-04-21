@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 31,
+    "gptDifficulty": 39,
+    "gptRationale": "Bank as a repeated word sense is easy to grasp, and the surrounding vocabulary makes each domain fairly legible."
   },
   "groups": [
     {

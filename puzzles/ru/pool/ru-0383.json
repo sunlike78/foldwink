@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Философские направления и школы",
     "batch": "ru-batch-16",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 52,
+    "gptDifficulty": 59,
+    "gptRationale": "Философские школы в целом известны, но для точной группировки нужна неплохая гуманитарная подготовка и чувствительность к эпохам."
   },
   "groups": [
     {

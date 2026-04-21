@@ -5,7 +5,10 @@
   "meta": {
     "theme": "handwerk",
     "batch": "de-batch-03",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 38,
+    "gptDifficulty": 38,
+    "gptRationale": "Handwerk in Deutschland nutzt greifbare Berufe und Produkte, mit nur leicht erhöhter Schwierigkeit durch traditionelle Zunftbegriffe."
   },
   "groups": [
     {

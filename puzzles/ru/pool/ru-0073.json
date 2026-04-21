@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Столицы государств",
     "batch": "ru-batch-01",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 18,
+    "gptDifficulty": 18,
+    "gptRationale": "Это почти эталонно простой школьный набор столиц с очень ясными континентальными категориями."
   },
   "groups": [
     {

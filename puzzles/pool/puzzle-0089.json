@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 45,
+    "gptDifficulty": 67,
+    "gptRationale": "Fashion accessories and specialized watch/tie vocabulary create stronger ambiguity and require more precise domain knowledge than most easy-tier sets."
   }
 }

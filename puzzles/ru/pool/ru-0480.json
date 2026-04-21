@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие поэты разных стран",
     "batch": "ru-batch-20",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 24,
+    "gptDifficulty": 29,
+    "gptRationale": "Мировые поэты mostly распределяются по национальным литературам очень очевидно, и почти все имена широко известны."
   },
   "groups": [
     {

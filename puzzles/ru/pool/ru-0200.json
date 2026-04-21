@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Анатомия",
     "batch": "ru-batch-06",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 18,
+    "gptDifficulty": 20,
+    "gptRationale": "Органы, кости, мышцы и органы чувств относятся к базовому школьному знанию и дают очень ясные категории."
   },
   "groups": [
     {

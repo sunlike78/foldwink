@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классификация облаков",
     "batch": "ru-batch-09",
-    "difficultyScore": 64
+    "difficultyScore": 64,
+    "editorialRank": 76,
+    "gptDifficulty": 84,
+    "gptRationale": "Метеорологическая номенклатура мало знакома массовому игроку, а сходные названия облаков создают плотное поле ложных перестановок."
   },
   "groups": [
     {

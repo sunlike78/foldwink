@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Горы мира",
     "batch": "ru-batch-07",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 41,
+    "gptDifficulty": 55,
+    "gptRationale": "Mountain terms are easy, but distinguishing real regional peaks and spotting the out-of-region pairings is noticeably trickier."
   },
   "groups": [
     {

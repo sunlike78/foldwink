@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 20,
+    "gptDifficulty": 17,
+    "gptRationale": "Office language is broadly familiar, though a few items could plausibly drift between stationery, filing, and meeting contexts."
   },
   "groups": [
     {

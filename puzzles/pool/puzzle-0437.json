@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 62,
+    "gptDifficulty": 73,
+    "gptRationale": "Indian spice blends and cooking terms create heavy insider-knowledge demand, especially where several items look generically interchangeable."
   },
   "groups": [
     {

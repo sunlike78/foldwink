@@ -5,7 +5,10 @@
   "meta": {
     "theme": "natur",
     "batch": "de-batch-05",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 48,
+    "gptDifficulty": 53,
+    "gptRationale": "Vogelzug ist thematisch homogen, aber Routen, Navigation und Gefahren liegen begrifflich nah und brauchen biologisches Vorwissen."
   },
   "groups": [
     {

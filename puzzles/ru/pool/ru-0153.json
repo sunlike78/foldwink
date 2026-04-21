@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кухонная техника",
     "batch": "ru-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 24,
+    "gptDifficulty": 18,
+    "gptRationale": "Названия техники предельно бытовые и хорошо разделяются по функции без особых двусмысленностей."
   },
   "groups": [
     {

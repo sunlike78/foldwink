@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 36,
+    "gptDifficulty": 38,
+    "gptRationale": "The food categories are appetizingly concrete, but regional Mexican dish knowledge and condiment-versus-dish distinctions add some bite."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 53,
+    "gptDifficulty": 52,
+    "gptRationale": "The fashion capitals are intuitive, yet success depends on moderate designer-name knowledge and resisting cross-city false placements."
   },
   "groups": [
     {

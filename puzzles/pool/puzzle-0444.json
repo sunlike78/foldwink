@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 73
+    "difficultyScore": 73,
+    "editorialRank": 81,
+    "gptDifficulty": 87,
+    "gptRationale": "Mesoamerican deity names are obscure for most players, and the thematic domains are subtle enough to leave very little foothold without prior knowledge."
   },
   "groups": [
     {

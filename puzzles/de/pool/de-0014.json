@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Körperteile",
     "batch": "de-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 26,
+    "gptDifficulty": 26,
+    "gptRationale": "Körperregionen sind vertraut, doch Begriffe wie Schulter oder Ferse können im schnellen Lesen weniger eindeutig wirken als die meisten anderen Einträge."
   },
   "groups": [
     {

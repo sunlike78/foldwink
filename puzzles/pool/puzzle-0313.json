@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 42,
+    "gptDifficulty": 52,
+    "gptRationale": "Many entries are recognizable as breads, but distinguishing preparation/style groups across multiple cuisines requires more precise food knowledge."
   },
   "groups": [
     {

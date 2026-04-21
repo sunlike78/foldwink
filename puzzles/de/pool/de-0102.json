@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tiere",
     "batch": "de-batch-02",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 33,
+    "gptDifficulty": 38,
+    "gptRationale": "Australian fauna is distinctive, but some species are specialized enough that the sets are not instantly obvious."
   },
   "groups": [
     {

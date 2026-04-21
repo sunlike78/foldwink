@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 29,
+    "gptDifficulty": 41,
+    "gptRationale": "Geography remains concrete, but rivers and mountain ranges ask for more school-knowledge recall than most easy-tier sets."
   }
 }

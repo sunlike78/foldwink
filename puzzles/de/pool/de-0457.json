@@ -5,7 +5,10 @@
   "meta": {
     "theme": "management",
     "batch": "de-batch-05",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 45,
+    "gptDifficulty": 49,
+    "gptRationale": "Qualitätsmanagement-Begriffe sind fachlich klar, aber Lean, TQM und Six Sigma teilen eine ähnliche Verbesserungssprache."
   },
   "groups": [
     {

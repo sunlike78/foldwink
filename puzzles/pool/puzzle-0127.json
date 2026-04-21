@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 58,
+    "gptDifficulty": 69,
+    "gptRationale": "Bridge as a polysemous anchor works well, but dental and musical vocabulary add enough specialization to make the split tricky."
   },
   "groups": [
     {

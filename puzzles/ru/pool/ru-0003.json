@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Пасха и весна",
     "batch": "ru-batch-01",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 31,
+    "gptDifficulty": 32,
+    "gptRationale": "Mostly familiar seasonal material, though Easter items and spring phenomena require a bit more thematic sorting than the easiest sets."
   },
   "groups": [
     {

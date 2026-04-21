@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 37,
+    "gptDifficulty": 41,
+    "gptRationale": "Ancient empires are standard history knowledge, and the continent-based grouping gives strong support even when one dynasty is less familiar."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "mode-geschichte",
     "batch": "de-batch-03",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 36,
+    "gptDifficulty": 36,
+    "gptRationale": "Mode-Geschichte hat sehr anschauliche Zeitblöcke und stark unterscheidbare Begriffe, obwohl Zukunftsvokabular etwas technischer wirkt."
   },
   "groups": [
     {

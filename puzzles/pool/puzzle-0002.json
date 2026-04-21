@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 6
+    "difficultyScore": 6,
+    "editorialRank": 13,
+    "gptDifficulty": 18,
+    "gptRationale": "Still very accessible, but items like ladle and garage are a touch less instantly grouped than the most obvious beginner sets."
   }
 }

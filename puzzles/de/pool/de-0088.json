@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Weinregionen",
     "batch": "de-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 40,
+    "gptDifficulty": 52,
+    "gptRationale": "Wine terminology is coherent but draws on domain-specific knowledge across regions, grapes, styles, and quality labels."
   },
   "groups": [
     {

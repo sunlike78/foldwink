@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Химические элементы по группам",
     "batch": "ru-batch-05",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Базовые группы химических элементов хорошо знакомы по школе и почти не дают неоднозначности."
   },
   "groups": [
     {

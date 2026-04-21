@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 28,
+    "gptDifficulty": 37,
+    "gptRationale": "The categories are concrete, though building materials can sound close to one another and houseplants are not universal knowledge."
   }
 }

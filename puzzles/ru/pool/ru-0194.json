@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Стили в моде",
     "batch": "ru-batch-06",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 45,
+    "gptDifficulty": 65,
+    "gptRationale": "В моде много менее бытовых терминов и исторических предметов одежды, а рядом стоят ещё и бренды с субкультурами."
   },
   "groups": [
     {

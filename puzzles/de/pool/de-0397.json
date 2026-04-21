@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Pharmakologie",
     "batch": "de-batch-04",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 47,
+    "gptDifficulty": 59,
+    "gptRationale": "Pharmakologie mischt abstrakte Mechanismen, Fachklassifikationen und Entwicklungsstufen, die ohne Vorwissen leicht ineinanderlaufen."
   },
   "groups": [
     {

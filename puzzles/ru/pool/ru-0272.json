@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Религиозные праздники",
     "batch": "ru-batch-10",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 46,
+    "gptDifficulty": 66,
+    "gptRationale": "Religious holidays are concrete yet strongly culture-dependent, and distinguishing names across four traditions is fairly demanding."
   },
   "groups": [
     {

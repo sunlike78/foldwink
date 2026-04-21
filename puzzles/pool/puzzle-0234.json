@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 34,
+    "gptDifficulty": 30,
+    "gptRationale": "Most puzzle types are known, but the mix of word, number, physical, and logic labels includes a few less-familiar entries."
   },
   "groups": [
     {

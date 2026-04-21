@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Блюда по стране происхождения",
     "batch": "ru-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 28,
+    "gptDifficulty": 32,
+    "gptRationale": "Национальные блюда в основном общеизвестны, и культурные маркеры у групп достаточно яркие, чтобы быстро отсеивать варианты."
   },
   "groups": [
     {

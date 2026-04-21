@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 40,
+    "gptDifficulty": 54,
+    "gptRationale": "Chemistry groupings are orderly, yet they rely on remembering periodic-family labels rather than just surface familiarity."
   }
 }

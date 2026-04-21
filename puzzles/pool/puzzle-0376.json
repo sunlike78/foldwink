@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 59,
+    "gptDifficulty": 55,
+    "gptRationale": "Some theorem names are very famous, but distinguishing by branch gets harder because names like Euler and theorem-style wording create strong false trails."
   },
   "groups": [
     {

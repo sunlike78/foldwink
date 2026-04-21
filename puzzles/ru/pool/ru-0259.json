@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Птицы России по сезонам",
     "batch": "ru-batch-09",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 39,
+    "gptDifficulty": 56,
+    "gptRationale": "Bird categories are simple in theory, but several species names are less familiar to a typical player."
   },
   "groups": [
     {

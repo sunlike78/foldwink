@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советское кино",
     "batch": "ru-batch-01",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 48,
+    "gptDifficulty": 57,
+    "gptRationale": "Названия, режиссёры и актёры узнаваемы неравномерно, а обрезанные формулировки фильмов усиливают неоднозначность."
   },
   "groups": [
     {

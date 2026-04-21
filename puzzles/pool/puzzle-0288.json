@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 64,
+    "gptDifficulty": 71,
+    "gptRationale": "Mountain-range geography across continents is solvable but knowledge-intensive, especially because many names lack obvious regional cues."
   },
   "groups": [
     {

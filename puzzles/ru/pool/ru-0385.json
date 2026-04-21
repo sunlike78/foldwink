@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Социологические методы исследований",
     "batch": "ru-batch-16",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 47,
+    "gptDifficulty": 53,
+    "gptRationale": "Исследовательская методология не совсем бытовая тема, а выборки, дизайны исследований и методы анализа легко путаются."
   },
   "groups": [
     {

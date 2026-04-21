@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 56,
+    "gptDifficulty": 68,
+    "gptRationale": "Rhetorical-device terminology is dense, often confused even by strong readers, and the category boundaries demand real precision."
   },
   "groups": [
     {

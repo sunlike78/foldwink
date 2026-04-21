@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Bierbrauerei",
     "batch": "de-batch-04",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 31,
+    "gptDifficulty": 39,
+    "gptRationale": "Beer-brewing concepts are nicely separated, yet process vocabulary is less everyday than the object and ingredient groups."
   },
   "groups": [
     {

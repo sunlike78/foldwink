@@ -1,0 +1,341 @@
+{
+  "lang": "en",
+  "tier": "medium",
+  "batchIndex": 3,
+  "batchTotal": 4,
+  "puzzleIds": [
+    "puzzle-0470",
+    "puzzle-0471",
+    "puzzle-0472",
+    "puzzle-0473",
+    "puzzle-0474",
+    "puzzle-0475",
+    "puzzle-0476",
+    "puzzle-0477",
+    "puzzle-0478",
+    "puzzle-0488",
+    "puzzle-0489",
+    "puzzle-0490",
+    "puzzle-0491",
+    "puzzle-0493"
+  ],
+  "elapsedSec": 116,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0470",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The label says Falcon family, but Starship is a separate SpaceX launch system, not a member of the Falcon rocket family.",
+      "items": [
+        "Starship"
+      ],
+      "groups": [
+        "FALCON FAMILY (SpaceX)"
+      ],
+      "suggestedFix": "Replace Starship with Falcon 1e or Falcon 9 Block 5, or relabel the group as SpaceX launch vehicles."
+    },
+    {
+      "puzzleId": "puzzle-0470",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Vega-C is an ESA/Avio launch vehicle, but it is not part of the Ariane family. The category label promises Ariane-family vehicles specifically.",
+      "items": [
+        "Vega-C"
+      ],
+      "groups": [
+        "ARIANE FAMILY (ESA)"
+      ],
+      "suggestedFix": "Replace Vega-C with another Ariane variant, or relabel the group as ESA / European launch vehicles."
+    },
+    {
+      "puzzleId": "puzzle-0472",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several legal terms can reasonably belong to more than one listed legal category. Assault and fraud can be both crimes and tort/civil claims, while trespass can be a tort and also a criminal offense. That makes the criminal vs civil/tort grouping unfair as written.",
+      "items": [
+        "Assault",
+        "Fraud",
+        "Trespass"
+      ],
+      "groups": [
+        "CRIMINAL LAW",
+        "CIVIL / TORT"
+      ],
+      "suggestedFix": "Use items that are more exclusively procedural or doctrinal within each area, or make the labels explicitly 'Crimes' and 'Torts' and avoid dual-use terms."
+    },
+    {
+      "puzzleId": "puzzle-0472",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Criminal law, civil/tort, constitutional law, and contract law are not fully disjoint domains in practice; constitutional concepts like due process and habeas corpus often arise in criminal procedure, and contract/tort are both civil law areas. The item set partly exposes that overlap.",
+      "items": null,
+      "groups": [
+        "CRIMINAL LAW",
+        "CIVIL / TORT",
+        "CONSTITUTIONAL",
+        "CONTRACT LAW"
+      ],
+      "suggestedFix": "Use more parallel labels such as 'Crimes', 'Torts', 'Constitutional Clauses/Rights', and 'Contract Elements/Remedies'."
+    },
+    {
+      "puzzleId": "puzzle-0473",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Negotiation, mediation, and arbitration can occur before trial or instead of trial, so 'Alternative Dispute' overlaps procedurally with 'Pre-Trial'. The categories are conceptually understandable, but the puzzle asks for exclusive buckets and these are not cleanly exclusive.",
+      "items": [
+        "Mediation",
+        "Arbitration",
+        "Negotiation",
+        "Conciliation"
+      ],
+      "groups": [
+        "PRE-TRIAL",
+        "ALTERNATIVE DISPUTE"
+      ],
+      "suggestedFix": "Rename the category to 'ADR Methods' and keep the pre-trial group to court-process steps that are not ADR."
+    },
+    {
+      "puzzleId": "puzzle-0474",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Corporate tax is generally an income tax, but payroll taxes are also commonly taxes on wages/payroll income, so 'Income Tax' and 'Payroll Tax' overlap conceptually. This is especially problematic because Wage Tax sits under Income Tax while payroll-tax items are also wage-based.",
+      "items": [
+        "Wage Tax",
+        "Corporate Tax",
+        "Social Security",
+        "Medicare Levy",
+        "Unemployment Tax",
+        "Pension Contribution"
+      ],
+      "groups": [
+        "INCOME TAX",
+        "PAYROLL TAX"
+      ],
+      "suggestedFix": "Make the labels more precise, e.g. 'Personal/Business Income Taxes' vs 'Social Insurance Payroll Charges', and avoid 'Wage Tax' if payroll tax is another group."
+    },
+    {
+      "puzzleId": "puzzle-0474",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Customs Tariff is a border/import duty and often classified separately from consumption taxes; it can be consumption-like, but it is not as clean a member of the consumption-tax group as VAT, sales tax, and excise duty.",
+      "items": [
+        "Customs Tariff"
+      ],
+      "groups": [
+        "CONSUMPTION TAX"
+      ],
+      "suggestedFix": "Replace with a clearer consumption tax such as Use Tax or Goods and Services Tax."
+    },
+    {
+      "puzzleId": "puzzle-0474",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Pension Contribution is not necessarily a tax; it may be a mandatory payroll charge in some jurisdictions, but the wording also describes ordinary retirement contributions. That makes it less clean than the other payroll-tax examples.",
+      "items": [
+        "Pension Contribution"
+      ],
+      "groups": [
+        "PAYROLL TAX"
+      ],
+      "suggestedFix": "Use a clearly tax-like term such as Payroll Tax, Social Insurance Contribution, or National Insurance."
+    },
+    {
+      "puzzleId": "puzzle-0475",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Poitiers is ambiguous without a year. The Battle of Poitiers can refer to the 732 early medieval battle or the 1356 Hundred Years' War battle, while the group appears to mean medieval Hundred Years' War battles alongside Agincourt and Crécy.",
+      "items": [
+        "Poitiers"
+      ],
+      "groups": [
+        "MEDIEVAL"
+      ],
+      "suggestedFix": "Specify 'Poitiers (1356)' or replace it with an unambiguous medieval battle."
+    },
+    {
+      "puzzleId": "puzzle-0475",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Trafalgar is part of the Napoleonic Wars era, but it is a naval battle rather than a battlefield-style land battle like Waterloo, Austerlitz, and Borodino. The title 'Field of Battle' and the other items may make this feel out of pattern.",
+      "items": [
+        "Trafalgar"
+      ],
+      "groups": [
+        "NAPOLEONIC"
+      ],
+      "suggestedFix": "Replace with a land battle such as Leipzig, Jena, or Wagram, or retitle/reframe the category as Napoleonic Wars battles."
+    },
+    {
+      "puzzleId": "puzzle-0476",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several fairy-tale figures are role-ambiguous across traditions. Puss in Boots is commonly a helper rather than only a trickster; Rumpelstiltskin is often treated as an antagonist/villain; Tom Thumb is often a hero/protagonist. These overlap with the listed Hero, Villain, Helper, and Trickster roles.",
+      "items": [
+        "Tom Thumb",
+        "Puss in Boots",
+        "Rumpelstiltskin"
+      ],
+      "groups": [
+        "THE HERO",
+        "THE VILLAIN",
+        "THE HELPER",
+        "THE TRICKSTER"
+      ],
+      "suggestedFix": "Use archetypes that are less role-overlapping, or label the group 'Trickster Figures' and avoid characters better known as helpers/villains/heroes."
+    },
+    {
+      "puzzleId": "puzzle-0476",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Witch, Wolf, Ogre, Talking Animal, Wise Old Man, and Magic Fish are broad archetypes that can serve different roles depending on the tale. For a grouping puzzle, generic archetypes should be role-stable within the listed categories.",
+      "items": [
+        "Witch",
+        "Wolf",
+        "Ogre",
+        "Talking Animal",
+        "Wise Old Man",
+        "Magic Fish"
+      ],
+      "groups": [
+        "THE VILLAIN",
+        "THE HELPER"
+      ],
+      "suggestedFix": "Use more specific named characters or more tightly defined archetypes, such as 'Big Bad Wolf' or 'Baba Yaga as donor/helper' only if the intended role is clear."
+    },
+    {
+      "puzzleId": "puzzle-0477",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "110m Hurdles is a sprint hurdles event, but it is also a hurdles category distinct from flat sprints. Steeplechase is a distance event, but also an obstacle/hurdle event. With only running-event labels, this is probably solvable, but the labels are not perfectly exclusive.",
+      "items": [
+        "110m Hurdles",
+        "Steeplechase"
+      ],
+      "groups": [
+        "SPRINTS",
+        "DISTANCE RUNNING"
+      ],
+      "suggestedFix": "Rename the groups to 'Sprint / Sprint Hurdles' and 'Distance / Distance Obstacles', or use only flat running events."
+    },
+    {
+      "puzzleId": "puzzle-0478",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Flyweight, Bantamweight, and Featherweight are weight-class names used in both boxing and MMA. Even though the boxing group uses WBC-specific modified names for some classes, the overlapping terminology makes the UFC/MMA items not uniquely tied to that category.",
+      "items": [
+        "Flyweight",
+        "Bantamweight",
+        "Featherweight"
+      ],
+      "groups": [
+        "BOXING (WBC)",
+        "UFC / MMA"
+      ],
+      "suggestedFix": "Use MMA-specific weights with kg/lb values or choose boxing classes whose names do not duplicate the MMA group."
+    },
+    {
+      "puzzleId": "puzzle-0488",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Diffie-Hellman is primarily a key-exchange protocol, not an asymmetric encryption algorithm in the same sense as RSA or ElGamal. Elliptic Curve is also a family of public-key cryptographic techniques rather than a single encryption scheme. The label 'Asymmetric / Public Key' partly saves this, but the mixed granularity is likely to confuse solvers.",
+      "items": [
+        "Diffie-Hellman",
+        "Elliptic Curve"
+      ],
+      "groups": [
+        "ASYMMETRIC / PUBLIC KEY"
+      ],
+      "suggestedFix": "Rename the group to 'Public-Key Cryptography' or replace these with clearer asymmetric encryption/signature algorithms."
+    },
+    {
+      "puzzleId": "puzzle-0488",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "bcrypt is a password-hashing/key-derivation function rather than a general-purpose cryptographic hash function like MD5, SHA-256, or Whirlpool. It belongs near hashing, but the category label is a bit too broad/imprecise for exact classification.",
+      "items": [
+        "bcrypt"
+      ],
+      "groups": [
+        "HASH FUNCTIONS"
+      ],
+      "suggestedFix": "Rename the category to 'Hashing / Password Hashing' or replace bcrypt with SHA-1, SHA-3, or RIPEMD-160."
+    },
+    {
+      "puzzleId": "puzzle-0489",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Tim Sort and Intro Sort are hybrid algorithms rather than clean divide-and-conquer sorts. Tim Sort is based on insertion sort plus merge sort, while Intro Sort combines quicksort, heapsort, and insertion sort. They overlap with other listed technique categories.",
+      "items": [
+        "Tim Sort",
+        "Intro Sort"
+      ],
+      "groups": [
+        "DIVIDE AND CONQUER",
+        "INSERTION-BASED",
+        "SELECTION-BASED"
+      ],
+      "suggestedFix": "Use pure divide-and-conquer sorts such as Merge Sort, Quick Sort, Bitonic Sort, or Stooge Sort, or add a separate 'Hybrid Sorts' group."
+    },
+    {
+      "puzzleId": "puzzle-0489",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Heap Sort and Smooth Sort are selection-sort-like in that they repeatedly select an extremal element, but they are more commonly classified as heap-based comparison sorts. The 'Selection-Based' label is defensible but not the most solver-transparent.",
+      "items": [
+        "Heap Sort",
+        "Smooth Sort"
+      ],
+      "groups": [
+        "SELECTION-BASED"
+      ],
+      "suggestedFix": "Rename the group to 'Selection / Heap-Based Sorts' or replace the heap variants with more plainly selection-based algorithms."
+    },
+    {
+      "puzzleId": "puzzle-0490",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Plasma participates in circulation but is not an anatomical circulatory-system structure like aorta, capillary, or ventricle. Bile aids digestion but is produced by the liver and stored in the gallbladder, which can make it feel less parallel with duodenum, peristalsis, and villi.",
+      "items": [
+        "Plasma",
+        "Bile"
+      ],
+      "groups": [
+        "CIRCULATORY SYSTEM",
+        "DIGESTIVE SYSTEM"
+      ],
+      "suggestedFix": "Use more structurally parallel items, such as Artery/Vein/Valve for circulatory and Esophagus/Stomach/Colon for digestive."
+    },
+    {
+      "puzzleId": "puzzle-0491",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Hermann Grid is commonly categorized as a contrast/brightness illusion, but it is also a grid/geometric visual illusion. Cafe Wall and Zollner similarly involve contrast and geometry. The listed categories are standard-ish, but the boundaries are fuzzy for solvers.",
+      "items": [
+        "Hermann Grid",
+        "Cafe Wall",
+        "Zollner Illusion"
+      ],
+      "groups": [
+        "GEOMETRIC DISTORTION",
+        "COLOUR / CONTRAST"
+      ],
+      "suggestedFix": "Choose examples with cleaner single mechanisms, or make the labels more explicit, such as 'Line/Angle Distortions' vs 'Brightness/Contrast Illusions'."
+    },
+    {
+      "puzzleId": "puzzle-0493",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Availability Heuristic is frequently classified as an availability bias and is heavily memory/salience-based, not purely probability misjudgement. Contrast Effect can also be considered a comparison/context effect rather than anchoring/framing specifically. These are plausible placements, but the cognitive-bias taxonomy is fuzzy.",
+      "items": [
+        "Availability Heuristic",
+        "Contrast Effect"
+      ],
+      "groups": [
+        "ANCHORING AND FRAMING",
+        "MEMORY DISTORTION",
+        "PROBABILITY MISJUDGEMENT"
+      ],
+      "suggestedFix": "Use more canonical probability items such as Conjunction Fallacy or Insensitivity to Sample Size, and more canonical framing items such as Loss Aversion or Default Effect."
+    }
+  ]
+}

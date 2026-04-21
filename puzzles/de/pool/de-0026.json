@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Chemische Elemente",
     "batch": "de-batch-01",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 42,
+    "gptDifficulty": 61,
+    "gptRationale": "Die chemischen Hauptgruppen sind sauber, aber Halbmetalle und Halogene verlangen spezifisches Schulwissen, das nicht bei allen sofort sitzt."
   },
   "groups": [
     {

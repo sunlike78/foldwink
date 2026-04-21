@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Datenbanken",
     "batch": "de-batch-04",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 31,
+    "gptDifficulty": 33,
+    "gptRationale": "Datenbankbegriffe sind thematisch klar und viele Beispiele sind Standardvokabular, trotz etwas Fachsprache."
   },
   "groups": [
     {

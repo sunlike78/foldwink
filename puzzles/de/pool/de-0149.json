@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 43,
+    "gptDifficulty": 58,
+    "gptRationale": "Motorsport bündelt mehrere Teildisziplinen mit etlichen englischen oder formatspezifischen Begriffen, was mehr Fachkenntnis erfordert als der Titel vermuten lässt."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Персонажи русских сказок",
     "batch": "ru-batch-10",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 27,
+    "gptDifficulty": 27,
+    "gptRationale": "Russian folk-tale figures are highly canonical, and the four buckets are distinct enough to sort comfortably."
   },
   "groups": [
     {

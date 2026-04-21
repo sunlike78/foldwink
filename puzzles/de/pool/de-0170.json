@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 52,
+    "gptDifficulty": 65,
+    "gptRationale": "Nürnberg mischt gut bekannte Altstadtorte mit spezifischen Stadtteilen und historischen Begriffen, die nicht jeder sofort erkennt."
   },
   "groups": [
     {

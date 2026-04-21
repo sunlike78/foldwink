@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы визитов и виз",
     "batch": "ru-batch-17",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 21,
+    "gptDifficulty": 17,
+    "gptRationale": "Визы, туризм, жильё и транспорт — очень бытовые и чётко различимые группы."
   },
   "groups": [
     {

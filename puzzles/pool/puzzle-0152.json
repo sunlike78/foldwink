@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 46,
+    "gptDifficulty": 61,
+    "gptRationale": "Cold branches into temperature, personality, illness, and palette, and the colour set is especially associative rather than exact."
   },
   "groups": [
     {

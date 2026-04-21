@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Туризм и путешествия",
     "batch": "ru-batch-03",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 12,
+    "gptDifficulty": 12,
+    "gptRationale": "Путешествие разбито на максимально жизненные и легко отличимые категории без заметной двусмысленности."
   },
   "groups": [
     {

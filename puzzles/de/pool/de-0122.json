@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Unterhaltung",
     "batch": "de-batch-02",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 24,
+    "gptDifficulty": 30,
+    "gptRationale": "Circus imagery is vivid and category-driven, though a few roles and props can overlap in feel."
   },
   "groups": [
     {

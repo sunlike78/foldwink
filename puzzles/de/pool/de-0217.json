@@ -5,7 +5,10 @@
   "meta": {
     "theme": "rheinland",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 31,
+    "gptDifficulty": 33,
+    "gptRationale": "Rheinland verbindet sehr vertraute Städte, Karneval und Küche, sodass die Kategorien meist schnell ins Auge fallen."
   },
   "groups": [
     {

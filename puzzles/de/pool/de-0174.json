@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 6
+    "difficultyScore": 6,
+    "editorialRank": 18,
+    "gptDifficulty": 26,
+    "gptRationale": "Europäische Hauptstädte sind sehr geläufig und sauber regional geordnet, sodass nur geringe Verwechslungsgefahr besteht."
   },
   "groups": [
     {

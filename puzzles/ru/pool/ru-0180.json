@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Праздники по сезону",
     "batch": "ru-batch-05",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 36,
+    "gptDifficulty": 36,
+    "gptRationale": "Праздники России узнаваемы, а сезонная группировка очень естественна, хотя пара дат может казаться спорной."
   },
   "groups": [
     {

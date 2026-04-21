@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 43,
+    "gptDifficulty": 57,
+    "gptRationale": "Constellation knowledge is uneven and the seasonal-versus-hemisphere distinction creates a subtle extra layer of sorting."
   },
   "groups": [
     {

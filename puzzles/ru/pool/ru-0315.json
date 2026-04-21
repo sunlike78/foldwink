@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Существа скандинавской мифологии",
     "batch": "ru-batch-12",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 56,
+    "gptDifficulty": 78,
+    "gptRationale": "Norse-myth creatures include multiple obscure Old Norse-derived terms, making this one of the most precision-dependent puzzles in the set."
   },
   "groups": [
     {

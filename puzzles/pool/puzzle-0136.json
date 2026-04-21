@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 29,
+    "gptDifficulty": 38,
+    "gptRationale": "Produce categories are everyday, with only vine plants and orchard-fruit distinctions requiring a bit more care."
   },
   "groups": [
     {

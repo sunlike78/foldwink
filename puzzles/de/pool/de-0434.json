@@ -5,7 +5,10 @@
   "meta": {
     "theme": "ddr",
     "batch": "de-batch-05",
-    "difficultyScore": 7
+    "difficultyScore": 7,
+    "editorialRank": 23,
+    "gptDifficulty": 34,
+    "gptRationale": "DDR-Begriffe bilden sehr klare Cluster, und viele der Einträge sind im deutschen Allgemeinwissen relativ fest verankert."
   },
   "groups": [
     {

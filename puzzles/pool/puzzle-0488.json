@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 38,
+    "gptDifficulty": 46,
+    "gptRationale": "The broad crypto categories are accessible to many players, but distinguishing hashing from encryption and placing a few named schemes correctly adds moderate challenge."
   },
   "groups": [
     {

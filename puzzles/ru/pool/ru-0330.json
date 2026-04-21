@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Распространённые фобии",
     "batch": "ru-batch-13",
-    "difficultyScore": 63
+    "difficultyScore": 63,
+    "editorialRank": 56,
+    "gptDifficulty": 52,
+    "gptRationale": "Фобии звучат специализированно и часть терминов малоупотребительна, из-за чего категории распознаются не сразу."
   },
   "groups": [
     {

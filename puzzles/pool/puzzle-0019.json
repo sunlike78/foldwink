@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 28,
+    "gptDifficulty": 34,
+    "gptRationale": "Common compounds make this approachable, though several prefixes feel interchangeable before the category boundaries settle."
   }
 }

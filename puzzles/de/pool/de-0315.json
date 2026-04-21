@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Nietzsche",
     "batch": "de-batch-04",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 60,
+    "gptDifficulty": 68,
+    "gptRationale": "Nietzsche ist bekannt, doch die Mischung aus Werken, Figuren und Leitbegriffen ist intellektuell dicht und erzeugt saubere False Trails."
   },
   "groups": [
     {

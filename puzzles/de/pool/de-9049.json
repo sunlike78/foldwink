@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Charaktertypen im Sport",
     "batch": "de-batch-12",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 27,
+    "gptDifficulty": 21,
+    "gptRationale": "The social attitudes in sport are intuitive and the examples are plain behavioral cues rather than tricky wordplay."
   },
   "groups": [
     {

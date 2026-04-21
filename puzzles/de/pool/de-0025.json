@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Mathematik",
     "batch": "de-batch-01",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 40,
+    "gptDifficulty": 58,
+    "gptRationale": "Mathematikbegriffe sind zwar schulisch bekannt, aber die Mischung aus Operatoren, Objekten und Fachwörtern erhöht die begriffliche Abstraktion spürbar."
   },
   "groups": [
     {

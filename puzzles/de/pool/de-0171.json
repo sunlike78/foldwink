@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 36,
+    "gptDifficulty": 39,
+    "gptRationale": "Deutschlands Nachbarländer ist grundsätzlich vertraut, doch die Einbindung von Meeren, Flüssen und Bergen erzeugt leichte False Trails."
   },
   "groups": [
     {

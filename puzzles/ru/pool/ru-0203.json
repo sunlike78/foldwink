@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Зарубежные рок-группы",
     "batch": "ru-batch-07",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 33,
+    "gptDifficulty": 35,
+    "gptRationale": "Мировые рок-группы очень известны, а страны и поджанры дают достаточно очевидные опоры для сортировки."
   },
   "groups": [
     {

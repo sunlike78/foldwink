@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды магазинов",
     "batch": "ru-batch-01",
-    "difficultyScore": 71
+    "difficultyScore": 71,
+    "editorialRank": 45,
+    "gptDifficulty": 28,
+    "gptRationale": "Store types are everyday knowledge and most items strongly signal their retail domain."
   },
   "groups": [
     {

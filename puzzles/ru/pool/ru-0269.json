@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Главные трофеи мирового спорта",
     "batch": "ru-batch-10",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 51,
+    "gptDifficulty": 64,
+    "gptRationale": "Трофеи и турниры из разных видов спорта требуют хорошей спортивной насмотренности, а названия не всегда явно маркируют дисциплину."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Строительство",
     "batch": "ru-batch-06",
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 17,
+    "gptDifficulty": 22,
+    "gptRationale": "Строительные материалы, инструменты и части здания относятся к очень конкретной бытовой лексике, поэтому набор читается легко."
   },
   "groups": [
     {

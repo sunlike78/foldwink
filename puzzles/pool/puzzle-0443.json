@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 47,
+    "gptDifficulty": 54,
+    "gptRationale": "Mushroom names are concrete but unevenly familiar, and separating edible, toxic, supermarket, and medicinal groups is not always obvious."
   },
   "groups": [
     {

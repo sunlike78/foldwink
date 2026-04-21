@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 37,
+    "gptDifficulty": 39,
+    "gptRationale": "Astronomy categories are well known, though mixing planets, small bodies, and star types asks for some basic science precision."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 52,
+    "gptDifficulty": 57,
+    "gptRationale": "Gemstones are concrete, but several stones are uncommon and players may know the item without knowing its canonical color grouping."
   },
   "groups": [
     {

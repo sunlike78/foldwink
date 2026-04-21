@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Настольные игры",
     "batch": "ru-batch-01",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 48,
+    "gptDifficulty": 59,
+    "gptRationale": "Board-game formats overlap heavily and some titles fit more than one play-style lens, creating strong false trails."
   },
   "groups": [
     {

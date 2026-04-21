@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Произведения русской классики",
     "batch": "ru-batch-06",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Русская классика с каноническими авторами и произведениями читается почти автоматически для игрока со стандартным школьным бэкграундом."
   },
   "groups": [
     {

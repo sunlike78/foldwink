@@ -5,7 +5,10 @@
   "meta": {
     "theme": "elektronische-musik",
     "batch": "de-batch-03",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 50,
+    "gptDifficulty": 60,
+    "gptRationale": "Elektronische Musik verlangt Szenewissen zu Labels und Clubs, was innerhalb des leichten Tiers merklich spezieller ist."
   },
   "groups": [
     {

@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 49,
+    "gptDifficulty": 60,
+    "gptRationale": "Outdoor gear is accessible, but knot names and map-feature terminology introduce technical recall and some cross-category overlap."
   }
 }

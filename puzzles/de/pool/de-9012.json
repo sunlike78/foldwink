@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Metaphern für soziale Phänomene",
     "batch": "de-batch-11",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 39,
+    "gptDifficulty": 41,
+    "gptRationale": "Die sozialen Konzepte sind allgemein verständlich, aber nicht gegenständlich, wodurch einige Beispiele erst über Interpretation sauber landen."
   },
   "groups": [
     {

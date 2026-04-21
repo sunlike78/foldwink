@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Эмоции через идиомы",
     "batch": "ru-batch-16",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 40,
+    "gptDifficulty": 46,
+    "gptRationale": "Эмоциональные идиомы в основном прозрачны, но часть фраз может интерпретироваться как про усилие или беспокойство одновременно."
   },
   "groups": [
     {

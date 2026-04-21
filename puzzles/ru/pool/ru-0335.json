@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Океанские течения",
     "batch": "ru-batch-13",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 72,
+    "gptDifficulty": 88,
+    "gptRationale": "Океанографические термины и аббревиатуры вроде NADW и AABW резко повышают порог знаний даже при понятной общей теме."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 17,
+    "gptDifficulty": 7,
+    "gptRationale": "Birthday-party categories are extremely concrete everyday knowledge with virtually no deceptive overlap."
   },
   "groups": [
     {

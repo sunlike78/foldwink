@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 42,
+    "gptDifficulty": 46,
+    "gptRationale": "Science phenomena are recognizable, though the set mixes processes, effects, and general terms in ways that invite second-guessing."
   }
 }

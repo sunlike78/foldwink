@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 57,
+    "gptDifficulty": 63,
+    "gptRationale": "Pitch has well-known multiple meanings, yet the tar sense is less common and some sports entries are region-specific."
   },
   "groups": [
     {

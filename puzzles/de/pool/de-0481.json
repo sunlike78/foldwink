@@ -5,7 +5,10 @@
   "meta": {
     "theme": "digital",
     "batch": "de-batch-05",
-    "difficultyScore": 57
+    "difficultyScore": 57,
+    "editorialRank": 43,
+    "gptDifficulty": 33,
+    "gptRationale": "Die vier Digitalisierungsfelder sind modern, verständlich und jeweils durch typische Schlagwörter gut markiert."
   },
   "groups": [
     {

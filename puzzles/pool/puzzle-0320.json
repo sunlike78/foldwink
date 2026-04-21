@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 28,
+    "gptDifficulty": 14,
+    "gptRationale": "The decade buckets use very familiar internet milestones with little ambiguity, so most groups should fall quickly."
   },
   "groups": [
     {

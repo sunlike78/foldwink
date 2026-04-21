@@ -5,7 +5,10 @@
   "meta": {
     "theme": "erfindungen",
     "batch": "de-batch-05",
-    "difficultyScore": 7
+    "difficultyScore": 7,
+    "editorialRank": 35,
+    "gptDifficulty": 53,
+    "gptRationale": "Viele Erfinder sind bekannt, aber ihr primäres Feld ist nicht immer eindeutig und lädt zu plausiblen Fehlzuordnungen ein."
   },
   "groups": [
     {

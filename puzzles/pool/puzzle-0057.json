@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 35,
+    "gptDifficulty": 50,
+    "gptRationale": "Literary forms are broadly familiar, yet theater and non-fiction labels can feel more academic than everyday."
   }
 }

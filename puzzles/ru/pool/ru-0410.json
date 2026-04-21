@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные-живые ископаемые",
     "batch": "ru-batch-17",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 53,
+    "gptDifficulty": 67,
+    "gptRationale": "Концепт 'живых ископаемых' сам по себе не бытовой, а часть примеров спорна или требует хорошей естественнонаучной эрудиции."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 25,
+    "gptDifficulty": 29,
+    "gptRationale": "Each 'cell' sense is common and the category vocab is distinct enough that most players should sort it quickly."
   },
   "groups": [
     {

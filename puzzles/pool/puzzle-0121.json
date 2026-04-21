@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 59,
+    "gptDifficulty": 66,
+    "gptRationale": "This leans on four meanings of flat, and several items feel only indirectly connected, making the partitions less clean."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 54,
+    "gptDifficulty": 74,
+    "gptRationale": "Architectural subtype names are quite niche, and the puzzle depends heavily on exact terminology rather than everyday recognition."
   },
   "groups": [
     {

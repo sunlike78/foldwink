@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Снаряжение для альпинизма",
     "batch": "ru-batch-14",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 43,
+    "gptDifficulty": 57,
+    "gptRationale": "Базовое альпинистское снаряжение угадывается, но специализированные предметы вроде закладки и лавинного щупа делают подбор менее бытовым."
   },
   "groups": [
     {

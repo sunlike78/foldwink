@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 33,
+    "gptDifficulty": 43,
+    "gptRationale": "Rainforest categories are clear, though indigenous groups and plant names are less familiar than the animal and threat terms."
   },
   "groups": [
     {

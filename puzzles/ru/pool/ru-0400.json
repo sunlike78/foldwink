@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Художественные материалы и техники",
     "batch": "ru-batch-16",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 30,
+    "gptDifficulty": 36,
+    "gptRationale": "Материалы и техники художника в целом узнаваемы, но печатная графика чуть более специализирована, чем остальные блоки."
   },
   "groups": [
     {

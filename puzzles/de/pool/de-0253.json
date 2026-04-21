@@ -5,7 +5,10 @@
   "meta": {
     "theme": "deutsche-maler",
     "batch": "de-batch-03",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 40,
+    "gptDifficulty": 56,
+    "gptRationale": "Deutsche Maler sind gut gruppiert, aber die Stilzuordnung einzelner Künstler ist für Nicht-Kunstinteressierte nicht immer sofort klar."
   },
   "groups": [
     {

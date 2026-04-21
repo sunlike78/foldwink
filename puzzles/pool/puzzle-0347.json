@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 59
+    "difficultyScore": 59,
+    "editorialRank": 43,
+    "gptDifficulty": 32,
+    "gptRationale": "Most works and painters are very famous, so only a few less ubiquitous titles create resistance."
   },
   "groups": [
     {

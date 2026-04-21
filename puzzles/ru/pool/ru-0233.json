@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Породы собак по группам",
     "batch": "ru-batch-08",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 24,
+    "gptDifficulty": 22,
+    "gptRationale": "Dog-breed categories are concrete and popular, with most examples widely recognizable even to non-experts."
   },
   "groups": [
     {

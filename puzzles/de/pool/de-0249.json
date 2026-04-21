@@ -5,7 +5,10 @@
   "meta": {
     "theme": "ballett",
     "batch": "de-batch-03",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 51,
+    "gptDifficulty": 71,
+    "gptRationale": "Ballett nutzt viele Fachbegriffe französischer Herkunft, was die reine Begriffserkennung deutlich erschwert."
   },
   "groups": [
     {

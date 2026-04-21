@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 35,
+    "gptDifficulty": 43,
+    "gptRationale": "Weather ideas are broadly recognizable, though a few less common terms like 'derecho' and 'sirocco' add some friction."
   },
   "groups": [
     {

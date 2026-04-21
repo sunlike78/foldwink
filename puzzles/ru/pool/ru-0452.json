@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды анестезии в медицине",
     "batch": "ru-batch-19",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 57,
+    "gptDifficulty": 71,
+    "gptRationale": "Медицинская терминология сама по себе сложна, а различия между местной, регионарной и препаратами требуют точности."
   },
   "groups": [
     {

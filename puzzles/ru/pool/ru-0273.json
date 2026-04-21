@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды хлеба и выпечки",
     "batch": "ru-batch-10",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 30,
+    "gptDifficulty": 39,
+    "gptRationale": "Bread and pastry categories are tangible and appealing, though some regional baked goods may be unfamiliar."
   },
   "groups": [
     {

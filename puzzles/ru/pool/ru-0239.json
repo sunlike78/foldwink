@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды спорта с мячом",
     "batch": "ru-batch-08",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 59,
+    "gptDifficulty": 63,
+    "gptRationale": "Several sports invite category overlap or misclassification, and the final group includes non-water items that create strong false trails."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Soziologie",
     "batch": "de-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 53,
+    "gptDifficulty": 66,
+    "gptRationale": "Soziologische Kernbegriffe sind deutlich akademischer und mehrere Wörter klingen auch außerhalb ihrer eigentlichen Denktradition plausibel."
   },
   "groups": [
     {

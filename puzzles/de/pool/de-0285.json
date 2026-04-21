@@ -5,7 +5,10 @@
   "meta": {
     "theme": "feuerwehr",
     "batch": "de-batch-03",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 31,
+    "gptDifficulty": 27,
+    "gptRationale": "Fahrzeuge, Ausrüstung, Einsatzarten und Berufe der Rettung sind konkret und gut vorstellbar, mit nur leichter Nähe innerhalb des Themenfelds."
   },
   "groups": [
     {

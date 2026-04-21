@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 37,
+    "gptDifficulty": 38,
+    "gptRationale": "Arthurian material is famous enough to feel accessible, yet the legend-specific names and thematic abstractions raise the bar somewhat."
   },
   "groups": [
     {

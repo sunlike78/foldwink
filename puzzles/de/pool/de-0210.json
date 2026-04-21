@@ -5,7 +5,10 @@
   "meta": {
     "theme": "mauerfall",
     "batch": "de-batch-03",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 42,
+    "gptDifficulty": 35,
+    "gptRationale": "Die Wende-Symbole und 1989er Ereignisse sind recht eingängig, auch wenn einzelne politische Folgenbegriffe etwas sachkundiger wirken."
   },
   "groups": [
     {

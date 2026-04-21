@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Architektur",
     "batch": "de-batch-03",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 40,
+    "gptDifficulty": 59,
+    "gptRationale": "Architekturbegriffe verlangen mehr Fachsprache und kulturelles Wissen als typische Alltagspuzzles, besonders bei Baustilen und Konstruktionselementen."
   },
   "groups": [
     {

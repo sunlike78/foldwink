@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 53,
+    "gptDifficulty": 77,
+    "gptRationale": "Music subgenres are familiar in broad strokes, but exact genre labeling is notoriously fuzzy and invites false trails."
   }
 }

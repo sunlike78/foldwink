@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Sagen",
     "batch": "de-batch-04",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 62,
+    "gptDifficulty": 71,
+    "gptRationale": "Regionale Sagenstoffe sind ungleich bekannt und manche Motive wirken austauschbar, was die Ortsbindung spürbar erschwert."
   },
   "groups": [
     {

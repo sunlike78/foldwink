@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 21,
+    "gptDifficulty": 18,
+    "gptRationale": "The aircraft groupings are still straightforward, but a few less-common rotorcraft terms add a small bump in recognition difficulty."
   },
   "groups": [
     {

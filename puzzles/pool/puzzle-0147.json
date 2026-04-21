@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 35,
+    "gptDifficulty": 45,
+    "gptRationale": "Music-domain categories are accessible, though notation and studio-production terms ask for some specialized exposure."
   },
   "groups": [
     {

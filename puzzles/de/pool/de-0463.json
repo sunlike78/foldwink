@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kunst",
     "batch": "de-batch-05",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 58,
+    "gptDifficulty": 62,
+    "gptRationale": "Farbbedeutungen sind kulturabhängig und teils mehrdeutig, was trotz einfacher Oberflächenwörter für subtile Fehlgriffe sorgt."
   },
   "groups": [
     {

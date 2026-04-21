@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Biologie Taxonomie",
     "batch": "de-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 51,
+    "gptDifficulty": 69,
+    "gptRationale": "Lateinische Taxonomie-Begriffe sind für das Medium-Segment schon recht spezialisiert und kaum über bloßes Gefühl sortierbar."
   },
   "groups": [
     {

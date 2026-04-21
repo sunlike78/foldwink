@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 63
+    "difficultyScore": 63,
+    "editorialRank": 52,
+    "gptDifficulty": 44,
+    "gptRationale": "The art movements are widely known at a high level, but exact chronology and category membership still require some care."
   },
   "groups": [
     {

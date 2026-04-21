@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 22,
+    "gptDifficulty": 24,
+    "gptRationale": "Car parts are common enough, but some mechanical terms and the part-of-car subdivision require a touch of technical knowledge."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Spiele",
     "batch": "de-batch-02",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 36,
+    "gptDifficulty": 45,
+    "gptRationale": "Chess terms are well structured but more technical, and several rule concepts are only familiar to regular players."
   },
   "groups": [
     {

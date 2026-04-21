@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Архитектурные объекты Москвы",
     "batch": "ru-batch-10",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 30,
+    "gptDifficulty": 26,
+    "gptRationale": "Московские объекты в целом очень узнаваемы, а категории достаточно конкретны, чтобы не создавать много ложных комбинаций."
   },
   "groups": [
     {

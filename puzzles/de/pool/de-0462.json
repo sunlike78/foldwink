@@ -5,7 +5,10 @@
   "meta": {
     "theme": "musik",
     "batch": "de-batch-05",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 46,
+    "gptDifficulty": 46,
+    "gptRationale": "Musikbegriffe sind oft vertraut oder intuitiv, doch Ausdruckswörter und Stimmungskonnotationen fordern etwas kulturelles Vorwissen."
   },
   "groups": [
     {

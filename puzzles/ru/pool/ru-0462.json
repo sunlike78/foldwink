@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кулинарные техники приготовления",
     "batch": "ru-batch-20",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 44,
+    "gptDifficulty": 39,
+    "gptRationale": "Кулинарные методы в основном знакомы, но современные техники вроде сферификации и sous vide добавляют небольшой барьер."
   },
   "groups": [
     {

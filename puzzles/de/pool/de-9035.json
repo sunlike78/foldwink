@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Baustile durch Merkmale",
     "batch": "de-batch-12",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 45,
+    "gptDifficulty": 51,
+    "gptRationale": "Architekturstile sind visuell gut trennbar, aber die Fachwörter für Bauelemente verlangen mehr Präzision als ein typisches Alltagspuzzle."
   },
   "groups": [
     {

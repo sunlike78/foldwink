@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 26,
+    "gptDifficulty": 28,
+    "gptRationale": "Cycling concepts are generally familiar, though route names and rule-related items require a bit more specific knowledge."
   },
   "groups": [
     {

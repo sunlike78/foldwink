@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 63,
+    "gptDifficulty": 73,
+    "gptRationale": "EU-Mitgliedsstaaten nach Beitrittsphasen verlangen genaue historische Zuordnung, was innerhalb eines einfachen Geografie-Tiers relativ anspruchsvoll ist."
   },
   "groups": [
     {

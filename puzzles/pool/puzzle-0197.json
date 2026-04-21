@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 48,
+    "gptDifficulty": 66,
+    "gptRationale": "The sailing sense of 'bark' is relatively obscure and competes with three much more familiar meanings, making this one notably trickier."
   },
   "groups": [
     {

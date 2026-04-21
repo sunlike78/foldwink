@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 64,
+    "gptDifficulty": 74,
+    "gptRationale": "The Norse-god attribute sets are thematic but knowledge-heavy, and the overlap in mythic symbols creates strong false trails."
   },
   "groups": [
     {

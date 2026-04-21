@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gewürze und Kräuter",
     "batch": "de-batch-01",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 42,
+    "gptDifficulty": 49,
+    "gptRationale": "Kräuter und Gewürze sind konkret, aber regionale Küchenzuordnungen und weniger geläufige Begriffe wie Galgant oder Liebstöckel machen es merklich kniffliger."
   },
   "groups": [
     {

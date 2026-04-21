@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Пионерская атрибутика",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 49,
+    "gptDifficulty": 59,
+    "gptRationale": "Пионерская атрибутика понятна не всем поколениям, а лозунги и формы деятельности легко смешиваются между собой."
   },
   "groups": [
     {

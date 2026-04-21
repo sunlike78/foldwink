@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Огород и сад",
     "batch": "ru-batch-06",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 21,
+    "gptDifficulty": 25,
+    "gptRationale": "Садово-огородные слова распространены, а четыре группы логичны и почти не конкурируют друг с другом."
   },
   "groups": [
     {

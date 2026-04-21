@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кулинарные специи и пряности",
     "batch": "ru-batch-14",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 26,
+    "gptDifficulty": 23,
+    "gptRationale": "Специи и травы очень повседневны, а деление на острые, сладкие и региональные группы в целом читается сразу."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 30,
+    "gptDifficulty": 34,
+    "gptRationale": "Footwear categories are everyday and distinct, with only mild uncertainty from style names like brogue or espadrille."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft Deutschland",
     "batch": "de-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 37,
+    "gptDifficulty": 47,
+    "gptRationale": "Die Namen sind überwiegend geläufig, aber die Fachgebietsgrenzen zwischen Physik, Chemie, Biologie und Astronomie fordern etwas Präzision."
   },
   "groups": [
     {

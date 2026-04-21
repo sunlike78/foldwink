@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 18,
+    "gptDifficulty": 14,
+    "gptRationale": "These are highly familiar sound words with intuitive semantic groupings and almost no abstraction required."
   },
   "groups": [
     {

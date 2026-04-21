@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Pharmakologie Wirk.",
     "batch": "de-batch-04",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 34,
+    "gptDifficulty": 35,
+    "gptRationale": "Wirkstoffgruppen sind verbreitetes Alltagswissen, nur einzelne Blutdruck- oder Schlafmittel heben die Schwierigkeit etwas an."
   },
   "groups": [
     {

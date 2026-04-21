@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sportaktionen ohne Sportname",
     "batch": "de-batch-12",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 54,
+    "gptDifficulty": 69,
+    "gptRationale": "Sportfachsprache wie Zugzwang, Parade quarte oder Nachschuss ist stark spezialisiert und für Nichtfans klar über dem Tiermittel."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Страны Балтии и Прибалтика",
     "batch": "ru-batch-17",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 51,
+    "gptDifficulty": 69,
+    "gptRationale": "На поверхности тема простая, но включение Финляндии в Балтию и культурные детали делают сет зависимым от региональной точности."
   },
   "groups": [
     {

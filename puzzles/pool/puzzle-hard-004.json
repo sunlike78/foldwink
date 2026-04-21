@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 37,
+    "gptDifficulty": 52,
+    "gptRationale": "The mood and imagery are cohesive enough to mislead, but the underlying category distinctions are still fairly legible once a few anchors fall."
   },
   "groups": [
     {

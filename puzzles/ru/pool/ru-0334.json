@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды магии в фэнтези",
     "batch": "ru-batch-13",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 48,
+    "gptDifficulty": 44,
+    "gptRationale": "Слова из поп-культуры и эзотерики узнаваемы, но стихийная, тёмная и предсказательная магия местами создают тематическое наложение."
   },
   "groups": [
     {

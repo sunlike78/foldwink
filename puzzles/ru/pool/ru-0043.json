@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Бытовая техника",
     "batch": "ru-batch-01",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 41,
+    "gptDifficulty": 34,
+    "gptRationale": "Household appliances are familiar, though a few modern gadgets and storage devices slightly complicate the grouping."
   },
   "groups": [
     {

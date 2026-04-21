@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 16,
+    "gptDifficulty": 14,
+    "gptRationale": "Basic clothing vocabulary makes the set very accessible, with only mild confusion possible between outerwear and general apparel."
   },
   "groups": [
     {

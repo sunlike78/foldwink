@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 36,
+    "gptDifficulty": 35,
+    "gptRationale": "Physik im Alltag nutzt bekannte Phänomene aus dem Schulkontext, deren Kategorien meist klar voneinander abgegrenzt sind."
   },
   "groups": [
     {

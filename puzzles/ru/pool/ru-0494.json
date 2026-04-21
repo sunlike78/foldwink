@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды природных и искусственных вод",
     "batch": "ru-batch-21",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 31,
+    "gptDifficulty": 32,
+    "gptRationale": "Вода как тема очень базовая, а единственная небольшая сложность в том, что здесь смешаны происхождение, состояние и назначение."
   },
   "groups": [
     {

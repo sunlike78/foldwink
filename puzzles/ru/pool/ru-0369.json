@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие учёные по дисциплинам",
     "batch": "ru-batch-15",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 34,
+    "gptDifficulty": 37,
+    "gptRationale": "Имена учёных крайне узнаваемы, хотя у Ломоносова и Кюри возможны междисциплинарные ложные привязки."
   },
   "groups": [
     {

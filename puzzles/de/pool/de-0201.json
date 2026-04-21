@@ -5,7 +5,10 @@
   "meta": {
     "theme": "reformation",
     "batch": "de-batch-03",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 52,
+    "gptDifficulty": 75,
+    "gptRationale": "Die Reformation verlangt recht spezifische historische und theologische Begriffskenntnis, besonders bei Schriften und frühen Kirchenbegriffen."
   },
   "groups": [
     {

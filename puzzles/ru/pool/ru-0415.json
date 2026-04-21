@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Источники и типы электроэнергии",
     "batch": "ru-batch-17",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 46,
+    "gptDifficulty": 47,
+    "gptRationale": "Энергетика понятна концептуально, но внутри блоков встречаются как типы станций, так и конкретные технологии и реакторы."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 47,
+    "gptDifficulty": 53,
+    "gptRationale": "Industrial-era inventions are thematically linked, but separating overlapping historical technologies requires some background knowledge."
   },
   "groups": [
     {

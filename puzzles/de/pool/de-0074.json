@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Krankenhaus",
     "batch": "de-batch-03",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 36,
+    "gptDifficulty": 34,
+    "gptRationale": "Hospital terms are recognizable, but the set mixes staff, departments, devices, and treatments at a slightly more technical level."
   },
   "groups": [
     {

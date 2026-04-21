@@ -5,7 +5,10 @@
   "meta": {
     "theme": "technologie",
     "batch": "de-batch-05",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 46,
+    "gptDifficulty": 48,
+    "gptRationale": "Die Zukunftstechnologien sind populär, aber manche Begriffe könnten auch in benachbarte Tech-Cluster passen."
   },
   "groups": [
     {

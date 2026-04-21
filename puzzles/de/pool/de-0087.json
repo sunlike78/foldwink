@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Alpen",
     "batch": "de-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 32,
+    "gptDifficulty": 36,
+    "gptRationale": "Alps categories are concrete and mostly familiar, though hut terminology and flora names add some resistance."
   },
   "groups": [
     {

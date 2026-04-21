@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Народные промыслы России",
     "batch": "ru-batch-05",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 66,
+    "gptDifficulty": 74,
+    "gptRationale": "Народные промыслы содержат много культурно-специфичных и похожих по звучанию названий, из-за чего это один из самых тонких наборов в лёгком тире."
   },
   "groups": [
     {

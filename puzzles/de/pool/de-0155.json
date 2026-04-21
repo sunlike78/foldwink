@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gesundheit",
     "batch": "de-batch-02",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 22,
+    "gptDifficulty": 27,
+    "gptRationale": "Krankheiten und Beschwerden nutzt sehr alltagsnahe Wörter mit kaum Mehrdeutigkeit und klar unterscheidbaren medizinischen Bereichen."
   },
   "groups": [
     {

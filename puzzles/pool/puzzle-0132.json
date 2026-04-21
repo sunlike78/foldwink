@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 47,
+    "gptDifficulty": 56,
+    "gptRationale": "Cheese families are plausible but require somewhat specialized food knowledge, especially for distinguishing soft, fresh, and blue cheeses."
   },
   "groups": [
     {

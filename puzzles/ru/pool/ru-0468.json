@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы охраны и безопасности",
     "batch": "ru-batch-20",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 42,
+    "gptDifficulty": 44,
+    "gptRationale": "Сферы охраны и силовых структур привычны, но внутри блоков есть институциональные пересечения и неидеально однородные элементы."
   },
   "groups": [
     {

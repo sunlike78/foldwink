@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bundeslaender",
     "batch": "de-batch-03",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 46,
+    "gptDifficulty": 44,
+    "gptRationale": "Bundesländer sind grundsätzlich vertraut, aber die absichtlich ungewohnte Einordnung mancher Länder nach Himmelsrichtungen schafft kleine False Trails."
   },
   "groups": [
     {

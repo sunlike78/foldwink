@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Персонажи советских мультфильмов",
     "batch": "ru-batch-02",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 28,
+    "gptDifficulty": 34,
+    "gptRationale": "Мультгерои очень популярны, но 'Смешарики' среди более советских брендов создают небольшой культурный сдвиг."
   },
   "groups": [
     {

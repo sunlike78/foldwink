@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие научные открытия",
     "batch": "ru-batch-12",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 31,
+    "gptDifficulty": 30,
+    "gptRationale": "Великие открытия распределены по очень крупным научным областям, и большинство элементов моментально сигналят свой предмет."
   },
   "groups": [
     {

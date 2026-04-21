@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Детские игрушки",
     "batch": "ru-batch-01",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 19,
+    "gptDifficulty": 13,
+    "gptRationale": "Toy categories are extremely familiar and visually distinct, making the grouping nearly automatic."
   },
   "groups": [
     {

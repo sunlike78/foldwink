@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 53,
+    "gptDifficulty": 68,
+    "gptRationale": "Astronomy terms here range from famous to fairly technical, and constellations versus celestial events increases the precision needed."
   },
   "groups": [
     {

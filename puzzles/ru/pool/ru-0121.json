@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды спорта по среде",
     "batch": "ru-batch-03",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 50,
+    "gptDifficulty": 55,
+    "gptRationale": "Спортивные слова знакомы, но первые две группы намеренно построены не по среде, а по инвентарю, что создаёт пересечения и сбивает ожидания."
   },
   "groups": [
     {

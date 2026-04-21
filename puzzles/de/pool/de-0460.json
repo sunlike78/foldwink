@@ -5,7 +5,10 @@
   "meta": {
     "theme": "hr",
     "batch": "de-batch-05",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 27,
+    "gptDifficulty": 20,
+    "gptRationale": "Recruiting, Onboarding, Performance und Offboarding sind sehr alltagsnahe HR-Phasen mit klar unterscheidbaren Begriffen."
   },
   "groups": [
     {

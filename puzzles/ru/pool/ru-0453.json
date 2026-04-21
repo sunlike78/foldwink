@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Узоры и орнаменты в текстиле",
     "batch": "ru-batch-19",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 44,
+    "gptDifficulty": 63,
+    "gptRationale": "Текстильные узоры частично бытовые, но смешение орнаментов, росписей и мотивов даёт много пограничных случаев."
   },
   "groups": [
     {

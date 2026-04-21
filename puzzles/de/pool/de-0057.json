@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Flughafen",
     "batch": "de-batch-02",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 33,
+    "gptDifficulty": 24,
+    "gptRationale": "Flughafenabläufe sind sehr vertraut und die räumlichen bzw. funktionalen Bereiche lassen sich leicht erkennen."
   },
   "groups": [
     {

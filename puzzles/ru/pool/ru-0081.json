@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Числа и счёт",
     "batch": "ru-batch-01",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 29,
+    "gptDifficulty": 14,
+    "gptRationale": "Категории максимально базовые и счётные формы знакомы любому игроку без специальных знаний."
   },
   "groups": [
     {

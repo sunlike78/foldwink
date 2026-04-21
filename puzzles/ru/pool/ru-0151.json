@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кавказская кухня",
     "batch": "ru-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 46,
+    "gptDifficulty": 63,
+    "gptRationale": "Кавказская кухня создаёт заметные культурные ловушки, потому что блюда разных стран региона для многих звучат похоже и смешиваются."
   },
   "groups": [
     {

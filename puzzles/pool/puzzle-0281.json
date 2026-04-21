@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 66,
+    "gptDifficulty": 79,
+    "gptRationale": "This hinges on sports-history knowledge across multiple competitions, and one or two entries can look plausible even if historically wrong-footing the player."
   },
   "groups": [
     {

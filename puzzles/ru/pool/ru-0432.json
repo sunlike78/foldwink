@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Медицинская визуализация",
     "batch": "ru-batch-18",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 58,
+    "gptDifficulty": 66,
+    "gptRationale": "Медицинская визуализация и процедуры знакомы не всем, а соседство сканирования и эндоскопии создаёт дополнительную неоднозначность."
   },
   "groups": [
     {

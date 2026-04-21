@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 44,
+    "gptDifficulty": 57,
+    "gptRationale": "Media, button, exercise, and wine all support 'press' naturally, and some entries are broad enough to invite early mis-sorts."
   },
   "groups": [
     {

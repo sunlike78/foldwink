@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 58,
+    "gptDifficulty": 80,
+    "gptRationale": "Festival names are specific and globally mixed, so success depends heavily on cultural breadth and precise seasonal association."
   }
 }

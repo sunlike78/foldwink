@@ -5,7 +5,10 @@
   "meta": {
     "theme": "finanzen",
     "batch": "de-batch-05",
-    "difficultyScore": 57
+    "difficultyScore": 57,
+    "editorialRank": 61,
+    "gptDifficulty": 63,
+    "gptRationale": "Finanzmarktvokabular ist stark anglisiert und mehrere Instrumente könnten ebenso gut unter Strategien oder Marktsignale fallen."
   },
   "groups": [
     {

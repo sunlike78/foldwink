@@ -5,7 +5,10 @@
   "meta": {
     "theme": "architektur",
     "batch": "de-batch-05",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 63,
+    "gptDifficulty": 79,
+    "gptRationale": "Architekten und Bauwerke erfordern ziemlich spezialisiertes Kulturwissen, und internationale Projekte erschweren die sichere Zuordnung zusätzlich."
   },
   "groups": [
     {

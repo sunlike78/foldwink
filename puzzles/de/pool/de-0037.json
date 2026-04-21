@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Fußball",
     "batch": "de-batch-01",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 32,
+    "gptDifficulty": 30,
+    "gptRationale": "Fußballbegriffe sind sehr präsent, auch wenn Spielfeldbereiche und Regelbegriffe kurz querassoziiert werden können."
   },
   "groups": [
     {

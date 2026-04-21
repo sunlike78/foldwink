@@ -5,7 +5,10 @@
   "meta": {
     "theme": "steuern",
     "batch": "de-batch-05",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 55,
+    "gptDifficulty": 55,
+    "gptRationale": "Deutsche Steuerarten sind systematisch, aber die Fachbegriffe sind trocken und für viele außerhalb von Schule oder Beruf wenig präsent."
   },
   "groups": [
     {

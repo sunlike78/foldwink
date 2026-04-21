@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Täuschung via Redewendungen",
     "batch": "de-batch-11",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 37,
+    "gptDifficulty": 33,
+    "gptRationale": "Die moralischen Kategorien sind klar und die Redewendungen meist stark signalisiert, obwohl einzelne Bilder idiomatisches Sprachgefühl erfordern."
   },
   "groups": [
     {

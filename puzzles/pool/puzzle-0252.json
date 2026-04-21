@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 53,
+    "gptDifficulty": 65,
+    "gptRationale": "The time-period vehicle grouping is conceptually neat but asks for broad historical recognition across four eras, which makes it fairly demanding."
   },
   "groups": [
     {

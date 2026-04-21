@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Schulfächer",
     "batch": "de-batch-01",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 26,
+    "gptDifficulty": 25,
+    "gptRationale": "Schulfächer sind sehr vertraut, auch wenn Theater und Werken etwas weniger standardisiert wirken als die übrigen Gruppen."
   },
   "groups": [
     {

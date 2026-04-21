@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Искусство и культура — кино",
     "batch": "ru-batch-16",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 45,
+    "gptDifficulty": 51,
+    "gptRationale": "Советское кино многим знакомо, однако для уверенной сортировки нужен неплохой культурный багаж по эпохам и жанрам."
   },
   "groups": [
     {

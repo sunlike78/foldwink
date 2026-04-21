@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цвета в природе",
     "batch": "ru-batch-01",
-    "difficultyScore": 59
+    "difficultyScore": 59,
+    "editorialRank": 67,
+    "gptDifficulty": 72,
+    "gptRationale": "Почти все слова похожи на оттенки друг друга, поэтому решать приходится через тонкие семантические ассоциации, а не через чёткие классы."
   },
   "groups": [
     {

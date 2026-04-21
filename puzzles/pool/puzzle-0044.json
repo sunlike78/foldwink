@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 54,
+    "gptDifficulty": 68,
+    "gptRationale": "Pasta and dumpling names are concrete but culturally specific, and several Italian forms are easy to mix up without strong food vocabulary."
   }
 }

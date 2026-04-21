@@ -1,0 +1,511 @@
+{
+  "lang": "en",
+  "tier": "hard",
+  "batchIndex": 0,
+  "batchTotal": 1,
+  "puzzleIds": [
+    "puzzle-0294",
+    "puzzle-0302",
+    "hard-023",
+    "hard-024",
+    "puzzle-0376",
+    "puzzle-0404",
+    "puzzle-0405",
+    "puzzle-0429",
+    "puzzle-0430",
+    "puzzle-0454",
+    "puzzle-0455",
+    "puzzle-0479",
+    "puzzle-0480",
+    "puzzle-0492",
+    "hard-001",
+    "hard-002",
+    "hard-003",
+    "hard-004",
+    "hard-005",
+    "hard-006",
+    "hard-007",
+    "hard-008",
+    "hard-009",
+    "hard-010",
+    "hard-011",
+    "hard-012",
+    "hard-013",
+    "hard-014",
+    "hard-015",
+    "hard-016",
+    "hard-017",
+    "hard-018",
+    "hard-019",
+    "hard-020"
+  ],
+  "elapsedSec": 84,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0376",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "“Euler's Formula” is not uniquely a geometry theorem; it commonly refers to the complex-analysis identity e^(ix)=cos x + i sin x, while the puzzle also has “Euler's Theorem” in another category. The near-identical Euler labels make the intended split unfair without more precise wording such as “Euler's Polyhedron Formula.”",
+      "items": [
+        "Euler's Formula",
+        "Euler's Theorem"
+      ],
+      "groups": [
+        "Geometry Theorems",
+        "Number Theory Theorems"
+      ],
+      "suggestedFix": "Rename “Euler's Formula” to “Euler's Polyhedron Formula” or replace it with a less overloaded geometry theorem."
+    },
+    {
+      "puzzleId": "puzzle-0404",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "“Overture” is spelled OVER + TURE, not OVER + “Ture” as a standalone suffix fragment. The item casing also makes the fragment look like a word rather than the intended completion.",
+      "items": [
+        "Ture"
+      ],
+      "groups": [
+        "OVER + ___"
+      ],
+      "suggestedFix": "Use “Ture” only if the game convention allows arbitrary letter fragments; otherwise replace it with a cleaner OVER completion such as “Time,” “Cast,” “Head,” or “Board.”"
+    },
+    {
+      "puzzleId": "puzzle-0429",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several words do not hide the listed animal as a contiguous substring. “Locate” does not contain CAT; “Vacation” does not contain CAT; “Grateful” does not contain RAT; “Strategy” does not contain RAT; “Encoder” does not contain COD; “Sewer” and “Brewer” do not contain EWE.",
+      "items": [
+        "Locate",
+        "Vacation",
+        "Grateful",
+        "Strategy",
+        "Encoder",
+        "Sewer",
+        "Brewer"
+      ],
+      "groups": [
+        "HIDES 'CAT'",
+        "HIDES 'RAT'",
+        "HIDES 'COD'",
+        "HIDES 'EWE'"
+      ],
+      "suggestedFix": "Replace the non-matching words with words that contain the exact hidden animal substring, or relabel the mechanism if non-contiguous letters are intended."
+    },
+    {
+      "puzzleId": "puzzle-0430",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "“Coral Snake” is not colour + snake in the same way as the other entries; “coral” is a noun/material/color term only indirectly, and the animal name is not normally parsed as a simple colour adjective plus snake. “Red-Bellied Black” is also incomplete as a standalone snake name unless “Snake” is implied.",
+      "items": [
+        "Coral Snake",
+        "Red-Bellied Black"
+      ],
+      "groups": [
+        "COLOUR + SNAKE"
+      ],
+      "suggestedFix": "Use cleaner colour-adjective snake names such as “Green Anaconda,” “Brown Snake,” “Black Rat Snake,” or write “Red-Bellied Black Snake” in full."
+    },
+    {
+      "puzzleId": "puzzle-0454",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "“Crab Nebula” is both commonly called a nebula and specifically a supernova remnant. Because “SUPERNOVA REMNANTS” is a separate category, this item reasonably belongs to two listed groups.",
+      "items": [
+        "Crab Nebula"
+      ],
+      "groups": [
+        "NEBULAE",
+        "SUPERNOVA REMNANTS"
+      ],
+      "suggestedFix": "Replace “Crab Nebula” with a nebula that is not also primarily a supernova remnant, or avoid using “Supernova Remnants” as a parallel group."
+    },
+    {
+      "puzzleId": "puzzle-0454",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Omega Centauri” is a globular cluster but is also widely discussed as the possible stripped core of a dwarf galaxy. In a puzzle that also includes “GALAXIES,” this creates a borderline ambiguity for astronomy-aware solvers.",
+      "items": [
+        "Omega Centauri"
+      ],
+      "groups": [
+        "STAR CLUSTERS",
+        "GALAXIES"
+      ],
+      "suggestedFix": "Consider replacing it with an unambiguous star cluster such as “Hyades,” “M13,” or “Double Cluster.”"
+    },
+    {
+      "puzzleId": "puzzle-0455",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The equipment categories are functional rather than mutually exclusive. A condenser and rotary evaporator are commonly used in distillation/solvent removal, but a condenser is not itself separation equipment in the same direct way as a separating funnel; an aspirator is often a vacuum source and can also be treated as safety/utility equipment depending on context.",
+      "items": [
+        "Condenser",
+        "Rotary Evaporator",
+        "Aspirator"
+      ],
+      "groups": [
+        "SEPARATION EQUIPMENT",
+        "SAFETY EQUIPMENT"
+      ],
+      "suggestedFix": "Use more direct separation items such as “Centrifuge,” “Chromatography Column,” “Filter Funnel,” and “Separating Funnel.”"
+    },
+    {
+      "puzzleId": "puzzle-0479",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Multiple items are misplaced or not Nahuatl loans. “Cocoa” is a food/plant product and overlaps with the FOOD category; “Chipotle” is food, not place/ritual; “Cenote” is from Yucatec Maya, not Nahuatl. “Mesquite” is generally from Nahuatl via Mexican Spanish, but the mixed “PLACE / RITUAL” group is not a coherent semantic category.",
+      "items": [
+        "Cocoa",
+        "Chipotle",
+        "Cenote"
+      ],
+      "groups": [
+        "NAHUATL: FOOD",
+        "NAHUATL: PLACE / RITUAL"
+      ],
+      "suggestedFix": "Replace the last group with a coherent Nahuatl-derived category, or move “Chipotle”/“Cocoa” into food and replace “Cenote” with a Nahuatl-derived place/ritual term."
+    },
+    {
+      "puzzleId": "puzzle-0479",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "“Chili,” “Cocoa,” and “Chipotle” are all food terms; “Cocoa” also belongs with plant/product terms. This breaks the one-category-only requirement even apart from the etymology issue.",
+      "items": [
+        "Chili",
+        "Cocoa",
+        "Chipotle"
+      ],
+      "groups": [
+        "NAHUATL: FOOD",
+        "NAHUATL: PLANTS",
+        "NAHUATL: PLACE / RITUAL"
+      ],
+      "suggestedFix": "Keep food, animal, plant, and object/place categories strictly separated by replacing food/product overlaps."
+    },
+    {
+      "puzzleId": "puzzle-0480",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The dice-game categories are not mutually exclusive. “Betting / banking,” “push your luck,” “matching / bluffing,” and “elimination” describe overlapping mechanics, and several games can reasonably fit more than one label.",
+      "items": [
+        "Craps",
+        "Sic Bo",
+        "Chuck-a-Luck",
+        "Hazard",
+        "Farkle",
+        "Yahtzee",
+        "Zombie Dice",
+        "Pass the Pigs",
+        "Perudo",
+        "Mexico",
+        "Liar's Dice",
+        "Pig",
+        "Shut the Box"
+      ],
+      "groups": [
+        "BETTING / BANKING",
+        "PUSH YOUR LUCK",
+        "MATCHING / BLUFFING",
+        "ELIMINATION"
+      ],
+      "suggestedFix": "Use categories based on a single taxonomy axis, such as commercial dice games, traditional pub dice games, bluffing dice games, and roll-and-score dice games, or pick items with clearly exclusive mechanics."
+    },
+    {
+      "puzzleId": "puzzle-0480",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "“Pig” and “Pass the Pigs” are push-your-luck games, but “Pig” is placed under ELIMINATION. “Liar's Dice” and “Perudo” are essentially the same bluffing family, while “Mexico” is also a bluffing dice game. These placements make the solution non-unique by mechanism.",
+      "items": [
+        "Pig",
+        "Pass the Pigs",
+        "Liar's Dice",
+        "Perudo",
+        "Mexico"
+      ],
+      "groups": [
+        "PUSH YOUR LUCK",
+        "MATCHING / BLUFFING",
+        "ELIMINATION"
+      ],
+      "suggestedFix": "Move or replace “Pig,” and avoid using near-duplicate bluffing dice variants unless the category is explicitly about that family."
+    },
+    {
+      "puzzleId": "puzzle-0492",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "“P vs NP” is a computer science/mathematics problem, not an unsolved physics problem. “Consciousness” and “Why We Sleep” are interdisciplinary neuroscience questions rather than cleanly biology in the same sense as the other biology items, and “Fermi Paradox” is astrobiology/SETI rather than cosmology.",
+      "items": [
+        "P vs NP",
+        "Consciousness",
+        "Why We Sleep",
+        "Fermi Paradox"
+      ],
+      "groups": [
+        "UNSOLVED PURE MATHEMATICS",
+        "UNSOLVED PHYSICS",
+        "UNSOLVED BIOLOGY",
+        "UNSOLVED COSMOLOGY"
+      ],
+      "suggestedFix": "Move “P vs NP” out of physics or replace it with a physics problem such as “Turbulence,” “High-Temperature Superconductivity,” or “Measurement Problem.” Consider tightening the other labels to avoid interdisciplinary overlap."
+    },
+    {
+      "puzzleId": "hard-001",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "“Record” belongs naturally to “Break a ritual” only if interpreted as a phrase, but “break a record” is not a ritual. It is a different sense of “break” from the group label and does not match the other ritual items.",
+      "items": [
+        "Record"
+      ],
+      "groups": [
+        "Break a ritual"
+      ],
+      "suggestedFix": "Replace “Record” with a ritual/observance item such as “Sabbath,” “Vigil,” or “Tradition,” or relabel the group as general “things you can break by ending/interruption.”"
+    },
+    {
+      "puzzleId": "hard-002",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Draw” and “Fold” are card-game terms, but both are also fabric actions or fabric-related verbs in plausible senses: draw thread/fabric, fold fabric. This creates cross-category temptation beyond normal wordplay.",
+      "items": [
+        "Draw",
+        "Fold"
+      ],
+      "groups": [
+        "Card game terms",
+        "Fabric actions"
+      ],
+      "suggestedFix": "Replace one or both with card terms less viable as fabric actions, such as “Trump,” “Discard,” or “Ante.”"
+    },
+    {
+      "puzzleId": "hard-003",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Body” appears as an item in “Music anatomy” while “Body Text” appears in “Letter parts.” The puzzle title also cues body-part wordplay, but “body” is a legitimate part of a letter/document too, so the split relies on exact phrasing rather than clean semantic separation.",
+      "items": [
+        "Body",
+        "Body Text"
+      ],
+      "groups": [
+        "Music anatomy",
+        "Letter parts"
+      ],
+      "suggestedFix": "Replace “Body” in the music group with a more specific instrument part, or use “Soundboard” if the intended domain is string instruments."
+    },
+    {
+      "puzzleId": "hard-004",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "“Shadow types” and “Darkness terms” overlap conceptually: umbra/penumbra are darkness or partial-darkness regions, while eclipse is also an astronomical darkening event rather than simply a shadow type. “Twilight” and “Dusk” are low-light periods, not darkness terms in the same register as gloom/murk.",
+      "items": [
+        "Umbra",
+        "Penumbra",
+        "Eclipse",
+        "Twilight",
+        "Dusk"
+      ],
+      "groups": [
+        "Shadow types",
+        "Darkness terms"
+      ],
+      "suggestedFix": "Make the shadow group strictly optical shadow terms and replace “Eclipse,” or relabel the darkness group as “Low-light conditions” with cleaner entries."
+    },
+    {
+      "puzzleId": "hard-006",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Simmer,” “Braise,” “Blanch,” and “Marinate” are cooking methods, not cooking times. The category label implies durations or timing stages, so the items do not fit as written.",
+      "items": [
+        "Simmer",
+        "Braise",
+        "Blanch",
+        "Marinate"
+      ],
+      "groups": [
+        "Cooking times"
+      ],
+      "suggestedFix": "Relabel the group to “Cooking methods” or replace the items with actual timing terms such as “Rest,” “Proof,” “Bake Time,” and “Standing Time.”"
+    },
+    {
+      "puzzleId": "hard-007",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Discipline” and “Faculty” are academic institutions/roles as much as academic fields, while “Peer Review” and “Thesis” are academic-process terms. The category is internally loose compared with the other field senses.",
+      "items": [
+        "Thesis",
+        "Discipline",
+        "Faculty",
+        "Peer Review"
+      ],
+      "groups": [
+        "Academic field"
+      ],
+      "suggestedFix": "Relabel to “Academic terms” or use field-specific terms such as “Discipline,” “Domain,” “Specialty,” and “Area.”"
+    },
+    {
+      "puzzleId": "hard-008",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Stack” and “Cache” are data structures/storage concepts, and “Boolean” is a type/value rather than program state. The group “Program state” is too broad and could absorb “Variable” but not the rest cleanly.",
+      "items": [
+        "Variable",
+        "Boolean",
+        "Stack",
+        "Cache"
+      ],
+      "groups": [
+        "Program state"
+      ],
+      "suggestedFix": "Relabel to “Programming terms” or replace with clearer state terms such as “Flag,” “Mode,” “Status,” and “Context.”"
+    },
+    {
+      "puzzleId": "hard-010",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The category labels say “pair terms,” but most items are parts of a single eye, shoe, hand, or wing rather than terms for pairs. “Retina,” “Cornea,” “Insole,” “Knuckle,” and “Aileron” do not naturally denote pairs.",
+      "items": [
+        "Pupil",
+        "Iris",
+        "Retina",
+        "Cornea",
+        "Sole",
+        "Heel",
+        "Insole",
+        "Lace",
+        "Palm",
+        "Knuckle",
+        "Thumb",
+        "Wrist",
+        "Feather",
+        "Aileron",
+        "Span",
+        "Tip"
+      ],
+      "groups": [
+        "Eye pair terms",
+        "Shoe pair terms",
+        "Hand pair terms",
+        "Wing pair terms"
+      ],
+      "suggestedFix": "Rename the labels to “Eye parts,” “Shoe parts,” “Hand parts,” and “Wing parts.”"
+    },
+    {
+      "puzzleId": "hard-011",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Torque,” “Thrust,” and “Momentum” are physical quantities but not power. “Logarithm” is not a mathematical power; it is the inverse operation related to exponentiation. These make the category labels inaccurate.",
+      "items": [
+        "Logarithm",
+        "Torque",
+        "Thrust",
+        "Momentum"
+      ],
+      "groups": [
+        "Math power",
+        "Physical power"
+      ],
+      "suggestedFix": "Relabel to “Exponentiation terms” and “Physics quantities,” or replace with actual power terms such as “Joule per Second,” “Kilowatt,” and “Work Rate.”"
+    },
+    {
+      "puzzleId": "hard-013",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Charger” and “Jumper Cable” are things used to revive a dead battery, not descriptors or states of a dead battery like “Drained” and “Flat.”",
+      "items": [
+        "Charger",
+        "Jumper Cable"
+      ],
+      "groups": [
+        "Dead battery"
+      ],
+      "suggestedFix": "Relabel to “Car battery context” or replace them with states such as “Spent,” “Discharged,” or “Flat.”"
+    },
+    {
+      "puzzleId": "hard-013",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Footstep” and “Eyebrow” are not standard dead metaphors. A dead metaphor is a figurative expression whose metaphorical force has faded; these words may be etymologically compound/body-part terms, but they are not good examples of dead metaphors.",
+      "items": [
+        "Footstep",
+        "Eyebrow"
+      ],
+      "groups": [
+        "Dead metaphor"
+      ],
+      "suggestedFix": "Use clearer dead metaphors such as “Deadline,” “Broadcast,” “Skyscraper,” or “Chair leg,” depending on the intended standard."
+    },
+    {
+      "puzzleId": "hard-015",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The tennis group mixes actual fault terms with general tennis scoring/serve terms. “Let” and “Advantage” are tennis terms but not faults, so the label “Tennis fault” is misleading.",
+      "items": [
+        "Serve",
+        "Let",
+        "Advantage"
+      ],
+      "groups": [
+        "Tennis fault"
+      ],
+      "suggestedFix": "Relabel to “Tennis terms” or use four fault-specific terms."
+    },
+    {
+      "puzzleId": "hard-016",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Cartridge,” “Propellant,” “Report,” and “Recoil” are ammunition/firearm terms, but only “cartridge” can be a blank round. “Propellant,” “report,” and “recoil” are not blank ammunition types or components uniquely tied to blanks.",
+      "items": [
+        "Propellant",
+        "Report",
+        "Recoil"
+      ],
+      "groups": [
+        "Blank ammunition"
+      ],
+      "suggestedFix": "Relabel to “Blank round effects/components” or use “Blank Cartridge,” “Wad,” “Primer,” and “Case.”"
+    },
+    {
+      "puzzleId": "hard-017",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Fragile” and “Shatter” are literal properties/actions of glass as a material as well as metaphorical glass associations. They overlap with “Glass material” more than “Ceiling” and “Half Full” do.",
+      "items": [
+        "Fragile",
+        "Shatter"
+      ],
+      "groups": [
+        "Glass material",
+        "Glass metaphor"
+      ],
+      "suggestedFix": "Replace with more clearly idiomatic metaphor entries such as “House,” “Cliff,” “Slipper,” or “Ceiling,” depending on the intended phrase set."
+    },
+    {
+      "puzzleId": "hard-019",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Parquet” is a type of flooring/building floor material, not specifically a dance floor. “Stage” can be a performance floor/area rather than a dance floor. These items overlap with the building-floor sense.",
+      "items": [
+        "Parquet",
+        "Stage"
+      ],
+      "groups": [
+        "Building floor",
+        "Dance floor"
+      ],
+      "suggestedFix": "Use dance-specific entries such as “Ballroom,” “Disco,” “Studio,” and “Club,” or relabel the group as performance/dance venues."
+    },
+    {
+      "puzzleId": "hard-020",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Crash” and “Investigation” are associated with flight recorders after an accident but are not parts or alternate names of a black box. The group label is tighter than the items support.",
+      "items": [
+        "Crash",
+        "Investigation"
+      ],
+      "groups": [
+        "Black box (flight)"
+      ],
+      "suggestedFix": "Replace with “Flight Data,” “Cockpit Voice,” “Recorder,” and “Beacon,” or relabel as “Air accident investigation terms.”"
+    }
+  ]
+}

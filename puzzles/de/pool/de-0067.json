@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Schmuck",
     "batch": "de-batch-03",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 33,
+    "gptDifficulty": 47,
+    "gptRationale": "Schmuck ist anschaulich, doch Techniken wie Filigran oder Emaille sind weniger geläufig als Metalle, Steine und Schmuckarten."
   },
   "groups": [
     {

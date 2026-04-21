@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Komposita",
     "batch": "de-batch-05",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 18,
+    "gptDifficulty": 8,
+    "gptRationale": "Die Wortbildungsmuster mit Kopf, Hand, Baum und Haus sind extrem transparent und fast ohne false trails lösbar."
   },
   "groups": [
     {

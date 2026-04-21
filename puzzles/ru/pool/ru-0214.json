@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Фитнес и ЗОЖ",
     "batch": "ru-batch-07",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 22,
+    "gptDifficulty": 24,
+    "gptRationale": "Modern fitness categories are obvious and highly familiar, with only minor jargon from supplements and training styles."
   },
   "groups": [
     {

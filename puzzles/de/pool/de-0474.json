@@ -5,7 +5,10 @@
   "meta": {
     "theme": "natur",
     "batch": "de-batch-05",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 51,
+    "gptDifficulty": 60,
+    "gptRationale": "Naturschutz mischt Rechtsquellen, Methoden und Grundbegriffe, was ohne Fachnähe zu einigen sauberen, aber trockenen Abgrenzungen führt."
   },
   "groups": [
     {

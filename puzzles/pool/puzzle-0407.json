@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 36,
+    "gptDifficulty": 34,
+    "gptRationale": "Many ship names are famous enough to place, and the space-shuttle group is especially easy to identify."
   },
   "groups": [
     {

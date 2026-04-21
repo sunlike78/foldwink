@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Forstwirtschaft",
     "batch": "de-batch-04",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 26,
+    "gptDifficulty": 24,
+    "gptRationale": "Waldtypen, Holzarten und Schutzmaßnahmen sind anschaulich und inhaltlich klar getrennt, mit wenig Raum für falsche Zuordnungen."
   },
   "groups": [
     {

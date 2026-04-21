@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 45,
+    "gptDifficulty": 61,
+    "gptRationale": "Dance categories rely on genre knowledge and several names are culturally specific enough to make the set trickier than average."
   },
   "groups": [
     {

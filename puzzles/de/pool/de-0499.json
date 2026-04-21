@@ -5,7 +5,10 @@
   "meta": {
     "theme": "arbeit",
     "batch": "de-batch-05",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 34,
+    "gptDifficulty": 34,
+    "gptRationale": "Die Zukunft-der-Arbeit-Felder sind gegenwartsnah und ihre Beispiele sehr sprechend, trotz einzelner Anglizismen."
   },
   "groups": [
     {

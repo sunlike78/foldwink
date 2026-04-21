@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Militärränge",
     "batch": "de-batch-04",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 43,
+    "gptDifficulty": 57,
+    "gptRationale": "Militärische Ränge sind spezialisiert und die NATO-Codes bringen eine zusätzliche Abstraktionsebene hinein."
   },
   "groups": [
     {

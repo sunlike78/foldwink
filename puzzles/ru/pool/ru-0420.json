@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры и виды фотографии",
     "batch": "ru-batch-17",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 29,
+    "gptDifficulty": 29,
+    "gptRationale": "Жанры фотографии широко известны, а деление на портрет, документалистику, природу и коммерцию ощущается естественным."
   },
   "groups": [
     {

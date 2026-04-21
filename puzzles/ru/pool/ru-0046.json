@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды спорта",
     "batch": "ru-batch-01",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 25,
+    "gptDifficulty": 19,
+    "gptRationale": "Sports categories are broad, well-known, and easy to separate for a typical player."
   },
   "groups": [
     {

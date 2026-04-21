@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Зимние виды спорта",
     "batch": "ru-batch-01",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 53,
+    "gptDifficulty": 56,
+    "gptRationale": "Winter sports require more specialized knowledge, and some ice-based categories compete with one another."
   },
   "groups": [
     {

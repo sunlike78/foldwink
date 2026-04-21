@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 49,
+    "gptDifficulty": 64,
+    "gptRationale": "Famous philosophers help, but separating them by movement and era gets tricky once the most obvious names are gone."
   },
   "groups": [
     {

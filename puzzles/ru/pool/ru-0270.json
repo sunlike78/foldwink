@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Скандинавские и северные страны",
     "batch": "ru-batch-10",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 39,
+    "gptDifficulty": 47,
+    "gptRationale": "Northern Europe is accessible overall, but cultural items like 'смёрребрёд' and 'хюгге' add some precision demands."
   },
   "groups": [
     {

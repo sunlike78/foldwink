@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Historische Epochen via typische Objekte",
     "batch": "de-batch-11",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 49,
+    "gptDifficulty": 57,
+    "gptRationale": "Die Epochenmarker sind bildhaft, aber historisch-politisches Kontextwissen wird mehrfach vorausgesetzt und erhöht die Hürde merklich."
   },
   "groups": [
     {

@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 37,
+    "gptDifficulty": 42,
+    "gptRationale": "The 'black' constructions are familiar and diverse, so despite some thematic overlap the groups are easier to infer than many abstract hard sets."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Олимпийские виды спорта",
     "batch": "ru-batch-01",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 56,
+    "gptDifficulty": 64,
+    "gptRationale": "Olympic-program knowledge is less everyday, and newer or umbrella categories demand more precise recall."
   },
   "groups": [
     {

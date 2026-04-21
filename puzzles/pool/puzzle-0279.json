@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 36,
+    "gptDifficulty": 32,
+    "gptRationale": "Pharmacy sections are everyday, though medicine-class terms and brandless drug vocabulary require a bit more precision."
   },
   "groups": [
     {

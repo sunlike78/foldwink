@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Правовые системы и судопроизводство",
     "batch": "ru-batch-14",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 45,
+    "gptDifficulty": 47,
+    "gptRationale": "Юридическая лексика понятна по форме, но уровни классификации здесь разные, и это мешает быстрому считыванию групп."
   },
   "groups": [
     {

@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 22,
+    "gptDifficulty": 29,
+    "gptRationale": "Most items are everyday and concrete, with only shellfish adding a slightly less universal vocabulary set."
   }
 }

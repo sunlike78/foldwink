@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wintersport durch Bewegungsformen",
     "batch": "de-batch-12",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 38,
+    "gptDifficulty": 38,
+    "gptRationale": "Wintersportarten sind gut unterscheidbar, auch wenn einzelne Bewegungs- und Ausrüstungsbegriffe ohne Sportnähe etwas Fachwissen verlangen."
   },
   "groups": [
     {

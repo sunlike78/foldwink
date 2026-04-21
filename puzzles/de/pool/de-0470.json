@@ -5,7 +5,10 @@
   "meta": {
     "theme": "meditation",
     "batch": "de-batch-05",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 48,
+    "gptDifficulty": 64,
+    "gptRationale": "Meditationsschulen teilen Vokabular und Praxisnähe, während einzelne Eigennamen und Sanskrit-Begriffe nur begrenzt bekannt sind."
   },
   "groups": [
     {

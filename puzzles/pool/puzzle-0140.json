@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 52,
+    "gptDifficulty": 72,
+    "gptRationale": "Poetry and meter terminology is the most language-precision-heavy here, with several literary terms unfamiliar outside classroom study."
   },
   "groups": [
     {

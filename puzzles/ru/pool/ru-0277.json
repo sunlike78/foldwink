@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Пресноводные рыбы России",
     "batch": "ru-batch-10",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 48,
+    "gptDifficulty": 67,
+    "gptRationale": "Russian freshwater fish taxonomy mixes common and specialist names, creating a significant knowledge burden for non-anglers."
   },
   "groups": [
     {

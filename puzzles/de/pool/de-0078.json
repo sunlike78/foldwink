@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Internet und Soziale Medien",
     "batch": "de-batch-03",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 22,
+    "gptDifficulty": 26,
+    "gptRationale": "Most internet terms are familiar, but format, platform, and profession labels can create light cross-category pull."
   },
   "groups": [
     {

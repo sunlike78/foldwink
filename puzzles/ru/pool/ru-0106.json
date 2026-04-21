@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Города по достопримечательностям",
     "batch": "ru-batch-02",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 19,
+    "gptDifficulty": 18,
+    "gptRationale": "Города легко считываются по очень узнаваемым достопримечательностям и почти не создают ложных пересечений между группами."
   },
   "groups": [
     {

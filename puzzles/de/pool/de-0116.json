@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 21,
+    "gptDifficulty": 17,
+    "gptRationale": "Fitness equipment, exercises, and basic training terms are common and cleanly separated."
   },
   "groups": [
     {

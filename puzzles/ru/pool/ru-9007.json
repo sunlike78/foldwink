@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Наука и технологии — российские открытия",
     "batch": "ru-batch-16",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 50,
+    "gptDifficulty": 58,
+    "gptRationale": "Фигуры учёных известны, но конкретные открытия и формулировки требуют уже школьно-энциклопедической точности."
   },
   "groups": [
     {

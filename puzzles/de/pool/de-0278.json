@@ -5,7 +5,10 @@
   "meta": {
     "theme": "tourismus",
     "batch": "de-batch-03",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 27,
+    "gptDifficulty": 21,
+    "gptRationale": "Regionen, Sehenswürdigkeiten, Aktivitäten und Unterkünfte sind sehr vertraute Reisekategorien mit nur geringer Verwechslungsgefahr."
   },
   "groups": [
     {

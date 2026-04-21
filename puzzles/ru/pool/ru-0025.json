@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Музыкальные инструменты",
     "batch": "ru-batch-01",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 29,
+    "gptDifficulty": 31,
+    "gptRationale": "Instrument families are standard knowledge, though a couple of borderline cases require some music-class familiarity."
   },
   "groups": [
     {

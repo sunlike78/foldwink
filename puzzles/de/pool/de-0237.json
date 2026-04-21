@@ -5,7 +5,10 @@
   "meta": {
     "theme": "biografie",
     "batch": "de-batch-03",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 50,
+    "gptDifficulty": 62,
+    "gptRationale": "Biografie und Autobiografie klingt simpel, aber mehrere Untergruppen beruhen auf formalen Gattungs- und Personenkenntnissen statt auf reinen Alltagskategorien."
   },
   "groups": [
     {

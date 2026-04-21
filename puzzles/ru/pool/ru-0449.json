@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Японская культура и традиции",
     "batch": "ru-batch-19",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 17,
+    "gptDifficulty": 18,
+    "gptRationale": "Японская культура здесь собрана из очень известных и тематически чистых наборов, поэтому категории читаются почти сразу."
   },
   "groups": [
     {

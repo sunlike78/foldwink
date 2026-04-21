@@ -5,7 +5,10 @@
   "meta": {
     "theme": "philosophie",
     "batch": "de-batch-05",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 56,
+    "gptDifficulty": 70,
+    "gptRationale": "Philosophische Schulen verlangen begriffliche Präzision, und Namen, Prinzipien und Fachvokabular liegen semantisch dicht beieinander."
   },
   "groups": [
     {

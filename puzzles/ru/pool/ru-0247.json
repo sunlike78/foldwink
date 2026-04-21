@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Разделы математики",
     "batch": "ru-batch-09",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 44,
+    "gptDifficulty": 60,
+    "gptRationale": "Math vocabulary is school-based but more abstract than typical easy-tier content, especially in statistics and number-type terminology."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 45,
+    "gptDifficulty": 57,
+    "gptRationale": "Flowering-season knowledge is not universal, so the solve depends on recognizing plant names more than on the title gimmick."
   },
   "groups": [
     {

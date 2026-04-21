@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 19,
+    "gptDifficulty": 17,
+    "gptRationale": "Household and office objects are very familiar, with only minor ambiguity from desk being a larger item than the others."
   }
 }

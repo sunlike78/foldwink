@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Зимние виды спорта",
     "batch": "ru-batch-09",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 50,
+    "gptDifficulty": 61,
+    "gptRationale": "Winter sports are concrete, yet discipline names like 'натбоб' and snowboard event labels are meaningfully more specialized."
   },
   "groups": [
     {

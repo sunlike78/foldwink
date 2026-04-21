@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 34,
+    "gptDifficulty": 43,
+    "gptRationale": "Solar-system categories are well taught, but dwarf planets and Jupiter's moons add a moderate recall challenge."
   }
 }

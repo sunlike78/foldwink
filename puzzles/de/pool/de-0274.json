@@ -5,7 +5,10 @@
   "meta": {
     "theme": "chemische-industrie",
     "batch": "de-batch-03",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 48,
+    "gptDifficulty": 63,
+    "gptRationale": "Die Chemiebegriffe sind fachsprachlich und die Unterscheidung zwischen Forschung, Produkten und Standorten fordert mehr Sachwissen als der Tierdurchschnitt."
   },
   "groups": [
     {

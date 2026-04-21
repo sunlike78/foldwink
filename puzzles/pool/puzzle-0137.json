@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 25,
+    "gptDifficulty": 26,
+    "gptRationale": "Board-game families are familiar and the examples are mostly canonical, making the set easy to parse."
   },
   "groups": [
     {

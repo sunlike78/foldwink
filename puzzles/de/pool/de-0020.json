@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Städte Deutschland",
     "batch": "de-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 27,
+    "gptDifficulty": 28,
+    "gptRationale": "Deutsche Großstädte sind allgemein bekannt, nur die regionale Zuordnung verlangt etwas Geografiewissen."
   },
   "groups": [
     {

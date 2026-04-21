@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Nationalparks Deutschland",
     "batch": "de-batch-04",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 62,
+    "gptDifficulty": 78,
+    "gptRationale": "National park grouping is tricky because it requires specific geographic knowledge and includes several strong regional false trails."
   },
   "groups": [
     {

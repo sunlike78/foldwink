@@ -5,7 +5,10 @@
   "meta": {
     "theme": "gastronomie",
     "batch": "de-batch-03",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 33,
+    "gptDifficulty": 28,
+    "gptRationale": "Die Bereiche sind anschaulich und kulturell vertraut, aber einige Gastronomiebegriffe könnten auch als Restaurant- oder Küchenkontext gelesen werden."
   },
   "groups": [
     {

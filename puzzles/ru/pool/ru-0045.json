@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Деньги и финансы",
     "batch": "ru-batch-01",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 33,
+    "gptDifficulty": 45,
+    "gptRationale": "Finance terms are common enough, but abstract service categories and investment vocabulary make this tougher than ordinary household topics."
   },
   "groups": [
     {

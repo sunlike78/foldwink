@@ -5,7 +5,10 @@
   "meta": {
     "theme": "ruhrgebiet",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 28,
+    "gptDifficulty": 27,
+    "gptRationale": "Ruhrgebiet hat sehr klare Stadt-, Industrie- und Kulturcluster mit stark bekannten Begriffen und kaum mehrdeutigen Ablenkungen."
   },
   "groups": [
     {

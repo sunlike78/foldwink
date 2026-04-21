@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 52,
+    "gptDifficulty": 66,
+    "gptRationale": "Breed knowledge is concrete yet specialized, and players may know the animals without confidently knowing the subgroup labels."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Акустика и виды звуков",
     "batch": "ru-batch-16",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 38,
+    "gptDifficulty": 51,
+    "gptRationale": "Тема звука знакомая, но рядом стоят физические, музыкальные, природные и фонетические понятия, что требует быстрого переключения между областями."
   },
   "groups": [
     {

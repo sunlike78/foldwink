@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 27,
+    "gptDifficulty": 34,
+    "gptRationale": "The four senses of time are distinct and the vocabulary inside each group is comparatively standard, so it plays easier than most hard-tier abstracts."
   },
   "groups": [
     {

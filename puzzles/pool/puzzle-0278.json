@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 31,
+    "gptDifficulty": 35,
+    "gptRationale": "Banking product categories are everyday concepts, and the internal consistency of each set keeps ambiguity fairly low."
   },
   "groups": [
     {

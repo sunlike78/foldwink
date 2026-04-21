@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gesundheit",
     "batch": "de-batch-02",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 27,
+    "gptDifficulty": 24,
+    "gptRationale": "Erste Hilfe besteht aus extrem vertrauten, handlungsnahen Begriffen, die sich fast von selbst in praktische Kategorien ordnen."
   },
   "groups": [
     {

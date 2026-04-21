@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские слова с несколькими значениями",
     "batch": "ru-batch-17",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 59,
+    "gptDifficulty": 69,
+    "gptRationale": "Омонимия сама по себе требует языковой точности, а часть значений менее частотна и может не всплыть сразу."
   },
   "groups": [
     {

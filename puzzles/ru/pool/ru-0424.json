@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Технологии цифровой трансформации",
     "batch": "ru-batch-18",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 22,
+    "gptDifficulty": 24,
+    "gptRationale": "Современные цифровые тренды хорошо присутствуют в медиапространстве, а кластеры AI, blockchain, IoT и XR легко считываются."
   },
   "groups": [
     {

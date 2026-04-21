@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 53,
+    "gptDifficulty": 59,
+    "gptRationale": "The concepts are all semantically close self-psychology terms, so abstraction rather than obscurity drives the challenge."
   },
   "groups": [
     {

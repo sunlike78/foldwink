@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Народные музыкальные инструменты",
     "batch": "ru-batch-17",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 39,
+    "gptDifficulty": 57,
+    "gptRationale": "Народные инструменты России узнаются не все, а клавишный блок соседствует с более современными родственными инструментами."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "digital",
     "batch": "de-batch-05",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 27,
+    "gptDifficulty": 29,
+    "gptRationale": "Cybersecurity-Begriffe sind weithin verbreitet und die Kategorien Angriff, Schutz, Standard und Grundbegriff sind deutlich verschieden."
   },
   "groups": [
     {

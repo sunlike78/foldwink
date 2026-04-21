@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 35,
+    "gptDifficulty": 22,
+    "gptRationale": "Swimming and water-sport terms are common and the category boundaries are easy to read."
   },
   "groups": [
     {

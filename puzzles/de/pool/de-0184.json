@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Umwelt",
     "batch": "de-batch-02",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 35,
+    "gptDifficulty": 36,
+    "gptRationale": "Umweltprobleme sind thematisch vertraut und die Begriffe stark an ihre jeweiligen Problemfelder gebunden."
   },
   "groups": [
     {

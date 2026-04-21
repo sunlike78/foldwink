@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые озёра",
     "batch": "ru-batch-08",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 44,
+    "gptDifficulty": 58,
+    "gptRationale": "World-lake knowledge is less automatic, and the 'горные озёра' set depends on somewhat specialized geographic familiarity."
   },
   "groups": [
     {

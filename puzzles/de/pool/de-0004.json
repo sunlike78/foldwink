@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gemüse",
     "batch": "de-batch-01",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 25,
+    "gptDifficulty": 29,
+    "gptRationale": "Gemüsegruppen sind alltagsnah, doch Grenzfälle wie Sellerie oder die botanisch nicht ganz intuitive Einordnung von Fruchtgemüse erzeugen etwas Reibung."
   },
   "groups": [
     {

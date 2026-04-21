@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 67
+    "difficultyScore": 67,
+    "editorialRank": 67,
+    "gptDifficulty": 67,
+    "gptRationale": "The scientist-contribution sets are conceptually clean but academically demanding, especially where discoveries overlap in general science memory."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Chemie Reaktionen",
     "batch": "de-batch-04",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 54,
+    "gptDifficulty": 55,
+    "gptRationale": "Die Chemie-Gruppen sind fachlich logisch, aber viele Begriffe sind eher schulisch-akademisch als alltagssprachlich verankert."
   },
   "groups": [
     {

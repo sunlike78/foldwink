@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры театра",
     "batch": "ru-batch-10",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 48,
+    "gptDifficulty": 62,
+    "gptRationale": "Basic theater forms are easy, but puppet and folk-theater terminology is specialized and less mainstream."
   },
   "groups": [
     {

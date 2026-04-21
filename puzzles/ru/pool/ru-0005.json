@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Школьные принадлежности",
     "batch": "ru-batch-01",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 21,
+    "gptDifficulty": 14,
+    "gptRationale": "Very everyday school vocabulary, though a couple of bag-related items create mild overlap between stationery and what sits in a backpack."
   },
   "groups": [
     {

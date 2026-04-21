@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Греческие боги",
     "batch": "ru-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 38,
+    "gptDifficulty": 47,
+    "gptRationale": "Греческая мифология знакома многим, но пересечения пантеона и менее частотные фигуры вроде Харит или Гименея заметно повышают сложность."
   },
   "groups": [
     {

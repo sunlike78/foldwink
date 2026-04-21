@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Врачебные специальности",
     "batch": "ru-batch-08",
-    "difficultyScore": 60
+    "difficultyScore": 60,
+    "editorialRank": 53,
+    "gptDifficulty": 49,
+    "gptRationale": "Медицинские специализации понятны по тематике, но внутри профессий много смежности и нужны точные различия между клиническими областями."
   },
   "groups": [
     {

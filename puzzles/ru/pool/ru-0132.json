@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Драгоценные камни по цвету",
     "batch": "ru-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 51,
+    "gptDifficulty": 65,
+    "gptRationale": "Драгоценные и поделочные камни требуют конкретного словаря, а цветовые группы местами не совсем интуитивны без знания минералов."
   },
   "groups": [
     {

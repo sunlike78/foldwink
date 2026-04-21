@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 41,
+    "gptDifficulty": 46,
+    "gptRationale": "Key splits into four familiar meanings, and while map and music terminology can blur slightly, the overall structure is approachable."
   },
   "groups": [
     {

@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 50,
+    "gptDifficulty": 72,
+    "gptRationale": "Italian musical terminology is systematic but not widely mastered, and the categories can sound similar if the vocabulary is shaky."
   }
 }

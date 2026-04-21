@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Важные события и операции ВОВ",
     "batch": "ru-batch-12",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 37,
+    "gptDifficulty": 37,
+    "gptRationale": "Тема узнаваема, но операции, герои и символы Победы могут путаться между собой у игрока без хорошей исторической базы."
   },
   "groups": [
     {

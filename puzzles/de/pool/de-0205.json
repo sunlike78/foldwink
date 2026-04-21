@@ -5,7 +5,10 @@
   "meta": {
     "theme": "erster-weltkrieg",
     "batch": "de-batch-03",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 31,
+    "gptDifficulty": 41,
+    "gptRationale": "Die Themenblöcke sind klar schulisch bekannt, aber ähnliche Militär-, Allianz- und Personennamen erzeugen etwas Zuordnungsdruck."
   },
   "groups": [
     {

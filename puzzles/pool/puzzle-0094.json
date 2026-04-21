@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 59,
+    "gptDifficulty": 79,
+    "gptRationale": "Rock classification is systematic but quite knowledge-dependent, especially for distinguishing intrusive, extrusive, and clastic terms."
   }
 }

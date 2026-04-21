@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sportpsychologie",
     "batch": "de-batch-04",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 51,
+    "gptDifficulty": 52,
+    "gptRationale": "Sportpsychologische Konzepte sind thematisch nah verwandt und einige englische bzw. abstrakte Begriffe erschweren die saubere Trennung."
   },
   "groups": [
     {

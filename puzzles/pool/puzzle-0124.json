@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 52,
+    "gptDifficulty": 59,
+    "gptRationale": "Different meanings of match are fair, but modern technical language like regex competes with more everyday senses for attention."
   },
   "groups": [
     {

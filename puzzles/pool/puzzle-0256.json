@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 43,
+    "gptDifficulty": 61,
+    "gptRationale": "Home-design terminology is comparatively niche, with several architectural style words that demand exact recognition."
   },
   "groups": [
     {

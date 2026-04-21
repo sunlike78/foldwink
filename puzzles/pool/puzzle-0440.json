@@ -8,7 +8,10 @@
     "categoryType": "word-pattern",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 38,
+    "gptDifficulty": 48,
+    "gptRationale": "Portmanteaus are approachable, but distinguishing culture, tech, food, and animal blends can produce some moderate cross-category ambiguity."
   },
   "groups": [
     {

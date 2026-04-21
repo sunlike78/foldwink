@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kultur",
     "batch": "de-batch-02",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 38,
+    "gptDifficulty": 52,
+    "gptRationale": "Viele Tänze sind bekannt, aber die Unterscheidung zwischen Standard, Latein, Streetdance und regionalen Volkstänzen fordert breiteres Kulturwissen."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 49,
+    "gptDifficulty": 62,
+    "gptRationale": "Some poetry forms are famous, but several labels are literary-specialist terms that make the sets harder to distinguish cleanly."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые картины мира",
     "batch": "ru-batch-09",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 52,
+    "gptDifficulty": 68,
+    "gptRationale": "Recognizing famous paintings across multiple art-historical movements requires substantial cultural knowledge and invites author/style confusion."
   },
   "groups": [
     {

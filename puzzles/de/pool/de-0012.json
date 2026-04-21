@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sportarten",
     "batch": "de-batch-01",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 17,
+    "gptDifficulty": 17,
+    "gptRationale": "Sportarten nach groben Disziplinen zu ordnen ist für typische Spieler sehr naheliegend und enthält kaum Spezialwissen."
   },
   "groups": [
     {

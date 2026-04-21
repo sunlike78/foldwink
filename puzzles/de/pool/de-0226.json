@@ -5,7 +5,10 @@
   "meta": {
     "theme": "germanische-goetter",
     "batch": "de-batch-03",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 54,
+    "gptDifficulty": 68,
+    "gptRationale": "Hier zählt weniger bloßes Wiedererkennen als das Verstehen von Aspekten, Symbolen und Familienbezügen germanischer Gottheiten."
   },
   "groups": [
     {

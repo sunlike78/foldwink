@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Популярные домашние питомцы",
     "batch": "ru-batch-20",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 12,
+    "gptDifficulty": 11,
+    "gptRationale": "Домашние животные и их подвиды максимально бытовые, с очень ясными и привычными категориями."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 67
+    "difficultyScore": 67,
+    "editorialRank": 44,
+    "gptDifficulty": 29,
+    "gptRationale": "The gadgets are recognizable, but exact first-sale decade knowledge is fuzzier than the surface familiarity suggests."
   },
   "groups": [
     {

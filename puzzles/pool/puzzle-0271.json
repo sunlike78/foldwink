@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 48,
+    "gptDifficulty": 46,
+    "gptRationale": "The fork senses are good and varied, but the code-fork set adds a modern technical angle that not every solver will spot instantly."
   },
   "groups": [
     {

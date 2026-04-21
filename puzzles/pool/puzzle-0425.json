@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 56
+    "difficultyScore": 56,
+    "editorialRank": 50,
+    "gptDifficulty": 46,
+    "gptRationale": "The era categories are familiar, but some creatures are less well-known and the Paleogene group introduces a deliberate curveball."
   },
   "groups": [
     {

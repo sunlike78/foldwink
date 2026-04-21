@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 48,
+    "gptDifficulty": 58,
+    "gptRationale": "The categories are neat once seen, but success depends on fairly specific German food vocabulary and orthographic familiarity."
   }
 }

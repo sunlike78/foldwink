@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 40,
+    "gptDifficulty": 47,
+    "gptRationale": "Geography categories are sensible, but several terms are school-knowledge words rather than everyday vocabulary."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские композиторы",
     "batch": "ru-batch-05",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 49,
+    "gptDifficulty": 60,
+    "gptRationale": "Композиторы знакомы не всем одинаково хорошо, а разделение по кружкам, романтизму и эпохам требует музыкально-исторической памяти."
   },
   "groups": [
     {

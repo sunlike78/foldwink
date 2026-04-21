@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wohnungsmarkt",
     "batch": "de-batch-03",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 41,
+    "gptDifficulty": 44,
+    "gptRationale": "Wohn- und Mietbegriffe sind lebensnah, aber Finanzierung, Eigentum und Rechte überlappen sprachlich stärker als es zunächst wirkt."
   },
   "groups": [
     {

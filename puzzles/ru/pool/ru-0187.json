@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные Австралии",
     "batch": "ru-batch-06",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 41,
+    "gptDifficulty": 57,
+    "gptRationale": "Австралийская фауна частично известна, но однопроходные и менее популярные виды птиц и рептилий требуют более точного знания."
   },
   "groups": [
     {

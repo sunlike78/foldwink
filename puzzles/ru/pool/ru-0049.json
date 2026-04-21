@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Спортивный инвентарь",
     "batch": "ru-batch-01",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 27,
+    "gptDifficulty": 22,
+    "gptRationale": "Sports equipment maps very directly onto familiar activities, so the set feels approachable."
   },
   "groups": [
     {

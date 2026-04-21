@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великая Отечественная война",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 39,
+    "gptDifficulty": 43,
+    "gptRationale": "Тема очень узнаваемая для русскоязычной аудитории, хотя отдельные категории техники и полководцев требуют чуть больше фактической памяти."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Пословицы о труде и лени",
     "batch": "ru-batch-09",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 53,
+    "gptDifficulty": 59,
+    "gptRationale": "Пословицы даны усечённо, из-за чего игрок должен не только узнавать тему, но и восстанавливать устойчивые выражения из похожих зачинов."
   },
   "groups": [
     {

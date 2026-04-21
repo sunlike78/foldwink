@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Советские писатели",
     "batch": "ru-batch-01",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 52,
+    "gptDifficulty": 58,
+    "gptRationale": "Советские писатели узнаются хуже школьной классики, а некоторые авторы могут тянуть сразу в несколько тематических корзин."
   },
   "groups": [
     {

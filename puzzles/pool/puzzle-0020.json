@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 12,
+    "gptDifficulty": 8,
+    "gptRationale": "Pure synonym sets with very high-frequency words make the intended groupings almost immediate."
   }
 }

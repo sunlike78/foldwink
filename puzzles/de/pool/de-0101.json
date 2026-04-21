@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tiere",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "African animal groups are broadly recognizable, with only a few bird and reptile names raising the difficulty."
   },
   "groups": [
     {

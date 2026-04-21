@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kaiserreich",
     "batch": "de-batch-03",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 54,
+    "gptDifficulty": 70,
+    "gptRationale": "Das Kaiserreich wirkt vertraut, aber genaue Abgrenzung von Kaisern, Kanzlern und Reichssymbolen verlangt präzises historisches Wissen und enthält mit Karl I. eine starke Stolperfalle."
   },
   "groups": [
     {

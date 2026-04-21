@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Геометрические фигуры",
     "batch": "ru-batch-01",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 52,
+    "gptDifficulty": 52,
+    "gptRationale": "Фигуры узнаваемы, однако есть пересечения между широкими и частными классами, например параллелограмм среди многоугольников."
   },
   "groups": [
     {

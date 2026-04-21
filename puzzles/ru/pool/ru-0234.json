@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Автомобильные бренды по странам",
     "batch": "ru-batch-08",
-    "difficultyScore": 6
+    "difficultyScore": 6,
+    "editorialRank": 11,
+    "gptDifficulty": 15,
+    "gptRationale": "Автомобильные марки по странам происхождения относятся к самым очевидным паттернам этого тира и почти не имеют ложных следов."
   },
   "groups": [
     {

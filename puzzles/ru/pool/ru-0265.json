@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Столицы государств по регионам",
     "batch": "ru-batch-10",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 16,
+    "gptDifficulty": 20,
+    "gptRationale": "World capitals by continent is classic general knowledge with very clear category boundaries."
   },
   "groups": [
     {

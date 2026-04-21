@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Weltküche",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 20,
+    "gptDifficulty": 18,
+    "gptRationale": "Die vier Regionalküchen sind sehr bekannt und die Gerichte lassen sich trotz kleiner Grenzfälle meist sofort kulturell zuordnen."
   },
   "groups": [
     {

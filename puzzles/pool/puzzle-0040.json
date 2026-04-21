@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 37,
+    "gptDifficulty": 49,
+    "gptRationale": "Instrument families are tidy once seen, but distinguishing orchestral categories depends on some music vocabulary."
   }
 }

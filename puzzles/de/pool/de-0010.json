@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kleidungsstücke",
     "batch": "de-batch-01",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 26,
+    "gptDifficulty": 20,
+    "gptRationale": "Kleidungskategorien sind sehr vertraut, nur Accessoires und Unterbekleidung haben geringe Überlappungen."
   },
   "groups": [
     {

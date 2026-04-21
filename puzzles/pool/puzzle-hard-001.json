@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 33,
+    "gptDifficulty": 44,
+    "gptRationale": "The shared verb 'break' is elegant and solvable, but several nouns could plausibly sit in multiple metaphorical senses before the set locks in."
   },
   "groups": [
     {

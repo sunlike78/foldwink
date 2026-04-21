@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 17,
+    "gptDifficulty": 17,
+    "gptRationale": "Capital cities by continent are extremely familiar quiz-style knowledge with clean categorical boundaries."
   },
   "groups": [
     {

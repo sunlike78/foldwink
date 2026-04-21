@@ -5,7 +5,10 @@
   "meta": {
     "theme": "märchen",
     "batch": "de-batch-05",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 40,
+    "gptDifficulty": 45,
+    "gptRationale": "Märchenmotive sind intuitiv, doch einige Beispiele wirken eher allgemein-folkloristisch als eindeutig motivgebunden."
   },
   "groups": [
     {

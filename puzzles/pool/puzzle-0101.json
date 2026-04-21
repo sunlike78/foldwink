@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 42,
+    "gptDifficulty": 58,
+    "gptRationale": "Fabric and clothing categories are sensible, but weave names and global garment terms are less universally known."
   },
   "groups": [
     {

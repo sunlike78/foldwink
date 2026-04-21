@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 33,
+    "gptDifficulty": 34,
+    "gptRationale": "Klimazonen sind ein Schulklassiker mit sehr eindeutigen Signalwörtern wie Wüste, Tundra oder Regenwald."
   },
   "groups": [
     {

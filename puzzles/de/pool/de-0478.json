@@ -5,7 +5,10 @@
   "meta": {
     "theme": "lebensmittel",
     "batch": "de-batch-05",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 42,
+    "gptDifficulty": 40,
+    "gptRationale": "Fast-Food-Seite und Grundidee sind leicht, nur die Slow-Food-Spezialbegriffe erhöhen den Anspruch etwas."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 41,
+    "gptDifficulty": 47,
+    "gptRationale": "The country groupings are clean, but several less-famous Baroque composers and overlap in player familiarity make it a bit tougher than average."
   },
   "groups": [
     {

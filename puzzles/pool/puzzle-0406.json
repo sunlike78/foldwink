@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 34,
+    "gptDifficulty": 36,
+    "gptRationale": "Tea categories are familiar and the item names often carry cultural or style signals that make grouping fairly manageable."
   },
   "groups": [
     {

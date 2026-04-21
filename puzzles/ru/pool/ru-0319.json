@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды массажа и мануальных техник",
     "batch": "ru-batch-12",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 37,
+    "gptDifficulty": 34,
+    "gptRationale": "Категория очень бытовая и узнаваемая, но несколько техник вроде амма, кобидо и гуаша могут слегка тормозить сортировку."
   },
   "groups": [
     {

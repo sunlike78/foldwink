@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Породы домашних кошек",
     "batch": "ru-batch-08",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 36,
+    "gptDifficulty": 37,
+    "gptRationale": "Cat breeds are still accessible, but the more exotic modern breeds and hybrid-looking group increase difficulty somewhat."
   },
   "groups": [
     {

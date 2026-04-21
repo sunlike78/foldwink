@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Одежда",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 19,
+    "gptDifficulty": 12,
+    "gptRationale": "Basic clothing vocabulary and body-location groupings make this one very easy inside the tier."
   },
   "groups": [
     {

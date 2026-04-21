@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Religion Symbole",
     "batch": "de-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 24,
+    "gptDifficulty": 24,
+    "gptRationale": "Die religiösen Symbole sind überwiegend sehr bekannt und die Kategorien sind klar getrennt, mit wenig ernsthaften Ablenkungen."
   },
   "groups": [
     {

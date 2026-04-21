@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Vergleichende Politik",
     "batch": "de-batch-04",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 39,
+    "gptDifficulty": 41,
+    "gptRationale": "Die Staatensysteme sind bekannt, doch einzelne Institutionen wie Élysée oder Electoral College erhöhen die Präzisionsanforderung etwas."
   },
   "groups": [
     {

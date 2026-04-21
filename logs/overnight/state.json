@@ -1,0 +1,40 @@
+{
+  "startedAt": "2026-04-20T23:18:24.805Z",
+  "steps": [
+    {
+      "step": "phase-b",
+      "exit": 0,
+      "missingBefore": 6,
+      "missingAfter": 0
+    },
+    {
+      "step": "phase-c",
+      "exit": 0
+    },
+    {
+      "step": "phase-d",
+      "exit": 0
+    },
+    {
+      "step": "phase-e-ranking",
+      "exit": 0
+    },
+    {
+      "step": "phase-e-blend",
+      "exit": 0
+    },
+    {
+      "step": "loader-patch",
+      "exit": 0
+    },
+    {
+      "step": "gates",
+      "typecheck": 2,
+      "tests": 0,
+      "validate": 0,
+      "build": 2
+    }
+  ],
+  "finishedAt": "2026-04-21T00:08:32.272Z",
+  "aborted": "gates"
+}

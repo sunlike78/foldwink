@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 57,
+    "gptDifficulty": 72,
+    "gptRationale": "This is heavily legalistic, and several courtroom terms are specialized enough that non-lawyers may struggle to separate the procedural buckets."
   },
   "groups": [
     {

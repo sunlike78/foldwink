@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Погода и метеорология",
     "batch": "ru-batch-06",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 31,
+    "gptDifficulty": 40,
+    "gptRationale": "Осадки и приборы простые, но типы облаков и названия ветров требуют чуть большего школьного знания."
   },
   "groups": [
     {

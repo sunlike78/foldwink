@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Природные стихии и катастрофы",
     "batch": "ru-batch-17",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 35,
+    "gptDifficulty": 44,
+    "gptRationale": "Природные силы сами по себе понятны, но несколько явлений вроде селя, лавины и метеорного удара тянут в соседние группы."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geologie Deutschland",
     "batch": "de-batch-04",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 63,
+    "gptDifficulty": 71,
+    "gptRationale": "Deutsche Geologie ist relativ nischig und mehrere Eigennamen sowie Fachbegriffe verlangen genaue Sachkenntnis statt grober Intuition."
   },
   "groups": [
     {

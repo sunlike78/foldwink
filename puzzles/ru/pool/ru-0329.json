@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Явления в астрономии",
     "batch": "ru-batch-13",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 61,
+    "gptDifficulty": 79,
+    "gptRationale": "Здесь смешаны явления, объекты и классы космических объектов, поэтому игроку мешают и научная терминология, и неоднородность групп."
   },
   "groups": [
     {

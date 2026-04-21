@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 54,
+    "gptDifficulty": 72,
+    "gptRationale": "Norse-myth vocabulary is the kind of themed knowledge many players only partly know, and the names are similar enough to create strong confusion."
   },
   "groups": [
     {

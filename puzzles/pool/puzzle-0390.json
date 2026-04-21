@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 64,
+    "gptDifficulty": 77,
+    "gptRationale": "Literary genre labels include many classroom terms that are recognizable in isolation but hard to separate precisely under pressure."
   },
   "groups": [
     {

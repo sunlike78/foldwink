@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 64,
+    "gptDifficulty": 76,
+    "gptRationale": "This leans hard on formal geometry vocabulary, and terms like homothety or inversion make the category boundaries feel quite technical."
   },
   "groups": [
     {

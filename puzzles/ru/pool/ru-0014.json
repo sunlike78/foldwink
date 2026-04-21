@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ягоды",
     "batch": "ru-batch-01",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 52,
+    "gptDifficulty": 58,
+    "gptRationale": "Berry subtypes and poisonous examples are less universally known, so obscurity rather than abstraction drives the challenge."
   },
   "groups": [
     {

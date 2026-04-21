@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Technologiewellen im 20. Jahrhundert",
     "batch": "de-batch-11",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 42,
+    "gptDifficulty": 43,
+    "gptRationale": "Die Technikumbrüche sind nah aneinander und thematisch verwandt, sodass man eher Konzepte auseinanderhalten als Gegenstände erkennen muss."
   },
   "groups": [
     {

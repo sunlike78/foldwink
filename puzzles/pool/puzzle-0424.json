@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 50,
+    "gptDifficulty": 64,
+    "gptRationale": "Capital cities of less commonly discussed countries are knowledge-heavy, and several names offer little semantic help if unknown."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Berufe Gesundheit",
     "batch": "de-batch-01",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 51,
+    "gptDifficulty": 67,
+    "gptRationale": "Krankenhausberufe sind zwar thematisch eng, aber Abkürzungen wie MTA/MTRA/OTA/BTA und Überschneidungen zwischen Pflege und Verwaltung machen die Sortierung deutlich schwerer."
   },
   "groups": [
     {

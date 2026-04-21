@@ -5,7 +5,10 @@
   "meta": {
     "theme": "biologie",
     "batch": "de-batch-05",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 57,
+    "gptDifficulty": 73,
+    "gptRationale": "Synthetische Biologie ist für viele deutlich obskurer als allgemeine Gentechnik, und mehrere Einträge sind konzeptionell statt alltagsnah."
   },
   "groups": [
     {

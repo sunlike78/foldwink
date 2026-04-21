@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-04-20T23:45:34.675Z",
+  "items": [
+    {
+      "lang": "de",
+      "tier": "easy",
+      "puzzleId": "de-0095",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Nobelpreisträger“ überschneidet sich konzeptionell mit den Jahrhunderten-Gruppen: Planck, Heisenberg, Koch und Mayer sind ebenfalls Personen des 19./20. Jahrhunderts. Die Labels sind nicht parallel und Spieler können Personen nach Zeit oder Nobelpreis sortieren.",
+      "items": [
+        "Planck",
+        "Heisenberg",
+        "Koch",
+        "Mayer"
+      ],
+      "groups": [
+        "Erfinder 19. Jh.",
+        "Erfinder 20. Jh.",
+        "Nobelpreisträger"
+      ],
+      "suggestedFix": "Alle Gruppen nach demselben Prinzip bilden, z. B. nur Erfinder nach Jahrhundert oder nur Nobelpreisträger nach Fachgebiet.",
+      "claudeVerdict": "confirmed-lexical",
+      "checks": {
+        "labelOverlap": {
+          "sharedTokens": [
+            "erfinder"
+          ],
+          "lexicalSubset": true,
+          "note": "one label's meaningful tokens are subset of the other — likely semantic overlap"
+        }
+      }
+    },
+    {
+      "lang": "ru",
+      "tier": "easy",
+      "puzzleId": "ru-0202",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The labels mix eras, genres and scenes. «Земфира» is a solo artist rather than a rock group; «Кипелов» is also a band named after a singer but overlaps historically with Ария; several groups can fit by era and genre simultaneously.",
+      "items": [
+        "Земфира",
+        "Кипелов",
+        "Ария"
+      ],
+      "groups": [
+        "90-е",
+        "Металл"
+      ],
+      "suggestedFix": "Retitle to «Российские рок-исполнители» and use one axis such as decade of debut or genre.",
+      "claudeVerdict": "confirmed-lexical",
+      "checks": {
+        "labelOverlap": {
+          "sharedTokens": [],
+          "lexicalSubset": true,
+          "note": "one label's meaningful tokens are subset of the other — likely semantic overlap"
+        }
+      }
+    },
+    {
+      "lang": "ru",
+      "tier": "easy",
+      "puzzleId": "ru-0489",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "“Города-герои” and “Ещё города-герои” are the same category split into two groups, which is not a single-concept distinct label set.",
+      "items": [
+        "Москва",
+        "Ленинград",
+        "Сталинград",
+        "Севастополь",
+        "Одесса",
+        "Киев",
+        "Минск",
+        "Тула"
+      ],
+      "groups": [
+        "Города-герои",
+        "Ещё города-герои"
+      ],
+      "suggestedFix": "Merge or replace one with a different, objective category.",
+      "claudeVerdict": "confirmed-lexical",
+      "checks": {
+        "labelOverlap": {
+          "sharedTokens": [
+            "города",
+            "герои"
+          ],
+          "lexicalSubset": true,
+          "note": "one label's meaningful tokens are subset of the other — likely semantic overlap"
+        }
+      }
+    }
+  ]
+}

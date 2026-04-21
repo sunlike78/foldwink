@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Дни недели и месяцы",
     "batch": "ru-batch-01",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 38,
+    "gptDifficulty": 44,
+    "gptRationale": "Тема очень простая, но намеренно включённые пограничные элементы вроде пятницы, ноября и мая создают мягкие ложные дорожки."
   },
   "groups": [
     {

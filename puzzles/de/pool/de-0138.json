@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 33,
+    "gptDifficulty": 48,
+    "gptRationale": "Golfbegriffe sind recht bekannt, aber mehrere englische Fachwörter und turnierspezifische Formate erzeugen mittlere Hürden."
   },
   "groups": [
     {

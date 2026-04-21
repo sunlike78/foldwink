@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Посуда по назначению",
     "batch": "ru-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 19,
+    "gptDifficulty": 15,
+    "gptRationale": "Почти все предметы повседневные и группируются очень естественно, так что это один из самых простых наборов в подборке."
   },
   "groups": [
     {

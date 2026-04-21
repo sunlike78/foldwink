@@ -5,7 +5,10 @@
   "meta": {
     "theme": "artus",
     "batch": "de-batch-03",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 48,
+    "gptDifficulty": 53,
+    "gptRationale": "Artusstoff ist vertraut, doch Orte, Gegenstände und Ereignisse kreisen stark um dieselbe Legendenwelt und laden zu Verwechslungen ein."
   },
   "groups": [
     {

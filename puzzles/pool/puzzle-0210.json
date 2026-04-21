@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 30,
+    "gptDifficulty": 34,
+    "gptRationale": "Shoe terminology is familiar overall, but several formal-shoe names and boot subtypes require more precise fashion vocabulary than average."
   },
   "groups": [
     {

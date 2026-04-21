@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классические детские игры",
     "batch": "ru-batch-12",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 21,
+    "gptDifficulty": 17,
+    "gptRationale": "Childhood games here are very concrete and familiar, with especially transparent category cues."
   },
   "groups": [
     {

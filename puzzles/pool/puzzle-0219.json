@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 16,
+    "gptDifficulty": 12,
+    "gptRationale": "Household cleaning items form obvious real-world groups with only minimal ambiguity across categories."
   },
   "groups": [
     {

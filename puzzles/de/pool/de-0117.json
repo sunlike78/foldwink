@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 27,
+    "gptDifficulty": 29,
+    "gptRationale": "Bundesliga content is accessible for many players, though stadiums and record terms may be weaker outside football fans."
   },
   "groups": [
     {

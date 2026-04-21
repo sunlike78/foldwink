@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Reisemotivationen psychologisch",
     "batch": "de-batch-12",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 36,
+    "gptDifficulty": 33,
+    "gptRationale": "The travel mindsets are broad familiar themes, and the clue sets separate cleanly once the emotional framing is noticed."
   },
   "groups": [
     {

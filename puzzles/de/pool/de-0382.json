@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ernährung",
     "batch": "de-batch-04",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 28,
+    "gptDifficulty": 33,
+    "gptRationale": "Ernährungswissen ist verbreitet und die Kategorien sind intuitiv, nur Stoffwechselbegriffe ziehen die Schwierigkeit leicht nach oben."
   },
   "groups": [
     {

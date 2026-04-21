@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Charaktereigenschaften via Redewendungen",
     "batch": "de-batch-11",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 41,
+    "gptDifficulty": 39,
+    "gptRationale": "Die Grundemotionen und Haltungen sind vertraut, doch die metaphorischen Formulierungen statt direkter Schlagwörter erhöhen die kleine Hürde."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Biotechnologie",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 46,
+    "gptDifficulty": 61,
+    "gptRationale": "Biotechnologie mischt Fachwörter und Anwendungen aus verschiedenen Teilgebieten, was ohne naturwissenschaftlichen Hintergrund spürbar anspruchsvoll wird."
   },
   "groups": [
     {

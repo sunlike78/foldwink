@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musiktheorie",
     "batch": "de-batch-04",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 14,
+    "gptDifficulty": 17,
+    "gptRationale": "Musiktheorie-Grundbegriffe dieser Art sind schulnah, deutlich unterscheidbar und ohne nennenswerte falsche Fährten sortierbar."
   },
   "groups": [
     {

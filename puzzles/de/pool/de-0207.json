@@ -5,7 +5,10 @@
   "meta": {
     "theme": "zweiter-weltkrieg",
     "batch": "de-batch-03",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 41,
+    "gptDifficulty": 37,
+    "gptRationale": "Der Zweite Weltkrieg ist sehr präsent und die Oberkategorien sind deutlich, auch wenn einige Generäle und Wendepunkt-Begriffe leicht verwechselt werden können."
   },
   "groups": [
     {

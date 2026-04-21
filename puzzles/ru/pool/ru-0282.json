@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Риторические фигуры и понятия речи",
     "batch": "ru-batch-11",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 51,
+    "gptDifficulty": 59,
+    "gptRationale": "Rhetoric and text-type labels are school terms but considerably more abstract and terminology-driven than standard easy-tier content."
   },
   "groups": [
     {

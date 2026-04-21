@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 43,
+    "gptDifficulty": 53,
+    "gptRationale": "Roman gods are somewhat familiar, but the grouped domains are broad and some figures are less commonly remembered."
   },
   "groups": [
     {

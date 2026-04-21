@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 41,
+    "gptDifficulty": 43,
+    "gptRationale": "Bird categories are understandable, though several species names are less common and can be hard to place confidently without bird knowledge."
   },
   "groups": [
     {

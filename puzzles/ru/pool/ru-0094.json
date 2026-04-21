@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Персонажи русских сказок",
     "batch": "ru-batch-01",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 35,
+    "gptDifficulty": 33,
+    "gptRationale": "Большинство персонажей русских сказок очень известны, а роли вроде злодеев и помощников достаточно прозрачны."
   },
   "groups": [
     {

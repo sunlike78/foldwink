@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цвет в живописи и цветовые понятия",
     "batch": "ru-batch-19",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 46,
+    "gptDifficulty": 58,
+    "gptRationale": "Базовые цвета просты, однако художественные пигменты требуют специального словаря и легко смешиваются по оттенкам."
   },
   "groups": [
     {

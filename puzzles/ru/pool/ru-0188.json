@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные Африки",
     "batch": "ru-batch-06",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 22,
+    "gptDifficulty": 26,
+    "gptRationale": "Африканские животные очень узнаваемы, а тематические группы вроде саванны и большой пятёрки для многих уже привычны."
   },
   "groups": [
     {

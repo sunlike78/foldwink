@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 48,
+    "gptDifficulty": 44,
+    "gptRationale": "The propulsion categories are understandable, but edge cases like diesel-electric locomotives and maglev create light technical misdirection."
   },
   "groups": [
     {

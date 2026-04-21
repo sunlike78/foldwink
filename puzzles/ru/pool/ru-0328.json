@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Состояния и виды материи",
     "batch": "ru-batch-13",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 49,
+    "gptDifficulty": 46,
+    "gptRationale": "Научные термины знакомы, но уровни абстракции разные и игроку нужно быстро отличить состояния, частицы, волны и поля."
   },
   "groups": [
     {

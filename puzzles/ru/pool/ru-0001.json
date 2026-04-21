@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Новый год и зима",
     "batch": "ru-batch-01",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 13,
+    "gptDifficulty": 6,
+    "gptRationale": "Extremely familiar holiday imagery with four clean, everyday categories and almost no overlap or ambiguity."
   },
   "groups": [
     {

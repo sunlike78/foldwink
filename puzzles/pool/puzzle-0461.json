@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 70,
+    "gptDifficulty": 83,
+    "gptRationale": "Surgical terminology is specialized and lexically dense, making the fine-grained procedure families hard to separate for non-experts."
   },
   "groups": [
     {

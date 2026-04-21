@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Крупнейшие компании по отраслям",
     "batch": "ru-batch-13",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 25,
+    "gptDifficulty": 26,
+    "gptRationale": "Корпоративные гиганты широко известны, хотя отдельные компании можно по привычке отнести сразу к нескольким секторам."
   },
   "groups": [
     {

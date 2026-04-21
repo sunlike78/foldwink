@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Искусство и культура — живопись",
     "batch": "ru-batch-16",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 41,
+    "gptDifficulty": 42,
+    "gptRationale": "Главные полотна передвижников довольно каноничны, но нужна уверенная связка художник-произведение без опоры на подсказки."
   },
   "groups": [
     {

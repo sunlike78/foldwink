@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Naturphänomene sind bekannt, doch einige Fachbegriffe wie Verwerfung oder Superzelle machen die Feinsortierung etwas anspruchsvoller."
   },
   "groups": [
     {

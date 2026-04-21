@@ -5,7 +5,10 @@
   "meta": {
     "theme": "nordische-mythologie",
     "batch": "de-batch-03",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 45,
+    "gptDifficulty": 55,
+    "gptRationale": "Nordische Mythologie enthält mehrere weniger alltagsbekannte Namen und semantisch nahe Figuren- und Ortswelten."
   },
   "groups": [
     {

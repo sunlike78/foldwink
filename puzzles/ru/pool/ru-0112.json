@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Сказочные персонажи по роли",
     "batch": "ru-batch-02",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 35,
+    "gptDifficulty": 36,
+    "gptRationale": "Сказочные роли понятны, и большинство персонажей известны широко, хотя правители встречаются чуть реже остальных."
   },
   "groups": [
     {

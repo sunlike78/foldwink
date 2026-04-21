@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Климатические зоны Земли",
     "batch": "ru-batch-14",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 58,
+    "gptDifficulty": 61,
+    "gptRationale": "Климатические типы формально группируются логично, но похожие термины вроде аридный и полусухой легко сбивают."
   },
   "groups": [
     {

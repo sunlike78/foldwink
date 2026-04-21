@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 34,
+    "gptDifficulty": 44,
+    "gptRationale": "The words are common in popular culture, but mythology and zodiac knowledge are less evenly distributed than ordinary daily-life sets."
   }
 }

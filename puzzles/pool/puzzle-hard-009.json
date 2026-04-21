@@ -10,7 +10,10 @@
     "fairnessRisk": 2,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 48,
+    "gptDifficulty": 59,
+    "gptRationale": "Common compounds are the core trick, yet the anchor words are broad and the board invites lots of believable but wrong pairings."
   },
   "groups": [
     {

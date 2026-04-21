@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 32,
+    "gptDifficulty": 33,
+    "gptRationale": "Famous landmarks are broadly recognizable and the continental groupings are straightforward despite a few opportunities for geographic slips."
   },
   "groups": [
     {

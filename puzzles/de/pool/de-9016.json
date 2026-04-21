@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musik-Genres im DACH-Kontext",
     "batch": "de-batch-11",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 59,
+    "gptDifficulty": 72,
+    "gptRationale": "Musikstile und Formen mischen Epochen, Besetzungen und popkulturelle Referenzen, was ohne Kultur- und Musikkenntnis recht fordernd ist."
   },
   "groups": [
     {

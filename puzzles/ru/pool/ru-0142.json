@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мясные блюда",
     "batch": "ru-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 41,
+    "gptDifficulty": 52,
+    "gptRationale": "Здесь мешаются типы мяса и конкретные блюда, а часть названий вроде сациви или пожарской требует кулинарной точности."
   },
   "groups": [
     {

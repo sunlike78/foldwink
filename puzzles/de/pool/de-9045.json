@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wetterphänomene als Vorzeichen",
     "batch": "de-batch-12",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 42,
+    "gptDifficulty": 46,
+    "gptRationale": "Weather phenomena are familiar, but Föhn in particular is region-specific and the atmospheric clues can overlap before the set clicks."
   },
   "groups": [
     {

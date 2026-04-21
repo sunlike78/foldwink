@@ -5,7 +5,10 @@
   "meta": {
     "theme": "einzelhandel",
     "batch": "de-batch-03",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 18,
+    "gptDifficulty": 19,
+    "gptRationale": "Discounter, Kasse, Rabatt und Supermarktformate sind extrem alltagsnah und lassen sich fast ohne false trails sortieren."
   },
   "groups": [
     {

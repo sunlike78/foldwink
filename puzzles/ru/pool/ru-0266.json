@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Направления и практики йоги",
     "batch": "ru-batch-10",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 55,
+    "gptDifficulty": 67,
+    "gptRationale": "Йога и смежные практики требуют специфического словаря, а санскритские термины и соседство с медитацией заметно затрудняют разбор."
   },
   "groups": [
     {

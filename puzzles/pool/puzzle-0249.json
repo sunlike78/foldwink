@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 35,
+    "gptDifficulty": 28,
+    "gptRationale": "The four 'shot' senses are highly familiar and the entries are strongly genre-marked, so this should feel easy for the tier."
   },
   "groups": [
     {

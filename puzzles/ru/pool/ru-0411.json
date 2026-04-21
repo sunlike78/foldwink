@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Популярные хобби",
     "batch": "ru-batch-17",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 31,
+    "gptDifficulty": 19,
+    "gptRationale": "Хобби предельно жизненные и современные, а группы легко считываются даже без специальных знаний."
   },
   "groups": [
     {

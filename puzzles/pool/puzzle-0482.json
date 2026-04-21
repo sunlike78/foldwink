@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 54,
+    "gptDifficulty": 67,
+    "gptRationale": "Volcano names are specialized enough already, and sorting them by volcano type adds a second layer of geologic knowledge."
   },
   "groups": [
     {

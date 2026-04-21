@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 67,
+    "gptDifficulty": 80,
+    "gptRationale": "Medical imaging names are somewhat familiar individually, but distinguishing overlapping modalities like nuclear, magnetic, and sound-based techniques is quite exacting."
   },
   "groups": [
     {

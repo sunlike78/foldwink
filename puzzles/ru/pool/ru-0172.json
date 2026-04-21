@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Разделы физики",
     "batch": "ru-batch-05",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 42,
+    "gptDifficulty": 41,
+    "gptRationale": "Разделы физики различимы, но часть терминов достаточно общая и требует школьной предметной структуры, а не интуиции."
   },
   "groups": [
     {

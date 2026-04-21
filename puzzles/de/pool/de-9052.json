@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Lernmethoden und Unterrichtsstile",
     "batch": "de-batch-12",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 23,
+    "gptDifficulty": 14,
+    "gptRationale": "The school formats are common knowledge and the classroom scenarios are straightforwardly diagnostic."
   },
   "groups": [
     {

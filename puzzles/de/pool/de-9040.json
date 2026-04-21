@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Schulerlebnisse außer Haus",
     "batch": "de-batch-12",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 25,
+    "gptDifficulty": 15,
+    "gptRationale": "Klassenausflugsorte und ihre typischen Verhaltensregeln sind sehr lebensnah und liefern fast schon selbsterklärende Sets."
   },
   "groups": [
     {

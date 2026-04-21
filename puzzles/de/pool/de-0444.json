@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kunst",
     "batch": "de-batch-05",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 41,
+    "gptDifficulty": 52,
+    "gptRationale": "Merkmale und Werke stützen gut, aber die Mischung aus Malern, Autoren und Titeln fordert solides Realismuswissen."
   },
   "groups": [
     {

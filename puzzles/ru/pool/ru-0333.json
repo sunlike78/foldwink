@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские писатели 19 века",
     "batch": "ru-batch-13",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 44,
+    "gptDifficulty": 52,
+    "gptRationale": "Русская классика знакома многим, но критики и менее школьные драматурги делают задачу ощутимо сложнее среднего easy-уровня."
   },
   "groups": [
     {

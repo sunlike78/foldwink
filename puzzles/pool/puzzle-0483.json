@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 45,
+    "gptDifficulty": 59,
+    "gptRationale": "Classical music titles are somewhat familiar, but distinguishing symphonies, sonatas, concertos, and operas depends on genre-specific knowledge."
   },
   "groups": [
     {

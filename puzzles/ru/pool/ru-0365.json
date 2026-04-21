@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рыболовные места России",
     "batch": "ru-batch-15",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 35,
+    "gptDifficulty": 46,
+    "gptRationale": "Рыболовная тематика понятна, но тут нужно переключаться между реками, озёрами и видами рыбы, что делает группы менее однородными."
   },
   "groups": [
     {

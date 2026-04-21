@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Synonyme",
     "batch": "de-batch-05",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 36,
+    "gptDifficulty": 39,
+    "gptRationale": "Synonyme sind grundsätzlich zugänglich, aber Nuancen wie ehrwürdig oder veraltet können alternative Gruppierungen nahelegen."
   },
   "groups": [
     {

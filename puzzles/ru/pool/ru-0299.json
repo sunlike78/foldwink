@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие математики по эпохам",
     "batch": "ru-batch-11",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 42,
+    "gptDifficulty": 51,
+    "gptRationale": "Great mathematicians is recognizable for some names, but era-based grouping and less mainstream figures make it tougher than average."
   },
   "groups": [
     {

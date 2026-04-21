@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Знаменитые водопады",
     "batch": "ru-batch-15",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 60,
+    "gptDifficulty": 74,
+    "gptRationale": "Часть водопадов общеизвестна, но много редких географических названий и даже спорных распределений по регионам."
   },
   "groups": [
     {

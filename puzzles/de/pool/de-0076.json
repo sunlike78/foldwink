@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Universität",
     "batch": "de-batch-03",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 22,
+    "gptDifficulty": 22,
+    "gptRationale": "University life is familiar and the categories are clean, with only mild abstraction around degrees versus institutions versus student life."
   },
   "groups": [
     {

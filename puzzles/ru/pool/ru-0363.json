@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Секции симфонического оркестра",
     "batch": "ru-batch-15",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 22,
+    "gptDifficulty": 21,
+    "gptRationale": "Состав симфонического оркестра относится к базовой культурной эрудиции, и почти все инструменты легко раскладываются по семействам."
   },
   "groups": [
     {

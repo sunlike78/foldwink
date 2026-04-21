@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 49,
+    "gptDifficulty": 60,
+    "gptRationale": "Biology groupings are standard school topics, yet organelles, tissues, and microorganism labels still push into textbook vocabulary."
   },
   "groups": [
     {

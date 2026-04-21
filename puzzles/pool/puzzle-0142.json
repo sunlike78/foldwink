@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 33,
+    "gptDifficulty": 32,
+    "gptRationale": "Photography categories are common hobby vocabulary with only light overlap between shooting and editing terms."
   },
   "groups": [
     {

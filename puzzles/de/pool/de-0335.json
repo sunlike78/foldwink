@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Medizin Fachgebiete",
     "batch": "de-batch-04",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 31,
+    "gptDifficulty": 27,
+    "gptRationale": "Medizinische Fachgebiete und typische Fälle sind relativ geläufig und lassen sich ohne viel Wortspielaufwand sortieren."
   },
   "groups": [
     {

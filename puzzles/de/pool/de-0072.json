@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Marktplatz",
     "batch": "de-batch-03",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 28,
+    "gptDifficulty": 24,
+    "gptRationale": "The market-stand groupings are intuitive, but a few food items can momentarily blur between neighboring stalls."
   },
   "groups": [
     {

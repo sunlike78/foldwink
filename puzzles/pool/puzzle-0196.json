@@ -9,7 +9,10 @@
     "wordplay": true,
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 39,
+    "gptDifficulty": 40,
+    "gptRationale": "The walk compounds are recognizable, though 'cakewalk' as an idiom may take a moment for some solvers to spot."
   },
   "groups": [
     {

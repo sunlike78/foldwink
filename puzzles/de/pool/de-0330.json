@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Waffen Geschichte",
     "batch": "de-batch-04",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 40,
+    "gptDifficulty": 46,
+    "gptRationale": "Waffentypen nach Epoche sind grundsätzlich nachvollziehbar, aber einige Begriffe sitzen für typische Spielende nicht ganz sicher im Zeitfenster."
   },
   "groups": [
     {

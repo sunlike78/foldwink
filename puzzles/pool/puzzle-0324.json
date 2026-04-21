@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 63,
+    "gptDifficulty": 72,
+    "gptRationale": "Several signaling modes are specialized biology knowledge, and obscure examples like ostracod or black ghost knifefish raise the difficulty sharply."
   },
   "groups": [
     {

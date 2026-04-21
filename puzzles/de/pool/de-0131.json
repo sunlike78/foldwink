@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Freizeit",
     "batch": "de-batch-02",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 22,
+    "gptDifficulty": 16,
+    "gptRationale": "Camping gear, food, activities, and formats are very familiar and produce obvious clusters."
   },
   "groups": [
     {

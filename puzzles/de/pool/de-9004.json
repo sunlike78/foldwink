@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Naturphänomene in den Alpen",
     "batch": "de-batch-11",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 48,
+    "gptDifficulty": 53,
+    "gptRationale": "Bergwetterzeichen sind anschaulich, doch die Unterscheidung zwischen Föhn, Nebel, Gewitter und Lawine lebt stark von alpinem Erfahrungswissen."
   },
   "groups": [
     {

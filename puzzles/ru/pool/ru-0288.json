@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Насекомые в природе и хозяйстве",
     "batch": "ru-batch-11",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 54,
+    "gptDifficulty": 71,
+    "gptRationale": "Beneficial insects is a narrower knowledge domain, and several species are obscure or multifunctional enough to mislead."
   },
   "groups": [
     {

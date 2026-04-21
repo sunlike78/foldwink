@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 8,
+    "gptDifficulty": 6,
+    "gptRationale": "These are extremely familiar everyday categories with clean boundaries and almost no plausible cross-category confusion."
   }
 }

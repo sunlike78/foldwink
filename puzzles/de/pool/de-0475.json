@@ -5,7 +5,10 @@
   "meta": {
     "theme": "natur",
     "batch": "de-batch-05",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Stadtökologie ist anschaulich und aktuell, auch wenn einzelne Arten oder Planungsbegriffe etwas spezieller ausfallen."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 55,
+    "gptDifficulty": 74,
+    "gptRationale": "Mountaineering jargon contains many unfamiliar technical and hazard terms, with several items opaque to players outside the hobby."
   },
   "groups": [
     {

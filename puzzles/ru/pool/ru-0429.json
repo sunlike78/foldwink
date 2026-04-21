@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Острова и государства Океании",
     "batch": "ru-batch-18",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 47,
+    "gptDifficulty": 57,
+    "gptRationale": "Океанийские регионы и культурные элементы узнаваемы неравномерно, а смешение географии с этнокультурой создаёт ложные ходы."
   },
   "groups": [
     {

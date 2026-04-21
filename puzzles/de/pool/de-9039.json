@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Berufe an der Haustür",
     "batch": "de-batch-12",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 27,
+    "gptDifficulty": 14,
+    "gptRationale": "Die Besuchertypen an der Haustür sind stark klischeehaft und dadurch sehr schnell als saubere Gruppen erkennbar."
   },
   "groups": [
     {

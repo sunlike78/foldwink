@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 49,
+    "gptDifficulty": 63,
+    "gptRationale": "Ancient Egypt is a familiar theme, but many of the specific objects and place names still require relatively specialized recall."
   },
   "groups": [
     {

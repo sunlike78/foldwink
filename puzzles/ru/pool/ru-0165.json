@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Художники России",
     "batch": "ru-batch-05",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 38,
+    "gptDifficulty": 50,
+    "gptRationale": "Большие художники узнаваемы, но стилистические школы и направления уже требуют некоторой культурной классификации."
   },
   "groups": [
     {

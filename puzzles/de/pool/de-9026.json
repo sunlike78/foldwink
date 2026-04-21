@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sprachwandel im Deutschen",
     "batch": "de-batch-11",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 23,
+    "gptDifficulty": 18,
+    "gptRationale": "These language registers and varieties are highly familiar and the clue wording usually names the category almost outright."
   },
   "groups": [
     {

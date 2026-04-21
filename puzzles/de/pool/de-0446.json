@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kunst",
     "batch": "de-batch-05",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 57,
+    "gptDifficulty": 74,
+    "gptRationale": "Dada und Surrealismus stehen kulturell nahe beieinander, sodass Techniken und Personen ohne präzises Kunstwissen leicht kreuzen."
   },
   "groups": [
     {

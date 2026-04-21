@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Freizeit",
     "batch": "de-batch-02",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 28,
+    "gptDifficulty": 24,
+    "gptRationale": "Angling categories are straightforward and concrete, with only light specialization in the fishing methods."
   },
   "groups": [
     {

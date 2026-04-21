@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Блюда азиатских кухонь",
     "batch": "ru-batch-09",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 36,
+    "gptDifficulty": 35,
+    "gptRationale": "Азиатские кухни маркированы очень характерными блюдами, и даже менее знакомые названия обычно хорошо держатся внутри своей национальной группы."
   },
   "groups": [
     {

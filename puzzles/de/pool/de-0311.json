@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Nobelpreis",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 48,
+    "gptDifficulty": 62,
+    "gptRationale": "Nobelpreisträger sind spezielleres Faktenwissen und gerade die Friedensnobel-Gruppe bietet deutliche Unsicherheit und Verwechslungsgefahr."
   },
   "groups": [
     {

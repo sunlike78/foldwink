@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры романтической литературы",
     "batch": "ru-batch-12",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 44,
+    "gptDifficulty": 52,
+    "gptRationale": "Genre families are understandable, but cross-genre literary labels and abbreviated subgenres make the set more conceptual than it first appears."
   },
   "groups": [
     {

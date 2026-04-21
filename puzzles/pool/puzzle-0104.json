@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 55,
+    "gptDifficulty": 55,
+    "gptRationale": "Pasta types feel approachable, but many players will need finer culinary knowledge to separate stuffed and soup pastas cleanly."
   },
   "groups": [
     {

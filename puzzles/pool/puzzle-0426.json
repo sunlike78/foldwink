@@ -8,7 +8,10 @@
     "categoryType": "value-range",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 37,
+    "gptDifficulty": 17,
+    "gptRationale": "Roman numeral ranges are clear and the examples are straightforward to decode for anyone with basic familiarity."
   },
   "groups": [
     {

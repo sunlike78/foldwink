@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Средства и технологии связи",
     "batch": "ru-batch-20",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 36,
+    "gptDifficulty": 31,
+    "gptRationale": "Эволюция средств связи интуитивна, а почти все примеры общеизвестны и хорошо отделяются по типу передачи."
   },
   "groups": [
     {

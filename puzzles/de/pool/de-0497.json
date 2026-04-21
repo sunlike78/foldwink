@@ -5,7 +5,10 @@
   "meta": {
     "theme": "gesellschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 33,
+    "gptDifficulty": 27,
+    "gptRationale": "Die Migrationskategorien sind sozialkundlich vertraut und durch ihre funktionalen Unterschiede gut unterscheidbar."
   },
   "groups": [
     {

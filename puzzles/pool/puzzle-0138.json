@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 51,
+    "gptDifficulty": 66,
+    "gptRationale": "Soup and stew terminology leans culinary and international, so obscurer dish names and texture-based categories drive up difficulty."
   },
   "groups": [
     {

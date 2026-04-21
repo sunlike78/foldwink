@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 67,
+    "gptDifficulty": 75,
+    "gptRationale": "Election terminology is politically literate but fairly technical, with several near-neighbor systems and procedures inviting false matches."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Свет и оптика",
     "batch": "ru-batch-11",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 44,
+    "gptDifficulty": 50,
+    "gptRationale": "Оптика, спектр и источники света тематически очень близки, поэтому даже знакомые термины образуют немало правдоподобных ложных групп."
   },
   "groups": [
     {

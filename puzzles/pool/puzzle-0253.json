@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 23,
+    "gptDifficulty": 21,
+    "gptRationale": "Wedding categories are extremely familiar and the clues are concrete, ceremonial, and easy to distinguish."
   },
   "groups": [
     {

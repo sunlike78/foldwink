@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 47,
+    "gptDifficulty": 56,
+    "gptRationale": "The four 'blank' senses are fair, but some entries depend on collocational feel rather than crisp category boundaries."
   },
   "groups": [
     {

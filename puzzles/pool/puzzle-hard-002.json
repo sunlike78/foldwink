@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 50,
+    "gptDifficulty": 66,
+    "gptRationale": "These are ordinary words in specialized domains, so heavy semantic overlap and sparse anchors make the correct partitions noticeably tricky."
   },
   "groups": [
     {

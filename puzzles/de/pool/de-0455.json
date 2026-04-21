@@ -5,7 +5,10 @@
   "meta": {
     "theme": "management",
     "batch": "de-batch-05",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 52,
+    "gptDifficulty": 56,
+    "gptRationale": "Managementtheorien haben klare Leitbegriffe, doch sie stammen aus ähnlichen BWL-Kontexten und verlangen begriffliche Sortierung statt Alltagswissen."
   },
   "groups": [
     {

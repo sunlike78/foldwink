@@ -5,7 +5,10 @@
   "meta": {
     "theme": "wissenschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 58,
+    "gptDifficulty": 70,
+    "gptRationale": "Nobelpreisnahe Konzepte klingen alle wissenschaftlich prestigeträchtig und verlangen feine Disziplingrenzen statt oberflächlicher Wiedererkennung."
   },
   "groups": [
     {

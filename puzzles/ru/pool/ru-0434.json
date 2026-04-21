@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы садов и парков",
     "batch": "ru-batch-18",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 36,
+    "gptDifficulty": 36,
+    "gptRationale": "Садовые термины в целом бытовые, но часть элементов вроде рокария и дендрария уже требует более точного словаря."
   },
   "groups": [
     {

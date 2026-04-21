@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Literatur-Genres im DACH-Raum",
     "batch": "de-batch-11",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 59,
+    "gptDifficulty": 68,
+    "gptRationale": "Literaturgattungen wie Novelle oder Bildungsroman verlangen schulisch-literarisches Vorwissen und arbeiten mit eher subtilen Gattungsmarkern."
   },
   "groups": [
     {

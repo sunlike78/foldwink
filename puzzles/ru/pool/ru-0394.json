@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры кинематографа",
     "batch": "ru-batch-16",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 29,
+    "gptDifficulty": 22,
+    "gptRationale": "Жанры кино относятся к самой массовой культуре, а группы составлены из очень узнаваемых и привычных терминов."
   },
   "groups": [
     {

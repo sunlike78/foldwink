@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 59,
+    "gptDifficulty": 73,
+    "gptRationale": "Festival categories are interesting but culturally wide-ranging, with several names likely unfamiliar to a typical player."
   }
 }

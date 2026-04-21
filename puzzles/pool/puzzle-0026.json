@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 35,
+    "gptDifficulty": 47,
+    "gptRationale": "The continent theme is clear, but accuracy depends on enough geography knowledge and noticing Lagos is a false-looking outlier."
   }
 }

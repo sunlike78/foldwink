@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 44,
+    "gptDifficulty": 37,
+    "gptRationale": "Dinosaur groups are widely recognizable to many players, and the famous examples give useful anchors for each set."
   },
   "groups": [
     {

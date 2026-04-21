@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 37,
+    "gptDifficulty": 40,
+    "gptRationale": "Hair categories are understandable, though salon styling vocabulary and overlap between general hairstyles and braided styles add some friction."
   },
   "groups": [
     {

@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 54,
+    "gptDifficulty": 73,
+    "gptRationale": "International cuisine makes the categories concrete but culturally dependent, with many borrowed dish names that are easy to misplace."
   }
 }

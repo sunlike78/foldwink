@@ -8,7 +8,10 @@
     "categoryType": "wordplay",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 50,
+    "gptDifficulty": 59,
+    "gptRationale": "Book, potato, record, and clothing jackets are all fair, but the record-jacket set is more niche and raises the solve burden."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие психологи и их теории",
     "batch": "ru-batch-20",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 30,
+    "gptDifficulty": 44,
+    "gptRationale": "Крупные школы психологии достаточно каноничны, но отдельные фигуры вроде Бандуры или Франкла могут увести в соседние теоретические лагеря."
   },
   "groups": [
     {

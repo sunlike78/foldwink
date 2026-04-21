@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 49,
+    "gptDifficulty": 63,
+    "gptRationale": "Nautical vocabulary is the main barrier here, since even the easier sailing sets require more specialized knowledge than typical medium entries."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Informatik",
     "batch": "de-batch-04",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 16,
+    "gptDifficulty": 16,
+    "gptRationale": "Die Informatik-Grundlagen sind breit bekannt und die vier Themenfelder sind für typische Spielende sehr sauber voneinander trennbar."
   },
   "groups": [
     {

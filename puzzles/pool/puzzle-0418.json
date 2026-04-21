@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 34,
+    "gptDifficulty": 28,
+    "gptRationale": "The painters and their signature works are highly famous, so the groupings are accessible from broad cultural knowledge."
   },
   "groups": [
     {

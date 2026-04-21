@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Экзотические тропические фрукты",
     "batch": "ru-batch-19",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Базовые фрукты просты, но редкие тропические названия и группа с сильным запахом заметно повышают сложность."
   },
   "groups": [
     {

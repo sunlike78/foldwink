@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Столицы по регионам",
     "batch": "ru-batch-03",
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 16,
+    "gptDifficulty": 21,
+    "gptRationale": "Континентальные группы столиц очень прямолинейны, а большинство элементов опознаются без специального знания."
   },
   "groups": [
     {

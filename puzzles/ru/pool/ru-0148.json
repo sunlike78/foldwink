@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Коктейли по базовому алкоголю",
     "batch": "ru-batch-04",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 38,
+    "gptDifficulty": 44,
+    "gptRationale": "Популярные коктейли узнаваемы, но уверенно помнить базовый алкоголь для каждого из них умеют не все игроки."
   },
   "groups": [
     {

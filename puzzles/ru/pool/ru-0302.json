@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды акул",
     "batch": "ru-batch-12",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 68,
+    "gptDifficulty": 73,
+    "gptRationale": "Shark taxonomy is specialized and several labels are uncommon or misleadingly grouped, producing heavy false-trail pressure."
   },
   "groups": [
     {

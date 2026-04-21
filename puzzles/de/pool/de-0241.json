@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kino",
     "batch": "de-batch-03",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 51,
+    "gptDifficulty": 52,
+    "gptRationale": "Kino in Deutschland bleibt konkret, aber Filmstudios und Preisbegriffe sind für Durchschnittsspieler weniger geläufig als Genres oder Regisseure."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 32,
+    "gptDifficulty": 35,
+    "gptRationale": "Ancient-world categories are familiar, though a few famous landmarks and concepts require modest historical specificity."
   },
   "groups": [
     {

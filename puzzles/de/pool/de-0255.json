@@ -5,7 +5,10 @@
   "meta": {
     "theme": "architektur-epochen",
     "batch": "de-batch-03",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Architekturstile und berühmte Bauten sind sichtbar und gut clustert, auch wenn Stilwissen minimal vorausgesetzt wird."
   },
   "groups": [
     {

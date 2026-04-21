@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 30,
+    "gptDifficulty": 31,
+    "gptRationale": "Ökosysteme arbeiten mit sehr typischen Tierbeispielen, sodass die Zuordnung meist schnell und intuitiv möglich ist."
   },
   "groups": [
     {

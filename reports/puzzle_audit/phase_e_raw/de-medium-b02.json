@@ -1,0 +1,309 @@
+{
+  "lang": "de",
+  "tier": "medium",
+  "batchIndex": 1,
+  "batchTotal": 4,
+  "elapsedSec": 58,
+  "ratings": [
+    {
+      "puzzleId": "de-0365",
+      "difficulty": 18,
+      "rationale": "Die vier Regionalküchen sind sehr bekannt und die Gerichte lassen sich trotz kleiner Grenzfälle meist sofort kulturell zuordnen."
+    },
+    {
+      "puzzleId": "de-0366",
+      "difficulty": 36,
+      "rationale": "Weinbegriffe sind thematisch sauber trennbar, aber Rebsorten- und Verkostungsvokabular verlangt etwas Vorwissen."
+    },
+    {
+      "puzzleId": "de-0367",
+      "difficulty": 49,
+      "rationale": "Die Grundstruktur ist klar, doch konkrete Hopfen- und Malzsorten sind für viele Spieler deutlich spezieller als Alltagsbegriffe."
+    },
+    {
+      "puzzleId": "de-0368",
+      "difficulty": 67,
+      "rationale": "Viele französische Fachbegriffe wirken ähnlich elitär und erzeugen starke Verwechslungsgefahr zwischen Technik, Service und Brigade."
+    },
+    {
+      "puzzleId": "de-0369",
+      "difficulty": 58,
+      "rationale": "Die Kategorien sind akademisch sauber, aber mehrere Begriffe erfordern präzise ökonomische Einordnung statt bloßes Allgemeinwissen."
+    },
+    {
+      "puzzleId": "de-0370",
+      "difficulty": 30,
+      "rationale": "Aktienmarkt-Grundbegriffe und Indizes sind relativ geläufig, sodass die Gruppen trotz etwas Finanzjargon gut erkennbar bleiben."
+    },
+    {
+      "puzzleId": "de-0371",
+      "difficulty": 55,
+      "rationale": "Die Rechtsgebiete sind logisch getrennt, aber viele Begriffe sind abstrakt und ohne juristisches Raster leicht zu vermischen."
+    },
+    {
+      "puzzleId": "de-0372",
+      "difficulty": 41,
+      "rationale": "Die Staatensysteme sind bekannt, doch einzelne Institutionen wie Élysée oder Electoral College erhöhen die Präzisionsanforderung etwas."
+    },
+    {
+      "puzzleId": "de-0373",
+      "difficulty": 74,
+      "rationale": "Abkürzungen und organisationsinterne Gremien sind deutlich weniger geläufig und die institutionellen Ebenen ähneln sich stark."
+    },
+    {
+      "puzzleId": "de-0374",
+      "difficulty": 63,
+      "rationale": "Diplomatievokabular ist homogen und teils historisch aufgeladen, wodurch Personen, Verträge und Fachbegriffe leicht falsche Fährten legen."
+    },
+    {
+      "puzzleId": "de-0375",
+      "difficulty": 47,
+      "rationale": "Die Bewegungen selbst sind vertraut, aber die Mischung aus Ereignissen, Symbolfiguren und Organisationen macht die Sortierung weniger direkt."
+    },
+    {
+      "puzzleId": "de-0376",
+      "difficulty": 22,
+      "rationale": "Ursachen, Folgen, Lösungen und Abkommen des Klimawandels sind sehr klar abgegrenzt und weithin bekannt."
+    },
+    {
+      "puzzleId": "de-0377",
+      "difficulty": 54,
+      "rationale": "Nachhaltigkeit ist als Oberthema vertraut, aber Konzepte, Zertifikate, Technologien und Unternehmen liegen begrifflich enger beieinander."
+    },
+    {
+      "puzzleId": "de-0378",
+      "difficulty": 61,
+      "rationale": "Biotechnologie mischt Fachwörter und Anwendungen aus verschiedenen Teilgebieten, was ohne naturwissenschaftlichen Hintergrund spürbar anspruchsvoll wird."
+    },
+    {
+      "puzzleId": "de-0379",
+      "difficulty": 64,
+      "rationale": "Die Zukunftsmedizin-Kategorien sind plausibel, aber fast alle Begriffe klingen gleichermaßen modern und technisch und trennen sich erst über Detailwissen."
+    },
+    {
+      "puzzleId": "de-0380",
+      "difficulty": 44,
+      "rationale": "Neurologische Grundbegriffe sind recht bekannt, doch Forschungsmethoden und Hirnstrukturen verlangen etwas fachliche Sicherheit."
+    },
+    {
+      "puzzleId": "de-0381",
+      "difficulty": 27,
+      "rationale": "Die vier Gruppen sind alltagsnah und semantisch deutlich verschieden, sodass kaum echte Mehrdeutigkeiten entstehen."
+    },
+    {
+      "puzzleId": "de-0382",
+      "difficulty": 33,
+      "rationale": "Ernährungswissen ist verbreitet und die Kategorien sind intuitiv, nur Stoffwechselbegriffe ziehen die Schwierigkeit leicht nach oben."
+    },
+    {
+      "puzzleId": "de-0383",
+      "difficulty": 52,
+      "rationale": "Sportpsychologische Konzepte sind thematisch nah verwandt und einige englische bzw. abstrakte Begriffe erschweren die saubere Trennung."
+    },
+    {
+      "puzzleId": "de-0384",
+      "difficulty": 29,
+      "rationale": "Verletzung, Behandlung, Prävention und Diagnostik sind klar getrennte Bereiche mit überwiegend bekannten Begriffen."
+    },
+    {
+      "puzzleId": "de-0385",
+      "difficulty": 31,
+      "rationale": "Trainingsformen sind gut unterscheidbar, auch wenn einzelne Übungen wie Intervalltraining oder Yoga zunächst in mehrere Richtungen deuten könnten."
+    },
+    {
+      "puzzleId": "de-0386",
+      "difficulty": 78,
+      "rationale": "Anthropologie verbindet spezialisierte Epochen-, Kultur- und Methodennamen, die für typische Spieler deutlich außerhalb des Alltagswissens liegen."
+    },
+    {
+      "puzzleId": "de-0389",
+      "difficulty": 71,
+      "rationale": "Deutsche Geologie ist relativ nischig und mehrere Eigennamen sowie Fachbegriffe verlangen genaue Sachkenntnis statt grober Intuition."
+    },
+    {
+      "puzzleId": "de-0390",
+      "difficulty": 73,
+      "rationale": "Ozeanografische Zonen, Strömungen und Forschungstechnik sind fachnah und enthalten mehrere wenig vertraute Fremdwörter mit hoher Verwechslungsgefahr."
+    },
+    {
+      "puzzleId": "de-0391",
+      "difficulty": 35,
+      "rationale": "Meteorologische Basiskategorien sind bekannt, doch Jet-Stream und numerische Modelle machen das Set etwas anspruchsvoller als Schulniveau."
+    },
+    {
+      "puzzleId": "de-0393",
+      "difficulty": 69,
+      "rationale": "Bodenkunde enthält etliche wenig geläufige Typen- und Fachbezeichnungen, die für Nicht-Fachleute nur schwach unterscheidbar sind."
+    },
+    {
+      "puzzleId": "de-0394",
+      "difficulty": 24,
+      "rationale": "Waldtypen, Holzarten und Schutzmaßnahmen sind anschaulich und inhaltlich klar getrennt, mit wenig Raum für falsche Zuordnungen."
+    },
+    {
+      "puzzleId": "de-0395",
+      "difficulty": 57,
+      "rationale": "Artenschutz ist inhaltlich zugänglich, aber Gefährdungsgrade, Organisationen und Methoden verlangen präzises Lesen und etwas Fachvokabular."
+    },
+    {
+      "puzzleId": "de-0396",
+      "difficulty": 46,
+      "rationale": "Epidemiologische Kernbegriffe sind seit COVID bekannter geworden, doch Studienmethoden und Kennzahlen bleiben für viele nicht ganz trennscharf."
+    },
+    {
+      "puzzleId": "de-0397",
+      "difficulty": 59,
+      "rationale": "Pharmakologie mischt abstrakte Mechanismen, Fachklassifikationen und Entwicklungsstufen, die ohne Vorwissen leicht ineinanderlaufen."
+    },
+    {
+      "puzzleId": "de-0398",
+      "difficulty": 50,
+      "rationale": "Genetik-Grundlagen sind verbreitet, aber Methoden und Fachbegriffe wie FISH oder Haplotyp erhöhen die Präzisionshürde merklich."
+    },
+    {
+      "puzzleId": "de-0400",
+      "difficulty": 43,
+      "rationale": "Evolution ist als Thema bekannt, doch Fehlkonzepte und Belegarten erzeugen ein paar subtile thematische Überschneidungen."
+    },
+    {
+      "puzzleId": "de-0401",
+      "difficulty": 8,
+      "rationale": "Die Wortbildungsmuster mit Kopf, Hand, Baum und Haus sind extrem transparent und fast ohne false trails lösbar."
+    },
+    {
+      "puzzleId": "de-0402",
+      "difficulty": 39,
+      "rationale": "Synonyme sind grundsätzlich zugänglich, aber Nuancen wie ehrwürdig oder veraltet können alternative Gruppierungen nahelegen."
+    },
+    {
+      "puzzleId": "de-0403",
+      "difficulty": 42,
+      "rationale": "Die Antonymfelder sind erkennbar, doch innerhalb der Paare gibt es semantische Abstufungen statt glasklarer Eins-zu-eins-Gegensätze."
+    },
+    {
+      "puzzleId": "de-0404",
+      "difficulty": 76,
+      "rationale": "Mehrere Formen wirken konstruiert oder ungebräuchlich, sodass weniger Sprachgefühl als Regelbewusstsein und Skepsis gefragt sind."
+    },
+    {
+      "puzzleId": "de-0405",
+      "difficulty": 34,
+      "rationale": "Herkunftssprachen vieler Fremdwörter sind schulnah, nur einige etymologische Grenzfälle machen das Set leicht kniffliger."
+    },
+    {
+      "puzzleId": "de-0406",
+      "difficulty": 62,
+      "rationale": "Abkürzungen aus Verwaltung, Recht und Alltag erzeugen starke Musterähnlichkeit und setzen teils spezifisches Deutschlandwissen voraus."
+    },
+    {
+      "puzzleId": "de-0407",
+      "difficulty": 14,
+      "rationale": "Berufe und typische Werkzeuge gehören zu den anschaulichsten und eindeutigsten Zuordnungen im gesamten Tier."
+    },
+    {
+      "puzzleId": "de-0408",
+      "difficulty": 66,
+      "rationale": "Kunstwerke und Künstler verlangen kulturelles Detailwissen, und mehrere berühmte Werke sind zwar bekannt, aber nicht sicher autorenscharf verankert."
+    },
+    {
+      "puzzleId": "de-0409",
+      "difficulty": 84,
+      "rationale": "Opernarien und ihre Werke sind hochkulturelles Spezialwissen, bei dem selbst bekannte Titel oft nur vage zugeordnet werden können."
+    },
+    {
+      "puzzleId": "de-0410",
+      "difficulty": 60,
+      "rationale": "Literaturepochen sind schulisch bekannt, aber Grenzfiguren wie Goethe und Schiller in verschiedenen Phasen machen die Sortierung deutlich trickreicher."
+    },
+    {
+      "puzzleId": "de-0411",
+      "difficulty": 12,
+      "rationale": "Die Sprichwortanfänge sind sehr vertraut und die korrekten Ergänzungen stechen klar vor den Ablenkern hervor."
+    },
+    {
+      "puzzleId": "de-0412",
+      "difficulty": 45,
+      "rationale": "Märchenmotive sind intuitiv, doch einige Beispiele wirken eher allgemein-folkloristisch als eindeutig motivgebunden."
+    },
+    {
+      "puzzleId": "de-0413",
+      "difficulty": 56,
+      "rationale": "Historische Personen sind bekannt, aber Epochenabgrenzungen wie Aufklärung versus Romantik-Ära erfordern kulturelle Einordnung statt bloßes Namenserkennen."
+    },
+    {
+      "puzzleId": "de-0414",
+      "difficulty": 72,
+      "rationale": "Dynastien des Reiches setzen solides Geschichtswissen voraus, und dieselben Herrschernamen über mehrere Häuser hinweg erhöhen die Verwechslungsgefahr stark."
+    },
+    {
+      "puzzleId": "de-0415",
+      "difficulty": 65,
+      "rationale": "Autoren nach Herkunft ist kulturell anspruchsvoll, weil viele Namen geläufiger sind als ihre regionale oder staatliche Zuordnung."
+    },
+    {
+      "puzzleId": "de-0416",
+      "difficulty": 53,
+      "rationale": "Viele Erfinder sind bekannt, aber ihr primäres Feld ist nicht immer eindeutig und lädt zu plausiblen Fehlzuordnungen ein."
+    },
+    {
+      "puzzleId": "de-0417",
+      "difficulty": 70,
+      "rationale": "Nobelpreisnahe Konzepte klingen alle wissenschaftlich prestigeträchtig und verlangen feine Disziplingrenzen statt oberflächlicher Wiedererkennung."
+    },
+    {
+      "puzzleId": "de-0418",
+      "difficulty": 68,
+      "rationale": "Philosophen lassen sich oft mehreren Teilgebieten zuordnen, wodurch Hauptthese statt bloßer Bekanntheit entscheidend wird."
+    },
+    {
+      "puzzleId": "de-0419",
+      "difficulty": 16,
+      "rationale": "Instrumentenfamilien sind sehr klassische Kategorien mit klaren klanglichen und schulischen Zuordnungen."
+    },
+    {
+      "puzzleId": "de-0420",
+      "difficulty": 79,
+      "rationale": "Architekten und Bauwerke erfordern ziemlich spezialisiertes Kulturwissen, und internationale Projekte erschweren die sichere Zuordnung zusätzlich."
+    },
+    {
+      "puzzleId": "de-0421",
+      "difficulty": 51,
+      "rationale": "Das Thema ist historisch gut zugänglich, doch die Mischung aus Symbolen, Ereignissen, Personen und Produkten erzeugt einige plausible Überkreuzungen."
+    },
+    {
+      "puzzleId": "de-0422",
+      "difficulty": 37,
+      "rationale": "Die Exportsparten sind klar, auch wenn einzelne Produkte wie Insulin oder Farbstoffe etwas Branchenwissen verlangen."
+    },
+    {
+      "puzzleId": "de-0423",
+      "difficulty": 48,
+      "rationale": "Der deutsche Mittelstand ist als Konzept bekannt, aber Regionen, Merkmale und Beispielunternehmen sind weniger unmittelbar als die Branchen."
+    },
+    {
+      "puzzleId": "de-0424",
+      "difficulty": 63,
+      "rationale": "Finanzmarktvokabular ist stark anglisiert und mehrere Instrumente könnten ebenso gut unter Strategien oder Marktsignale fallen."
+    },
+    {
+      "puzzleId": "de-0425",
+      "difficulty": 55,
+      "rationale": "Deutsche Steuerarten sind systematisch, aber die Fachbegriffe sind trocken und für viele außerhalb von Schule oder Beruf wenig präsent."
+    },
+    {
+      "puzzleId": "de-0426",
+      "difficulty": 52,
+      "rationale": "Die Verfassungsorgane sind bekannt, doch einzelne Detailmerkmale wie Normenkontrolle oder Stimmengewicht verlangen präzisere Staatsrechtskenntnis."
+    },
+    {
+      "puzzleId": "de-0427",
+      "difficulty": 58,
+      "rationale": "Die Artikelblöcke des Grundgesetzes sind nur mit genauer verfassungsrechtlicher Verortung sauber zu lösen und nicht bloß über Alltagsverständnis."
+    },
+    {
+      "puzzleId": "de-0428",
+      "difficulty": 47,
+      "rationale": "EU-Institutionen sind grundsätzlich bekannt, aber ihre Sitze, Rollen und Verfahren werden im Alltag häufig verwechselt."
+    }
+  ]
+}

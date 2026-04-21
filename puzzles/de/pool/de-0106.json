@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Urzeit",
     "batch": "de-batch-02",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 50,
+    "gptDifficulty": 47,
+    "gptRationale": "Dinosaur categories are systematic, but many players know the creatures without knowing their scientific subgroup labels."
   },
   "groups": [
     {

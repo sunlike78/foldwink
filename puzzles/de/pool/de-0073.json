@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Apotheke",
     "batch": "de-batch-03",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 31,
+    "gptDifficulty": 28,
+    "gptRationale": "Apotheke vocabulary is common, yet some products could plausibly be read as either medical, cosmetic, or supplemental."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ядовитые растения и грибы",
     "batch": "ru-batch-11",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 40,
+    "gptDifficulty": 48,
+    "gptRationale": "Poisonous plants and fungi are concrete, but severity distinctions and allergy-related items introduce some category fuzziness."
   },
   "groups": [
     {

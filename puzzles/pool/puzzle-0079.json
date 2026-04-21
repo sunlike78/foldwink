@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 40,
+    "gptDifficulty": 48,
+    "gptRationale": "Track-and-field events are concrete and school-familiar, though steeplechase and relay placement add some mild friction."
   }
 }

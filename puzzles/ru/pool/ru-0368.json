@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Оптика: линзы и оптические приборы",
     "batch": "ru-batch-15",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 50,
+    "gptDifficulty": 54,
+    "gptRationale": "Оптика даёт понятные блоки, но фотооптика и коррекция зрения частично тематически пересекаются и вызывают лишние гипотезы."
   },
   "groups": [
     {

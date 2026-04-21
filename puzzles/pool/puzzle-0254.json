@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 60
+    "difficultyScore": 60,
+    "editorialRank": 41,
+    "gptDifficulty": 29,
+    "gptRationale": "The sport families are recognizable, yet several extreme-sport names are less universal and easy to mix by setting rather than activity type."
   },
   "groups": [
     {

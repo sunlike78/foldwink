@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 33,
+    "gptDifficulty": 43,
+    "gptRationale": "Different senses of 'space' are intuitive and distinct enough that this abstract theme resolves fairly cleanly for a typical player."
   },
   "groups": [
     {

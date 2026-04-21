@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Сыры по стране",
     "batch": "ru-batch-04",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 44,
+    "gptDifficulty": 61,
+    "gptRationale": "Базовые сыры знакомы многим, но различение по странам и наличие менее известных сортов заметно повышают сложность."
   },
   "groups": [
     {

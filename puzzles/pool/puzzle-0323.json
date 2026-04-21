@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 68
+    "difficultyScore": 68,
+    "editorialRank": 52,
+    "gptDifficulty": 41,
+    "gptRationale": "The cooking methods are mostly familiar, but distinguishing heat-transfer modes from liquid-medium techniques creates some conceptual friction."
   },
   "groups": [
     {

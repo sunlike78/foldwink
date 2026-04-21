@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Стили и виды плавания",
     "batch": "ru-batch-17",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 48,
+    "gptDifficulty": 62,
+    "gptRationale": "Плавание знакомо многим, но блок с прыжками содержит менее стандартные термины, а последний ряд смешивает смежные водные дисциплины."
   },
   "groups": [
     {

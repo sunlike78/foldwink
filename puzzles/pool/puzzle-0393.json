@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 69
+    "difficultyScore": 69,
+    "editorialRank": 76,
+    "gptDifficulty": 80,
+    "gptRationale": "Scientific laws are all formal eponymous concepts, so the puzzle is heavy on academic recall and low on intuitive sorting cues."
   },
   "groups": [
     {

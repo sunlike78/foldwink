@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 57,
+    "gptDifficulty": 72,
+    "gptRationale": "Viele bedrohte Arten sind deutlich weniger geläufig und verlangen präzises biologisches oder dokumentarisches Vorwissen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Relativitätstheorie",
     "batch": "de-batch-04",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 54,
+    "gptDifficulty": 61,
+    "gptRationale": "SRT, ART, Experimente und Folgerungen sind fachlich sauber, aber für typische Spielende nicht immer sofort trennscharf."
   },
   "groups": [
     {

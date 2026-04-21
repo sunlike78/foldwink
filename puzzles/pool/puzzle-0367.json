@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 64
+    "difficultyScore": 64,
+    "editorialRank": 64,
+    "gptDifficulty": 64,
+    "gptRationale": "Therapy families are semitechnical and acronym-heavy, with several modalities plausibly belonging in more than one cluster."
   },
   "groups": [
     {

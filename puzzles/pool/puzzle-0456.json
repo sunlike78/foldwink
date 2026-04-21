@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 45,
+    "gptDifficulty": 63,
+    "gptRationale": "Cooking methods are learnable, but the French-kitchen framing and technical distinctions between heat/fat/sauce processes raise the precision needed."
   },
   "groups": [
     {

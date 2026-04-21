@@ -5,7 +5,10 @@
   "meta": {
     "theme": "digital",
     "batch": "de-batch-05",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 33,
+    "gptDifficulty": 35,
+    "gptRationale": "Krypto-Themen haben klare Schlagwörter, und die Trennung zwischen Coins, Technologien, Prinzipien und Anwendungen ist relativ offensichtlich."
   },
   "groups": [
     {

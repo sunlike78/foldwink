@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Cast has four clean domains and mostly distinct vocabulary, with only modest ambiguity from shared object-oriented nouns."
   },
   "groups": [
     {

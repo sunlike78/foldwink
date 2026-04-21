@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 53,
+    "gptDifficulty": 60,
+    "gptRationale": "The psychology umbrella is clear, but distinguishing schools, biases, and learning models requires some textbook-style familiarity."
   },
   "groups": [
     {

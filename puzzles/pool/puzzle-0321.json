@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 39,
+    "gptDifficulty": 34,
+    "gptRationale": "The civilization-achievement links are broad and recognizable, though a few items like sexagesimal maths and papyrus add mild knowledge load."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 26,
+    "gptDifficulty": 28,
+    "gptRationale": "The sequence-based Greek-letter blocks are systematic, though players still need enough alphabet recall to place them correctly."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Черты характера через идиомы",
     "batch": "ru-batch-16",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 51,
+    "gptDifficulty": 67,
+    "gptRationale": "Пословицы и идиомы зависят от языковой интуиции, а некоторые выражения менее частотны и могут тянуть в соседние эмоции."
   },
   "groups": [
     {

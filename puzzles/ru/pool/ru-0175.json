@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Разделы биологии",
     "batch": "ru-batch-05",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 41,
+    "gptDifficulty": 59,
+    "gptRationale": "Блоки биологии в целом понятны, но терминология вроде хлоропласта, прионов и даже английского Transpiration повышает порог входа."
   },
   "groups": [
     {

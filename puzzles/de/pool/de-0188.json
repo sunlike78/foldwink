@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Natur",
     "batch": "de-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 37,
+    "gptDifficulty": 45,
+    "gptRationale": "Forstwirtschaft ist noch alltagsnah, aber Fachwörter wie Pflegehieb oder die Einordnung mancher Waldtiere machen es etwas anspruchsvoller."
   },
   "groups": [
     {

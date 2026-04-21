@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Quantenphysik",
     "batch": "de-batch-04",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 49,
+    "gptDifficulty": 58,
+    "gptRationale": "Quantenphysik ist bekannt genug für Mustererkennung, aber Deutungen, Experimente und Personen fordern dennoch solides Fachgefühl."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Единицы измерения расстояния",
     "batch": "ru-batch-20",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 20,
+    "gptDifficulty": 24,
+    "gptRationale": "Единицы расстояния очень легко сортируются по системам измерения, а названия астрономических и старорусских мер достаточно характерны."
   },
   "groups": [
     {

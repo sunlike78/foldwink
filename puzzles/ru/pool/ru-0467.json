@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские композиторы по эпохам",
     "batch": "ru-batch-20",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 49,
+    "gptDifficulty": 61,
+    "gptRationale": "Имена композиторов в целом известны, но разделение по эпохам русской музыки не всегда интуитивно и требует историко-культурной точности."
   },
   "groups": [
     {

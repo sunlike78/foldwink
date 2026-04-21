@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 38,
+    "gptDifficulty": 34,
+    "gptRationale": "The categories are familiar legal domains and most terms are standard textbook examples, so the structure is clearer than average for the tier."
   },
   "groups": [
     {

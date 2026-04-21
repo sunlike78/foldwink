@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 7
+    "difficultyScore": 7,
+    "editorialRank": 41,
+    "gptDifficulty": 64,
+    "gptRationale": "Craft-process categories are coherent, but terms like punty, marver, and weft are less familiar and raise the knowledge burden."
   }
 }

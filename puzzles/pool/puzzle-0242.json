@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 48,
+    "gptDifficulty": 58,
+    "gptRationale": "Wine grapes and regions rely on narrower domain knowledge, making this notably harder than most everyday-category easy puzzles."
   },
   "groups": [
     {

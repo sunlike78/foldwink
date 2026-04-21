@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Языки программирования по сфере применения",
     "batch": "ru-batch-14",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 18,
+    "gptDifficulty": 23,
+    "gptRationale": "Языки программирования и их прикладные группы для типичного современного игрока выглядят весьма прозрачными."
   },
   "groups": [
     {

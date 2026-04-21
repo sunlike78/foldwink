@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 55,
+    "gptDifficulty": 74,
+    "gptRationale": "Rugby verlangt viel sprachliche Präzision bei wenig alltagsbekannten Fachwörtern wie Gasse, Maul und Gedrängehalb."
   },
   "groups": [
     {

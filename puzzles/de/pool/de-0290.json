@@ -5,7 +5,10 @@
   "meta": {
     "theme": "kommunalpolitik",
     "batch": "de-batch-03",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 56,
+    "gptDifficulty": 57,
+    "gptRationale": "Kommunale Ämter und Planungsbegriffe klingen verwaltungsnah und ähnlich, wodurch die Gruppen weniger sofort ins Auge springen."
   },
   "groups": [
     {

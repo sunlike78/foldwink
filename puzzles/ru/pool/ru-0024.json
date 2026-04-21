@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Строительные инструменты",
     "batch": "ru-batch-01",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 47,
+    "gptDifficulty": 52,
+    "gptRationale": "Tool use is concrete, but specific instrument names and overlapping functions make the sorting less obvious than it first appears."
   },
   "groups": [
     {

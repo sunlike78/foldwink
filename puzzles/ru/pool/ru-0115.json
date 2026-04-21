@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды хлеба",
     "batch": "ru-batch-02",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 35,
+    "gptDifficulty": 48,
+    "gptRationale": "Хлебные названия бытовые, но границы между типом муки, добавками и национальной выпечкой не всегда совсем жёсткие."
   },
   "groups": [
     {

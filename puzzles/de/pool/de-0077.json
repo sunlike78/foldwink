@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Büro",
     "batch": "de-batch-03",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 13,
+    "gptDifficulty": 10,
+    "gptRationale": "Office objects and functions are extremely everyday and fall into very obvious buckets."
   },
   "groups": [
     {

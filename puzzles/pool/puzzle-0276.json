@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 43,
+    "gptDifficulty": 52,
+    "gptRationale": "Dessert categories are appealingly clear, but several named desserts are culturally specific and not equally familiar to all solvers."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Расы и народы в мире Толкиена",
     "batch": "ru-batch-13",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 23,
+    "gptDifficulty": 16,
+    "gptRationale": "Лор Толкина массово известен, а расы, места, персонажи и артефакты разделяются очень чисто."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 34,
+    "gptDifficulty": 44,
+    "gptRationale": "Ring is a strong multi-meaning anchor and the category vocabulary is mostly recognizable, keeping the challenge moderate."
   },
   "groups": [
     {

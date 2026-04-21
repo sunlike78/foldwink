@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классификация звёзд",
     "batch": "ru-batch-18",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 67,
+    "gptDifficulty": 68,
+    "gptRationale": "Астрономические классы и типы звёзд часто знакомы только частично, а форматы групп здесь разнородны и могут путать."
   },
   "groups": [
     {

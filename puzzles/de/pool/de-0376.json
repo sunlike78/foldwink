@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Klimawandel",
     "batch": "de-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 23,
+    "gptDifficulty": 22,
+    "gptRationale": "Ursachen, Folgen, Lösungen und Abkommen des Klimawandels sind sehr klar abgegrenzt und weithin bekannt."
   },
   "groups": [
     {

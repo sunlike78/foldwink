@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Вторые блюда",
     "batch": "ru-batch-01",
-    "difficultyScore": 64
+    "difficultyScore": 64,
+    "editorialRank": 54,
+    "gptDifficulty": 47,
+    "gptRationale": "Main-course groupings are sensible, but dish names and ingredient bases are not equally familiar to all players."
   },
   "groups": [
     {

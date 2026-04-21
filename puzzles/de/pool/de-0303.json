@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Stadtspitznamen",
     "batch": "de-batch-04",
-    "difficultyScore": 59
+    "difficultyScore": 59,
+    "editorialRank": 58,
+    "gptDifficulty": 58,
+    "gptRationale": "Städtespitznamen sind stark kultur- und regionalwissensabhängig und mehrere Bezeichnungen wirken auch ohne sichere Stadtzuordnung plausibel."
   },
   "groups": [
     {

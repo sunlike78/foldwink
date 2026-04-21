@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Летние виды спорта",
     "batch": "ru-batch-11",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 27,
+    "gptDifficulty": 25,
+    "gptRationale": "Summer sports categories are familiar and structurally obvious, with only mild overlap between combat-sport labels."
   },
   "groups": [
     {

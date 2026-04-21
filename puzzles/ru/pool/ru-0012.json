@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Фрукты",
     "batch": "ru-batch-01",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 24,
+    "gptDifficulty": 28,
+    "gptRationale": "Fruit categories are common, though semantic precision like stone-fruit versus pome adds some mild classification work."
   },
   "groups": [
     {

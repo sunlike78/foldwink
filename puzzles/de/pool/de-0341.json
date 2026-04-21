@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Netzwerke",
     "batch": "de-batch-04",
-    "difficultyScore": 5
+    "difficultyScore": 5,
+    "editorialRank": 15,
+    "gptDifficulty": 22,
+    "gptRationale": "Netzwerktechnologie auf diesem Niveau nutzt sehr bekannte Begriffe und deutlich getrennte Unterkategorien."
   },
   "groups": [
     {

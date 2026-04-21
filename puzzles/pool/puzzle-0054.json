@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 34,
+    "gptDifficulty": 40,
+    "gptRationale": "Marine life is vivid and concrete, though cephalopods and reef life require a bit more category awareness than basic animal sets."
   }
 }

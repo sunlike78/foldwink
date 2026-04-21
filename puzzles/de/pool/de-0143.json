@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 42,
+    "gptDifficulty": 46,
+    "gptRationale": "Volleyballbegriffe sind meist zugänglich, aber positionsspezifische Rollen und die Überschneidung zwischen Hallen- und Beach-Kontext kosten etwas Zeit."
   },
   "groups": [
     {

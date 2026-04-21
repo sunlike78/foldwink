@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цвета радуги",
     "batch": "ru-batch-01",
-    "difficultyScore": 58
+    "difficultyScore": 58,
+    "editorialRank": 61,
+    "gptDifficulty": 63,
+    "gptRationale": "This one leans on color theory and naming precision, with nonstandard rainbow choices creating notable false-trail pressure."
   },
   "groups": [
     {

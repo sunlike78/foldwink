@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Хоккейные термины",
     "batch": "ru-batch-03",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 43,
+    "gptDifficulty": 50,
+    "gptRationale": "Хоккейная тема довольно ясна, но игровые термины и штрафные ситуации уже требуют наблюдательности и некоторого опыта просмотра."
   },
   "groups": [
     {

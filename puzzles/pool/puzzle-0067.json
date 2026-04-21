@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 40,
+    "gptDifficulty": 57,
+    "gptRationale": "For tech-literate players the sets are fair, but jargon and cross-domain software vocabulary raise the barrier for a typical solver."
   }
 }

@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 38,
+    "gptDifficulty": 38,
+    "gptRationale": "The emotional synonym groups are approachable, though subtle distinctions between wonder, pride, and anticipation can cause brief hesitation."
   },
   "groups": [
     {

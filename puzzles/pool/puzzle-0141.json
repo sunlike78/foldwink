@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 29,
+    "gptDifficulty": 23,
+    "gptRationale": "Vehicle-purpose categories are everyday and visually vivid, so most items sort immediately."
   },
   "groups": [
     {

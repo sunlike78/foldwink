@@ -5,7 +5,10 @@
   "meta": {
     "theme": "landwirtschaft",
     "batch": "de-batch-03",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 48,
+    "gptDifficulty": 64,
+    "gptRationale": "Agrarförderung und Anbauregionen sind ohne spezielles Deutschlandwissen nicht besonders intuitiv und bieten mehrere trockene Verwaltungsbegriffe."
   },
   "groups": [
     {

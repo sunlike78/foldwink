@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Reisemuster verschiedener Passagiere",
     "batch": "de-batch-12",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 33,
+    "gptDifficulty": 30,
+    "gptRationale": "Die Reisetypen sind alltagsnah und verhaltensbasiert klar, nur einige Merkmale wie Handgepäck oder App-Nutzung könnten kurz querpassen."
   },
   "groups": [
     {

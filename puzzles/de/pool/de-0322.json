@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Nibelungen",
     "batch": "de-batch-04",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 34,
+    "gptDifficulty": 43,
+    "gptRationale": "Das Nibelungenlied ist recht ikonisch, sodass Personen und zentrale Motive oft zugänglich bleiben, auch wenn Details etwas Schulwissen verlangen."
   },
   "groups": [
     {

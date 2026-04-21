@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Soziale Phänomene via Manifestationen",
     "batch": "de-batch-11",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 41,
+    "gptDifficulty": 48,
+    "gptRationale": "Die sozialen Phänomene sind verständlich, aber als abstrakte Deutungsmuster statt fester Objektklassen etwas interpretativer zu lösen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 46,
+    "gptDifficulty": 62,
+    "gptRationale": "Dresden kombiniert berühmte Bauwerke mit lokaleren Stadtteilen und historischen Bezügen, was die Kategorien weniger sofort lesbar macht."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Египетские боги и мифы",
     "batch": "ru-batch-18",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 38,
+    "gptDifficulty": 52,
+    "gptRationale": "Египетская мифология многим знакома по именам богов, но распределение некоторых фигур по функциям требует уже не общей, а конкретной памяти."
   },
   "groups": [
     {

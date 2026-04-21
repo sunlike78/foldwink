@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Известные пустыни Земли",
     "batch": "ru-batch-14",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 40,
+    "gptDifficulty": 47,
+    "gptRationale": "Крупные пустыни известны, но полярные варианты и менее популярные названия вроде Данакиля и Такламакана требуют уже неплохой географии."
   },
   "groups": [
     {

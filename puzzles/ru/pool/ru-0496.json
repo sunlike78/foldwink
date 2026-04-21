@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ферментированные продукты питания",
     "batch": "ru-batch-21",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 40,
+    "gptDifficulty": 48,
+    "gptRationale": "Ферментация как идея понятна, но некоторые элементы вроде мисо-супа или пахты не у всех сразу ассоциируются с нужной группой."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wildtiere im Wald",
     "batch": "de-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 40,
+    "gptDifficulty": 48,
+    "gptRationale": "Die Tierwelt ist konkret, aber Reptilien und Insekten enthalten mehrere weniger geläufige Arten, die für Verwechslungen sorgen können."
   },
   "groups": [
     {

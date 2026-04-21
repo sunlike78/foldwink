@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Rockgeschichte",
     "batch": "de-batch-04",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 32,
+    "gptDifficulty": 23,
+    "gptRationale": "Rockgeschichte nach Jahrzehnten ist sehr populär und die Bands bzw. Szenen sind meist klar zeitlich codiert."
   },
   "groups": [
     {

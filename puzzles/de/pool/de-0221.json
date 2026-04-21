@@ -5,7 +5,10 @@
   "meta": {
     "theme": "grimm-figuren",
     "batch": "de-batch-03",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 24,
+    "gptDifficulty": 16,
+    "gptRationale": "Grimm-Figuren sind extrem vertraut, die Gruppen sind konkret und es gibt kaum kulturelle oder sprachliche Stolpersteine."
   },
   "groups": [
     {

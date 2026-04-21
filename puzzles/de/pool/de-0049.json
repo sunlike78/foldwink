@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Hamburg Sehenswürdigkeiten",
     "batch": "de-batch-02",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 49,
+    "gptDifficulty": 50,
+    "gptRationale": "Hamburg-Kategorien sind klar, aber mehrere Sehenswürdigkeiten sind für Nicht-Ortskundige weniger selbstverständlich als bei Berlin."
   },
   "groups": [
     {

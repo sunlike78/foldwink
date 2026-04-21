@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Machtstrukturen durch historische Phänomene",
     "batch": "de-batch-11",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 34,
+    "gptDifficulty": 41,
+    "gptRationale": "The political categories are distinct and coherent, though collaboration and propaganda can create a few authoritarian-regime false trails."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gastronomie",
     "batch": "de-batch-04",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 58,
+    "gptDifficulty": 67,
+    "gptRationale": "Viele französische Fachbegriffe wirken ähnlich elitär und erzeugen starke Verwechslungsgefahr zwischen Technik, Service und Brigade."
   },
   "groups": [
     {

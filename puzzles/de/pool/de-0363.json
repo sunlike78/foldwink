@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Architektur",
     "batch": "de-batch-04",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Architekturelemente sind zwar gut clustert, aber einige Fachwörter sind nicht alltagssprachlich und brauchen visuelles Vorwissen."
   },
   "groups": [
     {

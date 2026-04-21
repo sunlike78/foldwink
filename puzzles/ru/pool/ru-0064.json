@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Планеты Солнечной системы",
     "batch": "ru-batch-01",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "The top-level astronomy categories are clear, but moon names and dwarf planets require specific factual recall."
   },
   "groups": [
     {

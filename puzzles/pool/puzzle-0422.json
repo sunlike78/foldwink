@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 59,
+    "gptDifficulty": 69,
+    "gptRationale": "Famous buildings help, but mapping them accurately to architectural movements requires solid art-history knowledge and tolerating mixed labels."
   },
   "groups": [
     {

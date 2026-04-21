@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 17,
+    "gptDifficulty": 17,
+    "gptRationale": "The sound-action synonym groups are familiar and direct, with only light ambiguity at the edges."
   }
 }

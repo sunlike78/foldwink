@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Телескопы и обсерватории",
     "batch": "ru-batch-21",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 43,
+    "gptDifficulty": 54,
+    "gptRationale": "Телескопы и обсерватории в целом знакомы, но приборы и конкретные астрономические объекты уже требуют более специального знания."
   },
   "groups": [
     {

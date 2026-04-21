@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 56,
+    "gptDifficulty": 82,
+    "gptRationale": "Heraldry vocabulary is niche and highly technical, with little everyday intuition to help separate the subtypes."
   },
   "groups": [
     {

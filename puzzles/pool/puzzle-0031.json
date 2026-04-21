@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 39,
+    "gptDifficulty": 58,
+    "gptRationale": "World currencies and conifers are noticeably more knowledge-based than typical easy-tier material, despite the everyday wrapper."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Русские поэты по эпохе",
     "batch": "ru-batch-05",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Крупные поэты и эпохи довольно стандартны для русскоязычной аудитории, хотя часть границ между периодами может путать."
   },
   "groups": [
     {

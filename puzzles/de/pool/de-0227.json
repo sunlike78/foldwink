@@ -5,7 +5,10 @@
   "meta": {
     "theme": "volksagen",
     "batch": "de-batch-03",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Volksagen sind noch konkret, aber regionale Sagenmotive und leicht poetische Begriffe erhöhen den Interpretationsanteil."
   },
   "groups": [
     {

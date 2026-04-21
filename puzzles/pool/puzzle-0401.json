@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 22,
+    "gptDifficulty": 18,
+    "gptRationale": "The UK word groups are highly familiar and concrete, with straightforward topical buckets and minimal ambiguity."
   },
   "groups": [
     {

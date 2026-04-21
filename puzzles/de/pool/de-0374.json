@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Diplomatie",
     "batch": "de-batch-04",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 54,
+    "gptDifficulty": 63,
+    "gptRationale": "Diplomatievokabular ist homogen und teils historisch aufgeladen, wodurch Personen, Verträge und Fachbegriffe leicht falsche Fährten legen."
   },
   "groups": [
     {

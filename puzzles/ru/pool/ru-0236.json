@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Птицы по среде обитания",
     "batch": "ru-batch-08",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Часть птиц знакома плохо, а экосистемные группы не всегда интуитивны для неспециалиста, что делает задачу заметно выше средней."
   },
   "groups": [
     {

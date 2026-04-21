@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 58,
+    "gptDifficulty": 72,
+    "gptRationale": "Rocket-family grouping is fairly specialized, and several items require aerospace knowledge to separate agencies and launch families cleanly."
   },
   "groups": [
     {

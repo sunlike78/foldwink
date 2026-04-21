@@ -5,7 +5,10 @@
   "meta": {
     "theme": "geschichte",
     "batch": "de-batch-05",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 54,
+    "gptDifficulty": 72,
+    "gptRationale": "Hier mischen sich historische, kulturelle und symbolische Ebenen, wodurch einige Begriffe ohne Kaiserreich-Kontext recht abstrakt wirken."
   },
   "groups": [
     {

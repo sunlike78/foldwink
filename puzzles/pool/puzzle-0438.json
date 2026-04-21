@@ -8,7 +8,10 @@
     "categoryType": "word-pattern",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 73
+    "difficultyScore": 73,
+    "editorialRank": 44,
+    "gptDifficulty": 24,
+    "gptRationale": "The repeated HAND construction makes the wordplay structure easy to spot, and the categories are broad everyday English."
   },
   "groups": [
     {

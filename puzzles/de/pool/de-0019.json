@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Blumen und Pflanzen",
     "batch": "de-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 30,
+    "gptDifficulty": 34,
+    "gptRationale": "Pflanzenkategorien sind gut greifbar, doch einzelne Arten könnten je nach Erfahrung auch als Garten-, Zimmer- oder Wildpflanze gelesen werden."
   },
   "groups": [
     {

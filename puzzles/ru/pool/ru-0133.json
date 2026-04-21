@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Природные явления",
     "batch": "ru-batch-03",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 45,
+    "gptDifficulty": 57,
+    "gptRationale": "Природные явления узнаваемы, но многие из них легко ассоциируются сразу с несколькими средами, особенно атмосферные и морские."
   },
   "groups": [
     {

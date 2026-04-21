@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Психология",
     "batch": "ru-batch-06",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 50,
+    "gptDifficulty": 52,
+    "gptRationale": "Психологические термины звучат знакомо, но абстрактность категорий и тематическая близость между ними создают устойчивые ложные ходы."
   },
   "groups": [
     {

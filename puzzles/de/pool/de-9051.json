@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Seemannsverhalten und nautische Praxis",
     "batch": "de-batch-12",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 59,
+    "gptDifficulty": 79,
+    "gptRationale": "Nautical operations use dense seamanship terminology, making this one notably harder unless the solver already knows sailing language."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 51,
+    "gptDifficulty": 65,
+    "gptRationale": "A few names are famous, but sorting psychologists by school requires real subject knowledge rather than surface recognition."
   },
   "groups": [
     {

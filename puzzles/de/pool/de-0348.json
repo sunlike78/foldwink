@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kosmologie",
     "batch": "de-batch-04",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 52,
+    "gptDifficulty": 63,
+    "gptRationale": "Kosmologie ist begrifflich abstrakt und mehrere Konzepte liegen für Laien nah beieinander, besonders bei dunkler Materie und Multiversum."
   },
   "groups": [
     {

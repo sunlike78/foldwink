@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Тюркские народы и их культура",
     "batch": "ru-batch-14",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 50,
+    "gptDifficulty": 71,
+    "gptRationale": "Тема требует этнографической точности, а культурный блок рядом с этническими группами создаёт дополнительные ложные ассоциации."
   },
   "groups": [
     {

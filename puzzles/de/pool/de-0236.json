@@ -5,7 +5,10 @@
   "meta": {
     "theme": "fantasy",
     "batch": "de-batch-03",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 26,
+    "gptDifficulty": 19,
+    "gptRationale": "Fantasy-Literatur arbeitet mit hochvertrauten Namen und prototypischen Figurenklassen, was die Sortierung sehr direkt macht."
   },
   "groups": [
     {

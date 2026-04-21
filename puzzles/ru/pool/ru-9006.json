@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Природные явления через метафоры",
     "batch": "ru-batch-16",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 57,
+    "gptDifficulty": 72,
+    "gptRationale": "Здесь много метафорических выражений, которые лишь косвенно связаны со стихиями, поэтому ложных ассоциаций особенно много."
   },
   "groups": [
     {

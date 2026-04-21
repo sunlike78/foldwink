@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 46,
+    "gptDifficulty": 63,
+    "gptRationale": "Card and tabletop game families are recognizable, but genre boundaries and the inclusion of Mahjong create notable category confusion."
   },
   "groups": [
     {

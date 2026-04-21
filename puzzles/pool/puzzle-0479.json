@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 68,
+    "gptDifficulty": 86,
+    "gptRationale": "This combines etymology with category sorting, and several words are familiar in English without most players knowing their Nahuatl origin."
   },
   "groups": [
     {

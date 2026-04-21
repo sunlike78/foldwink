@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Города России",
     "batch": "ru-batch-01",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 25,
+    "gptDifficulty": 24,
+    "gptRationale": "Города очень узнаваемые, а региональные группы в основном очевидны даже без глубокого знания географии."
   },
   "groups": [
     {

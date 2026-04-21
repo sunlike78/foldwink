@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 38,
+    "gptDifficulty": 52,
+    "gptRationale": "Human-body system groupings are logical, but the labels are slightly abstract and some organs or structures feel less obviously assigned."
   }
 }

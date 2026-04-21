@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Getränke",
     "batch": "de-batch-01",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 22,
+    "gptDifficulty": 19,
+    "gptRationale": "Getränkearten sind alltäglich und meist sofort erkennbar, mit nur kleinen Überschneidungen zwischen heiß/kalt und alkoholisch/nichtalkoholisch."
   },
   "groups": [
     {

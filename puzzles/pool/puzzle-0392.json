@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 56,
+    "gptDifficulty": 59,
+    "gptRationale": "Timekeeping is a concrete theme, yet the final category mixes calendar and astronomical terminology in a less straightforward way."
   },
   "groups": [
     {

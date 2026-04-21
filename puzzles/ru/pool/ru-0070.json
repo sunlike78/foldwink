@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Озёра России",
     "batch": "ru-batch-01",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 52,
+    "gptDifficulty": 61,
+    "gptRationale": "Озёра России заметно менее массово известны, а часть названий выглядит специализированно и потому усложняет сортировку."
   },
   "groups": [
     {

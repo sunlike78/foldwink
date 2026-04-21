@@ -5,7 +5,10 @@
   "meta": {
     "theme": "politik",
     "batch": "de-batch-05",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 45,
+    "gptDifficulty": 58,
+    "gptRationale": "Die Kategorien sind sauber getrennt, aber viele Begriffe setzen recht spezifisches NATO-Sachwissen voraus und klingen für Laien ähnlich technisch."
   },
   "groups": [
     {

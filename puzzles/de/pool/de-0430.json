@@ -5,7 +5,10 @@
   "meta": {
     "theme": "politik",
     "batch": "de-batch-05",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Mehrere bekannte Abkommen helfen, doch die Nähe zwischen Völkerrecht, Menschenrechten und internationaler Politik erzeugt plausible Fehlzuordnungen."
   },
   "groups": [
     {

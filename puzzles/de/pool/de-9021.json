@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Lebenshaltungen durch Alltagsbilder",
     "batch": "de-batch-11",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 33,
+    "gptDifficulty": 34,
+    "gptRationale": "The philosophies are common enough and the clue language is direct, though nihilism and pragmatism can briefly blur at first glance."
   },
   "groups": [
     {

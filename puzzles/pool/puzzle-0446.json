@@ -8,7 +8,10 @@
     "categoryType": "geography",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 27,
+    "gptDifficulty": 24,
+    "gptRationale": "Major mountain ranges by continent are broadly familiar and geographically cleanly separated."
   },
   "groups": [
     {

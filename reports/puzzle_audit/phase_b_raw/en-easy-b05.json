@@ -1,0 +1,745 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 4,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "puzzle-0432",
+    "puzzle-0433",
+    "puzzle-0434",
+    "puzzle-0435",
+    "puzzle-0436",
+    "puzzle-0437",
+    "puzzle-0438",
+    "puzzle-0439",
+    "puzzle-0440",
+    "puzzle-0441",
+    "puzzle-0442",
+    "puzzle-0443",
+    "puzzle-0456",
+    "puzzle-0457",
+    "puzzle-0458",
+    "puzzle-0459",
+    "puzzle-0460",
+    "puzzle-0461",
+    "puzzle-0462",
+    "puzzle-0463",
+    "puzzle-0464",
+    "puzzle-0465",
+    "puzzle-0466",
+    "puzzle-0467",
+    "puzzle-0468",
+    "puzzle-0481",
+    "puzzle-0482",
+    "puzzle-0483",
+    "puzzle-0484",
+    "puzzle-0485",
+    "puzzle-0486",
+    "puzzle-0487"
+  ],
+  "elapsedSec": 115,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0432",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle relies on specialized cricket vocabulary such as Doosra, Googly, Gully, and Mid-On. That is likely too domain-specific for an easy puzzle unless the pool expects cricket literacy.",
+      "items": [
+        "Doosra",
+        "Googly",
+        "Gully",
+        "Mid-On"
+      ],
+      "groups": [
+        "FIELDING POSITIONS",
+        "DELIVERY TYPES"
+      ],
+      "suggestedFix": "Move to a harder tier or replace with more globally familiar sports terms."
+    },
+    {
+      "puzzleId": "puzzle-0433",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Egyptian deities often have overlapping domains, and several listed items can reasonably fit more than one category. Isis is strongly associated with magic as well as protection; Hathor has sky/solar associations; Neith can be associated with sky/creation/war/protection. This makes the grouping unfair.",
+      "items": [
+        "Isis",
+        "Hathor",
+        "Neith"
+      ],
+      "groups": [
+        "SUN / SKY GODS",
+        "KNOWLEDGE / MAGIC",
+        "PROTECTIVE GODDESSES"
+      ],
+      "suggestedFix": "Use deities with single, widely recognized domains, or change the theme to more concrete labels such as symbols, animals, or famous myths."
+    },
+    {
+      "puzzleId": "puzzle-0433",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Sokar, Kherty, Heka, Seshat, Sia, and several domain distinctions are obscure for an easy puzzle.",
+      "items": [
+        "Sokar",
+        "Kherty",
+        "Heka",
+        "Seshat",
+        "Sia"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use only the most familiar Egyptian gods with very broad categories."
+    },
+    {
+      "puzzleId": "puzzle-0434",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Individual Medley is not a relay event; it is an individual swimming event.",
+      "items": [
+        "Individual Medley"
+      ],
+      "groups": [
+        "POOL EVENTS (RELAY)"
+      ],
+      "suggestedFix": "Replace Individual Medley with a true relay event such as 4x100 Freestyle Relay or 4x100 Medley Relay."
+    },
+    {
+      "puzzleId": "puzzle-0435",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several Monopoly properties are assigned to the wrong color groups. Oriental Ave and Vermont Ave are light blue, not purple/brown; Pacific Ave and North Carolina Ave are green, not dark blue.",
+      "items": [
+        "Oriental Ave",
+        "Vermont Ave",
+        "Pacific Ave",
+        "North Carolina Ave"
+      ],
+      "groups": [
+        "PURPLE PROPERTIES",
+        "DARK BLUE PROPERTIES"
+      ],
+      "suggestedFix": "Use Mediterranean Ave, Baltic Ave, and two correctly named properties only if the intended group is not the standard U.S. Monopoly color set; otherwise make PURPLE/BROWN a 2-item concept impossible for this format and choose another group."
+    },
+    {
+      "puzzleId": "puzzle-0436",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The ingredient/type categories overlap with sushi form categories. Shrimp Nigiri and Eel Nigiri are effectively ebi/unagi nigiri, while Ebi and Unagi are cooked sushi toppings that can appear as nigiri. Cooked sushi is not mutually exclusive with nigiri, maki, or temaki.",
+      "items": [
+        "Shrimp Nigiri",
+        "Eel Nigiri",
+        "Ebi",
+        "Unagi"
+      ],
+      "groups": [
+        "NIGIRI",
+        "COOKED SUSHI"
+      ],
+      "suggestedFix": "Keep all categories at the same level, e.g. sushi forms only, or toppings only; do not mix form and ingredient/cooked-status labels."
+    },
+    {
+      "puzzleId": "puzzle-0437",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "This is highly cuisine-specific for easy. Rajma Masala, Chettinad Masala, Rasam Powder, Idli Podi, tadka, and asafoetida are not everyday English easy-tier items for many players.",
+      "items": [
+        "Rajma Masala",
+        "Chettinad Masala",
+        "Rasam Powder",
+        "Idli Podi",
+        "Asafoetida"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use broader, more familiar spice categories."
+    },
+    {
+      "puzzleId": "puzzle-0438",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several entries in the prefix/suffix groups are also idiomatic expressions, which blurs the intended distinction. Firsthand, Backhand, Shorthand, and Underhand are not simply suffix compounds in the same way as Hand Saw; they are lexicalized words with figurative or specialized meanings.",
+      "items": [
+        "Firsthand",
+        "Backhand",
+        "Shorthand",
+        "Underhand"
+      ],
+      "groups": [
+        "___ + HAND (SUFFIX)",
+        "HAND IDIOMS"
+      ],
+      "suggestedFix": "Use clearer suffix compounds that are concrete nouns, or separate all entries by idiom versus compound without mixing lexicalized meanings."
+    },
+    {
+      "puzzleId": "puzzle-0439",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Rapid Fire can be a compound ending in Fire and also an idiomatic/adjectival expression, while Fight Fire is usually only part of the longer idiom 'fight fire with fire'. The suffix and idiom categories are not cleanly separated.",
+      "items": [
+        "Rapid Fire",
+        "Fight Fire"
+      ],
+      "groups": [
+        "___ + FIRE (SUFFIX)",
+        "FIRE IDIOMS"
+      ],
+      "suggestedFix": "Replace Rapid Fire with a less idiomatic fire-ending compound and use complete idioms such as 'Fight Fire With Fire' if idioms are intended."
+    },
+    {
+      "puzzleId": "puzzle-0440",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "All four groups are about blended words or portmanteaus, but two labels use the same concept at different levels: 'Food Portmanteaus', 'Tech Portmanteaus', and 'Modern Culture Blends' are semantic-domain labels, while 'Animal Blends' is ambiguous between hybrid animals and blended words. The category basis shifts from word formation to biological hybrids.",
+      "items": [
+        "Liger",
+        "Mule",
+        "Zorse",
+        "Wholphin"
+      ],
+      "groups": [
+        "ANIMAL BLENDS",
+        "FOOD PORTMANTEAUS",
+        "TECH PORTMANTEAUS",
+        "MODERN CULTURE BLENDS"
+      ],
+      "suggestedFix": "Rename ANIMAL BLENDS to 'HYBRID ANIMALS' and avoid presenting it as parallel to portmanteau word groups, or make all groups word-blend categories."
+    },
+    {
+      "puzzleId": "puzzle-0440",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Mule is a hybrid animal but not a portmanteau or lexical blend. It breaks the apparent word-blend theme.",
+      "items": [
+        "Mule"
+      ],
+      "groups": [
+        "ANIMAL BLENDS"
+      ],
+      "suggestedFix": "Replace Mule with a true animal-name blend such as Coywolf or Beefalo, if the intended category is blended animal names."
+    },
+    {
+      "puzzleId": "puzzle-0441",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Swoosh is not specifically a water sound; it is a general movement/air sound and could fit impact or other sound categories depending on context. Splash is also impact-with-water, so WATER SOUNDS and IMPACT SOUNDS have some conceptual bleed.",
+      "items": [
+        "Swoosh",
+        "Splash"
+      ],
+      "groups": [
+        "WATER SOUNDS",
+        "IMPACT SOUNDS"
+      ],
+      "suggestedFix": "Replace Swoosh with a more water-specific sound such as Ripple or Babble."
+    },
+    {
+      "puzzleId": "puzzle-0442",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Metroidvania is typically an action-adventure/platforming genre, so it overlaps with ACTION / COMBAT rather than being cleanly only narrative/adventure. Walking Simulator is also a loose, contested genre label.",
+      "items": [
+        "Metroidvania",
+        "Walking Simulator"
+      ],
+      "groups": [
+        "ACTION / COMBAT",
+        "NARRATIVE / ADVENTURE"
+      ],
+      "suggestedFix": "Use clearer adventure labels such as Graphic Adventure, Text Adventure, Hidden Object, and Interactive Fiction."
+    },
+    {
+      "puzzleId": "puzzle-0443",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The mushroom categories are not mutually exclusive. Oyster and Shiitake are prized edibles as well as supermarket mushrooms; Lion's Mane is edible and commonly sold; False Morel can be eaten in some traditions but is also toxic/misleading. Truffle is not a mushroom in the ordinary cap-and-stem sense, though it is a fungus.",
+      "items": [
+        "Oyster",
+        "Shiitake",
+        "Lion's Mane",
+        "False Morel",
+        "Truffle"
+      ],
+      "groups": [
+        "PRIZED EDIBLES",
+        "SUPERMARKET MUSHROOMS",
+        "TOXIC MUSHROOMS",
+        "MEDICINAL MUSHROOMS"
+      ],
+      "suggestedFix": "Use non-overlapping labels such as 'common grocery names', 'deadly/toxic names', 'medicinal supplement names', and 'luxury culinary fungi', with carefully chosen items."
+    },
+    {
+      "puzzleId": "puzzle-0456",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several cooking techniques cross the listed heat-medium labels. Baste and Render are actions rather than cooking methods parallel to Confit and Deep-Fry; Braise uses both moist and dry heat; Blanch can be preparatory rather than a cooking category. The categories are not clean single-concept buckets.",
+      "items": [
+        "Braise",
+        "Baste",
+        "Render",
+        "Blanch"
+      ],
+      "groups": [
+        "MOIST HEAT",
+        "FAT-BASED"
+      ],
+      "suggestedFix": "Use clearer technique families with parallel labels, or replace Baste/Render with unambiguous fat-cooking methods."
+    },
+    {
+      "puzzleId": "puzzle-0457",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The bread-process categories mix phases, actions, and outcomes. Fold commonly happens during bulk proofing but is also a dough-handling/mixing action; Pre-Shape and Final Shape are shaping steps, not proofing; Bloom and Crust are results of baking, not baking actions; Rest can occur before proofing, after shaping, or after baking.",
+      "items": [
+        "Fold",
+        "Pre-Shape",
+        "Final Shape",
+        "Bloom",
+        "Crust",
+        "Rest"
+      ],
+      "groups": [
+        "MIXING",
+        "PROOFING",
+        "BAKING",
+        "COOLING"
+      ],
+      "suggestedFix": "Use a chronological process with unambiguous stages, or rename groups to actions/results and choose items consistently."
+    },
+    {
+      "puzzleId": "puzzle-0458",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Fermentation categories overlap by biochemical process. Kombucha and Tepache include alcoholic and acetic/lactic fermentation components; Soy Sauce, Miso, and Doenjang involve molds plus other microbial fermentation; Shrub is usually vinegar-based syrup rather than necessarily a fermented food itself.",
+      "items": [
+        "Kombucha",
+        "Tepache",
+        "Soy Sauce",
+        "Miso",
+        "Doenjang",
+        "Shrub"
+      ],
+      "groups": [
+        "ALCOHOLIC",
+        "ACETIC ACID",
+        "MOULD-FERMENTED"
+      ],
+      "suggestedFix": "Use product-type categories rather than fermentation chemistry, or choose examples with one dominant, commonly taught fermentation type."
+    },
+    {
+      "puzzleId": "puzzle-0459",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "NVMe is a storage interface/protocol, not a storage device like SSD/HDD/eMMC. Cache and ROM can be memory, but cache is often part of processors and ROM is storage-like in ordinary computer terminology. PCIe and Thunderbolt are buses/interfaces rather than connectivity devices like NIC or USB Hub.",
+      "items": [
+        "NVMe",
+        "Cache",
+        "ROM",
+        "PCIe",
+        "Thunderbolt"
+      ],
+      "groups": [
+        "STORAGE",
+        "MEMORY",
+        "CONNECTIVITY"
+      ],
+      "suggestedFix": "Keep categories parallel: hardware components only, protocols/interfaces only, or consumer-visible parts only."
+    },
+    {
+      "puzzleId": "puzzle-0460",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The OSI-layer mapping is not clean. Bandwidth and Latency are cross-layer performance measures, not specifically physical-layer items; TLS is usually above transport/session/presentation rather than application in strict OSI terms; Gateway can be used generically across layers; Switches can operate beyond layer 2 in common usage.",
+      "items": [
+        "Bandwidth",
+        "Latency",
+        "TLS",
+        "Gateway",
+        "Switch"
+      ],
+      "groups": [
+        "PHYSICAL LAYER",
+        "DATA LINK LAYER",
+        "NETWORK LAYER",
+        "APPLICATION LAYER"
+      ],
+      "suggestedFix": "Use canonical OSI examples only, or avoid strict layer labels for easy-tier networking."
+    },
+    {
+      "puzzleId": "puzzle-0461",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "The surgical terminology is far beyond easy-tier everyday knowledge. Laparotomy, thoracotomy, sternotomy, hysteroscopy, palatoplasty, and transplant organ shorthand are specialized medical terms.",
+      "items": [
+        "Laparotomy",
+        "Thoracotomy",
+        "Sternotomy",
+        "Hysteroscopy",
+        "Palatoplasty"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a much harder tier or use broad everyday medical categories."
+    },
+    {
+      "puzzleId": "puzzle-0462",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "IONISING RADIATION and NUCLEAR MEDICINE overlap conceptually. PET Scan uses ionising radiation and is also a nuclear medicine modality; SPECT, Scintigraphy, Bone Scan, and Thyroid Scan also involve ionising radiation.",
+      "items": [
+        "PET Scan",
+        "SPECT",
+        "Scintigraphy",
+        "Bone Scan",
+        "Thyroid Scan"
+      ],
+      "groups": [
+        "IONISING RADIATION",
+        "NUCLEAR MEDICINE"
+      ],
+      "suggestedFix": "Separate by imaging modality labels such as X-ray-based, MRI-based, ultrasound-based, and nuclear medicine, and move PET Scan to nuclear medicine."
+    },
+    {
+      "puzzleId": "puzzle-0462",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "HIFU is a therapeutic ultrasound technique, not primarily an imaging method like the others in this puzzle.",
+      "items": [
+        "HIFU"
+      ],
+      "groups": [
+        "SOUND-BASED"
+      ],
+      "suggestedFix": "Replace HIFU with Sonogram or Elastography."
+    },
+    {
+      "puzzleId": "puzzle-0463",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Philosopher-school classification with names such as Wolff, Sidgwick, and Smart is too academic for easy.",
+      "items": [
+        "Wolff",
+        "Sidgwick",
+        "Smart"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more broadly recognized philosophy terms."
+    },
+    {
+      "puzzleId": "puzzle-0464",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Chinese Room is usually a philosophy of mind / AI thought experiment, not metaphysics. Utility Monster is normally associated with ethics/utilitarianism, not political philosophy. Desert Island is too vague to identify a specific political-philosophy thought experiment.",
+      "items": [
+        "Chinese Room",
+        "Utility Monster",
+        "Desert Island"
+      ],
+      "groups": [
+        "METAPHYSICS",
+        "POLITICAL PHILOSOPHY"
+      ],
+      "suggestedFix": "Move Chinese Room to a mind/AI category, Utility Monster to ethics/utilitarianism, and replace Desert Island with a recognized political philosophy item."
+    },
+    {
+      "puzzleId": "puzzle-0464",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several thought experiments span multiple philosophical subfields. Experience Machine and Utility Monster are closely tied to utilitarian ethics; Brain in a Vat and Evil Demon are epistemology but also metaphysics/mind-adjacent; Fission Case is personal identity/metaphysics but overlaps philosophy of mind.",
+      "items": [
+        "Experience Machine",
+        "Utility Monster",
+        "Brain in a Vat",
+        "Evil Demon",
+        "Fission Case"
+      ],
+      "groups": [
+        "ETHICS",
+        "EPISTEMOLOGY",
+        "METAPHYSICS",
+        "POLITICAL PHILOSOPHY"
+      ],
+      "suggestedFix": "Use more introductory and clearly field-specific examples, or raise the tier."
+    },
+    {
+      "puzzleId": "puzzle-0465",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Artemis I was uncrewed, so it does not belong in CREWED EXPLORATION. Curiosity and Perseverance are rovers rather than landers. Cassini was primarily an orbiter/probe, not a flyby mission in the same sense as Voyager/New Horizons/Pioneer.",
+      "items": [
+        "Artemis I",
+        "Curiosity",
+        "Perseverance",
+        "Cassini"
+      ],
+      "groups": [
+        "CREWED EXPLORATION",
+        "ROBOTIC LANDERS",
+        "FLYBY / PROBE"
+      ],
+      "suggestedFix": "Replace Artemis I with a crewed mission, rename ROBOTIC LANDERS to 'Mars/Titan Surface Missions' or use true landers, and rename Cassini's group to probes/orbiters."
+    },
+    {
+      "puzzleId": "puzzle-0466",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "War is usually a comparing/shedding-style children's card game rather than a banking game. Mahjong is commonly tile-based and not a rummy card game in ordinary English usage, even though it has matching/set collection elements.",
+      "items": [
+        "War",
+        "Mahjong"
+      ],
+      "groups": [
+        "MATCHING / RUMMY",
+        "BANKING"
+      ],
+      "suggestedFix": "Replace War with a clearer banking/casino game and Mahjong with a card-game item that is unambiguously rummy-like."
+    },
+    {
+      "puzzleId": "puzzle-0467",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several Yiddish-derived words are assigned to categories they do not fit. Nosh means to snack/eat, not talk/socialize; Schmaltz means rendered fat or excessive sentimentality, not wisdom/praise; Schlep means to drag/carry or a tedious journey, not wisdom/praise; Schpiel means a speech/pitch, not praise.",
+      "items": [
+        "Nosh",
+        "Schmaltz",
+        "Schpiel",
+        "Schlep"
+      ],
+      "groups": [
+        "TALK / SOCIALISE",
+        "WISDOM / PRAISE"
+      ],
+      "suggestedFix": "Move Nosh to food/eating and replace the WISDOM / PRAISE group with accurately matched terms such as Maven, Mazel tov, Naches, and Kvell if appropriate."
+    },
+    {
+      "puzzleId": "puzzle-0467",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Lox and Borscht are culturally associated with Jewish cuisine but are not Yiddish words in the same way as many of the other entries, so the theme basis is inconsistent.",
+      "items": [
+        "Lox",
+        "Borscht"
+      ],
+      "groups": [
+        "FOOD"
+      ],
+      "suggestedFix": "Clarify the label as Jewish/Yiddish-associated food, or use food words with clearer Yiddish lexical status."
+    },
+    {
+      "puzzleId": "puzzle-0468",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Taklamakan is an Asian desert, not a polar/cold desert in the same geographic grouping. Great Basin is American, not polar, though it is a cold desert. The POLAR / COLD label mixes climate and location while the other labels are continents.",
+      "items": [
+        "Taklamakan",
+        "Great Basin"
+      ],
+      "groups": [
+        "ASIAN",
+        "AMERICAN",
+        "POLAR / COLD"
+      ],
+      "suggestedFix": "Keep all groups geographic, moving Taklamakan to Asia and Great Basin to America, or make all groups climate/type-based."
+    },
+    {
+      "puzzleId": "puzzle-0481",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Marie Curie won the Nobel Prize in Physics and Chemistry, so she belongs in Physics here, but Francis Crick won the Nobel Prize in Physiology or Medicine, not a separate 'Medicine Prize' in the common shorthand sense is acceptable. The larger issue is that Marie Curie also won Chemistry, creating possible cross-Nobel ambiguity if categories are strict prize fields beyond the listed ones.",
+      "items": [
+        "Marie Curie"
+      ],
+      "groups": [
+        "NOBEL PHYSICS PRIZE"
+      ],
+      "suggestedFix": "Consider replacing Marie Curie with a Physics-only laureate to avoid cross-prize ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0482",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Pu'u 'O'o is a volcanic cone/vent on Kilauea but is not usually classified as a standalone cinder cone volcano in the same way as Paricutin, Cerro Negro, or Sunset Crater. Lassen Peak is commonly described as a lava dome/plug dome, but Novarupta is a lava dome from an eruption rather than a volcano name parallel to the others.",
+      "items": [
+        "Pu'u 'O'o",
+        "Novarupta"
+      ],
+      "groups": [
+        "CINDER CONE VOLCANOES",
+        "LAVA DOME VOLCANOES"
+      ],
+      "suggestedFix": "Use widely accepted examples for each volcano type."
+    },
+    {
+      "puzzleId": "puzzle-0482",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Volcano morphology examples such as Cerro Negro, Pu'u 'O'o, Soufriere Hills, and Novarupta are specialized for easy-tier play.",
+      "items": [
+        "Cerro Negro",
+        "Pu'u 'O'o",
+        "Soufriere Hills",
+        "Novarupta"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use famous volcanoes grouped by continent/location."
+    },
+    {
+      "puzzleId": "puzzle-0483",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Four Seasons is a set of violin concertos, but the item name is less formally parallel than the others and could be recognized as a general work title rather than a concerto title. Violin Concerto in D is ambiguous because multiple composers have famous violin concertos in D major.",
+      "items": [
+        "Four Seasons",
+        "Violin Concerto in D"
+      ],
+      "groups": [
+        "CONCERTOS"
+      ],
+      "suggestedFix": "Use composer-qualified titles such as Vivaldi's Four Seasons and Tchaikovsky Violin Concerto, or choose less ambiguous concerto names."
+    },
+    {
+      "puzzleId": "puzzle-0483",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "Spring Sonata and Kreutzer Sonata are harder classical-music references for easy unless the target audience is expected to know classical repertoire nicknames.",
+      "items": [
+        "Kreutzer Sonata",
+        "Spring Sonata"
+      ],
+      "groups": [
+        "SONATAS"
+      ],
+      "suggestedFix": "Move to medium/hard or use better-known titles with composer names."
+    },
+    {
+      "puzzleId": "puzzle-0484",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Dead Weight is not a standard high-camp logistics term in mountaineering parallel to Bivouac, Base Camp, and Cache.",
+      "items": [
+        "Dead Weight"
+      ],
+      "groups": [
+        "HIGH-CAMP LOGISTICS"
+      ],
+      "suggestedFix": "Replace Dead Weight with Load Carry, Depot, Camp I, or another recognized logistics term."
+    },
+    {
+      "puzzleId": "puzzle-0484",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Base Camp is not usually a high camp; it is the staging camp below higher camps. Rotation and Rest Day are logistics/acclimatization schedule terms, while Altitude Sickness and Hypoxia are conditions rather than acclimatization actions.",
+      "items": [
+        "Base Camp",
+        "Rotation",
+        "Rest Day",
+        "Altitude Sickness",
+        "Hypoxia"
+      ],
+      "groups": [
+        "ACCLIMATIZATION",
+        "HIGH-CAMP LOGISTICS"
+      ],
+      "suggestedFix": "Rename groups to separate conditions, schedule tactics, gear, and hazards, or choose items with matching grammatical roles."
+    },
+    {
+      "puzzleId": "puzzle-0485",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The groups are continents, but 'THE AMERICAS' combines North and South America while the other groups are single continents. This is not inherently unfair, but it is less parallel than the rest.",
+      "items": [
+        "Machu Picchu",
+        "Chichen Itza",
+        "Statue of Liberty",
+        "Christ the Redeemer"
+      ],
+      "groups": [
+        "THE AMERICAS"
+      ],
+      "suggestedFix": "Rename all labels as broad regions, or split Americas only if the puzzle format allows."
+    },
+    {
+      "puzzleId": "puzzle-0485",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Some entries are not usually called wonders in the same sense as the ancient/modern-world-wonder landmarks, especially Eiffel Tower and Statue of Liberty depending on the intended list. The category title suggests 'wonders', but the groups are actually geographic landmark buckets.",
+      "items": [
+        "Eiffel Tower",
+        "Statue of Liberty",
+        "Sphinx",
+        "Djenne Mosque"
+      ],
+      "groups": [
+        "AFRICA",
+        "EUROPE",
+        "THE AMERICAS"
+      ],
+      "suggestedFix": "Retitle to 'Famous Landmarks' or use only items from a specific recognized wonders list."
+    },
+    {
+      "puzzleId": "puzzle-0486",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several contronym assignments are strained or ambiguous. Screen can mean show or conceal, not clearly allow/prohibit; Table has opposite meanings in different dialects but not allow/prohibit; Fix does not cleanly mean both separate and join; Trim can mean decorate/add or cut/remove but is context-heavy; Left means remaining or departed, not secured/free.",
+      "items": [
+        "Screen",
+        "Table",
+        "Fix",
+        "Trim",
+        "Left"
+      ],
+      "groups": [
+        "MEANS ALLOW AND PROHIBIT",
+        "MEANS SEPARATE AND JOIN",
+        "MEANS ADD AND REMOVE",
+        "MEANS SECURED AND FREE"
+      ],
+      "suggestedFix": "Use well-established contronyms with category labels that match their actual opposing senses."
+    },
+    {
+      "puzzleId": "puzzle-0486",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Contronyms grouped by subtle paired meanings are not easy-tier. Many require dictionary-level sense knowledge and dialect awareness.",
+      "items": [
+        "Sanction",
+        "Enjoin",
+        "Cleave",
+        "Ravel",
+        "Bound"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to hard or replace with concrete everyday categories."
+    },
+    {
+      "puzzleId": "puzzle-0487",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Some examples can involve multiple memory systems. Swimming strokes are procedural but also overlap with semantic knowledge of stroke names; tracking a sentence can be working memory but also language comprehension; keeping score in mind could be working memory or semantic/procedural depending on task.",
+      "items": [
+        "Swimming strokes",
+        "Tracking a sentence",
+        "Keeping a score in mind"
+      ],
+      "groups": [
+        "WORKING MEMORY",
+        "PROCEDURAL MEMORY"
+      ],
+      "suggestedFix": "Use more prototypical examples with less cognitive overlap, or raise the tier."
+    },
+    {
+      "puzzleId": "puzzle-0487",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Cognitive psychology categories such as episodic, semantic, procedural, and working memory are academic for easy, even if the examples are concrete.",
+      "items": [
+        "Episodic Memory",
+        "Semantic Memory",
+        "Procedural Memory",
+        "Working Memory"
+      ],
+      "groups": [
+        "WORKING MEMORY",
+        "EPISODIC MEMORY",
+        "SEMANTIC MEMORY",
+        "PROCEDURAL MEMORY"
+      ],
+      "suggestedFix": "Move to medium or use everyday labels such as personal memories, facts, skills, and short-term mental tasks."
+    }
+  ]
+}

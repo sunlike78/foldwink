@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 41,
+    "gptDifficulty": 45,
+    "gptRationale": "Beer styles are common enough for many players, though some crossover between ale, lager, and dark categories adds light confusion."
   },
   "groups": [
     {

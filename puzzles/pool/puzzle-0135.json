@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 44,
+    "gptDifficulty": 53,
+    "gptRationale": "Headwear categories are concrete, but several hat names are style-specific and can plausibly fit more than one grouping."
   },
   "groups": [
     {

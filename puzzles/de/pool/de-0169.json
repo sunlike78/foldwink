@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 52,
+    "gptDifficulty": 59,
+    "gptRationale": "Bremen enthält einige ikonische Wahrzeichen, aber Hafenbegriffe und Stadtteile sorgen für genug lokale Spezifik, um über Durchschnitt zu liegen."
   },
   "groups": [
     {

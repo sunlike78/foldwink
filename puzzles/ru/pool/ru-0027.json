@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Посуда",
     "batch": "ru-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 24,
+    "gptDifficulty": 24,
+    "gptRationale": "Kitchenware categories are practical and easy to visualize, with only limited overlap between serving and storage items."
   },
   "groups": [
     {

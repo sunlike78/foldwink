@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Музыкальные жанры",
     "batch": "ru-batch-06",
-    "difficultyScore": 13
+    "difficultyScore": 13,
+    "editorialRank": 32,
+    "gptDifficulty": 45,
+    "gptRationale": "Музыкальные стили и формы знакомы многим, но переход от жанров к академическим формам делает набор чуть менее прямолинейным."
   },
   "groups": [
     {

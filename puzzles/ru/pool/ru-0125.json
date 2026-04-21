@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Летние Олимпийские виды",
     "batch": "ru-batch-03",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 29,
+    "gptDifficulty": 29,
+    "gptRationale": "Олимпийские виды спорта широко известны, а категории собраны по очень привычным спортивным блокам."
   },
   "groups": [
     {

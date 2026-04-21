@@ -5,7 +5,10 @@
   "meta": {
     "theme": "klassizismus-romantik",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Klassizismus und Romantik verlangt stilhistorisches Denken über Architektur, Malerei, Literatur und Musik hinweg statt bloßer Alltagserkennung."
   },
   "groups": [
     {

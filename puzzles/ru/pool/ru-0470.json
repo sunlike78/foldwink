@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы лесных экосистем",
     "batch": "ru-batch-20",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 36,
+    "gptDifficulty": 37,
+    "gptRationale": "Типы лесов знакомы по школе, хотя часть наборов смешивает биомы с отдельными деревьями и сочетаниями пород."
   },
   "groups": [
     {

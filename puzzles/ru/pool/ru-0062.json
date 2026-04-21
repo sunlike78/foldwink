@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные зоопарка",
     "batch": "ru-batch-01",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 17,
+    "gptDifficulty": 18,
+    "gptRationale": "Zoo animals are highly familiar and grouped into broad, intuitive clusters."
   },
   "groups": [
     {

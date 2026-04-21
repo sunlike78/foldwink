@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 33,
+    "gptDifficulty": 41,
+    "gptRationale": "Die Oberkategorien sind sauber getrennt und viele Begriffe sind geläufig, nur Tölt und einzelne Pferderassen erhöhen die Schwierigkeit etwas."
   },
   "groups": [
     {

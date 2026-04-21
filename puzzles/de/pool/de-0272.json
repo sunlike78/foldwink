@@ -5,7 +5,10 @@
   "meta": {
     "theme": "automobil",
     "batch": "de-batch-03",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 23,
+    "gptDifficulty": 24,
+    "gptRationale": "Autohersteller, Fahrzeugklassen und Antriebe sind sehr geläufig, nur die Standorte verlangen etwas zusätzliches Vorwissen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды транспорта",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 35,
+    "gptDifficulty": 39,
+    "gptRationale": "The transport domains are intuitive, yet some entries are less everyday and a few distinctions feel taxonomy-based rather than obvious."
   },
   "groups": [
     {

@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 26,
+    "gptDifficulty": 31,
+    "gptRationale": "Sea-life categories are familiar and concrete, though reef dwellers versus shellfish introduces a bit of biological overlap."
   },
   "groups": [
     {

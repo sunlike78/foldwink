@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 51,
+    "gptDifficulty": 66,
+    "gptRationale": "Some holy books are very well known, but the less familiar secondary texts make the religious groupings noticeably harder."
   },
   "groups": [
     {

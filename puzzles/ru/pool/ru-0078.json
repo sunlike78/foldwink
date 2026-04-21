@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Металлы",
     "batch": "ru-batch-01",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 51,
+    "gptDifficulty": 68,
+    "gptRationale": "Категории металлов здесь менее бытовые и местами неточные в повседневном восприятии, что повышает риск неверных группировок."
   },
   "groups": [
     {

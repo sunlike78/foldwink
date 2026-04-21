@@ -5,7 +5,10 @@
   "meta": {
     "theme": "schmuck",
     "batch": "de-batch-03",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 37,
+    "gptDifficulty": 34,
+    "gptRationale": "Das Thema ist klar, aber mehrere Begriffe stammen aus demselben handwerklichen Umfeld und trennen sich erst über feine Rollen- und Technikunterschiede."
   },
   "groups": [
     {

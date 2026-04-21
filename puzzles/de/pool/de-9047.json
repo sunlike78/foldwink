@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Architekturepochen durch Details",
     "batch": "de-batch-12",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 33,
+    "gptDifficulty": 31,
+    "gptRationale": "The visual style markers are concrete and distinctive, even if Jugendstil versus Brutalismus still asks for some architecture vocabulary."
   },
   "groups": [
     {

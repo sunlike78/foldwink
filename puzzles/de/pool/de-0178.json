@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 51,
+    "gptDifficulty": 58,
+    "gptRationale": "Weltmeere nutzt das indirekte Muster über Anrainerstaaten und Polarregionen statt nur Ozeannamen, was die Gruppen weniger unmittelbar macht."
   },
   "groups": [
     {

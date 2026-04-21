@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Programmierung",
     "batch": "de-batch-03",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 25,
+    "gptDifficulty": 31,
+    "gptRationale": "Programming vocabulary is structured clearly, though non-technical players may find several terms less immediately accessible."
   },
   "groups": [
     {

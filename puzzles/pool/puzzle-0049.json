@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 46,
+    "gptDifficulty": 64,
+    "gptRationale": "Keeping everything inside German geography and cuisine raises the precision requirement and makes it tougher for players without that regional knowledge."
   }
 }

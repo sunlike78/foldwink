@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 41,
+    "gptDifficulty": 42,
+    "gptRationale": "TV format categories are popular and recognizable, though a couple of shows can momentarily feel genre-adjacent."
   },
   "groups": [
     {

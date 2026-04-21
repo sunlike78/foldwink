@@ -5,7 +5,10 @@
   "meta": {
     "theme": "dialekte",
     "batch": "de-batch-05",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 47,
+    "gptDifficulty": 67,
+    "gptRationale": "Dialektwissen ist stark regional verteilt, sodass selbst bekannte Wörter ohne Herkunftsgefühl schnell zwischen Gruppen verrutschen."
   },
   "groups": [
     {

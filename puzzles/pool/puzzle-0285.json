@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 60,
+    "gptDifficulty": 64,
+    "gptRationale": "Penalty systems across four sports produce a lot of near-synonymous disciplinary language, so cross-sport interference is substantial."
   },
   "groups": [
     {

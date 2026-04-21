@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Драгоценные камни",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 49,
+    "gptDifficulty": 63,
+    "gptRationale": "Названия камней не самые повседневные, а деление в основном по цвету требует конкретной предметной памяти."
   },
   "groups": [
     {

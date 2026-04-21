@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 39,
+    "gptDifficulty": 42,
+    "gptRationale": "Many explorers are famous, but distinguishing exploration regions and eras adds enough historical detail to keep it from being easy."
   },
   "groups": [
     {

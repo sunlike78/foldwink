@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 26,
+    "gptDifficulty": 18,
+    "gptRationale": "Finance vocabulary is mainstream and concrete, with only light ambiguity between bank and paperwork terms."
   },
   "groups": [
     {

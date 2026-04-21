@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 39,
+    "gptDifficulty": 43,
+    "gptRationale": "The paper senses are accessible, but newspaper and academic-paper vocab can briefly cross-wire through terms like 'column' and 'journal'."
   },
   "groups": [
     {

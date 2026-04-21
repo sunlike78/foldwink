@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 59,
+    "gptDifficulty": 73,
+    "gptRationale": "Tea-ceremony objects and rituals are culturally specific and terminology-heavy, making this one of the more knowledge-dependent medium puzzles."
   },
   "groups": [
     {

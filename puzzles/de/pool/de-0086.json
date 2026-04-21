@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ostseeküste",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Baltic coast references are moderately specialized, especially the regional-geography terms and animal names."
   },
   "groups": [
     {

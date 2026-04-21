@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 41,
+    "gptDifficulty": 45,
+    "gptRationale": "Statistics categories are standard educational material, but some terms are conceptually adjacent and easy to cross-wire."
   },
   "groups": [
     {

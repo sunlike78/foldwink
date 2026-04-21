@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рок-группы России",
     "batch": "ru-batch-07",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 43,
+    "gptDifficulty": 58,
+    "gptRationale": "Для русскоязычной аудитории часть групп культовая, но жанровые и временные блоки с пост-роком и инди уже требуют музыкальной насмотренности."
   },
   "groups": [
     {

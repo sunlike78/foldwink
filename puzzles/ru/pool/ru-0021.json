@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Деревья",
     "batch": "ru-batch-01",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 31,
+    "gptDifficulty": 29,
+    "gptRationale": "Tree groupings are largely familiar, with only a small bump from regional and botanical precision."
   },
   "groups": [
     {

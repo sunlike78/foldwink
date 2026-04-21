@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 46,
+    "gptDifficulty": 54,
+    "gptRationale": "Ecology terms are broadly learnable, but the puzzle mixes role types, system terms, and cycles in a way that demands careful sorting."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tiere",
     "batch": "de-batch-02",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 35,
+    "gptDifficulty": 40,
+    "gptRationale": "Aquarium and terrarium content is concrete yet hobby-specific, especially for fish and plant species names."
   },
   "groups": [
     {

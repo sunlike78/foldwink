@@ -1,0 +1,1122 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 3,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "puzzle-0311",
+    "puzzle-0312",
+    "puzzle-0313",
+    "puzzle-0314",
+    "puzzle-0315",
+    "puzzle-0331",
+    "puzzle-0332",
+    "puzzle-0333",
+    "puzzle-0334",
+    "puzzle-0335",
+    "puzzle-0336",
+    "puzzle-0337",
+    "puzzle-0338",
+    "puzzle-0339",
+    "puzzle-0340",
+    "puzzle-0341",
+    "puzzle-0342",
+    "puzzle-0343",
+    "puzzle-0344",
+    "puzzle-0345",
+    "puzzle-0356",
+    "puzzle-0357",
+    "puzzle-0358",
+    "puzzle-0359",
+    "puzzle-0360",
+    "puzzle-0361",
+    "puzzle-0362",
+    "puzzle-0363",
+    "puzzle-0364",
+    "puzzle-0365",
+    "puzzle-0366",
+    "puzzle-0369",
+    "puzzle-0374",
+    "puzzle-0381",
+    "puzzle-0382",
+    "puzzle-0383",
+    "puzzle-0384",
+    "puzzle-0385",
+    "puzzle-0386",
+    "puzzle-0387",
+    "puzzle-0388",
+    "puzzle-0389",
+    "puzzle-0390",
+    "puzzle-0391",
+    "puzzle-0392",
+    "puzzle-0393",
+    "puzzle-0406",
+    "puzzle-0407",
+    "puzzle-0408",
+    "puzzle-0409",
+    "puzzle-0410",
+    "puzzle-0411",
+    "puzzle-0412",
+    "puzzle-0413",
+    "puzzle-0414",
+    "puzzle-0415",
+    "puzzle-0416",
+    "puzzle-0417",
+    "puzzle-0418",
+    "puzzle-0431"
+  ],
+  "elapsedSec": 295,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0313",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Focaccia is both a flatbread and a leavened bread, so it reasonably fits two listed groups. More broadly, 'Flatbreads' and 'Leavened Loaves' are not mutually exclusive bread categories.",
+      "items": [
+        "Focaccia"
+      ],
+      "groups": [
+        "Flatbreads",
+        "Leavened Loaves"
+      ],
+      "suggestedFix": "Replace Focaccia with an unleavened or clearly flat-only bread, or relabel the groups to separate by region/style rather than leavening."
+    },
+    {
+      "puzzleId": "puzzle-0313",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Challah is an enriched bread, but it is not reliably a sweet bread; many standard challahs are only mildly sweet or savory table breads.",
+      "items": [
+        "Challah"
+      ],
+      "groups": [
+        "Enriched Sweet Breads"
+      ],
+      "suggestedFix": "Use a more clearly sweet enriched bread, or rename the group to 'Enriched Breads'."
+    },
+    {
+      "puzzleId": "puzzle-0314",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "The puzzle relies on hobby-board-game taxonomy and specific modern game titles. For an easy puzzle, these are not concrete everyday categories for most players.",
+      "items": null,
+      "groups": [
+        "Worker Placement Games",
+        "Deck-Building Games",
+        "Area Control Games",
+        "Cooperative Games"
+      ],
+      "suggestedFix": "Move to a harder tier or replace with more everyday board-game categories."
+    },
+    {
+      "puzzleId": "puzzle-0314",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The category labels are not mutually exclusive: 'Cooperative Games' describes player alignment, while worker placement, deck-building, and area control describe mechanisms. A game can be cooperative and also use one of the other mechanisms.",
+      "items": [
+        "Spirit Island",
+        "Gloomhaven"
+      ],
+      "groups": [
+        "Area Control Games",
+        "Cooperative Games",
+        "Deck-Building Games"
+      ],
+      "suggestedFix": "Use one consistent axis, such as only mechanisms or only player/team formats."
+    },
+    {
+      "puzzleId": "puzzle-0315",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle expects fairly detailed historical knowledge across four revolutions, including less everyday items such as Thermidorian Reaction, Treaty of Brest-Litovsk, Yan'an Base, and Land Reform. This is not well calibrated for easy.",
+      "items": [
+        "Thermidorian Reaction",
+        "Treaty of Brest-Litovsk",
+        "Yan'an Base",
+        "Land Reform"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more universally recognizable events."
+    },
+    {
+      "puzzleId": "puzzle-0331",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several animal collective nouns overlap. Orcas are whales, so 'Orca' could fit the same pod group as 'Whale'. Penguins are birds and can be said to flock, so they can conflict with the bird flock category.",
+      "items": [
+        "Orca",
+        "Whale",
+        "Penguin"
+      ],
+      "groups": [
+        "Animals That Live in a Colony",
+        "Animals That Move in a Pod",
+        "Birds That Fly in a Murmuration or Flock"
+      ],
+      "suggestedFix": "Avoid species/subspecies overlap and do not mix a bird colony group with a bird flock group in the same puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0331",
+      "type": "SAME_SPECIES_SPLIT",
+      "severity": "medium",
+      "explanation": "Orca is a kind of whale, so listing 'Whale' and 'Orca' as separate items creates identity/species overlap inside the same group.",
+      "items": [
+        "Whale",
+        "Orca"
+      ],
+      "groups": [
+        "Animals That Move in a Pod"
+      ],
+      "suggestedFix": "Replace either 'Whale' or 'Orca' with a non-overlapping pod animal."
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Pontoon bridges are floating bridges, not cable-supported bridges. Rope bridges may be suspended, but 'Cable-Supported Bridges' normally refers to cable-stayed and suspension-family structures, making this grouping imprecise.",
+      "items": [
+        "Pontoon Bridge",
+        "Rope Bridge"
+      ],
+      "groups": [
+        "Cable-Supported Bridges"
+      ],
+      "suggestedFix": "Move Pontoon Bridge to a floating-bridge group or replace it with Suspension Bridge."
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Tied Arch Bridge and Bowstring Arch Bridge are near-overlapping terms, and bowstring bridges are also a truss/arch hybrid. This makes the arch and beam/truss split less clean than an easy puzzle needs.",
+      "items": [
+        "Tied Arch Bridge",
+        "Bowstring Arch Bridge"
+      ],
+      "groups": [
+        "Arch Bridges",
+        "Beam and Truss Bridges"
+      ],
+      "suggestedFix": "Use simpler, non-overlapping bridge categories such as arch, suspension, beam, and movable with clearly distinct examples."
+    },
+    {
+      "puzzleId": "puzzle-0335",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Most phobia names here are specialized Greek-derived terms. For easy, this is vocabulary-heavy and not concrete everyday knowledge.",
+      "items": [
+        "Ophidiophobia",
+        "Gephyrophobia",
+        "Astraphobia",
+        "Scopophobia",
+        "Erythrophobia"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use common fear descriptions rather than technical phobia names."
+    },
+    {
+      "puzzleId": "puzzle-0336",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The split among Enlightenment, existentialist, and analytic philosophers requires academic philosophy knowledge and is not an easy everyday categorization task.",
+      "items": [
+        "Kant",
+        "Kierkegaard",
+        "Frege",
+        "Quine"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use broader, more familiar categories."
+    },
+    {
+      "puzzleId": "puzzle-0337",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Architectural movement membership by architect is specialized art-history knowledge, especially for Fischer von Erlach, Horta, Guimard, Libeskind, and Eisenman. This is not easy-tier material.",
+      "items": [
+        "Fischer von Erlach",
+        "Horta",
+        "Guimard",
+        "Libeskind",
+        "Eisenman"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use famous buildings/architects with more common recognition."
+    },
+    {
+      "puzzleId": "puzzle-0338",
+      "type": "TRIVIAL",
+      "severity": "medium",
+      "explanation": "Several items include the category color directly in the item text, making parts of the solve keyword-match rather than conceptual grouping.",
+      "items": [
+        "Red Spinel",
+        "Blue Topaz",
+        "Green Tourmaline",
+        "Purple Fluorite"
+      ],
+      "groups": [
+        "Red Gemstones",
+        "Blue Gemstones",
+        "Green Gemstones",
+        "Purple Gemstones"
+      ],
+      "suggestedFix": "Use gemstone names without embedded color words or choose a different organizing principle."
+    },
+    {
+      "puzzleId": "puzzle-0338",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "Sugilite, Charoite, Iolite, Rhodolite, and Red Spinel are relatively obscure for an easy gemstone puzzle.",
+      "items": [
+        "Sugilite",
+        "Charoite",
+        "Iolite",
+        "Rhodolite",
+        "Red Spinel"
+      ],
+      "groups": null,
+      "suggestedFix": "Use more commonly known stones or move the puzzle to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0339",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Proof types and abstract mathematical classifications are not concrete everyday easy categories.",
+      "items": [
+        "Induction",
+        "Contradiction",
+        "Exhaustion",
+        "Construction",
+        "Imaginary",
+        "Perfect Number"
+      ],
+      "groups": [
+        "Types of Numbers",
+        "Mathematical Proof Types"
+      ],
+      "suggestedFix": "Move to a harder tier or use simpler math categories."
+    },
+    {
+      "puzzleId": "puzzle-0340",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Olympic debut years for specific events are highly specialized trivia, not easy-tier knowledge.",
+      "items": [
+        "Lightweight Rowing",
+        "Women's Team Sprint",
+        "Women's Steeplechase",
+        "Open Water Swimming"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or group Olympic sports by equipment, venue, or season."
+    },
+    {
+      "puzzleId": "puzzle-0340",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The 2021 group is really sports added for the Tokyo 2020 Olympics, held in 2021. Labeling them as debuting in 2021 is understandable by event date but can conflict with official Olympic naming.",
+      "items": [
+        "Skateboarding",
+        "Sport Climbing",
+        "Surfing",
+        "Karate"
+      ],
+      "groups": [
+        "Olympic Sports Debuting in 2021"
+      ],
+      "suggestedFix": "Use 'Debuting at Tokyo 2020' or 'Debuting at the 2020 Olympics'."
+    },
+    {
+      "puzzleId": "puzzle-0341",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Heraldic tinctures, furs, ordinaries, and attitudes are specialist vocabulary and not easy-tier everyday categories.",
+      "items": [
+        "Gules",
+        "Azure",
+        "Vair",
+        "Pean",
+        "Fess",
+        "Sejant"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0341",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Potent is usually treated as a heraldic fur variant/pattern, but it is also a cross/ordinary-related heraldic term; this can confuse the split. Pean is a less common fur variant, making the group very technical.",
+      "items": [
+        "Potent",
+        "Pean"
+      ],
+      "groups": [
+        "Heraldic Furs"
+      ],
+      "suggestedFix": "Use the most standard fur terms only, or avoid heraldry for easy tier."
+    },
+    {
+      "puzzleId": "puzzle-0342",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "St Basil's Cathedral is commonly called a cathedral, but historically it is a church/museum and not a cathedral seat in the same way as the other examples. It may still pass colloquially, but the category is less clean.",
+      "items": [
+        "St Basil's"
+      ],
+      "groups": [
+        "Famous Cathedrals"
+      ],
+      "suggestedFix": "Use a more straightforward cathedral such as St Paul's Cathedral or Florence Cathedral."
+    },
+    {
+      "puzzleId": "puzzle-0343",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Observational learning and latent learning are learning types, not conditioning types in the same sense as classical and operant conditioning. The label overextends the category.",
+      "items": [
+        "Observational",
+        "Latent Learning"
+      ],
+      "groups": [
+        "Conditioning Types"
+      ],
+      "suggestedFix": "Rename to 'Learning Types' or replace with clearer conditioning-related terms."
+    },
+    {
+      "puzzleId": "puzzle-0344",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Triangle and quadrilateral categories overlap with '3D Solids' only weakly through terms like tetrahedron and octahedron, but 'Prism' is a broad solid family that can include triangular or quadrilateral bases. The geometry taxonomy is not a single clean axis.",
+      "items": [
+        "Prism"
+      ],
+      "groups": [
+        "Types of Triangle",
+        "Types of Quadrilateral",
+        "3D Solids"
+      ],
+      "suggestedFix": "Use more precise labels such as 'Polyhedra' and avoid broad families like Prism."
+    },
+    {
+      "puzzleId": "puzzle-0345",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle mixes sociological, economic, political, and anthropology terms that are abstract academic vocabulary. It is not well calibrated for easy.",
+      "items": [
+        "Social Capital",
+        "Social Stratification",
+        "Technocracy",
+        "Ritual Taboo"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more concrete civics categories."
+    },
+    {
+      "puzzleId": "puzzle-0356",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Behavioural economics biases are also cognitive biases. The labels create nested/overlapping domains, so items such as loss aversion and status quo bias could reasonably be treated as cognitive biases.",
+      "items": [
+        "Sunk Cost",
+        "Loss Aversion",
+        "Status Quo Bias",
+        "Endowment Effect"
+      ],
+      "groups": [
+        "Cognitive Biases",
+        "Behavioural Economics Biases"
+      ],
+      "suggestedFix": "Use non-overlapping labels, for example 'General Cognitive Biases' and 'Decision-Making Biases in Economics' only if the item sets are clearly distinguished."
+    },
+    {
+      "puzzleId": "puzzle-0356",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Sunk cost, loss aversion, status quo bias, and endowment effect are all commonly listed as cognitive biases as well as behavioral economics concepts.",
+      "items": [
+        "Sunk Cost",
+        "Loss Aversion",
+        "Status Quo Bias",
+        "Endowment Effect"
+      ],
+      "groups": [
+        "Cognitive Biases",
+        "Behavioural Economics Biases"
+      ],
+      "suggestedFix": "Replace the behavioral economics group with a category from a different domain."
+    },
+    {
+      "puzzleId": "puzzle-0357",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Equilateral triangles are also acute triangles, so the triangle category contains overlapping item meanings. This can be acceptable within a group, but it weakens a puzzle about mutually distinct shape families.",
+      "items": [
+        "Acute",
+        "Equilateral"
+      ],
+      "groups": [
+        "Types of Triangles"
+      ],
+      "suggestedFix": "Use one axis for triangle classification, such as only by side length or only by angle."
+    },
+    {
+      "puzzleId": "puzzle-0358",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Many items are specialized religious-text terms rather than easy common knowledge, especially Sira, Tafsir, Tripitaka, Mishnah, and Zohar.",
+      "items": [
+        "Sira",
+        "Tafsir",
+        "Tripitaka",
+        "Mishnah",
+        "Zohar"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more widely known religious terms."
+    },
+    {
+      "puzzleId": "puzzle-0359",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Some supranational bodies can also be governing or policy institutions, and 'United Nations' can include legislative-like assemblies and judicial bodies. The categories are not all on the same axis, though the item placement is mostly solvable.",
+      "items": [
+        "United Nations",
+        "World Bank",
+        "NATO",
+        "WHO"
+      ],
+      "groups": [
+        "Legislative Bodies",
+        "Executive Titles",
+        "Judicial Institutions",
+        "Supranational Bodies"
+      ],
+      "suggestedFix": "Use one institutional axis, or rename 'Supranational Bodies' to 'International Organizations'."
+    },
+    {
+      "puzzleId": "puzzle-0360",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Scaphoid is a carpal bone of the wrist/hand, so it fits both 'Arm Bones' and 'Hand Bones' as labeled. Sesamoid bones also occur in the foot and elsewhere, so 'Hand Bones' is not exclusive.",
+      "items": [
+        "Scaphoid",
+        "Sesamoid"
+      ],
+      "groups": [
+        "Arm Bones",
+        "Hand Bones",
+        "Foot Bones"
+      ],
+      "suggestedFix": "Replace Scaphoid with a clear arm bone, and replace Sesamoid with a specific hand bone type if needed."
+    },
+    {
+      "puzzleId": "puzzle-0361",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "A candy thermometer and probe thermometer are both measuring tools, but they are also heat/temperature equipment. Bain-Marie and rondeau are cookware rather than heat equipment themselves, so the category line is fuzzy.",
+      "items": [
+        "Candy Thermometer",
+        "Probe Thermometer",
+        "Bain-Marie",
+        "Rondeau"
+      ],
+      "groups": [
+        "Measuring Tools",
+        "Heat Equipment"
+      ],
+      "suggestedFix": "Rename 'Heat Equipment' to 'Cooking Vessels/Heating Equipment' or choose clearer heating appliances."
+    },
+    {
+      "puzzleId": "puzzle-0362",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Internet slang meanings are highly context-dependent. 'Ate', 'Slay', 'Hits Different', 'Legend', and 'Understood the Assignment' can all function as compliments/reactions; 'No Cap' can signal agreement or truthfulness rather than agreement specifically.",
+      "items": [
+        "Ate",
+        "Slay",
+        "Hits Different",
+        "Legend",
+        "Understood The Assignment",
+        "No Cap"
+      ],
+      "groups": [
+        "Expressions of Agreement",
+        "Compliments Online",
+        "Viral Reaction Words"
+      ],
+      "suggestedFix": "Use less overlapping slang functions or replace with clearer phrases."
+    },
+    {
+      "puzzleId": "puzzle-0362",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "'Pilled' is not generally an expression of dismissal; it usually means being converted to or strongly aligned with an ideology or viewpoint.",
+      "items": [
+        "Pilled"
+      ],
+      "groups": [
+        "Expressions of Dismissal"
+      ],
+      "suggestedFix": "Replace with a clearer dismissal phrase such as 'Cope' or 'Cringe'."
+    },
+    {
+      "puzzleId": "puzzle-0363",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Carl Jung is associated with analytic psychology and psychoanalysis but diverged from Freud; Viktor Frankl and Rollo May are often classified as existential psychologists as well as humanistic psychologists. The labels are defensible but not clean for easy.",
+      "items": [
+        "Carl Jung",
+        "Rollo May",
+        "Viktor Frankl"
+      ],
+      "groups": [
+        "Psychoanalysts",
+        "Humanist Psychologists"
+      ],
+      "suggestedFix": "Use more canonical examples for each school or move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0364",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle uses abstract science terminology across physics, cosmology, and chemistry. It is more educational/medium than easy.",
+      "items": [
+        "Wave Function",
+        "Qubit",
+        "Cosmic Inflation",
+        "Valence"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more concrete science examples."
+    },
+    {
+      "puzzleId": "puzzle-0365",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Cao Dai is a syncretic Vietnamese religion with Abrahamic, Buddhist, Taoist, and Confucian influences, not cleanly an East Asian religion in the same sense as Taoism, Confucianism, and Shinto. Indigenous traditions are practices/categories rather than specific religions, so category types also differ.",
+      "items": [
+        "Cao Dai",
+        "Animism",
+        "Shamanism",
+        "Totemism",
+        "Ancestor Worship"
+      ],
+      "groups": [
+        "East Asian Religions",
+        "Indigenous Traditions"
+      ],
+      "suggestedFix": "Use specific religions/traditions on all four rows, or label the last group as 'Indigenous Religious Concepts' and avoid mixing it with named religions."
+    },
+    {
+      "puzzleId": "puzzle-0366",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Mathematical constants and number categories/properties overlap conceptually because constants like pi, e, and Apery's constant are also numbers. The labels are distinguishable for solvers, but not strictly mutually exclusive.",
+      "items": [
+        "Pi",
+        "Euler's Number",
+        "Golden Ratio",
+        "Apery's Constant"
+      ],
+      "groups": [
+        "Categories of Numbers",
+        "Mathematical Constants"
+      ],
+      "suggestedFix": "Use a different non-number category or label the first group more narrowly."
+    },
+    {
+      "puzzleId": "puzzle-0366",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Catalan numbers, Apery's constant, abundant/deficient numbers, and amicable numbers are specialized number theory terms for easy tier.",
+      "items": [
+        "Catalan Numbers",
+        "Apery's Constant",
+        "Abundant Number",
+        "Deficient Number",
+        "Amicable Numbers"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0369",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Many body-process terms are technical biology/medicine vocabulary, especially depolarization, granulation, remodelling, and epithelialisation. This is not easy-tier everyday material.",
+      "items": [
+        "Depolarization",
+        "Granulation",
+        "Remodelling",
+        "Epithelialisation"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier or use more familiar body processes."
+    },
+    {
+      "puzzleId": "puzzle-0374",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Clavicle is not normally classified as a thorax bone; it belongs to the pectoral girdle. Sacrum forms part of the pelvis but is axial skeleton rather than one of the pelvic girdle bones in the same sense as ilium, ischium, and pubis.",
+      "items": [
+        "Clavicle",
+        "Sacrum"
+      ],
+      "groups": [
+        "Thorax Bones",
+        "Pelvic Girdle Bones"
+      ],
+      "suggestedFix": "Replace Clavicle with a rib-related term and either relabel the pelvic group or replace Sacrum with Acetabulum/Hip Bone terminology."
+    },
+    {
+      "puzzleId": "puzzle-0382",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Fisherman's Knot and Double Fisherman's are commonly treated as bends, but they can also form loops or stopper-like knots depending on use. Monkey's Fist is often a weight knot as much as a stopper knot. This is knot-specialist taxonomy and not clean for easy.",
+      "items": [
+        "Fisherman's Knot",
+        "Double Fisherman's",
+        "Monkey's Fist"
+      ],
+      "groups": [
+        "BEND KNOTS",
+        "LOOP KNOTS",
+        "STOPPER KNOTS"
+      ],
+      "suggestedFix": "Use only very canonical knot examples or move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0383",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Blizzard is both a severe storm and fundamentally a wind/snow event, while sirocco is a named wind rather than a wind event. The weather labels mix phenomena, event types, and storm systems.",
+      "items": [
+        "Blizzard",
+        "Sirocco"
+      ],
+      "groups": [
+        "WIND EVENTS",
+        "SEVERE STORMS"
+      ],
+      "suggestedFix": "Use cleaner labels such as 'Types of Wind', 'Forms of Precipitation', 'Optical Effects', and 'Storm Types'."
+    },
+    {
+      "puzzleId": "puzzle-0384",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Charon is not usually a Roman god; he is the ferryman of the underworld from Greek mythology, adopted into Roman myth but not a god like Neptune or Pluto. Mercury is also not primarily a sky/state god; he is a messenger/trade/travel god.",
+      "items": [
+        "Charon",
+        "Mercury"
+      ],
+      "groups": [
+        "SEA AND UNDERWORLD GODS",
+        "SKY AND STATE GODS"
+      ],
+      "suggestedFix": "Replace Charon with a clearer underworld deity and move Mercury to a commerce/messenger grouping or replace him."
+    },
+    {
+      "puzzleId": "puzzle-0385",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Temperate Rainforest appears under temperate forests, while Rainforest and Cloud Forest appear under tropical forests; rainforests/cloud forests can be tropical or temperate depending on location. Subalpine forest can overlap with boreal/montane zones, and riparian/flooded/swamp/gallery forests overlap by moisture regime.",
+      "items": [
+        "Rainforest",
+        "Cloud Forest",
+        "Temperate Rainforest",
+        "Subalpine Forest",
+        "Gallery Forest",
+        "Riparian Forest",
+        "Flooded Forest",
+        "Swamp Forest"
+      ],
+      "groups": [
+        "TROPICAL FORESTS",
+        "TEMPERATE FORESTS",
+        "BOREAL FORESTS",
+        "SPECIALIST WETLAND FORESTS"
+      ],
+      "suggestedFix": "Use one classification axis, such as climate-zone forest types only, and avoid moisture/landform categories in the same puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0386",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Hybrid genres overlap with the other genre groups: dark comedy is a comedy, docudrama is a drama/nonfiction hybrid, noir can overlap with crime/drama, and psychological thriller can be action/drama depending on framing. The label is not parallel with the other subgenre labels.",
+      "items": [
+        "Dark Comedy",
+        "Docudrama",
+        "Noir",
+        "Psychological Thriller"
+      ],
+      "groups": [
+        "ACTION SUBGENRES",
+        "DRAMA SUBGENRES",
+        "COMEDY SUBGENRES",
+        "HYBRID GENRES"
+      ],
+      "suggestedFix": "Use four parallel parent genres or four non-overlapping format categories."
+    },
+    {
+      "puzzleId": "puzzle-0387",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Depth of Field is a camera/lens setting or optical result, not primarily a composition principle. Bracketing is a shooting technique/camera setting workflow, not a processing term. Vignette can be a lens effect or composition/framing effect as well as a processing term.",
+      "items": [
+        "Depth of Field",
+        "Bracketing",
+        "Vignette"
+      ],
+      "groups": [
+        "CAMERA SETTINGS",
+        "COMPOSITION PRINCIPLES",
+        "PROCESSING TERMS"
+      ],
+      "suggestedFix": "Move Depth of Field to settings/optics, Bracketing to shooting techniques, and use clearer composition/processing terms."
+    },
+    {
+      "puzzleId": "puzzle-0388",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Lavender and mint can be both ornamental flowering plants and edible herbs. Sedum includes many species used as ground covers but is also a broad succulent genus, making it less precise.",
+      "items": [
+        "Lavender",
+        "Mint",
+        "Sedum"
+      ],
+      "groups": [
+        "GROUND COVERS",
+        "FLOWERING SHRUBS",
+        "EDIBLE HERBS"
+      ],
+      "suggestedFix": "Use plants that are more exclusively associated with one gardening role."
+    },
+    {
+      "puzzleId": "puzzle-0389",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The categories overlap heavily. Ranked choice and single transferable vote are electoral systems/voting methods; runoff election appears both as a counting/tally method and as a special election type; primary and by-election are also election types. Players could reasonably place several items in multiple groups.",
+      "items": [
+        "Single Transferable Vote",
+        "Ranked Choice",
+        "Majority Runoff",
+        "Runoff Election",
+        "Primary",
+        "By-Election"
+      ],
+      "groups": [
+        "ELECTORAL SYSTEMS",
+        "VOTE-COUNTING METHODS",
+        "ELECTION TIMING TYPES",
+        "SPECIAL ELECTION TYPES"
+      ],
+      "suggestedFix": "Use a single axis such as electoral systems only, election timing only, or institutions only."
+    },
+    {
+      "puzzleId": "puzzle-0390",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Speculative fiction items such as dystopia, cyberpunk, and alternate history are narrative fiction modes/subgenres, so they overlap with 'Narrative Fiction Modes'. Satire and pastoral can also be prose/fiction modes as well as poetic/dramatic forms.",
+      "items": [
+        "Dystopia",
+        "Cyberpunk",
+        "Alternate History",
+        "Satire",
+        "Pastoral"
+      ],
+      "groups": [
+        "NARRATIVE FICTION MODES",
+        "SPECULATIVE FICTION",
+        "POETIC AND DRAMATIC FORMS"
+      ],
+      "suggestedFix": "Use non-overlapping genre families or separate by medium/form more consistently."
+    },
+    {
+      "puzzleId": "puzzle-0391",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Paisley is not usually a geometric repeat; it is an ornamental teardrop/boteh motif. Ikat and batik are dyeing/weaving techniques that produce many pattern types, not specifically pictorial prints.",
+      "items": [
+        "Paisley",
+        "Ikat",
+        "Batik"
+      ],
+      "groups": [
+        "GEOMETRIC REPEATS",
+        "PICTORIAL PRINTS"
+      ],
+      "suggestedFix": "Move Paisley to ornamental motifs and replace Ikat/Batik with clearly pictorial print types."
+    },
+    {
+      "puzzleId": "puzzle-0391",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Plaid/check patterns are geometric repeats, so 'PLAID AND CHECK PATTERNS' overlaps conceptually with 'GEOMETRIC REPEATS'.",
+      "items": [
+        "Tartan",
+        "Madras",
+        "Windowpane",
+        "Gingham"
+      ],
+      "groups": [
+        "PLAID AND CHECK PATTERNS",
+        "GEOMETRIC REPEATS"
+      ],
+      "suggestedFix": "Rename the second group to a narrower non-check geometric category or replace the plaid/check group."
+    },
+    {
+      "puzzleId": "puzzle-0392",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Quartz watch and atomic clock are electronic timekeeping devices, but atomic clocks are clocks rather than timers. Sidereal time is a time standard/astronomical measure, not a calendar system.",
+      "items": [
+        "Atomic Clock",
+        "Sidereal Time"
+      ],
+      "groups": [
+        "ELECTRONIC TIMERS",
+        "CALENDAR SYSTEMS"
+      ],
+      "suggestedFix": "Rename 'Electronic Timers' to 'Modern Timekeepers' and replace Sidereal Time with a true calendar system."
+    },
+    {
+      "puzzleId": "puzzle-0393",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Specific scientific laws across physics, thermodynamics, electricity, genetics, chemistry, and population biology are too specialized for an easy puzzle.",
+      "items": [
+        "Kepler's Third Law",
+        "Ampere's Law",
+        "Hardy-Weinberg Law",
+        "Law of Mass Action"
+      ],
+      "groups": null,
+      "suggestedFix": "Move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0393",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Avogadro's Law is commonly a gas/chemistry law, while Law of Mass Action can be chemistry or biochemical kinetics. The 'biology and chemistry' label is broad and unlike the narrower physics labels, making the taxonomy uneven.",
+      "items": [
+        "Law of Mass Action",
+        "Avogadro's Law"
+      ],
+      "groups": [
+        "LAWS OF BIOLOGY AND CHEMISTRY"
+      ],
+      "suggestedFix": "Split biology and chemistry into separate puzzles or use a narrower category."
+    },
+    {
+      "puzzleId": "puzzle-0407",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Famous shipwrecks are ships categorized by fate, while the other groups categorize ships by type/era/organization. A warship or exploration ship can also be a famous shipwreck, so the axis is mixed.",
+      "items": [
+        "Titanic",
+        "Lusitania",
+        "Edmund Fitzgerald",
+        "Andrea Doria"
+      ],
+      "groups": [
+        "AGE OF EXPLORATION SHIPS",
+        "FAMOUS WARSHIPS",
+        "FAMOUS SHIPWRECKS"
+      ],
+      "suggestedFix": "Use parallel categories such as exploration ships, warships, ocean liners, and spacecraft, without a fate-based group."
+    },
+    {
+      "puzzleId": "puzzle-0407",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Lusitania was sunk in wartime and can be associated with war history, which may blur it with the famous warships group despite being a passenger liner.",
+      "items": [
+        "Lusitania"
+      ],
+      "groups": [
+        "FAMOUS WARSHIPS",
+        "FAMOUS SHIPWRECKS"
+      ],
+      "suggestedFix": "Use a shipwreck with less military/war association."
+    },
+    {
+      "puzzleId": "puzzle-0408",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Tempo markings have overlapping ranges and traditions vary. Larghetto can be faster than Largo and near Adagio; Andantino can mean slightly faster or slower than Andante; Allegretto sits between moderate and fast.",
+      "items": [
+        "Larghetto",
+        "Adagio",
+        "Andantino",
+        "Allegretto"
+      ],
+      "groups": [
+        "VERY SLOW TEMPO",
+        "MODERATE TEMPO",
+        "FAST TEMPO"
+      ],
+      "suggestedFix": "Use broader groups or avoid adjacent tempo bands in an easy puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0409",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Schwarzbier is a dark lager, not a dark ale. Gose is usually a sour wheat beer but not normally grouped with Hefeweizen/Witbier/Berliner Weisse as a straightforward wheat-beer style for easy categorization.",
+      "items": [
+        "Schwarzbier",
+        "Gose"
+      ],
+      "groups": [
+        "DARK ALES",
+        "WHEAT BEERS"
+      ],
+      "suggestedFix": "Move Schwarzbier to lager styles or replace it with a true dark ale such as Brown Ale; consider replacing Gose with a more obvious wheat beer."
+    },
+    {
+      "puzzleId": "puzzle-0410",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Sumerian is usually treated as a civilization/city-state culture rather than an empire in the same way as Akkadian, Assyrian, and Babylonian. Greek is also broad and not one single Mediterranean empire.",
+      "items": [
+        "Sumerian",
+        "Greek"
+      ],
+      "groups": [
+        "MESOPOTAMIAN EMPIRES",
+        "MEDITERRANEAN EMPIRES"
+      ],
+      "suggestedFix": "Use clearer empires such as Hittite/Persian in the relevant regions, or relabel as 'Ancient Civilizations'."
+    },
+    {
+      "puzzleId": "puzzle-0410",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Maya and Mississippian are generally civilizations/cultures rather than empires comparable to Aztec and Inca.",
+      "items": [
+        "Maya",
+        "Mississippian"
+      ],
+      "groups": [
+        "AMERICAN EMPIRES"
+      ],
+      "suggestedFix": "Rename the puzzle/categories to 'Ancient Civilizations' or replace with more defensible empire examples."
+    },
+    {
+      "puzzleId": "puzzle-0411",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Sonnet, villanelle, and rondel are both rhyming and syllabic/metrical fixed forms in many traditions. Epic appears in both literary genre contexts and narrative poetry. The labels are understandable but not fully exclusive.",
+      "items": [
+        "Sonnet",
+        "Villanelle",
+        "Rondel",
+        "Epic"
+      ],
+      "groups": [
+        "SYLLABIC FORMS",
+        "RHYMING FORMS",
+        "NARRATIVE POETRY"
+      ],
+      "suggestedFix": "Use one axis such as fixed forms, narrative forms, and modern forms, with clearer labels."
+    },
+    {
+      "puzzleId": "puzzle-0412",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The W in 'Sword' is silent, but the listed silent letter is not initial like the other Silent W examples. This is still technically a silent W, but it breaks the obvious pattern and may feel like a trap in an easy puzzle.",
+      "items": [
+        "Sword"
+      ],
+      "groups": [
+        "SILENT W"
+      ],
+      "suggestedFix": "Replace Sword with Wreck, Write, Wren, or Wrinkle."
+    },
+    {
+      "puzzleId": "puzzle-0413",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Several equipment terms are specialized for easy tier, such as tennis dampener, net strap, ball hopper, archery nocking point, and bracer.",
+      "items": [
+        "Net Strap",
+        "Ball Hopper",
+        "Dampener",
+        "Nocking Point",
+        "Bracer"
+      ],
+      "groups": null,
+      "suggestedFix": "Use more common equipment items or move to medium."
+    },
+    {
+      "puzzleId": "puzzle-0414",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Best Picture is not a directing or writing Oscar; it is awarded to producers and is the overall picture category.",
+      "items": [
+        "Best Picture"
+      ],
+      "groups": [
+        "DIRECTING & WRITING OSCARS"
+      ],
+      "suggestedFix": "Replace Best Picture with a true directing/writing category or relabel the group to include Best Picture explicitly."
+    },
+    {
+      "puzzleId": "puzzle-0415",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "'American Rivers' combines North and South America, while the other continent labels use single continents. It is understandable, but less parallel and can confuse players expecting North American vs South American categories.",
+      "items": [
+        "Amazon",
+        "Mississippi",
+        "Missouri",
+        "Orinoco"
+      ],
+      "groups": [
+        "AMERICAN RIVERS"
+      ],
+      "suggestedFix": "Rename to 'Rivers of the Americas' or split North and South America in a different puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0416",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Piqué can be a step used in turns, but 'Piqué Turn' is clear; Rond de Jambe is commonly a barre exercise but also a movement performed outside barre. The labels are mostly fair but not fully exclusive for ballet vocabulary.",
+      "items": [
+        "Rond de Jambe",
+        "Piqué Turn"
+      ],
+      "groups": [
+        "BALLET TURNS",
+        "BARRE EXERCISES"
+      ],
+      "suggestedFix": "Use only examples strongly tied to barre for the barre group, or move to a harder tier."
+    },
+    {
+      "puzzleId": "puzzle-0418",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Vitruvian Man is a drawing, not a painting. The group label says Da Vinci paintings, so this is factually off.",
+      "items": [
+        "Vitruvian Man"
+      ],
+      "groups": [
+        "DA VINCI PAINTINGS"
+      ],
+      "suggestedFix": "Replace with a Leonardo painting such as Salvator Mundi, The Annunciation, or Madonna of the Rocks."
+    },
+    {
+      "puzzleId": "puzzle-0431",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Mulligan is not an official golf rules or penalty term; it is an informal do-over. Stroke Play is a scoring format, not a penalty/rules item like drop or hazard.",
+      "items": [
+        "Mulligan",
+        "Stroke Play"
+      ],
+      "groups": [
+        "RULES / PENALTY"
+      ],
+      "suggestedFix": "Rename the group to 'Golf Rules and Formats' or replace with clearer penalty/rules terms such as Out of Bounds and Penalty Stroke."
+    }
+  ]
+}

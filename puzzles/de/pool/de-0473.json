@@ -5,7 +5,10 @@
   "meta": {
     "theme": "natur",
     "batch": "de-batch-05",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 30,
+    "gptDifficulty": 23,
+    "gptRationale": "Ursachen, Folgen, Lösungen und Beispielinsekten sind sehr intuitive Umweltcluster mit kaum versteckter Wortspiel-Ebene."
   },
   "groups": [
     {

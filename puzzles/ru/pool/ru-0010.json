@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Времена года",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 24,
+    "gptDifficulty": 20,
+    "gptRationale": "Seasonal signs are a very familiar schema and most entries strongly telegraph their season."
   },
   "groups": [
     {

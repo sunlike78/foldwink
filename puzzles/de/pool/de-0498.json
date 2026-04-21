@@ -5,7 +5,10 @@
   "meta": {
     "theme": "gesellschaft",
     "batch": "de-batch-05",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 48,
+    "gptDifficulty": 52,
+    "gptRationale": "Interkulturelle Kompetenz arbeitet mit mehreren abstrakten Sozialwissenschaftsbegriffen, die ohne Vorwissen recht ähnlich klingen."
   },
   "groups": [
     {

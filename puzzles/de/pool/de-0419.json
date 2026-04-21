@@ -5,7 +5,10 @@
   "meta": {
     "theme": "musik",
     "batch": "de-batch-05",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 14,
+    "gptDifficulty": 16,
+    "gptRationale": "Instrumentenfamilien sind sehr klassische Kategorien mit klaren klanglichen und schulischen Zuordnungen."
   },
   "groups": [
     {

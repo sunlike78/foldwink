@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 22,
+    "gptDifficulty": 19,
+    "gptRationale": "Bedroom and breakfast objects are familiar, though a few items are slightly old-fashioned or region-specific."
   },
   "groups": [
     {

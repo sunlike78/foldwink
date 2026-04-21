@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 28,
+    "gptDifficulty": 12,
+    "gptRationale": "Household chore categories are extremely concrete daily-life groupings with almost no ambiguity."
   },
   "groups": [
     {

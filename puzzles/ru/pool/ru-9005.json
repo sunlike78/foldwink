@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Черты характера через идиомы",
     "batch": "ru-batch-16",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 38,
+    "gptDifficulty": 44,
+    "gptRationale": "Фразеологизмы про лень и мастерство довольно ходовые, но некоторые выражения допускают близкие по смыслу трактовки."
   },
   "groups": [
     {

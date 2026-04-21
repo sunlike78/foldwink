@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Klimawandel-Phänomene durch Beobachtungen",
     "batch": "de-batch-11",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 29,
+    "gptDifficulty": 27,
+    "gptRationale": "All four climate-impact categories are topical and the examples are vivid, concrete, and easy to sort."
   },
   "groups": [
     {

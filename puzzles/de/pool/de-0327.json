@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Herrschertitel",
     "batch": "de-batch-04",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 28,
+    "gptDifficulty": 28,
+    "gptRationale": "Herrschertitel sind sehr vertraute Vokabeln und die Untergruppen sind semantisch deutlich voneinander abgesetzt."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 45,
+    "gptDifficulty": 58,
+    "gptRationale": "Several deserts are well known, but the geography test becomes tricky once less famous regions and cold-desert classification enter the mix."
   },
   "groups": [
     {

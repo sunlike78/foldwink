@@ -5,7 +5,10 @@
   "meta": {
     "theme": "raumfahrt",
     "batch": "de-batch-05",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 30,
+    "gptDifficulty": 32,
+    "gptRationale": "Unternehmen, Fahrzeuge, Ziele und Hürden im Weltraumtourismus sind sauber getrennt und medial recht präsent."
   },
   "groups": [
     {

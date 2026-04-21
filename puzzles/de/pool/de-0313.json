@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kant",
     "batch": "de-batch-04",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 59,
+    "gptDifficulty": 74,
+    "gptRationale": "Hier mischen sich Werktitel, Fachbegriffe und Kategorien aus der Kant-Rezeption, was hohe begriffliche Genauigkeit verlangt."
   },
   "groups": [
     {

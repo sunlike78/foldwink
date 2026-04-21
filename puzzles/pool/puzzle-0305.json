@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 66,
+    "gptDifficulty": 80,
+    "gptRationale": "French culinary methods and mother sauces require fairly exact subject knowledge, and unfamiliar vocabulary leaves little room for inference."
   },
   "groups": [
     {

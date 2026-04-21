@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Языковые семьи",
     "batch": "ru-batch-06",
-    "difficultyScore": 62
+    "difficultyScore": 62,
+    "editorialRank": 48,
+    "gptDifficulty": 38,
+    "gptRationale": "Языковые семьи здесь в основном каноничны и узнаваемы, хотя семитская группа требует чуть более специального знания."
   },
   "groups": [
     {

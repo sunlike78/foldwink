@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wirtschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 19,
+    "gptDifficulty": 19,
+    "gptRationale": "Landwirtschaft enthält extrem naheliegende Kategorien wie Getreide, Viehzucht und Landmaschinen, die schnell ins Auge fallen."
   },
   "groups": [
     {

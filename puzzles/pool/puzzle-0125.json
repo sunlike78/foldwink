@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 50,
+    "gptDifficulty": 67,
+    "gptRationale": "The blue-theme sets are evocative yet slippery, with several entries depending on metaphorical association rather than strict category membership."
   },
   "groups": [
     {

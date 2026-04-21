@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Домашние животные",
     "batch": "ru-batch-01",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Animal categories are concrete and everyday, with only a little uncertainty around farm versus pet versus utility animals."
   },
   "groups": [
     {

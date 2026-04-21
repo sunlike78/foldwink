@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Металлы и металлические сплавы",
     "batch": "ru-batch-16",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 26,
+    "gptDifficulty": 27,
+    "gptRationale": "Металлы и сплавы образуют очень естественные школьные категории, хотя отдельные пограничные названия могут слегка отвлекать."
   },
   "groups": [
     {

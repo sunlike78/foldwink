@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Freizeit",
     "batch": "de-batch-02",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 27,
+    "gptDifficulty": 21,
+    "gptRationale": "Seasonal activities are extremely familiar, though one or two activities can feel seasonally flexible."
   },
   "groups": [
     {

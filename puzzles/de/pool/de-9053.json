@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Tierkommunikation und Signale",
     "batch": "de-batch-12",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 43,
+    "gptDifficulty": 39,
+    "gptRationale": "Dog-behavior categories are fairly intuitive, though dominance, fear, and play signals can momentarily cross for non-experts."
   },
   "groups": [
     {

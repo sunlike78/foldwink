@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Antonyme",
     "batch": "de-batch-05",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 38,
+    "gptDifficulty": 42,
+    "gptRationale": "Die Antonymfelder sind erkennbar, doch innerhalb der Paare gibt es semantische Abstufungen statt glasklarer Eins-zu-eins-Gegensätze."
   },
   "groups": [
     {

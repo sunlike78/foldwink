@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ядовитые животные мира",
     "batch": "ru-batch-15",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 44,
+    "gptDifficulty": 54,
+    "gptRationale": "Опасные животные узнаваемы, но различия между ядовитыми морскими видами и спорные примеры в земноводных слегка усложняют задачу."
   },
   "groups": [
     {

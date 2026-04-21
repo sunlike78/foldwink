@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wetter",
     "batch": "de-batch-01",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 31,
+    "gptDifficulty": 42,
+    "gptRationale": "Die Mischung aus Wetterphänomenen, Warnlagen und Messgeräten ist klar, aber Wolkentypen und Fachvokabular heben die Schwierigkeit etwas an."
   },
   "groups": [
     {

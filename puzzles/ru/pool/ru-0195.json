@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Горные породы и минералы",
     "batch": "ru-batch-06",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 52,
+    "gptDifficulty": 68,
+    "gptRationale": "Геологические породы и минералы для типичного игрока звучат похоже, а различие между классами требует предметного знания."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Bodenkunde",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 52,
+    "gptDifficulty": 69,
+    "gptRationale": "Bodenkunde enthält etliche wenig geläufige Typen- und Fachbezeichnungen, die für Nicht-Fachleute nur schwach unterscheidbar sind."
   },
   "groups": [
     {

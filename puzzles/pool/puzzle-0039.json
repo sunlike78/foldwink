@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 41,
+    "gptDifficulty": 61,
+    "gptRationale": "Geographic features are concrete, yet peninsulas and volcano names push the set toward factual recall and possible uncertainty."
   }
 }

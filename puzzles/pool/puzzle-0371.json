@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 46,
+    "gptDifficulty": 43,
+    "gptRationale": "The math branches are mostly textbook-level, though some players may hesitate over where probability or game theory belongs."
   },
   "groups": [
     {

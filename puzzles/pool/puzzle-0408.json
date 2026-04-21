@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 59,
+    "gptDifficulty": 67,
+    "gptRationale": "Musical tempo markings are specialized Italian vocabulary, and the differences between adjacent speed groups are subtle."
   },
   "groups": [
     {

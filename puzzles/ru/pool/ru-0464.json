@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Дорожное строительство и покрытия",
     "batch": "ru-batch-20",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 48,
+    "gptDifficulty": 61,
+    "gptRationale": "Это уже смесь дорожной и инженерной инфраструктуры, где названия развязок и мостов знают не все."
   },
   "groups": [
     {

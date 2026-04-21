@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Жанры компьютерных игр",
     "batch": "ru-batch-09",
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 30,
+    "gptDifficulty": 44,
+    "gptRationale": "Game genres are familiar to many players, but acronym-heavy strategy and RPG subgenres raise the knowledge threshold."
   },
   "groups": [
     {

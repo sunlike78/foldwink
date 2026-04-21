@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 59
+    "difficultyScore": 59,
+    "editorialRank": 56,
+    "gptDifficulty": 54,
+    "gptRationale": "The sport-by-position structure is clear, yet many role names are technical and specific to fans of each sport."
   },
   "groups": [
     {

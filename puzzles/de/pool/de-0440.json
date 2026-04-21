@@ -5,7 +5,10 @@
   "meta": {
     "theme": "religion",
     "batch": "de-batch-05",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 33,
+    "gptDifficulty": 41,
+    "gptRationale": "Viele Figuren sind bekannt, doch die Trennung zwischen Testamenten, Propheten und Aposteln verlangt etwas Bibelorientierung."
   },
   "groups": [
     {

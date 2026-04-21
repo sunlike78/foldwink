@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 25,
+    "gptDifficulty": 21,
+    "gptRationale": "Language-classroom terms are broadly familiar, though world alphabets introduce a mild knowledge check."
   },
   "groups": [
     {

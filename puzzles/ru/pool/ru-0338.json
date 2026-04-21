@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Горные системы мира",
     "batch": "ru-batch-13",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 33,
+    "gptDifficulty": 42,
+    "gptRationale": "Большинство горных систем узнаваемы, но отличить общие американские цепи и менее массовые российские названия уже не совсем тривиально."
   },
   "groups": [
     {

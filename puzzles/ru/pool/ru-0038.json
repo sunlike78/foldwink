@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Части лица",
     "batch": "ru-batch-01",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 27,
+    "gptDifficulty": 33,
+    "gptRationale": "Face anatomy is familiar overall, though nested subparts like parts of the eye require more precise attention."
   },
   "groups": [
     {

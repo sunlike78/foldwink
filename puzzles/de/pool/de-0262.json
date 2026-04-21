@@ -5,7 +5,10 @@
   "meta": {
     "theme": "modemarken",
     "batch": "de-batch-03",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 46,
+    "gptDifficulty": 67,
+    "gptRationale": "Deutsche Modemarken klingt leicht, wird aber durch weniger bekannte Streetwear- und Accessoiremarken spürbar anspruchsvoller."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ягоды",
     "batch": "ru-batch-03",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 47,
+    "gptDifficulty": 53,
+    "gptRationale": "Ягоды выглядят бытово, однако болотные и экзотические названия знают уже не все, плюс есть риск спутать садовые и лесные."
   },
   "groups": [
     {

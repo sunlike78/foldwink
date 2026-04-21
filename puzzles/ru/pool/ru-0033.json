@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Выпечка и хлеб",
     "batch": "ru-batch-01",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 45,
+    "gptDifficulty": 54,
+    "gptRationale": "Bakery terminology is concrete yet culturally specific, and several flour-based items feel deceptively similar."
   },
   "groups": [
     {

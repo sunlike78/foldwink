@@ -5,7 +5,10 @@
   "meta": {
     "theme": "philosophie",
     "batch": "de-batch-05",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 56,
+    "gptDifficulty": 76,
+    "gptRationale": "Mehrere antike Schulen sind außerhalb geisteswissenschaftlicher Bildung recht obskur und die Personennamen bieten kaum alltagsnahe Anker."
   },
   "groups": [
     {

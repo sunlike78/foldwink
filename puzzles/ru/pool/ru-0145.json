@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Молочные продукты",
     "batch": "ru-batch-04",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 41,
+    "gptDifficulty": 58,
+    "gptRationale": "Несколько продуктов могут путать по типу употребления, а восточные и региональные молочные названия знают не все."
   },
   "groups": [
     {

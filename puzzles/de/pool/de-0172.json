@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 27,
+    "gptDifficulty": 21,
+    "gptRationale": "Europäische Länder nach Himmelsrichtungen sind sehr vertraut und die Kategorien dadurch fast sofort ersichtlich."
   },
   "groups": [
     {

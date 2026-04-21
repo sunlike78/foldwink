@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Логистика и транспортировка",
     "batch": "ru-batch-16",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 34,
+    "gptDifficulty": 33,
+    "gptRationale": "Логистика знакома на бытовом уровне, и большинство терминов хорошо распадаются на транспорт, грузы и цепочку поставок."
   },
   "groups": [
     {

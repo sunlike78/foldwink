@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 33,
+    "gptDifficulty": 21,
+    "gptRationale": "Pasta shapes are familiar and the form-based categories are visual and intuitive, making this one of the gentler sets."
   },
   "groups": [
     {

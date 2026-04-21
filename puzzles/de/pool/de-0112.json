@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Feste",
     "batch": "de-batch-02",
-    "difficultyScore": 44
+    "difficultyScore": 44,
+    "editorialRank": 37,
+    "gptDifficulty": 32,
+    "gptRationale": "German holidays are broadly known, but distinctions between state, regional, religious, and folk festivals are not always sharp for everyone."
   },
   "groups": [
     {

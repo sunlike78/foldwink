@@ -5,7 +5,10 @@
   "meta": {
     "theme": "ddr-brd",
     "batch": "de-batch-03",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 23,
+    "gptDifficulty": 29,
+    "gptRationale": "DDR/BRD bietet stark unterscheidbare Alltags- und Politikfelder mit sehr bekannten Stichwörtern und wenig versteckter Abstraktion."
   },
   "groups": [
     {

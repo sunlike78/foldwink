@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 52,
+    "gptDifficulty": 58,
+    "gptRationale": "Jazz artist-to-subgenre mapping demands genuine genre knowledge and invites confusion around figures associated with multiple adjacent styles."
   },
   "groups": [
     {

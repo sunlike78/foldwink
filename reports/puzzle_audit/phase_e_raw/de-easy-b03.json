@@ -1,0 +1,309 @@
+{
+  "lang": "de",
+  "tier": "easy",
+  "batchIndex": 2,
+  "batchTotal": 5,
+  "elapsedSec": 59,
+  "ratings": [
+    {
+      "puzzleId": "de-0136",
+      "difficulty": 64,
+      "rationale": "Klettersport mischt alltagsfernere Fachwörter wie Crux und regionale Gebiete mit Ausrüstung, was die Gruppen trotz klarem Thema merklich spezialisierter macht."
+    },
+    {
+      "puzzleId": "de-0137",
+      "difficulty": 41,
+      "rationale": "Die Oberkategorien sind sauber getrennt und viele Begriffe sind geläufig, nur Tölt und einzelne Pferderassen erhöhen die Schwierigkeit etwas."
+    },
+    {
+      "puzzleId": "de-0138",
+      "difficulty": 48,
+      "rationale": "Golfbegriffe sind recht bekannt, aber mehrere englische Fachwörter und turnierspezifische Formate erzeugen mittlere Hürden."
+    },
+    {
+      "puzzleId": "de-0141",
+      "difficulty": 57,
+      "rationale": "Handball ist in Deutschland vertraut, doch Vereinsnamen, Turniere und die absichtlich falsche Spur Abseits machen das Sortieren etwas fehleranfällig."
+    },
+    {
+      "puzzleId": "de-0142",
+      "difficulty": 29,
+      "rationale": "Basketball hat sehr bekannte Positionen und Techniken, sodass die Kategorien für die meisten Spieler schnell sichtbar werden."
+    },
+    {
+      "puzzleId": "de-0143",
+      "difficulty": 46,
+      "rationale": "Volleyballbegriffe sind meist zugänglich, aber positionsspezifische Rollen und die Überschneidung zwischen Hallen- und Beach-Kontext kosten etwas Zeit."
+    },
+    {
+      "puzzleId": "de-0144",
+      "difficulty": 74,
+      "rationale": "Rugby verlangt viel sprachliche Präzision bei wenig alltagsbekannten Fachwörtern wie Gasse, Maul und Gedrängehalb."
+    },
+    {
+      "puzzleId": "de-0145",
+      "difficulty": 37,
+      "rationale": "Eishockey bietet sehr klare Gruppen aus Ausrüstung, Positionen und Strafen, obwohl einzelne Regelwörter wie Icing leicht spezieller sind."
+    },
+    {
+      "puzzleId": "de-0147",
+      "difficulty": 43,
+      "rationale": "Turnen ist grundsätzlich vertraut, aber die Mischung aus Geräteturnen, rhythmischer Sportgymnastik und Fachbegriffen wie Aufgang erschwert die Zuordnung etwas."
+    },
+    {
+      "puzzleId": "de-0148",
+      "difficulty": 54,
+      "rationale": "Kraftsport hat teils bekannte Übungen, doch Wettkampfarten und Trainingsbegriffe wie Volumen oder Reißen verlangen etwas Szenewissen."
+    },
+    {
+      "puzzleId": "de-0149",
+      "difficulty": 58,
+      "rationale": "Motorsport bündelt mehrere Teildisziplinen mit etlichen englischen oder formatspezifischen Begriffen, was mehr Fachkenntnis erfordert als der Titel vermuten lässt."
+    },
+    {
+      "puzzleId": "de-0150",
+      "difficulty": 67,
+      "rationale": "Segeln und Rudern teilen ähnliches Vokabular, und Begriffe wie Luv, Lee, Skull oder Riemen sind für viele nicht unmittelbar geläufig."
+    },
+    {
+      "puzzleId": "de-0151",
+      "difficulty": 52,
+      "rationale": "Viele Tänze sind bekannt, aber die Unterscheidung zwischen Standard, Latein, Streetdance und regionalen Volkstänzen fordert breiteres Kulturwissen."
+    },
+    {
+      "puzzleId": "de-0152",
+      "difficulty": 63,
+      "rationale": "Asanas sind noch recht erkennbar, doch Atemtechniken und philosophische Sanskrit-Begriffe machen die Kategorien deutlich anspruchsvoller."
+    },
+    {
+      "puzzleId": "de-0153",
+      "difficulty": 32,
+      "rationale": "Ernährungsformen arbeiten mit sehr vertrauten Lebensmitteln und klaren Mustern, sodass die Einteilung meist schnell gelingt."
+    },
+    {
+      "puzzleId": "de-0155",
+      "difficulty": 27,
+      "rationale": "Krankheiten und Beschwerden nutzt sehr alltagsnahe Wörter mit kaum Mehrdeutigkeit und klar unterscheidbaren medizinischen Bereichen."
+    },
+    {
+      "puzzleId": "de-0156",
+      "difficulty": 24,
+      "rationale": "Erste Hilfe besteht aus extrem vertrauten, handlungsnahen Begriffen, die sich fast von selbst in praktische Kategorien ordnen."
+    },
+    {
+      "puzzleId": "de-0157",
+      "difficulty": 18,
+      "rationale": "Beim Zahnarzt sind sowohl Geräte als auch Behandlungen und Pflegemittel sehr bekannt und semantisch sauber getrennt."
+    },
+    {
+      "puzzleId": "de-0158",
+      "difficulty": 44,
+      "rationale": "Viele Begriffe sind geläufig, aber ophthalmologische Fachwörter wie Astigmatismus, Makuladegeneration oder Spaltlampe erhöhen den Anspruch etwas."
+    },
+    {
+      "puzzleId": "de-0159",
+      "difficulty": 66,
+      "rationale": "Psychologie mischt Alltagsbegriffe mit fachsprachlichen Modellen und Therapieformen, was ohne Vorwissen weniger offensichtlich gruppierbar ist."
+    },
+    {
+      "puzzleId": "de-0160",
+      "difficulty": 14,
+      "rationale": "Soziales Leben nutzt extrem vertraute Rollen aus klar getrennten Lebensbereichen und gehört damit zu den einfachsten Sets."
+    },
+    {
+      "puzzleId": "de-0161",
+      "difficulty": 61,
+      "rationale": "Man braucht recht konkretes Wissen über deutsche Stadtgrößenklassen, und mehrere Städte könnten ohne Einwohnerkenntnis austauschbar wirken."
+    },
+    {
+      "puzzleId": "de-0162",
+      "difficulty": 56,
+      "rationale": "Köln ist bekannt, aber Stadtteile, Museen und Veranstaltungen verlangen lokales Wissen jenseits der offensichtlichsten Sehenswürdigkeiten."
+    },
+    {
+      "puzzleId": "de-0165",
+      "difficulty": 62,
+      "rationale": "Dresden kombiniert berühmte Bauwerke mit lokaleren Stadtteilen und historischen Bezügen, was die Kategorien weniger sofort lesbar macht."
+    },
+    {
+      "puzzleId": "de-0167",
+      "difficulty": 68,
+      "rationale": "Düsseldorf verlangt recht spezifisches Stadtwissen, besonders bei Stadtteilen und modebezogenen Einträgen mit kulturellem Kontext."
+    },
+    {
+      "puzzleId": "de-0168",
+      "difficulty": 71,
+      "rationale": "Hannover ist als Themenfeld weniger präsent, und Messe-, Park- und Geschichtseinträge greifen stark auf Detailwissen zurück."
+    },
+    {
+      "puzzleId": "de-0169",
+      "difficulty": 59,
+      "rationale": "Bremen enthält einige ikonische Wahrzeichen, aber Hafenbegriffe und Stadtteile sorgen für genug lokale Spezifik, um über Durchschnitt zu liegen."
+    },
+    {
+      "puzzleId": "de-0170",
+      "difficulty": 65,
+      "rationale": "Nürnberg mischt gut bekannte Altstadtorte mit spezifischen Stadtteilen und historischen Begriffen, die nicht jeder sofort erkennt."
+    },
+    {
+      "puzzleId": "de-0171",
+      "difficulty": 39,
+      "rationale": "Deutschlands Nachbarländer ist grundsätzlich vertraut, doch die Einbindung von Meeren, Flüssen und Bergen erzeugt leichte False Trails."
+    },
+    {
+      "puzzleId": "de-0172",
+      "difficulty": 21,
+      "rationale": "Europäische Länder nach Himmelsrichtungen sind sehr vertraut und die Kategorien dadurch fast sofort ersichtlich."
+    },
+    {
+      "puzzleId": "de-0173",
+      "difficulty": 73,
+      "rationale": "EU-Mitgliedsstaaten nach Beitrittsphasen verlangen genaue historische Zuordnung, was innerhalb eines einfachen Geografie-Tiers relativ anspruchsvoll ist."
+    },
+    {
+      "puzzleId": "de-0174",
+      "difficulty": 26,
+      "rationale": "Europäische Hauptstädte sind sehr geläufig und sauber regional geordnet, sodass nur geringe Verwechslungsgefahr besteht."
+    },
+    {
+      "puzzleId": "de-0175",
+      "difficulty": 53,
+      "rationale": "Die Flüsse selbst sind bekannt, aber die Zuordnung über Länder oder Städte entlang des Flusslaufs erfordert zusätzlichen Geografiekontext."
+    },
+    {
+      "puzzleId": "de-0176",
+      "difficulty": 49,
+      "rationale": "Weltwunder sind populär, doch die Mischung aus antiken, neuen, Natur- und modernen Wundern schafft mehrere konkurrierende Ordnungsmuster."
+    },
+    {
+      "puzzleId": "de-0177",
+      "difficulty": 47,
+      "rationale": "Gebirge der Welt sind thematisch klar, aber einige weniger geläufige Namen wie Rwenzori oder Tianshan heben die Schwierigkeit etwas an."
+    },
+    {
+      "puzzleId": "de-0178",
+      "difficulty": 58,
+      "rationale": "Weltmeere nutzt das indirekte Muster über Anrainerstaaten und Polarregionen statt nur Ozeannamen, was die Gruppen weniger unmittelbar macht."
+    },
+    {
+      "puzzleId": "de-0179",
+      "difficulty": 12,
+      "rationale": "Kontinente mit typischen Ländern sind maximal vertraut und gehören zu den offensichtlichsten Sortierungen im ganzen Batch."
+    },
+    {
+      "puzzleId": "de-0180",
+      "difficulty": 34,
+      "rationale": "Klimazonen sind ein Schulklassiker mit sehr eindeutigen Signalwörtern wie Wüste, Tundra oder Regenwald."
+    },
+    {
+      "puzzleId": "de-0181",
+      "difficulty": 42,
+      "rationale": "Naturphänomene sind bekannt, doch einige Fachbegriffe wie Verwerfung oder Superzelle machen die Feinsortierung etwas anspruchsvoller."
+    },
+    {
+      "puzzleId": "de-0182",
+      "difficulty": 31,
+      "rationale": "Ökosysteme arbeiten mit sehr typischen Tierbeispielen, sodass die Zuordnung meist schnell und intuitiv möglich ist."
+    },
+    {
+      "puzzleId": "de-0183",
+      "difficulty": 72,
+      "rationale": "Viele bedrohte Arten sind deutlich weniger geläufig und verlangen präzises biologisches oder dokumentarisches Vorwissen."
+    },
+    {
+      "puzzleId": "de-0184",
+      "difficulty": 36,
+      "rationale": "Umweltprobleme sind thematisch vertraut und die Begriffe stark an ihre jeweiligen Problemfelder gebunden."
+    },
+    {
+      "puzzleId": "de-0185",
+      "difficulty": 28,
+      "rationale": "Energieformen und Speicher sind breit bekannte Alltags- und Schulthemen mit klar voneinander abgesetzten Gruppen."
+    },
+    {
+      "puzzleId": "de-0186",
+      "difficulty": 22,
+      "rationale": "Recycling nutzt sehr konkrete Alltagsobjekte und ein bekanntes deutsches Mülltrennungsschema mit wenig Interpretationsspielraum."
+    },
+    {
+      "puzzleId": "de-0187",
+      "difficulty": 19,
+      "rationale": "Landwirtschaft enthält extrem naheliegende Kategorien wie Getreide, Viehzucht und Landmaschinen, die schnell ins Auge fallen."
+    },
+    {
+      "puzzleId": "de-0188",
+      "difficulty": 45,
+      "rationale": "Forstwirtschaft ist noch alltagsnah, aber Fachwörter wie Pflegehieb oder die Einordnung mancher Waldtiere machen es etwas anspruchsvoller."
+    },
+    {
+      "puzzleId": "de-0189",
+      "difficulty": 55,
+      "rationale": "Fischerei verlangt neben bekannten Fischarten auch Kenntnisse zu Fangmethoden und Nachhaltigkeitsvokabular, was das Set spezialisierter macht."
+    },
+    {
+      "puzzleId": "de-0190",
+      "difficulty": 69,
+      "rationale": "Bergbau enthält mehrere wenig alltagsnahe Fachbegriffe und maschinennahe Wörter, die ohne Sachwissen nicht sofort sauber gruppiert werden."
+    },
+    {
+      "puzzleId": "de-0191",
+      "difficulty": 38,
+      "rationale": "Chemie im Alltag bleibt durch die lebensnahen Unterthemen gut zugänglich, auch wenn einzelne Fachbegriffe etwas genaueres Wissen verlangen."
+    },
+    {
+      "puzzleId": "de-0192",
+      "difficulty": 35,
+      "rationale": "Physik im Alltag nutzt bekannte Phänomene aus dem Schulkontext, deren Kategorien meist klar voneinander abgegrenzt sind."
+    },
+    {
+      "puzzleId": "de-0193",
+      "difficulty": 30,
+      "rationale": "Biologie-Grundlagen ist schulisch sehr vertraut und bietet deutlich getrennte Cluster aus Zelle, Organen, Ökologie und Genetik."
+    },
+    {
+      "puzzleId": "de-0194",
+      "difficulty": 51,
+      "rationale": "Astronomie kombiniert sehr bekannte Planeten mit speziellerem Vokabular zu Sterntypen und Raumfahrtmissionen."
+    },
+    {
+      "puzzleId": "de-0195",
+      "difficulty": 40,
+      "rationale": "Wetter und Klima ist überwiegend vertraut, aber Messgeräte und Klimatypen verlangen etwas präzisere Fachzuordnung."
+    },
+    {
+      "puzzleId": "de-0196",
+      "difficulty": 50,
+      "rationale": "Geologie ist noch schulnah, doch Mineralien, Erdschichten und Prozessbegriffe liegen für viele nicht mehr ganz präsent bereit."
+    },
+    {
+      "puzzleId": "de-0197",
+      "difficulty": 33,
+      "rationale": "Geografie Deutschlands setzt auf sehr bekannte Superlative und Regionen, wodurch die Kategorien meist schnell erkennbar sind."
+    },
+    {
+      "puzzleId": "de-0199",
+      "difficulty": 60,
+      "rationale": "Bundeswehr mischt geläufige Einträge mit aktuellen Organisationsbegriffen und Einsatzorten, die nicht jeder sicher einordnen kann."
+    },
+    {
+      "puzzleId": "de-0200",
+      "difficulty": 46,
+      "rationale": "Der große historische Überblick ist in der Schule präsent, aber mehrere Epochenmarker konkurrieren und erfordern zeitliche Sortiersicherheit."
+    },
+    {
+      "puzzleId": "de-0201",
+      "difficulty": 75,
+      "rationale": "Die Reformation verlangt recht spezifische historische und theologische Begriffskenntnis, besonders bei Schriften und frühen Kirchenbegriffen."
+    },
+    {
+      "puzzleId": "de-0203",
+      "difficulty": 78,
+      "rationale": "Friedrich der Große ist stark wissensbasiert, und Schlachten, Hofpersonen und preußische Orte sind für typische Spieler eher Spezialstoff."
+    },
+    {
+      "puzzleId": "de-0204",
+      "difficulty": 70,
+      "rationale": "Das Kaiserreich wirkt vertraut, aber genaue Abgrenzung von Kaisern, Kanzlern und Reichssymbolen verlangt präzises historisches Wissen und enthält mit Karl I. eine starke Stolperfalle."
+    }
+  ]
+}

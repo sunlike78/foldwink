@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 24,
+    "gptDifficulty": 24,
+    "gptRationale": "The human body systems are standard school-level categories with highly characteristic terms and almost no false trails."
   },
   "groups": [
     {

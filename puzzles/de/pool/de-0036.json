@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wurstsorten",
     "batch": "de-batch-01",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 62,
+    "gptDifficulty": 68,
+    "gptRationale": "Die Wursttypen beruhen auf eher spezialisiertem deutschen Metzgereivokabular, und mehrere Beispiele klingen für Laien stark austauschbar."
   },
   "groups": [
     {

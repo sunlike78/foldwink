@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Известные философы по эпохам",
     "batch": "ru-batch-10",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 37,
+    "gptDifficulty": 48,
+    "gptRationale": "Философы узнаваемы, но временные рамки групп местами требуют точности, а восточная мысль добавляет менее школьный материал."
   },
   "groups": [
     {

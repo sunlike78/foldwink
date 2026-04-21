@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Körpersprache in sozialen Situationen",
     "batch": "de-batch-12",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 41,
+    "gptDifficulty": 43,
+    "gptRationale": "Body-language groupings are accessible, but several cues are culturally fuzzy or pseudo-diagnostic enough to invite false grouping."
   },
   "groups": [
     {

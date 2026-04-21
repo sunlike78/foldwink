@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 63,
+    "gptDifficulty": 73,
+    "gptRationale": "Egyptian deity iconography is specialized and several entries look equally mythic unless the solver already knows the associations."
   },
   "groups": [
     {

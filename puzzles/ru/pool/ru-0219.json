@@ -5,7 +5,10 @@
   "meta": {
     "theme": "СМИ и журналистика",
     "batch": "ru-batch-07",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 35,
+    "gptDifficulty": 31,
+    "gptRationale": "Media and journalism categories are intuitive, though identifying specific Russian outlets adds a small knowledge check."
   },
   "groups": [
     {

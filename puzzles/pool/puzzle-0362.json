@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 45,
+    "gptDifficulty": 54,
+    "gptRationale": "Internet slang is contemporary and intuitive for some players, but fast-changing usage and overlap in tone create ambiguity."
   },
   "groups": [
     {

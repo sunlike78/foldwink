@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 55,
+    "gptDifficulty": 71,
+    "gptRationale": "Structural-engineering categories are specialized, and terms like tensegrity, monocoque, and folded plate push it toward the harder end of the tier."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Философские школы",
     "batch": "ru-batch-07",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 55,
+    "gptDifficulty": 69,
+    "gptRationale": "Философские направления абстрактны, частично исторически пересекаются и требуют уверенного различения школ, эпох и культурных традиций."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Символы СССР",
     "batch": "ru-batch-01",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 49,
+    "gptDifficulty": 54,
+    "gptRationale": "Символика СССР в целом известна, но монументы и названия наград уже требуют более точной культурной памяти."
   },
   "groups": [
     {

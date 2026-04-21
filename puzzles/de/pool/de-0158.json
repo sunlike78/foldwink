@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gesundheit",
     "batch": "de-batch-02",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 37,
+    "gptDifficulty": 44,
+    "gptRationale": "Viele Begriffe sind geläufig, aber ophthalmologische Fachwörter wie Astigmatismus, Makuladegeneration oder Spaltlampe erhöhen den Anspruch etwas."
   },
   "groups": [
     {

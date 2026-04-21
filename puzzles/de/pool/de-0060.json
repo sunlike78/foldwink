@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Umweltschutz",
     "batch": "de-batch-02",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 35,
+    "gptDifficulty": 32,
+    "gptRationale": "Umweltschutzthemen sind alltagsnah, auch wenn einzelne Maßnahmen eher politisch-praktisch als streng kategorial wirken."
   },
   "groups": [
     {

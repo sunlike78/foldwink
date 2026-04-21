@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Haustiere",
     "batch": "de-batch-02",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 36,
+    "gptDifficulty": 27,
+    "gptRationale": "Pet-care groupings are practical and easy to parse, but a few care items may not be universally known."
   },
   "groups": [
     {

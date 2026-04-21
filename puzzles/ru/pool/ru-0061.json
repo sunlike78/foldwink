@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Цирк",
     "batch": "ru-batch-01",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 24,
+    "gptDifficulty": 24,
+    "gptRationale": "Circus imagery is vivid and the category splits are concrete and visually memorable."
   },
   "groups": [
     {

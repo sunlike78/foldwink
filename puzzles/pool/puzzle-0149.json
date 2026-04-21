@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 37,
+    "gptDifficulty": 37,
+    "gptRationale": "Profession groups are intuitive, though legal job titles like barrister and solicitor may slow some players."
   },
   "groups": [
     {

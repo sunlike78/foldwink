@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Народные инструменты",
     "batch": "ru-batch-02",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 47,
+    "gptDifficulty": 69,
+    "gptRationale": "Народные инструменты заметно менее массово известны, а некоторые слова вроде рубеля или концертины требуют специального культурного знания."
   },
   "groups": [
     {

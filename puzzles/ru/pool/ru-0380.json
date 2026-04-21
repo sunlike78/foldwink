@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Сорта и марки пива",
     "batch": "ru-batch-15",
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 44,
+    "gptDifficulty": 64,
+    "gptRationale": "Подборка специально играет на том, что здесь смешаны бренды и стили пива, а для неэнтузиаста это создаёт заметную неоднозначность."
   },
   "groups": [
     {

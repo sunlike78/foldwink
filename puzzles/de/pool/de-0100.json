@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Sagen und Legenden",
     "batch": "de-batch-04",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 53,
+    "gptDifficulty": 68,
+    "gptRationale": "German legends rely on cultural-literary familiarity, and several names sound interchangeable if the stories are not well known."
   },
   "groups": [
     {

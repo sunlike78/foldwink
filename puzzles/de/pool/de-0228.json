@@ -5,7 +5,10 @@
   "meta": {
     "theme": "nibelungen",
     "batch": "de-batch-03",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 44,
+    "gptDifficulty": 56,
+    "gptRationale": "Die Nibelungensage ist bekannt genug, verlangt aber präzises Zuordnen von Figuren, Orten, Gegenständen und Ereignissen aus demselben Erzählkosmos."
   },
   "groups": [
     {

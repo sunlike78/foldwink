@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Юридические договоры и контракты",
     "batch": "ru-batch-17",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 43,
+    "gptDifficulty": 46,
+    "gptRationale": "Типы договоров логичны, но юридические и международные названия требуют чуть большей точности, чем массовые темы."
   },
   "groups": [
     {

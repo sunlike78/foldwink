@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 38,
+    "gptDifficulty": 55,
+    "gptRationale": "Toolbox language is tangible but specialized, especially power tools and measuring instruments that many casual players rarely name."
   }
 }

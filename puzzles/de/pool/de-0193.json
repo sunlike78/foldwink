@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 28,
+    "gptDifficulty": 30,
+    "gptRationale": "Biologie-Grundlagen ist schulisch sehr vertraut und bietet deutlich getrennte Cluster aus Zelle, Organen, Ökologie und Genetik."
   },
   "groups": [
     {

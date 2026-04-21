@@ -1,0 +1,309 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 3,
+  "batchTotal": 5,
+  "elapsedSec": 48,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0311",
+      "difficulty": 29,
+      "rationale": "The decade labels strongly anchor each set, and while a few fashion terms are specialized, most items are familiar enough to sort comfortably."
+    },
+    {
+      "puzzleId": "puzzle-0312",
+      "difficulty": 47,
+      "rationale": "The broad medieval theme is clear, but several role words like 'cooper,' 'fletcher,' and overlapping status titles create moderate ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0313",
+      "difficulty": 52,
+      "rationale": "Many entries are recognizable as breads, but distinguishing preparation/style groups across multiple cuisines requires more precise food knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0314",
+      "difficulty": 68,
+      "rationale": "This depends on hobby board-game literacy, and the game titles offer little help unless the player already knows the mechanics."
+    },
+    {
+      "puzzleId": "puzzle-0315",
+      "difficulty": 63,
+      "rationale": "The revolution theme is accessible, but separating specific historical flashpoints by country demands fairly exact recall."
+    },
+    {
+      "puzzleId": "puzzle-0331",
+      "difficulty": 24,
+      "rationale": "Most animals and collective-group cues are familiar, so the categories feel concrete and easy to infer."
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "difficulty": 71,
+      "rationale": "Bridge terminology is technical and several items sound structurally similar, making the group boundaries easy to blur."
+    },
+    {
+      "puzzleId": "puzzle-0333",
+      "difficulty": 58,
+      "rationale": "Many languages are familiar, but assigning them to families rather than regions requires some linguistic knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0334",
+      "difficulty": 55,
+      "rationale": "Biome categories are understandable, yet several terms are less everyday and some environments can plausibly cross categories."
+    },
+    {
+      "puzzleId": "puzzle-0335",
+      "difficulty": 49,
+      "rationale": "The '-phobia' framing is obvious, but the Greek-derived terms require more vocabulary precision than typical easy-tier material."
+    },
+    {
+      "puzzleId": "puzzle-0336",
+      "difficulty": 64,
+      "rationale": "Famous philosophers help, but separating them by movement and era gets tricky once the most obvious names are gone."
+    },
+    {
+      "puzzleId": "puzzle-0337",
+      "difficulty": 73,
+      "rationale": "This relies on architecture-history knowledge, and many names are only sortable if the player already knows the styles."
+    },
+    {
+      "puzzleId": "puzzle-0338",
+      "difficulty": 57,
+      "rationale": "Gemstones are concrete, but several stones are uncommon and players may know the item without knowing its canonical color grouping."
+    },
+    {
+      "puzzleId": "puzzle-0339",
+      "difficulty": 69,
+      "rationale": "Everything is math-related, so the false trail density is high and the distinctions depend on formal terminology."
+    },
+    {
+      "puzzleId": "puzzle-0340",
+      "difficulty": 61,
+      "rationale": "Olympic sports are familiar, but tying debut events to exact years adds a memory challenge beyond simple category recognition."
+    },
+    {
+      "puzzleId": "puzzle-0341",
+      "difficulty": 82,
+      "rationale": "Heraldry vocabulary is niche and highly technical, with little everyday intuition to help separate the subtypes."
+    },
+    {
+      "puzzleId": "puzzle-0342",
+      "difficulty": 35,
+      "rationale": "These are famous landmarks and building types that are broadly known, so most groupings are discoverable from general knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0343",
+      "difficulty": 60,
+      "rationale": "The psychology umbrella is clear, but distinguishing schools, biases, and learning models requires some textbook-style familiarity."
+    },
+    {
+      "puzzleId": "puzzle-0344",
+      "difficulty": 50,
+      "rationale": "Basic geometry helps a lot, but 'torus' and the conic-section set make it a bit more technical than average."
+    },
+    {
+      "puzzleId": "puzzle-0345",
+      "difficulty": 70,
+      "rationale": "The social-science terms are abstract and semantically close, so category boundaries are less obvious than the title suggests."
+    },
+    {
+      "puzzleId": "puzzle-0356",
+      "difficulty": 67,
+      "rationale": "Nearly every item is a mental-error term, so solving depends on carefully separating adjacent academic subdomains."
+    },
+    {
+      "puzzleId": "puzzle-0357",
+      "difficulty": 46,
+      "rationale": "Most shapes are standard school math vocabulary, with only the Platonic-solid group pushing it slightly above mid-tier ease."
+    },
+    {
+      "puzzleId": "puzzle-0358",
+      "difficulty": 66,
+      "rationale": "Some holy books are very well known, but the less familiar secondary texts make the religious groupings noticeably harder."
+    },
+    {
+      "puzzleId": "puzzle-0359",
+      "difficulty": 56,
+      "rationale": "Government terms are recognizable, yet some entries are broad or country-specific enough to cause moderate overlap and hesitation."
+    },
+    {
+      "puzzleId": "puzzle-0360",
+      "difficulty": 44,
+      "rationale": "Human bone regions are concrete and taught in school, though a few smaller bone names raise the precision needed."
+    },
+    {
+      "puzzleId": "puzzle-0361",
+      "difficulty": 62,
+      "rationale": "Kitchen-tool grouping is tangible, but several professional culinary terms are specialized and not obvious to casual players."
+    },
+    {
+      "puzzleId": "puzzle-0362",
+      "difficulty": 54,
+      "rationale": "Internet slang is contemporary and intuitive for some players, but fast-changing usage and overlap in tone create ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0363",
+      "difficulty": 65,
+      "rationale": "A few names are famous, but sorting psychologists by school requires real subject knowledge rather than surface recognition."
+    },
+    {
+      "puzzleId": "puzzle-0364",
+      "difficulty": 48,
+      "rationale": "Popular science concepts are broadly familiar, and the discipline buckets are distinct enough despite a few technical terms."
+    },
+    {
+      "puzzleId": "puzzle-0365",
+      "difficulty": 59,
+      "rationale": "Major religions are accessible, but the final two categories include terms that are broader, fuzzier, or less universally known."
+    },
+    {
+      "puzzleId": "puzzle-0366",
+      "difficulty": 74,
+      "rationale": "This is dense formal math vocabulary with little everyday scaffolding, and several terms compete strongly within the same domain."
+    },
+    {
+      "puzzleId": "puzzle-0369",
+      "difficulty": 72,
+      "rationale": "All entries are biological processes, so the puzzle leans on specialized terminology and fine-grained system distinctions."
+    },
+    {
+      "puzzleId": "puzzle-0374",
+      "difficulty": 51,
+      "rationale": "Anatomy regions are fairly concrete, but the thorax and pelvis groups require more exact skeletal knowledge than basic body-part sorting."
+    },
+    {
+      "puzzleId": "puzzle-0381",
+      "difficulty": 21,
+      "rationale": "Pasta shapes are familiar and the form-based categories are visual and intuitive, making this one of the gentler sets."
+    },
+    {
+      "puzzleId": "puzzle-0382",
+      "difficulty": 78,
+      "rationale": "Knot names are technical and repetitive-sounding, so only players with ropework knowledge will sort them confidently."
+    },
+    {
+      "puzzleId": "puzzle-0383",
+      "difficulty": 43,
+      "rationale": "Weather ideas are broadly recognizable, though a few less common terms like 'derecho' and 'sirocco' add some friction."
+    },
+    {
+      "puzzleId": "puzzle-0384",
+      "difficulty": 53,
+      "rationale": "Roman gods are somewhat familiar, but the grouped domains are broad and some figures are less commonly remembered."
+    },
+    {
+      "puzzleId": "puzzle-0385",
+      "difficulty": 58,
+      "rationale": "Forest categories are sensible, yet several subtype names are specialized and can plausibly fit more than one environmental bucket."
+    },
+    {
+      "puzzleId": "puzzle-0386",
+      "difficulty": 39,
+      "rationale": "Film genres are everyday cultural knowledge, and most entries carry strong genre signals despite a few hybrid edge cases."
+    },
+    {
+      "puzzleId": "puzzle-0387",
+      "difficulty": 57,
+      "rationale": "Photography terms are concrete for hobbyists, but composition, lighting, and processing vocabulary can blur for general players."
+    },
+    {
+      "puzzleId": "puzzle-0388",
+      "difficulty": 32,
+      "rationale": "Garden plants and herbs are everyday enough that most players can sort by broad plant type without much struggle."
+    },
+    {
+      "puzzleId": "puzzle-0389",
+      "difficulty": 75,
+      "rationale": "Election terminology is politically literate but fairly technical, with several near-neighbor systems and procedures inviting false matches."
+    },
+    {
+      "puzzleId": "puzzle-0390",
+      "difficulty": 77,
+      "rationale": "Literary genre labels include many classroom terms that are recognizable in isolation but hard to separate precisely under pressure."
+    },
+    {
+      "puzzleId": "puzzle-0391",
+      "difficulty": 64,
+      "rationale": "Textile patterns are visually grounded, but many names are niche or commonly confused outside fashion and design circles."
+    },
+    {
+      "puzzleId": "puzzle-0392",
+      "difficulty": 59,
+      "rationale": "Timekeeping is a concrete theme, yet the final category mixes calendar and astronomical terminology in a less straightforward way."
+    },
+    {
+      "puzzleId": "puzzle-0393",
+      "difficulty": 80,
+      "rationale": "Scientific laws are all formal eponymous concepts, so the puzzle is heavy on academic recall and low on intuitive sorting cues."
+    },
+    {
+      "puzzleId": "puzzle-0406",
+      "difficulty": 36,
+      "rationale": "Tea categories are familiar and the item names often carry cultural or style signals that make grouping fairly manageable."
+    },
+    {
+      "puzzleId": "puzzle-0407",
+      "difficulty": 34,
+      "rationale": "Many ship names are famous enough to place, and the space-shuttle group is especially easy to identify."
+    },
+    {
+      "puzzleId": "puzzle-0408",
+      "difficulty": 67,
+      "rationale": "Musical tempo markings are specialized Italian vocabulary, and the differences between adjacent speed groups are subtle."
+    },
+    {
+      "puzzleId": "puzzle-0409",
+      "difficulty": 45,
+      "rationale": "Beer styles are common enough for many players, though some crossover between ale, lager, and dark categories adds light confusion."
+    },
+    {
+      "puzzleId": "puzzle-0410",
+      "difficulty": 41,
+      "rationale": "Ancient empires are standard history knowledge, and the continent-based grouping gives strong support even when one dynasty is less familiar."
+    },
+    {
+      "puzzleId": "puzzle-0411",
+      "difficulty": 62,
+      "rationale": "Some poetry forms are famous, but several labels are literary-specialist terms that make the sets harder to distinguish cleanly."
+    },
+    {
+      "puzzleId": "puzzle-0412",
+      "difficulty": 18,
+      "rationale": "Silent-letter patterns are taught early and the categories are direct, concrete, and low in false trails."
+    },
+    {
+      "puzzleId": "puzzle-0413",
+      "difficulty": 38,
+      "rationale": "Sports equipment is tangible and mostly obvious from common sports knowledge, with only a few specialist accessory terms."
+    },
+    {
+      "puzzleId": "puzzle-0414",
+      "difficulty": 40,
+      "rationale": "Oscar categories are culturally familiar, and the award-group divisions are clear even if not every exact title is top of mind."
+    },
+    {
+      "puzzleId": "puzzle-0415",
+      "difficulty": 27,
+      "rationale": "Major rivers by continent is classic general knowledge with very strong geographic anchors and little ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0416",
+      "difficulty": 72,
+      "rationale": "Ballet vocabulary is highly specialized and French-derived, making the move categories difficult for non-dancers to parse."
+    },
+    {
+      "puzzleId": "puzzle-0417",
+      "difficulty": 37,
+      "rationale": "Dinosaur groups are widely recognizable to many players, and the famous examples give useful anchors for each set."
+    },
+    {
+      "puzzleId": "puzzle-0418",
+      "difficulty": 28,
+      "rationale": "The painters and their signature works are highly famous, so the groupings are accessible from broad cultural knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0431",
+      "difficulty": 31,
+      "rationale": "Golf terms are common sports vocabulary, and the subgroups are concrete enough that even non-golfers can infer many matches."
+    }
+  ]
+}

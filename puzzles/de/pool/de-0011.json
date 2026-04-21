@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Frühstück",
     "batch": "de-batch-01",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 17,
+    "gptDifficulty": 21,
+    "gptRationale": "Frühstücksprodukte sind sehr bekannt und sauber gruppiert, auch wenn einzelne Milchprodukte oder Backwaren leicht querassoziiert werden können."
   },
   "groups": [
     {

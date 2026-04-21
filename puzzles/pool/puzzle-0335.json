@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 70
+    "difficultyScore": 70,
+    "editorialRank": 57,
+    "gptDifficulty": 49,
+    "gptRationale": "The '-phobia' framing is obvious, but the Greek-derived terms require more vocabulary precision than typical easy-tier material."
   },
   "groups": [
     {

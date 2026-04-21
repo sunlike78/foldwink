@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Термины и разделы ботаники",
     "batch": "ru-batch-14",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 35,
+    "gptDifficulty": 43,
+    "gptRationale": "Школьная ботаника помогает, но семейства и адаптации требуют более точного предметного знания, чем первые две группы."
   },
   "groups": [
     {

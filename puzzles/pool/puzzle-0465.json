@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 42,
+    "gptDifficulty": 52,
+    "gptRationale": "Many mission names are famous, but the categories blur because probes, landers, telescopes, and crewed programs all sit in the same general space domain."
   },
   "groups": [
     {

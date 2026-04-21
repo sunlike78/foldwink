@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bayern-regionen",
     "batch": "de-batch-03",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 48,
+    "gptDifficulty": 52,
+    "gptRationale": "Bayerische Regierungsbezirke sind noch konkret, aber die regionale Feinaufteilung fordert mehr Landeswissen als ein durchschnittliches Easy-Puzzle."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Школьные предметы",
     "batch": "ru-batch-01",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 29,
+    "gptDifficulty": 18,
+    "gptRationale": "School-subject groupings are highly recognizable and the category borders are broad enough to feel straightforward."
   },
   "groups": [
     {

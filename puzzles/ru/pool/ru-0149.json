@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Итальянская кухня",
     "batch": "ru-batch-04",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 24,
+    "gptDifficulty": 28,
+    "gptRationale": "Итальянская кухня очень популярна, поэтому и категории, и сами элементы обычно узнаются быстро."
   },
   "groups": [
     {

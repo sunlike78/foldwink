@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 51,
+    "gptDifficulty": 53,
+    "gptRationale": "Kitchen science mixes familiar examples with technical process words, creating a moderate but fair classification task."
   },
   "groups": [
     {

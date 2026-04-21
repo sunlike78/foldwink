@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 20,
+    "gptDifficulty": 12,
+    "gptRationale": "Animal sounds are highly familiar and the categories are distinct enough to sort almost on sight."
   }
 }

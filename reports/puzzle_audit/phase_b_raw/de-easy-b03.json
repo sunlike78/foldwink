@@ -1,0 +1,799 @@
+{
+  "lang": "de",
+  "tier": "easy",
+  "batchIndex": 2,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "de-0136",
+    "de-0137",
+    "de-0138",
+    "de-0141",
+    "de-0142",
+    "de-0143",
+    "de-0144",
+    "de-0145",
+    "de-0147",
+    "de-0148",
+    "de-0149",
+    "de-0150",
+    "de-0151",
+    "de-0152",
+    "de-0153",
+    "de-0155",
+    "de-0156",
+    "de-0157",
+    "de-0158",
+    "de-0159",
+    "de-0160",
+    "de-0161",
+    "de-0162",
+    "de-0165",
+    "de-0167",
+    "de-0168",
+    "de-0169",
+    "de-0170",
+    "de-0171",
+    "de-0172",
+    "de-0173",
+    "de-0174",
+    "de-0175",
+    "de-0176",
+    "de-0177",
+    "de-0178",
+    "de-0179",
+    "de-0180",
+    "de-0181",
+    "de-0182",
+    "de-0183",
+    "de-0184",
+    "de-0185",
+    "de-0186",
+    "de-0187",
+    "de-0188",
+    "de-0189",
+    "de-0190",
+    "de-0191",
+    "de-0192",
+    "de-0193",
+    "de-0194",
+    "de-0195",
+    "de-0196",
+    "de-0197",
+    "de-0199",
+    "de-0200",
+    "de-0201",
+    "de-0203",
+    "de-0204"
+  ],
+  "elapsedSec": 226,
+  "findings": [
+    {
+      "puzzleId": "de-0137",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "\"Tölt\" is a specialized gait associated especially with Icelandic horses. For an easy German puzzle on everyday riding, it is noticeably less common than the other three gait items and may feel out of tier.",
+      "items": [
+        "Tölt"
+      ],
+      "groups": [
+        "Gangarten"
+      ],
+      "suggestedFix": "Replace with a more broadly known gait/term, or move this puzzle to a harder tier."
+    },
+    {
+      "puzzleId": "de-0141",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "\"Abseits\" is not a standard handball rule; offside is associated with sports such as football/soccer or hockey. This makes the rules group unfair.",
+      "items": [
+        "Abseits"
+      ],
+      "groups": [
+        "Spielregeln"
+      ],
+      "suggestedFix": "Replace with a real handball rule/term such as Schrittfehler, Kreis, Anwurf, Passives Spiel, or Doppeldribbling."
+    },
+    {
+      "puzzleId": "de-0142",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "\"FIBA\" is the international basketball federation, not a league. It does not fit the label \"Ligen\" alongside NBA, BBL, and Euroleague.",
+      "items": [
+        "FIBA"
+      ],
+      "groups": [
+        "Ligen"
+      ],
+      "suggestedFix": "Replace with a league such as WNBA, NCAA, ProA, ACB, or Basketball Champions League depending on intended scope."
+    },
+    {
+      "puzzleId": "de-0142",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Dribbling\" is primarily a basketball technique/skill, so placing it under \"Spielregeln\" overlaps with the \"Techniken\" category.",
+      "items": [
+        "Dribbling"
+      ],
+      "groups": [
+        "Spielregeln",
+        "Techniken"
+      ],
+      "suggestedFix": "Replace Dribbling with a clearer rule term such as Schrittfehler, 24-Sekunden-Regel, Rückspiel, or Doppeldribbling."
+    },
+    {
+      "puzzleId": "de-0144",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "\"Spielregeln\" and \"Spielelemente\" overlap too much in rugby: Gedränge is a set piece/game element like Gasse, Maul, Ruck, and Tackle rather than a cleanly separate rule item. The categories are not semantically distinct enough.",
+      "items": [
+        "Gedränge",
+        "Gasse",
+        "Maul",
+        "Ruck",
+        "Tackle"
+      ],
+      "groups": [
+        "Spielregeln",
+        "Spielelemente"
+      ],
+      "suggestedFix": "Rename/split more concretely, for example \"Punktearten\" with Try, Umwandlung, Strafkick, Dropkick and \"Standardsituationen/Kontaktphasen\" with Gedränge, Gasse, Maul, Ruck."
+    },
+    {
+      "puzzleId": "de-0145",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Puck\" is the object being played, not protective or player equipment in the same sense as Schlittschuhe, Schläger, and Helm. It can feel like a general game object rather than Ausrüstung.",
+      "items": [
+        "Puck"
+      ],
+      "groups": [
+        "Ausrüstung"
+      ],
+      "suggestedFix": "Use a clearer equipment item such as Handschuhe, Schulterpolster, Beinschoner, or Visier."
+    },
+    {
+      "puzzleId": "de-0147",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Abgang\" and \"Aufgang\" are movement/element terms and can reasonably overlap with \"Bewegungsarten\" rather than forming a clean separate \"Turnbegriffe\" category.",
+      "items": [
+        "Abgang",
+        "Aufgang"
+      ],
+      "groups": [
+        "Bewegungsarten",
+        "Turnbegriffe"
+      ],
+      "suggestedFix": "Make the fourth group a more concrete non-overlapping category, or replace Abgang/Aufgang with administrative/scoring terms."
+    },
+    {
+      "puzzleId": "de-0148",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The categories \"Übungen\", \"Wettkampfarten\", and \"Kraftsportbegriffe\" overlap conceptually: Reißen and Stoßen are not just exercises but the competition lifts in Gewichtheben, while Gewichtheben/Powerlifting/Strongman are sports rather than comparable \"Wettkampfarten\". This is not clean enough for easy.",
+      "items": [
+        "Reißen",
+        "Stoßen",
+        "Gewichtheben",
+        "Powerlifting",
+        "Strongman"
+      ],
+      "groups": [
+        "Übungen",
+        "Wettkampfarten",
+        "Kraftsportbegriffe"
+      ],
+      "suggestedFix": "Use clearer labels such as \"Kraftübungen\", \"Kraftsportarten\", \"Ausrüstung\", and \"Trainingsbegriffe\", and avoid placing official competition lifts away from their sport context."
+    },
+    {
+      "puzzleId": "de-0148",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Maximum\" is an awkward standalone term and likely means Maximalgewicht/One-Rep-Max; as written it is vague compared with Volumen, Intensität, and Wiederholung.",
+      "items": [
+        "Maximum"
+      ],
+      "groups": [
+        "Kraftsportbegriffe"
+      ],
+      "suggestedFix": "Use \"Maximalgewicht\" or \"One-Rep-Max\" if that is intended."
+    },
+    {
+      "puzzleId": "de-0149",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "\"Slipstream\" and \"Fahrerfeld\" are general motorsport terms, not specific to tourenwagen racing. They could reasonably belong under Formel 1 or general motorsport, so the Tourenwagen group is not exclusive.",
+      "items": [
+        "Slipstream",
+        "Fahrerfeld"
+      ],
+      "groups": [
+        "Formel 1",
+        "Tourenwagen"
+      ],
+      "suggestedFix": "Replace with touring-car-specific items such as Balance of Performance, Markenpokal, Tourenwagen Masters, or konkrete Serien/Begriffe."
+    },
+    {
+      "puzzleId": "de-0150",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The puzzle mixes sailing, rowing, and paddling under overlapping labels. Kajak and Kanu are not rowing boats, while \"Skull\", \"Riemen\", and \"Achter\" are rowing terms/boat classes rather than competitions. \"Ergometer\" is training equipment, not a rowing competition.",
+      "items": [
+        "Kajak",
+        "Kanu",
+        "Ergometer",
+        "Skull",
+        "Riemen",
+        "Achter"
+      ],
+      "groups": [
+        "Bootstypen",
+        "Ruderwettkämpfe"
+      ],
+      "suggestedFix": "Separate into clear categories such as \"Segelboottypen\", \"Paddelboote\", \"Ruderbootklassen\", and \"Segelbegriffe\", or retitle/rework the puzzle."
+    },
+    {
+      "puzzleId": "de-0152",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle relies on Sanskrit and philosophy terms such as Pranayama, Ujjayi, Kapalabhati, Ahimsa, and Moksha. That is advanced for an easy German everyday-category puzzle.",
+      "items": [
+        "Pranayama",
+        "Ujjayi",
+        "Kapalabhati",
+        "Ahimsa",
+        "Moksha"
+      ],
+      "groups": [
+        "Atemübungen",
+        "Yoga-Philosophie"
+      ],
+      "suggestedFix": "Move to a harder tier or replace with more everyday German yoga/meditation terms."
+    },
+    {
+      "puzzleId": "de-0153",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The dietary categories are not mutually exclusive. Tofu, Seitan, Tempeh, Lupinen, Nüsse, Beeren, Tomaten, Hülsenfrüchte, and Olivenöl can all be vegetarian/vegan, and several foods can fit multiple diet labels. The groups describe compatible diets rather than exclusive item classes.",
+      "items": [
+        "Tofu",
+        "Seitan",
+        "Tempeh",
+        "Lupinen",
+        "Olivenöl",
+        "Tomaten",
+        "Hülsenfrüchte",
+        "Nüsse",
+        "Beeren",
+        "Süßkartoffel"
+      ],
+      "groups": [
+        "Vegane Lebensmittel",
+        "Vegetarisch",
+        "Mediterran",
+        "Paleo"
+      ],
+      "suggestedFix": "Use mutually exclusive labels, e.g. \"Pflanzliche Proteinquellen\", \"Milch/Ei-Produkte\", \"Mediterrane Klassiker\", and \"Paleo-typische Lebensmittel\", with items that do not cross groups."
+    },
+    {
+      "puzzleId": "de-0158",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Laser-OP\" is a treatment/procedure, not a sehhilfe like Brille or Kontaktlinsen. It does not fit the category cleanly.",
+      "items": [
+        "Laser-OP"
+      ],
+      "groups": [
+        "Sehhilfen"
+      ],
+      "suggestedFix": "Replace with Lupe, Lesebrille, Gleitsichtbrille, oder Kontaktlinsenart."
+    },
+    {
+      "puzzleId": "de-0160",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The relationship categories overlap in everyday life: a Nachbar, Kollege, Kunde, Lieferant, or Teammitglied can also be a friend or acquaintance, and \"Bekannter\" is not specifically a friendship role. This makes membership context-dependent rather than unambiguous.",
+      "items": [
+        "Bekannter",
+        "Nachbar",
+        "Kollege",
+        "Teammitglied",
+        "Kunde",
+        "Lieferant"
+      ],
+      "groups": [
+        "Freundschaft",
+        "Arbeitsbeziehungen"
+      ],
+      "suggestedFix": "Use stricter labels such as \"Familie\", \"Schule\", \"Arbeitsplatz\", and \"Nachbarschaft\", or choose items that are exclusive role nouns."
+    },
+    {
+      "puzzleId": "de-0161",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The population-size groups are factually wrong and internally inconsistent. Bremen has over 500,000 inhabitants, while Augsburg, Wiesbaden, Bonn, and Münster are generally over 200,000 and are not \"Große Mittelstädte\" in the usual German classification. Also \"Über 200.000\" semantically includes cities over 500,000 unless the label says 200,000-500,000.",
+      "items": [
+        "Bremen",
+        "Augsburg",
+        "Wiesbaden",
+        "Bonn",
+        "Münster"
+      ],
+      "groups": [
+        "Über 200.000 Einwohner",
+        "Große Mittelstädte"
+      ],
+      "suggestedFix": "Use non-overlapping ranges, e.g. \"über 1 Mio.\", \"500.000-1 Mio.\", \"300.000-500.000\", \"200.000-300.000\", and update city placement."
+    },
+    {
+      "puzzleId": "de-0162",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Photokina has been discontinued and is no longer a current recurring Cologne event. For an easy contemporary landmarks/events puzzle, this is likely misleading.",
+      "items": [
+        "Photokina"
+      ],
+      "groups": [
+        "Veranstaltungen"
+      ],
+      "suggestedFix": "Replace with a current Cologne event such as lit.COLOGNE or Christopher Street Day Köln."
+    },
+    {
+      "puzzleId": "de-0165",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Frauenkirche and Hofkirche are churches, while the label \"Barockbauten\" is broad and can overlap with Dresden's sightseeing/church categories. Semperoper is also more commonly a landmark/opera house than a straightforward baroque building for easy solvers.",
+      "items": [
+        "Frauenkirche",
+        "Hofkirche",
+        "Semperoper"
+      ],
+      "groups": [
+        "Barockbauten"
+      ],
+      "suggestedFix": "Rename to a clearer label like \"Bauwerke der Altstadt\" or use a dedicated \"Kirchen\" group."
+    },
+    {
+      "puzzleId": "de-0168",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "IAA is primarily associated with Frankfurt/Main and Munich, not Hannover. It does not fit the Hannover trade-fair group.",
+      "items": [
+        "IAA"
+      ],
+      "groups": [
+        "Messen"
+      ],
+      "suggestedFix": "Replace with a Hannover fair such as LIGNA, EuroTier, DOMOTEX, or Infa."
+    },
+    {
+      "puzzleId": "de-0168",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Sprengel Museum is a museum, not just a general sight like Neues Rathaus, Marktkirche, or Kröpcke. If no museum category exists it may be acceptable, but it weakens the single-concept label \"Sehenswürdigkeiten\".",
+      "items": [
+        "Sprengel Museum"
+      ],
+      "groups": [
+        "Sehenswürdigkeiten"
+      ],
+      "suggestedFix": "Replace with a non-museum landmark, or rename the group to \"Sehenswürdigkeiten und Museen\"."
+    },
+    {
+      "puzzleId": "de-0169",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Bremerhaven and Fischereihafen are not Bremen city harbors in the same sense as Überseestadt/Weserhafen; Bremerhaven is a separate city. This is confusing in a Bremen Sehenswürdigkeiten puzzle.",
+      "items": [
+        "Bremerhaven",
+        "Fischereihafen"
+      ],
+      "groups": [
+        "Häfen"
+      ],
+      "suggestedFix": "Use Bremen-specific harbor/river items, or retitle the group to cover Bremen/Bremerhaven explicitly."
+    },
+    {
+      "puzzleId": "de-0169",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Kunsthalle and Universum are museums/attractions, not Wahrzeichen in the same direct sense as Stadtmusikanten. The group mixes landmark symbols with institutions.",
+      "items": [
+        "Kunsthalle",
+        "Universum"
+      ],
+      "groups": [
+        "Wahrzeichen"
+      ],
+      "suggestedFix": "Rename to \"Sehenswürdigkeiten\" or replace with clearer Bremen symbols."
+    },
+    {
+      "puzzleId": "de-0170",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Albrecht Dürer is a historical person, while Nürnberger Prozesse and Reichsparteitag are historical events/period references. \"Geschichte\" is too broad and overlaps with places/museums in the same puzzle.",
+      "items": [
+        "Albrecht Dürer",
+        "Nürnberger Trichter"
+      ],
+      "groups": [
+        "Geschichte"
+      ],
+      "suggestedFix": "Use a more concrete label such as \"Historische Ereignisse\" and replace person/proverb items, or make a separate \"Nürnberger Personen/Begriffe\" group."
+    },
+    {
+      "puzzleId": "de-0171",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The title says Germany's neighboring countries, but several items are seas, rivers, a lake, a mountain, or a German state rather than countries. This directly violates the category premise.",
+      "items": [
+        "Nordsee",
+        "Ostsee",
+        "Schleswig-Holstein",
+        "Oder",
+        "Neisse",
+        "Bodensee",
+        "Zugspitze"
+      ],
+      "groups": [
+        "Nordnachbarn",
+        "Ostnachbarn",
+        "Südnachbarn"
+      ],
+      "suggestedFix": "Use only countries, or retitle and relabel the groups as border regions/features rather than neighboring countries."
+    },
+    {
+      "puzzleId": "de-0173",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The accession-year group \"Beitritt 2013\" is factually wrong: only Croatia joined the EU in 2013. Slovenia joined in 2004, while Bulgaria joined in 2007, and Malta joined in 2004.",
+      "items": [
+        "Slowenien",
+        "Bulgarien",
+        "Malta"
+      ],
+      "groups": [
+        "Beitritt 2013"
+      ],
+      "suggestedFix": "Use correct accession cohorts, for example 1957, 1973/1981/1986, 1995/2004, and 2007/2013."
+    },
+    {
+      "puzzleId": "de-0175",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The country groups overlap because France appears as a Rhine country, while Paris/Rouen/Le Havre/Vernon are all in France under Seine cities. In a grouping puzzle this may not confuse individual item placement, but the labels mix country-based and city-based river associations in a way that is not parallel for easy.",
+      "items": [
+        "Frankreich",
+        "Paris",
+        "Rouen",
+        "Le Havre",
+        "Vernon"
+      ],
+      "groups": [
+        "Rhein-Länder",
+        "Seine-Städte"
+      ],
+      "suggestedFix": "Make all groups river cities or all groups river countries to keep the category logic parallel."
+    },
+    {
+      "puzzleId": "de-0176",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Amazonas\" is ambiguous in German: it can mean the river or the rainforest/region. As a \"Naturwunder\" item it is less precise than the other entries.",
+      "items": [
+        "Amazonas"
+      ],
+      "groups": [
+        "Naturwunder"
+      ],
+      "suggestedFix": "Use \"Amazonas-Regenwald\" or another clearly named natural wonder."
+    },
+    {
+      "puzzleId": "de-0177",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Kilimanjaro is a mountain/massif, not a mountain range. It does not belong under \"Afrikanische Gebirge\" alongside Atlas, Rwenzori, and Drakensberge.",
+      "items": [
+        "Kilimandscharo"
+      ],
+      "groups": [
+        "Afrikanische Gebirge"
+      ],
+      "suggestedFix": "Replace with a true African mountain range such as Äthiopisches Hochland or Tibesti."
+    },
+    {
+      "puzzleId": "de-0178",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The title \"Weltmeere\" suggests oceans, but most items are countries or territories bordering oceans. The category \"Arktis und Antarktis\" is also not parallel with the ocean-anrainer groups.",
+      "items": [
+        "USA",
+        "Brasilien",
+        "Spanien",
+        "Nigeria",
+        "Grönland",
+        "Svalbard",
+        "Südgeorgien",
+        "Antarktika"
+      ],
+      "groups": [
+        "Atlantik-Anrainer",
+        "Arktis und Antarktis"
+      ],
+      "suggestedFix": "Retitle to \"Ozean-Anrainer\" and make all groups parallel, or use actual oceans/seas as items."
+    },
+    {
+      "puzzleId": "de-0183",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "\"Bedrohte Meerestiere\" overlaps taxonomically with the other animal groups: Blauwal is a mammal, Lederschildkröte is both a reptile and a marine animal, and several listed fish/sharks are also marine animals. The categories mix habitat and class, so they are not mutually exclusive.",
+      "items": [
+        "Blauwal",
+        "Lederschildkröte",
+        "Mantarochen",
+        "Hammerkopfhai",
+        "Weißer Stör"
+      ],
+      "groups": [
+        "Bedrohte Säugetiere",
+        "Bedrohte Reptilien",
+        "Bedrohte Meerestiere"
+      ],
+      "suggestedFix": "Use either taxonomic groups only or habitat groups only, not both."
+    },
+    {
+      "puzzleId": "de-0184",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Ozonloch\" is not ordinary air pollution like Feinstaub, Stickoxide, or Smog; it is atmospheric ozone depletion. It fits environmental problems generally and overlaps conceptually with global environmental/climate topics.",
+      "items": [
+        "Ozonloch"
+      ],
+      "groups": [
+        "Luftverschmutzung"
+      ],
+      "suggestedFix": "Replace with Abgase, Schwefeldioxid, Ruß, or Stickstoffdioxid."
+    },
+    {
+      "puzzleId": "de-0185",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "\"Kohle\" and \"Braunkohle\" are not independent everyday-level items; Braunkohle is a type of coal. This creates a nested/near-duplicate pair inside the same group.",
+      "items": [
+        "Kohle",
+        "Braunkohle"
+      ],
+      "groups": [
+        "Fossile Energie"
+      ],
+      "suggestedFix": "Replace one with Steinkohle, Benzin, Diesel, or Heizöl depending on intended granularity."
+    },
+    {
+      "puzzleId": "de-0185",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "\"Batterie\" and \"Akkumulator\" are near-duplicates in everyday German usage, especially in a simple energy-storage category.",
+      "items": [
+        "Batterie",
+        "Akkumulator"
+      ],
+      "groups": [
+        "Energiespeicher"
+      ],
+      "suggestedFix": "Replace one with Schwungrad, Druckluftspeicher, Wärmespeicher, or Kondensator."
+    },
+    {
+      "puzzleId": "de-0187",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "\"Raps\" is an oilseed/crop, not an item in an \"Obst und Gemüse\" group. Its placement is factually wrong for an easy agriculture puzzle.",
+      "items": [
+        "Raps"
+      ],
+      "groups": [
+        "Obst und Gemüse"
+      ],
+      "suggestedFix": "Replace with a clear vegetable or fruit such as Karotte, Kartoffel, Apfel, or Kohl."
+    },
+    {
+      "puzzleId": "de-0188",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Seilbahn\" is equipment/transport infrastructure rather than a forest work activity like Holzeinschlag, Aufforstung, or Pflegehieb. It does not fit the action-based label cleanly.",
+      "items": [
+        "Seilbahn"
+      ],
+      "groups": [
+        "Forstarbeiten"
+      ],
+      "suggestedFix": "Replace with Rückung, Durchforstung, Entastung, or Holzrücken."
+    },
+    {
+      "puzzleId": "de-0189",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "\"Aquakultur\" is a production method/industry and can overlap with fishery itself, not just sustainability. It is not parallel with MSC-Siegel, Fangquote, and Schonzeit, which are sustainability controls/labels.",
+      "items": [
+        "Aquakultur"
+      ],
+      "groups": [
+        "Nachhaltigkeit"
+      ],
+      "suggestedFix": "Replace with Beifangreduktion, Bestandsschutz, Zertifizierung, or Fangverbot."
+    },
+    {
+      "puzzleId": "de-0190",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Sprengung\" is a mining operation/method, not a machine. It does not belong under \"Bergbaumaschinen\" with Bagger, Förderband, and Bohrmaschine.",
+      "items": [
+        "Sprengung"
+      ],
+      "groups": [
+        "Bergbaumaschinen",
+        "Abbaumethoden"
+      ],
+      "suggestedFix": "Replace with Schaufelradbagger, Förderkorb, Bohrgerät, oder Grubenlok."
+    },
+    {
+      "puzzleId": "de-0192",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Strahlung\" is a general physics phenomenon and can describe light/electromagnetic radiation as well as heat transfer. Under \"Wärmephänomene\" it overlaps with light/electricity concepts.",
+      "items": [
+        "Strahlung"
+      ],
+      "groups": [
+        "Wärmephänomene",
+        "Lichtphänomene",
+        "Elektrizität"
+      ],
+      "suggestedFix": "Use \"Wärmestrahlung\" for precision, or replace with Verdunstung/Sieden/Schmelzen."
+    },
+    {
+      "puzzleId": "de-0192",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "\"Magnet\" is not electricity; it is an object associated with magnetism. While electricity and magnetism are related, the easy category label \"Elektrizität\" makes this placement misleading.",
+      "items": [
+        "Magnet"
+      ],
+      "groups": [
+        "Elektrizität"
+      ],
+      "suggestedFix": "Replace with Strom, Spannung, Steckdose, Sicherung, or statische Aufladung."
+    },
+    {
+      "puzzleId": "de-0194",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "\"Pulsar\" is a kind of neutron star, so the Sterntypen group contains nested items. This is not a clean four-item set for an easy puzzle.",
+      "items": [
+        "Neutronenstern",
+        "Pulsar"
+      ],
+      "groups": [
+        "Sterntypen"
+      ],
+      "suggestedFix": "Replace one with Roter Zwerg, Weißer Zwerg, Hauptreihenstern, or Überriese."
+    },
+    {
+      "puzzleId": "de-0194",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Zwerg\" is too vague as an astronomy item; it could mean a dwarf star category, a dwarf planet, or simply a shortened form in several contexts.",
+      "items": [
+        "Zwerg"
+      ],
+      "groups": [
+        "Sterntypen"
+      ],
+      "suggestedFix": "Use a precise term such as Weißer Zwerg or Roter Zwerg."
+    },
+    {
+      "puzzleId": "de-0197",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "\"Bayern\" is a federal state, while Schwarzwald, Lüneburger Heide, and Erzgebirge are geographic regions/landscapes. The group label \"Regionen\" is broad enough to include many other items in the puzzle and is not single-concept.",
+      "items": [
+        "Bayern",
+        "Schwarzwald",
+        "Lüneburger Heide",
+        "Erzgebirge"
+      ],
+      "groups": [
+        "Regionen"
+      ],
+      "suggestedFix": "Use a narrower label such as \"Landschaften\" and replace Bayern, or make the group explicitly \"Bundesländer/Regionen\" with parallel items."
+    },
+    {
+      "puzzleId": "de-0199",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Cyber-Kommando\" is not a Teilstreitkraft in the same traditional sense as Heer, Luftwaffe, and Marine; the Bundeswehr's cyber/information domain is an organizational military domain/command. This may be too imprecise for an easy grouping.",
+      "items": [
+        "Cyber-Kommando"
+      ],
+      "groups": [
+        "Teilstreitkräfte"
+      ],
+      "suggestedFix": "Use \"Cyber- und Informationsraum\" if intended, or label the group more broadly as \"Organisationsbereiche\"."
+    },
+    {
+      "puzzleId": "de-0201",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Augsburg is both a Reformation place and strongly associated with an important Reformation document/event, while \"Ablass\", \"Buße\", \"Sakrament\", and \"Priester\" are general church terms rather than specifically early Reformation terms. The puzzle is more historical-specialist than easy.",
+      "items": [
+        "Augsburg",
+        "Ablass",
+        "Buße",
+        "Sakrament",
+        "Priester"
+      ],
+      "groups": [
+        "Reformations-Orte",
+        "Frühe Kirchenbegriffe"
+      ],
+      "suggestedFix": "Move to a harder tier or simplify to more concrete categories such as people, places, writings, and key events."
+    },
+    {
+      "puzzleId": "de-0203",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "\"Pressefreiheit\" is not a clean Friedrich-the-Great reform item in the same way as religious tolerance, justice reform, or schooling; Prussia under Frederick still had censorship. This placement is misleading.",
+      "items": [
+        "Pressefreiheit"
+      ],
+      "groups": [
+        "Reformen"
+      ],
+      "suggestedFix": "Replace with Folterverbot, Kartoffelbefehl, Verwaltungsausbau, or Toleranzedikt depending on intended framing."
+    },
+    {
+      "puzzleId": "de-0203",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The puzzle requires detailed knowledge of Frederick's battles and court figures such as Quantz and Knobelsdorff. That is not easy-tier everyday knowledge.",
+      "items": [
+        "Roßbach",
+        "Leuthen",
+        "Zorndorf",
+        "Kunersdorf",
+        "Quantz",
+        "Knobeldorff"
+      ],
+      "groups": [
+        "Schlachten Friedrichs",
+        "Personen am Hof"
+      ],
+      "suggestedFix": "Move to medium/hard or replace with more widely known Frederick/Prussia basics."
+    },
+    {
+      "puzzleId": "de-0204",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Karl I. was emperor of Austria-Hungary, not a German Kaiser of the Deutsches Kaiserreich. The German emperors were Wilhelm I., Friedrich III., and Wilhelm II.; there is no fourth valid item for this category as written.",
+      "items": [
+        "Karl I."
+      ],
+      "groups": [
+        "Kaiser"
+      ],
+      "suggestedFix": "Change the category to a three-item clue is not possible in this format; replace the group with another four-item imperial category or use a different fourth item under a different label."
+    },
+    {
+      "puzzleId": "de-0204",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Reichstag\" can mean the parliament/institution or the building, so under \"Symbole des Reichs\" it is less clean than Reichsadler, Pickelhaube, and Eisernes Kreuz.",
+      "items": [
+        "Reichstag"
+      ],
+      "groups": [
+        "Symbole des Reichs"
+      ],
+      "suggestedFix": "Replace with Reichsflagge, Kaiserkrone, Reichswappen, or schwarz-weiß-rot."
+    }
+  ]
+}

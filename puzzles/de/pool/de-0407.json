@@ -5,7 +5,10 @@
   "meta": {
     "theme": "berufe",
     "batch": "de-batch-05",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 20,
+    "gptDifficulty": 14,
+    "gptRationale": "Berufe und typische Werkzeuge gehören zu den anschaulichsten und eindeutigsten Zuordnungen im gesamten Tier."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды и жанры журналистики",
     "batch": "ru-batch-16",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 36,
+    "gptDifficulty": 42,
+    "gptRationale": "Жанры журналистики и медиаплатформы различимы, но часть терминов вроде 'фотопортрет' или 'передовица' снижает очевидность."
   },
   "groups": [
     {

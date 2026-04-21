@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 29,
+    "gptDifficulty": 33,
+    "gptRationale": "The Morse grouping rule is elegant and pattern-based, but it still requires enough code familiarity to avoid becoming guesswork."
   },
   "groups": [
     {

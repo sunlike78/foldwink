@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные зоопарка по категориям",
     "batch": "ru-batch-16",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 17,
+    "gptDifficulty": 16,
+    "gptRationale": "Категории зоопарка максимально наглядные и обыденные, а большинство животных мгновенно сортируются без напряжения."
   },
   "groups": [
     {

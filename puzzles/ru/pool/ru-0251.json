@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Природные зоны и биомы Земли",
     "batch": "ru-batch-09",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 54,
+    "gptDifficulty": 64,
+    "gptRationale": "Natural-zone terminology is more technical than it first appears, with several borderline habitat labels inviting misgrouping."
   },
   "groups": [
     {

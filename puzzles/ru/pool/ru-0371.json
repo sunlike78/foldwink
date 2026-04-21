@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Языковые акценты и диалекты",
     "batch": "ru-batch-15",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 64,
+    "gptDifficulty": 76,
+    "gptRationale": "Здесь смешаны акценты, диалекты, жаргоны и общие языковые явления, причём часть терминов довольно специальна и даёт много ложных маршрутов."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Дикие животные России",
     "batch": "ru-batch-03",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 22,
+    "gptDifficulty": 26,
+    "gptRationale": "Категории животных понятны и массово знакомы, а почти все слова принадлежат к базовому природному словарю."
   },
   "groups": [
     {

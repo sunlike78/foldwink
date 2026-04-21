@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Напитки",
     "batch": "ru-batch-01",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 34,
+    "gptDifficulty": 38,
+    "gptRationale": "Drink categories are mostly everyday, though regional beverage knowledge makes some entries less immediate."
   },
   "groups": [
     {

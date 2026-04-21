@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 64,
+    "gptDifficulty": 72,
+    "gptRationale": "All entries are biological processes, so the puzzle leans on specialized terminology and fine-grained system distinctions."
   },
   "groups": [
     {

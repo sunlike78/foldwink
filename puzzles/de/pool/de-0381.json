@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sucht",
     "batch": "de-batch-04",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 29,
+    "gptDifficulty": 27,
+    "gptRationale": "Die vier Gruppen sind alltagsnah und semantisch deutlich verschieden, sodass kaum echte Mehrdeutigkeiten entstehen."
   },
   "groups": [
     {

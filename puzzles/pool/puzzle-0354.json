@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 70,
+    "gptDifficulty": 91,
+    "gptRationale": "This is highly abstract and terminology-dense, with several schools of philosophy that many players will only partially recognize."
   },
   "groups": [
     {

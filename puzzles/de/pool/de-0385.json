@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Training",
     "batch": "de-batch-04",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 28,
+    "gptDifficulty": 31,
+    "gptRationale": "Trainingsformen sind gut unterscheidbar, auch wenn einzelne Übungen wie Intervalltraining oder Yoga zunächst in mehrere Richtungen deuten könnten."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мировые рекорды Гиннеса",
     "batch": "ru-batch-18",
-    "difficultyScore": 55
+    "difficultyScore": 55,
+    "editorialRank": 47,
+    "gptDifficulty": 41,
+    "gptRationale": "Идея рекордов очевидна, но внутри групп встречаются формулировки разной конкретности и не все рекорды одинаково знакомы."
   },
   "groups": [
     {

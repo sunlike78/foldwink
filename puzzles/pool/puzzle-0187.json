@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-03",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 45,
+    "gptDifficulty": 60,
+    "gptRationale": "Reptile-house groupings are appealingly concrete, but snake subtypes and the mythical-creature set increase the need for exact knowledge."
   },
   "groups": [
     {

@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 16,
+    "gptDifficulty": 19,
+    "gptRationale": "Days, months, emotions, and basic tools are all familiar, with only slight friction from mixed concrete and abstract categories."
   }
 }

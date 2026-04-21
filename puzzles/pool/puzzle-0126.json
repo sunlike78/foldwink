@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 46,
+    "gptDifficulty": 56,
+    "gptRationale": "Metal-based groupings are gettable, but overlap between chemistry and everyday material terms adds some misleading surface similarity."
   },
   "groups": [
     {

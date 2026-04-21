@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Handwerksberufe durch Materialien und Prozesse",
     "batch": "de-batch-12",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 58,
+    "gptDifficulty": 74,
+    "gptRationale": "Traditional crafts are less familiar and several clues depend on specialized process vocabulary that many solvers will not know."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Computerspiele",
     "batch": "de-batch-01",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 38,
+    "gptDifficulty": 47,
+    "gptRationale": "Spielgenres sind vertraut, doch die Genrebegriffe überlappen stark und enthalten teils englisches Fachvokabular."
   },
   "groups": [
     {

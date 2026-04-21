@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 43,
+    "gptDifficulty": 41,
+    "gptRationale": "Pirate-era terminology is colorful and semi-familiar, though nautical jargon like fo'c'sle and bilge adds mild difficulty."
   },
   "groups": [
     {

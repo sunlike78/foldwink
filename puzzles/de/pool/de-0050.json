@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Erfindungen",
     "batch": "de-batch-02",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 54,
+    "gptDifficulty": 78,
+    "gptRationale": "Die behaupteten deutschen Erfindungen und wissenschaftlichen Zuordnungen sind wissenslastig, teils diskussionsanfällig und dadurch eines der subtilsten Sets im Easy-Bereich."
   },
   "groups": [
     {

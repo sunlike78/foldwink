@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Волшебные предметы из сказок",
     "batch": "ru-batch-17",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 42,
+    "gptDifficulty": 46,
+    "gptRationale": "Волшебные предметы знакомы по массовой культуре, но пересечения между сказками, фэнтези и мифологией местами создают приятные ложные тропы."
   },
   "groups": [
     {

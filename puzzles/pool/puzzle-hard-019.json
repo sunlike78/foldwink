@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 41,
+    "gptDifficulty": 51,
+    "gptRationale": "The repeated 'floor' sense is tidy, but economic and oceanographic terms raise the difficulty beyond a straightforward multi-meaning sort."
   },
   "groups": [
     {

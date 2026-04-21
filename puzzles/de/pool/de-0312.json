@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Philosophie",
     "batch": "de-batch-04",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 41,
+    "gptDifficulty": 56,
+    "gptRationale": "Die philosophischen Schulen sind erkennbar, aber mehrere Denker könnten für typische Spielende auch in benachbarte Strömungen passen."
   },
   "groups": [
     {

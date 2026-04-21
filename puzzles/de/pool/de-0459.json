@@ -5,7 +5,10 @@
   "meta": {
     "theme": "finanzen",
     "batch": "de-batch-05",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 36,
+    "gptDifficulty": 44,
+    "gptRationale": "Finanz- und Controllingblöcke folgen vertrauten Business-Kategorien, auch wenn einzelne Kennzahlen Abkürzungswissen verlangen."
   },
   "groups": [
     {

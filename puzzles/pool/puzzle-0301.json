@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 65,
+    "gptDifficulty": 82,
+    "gptRationale": "This is the hardest kind of medium-theme puzzle here because it mixes several layers of literary terminology with genuinely specialized rhetorical figures."
   },
   "groups": [
     {

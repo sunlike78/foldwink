@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ювелирные украшения",
     "batch": "ru-batch-02",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 39,
+    "gptDifficulty": 43,
+    "gptRationale": "Украшения знакомы по повседневности, хотя внутри категорий много близких синонимов и модных терминов."
   },
   "groups": [
     {

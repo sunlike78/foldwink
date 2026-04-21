@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gesundheit",
     "batch": "de-batch-02",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 20,
+    "gptDifficulty": 18,
+    "gptRationale": "Beim Zahnarzt sind sowohl Geräte als auch Behandlungen und Pflegemittel sehr bekannt und semantisch sauber getrennt."
   },
   "groups": [
     {

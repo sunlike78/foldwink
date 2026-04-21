@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды искусства",
     "batch": "ru-batch-06",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 31,
+    "gptDifficulty": 34,
+    "gptRationale": "Виды искусства обычно узнаются легко, а четыре крупных блока достаточно чисто разделены по смыслу."
   },
   "groups": [
     {

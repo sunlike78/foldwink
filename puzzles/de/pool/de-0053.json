@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Karneval und Fasching",
     "batch": "de-batch-02",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 31,
+    "gptDifficulty": 37,
+    "gptRationale": "Karnevalskategorien sind anschaulich, doch regionale Bräuche und Speisen verlangen etwas deutsches Kulturwissen."
   },
   "groups": [
     {

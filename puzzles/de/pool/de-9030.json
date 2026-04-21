@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Erkenntnistheorien via Alltagsbilder",
     "batch": "de-batch-11",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 38,
+    "gptDifficulty": 36,
+    "gptRationale": "The epistemic categories are standard and the clues are mostly explicit, with only intuition and tradition posing minor ambiguity."
   },
   "groups": [
     {

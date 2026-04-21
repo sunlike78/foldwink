@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Специи и приправы",
     "batch": "ru-batch-01",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 37,
+    "gptDifficulty": 43,
+    "gptRationale": "Kitchen seasonings are common, but the boundaries between spice, herb, sauce, and seed are not always crisp."
   },
   "groups": [
     {

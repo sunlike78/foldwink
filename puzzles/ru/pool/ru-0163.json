@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Исторические битвы России",
     "batch": "ru-batch-05",
-    "difficultyScore": 60
+    "difficultyScore": 60,
+    "editorialRank": 64,
+    "gptDifficulty": 66,
+    "gptRationale": "Названия битв и их эпохи требуют уже школьно-исторической точности, а сами элементы внешне довольно однотипны."
   },
   "groups": [
     {

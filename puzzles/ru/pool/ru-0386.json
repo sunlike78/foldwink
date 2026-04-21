@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Соусы кухонь мира",
     "batch": "ru-batch-16",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 30,
+    "gptDifficulty": 38,
+    "gptRationale": "Соусы в целом популярны, но китайский и мексиканский блоки требуют чуть большей гастрономической насмотренности."
   },
   "groups": [
     {

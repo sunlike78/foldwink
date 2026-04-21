@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Поэты и течения Серебряного века",
     "batch": "ru-batch-10",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 47,
+    "gptDifficulty": 62,
+    "gptRationale": "Поэты Серебряного века требуют именно литературоведческой памяти, а разграничение школ для многих игроков уже не будет интуитивным."
   },
   "groups": [
     {

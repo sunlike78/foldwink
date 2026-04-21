@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Металлы по типу",
     "batch": "ru-batch-03",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 44,
+    "gptDifficulty": 60,
+    "gptRationale": "Хотя часть металлов базовая, деление на цветные, чёрные и редкие с тугоплавкими остаётся уже полутехническим."
   },
   "groups": [
     {

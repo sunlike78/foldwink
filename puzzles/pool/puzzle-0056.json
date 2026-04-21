@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 53,
+    "gptDifficulty": 67,
+    "gptRationale": "Sports positions are concrete but sport-specific, and rugby in particular pushes this above the middle of the easy tier."
   }
 }

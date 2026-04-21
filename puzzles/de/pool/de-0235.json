@@ -5,7 +5,10 @@
   "meta": {
     "theme": "sciencefiction",
     "batch": "de-batch-03",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 28,
+    "gptDifficulty": 28,
+    "gptRationale": "Science-Fiction nutzt sehr bekannte Autoren, Werke, Konzepte und Filme, sodass das Puzzle trotz Genrebreite klar bleibt."
   },
   "groups": [
     {

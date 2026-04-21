@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 25,
+    "gptDifficulty": 27,
+    "gptRationale": "Paper-based everyday objects are easy to visualize, with only minor overlap between documents and mail items."
   }
 }

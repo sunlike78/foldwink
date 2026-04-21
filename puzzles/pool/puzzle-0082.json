@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 31,
+    "gptDifficulty": 42,
+    "gptRationale": "Vehicle types are tangible and distinct, though some less-common forms like maglev, schooner, and seaplane make it mildly harder."
   }
 }

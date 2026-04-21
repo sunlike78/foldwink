@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Танцевальные стили",
     "batch": "ru-batch-09",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 25,
+    "gptDifficulty": 35,
+    "gptRationale": "Dance families are fairly intuitive, though folk and street substyles require a bit of cultural recognition."
   },
   "groups": [
     {

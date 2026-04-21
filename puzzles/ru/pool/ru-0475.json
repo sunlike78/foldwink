@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Парадигмы программирования",
     "batch": "ru-batch-20",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 29,
+    "gptDifficulty": 34,
+    "gptRationale": "Программирование и adjacent-термины знакомы многим, а группы по парадигмам, паттернам, методологиям и качеству кода разделены довольно прозрачно."
   },
   "groups": [
     {

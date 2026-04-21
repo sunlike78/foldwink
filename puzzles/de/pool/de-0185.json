@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Technik",
     "batch": "de-batch-02",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 28,
+    "gptDifficulty": 28,
+    "gptRationale": "Energieformen und Speicher sind breit bekannte Alltags- und Schulthemen mit klar voneinander abgesetzten Gruppen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "eu",
     "batch": "de-batch-05",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 49,
+    "gptDifficulty": 47,
+    "gptRationale": "EU-Institutionen sind grundsätzlich bekannt, aber ihre Sitze, Rollen und Verfahren werden im Alltag häufig verwechselt."
   },
   "groups": [
     {

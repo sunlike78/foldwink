@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Pflanzen",
     "batch": "de-batch-02",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 31,
+    "gptDifficulty": 37,
+    "gptRationale": "Herb and medicinal-plant categories are understandable, but the poisonous and tea plants need more specific plant knowledge."
   },
   "groups": [
     {

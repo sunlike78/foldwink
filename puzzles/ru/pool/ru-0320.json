@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды пауков и паукообразных",
     "batch": "ru-batch-12",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 55,
+    "gptDifficulty": 72,
+    "gptRationale": "Здесь много менее знакомых названий и пересечений между пауками, скорпионами и клещами, что заметно усложняет сортировку."
   },
   "groups": [
     {

@@ -1,0 +1,309 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 1,
+  "batchTotal": 5,
+  "elapsedSec": 47,
+  "ratings": [
+    {
+      "puzzleId": "puzzle-0087",
+      "difficulty": 59,
+      "rationale": "The ancient-civilization groupings are clear but several iconic terms are culturally adjacent enough to create moderate cross-category false trails."
+    },
+    {
+      "puzzleId": "puzzle-0088",
+      "difficulty": 52,
+      "rationale": "Media-domain categories are familiar, but overlap between traditional broadcast and digital publishing terms makes sorting less automatic."
+    },
+    {
+      "puzzleId": "puzzle-0089",
+      "difficulty": 67,
+      "rationale": "Fashion accessories and specialized watch/tie vocabulary create stronger ambiguity and require more precise domain knowledge than most easy-tier sets."
+    },
+    {
+      "puzzleId": "puzzle-0090",
+      "difficulty": 41,
+      "rationale": "Most bird groups are everyday enough to spot, though distinguishing waders from songbirds and birds of prey adds some light taxonomy friction."
+    },
+    {
+      "puzzleId": "puzzle-0091",
+      "difficulty": 64,
+      "rationale": "Craft-process categories are coherent, but terms like punty, marver, and weft are less familiar and raise the knowledge burden."
+    },
+    {
+      "puzzleId": "puzzle-0099",
+      "difficulty": 18,
+      "rationale": "Instrument families are highly familiar and the items are strongly prototypical with minimal misleading overlap."
+    },
+    {
+      "puzzleId": "puzzle-0100",
+      "difficulty": 22,
+      "rationale": "Transport modes are very concrete everyday categories and nearly every item has an obvious home."
+    },
+    {
+      "puzzleId": "puzzle-0101",
+      "difficulty": 58,
+      "rationale": "Fabric and clothing categories are sensible, but weave names and global garment terms are less universally known."
+    },
+    {
+      "puzzleId": "puzzle-0102",
+      "difficulty": 36,
+      "rationale": "Kitchen tools are familiar overall, though a few items like mandoline and tongs can momentarily suggest multiple functional groups."
+    },
+    {
+      "puzzleId": "puzzle-0103",
+      "difficulty": 34,
+      "rationale": "Footwear categories are everyday and distinct, with only mild uncertainty from style names like brogue or espadrille."
+    },
+    {
+      "puzzleId": "puzzle-0104",
+      "difficulty": 55,
+      "rationale": "Pasta types feel approachable, but many players will need finer culinary knowledge to separate stuffed and soup pastas cleanly."
+    },
+    {
+      "puzzleId": "puzzle-0105",
+      "difficulty": 29,
+      "rationale": "Garden tools split into intuitive use-based categories with only a couple of less common tool names adding minor resistance."
+    },
+    {
+      "puzzleId": "puzzle-0106",
+      "difficulty": 63,
+      "rationale": "Card and tabletop game families are recognizable, but genre boundaries and the inclusion of Mahjong create notable category confusion."
+    },
+    {
+      "puzzleId": "puzzle-0107",
+      "difficulty": 20,
+      "rationale": "Breakfast foods and drinks are everyday items with very obvious category structure and little room for false grouping."
+    },
+    {
+      "puzzleId": "puzzle-0108",
+      "difficulty": 31,
+      "rationale": "Sea-life categories are familiar and concrete, though reef dwellers versus shellfish introduces a bit of biological overlap."
+    },
+    {
+      "puzzleId": "puzzle-0109",
+      "difficulty": 61,
+      "rationale": "Dance categories rely on genre knowledge and several names are culturally specific enough to make the set trickier than average."
+    },
+    {
+      "puzzleId": "puzzle-0110",
+      "difficulty": 27,
+      "rationale": "Tree types are broadly familiar, and the few overlaps like fruit-bearing trees remain easy to resolve from the intended categories."
+    },
+    {
+      "puzzleId": "puzzle-0111",
+      "difficulty": 24,
+      "rationale": "Toolbox groupings are highly intuitive everyday categories with very prototypical examples."
+    },
+    {
+      "puzzleId": "puzzle-0112",
+      "difficulty": 17,
+      "rationale": "Capital cities by continent are extremely familiar quiz-style knowledge with clean categorical boundaries."
+    },
+    {
+      "puzzleId": "puzzle-0113",
+      "difficulty": 48,
+      "rationale": "Most spices and herbs are common, but dividing them by culinary character rather than plant type adds some subtlety."
+    },
+    {
+      "puzzleId": "puzzle-0114",
+      "difficulty": 46,
+      "rationale": "Art vocabulary is accessible, though several terms live in adjacent art-school domains and can misdirect before the pattern clicks."
+    },
+    {
+      "puzzleId": "puzzle-0115",
+      "difficulty": 57,
+      "rationale": "The science-lab frame is clear, but mixing chemistry, physics units, and equipment requires broader classroom knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0116",
+      "difficulty": 44,
+      "rationale": "Sports categories are recognizable, though a few items are niche enough and some could be grouped by venue or equipment instead."
+    },
+    {
+      "puzzleId": "puzzle-0117",
+      "difficulty": 12,
+      "rationale": "Household chore categories are extremely concrete daily-life groupings with almost no ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0118",
+      "difficulty": 21,
+      "rationale": "Modern tech-stack categories are widely familiar to the target audience and the item types are sharply separated."
+    },
+    {
+      "puzzleId": "puzzle-0131",
+      "difficulty": 54,
+      "rationale": "Winter sports categories are mostly fair, but event-specific knowledge and overlap among skiing disciplines increase difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0132",
+      "difficulty": 56,
+      "rationale": "Cheese families are plausible but require somewhat specialized food knowledge, especially for distinguishing soft, fresh, and blue cheeses."
+    },
+    {
+      "puzzleId": "puzzle-0133",
+      "difficulty": 43,
+      "rationale": "Currency groups are straightforward, though some terms are shared across multiple countries and historical money adds a small twist."
+    },
+    {
+      "puzzleId": "puzzle-0134",
+      "difficulty": 28,
+      "rationale": "Desk-drawer supplies are familiar and the use-based categories are mostly obvious despite a little overlap around planning tools."
+    },
+    {
+      "puzzleId": "puzzle-0135",
+      "difficulty": 53,
+      "rationale": "Headwear categories are concrete, but several hat names are style-specific and can plausibly fit more than one grouping."
+    },
+    {
+      "puzzleId": "puzzle-0136",
+      "difficulty": 38,
+      "rationale": "Produce categories are everyday, with only vine plants and orchard-fruit distinctions requiring a bit more care."
+    },
+    {
+      "puzzleId": "puzzle-0137",
+      "difficulty": 26,
+      "rationale": "Board-game families are familiar and the examples are mostly canonical, making the set easy to parse."
+    },
+    {
+      "puzzleId": "puzzle-0138",
+      "difficulty": 66,
+      "rationale": "Soup and stew terminology leans culinary and international, so obscurer dish names and texture-based categories drive up difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0139",
+      "difficulty": 39,
+      "rationale": "Astronomy categories are well known, though mixing planets, small bodies, and star types asks for some basic science precision."
+    },
+    {
+      "puzzleId": "puzzle-0140",
+      "difficulty": 72,
+      "rationale": "Poetry and meter terminology is the most language-precision-heavy here, with several literary terms unfamiliar outside classroom study."
+    },
+    {
+      "puzzleId": "puzzle-0141",
+      "difficulty": 23,
+      "rationale": "Vehicle-purpose categories are everyday and visually vivid, so most items sort immediately."
+    },
+    {
+      "puzzleId": "puzzle-0142",
+      "difficulty": 32,
+      "rationale": "Photography categories are common hobby vocabulary with only light overlap between shooting and editing terms."
+    },
+    {
+      "puzzleId": "puzzle-0143",
+      "difficulty": 35,
+      "rationale": "Ancient-world categories are familiar, though a few famous landmarks and concepts require modest historical specificity."
+    },
+    {
+      "puzzleId": "puzzle-0144",
+      "difficulty": 47,
+      "rationale": "Geography categories are sensible, but several terms are school-knowledge words rather than everyday vocabulary."
+    },
+    {
+      "puzzleId": "puzzle-0145",
+      "difficulty": 62,
+      "rationale": "Sewing and textile terms are less universal, and pattern, stitch, and fibre knowledge can blur for non-crafters."
+    },
+    {
+      "puzzleId": "puzzle-0146",
+      "difficulty": 19,
+      "rationale": "Fruit families are very familiar and the examples are prototypical with little ambiguity."
+    },
+    {
+      "puzzleId": "puzzle-0147",
+      "difficulty": 45,
+      "rationale": "Music-domain categories are accessible, though notation and studio-production terms ask for some specialized exposure."
+    },
+    {
+      "puzzleId": "puzzle-0148",
+      "difficulty": 58,
+      "rationale": "Architecture vocabulary mixes broad styles with technical building terms, making it more knowledge-dependent than the average easy puzzle."
+    },
+    {
+      "puzzleId": "puzzle-0149",
+      "difficulty": 37,
+      "rationale": "Profession groups are intuitive, though legal job titles like barrister and solicitor may slow some players."
+    },
+    {
+      "puzzleId": "puzzle-0150",
+      "difficulty": 30,
+      "rationale": "Weather categories are familiar and concrete, with only a couple of less common atmospheric terms adding mild challenge."
+    },
+    {
+      "puzzleId": "puzzle-0181",
+      "difficulty": 42,
+      "rationale": "Dinosaur-era creature groups are broadly recognizable, though distinguishing true dinosaurs from marine and flying reptiles needs some science awareness."
+    },
+    {
+      "puzzleId": "puzzle-0182",
+      "difficulty": 68,
+      "rationale": "Italian course structure and dish names require cuisine-specific knowledge, and several items may be known without their formal meal category."
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "difficulty": 74,
+      "rationale": "Religious and ancient-structure vocabulary is culturally broad but less everyday, with several architecturally adjacent terms inviting misclassification."
+    },
+    {
+      "puzzleId": "puzzle-0184",
+      "difficulty": 16,
+      "rationale": "Farm-animal families are highly familiar and the life-stage or sex terms are common enough to sort quickly."
+    },
+    {
+      "puzzleId": "puzzle-0185",
+      "difficulty": 14,
+      "rationale": "School-subject categories are extremely familiar and the items are standard textbook examples."
+    },
+    {
+      "puzzleId": "puzzle-0186",
+      "difficulty": 9,
+      "rationale": "Grocery-aisle categories are among the most everyday possible and nearly every item is instantly placeable."
+    },
+    {
+      "puzzleId": "puzzle-0187",
+      "difficulty": 60,
+      "rationale": "Reptile-house groupings are appealingly concrete, but snake subtypes and the mythical-creature set increase the need for exact knowledge."
+    },
+    {
+      "puzzleId": "puzzle-0189",
+      "difficulty": 40,
+      "rationale": "Hair categories are understandable, though salon styling vocabulary and overlap between general hairstyles and braided styles add some friction."
+    },
+    {
+      "puzzleId": "puzzle-0191",
+      "difficulty": 18,
+      "rationale": "Gym equipment and exercise categories are very familiar modern-life vocabulary with clear functional distinctions."
+    },
+    {
+      "puzzleId": "puzzle-0192",
+      "difficulty": 15,
+      "rationale": "Computer-peripheral categories are sharply defined and use very common tech terms."
+    },
+    {
+      "puzzleId": "puzzle-0193",
+      "difficulty": 7,
+      "rationale": "Birthday-party categories are extremely concrete everyday knowledge with virtually no deceptive overlap."
+    },
+    {
+      "puzzleId": "puzzle-0194",
+      "difficulty": 13,
+      "rationale": "Fairy-tale roles and objects are highly familiar storybook archetypes with obvious thematic grouping."
+    },
+    {
+      "puzzleId": "puzzle-0195",
+      "difficulty": 25,
+      "rationale": "Road-sign categories are everyday and practical, though some work-zone signs feel a touch less universal."
+    },
+    {
+      "puzzleId": "puzzle-0204",
+      "difficulty": 11,
+      "rationale": "Springtime items are simple seasonal associations that most players will group immediately."
+    },
+    {
+      "puzzleId": "puzzle-0206",
+      "difficulty": 33,
+      "rationale": "Train-related categories are concrete and coherent, with only a bit of domain knowledge needed for rail-part terminology."
+    }
+  ]
+}

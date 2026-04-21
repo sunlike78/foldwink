@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 56,
+    "gptDifficulty": 78,
+    "gptRationale": "Author names demand substantial literary knowledge, and distinguishing movements and genres makes the classification notably tough for this tier."
   }
 }

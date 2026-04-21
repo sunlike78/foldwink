@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 40,
+    "gptDifficulty": 45,
+    "gptRationale": "Literary terms are common in education, but the abstractions and near-neighbor concepts make the set less immediate than object-based puzzles."
   },
   "groups": [
     {

@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 56,
+    "gptDifficulty": 79,
+    "gptRationale": "Physics terms are learned rather than lived, and separating forces, units, particles, and wave bands requires solid science vocabulary."
   }
 }

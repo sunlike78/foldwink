@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Технологии и протоколы интернета",
     "batch": "ru-batch-10",
-    "difficultyScore": 11
+    "difficultyScore": 11,
+    "editorialRank": 18,
+    "gptDifficulty": 23,
+    "gptRationale": "Интернет-термины и облачные сервисы слишком характерны для своих категорий, так что структура читается очень быстро."
   },
   "groups": [
     {

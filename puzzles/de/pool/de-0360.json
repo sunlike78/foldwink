@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kunstgeschichte",
     "batch": "de-batch-04",
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 16,
+    "gptDifficulty": 20,
+    "gptRationale": "Kunstströmungen und ihre Leitfiguren gehören zum bekanntesten Kanon und sind ohne viel Zweifelsfälle zuordenbar."
   },
   "groups": [
     {

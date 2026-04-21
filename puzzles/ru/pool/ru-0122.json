@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Футбольные термины",
     "batch": "ru-batch-03",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 35,
+    "gptDifficulty": 40,
+    "gptRationale": "Футбольная лексика и турниры очень распространены, а стадионы мира добавляют лишь умеренный слой эрудиции."
   },
   "groups": [
     {

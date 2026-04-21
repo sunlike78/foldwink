@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Epidemiologie",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 38,
+    "gptDifficulty": 46,
+    "gptRationale": "Epidemiologische Kernbegriffe sind seit COVID bekannter geworden, doch Studienmethoden und Kennzahlen bleiben für viele nicht ganz trennscharf."
   },
   "groups": [
     {

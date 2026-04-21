@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Внутреннее строение Земли",
     "batch": "ru-batch-15",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 59,
+    "gptDifficulty": 73,
+    "gptRationale": "Геологические термины довольно специальны, а внутринаучные различия между структурами и процессами требуют предметного знания."
   },
   "groups": [
     {

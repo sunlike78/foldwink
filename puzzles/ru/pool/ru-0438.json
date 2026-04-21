@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы гор по происхождению",
     "batch": "ru-batch-18",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 59,
+    "gptDifficulty": 73,
+    "gptRationale": "Типы гор для неспециалиста звучат менее интуитивно, а отдельные примеры сами по себе неочевидны и могут уводить в неверные геологические схемы."
   },
   "groups": [
     {

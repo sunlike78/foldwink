@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bildende-kunst",
     "batch": "de-batch-03",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 51,
+    "gptDifficulty": 63,
+    "gptRationale": "Bildende Kunst Deutschland fordert kunsthistorische Einordnung über mehrere Stilrichtungen hinweg und arbeitet mit einigen weniger populären Namen."
   },
   "groups": [
     {

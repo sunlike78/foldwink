@@ -1,0 +1,1067 @@
+{
+  "lang": "de",
+  "tier": "medium",
+  "batchIndex": 0,
+  "batchTotal": 4,
+  "puzzleIds": [
+    "de-0301",
+    "de-0302",
+    "de-0303",
+    "de-0307",
+    "de-0308",
+    "de-0309",
+    "de-0310",
+    "de-0311",
+    "de-0312",
+    "de-0313",
+    "de-0315",
+    "de-0316",
+    "de-0317",
+    "de-0318",
+    "de-0319",
+    "de-0320",
+    "de-0321",
+    "de-0322",
+    "de-0323",
+    "de-0324",
+    "de-0325",
+    "de-0326",
+    "de-0327",
+    "de-0328",
+    "de-0329",
+    "de-0330",
+    "de-0331",
+    "de-0332",
+    "de-0333",
+    "de-0334",
+    "de-0335",
+    "de-0336",
+    "de-0337",
+    "de-0338",
+    "de-0339",
+    "de-0340",
+    "de-0341",
+    "de-0342",
+    "de-0343",
+    "de-0344",
+    "de-0345",
+    "de-0346",
+    "de-0347",
+    "de-0348",
+    "de-0349",
+    "de-0350",
+    "de-0351",
+    "de-0352",
+    "de-0353",
+    "de-0354",
+    "de-0355",
+    "de-0356",
+    "de-0357",
+    "de-0358",
+    "de-0359",
+    "de-0360",
+    "de-0361",
+    "de-0362",
+    "de-0363",
+    "de-0364"
+  ],
+  "elapsedSec": 286,
+  "findings": [
+    {
+      "puzzleId": "de-0301",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several entries in the double-meaning groups do not satisfy the stated category. In particular, Bank and Sessel are not animal names; Falke is not a household appliance; and Hammer is a tool rather than a household appliance and only an animal by abbreviation/compound such as Hammerhai.",
+      "items": [
+        "Bank",
+        "Sessel",
+        "Falke",
+        "Hammer"
+      ],
+      "groups": [
+        "Tier UND Sitzgelegenheit",
+        "Tier UND Haushaltsgerät"
+      ],
+      "suggestedFix": "Replace with words that are independently common animal names and common names for the other domain."
+    },
+    {
+      "puzzleId": "de-0301",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "All four labels are built as 'Tier UND ...', so the animal criterion is shared across every category. That can work as a theme, but here the category labels are not mutually exclusive enough because every answer is expected to be an animal word plus another meaning.",
+      "items": null,
+      "groups": [
+        "Tier UND Sitzgelegenheit",
+        "Tier UND Haushaltsgerät",
+        "Tier UND schlaue Person",
+        "Tier UND Fluss"
+      ],
+      "suggestedFix": "Make the second meanings the actual group labels, or ensure every animal word has exactly one intended second meaning among the four."
+    },
+    {
+      "puzzleId": "de-0302",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several alleged colloquial profession terms are not actually colloquial terms for the listed profession. Bücherwurm is a bookworm, not a teacher; Wachmann is normally a guard/security guard, not a police officer; Jurist is a standard broader legal profession term, not specifically a colloquial lawyer term; Pädagoge is standard, not folk slang for teacher.",
+      "items": [
+        "Bücherwurm",
+        "Wachmann",
+        "Jurist",
+        "Pädagoge"
+      ],
+      "groups": [
+        "Umgangssprachlich: Polizist",
+        "Umgangssprachlich: Lehrer",
+        "Umgangssprachlich: Anwalt"
+      ],
+      "suggestedFix": "Use clearly profession-specific colloquialisms, and avoid standard occupational titles."
+    },
+    {
+      "puzzleId": "de-0302",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Paragrafenreiter usually means a legalistic pedant or stickler, not necessarily an attorney, so it does not uniquely point to Anwalt.",
+      "items": [
+        "Paragrafenreiter"
+      ],
+      "groups": [
+        "Umgangssprachlich: Anwalt"
+      ],
+      "suggestedFix": "Replace with a more lawyer-specific colloquialism."
+    },
+    {
+      "puzzleId": "de-0303",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Some city nickname entries appear malformed, invented, or not established German nicknames. 'Weltstadt Herz' is missing the usual 'mit' in 'Weltstadt mit Herz'; 'Lederhosen-Hptst.', 'Frauenkirchen-Stadt', and 'Kölsche Metropole' read as artificial descriptors rather than recognizable nicknames.",
+      "items": [
+        "Weltstadt Herz",
+        "Lederhosen-Hptst.",
+        "Frauenkirchen-Stadt",
+        "Kölsche Metropole"
+      ],
+      "groups": [
+        "Spitzname: Dresden",
+        "Spitzname: München",
+        "Spitzname: Köln"
+      ],
+      "suggestedFix": "Use established nicknames in their normal forms, e.g. 'Weltstadt mit Herz'."
+    },
+    {
+      "puzzleId": "de-0307",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "Bauernbursche is a very minor/role-like figure from Werther and is likely too specialist for a medium grouping puzzle compared with the other named characters.",
+      "items": [
+        "Bauernbursche"
+      ],
+      "groups": [
+        "Figuren aus Werther"
+      ],
+      "suggestedFix": "Use a more recognizable Werther figure if possible."
+    },
+    {
+      "puzzleId": "de-0308",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The labels say 'Erstes Wort', but the listed items are work titles, not first words of those works. The category wording is therefore factually inconsistent with the answers.",
+      "items": [
+        "Faust",
+        "Iphigenie",
+        "Egmont",
+        "Götz",
+        "Kabale",
+        "Räuber",
+        "Wallenstein",
+        "Maria Stuart",
+        "Verwandlung",
+        "Prozess",
+        "Schloss",
+        "Amerika",
+        "Buddenbrooks",
+        "Zauberberg",
+        "Doktor Faustus",
+        "Tonio Kröger"
+      ],
+      "groups": [
+        "Erstes Wort: Goethe",
+        "Erstes Wort: Schiller",
+        "Erstes Wort: Kafka",
+        "Erstes Wort: Thomas Mann"
+      ],
+      "suggestedFix": "Rename the labels to 'Werke von ...' or replace items with actual opening words."
+    },
+    {
+      "puzzleId": "de-0309",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several abbreviations are not uniquely tied to the period named. KPD, SPD, and Reichswehr existed in the Weimar period but are not exclusive to it as abbreviations or institutions; BKA, BND, and MAD are BRD institutions but not specifically a distinct 'BRD-Zeit' historical abbreviation set in the same sense as DDR/NS categories.",
+      "items": [
+        "KPD",
+        "SPD",
+        "Reichswehr",
+        "BKA",
+        "BND",
+        "MAD"
+      ],
+      "groups": [
+        "Abkürzungen: BRD-Zeit",
+        "Abkürzungen: Weimarer Zeit"
+      ],
+      "suggestedFix": "Use period-exclusive institutions/abbreviations or relabel as 'gegründet/typisch in ...' with tighter criteria."
+    },
+    {
+      "puzzleId": "de-0310",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several scientists are strongly associated with multiple scientific fields. Fraunhofer was primarily an optician/physicist as well as important to astronomy; Bunsen is widely known in chemistry and physics; Virchow and Ehrlich are also major medical figures. This weakens unique category membership.",
+      "items": [
+        "Fraunhofer",
+        "Bunsen",
+        "Virchow",
+        "Ehrlich"
+      ],
+      "groups": [
+        "Deutsche Chemiker",
+        "Deutsche Biologen",
+        "Deutsche Astronomen"
+      ],
+      "suggestedFix": "Use figures whose public association is clearly one discipline, or label by a specific contribution."
+    },
+    {
+      "puzzleId": "de-0311",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Qasim and Bahr did not receive the Nobel Peace Prize. Bahr is associated with Ostpolitik but was not a Nobel laureate; 'Qasim' is not a German Nobel Peace Prize winner.",
+      "items": [
+        "Qasim",
+        "Bahr"
+      ],
+      "groups": [
+        "Nobelpreis Frieden"
+      ],
+      "suggestedFix": "Replace with actual German or Germany-associated Peace Prize laureates, depending on the intended scope."
+    },
+    {
+      "puzzleId": "de-0313",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Prolegomena is not one of Kant's three Critiques, so the group 'Kants drei Kritiken' cannot contain four valid items with Prolegomena included.",
+      "items": [
+        "Prolegomena"
+      ],
+      "groups": [
+        "Kants drei Kritiken"
+      ],
+      "suggestedFix": "Rename the group to include major critical works, or replace Prolegomena with a valid related category item and adjust the label."
+    },
+    {
+      "puzzleId": "de-0313",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Kants Kernbegriffe and Kants Kategorien overlap conceptually because categories such as Kausalität, Substanz, Wechselwirkung, and Modalität are also Kantian core concepts. 'Transzendental' also cuts across the works and categories.",
+      "items": [
+        "Transzendental",
+        "Kausalität",
+        "Substanz",
+        "Wechselwirkung",
+        "Modalität"
+      ],
+      "groups": [
+        "Kants Kernbegriffe",
+        "Kants Kategorien"
+      ],
+      "suggestedFix": "Separate by precise type, e.g. 'Kategorien der Relation/Modalität' versus 'Begriffe außerhalb der Kategorientafel'."
+    },
+    {
+      "puzzleId": "de-0315",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Zarathustra is both the title figure of Also sprach Zarathustra and part of a main work title, so it can tug toward both 'Hauptwerke' and 'Figuren'. Dionysos and Apollon are also conceptual poles in Nietzsche, not simply 'figures'.",
+      "items": [
+        "Zarathustra",
+        "Dionysos",
+        "Apollon"
+      ],
+      "groups": [
+        "Nietzsche Hauptwerke",
+        "Nietzsche Figuren",
+        "Nietzsche Kernbegriffe"
+      ],
+      "suggestedFix": "Use a clearer label such as 'Nietzscheanische Figuren/Symbole' or avoid title/figure duplication."
+    },
+    {
+      "puzzleId": "de-0315",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "'Nietzsche Aphorismenthemen' with generic items like Moral, Wahrheit, Kunst, Religion is too broad and semantically weak for a fair medium puzzle; these are broad philosophy themes rather than distinctive sortable answer tokens.",
+      "items": [
+        "Moral",
+        "Wahrheit",
+        "Kunst",
+        "Religion"
+      ],
+      "groups": [
+        "Nietzsche Aphorismenthemen"
+      ],
+      "suggestedFix": "Replace with more distinctive Nietzsche terms or a more concrete category."
+    },
+    {
+      "puzzleId": "de-0316",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "'Marxistische Konzepte' and 'Marxistische Begriffe' are not meaningfully distinct labels. Proletariat, Bourgeoisie, Klassenkampf, and Dialektik are also Marxist concepts, so the labels overlap.",
+      "items": [
+        "Proletariat",
+        "Bourgeoisie",
+        "Klassenkampf",
+        "Dialektik",
+        "Mehrwert",
+        "Entfremdung",
+        "Basis",
+        "Überbau"
+      ],
+      "groups": [
+        "Marxistische Konzepte",
+        "Marxistische Begriffe"
+      ],
+      "suggestedFix": "Use more precise labels, such as 'Ökonomiekritik' versus 'Klassen- und Geschichtsbegriffe'."
+    },
+    {
+      "puzzleId": "de-0317",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Libido is not cleanly a separate 'Trieb' alongside Eros and Thanatos; it is psychic/sexual energy in Freud and overlaps with Eros. Unbewusstes is not one of the structural instances Es/Ich/Über-Ich, so it does not fit 'Freuds Instanzen'.",
+      "items": [
+        "Libido",
+        "Unbewusstes"
+      ],
+      "groups": [
+        "Freuds Triebe",
+        "Freuds Instanzen"
+      ],
+      "suggestedFix": "Keep Instanzen to Es, Ich, Über-Ich and use a different fourth item/category; separate drives from energies/concepts."
+    },
+    {
+      "puzzleId": "de-0317",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "'Freuds Konzepte' and 'Freuds Methoden' overlap because Traumdeutung and Katharsis are also Freudian concepts, while Analyse is too generic and could describe the whole school.",
+      "items": [
+        "Traumdeutung",
+        "Analyse",
+        "Katharsis"
+      ],
+      "groups": [
+        "Freuds Konzepte",
+        "Freuds Methoden"
+      ],
+      "suggestedFix": "Use a more specific method set, e.g. technique names only."
+    },
+    {
+      "puzzleId": "de-0321",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Rattenfänger is primarily associated with Hameln in Lower Saxony and is not a general North German sea/coast legend. Erdmänneken is more broadly German/Westphalian and not clearly Schwarzwald. Wildes Heer is widespread across Germanic folklore, not specifically Bavarian.",
+      "items": [
+        "Rattenfänger",
+        "Erdmänneken",
+        "Wildes Heer"
+      ],
+      "groups": [
+        "Sagen: Schwarzwald",
+        "Sagen: Norddeutschland",
+        "Sagen: Bayern"
+      ],
+      "suggestedFix": "Use location-specific legends with unambiguous regional attachment."
+    },
+    {
+      "puzzleId": "de-0321",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "Several regional legend labels/items are obscure or artificial-sounding for medium difficulty, especially Stormgeist and generic items like Wassernix/Holzmann without a well-known named saga anchor.",
+      "items": [
+        "Stormgeist",
+        "Wassernix",
+        "Holzmann"
+      ],
+      "groups": [
+        "Sagen: Schwarzwald",
+        "Sagen: Norddeutschland"
+      ],
+      "suggestedFix": "Prefer widely known named sagas or lower the expected difficulty."
+    },
+    {
+      "puzzleId": "de-0323",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Thor is primarily a thunder god, not normally classified as a war god. Saraswati is primarily a goddess of knowledge, music, arts, and learning rather than a direct counterpart to wisdom gods in the same way as Athena/Odin/Thoth.",
+      "items": [
+        "Thor",
+        "Saraswati"
+      ],
+      "groups": [
+        "Kriegsgott verschiedener",
+        "Weisheitsgott verschiedener"
+      ],
+      "suggestedFix": "Replace with more canonical functional matches."
+    },
+    {
+      "puzzleId": "de-0324",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Hamsa is used across Jewish, Islamic, and broader Middle Eastern/North African cultures, so it is not uniquely a Jewish symbol. Om is primarily associated with Hinduism and other Indian religions; its use in Buddhism is not exclusive and may confuse the Buddhism group.",
+      "items": [
+        "Hamsa",
+        "Om"
+      ],
+      "groups": [
+        "Symbole: Judentum",
+        "Symbole: Buddhismus"
+      ],
+      "suggestedFix": "Use symbols more exclusive to each tradition."
+    },
+    {
+      "puzzleId": "de-0324",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Koran and Thora are sacred texts rather than symbols in the same sense as Kreuz, Davidstern, Dharmarad, or Lotus.",
+      "items": [
+        "Koran",
+        "Thora"
+      ],
+      "groups": [
+        "Symbole: Islam",
+        "Symbole: Judentum"
+      ],
+      "suggestedFix": "Either relabel to include texts or replace with visual symbols."
+    },
+    {
+      "puzzleId": "de-0325",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The 'Nur ...' labels are too absolute and factually wrong. Beichte and Eucharistie exist in multiple Christian traditions; Synode is not only Protestant; Patriarch is not only Orthodox; Landeskirche is a regional Protestant structure but not a general 'only evangelical' doctrine.",
+      "items": [
+        "Beichte",
+        "Eucharistie",
+        "Synode",
+        "Patriarch",
+        "Landeskirche"
+      ],
+      "groups": [
+        "Nur katholisch",
+        "Nur evangelisch",
+        "Nur orthodox",
+        "Allgemein christlich"
+      ],
+      "suggestedFix": "Remove 'Nur' or use tradition-specific institutional terms that are genuinely exclusive in ordinary usage."
+    },
+    {
+      "puzzleId": "de-0327",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The title groups overlap historically and conceptually. Kaiser, König, Herzog, and Fürst can be ancient, medieval, or modern monarchic titles; Kalif and Papst are also rulers as well as religious titles; Consul is an office rather than a monarchic-style ruler title.",
+      "items": [
+        "Kaiser",
+        "König",
+        "Papst",
+        "Kalif",
+        "Consul"
+      ],
+      "groups": [
+        "Monarchische Titel",
+        "Religiöse Titel",
+        "Antike Herrschertitel",
+        "Moderne Herrschertitel"
+      ],
+      "suggestedFix": "Use non-overlapping criteria, such as 'monarchic rank', 'religious office', 'Roman offices', and 'modern executive offices'."
+    },
+    {
+      "puzzleId": "de-0328",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Some ranks are not unique to the branch labels. General, Leutnant, Major, Oberst and Unteroffizier occur across German armed forces branches, not only Heer or Luftwaffe; Kapitän can also mean a civilian captain and is not the standard concise naval rank without qualifier.",
+      "items": [
+        "General",
+        "Leutnant",
+        "Major",
+        "Oberst",
+        "Unteroffizier",
+        "Kapitän"
+      ],
+      "groups": [
+        "Ränge: Deutsches Heer",
+        "Ränge: Deutsche Marine",
+        "Ränge: Luftwaffe"
+      ],
+      "suggestedFix": "Use branch-specific rank names or include exact Bundeswehr rank forms."
+    },
+    {
+      "puzzleId": "de-0329",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Galeere spans antiquity, medieval, and early modern naval history; Kogge and Holk were primarily merchant ship types though they could be armed. Galleon is usually early modern, but the label 'Neuzeit' overlaps with modern/early-modern periodization.",
+      "items": [
+        "Galeere",
+        "Kogge",
+        "Holk",
+        "Galleon"
+      ],
+      "groups": [
+        "Mittelalter Kriegsschiffe",
+        "Neuzeit Kriegsschiffe"
+      ],
+      "suggestedFix": "Use tighter period labels and ship types that are clearly warship-specific."
+    },
+    {
+      "puzzleId": "de-0330",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Streitaxt is not uniquely antique and is strongly associated with medieval weapons too. Kanone appears from the late medieval period onward, and Bajonett bridges early modern and modern categories.",
+      "items": [
+        "Streitaxt",
+        "Kanone",
+        "Bajonett"
+      ],
+      "groups": [
+        "Antike Waffen",
+        "Mittelalter Waffen",
+        "Früh-Neuzeit Waffen",
+        "Moderne Waffen"
+      ],
+      "suggestedFix": "Choose period-distinct weapon examples."
+    },
+    {
+      "puzzleId": "de-0331",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The labels are inaccurate. Newton's laws of motion are three laws; the gravitational law is Newtonian but not one of the three. Ohm's law is a single relation, while Widerstand, Spannung, and Stromstärke are electrical quantities. Boyle's gas law is not the umbrella for Gay-Lussac, Charles, and Avogadro.",
+      "items": [
+        "Gravitationsgesetz",
+        "Widerstand",
+        "Spannung",
+        "Stromstärke",
+        "Gay-Lussac",
+        "Charles",
+        "Avogadro"
+      ],
+      "groups": [
+        "Newtons Gesetze",
+        "Ohms Gesetze",
+        "Boyles Gasgesetze"
+      ],
+      "suggestedFix": "Rename groups to 'Newtonsche Physik', 'Elektrische Grundgrößen', and 'Gasgesetze' or replace items with exact laws."
+    },
+    {
+      "puzzleId": "de-0332",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Verbrennung is itself a redox/oxidation process, so 'Verbrennungsreaktion' and 'Redoxreaktion' overlap. Oxidation belongs directly to redox as well as combustion.",
+      "items": [
+        "Oxidation"
+      ],
+      "groups": [
+        "Verbrennungsreaktion",
+        "Redoxreaktion"
+      ],
+      "suggestedFix": "Avoid nested reaction categories; use mutually exclusive example reactions or mechanisms."
+    },
+    {
+      "puzzleId": "de-0332",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Titration can be used for acid-base, redox, complexometric, and precipitation analyses, so it is not uniquely an acid-base reaction item. Kristallisation is not the same as precipitation and can occur outside precipitation reactions.",
+      "items": [
+        "Titration",
+        "Kristallisation"
+      ],
+      "groups": [
+        "Säure-Base-Reaktion",
+        "Fällungsreaktion"
+      ],
+      "suggestedFix": "Use more reaction-specific terms."
+    },
+    {
+      "puzzleId": "de-0333",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Latin genera/families/orders across biology are likely too specialist for medium in a general German word puzzle, especially mixed taxonomic ranks with no accessible surface clue.",
+      "items": [
+        "Canis",
+        "Felis",
+        "Equus",
+        "Panthera",
+        "Rosaceae",
+        "Asteraceae",
+        "Fabaceae",
+        "Poaceae",
+        "Lepidoptera",
+        "Coleoptera",
+        "Diptera",
+        "Hymenoptera"
+      ],
+      "groups": [
+        "Säugetier-Gattungen",
+        "Pflanzen-Familien",
+        "Insekten-Ordnungen"
+      ],
+      "suggestedFix": "Lower difficulty expectation or use German common names/taxonomic ranks consistently."
+    },
+    {
+      "puzzleId": "de-0334",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Synapse and Neuron are not organs; Aorta, Vene, and Kapillare are vessels rather than organs. The category label 'Organe' is therefore inaccurate for multiple systems.",
+      "items": [
+        "Aorta",
+        "Vene",
+        "Kapillare",
+        "Synapse",
+        "Neuron"
+      ],
+      "groups": [
+        "Kreislaufsystem Organe",
+        "Nervensystem Organe"
+      ],
+      "suggestedFix": "Rename to 'Bestandteile' or use actual organs only."
+    },
+    {
+      "puzzleId": "de-0335",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The medical specialty categories overlap in real clinical practice. Bypass and Transplantation can be cardiac/vascular/transplant surgery but also relate to internal medicine conditions; Schlaganfall is often acute neurology but also vascular/internal medicine; Fraktur can be orthopedics/trauma rather than generic surgery.",
+      "items": [
+        "Bypass",
+        "Transplantation",
+        "Schlaganfall",
+        "Fraktur"
+      ],
+      "groups": [
+        "Innere Medizin behandelt",
+        "Chirurgie behandelt",
+        "Neurologie behandelt"
+      ],
+      "suggestedFix": "Use labels like 'typische Eingriffe' versus 'typische Diagnosen', or choose non-overlapping examples."
+    },
+    {
+      "puzzleId": "de-0337",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Messkolben is both a vessel and a measuring device, so it overlaps 'Messgeräte' and 'Behälter'. Zentrifuge is a lab device/instrument, not simply a hand tool, and can feel parallel to Messgeräte.",
+      "items": [
+        "Messkolben",
+        "Zentrifuge"
+      ],
+      "groups": [
+        "Messgeräte im Labor",
+        "Behälter im Labor",
+        "Werkzeuge im Labor"
+      ],
+      "suggestedFix": "Separate containers from measuring volumetric glassware, and relabel tools/devices more precisely."
+    },
+    {
+      "puzzleId": "de-0338",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Kernel is core operating-system software, but it can also be treated as part of system software; API is a software interface rather than a software object like compiler/OS. Firewall can be a network device or security concept, overlapping network and IT security labels.",
+      "items": [
+        "Kernel",
+        "API",
+        "Firewall"
+      ],
+      "groups": [
+        "Software-Begriffe",
+        "Netzwerk-Begriffe",
+        "IT-Sicherheits-Begriffe"
+      ],
+      "suggestedFix": "Use more homogeneous category definitions."
+    },
+    {
+      "puzzleId": "de-0339",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Breitensuche, Tiefensuche, and A-Stern are also graph algorithms, so 'Suchalgorithmen' and 'Graphenalgorithmen' overlap. SHA-256 is a hash function, not an encryption algorithm in the same sense as AES/RSA.",
+      "items": [
+        "Breitensuche",
+        "Tiefensuche",
+        "A-Stern",
+        "SHA-256"
+      ],
+      "groups": [
+        "Suchalgorithmen",
+        "Graphenalgorithmen",
+        "Kryptographiealgorithmen"
+      ],
+      "suggestedFix": "Use non-graph search algorithms for the search group, or relabel the graph group to shortest path/MST."
+    },
+    {
+      "puzzleId": "de-0340",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "NoSQL is not a database language; it is an umbrella term/model family. GraphQL is primarily an API query language, not a database language in the same class as SQL/SPARQL.",
+      "items": [
+        "NoSQL",
+        "GraphQL"
+      ],
+      "groups": [
+        "Datenbanksprachen"
+      ],
+      "suggestedFix": "Replace with actual database query languages or relabel the category."
+    },
+    {
+      "puzzleId": "de-0340",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Redis is both a database product and a key-value database, so it overlaps with the 'Schlüssel-Wert' model item. MongoDB similarly directly exemplifies Dokumenten-DB.",
+      "items": [
+        "Redis",
+        "MongoDB"
+      ],
+      "groups": [
+        "Datenbankmodelle",
+        "Datenbankprodukte"
+      ],
+      "suggestedFix": "Avoid using products that are direct named examples of another group’s model labels, or make the model labels abstract enough to avoid item confusion."
+    },
+    {
+      "puzzleId": "de-0342",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "DSA is a digital signature algorithm rather than an asymmetric encryption scheme. Hash and Digitale Signatur are core cryptographic concepts but also directly underlying applications/protocols such as HTTPS and SSH, making categories somewhat broad.",
+      "items": [
+        "DSA",
+        "Hash",
+        "Digitale Signatur"
+      ],
+      "groups": [
+        "Asymmetrische Verschlüss.",
+        "Krypto-Konzepte",
+        "Krypto-Anwendungen"
+      ],
+      "suggestedFix": "Relabel asymmetric group as 'asymmetrische Verfahren' or replace DSA with a true encryption/key-exchange item."
+    },
+    {
+      "puzzleId": "de-0343",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Clustering and neuronale Netze are model/method types, while Transformer/CNN/RNN/GAN are neural model architectures. The method/model labels overlap rather than being cleanly distinct.",
+      "items": [
+        "Clustering",
+        "Neuronales Netz",
+        "Transformer",
+        "CNN",
+        "RNN",
+        "GAN"
+      ],
+      "groups": [
+        "ML-Methoden",
+        "KI-Modelltypen"
+      ],
+      "suggestedFix": "Make one category 'Lernparadigmen' and replace architecture-overlapping items in ML-Methoden."
+    },
+    {
+      "puzzleId": "de-0344",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Quantenanwendungen include Kryptografie, but Shor's algorithm directly targets cryptographic assumptions, and quantum cryptography is also a quantum-information concept. 'Maschinelles Lernen' also overlaps with QAOA/VQE-style optimization/modeling applications.",
+      "items": [
+        "Kryptografie",
+        "Maschinelles Lernen",
+        "Shor-Algorithmus",
+        "QAOA",
+        "VQE"
+      ],
+      "groups": [
+        "Quantenalgorithmen",
+        "Quantenanwendungen"
+      ],
+      "suggestedFix": "Use applications that do not duplicate algorithm targets, or label algorithm categories more narrowly."
+    },
+    {
+      "puzzleId": "de-0346",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Stickney is a crater on Phobos, not a moon of Mars. Laputa is fictional and not a real Martian moon. Mars has only Phobos and Deimos.",
+      "items": [
+        "Stickney",
+        "Laputa"
+      ],
+      "groups": [
+        "Monde des Mars"
+      ],
+      "suggestedFix": "Do not make a four-item 'Moons of Mars' group; choose another planet or change the category."
+    },
+    {
+      "puzzleId": "de-0347",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Neutronenstern and Magnetar are not ordinary star spectral/evolutionary types in the same sense as Roter Riese and Weißer Zwerg; a magnetar is a kind of neutron star. Zwergplanet is not usually a 'Kleinkörper' under common astronomical classification and may be treated separately.",
+      "items": [
+        "Neutronenstern",
+        "Magnetar",
+        "Zwergplanet"
+      ],
+      "groups": [
+        "Sterntypen",
+        "Kleinkörper-Typen"
+      ],
+      "suggestedFix": "Avoid nested items like neutron star/magnetar in the same group, and use official small-body categories."
+    },
+    {
+      "puzzleId": "de-0348",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Dunkle Energie is not a dark matter concept; it is a separate cosmological component. Gravitationslinse is an observational effect used to infer dark matter, not itself a dark matter concept.",
+      "items": [
+        "Dunkle Energie",
+        "Gravitationslinse"
+      ],
+      "groups": [
+        "Dunkle Materie Konzepte"
+      ],
+      "suggestedFix": "Replace with dark matter candidates/properties or relabel the group as broader cosmology evidence/components."
+    },
+    {
+      "puzzleId": "de-0348",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Singularität belongs strongly to black holes as well as Big Bang cosmology, so it overlaps with the 'Schwarze Löcher' group.",
+      "items": [
+        "Singularität"
+      ],
+      "groups": [
+        "Universum-Konzepte",
+        "Schwarze Löcher"
+      ],
+      "suggestedFix": "Use a universe-specific term that does not also point to black holes."
+    },
+    {
+      "puzzleId": "de-0349",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Viele Welten appears as a quantum theory/interpretation here and also appears as a multiverse concept in de-0348; within this puzzle it is fine as an interpretation, but 'Quantentheorien' mixes interpretations with QFT, a formal theory, making the group conceptually uneven.",
+      "items": [
+        "Viele Welten",
+        "QFT",
+        "Kopenhagener Deutung",
+        "Bohmsche Mech."
+      ],
+      "groups": [
+        "Quantentheorien"
+      ],
+      "suggestedFix": "Rename to 'Interpretationen und Theorien' or use only interpretations."
+    },
+    {
+      "puzzleId": "de-0350",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Schwarzes Loch is an object/prediction associated with general relativity, while Ereignishorizont appears in the related black-hole vocabulary in nearby science puzzles; within this puzzle it is broader than a clean ART concept. Perihelverschiebung is an observed effect/test and also a relativistic consequence, overlapping experiment and consequence labels.",
+      "items": [
+        "Schwarzes Loch",
+        "Perihelverschiebung"
+      ],
+      "groups": [
+        "ART-Konzepte",
+        "Relativitäts-Experimente",
+        "Relativitäts-Folgerungen"
+      ],
+      "suggestedFix": "Use strictly conceptual terms in ART and reserve observations/tests for the experiment group."
+    },
+    {
+      "puzzleId": "de-0351",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Zoom changes framing/einstellungsgröße and is not a physical camera movement like Schwenk or Fahrt. Handkamera is a camera style/technique rather than a movement.",
+      "items": [
+        "Zoom",
+        "Handkamera"
+      ],
+      "groups": [
+        "Filmbewegungen"
+      ],
+      "suggestedFix": "Rename to 'Kamerabewegung/-technik' or replace with Dolly/Kran/Steadicam-style movement terms."
+    },
+    {
+      "puzzleId": "de-0352",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The Stummfilm and Expressionismus groups overlap heavily: Nosferatu, Metropolis, Der Golem, and Das Cabinet des Dr. Caligari are silent-era German films and several are also central expressionist works. Caligari appears split by shortened title while 'Das Cabinet' refers to the same film, creating a direct duplicate/overlap.",
+      "items": [
+        "Nosferatu",
+        "Metropolis",
+        "Der Golem",
+        "Das Cabinet",
+        "Caligari"
+      ],
+      "groups": [
+        "Stummfilme Meisterwerke",
+        "Expressionistisch"
+      ],
+      "suggestedFix": "Do not split German silent film and expressionist film as separate groups unless the items are mutually exclusive."
+    },
+    {
+      "puzzleId": "de-0352",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "'Das Cabinet' and 'Caligari' both point to Das Cabinet des Dr. Caligari, so the puzzle contains duplicate references to the same film across different groups.",
+      "items": [
+        "Das Cabinet",
+        "Caligari"
+      ],
+      "groups": [
+        "Stummfilme Meisterwerke",
+        "Expressionistisch"
+      ],
+      "suggestedFix": "Remove one and replace with a distinct film."
+    },
+    {
+      "puzzleId": "de-0354",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Takt is both meter and bar/measure and can be treated as a broad music-theory term; Modulation can involve changing key, overlapping with the Tonarten group conceptually though not as an item token. The categories remain mostly solvable, but the conceptual boundaries are soft.",
+      "items": [
+        "Takt",
+        "Modulation"
+      ],
+      "groups": [
+        "Tonarten",
+        "Rhythmus-Begriffe",
+        "Harmonielehre-Begriffe"
+      ],
+      "suggestedFix": "Use more narrowly rhythm-specific items and avoid harmony terms that directly reference key changes if ambiguity is a concern."
+    },
+    {
+      "puzzleId": "de-0355",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Exposition, Durchführung, and Reprise are parts of sonata form, not unique 'features of the sonata' as a genre; Allegro and Finale can also describe sonata movements. Ouvertüre can be part of an opera and also an independent/symphonic form, but is acceptable only with a broad label.",
+      "items": [
+        "Exposition",
+        "Durchführung",
+        "Reprise",
+        "Allegro",
+        "Finale",
+        "Ouvertüre"
+      ],
+      "groups": [
+        "Merkmale der Sonate",
+        "Merkmale der Symphonie",
+        "Merkmale der Oper"
+      ],
+      "suggestedFix": "Use labels for form sections versus genre features, or choose more genre-specific items."
+    },
+    {
+      "puzzleId": "de-0356",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Improvisation is a feature of jazz broadly, not specifically Bebop. Kontrapunkt is not uniquely Cool Jazz. 'Keine Struktur' is an oversimplified and arguably inaccurate description of Free Jazz.",
+      "items": [
+        "Improvisation",
+        "Kontrapunkt",
+        "Keine Struktur"
+      ],
+      "groups": [
+        "Bebop-Merkmale",
+        "Cool Jazz-Merkmale",
+        "Free Jazz-Merkmale"
+      ],
+      "suggestedFix": "Use more distinctive stylistic markers or artist names per style."
+    },
+    {
+      "puzzleId": "de-0357",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several artists span decades or are more strongly associated with different genre histories than 'rock by decade'. Metallica formed in the 1980s but is also central to metal; Depeche Mode and The Cure are not straightforward rock exemplars; Radiohead and Oasis are 1990s but continue beyond that decade.",
+      "items": [
+        "Metallica",
+        "Depeche Mode",
+        "The Cure",
+        "Radiohead",
+        "Oasis"
+      ],
+      "groups": [
+        "Rock der 1980er",
+        "Rock der 1990er"
+      ],
+      "suggestedFix": "Use decade-specific movements/releases or label by 'Bands formed/prominent in decade'."
+    },
+    {
+      "puzzleId": "de-0359",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Beethoven bridges Classical and Romantic periods, and Schubert is often transitional/early Romantic with Classical roots. Stravinsky spans modernism and neoclassicism. These are common music-history edge cases that weaken unique sorting.",
+      "items": [
+        "Beethoven",
+        "Schubert",
+        "Strawinsky"
+      ],
+      "groups": [
+        "Klassikkomponisten",
+        "Romantikkomponisten",
+        "Moderne Komponisten"
+      ],
+      "suggestedFix": "Use less transitional composers or specify 'hauptsächlich zugeordnet'."
+    },
+    {
+      "puzzleId": "de-0361",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "Nachtwache and Die Nachtwache are the same painting, duplicated in the same group.",
+      "items": [
+        "Nachtwache",
+        "Die Nachtwache"
+      ],
+      "groups": [
+        "Öl auf Leinwand"
+      ],
+      "suggestedFix": "Replace one duplicate with a distinct oil-on-canvas work."
+    },
+    {
+      "puzzleId": "de-0361",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Mona Lisa is painted on a poplar panel, not oil on canvas. Leonardo's Last Supper is a mural using tempera/oil on dry wall, not a true fresco. The group labels by technique are therefore factually wrong for major items.",
+      "items": [
+        "Mona Lisa",
+        "Letztes Abendmahl"
+      ],
+      "groups": [
+        "Öl auf Leinwand",
+        "Fresco-Werke"
+      ],
+      "suggestedFix": "Use works whose support/technique matches the label exactly."
+    },
+    {
+      "puzzleId": "de-0361",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The Aquarell group mixes vague artist/work references rather than exact works: 'Paul Klee' is an artist, not a work, and 'Turner Seestücke' is a broad subject category. This makes item identity unclear.",
+      "items": [
+        "Turner Seestücke",
+        "Paul Klee",
+        "Cézanne Skizz."
+      ],
+      "groups": [
+        "Aquarell-Werke"
+      ],
+      "suggestedFix": "Use exact artwork titles and consistent naming."
+    },
+    {
+      "puzzleId": "de-0363",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Kuppel and Symmetrie are not distinctive to their assigned styles; both appear across many architectural styles. Bauhaus is a movement/school, not simply an architectural element like the other modern items.",
+      "items": [
+        "Kuppel",
+        "Symmetrie",
+        "Bauhaus"
+      ],
+      "groups": [
+        "Barock-Elemente",
+        "Klassizismus-Elemente",
+        "Moderne Architektur"
+      ],
+      "suggestedFix": "Use style-specific elements or relabel the categories as broad associations."
+    }
+  ]
+}

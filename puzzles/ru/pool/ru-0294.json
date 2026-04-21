@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Народы и культура Кавказа",
     "batch": "ru-batch-11",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 47,
+    "gptDifficulty": 58,
+    "gptRationale": "Ethnic groups, foods, and dances of the Caucasus require region-specific cultural knowledge beyond baseline general knowledge."
   },
   "groups": [
     {

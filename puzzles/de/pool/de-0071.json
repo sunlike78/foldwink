@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Supermarkt",
     "batch": "de-batch-03",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 28,
+    "gptDifficulty": 12,
+    "gptRationale": "Supermarket sections are highly familiar and the item-to-category matches are mostly immediate and concrete."
   },
   "groups": [
     {

@@ -1,0 +1,944 @@
+{
+  "lang": "de",
+  "tier": "medium",
+  "batchIndex": 1,
+  "batchTotal": 4,
+  "puzzleIds": [
+    "de-0365",
+    "de-0366",
+    "de-0367",
+    "de-0368",
+    "de-0369",
+    "de-0370",
+    "de-0371",
+    "de-0372",
+    "de-0373",
+    "de-0374",
+    "de-0375",
+    "de-0376",
+    "de-0377",
+    "de-0378",
+    "de-0379",
+    "de-0380",
+    "de-0381",
+    "de-0382",
+    "de-0383",
+    "de-0384",
+    "de-0385",
+    "de-0386",
+    "de-0389",
+    "de-0390",
+    "de-0391",
+    "de-0393",
+    "de-0394",
+    "de-0395",
+    "de-0396",
+    "de-0397",
+    "de-0398",
+    "de-0400",
+    "de-0401",
+    "de-0402",
+    "de-0403",
+    "de-0404",
+    "de-0405",
+    "de-0406",
+    "de-0407",
+    "de-0408",
+    "de-0409",
+    "de-0410",
+    "de-0411",
+    "de-0412",
+    "de-0413",
+    "de-0414",
+    "de-0415",
+    "de-0416",
+    "de-0417",
+    "de-0418",
+    "de-0419",
+    "de-0420",
+    "de-0421",
+    "de-0422",
+    "de-0423",
+    "de-0424",
+    "de-0425",
+    "de-0426",
+    "de-0427",
+    "de-0428"
+  ],
+  "elapsedSec": 135,
+  "findings": [
+    {
+      "puzzleId": "de-0365",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "\"Mediterrane Gerichte\" and \"Arabische Gerichte\" are overlapping regional food domains. Items such as Hummus, Tabouleh and Falafel are commonly understood as both Levantine/Arab and Mediterranean, so the category boundary is not fair.",
+      "items": [
+        "Falafel",
+        "Hummus",
+        "Tabouleh"
+      ],
+      "groups": [
+        "Mediterrane Gerichte",
+        "Arabische Gerichte"
+      ],
+      "suggestedFix": "Use non-overlapping regional labels, or replace the Mediterranean set with clearly Southern European dishes and the Arab set with items not commonly marketed as Mediterranean."
+    },
+    {
+      "puzzleId": "de-0366",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "Pinot Noir and Spätburgunder are the same grape variety under different names, so the red grape group contains duplicate identities.",
+      "items": [
+        "Pinot Noir",
+        "Spätburgunder"
+      ],
+      "groups": [
+        "Rote Rebsorten"
+      ],
+      "suggestedFix": "Replace one with a distinct red variety such as Syrah, Malbec, Tempranillo or Cabernet Franc."
+    },
+    {
+      "puzzleId": "de-0367",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The \"Hefetypen\" group mixes fermentation behavior with product form. Trockenhefe can be top-fermenting or bottom-fermenting, so it is not parallel with Obergärige/Untergärige/Wildhefe.",
+      "items": [
+        "Trockenhefe"
+      ],
+      "groups": [
+        "Hefetypen"
+      ],
+      "suggestedFix": "Use a clearer fourth yeast category such as Reinzuchthefe, Brettanomyces or Lagerhefe, depending on intended framing."
+    },
+    {
+      "puzzleId": "de-0368",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The puzzle separates French cutting techniques from \"Französische Küchentechn.\" but Brunoise, Julienne and Chiffonade are themselves French culinary techniques. \"Mise en place Begriffe\" is also an imprecise label for cutting/prep methods.",
+      "items": [
+        "Brunoise",
+        "Julienne",
+        "Chiffonade",
+        "Taillieren"
+      ],
+      "groups": [
+        "Mise en place Begriffe",
+        "Französische Küchentechn."
+      ],
+      "suggestedFix": "Rename the first group to \"Schneidetechniken\" and the fourth to a non-overlapping technique family, or replace the French technique group with non-cutting cooking methods only."
+    },
+    {
+      "puzzleId": "de-0368",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Amuse-Bouche is a small appetizer/course, and Sommelier is a role, not cleanly a service term in the same sense as À la carte or Degustation.",
+      "items": [
+        "Amuse-Bouche",
+        "Sommelier"
+      ],
+      "groups": [
+        "Service-Begriffe"
+      ],
+      "suggestedFix": "Use more direct service terms such as Gueridon, Mise en place service, Bestellaufnahme or Weinservice, or retitle the group more broadly."
+    },
+    {
+      "puzzleId": "de-0372",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "\"Bundesverfassung\" is not the standard institution/document name in Germany; the constitution is the Grundgesetz. As written it is not parallel with Bundestag, Bundesrat and Bundeskanzler.",
+      "items": [
+        "Bundesverfassung"
+      ],
+      "groups": [
+        "Deutsches Politiksystem"
+      ],
+      "suggestedFix": "Replace with Grundgesetz, Bundespräsident or Bundesverfassungsgericht depending on the intended category."
+    },
+    {
+      "puzzleId": "de-0373",
+      "type": "OBSCURE",
+      "severity": "high",
+      "explanation": "The NATO and G7 groups rely heavily on specialist abbreviations or insider process terms. NAC, SACEUR, ACO, Sherpas and Troika are likely too obscure for a medium German general-audience puzzle.",
+      "items": [
+        "NAC",
+        "SACEUR",
+        "ACO",
+        "Sherpas",
+        "Troika"
+      ],
+      "groups": [
+        "NATO-Strukturen",
+        "G7-Gremien"
+      ],
+      "suggestedFix": "Use more recognizable international-organization terms or raise the tier."
+    },
+    {
+      "puzzleId": "de-0373",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "\"Kommuniqué\" is an output document, not a G7 body or governing structure, so it does not fit the label \"G7-Gremien\".",
+      "items": [
+        "Kommuniqué"
+      ],
+      "groups": [
+        "G7-Gremien"
+      ],
+      "suggestedFix": "Rename the category to something like \"G7-Begriffe\" or replace Kommuniqué with a clearer forum/role."
+    },
+    {
+      "puzzleId": "de-0374",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Sanktion appears under diplomatic instruments, but sanctions also belong naturally with international law/policy terminology; Embargo is a type of sanction, making the two items semantically nested.",
+      "items": [
+        "Embargo",
+        "Sanktion"
+      ],
+      "groups": [
+        "Diplomatische Instrumente"
+      ],
+      "suggestedFix": "Replace one with a distinct diplomatic tool such as Note, Gipfel, Schlichtung or Vermittlung."
+    },
+    {
+      "puzzleId": "de-0374",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The Wiener Kongress is a diplomatic conference, not a treaty. \"Helsinki\" is also an abbreviated reference, likely to the Helsinki Final Act, rather than a clear treaty title.",
+      "items": [
+        "Wiener Kongress",
+        "Helsinki"
+      ],
+      "groups": [
+        "Diplomatische Verträge"
+      ],
+      "suggestedFix": "Use precise treaty/agreement names, e.g. Wiener Schlussakte and Helsinki-Schlussakte, or retitle the group to include conferences and accords."
+    },
+    {
+      "puzzleId": "de-0375",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several entries are organizations, tactics or broad concepts rather than milestones, so the category labels do not consistently describe the items. BUND and Gewerkschaft are especially not milestones.",
+      "items": [
+        "BUND",
+        "Gewerkschaft",
+        "Equal Pay"
+      ],
+      "groups": [
+        "Umweltbewegung-Meilensteine",
+        "Arbeiterrechts-Meilensteine",
+        "Feminismus-Meilensteine"
+      ],
+      "suggestedFix": "Retitle groups to include actors/concepts, or replace with specific dated milestones."
+    },
+    {
+      "puzzleId": "de-0376",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The Montreal Protocol is primarily an ozone-layer treaty, not a climate agreement in the same direct sense as Kyoto, Paris or Glasgow.",
+      "items": [
+        "Montrealer Prot."
+      ],
+      "groups": [
+        "Klimaabkommen"
+      ],
+      "suggestedFix": "Replace with UNFCCC, Kopenhagen-Akkord or another climate-specific agreement."
+    },
+    {
+      "puzzleId": "de-0377",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Vestas is both a company and strongly associated with wind-power technology, while Oatly/Beyond Meat are also products/food brands. The \"Nachhaltige Unternehmen\" group is somewhat subjective and may overlap with the technology/product framing.",
+      "items": [
+        "Vestas",
+        "Oatly",
+        "Beyond Meat"
+      ],
+      "groups": [
+        "Nachhaltige Technologien",
+        "Nachhaltige Unternehmen"
+      ],
+      "suggestedFix": "Use a less subjective company category, e.g. \"Unternehmen mit Nachhaltigkeitsimage\", or replace with unambiguous labels."
+    },
+    {
+      "puzzleId": "de-0378",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "CRISPR is a gene-editing method/tool, not an application. GMO and Transgen are organism/property concepts, and \"Genfarm\" is not a standard German biotech application term.",
+      "items": [
+        "CRISPR",
+        "GMO",
+        "Genfarm",
+        "Transgen"
+      ],
+      "groups": [
+        "Gentechnik-Anwendungen"
+      ],
+      "suggestedFix": "Rename to \"Gentechnik-Begriffe\" or replace with actual applications such as Gentherapie, Pflanzenzüchtung, Diagnostik and Pharmaproduktion."
+    },
+    {
+      "puzzleId": "de-0378",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Biogas is commonly produced by anaerobic fermentation, while Biokraftstoff can also be fermentation-based. That creates overlap between enzyme applications and fermentation applications.",
+      "items": [
+        "Biokraftstoff",
+        "Biogas"
+      ],
+      "groups": [
+        "Enzym-Anwendungen",
+        "Fermentation-Anwendungen"
+      ],
+      "suggestedFix": "Replace Biokraftstoff or Biogas with a more clearly non-overlapping example."
+    },
+    {
+      "puzzleId": "de-0379",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Precision medicine, genomics, biomarkers, liquid biopsy and targeted therapy strongly overlap conceptually with AI diagnostics/drug discovery and gene therapy in modern medical practice. The groups are not as semantically separated as a fair grouping puzzle needs.",
+      "items": [
+        "Biomarker",
+        "Genomik",
+        "Liquid Biopsy",
+        "Targeted Therapy",
+        "Wirkstoffforsch.",
+        "Risikovorhersage"
+      ],
+      "groups": [
+        "KI in der Medizin",
+        "Gentherapie-Konzepte",
+        "Präzisionsmedizin"
+      ],
+      "suggestedFix": "Make one group strictly technology modalities, one strictly sample/diagnostic terms, and one strictly therapy delivery mechanisms."
+    },
+    {
+      "puzzleId": "de-0382",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Water is generally not counted as a macronutrient in the same nutritional classification as carbohydrates, protein and fat.",
+      "items": [
+        "Wasser"
+      ],
+      "groups": [
+        "Makronährstoffe"
+      ],
+      "suggestedFix": "Replace Wasser with Ballaststoffe if using a broader nutrition grouping, or retitle to \"Hauptnährstoffe und Wasser\"."
+    },
+    {
+      "puzzleId": "de-0383",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Konzentration and Kontrolle can also be mental training or pressure-management concepts, while Atemkontrolle overlaps with relaxation. The sport-psychology categories are conceptually close and not cleanly separable.",
+      "items": [
+        "Konzentration",
+        "Kontrolle",
+        "Entspannung",
+        "Atemkontrolle",
+        "Routine"
+      ],
+      "groups": [
+        "Mentales Training",
+        "Flow-Konzept",
+        "Druckmanagement-Begriffe"
+      ],
+      "suggestedFix": "Use more distinctive item sets, such as named flow dimensions, named motivation theories, and concrete intervention methods."
+    },
+    {
+      "puzzleId": "de-0385",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Swimming and cycling are endurance training activities, but they can also be general sports rather than training forms. Intervalltraining is a method that can also apply to swimming/cycling/running, making the group internally uneven.",
+      "items": [
+        "Intervalltraining",
+        "Fahrradfahren",
+        "Schwimmen"
+      ],
+      "groups": [
+        "Ausdauertraining"
+      ],
+      "suggestedFix": "Use parallel endurance methods such as Dauerlauf, Tempolauf, Fahrtspiel and Grundlagentraining, or retitle to \"Ausdauersportarten und -methoden\"."
+    },
+    {
+      "puzzleId": "de-0386",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Denisova is not normally the species name; the standard German term is Denisova-Mensch or Denisovaner. \"Hominiden-Arten\" is also imprecise because Neandertaler/Denisovaner are populations or human forms depending on taxonomy.",
+      "items": [
+        "Denisova",
+        "Neandertaler"
+      ],
+      "groups": [
+        "Hominiden-Arten"
+      ],
+      "suggestedFix": "Use Homo denisova/Denisovaner only if that taxonomy is intended, or rename the group to \"Frühe Menschenformen\"."
+    },
+    {
+      "puzzleId": "de-0389",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Kreideküste is a landform/geological feature, not a geological event. It does not fit alongside Variscan folding, Alpine uplift and glaciation.",
+      "items": [
+        "Kreideküste"
+      ],
+      "groups": [
+        "Geologische Ereignisse"
+      ],
+      "suggestedFix": "Replace with a real geological event/process such as Kreidezeit, Gebirgsbildung or Eiszeit."
+    },
+    {
+      "puzzleId": "de-0390",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "El Niño is a coupled ocean-atmosphere climate phenomenon, not a marine current. Thermohalin is also an adjective/short form for thermohaline circulation, not a named current like Golfstrom or Humboldtstrom.",
+      "items": [
+        "Thermohalin",
+        "El Niño"
+      ],
+      "groups": [
+        "Meeresströmungen"
+      ],
+      "suggestedFix": "Use named currents such as Kuroshio, Benguelastrom, Labradorstrom or Antarktischer Zirkumpolarstrom."
+    },
+    {
+      "puzzleId": "de-0390",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "\"Sargas someer\" appears to be a typo for Sargassosee. As written, the item is malformed and likely confusing.",
+      "items": [
+        "Sargas someer"
+      ],
+      "groups": [
+        "Meeresökosysteme"
+      ],
+      "suggestedFix": "Correct to Sargassosee or replace with Seegraswiese."
+    },
+    {
+      "puzzleId": "de-0393",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Bodenbakterien are soil microorganisms, not soil fauna. The category mixes animals with microbes.",
+      "items": [
+        "Bodenbakterien"
+      ],
+      "groups": [
+        "Bodenfauna"
+      ],
+      "suggestedFix": "Replace with Milben, Asseln, Nematoden or another soil animal group."
+    },
+    {
+      "puzzleId": "de-0394",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Eiche, Fichte, Kiefer and Buche are tree species as well as wood types. In a puzzle with forest types and forest protection, \"Holzarten\" can be interpreted as trees rather than timber, making the boundary less clean.",
+      "items": [
+        "Eiche",
+        "Fichte",
+        "Kiefer",
+        "Buche"
+      ],
+      "groups": [
+        "Holzarten",
+        "Waldtypen"
+      ],
+      "suggestedFix": "Use material names like Eichenholz/Fichtenholz or retitle the group to \"Baumarten\" and adjust surrounding categories if needed."
+    },
+    {
+      "puzzleId": "de-0395",
+      "type": "CULTURAL_MISFIT",
+      "severity": "low",
+      "explanation": "\"Legislation\" is an English term in an otherwise German puzzle. German players would expect Gesetzgebung or Rechtsetzung.",
+      "items": [
+        "Legislation"
+      ],
+      "groups": [
+        "Artenschutz-Methoden"
+      ],
+      "suggestedFix": "Replace with Gesetzgebung."
+    },
+    {
+      "puzzleId": "de-0398",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The distinction between \"Genetik-Konzepte\" and \"Genetik-Fachbegriffe\" is too broad and overlapping. Allel and Locus are also core genetic concepts, while Mutation appears as a concept though it is also a technical term.",
+      "items": [
+        "Genotyp",
+        "Phänotyp",
+        "Mutation",
+        "Allel",
+        "Locus",
+        "Haplotyp",
+        "Epigenetik"
+      ],
+      "groups": [
+        "Genetik-Konzepte",
+        "Genetik-Fachbegriffe"
+      ],
+      "suggestedFix": "Retitle one group more specifically, e.g. \"Vererbungsbegriffe\" versus \"Molekulargenetische Methoden\", or replace one set."
+    },
+    {
+      "puzzleId": "de-0400",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Mendel is central to genetics and inheritance, but not usually a key figure of evolutionary theory in the same direct way as Darwin, Wallace and Huxley.",
+      "items": [
+        "Mendel"
+      ],
+      "groups": [
+        "Schlüsselfiguren Evolution"
+      ],
+      "suggestedFix": "Replace with Lyell, Mayr, Dobzhansky or Lamarck depending on intended historical scope."
+    },
+    {
+      "puzzleId": "de-0402",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several synonym groups mix different senses. \"Veraltet\" means obsolete rather than old in age, and \"gering\" means small in amount/importance, not physically small like winzig or zierlich.",
+      "items": [
+        "veraltet",
+        "gering"
+      ],
+      "groups": [
+        "Synonyme für alt",
+        "Synonyme für klein"
+      ],
+      "suggestedFix": "Use sense-consistent synonyms, e.g. bejahrt/greis for old age and klein/mini/kompakt for physical smallness."
+    },
+    {
+      "puzzleId": "de-0403",
+      "type": "OTHER",
+      "severity": "high",
+      "explanation": "The category labels say \"Gegensätze\", but each group contains two antonym pairs rather than four items sharing a single category. The solve logic becomes pair-based and may be confusing for a 4-item grouping puzzle.",
+      "items": [
+        "heiß",
+        "kalt",
+        "glühend",
+        "eisig",
+        "riesig",
+        "winzig",
+        "gewaltig",
+        "zwergenhaft"
+      ],
+      "groups": [
+        "Temperatur-Gegensätze",
+        "Größen-Gegensätze"
+      ],
+      "suggestedFix": "Retitle groups as semantic fields such as Temperaturwörter and Größenwörter, or use four clear members of one pole per category."
+    },
+    {
+      "puzzleId": "de-0404",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The adverb group is not grammatically reliable. \"Schriftweise\" is uncommon/unnatural, and \"werfend\" is a participle rather than a normal adverb parallel to the others. \"Laufend\" can also be adjectival/participle.",
+      "items": [
+        "laufend",
+        "schriftweise",
+        "sprungartig",
+        "werfend"
+      ],
+      "groups": [
+        "Adverbien"
+      ],
+      "suggestedFix": "Replace the adverb category with a more robust part-of-speech group, or use unambiguous adverbs."
+    },
+    {
+      "puzzleId": "de-0405",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Balkon entered German via French but ultimately traces to Italian/Germanic roots; as a simple \"Aus dem Französischen\" item it is debatable. Notiz also came via Latin/French pathways and may be less clean than the other Latin examples.",
+      "items": [
+        "Balkon",
+        "Notiz"
+      ],
+      "groups": [
+        "Aus dem Französischen",
+        "Aus dem Latein"
+      ],
+      "suggestedFix": "Use less disputed loanwords for etymology categories, or label as \"über das Französische\" where appropriate."
+    },
+    {
+      "puzzleId": "de-0406",
+      "type": "OTHER",
+      "severity": "high",
+      "explanation": "The \"PKW steht für …\" group is not a normal category: it contains fragments of one abbreviation expansion, including distractors or partial words. \"Personenkraft\" and \"Kraftwagen\" together form Personenkraftwagen, while \"Privat\" is wrong.",
+      "items": [
+        "Personenkraft",
+        "Wagen",
+        "Privat",
+        "Kraftwagen"
+      ],
+      "groups": [
+        "PKW steht für …"
+      ],
+      "suggestedFix": "Replace this group with a parallel abbreviation category, or use four complete abbreviations and their meanings."
+    },
+    {
+      "puzzleId": "de-0407",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Säge and Schere are not exclusive to Tischler or Schneider respectively, and Skalpell can be used by surgeons rather than doctors generally. The category is still understandable, but some tools are broad enough to weaken uniqueness.",
+      "items": [
+        "Säge",
+        "Schere",
+        "Skalpell"
+      ],
+      "groups": [
+        "Tischler-Werkzeug",
+        "Schneider-Werkzeug",
+        "Arzt-Werkzeug"
+      ],
+      "suggestedFix": "Use more profession-specific tools such as Japansäge/Simshobel, Stoffschere, and Otoskop/Reflexhammer."
+    },
+    {
+      "puzzleId": "de-0408",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Generic titles like Selbstbildnis/Selbstporträt alt and shortened titles like Wanderer, Kreidefelsen and Adele Bloch may be too abbreviated to identify uniquely. This is a recognition issue for medium tier.",
+      "items": [
+        "Selbstbildnis",
+        "Selbstporträt alt",
+        "Wanderer",
+        "Kreidefelsen",
+        "Adele Bloch"
+      ],
+      "groups": [
+        "Werke von Dürer",
+        "Werke von Rembrandt",
+        "Werke von Klimt",
+        "Werke von C.D. Friedrich"
+      ],
+      "suggestedFix": "Use full conventional titles such as Wanderer über dem Nebelmeer and Bildnis Adele Bloch-Bauer I."
+    },
+    {
+      "puzzleId": "de-0409",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "Matching aria incipits to operas at this density is specialist opera knowledge, especially with shortened German/Italian titles. This is too hard for medium.",
+      "items": [
+        "Là ci darem",
+        "Madamina",
+        "Batti batti",
+        "Durch die Wälder",
+        "Wie nahte mir",
+        "Was gleicht wohl"
+      ],
+      "groups": [
+        "Aus Don Giovanni",
+        "Aus dem Freischütz"
+      ],
+      "suggestedFix": "Raise difficulty or use more widely known complete aria titles."
+    },
+    {
+      "puzzleId": "de-0410",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Goethe and Schiller are deliberately split by life phase across Sturm und Drang and Weimarer Klassik. This is historically defensible but unfair as a grouping puzzle because the same identity belongs to two listed literary-epoch categories.",
+      "items": [
+        "Goethe (jung)",
+        "Goethe (reif)",
+        "Schiller (jung)",
+        "Schiller (reif)"
+      ],
+      "groups": [
+        "Sturm und Drang",
+        "Weimarer Klassik"
+      ],
+      "suggestedFix": "Avoid splitting the same author by phase; use distinct representatives for each epoch."
+    },
+    {
+      "puzzleId": "de-0410",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Herder and Wieland are associated with Weimar Classicism but also with Enlightenment/Sturm-und-Drang contexts, so the epoch labels are somewhat porous.",
+      "items": [
+        "Herder",
+        "Wieland"
+      ],
+      "groups": [
+        "Weimarer Klassik"
+      ],
+      "suggestedFix": "Use more canonical works or figures with less cross-epoch ambiguity."
+    },
+    {
+      "puzzleId": "de-0411",
+      "type": "OTHER",
+      "severity": "high",
+      "explanation": "Each category is keyed by the prompt phrase and contains one correct completion plus three incorrect completions. That creates trivia/multiple-choice sets rather than four items that all belong to the category.",
+      "items": [
+        "… Ende gut",
+        "… wohl bedacht",
+        "… Glück gehabt",
+        "… singt am besten",
+        "… fliegt am weit",
+        "… kennt den Tag"
+      ],
+      "groups": [
+        "Ende gut …",
+        "Der frühe Vogel …",
+        "Viele Köche …",
+        "Wer zuletzt lacht …"
+      ],
+      "suggestedFix": "Use four complete proverb endings as one group and separate them from other proverb-related categories, or redesign as a different puzzle type."
+    },
+    {
+      "puzzleId": "de-0412",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Several fairy-tale motifs overlap: a helpful witch or speaking animal can also be a magical transformation agent, and a magic cloak is usually a magical object/helper rather than a reward category parallel to princess/kingdom.",
+      "items": [
+        "Hexe (gut)",
+        "Tier spricht",
+        "Zaubermantel",
+        "Froschkönig"
+      ],
+      "groups": [
+        "Verwandlung",
+        "Magischer Helfer",
+        "Belohnung"
+      ],
+      "suggestedFix": "Use stricter motif labels such as \"Verwandlungsfiguren\", \"Aufgaben\", \"Helferfiguren\" and \"Belohnungen ohne magische Funktion\"."
+    },
+    {
+      "puzzleId": "de-0413",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Leibniz died in 1716 and is usually classified as early modern/rationalist, not straightforwardly as an Enlightenment figure in the same German literary-historical sense as Kant and Lessing. Beethoven and Kleist are also not cleanly \"Romantik-Ära\" representatives.",
+      "items": [
+        "Leibniz",
+        "Beethoven",
+        "Kleist"
+      ],
+      "groups": [
+        "Aufklärung",
+        "Romantik-Ära"
+      ],
+      "suggestedFix": "Use more clearly period-aligned figures, or retitle categories as broad chronological eras rather than movements."
+    },
+    {
+      "puzzleId": "de-0414",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "The category title \"Dynastien des Reiches\" suggests Holy Roman Empire dynasties, but the Wittelsbach and Hohenzollern groups include later Bavarian/Prussian/German imperial rulers. The scope is historically mixed.",
+      "items": [
+        "Ludwig II.",
+        "Wilhelm I.",
+        "Wilhelm II.",
+        "Friedrich III."
+      ],
+      "groups": [
+        "Wittelsbacher",
+        "Hohenzollern"
+      ],
+      "suggestedFix": "Retitle to \"Herrscherhäuser im deutschsprachigen Raum\" or restrict all items to Holy Roman Empire rulers."
+    },
+    {
+      "puzzleId": "de-0414",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Names like Maximilian I. and Otto I. are not unique without territorial qualifiers and can point to different dynasties/rulers, which is risky in a dynastic puzzle.",
+      "items": [
+        "Maximilian I.",
+        "Otto I."
+      ],
+      "groups": [
+        "Wittelsbacher"
+      ],
+      "suggestedFix": "Use full identifiers such as Maximilian I. Joseph von Bayern or Otto I. von Bayern."
+    },
+    {
+      "puzzleId": "de-0415",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Grouping authors by regional origin is inherently fuzzy for figures who lived and worked across multiple places. E.T.A. Hoffmann, for example, was born in Königsberg and is not simply \"Preußisch\" in the same way as Fontane; Karl Valentin is primarily a comedian/performer as much as an author.",
+      "items": [
+        "E.T.A. Hoffmann",
+        "Karl Valentin"
+      ],
+      "groups": [
+        "Preußische Autoren",
+        "Bayerische Autoren"
+      ],
+      "suggestedFix": "Use birthplace-specific labels or replace borderline figures with clearer regional literary authors."
+    },
+    {
+      "puzzleId": "de-0416",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Röntgen is a physicist whose discovery is medically important, so placing him under Medizin while Hertz is under Elektrizität can feel field-of-impact rather than inventor field. Bosch is associated with industrial chemistry/engineering and could overlap with Maschinenbau/industry framing.",
+      "items": [
+        "Röntgen",
+        "Bosch"
+      ],
+      "groups": [
+        "Medizin",
+        "Chemie",
+        "Maschinenbau"
+      ],
+      "suggestedFix": "Retitle to \"Wissenschaftler nach Wirkungsfeld\" or use more direct medical inventors/discoverers."
+    },
+    {
+      "puzzleId": "de-0417",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "DNA-Struktur is a Nobel-associated discovery involving chemistry/medicine/physiology as well as biology, and Insulin has Nobel relevance in medicine and chemistry contexts. The category labels are broad prize fields rather than unique item domains.",
+      "items": [
+        "DNA-Struktur",
+        "Insulin"
+      ],
+      "groups": [
+        "Chemie",
+        "Medizin & Physiologie"
+      ],
+      "suggestedFix": "Use specific Nobel prize fields with laureate/year anchors or choose less cross-field concepts."
+    },
+    {
+      "puzzleId": "de-0418",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Major philosophers cannot be cleanly assigned to only one of these broad themes. Kant is central to ethics as well as epistemology, Nietzsche to existential questions as well as ethics, and Marx to economics/history as well as society.",
+      "items": [
+        "Kant",
+        "Nietzsche",
+        "Marx",
+        "Aristoteles",
+        "Hume"
+      ],
+      "groups": [
+        "Erkenntnistheorie",
+        "Ethik",
+        "Gesellschaft",
+        "Existenz & Sein"
+      ],
+      "suggestedFix": "Use specific works or doctrines rather than whole philosophers, or make the categories much narrower."
+    },
+    {
+      "puzzleId": "de-0420",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The Pan Am Building is not a Walter Gropius building; it was designed by Emery Roth & Sons with Pietro Belluschi and Walter Gropius as collaborating architects, making attribution contested and not parallel with the other examples.",
+      "items": [
+        "Pan Am Gebäude"
+      ],
+      "groups": [
+        "Gropius-Bauten"
+      ],
+      "suggestedFix": "Replace with a more direct Gropius work such as Gropius House or Auerbach House."
+    },
+    {
+      "puzzleId": "de-0420",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "\"Harvard Gebäude\" is too vague to identify a specific Gropius building or complex. It likely refers to the Harvard Graduate Center, but the item is not unambiguous.",
+      "items": [
+        "Harvard Gebäude"
+      ],
+      "groups": [
+        "Gropius-Bauten"
+      ],
+      "suggestedFix": "Use the full name Harvard Graduate Center."
+    },
+    {
+      "puzzleId": "de-0421",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "\"Symbole des Wunders\" and \"Produkte der Zeit\" are not semantically distinct; Kühlschrank, Fernsehen, Plattenspieler and Waschmaschine can all be products and symbols of the Wirtschaftswunder consumer era.",
+      "items": [
+        "Kühlschrank",
+        "Fernsehen",
+        "Plattenspieler",
+        "Waschmaschine",
+        "VW Käfer",
+        "Vespa"
+      ],
+      "groups": [
+        "Symbole des Wunders",
+        "Produkte der Zeit"
+      ],
+      "suggestedFix": "Make one category specifically \"Konsumgüter\" and replace the other with non-product symbols, or merge/rebuild the split."
+    },
+    {
+      "puzzleId": "de-0421",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Karl Schiller is more associated with later 1960s economic policy than the classic 1950s Wirtschaftswunder period, so he is not parallel with Erhard/Adenauer.",
+      "items": [
+        "Karl Schiller"
+      ],
+      "groups": [
+        "Personen dahinter"
+      ],
+      "suggestedFix": "Replace with a figure more directly tied to the Wirtschaftswunder period."
+    },
+    {
+      "puzzleId": "de-0424",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Put-Option is both a hedge strategy instrument and a derivative type, while Leerverkauf/Short exposure can also be a bearish strategy. The hedge and derivative categories overlap by design here.",
+      "items": [
+        "Put-Option",
+        "Futures",
+        "Call-Option",
+        "Forward",
+        "Zertifikat"
+      ],
+      "groups": [
+        "Hedge-Strategien",
+        "Derivate-Typen"
+      ],
+      "suggestedFix": "Separate strategies from instruments more cleanly, e.g. use \"Hedge-Techniken\" without derivative names or make both groups instrument types with non-overlapping labels."
+    },
+    {
+      "puzzleId": "de-0425",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Lohnsteuer and Kapitalertragsteuer are Erhebungsformen/Sonderformen der Einkommensteuer, while Schenkungsteuer is closely linked with Erbschaftsteuer. The category labels are tax types but include subtypes and adjacent taxes, creating nested relationships.",
+      "items": [
+        "Lohnsteuer",
+        "Kapitalertragsteuer",
+        "Schenkungsteuer"
+      ],
+      "groups": [
+        "Einkommensteuer",
+        "Erbschaftsteuer"
+      ],
+      "suggestedFix": "Use only concepts within each tax type that are not themselves separate tax labels, or retitle categories to \"Begriffe rund um …\"."
+    },
+    {
+      "puzzleId": "de-0426",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Bundesversammlung belongs most directly to the election of the Bundespräsident but is itself a separate constitutional body. Including it under Bundespräsident may confuse a puzzle specifically about constitutional organs.",
+      "items": [
+        "Bundesversammlung"
+      ],
+      "groups": [
+        "Bundespräsident"
+      ],
+      "suggestedFix": "Replace with Begnadigungsrecht, Staatsbesuch or Ernennung Bundeskanzler."
+    },
+    {
+      "puzzleId": "de-0427",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Schulwesen is primarily Article 7 GG, which fits Art. 6-10, but Versammlungsfreiheit is Article 8 and Briefgeheimnis Article 10. The larger issue is Article 9 (Vereinigungsfreiheit) is absent while Art. 6-10 has only selected topics; that may be acceptable. However, Auslieferungsverbot is Article 16/16a context, not Art. 11-15, so it is placed in the wrong range.",
+      "items": [
+        "Auslieferungsverbot"
+      ],
+      "groups": [
+        "Art. 11–15 GG"
+      ],
+      "suggestedFix": "Replace with Sozialisierung, Eigentum/Erbrecht or Staatsangehörigkeit depending on intended range, or adjust the article range."
+    },
+    {
+      "puzzleId": "de-0427",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Widerstandsrecht is in Art. 20 Abs. 4 GG, but it is much more specific than the structural principles in the same group and may stand out as a different kind of item.",
+      "items": [
+        "Widerstandsrecht"
+      ],
+      "groups": [
+        "Art. 20 GG"
+      ],
+      "suggestedFix": "Consider replacing with Rechtsstaatsprinzip for a more parallel Art. 20 principles group."
+    }
+  ]
+}

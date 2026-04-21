@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Кухонная техника",
     "batch": "ru-batch-01",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 39,
+    "gptDifficulty": 40,
+    "gptRationale": "Appliance names are concrete, but modern kitchen devices can sound similar and sometimes serve overlapping purposes."
   },
   "groups": [
     {

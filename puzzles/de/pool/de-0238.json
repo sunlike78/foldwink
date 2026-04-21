@@ -5,7 +5,10 @@
   "meta": {
     "theme": "reiseberichte",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 46,
+    "gptDifficulty": 58,
+    "gptRationale": "Reiseberichte und Abenteuer hat klare Oberideen, doch die Autorennamen und Entdeckerlisten sind weniger breit präsent als die übrigen Begriffe."
   },
   "groups": [
     {

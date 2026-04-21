@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 46,
+    "gptDifficulty": 66,
+    "gptRationale": "Fermentation categories mix familiar foods with less familiar biochemical labels, creating a noticeable knowledge barrier."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "wordplay",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 41,
+    "gptDifficulty": 32,
+    "gptRationale": "The station senses are common and the associated objects are concrete, making the categories easy to lock in."
   },
   "groups": [
     {

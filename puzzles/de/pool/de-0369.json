@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ökonomie",
     "batch": "de-batch-04",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 50,
+    "gptDifficulty": 58,
+    "gptRationale": "Die Kategorien sind akademisch sauber, aber mehrere Begriffe erfordern präzise ökonomische Einordnung statt bloßes Allgemeinwissen."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Боевые искусства мира",
     "batch": "ru-batch-10",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 34,
+    "gptDifficulty": 42,
+    "gptRationale": "Martial-arts origins are mostly recognizable, but transliterated Korean and Chinese forms add moderate difficulty."
   },
   "groups": [
     {

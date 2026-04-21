@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 32,
+    "gptDifficulty": 33,
+    "gptRationale": "Coin-related sets are conceptually tidy, though shared vocabulary around metals and denominations creates mild overlap."
   }
 }

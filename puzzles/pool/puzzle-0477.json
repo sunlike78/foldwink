@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 21,
+    "gptDifficulty": 18,
+    "gptRationale": "Track-and-field event groupings are highly familiar and internally clean, with very little abstraction or misleading overlap."
   },
   "groups": [
     {

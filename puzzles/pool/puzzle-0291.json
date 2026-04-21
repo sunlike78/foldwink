@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 56,
+    "gptDifficulty": 70,
+    "gptRationale": "Film-production jargon like best boy, picture lock, and rotoscoping makes this much more specialized than a typical easy puzzle."
   },
   "groups": [
     {

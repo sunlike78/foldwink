@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 44,
+    "gptDifficulty": 58,
+    "gptRationale": "Several plausible overlaps around furniture/data/discussion make the theme clear but the geology set adds a noticeably less familiar branch."
   },
   "groups": [
     {

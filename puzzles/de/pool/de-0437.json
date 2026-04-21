@@ -5,7 +5,10 @@
   "meta": {
     "theme": "psychologie",
     "batch": "de-batch-05",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 51,
+    "gptDifficulty": 61,
+    "gptRationale": "Die Verzerrungen sind konzeptionell verwandt, und mehrere Hinweise beschreiben eher Effekte als eindeutige Schlagwörter."
   },
   "groups": [
     {

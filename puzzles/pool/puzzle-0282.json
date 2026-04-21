@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 41,
+    "gptDifficulty": 51,
+    "gptRationale": "Sports-combat terminology is fair but moderately technical, with each discipline requiring at least some prior familiarity."
   },
   "groups": [
     {

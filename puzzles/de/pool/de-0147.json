@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 31,
+    "gptDifficulty": 43,
+    "gptRationale": "Turnen ist grundsätzlich vertraut, aber die Mischung aus Geräteturnen, rhythmischer Sportgymnastik und Fachbegriffen wie Aufgang erschwert die Zuordnung etwas."
   },
   "groups": [
     {

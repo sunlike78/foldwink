@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 36,
+    "gptDifficulty": 39,
+    "gptRationale": "Film genres are everyday cultural knowledge, and most entries carry strong genre signals despite a few hybrid edge cases."
   },
   "groups": [
     {

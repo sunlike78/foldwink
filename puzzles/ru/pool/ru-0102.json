@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Игровые консоли",
     "batch": "ru-batch-02",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 20,
+    "gptDifficulty": 22,
+    "gptRationale": "Бренды приставок предельно узнаваемы, а линейки у Sony, Nintendo, Microsoft и Sega разделяются почти автоматически."
   },
   "groups": [
     {

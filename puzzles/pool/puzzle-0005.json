@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 8
+    "difficultyScore": 8,
+    "editorialRank": 22,
+    "gptDifficulty": 32,
+    "gptRationale": "Mostly familiar food words, though breads, cheeses, desserts, and spices can create mild culinary blur for some players."
   }
 }

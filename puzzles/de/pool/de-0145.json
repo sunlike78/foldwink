@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 29,
+    "gptDifficulty": 37,
+    "gptRationale": "Eishockey bietet sehr klare Gruppen aus Ausrüstung, Positionen und Strafen, obwohl einzelne Regelwörter wie Icing leicht spezieller sind."
   },
   "groups": [
     {

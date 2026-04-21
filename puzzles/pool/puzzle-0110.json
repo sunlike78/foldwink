@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 23,
+    "gptDifficulty": 27,
+    "gptRationale": "Tree types are broadly familiar, and the few overlaps like fruit-bearing trees remain easy to resolve from the intended categories."
   },
   "groups": [
     {

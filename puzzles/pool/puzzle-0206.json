@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 31,
+    "gptDifficulty": 33,
+    "gptRationale": "Train-related categories are concrete and coherent, with only a bit of domain knowledge needed for rail-part terminology."
   },
   "groups": [
     {

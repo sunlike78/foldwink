@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kindheit",
     "batch": "de-batch-02",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 18,
+    "gptDifficulty": 14,
+    "gptRationale": "Toy and childhood categories are highly concrete, nostalgic, and easy to distinguish."
   },
   "groups": [
     {

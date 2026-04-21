@@ -5,7 +5,10 @@
   "meta": {
     "theme": "sprichwörter",
     "batch": "de-batch-05",
-    "difficultyScore": 62
+    "difficultyScore": 62,
+    "editorialRank": 32,
+    "gptDifficulty": 12,
+    "gptRationale": "Die Sprichwortanfänge sind sehr vertraut und die korrekten Ergänzungen stechen klar vor den Ablenkern hervor."
   },
   "groups": [
     {

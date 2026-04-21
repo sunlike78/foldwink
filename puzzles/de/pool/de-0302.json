@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Umgangssprache Berufe",
     "batch": "de-batch-04",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 42,
+    "gptDifficulty": 41,
+    "gptRationale": "Die Berufe sind vertraut, doch mehrere Begriffe schwanken zwischen neutral, salopp und abwertend, was kleine False Trails erzeugt."
   },
   "groups": [
     {

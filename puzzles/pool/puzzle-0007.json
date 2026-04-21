@@ -48,6 +48,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 9
+    "difficultyScore": 9,
+    "editorialRank": 25,
+    "gptDifficulty": 35,
+    "gptRationale": "Plant knowledge varies more by player, and herbs versus vegetables adds a modest layer of categorization precision."
   }
 }

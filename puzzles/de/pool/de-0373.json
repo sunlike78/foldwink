@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Internat. Organisationen",
     "batch": "de-batch-04",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 61,
+    "gptDifficulty": 74,
+    "gptRationale": "Abkürzungen und organisationsinterne Gremien sind deutlich weniger geläufig und die institutionellen Ebenen ähneln sich stark."
   },
   "groups": [
     {

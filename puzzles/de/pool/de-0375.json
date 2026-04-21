@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sozialbewegungen",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 37,
+    "gptDifficulty": 47,
+    "gptRationale": "Die Bewegungen selbst sind vertraut, aber die Mischung aus Ereignissen, Symbolfiguren und Organisationen macht die Sortierung weniger direkt."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Künstliche Intelligenz",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 39,
+    "gptDifficulty": 46,
+    "gptRationale": "AI language involves more jargon and conceptual precision, making the distinctions harder despite tidy category design."
   },
   "groups": [
     {

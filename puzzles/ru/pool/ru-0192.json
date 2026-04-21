@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Юридические термины",
     "batch": "ru-batch-06",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 31,
+    "gptDifficulty": 29,
+    "gptRationale": "Юридические категории здесь довольно учебниковые, а слова обычно сильно привязаны к своей теме и мало маскируются."
   },
   "groups": [
     {

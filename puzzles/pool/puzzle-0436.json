@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 53
+    "difficultyScore": 53,
+    "editorialRank": 55,
+    "gptDifficulty": 57,
+    "gptRationale": "Sushi terms are common enough for many players, but Japanese form labels like nigiri, maki, and temaki require some specific food knowledge."
   },
   "groups": [
     {

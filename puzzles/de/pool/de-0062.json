@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kochtechniken",
     "batch": "de-batch-03",
-    "difficultyScore": 52
+    "difficultyScore": 52,
+    "editorialRank": 53,
+    "gptDifficulty": 53,
+    "gptRationale": "Kochtechniken sind zwar lebensnah, aber viele Verfahren liegen begrifflich nah beieinander und setzen etwas Küchenpraxis voraus."
   },
   "groups": [
     {

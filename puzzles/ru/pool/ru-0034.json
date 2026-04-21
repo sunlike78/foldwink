@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Сладости и десерты",
     "batch": "ru-batch-01",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 47,
+    "gptDifficulty": 57,
+    "gptRationale": "Dessert categories are recognizable, but Soviet/Russian candy names and pastry terms add recall difficulty."
   },
   "groups": [
     {

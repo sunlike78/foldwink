@@ -5,7 +5,10 @@
   "meta": {
     "theme": "sprache",
     "batch": "de-batch-05",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 21,
+    "gptDifficulty": 24,
+    "gptRationale": "Die Fachsprachen sind durch typische Wortfelder sehr klar markiert und bieten nur wenige ernsthafte Verwechslungsmöglichkeiten."
   },
   "groups": [
     {

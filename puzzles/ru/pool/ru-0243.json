@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Животные китайского гороскопа",
     "batch": "ru-batch-09",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 24,
+    "gptDifficulty": 26,
+    "gptRationale": "The zodiac animals are highly familiar and the structure is explicit, with only the elements adding slight extra thought."
   },
   "groups": [
     {

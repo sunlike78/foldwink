@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Reparatur und Renovierung",
     "batch": "de-batch-03",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 18,
+    "gptDifficulty": 18,
+    "gptRationale": "All four groups are everyday renovation concepts with little overlap, so the sorting feels very direct."
   },
   "groups": [
     {

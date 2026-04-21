@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 35,
+    "gptDifficulty": 39,
+    "gptRationale": "Courtroom language is accessible in broad strokes, but the legal-document and trial-phase terms are more exact than standard easy-tier fare."
   },
   "groups": [
     {

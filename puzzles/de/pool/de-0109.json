@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Garten",
     "batch": "de-batch-02",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 18,
+    "gptDifficulty": 19,
+    "gptRationale": "Vegetable-garden groupings are very tangible and mostly school-level familiar, with little ambiguity."
   },
   "groups": [
     {

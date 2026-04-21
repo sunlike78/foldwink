@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Bierbrauerei",
     "batch": "de-batch-04",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Die Grundstruktur ist klar, doch konkrete Hopfen- und Malzsorten sind für viele Spieler deutlich spezieller als Alltagsbegriffe."
   },
   "groups": [
     {

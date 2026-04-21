@@ -9,7 +9,10 @@
     "fairnessRisk": 2,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 33,
+    "gptDifficulty": 31,
+    "gptRationale": "This is mostly disciplinary terminology sorting, and the vocab in each field is standard enough that educated players can separate them relatively quickly."
   },
   "groups": [
     {

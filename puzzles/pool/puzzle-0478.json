@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 63
+    "difficultyScore": 63,
+    "editorialRank": 67,
+    "gptDifficulty": 69,
+    "gptRationale": "Weight-class naming systems are sport-specific and easy to confuse across combat sports, especially where labels overlap but structures differ."
   },
   "groups": [
     {

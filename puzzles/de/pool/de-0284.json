@@ -5,7 +5,10 @@
   "meta": {
     "theme": "polizei",
     "batch": "de-batch-03",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 44,
+    "gptDifficulty": 46,
+    "gptRationale": "Mehrere Behörden- und Einheitennamen aus dem Sicherheitsapparat liegen semantisch nah beieinander und verlangen institutionelle Präzision."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Беспозвоночные животные",
     "batch": "ru-batch-18",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 25,
+    "gptDifficulty": 28,
+    "gptRationale": "Базовые группы беспозвоночных и их примеры в целом школьные и достаточно чисто отделяются."
   },
   "groups": [
     {

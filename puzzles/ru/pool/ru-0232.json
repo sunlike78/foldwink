@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Боги Древней Греции",
     "batch": "ru-batch-08",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 38,
+    "gptDifficulty": 52,
+    "gptRationale": "Greek mythology is recognizable, but several lesser-known sea and underworld figures require more than surface familiarity."
   },
   "groups": [
     {

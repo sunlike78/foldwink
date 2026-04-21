@@ -1,0 +1,921 @@
+{
+  "lang": "de",
+  "tier": "easy",
+  "batchIndex": 0,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "de-0001",
+    "de-0002",
+    "de-0004",
+    "de-0005",
+    "de-0006",
+    "de-0007",
+    "de-0008",
+    "de-0009",
+    "de-0010",
+    "de-0011",
+    "de-0012",
+    "de-0013",
+    "de-0014",
+    "de-0015",
+    "de-0016",
+    "de-0017",
+    "de-0018",
+    "de-0019",
+    "de-0020",
+    "de-0021",
+    "de-0022",
+    "de-0023",
+    "de-0024",
+    "de-0025",
+    "de-0026",
+    "de-0027",
+    "de-0028",
+    "de-0031",
+    "de-0032",
+    "de-0035",
+    "de-0036",
+    "de-0037",
+    "de-0038",
+    "de-0039",
+    "de-0040",
+    "de-0041",
+    "de-0042",
+    "de-0043",
+    "de-0044",
+    "de-0045",
+    "de-0046",
+    "de-0047",
+    "de-0049",
+    "de-0050",
+    "de-0052",
+    "de-0053",
+    "de-0054",
+    "de-0055",
+    "de-0056",
+    "de-0057",
+    "de-0058",
+    "de-0059",
+    "de-0060",
+    "de-0062",
+    "de-0064",
+    "de-0065",
+    "de-0066",
+    "de-0067",
+    "de-0068",
+    "de-0069"
+  ],
+  "elapsedSec": 143,
+  "findings": [
+    {
+      "puzzleId": "de-0007",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Die Kategorie „Medizintechnik“ bezeichnet Geräte/Technik, die Items sind aber überwiegend Berufs- bzw. Ausbildungsabkürzungen. „BTA“ ist zudem nicht klar ein Krankenhausberuf.",
+      "items": [
+        "MTA",
+        "MTRA",
+        "OTA",
+        "BTA"
+      ],
+      "groups": [
+        "Medizintechnik"
+      ],
+      "suggestedFix": "Kategorie in „Medizinische Assistenzberufe“ ändern und „BTA“ durch einen klaren Krankenhausberuf ersetzen, oder echte Medizintechnik-Items verwenden."
+    },
+    {
+      "puzzleId": "de-0007",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Stationsleitung“ kann im Krankenhaus als pflegerische Leitungsfunktion verstanden werden und passt daher sowohl zu „Pflegeberufe“ als auch zu „Verwaltung“.",
+      "items": [
+        "Stationsleitung"
+      ],
+      "groups": [
+        "Pflegeberufe",
+        "Verwaltung"
+      ],
+      "suggestedFix": "Durch ein eindeutig administratives Item wie „Abrechnung“, „Personalbüro“ oder „Terminvergabe“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0007",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "Die Abkürzungen sind für ein deutsches Easy-Puzzle recht fachsprachlich und schwerer als die übrigen konkreten Krankenhausberufe.",
+      "items": [
+        "MTA",
+        "MTRA",
+        "OTA",
+        "BTA"
+      ],
+      "groups": [
+        "Medizintechnik"
+      ],
+      "suggestedFix": "Abkürzungen ausschreiben oder durch alltäglichere Begriffe ersetzen."
+    },
+    {
+      "puzzleId": "de-0009",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Mehrere Items in „Küchenmöbel“ und „Badezimmermöbel“ sind Geräte, Sanitäranlagen oder Einbauten, aber keine Möbel. Das macht die Kategoriebezeichnung irreführend.",
+      "items": [
+        "Herd",
+        "Spülbecken",
+        "Kühlschrank",
+        "Badewanne",
+        "Waschbecken",
+        "Toilette"
+      ],
+      "groups": [
+        "Küchenmöbel",
+        "Badezimmermöbel"
+      ],
+      "suggestedFix": "Labels in „Küche“/„Bad“ oder „Kücheneinrichtung“/„Badezimmereinrichtung“ ändern, oder echte Möbel einsetzen."
+    },
+    {
+      "puzzleId": "de-0011",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Butter“ ist sowohl ein typischer Brotaufstrich als auch ein Milchprodukt; „Frischkäse“ ist ebenfalls beides. Dadurch gehören Items plausibel zu zwei Kategorien.",
+      "items": [
+        "Butter",
+        "Frischkäse"
+      ],
+      "groups": [
+        "Brotaufstriche",
+        "Milchprodukte"
+      ],
+      "suggestedFix": "Milchprodukte durch eine nicht überlappende Frühstückskategorie ersetzen oder Brotaufstriche ohne Milchprodukte verwenden."
+    },
+    {
+      "puzzleId": "de-0014",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Schulter“ liegt anatomisch am Übergang von Rumpf und Arm und kann im Alltagsverständnis auch dem Arm-/Schulterbereich zugeordnet werden.",
+      "items": [
+        "Schulter"
+      ],
+      "groups": [
+        "Am Rumpf",
+        "Am Arm"
+      ],
+      "suggestedFix": "„Schulter“ durch ein eindeutigeres Rumpfteil wie „Taille“ oder „Hüfte“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0016",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Der Titel lautet „Zimmer im Haus“, aber „Außenbereiche“ enthält keine Zimmer und „Wohnbereiche“/„Nebenräume“ können sich semantisch überschneiden, etwa beim Hobbyraum.",
+      "items": [
+        "Terrasse",
+        "Balkon",
+        "Garten",
+        "Garage",
+        "Hobbyraum"
+      ],
+      "groups": [
+        "Wohnbereiche",
+        "Nebenräume",
+        "Außenbereiche"
+      ],
+      "suggestedFix": "Titel auf „Bereiche am Haus“ erweitern oder alle Gruppen auf echte Räume beschränken."
+    },
+    {
+      "puzzleId": "de-0017",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "„Gefriertruhe“ und „Gefrierschrank“ sind sehr nahe Varianten desselben Haushaltsgeräts und können sich für Easy wie Dubletten anfühlen.",
+      "items": [
+        "Gefriertruhe",
+        "Gefrierschrank"
+      ],
+      "groups": [
+        "Kältegeräte"
+      ],
+      "suggestedFix": "Eines durch „Eiswürfelmaschine“ oder „Kühlvitrine“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0017",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Brotmesser“ ist ein Messer und damit eine Unterart von „Messer“, während beide als separate Items im selben Set stehen. Außerdem ist „Dosenöffner“ kein Schneidewerkzeug im üblichen Sinn.",
+      "items": [
+        "Messer",
+        "Brotmesser",
+        "Dosenöffner"
+      ],
+      "groups": [
+        "Schneidewerkzeuge"
+      ],
+      "suggestedFix": "Allgemeines „Messer“ oder „Brotmesser“ ersetzen; „Dosenöffner“ durch „Schere“, „Sparschäler“ oder „Pizzaschneider“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0018",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Zierbäume“ überlappt mit „Laubbäume“: Magnolie, Hängebirke, Trauerweide und Blutbuche sind ebenfalls Laubbäume. „Hängebirke“ und „Blutbuche“ sind zudem Varianten von Birke/Buche, die bereits in „Laubbäume“ vorkommen.",
+      "items": [
+        "Birke",
+        "Buche",
+        "Magnolie",
+        "Hängebirke",
+        "Trauerweide",
+        "Blutbuche"
+      ],
+      "groups": [
+        "Laubbäume",
+        "Zierbäume"
+      ],
+      "suggestedFix": "Zierbaum-Gruppe durch eine nicht-taxonomische, eindeutig getrennte Kategorie ersetzen oder Laubbaum-Items ohne Überschneidung wählen."
+    },
+    {
+      "puzzleId": "de-0019",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Gartenblumen“ und „Wildblumen“ sind keine exklusiven Kategorien: Mohnblume, Kamille, Kornblume und Margerite können auch im Garten wachsen; Rosen und Sonnenblumen können je nach Kontext ebenfalls verwildern oder angebaut werden.",
+      "items": [
+        "Rose",
+        "Sonnenblume",
+        "Mohnblume",
+        "Kamille",
+        "Kornblume",
+        "Margerite"
+      ],
+      "groups": [
+        "Gartenblumen",
+        "Wildblumen"
+      ],
+      "suggestedFix": "Stärker formale Gruppen verwenden, z. B. „Schnittblumen“, „Heilpflanzen“, „Zimmerpflanzen“, „Wasserpflanzen“."
+    },
+    {
+      "puzzleId": "de-0020",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Berlin“ ist sowohl ostdeutsch einordenbar als auch eine eigenständige gesamtdeutsche Hauptstadt; die regionale Kategorien sind nicht völlig trennscharf. Außerdem können Hamburg und Bremen als Stadtstaaten/Norddeutschland klar sein, aber „Norddeutsche Städte“ ist geografisch breiter als Bundesland-Gruppen.",
+      "items": [
+        "Berlin"
+      ],
+      "groups": [
+        "Ostdeutsche Städte"
+      ],
+      "suggestedFix": "Berlin durch eine eindeutig ostdeutsche Stadt wie Magdeburg, Rostock oder Jena ersetzen."
+    },
+    {
+      "puzzleId": "de-0021",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Die Regionalgruppen für Bundesländer sind politisch/geografisch nicht trennscharf. Niedersachsen wird üblicherweise Norddeutschland zugeordnet, Sachsen-Anhalt eher Ostdeutschland, Saarland/Rheinland-Pfalz eher West- bzw. Südwestdeutschland, nicht schlicht Süddeutschland.",
+      "items": [
+        "Niedersachsen",
+        "Sachsen-Anhalt",
+        "Saarland",
+        "Rheinland-Pfalz"
+      ],
+      "groups": [
+        "Norddeutsche Länder",
+        "Süddeutsche Länder",
+        "Ostdeutsche Länder",
+        "Westdeutsche Länder"
+      ],
+      "suggestedFix": "Entweder klare amtliche Kriterien verwenden oder die Gruppen nach eindeutigen Merkmalen wie Stadtstaaten/Flächenländer, alte/neue Länder, Küstenländer usw. neu bauen."
+    },
+    {
+      "puzzleId": "de-0022",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Elbe“ ist zugleich ein Nordsee-Zufluss und das Hauptgewässer des Elbe-Systems. Obwohl sie nicht in der Elbe-System-Gruppe steht, macht das die System-Labels semantisch überlappend.",
+      "items": [
+        "Elbe"
+      ],
+      "groups": [
+        "Elbe-System",
+        "Nordsee-Zuflüsse"
+      ],
+      "suggestedFix": "„Nordsee-Zuflüsse“ durch eine andere, nicht überlappende Flusskategorie ersetzen oder nur Nebenflüsse verschiedener Hauptströme verwenden."
+    },
+    {
+      "puzzleId": "de-0024",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Theater“ und „Werken“ sind nicht eindeutig „Kunst und Musik“; „Theater“ ist eher Darstellendes Spiel und „Werken“ handwerklich/gestalterisch. Für Easy wirkt die Labelbreite unsauber.",
+      "items": [
+        "Theater",
+        "Werken"
+      ],
+      "groups": [
+        "Kunst und Musik"
+      ],
+      "suggestedFix": "Label in „Künstlerisch-praktische Fächer“ ändern oder Items durch „Chor“, „Instrumentalunterricht“ o. Ä. ersetzen."
+    },
+    {
+      "puzzleId": "de-0025",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Ergebnis“ ist kein spezifischer Additionsbegriff; es kommt in allen Rechenarten vor und passt damit nicht eindeutig zur Kategorie.",
+      "items": [
+        "Ergebnis"
+      ],
+      "groups": [
+        "Additions-Begriffe"
+      ],
+      "suggestedFix": "Durch „Summenzeichen“ oder „addieren“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0027",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Uranus und Neptun werden heute meist als Eisriesen, nicht Gasriesen, klassifiziert. Pluto ist zudem kein bloßer generischer „Kleinkörper“, sondern ein Zwergplanet.",
+      "items": [
+        "Uranus",
+        "Neptun",
+        "Pluto"
+      ],
+      "groups": [
+        "Gasriesen",
+        "Kleinkörper"
+      ],
+      "suggestedFix": "Label „Riesenplaneten“ verwenden und „Pluto“ in eine Kategorie „Zwergplaneten“ einbauen oder durch „Meteoroid“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0028",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "„Muschel“ ist ein Weichtier und steht dadurch sowohl faktisch in „Schalentiere“ als auch in „Weichtiere“. „Schalentiere“ ist zudem kein sauberer zoologischer Begriff für Krabbe/Hummer/Garnele plus Muschel.",
+      "items": [
+        "Muschel"
+      ],
+      "groups": [
+        "Schalentiere",
+        "Weichtiere"
+      ],
+      "suggestedFix": "„Schalentiere“ in „Krebstiere“ ändern und „Muschel“ durch „Languste“ oder „Krebs“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0028",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Oktopus“ und „Tintenfisch“ sind keine trennscharfen Alltagsbegriffe; Oktopus ist eine Art/Gruppe von Tintenfischen. „Nautilius“ ist außerdem falsch geschrieben; korrekt ist „Nautilus“.",
+      "items": [
+        "Tintenfisch",
+        "Oktopus",
+        "Nautilius"
+      ],
+      "groups": [
+        "Weichtiere"
+      ],
+      "suggestedFix": "„Nautilius“ zu „Nautilus“ korrigieren und „Tintenfisch“/„Oktopus“ nicht gemeinsam als separate Items verwenden."
+    },
+    {
+      "puzzleId": "de-0031",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Die Temperatur-Labels überschneiden sich mit alkoholisch/alkoholfrei: „Glühwein“ ist alkoholisch und heiß; Kaffee, Tee und Kakao können auch kalt getrunken werden; Eistee ist alkoholfrei und kalt.",
+      "items": [
+        "Glühwein",
+        "Eistee",
+        "Kaffee",
+        "Tee",
+        "Kakao"
+      ],
+      "groups": [
+        "Alkoholfreie Getränke",
+        "Alkoholische Getränke",
+        "Heiße Getränke",
+        "Kalte Getränke"
+      ],
+      "suggestedFix": "Entweder nur nach Alkoholgehalt oder nur nach Temperatur/Servierweise gruppieren, nicht beides in einem Puzzle mischen."
+    },
+    {
+      "puzzleId": "de-0032",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Die Kategorien mischen Herkunftsregion, Verwendung und Pflanzentyp. „Kardamom“ ist auch stark asiatisch konnotiert; „Zitronengras“ ist eher Kraut/Gewürzpflanze als Gewürz. Die Kategorien sind dadurch nicht sauber parallel.",
+      "items": [
+        "Kardamom",
+        "Zitronengras"
+      ],
+      "groups": [
+        "Asiatische Gewürze",
+        "Süße Gewürze",
+        "Mediterrane Kräuter"
+      ],
+      "suggestedFix": "Einheitliche Achse wählen, z. B. nur Kräuter vs. Gewürze nach Pflanzenteil oder nur regionale Küchen."
+    },
+    {
+      "puzzleId": "de-0035",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Die Käsekategorien überschneiden sich stark: Brie und Camembert sind Weichkäse und Schimmelkäse; Gorgonzola/Roquefort/Stilton/Fourme sind ebenfalls Schimmelkäse und teils Weich- oder Schnittkäse. „Deutsche Käse“ ist eine Herkunftskategorie und nicht parallel zu Konsistenz/Schimmel.",
+      "items": [
+        "Brie",
+        "Camembert",
+        "Gorgonzola",
+        "Roquefort",
+        "Stilton",
+        "Fourme",
+        "Tilsiter",
+        "Limburger"
+      ],
+      "groups": [
+        "Weichkäse",
+        "Hartkäse",
+        "Schimmelkäse",
+        "Deutsche Käse"
+      ],
+      "suggestedFix": "Nur eine Klassifikationsachse verwenden, z. B. Herkunftsländer oder Konsistenzklassen, und überlappende Schimmelkäsesorten vermeiden."
+    },
+    {
+      "puzzleId": "de-0035",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Gouda“ und „Cheddar“ sind typischerweise Schnittkäse bzw. Hart-/Schnittkäse je nach Reife, aber für Easy ist „Hartkäse“ mit Parmesan, Gouda, Emmentaler, Cheddar unsauber. „Obatzda“ ist eine Käsezubereitung, keine Käsesorte.",
+      "items": [
+        "Gouda",
+        "Cheddar",
+        "Obatzda"
+      ],
+      "groups": [
+        "Hartkäse",
+        "Deutsche Käse"
+      ],
+      "suggestedFix": "„Obatzda“ ersetzen und die Konsistenzgruppe präziser als „Schnitt- und Hartkäse“ benennen oder eindeutige Hartkäse wählen."
+    },
+    {
+      "puzzleId": "de-0036",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "„Aufschnitt“ ist eine Servierform und überlappt mit Wursttypen: Jagdwurst und Fleischwurst sind Brühwürste, Mortadella ebenfalls brühwurstartig. Damit ist die Gruppe nicht parallel zu Brühwurst/Rohwurst/Kochwurst.",
+      "items": [
+        "Jagdwurst",
+        "Fleischwurst",
+        "Mortadella"
+      ],
+      "groups": [
+        "Brühwurst",
+        "Aufschnitt"
+      ],
+      "suggestedFix": "„Aufschnitt“ durch eine echte Wurstherstellungsart ersetzen oder alle Gruppen nach Servierform bilden."
+    },
+    {
+      "puzzleId": "de-0037",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "„Eckfahne“ ist kein Spielfeldbereich, sondern ein Gegenstand am Spielfeldrand. „Elfmeter“, „Abseits“ und „Freistoß“ sind Spielregeln/Situationen, nicht spezifisch Schiedsrichter-Begriffe.",
+      "items": [
+        "Eckfahne",
+        "Elfmeter",
+        "Abseits",
+        "Freistoß"
+      ],
+      "groups": [
+        "Spielfeldbereiche",
+        "Schiedsrichter-Begriffe"
+      ],
+      "suggestedFix": "„Eckfahne“ durch „Mittellinie“ oder „Seitenlinie“ ersetzen; Label „Regel- und Standardsituationen“ verwenden."
+    },
+    {
+      "puzzleId": "de-0039",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Action-RPG“ überschneidet sich begrifflich mit Action-Spielen, obwohl es in „Rollenspiele“ steht. „Rennspiel“ ist oft eher eigenes Genre als Sportspiel und kann auch Simulation/Arcade sein.",
+      "items": [
+        "Action-RPG",
+        "Rennspiel"
+      ],
+      "groups": [
+        "Action-Spiele",
+        "Rollenspiele",
+        "Sport-Spiele"
+      ],
+      "suggestedFix": "„Action-RPG“ durch „Taktik-RPG“ oder „Pen-&-Paper-RPG“ ersetzen; „Rennspiel“ nur verwenden, wenn die Sportspiel-Kategorie breiter benannt wird."
+    },
+    {
+      "puzzleId": "de-0040",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "„Kamera“, „Kalender“, „Karten“ und „Notizen“ können Apps sein, aber auch Smartphone-Funktionen. „GPS“ ist zudem eng mit Karten verbunden. Die Kategorien „Apps“ und „Funktionen“ sind für diese Items nicht trennscharf.",
+      "items": [
+        "Kamera",
+        "Kalender",
+        "Karten",
+        "Notizen",
+        "GPS"
+      ],
+      "groups": [
+        "Apps",
+        "Funktionen"
+      ],
+      "suggestedFix": "Apps durch eindeutig benannte App-Typen ersetzen oder Funktionen auf Hardware/Kommunikationsstandards beschränken."
+    },
+    {
+      "puzzleId": "de-0041",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Filmgenre-Elemente sind nicht exklusiv: Liebesgeschichte, Verlust, Satire, Geister, Zombie oder Blut können in mehreren Genres vorkommen. Für Easy sind Element-Gruppen weniger eindeutig als echte Genres.",
+      "items": [
+        "Liebesgeschichte",
+        "Verlust",
+        "Satire",
+        "Geister",
+        "Zombie",
+        "Blut"
+      ],
+      "groups": [
+        "Action-Elemente",
+        "Drama-Elemente",
+        "Komödie-Elemente",
+        "Horror-Elemente"
+      ],
+      "suggestedFix": "Statt Elemente konkrete Filmgenres oder eindeutige Genre-Subtypen verwenden."
+    },
+    {
+      "puzzleId": "de-0042",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Klassische Formen“ ist keine Genre-/Stilgruppe wie Rock-, Jazz- und elektronische Stile. „Oper“ ist zudem sowohl musikalische Form als auch Theaterform und überschneidet konzeptuell mit anderen Kulturpuzzles, aber innerhalb dieses Puzzles vor allem nicht parallel.",
+      "items": [
+        "Sinfonie",
+        "Oper",
+        "Sonate",
+        "Konzert"
+      ],
+      "groups": [
+        "Klassische Formen"
+      ],
+      "suggestedFix": "Label in „Klassik-Formen“ ändern oder vier echte Klassik-Epochen/Stile verwenden."
+    },
+    {
+      "puzzleId": "de-0043",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Märchen“ und „Abenteuerroman“ können Kinder- und Jugendbücher sein, aber auch allgemeine Literaturformen; „Comicroman“ ist für Easy zudem weniger geläufig.",
+      "items": [
+        "Märchen",
+        "Abenteuerroman",
+        "Comicroman"
+      ],
+      "groups": [
+        "Romangattungen",
+        "Kinder- und Jugendbuch"
+      ],
+      "suggestedFix": "Kinder- und Jugendbuch-Gruppe mit eindeutigen Zielgruppenformaten wie „Bilderbuch“, „Erstlesebuch“, „Jugendroman“, „Wimmelbuch“ bauen."
+    },
+    {
+      "puzzleId": "de-0044",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Theater-Elemente sind nicht exklusiv: „Intrige“, „Duett“, „Ouvertüre“ oder „Libretto“ können genreübergreifend auftreten; Musical und Oper sind zudem beide Musiktheaterformen.",
+      "items": [
+        "Intrige",
+        "Duett",
+        "Ouvertüre",
+        "Libretto"
+      ],
+      "groups": [
+        "Komödie-Elemente",
+        "Musical-Elemente",
+        "Opern-Elemente"
+      ],
+      "suggestedFix": "Für Easy konkretere Kategorien wie Bühnenberufe, Bühnenräume, Requisiten und Textformen verwenden."
+    },
+    {
+      "puzzleId": "de-0045",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Mehrere Figuren/Gegenstände sind märchenspezifisch mehrdeutig: „Zwerg“ kann Helfer sein, gehört aber direkt zu Schneewittchen; „Frosch“ kann ein verzauberter Prinz sein; „Wolf“ ist nicht nur böse Figur, sondern konkret Rotkäppchen/andere Märchen. „Rotkäppchens Korb“ ist kein magischer Gegenstand.",
+      "items": [
+        "Zwerg",
+        "Frosch",
+        "Wolf",
+        "Rotkäppchens Korb"
+      ],
+      "groups": [
+        "Böse Figuren",
+        "Helfer-Figuren",
+        "Magische Gegenstände"
+      ],
+      "suggestedFix": "„Rotkäppchens Korb“ durch einen wirklich magischen Gegenstand ersetzen und Figurenrollen eindeutiger wählen."
+    },
+    {
+      "puzzleId": "de-0047",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Reichstag“ ist zugleich Denkmal/Sehenswürdigkeit und politisches Gebäude; „Grunewald“ ist eher Wald/Ortsteil bzw. Gebiet als Park und kann mit Stadtteilen/Orten verwechselt werden.",
+      "items": [
+        "Reichstag",
+        "Grunewald"
+      ],
+      "groups": [
+        "Berliner Denkmäler",
+        "Berliner Parks",
+        "Berliner Stadtteile"
+      ],
+      "suggestedFix": "„Reichstag“ durch ein eindeutig monumentales Denkmal ersetzen; „Grunewald“ durch einen klaren Park wie „Mauerpark“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0049",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Speicherstadt“ und „Elbphilharmonie“ sind nicht nur Hafen, sondern auch Kultur/Sehenswürdigkeiten; „Altonaer Museum“ enthält „Altona“, das auch als Stadtteil vorkommt, was für Easy verwirrend sein kann.",
+      "items": [
+        "Elbphilharmonie",
+        "Speicherstadt",
+        "Altonaer Museum",
+        "Altona"
+      ],
+      "groups": [
+        "Hamburger Hafen",
+        "Hamburger Kultur",
+        "Hamburger Stadtteile"
+      ],
+      "suggestedFix": "Hafen-Gruppe auf funktionale Hafenorte beschränken und Kultur/Stadtteil-Namensdopplungen vermeiden."
+    },
+    {
+      "puzzleId": "de-0050",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Mehrere Items sind nicht eindeutig deutsche Erfindungen oder sind falsch zugeordnet: Telefon und Transistor gelten nicht als deutsche Erfindungen; Impfung ist nicht deutsch; Insulin wurde nicht in Deutschland entdeckt; Airbag und ABS sind nicht schlicht deutsche Auto-Erfindungen. „Diesel“ ist zudem eher Person/Kraftstoff/Motorprinzip als Item-Form uneindeutig.",
+      "items": [
+        "Telefon",
+        "Transistor",
+        "Impfung",
+        "Insulin",
+        "Airbag",
+        "ABS",
+        "Diesel"
+      ],
+      "groups": [
+        "Auto-Erfindungen",
+        "Technik-Erfindungen",
+        "Medizin-Erfindungen"
+      ],
+      "suggestedFix": "Nur gut belegte deutsche Erfindungen verwenden, z. B. Dieselmotor, Ottomotor, Aspirin, Röntgenstrahlen, MP3, Buchdruck."
+    },
+    {
+      "puzzleId": "de-0050",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Für Easy ist die historische Zuschreibung von Erfindungen und wissenschaftlichen Theorien zu Deutschland zu wissenslastig und teils streitbar.",
+      "items": null,
+      "groups": [
+        "Auto-Erfindungen",
+        "Technik-Erfindungen",
+        "Medizin-Erfindungen",
+        "Wissenschafts-Erf."
+      ],
+      "suggestedFix": "Als mittlere/schwere Wissenskategorie einstufen oder auf alltägliche, unstrittige Objekte wechseln."
+    },
+    {
+      "puzzleId": "de-0052",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Bierzelt“ ist sowohl eine Attraktion/Ort als auch zentraler Oktoberfest-Brauch-/Speise-Kontext; „Volkssänger“ und „Wiesn-Hit“ sind eher Musik/Kultur als Bräuche.",
+      "items": [
+        "Bierzelt",
+        "Volkssänger",
+        "Wiesn-Hit"
+      ],
+      "groups": [
+        "Attraktionen",
+        "Oktoberfest-Bräuche"
+      ],
+      "suggestedFix": "Bräuche durch klarere Ereignisse wie „Trachtenumzug“, „O'zapft is“, „Reservierung“, „Prost-Ruf“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0053",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "„Krapfen“ und „Berliner“ sind je nach Region Synonyme bzw. sehr nahe Bezeichnungen für dasselbe Gebäck. In einem 4×4-Puzzle sind solche Dubletten unfair.",
+      "items": [
+        "Krapfen",
+        "Berliner"
+      ],
+      "groups": [
+        "Karnevalsspeisen"
+      ],
+      "suggestedFix": "Eines der beiden durch ein anderes Karnevalsgebäck wie „Quarkbällchen“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0053",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Prinzessin“ kann als Kostüm gemeint sein, ist aber im Karneval auch eine reale Karnevalsfigur bzw. Teil des Dreigestirns in manchen Regionen.",
+      "items": [
+        "Prinzessin"
+      ],
+      "groups": [
+        "Kostüme",
+        "Karnevalsbräuche"
+      ],
+      "suggestedFix": "Durch ein eindeutig reines Kostüm wie „Cowboy“ oder „Vampir“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0054",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„AMG GT“ ist ein Mercedes-AMG-Modell, während „AMG“ zugleich als Mercedes-Performance-Marke wahrgenommen wird; bei Easy aber noch akzeptabel. Größeres Problem: Modellcodes wie „3er“, „5er“, „A4“ sind sehr markenspezifisch und setzen Autowissen voraus.",
+      "items": [
+        "AMG GT",
+        "3er",
+        "5er",
+        "A4",
+        "Q5"
+      ],
+      "groups": [
+        "BMW-Modelle",
+        "Mercedes-Modelle",
+        "Audi-Modelle"
+      ],
+      "suggestedFix": "Für Easy bekanntere vollständige Modellnamen verwenden oder Schwierigkeit erhöhen."
+    },
+    {
+      "puzzleId": "de-0055",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Bremsscheibe“ ist primär Teil der Bremsanlage, nicht des Fahrwerks; „Felge“ gehört zum Rad und kann alltagssprachlich ebenfalls nicht klar als Fahrwerksteil gelten.",
+      "items": [
+        "Bremsscheibe",
+        "Felge"
+      ],
+      "groups": [
+        "Fahrwerksteile"
+      ],
+      "suggestedFix": "Fahrwerksteile durch „Querlenker“, „Feder“, „Achse“, „Stabilisator“ o. Ä. ersetzen."
+    },
+    {
+      "puzzleId": "de-0056",
+      "type": "CULTURAL_MISFIT",
+      "severity": "low",
+      "explanation": "„Bahncard“ ist als Marken-/Produktname eigentlich „BahnCard“ geschrieben. Das ist klein, aber bei deutschen Bahnbegriffen sichtbar.",
+      "items": [
+        "Bahncard"
+      ],
+      "groups": [
+        "Fahrkarten-Begriffe"
+      ],
+      "suggestedFix": "Schreibung zu „BahnCard“ korrigieren."
+    },
+    {
+      "puzzleId": "de-0057",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Duty-Free“ liegt oft im Abflugbereich, ist aber ein Einkaufsbereich und kein Abflugprozess. „Passkontrolle“ kann bei Abflug und Ankunft stattfinden, nicht nur Sicherheit.",
+      "items": [
+        "Duty-Free",
+        "Passkontrolle"
+      ],
+      "groups": [
+        "Abflug-Bereich",
+        "Sicherheit",
+        "Ankunft-Bereich"
+      ],
+      "suggestedFix": "„Duty-Free“ durch „Abflugtafel“ und „Passkontrolle“ durch „Flüssigkeitskontrolle“ oder „Metalldetektor“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0058",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Lotse“ ist nicht Teil der Schiffsbesatzung im engeren Sinn, sondern kommt meist extern an Bord. „Kran“ ist eher Hafengerät als Frachtbegriff.",
+      "items": [
+        "Lotse",
+        "Kran"
+      ],
+      "groups": [
+        "Besatzung",
+        "Frachtbegriffe"
+      ],
+      "suggestedFix": "„Lotse“ durch „Maschinist“ oder „Bootsmann“ ersetzen; „Kran“ durch „Frachtbrief“ oder „Palette“ ersetzen."
+    },
+    {
+      "puzzleId": "de-0059",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Pflanzen“ ist sowohl ein Nomen im Sinn von Gartenpflanzen als auch ein Verb in „Gartenarbeiten“. Die Großschreibung macht es als Verb nominalisiert, aber für Spieler kann es mit der Pflanzen-Kategorie kollidieren.",
+      "items": [
+        "Pflanzen"
+      ],
+      "groups": [
+        "Gartenpflanzen",
+        "Gartenarbeiten"
+      ],
+      "suggestedFix": "Als Arbeit „Einpflanzen“ oder „Aussäen“ verwenden."
+    },
+    {
+      "puzzleId": "de-0060",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Bioabfall“ gehört eher zu Kompost/Abfalltrennung als Recycling; „Biotop“, „Wildblumenwiese“ und „Gewässerschutz“ können auch Arten- bzw. Wasserschutz überlappen. Die Easy-Kategorien sind thematisch nah und nicht immer exklusiv.",
+      "items": [
+        "Bioabfall",
+        "Wildblumenwiese",
+        "Biotop",
+        "Gewässerschutz"
+      ],
+      "groups": [
+        "Recycling",
+        "Wasserschutz",
+        "Artenschutz"
+      ],
+      "suggestedFix": "Konkretere Kategorien wie „Abfalltrennung“, „Energiequellen“, „Wassersparen“, „Tierhilfen“ nutzen."
+    },
+    {
+      "puzzleId": "de-0062",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Die Kochtechnik-Kategorien überlappen stark: Schmoren, Dünsten, Dämpfen, Pochieren, Garen und Braten im Ofen sind allgemeine Gar-/Kochmethoden; „Garen“ ist ein Oberbegriff für fast alle genannten Techniken.",
+      "items": [
+        "Schmoren",
+        "Dünsten",
+        "Dämpfen",
+        "Pochieren",
+        "Braten im Ofen",
+        "Garen"
+      ],
+      "groups": [
+        "Bratmethoden",
+        "Kochmethoden",
+        "Backmethoden"
+      ],
+      "suggestedFix": "Nur klar getrennte Technikfamilien verwenden und Oberbegriffe wie „Garen“ vermeiden."
+    },
+    {
+      "puzzleId": "de-0064",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Aquarell“, „Ölmalerei“, „Acryl“ und „Tempera“ können sowohl Techniken als auch Materialien/Farbarten bezeichnen. Mit „Malmaterialien“ daneben ist die Achse etwas unscharf.",
+      "items": [
+        "Aquarell",
+        "Ölmalerei",
+        "Acryl",
+        "Tempera"
+      ],
+      "groups": [
+        "Maltechniken",
+        "Malmaterialien"
+      ],
+      "suggestedFix": "Label „Farbarten/Techniken“ präzisieren oder Materialgruppe auf Werkzeuge/Träger beschränken."
+    },
+    {
+      "puzzleId": "de-0065",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Bauhaus“ ist sowohl Baustil als auch Institution/Schule; „Dom“ kann zusätzlich ein konkretes Beispiel für Romanik/Gotik sein. Die Kategorien bleiben spielbar, sind aber für Easy nicht ganz sauber.",
+      "items": [
+        "Bauhaus",
+        "Dom"
+      ],
+      "groups": [
+        "Baustile",
+        "Gebäudetypen"
+      ],
+      "suggestedFix": "„Bauhaus“ durch „Klassizismus“ ersetzen oder Kategorie „Architekturstile“ beibehalten und Gebäudetypen ohne stark stiltypische Begriffe wählen."
+    },
+    {
+      "puzzleId": "de-0066",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Business“ und „Casual“ sind Kleiderordnungen/Anlässe, nicht Modestile im gleichen Sinn wie Streetwear und Avantgarde. „Hut“ ist sowohl Kleidung als auch Accessoire, hier aber nur innerhalb Accessoires relevant.",
+      "items": [
+        "Business",
+        "Casual"
+      ],
+      "groups": [
+        "Modestile"
+      ],
+      "suggestedFix": "Label in „Dresscodes und Stile“ ändern oder echte Stilrichtungen wie „Boho“, „Minimalismus“, „Vintage“ verwenden."
+    },
+    {
+      "puzzleId": "de-0067",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "„Weißgold“ ist eine Goldlegierung und damit semantisch eine Unterart/Variante von Gold, während beide als separate Edelmetalle erscheinen. „Vergoldung“ überschneidet sich außerdem mit Gold als Materialbezug.",
+      "items": [
+        "Gold",
+        "Weißgold",
+        "Vergoldung"
+      ],
+      "groups": [
+        "Edelmetalle",
+        "Schmucktechniken"
+      ],
+      "suggestedFix": "„Weißgold“ durch „Palladium“ ersetzen oder Kategorie als „Schmuckmetalle“ formulieren."
+    },
+    {
+      "puzzleId": "de-0068",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "„Bohrmaschine“ und „Feile“ werden auch in der Holzbearbeitung genutzt; „Wasserwaage“ ist nicht spezifisch Mauerwerk und wird allgemein im Handwerk verwendet. Die Werkzeuggruppen sind nach Einsatzgebiet nicht exklusiv genug.",
+      "items": [
+        "Feile",
+        "Bohrmaschine",
+        "Wasserwaage"
+      ],
+      "groups": [
+        "Holzbearbeitung",
+        "Metallbearbeitung",
+        "Mauerwerk"
+      ],
+      "suggestedFix": "Spezifischere Werkzeuge wählen, z. B. „Metallsäge“, „Schweißhelm“, „Maurerkelle“, oder Kategorien nach Werkzeugtyp statt Gewerk bilden."
+    }
+  ]
+}

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Autoteile",
     "batch": "de-batch-02",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 48,
+    "gptDifficulty": 56,
+    "gptRationale": "Autoteile sind konkret, aber viele Begriffe sind technisch genug, dass Nicht-Autointeressierte zwischen Baugruppen leicht durcheinanderkommen."
   },
   "groups": [
     {

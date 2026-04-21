@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 43,
+    "gptDifficulty": 55,
+    "gptRationale": "The cultural-symbol split is workable, but some East Asian motifs and foods demand more specific cultural knowledge and invite cross-group confusion."
   },
   "groups": [
     {

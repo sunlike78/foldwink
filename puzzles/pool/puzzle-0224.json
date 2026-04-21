@@ -8,7 +8,10 @@
     "categoryType": "wordplay",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 42,
+    "gptDifficulty": 44,
+    "gptRationale": "Cookware, camera, criticism, and gold panning all fit cleanly, though 'pan' as a verb in multiple senses introduces some mild confusion."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 44,
+    "gptDifficulty": 52,
+    "gptRationale": "Rubber stamp versus stamp of approval creates semantic bleed, and foot-stamp items are a bit less automatic for many players."
   },
   "groups": [
     {

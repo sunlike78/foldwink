@@ -5,7 +5,10 @@
   "meta": {
     "theme": "lebensmittel",
     "batch": "de-batch-05",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 38,
+    "gptDifficulty": 45,
+    "gptRationale": "Die Bereiche sind klar funktional getrennt, doch HACCP und Rückverfolgbarkeit nutzen technisches Fachvokabular."
   },
   "groups": [
     {

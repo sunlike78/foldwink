@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Классификация планет в астрономии",
     "batch": "ru-batch-17",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 32,
+    "gptDifficulty": 32,
+    "gptRationale": "Типы планет и примеры в основном общеизвестны, а экзопланеты добавляют лишь умеренный уровень сложности."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Части и зоны городского пространства",
     "batch": "ru-batch-15",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 24,
+    "gptDifficulty": 18,
+    "gptRationale": "Части города относятся к максимально житейскому опыту, и почти все слова принадлежат своим группам без серьёзных сомнений."
   },
   "groups": [
     {

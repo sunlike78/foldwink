@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-05",
     "status": "approved",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 32,
+    "gptDifficulty": 26,
+    "gptRationale": "Murder-mystery conventions are widely known and the categories are strongly signposted by genre."
   },
   "groups": [
     {

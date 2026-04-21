@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 49,
+    "gptDifficulty": 72,
+    "gptRationale": "The philosopher names are canonical but still fairly academic, and assigning each thinker to the correct school requires real humanities knowledge."
   },
   "groups": [
     {

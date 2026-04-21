@@ -1,0 +1,1326 @@
+{
+  "lang": "ru",
+  "tier": "easy",
+  "batchIndex": 3,
+  "batchTotal": 6,
+  "puzzleIds": [
+    "ru-0211",
+    "ru-0212",
+    "ru-0213",
+    "ru-0214",
+    "ru-0216",
+    "ru-0217",
+    "ru-0218",
+    "ru-0219",
+    "ru-0221",
+    "ru-0223",
+    "ru-0224",
+    "ru-0226",
+    "ru-0228",
+    "ru-0230",
+    "ru-0232",
+    "ru-0233",
+    "ru-0235",
+    "ru-0238",
+    "ru-0239",
+    "ru-0241",
+    "ru-0243",
+    "ru-0245",
+    "ru-0247",
+    "ru-0248",
+    "ru-0249",
+    "ru-0251",
+    "ru-0253",
+    "ru-0255",
+    "ru-0257",
+    "ru-0259",
+    "ru-0263",
+    "ru-0265",
+    "ru-0267",
+    "ru-0268",
+    "ru-0270",
+    "ru-0272",
+    "ru-0273",
+    "ru-0276",
+    "ru-0277",
+    "ru-0279",
+    "ru-0282",
+    "ru-0283",
+    "ru-0285",
+    "ru-0288",
+    "ru-0289",
+    "ru-0292",
+    "ru-0294",
+    "ru-0296",
+    "ru-0298",
+    "ru-0299",
+    "ru-0302",
+    "ru-0304",
+    "ru-0305",
+    "ru-0307",
+    "ru-0309",
+    "ru-0310",
+    "ru-0312",
+    "ru-0313",
+    "ru-0315",
+    "ru-0317"
+  ],
+  "elapsedSec": 458,
+  "findings": [
+    {
+      "puzzleId": "ru-0211",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Плитка» is not exclusive to floor coverings in a home context; it is also a very common wall finish, especially in kitchens and bathrooms.",
+      "items": [
+        "Плитка"
+      ],
+      "groups": [
+        "Напольные покрытия",
+        "Отделка стен"
+      ],
+      "suggestedFix": "Use a more specifically floor-only item such as «Линолеум» or rename the item to «Напольная плитка»."
+    },
+    {
+      "puzzleId": "ru-0212",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Оружие» is a broad label that can include «Осадные орудия», so the categories are semantically nested rather than cleanly parallel.",
+      "items": null,
+      "groups": [
+        "Оружие",
+        "Осадные орудия"
+      ],
+      "suggestedFix": "Rename «Оружие» to a narrower label such as «Ручное оружие»."
+    },
+    {
+      "puzzleId": "ru-0213",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "«На улице» and «Советские игры» are not mutually exclusive concepts. «Классики», «Резинки» and «Штандер» are also outdoor children's games, so the solver cannot rely on one clear categorization principle.",
+      "items": [
+        "Классики",
+        "Резинки",
+        "Штандер"
+      ],
+      "groups": [
+        "На улице",
+        "Советские игры"
+      ],
+      "suggestedFix": "Make all four categories use the same axis, for example by replacing «Советские игры» with another setting/mechanics category."
+    },
+    {
+      "puzzleId": "ru-0213",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Крокодил» is usually a party/acting game, not a board game; «Морской бой» is often played on paper rather than as a tabletop board game.",
+      "items": [
+        "Крокодил",
+        "Морской бой"
+      ],
+      "groups": [
+        "Настольные"
+      ],
+      "suggestedFix": "Replace with clearer board games such as «Шахматы», «Шашки», «Домино», «Лото»."
+    },
+    {
+      "puzzleId": "ru-0214",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "«Растяжка» and «Стрейчинг» are essentially the same concept in Russian usage, creating a duplicate item inside one group.",
+      "items": [
+        "Растяжка",
+        "Стрейчинг"
+      ],
+      "groups": [
+        "Гибкость"
+      ],
+      "suggestedFix": "Replace one with a distinct flexibility discipline or exercise, such as «Шпагат» or «Суставная гимнастика»."
+    },
+    {
+      "puzzleId": "ru-0216",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Клещ» is not an insect; ticks are arachnids. This is especially problematic in a puzzle titled «Насекомые».",
+      "items": [
+        "Клещ"
+      ],
+      "groups": [
+        "Вредители"
+      ],
+      "suggestedFix": "Replace with an insect pest such as «Комар», «Клоп» or «Таракан»."
+    },
+    {
+      "puzzleId": "ru-0216",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The puzzle uses «Пчела» under pollinators and «Пчела рабочая» under social insects. These are not cleanly distinct identities; a worker bee is also a bee and a pollinator.",
+      "items": [
+        "Пчела",
+        "Пчела рабочая"
+      ],
+      "groups": [
+        "Опылители",
+        "Общественные"
+      ],
+      "suggestedFix": "Avoid caste/species duplication; replace «Пчела рабочая» with another social insect or replace «Пчела» with a different pollinator."
+    },
+    {
+      "puzzleId": "ru-0216",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Опылители», «Вредители» and «Общественные» are behavioral/ecological roles that can overlap. For example wasps and flies can pollinate, and social insects can also be pests.",
+      "items": [
+        "Муха",
+        "Оса"
+      ],
+      "groups": [
+        "Опылители",
+        "Вредители",
+        "Общественные"
+      ],
+      "suggestedFix": "Use taxonomic or clearly disjoint everyday categories instead, such as «Жуки», «Бабочки», «Перепончатокрылые», «Двукрылые»."
+    },
+    {
+      "puzzleId": "ru-0217",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "«Пири» and «Папанин» are named polar explorers, which is a knowledge-heavy category for an easy everyday puzzle, especially alongside concrete animal and ice-object groups.",
+      "items": [
+        "Пири",
+        "Папанин"
+      ],
+      "groups": [
+        "Полярники"
+      ],
+      "suggestedFix": "For easy tier, replace the explorer category with a more concrete polar category such as equipment or weather terms."
+    },
+    {
+      "puzzleId": "ru-0218",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«К2» is in the Karakoram, not the Himalayas in the narrower common geographic sense. The «Америка» group also contains «Килиманджаро» in Africa and «Монблан» in Europe.",
+      "items": [
+        "К2",
+        "Килиманджаро",
+        "Монблан"
+      ],
+      "groups": [
+        "Гималаи",
+        "Америка"
+      ],
+      "suggestedFix": "Use accurate regional groups: move K2 to «Каракорум» or rename the group, and replace «Килиманджаро»/«Монблан» with American peaks such as «Аконкагуа», «Денали», «Уаскаран», «Логан»."
+    },
+    {
+      "puzzleId": "ru-0218",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Many mountain names such as «Канченджанга», «Лхоцзе», «Шхара» and «Дыхтау» are specialized geography knowledge rather than easy-tier everyday vocabulary.",
+      "items": [
+        "Канченджанга",
+        "Лхоцзе",
+        "Шхара",
+        "Дыхтау"
+      ],
+      "groups": [
+        "Гималаи",
+        "Кавказ"
+      ],
+      "suggestedFix": "Either raise the difficulty or use more widely known mountains and simpler regional labels."
+    },
+    {
+      "puzzleId": "ru-0221",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The «Летающие» group consists of pterosaurs, not dinosaurs. In a puzzle titled «Динозавры», this is taxonomically inaccurate.",
+      "items": [
+        "Птеродактиль",
+        "Птеранодон",
+        "Кетцалькоатль",
+        "Рамфоринх"
+      ],
+      "groups": [
+        "Летающие"
+      ],
+      "suggestedFix": "Rename the title to «Доисторические рептилии» or replace the group with true dinosaur categories."
+    },
+    {
+      "puzzleId": "ru-0223",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The regional labels are not cleanly exclusive because «Кавказ» is part of the broader European/Russian geographic framing for several rivers, and «Кура» and «Аракс» are transboundary rather than straightforward «Реки России».",
+      "items": [
+        "Кура",
+        "Аракс"
+      ],
+      "groups": [
+        "Европейская часть",
+        "Кавказ"
+      ],
+      "suggestedFix": "Use only rivers clearly within Russia for all groups, or change the title to «Реки России и соседних регионов»."
+    },
+    {
+      "puzzleId": "ru-0224",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "«Верхнее», «Мичиган», «Гурон» and «Эри» are also part of the Great Lakes system, while the category is only «Северная Америка». This broad geographic label can include many lakes from other groups too.",
+      "items": [
+        "Верхнее",
+        "Мичиган",
+        "Гурон",
+        "Эри"
+      ],
+      "groups": [
+        "Северная Америка"
+      ],
+      "suggestedFix": "Rename the group to «Великие озёра»."
+    },
+    {
+      "puzzleId": "ru-0224",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Каспий» is usually treated as the Caspian Sea, not a lake in everyday Russian naming; it also is not solely Russian. «Женевское», «Комо» and «Люцерн» are not normally classified as mountain lakes in the same clear way as «Титикака».",
+      "items": [
+        "Каспий",
+        "Женевское",
+        "Комо",
+        "Люцерн"
+      ],
+      "groups": [
+        "Россия",
+        "Горные озёра"
+      ],
+      "suggestedFix": "Use unambiguous lakes and labels, such as «Великие озёра», «Африканские озёра», «Российские озёра», «Альпийские озёра» with accurate members."
+    },
+    {
+      "puzzleId": "ru-0226",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Копьё» can be both a weapon and part of knightly equipment, and a similar issue appears in ru-0212. The label «Рыцарское снаряжение» mixes armor/equipment with a weapon.",
+      "items": [
+        "Копьё"
+      ],
+      "groups": [
+        "Рыцарское снаряжение"
+      ],
+      "suggestedFix": "Replace «Копьё» with an armor/equipment item such as «Шлем» or «Латы»."
+    },
+    {
+      "puzzleId": "ru-0228",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "«Особые жанры» is a vague catch-all and overlaps with the other literary form labels. «Эпопея» can be prose, while «Баллада» can be poetic or narrative and may not be exclusive to «Поэзия» in everyday classification.",
+      "items": [
+        "Эпопея",
+        "Баллада"
+      ],
+      "groups": [
+        "Проза",
+        "Поэзия",
+        "Особые жанры"
+      ],
+      "suggestedFix": "Replace «Особые жанры» with a single clear category, such as «Документальная проза», and use items that fit only that label."
+    },
+    {
+      "puzzleId": "ru-0230",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Метеорит» is specifically a meteoroid fragment that has reached a planetary surface, not a Solar System small body in the same category as comet/asteroid while in space.",
+      "items": [
+        "Метеорит"
+      ],
+      "groups": [
+        "Малые тела"
+      ],
+      "suggestedFix": "Use «Метеороид» or «Карликовая планета» depending on the intended category."
+    },
+    {
+      "puzzleId": "ru-0232",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Олимпийцы» and domain-based groups overlap: Poseidon, Demeter, Dionysus and Artemis are Olympian gods too, so the categories do not use a single exclusive axis.",
+      "items": [
+        "Посейдон",
+        "Деметра",
+        "Дионис",
+        "Артемида"
+      ],
+      "groups": [
+        "Олимпийцы",
+        "Боги моря",
+        "Боги природы"
+      ],
+      "suggestedFix": "Either make all groups domain-based or all groups status/family-based; avoid using «Олимпийцы» alongside domains."
+    },
+    {
+      "puzzleId": "ru-0233",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Dog breed functions are not exclusive. «Немецкая овчарка» can be viewed as both herding and guard/service, and «Лабрадор» is more commonly a retriever/gun dog than simply «охотничья» in everyday Russian categorization.",
+      "items": [
+        "Немецкая овчарка",
+        "Лабрадор"
+      ],
+      "groups": [
+        "Пастушьи",
+        "Охотничьи",
+        "Охранные"
+      ],
+      "suggestedFix": "Use official FCI-style groups or simpler visible traits such as size/coat to avoid functional overlap."
+    },
+    {
+      "puzzleId": "ru-0235",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The labels mix coat length, unusual appearance, and wild ancestry/appearance. A breed can easily be both short-haired and «unusual» or have wild traits, so the category axes overlap.",
+      "items": [
+        "Бенгальская",
+        "Саванна",
+        "Оцикет",
+        "Чаузи",
+        "Сфинкс",
+        "Корниш-рекс"
+      ],
+      "groups": [
+        "Короткошёрстные",
+        "Необычные",
+        "Дикие черты"
+      ],
+      "suggestedFix": "Use one categorization axis, such as coat type only or origin/registry group only."
+    },
+    {
+      "puzzleId": "ru-0238",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Звезда» under Islam is too generic and can be confused with «Звезда Давида» under Judaism; «Лотос» is a broad religious symbol across multiple traditions, not uniquely Hindu in everyday knowledge.",
+      "items": [
+        "Звезда",
+        "Лотос"
+      ],
+      "groups": [
+        "Ислам",
+        "Иудаизм",
+        "Индуизм"
+      ],
+      "suggestedFix": "Use more distinctive symbols, such as «Минарет» for Islam and «Тилак» or «Шива-лингам» for Hinduism if culturally appropriate."
+    },
+    {
+      "puzzleId": "ru-0239",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Кёрлинг» is not a water sport and does not use a ball. «Пляжный волейбол» and «Пляжный футбол» are team ball games, so they overlap with «Командные игры» rather than forming a clean «Водные виды» group.",
+      "items": [
+        "Кёрлинг",
+        "Пляжный волейбол",
+        "Пляжный футбол"
+      ],
+      "groups": [
+        "Командные игры",
+        "Водные виды"
+      ],
+      "suggestedFix": "Replace the last group with true water ball sports, or rename it to a coherent non-overlapping category."
+    },
+    {
+      "puzzleId": "ru-0241",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Танго» is commonly considered a Latin/Latin American dance in many ballroom contexts, while it is placed under «Бальные». «Полька» can be both folk and ballroom/social dance depending on context.",
+      "items": [
+        "Танго",
+        "Полька"
+      ],
+      "groups": [
+        "Латиноамериканские",
+        "Бальные",
+        "Народные"
+      ],
+      "suggestedFix": "Use stricter competition categories, e.g. «Европейская программа» and «Латиноамериканская программа», or replace ambiguous items."
+    },
+    {
+      "puzzleId": "ru-0243",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The East Asian five elements include five items; this group lists only four and omits «Земля», so it is not a valid four-item category without a clarifying label.",
+      "items": [
+        "Металл",
+        "Дерево",
+        "Вода",
+        "Огонь"
+      ],
+      "groups": [
+        "Стихии Востока"
+      ],
+      "suggestedFix": "Change the group to a different four-item category, or include «Земля» and redesign the puzzle size/category."
+    },
+    {
+      "puzzleId": "ru-0247",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Тангенс» is a trigonometric function and can reasonably be treated as algebra/function content rather than geometry. «Теорема» and «Аксиома» are general mathematical terms, not specific to geometry.",
+      "items": [
+        "Теорема",
+        "Аксиома",
+        "Тангенс"
+      ],
+      "groups": [
+        "Геометрия",
+        "Алгебра"
+      ],
+      "suggestedFix": "Use geometry-specific terms such as «Треугольник», «Окружность», «Параллель», «Площадь»."
+    },
+    {
+      "puzzleId": "ru-0247",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "«Мнимое» and especially «Трансцендентное» are advanced for an easy-tier puzzle compared with the expected concrete everyday categories.",
+      "items": [
+        "Мнимое",
+        "Трансцендентное"
+      ],
+      "groups": [
+        "Виды чисел"
+      ],
+      "suggestedFix": "Raise the tier or use simpler number types such as «Чётное», «Нечётное», «Целое», «Дробное»."
+    },
+    {
+      "puzzleId": "ru-0248",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "«Натбоб» is obscure and not an easy-tier winter sport term for a general Russian audience.",
+      "items": [
+        "Натбоб"
+      ],
+      "groups": [
+        "Санные"
+      ],
+      "suggestedFix": "Replace with a better-known sledding discipline or equipment term."
+    },
+    {
+      "puzzleId": "ru-0248",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Гигантский слалом» is both an alpine skiing discipline and a snowboard discipline. Because the group label «На лыжах» already contains «Слалом», the snowboard group can cause cross-category confusion.",
+      "items": [
+        "Гигантский слалом",
+        "Слалом"
+      ],
+      "groups": [
+        "На лыжах",
+        "Сноуборд"
+      ],
+      "suggestedFix": "Specify «Сноуборд-кросс» or «Параллельный гигантский слалом» for snowboard, or avoid shared discipline names."
+    },
+    {
+      "puzzleId": "ru-0249",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Северная Африка» is a region label, while «Саванна» and «Реки Африки» use different axes. The puzzle is solvable, but the category design is mixed rather than cleanly parallel.",
+      "items": null,
+      "groups": [
+        "Северная Африка",
+        "Субсахарская",
+        "Саванна",
+        "Реки Африки"
+      ],
+      "suggestedFix": "Use four country-region groups or four nature/geography groups, not a mixture."
+    },
+    {
+      "puzzleId": "ru-0251",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Саванна» is placed under «Лесные зоны», but savanna is not a forest zone in the ordinary school-geography classification. «Субарктика» is a broad climatic/geographic region, not a natural zone parallel to tundra or forest-tundra.",
+      "items": [
+        "Саванна",
+        "Субарктика"
+      ],
+      "groups": [
+        "Лесные зоны",
+        "Полярные зоны"
+      ],
+      "suggestedFix": "Move «Саванна» to a dry/grassland category or replace it with «Широколиственный лес»; replace «Субарктика» with a true zone term."
+    },
+    {
+      "puzzleId": "ru-0251",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Пойма» and «Дельта» are landforms/hydrological areas, while «Болото» and «Мангровы» are wetland/ecosystem terms. The group «Влажные зоны» is broad and can overlap with several natural-zone concepts.",
+      "items": [
+        "Пойма",
+        "Дельта",
+        "Болото",
+        "Мангровы"
+      ],
+      "groups": [
+        "Влажные зоны"
+      ],
+      "suggestedFix": "Rename to a narrower category such as «Водно-болотные угодья» and use four clearly matching items."
+    },
+    {
+      "puzzleId": "ru-0253",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Video game genre labels overlap heavily: roguelike, platformer, arcade, stealth and action can all combine with other listed genres, so items may be classified by mechanics, audience and pacing at the same time.",
+      "items": [
+        "Roguelike",
+        "Платформер",
+        "Аркада",
+        "Стелс"
+      ],
+      "groups": [
+        "Экшн",
+        "RPG",
+        "Казуальные"
+      ],
+      "suggestedFix": "Use clearer non-overlapping genre families or make the labels explicit, such as «Поджанры RPG» and «Аркадные жанры»."
+    },
+    {
+      "puzzleId": "ru-0253",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Abbreviations like «RTS», «TBS», «4X», «ARPG» and «MMORPG» are not easy-tier everyday Russian vocabulary.",
+      "items": [
+        "RTS",
+        "TBS",
+        "4X",
+        "ARPG",
+        "MMORPG"
+      ],
+      "groups": [
+        "Стратегии",
+        "RPG"
+      ],
+      "suggestedFix": "Raise the difficulty or spell out simpler genre names."
+    },
+    {
+      "puzzleId": "ru-0255",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Several painting placements are inaccurate or unclear: «Герника» is generally Picasso/Cubism-associated rather than Surrealism, and «Танец в Мулен»/«Бал в ля Мулен» appear to be malformed or duplicate references to Moulin/Moulin de la Galette titles.",
+      "items": [
+        "Герника",
+        "Танец в Мулен",
+        "Бал в ля Мулен"
+      ],
+      "groups": [
+        "Импрессионизм",
+        "Сюрреализм"
+      ],
+      "suggestedFix": "Use canonical Russian titles and verify movement attribution; replace «Герника» with a clear surrealist work such as «Сын человеческий»."
+    },
+    {
+      "puzzleId": "ru-0255",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Attribution of individual artworks to artists and movements is too specialized for easy tier, especially with less familiar or malformed titles.",
+      "items": [
+        "Мадонна в гроте",
+        "Кувшинки",
+        "Завтрак гребцов",
+        "Метаморфоза"
+      ],
+      "groups": [
+        "Леонардо да Винчи",
+        "Импрессионизм",
+        "Сюрреализм"
+      ],
+      "suggestedFix": "Raise the tier or use more general art categories with highly familiar items."
+    },
+    {
+      "puzzleId": "ru-0257",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Точные науки» and «Естественные» overlap in school usage because physics and chemistry are also natural sciences. «География» can be treated as natural or social depending on curriculum context.",
+      "items": [
+        "Физика",
+        "Химия",
+        "География"
+      ],
+      "groups": [
+        "Точные науки",
+        "Естественные"
+      ],
+      "suggestedFix": "Use standard school-subject clusters such as «Естественные науки», «Общественные науки», «Языки», «Искусство/практические»."
+    },
+    {
+      "puzzleId": "ru-0259",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The bird categories use overlapping traits: waterfowl can be wintering or migratory, and birds of prey can also be resident or migratory. «Цапля» and «Выпь» are wading birds rather than waterfowl in the narrow everyday sense.",
+      "items": [
+        "Утка",
+        "Лебедь",
+        "Цапля",
+        "Выпь",
+        "Орёл",
+        "Беркут",
+        "Сапсан",
+        "Скопа"
+      ],
+      "groups": [
+        "Зимующие",
+        "Перелётные",
+        "Водоплавающие",
+        "Хищные"
+      ],
+      "suggestedFix": "Use one axis only, such as habitat groups or migration-status groups, and choose unambiguous examples."
+    },
+    {
+      "puzzleId": "ru-0263",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Some characters can be both helpers and title characters/heroes depending on the tale. «Жар-птица», «Щука» and «Серый волк» are roles in specific stories, not a stable mutually exclusive class across Russian folklore.",
+      "items": [
+        "Жар-птица",
+        "Щука",
+        "Серый волк",
+        "Финист Ясный Сокол"
+      ],
+      "groups": [
+        "Герои",
+        "Помощники",
+        "Названия сказок"
+      ],
+      "suggestedFix": "Use only tale titles, only character types, or clearly named characters from one role category."
+    },
+    {
+      "puzzleId": "ru-0267",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "«Драматический театр», «Музыкальный театр», «Кукольный театр» and «Народный театр» mix venue/form/tradition axes. «Вертеп» is also puppet theater, and «Теневой театр» is a form rather than a puppet type.",
+      "items": [
+        "Вертеп",
+        "Теневой театр"
+      ],
+      "groups": [
+        "Музыкальный театр",
+        "Кукольный театр",
+        "Народный театр"
+      ],
+      "suggestedFix": "Use four parallel categories such as dramatic genres, musical-theater genres, puppet types, and folk forms in separate puzzles, or redesign with one axis."
+    },
+    {
+      "puzzleId": "ru-0270",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Финляндия» and «Хельсинки» are often Nordic but not Scandinavian in the stricter sense. The puzzle uses «Скандинавия»/«Скандинавские города», which can confuse solvers who know the distinction.",
+      "items": [
+        "Финляндия",
+        "Хельсинки"
+      ],
+      "groups": [
+        "Скандинавия",
+        "Скандинавские города"
+      ],
+      "suggestedFix": "Rename to «Северные страны» and «Города Северной Европы», or replace Finland/Helsinki if using Scandinavia strictly."
+    },
+    {
+      "puzzleId": "ru-0272",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Рамадан» is a holy month/fasting period, not a holiday in the same sense as Eid al-Fitr or Eid al-Adha. The category label «Мусульманские» is broad enough to include observances, but the title says religious holidays.",
+      "items": [
+        "Рамадан"
+      ],
+      "groups": [
+        "Мусульманские"
+      ],
+      "suggestedFix": "Replace «Рамадан» with a specific holiday/observance such as «Мавлид» if appropriate."
+    },
+    {
+      "puzzleId": "ru-0273",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The labels «Европейская выпечка», «Лепёшки» and «Булочки» are not parallel: flatbreads and buns are types of baked goods, while European is a region. «Багет» and «Чиабатта» are breads, not simply pastries.",
+      "items": [
+        "Багет",
+        "Чиабатта",
+        "Плюшка",
+        "Синнабон",
+        "Шанежка"
+      ],
+      "groups": [
+        "Русский хлеб",
+        "Европейская выпечка",
+        "Лепёшки",
+        "Булочки"
+      ],
+      "suggestedFix": "Use four type-based categories or four region-based categories, not both."
+    },
+    {
+      "puzzleId": "ru-0273",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Штрудель» is not a bun; it is a pastry/roll-like dessert. «Шанежка» is closer to a small open pie/flatbread than a standard bun.",
+      "items": [
+        "Штрудель",
+        "Шанежка"
+      ],
+      "groups": [
+        "Булочки"
+      ],
+      "suggestedFix": "Replace with clear buns such as «Бриошь», «Булочка с маком», «Сайка» or «Булочка с корицей»."
+    },
+    {
+      "puzzleId": "ru-0276",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "«Дорогие ткани» overlaps with «Натуральные»: cashmere, angora, mohair and alpaca are natural animal fibers. The categories are based on different axes and are not mutually exclusive.",
+      "items": [
+        "Кашемир",
+        "Ангора",
+        "Мохер",
+        "Альпака"
+      ],
+      "groups": [
+        "Натуральные",
+        "Дорогие ткани"
+      ],
+      "suggestedFix": "Rename to «Животные волокна» and adjust the natural group, or use only origin-based categories."
+    },
+    {
+      "puzzleId": "ru-0276",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Гортекс» and «Тефлон» are brand/material technologies rather than fabric types in the same sense as cotton, nylon or fleece.",
+      "items": [
+        "Гортекс",
+        "Тефлон"
+      ],
+      "groups": [
+        "Технические"
+      ],
+      "suggestedFix": "Use clearer technical fabrics such as «Рипстоп», «Оксфорд», «Кордура», «Мембрана»."
+    },
+    {
+      "puzzleId": "ru-0277",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Стерлядь», «Осётр» and «Бёлуга» are sturgeons, not catfish. The group label «Сомовые» is factually wrong for three of the four items.",
+      "items": [
+        "Стерлядь",
+        "Осётр",
+        "Бёлуга"
+      ],
+      "groups": [
+        "Сомовые"
+      ],
+      "suggestedFix": "Create a proper «Осетровые» group or replace the sturgeon items with actual catfish-family items."
+    },
+    {
+      "puzzleId": "ru-0279",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "medium",
+      "explanation": "«Кунг-фу» and «Ушу» are near-overlapping terms in Russian usage, often used for the same broad Chinese martial arts domain.",
+      "items": [
+        "Кунг-фу",
+        "Ушу"
+      ],
+      "groups": [
+        "Китайские"
+      ],
+      "suggestedFix": "Replace one with a distinct named style such as «Саньда» or «Вин-чун»."
+    },
+    {
+      "puzzleId": "ru-0279",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Самбо» was developed in the Soviet Union/Russia, so placing it under «Западные» is culturally/geographically questionable.",
+      "items": [
+        "Самбо"
+      ],
+      "groups": [
+        "Западные"
+      ],
+      "suggestedFix": "Rename the group to «Не восточноазиатские» or replace «Самбо» with a clearly Western martial art."
+    },
+    {
+      "puzzleId": "ru-0282",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Тропы» are often treated as a subtype of rhetorical/stylistic figures, so «Тропы» and «Фигуры речи» can be conceptually nested depending on school terminology.",
+      "items": null,
+      "groups": [
+        "Тропы",
+        "Фигуры речи"
+      ],
+      "suggestedFix": "Use a narrower label such as «Синтаксические фигуры» for the second group."
+    },
+    {
+      "puzzleId": "ru-0282",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Terms like «Анафора», «Антитеза», «Инверсия», «Полилог» and «Дискурс» are not easy-tier everyday vocabulary.",
+      "items": [
+        "Анафора",
+        "Антитеза",
+        "Инверсия",
+        "Полилог",
+        "Дискурс"
+      ],
+      "groups": [
+        "Фигуры речи",
+        "Виды речи"
+      ],
+      "suggestedFix": "Raise the difficulty or use simpler grammar/rhetoric terms."
+    },
+    {
+      "puzzleId": "ru-0288",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "The puzzle repeats bee identity across groups: «Пчела медоносная» and «Пчела» are not cleanly distinct for a grouping puzzle, and both are useful as pollinators and raw-material producers.",
+      "items": [
+        "Пчела медоносная",
+        "Пчела"
+      ],
+      "groups": [
+        "Опылители садов",
+        "Сырьё"
+      ],
+      "suggestedFix": "Avoid using generic «Пчела» if a bee species already appears; use another distinct raw-material insect if accurate."
+    },
+    {
+      "puzzleId": "ru-0289",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "The puzzle is titled «Ядовитые растения», but one full category is «Ядовитые грибы». Fungi are not plants.",
+      "items": [
+        "Бледная поганка",
+        "Мухомор",
+        "Ложный опёнок",
+        "Галерина"
+      ],
+      "groups": [
+        "Ядовитые грибы"
+      ],
+      "suggestedFix": "Change the title to «Ядовитые растения и грибы» or replace the mushroom category with poisonous plants."
+    },
+    {
+      "puzzleId": "ru-0289",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Аллергены» is a different hazard axis from poisonousness. Allergenic plants are not necessarily poisonous, so the category does not match the title's organizing concept.",
+      "items": [
+        "Амброзия",
+        "Тополь",
+        "Берёза",
+        "Полынь"
+      ],
+      "groups": [
+        "Аллергены"
+      ],
+      "suggestedFix": "Use a poisonous-plant category instead, such as «Ядовитые ягоды» or «Ядовитые садовые растения»."
+    },
+    {
+      "puzzleId": "ru-0292",
+      "type": "CULTURAL_MISFIT",
+      "severity": "medium",
+      "explanation": "«Герундий» is not a standard form of the Russian verb in school grammar; it is mainly a term from English/Latin grammar. In a Russian grammar puzzle it feels foreign and confusing.",
+      "items": [
+        "Герундий"
+      ],
+      "groups": [
+        "Формы глагола"
+      ],
+      "suggestedFix": "Replace with a Russian-relevant verb form such as «Повелительное наклонение» or «Прошедшее время»."
+    },
+    {
+      "puzzleId": "ru-0294",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Абхазцы» can be associated with the Caucasus but their placement under «Южный Кавказ» is politically/geographically sensitive and not as straightforward as the other three national groups.",
+      "items": [
+        "Абхазцы"
+      ],
+      "groups": [
+        "Южный Кавказ"
+      ],
+      "suggestedFix": "Use a less geopolitically ambiguous group label, or replace with a clearly South Caucasus people depending on the intended convention."
+    },
+    {
+      "puzzleId": "ru-0296",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The same planet names appear across multiple groups: Mars, Jupiter, Venus and Saturn occur as gods/planets, characteristics and symbols. The categories are about different representations, but the repeated identities make item membership ambiguous for a word puzzle.",
+      "items": [
+        "Марс",
+        "Юпитер",
+        "Венера",
+        "Сатурн",
+        "Кольца Сатурна",
+        "Пятно Юпитера",
+        "Каньоны Марса",
+        "Облака Венеры",
+        "♂ Марс",
+        "♀ Венера",
+        "♃ Юпитер",
+        "♄ Сатурн"
+      ],
+      "groups": [
+        "Боги — планеты",
+        "Характеристики планет",
+        "Символы планет"
+      ],
+      "suggestedFix": "Avoid repeating the same base planet names in several categories; use one planet-related category and three unrelated categories, or make all items distinct without embedded duplicate names."
+    },
+    {
+      "puzzleId": "ru-0296",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "«Транай» and the planetary symbol glyphs are too specialized for easy tier.",
+      "items": [
+        "Транай",
+        "♃ Юпитер",
+        "♄ Сатурн"
+      ],
+      "groups": [
+        "Планеты в фантастике",
+        "Символы планет"
+      ],
+      "suggestedFix": "Raise the difficulty or use more familiar fictional planets and plain-language symbols."
+    },
+    {
+      "puzzleId": "ru-0298",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "«Благородные грибы» and «Ценные виды» are subjective value labels and overlap conceptually. «Сморчок», «Строчок» and «Дождевик» can also be grouped by morphology/edibility rather than value, so the category is not clean.",
+      "items": [
+        "Трюфель",
+        "Сморчок",
+        "Строчок",
+        "Дождевик"
+      ],
+      "groups": [
+        "Благородные грибы",
+        "Ценные виды"
+      ],
+      "suggestedFix": "Use objective categories such as «Трубчатые», «Пластинчатые», «Сумчатые», «Ядовитые»."
+    },
+    {
+      "puzzleId": "ru-0298",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Лисичка» is not a typical gilled mushroom despite often being casually grouped with lamellar mushrooms; «Жёлчный» is commonly considered inedible/bitter rather than poisonous in the strict sense.",
+      "items": [
+        "Лисичка",
+        "Жёлчный"
+      ],
+      "groups": [
+        "Пластинчатые",
+        "Ядовитые грибы"
+      ],
+      "suggestedFix": "Replace with unambiguous lamellar and poisonous species."
+    },
+    {
+      "puzzleId": "ru-0299",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Рамануджан» died in 1920 and is not a XX–XXI century mathematician in the usual sense of modern 20th/21st grouping; he mainly belongs to late XIX/early XX.",
+      "items": [
+        "Рамануджан"
+      ],
+      "groups": [
+        "XX–XXI вв."
+      ],
+      "suggestedFix": "Replace «Рамануджан» with a clearer 20th/21st-century mathematician such as «Гёдель», «Гротендик» or «Вайлс»."
+    },
+    {
+      "puzzleId": "ru-0299",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Колмогоров» is both Russian and a 20th-century mathematician, so he can reasonably fit two listed categories.",
+      "items": [
+        "Колмогоров"
+      ],
+      "groups": [
+        "Российские",
+        "XX–XXI вв."
+      ],
+      "suggestedFix": "Avoid mixing nationality and period labels, or use only chronological groups."
+    },
+    {
+      "puzzleId": "ru-0302",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Зебровая» is not a filter-feeding shark. «Молот-акула», «Голубая акула» and «Мако» are not small species in an ordinary sense; mako and hammerhead can be large active predators.",
+      "items": [
+        "Зебровая",
+        "Молот-акула",
+        "Голубая акула",
+        "Мако"
+      ],
+      "groups": [
+        "Фильтраторы",
+        "Небольшие виды"
+      ],
+      "suggestedFix": "Use true filter feeders only, and replace the small-species group with genuinely small sharks such as «Катран» or «Кошачья акула»."
+    },
+    {
+      "puzzleId": "ru-0302",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "«Гоблин-акула» and «Акула-домовой» are two Russian names for the same shark, creating a duplicate item in one group.",
+      "items": [
+        "Гоблин-акула",
+        "Акула-домовой"
+      ],
+      "groups": [
+        "Глубоководные"
+      ],
+      "suggestedFix": "Keep one name and replace the other with a different deep-sea shark."
+    },
+    {
+      "puzzleId": "ru-0302",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "The shark categories mix diet, habitat and size. A shark can be both deepwater and small, or large and predatory, so the groups are not semantically exclusive.",
+      "items": [
+        "Кошачья акула",
+        "Семижаберная",
+        "Мако"
+      ],
+      "groups": [
+        "Крупные хищники",
+        "Глубоководные",
+        "Небольшие виды"
+      ],
+      "suggestedFix": "Use one axis, such as feeding type or family, and keep all items distinct."
+    },
+    {
+      "puzzleId": "ru-0304",
+      "type": "REDUNDANT_ITEMS",
+      "severity": "high",
+      "explanation": "«Ехидна» and «Обыкновенная ехидна» are not cleanly distinct for an easy grouping puzzle; one is the generic name and the other is a species within it.",
+      "items": [
+        "Ехидна",
+        "Обыкновенная ехидна"
+      ],
+      "groups": [
+        "Однопроходные"
+      ],
+      "suggestedFix": "Use one echidna item and replace the duplicate with another monotreme only if the distinction is intended and clear."
+    },
+    {
+      "puzzleId": "ru-0304",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "«Проехидна» is obscure for easy tier, and the monotreme category relies on fine biological distinctions rather than everyday animal knowledge.",
+      "items": [
+        "Проехидна"
+      ],
+      "groups": [
+        "Однопроходные"
+      ],
+      "suggestedFix": "Raise the difficulty or replace the category with a more familiar Australian animal group."
+    },
+    {
+      "puzzleId": "ru-0304",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Крокодил» is too broad and not specifically Australian; «Тасманская змея» is not a common everyday animal name for Russian solvers.",
+      "items": [
+        "Крокодил",
+        "Тасманская змея"
+      ],
+      "groups": [
+        "Рептилии"
+      ],
+      "suggestedFix": "Use clearer Australian reptiles such as «Гребнистый крокодил», «Тайпан», «Варан», «Плащеносная ящерица»."
+    },
+    {
+      "puzzleId": "ru-0305",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Со скакалкой» overlaps with outdoor children's games, since these are commonly played outside. The axis is activity/equipment rather than setting.",
+      "items": [
+        "Прыжки через скакалку",
+        "Резиночки",
+        "Скип-ит",
+        "Двойная"
+      ],
+      "groups": [
+        "На улице",
+        "Со скакалкой"
+      ],
+      "suggestedFix": "Use all equipment/mechanics labels or all setting labels."
+    },
+    {
+      "puzzleId": "ru-0307",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The title «Романтические жанры» does not match the content: most groups are broad fiction genres unrelated to romance. «Поджанры романа» also overlaps with «Исторический роман» and potentially genre labels like detective/fantasy when used in novels.",
+      "items": [
+        "Исторический роман",
+        "Приключения",
+        "Семейная сага"
+      ],
+      "groups": [
+        "Поджанры романа",
+        "Ужасы",
+        "Детектив",
+        "Фантастика"
+      ],
+      "suggestedFix": "Retitle to «Литературные жанры» or make all categories romance-related subgenres."
+    },
+    {
+      "puzzleId": "ru-0307",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Items such as «Психол. триллер», «Твёрдая НФ», «Космоопера» and «Постапокалипсис» are genre-subculture terms rather than easy-tier everyday categories.",
+      "items": [
+        "Психол. триллер",
+        "Твёрдая НФ",
+        "Космоопера",
+        "Постапокалипсис"
+      ],
+      "groups": [
+        "Ужасы",
+        "Фантастика"
+      ],
+      "suggestedFix": "Raise the tier or simplify the genre set."
+    },
+    {
+      "puzzleId": "ru-0309",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Тётя» and «Дядя» are senior relatives, while «Племянник» and «Племянница» are not tёti/dyadi; the label «Тёти и дяди» does not describe all four items.",
+      "items": [
+        "Племянник",
+        "Племянница"
+      ],
+      "groups": [
+        "Тёти и дяди"
+      ],
+      "suggestedFix": "Rename the group to «Боковые родственники» or replace nephews/nieces with «Двоюродный брат» and «Двоюродная сестра» if intended."
+    },
+    {
+      "puzzleId": "ru-0310",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "«Бобовые злаки» is factually wrong: lentil, chickpea, mung bean and soy are legumes, not cereals/grains in the botanical sense. The title says food products - cereals.",
+      "items": [
+        "Чечевица",
+        "Нут",
+        "Маш",
+        "Соя"
+      ],
+      "groups": [
+        "Бобовые злаки"
+      ],
+      "suggestedFix": "Rename the group to «Бобовые» and change the puzzle title, or replace with actual cereal grains."
+    },
+    {
+      "puzzleId": "ru-0310",
+      "type": "OBSCURE",
+      "severity": "medium",
+      "explanation": "«Дагусса» is obscure for an easy-tier Russian puzzle.",
+      "items": [
+        "Дагусса"
+      ],
+      "groups": [
+        "Рис и просо"
+      ],
+      "suggestedFix": "Replace with a more familiar grain such as «Овёс», «Кукуруза» or «Гречиха» depending on the category design."
+    },
+    {
+      "puzzleId": "ru-0312",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "«ЦСКА» appears as both a football team and a hockey team identity, with only the hockey item disambiguated as «ЦСКА хоккей». «Динамо» is also ambiguous across multiple sports and cities.",
+      "items": [
+        "ЦСКА",
+        "ЦСКА хоккей",
+        "Динамо"
+      ],
+      "groups": [
+        "Российский футбол",
+        "Хоккей"
+      ],
+      "suggestedFix": "Use fully disambiguated club names for every sports team, e.g. «ЦСКА Москва (футбол)» and «Динамо Москва (хоккей)», or avoid repeated club brands."
+    },
+    {
+      "puzzleId": "ru-0313",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "«Групповые» overlaps with cardio, strength and flexibility because yoga, Pilates, aerobics, step aerobics and body-pump can all be group classes. The labels mix training goal and class format.",
+      "items": [
+        "Аэробика",
+        "Йога",
+        "Пилатес",
+        "Боди-памп",
+        "Степ-аэробика"
+      ],
+      "groups": [
+        "Кардио",
+        "Гибкость",
+        "Групповые"
+      ],
+      "suggestedFix": "Use one axis: either training goals or class formats, not both."
+    },
+    {
+      "puzzleId": "ru-0313",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Кроссфит» often combines strength and cardio conditioning, so it is not exclusively a strength workout.",
+      "items": [
+        "Кроссфит"
+      ],
+      "groups": [
+        "Силовые",
+        "Кардио"
+      ],
+      "suggestedFix": "Replace with a clearer strength modality such as «Тяжёлая атлетика»."
+    },
+    {
+      "puzzleId": "ru-0315",
+      "type": "WRONG_TIER",
+      "severity": "high",
+      "explanation": "This puzzle is far too specialized for easy tier. Items such as «Хримтурс», «Бергрисир», «Нидавеллир», «Нидхёгг», «Хульдры» and «Дис» require niche Norse mythology knowledge.",
+      "items": [
+        "Хримтурс",
+        "Бергрисир",
+        "Нидавеллир",
+        "Нидхёгг",
+        "Хульдры",
+        "Дис"
+      ],
+      "groups": [
+        "Великаны",
+        "Дварфы и альвы",
+        "Чудовища",
+        "Духи"
+      ],
+      "suggestedFix": "Raise the difficulty substantially or use only widely known figures like «Один», «Тор», «Локи», «Фрейя»."
+    },
+    {
+      "puzzleId": "ru-0315",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "«Нидавеллир» is a realm/place associated with dwarfs, not a dwarf or elf creature. «Хель» is a being/goddess as well as a realm and does not fit neatly as a monster.",
+      "items": [
+        "Нидавеллир",
+        "Хель"
+      ],
+      "groups": [
+        "Дварфы и альвы",
+        "Чудовища"
+      ],
+      "suggestedFix": "Replace place names and ambiguous deities with clear creature names."
+    },
+    {
+      "puzzleId": "ru-0317",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "«Покер», «Бридж» and «Дурак» are games, not types of card decks. As item labels they point to games played with cards, while «Таро» points to a deck/system, making the group internally inconsistent.",
+      "items": [
+        "Покер",
+        "Таро",
+        "Бридж",
+        "Дурак"
+      ],
+      "groups": [
+        "Игровые карты"
+      ],
+      "suggestedFix": "Rename to «Карточные игры» and replace «Таро», or use deck types such as «Покерная колода», «Таро», «Испанская колода», «Скат»."
+    }
+  ]
+}

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Города-герои и исторические места ВОВ",
     "batch": "ru-batch-21",
-    "difficultyScore": 51
+    "difficultyScore": 51,
+    "editorialRank": 56,
+    "gptDifficulty": 59,
+    "gptRationale": "Военная история знакома многим, но набор смешивает статусы городов, события и места обороны, что усложняет сортировку."
   },
   "groups": [
     {

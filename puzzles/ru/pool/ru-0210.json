@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Офис и работа",
     "batch": "ru-batch-07",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 23,
+    "gptDifficulty": 13,
+    "gptRationale": "Офисные предметы, должности и базовые HR-термины очень узнаваемы для современного игрока, так что это один из самых лёгких наборов."
   },
   "groups": [
     {

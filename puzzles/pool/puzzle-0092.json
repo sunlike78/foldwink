@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 62,
+    "gptDifficulty": 82,
+    "gptRationale": "Literary-period abstraction and theory-heavy vocabulary make this notably hard unless the player already knows the historical schools."
   }
 }

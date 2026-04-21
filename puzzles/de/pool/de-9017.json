@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Laster via idiomatische Bilder",
     "batch": "de-batch-11",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 31,
+    "gptDifficulty": 29,
+    "gptRationale": "Die Laster sind als Grundkategorien sehr vertraut und die Beispiele sprechen meist eindeutig für eine einzige Zuordnung."
   },
   "groups": [
     {

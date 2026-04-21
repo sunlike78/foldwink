@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 58,
+    "gptDifficulty": 52,
+    "gptRationale": "Jazz style labels are related and overlapping enough that even informed players may second-guess era versus regional substyle groupings."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "thematic",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 55,
+    "gptDifficulty": 65,
+    "gptRationale": "Green spans ecology, envy, inexperience, and money, and the last two categories especially rely on idiomatic understanding."
   },
   "groups": [
     {

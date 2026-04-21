@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Zimmer im Haus",
     "batch": "de-batch-01",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 29,
+    "gptDifficulty": 27,
+    "gptRationale": "Zimmer und Hausbereiche sind leicht verständlich, aber Außenbereiche wie Garage oder Garten stehen etwas lockerer neben den eigentlichen Räumen."
   },
   "groups": [
     {

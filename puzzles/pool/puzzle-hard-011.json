@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 48,
+    "gptDifficulty": 62,
+    "gptRationale": "Power across physics, politics, math, and mechanics is conceptually neat, but several terms are technical enough to keep the set above average in difficulty."
   },
   "groups": [
     {

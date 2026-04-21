@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 56,
+    "gptDifficulty": 70,
+    "gptRationale": "Instrument families are understandable, but distinguishing struck from keyboard-plucked demands more music-history knowledge than average."
   },
   "groups": [
     {

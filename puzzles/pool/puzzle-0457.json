@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 44,
+    "gptDifficulty": 61,
+    "gptRationale": "Bread-making stages are conceptually close to one another, so even common words become tricky when players must sort by process step."
   },
   "groups": [
     {

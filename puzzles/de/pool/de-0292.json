@@ -5,7 +5,10 @@
   "meta": {
     "theme": "sozialleistungen",
     "batch": "de-batch-03",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 48,
+    "gptDifficulty": 52,
+    "gptRationale": "Sozialrechtliche Begriffe und Behörden sind zwar bekannt genug, aber als bürokratisches Vokabular deutlich trockener und abstrakter als der Schnitt."
   },
   "groups": [
     {

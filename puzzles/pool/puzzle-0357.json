@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-10",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 40,
+    "gptDifficulty": 46,
+    "gptRationale": "Most shapes are standard school math vocabulary, with only the Platonic-solid group pushing it slightly above mid-tier ease."
   },
   "groups": [
     {

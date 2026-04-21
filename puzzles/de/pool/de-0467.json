@@ -5,7 +5,10 @@
   "meta": {
     "theme": "medizin",
     "batch": "de-batch-05",
-    "difficultyScore": 37
+    "difficultyScore": 37,
+    "editorialRank": 38,
+    "gptDifficulty": 38,
+    "gptRationale": "Die Kategorien sind inhaltlich klar aufgebaut, und selbst ohne Zustimmung zum Thema lassen sich Methoden, Mittel, Prinzipien und Kritik gut trennen."
   },
   "groups": [
     {

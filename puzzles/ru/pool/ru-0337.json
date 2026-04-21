@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Соусы мировой кухни",
     "batch": "ru-batch-13",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 25,
+    "gptDifficulty": 31,
+    "gptRationale": "Соусы в основном широко известны, а группы достаточно кулинарно естественные и без сильной двусмысленности."
   },
   "groups": [
     {

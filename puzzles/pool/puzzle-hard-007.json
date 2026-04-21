@@ -9,7 +9,10 @@
     "fairnessRisk": 1,
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 42,
+    "gptDifficulty": 49,
+    "gptRationale": "The repeated 'field' sense works well, but several terms are domain-generic enough to cause moderate ambiguity before the themes crystallize."
   },
   "groups": [
     {

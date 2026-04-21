@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Labor",
     "batch": "de-batch-04",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 26,
+    "gptDifficulty": 18,
+    "gptRationale": "Laborgeräte und Sicherheitsausrüstung sind stark gegenständlich und bilden sehr offensichtliche Kategorien ohne nennenswerte Irreführung."
   },
   "groups": [
     {

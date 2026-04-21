@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 15
+    "difficultyScore": 15,
+    "editorialRank": 20,
+    "gptDifficulty": 23,
+    "gptRationale": "Movement and action synonyms are mostly common, with just enough semantic closeness between run, walk, and escape to slow things slightly."
   }
 }

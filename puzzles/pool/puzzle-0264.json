@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 48
+    "difficultyScore": 48,
+    "editorialRank": 49,
+    "gptDifficulty": 50,
+    "gptRationale": "Trade-specific toolkits are cleanly themed but ask for specialized equipment knowledge across multiple professions."
   },
   "groups": [
     {

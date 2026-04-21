@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Wissenschaft",
     "batch": "de-batch-02",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 37,
+    "gptDifficulty": 51,
+    "gptRationale": "Astronomie kombiniert sehr bekannte Planeten mit speziellerem Vokabular zu Sterntypen und Raumfahrtmissionen."
   },
   "groups": [
     {

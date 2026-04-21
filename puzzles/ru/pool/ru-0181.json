@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Театральные профессии",
     "batch": "ru-batch-06",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 47,
+    "gptDifficulty": 56,
+    "gptRationale": "Театральные профессии понятны не всем, а различение сценических, административных и музыкальных ролей требует профильной лексики."
   },
   "groups": [
     {

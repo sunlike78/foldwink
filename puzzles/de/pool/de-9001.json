@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Trauer durch Gesten und Symbole",
     "batch": "de-batch-11",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 38,
+    "gptDifficulty": 36,
+    "gptRationale": "Die vier Gefühlsfelder sind klar, doch einige bildhafte Handlungen könnten emotional mehrdeutig gelesen werden und erzeugen kleine false trails."
   },
   "groups": [
     {

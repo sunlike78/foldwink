@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Великие режиссёры мирового кино",
     "batch": "ru-batch-13",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 50,
+    "gptDifficulty": 68,
+    "gptRationale": "Нужно уверенно знать мировых режиссёров по регионам, а часть азиатских и российских фамилий для среднего игрока уже не совсем массовая."
   },
   "groups": [
     {

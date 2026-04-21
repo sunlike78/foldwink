@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Filmfestivals",
     "batch": "de-batch-04",
-    "difficultyScore": 47
+    "difficultyScore": 47,
+    "editorialRank": 38,
+    "gptDifficulty": 32,
+    "gptRationale": "Festivalbegriffe sind markant gebrandet und trotz etwas Fachnähe recht leicht nach Veranstaltung zu bündeln."
   },
   "groups": [
     {

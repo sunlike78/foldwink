@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Комнаты в доме",
     "batch": "ru-batch-01",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 27,
+    "gptDifficulty": 21,
+    "gptRationale": "Rooms in a home are easy to picture and the functional categories are cleanly separated."
   },
   "groups": [
     {

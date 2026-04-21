@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Планеты в мифологии и литературе",
     "batch": "ru-batch-11",
-    "difficultyScore": 65
+    "difficultyScore": 65,
+    "editorialRank": 70,
+    "gptDifficulty": 74,
+    "gptRationale": "This puzzle mixes astronomy, mythology, science-fiction worlds, and symbol notation, creating the strongest abstraction and cross-domain load here."
   },
   "groups": [
     {

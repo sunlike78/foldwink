@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Легендарные корабли в истории",
     "batch": "ru-batch-20",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 42,
+    "gptDifficulty": 56,
+    "gptRationale": "Часть кораблей всем известна, но исторические и военные названия требуют более широкой культурной эрудиции."
   },
   "groups": [
     {

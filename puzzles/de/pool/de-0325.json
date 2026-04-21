@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kirche Begriffe",
     "batch": "de-batch-04",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 50,
+    "gptDifficulty": 61,
+    "gptRationale": "Konfessionelle Spezialbegriffe verlangen präzises Religionswissen, besonders bei orthodoxen und evangelischen Unterscheidungen."
   },
   "groups": [
     {

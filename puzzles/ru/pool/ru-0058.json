@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Музыкальные жанры",
     "batch": "ru-batch-01",
-    "difficultyScore": 17
+    "difficultyScore": 17,
+    "editorialRank": 40,
+    "gptDifficulty": 55,
+    "gptRationale": "Music genres depend on pop-culture familiarity, and several labels have fuzzy stylistic boundaries."
   },
   "groups": [
     {

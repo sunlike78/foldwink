@@ -5,7 +5,10 @@
   "meta": {
     "theme": "abkürzungen",
     "batch": "de-batch-05",
-    "difficultyScore": 8
+    "difficultyScore": 8,
+    "editorialRank": 40,
+    "gptDifficulty": 62,
+    "gptRationale": "Abkürzungen aus Verwaltung, Recht und Alltag erzeugen starke Musterähnlichkeit und setzen teils spezifisches Deutschlandwissen voraus."
   },
   "groups": [
     {

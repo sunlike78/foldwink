@@ -5,7 +5,10 @@
   "meta": {
     "theme": "bundeskanzler",
     "batch": "de-batch-03",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 30,
+    "gptDifficulty": 32,
+    "gptRationale": "Bundeskanzler und ihre Epochenmarker sind sehr geläufig und die Parteiblocks geben zusätzliche Strukturhilfe."
   },
   "groups": [
     {

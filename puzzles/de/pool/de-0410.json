@@ -5,7 +5,10 @@
   "meta": {
     "theme": "literatur",
     "batch": "de-batch-05",
-    "difficultyScore": 54
+    "difficultyScore": 54,
+    "editorialRank": 58,
+    "gptDifficulty": 60,
+    "gptRationale": "Literaturepochen sind schulisch bekannt, aber Grenzfiguren wie Goethe und Schiller in verschiedenen Phasen machen die Sortierung deutlich trickreicher."
   },
   "groups": [
     {

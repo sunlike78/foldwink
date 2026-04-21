@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Разделы науки",
     "batch": "ru-batch-05",
-    "difficultyScore": 65
+    "difficultyScore": 65,
+    "editorialRank": 39,
+    "gptDifficulty": 21,
+    "gptRationale": "Это школьно-учебные категории с очень ясными границами, поэтому решение обычно идёт быстро."
   },
   "groups": [
     {

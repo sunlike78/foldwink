@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Design",
     "batch": "de-batch-04",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 17,
+    "gptDifficulty": 14,
+    "gptRationale": "Designbegriffe sind heute sehr verbreitet und die vier Teilbereiche sind begrifflich besonders klar abgegrenzt."
   },
   "groups": [
     {

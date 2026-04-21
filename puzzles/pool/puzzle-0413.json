@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 35,
+    "gptDifficulty": 38,
+    "gptRationale": "Sports equipment is tangible and mostly obvious from common sports knowledge, with only a few specialist accessory terms."
   },
   "groups": [
     {

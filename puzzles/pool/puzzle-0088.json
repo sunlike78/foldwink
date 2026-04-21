@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 40,
+    "gptDifficulty": 52,
+    "gptRationale": "Media-domain categories are familiar, but overlap between traditional broadcast and digital publishing terms makes sorting less automatic."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Музыкальные инструменты по группам",
     "batch": "ru-batch-09",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 26,
+    "gptDifficulty": 33,
+    "gptRationale": "Instrument families are standard educational material, and most terms are recognizable despite a few orchestral specifics."
   },
   "groups": [
     {

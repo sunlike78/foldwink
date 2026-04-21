@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-08",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 35,
+    "gptDifficulty": 37,
+    "gptRationale": "Body-system groupings are standard educational material, though organs like pancreas and diaphragm can tempt cross-system mistakes."
   },
   "groups": [
     {

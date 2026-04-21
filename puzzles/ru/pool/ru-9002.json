@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Гастрономия — методы и традиции",
     "batch": "ru-batch-16",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 54,
+    "gptDifficulty": 62,
+    "gptRationale": "Советская кухня культурно узнаваема, но группы здесь не всегда чисто кулинарные и включают спорные или региональные элементы."
   },
   "groups": [
     {

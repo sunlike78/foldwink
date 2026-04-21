@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 45,
+    "gptDifficulty": 47,
+    "gptRationale": "Gebirge der Welt sind thematisch klar, aber einige weniger geläufige Namen wie Rwenzori oder Tianshan heben die Schwierigkeit etwas an."
   },
   "groups": [
     {

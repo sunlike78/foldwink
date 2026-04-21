@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 19,
+    "gptDifficulty": 21,
+    "gptRationale": "Modern tech-stack categories are widely familiar to the target audience and the item types are sharply separated."
   },
   "groups": [
     {

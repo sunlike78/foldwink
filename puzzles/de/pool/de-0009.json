@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Möbel",
     "batch": "de-batch-01",
-    "difficultyScore": 49
+    "difficultyScore": 49,
+    "editorialRank": 29,
+    "gptDifficulty": 16,
+    "gptRationale": "Möbel und Zimmerzuordnung sind extrem alltagsnah und fast alle Begriffe wirken sofort eindeutig."
   },
   "groups": [
     {

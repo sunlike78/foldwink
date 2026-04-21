@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 33,
+    "gptDifficulty": 33,
+    "gptRationale": "The point meanings are common and sharply differentiated, keeping the puzzle on the easier side of the tier."
   },
   "groups": [
     {

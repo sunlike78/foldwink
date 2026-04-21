@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sport",
     "batch": "de-batch-02",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 46,
+    "gptDifficulty": 64,
+    "gptRationale": "Klettersport mischt alltagsfernere Fachwörter wie Crux und regionale Gebiete mit Ausrüstung, was die Gruppen trotz klarem Thema merklich spezialisierter macht."
   },
   "groups": [
     {

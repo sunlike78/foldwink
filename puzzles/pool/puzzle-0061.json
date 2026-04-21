@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 46,
+    "gptDifficulty": 63,
+    "gptRationale": "This hinges on spotting four different prefix-compound patterns, with several fragments feeling plausible in more than one slot."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Детские игры и развлечения",
     "batch": "ru-batch-07",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 29,
+    "gptDifficulty": 34,
+    "gptRationale": "Most groups are familiar, yet specifically Soviet-era playground games create some generational and cultural friction."
   },
   "groups": [
     {

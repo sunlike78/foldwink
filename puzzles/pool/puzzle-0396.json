@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-11",
     "status": "approved",
-    "difficultyScore": 66
+    "difficultyScore": 66,
+    "editorialRank": 66,
+    "gptDifficulty": 66,
+    "gptRationale": "Chess-opening families require specialized opening knowledge, and several names are familiar enough to mislead without deeper understanding."
   },
   "groups": [
     {

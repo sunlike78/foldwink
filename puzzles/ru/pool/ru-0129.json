@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Морской транспорт",
     "batch": "ru-batch-03",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 39,
+    "gptDifficulty": 49,
+    "gptRationale": "Морские термины достаточно школьные, но навигационные приборы и некоторые профессии уже лежат чуть дальше повседневной лексики."
   },
   "groups": [
     {

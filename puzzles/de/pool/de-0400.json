@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Evolution",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 37,
+    "gptDifficulty": 43,
+    "gptRationale": "Evolution ist als Thema bekannt, doch Fehlkonzepte und Belegarten erzeugen ein paar subtile thematische Überschneidungen."
   },
   "groups": [
     {

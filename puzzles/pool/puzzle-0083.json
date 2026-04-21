@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 57,
+    "gptDifficulty": 75,
+    "gptRationale": "Dance styles are concrete but culturally and technically specific, with multiple subfamilies that can easily blur together."
   }
 }

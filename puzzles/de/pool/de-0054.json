@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Deutsche Autohersteller",
     "batch": "de-batch-02",
-    "difficultyScore": 8
+    "difficultyScore": 8,
+    "editorialRank": 24,
+    "gptDifficulty": 35,
+    "gptRationale": "Automarken und Modellreihen sind für viele gut erkennbar, aber ohne Autoaffinität können die Kürzel und Klassen schnell verschwimmen."
   },
   "groups": [
     {

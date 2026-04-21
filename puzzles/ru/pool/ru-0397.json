@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Города и регионы Сибири",
     "batch": "ru-batch-16",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 42,
+    "gptDifficulty": 48,
+    "gptRationale": "Города Сибири узнаваемы не все, а четвёртая группа про природу вообще меняет тип объектов и создаёт дополнительный ложный след."
   },
   "groups": [
     {

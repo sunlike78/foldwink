@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Musikformen",
     "batch": "de-batch-04",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 31,
+    "gptDifficulty": 30,
+    "gptRationale": "Musikformen und ihre Merkmale sind klassisches Grundwissen mit relativ klaren Signalen pro Gattung."
   },
   "groups": [
     {

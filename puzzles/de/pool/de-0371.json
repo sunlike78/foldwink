@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Recht",
     "batch": "de-batch-04",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 46,
+    "gptDifficulty": 55,
+    "gptRationale": "Die Rechtsgebiete sind logisch getrennt, aber viele Begriffe sind abstrakt und ohne juristisches Raster leicht zu vermischen."
   },
   "groups": [
     {

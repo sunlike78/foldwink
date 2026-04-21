@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Планеты и объекты солнечной системы",
     "batch": "ru-batch-08",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 18,
+    "gptDifficulty": 18,
+    "gptRationale": "Solar-system categories are among the most standard educational groupings, with minimal room for confusion."
   },
   "groups": [
     {

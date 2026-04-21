@@ -5,7 +5,10 @@
   "meta": {
     "theme": "musikfestivals",
     "batch": "de-batch-03",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 46,
+    "gptDifficulty": 57,
+    "gptRationale": "Festivalnamen sind teils bekannt, aber die feinen Zuordnungen nach Musiksparten sind nicht immer offensichtlich."
   },
   "groups": [
     {

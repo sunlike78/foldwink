@@ -5,7 +5,10 @@
   "meta": {
     "theme": "management",
     "batch": "de-batch-05",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 28,
+    "gptDifficulty": 28,
+    "gptRationale": "Die Methoden haben sehr markante Buzzwords, sodass sich die vier Cluster für viele Spieler schnell erschließen."
   },
   "groups": [
     {

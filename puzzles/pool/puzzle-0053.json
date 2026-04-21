@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 43,
+    "gptDifficulty": 62,
+    "gptRationale": "Film-production language is moderately specialized, especially crew and script terms that are familiar mainly through media-savvy exposure."
   }
 }

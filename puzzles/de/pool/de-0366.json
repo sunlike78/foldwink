@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Weinbau",
     "batch": "de-batch-04",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 36,
+    "gptDifficulty": 36,
+    "gptRationale": "Weinbegriffe sind thematisch sauber trennbar, aber Rebsorten- und Verkostungsvokabular verlangt etwas Vorwissen."
   },
   "groups": [
     {

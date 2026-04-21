@@ -8,7 +8,10 @@
     "categoryType": "attribute",
     "batch": "batch-07",
     "status": "approved",
-    "difficultyScore": 50
+    "difficultyScore": 50,
+    "editorialRank": 66,
+    "gptDifficulty": 76,
+    "gptRationale": "Flag-design grouping demands precise vexillology knowledge, and several countries could plausibly fit multiple visual themes to a casual player."
   },
   "groups": [
     {

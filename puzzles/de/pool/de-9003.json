@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Historische Epochen via Artefakte",
     "batch": "de-batch-11",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 49,
+    "gptDifficulty": 59,
+    "gptRationale": "Historische Epochen sind gut trennbar, aber mehrere Marker setzen schulisches Detailwissen voraus und sind nicht alle sofort wiedererkennbar."
   },
   "groups": [
     {

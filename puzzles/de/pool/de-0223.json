@@ -5,7 +5,10 @@
   "meta": {
     "theme": "fabelwesen",
     "batch": "de-batch-03",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 39,
+    "gptDifficulty": 51,
+    "gptRationale": "Fabelwesen bleiben anschaulich, doch Unterarten wie Alicorn, Kirin oder Jötunn sind schon deutlich spezieller als Standard-Fantasyvokabular."
   },
   "groups": [
     {

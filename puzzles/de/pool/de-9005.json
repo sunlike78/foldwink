@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Gastronomie-Techniken DACH",
     "batch": "de-batch-11",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 39,
+    "gptDifficulty": 42,
+    "gptRationale": "Die Methoden sind greifbar, aber einzelne Beispiele wie gereifte oder angesetzte Produkte können zwischen mehreren Konservierungs- und Garmethoden schwanken."
   },
   "groups": [
     {

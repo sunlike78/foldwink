@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 24,
+    "gptDifficulty": 28,
+    "gptRationale": "The categories are clean, yet some subtype labels like cuff, choker, and chandelier earrings are a little more specialized."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Обувь",
     "batch": "ru-batch-01",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 32,
+    "gptDifficulty": 35,
+    "gptRationale": "Shoe types are familiar, but fashion terminology and some cross-season usage raise the complexity a bit."
   },
   "groups": [
     {

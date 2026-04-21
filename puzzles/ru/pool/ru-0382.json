@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды мяса и мясные продукты",
     "batch": "ru-batch-16",
-    "difficultyScore": 14
+    "difficultyScore": 14,
+    "editorialRank": 22,
+    "gptDifficulty": 27,
+    "gptRationale": "Категории мяса очень прямые и знакомые по повседневной еде, а слова почти не создают серьёзных ложных следов."
   },
   "groups": [
     {

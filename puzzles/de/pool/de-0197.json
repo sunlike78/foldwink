@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geografie",
     "batch": "de-batch-02",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 32,
+    "gptDifficulty": 33,
+    "gptRationale": "Geografie Deutschlands setzt auf sehr bekannte Superlative und Regionen, wodurch die Kategorien meist schnell erkennbar sind."
   },
   "groups": [
     {

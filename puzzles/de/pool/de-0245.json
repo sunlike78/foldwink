@@ -5,7 +5,10 @@
   "meta": {
     "theme": "rockbands",
     "batch": "de-batch-03",
-    "difficultyScore": 29
+    "difficultyScore": 29,
+    "editorialRank": 30,
+    "gptDifficulty": 31,
+    "gptRationale": "Die Epochenblöcke deutscher Rockbands sind klar und mit breit bekannten Namen gefüllt, trotz kleiner Genreunschärfen."
   },
   "groups": [
     {

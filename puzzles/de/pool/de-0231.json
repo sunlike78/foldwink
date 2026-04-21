@@ -5,7 +5,10 @@
   "meta": {
     "theme": "lesen-schreiben",
     "batch": "de-batch-03",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 46,
+    "gptDifficulty": 61,
+    "gptRationale": "Lesen und Schreiben wirkt alltäglich, aber Buchformate, Schriften und Fachbegriffe wie Kolophon oder Oktav sind deutlich bildungsnäher."
   },
   "groups": [
     {

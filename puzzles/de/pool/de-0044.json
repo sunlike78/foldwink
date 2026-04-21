@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Theater",
     "batch": "de-batch-02",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 45,
+    "gptDifficulty": 63,
+    "gptRationale": "Theaterbegriffe sind merklich abstrakter als Alltagskategorien und enthalten mit Katharsis, Rezitativ oder Libretto mehrere bildungsnahe Fachwörter."
   },
   "groups": [
     {

@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 10
+    "difficultyScore": 10,
+    "editorialRank": 41,
+    "gptDifficulty": 61,
+    "gptRationale": "Film-production terminology is coherent but somewhat specialized, and multiple terms could plausibly belong to adjacent production stages."
   }
 }

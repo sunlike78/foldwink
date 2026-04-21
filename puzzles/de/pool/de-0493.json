@@ -5,7 +5,10 @@
   "meta": {
     "theme": "astronomie",
     "batch": "de-batch-05",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 57,
+    "gptDifficulty": 69,
+    "gptRationale": "Exoplaneten bündelt viele spezialisierte astronomische Begriffe, bei denen Typen, Methoden und Messgrößen leicht ineinanderlaufen."
   },
   "groups": [
     {

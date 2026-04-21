@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 49,
+    "gptDifficulty": 56,
+    "gptRationale": "Script families are intellectually neat but require classification knowledge beyond everyday familiarity, especially for abjad versus syllabic distinctions."
   },
   "groups": [
     {

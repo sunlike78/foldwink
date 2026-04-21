@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Коренные народы Северной и Южной Америки",
     "batch": "ru-batch-21",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 42,
+    "gptDifficulty": 53,
+    "gptRationale": "Крупные народы Америки известны, однако культурные объекты и цивилизации разных эпох могут давать неверные ассоциации."
   },
   "groups": [
     {

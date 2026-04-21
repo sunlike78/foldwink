@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Страны Азии",
     "batch": "ru-batch-07",
-    "difficultyScore": 36
+    "difficultyScore": 36,
+    "editorialRank": 24,
+    "gptDifficulty": 16,
+    "gptRationale": "Страны Азии распределены по стандартным географическим регионам, которые обычно хорошо знакомы по школе."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Geschichte",
     "batch": "de-batch-02",
-    "difficultyScore": 39
+    "difficultyScore": 39,
+    "editorialRank": 43,
+    "gptDifficulty": 46,
+    "gptRationale": "Der große historische Überblick ist in der Schule präsent, aber mehrere Epochenmarker konkurrieren und erfordern zeitliche Sortiersicherheit."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "raumfahrt",
     "batch": "de-batch-05",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 41,
+    "gptDifficulty": 50,
+    "gptRationale": "Marswissen ist populär, aber Personen, Missionen, Probleme und Lösungsansätze fordern dennoch breiteres Raumfahrtwissen."
   },
   "groups": [
     {

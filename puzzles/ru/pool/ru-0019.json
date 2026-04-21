@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Рыбы рек и озёр",
     "batch": "ru-batch-01",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 51,
+    "gptDifficulty": 67,
+    "gptRationale": "Fish families and habitat labels are much less everyday knowledge, so a typical player may rely on weak guesses."
   },
   "groups": [
     {

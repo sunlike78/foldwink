@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-02",
     "status": "approved",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 31,
+    "gptDifficulty": 43,
+    "gptRationale": "Currency groups are straightforward, though some terms are shared across multiple countries and historical money adds a small twist."
   },
   "groups": [
     {

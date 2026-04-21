@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Kultur",
     "batch": "de-batch-02",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 45,
+    "gptDifficulty": 49,
+    "gptRationale": "Weltwunder sind populär, doch die Mischung aus antiken, neuen, Natur- und modernen Wundern schafft mehrere konkurrierende Ordnungsmuster."
   },
   "groups": [
     {

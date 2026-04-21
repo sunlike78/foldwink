@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды хирургических операций",
     "batch": "ru-batch-20",
-    "difficultyScore": 46
+    "difficultyScore": 46,
+    "editorialRank": 63,
+    "gptDifficulty": 74,
+    "gptRationale": "Хирургические операции звучат специализированно, а многие термины понятны лишь тем, кто знаком с медициной."
   },
   "groups": [
     {

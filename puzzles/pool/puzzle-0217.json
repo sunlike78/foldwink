@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 30
+    "difficultyScore": 30,
+    "editorialRank": 28,
+    "gptDifficulty": 27,
+    "gptRationale": "Most terms are familiar, but mixing specialists, anatomy, senses, and exam-room items creates a bit more scanning friction."
   },
   "groups": [
     {

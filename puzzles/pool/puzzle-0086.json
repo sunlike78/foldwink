@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 16
+    "difficultyScore": 16,
+    "editorialRank": 37,
+    "gptDifficulty": 51,
+    "gptRationale": "This stays grounded in food, but greens, sprouts, herbs, and cabbage-family items are close enough to create steady classification pressure."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Налоговая система",
     "batch": "ru-batch-14",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 48,
+    "gptDifficulty": 58,
+    "gptRationale": "Российская налоговая терминология специфична, а режимы, налоги и органы легко смешиваются без профильного опыта."
   },
   "groups": [
     {

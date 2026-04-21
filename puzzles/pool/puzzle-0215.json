@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-04",
     "status": "approved",
-    "difficultyScore": 28
+    "difficultyScore": 28,
+    "editorialRank": 21,
+    "gptDifficulty": 16,
+    "gptRationale": "Kitchen items are common and concrete, though cookware versus ovenware asks for a small amount of functional sorting."
   },
   "groups": [
     {

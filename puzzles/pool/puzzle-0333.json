@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 24
+    "difficultyScore": 24,
+    "editorialRank": 44,
+    "gptDifficulty": 58,
+    "gptRationale": "Many languages are familiar, but assigning them to families rather than regions requires some linguistic knowledge."
   },
   "groups": [
     {

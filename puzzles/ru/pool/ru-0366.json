@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Стили интерьерного дизайна",
     "batch": "ru-batch-15",
-    "difficultyScore": 38
+    "difficultyScore": 38,
+    "editorialRank": 45,
+    "gptDifficulty": 49,
+    "gptRationale": "Названия интерьерных стилей знакомы, но границы между классическими, современными, этническими и люксовыми решениями не всегда жёсткие."
   },
   "groups": [
     {

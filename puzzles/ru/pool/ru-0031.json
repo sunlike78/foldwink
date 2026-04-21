@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Супы русской кухни",
     "batch": "ru-batch-01",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 55,
+    "gptDifficulty": 61,
+    "gptRationale": "Russian soup names and subtype distinctions require food-specific knowledge, especially for less common traditional dishes."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 26
+    "difficultyScore": 26,
+    "editorialRank": 57,
+    "gptDifficulty": 78,
+    "gptRationale": "Egyptian gods are recognizable in broad strokes, but sorting many lesser-known names into precise domains is one of the harder tasks in this tier."
   },
   "groups": [
     {

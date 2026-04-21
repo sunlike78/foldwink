@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Овощи",
     "batch": "ru-batch-01",
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 25,
+    "gptDifficulty": 30,
+    "gptRationale": "Mostly accessible grocery knowledge, but botanical versus culinary vegetable groupings raise the difficulty slightly."
   },
   "groups": [
     {

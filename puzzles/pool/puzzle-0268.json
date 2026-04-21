@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-06",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 31,
+    "gptDifficulty": 31,
+    "gptRationale": "Garden features are visible and tangible, but design-style labels and edging terms add some mild specialty vocabulary."
   },
   "groups": [
     {

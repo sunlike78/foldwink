@@ -50,6 +50,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 35,
+    "gptDifficulty": 41,
+    "gptRationale": "Print-related vocabulary creates strong thematic cohesion, but distinguishing section, type, and format takes an extra pass."
   }
 }

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Виды овощей",
     "batch": "ru-batch-13",
-    "difficultyScore": 21
+    "difficultyScore": 21,
+    "editorialRank": 23,
+    "gptDifficulty": 24,
+    "gptRationale": "Овощные группы очень конкретны и повседневны, а большинство слов легко соотносятся с привычными категориями."
   },
   "groups": [
     {

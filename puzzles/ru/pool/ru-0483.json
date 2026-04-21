@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Типы упаковки и тары",
     "batch": "ru-batch-21",
-    "difficultyScore": 45
+    "difficultyScore": 45,
+    "editorialRank": 31,
+    "gptDifficulty": 21,
+    "gptRationale": "Виды упаковки очень конкретны, а материал почти всегда сразу подсказывает правильную группу."
   },
   "groups": [
     {

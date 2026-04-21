@@ -1,0 +1,1077 @@
+{
+  "lang": "en",
+  "tier": "easy",
+  "batchIndex": 1,
+  "batchTotal": 5,
+  "puzzleIds": [
+    "puzzle-0087",
+    "puzzle-0088",
+    "puzzle-0089",
+    "puzzle-0090",
+    "puzzle-0091",
+    "puzzle-0099",
+    "puzzle-0100",
+    "puzzle-0101",
+    "puzzle-0102",
+    "puzzle-0103",
+    "puzzle-0104",
+    "puzzle-0105",
+    "puzzle-0106",
+    "puzzle-0107",
+    "puzzle-0108",
+    "puzzle-0109",
+    "puzzle-0110",
+    "puzzle-0111",
+    "puzzle-0112",
+    "puzzle-0113",
+    "puzzle-0114",
+    "puzzle-0115",
+    "puzzle-0116",
+    "puzzle-0117",
+    "puzzle-0118",
+    "puzzle-0131",
+    "puzzle-0132",
+    "puzzle-0133",
+    "puzzle-0134",
+    "puzzle-0135",
+    "puzzle-0136",
+    "puzzle-0137",
+    "puzzle-0138",
+    "puzzle-0139",
+    "puzzle-0140",
+    "puzzle-0141",
+    "puzzle-0142",
+    "puzzle-0143",
+    "puzzle-0144",
+    "puzzle-0145",
+    "puzzle-0146",
+    "puzzle-0147",
+    "puzzle-0148",
+    "puzzle-0149",
+    "puzzle-0150",
+    "puzzle-0181",
+    "puzzle-0182",
+    "puzzle-0183",
+    "puzzle-0184",
+    "puzzle-0185",
+    "puzzle-0186",
+    "puzzle-0187",
+    "puzzle-0189",
+    "puzzle-0191",
+    "puzzle-0192",
+    "puzzle-0193",
+    "puzzle-0194",
+    "puzzle-0195",
+    "puzzle-0204",
+    "puzzle-0206"
+  ],
+  "elapsedSec": 138,
+  "findings": [
+    {
+      "puzzleId": "puzzle-0087",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "“Calendar Stone” most commonly refers to the Aztec Sun Stone, not a Mayan artifact, so its placement under Mayan Civilization is misleading.",
+      "items": [
+        "Calendar Stone"
+      ],
+      "groups": [
+        "Mayan Civilization"
+      ],
+      "suggestedFix": "Replace with an unambiguous Mayan item such as Long Count, Codex, Temple, or Chichen Itza."
+    },
+    {
+      "puzzleId": "puzzle-0088",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Podcast” is primarily a digital audio/web medium and could reasonably fit Web Publishing as well as Radio Terms. It weakens the category boundary.",
+      "items": [
+        "Podcast"
+      ],
+      "groups": [
+        "Radio Terms",
+        "Web Publishing"
+      ],
+      "suggestedFix": "Replace Podcast with a clearer radio item such as DJ, Frequency, Antenna, or Call Sign."
+    },
+    {
+      "puzzleId": "puzzle-0089",
+      "type": "OBSCURE",
+      "severity": "low",
+      "explanation": "“Pratt” is a comparatively obscure tie knot for an easy puzzle, especially next to very common accessory categories.",
+      "items": [
+        "Pratt"
+      ],
+      "groups": [
+        "Tie Knots"
+      ],
+      "suggestedFix": "Consider a more recognizable tie-related item, or move this puzzle to a higher difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0091",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The Glassblowing group contains specialist vocabulary that is likely too obscure for easy difficulty.",
+      "items": [
+        "Punty",
+        "Anneal",
+        "Marver"
+      ],
+      "groups": [
+        "Glassblowing"
+      ],
+      "suggestedFix": "Use more everyday craft categories or replace the specialist glassblowing terms with more familiar ones."
+    },
+    {
+      "puzzleId": "puzzle-0102",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Tongs” are kitchen handling/gripping tools, not normally stirring tools. This makes the Stirring Tools group feel inconsistent.",
+      "items": [
+        "Tongs"
+      ],
+      "groups": [
+        "Stirring Tools"
+      ],
+      "suggestedFix": "Replace Tongs with Spoon, Wooden Spoon, or Stirrer."
+    },
+    {
+      "puzzleId": "puzzle-0103",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "The footwear categories are not mutually exclusive. Athletic, formal, casual, and boots describe overlapping use/style domains rather than clean single concepts.",
+      "items": null,
+      "groups": [
+        "Athletic Shoes",
+        "Formal Footwear",
+        "Casual Footwear",
+        "Boots"
+      ],
+      "suggestedFix": "Use narrower non-overlapping categories, such as shoe parts, boot types, sandal types, and formal shoe types, or replace ambiguous items."
+    },
+    {
+      "puzzleId": "puzzle-0103",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Several items can reasonably belong to more than one listed footwear group: sneakers and high-tops can be casual or athletic, loafers and moccasins can be casual or formal, and hiking boots can be athletic/outdoor as well as boots.",
+      "items": [
+        "Sneaker",
+        "High-Top",
+        "Loafer",
+        "Moccasin",
+        "Hiking Boot"
+      ],
+      "groups": [
+        "Athletic Shoes",
+        "Formal Footwear",
+        "Casual Footwear",
+        "Boots"
+      ],
+      "suggestedFix": "Replace with items that clearly map to one label only, or restructure the categories by form rather than occasion."
+    },
+    {
+      "puzzleId": "puzzle-0104",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Cannelloni is usually tube-shaped baked pasta that may be filled, but it is not a standard member of the same stuffed-pasta category as ravioli, tortellini, and agnolotti. It may confuse players expecting classic stuffed pasta parcels.",
+      "items": [
+        "Cannelloni"
+      ],
+      "groups": [
+        "Stuffed Pasta"
+      ],
+      "suggestedFix": "Replace Cannelloni with Cappelletti, Mezzelune, or Tortelli."
+    },
+    {
+      "puzzleId": "puzzle-0106",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Mahjong is not a standard card game; it is a tile game. Its placement in a card-game puzzle is factually wrong.",
+      "items": [
+        "Mahjong"
+      ],
+      "groups": [
+        "Matching Games"
+      ],
+      "suggestedFix": "Replace Mahjong with a card matching game such as Old Maid, Go Fish, or Concentration."
+    },
+    {
+      "puzzleId": "puzzle-0106",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“War” is usually a simple children’s card game, not a casino card game in the same sense as blackjack, poker, and baccarat.",
+      "items": [
+        "War"
+      ],
+      "groups": [
+        "Casino Card Games"
+      ],
+      "suggestedFix": "Replace War with Casino War, Three Card Poker, Pai Gow Poker, or Red Dog."
+    },
+    {
+      "puzzleId": "puzzle-0108",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "“Reef Dwellers” overlaps conceptually with fish/shellfish/marine life categories rather than being a parallel taxonomic group. Clownfish is also a fish, while starfish and anemone are not fish or shellfish.",
+      "items": [
+        "Clownfish",
+        "Seahorse",
+        "Starfish",
+        "Anemone"
+      ],
+      "groups": [
+        "Common Fish",
+        "Shellfish",
+        "Reef Dwellers"
+      ],
+      "suggestedFix": "Make the fourth group a clearer taxonomic group, such as Cnidarians or Echinoderms, or replace the category set with habitat-based labels throughout."
+    },
+    {
+      "puzzleId": "puzzle-0109",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Rumba is also a standard ballroom dance in competitive ballroom contexts, so it can reasonably fit both Ballroom Dances and Latin Dances.",
+      "items": [
+        "Rumba"
+      ],
+      "groups": [
+        "Ballroom Dances",
+        "Latin Dances"
+      ],
+      "suggestedFix": "Replace Rumba with a clearer social Latin dance such as Cumbia or Mambo, or label the groups more specifically."
+    },
+    {
+      "puzzleId": "puzzle-0110",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Tree categories overlap: fruit trees can be deciduous, tropical trees can be evergreen or fruit-bearing, and the labels mix leaf habit, climate, and use.",
+      "items": null,
+      "groups": [
+        "Deciduous Trees",
+        "Evergreen Trees",
+        "Tropical Trees",
+        "Fruit Trees"
+      ],
+      "suggestedFix": "Use one classification principle across all groups, such as leaf habit, fruit type, region, or tree family."
+    },
+    {
+      "puzzleId": "puzzle-0110",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Apple, cherry, pear, and plum are deciduous trees as well as fruit trees; mango and palm can also be fruit/tropical items depending on interpretation.",
+      "items": [
+        "Apple",
+        "Cherry",
+        "Pear",
+        "Plum",
+        "Mango",
+        "Palm"
+      ],
+      "groups": [
+        "Deciduous Trees",
+        "Tropical Trees",
+        "Fruit Trees"
+      ],
+      "suggestedFix": "Replace the overlapping fruit/tropical groups or move to non-overlapping categories."
+    },
+    {
+      "puzzleId": "puzzle-0111",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "The “Fastening Tools” group includes tools that are not primarily fastening tools. Wrench and pliers are general gripping/turning tools, and hammer only fastens in some uses.",
+      "items": [
+        "Hammer",
+        "Wrench",
+        "Pliers"
+      ],
+      "groups": [
+        "Fastening Tools"
+      ],
+      "suggestedFix": "Rename the group to Hand Tools, or replace with clearer fastening-specific items such as Nail Gun, Staple Gun, Riveter, and Screwdriver."
+    },
+    {
+      "puzzleId": "puzzle-0113",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Coriander, fennel, mustard seed, and cumin can also be described as warm spices, so “Warm Spices” and “Seed Spices” are not cleanly separated by everyday meaning.",
+      "items": [
+        "Cumin",
+        "Coriander",
+        "Fennel",
+        "Mustard Seed"
+      ],
+      "groups": [
+        "Warm Spices",
+        "Seed Spices"
+      ],
+      "suggestedFix": "Use a non-overlapping category such as Baking Spices for cinnamon/nutmeg/clove/allspice, or replace Seed Spices with another clear group."
+    },
+    {
+      "puzzleId": "puzzle-0113",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Sriracha is a hot sauce/condiment, not a spice in the same way as cayenne, chili flakes, and habanero.",
+      "items": [
+        "Sriracha"
+      ],
+      "groups": [
+        "Hot Spices"
+      ],
+      "suggestedFix": "Replace Sriracha with Paprika, Pepper Flakes, Ghost Pepper, or Jalapeno."
+    },
+    {
+      "puzzleId": "puzzle-0114",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Art Media and Art Tools overlap because “Canvas” can be a painting support/medium-related item, while “Brush,” “Palette,” and “Easel” are tools. The category labels mix materials, supports, and tools.",
+      "items": [
+        "Canvas"
+      ],
+      "groups": [
+        "Art Media",
+        "Art Tools"
+      ],
+      "suggestedFix": "Replace Canvas with a clearer tool such as Mahlstick or Palette Knife, or rename/rebuild the categories."
+    },
+    {
+      "puzzleId": "puzzle-0114",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Abstract” can be both an art genre and part of an art movement/style, creating possible confusion with Art Movements.",
+      "items": [
+        "Abstract"
+      ],
+      "groups": [
+        "Art Movements",
+        "Art Genres"
+      ],
+      "suggestedFix": "Replace Abstract with a clearer genre such as History Painting, Nude, or Seascape."
+    },
+    {
+      "puzzleId": "puzzle-0115",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "The Measurement Units group mixes chemistry/physics units that are less everyday for an easy puzzle, especially Mole and Pascal.",
+      "items": [
+        "Kelvin",
+        "Mole",
+        "Joule",
+        "Pascal"
+      ],
+      "groups": [
+        "Measurement Units"
+      ],
+      "suggestedFix": "Use more everyday lab/science vocabulary or raise difficulty."
+    },
+    {
+      "puzzleId": "puzzle-0116",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Water Polo is both a water sport and a ball sport, so it can reasonably fit two listed categories.",
+      "items": [
+        "Water Polo"
+      ],
+      "groups": [
+        "Ball Sports",
+        "Water Sports"
+      ],
+      "suggestedFix": "Replace Water Polo with Diving, Swimming, or Snorkeling."
+    },
+    {
+      "puzzleId": "puzzle-0116",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Ball Sports and Water Sports are overlapping classification domains rather than mutually exclusive categories; sports can be both.",
+      "items": null,
+      "groups": [
+        "Ball Sports",
+        "Water Sports"
+      ],
+      "suggestedFix": "Use one organizing principle across all groups, such as equipment type, environment, or Olympic discipline."
+    },
+    {
+      "puzzleId": "puzzle-0117",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Sweeping can be an indoor cleaning task as well as an outdoor path task, so “Sweeping Path” may cue both Outdoor Tasks and Cleaning Tasks.",
+      "items": [
+        "Sweeping Path"
+      ],
+      "groups": [
+        "Cleaning Tasks",
+        "Outdoor Tasks"
+      ],
+      "suggestedFix": "Replace with a clearer outdoor-only chore such as Pruning or Shoveling Snow."
+    },
+    {
+      "puzzleId": "puzzle-0131",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Mountain Sports overlaps strongly with Snow Sports. Alpine skiing, moguls, slalom, and downhill are snow skiing events, so the categories are not semantically separate.",
+      "items": [
+        "Alpine Skiing",
+        "Moguls",
+        "Slalom",
+        "Downhill"
+      ],
+      "groups": [
+        "Snow Sports",
+        "Mountain Sports"
+      ],
+      "suggestedFix": "Replace Mountain Sports with a non-overlapping group such as Indoor Winter Sports, Winter Gear, or Ski Equipment."
+    },
+    {
+      "puzzleId": "puzzle-0132",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Soft Cheeses and Fresh Cheeses overlap: ricotta and mozzarella are fresh cheeses, while feta, cottage cheese, queso fresco, and paneer can also be classified as soft/fresh cheeses.",
+      "items": [
+        "Ricotta",
+        "Mozzarella",
+        "Feta",
+        "Cottage",
+        "Queso Fresco",
+        "Paneer"
+      ],
+      "groups": [
+        "Soft Cheeses",
+        "Fresh Cheeses"
+      ],
+      "suggestedFix": "Use non-overlapping cheese categories such as Blue, Hard, Washed-Rind, and Pasta Filata, or replace the fresh/soft split."
+    },
+    {
+      "puzzleId": "puzzle-0133",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Historical Currencies overlaps with regional currency groups because drachma, guilder, lira, and mark are historical European currencies. The grouping mixes region and time period.",
+      "items": [
+        "Drachma",
+        "Guilder",
+        "Lira",
+        "Mark"
+      ],
+      "groups": [
+        "European Currencies",
+        "Historical Currencies"
+      ],
+      "suggestedFix": "Use either regional categories only or time-period categories only."
+    },
+    {
+      "puzzleId": "puzzle-0133",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Pound, krona, and franc can refer to currencies outside Europe as well as European currencies, making the region label less precise.",
+      "items": [
+        "Pound",
+        "Krona",
+        "Franc"
+      ],
+      "groups": [
+        "European Currencies"
+      ],
+      "suggestedFix": "Use specific currency names such as Euro, Pound Sterling, Swedish Krona, and Swiss Franc."
+    },
+    {
+      "puzzleId": "puzzle-0134",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Ruler is both a measuring/planning geometry tool and a common writing-desk item; paired with Protractor it suggests measuring/drawing rather than planning. The “Planning Tools” label is not a clean fit.",
+      "items": [
+        "Ruler",
+        "Protractor"
+      ],
+      "groups": [
+        "Planning Tools"
+      ],
+      "suggestedFix": "Rename the group to Measuring/Drafting Tools or replace Ruler and Protractor with To-Do List and Sticky Notes."
+    },
+    {
+      "puzzleId": "puzzle-0135",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "high",
+      "explanation": "Fedora and Trilby can be casual or fashion hats, not specifically formal. Panama appears in a Sun Hats category here but is also a formal/fashion hat in common use. Bucket Hat can be casual or sunwear.",
+      "items": [
+        "Fedora",
+        "Trilby",
+        "Panama",
+        "Bucket Hat"
+      ],
+      "groups": [
+        "Formal Hats",
+        "Sun Hats"
+      ],
+      "suggestedFix": "Replace with hats whose function is unambiguous, or define categories by construction rather than occasion."
+    },
+    {
+      "puzzleId": "puzzle-0135",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Sport Caps is a loose category containing protective gear and caps, while Warm Headwear, Sun Hats, and Formal Hats are function/use categories. Helmets and swim caps are not hats in the same everyday sense.",
+      "items": [
+        "Cycling Helmet",
+        "Swim Cap"
+      ],
+      "groups": [
+        "Sport Caps"
+      ],
+      "suggestedFix": "Rename to Sports Headwear, or replace helmet/swim cap with actual caps."
+    },
+    {
+      "puzzleId": "puzzle-0136",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Vine Plants overlaps with produce categories by growth habit while the other groups are food/use categories. Pumpkin, cucumber, and melon are also commonly treated as vegetables/fruits, so the classification principle shifts.",
+      "items": [
+        "Grape",
+        "Pumpkin",
+        "Cucumber",
+        "Melon"
+      ],
+      "groups": [
+        "Orchard Fruits",
+        "Vine Plants"
+      ],
+      "suggestedFix": "Use consistent crop categories such as grains, roots, orchard fruits, and berries, or make all groups growth-habit based."
+    },
+    {
+      "puzzleId": "puzzle-0137",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Codenames is both a word game and a party game, so it can reasonably fit two listed categories.",
+      "items": [
+        "Codenames"
+      ],
+      "groups": [
+        "Word Games",
+        "Party Games"
+      ],
+      "suggestedFix": "Replace Codenames with Hangman, Wordle, or Upwords."
+    },
+    {
+      "puzzleId": "puzzle-0137",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Pictionary and Taboo are also word/guessing games in common classification, which blurs the boundary with Word Games.",
+      "items": [
+        "Pictionary",
+        "Taboo"
+      ],
+      "groups": [
+        "Word Games",
+        "Party Games"
+      ],
+      "suggestedFix": "Use party games that are less word-based, or rename the category more specifically."
+    },
+    {
+      "puzzleId": "puzzle-0138",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Soup categories overlap heavily. Ramen and pho are noodle soups but not simply broth-based in contrast to other soups; borscht can be hot or cold; chowder and bisque are also thick soups; bouillabaisse is usually a soup rather than a thick stew.",
+      "items": [
+        "Ramen",
+        "Pho",
+        "Borscht",
+        "Chowder",
+        "Bisque",
+        "Bouillabaisse"
+      ],
+      "groups": [
+        "Broth-Based Soups",
+        "Cream Soups",
+        "Cold Soups",
+        "Thick Stews"
+      ],
+      "suggestedFix": "Use clearer non-overlapping categories, such as noodle soups, cold soups, cream soups, and stews, with items that uniquely match."
+    },
+    {
+      "puzzleId": "puzzle-0138",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Bouillabaisse is generally a Provençal fish soup/stew but is commonly categorized as soup; placing it under Thick Stews is debatable and likely unfair in an easy puzzle.",
+      "items": [
+        "Bouillabaisse"
+      ],
+      "groups": [
+        "Thick Stews"
+      ],
+      "suggestedFix": "Replace with Beef Stew, Irish Stew, Goulash, or Tagine."
+    },
+    {
+      "puzzleId": "puzzle-0140",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Poetry Forms and Literary Genres overlap: epic, elegy, and ode are also poetic forms/genres, while ballad can be a literary genre/form. The labels are not cleanly separated.",
+      "items": [
+        "Epic",
+        "Elegy",
+        "Ode",
+        "Ballad"
+      ],
+      "groups": [
+        "Poetry Forms",
+        "Literary Genres"
+      ],
+      "suggestedFix": "Replace Literary Genres with non-poetry genres such as Novel, Short Story, Drama, and Essay, or make all groups poetry-specific but distinct."
+    },
+    {
+      "puzzleId": "puzzle-0140",
+      "type": "WRONG_TIER",
+      "severity": "medium",
+      "explanation": "Rhythmic terms such as Trochee, Anapest, and Spondee are specialist poetry vocabulary and likely too hard for easy difficulty.",
+      "items": [
+        "Trochee",
+        "Anapest",
+        "Spondee"
+      ],
+      "groups": [
+        "Rhythmic Terms"
+      ],
+      "suggestedFix": "Move to a higher difficulty or use more familiar literary terms."
+    },
+    {
+      "puzzleId": "puzzle-0141",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Rescue Vehicles overlaps with law enforcement and utility/emergency categories by function. Ambulance is also a road vehicle/emergency vehicle, and Rescue Helicopter overlaps with air/rescue rather than a clean category.",
+      "items": [
+        "Ambulance",
+        "Rescue Helicopter"
+      ],
+      "groups": [
+        "Rescue Vehicles",
+        "Law Enforcement",
+        "Utility Vehicles"
+      ],
+      "suggestedFix": "Use agency-based labels, such as Fire/EMS, Police, Public Works, and Construction."
+    },
+    {
+      "puzzleId": "puzzle-0142",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Exposure is both a camera setting/concept and an editing adjustment, so it can reasonably fit Camera Settings as well as Editing Terms.",
+      "items": [
+        "Exposure"
+      ],
+      "groups": [
+        "Camera Settings",
+        "Editing Terms"
+      ],
+      "suggestedFix": "Replace Exposure in Editing Terms with Sharpen, Retouch, Clone, or Vignette."
+    },
+    {
+      "puzzleId": "puzzle-0144",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Peninsula and archipelago are landform/geographic features, but they are not terrain types in the same sense as canyon and valley.",
+      "items": [
+        "Peninsula",
+        "Archipelago"
+      ],
+      "groups": [
+        "Terrain Types"
+      ],
+      "suggestedFix": "Rename the group to Landforms or replace with Plateau, Plain, Hill, or Ridge."
+    },
+    {
+      "puzzleId": "puzzle-0144",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Map Features overlaps with geographic lines and climate/terrain concepts: Equator, meridian, latitude, and longitude are coordinate/geographic reference terms, not map features in the same concrete sense.",
+      "items": [
+        "Longitude",
+        "Latitude",
+        "Meridian",
+        "Equator"
+      ],
+      "groups": [
+        "Map Features"
+      ],
+      "suggestedFix": "Rename to Coordinate Lines or Map Coordinates."
+    },
+    {
+      "puzzleId": "puzzle-0145",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Cross-stitch is both a stitch and a needlework/craft form, making it less parallel with the other stitch names.",
+      "items": [
+        "Cross-Stitch"
+      ],
+      "groups": [
+        "Sewing Stitches"
+      ],
+      "suggestedFix": "Replace with Whipstitch, Chain Stitch, or Slip Stitch."
+    },
+    {
+      "puzzleId": "puzzle-0145",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Luxury Fibres overlaps with animal fibres; the label is subjective and not a clean material class. Alpaca, mohair, and angora are fiber sources/materials, while cashmere is also an animal fiber.",
+      "items": [
+        "Cashmere",
+        "Alpaca",
+        "Mohair",
+        "Angora"
+      ],
+      "groups": [
+        "Luxury Fibres"
+      ],
+      "suggestedFix": "Rename to Animal Fibres or use a less subjective grouping."
+    },
+    {
+      "puzzleId": "puzzle-0147",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Musical Groups overlaps with music genres/notation only loosely, but “Orchestra” and “Choir” are ensembles while “Quartet” and “Trio” are group sizes. The category mixes concepts.",
+      "items": [
+        "Quartet",
+        "Orchestra",
+        "Choir",
+        "Trio"
+      ],
+      "groups": [
+        "Musical Groups"
+      ],
+      "suggestedFix": "Rename to Ensembles and replace Quartet/Trio with Band and Ensemble, or use group-size terms only."
+    },
+    {
+      "puzzleId": "puzzle-0148",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Building Elements and Building Rooms overlap architecturally because atrium, foyer, mezzanine, and lobby are also building elements/spaces. The label distinction may be too soft for easy play.",
+      "items": [
+        "Atrium",
+        "Foyer",
+        "Mezzanine",
+        "Lobby"
+      ],
+      "groups": [
+        "Building Elements",
+        "Building Rooms"
+      ],
+      "suggestedFix": "Rename Building Rooms to Interior Spaces and Building Elements to Structural Features, or replace with clearer room names."
+    },
+    {
+      "puzzleId": "puzzle-0150",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Storm Types and Precipitation overlap: blizzard is a storm defined by snow/wind, and hail/freezing rain/sleet often occur in storms. The categories are related but not fully exclusive.",
+      "items": [
+        "Blizzard",
+        "Hail",
+        "Sleet",
+        "Freezing Rain"
+      ],
+      "groups": [
+        "Storm Types",
+        "Precipitation"
+      ],
+      "suggestedFix": "Use clearer groups such as Severe Storms, Precipitation Types, Wind Terms, and Optical Phenomena, avoiding mixed cases like Blizzard."
+    },
+    {
+      "puzzleId": "puzzle-0181",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "“Raptor” is not a precise dinosaur name; it is a broad informal term and can also mean a bird of prey. For an easy puzzle, this is imprecise next to named dinosaurs.",
+      "items": [
+        "Raptor"
+      ],
+      "groups": [
+        "Meat Eaters"
+      ],
+      "suggestedFix": "Replace with Velociraptor or another specific carnivorous dinosaur."
+    },
+    {
+      "puzzleId": "puzzle-0181",
+      "type": "FACTUAL_ERROR",
+      "severity": "medium",
+      "explanation": "Pterodactyl is an informal/common name rather than a precise taxon, and it is not a dinosaur. The group label “Flying Reptiles” is correct, but the item may feel imprecise beside Pteranodon and Quetzalcoatlus.",
+      "items": [
+        "Pterodactyl"
+      ],
+      "groups": [
+        "Flying Reptiles"
+      ],
+      "suggestedFix": "Use Pterodactylus if scientific precision is desired, or keep only if common-name looseness is acceptable."
+    },
+    {
+      "puzzleId": "puzzle-0182",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Italian course categories can overlap by serving context. Minestrone is a soup and may be served as a primo, while lasagna can be a primo or main dish in some contexts. This is a culinary-knowledge-heavy split for easy.",
+      "items": [
+        "Minestrone",
+        "Lasagna"
+      ],
+      "groups": [
+        "Primi Piatti",
+        "Secondi Piatti"
+      ],
+      "suggestedFix": "Use simpler Italian food categories such as Pasta, Desserts, Cured Meats, and Cheeses."
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Caravanserai is an inn/roadside lodging for travelers, not an Islamic religious building comparable to mosque, minaret, and madrasa.",
+      "items": [
+        "Caravanserai"
+      ],
+      "groups": [
+        "Islamic Buildings"
+      ],
+      "suggestedFix": "Replace with Mausoleum, Mihrab, Minbar, or Khanqah."
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Shrine is a broad religious structure and can be Christian, Islamic, Eastern, or ancient depending on context, so it is not exclusive to Eastern Temples.",
+      "items": [
+        "Shrine"
+      ],
+      "groups": [
+        "Christian Buildings",
+        "Islamic Buildings",
+        "Eastern Temples",
+        "Ancient Monuments"
+      ],
+      "suggestedFix": "Replace Shrine with Temple, Mandir, or Torii if the target is specifically Eastern religious architecture."
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Ancient Monuments overlaps with the civilization/religious-building categories. Pyramid and obelisk are strongly associated with ancient Egypt, while ziggurat is religious/temple architecture.",
+      "items": [
+        "Ziggurat",
+        "Pyramid",
+        "Obelisk"
+      ],
+      "groups": [
+        "Ancient Monuments",
+        "Christian Buildings",
+        "Islamic Buildings",
+        "Eastern Temples"
+      ],
+      "suggestedFix": "Use four religion-based groups or four historical-period groups, not a mix."
+    },
+    {
+      "puzzleId": "puzzle-0184",
+      "type": "SAME_SPECIES_SPLIT",
+      "severity": "high",
+      "explanation": "The puzzle groups animals by species but uses sex/age terms within each species. This is explicitly unfair under the audit rules for same-species identity splits.",
+      "items": [
+        "Cow",
+        "Bull",
+        "Calf",
+        "Ox",
+        "Sow",
+        "Boar",
+        "Piglet",
+        "Hog",
+        "Ewe",
+        "Ram",
+        "Lamb",
+        "Merino"
+      ],
+      "groups": [
+        "Cattle",
+        "Pigs",
+        "Sheep"
+      ],
+      "suggestedFix": "Replace with groups that do not rely on sex/age variants, such as farm tools, farm buildings, crops, and animal species."
+    },
+    {
+      "puzzleId": "puzzle-0184",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "“Chicken” is both a species/common poultry item and can refer to meat/food; it is less problematic than the sex/age splits but still broad in a puzzle about farm animals.",
+      "items": [
+        "Chicken"
+      ],
+      "groups": [
+        "Poultry"
+      ],
+      "suggestedFix": "If retaining poultry, use species names only: Chicken, Duck, Turkey, Goose, and avoid sex/age splits elsewhere."
+    },
+    {
+      "puzzleId": "puzzle-0185",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Sociology is usually a social science, not a humanities subject. The Sciences/Humanities split is therefore not clean.",
+      "items": [
+        "Sociology"
+      ],
+      "groups": [
+        "Humanities",
+        "Sciences"
+      ],
+      "suggestedFix": "Replace Sociology with Classics, Religion, Ethics, or Art History."
+    },
+    {
+      "puzzleId": "puzzle-0187",
+      "type": "FACTUAL_ERROR",
+      "severity": "high",
+      "explanation": "Corn snakes are constrictors in feeding behavior, but the common category “Constrictor Snakes” usually means boas, pythons, and anacondas; corn snake is more commonly classified as a colubrid and may feel out of place.",
+      "items": [
+        "Corn Snake"
+      ],
+      "groups": [
+        "Constrictor Snakes"
+      ],
+      "suggestedFix": "Replace Corn Snake with Reticulated Python, King Snake, or Rosy Boa depending on intended precision."
+    },
+    {
+      "puzzleId": "puzzle-0187",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Basilisk is both a mythical reptile and a real lizard genus/common lizard name, creating possible overlap with Lizards.",
+      "items": [
+        "Basilisk"
+      ],
+      "groups": [
+        "Lizards",
+        "Mythical Reptiles"
+      ],
+      "suggestedFix": "Replace Basilisk with Dragon, Cockatrice, or Lindworm."
+    },
+    {
+      "puzzleId": "puzzle-0189",
+      "type": "LABEL_OVERLAP",
+      "severity": "high",
+      "explanation": "Hair-style categories overlap by length and construction. Ponytails, buns, waves, and extensions can be long styles; bobs can be short or medium; braids can be long hairstyles too.",
+      "items": [
+        "Ponytail",
+        "Low Bun",
+        "Beach Waves",
+        "Extensions",
+        "Bob",
+        "French Braid",
+        "Cornrows",
+        "Dutch Braid",
+        "Fishtail"
+      ],
+      "groups": [
+        "Long Hair Styles",
+        "Short Hair Styles",
+        "Braided Styles"
+      ],
+      "suggestedFix": "Use non-overlapping groups such as Cuts, Braids, Updos, and Salon Tools."
+    },
+    {
+      "puzzleId": "puzzle-0191",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Squat is both a bodyweight move and a weighted exercise commonly performed with free weights, creating overlap with Free Weights.",
+      "items": [
+        "Squat"
+      ],
+      "groups": [
+        "Free Weights",
+        "Bodyweight Moves"
+      ],
+      "suggestedFix": "Replace Squat with Sit-Up, Burpee, or Mountain Climber."
+    },
+    {
+      "puzzleId": "puzzle-0192",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Headphones are output devices, but many headsets also include microphones/input. As written, “Headphones” is mostly acceptable but can be confused with input/output peripherals.",
+      "items": [
+        "Headphones"
+      ],
+      "groups": [
+        "Input Devices",
+        "Output Devices"
+      ],
+      "suggestedFix": "Replace with Projector or Display if stricter separation is desired."
+    },
+    {
+      "puzzleId": "puzzle-0193",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Bow and Ribbon are near-overlapping gift-wrapping items, and a bow is often made from ribbon. Players may see them as not distinct enough within a four-item group.",
+      "items": [
+        "Ribbon",
+        "Bow"
+      ],
+      "groups": [
+        "Gift Wrapping"
+      ],
+      "suggestedFix": "Replace one with Wrapping Paper, Gift Tag, or Tape."
+    },
+    {
+      "puzzleId": "puzzle-0194",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Witch can be a fairy-tale villain but also a magical helper or neutral magical figure in some stories. Wolf is an animal character rather than inherently a villain.",
+      "items": [
+        "Witch",
+        "Wolf"
+      ],
+      "groups": [
+        "Fairy Tale Villains",
+        "Fairy Tale Helpers"
+      ],
+      "suggestedFix": "Use clearer villain archetypes such as Evil Stepmother, Giant, Dragon, or Sorcerer."
+    },
+    {
+      "puzzleId": "puzzle-0195",
+      "type": "LABEL_OVERLAP",
+      "severity": "medium",
+      "explanation": "Guide Signs and Road Work Signs overlap because detours are commonly temporary road-work guidance signs. “Cones Ahead” is also more of a warning than a road-work sign label.",
+      "items": [
+        "Detour",
+        "Cones Ahead"
+      ],
+      "groups": [
+        "Guide Signs",
+        "Warning Signs",
+        "Road Work Signs"
+      ],
+      "suggestedFix": "Replace Detour with Hospital or Airport under Guide Signs, and replace Cones Ahead with Road Work Ahead."
+    },
+    {
+      "puzzleId": "puzzle-0204",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Robin is both a spring animal and a bird/songbird-type item; within this puzzle it is fine only if no bird category exists, but it remains a seasonal association rather than a firm category member.",
+      "items": [
+        "Robin"
+      ],
+      "groups": [
+        "Spring Animals"
+      ],
+      "suggestedFix": "Consider a more unambiguously spring-associated animal such as Tadpole or Duckling."
+    },
+    {
+      "puzzleId": "puzzle-0204",
+      "type": "TRIVIAL",
+      "severity": "medium",
+      "explanation": "Several items repeat the category keyword “Spring,” making the group partly keyword-match rather than puzzle inference.",
+      "items": [
+        "Spring Clean"
+      ],
+      "groups": [
+        "Spring Traditions"
+      ],
+      "suggestedFix": "Replace Spring Clean with Gardening, Easter Parade, or Planting Seeds."
+    },
+    {
+      "puzzleId": "puzzle-0206",
+      "type": "AMBIGUOUS_ITEM",
+      "severity": "medium",
+      "explanation": "Monorail is both a type of train and a rail transport system/track concept, and “Signal” can be both a trackside item and a station/railway operating term.",
+      "items": [
+        "Monorail",
+        "Signal"
+      ],
+      "groups": [
+        "Types of Train",
+        "On the Tracks",
+        "At the Station"
+      ],
+      "suggestedFix": "Replace Monorail with Passenger Train or Diesel, and Signal with Crossing or Ballast."
+    }
+  ]
+}

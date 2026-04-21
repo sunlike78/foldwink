@@ -45,6 +45,9 @@
     }
   ],
   "meta": {
-    "difficultyScore": 18
+    "difficultyScore": 18,
+    "editorialRank": 40,
+    "gptDifficulty": 54,
+    "gptRationale": "For general players this is approachable but domain-specific, with programming and shell terms being familiar mainly to tech-literate solvers."
   }
 }

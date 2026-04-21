@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Мультфильмы Диснея",
     "batch": "ru-batch-07",
-    "difficultyScore": 32
+    "difficultyScore": 32,
+    "editorialRank": 32,
+    "gptDifficulty": 32,
+    "gptRationale": "Диснеевские мультфильмы массово узнаваемы, а деление по эпохам и принцессам в целом интуитивно."
   },
   "groups": [
     {

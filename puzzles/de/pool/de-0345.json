@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Raumfahrt",
     "batch": "de-batch-04",
-    "difficultyScore": 19
+    "difficultyScore": 19,
+    "editorialRank": 30,
+    "gptDifficulty": 37,
+    "gptRationale": "Raumfahrt-Meilensteine sind populärwissenschaftlich gut verankert und die Trennung nach Akteuren funktioniert meist schnell."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Российское и советское кино",
     "batch": "ru-batch-11",
-    "difficultyScore": 34
+    "difficultyScore": 34,
+    "editorialRank": 42,
+    "gptDifficulty": 47,
+    "gptRationale": "Российское кино узнаваемо, но сет смешивает фильмы и режиссёров, а временные и жанровые уровни классификации различаются по типу."
   },
   "groups": [
     {

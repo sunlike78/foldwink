@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Genetik",
     "batch": "de-batch-04",
-    "difficultyScore": 25
+    "difficultyScore": 25,
+    "editorialRank": 40,
+    "gptDifficulty": 50,
+    "gptRationale": "Genetik-Grundlagen sind verbreitet, aber Methoden und Fachbegriffe wie FISH oder Haplotyp erhöhen die Präzisionshürde merklich."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Spiele",
     "batch": "de-batch-02",
-    "difficultyScore": 12
+    "difficultyScore": 12,
+    "editorialRank": 30,
+    "gptDifficulty": 42,
+    "gptRationale": "Card-game categories are sensible, but regionally specific game names and jargon raise the barrier."
   },
   "groups": [
     {

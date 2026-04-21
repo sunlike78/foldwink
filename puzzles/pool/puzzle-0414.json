@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-12",
     "status": "approved",
-    "difficultyScore": 61
+    "difficultyScore": 61,
+    "editorialRank": 48,
+    "gptDifficulty": 40,
+    "gptRationale": "Oscar categories are culturally familiar, and the award-group divisions are clear even if not every exact title is top of mind."
   },
   "groups": [
     {

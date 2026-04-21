@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Eisenbahn",
     "batch": "de-batch-02",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 33,
+    "gptDifficulty": 28,
+    "gptRationale": "Eisenbahnbegriffe sind aus Alltag und Reisen bekannt und die vier Gruppen haben nur geringe Überlappung."
   },
   "groups": [
     {

@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 43
+    "difficultyScore": 43,
+    "editorialRank": 59,
+    "gptDifficulty": 70,
+    "gptRationale": "The social-science terms are abstract and semantically close, so category boundaries are less obvious than the title suggests."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "literatur-klassiker",
     "batch": "de-batch-03",
-    "difficultyScore": 23
+    "difficultyScore": 23,
+    "editorialRank": 45,
+    "gptDifficulty": 59,
+    "gptRationale": "Deutsche Literaturklassiker sind kanonisch, doch Autor-Werk-Zuordnungen über mehrere Epochen hinweg sind für typische Spieler nicht ganz leicht."
   },
   "groups": [
     {

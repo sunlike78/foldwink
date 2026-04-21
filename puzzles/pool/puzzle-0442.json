@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-13",
     "status": "approved",
-    "difficultyScore": 41
+    "difficultyScore": 41,
+    "editorialRank": 43,
+    "gptDifficulty": 44,
+    "gptRationale": "Video game genre labels are recognizable for many players, though some modern genre names blur into one another."
   },
   "groups": [
     {

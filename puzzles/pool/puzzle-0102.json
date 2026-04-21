@@ -7,7 +7,10 @@
     "categoryType": "classification",
     "batch": "batch-01",
     "status": "approved",
-    "difficultyScore": 31
+    "difficultyScore": 31,
+    "editorialRank": 34,
+    "gptDifficulty": 36,
+    "gptRationale": "Kitchen tools are familiar overall, though a few items like mandoline and tongs can momentarily suggest multiple functional groups."
   },
   "groups": [
     {

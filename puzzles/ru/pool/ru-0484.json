@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Ручные инструменты",
     "batch": "ru-batch-21",
-    "difficultyScore": 20
+    "difficultyScore": 20,
+    "editorialRank": 19,
+    "gptDifficulty": 18,
+    "gptRationale": "Ручные инструменты легко узнаются, и группы по назначению для среднего игрока почти не создают ложных следов."
   },
   "groups": [
     {

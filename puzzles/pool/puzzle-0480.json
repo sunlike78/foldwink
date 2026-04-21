@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-14",
     "status": "approved",
-    "difficultyScore": 33
+    "difficultyScore": 33,
+    "editorialRank": 62,
+    "gptDifficulty": 82,
+    "gptRationale": "Dice-game taxonomy is obscure for many players, with many unfamiliar titles and little surface help beyond partial genre intuition."
   },
   "groups": [
     {

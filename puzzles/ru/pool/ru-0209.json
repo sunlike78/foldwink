@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Морские беспозвоночные",
     "batch": "ru-batch-07",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 45,
+    "gptDifficulty": 51,
+    "gptRationale": "Морская фауна знакома частично, но биологические классы вроде иглокожих и рифовых обитателей требуют уже не самого бытового знания."
   },
   "groups": [
     {

@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Sportmedizin",
     "batch": "de-batch-04",
-    "difficultyScore": 27
+    "difficultyScore": 27,
+    "editorialRank": 28,
+    "gptDifficulty": 29,
+    "gptRationale": "Verletzung, Behandlung, Prävention und Diagnostik sind klar getrennte Bereiche mit überwiegend bekannten Begriffen."
   },
   "groups": [
     {

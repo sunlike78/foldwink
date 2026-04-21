@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Jazz",
     "batch": "de-batch-04",
-    "difficultyScore": 40
+    "difficultyScore": 40,
+    "editorialRank": 48,
+    "gptDifficulty": 54,
+    "gptRationale": "Jazzstile sind hörkulturell spezifisch und einige Marker wie Personenname plus Stilmerkmal verlangen mehr Genrekenntnis als Durchschnittsrätsel."
   },
   "groups": [
     {

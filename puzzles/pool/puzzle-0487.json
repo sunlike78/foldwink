@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-15",
     "status": "approved",
-    "difficultyScore": 35
+    "difficultyScore": 35,
+    "editorialRank": 31,
+    "gptDifficulty": 28,
+    "gptRationale": "Memory types are standard introductory-psychology concepts with very clear example-based grouping once the labels are recognized."
   },
   "groups": [
     {

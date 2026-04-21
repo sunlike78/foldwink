@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Злаки и зерновые культуры",
     "batch": "ru-batch-12",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 48,
+    "gptDifficulty": 65,
+    "gptRationale": "Grains and pseudo-grains are concrete food items, but the taxonomy is messy and several entries challenge the category names themselves."
   },
   "groups": [
     {

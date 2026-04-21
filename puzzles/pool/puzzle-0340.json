@@ -8,7 +8,10 @@
     "categoryType": "classification",
     "batch": "batch-09",
     "status": "draft",
-    "difficultyScore": 42
+    "difficultyScore": 42,
+    "editorialRank": 53,
+    "gptDifficulty": 61,
+    "gptRationale": "Olympic sports are familiar, but tying debut events to exact years adds a memory challenge beyond simple category recognition."
   },
   "groups": [
     {

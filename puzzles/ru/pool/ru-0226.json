@@ -5,7 +5,10 @@
   "meta": {
     "theme": "Средневековая жизнь",
     "batch": "ru-batch-08",
-    "difficultyScore": 22
+    "difficultyScore": 22,
+    "editorialRank": 26,
+    "gptDifficulty": 29,
+    "gptRationale": "The medieval theme is broad but the four groups themselves are standard textbook categories with low ambiguity."
   },
   "groups": [
     {
