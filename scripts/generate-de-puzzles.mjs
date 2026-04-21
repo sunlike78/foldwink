@@ -461,7 +461,7 @@ Für medium-Rätsel enthält jede Gruppe "revealHint": "kurzer Hinweis".
 Schreibe NUR den JSON-Array. Keine Erklärungen davor oder danach.`;
 
 function buildUserPrompt(batch, startIdx) {
-  const lines = batch.map(([slug, label, diff], i) => {
+  const lines = batch.map(([_slug, label, diff], i) => {
     const num = startIdx + i + 1;
     return `${i + 1}. ID: de-${String(num).padStart(4, "0")} | Thema: ${label} | Schwierigkeit: ${diff}`;
   });

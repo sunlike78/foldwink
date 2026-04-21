@@ -87,7 +87,7 @@ function crossGroupOverlapScore(groups) {
 function itemRarityScore(groups, lang) {
   const items = groups.flatMap((g) => g.items);
   const avgLen = items.reduce((s, it) => s + it.length, 0) / items.length;
-  let lenScore = 0;
+  let lenScore;
   if (avgLen >= 9) lenScore = 18;
   else if (avgLen >= 7) lenScore = 12;
   else if (avgLen >= 5) lenScore = 6;

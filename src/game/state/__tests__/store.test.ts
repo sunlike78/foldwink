@@ -101,7 +101,7 @@ describe("store — standard mode", () => {
 describe("store — result-hold timing", () => {
   it("defers screen:'result' through scheduleTransition and keeps screen:'game' until fired", async () => {
     const pool = [mkPuzzle("p1"), mkPuzzle("p2")];
-    let pending: Array<{ cb: () => void; ms: number }> = [];
+    const pending: Array<{ cb: () => void; ms: number }> = [];
     const schedule = (cb: () => void, ms: number) => {
       pending.push({ cb, ms });
     };
@@ -121,7 +121,7 @@ describe("store — result-hold timing", () => {
 
   it("does not clobber screen if player navigated away during the hold", () => {
     const pool = [mkPuzzle("p1")];
-    let pending: Array<{ cb: () => void; ms: number }> = [];
+    const pending: Array<{ cb: () => void; ms: number }> = [];
     const schedule = (cb: () => void, ms: number) => {
       pending.push({ cb, ms });
     };

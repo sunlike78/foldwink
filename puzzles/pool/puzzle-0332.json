@@ -22,21 +22,17 @@
         "Tied Arch Bridge",
         "Through Arch Bridge",
         "Bowstring Arch Bridge"
-      ],
-      "color": "yellow",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g2",
       "label": "Cable-Supported Bridges",
       "items": [
-        "Pontoon Bridge",
+        "Suspension Bridge",
         "Cable-Stayed Bridge",
         "Rope Bridge",
         "Stressed Ribbon"
-      ],
-      "color": "green",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g3",
@@ -46,9 +42,7 @@
         "Truss Bridge",
         "Box Girder Bridge",
         "Plate Girder Bridge"
-      ],
-      "color": "blue",
-      "revealHint": ""
+      ]
     },
     {
       "id": "g4",
@@ -58,9 +52,7 @@
         "Swing Bridge",
         "Lift Bridge",
         "Folding Bridge"
-      ],
-      "color": "purple",
-      "revealHint": ""
+      ]
     }
   ]
 }

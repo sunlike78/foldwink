@@ -45,7 +45,7 @@
     },
     {
       "id": "tax",
-      "label": "Tax Documents",
+      "label": "Financial Documents",
       "items": [
         "Invoice",
         "Receipt",

@@ -45,7 +45,7 @@ console.log(`Loaded GPT ratings for ${ratingById.size} puzzles.`);
 let updated = 0;
 let fallback = 0;
 
-for (const { lang, dir } of POOLS) {
+for (const { dir } of POOLS) {
   const files = readdirSync(dir).filter((f) => f.endsWith(".json"));
   for (const f of files) {
     const path = join(dir, f);

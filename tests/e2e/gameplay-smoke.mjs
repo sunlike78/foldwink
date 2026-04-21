@@ -11,7 +11,6 @@ import {
   BASE_URL,
   runCases,
   seedDismissedOnboarding,
-  seedLocalStorage,
   waitForMenu,
 } from "./lib/harness.mjs";
 

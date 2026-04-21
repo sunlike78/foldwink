@@ -1,0 +1,257 @@
+{
+  "batchIndex": 0,
+  "decisions": [
+    {
+      "puzzleId": "puzzle-0043",
+      "action": "patch",
+      "rationale": "Replace the nonstandard high-cloud item and broaden the low-cloud label to cover fog and mist.",
+      "patches": [
+        {
+          "groupId": "high-clouds",
+          "field": "item",
+          "oldValue": "Contrail",
+          "newValue": "Mare's Tail",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "low-clouds",
+          "field": "label",
+          "oldValue": "Low Clouds",
+          "newValue": "Low Sky Conditions",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0046",
+      "action": "patch",
+      "rationale": "Uranus and Neptune fit cleanly under outer planets, avoiding the outdated gas-giants label.",
+      "patches": [
+        {
+          "groupId": "gas-giants",
+          "field": "label",
+          "oldValue": "Gas Giants",
+          "newValue": "Outer Planets",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0052",
+      "action": "patch",
+      "rationale": "Sphynx is hairless, not short-haired.",
+      "patches": [
+        {
+          "groupId": "cats-short",
+          "field": "item",
+          "oldValue": "Sphynx",
+          "newValue": "Abyssinian",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0087",
+      "action": "patch",
+      "rationale": "Calendar Stone is primarily associated with the Aztec Sun Stone, not the Maya.",
+      "patches": [
+        {
+          "groupId": "mayan",
+          "field": "item",
+          "oldValue": "Calendar Stone",
+          "newValue": "Chichen Itza",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0106",
+      "action": "patch",
+      "rationale": "Mahjong is a tile game, not a card game.",
+      "patches": [
+        {
+          "groupId": "match",
+          "field": "item",
+          "oldValue": "Mahjong",
+          "newValue": "Go Fish",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0183",
+      "action": "patch",
+      "rationale": "Caravanserai is a roadside inn, not an Islamic religious building.",
+      "patches": [
+        {
+          "groupId": "islamic",
+          "field": "item",
+          "oldValue": "Caravanserai",
+          "newValue": "Mausoleum",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0187",
+      "action": "patch",
+      "rationale": "Corn snake is better known as a colubrid than as a headline constrictor type in an easy puzzle.",
+      "patches": [
+        {
+          "groupId": "constrictors",
+          "field": "item",
+          "oldValue": "Corn Snake",
+          "newValue": "Rosy Boa",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0257",
+      "action": "patch",
+      "rationale": "Bifrost is a bridge rather than an item, and two figures in the heroes group are poor fits for Norse legendary heroes.",
+      "patches": [
+        {
+          "groupId": "items",
+          "field": "item",
+          "oldValue": "Bifrost",
+          "newValue": "Draupnir",
+          "itemIndex": 2
+        },
+        {
+          "groupId": "heroes",
+          "field": "label",
+          "oldValue": "Viking Heroes",
+          "newValue": "Norse Heroes",
+          "itemIndex": null
+        },
+        {
+          "groupId": "heroes",
+          "field": "item",
+          "oldValue": "Beowulf",
+          "newValue": "Brynhild",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "heroes",
+          "field": "item",
+          "oldValue": "Leif Erikson",
+          "newValue": "Gunnar",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0258",
+      "action": "patch",
+      "rationale": "Cleopatra is atypical here and Nefertiti is primarily known as a queen, so clearer pharaohs are better.",
+      "patches": [
+        {
+          "groupId": "pharaohs",
+          "field": "item",
+          "oldValue": "Cleopatra",
+          "newValue": "Hatshepsut",
+          "itemIndex": 1
+        },
+        {
+          "groupId": "pharaohs",
+          "field": "item",
+          "oldValue": "Nefertiti",
+          "newValue": "Khufu",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0266",
+      "action": "patch",
+      "rationale": "The listed items are general financial paperwork, not specifically tax documents.",
+      "patches": [
+        {
+          "groupId": "tax",
+          "field": "label",
+          "oldValue": "Tax Documents",
+          "newValue": "Financial Documents",
+          "itemIndex": null
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0309",
+      "action": "patch",
+      "rationale": "Grace Hopper did not straightforwardly create a widely used programming language in the same sense as the others.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Grace Hopper",
+          "newValue": "James Gosling",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0332",
+      "action": "patch",
+      "rationale": "Pontoon bridge is a floating bridge, not a cable-supported bridge.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Pontoon Bridge",
+          "newValue": "Suspension Bridge",
+          "itemIndex": 0
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0384",
+      "action": "patch",
+      "rationale": "Mercury does not fit the sky/state grouping well, and Charon is not a Roman god on the same level as the others.",
+      "patches": [
+        {
+          "groupId": "g1",
+          "field": "item",
+          "oldValue": "Mercury",
+          "newValue": "Janus",
+          "itemIndex": 3
+        },
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Charon",
+          "newValue": "Orcus",
+          "itemIndex": 3
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0409",
+      "action": "patch",
+      "rationale": "Schwarzbier is a dark lager, not a dark ale.",
+      "patches": [
+        {
+          "groupId": "g2",
+          "field": "item",
+          "oldValue": "Schwarzbier",
+          "newValue": "Brown Ale",
+          "itemIndex": 2
+        }
+      ]
+    },
+    {
+      "puzzleId": "puzzle-0412",
+      "action": "patch",
+      "rationale": "Sword technically fits, but it breaks the clear initial-silent-W pattern expected at easy level.",
+      "patches": [
+        {
+          "groupId": "g4",
+          "field": "item",
+          "oldValue": "Sword",
+          "newValue": "Wreck",
+          "itemIndex": 3
+        }
+      ]
+    }
+  ]
+}

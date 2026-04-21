@@ -10,17 +10,17 @@ import { join } from "path";
 
 const OUT = join(process.cwd(), "docs/reports/FOLDWINK_MANUAL_QA.xlsx");
 
-// ─── Color palette ───
-const DARK_BG = "FF0F1115";
+// ─── Color palette (some unused in current workbook, kept for future style tweaks) ───
+const _DARK_BG = "FF0F1115";
 const SURFACE = "FF181B22";
 const ACCENT = "FF7CC4FF";
 const TEXT = "FFE8EAF0";
 const MUTED = "FF8A8F9A";
 const HEADER_BG = "FF22262F";
 const SECTION_BG = "FF1E2230";
-const PASS_BG = "FF1A3320";
-const FAIL_BG = "FF331A1A";
-const WARN_BG = "FF332E1A";
+const _PASS_BG = "FF1A3320";
+const _FAIL_BG = "FF331A1A";
+const _WARN_BG = "FF332E1A";
 
 // ─── Test data ───
 const sections = [
@@ -670,7 +670,7 @@ async function generate() {
 
   // ─── Test sheets ───
   for (const s of sections) {
-    const cleanName = s.name.replace(/[*?:\\/\[\]]/g, "-");
+    const cleanName = s.name.replace(/[*?:\\/[\]]/g, "-");
     const shortName = cleanName.length > 31 ? cleanName.substring(0, 28) + "..." : cleanName;
     const ws = wb.addWorksheet(shortName, {
       properties: { tabColor: { argb: HEADER_BG } },

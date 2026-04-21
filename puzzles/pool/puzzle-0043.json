@@ -10,12 +10,12 @@
         "Cirrus",
         "Cirrocumulus",
         "Cirrostratus",
-        "Contrail"
+        "Mare's Tail"
       ]
     },
     {
       "id": "low-clouds",
-      "label": "Low Clouds",
+      "label": "Low Sky Conditions",
       "items": [
         "Stratus",
         "Stratocumulus",

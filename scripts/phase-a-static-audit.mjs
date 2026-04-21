@@ -177,7 +177,7 @@ function checkCrossPuzzleRepetition(pool, lang) {
     }
   }
   for (const [tier, bucket] of Object.entries(byTier)) {
-    for (const [key, locs] of bucket) {
+    for (const [, locs] of bucket) {
       if (locs.length < 2) continue;
       // A word like "red" or "mars" can legitimately appear in many
       // puzzles. Only flag when the same item repeats under the same

@@ -1,0 +1,82 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decisions"
+  ],
+  "properties": {
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "puzzleId",
+          "action",
+          "patches",
+          "rationale"
+        ],
+        "properties": {
+          "puzzleId": {
+            "type": "string"
+          },
+          "action": {
+            "type": "string",
+            "enum": [
+              "patch",
+              "skip-subjective",
+              "skip-would-break-structure"
+            ]
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "patches": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "groupId",
+                "field",
+                "oldValue",
+                "newValue",
+                "itemIndex"
+              ],
+              "properties": {
+                "groupId": {
+                  "type": "string"
+                },
+                "field": {
+                  "type": "string",
+                  "enum": [
+                    "label",
+                    "item"
+                  ]
+                },
+                "oldValue": {
+                  "type": "string"
+                },
+                "newValue": {
+                  "type": "string"
+                },
+                "itemIndex": {
+                  "anyOf": [
+                    {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 3
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

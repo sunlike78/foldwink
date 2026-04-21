@@ -4,7 +4,20 @@ import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 
 export default [
-  { ignores: ["dist", "node_modules", "coverage", ".vite"] },
+  {
+    // `reports/video_automation/**` are one-off TikTok capture harnesses
+    // that reference browser globals inside Playwright callbacks and are
+    // not part of the app build path. They ship as artefacts next to the
+    // report, not as production tooling, so lint does not apply.
+    ignores: [
+      "dist",
+      "node_modules",
+      "coverage",
+      ".vite",
+      "reports/video_automation/**",
+      "docs/reports/**",
+    ],
+  },
   js.configs.recommended,
   ...ts.configs.recommended,
   {
@@ -43,6 +56,9 @@ export default [
       ],
       "@typescript-eslint/no-explicit-any": "warn",
       "no-console": ["warn", { allow: ["warn", "error"] }],
+      // Empty catches inside localStorage / navigator probes are
+      // intentional — we fall back to defaults if the read fails.
+      "no-empty": ["error", { allowEmptyCatch: true }],
     },
   },
   {
@@ -54,9 +70,15 @@ export default [
     files: ["scripts/**/*.{ts,mjs,js}", "tests/**/*.{ts,mjs,js}"],
     languageOptions: {
       globals: {
+        // Node.js runtime globals (scripts/*.mjs run on node)
         process: "readonly",
         console: "readonly",
         setTimeout: "readonly",
+        clearTimeout: "readonly",
+        setInterval: "readonly",
+        clearInterval: "readonly",
+        Buffer: "readonly",
+        // Browser globals reachable via Playwright page.evaluate callbacks
         window: "readonly",
         document: "readonly",
         localStorage: "readonly",
@@ -67,6 +89,9 @@ export default [
     },
     rules: {
       "no-console": "off",
+      // Script-local heuristic: empty catch around filesystem / JSON
+      // probing is deliberate (try the file, move on). Don't flag it.
+      "no-empty": ["error", { allowEmptyCatch: true }],
       "@typescript-eslint/no-unused-vars": [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },

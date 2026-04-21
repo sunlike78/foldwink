@@ -39,18 +39,18 @@
       "items": [
         "Mjolnir",
         "Gungnir",
-        "Bifrost",
+        "Draupnir",
         "Gleipnir"
       ]
     },
     {
       "id": "heroes",
-      "label": "Viking Heroes",
+      "label": "Norse Heroes",
       "items": [
         "Sigurd",
-        "Beowulf",
+        "Brynhild",
         "Ragnar",
-        "Leif Erikson"
+        "Gunnar"
       ]
     }
   ]
