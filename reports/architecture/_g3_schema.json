@@ -1,0 +1,156 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "architecture",
+    "retention",
+    "playability",
+    "psychology",
+    "summary"
+  ],
+  "properties": {
+    "architecture": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "area",
+          "finding",
+          "severity",
+          "suggestion"
+        ],
+        "properties": {
+          "area": {
+            "type": "string"
+          },
+          "finding": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "suggestion": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "retention": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "hook",
+          "current",
+          "severity",
+          "suggestion"
+        ],
+        "properties": {
+          "hook": {
+            "type": "string"
+          },
+          "current": {
+            "type": "string",
+            "enum": [
+              "absent",
+              "partial",
+              "good",
+              "strong"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "suggestion": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "playability": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "area",
+          "finding",
+          "severity",
+          "suggestion"
+        ],
+        "properties": {
+          "area": {
+            "type": "string"
+          },
+          "finding": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "suggestion": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "psychology": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "principle",
+          "current",
+          "severity",
+          "suggestion"
+        ],
+        "properties": {
+          "principle": {
+            "type": "string"
+          },
+          "current": {
+            "type": "string",
+            "enum": [
+              "absent",
+              "partial",
+              "good",
+              "strong"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "suggestion": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}

@@ -142,19 +142,19 @@ export function MenuScreen() {
             </Button>
           </div>
 
-          {stats.gamesPlayed > 0 && (
-            <div className="text-[11px] text-muted text-center max-w-xs space-y-1">
-              <div>
-                <span className={mediumLabelClass}>{mDisplay.label}</span> ·{" "}
-                {mDisplay.caption}
-              </div>
-              {hReadiness.level !== "hidden" && (
-                <div className="text-muted">
-                  {hDisplay.label} · {hDisplay.caption}
-                </div>
-              )}
+          {/* Show readiness caption from game 1 — disclosure of the existing
+              unlock rule is anti-dark-pattern. Hidden before v0.6.6. */}
+          <div className="text-[11px] text-muted text-center max-w-xs space-y-1">
+            <div>
+              <span className={mediumLabelClass}>{mDisplay.label}</span> ·{" "}
+              {mDisplay.caption}
             </div>
-          )}
+            {hReadiness.level !== "hidden" && (
+              <div className="text-muted">
+                {hDisplay.label} · {hDisplay.caption}
+              </div>
+            )}
+          </div>
 
           {(mDisplay.fallback || hDisplay.fallback) && (
             <div className="text-[11px] text-muted text-center max-w-xs border-t border-[#2e343f] pt-3 space-y-1">

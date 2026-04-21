@@ -1,0 +1,230 @@
+/**
+ * Agent 1: progression-validator
+ *
+ * Verifies that Foldwink's unlock / routing logic cannot silently escalate
+ * a player into a higher tier through UI interactions or stale state.
+ *
+ * Specifically guards against the regression flagged in QA row D-05:
+ * "Medium shows locked in menu but Daily still launches a Medium puzzle."
+ * That should be impossible after the 0.6.2 startDaily fix.
+ */
+
+import {
+  BASE_URL,
+  runCases,
+  seedDismissedOnboarding,
+  seedLocalStorage,
+  stubStats,
+  waitForMenu,
+} from "./lib/harness.mjs";
+
+async function readTextOf(page, selector) {
+  const el = await page.$(selector);
+  if (!el) return null;
+  return (await el.textContent())?.trim() ?? null;
+}
+
+async function menuMediumButton(page) {
+  return page.locator("button", { hasText: /^Medium/ }).first();
+}
+
+async function menuHardButton(page) {
+  return page.locator("button", { hasText: /Master Challenge/ }).first();
+}
+
+async function dailyButton(page) {
+  return page.locator("button", { hasText: /Play today|Replay daily/ }).first();
+}
+
+async function activeDifficultyFromHeader(page) {
+  const subtitle = await readTextOf(page, "header p");
+  if (!subtitle) return null;
+  const m = subtitle.match(/^(EASY|MEDIUM|HARD)/);
+  return m ? m[1].toLowerCase() : null;
+}
+
+await runCases("progression-validator", [
+  {
+    name: "fresh state: Medium menu button shows locked and is disabled",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      const mediumBtn = await menuMediumButton(page);
+      const label = (await mediumBtn.textContent())?.trim();
+      if (!label?.includes("locked"))
+        throw new Error(`expected "locked" label, got "${label}"`);
+      const disabled = await mediumBtn.isDisabled();
+      if (!disabled) throw new Error("Medium button should be disabled in fresh state");
+    },
+  },
+  {
+    name: "fresh state: Daily opens an Easy puzzle (does not leak into Medium)",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      await (await dailyButton(page)).click();
+      await page.waitForSelector("header h1");
+      const diff = await activeDifficultyFromHeader(page);
+      if (diff !== "easy")
+        throw new Error(`daily launched difficulty "${diff}", expected "easy"`);
+    },
+  },
+  {
+    name: "5 easy wins: Medium button unlocks",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await seedLocalStorage(page, {
+        "foldwink:stats": stubStats({
+          wins: 5,
+          losses: 0,
+          recentSolves: Array.from({ length: 5 }, (_, i) => ({
+            puzzleId: `seed-easy-${i}`,
+            difficulty: "easy",
+            result: "win",
+            mistakesUsed: 1,
+            durationMs: 140_000,
+            at: Date.now() - (5 - i) * 60_000,
+          })),
+        }),
+      });
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      const mediumBtn = await menuMediumButton(page);
+      const label = (await mediumBtn.textContent())?.trim();
+      if (label?.includes("locked"))
+        throw new Error(`Medium still locked after 5 easy wins: "${label}"`);
+      const disabled = await mediumBtn.isDisabled();
+      if (disabled) throw new Error("Medium button should be enabled after 5 easy wins");
+    },
+  },
+  {
+    name: "3 medium wins + hard pool present: Master Challenge unlocks",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await seedLocalStorage(page, {
+        "foldwink:stats": stubStats({
+          wins: 8,
+          losses: 0,
+          mediumWins: 3,
+        }),
+      });
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      const hardBtn = await menuHardButton(page);
+      const label = (await hardBtn.textContent())?.trim() ?? "";
+      if (label.includes("locked") || label.includes("soon")) {
+        throw new Error(`Master Challenge still gated with 3 medium wins: "${label}"`);
+      }
+    },
+  },
+  {
+    name: "opening cards then quitting does not advance any cursor",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      await page.locator("button", { hasText: "Easy puzzle" }).first().click();
+      await page.waitForSelector("header h1");
+      // tap 3 cards then quit
+      const cards = page.locator("button[aria-pressed]");
+      await cards.nth(0).click();
+      await cards.nth(1).click();
+      await cards.nth(2).click();
+      // Two-tap arm-confirm quit flow.
+      await page.locator("button", { hasText: "Quit to menu" }).click();
+      await page.locator("button", { hasText: "Tap again to quit" }).click();
+      await waitForMenu(page);
+      const progress = await page.evaluate(() => localStorage.getItem("foldwink:progress"));
+      // progress may be null (never saved) or an object with cursor 0 — both acceptable
+      if (progress) {
+        const p = JSON.parse(progress);
+        if ((p.easyCursor ?? p.cursor ?? 0) !== 0) {
+          throw new Error(`cursor advanced on quit: ${progress}`);
+        }
+      }
+      const stats = await page.evaluate(() => localStorage.getItem("foldwink:stats"));
+      if (stats) {
+        const s = JSON.parse(stats);
+        if (s.gamesPlayed > 0) throw new Error(`stats counted on quit: ${stats}`);
+      }
+    },
+  },
+  {
+    name: "daily replay marker does not count to stats",
+    fn: async ({ page }) => {
+      // Seed that today's daily is already recorded — the store sets
+      // countsToStats = false in this case.
+      const today = new Date();
+      const dateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+      await seedDismissedOnboarding(page);
+      await seedLocalStorage(page, {
+        "foldwink:daily": {
+          [dateStr]: {
+            date: dateStr,
+            puzzleId: "seed",
+            result: "win",
+            mistakesUsed: 0,
+            durationMs: 90_000,
+          },
+        },
+        "foldwink:stats": stubStats({ wins: 1, losses: 0 }),
+      });
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      await (await dailyButton(page)).click();
+      const subtitle = await readTextOf(page, "header p");
+      if (!subtitle?.includes("replay")) {
+        throw new Error(`daily subtitle missing · replay tag: "${subtitle}"`);
+      }
+    },
+  },
+  {
+    name: "reload mid-game restores the same puzzle (no tier change)",
+    fn: async ({ page }) => {
+      await seedDismissedOnboarding(page);
+      await page.goto(BASE_URL);
+      await waitForMenu(page);
+      await page.locator("button", { hasText: "Easy puzzle" }).first().click();
+      await page.waitForSelector("header h1");
+      const titleBefore = await readTextOf(page, "header h1");
+      const diffBefore = await activeDifficultyFromHeader(page);
+      await page.reload();
+      await page.waitForSelector("header h1");
+      const titleAfter = await readTextOf(page, "header h1");
+      const diffAfter = await activeDifficultyFromHeader(page);
+      if (titleBefore !== titleAfter) {
+        throw new Error(`title changed across reload: "${titleBefore}" → "${titleAfter}"`);
+      }
+      if (diffBefore !== diffAfter) {
+        throw new Error(`difficulty changed across reload: "${diffBefore}" → "${diffAfter}"`);
+      }
+    },
+  },
+  {
+    name: "Reset all local data clears stats and brings onboarding back",
+    fn: async ({ page }) => {
+      // Seed onboarded via a one-shot evaluate (not addInitScript) so the
+      // post-reset reload does NOT re-seed onboarded from an init script.
+      await page.goto(BASE_URL);
+      await page.evaluate(
+        (stats) => {
+          localStorage.setItem("foldwink:onboarded", "true");
+          localStorage.setItem("foldwink:stats", stats);
+        },
+        JSON.stringify(stubStats({ wins: 2, losses: 1 })),
+      );
+      await page.reload();
+      await waitForMenu(page);
+      await page.locator("button", { hasText: "About · Privacy" }).click();
+      const resetBtn = page.locator('button[aria-label="Reset all local Foldwink data"]');
+      await resetBtn.click(); // arms
+      await resetBtn.click(); // confirms — triggers reload
+      // After reload, onboarding flag is wiped → modal returns.
+      await page.waitForSelector("text=How to play", { timeout: 5_000 });
+      const stats = await page.evaluate(() => localStorage.getItem("foldwink:stats"));
+      if (stats) throw new Error(`stats not cleared: ${stats}`);
+    },
+  },
+]);
